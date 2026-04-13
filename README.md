@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Higher Ed News
+
+An editorial-style [Next.js](https://nextjs.org) app starter for a higher education news product, built with the App Router and ready to deploy on [Vercel](https://vercel.com).
+
+## Stack
+
+- Next.js 16 App Router
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Vercel-ready deployment path
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The main entry points are:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/app/page.tsx` for the homepage
+- `src/app/layout.tsx` for global metadata and fonts
+- `src/app/globals.css` for the color system, typography, and motion
 
-## Learn More
+## Quality Checks
 
-To learn more about Next.js, take a look at the following resources:
+Run the standard checks before shipping:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run lint
+npm run build
+```
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest path is to import this repository into Vercel and deploy it directly. For a local-to-Vercel workflow, you can also use the Vercel CLI.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Create a Vercel project](https://vercel.com/new)
+- [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying)
+
+## Next Steps
+
+- Replace the placeholder editorial content with live stories or CMS-backed content.
+- Add search, filtering, or topic pages.
+- Connect scheduled ingestion, summaries, or newsroom workflows once the data model is defined.

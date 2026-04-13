@@ -1,26 +1,105 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f8fafc;
+  --foreground: #1a1b1f;
+  --surface: #f1f5f9;
+  --surface-strong: rgba(255, 255, 255, 0.94);
+  --border: #e2e8f0;
+  --muted: #475569;
+  --deep-teal: #10676f;
+  --mint: #1dcd98;
+  --cyan: #35a4b9;
+  --mist-blue: #b6d4e7;
+  --warm-sand: #e3a880;
+  --soft-coral: #db8577;
+  --card-shadow:
+    0 50px 14px 0 rgba(0, 0, 0, 0),
+    0 32px 13px 0 rgba(0, 0, 0, 0.01),
+    0 18px 11px 0 rgba(0, 0, 0, 0.04),
+    0 8px 8px 0 rgba(0, 0, 0, 0.06),
+    0 2px 4px 0 rgba(0, 0, 0, 0.07);
+  --card-radius: 20px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-deep-teal: var(--deep-teal);
+  --color-mint: var(--mint);
+  --color-cyan: var(--cyan);
+  --color-mist-blue: var(--mist-blue);
+  --color-warm-sand: var(--warm-sand);
+  --color-soft-coral: var(--soft-coral);
+  --font-sans: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "IBM Plex Mono Fallback", ui-monospace, monospace;
+  --font-serif: "Spectral", Georgia, serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top center, rgba(182, 212, 231, 0.35), transparent 28%),
+    radial-gradient(circle at 82% 10%, rgba(29, 205, 152, 0.12), transparent 18%),
+    linear-gradient(180deg, #fbfdff 0%, #f8fafc 56%, #eef4f8 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", "Inter Fallback", ui-sans-serif, system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(16, 103, 111, 0.16);
+}
+
+.dashboard-card {
+  background: var(--surface-strong);
+  border: 1px solid var(--border);
+  border-radius: var(--card-radius);
+  box-shadow: var(--card-shadow);
+}
+
+.dashboard-card-soft {
+  background: rgba(241, 245, 249, 0.78);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  border-radius: 16px;
+}
+
+.dashboard-kicker {
+  font-family: "IBM Plex Mono", "IBM Plex Mono Fallback", ui-monospace, monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.dashboard-section-title {
+  font-family: "Spectral", Georgia, serif;
+  font-size: clamp(1.65rem, 3vw, 2rem);
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: #334155;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
