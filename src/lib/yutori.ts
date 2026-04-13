@@ -1,5 +1,7 @@
 const SCOUT_ID = "40d662ee-5fe8-4b55-aeab-76cac0d5a654";
 const SCOUT_API_URL = `https://api.yutori.com/client/scouting/${SCOUT_ID}`;
+const PAGE_SIZE = 20;
+const MAX_CURSOR_PAGES = 50;
 
 export const SCOUT_SOURCE_URL = `https://scouts.yutori.com/inbox/${SCOUT_ID}`;
 
@@ -34,9 +36,25 @@ type ApiScout = {
   update_count?: number;
 };
 
-type ApiPayload = {
+type ApiCursorPayload = {
+  next_cursor?: string | null;
+  prev_cursor?: string | null;
+};
+
+type ApiUpdatesPayload = ApiCursorPayload & {
   scout: ApiScout;
   updates: ApiUpdate[];
+};
+
+type ApiNonUpdate = {
+  timestamp: number;
+  stats?: {
+    sec_saved?: number;
+  } | null;
+};
+
+type ApiNonUpdatesPayload = ApiCursorPayload & {
+  non_updates: ApiNonUpdate[];
 };
 
 export type ParsedInitiative = {
@@ -72,6 +90,8 @@ export type DashboardData = {
     createdAt: string;
     nextOutputTimestamp: string | null;
     updateCount: number;
+    runCount: number;
+    archiveEntryCount: number;
   };
   updates: ParsedUpdate[];
   totals: {
@@ -452,22 +472,130 @@ function toSourceCards(updates: ApiUpdate[]) {
   return Array.from(cards.values());
 }
 
-export async function getScoutDashboardData(): Promise<DashboardData> {
-  const response = await fetch(`${SCOUT_API_URL}/updates`, {
-    headers: {
-      Accept: "application/json",
-    },
-    next: {
-      revalidate: 86400,
-    },
+async function fetchScoutJson<T>(url: string): Promise<T> {
+  const response = await fetch(url, {
+    headers: { Accept: "application/json" },
+    next: { revalidate: 86400 },
   });
 
   if (!response.ok) {
     throw new Error(`Failed to fetch scout data: ${response.status}`);
   }
 
-  const payload = (await response.json()) as ApiPayload;
-  const updates = payload.updates.map(parseUpdate);
+  return (await response.json()) as T;
+}
+
+function countArchiveEntries(updates: ApiUpdate[], nonUpdates: ApiNonUpdate[]) {
+  const events = [
+    ...updates.map((update) => ({ type: "update" as const, timestamp: update.timestamp })),
+    ...nonUpdates.map((nonUpdate) => ({
+      type: "non_update" as const,
+      timestamp: nonUpdate.timestamp,
+    })),
+  ].sort((left, right) => right.timestamp - left.timestamp);
+
+  let archiveEntryCount = 0;
+  let previousType: "update" | "non_update" | null = null;
+
+  for (const event of events) {
+    if (event.type === "update" || previousType !== "non_update") {
+      archiveEntryCount += 1;
+    }
+
+    previousType = event.type;
+  }
+
+  return archiveEntryCount;
+}
+
+async function fetchAllUpdates(): Promise<{ scout: ApiScout; updates: ApiUpdate[] }> {
+  const allUpdates: ApiUpdate[] = [];
+  const seenUpdateIds = new Set<string>();
+  let scout: ApiScout | null = null;
+  let cursor: string | null = null;
+
+  for (let page = 0; page < MAX_CURSOR_PAGES; page++) {
+    const url = new URL(`${SCOUT_API_URL}/updates`);
+    url.searchParams.set("page_size", String(PAGE_SIZE));
+
+    if (cursor) {
+      url.searchParams.set("cursor", cursor);
+    }
+
+    const payload = await fetchScoutJson<ApiUpdatesPayload>(url.toString());
+
+    if (!scout) {
+      scout = payload.scout;
+    }
+
+    for (const update of payload.updates) {
+      if (seenUpdateIds.has(update.id)) {
+        continue;
+      }
+
+      seenUpdateIds.add(update.id);
+      allUpdates.push(update);
+    }
+
+    if (!payload.next_cursor || payload.updates.length === 0) {
+      break;
+    }
+
+    cursor = payload.next_cursor;
+  }
+
+  if (!scout) {
+    throw new Error("No scout data received from API");
+  }
+
+  return {
+    scout,
+    updates: allUpdates.sort((left, right) => right.timestamp - left.timestamp),
+  };
+}
+
+async function fetchAllNonUpdates(): Promise<ApiNonUpdate[]> {
+  const allNonUpdates: ApiNonUpdate[] = [];
+  const seenNonUpdateTimestamps = new Set<number>();
+  let cursor: string | null = null;
+
+  for (let page = 0; page < MAX_CURSOR_PAGES; page++) {
+    const url = new URL(`${SCOUT_API_URL}/non_updates`);
+    url.searchParams.set("page_size", String(PAGE_SIZE));
+
+    if (cursor) {
+      url.searchParams.set("cursor", cursor);
+    }
+
+    const payload = await fetchScoutJson<ApiNonUpdatesPayload>(url.toString());
+
+    for (const nonUpdate of payload.non_updates) {
+      if (seenNonUpdateTimestamps.has(nonUpdate.timestamp)) {
+        continue;
+      }
+
+      seenNonUpdateTimestamps.add(nonUpdate.timestamp);
+      allNonUpdates.push(nonUpdate);
+    }
+
+    if (!payload.next_cursor || payload.non_updates.length === 0) {
+      break;
+    }
+
+    cursor = payload.next_cursor;
+  }
+
+  return allNonUpdates.sort((left, right) => right.timestamp - left.timestamp);
+}
+
+export async function getScoutDashboardData(): Promise<DashboardData> {
+  const [{ scout: rawScout, updates: rawUpdates }, rawNonUpdates] = await Promise.all([
+    fetchAllUpdates(),
+    fetchAllNonUpdates(),
+  ]);
+  const updates = rawUpdates.map(parseUpdate);
+  const runCount = rawUpdates.length + rawNonUpdates.length;
+  const archiveEntryCount = countArchiveEntries(rawUpdates, rawNonUpdates);
   const uniqueInstitutions = new Set(
     updates.flatMap((update) =>
       update.initiatives.flatMap((initiative) => splitInstitutions(initiative.institution))
@@ -485,12 +613,14 @@ export async function getScoutDashboardData(): Promise<DashboardData> {
 
   return {
     scout: {
-      id: payload.scout.id,
-      title: payload.scout.display_name,
-      query: payload.scout.query,
-      createdAt: payload.scout.created_at,
-      nextOutputTimestamp: payload.scout.next_output_timestamp ?? null,
-      updateCount: payload.scout.update_count ?? updates.length,
+      id: rawScout.id,
+      title: rawScout.display_name,
+      query: rawScout.query,
+      createdAt: rawScout.created_at,
+      nextOutputTimestamp: rawScout.next_output_timestamp ?? null,
+      updateCount: Math.max(rawScout.update_count ?? 0, rawUpdates.length),
+      runCount,
+      archiveEntryCount,
     },
     updates,
     totals: {
@@ -516,6 +646,6 @@ export async function getScoutDashboardData(): Promise<DashboardData> {
         }).format(new Date(update.timestamp)),
         value: update.initiativeCount,
       })),
-    latestSources: toSourceCards(payload.updates).slice(0, 8),
+    latestSources: toSourceCards(rawUpdates).slice(0, 8),
   };
 }

@@ -213,6 +213,7 @@ export default async function Home() {
     latest.summary ||
     latest.whyItMatters ||
     "The most recent scout output is available for review.";
+  const noResultRunCount = Math.max(data.scout.runCount - data.scout.updateCount, 0);
 
   const metrics = [
     {
@@ -228,9 +229,11 @@ export default async function Home() {
       color: CHART_COLORS[1],
     },
     {
-      label: "Report runs",
-      value: formatNumber(data.scout.updateCount),
-      detail: "Daily scout outputs captured since the tracker went live.",
+      label: "Archive entries",
+      value: formatNumber(data.scout.archiveEntryCount),
+      detail: `${formatNumber(data.scout.updateCount)} published reports and ${formatNumber(
+        noResultRunCount
+      )} no-result runs collapse into the visible archive entries shown on Yutori.`,
       color: CHART_COLORS[2],
     },
     {
@@ -307,14 +310,16 @@ export default async function Home() {
       index: "06",
       title: "The tracker is operating on a daily rhythm",
       body: data.scout.nextOutputTimestamp
-        ? `The scout has generated ${formatNumber(
-            data.scout.updateCount
-          )} runs since ${formatDate(
+        ? `The public scout archive currently shows ${formatNumber(
+            data.scout.archiveEntryCount
+          )} entries across ${formatNumber(data.scout.runCount)} total runs since ${formatDate(
             data.scout.createdAt
           )} and is scheduled to refresh again on ${formatDate(data.scout.nextOutputTimestamp)}.`
-        : `The scout has generated ${formatNumber(
-            data.scout.updateCount
-          )} runs since ${formatDate(data.scout.createdAt)} and is currently refreshing on a daily cadence.`,
+        : `The public scout archive currently shows ${formatNumber(
+            data.scout.archiveEntryCount
+          )} entries across ${formatNumber(data.scout.runCount)} total runs since ${formatDate(
+            data.scout.createdAt
+          )} and is currently refreshing on a daily cadence.`,
     },
   ];
 
@@ -359,7 +364,7 @@ export default async function Home() {
               Open source scout
             </Link>
             <div className="rounded-[10px] border border-border bg-surface px-4 py-2 text-sm text-muted">
-              {formatNumber(data.scout.updateCount)} runs
+              {formatNumber(data.scout.archiveEntryCount)} archive entries
             </div>
           </div>
         </div>
