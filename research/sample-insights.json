@@ -1,0 +1,980 @@
+{
+  "_meta": {
+    "description": "Ground-truth sample insights extracted from 3 representative Yutori updates. Used as test fixtures for validating the LLM extraction agent and as reference examples in the agent prompt.",
+    "schemaVersion": "1.0.0",
+    "generatedAt": "2026-04-15",
+    "updateFormats": {
+      "update_0": "Structured em-dash format: <b>Institution \u2014 Title</b> (Category; Date): Description",
+      "update_1": "Narrative format: <b>Institution</b> description paragraph (no em-dash separator)",
+      "update_2": "Mixed format: category section headers + narrative bullets organized by domain"
+    }
+  },
+  "updateBundles": [
+    {
+      "_comment": "UPDATE 0: Structured em-dash format. 3 cleanly parsed initiatives.",
+      "updateId": "c7d7a088-740a-4bf5-9683-aab4dbf596d4",
+      "timestamp": 1776297604853,
+      "periodTitle": "Teaching-first rollouts and a new AI center",
+      "periodRange": "April 14-15, 2026",
+      "periodSummary": "Three initiatives this period -- one research center and two teaching-focused -- extend momentum toward practical classroom integration and research capacity at R1 institutions.",
+      "periodThemes": [
+        "Teaching and learning emphasis dominates (67% of initiatives)",
+        "Shift from ad-hoc course policies to structured institutional frameworks",
+        "Continued investment in dedicated AI computing research capacity"
+      ],
+      "trendSignals": [
+        "Enterprise LMS-embedded AI tools moving from pilot to institutional rollout",
+        "Provost-level AI teaching guidance replacing faculty-level improvisation"
+      ],
+      "tensionsObserved": [
+        "Institutional standardization vs. faculty autonomy in AI teaching approaches"
+      ],
+      "categoryBreakdown": {
+        "research_and_innovation": 1,
+        "enterprise_tools_and_infrastructure": 1,
+        "teaching_and_learning": 1
+      },
+      "regionBreakdown": {
+        "us_northeast": 2,
+        "us_southeast": 1
+      },
+      "institutionTypeBreakdown": {
+        "r1_research": 3
+      },
+      "technologyBreakdown": {
+        "general_ai": 1,
+        "generative_ai_multimodal": 1,
+        "large_language_models": 1
+      },
+      "policyVsPracticeRatio": {
+        "policy": 1,
+        "practice": 2,
+        "both": 0
+      },
+      "secondsSaved": 2041,
+      "citationCount": 0,
+      "extractedInitiativeCount": 3,
+      "extractionMethodBreakdown": {
+        "structured_bullet": 3
+      },
+      "insights": [
+        {
+          "id": "c7d7a088_0",
+          "updateId": "c7d7a088-740a-4bf5-9683-aab4dbf596d4",
+          "timestamp": 1776297604853,
+          "date": "2026-04-15",
+          "title": "Center for AI Computing Research (AICORE)",
+          "description": "UMass Lowell launched the Center for AI Computing Research (AICORE), focused on foundational models and deployment in defense, healthcare, and robotics.",
+          "significance": "Expands institutional AI research capacity at a UMass system school, adding another dedicated computing research center to the growing national inventory.",
+          "institutions": [
+            {
+              "name": "UMass Lowell",
+              "type": "r1_research",
+              "region": "us_northeast",
+              "location": "MA",
+              "system": "UMass"
+            }
+          ],
+          "primaryCategory": "research_and_innovation",
+          "secondaryCategories": [],
+          "subcategories": ["ai_research_center", "computing_infrastructure"],
+          "maturitySignal": "growing",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["large_language_models", "robotics_and_physical_ai"],
+          "stakeholderImpact": ["researchers", "administrators"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://www.uml.edu/myuml/Submissions/2026/2026-04-14-20-17-14-UMass-Lowell-Launches-Two-New-Resea.aspx"],
+          "imageUrl": "https://www.uml.edu/images/about-uc-opt_tcm18-191308.jpg?w=x",
+          "extraction": {
+            "method": "structured_bullet",
+            "confidence": 0.95,
+            "rawHtml": "<li><b>UMass Lowell \u2014 Center for AI Computing Research (AICORE)</b> (Research Center; Apr 15, 2026): Focus on foundational models and deployment in defense, healthcare, and robotics. Significance: expands institutional AI research capacity. <a href=\"https://www.uml.edu/myuml/Submissions/2026/2026-04-14-20-17-14-UMass-Lowell-Launches-Two-New-Resea.aspx\"></a></li>"
+          }
+        },
+        {
+          "id": "c7d7a088_1",
+          "updateId": "c7d7a088-740a-4bf5-9683-aab4dbf596d4",
+          "timestamp": 1776297604853,
+          "date": "2026-04-14",
+          "title": "D2L Lumi Pro rollout",
+          "description": "Vanderbilt University rolled out D2L Lumi Pro across its Brightspace LMS, providing faculty with Lumi Quiz for AI-generated assessments, Lumi Ideas for content ideation, and Lumi Insights for engagement analytics.",
+          "significance": "Institutional adoption of generative AI embedded directly in the LMS, streamlining teaching workflows and signaling the shift from standalone AI tools to integrated platform features.",
+          "institutions": [
+            {
+              "name": "Vanderbilt University",
+              "type": "r1_research",
+              "region": "us_southeast",
+              "location": "TN",
+              "system": null
+            }
+          ],
+          "primaryCategory": "enterprise_tools_and_infrastructure",
+          "secondaryCategories": ["teaching_and_learning"],
+          "subcategories": ["lms_embedded_ai", "ai_enhanced_pedagogy"],
+          "maturitySignal": "growing",
+          "adoptionStage": "operational",
+          "technologyFocus": ["generative_ai_multimodal", "nlp_for_assessment"],
+          "stakeholderImpact": ["faculty", "students"],
+          "investmentSignal": null,
+          "collaborations": [
+            {
+              "pattern": "industry_academic",
+              "partners": ["D2L"],
+              "description": "Enterprise LMS vendor partnership for AI-powered teaching tools"
+            }
+          ],
+          "toolsAndVendors": [
+            {
+              "name": "D2L Lumi Pro",
+              "vendor": "D2L",
+              "role": "AI-generated assessments, content ideation, and engagement analytics within Brightspace LMS"
+            },
+            {
+              "name": "Brightspace",
+              "vendor": "D2L",
+              "role": "Learning management system hosting the Lumi Pro tools"
+            }
+          ],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://www.vanderbilt.edu/brightspace/2026/04/14/announcing-d2l-lumi-pro-at-vanderbilt/"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "structured_bullet",
+            "confidence": 0.95,
+            "rawHtml": "<li><b>Vanderbilt University \u2014 D2L Lumi Pro rollout</b> (Enterprise tool; Apr 14, 2026): Lumi Quiz for AI-generated assessments, Lumi Ideas for content ideation, and Lumi Insights for engagement analytics; faculty-only via Brightspace. Significance: institutional adoption of generative AI to streamline teaching workflows. <a href=\"https://www.vanderbilt.edu/brightspace/2026/04/14/announcing-d2l-lumi-pro-at-vanderbilt/\"></a></li>"
+          }
+        },
+        {
+          "id": "c7d7a088_2",
+          "updateId": "c7d7a088-740a-4bf5-9683-aab4dbf596d4",
+          "timestamp": 1776297604853,
+          "date": "2026-04-14",
+          "title": "AI teaching and learning resources",
+          "description": "Yale University released comprehensive AI teaching and learning resources developed by the Office of the Provost (Poorvu Center), including guiding principles, AI-resilient assessment strategies, and student guidance adaptable across disciplines.",
+          "significance": "Represents the shift from ad-hoc course-level AI policies to structured, discipline-agnostic institutional frameworks at an elite R1.",
+          "institutions": [
+            {
+              "name": "Yale University",
+              "type": "r1_research",
+              "region": "us_northeast",
+              "location": "CT",
+              "system": null
+            }
+          ],
+          "primaryCategory": "teaching_and_learning",
+          "secondaryCategories": ["governance_and_policy"],
+          "subcategories": ["ai_enhanced_pedagogy", "ai_resilient_assessment", "syllabus_level_policy"],
+          "maturitySignal": "growing",
+          "adoptionStage": "operational",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["faculty", "students"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "comprehensive",
+          "policyImplications": "Establishes provost-level guidance that could become a model for peer institutions moving from ad-hoc to structured AI teaching frameworks.",
+          "isPolicyVsPractice": "policy",
+          "sourceUrls": ["https://provost.yale.edu/news/resources-teaching-and-learning-ai"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "structured_bullet",
+            "confidence": 0.95,
+            "rawHtml": "<li><b>Yale University \u2014 AI teaching and learning resources</b> (Teaching guidelines/resources; Apr 14, 2026): Guiding principles, AI-resilient assessment strategies, and student guidance; developed by the Office of the Provost (Poorvu Center); adaptable across disciplines. Significance: comprehensive institutional framework for classroom use. <a href=\"https://provost.yale.edu/news/resources-teaching-and-learning-ai\"></a></li>"
+          }
+        }
+      ]
+    },
+    {
+      "_comment": "UPDATE 1: Narrative format (no em-dashes). 9 initiatives in <b>Institution</b> description pattern. Tests LLM extraction from unstructured content.",
+      "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+      "timestamp": 1776211203510,
+      "periodTitle": "New university AI centers, policies, and partnerships",
+      "periodRange": "April 13-14, 2026",
+      "periodSummary": "Nine new initiatives span research centers, curriculum changes, classroom policy, enterprise tools, and multi-institution partnerships across R1s and state systems, with $24.6M in disclosed funding.",
+      "periodThemes": [
+        "Research center investment intensifying with major philanthropic gifts",
+        "Policy formalization advancing with classroom attribution requirements",
+        "Startup acceleration through university-tech partnerships",
+        "AI-native education platforms emerging for global access"
+      ],
+      "trendSignals": [
+        "Enterprise-scale AI education platforms moving from concept to launch (GGU Digital)",
+        "Multi-university regional consortia forming around innovation hubs",
+        "Classroom AI attribution policies propagating across institutions"
+      ],
+      "tensionsObserved": [
+        "Innovation speed vs. governance readiness at institutions rushing to adopt",
+        "Global access ambitions vs. infrastructure readiness in target markets"
+      ],
+      "categoryBreakdown": {
+        "research_and_innovation": 2,
+        "teaching_and_learning": 2,
+        "governance_and_policy": 1,
+        "institutional_transformation": 1,
+        "workforce_and_economic_development": 2,
+        "enterprise_tools_and_infrastructure": 1
+      },
+      "regionBreakdown": {
+        "us_west": 3,
+        "us_midwest": 2,
+        "us_southeast": 1,
+        "us_northeast": 1,
+        "us_national": 1,
+        "canada": 1
+      },
+      "institutionTypeBreakdown": {
+        "r1_research": 4,
+        "comprehensive_regional": 2,
+        "online_for_profit": 1,
+        "system_or_consortium": 1,
+        "professional_school": 1
+      },
+      "technologyBreakdown": {
+        "general_ai": 5,
+        "predictive_analytics_ml": 1,
+        "large_language_models": 2,
+        "generative_ai_multimodal": 1
+      },
+      "policyVsPracticeRatio": {
+        "policy": 1,
+        "practice": 7,
+        "both": 1
+      },
+      "secondsSaved": 3250,
+      "citationCount": 7,
+      "extractedInitiativeCount": 9,
+      "extractionMethodBreakdown": {
+        "narrative_paragraph": 9
+      },
+      "insights": [
+        {
+          "id": "54d5b83e_0",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "Cunningham Shoquist Center for Applied AI and Human Potential",
+          "description": "Santa Clara University established the Cunningham Shoquist Center for Applied AI and Human Potential with a $24.6M gift, focusing on responsible AI across research, education, and community engagement.",
+          "significance": "One of the largest disclosed philanthropic investments in a university AI center in 2026, signaling growing donor confidence in institutional AI research.",
+          "institutions": [
+            {
+              "name": "Santa Clara University",
+              "type": "comprehensive_regional",
+              "region": "us_west",
+              "location": "CA",
+              "system": null
+            }
+          ],
+          "primaryCategory": "research_and_innovation",
+          "secondaryCategories": ["equity_access_and_inclusion"],
+          "subcategories": ["ai_research_center"],
+          "maturitySignal": "growing",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["researchers", "students", "community"],
+          "investmentSignal": {
+            "scale": "major",
+            "amountUsd": 24600000,
+            "rawAmountText": "$24.6M",
+            "description": "Gift to establish the Cunningham Shoquist Center for Applied AI and Human Potential",
+            "fundingSource": "alumni gift (NVIDIA executive vice president Debora Shoquist '76)"
+          },
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://www.scu.edu/news-and-events/press-releases/2026/april/news/santa-clara-university-establishes-the-cunningham-shoquist-center-for-applied-ai-and-human-potential.html"],
+          "imageUrl": "https://polsky.uchicago.edu/wp-content/uploads/2021/11/uchicago-drone-shot-scaled-e1705944118795-1024x577.jpg",
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.85,
+            "rawHtml": "<li><b>Santa Clara University</b> established the Cunningham Shoquist Center for Applied AI and Human Potential with a $24.6M gift, focusing on responsible AI across research, education, and community engagement. <a href=\"https://www.scu.edu/news-and-events/press-releases/2026/april/news/santa-clara-university-establishes-the-cunningham-shoquist-center-for-applied-ai-and-human-potential.html\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_1",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "AI for Public Health Advancement Centre of Excellence",
+          "description": "York University launched the AI for Public Health Advancement Centre of Excellence, integrating epidemiological, clinical, environmental, and socioeconomic data into AI decision-support systems, supported by the Ontario Research Fund.",
+          "significance": "Demonstrates growing international investment in domain-specific AI research centers, with government funding backing applied public health AI.",
+          "institutions": [
+            {
+              "name": "York University",
+              "type": "comprehensive_regional",
+              "region": "canada",
+              "location": "CA-ON",
+              "system": null
+            }
+          ],
+          "primaryCategory": "research_and_innovation",
+          "secondaryCategories": [],
+          "subcategories": ["ai_research_center", "ai_for_scientific_discovery"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["predictive_analytics_ml"],
+          "stakeholderImpact": ["researchers", "community"],
+          "investmentSignal": {
+            "scale": "unknown",
+            "amountUsd": null,
+            "rawAmountText": null,
+            "description": "Ontario Research Fund support for AI public health centre",
+            "fundingSource": "Ontario Research Fund (provincial government)"
+          },
+          "collaborations": [
+            {
+              "pattern": "government_academic",
+              "partners": ["Ontario Research Fund"],
+              "description": "Provincial government funding for AI public health research"
+            }
+          ],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://educationnewscanada.com/article/education/level/university/1/1194358/artificial-intelligence-for-public-health-advancement-launches-at-york-university.html"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.85,
+            "rawHtml": "<li><b>York University</b> launched the AI for Public Health Advancement Centre of Excellence, integrating epidemiological, clinical, environmental, and socioeconomic data into AI decision-support systems, supported by the Ontario Research Fund. <a href=\"https://educationnewscanada.com/article/education/level/university/1/1194358/artificial-intelligence-for-public-health-advancement-launches-at-york-university.html\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_2",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-14",
+          "title": "Department of Technology, AI and Society",
+          "description": "SUNY Stony Brook introduced a new Department of Technology, AI and Society with SUNY system support, highlighted at the SUNY AI Symposium.",
+          "significance": "Creating a dedicated academic department (not just a center or initiative) signals deep institutional commitment to AI as a permanent academic discipline.",
+          "institutions": [
+            {
+              "name": "Stony Brook University",
+              "type": "r1_research",
+              "region": "us_northeast",
+              "location": "NY",
+              "system": "SUNY"
+            }
+          ],
+          "primaryCategory": "teaching_and_learning",
+          "secondaryCategories": ["research_and_innovation"],
+          "subcategories": ["ai_degree_program"],
+          "maturitySignal": "growing",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["faculty", "students", "administrators"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://www.suny.edu/suny-news/press-releases/4-26/4-14-26/ai.html"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.80,
+            "rawHtml": "<li><b>SUNY (Stony Brook)</b> introduced a Department of Technology, AI and Society with SUNY support, highlighted at the SUNY AI Symposium. <a href=\"https://www.suny.edu/suny-news/press-releases/4-26/4-14-26/ai.html\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_3",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "Cross-disciplinary AI curriculum integration",
+          "description": "University of Dayton is developing cross-disciplinary AI curriculum integration and embedding AI literacy into academic programs.",
+          "significance": "Liberal arts institution embedding AI across disciplines rather than siloing it in CS/engineering, reflecting the AI literacy mainstreaming trend.",
+          "institutions": [
+            {
+              "name": "University of Dayton",
+              "type": "comprehensive_regional",
+              "region": "us_midwest",
+              "location": "OH",
+              "system": null
+            }
+          ],
+          "primaryCategory": "teaching_and_learning",
+          "secondaryCategories": [],
+          "subcategories": ["ai_literacy_requirement", "ai_in_specific_disciplines"],
+          "maturitySignal": "growing",
+          "adoptionStage": "scaling",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["faculty", "students"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://udayton.edu/news/articles/2026/04/ai.php"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.75,
+            "rawHtml": "<li><b>University of Dayton</b> is developing cross-disciplinary AI curriculum integration and embedding AI literacy into academic programs. <a href=\"https://udayton.edu/news/articles/2026/04/ai.php\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_4",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-14",
+          "title": "AI Research Commons and Microsoft startup accelerator partnership",
+          "description": "University of Chicago announced a partnership with AI Research Commons and Microsoft to accelerate Midwest AI startups, offering Microsoft for Startups support and up to $350K in credits for inception-stage companies.",
+          "significance": "Combines university research commercialization with Big Tech resources, creating a regional AI startup pipeline that connects academia to venture capital.",
+          "institutions": [
+            {
+              "name": "University of Chicago",
+              "type": "r1_research",
+              "region": "us_midwest",
+              "location": "IL",
+              "system": null
+            }
+          ],
+          "primaryCategory": "workforce_and_economic_development",
+          "secondaryCategories": ["research_and_innovation"],
+          "subcategories": ["ai_incubator_or_startup_support", "regional_economic_impact"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["researchers", "students", "employers"],
+          "investmentSignal": {
+            "scale": "moderate",
+            "amountUsd": 350000,
+            "rawAmountText": "up to $350K in credits",
+            "description": "Microsoft for Startups credits for AI startups in the accelerator",
+            "fundingSource": "Microsoft for Startups program"
+          },
+          "collaborations": [
+            {
+              "pattern": "industry_academic",
+              "partners": ["Microsoft", "AI Research Commons"],
+              "description": "Partnership to accelerate Midwest AI startups with credits, mentoring, and investor connections"
+            }
+          ],
+          "toolsAndVendors": [
+            {
+              "name": "Microsoft for Startups",
+              "vendor": "Microsoft",
+              "role": "Technical and go-to-market support with cloud credits for AI startups"
+            }
+          ],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://polsky.uchicago.edu/2026/04/14/university-of-chicago-announces-partnership-with-ai-research-commons-and-microsoft-to-accelerate-midwest-ai-startups/"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.85,
+            "rawHtml": "<li><b>University of Chicago</b> announced a partnership with AI Research Commons and Microsoft to accelerate Midwest AI startups, offering Microsoft for Startups support and up to $350K in credits for inception-stage companies. <a href=\"https://polsky.uchicago.edu/2026/04/14/university-of-chicago-announces-partnership-with-ai-research-commons-and-microsoft-to-accelerate-midwest-ai-startups/\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_5",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "Responsible use of AI classroom policy",
+          "description": "University of Florida set a responsible use of AI classroom policy requiring student reporting and attribution of AI-generated work, with instructor-level course guidelines permitted.",
+          "significance": "Formalizes AI attribution requirements at the institutional level, advancing the trend from optional faculty guidance to mandatory compliance.",
+          "institutions": [
+            {
+              "name": "University of Florida",
+              "type": "r1_research",
+              "region": "us_southeast",
+              "location": "FL",
+              "system": null
+            }
+          ],
+          "primaryCategory": "governance_and_policy",
+          "secondaryCategories": ["teaching_and_learning"],
+          "subcategories": ["acceptable_use_policy", "syllabus_level_policy"],
+          "maturitySignal": "growing",
+          "adoptionStage": "operational",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["students", "faculty"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "permissive",
+          "policyImplications": "Establishes institution-wide attribution rules that balance allowing AI use with academic integrity requirements. Could propagate to peer R1 institutions.",
+          "isPolicyVsPractice": "policy",
+          "sourceUrls": ["https://www.alligator.org/article/2026/04/ai-in-classrooms"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.85,
+            "rawHtml": "<li><b>University of Florida</b> set a responsible use of AI classroom policy requiring student reporting and attribution of AI-generated work, with instructor-level course guidelines permitted. <a href=\"https://www.alligator.org/article/2026/04/ai-in-classrooms\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_6",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "GGU Digital AI-powered global education platform",
+          "description": "Golden Gate University unveiled GGU Digital, an AI-powered global education platform launching August 2026 to deliver affordable, accredited, multilingual degrees with AI-enabled instruction.",
+          "significance": "One of the first fully AI-native degree platforms from an accredited institution, directly targeting global access and affordability gaps in higher education.",
+          "institutions": [
+            {
+              "name": "Golden Gate University",
+              "type": "online_for_profit",
+              "region": "us_west",
+              "location": "CA",
+              "system": null
+            }
+          ],
+          "primaryCategory": "institutional_transformation",
+          "secondaryCategories": ["equity_access_and_inclusion", "enterprise_tools_and_infrastructure"],
+          "subcategories": ["ai_native_institution", "multilingual_and_culturally_responsive_ai"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["large_language_models", "generative_ai_multimodal"],
+          "stakeholderImpact": ["students", "faculty", "administrators"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": "Raises accreditation and quality assurance questions for AI-native degree delivery models.",
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://ggu.edu/2026/04/13/announcing-ggu-digital-an-ai-global-education-platform/"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.80,
+            "rawHtml": "<li><b>Golden Gate University</b> unveiled GGU Digital, an AI-powered global education platform launching August 2026 to deliver affordable, accredited, multilingual degrees with AI-enabled instruction. <a href=\"https://ggu.edu/2026/04/13/announcing-ggu-digital-an-ai-global-education-platform/\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_7",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "Third Coast Foundry innovation hub",
+          "description": "University of Illinois and seven Midwestern universities formed Third Coast Foundry, a two-year feasibility study for a San Francisco Bay Area innovation hub connecting student entrepreneurs and deep tech startups with venture capital.",
+          "significance": "Multi-university consortium building a bridge between Midwest research institutions and West Coast venture capital, addressing the geographic concentration of AI commercialization.",
+          "institutions": [
+            {
+              "name": "University of Illinois",
+              "type": "r1_research",
+              "region": "us_midwest",
+              "location": "IL",
+              "system": null
+            }
+          ],
+          "primaryCategory": "workforce_and_economic_development",
+          "secondaryCategories": ["research_and_innovation"],
+          "subcategories": ["ai_incubator_or_startup_support", "regional_economic_impact"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["students", "researchers", "employers"],
+          "investmentSignal": null,
+          "collaborations": [
+            {
+              "pattern": "cross_institution",
+              "partners": ["University of Illinois", "seven Midwestern universities"],
+              "description": "Multi-university consortium for SF Bay Area innovation hub feasibility study"
+            }
+          ],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://dailyillini.com/news-stories/university-news/2026/04/13/ui-midwestern-universities-announce-future-san-francisco-innovation-hub/"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.80,
+            "rawHtml": "<li><b>University of Illinois + seven Midwestern universities</b> formed Third Coast Foundry, a two-year feasibility study for a San Francisco Bay Area innovation hub connecting student entrepreneurs and deep tech startups with venture capital. <a href=\"https://dailyillini.com/news-stories/university-news/2026/04/13/ui-midwestern-universities-announce-future-san-francisco-innovation-hub/\"></a></li>"
+          }
+        },
+        {
+          "id": "54d5b83e_8",
+          "updateId": "54d5b83e-2327-43a5-bb18-6de5cddfb2e9",
+          "timestamp": 1776211203510,
+          "date": "2026-04-13",
+          "title": "Legal AI training partnership for U.S. law schools",
+          "description": "Relativity and Wickard.ai partnered to bring hands-on legal AI training and curriculum to U.S. law schools, preparing future legal professionals for AI-augmented practice.",
+          "significance": "Industry-led AI training entering professional school curricula, extending the AI-in-specific-disciplines trend into legal education at national scale.",
+          "institutions": [
+            {
+              "name": "U.S. law schools",
+              "type": "professional_school",
+              "region": "us_national",
+              "location": null,
+              "system": null
+            }
+          ],
+          "primaryCategory": "teaching_and_learning",
+          "secondaryCategories": ["workforce_and_economic_development"],
+          "subcategories": ["ai_in_specific_disciplines", "industry_certification_pathway"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["large_language_models"],
+          "stakeholderImpact": ["students", "faculty", "employers"],
+          "investmentSignal": null,
+          "collaborations": [
+            {
+              "pattern": "industry_academic",
+              "partners": ["Relativity", "Wickard.ai"],
+              "description": "Legal tech companies providing AI training curriculum to law schools"
+            }
+          ],
+          "toolsAndVendors": [
+            {
+              "name": "Relativity",
+              "vendor": "Relativity",
+              "role": "Legal data intelligence platform for hands-on AI training"
+            },
+            {
+              "name": "Wickard.ai",
+              "vendor": "Wickard.ai",
+              "role": "Legal AI education and training platform"
+            }
+          ],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "both",
+          "sourceUrls": ["https://www.prnewswire.co.uk/news-releases/relativity-and-wickardai-partner-to-bring-hands-on-legal-ai-training-to-us-law-schools-302740807.html"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "narrative_paragraph",
+            "confidence": 0.75,
+            "rawHtml": "<li><b>U.S. law schools</b> will receive hands-on legal AI training and curriculum via a partnership with Relativity and Wickard.ai to prepare future legal professionals. <a href=\"https://www.prnewswire.co.uk/news-releases/relativity-and-wickardai-partner-to-bring-hands-on-legal-ai-training-to-us-law-schools-302740807.html\"></a></li>"
+          }
+        }
+      ]
+    },
+    {
+      "_comment": "UPDATE 2: Mixed format with category section headers + narrative bullets. 17 initiatives organized under 3 domain headers. Selecting 5 representative initiatives (covering each domain section plus the most analytically interesting cases).",
+      "updateId": "5f080f4f-7cf1-46af-a51f-6c46c6f74cce",
+      "timestamp": 1776124802920,
+      "periodTitle": "New University AI Moves: Apr 12-14",
+      "periodRange": "April 12-14, 2026",
+      "periodSummary": "Seventeen initiatives across research partnerships, curriculum changes, governance moves, and enterprise tool rollouts, with a notable tilt toward classroom adoption and campus-wide tool deployments. Google-aligned deployments are prominent.",
+      "periodThemes": [
+        "Google ecosystem deployments becoming dominant in campus-wide AI rollouts",
+        "AI literacy mandates expanding from optional to required for undergraduates",
+        "Cross-border research partnerships accelerating (sovereign AI, India collaboration)",
+        "Governance maturing through AI councils and published institutional guidelines"
+      ],
+      "trendSignals": [
+        "Transition from experimentation to institution-wide adoption accelerating",
+        "Sovereign AI research partnerships emerging as geopolitical dimension",
+        "Agentic AI entering executive education curriculum"
+      ],
+      "tensionsObserved": [
+        "Open/multi-vendor vs. single-ecosystem lock-in (Google dominance)",
+        "National security AI partnerships vs. academic openness norms"
+      ],
+      "categoryBreakdown": {
+        "research_and_innovation": 3,
+        "teaching_and_learning": 5,
+        "enterprise_tools_and_infrastructure": 4,
+        "governance_and_policy": 2,
+        "workforce_and_economic_development": 1
+      },
+      "regionBreakdown": {
+        "us_southeast": 2,
+        "us_midwest": 3,
+        "us_northeast": 3,
+        "us_west": 3,
+        "southeast_asia": 1,
+        "south_korea": 1,
+        "multi_region": 1,
+        "india": 1
+      },
+      "institutionTypeBreakdown": {
+        "r1_research": 8,
+        "comprehensive_regional": 4,
+        "liberal_arts": 1,
+        "international": 2
+      },
+      "technologyBreakdown": {
+        "large_language_models": 4,
+        "general_ai": 6,
+        "generative_ai_multimodal": 2,
+        "agentic_ai": 1,
+        "robotics_and_physical_ai": 1
+      },
+      "policyVsPracticeRatio": {
+        "policy": 2,
+        "practice": 11,
+        "both": 2
+      },
+      "secondsSaved": 5119,
+      "citationCount": 8,
+      "extractedInitiativeCount": 17,
+      "extractionMethodBreakdown": {
+        "section_header": 17
+      },
+      "insights": [
+        {
+          "id": "5f080f4f_0",
+          "updateId": "5f080f4f-7cf1-46af-a51f-6c46c6f74cce",
+          "timestamp": 1776124802920,
+          "date": "2026-04-13",
+          "title": "Sovereign AI partnership with Megadata Korea",
+          "description": "Seoul National University AI Research Institute partnered with Megadata Korea on sovereign AI, covering LLMs, NPUs, and physical AI, leveraging the Wonju Mega Cluster AI Data Center.",
+          "significance": "Represents the growing sovereign AI movement where national universities partner with domestic companies to build AI infrastructure independent of US tech giants.",
+          "institutions": [
+            {
+              "name": "Seoul National University",
+              "type": "international",
+              "region": "south_korea",
+              "location": "KR",
+              "system": null
+            }
+          ],
+          "primaryCategory": "research_and_innovation",
+          "secondaryCategories": ["enterprise_tools_and_infrastructure"],
+          "subcategories": ["industry_academic_partnership", "computing_infrastructure"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["large_language_models", "robotics_and_physical_ai"],
+          "stakeholderImpact": ["researchers", "government_and_regulators"],
+          "investmentSignal": null,
+          "collaborations": [
+            {
+              "pattern": "industry_academic",
+              "partners": ["Megadata Korea"],
+              "description": "Partnership on sovereign AI development including LLMs, NPUs, and physical AI using domestic data center infrastructure"
+            }
+          ],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": "Part of broader South Korean sovereign AI strategy to reduce dependence on foreign AI infrastructure.",
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://en.sedaily.com/society/2026/04/13/seoul-national-university-ai-institute-partners-with"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "section_header",
+            "confidence": 0.80,
+            "rawHtml": "<li>Seoul National University AI Research Institute partnered with Megadata Korea on sovereign AI \u2014 LLMs, NPUs, and physical AI \u2014 leveraging the Wonju Mega Cluster AI Data Center. <a href=\"https://en.sedaily.com/society/2026/04/13/seoul-national-university-ai-institute-partners-with\"></a></li>"
+          }
+        },
+        {
+          "id": "5f080f4f_3",
+          "updateId": "5f080f4f-7cf1-46af-a51f-6c46c6f74cce",
+          "timestamp": 1776124802920,
+          "date": "2026-04-13",
+          "title": "Penn State MOU with Indian AI Research Organization",
+          "description": "Penn State signed an MOU with the Indian AI Research Organization for joint research, faculty and student exchanges, and co-developed educational initiatives.",
+          "significance": "Reinforces the growing US-India AI research corridor, with land-grant universities leading cross-border collaboration to train early-career scientists.",
+          "institutions": [
+            {
+              "name": "Penn State",
+              "type": "r1_research",
+              "region": "us_northeast",
+              "location": "PA",
+              "system": null
+            }
+          ],
+          "primaryCategory": "research_and_innovation",
+          "secondaryCategories": ["teaching_and_learning"],
+          "subcategories": ["cross_border_research_alliance"],
+          "maturitySignal": "emerging",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["researchers", "students", "faculty"],
+          "investmentSignal": null,
+          "collaborations": [
+            {
+              "pattern": "international",
+              "partners": ["Indian AI Research Organization"],
+              "description": "MOU for joint AI research, exchanges, and co-developed educational initiatives"
+            }
+          ],
+          "toolsAndVendors": [],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://www.psu.edu/news/information-sciences-and-technology/story/penn-state-signs-mou-indian-ai-research-organization"],
+          "imageUrl": "https://psu-gatsby-files-prod.s3.amazonaws.com/s3fs-public/styles/16_9_1000w/public/2026/04/vasant-honavar_ai-impact-summit_india_2026_ist.jpg?h=19ad3fdd&itok=z2qmgSPL",
+          "extraction": {
+            "method": "section_header",
+            "confidence": 0.80,
+            "rawHtml": "<li>Penn State signed an MOU with the Indian AI Research Organization for joint research, exchanges, and co-developed educational initiatives. <a href=\"https://www.psu.edu/news/information-sciences-and-technology/story/penn-state-signs-mou-indian-ai-research-organization\"></a></li>"
+          }
+        },
+        {
+          "id": "5f080f4f_9",
+          "updateId": "5f080f4f-7cf1-46af-a51f-6c46c6f74cce",
+          "timestamp": 1776124802920,
+          "date": "2026-04-13",
+          "title": "Campus-wide Google Gemini rollout",
+          "description": "University of Houston announced a campus-wide rollout of Google Gemini for Education and NotebookLM with private infrastructure for research data security.",
+          "significance": "Flagship campus-wide GenAI deployment with private infrastructure, setting a model for how large public universities can provide secure institutional LLM access.",
+          "institutions": [
+            {
+              "name": "University of Houston",
+              "type": "r1_research",
+              "region": "us_southeast",
+              "location": "TX",
+              "system": null
+            }
+          ],
+          "primaryCategory": "enterprise_tools_and_infrastructure",
+          "secondaryCategories": ["teaching_and_learning"],
+          "subcategories": ["campus_wide_platform_rollout", "ai_vendor_partnership"],
+          "maturitySignal": "growing",
+          "adoptionStage": "operational",
+          "technologyFocus": ["large_language_models", "generative_ai_multimodal"],
+          "stakeholderImpact": ["students", "faculty", "researchers"],
+          "investmentSignal": {
+            "scale": "significant",
+            "amountUsd": null,
+            "rawAmountText": null,
+            "description": "Campus-wide Google Gemini enterprise license with private infrastructure",
+            "fundingSource": null
+          },
+          "collaborations": [
+            {
+              "pattern": "industry_academic",
+              "partners": ["Google"],
+              "description": "Enterprise deployment of Google Gemini for Education with private infrastructure"
+            }
+          ],
+          "toolsAndVendors": [
+            {
+              "name": "Google Gemini for Education",
+              "vendor": "Google",
+              "role": "Campus-wide generative AI platform for students, faculty, and staff"
+            },
+            {
+              "name": "NotebookLM",
+              "vendor": "Google",
+              "role": "AI-powered research and note-taking tool"
+            }
+          ],
+          "policyStance": "not_applicable",
+          "policyImplications": null,
+          "isPolicyVsPractice": "practice",
+          "sourceUrls": ["https://www.edtechinnovationhub.com/news/university-of-houston-rolls-out-google-gemini-across-campus-to-build-ai-ready-graduatesbnvcg"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "section_header",
+            "confidence": 0.80,
+            "rawHtml": "<li>University of Houston announced a campus-wide rollout of Google Gemini for Education and NotebookLM with private infrastructure for research data security. <a href=\"https://www.edtechinnovationhub.com/news/university-of-houston-rolls-out-google-gemini-across-campus-to-build-ai-ready-graduatesbnvcg\"></a></li>"
+          }
+        },
+        {
+          "id": "5f080f4f_10",
+          "updateId": "5f080f4f-7cf1-46af-a51f-6c46c6f74cce",
+          "timestamp": 1776124802920,
+          "date": "2026-04-13",
+          "title": "Mandatory AI literacy and Google tools integration",
+          "description": "Nanyang Technological University will require AI literacy training for all undergraduates and integrate Google tools including Gemini Enterprise, AI Studio, and Vertex AI, targeting 40% course integration by 2030.",
+          "significance": "First major international university to mandate AI literacy for all undergraduates while simultaneously deploying a comprehensive Google AI stack, setting a benchmark for Southeast Asian higher education.",
+          "institutions": [
+            {
+              "name": "Nanyang Technological University",
+              "type": "international",
+              "region": "southeast_asia",
+              "location": "SG",
+              "system": null
+            }
+          ],
+          "primaryCategory": "teaching_and_learning",
+          "secondaryCategories": ["enterprise_tools_and_infrastructure"],
+          "subcategories": ["ai_literacy_requirement", "campus_wide_platform_rollout", "ai_vendor_partnership"],
+          "maturitySignal": "growing",
+          "adoptionStage": "scaling",
+          "technologyFocus": ["large_language_models", "generative_ai_multimodal"],
+          "stakeholderImpact": ["students", "faculty", "administrators"],
+          "investmentSignal": {
+            "scale": "significant",
+            "amountUsd": null,
+            "rawAmountText": null,
+            "description": "Enterprise Google AI tool suite deployment with mandatory literacy training",
+            "fundingSource": null
+          },
+          "collaborations": [
+            {
+              "pattern": "industry_academic",
+              "partners": ["Google"],
+              "description": "Comprehensive Google AI tools integration (Gemini Enterprise, AI Studio, Vertex AI) with mandatory student literacy training"
+            }
+          ],
+          "toolsAndVendors": [
+            {
+              "name": "Gemini Enterprise",
+              "vendor": "Google",
+              "role": "Enterprise LLM access for students and faculty"
+            },
+            {
+              "name": "AI Studio",
+              "vendor": "Google",
+              "role": "AI development and experimentation platform"
+            },
+            {
+              "name": "Vertex AI",
+              "vendor": "Google",
+              "role": "ML platform for research and course integration"
+            }
+          ],
+          "policyStance": "comprehensive",
+          "policyImplications": "Mandatory AI literacy requirement could become a model for other Singapore and ASEAN universities, potentially influencing national education policy.",
+          "isPolicyVsPractice": "both",
+          "sourceUrls": ["https://batamnewsasia.com/2026/04/13/ntu-ai-education-push-all-students-to-learn-ai-tools-from-august/"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "section_header",
+            "confidence": 0.85,
+            "rawHtml": "<li>Nanyang Technological University will require AI literacy training for all undergraduates and integrate Google tools \u2014 Gemini Enterprise, AI Studio, Vertex AI \u2014 targeting 40% course integration by 2030. <a href=\"https://batamnewsasia.com/2026/04/13/ntu-ai-education-push-all-students-to-learn-ai-tools-from-august/\"></a></li>"
+          }
+        },
+        {
+          "id": "5f080f4f_12",
+          "updateId": "5f080f4f-7cf1-46af-a51f-6c46c6f74cce",
+          "timestamp": 1776124802920,
+          "date": "2026-04-13",
+          "title": "AI Council for university-wide governance",
+          "description": "Neumann University established an internal AI Council to craft university-wide policies, curate use cases, and deliver a campus-wide AI project by December 2026.",
+          "significance": "Small liberal arts university creating formal AI governance, demonstrating that maturity model progression is not limited to large R1 institutions.",
+          "institutions": [
+            {
+              "name": "Neumann University",
+              "type": "liberal_arts",
+              "region": "us_northeast",
+              "location": "PA",
+              "system": null
+            }
+          ],
+          "primaryCategory": "governance_and_policy",
+          "secondaryCategories": ["enterprise_tools_and_infrastructure"],
+          "subcategories": ["institutional_ai_strategy"],
+          "maturitySignal": "growing",
+          "adoptionStage": "announcement",
+          "technologyFocus": ["general_ai"],
+          "stakeholderImpact": ["administrators", "faculty", "students"],
+          "investmentSignal": null,
+          "collaborations": [],
+          "toolsAndVendors": [],
+          "policyStance": "comprehensive",
+          "policyImplications": "Establishment of formal governance body signals transition from reactive to strategic AI adoption at a small institution.",
+          "isPolicyVsPractice": "both",
+          "sourceUrls": ["https://learn.neumann.edu/news/ai-council-is-coming-soon"],
+          "imageUrl": null,
+          "extraction": {
+            "method": "section_header",
+            "confidence": 0.80,
+            "rawHtml": "<li>Neumann University established an internal AI Council to craft university-wide policies, curate use cases, and deliver a campus-wide AI project by December 2026. <a href=\"https://learn.neumann.edu/news/ai-council-is-coming-soon\"></a></li>"
+          }
+        }
+      ]
+    }
+  ]
+}

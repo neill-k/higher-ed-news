@@ -5,7 +5,7 @@ const MAX_CURSOR_PAGES = 50;
 
 export const SCOUT_SOURCE_URL = `https://scouts.yutori.com/inbox/${SCOUT_ID}`;
 
-type ApiCitation = {
+export type ApiCitation = {
   id: string;
   url: string;
   preview_data?: {
@@ -16,7 +16,7 @@ type ApiCitation = {
   };
 };
 
-type ApiUpdate = {
+export type ApiUpdate = {
   id: string;
   timestamp: number;
   content: string;
@@ -46,7 +46,7 @@ type ApiUpdatesPayload = ApiCursorPayload & {
   updates: ApiUpdate[];
 };
 
-type ApiNonUpdate = {
+export type ApiNonUpdate = {
   timestamp: number;
   stats?: {
     sec_saved?: number;
@@ -390,7 +390,7 @@ function extractWhyItMatters(content: string) {
   return "";
 }
 
-function parseUpdate(update: ApiUpdate): ParsedUpdate {
+export function parseUpdate(update: ApiUpdate): ParsedUpdate {
   const title = stripHtml(extractTagContents(update.content, "h3")[0] ?? "Daily scout update");
   const listItems = extractTagContents(update.content, "li").map((item) => stripHtml(item));
   const narrativeParagraphs = extractNarrativeParagraphs(update.content);

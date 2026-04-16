@@ -1,26 +1,66 @@
 @import "tailwindcss";
 
 :root {
+  /* Pencil design tokens */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #2a2933;
+  --card: #ffffff;
+  --card-foreground: #2a2933;
+  --muted: #f5f5f5;
+  --muted-foreground: #616167;
+  --border: #c5c5cb;
+  --border-light: #e5e5ea;
+  --primary: #5749f4;
+  --primary-foreground: #ffffff;
+  --secondary: #d9d9db;
+  --secondary-foreground: #2a2933;
+  --accent: #f5f5f5;
+  --accent-foreground: #2a2933;
+  --destructive: #cc3314;
+  --sidebar-bg: #ffffff;
+  --sidebar-foreground: #939399;
+  --sidebar-active: #2a2933;
+  --sidebar-border: #d9d9db;
+  --tile: #f5f5f5;
+
+  /* Chart palette — warm gold tones from the Pencil design */
+  --chart-1: #c9a84c;
+  --chart-2: #b89539;
+  --chart-3: #a6832e;
+  --chart-4: #d4b565;
+  --chart-5: #8b6e24;
+
+  /* Status colors */
+  --success: #a1e5a1;
+  --success-fg: #003300;
+  --warning: #ffd9b2;
+  --warning-fg: #4d2700;
+  --error: #ffbfb2;
+  --error-fg: #590f00;
+
+  /* Radii */
+  --radius-xs: 6px;
+  --radius-m: 24px;
+  --radius-l: 40px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter), "Inter", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html, body {
+    height: 100%;
+  }
+
+  .font-primary {
+    font-family: var(--font-inter), "Inter", sans-serif;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
