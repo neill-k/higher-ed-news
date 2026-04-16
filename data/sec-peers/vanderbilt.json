@@ -1,0 +1,268 @@
+{
+  "institution": "Vanderbilt University",
+  "slug": "vanderbilt",
+  "city_state": "Nashville, TN",
+  "carnegie": "R1",
+  "aau_member": true,
+  "enrollment": 13575,
+  "lsu_peer_tiers": {
+    "sec": true,
+    "sreb_4yr_1": false,
+    "carnegie_land_grant": false,
+    "aau_aspirational": true
+  },
+  "system_leadership": {
+    "president_name": "Daniel Diermeier (Chancellor)",
+    "cio_name": "Shane Callahan",
+    "chief_ai_officer": "Allen Karns (Chief AI and Technology Officer, Amplify GenAI Innovation Center)",
+    "has_dedicated_ai_role": true
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://www.vanderbilt.edu/generative-ai/",
+      "https://www.vanderbilt.edu/generative-ai/academic-integrity/",
+      "https://www.vanderbilt.edu/generative-ai/tools/"
+    ],
+    "adopted_date": "2024-11",
+    "scope": ["faculty", "students", "staff", "research", "admin"],
+    "key_provisions": [
+      "Role-specific guidance for faculty, staff, and students rather than a single prohibitive policy",
+      "Private/sensitive data must be used only within Amplify's secure sandbox",
+      "Vendor-independent, multi-tool approach (Amplify, ChatGPT Edu, Microsoft Copilot, Google)",
+      "Institution disabled Turnitin AI detection due to false-positive concerns",
+      "Academic integrity guidance frames AI use via course-level instructor discretion"
+    ],
+    "summary": "Vanderbilt publishes centralized generative AI guidance at vanderbilt.edu/generative-ai with role-specific policies for faculty, staff, and students and a formal academic integrity framework. Rather than restrictive prohibitions, the university emphasizes enabling responsible, secure use via its own Amplify sandbox plus sanctioned vendor tools. Vanderbilt also publicly disabled Turnitin's AI detector over reliability concerns, signaling a principled, pro-use stance."
+  },
+  "governance_structure": {
+    "committee_name": "Amplify Generative AI Innovation Center (within the College of Connected Computing)",
+    "committee_url": "https://www.vanderbilt.edu/agi/",
+    "committee_members_public": true,
+    "notes": "Vanderbilt's AI governance runs through the Office of the Provost (C. Cybele Raver), the Office of the Chancellor's senior advisor Jules White, the Office of Learning Innovation (Mallika Vinekar), VUIT (CIO Shane Callahan), and the newly launched Amplify GenAI Innovation Center (Feb 2026) co-led by Jules White and Chief AI and Technology Officer Allen Karns. Related initiatives include VALIANT (Vanderbilt Lab for Immersive AI Translation), the Future of Learning and Generative AI Initiative, the Peabody Hub for Mindful AI Innovation, and the Vanderbilt AI Law Lab."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Vanderbilt / Amazon Web Services",
+      "product": "Amplify (open-source custom GenAI platform; Amplify 2.0)",
+      "scope": "campus-wide",
+      "user_count": 10000,
+      "announced_date": "2024-11",
+      "evidence_urls": [
+        "https://news.vanderbilt.edu/2024/11/14/amplify-vanderbilts-new-custom-generative-ai-software-is-now-open-to-all-faculty-staff-and-students/",
+        "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/",
+        "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/"
+      ],
+      "notes": "Vanderbilt-built secure, vendor-independent GenAI sandbox supporting OpenAI, Anthropic, Amazon Nova, and Mistral models. Amplify 2.0 (rollout Jan-Feb 2026) adds personal AI email assistant, scheduling agent, intelligent note-taker, and ChatGPT 5.2 access. Platform is in use at 40-50+ other higher-ed institutions and K-12 districts."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2026-01",
+      "evidence_urls": [
+        "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/",
+        "https://www.meritalkslg.com/articles/vanderbilt-opens-campuswide-access-to-ai-tools/"
+      ],
+      "notes": "Available to all eligible faculty, students, and staff with a vanderbilt.edu email effective Jan 12, 2026."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025",
+      "evidence_urls": [
+        "https://www.vanderbilt.edu/generative-ai/",
+        "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide"
+      ],
+      "notes": "Microsoft Copilot integrated into Microsoft 365 and offered alongside Amplify and ChatGPT Edu as part of the multi-tool strategy."
+    },
+    {
+      "vendor": "Google / Coursera",
+      "product": "Grow with Google (career certificates and AI training)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2026-01",
+      "evidence_urls": [
+        "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/"
+      ],
+      "notes": "Available to all eligible Vanderbilt users; Coursera partnership has driven 10M+ enrollments in Vanderbilt-authored AI courses globally."
+    },
+    {
+      "vendor": "D2L",
+      "product": "Lumi (within Brightspace / Creator+)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-12",
+      "evidence_urls": [
+        "https://www.vanderbilt.edu/brightspace/building-practice-questions-with-lumi-and-creator/",
+        "https://www.vanderbilt.edu/brightspace/2026/01/05/january-2026-brightspace-updates/"
+      ],
+      "notes": "Instructors can use D2L Lumi to auto-generate practice questions within Brightspace (Creator+ toolset). Lumi references only course-provided content."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "MS in Electrical and Computer Engineering (Applied AI concentration)",
+      "level": "grad",
+      "announced_or_launched": "2026-01",
+      "evidence_url": "https://engineering.vanderbilt.edu/departments/computer-science/research-artificial-intelligence/"
+    },
+    {
+      "program_type": "degree",
+      "name": "M.Ed. in Innovative Design and Technology in Education (IDeaTE)",
+      "level": "grad",
+      "announced_or_launched": "2024-10",
+      "evidence_url": "https://news.vanderbilt.edu/2024/10/31/vanderbilt-unveils-innovative-design-and-technology-in-education-masters-program/"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Certificate in Emerging Learning Technologies and AI (Peabody)",
+      "level": "grad",
+      "announced_or_launched": "2024-10",
+      "evidence_url": "https://peabody.vanderbilt.edu/academics/graduate-professional-certificates/emerging-learning-technologies-ai/"
+    },
+    {
+      "program_type": "degree",
+      "name": "College of Connected Computing (degree portfolio in AI, computing, data science)",
+      "level": "both",
+      "announced_or_launched": "2024-03",
+      "evidence_url": "https://news.vanderbilt.edu/2024/03/25/vanderbilt-to-establish-a-college-dedicated-to-computing-ai-and-data-science/"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "Amplify Generative AI Innovation Center launched within College of Connected Computing",
+      "amount_usd": null,
+      "counterparty": "Internal (Vanderbilt College of Connected Computing)",
+      "date": "2026-02",
+      "evidence_url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/",
+      "summary": "New 'living laboratory' to advance ethical, human-centered generative and agentic AI across research, teaching, student success, and operations. Co-led by Jules White and Chief AI and Technology Officer Allen Karns."
+    },
+    {
+      "title": "College of Connected Computing established (inaugural dean Matthew Johnson-Roberson named March 2025)",
+      "amount_usd": null,
+      "counterparty": "Internal (Vanderbilt)",
+      "date": "2024-03",
+      "evidence_url": "https://news.vanderbilt.edu/2025/03/20/vanderbilt-names-technology-visionary-matthew-johnson-roberson-as-its-first-dean-of-the-college-of-connected-computing/",
+      "summary": "Vanderbilt's first new college in decades, dedicated to AI, computing, and data science. Inaugural dean named March 2025."
+    },
+    {
+      "title": "Vanderbilt Cloud Innovation Lab launched in collaboration with AWS",
+      "amount_usd": null,
+      "counterparty": "Amazon Web Services",
+      "date": null,
+      "evidence_url": "https://aws.amazon.com/blogs/publicsector/vanderbilt-university-launches-cloud-innovation-lab-in-collaboration-with-aws/",
+      "summary": "AWS partnership supporting Amplify's open-source GenAI platform infrastructure and cloud innovation programs."
+    },
+    {
+      "title": "ChatGPT Edu, Amplify 2.0, and Grow with Google rollout",
+      "amount_usd": null,
+      "counterparty": "OpenAI, Google, Vanderbilt",
+      "date": "2026-01",
+      "evidence_url": "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/",
+      "summary": "Campus-wide expansion of a multi-tool AI strategy combining Vanderbilt's own Amplify 2.0 with ChatGPT Edu and Grow with Google."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "C. Cybele Raver",
+      "role": "Provost and Vice Chancellor for Academic Affairs",
+      "date": "2026-01",
+      "context": "Announcement of multi-tool AI strategy expansion (ChatGPT Edu, Amplify 2.0, Google)",
+      "quote_or_summary": "\"As generative AI becomes part of everyday academic and professional work, Vanderbilt is taking a deliberate, multi-tool approach\" to ensure the community has access to the right technologies.",
+      "evidence_url": "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/"
+    },
+    {
+      "speaker": "Jules White",
+      "role": "Senior Advisor to the Chancellor on Generative AI in Enterprise and Education; Professor of Computer Science; Director, Amplify GenAI Innovation Center",
+      "date": "2026-02",
+      "context": "Launch of Amplify Generative AI Innovation Center",
+      "quote_or_summary": "\"Our focus is augmented intelligence—using generative and agentic AI to extend what people can do, with practices that protect privacy and uphold academic values.\"",
+      "evidence_url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/"
+    },
+    {
+      "speaker": "Jules White",
+      "role": "Senior Advisor to the Chancellor on Generative AI",
+      "date": "2026-01",
+      "context": "Amplify 2.0 launch",
+      "quote_or_summary": "\"With Amplify 2.0, AI stops being something you occasionally use and becomes something that actively works for you.\"",
+      "evidence_url": "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/"
+    },
+    {
+      "speaker": "Daniel Diermeier",
+      "role": "Chancellor",
+      "date": "2026-02",
+      "context": "Amplify GenAI Innovation Center launch",
+      "quote_or_summary": "Framed the center as reflecting Vanderbilt's commitment to 'dare to grow' across disciplines through ethical, human-centered AI.",
+      "evidence_url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/"
+    },
+    {
+      "speaker": "Matthew Johnson-Roberson",
+      "role": "Inaugural Dean, College of Connected Computing",
+      "date": "2026-02",
+      "context": "Amplify GenAI Innovation Center launch",
+      "quote_or_summary": "Positioned the center as embodying the College of Connected Computing's mission to deliver 'computing for all.'",
+      "evidence_url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Tennessee",
+    "has_state_ai_executive_order": false,
+    "has_higher_ed_system_ai_policy": true,
+    "summary": "Tennessee Public Chapter 550 (2024), codified at Tenn. Code Ann. Section 49-7-185, requires the UT Board of Trustees, the Board of Regents, and each locally-governed state university to adopt an AI policy for instructional and assignment purposes by July 1, 2025. UT System's AI Policy (BT0035) became effective Feb 28, 2025. As a private R1, Vanderbilt is not subject to this mandate, but operates in a state policy environment shaped by it. No Tennessee gubernatorial executive order specifically on AI in higher education was identified.",
+    "evidence_urls": [
+      "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/"
+    ]
+  },
+  "litigation_or_controversy": [
+    {
+      "date": "2023-08",
+      "summary": "Vanderbilt disabled Turnitin's AI detection tool, citing unreliability, potential false positives (~750 of 75,000 papers at a 1% false-positive rate), and lack of transparency. The decision was widely cited as a national bellwether for pro-student AI policy.",
+      "status": "resolved",
+      "evidence_url": "https://www.vanderbilt.edu/generative-ai/academic-integrity/"
+    },
+    {
+      "date": "2023-02",
+      "summary": "Peabody College Office of Equity, Diversity and Inclusion used ChatGPT to draft a statement responding to the Michigan State University shooting, which Chancellor Diermeier publicly condemned. Incident prompted clearer honor-code guidance that undisclosed AI use would in most cases violate academic integrity.",
+      "status": "resolved",
+      "evidence_url": "https://vanderbilthustler.com/2024/02/25/sak-this-article-was-written-using-chatgpt/"
+    }
+  ],
+  "narrative_summary": "Vanderbilt is arguably the most aggressive and sophisticated AI adopter in the SEC and among the national higher-ed frontrunners. Rather than depending on a single vendor, the university built its own open-source, secure GenAI platform (Amplify) on AWS, launched it campus-wide in November 2024, and in January 2026 layered on ChatGPT Edu, Microsoft Copilot, Grow with Google, and D2L Lumi within Brightspace. Amplify now serves 10,000+ Vanderbilt users and is in use at 40-50+ other institutions. In February 2026, Vanderbilt formalized governance by launching the Amplify Generative AI Innovation Center within its new College of Connected Computing (inaugural dean Matthew Johnson-Roberson, named March 2025), co-led by Jules White (senior advisor to the chancellor) and Chief AI and Technology Officer Allen Karns-an unusually senior, named AI executive. The institutional posture is pro-use and pro-experimentation: Vanderbilt publicly disabled Turnitin's AI detector over false-positive concerns, publishes role-specific guidance rather than a restrictive single policy, and has become a Coursera-scale exporter of AI leadership curriculum. Chancellor Diermeier and Provost C. Cybele Raver consistently frame AI as core to the university's 'dare to grow' strategy. For an LSU CIO, Vanderbilt is the clearest SEC peer case study for a build-and-partner strategy anchored by a named CAIO and a dedicated AI center.",
+  "confidence_notes": "HIGH confidence on tools, leadership (Jules White, Allen Karns, C. Cybele Raver, Daniel Diermeier, Matthew Johnson-Roberson), Amplify timeline, and multi-vendor rollout. MEDIUM confidence on the current CIO-Shane Callahan is listed on third-party org charts but not verified via a primary Vanderbilt source during this research; Jess Evans was named CIO in 2022 but may no longer hold the role. Exact Amplify 2.0 user counts and formal governance committee charters beyond the Amplify GenAI Innovation Center are not public. No Tennessee gubernatorial executive order on AI in higher education was found; state higher-ed AI policy is statutory (Public Chapter 550) and applies to public institutions only. No active AI litigation identified.",
+  "sources": [
+    "https://news.vanderbilt.edu/2024/11/14/amplify-vanderbilts-new-custom-generative-ai-software-is-now-open-to-all-faculty-staff-and-students/",
+    "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/",
+    "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/",
+    "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/",
+    "https://www.vanderbilt.edu/generative-ai/",
+    "https://www.vanderbilt.edu/generative-ai/university-initiatives/",
+    "https://www.vanderbilt.edu/generative-ai/tools/",
+    "https://www.vanderbilt.edu/generative-ai/academic-integrity/",
+    "https://www.vanderbilt.edu/generative-ai/custom-software-pilot-amplify/",
+    "https://www.vanderbilt.edu/agi/platforms/amplify/",
+    "https://www.vanderbilt.edu/brightspace/building-practice-questions-with-lumi-and-creator/",
+    "https://www.vanderbilt.edu/brightspace/2026/01/05/january-2026-brightspace-updates/",
+    "https://news.vanderbilt.edu/2024/03/25/vanderbilt-to-establish-a-college-dedicated-to-computing-ai-and-data-science/",
+    "https://news.vanderbilt.edu/2025/03/20/vanderbilt-names-technology-visionary-matthew-johnson-roberson-as-its-first-dean-of-the-college-of-connected-computing/",
+    "https://news.vanderbilt.edu/2024/10/31/vanderbilt-unveils-innovative-design-and-technology-in-education-masters-program/",
+    "https://engineering.vanderbilt.edu/departments/computer-science/research-artificial-intelligence/",
+    "https://peabody.vanderbilt.edu/academics/graduate-professional-certificates/emerging-learning-technologies-ai/",
+    "https://www.vanderbilt.edu/chancellor/biography-diermeier/",
+    "https://www.vanderbilt.edu/about/quick-facts/",
+    "https://aws.amazon.com/blogs/publicsector/vanderbilt-university-launches-cloud-innovation-lab-in-collaboration-with-aws/",
+    "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide",
+    "https://www.meritalkslg.com/articles/vanderbilt-opens-campuswide-access-to-ai-tools/",
+    "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+    "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+    "https://www.amplifygenai.org/",
+    "https://joesabado.substack.com/p/vanderbilts-ai-playbook-a-case-study",
+    "https://www.enrollify.org/blog/how-vanderbilt-is-redefining-ai-integration-in-higher-ed"
+  ],
+  "researched_on": "2026-04-16"
+}

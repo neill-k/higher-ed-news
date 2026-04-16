@@ -1,0 +1,286 @@
+{
+  "institution": "The University of Texas at Austin",
+  "slug": "texas",
+  "city_state": "Austin, TX",
+  "carnegie": "R1",
+  "aau_member": true,
+  "enrollment": 53082,
+  "lsu_peer_tiers": {
+    "sec": true,
+    "sreb_4yr_1": false,
+    "carnegie_land_grant": false,
+    "aau_aspirational": true
+  },
+  "system_leadership": {
+    "president_name": "Jim Davis",
+    "cio_name": "Cole Camplese",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://security.utexas.edu/ai-tools",
+      "https://ctl.utexas.edu/generative-ai-teaching-and-learning-policies",
+      "https://tech.utexas.edu/governance/guidance-for-ai",
+      "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/"
+    ],
+    "adopted_date": "2025-08",
+    "scope": ["faculty", "students", "staff", "research", "admin"],
+    "key_provisions": [
+      "Acceptable Use Policy classifies data by sensitivity; only university-managed AI tools under contract may be used with controlled/confidential data",
+      "FERPA-protected records, health info, unpublished research, and personnel data prohibited on unauthorized/free AI tools",
+      "Users accepting click-through agreements without delegation authority bear personal liability",
+      "Eight guiding principles for responsible AI in teaching and learning (Office of Academic Technology + Good Systems framework)",
+      "Faculty encouraged to disclose AI expectations transparently in syllabi; AI detection software discouraged in favor of assessment design",
+      "Approved tool inventory includes Microsoft Copilot, UT Spark, UT Sage, ChatGPT, Claude, and Gemini"
+    ],
+    "summary": "UT Austin publishes a multi-layered AI policy stack: an Information Security Office acceptable-use policy tied to a data-classification matrix, an Enterprise Technology AI governance guidance page, and a Center for Teaching & Learning framework (finalized Fall 2025) built around eight guiding principles for responsible classroom AI use. The teaching framework emphasizes transparency, academic integrity, and human-centered pedagogy over AI-detection policing."
+  },
+  "governance_structure": {
+    "committee_name": "Office of Academic Technology / Academic Technology Council (teaching & learning AI); Enterprise Technology AI Studio (operational AI)",
+    "committee_url": "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/",
+    "committee_members_public": false,
+    "notes": "AI governance is distributed across Enterprise Technology (VP/CIO Cole Camplese), the Office of Academic Technology under Assistant Vice Provost Julie Schell, the Information Security Office, and the Good Systems Bridging Barriers grand challenge (founding chair Ken Fleischmann). The teaching-and-learning framework was built by a six-month cross-campus working group co-hosted by OAT and Good Systems. No single named 'AI Governance Committee' with a published roster was located."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (Chat free tier + Premium paid tier)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2024-01",
+      "evidence_urls": [
+        "https://microsoft365.utexas.edu/microsoft-copilot",
+        "https://trecs.utexas.edu/news/microsoft-copilot-now-available-campus"
+      ],
+      "notes": "Copilot Chat free tier available to all students, faculty, staff through UT Microsoft 365 accounts. Premium M365 Copilot piloted to ~140 faculty/staff in early 2024; reported mixed adoption with roughly one-third of pilot users discontinuing."
+    },
+    {
+      "vendor": "Microsoft / OpenAI (custom build)",
+      "product": "UT Spark",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-08",
+      "evidence_urls": [
+        "https://tech.utexas.edu/services-tools/ai",
+        "https://thedailytexan.com/2025/08/21/university-launches-official-ai-platform-for-students-faculty-free-of-cost/"
+      ],
+      "notes": "UT's official conversational AI platform, built on Microsoft Azure using OpenAI models (GPT-4o at launch); free to all students, faculty, staff. Supports user-built personal agents."
+    },
+    {
+      "vendor": "UT Austin (in-house, Provost's Office)",
+      "product": "UT Sage",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2024-09",
+      "evidence_urls": [
+        "https://tech.utexas.edu/services-tools/ai",
+        "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/"
+      ],
+      "notes": "AI tutoring platform developed by the Office of Academic Technology; faculty can train subject-specific tutors. Positioned as a safe, secure, pedagogically grounded classroom AI."
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude (enterprise access)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://tech.utexas.edu/initiatives/artificial-intelligence"],
+      "notes": "Listed on Enterprise Technology AI initiatives page as part of 2025-2026 roadmap alongside ChatGPT 5 and UT Spark agents."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Enterprise",
+      "scope": "undisclosed",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://tech.utexas.edu/initiatives/artificial-intelligence"],
+      "notes": "Listed on Enterprise Technology AI services page; specific scope and licensing disclosure not published."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini",
+      "scope": "undisclosed",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://security.utexas.edu/ai-tools"],
+      "notes": "Approved for use with public/published data under UT's Local and Cloud Services Decision Matrix."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "Master of Science in Artificial Intelligence (online)",
+      "level": "grad",
+      "announced_or_launched": "2024-01",
+      "evidence_url": "https://cdso.utexas.edu/msai"
+    },
+    {
+      "program_type": "concentration",
+      "name": "BS Computer Science - Machine Learning & Artificial Intelligence Concentration",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.cs.utexas.edu/concentrations/mlai"
+    },
+    {
+      "program_type": "certificate",
+      "name": "AI and Machine Learning Certificate (McCombs Executive Education, online)",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://onlineexeced.mccombs.utexas.edu/online-ai-machine-learning-course"
+    },
+    {
+      "program_type": "degree",
+      "name": "Undergraduate Robotics Honors Program",
+      "level": "undergrad",
+      "announced_or_launched": "2025-09",
+      "evidence_url": "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "NSF Leadership-Class Computing Facility (Horizon supercomputer) award",
+      "amount_usd": 457000000,
+      "counterparty": "National Science Foundation",
+      "date": "2024-07",
+      "evidence_url": "https://news.utexas.edu/2024/07/11/texas-advanced-computing-center-to-lead-groundbreaking-nsf-computing-facility/",
+      "summary": "NSF awarded TACC up to $457M to build and operate Horizon, the nation's largest academic supercomputer. Horizon enters production Spring 2026 with ~300 petaflops of simulation performance and major AI capability on NVIDIA Grace Blackwell."
+    },
+    {
+      "title": "5,000+ NVIDIA GPU expansion (Blackwell)",
+      "amount_usd": 20000000,
+      "counterparty": "NVIDIA / Dell Technologies / Texas Legislature appropriation",
+      "date": "2025-11",
+      "evidence_url": "https://news.utexas.edu/2025/11/17/ut-eclipses-5000-gpus-to-increase-dominance-in-open-source-ai-strengthen-nations-computing-power/",
+      "summary": "UT surpassed 5,000 advanced NVIDIA GPUs (4,000+ Blackwell), with 1,000+ dedicated to the Center for Generative AI; $20M Texas Legislature appropriation supported AI infrastructure expansion."
+    },
+    {
+      "title": "Center for Generative AI launch (Vista cluster)",
+      "amount_usd": null,
+      "counterparty": "NVIDIA / Dell / institutional",
+      "date": "2024-01",
+      "evidence_url": "https://news.utexas.edu/2024/01/25/new-texas-center-will-create-generative-ai-computing-cluster-among-largest-of-its-kind/",
+      "summary": "UT launched the Center for Generative AI (Director: Alex Dimakis) with an initial 600-H100 GPU cluster, billed as among the largest academic GenAI compute environments at launch."
+    },
+    {
+      "title": "NSF AI Institute for Foundations of Machine Learning (IFML) renewal",
+      "amount_usd": 20000000,
+      "counterparty": "National Science Foundation",
+      "date": "2025-05",
+      "evidence_url": "https://cns.utexas.edu/news/announcements/ut-expands-research-ai-support-breakthroughs-science-technology-and-workforce",
+      "summary": "IFML (directed by Adam Klivans) continues as an NSF AI Institute with ~$20M+ in cumulative NSF investment; part of ~$32M in new AI-related research funding over five years announced in 2024."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Jay Hartzell",
+      "role": "President (until Feb 2025)",
+      "date": "2024-01",
+      "context": "Year of AI declaration",
+      "quote_or_summary": "Designated 2024 'The Year of AI' and launched a multi-million-dollar AI faculty recruitment initiative, framing AI as a defining strategic priority for the Forty Acres.",
+      "evidence_url": "https://news.utexas.edu/2024/01/23/ut-designates-2024-the-year-of-ai/"
+    },
+    {
+      "speaker": "Jim Davis",
+      "role": "President",
+      "date": "2025-11",
+      "context": "5,000 GPU announcement",
+      "quote_or_summary": "Framed UT's AI computing expansion as positioning the university 'at the forefront of life-changing discoveries that also bolster our country's economic and national security,' emphasizing open-source AI leadership.",
+      "evidence_url": "https://news.utexas.edu/2025/11/17/ut-eclipses-5000-gpus-to-increase-dominance-in-open-source-ai-strengthen-nations-computing-power/"
+    },
+    {
+      "speaker": "Julie Schell",
+      "role": "Assistant Vice Provost & Director, Office of Academic Technology",
+      "date": "2025-05",
+      "context": "Unveiling Responsible AI Teaching & Learning framework",
+      "quote_or_summary": "'We wanted to build something that aligned with our campus values.' Led the six-month working group producing UT's eight guiding principles for classroom AI use.",
+      "evidence_url": "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/"
+    },
+    {
+      "speaker": "Ken Fleischmann",
+      "role": "Founding Chair, Good Systems; Professor, School of Information",
+      "date": "2026-03",
+      "context": "Texas Symposium on ML, Responsible AI & Robotics",
+      "quote_or_summary": "Argued for a people-centered, values-driven approach to AI adoption in government, national security, and higher education.",
+      "evidence_url": "https://news.utexas.edu/2026/03/20/leaders-in-ai-robotics-and-ethical-innovation-come-together-at-ut-austin/"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Texas",
+    "has_state_ai_executive_order": false,
+    "has_higher_ed_system_ai_policy": false,
+    "summary": "The Texas Responsible AI Governance Act (TRAIGA, HB 149) was signed June 22, 2025 and takes effect January 1, 2026, making Texas the third state with a comprehensive AI law. Critically for UT, TRAIGA expressly exempts institutions of higher education from many of its governmental-entity disclosure and use requirements. Separately, on Feb 19-20, 2026 the UT System Board of Regents unanimously adopted a systemwide policy requiring faculty to 'eschew topics and controversies that are not germane' to a course and to 'clearly disclose in the syllabus the topics to be covered' - a broad syllabus-disclosure and content-scoping mandate that, while not AI-specific, reshapes the syllabus governance environment in which AI use policies sit. No standalone UT System AI policy was located.",
+    "evidence_urls": [
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+      "https://www.insidehighered.com/news/faculty-issues/curriculum/2026/02/20/ut-policy-asks-faculty-avoid-controversial-topics",
+      "https://www.texastribune.org/2026/02/19/texas-university-ut-regents-unnecessarily-controversial-subjects/"
+    ]
+  },
+  "litigation_or_controversy": [
+    {
+      "date": "2026-02",
+      "summary": "UT System Board of Regents unanimously approved a 'controversial topics' policy requiring faculty to disclose all course topics in syllabi and avoid 'unnecessarily controversial' material. Austin AAUP chapter and faculty governance bodies condemned the move as authoritarian and likely to chill academic freedom, including in AI ethics, race, gender, and even art history and economics courses. Directly reshapes syllabus-disclosure regime relevant to AI policy implementation.",
+      "status": "active",
+      "evidence_url": "https://www.insidehighered.com/news/faculty-issues/curriculum/2026/02/20/ut-policy-asks-faculty-avoid-controversial-topics"
+    },
+    {
+      "date": "2025-09",
+      "summary": "UT Austin AAUP chapter issued a public condemnation of a broader faculty governance overhaul, citing erosion of shared governance - context relevant to how AI policies get consulted on and adopted.",
+      "status": "active",
+      "evidence_url": "https://aaup-utaustin.org/2025/09/28/authoritarian-shift-at-ut-austin-aaup-chapter-condemns-faculty-governance-overhaul/"
+    },
+    {
+      "date": "2025-02",
+      "summary": "Leadership transition: President Jay Hartzell departed for SMU; Jim Davis (former COO) named interim, then permanent 31st president in July 2025. UT System simultaneously named John Zerwas as Chancellor.",
+      "status": "resolved",
+      "evidence_url": "https://www.texastribune.org/2025/07/21/university-texas-system-chancellor-john-zerwas-jim-davis/"
+    }
+  ],
+  "narrative_summary": "UT Austin is one of the most aggressive AI infrastructure plays in American higher education, and arguably the closest thing to a national-champion AI public university. President Jay Hartzell declared 2024 the 'Year of AI' and the institution followed through: a $457M NSF award to build the Horizon supercomputer at TACC (production Spring 2026, ~300 petaflops), 5,000+ NVIDIA Blackwell-class GPUs deployed by late 2025, a dedicated Center for Generative AI (Alex Dimakis, director) with its own Vista H100 cluster, the NSF AI Institute for Foundations of Machine Learning (Adam Klivans), and the Good Systems responsible-AI grand challenge (Ken Fleischmann). On the applied side, UT launched its own AI stack - UT Spark (OpenAI models on Azure, Aug 2025), UT Sage (AI tutor), and campus-wide Microsoft Copilot - free to all students, faculty, staff. Governance is distributed (Enterprise Technology under CIO Cole Camplese; Office of Academic Technology under Julie Schell; ISO acceptable-use policy; Good Systems ethics research) with no single named chief AI officer. The strategic complications for LSU benchmarking are political: TRAIGA (effective Jan 2026) exempts higher ed but signals Texas's regulatory posture, and the UT System Board of Regents' February 2026 'controversial topics' policy imposes a sweeping syllabus-disclosure mandate that entangles AI classroom use with broader content-scoping politics. UT Austin is simultaneously a compute-and-talent hyperscaler and an institution operating under escalating statehouse oversight - a dual story LSU should study closely.",
+  "confidence_notes": "HIGH confidence on infrastructure (GPU counts, Horizon, TACC), vendor deployments (UT Spark, Sage, Copilot), academic programs, and state policy context - all from primary UT and NSF sources. MEDIUM confidence on governance structure: no single published AI governance committee with a public roster was found; governance is genuinely distributed across OAT, ET, ISO, and Good Systems. MEDIUM confidence on CIO (Cole Camplese per Enterprise Technology leadership page, but UT is also running a VP Tech/CIO search per HR - status as of April 2026 not fully confirmed). No dedicated Chief AI Officer role identified. Enrollment figure (53,082) is a standard published UT Austin total; not re-verified in this pass. The 'syllabus disclosure mandate' referenced in the task brief appears to refer to the Feb 2026 UT System controversial-topics policy, which is syllabus-wide (not AI-specific) - captured in state_ai_policy_context and litigation_or_controversy. UT Spark premium Copilot pilot user count (~140) is sourced from Enterprise Technology page; broader institutional license user counts not disclosed.",
+  "sources": [
+    "https://tech.utexas.edu/initiatives/artificial-intelligence",
+    "https://tech.utexas.edu/services-tools/ai",
+    "https://tech.utexas.edu/governance/guidance-for-ai",
+    "https://tech.utexas.edu/about/leadership",
+    "https://security.utexas.edu/ai-tools",
+    "https://ctl.utexas.edu/generative-ai-teaching-and-learning-policies",
+    "https://ctl.utexas.edu/generative-ai-teaching-and-learning-ut-guides-and-recommendations",
+    "https://ctl.utexas.edu/chatgpt-and-generative-ai-tools-sample-syllabus-policy-statements",
+    "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/",
+    "https://provost.utexas.edu/the-office/faculty-affairs/office-of-academic-technology/ai-detection-software-guidance/",
+    "https://microsoft365.utexas.edu/microsoft-copilot",
+    "https://trecs.utexas.edu/news/microsoft-copilot-now-available-campus",
+    "https://thedailytexan.com/2025/08/21/university-launches-official-ai-platform-for-students-faculty-free-of-cost/",
+    "https://news.utexas.edu/2024/01/23/ut-designates-2024-the-year-of-ai/",
+    "https://news.utexas.edu/2024/01/25/new-texas-center-will-create-generative-ai-computing-cluster-among-largest-of-its-kind/",
+    "https://news.utexas.edu/2024/07/11/texas-advanced-computing-center-to-lead-groundbreaking-nsf-computing-facility/",
+    "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/",
+    "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/",
+    "https://news.utexas.edu/2025/11/17/ut-eclipses-5000-gpus-to-increase-dominance-in-open-source-ai-strengthen-nations-computing-power/",
+    "https://news.utexas.edu/2026/03/20/leaders-in-ai-robotics-and-ethical-innovation-come-together-at-ut-austin/",
+    "https://cns.utexas.edu/news/announcements/ut-expands-research-ai-support-breakthroughs-science-technology-and-workforce",
+    "https://ml.utexas.edu/center-for-generative-ai",
+    "https://cdso.utexas.edu/msai",
+    "https://www.cs.utexas.edu/concentrations/mlai",
+    "https://onlineexeced.mccombs.utexas.edu/online-ai-machine-learning-course",
+    "https://ai.utexas.edu/",
+    "https://yearofai.utexas.edu/education/",
+    "https://tacc.utexas.edu/systems/horizon/",
+    "https://tacc.utexas.edu/systems/vista/",
+    "https://tacc.utexas.edu/news/latest-news/2025/11/17/nsf-lccf-horizon-supercomputer-to-power-breakthroughs-for-the-nations-leading-scientists/",
+    "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+    "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+    "https://www.bakerbotts.com/thought-leadership/publications/2025/july/texas-enacts-responsible-ai-governance-act-what-companies-need-to-know",
+    "https://www.insidehighered.com/news/faculty-issues/curriculum/2026/02/20/ut-policy-asks-faculty-avoid-controversial-topics",
+    "https://www.texastribune.org/2026/02/19/texas-university-ut-regents-unnecessarily-controversial-subjects/",
+    "https://www.kut.org/education/2026-02-19/ut-system-votes-to-limit-controversial-topics-in-class-raising-concerns-about-academic-freedom",
+    "https://www.texastribune.org/2025/07/21/university-texas-system-chancellor-john-zerwas-jim-davis/",
+    "https://aaup-utaustin.org/2025/09/28/authoritarian-shift-at-ut-austin-aaup-chapter-condemns-faculty-governance-overhaul/",
+    "https://hr.utexas.edu/executive-search-vp-technology-cio",
+    "https://president.utexas.edu/about-president/"
+  ],
+  "researched_on": "2026-04-16"
+}

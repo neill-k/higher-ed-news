@@ -1,0 +1,94 @@
+{
+  "_comment": "Schema template for SEC peer profiles. Every researcher writes a file conforming to this shape.",
+  "institution": "string",
+  "slug": "string (lowercase, hyphenated)",
+  "city_state": "string",
+  "carnegie": "R1 | R2",
+  "aau_member": "boolean",
+  "enrollment": "number | null",
+  "lsu_peer_tiers": {
+    "sec": "boolean",
+    "sreb_4yr_1": "boolean (LSU's primary accountability peer group)",
+    "carnegie_land_grant": "boolean (LSU's operational benchmark)",
+    "aau_aspirational": "boolean"
+  },
+  "system_leadership": {
+    "president_name": "string | null",
+    "cio_name": "string | null",
+    "chief_ai_officer": "string | null",
+    "has_dedicated_ai_role": "boolean"
+  },
+  "ai_policy": {
+    "has_published_policy": "boolean",
+    "policy_urls": ["array of URLs"],
+    "adopted_date": "YYYY-MM | null",
+    "scope": ["array: faculty, students, staff, research, admin"],
+    "key_provisions": ["array of short strings"],
+    "summary": "string (2-3 sentences)"
+  },
+  "governance_structure": {
+    "committee_name": "string | null",
+    "committee_url": "string | null",
+    "committee_members_public": "boolean",
+    "notes": "string"
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "string (e.g., Microsoft Copilot, ChatGPT Edu, Claude for Education, Google Gemini)",
+      "product": "string",
+      "scope": "campus-wide | pilot | college-specific | undisclosed",
+      "user_count": "number | null",
+      "announced_date": "YYYY-MM | null",
+      "evidence_urls": ["array"],
+      "notes": "string"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree | certificate | minor | concentration",
+      "name": "string",
+      "level": "undergrad | grad | both",
+      "announced_or_launched": "YYYY-MM | null",
+      "evidence_url": "string"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "string",
+      "amount_usd": "number | null",
+      "counterparty": "string (e.g., NVIDIA, NSF, Microsoft)",
+      "date": "YYYY-MM | null",
+      "evidence_url": "string",
+      "summary": "string"
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "string",
+      "role": "string",
+      "date": "YYYY-MM | null",
+      "context": "string (e.g., State of the University 2026)",
+      "quote_or_summary": "string",
+      "evidence_url": "string"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "string",
+    "has_state_ai_executive_order": "boolean",
+    "has_higher_ed_system_ai_policy": "boolean",
+    "summary": "string",
+    "evidence_urls": ["array"]
+  },
+  "litigation_or_controversy": [
+    {
+      "date": "YYYY-MM | null",
+      "summary": "string",
+      "status": "active | resolved | unknown",
+      "evidence_url": "string"
+    }
+  ],
+  "narrative_summary": "string (150-250 words; what a CIO needs to know about this peer's AI posture)",
+  "confidence_notes": "string (where data is missing or uncertain)",
+  "sources": ["array of all URLs consulted"],
+  "researched_on": "YYYY-MM-DD"
+}

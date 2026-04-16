@@ -1,0 +1,250 @@
+{
+  "institution": "University of Oklahoma",
+  "slug": "oklahoma",
+  "city_state": "Norman, OK",
+  "carnegie": "R1",
+  "aau_member": false,
+  "enrollment": 33613,
+  "lsu_peer_tiers": {
+    "sec": true,
+    "sreb_4yr_1": true,
+    "carnegie_land_grant": false,
+    "aau_aspirational": false
+  },
+  "system_leadership": {
+    "president_name": "Joseph Harroz Jr.",
+    "cio_name": "Nishanth Rodrigues",
+    "chief_ai_officer": "Shishir Shah",
+    "has_dedicated_ai_role": true
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://www.ou.edu/cfe/artificial-intelligence/AI-policies",
+      "https://oupolicy.policystat.com/policy/18775656/latest",
+      "https://oupolicy.policystat.com/policy/18775650/latest",
+      "https://oupolicy.policystat.com/policy/18775652/latest",
+      "https://oupolicy.policystat.com/policy/18775646/latest",
+      "https://oupolicy.policystat.com/policy/18775654/latest",
+      "https://www.ou.edu/ouit/ai"
+    ],
+    "adopted_date": null,
+    "scope": ["faculty", "students", "staff", "research", "admin"],
+    "key_provisions": [
+      "Role-specific guidance documents: administrative/operational, students, governance, teaching, research",
+      "Public generative AI tools prohibited for OU institutional or sensitive data",
+      "Aligned with NIST AI Risk Management Framework",
+      "Microsoft Copilot with organizational data protection is the recommended generative AI tool",
+      "Emphasis on responsible, ethical, and transparent AI use"
+    ],
+    "summary": "OU has adopted a multi-document AI policy framework (last updated March 2026) administered through the Center for Faculty Excellence and OU IT. Rather than a single blanket policy, OU publishes five distinct PolicyStat documents covering administrative, student, governance, teaching, and research use, all building on the NIST AI RMF. Public generative AI tools are disallowed for institutional data; Microsoft Copilot with data protection is the approved default."
+  },
+  "governance_structure": {
+    "committee_name": "OU AI Working Groups (Resources & Infrastructure, Education, Healthcare & AI, Research, Governance & Policies) under the Chief AI Officer",
+    "committee_url": "https://www.ou.edu/ai/about/ai-working-groups",
+    "committee_members_public": true,
+    "notes": "Five working groups with publicly named co-leads and core/advisory members, coordinated under the Chief AI Officer. Governance & Policies WG co-led by Erin Maher and April Dickson. Supported by an AI Governance Working Group that authored principles based on NIST AI RMF. Page last updated September 2025."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (with organizational data protection / entra sign-in)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": [
+        "https://www.ou.edu/ouit/ai",
+        "https://itsupport.ou.edu/TDClient/30/Unified/KB/ArticleDet?ID=3173"
+      ],
+      "notes": "Recommended generative AI for OU faculty and staff; data-protection boundary verified at sign-in. Distinct from paid Microsoft 365 Copilot."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "pilot",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://www.ou.edu/ouit/ai"],
+      "notes": "Three-phase pilot evaluation described on OU IT AI page."
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://www.ou.edu/ouit/ai"],
+      "notes": "Meeting organizers can enable summaries."
+    },
+    {
+      "vendor": "Turnitin / Gradescope",
+      "product": "Gradescope AI grading assistance",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://www.ou.edu/ouit/ai"],
+      "notes": "Available to instructors for assignment workflows."
+    },
+    {
+      "vendor": "KnowBe4",
+      "product": "KnowBe4 AIDA (phishing/security training)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://www.ou.edu/ouit/ai"],
+      "notes": "Enterprise deployment."
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Firefly",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://www.ou.edu/ouit/ai"],
+      "notes": "Generative graphics via Adobe Creative Cloud."
+    },
+    {
+      "vendor": "Kaltura",
+      "product": "Kaltura MyMedia AI auto-captioning",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": ["https://www.ou.edu/ouit/ai"],
+      "notes": "Accessibility captions."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "B.S. in Applied Artificial Intelligence (OU Polytechnic Institute, Tulsa and Norman)",
+      "level": "undergrad",
+      "announced_or_launched": "2024-09",
+      "evidence_url": "https://www.ou.edu/news/articles/2024/september/ou-polytechnic-institute-accepting-applications-for-new-degree-programs"
+    },
+    {
+      "program_type": "certificate",
+      "name": "AI & Machine Learning Bootcamp (OU Outreach)",
+      "level": "both",
+      "announced_or_launched": null,
+      "evidence_url": "https://bootcamp.outreach.ou.edu/programs/ai-machine-learning"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "OU joins U.S. Artificial Intelligence Safety Institute Consortium (NIST/Department of Commerce)",
+      "amount_usd": null,
+      "counterparty": "NIST / U.S. Department of Commerce",
+      "date": "2024-02",
+      "evidence_url": "https://www.ou.edu/news/articles/2024/february/university-of-oklahoma-joins-national-artificial-intelligence-safety-consortium",
+      "summary": "OU joined the NIST-led U.S. AISIC consortium to contribute trustworthy-AI expertise from DISC and the AI2ES weather-AI institute."
+    },
+    {
+      "title": "DISC AI Pilot Seed Funding (20 AI projects)",
+      "amount_usd": 200000,
+      "counterparty": "OU Data Institute for Societal Challenges (internal)",
+      "date": "2025-06",
+      "evidence_url": "https://www.ou.edu/news/articles/2025/june/ou-to-launch-twenty-new-ai-projects",
+      "summary": "Nearly $200,000 awarded across 20 AI pilot projects spanning health care, education, research, and digital infrastructure; administered by DISC senior managing director Yessenia Torres."
+    },
+    {
+      "title": "NSF data-intensive research grants",
+      "amount_usd": 2445829,
+      "counterparty": "NSF",
+      "date": "2025-11",
+      "evidence_url": "https://www.ou.edu/news/articles/2025/november/ou-it-nsf-grants-to-support-data-intensive-research",
+      "summary": "Two NSF awards totaling approximately $2.45M to support data-intensive research infrastructure tied to AI/ML work."
+    },
+    {
+      "title": "ScissorTAIL Enclave (HIPAA-compliant AI computing enclave)",
+      "amount_usd": 500000,
+      "counterparty": "Oklahoma State Regents for Higher Education (System Innovation Fund)",
+      "date": "2025-12",
+      "evidence_url": "https://okhighered.org/2025/12/oklahoma-state-regents-approve-3-4-million-in-artificial-intelligence-innovation-grants-to-accelerate-ai-integration-in-public-higher-education/",
+      "summary": "OU Health Sciences Center received $500,000 to build Oklahoma's first regulated, HIPAA-compliant AI computing enclave with GPU-accelerated servers."
+    },
+    {
+      "title": "NSF AI Institute for Research on Trustworthy AI in Weather, Climate, and Coastal Oceanography (AI2ES)",
+      "amount_usd": 20000000,
+      "counterparty": "NSF",
+      "date": "2020-05",
+      "evidence_url": "https://www.ou.edu/news/articles/2024/february/university-of-oklahoma-joins-national-artificial-intelligence-safety-consortium",
+      "summary": "Pre-2024 but ongoing: OU leads the $20M NSF AI2ES institute directed by Amy McGovern, a centerpiece of OU's trustworthy-AI research portfolio."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Joseph Harroz Jr.",
+      "role": "President, University of Oklahoma",
+      "date": "2025-08",
+      "context": "Announcement of Shishir Shah as first university-wide Chief AI Officer under the 'Lead On, University: The Next Phase' strategic plan",
+      "quote_or_summary": "\"The University of Oklahoma is at the forefront of harnessing artificial intelligence to solve complex problems and drive meaningful change.\"",
+      "evidence_url": "https://www.ou.edu/news/articles/2025/august/ou-enters-next-phase-of-ai-innovation"
+    },
+    {
+      "speaker": "Andre-Denis Wright",
+      "role": "Senior Vice President and Provost, OU Norman",
+      "date": "2025-02",
+      "context": "Announcement of David Ebert as interim inaugural Chief AI Officer",
+      "quote_or_summary": "\"AI is transforming nearly every facet of higher education, research and industry. OU is taking a proactive approach to ensuring AI is integrated thoughtfully.\"",
+      "evidence_url": "https://www.ou.edu/news/articles/2025/february/ebert-interim-inaugural-ou-chief-ai-officer"
+    },
+    {
+      "speaker": "Gary Raskob",
+      "role": "Senior Vice President and Provost, OU Health Sciences",
+      "date": "2025-02",
+      "context": "Announcement of interim Chief AI Officer",
+      "quote_or_summary": "\"AI and other emerging technologies are driving the future of health research and education, accelerating discoveries, and transforming how we train professionals.\"",
+      "evidence_url": "https://www.ou.edu/news/articles/2025/february/ebert-interim-inaugural-ou-chief-ai-officer"
+    },
+    {
+      "speaker": "Yessenia Torres",
+      "role": "Senior Managing Director, OU Data Institute for Societal Challenges",
+      "date": "2025-06",
+      "context": "20 AI pilot projects announcement",
+      "quote_or_summary": "\"These staff and faculty-led projects will move fast and create deliverables by the end of August.\"",
+      "evidence_url": "https://www.ou.edu/news/articles/2025/june/ou-to-launch-twenty-new-ai-projects"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Oklahoma",
+    "has_state_ai_executive_order": true,
+    "has_higher_ed_system_ai_policy": true,
+    "summary": "Governor Kevin Stitt issued final recommendations of his AI & Emerging Tech Task Force in January 2024, which included a directive to implement AI education across K-12 and higher education. Oklahoma was the first state to establish a systemwide AI Impact in Higher Education Committee (May 2023) under the State Regents, and in December 2025 the Regents approved $3.4M in 'Innovations with AI' grants across seven institutions, including $500K to OU Health Sciences Center. Governor Stitt's February 2026 higher-ed executive orders focused on tenure/data-driven metrics rather than AI specifically.",
+    "evidence_urls": [
+      "https://oklahoma.gov/governor/newsroom/newsroom/2024/january2024/governor-stitt-announces-final-recommendations-from-ai-task-forc.html",
+      "https://okhighered.org/2025/12/oklahoma-state-regents-approve-3-4-million-in-artificial-intelligence-innovation-grants-to-accelerate-ai-integration-in-public-higher-education/",
+      "https://www.ocolearnok.org/membership/ai/",
+      "https://okhighered.org/wp-content/uploads/2024/09/AI-higher-ed-whitepaper.pdf"
+    ]
+  },
+  "litigation_or_controversy": [],
+  "narrative_summary": "Oklahoma is one of the more formally structured AI-governance peers in the SEC. Pending Regents approval, Shishir Shah (from the University of Houston) became OU's first permanent university-wide Chief AI Officer in August 2025, following David Ebert's interim appointment in February 2025 - an unusually clear and early CAIO structure for a regional flagship. Shah reports jointly to both the OU Norman and OU Health Sciences provosts and concurrently directs the School of Computer Science. Governance runs through five publicly rostered working groups (Resources & Infrastructure, Education, Healthcare & AI, Research, and Governance & Policies) and a published AI Roadmap. Policy is codified in five PolicyStat documents scoped to admin, students, governance, teaching, and research, anchored to the NIST AI RMF. Vendor posture leans Microsoft - Copilot with data protection is the sanctioned default, with an M365 Copilot pilot under way - supplemented by Zoom AI Companion, Gradescope, Firefly, Kaltura captioning, and KnowBe4 AIDA. Academically, OU launched a B.S. in Applied AI through its Polytechnic Institute in 2024. State context is favorable: Oklahoma was the first state to stand up a systemwide AI in Higher Ed committee (2023), Gov. Stitt issued AI task force recommendations in January 2024, and the State Regents awarded $3.4M in AI grants in December 2025 (including $500K to OU Health Sciences for a HIPAA-compliant AI enclave). For an LSU CIO, OU is a stronger-than-expected peer benchmark: explicit CAIO, public committee rosters, a concrete vendor stack, and state funding tailwinds.",
+  "confidence_notes": "HIGH confidence on leadership (CAIO, CIO, President), policy existence, vendor stack, and state policy context - all confirmed on ou.edu, oklahoma.gov, and okhighered.org primary sources. MEDIUM confidence on policy adoption date (PolicyStat pages last updated March 2026 but original adoption date not surfaced). The AI Roadmap PDF could not be parsed (binary) so specific roadmap milestones are not captured. User counts for vendor deployments are not publicly disclosed. Enrollment figure (33,613) is approximate based on general knowledge rather than a cited OU fact book URL.",
+  "sources": [
+    "https://www.ou.edu/cfe/artificial-intelligence/AI-policies",
+    "https://www.ou.edu/cfe/artificial-intelligence",
+    "https://www.ou.edu/ouit/ai",
+    "https://itsupport.ou.edu/TDClient/30/Unified/KB/ArticleDet?ID=3173",
+    "https://www.ou.edu/ai/about/ai-working-groups",
+    "https://www.ou.edu/content/dam/ai/documents/AI%20Roadmaps.pdf",
+    "https://www.ou.edu/content/dam/ai/documents/wgs-final-report.pdf",
+    "https://www.ou.edu/news/articles/2025/august/ou-enters-next-phase-of-ai-innovation",
+    "https://www.ou.edu/news/articles/2025/february/ebert-interim-inaugural-ou-chief-ai-officer",
+    "https://www.ou.edu/news/articles/2025/june/ou-to-launch-twenty-new-ai-projects",
+    "https://www.ou.edu/news/articles/2025/november/ou-it-nsf-grants-to-support-data-intensive-research",
+    "https://www.ou.edu/news/articles/2024/february/university-of-oklahoma-joins-national-artificial-intelligence-safety-consortium",
+    "https://www.ou.edu/news/articles/2024/september/ou-polytechnic-institute-accepting-applications-for-new-degree-programs",
+    "https://www.ou.edu/news/articles/2024/september/university-of-oklahoma-launches-center-with-artificial-intelligence-human-creativity-focus",
+    "https://www.ou.edu/news/articles/2024/september/ou-welcomes-new-chief-information-officer",
+    "https://www.ou.edu/ouit/news/2024/october/Nishanth-Rodrigues",
+    "https://www.ou.edu/disc",
+    "https://www.ou.edu/ai/academics",
+    "https://bootcamp.outreach.ou.edu/programs/ai-machine-learning",
+    "https://oklahoma.gov/governor/newsroom/newsroom/2024/january2024/governor-stitt-announces-final-recommendations-from-ai-task-forc.html",
+    "https://okhighered.org/2025/12/oklahoma-state-regents-approve-3-4-million-in-artificial-intelligence-innovation-grants-to-accelerate-ai-integration-in-public-higher-education/",
+    "https://www.ocolearnok.org/membership/ai/",
+    "https://okhighered.org/wp-content/uploads/2024/09/AI-higher-ed-whitepaper.pdf",
+    "https://www.oudaily.com/news/ou-announces-first-university-wide-chief-artificial-intelligence-officer-director-gallogly-school-of-computer-sciences-strategic-plan/article_4f9ff663-e500-4ad9-b44e-b0c7f3eef84a.html"
+  ],
+  "researched_on": "2026-04-16"
+}

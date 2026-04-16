@@ -1,0 +1,233 @@
+{
+  "institution": "Louisiana State University",
+  "slug": "lsu",
+  "city_state": "Baton Rouge, LA",
+  "carnegie": "R1",
+  "aau_member": false,
+  "enrollment": 40937,
+  "lsu_peer_tiers": {
+    "sec": true,
+    "sreb_4yr_1": true,
+    "carnegie_land_grant": true,
+    "aau_aspirational": false
+  },
+  "system_leadership": {
+    "president_name": "Wade Rousse (LSU System President, named Nov 2025); James Dalton (Executive VP & Chancellor, A&M Campus)",
+    "cio_name": "Craig Woolley",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://www.lsu.edu/senate/standing-committees/gai_committee/2025_2026ay/gai_guidelines_fall2025.pdf",
+      "https://www.lsu.edu/senate/standing-committees/gai_committee.php",
+      "https://facultysupport.lsu.edu/resources/generative-ai-resources-for-online-teaching-and-learning/"
+    ],
+    "adopted_date": "2025-12",
+    "scope": ["faculty", "students"],
+    "key_provisions": [
+      "Course-by-course faculty discretion; instructor must clearly establish whether GAI is permitted",
+      "Unauthorized GAI use treated as academic misconduct under Code of Student Conduct Sec. 10.1",
+      "Students must disclose permitted AI use and verify accuracy of outputs",
+      "Recommended syllabus statements and expanded accessibility statements",
+      "Recommends LSU develop courses/seminars/workshops on generative AI literacy",
+      "Manship School of Mass Communication explicitly prohibits AI-generated admissions essays"
+    ],
+    "summary": "LSU does not have a single universal student AI policy. The Faculty Senate ad hoc Generative AI Committee (chaired by Param Singh) issued Fall 2025 guidelines emphasizing 'critical engagement' with generative AI, preserving instructor discretion at the course level, and requiring explicit authorization and disclosure. A Dec 15, 2025 deadline drove submission of formal policy recommendations; student advocacy groups (SAFAR) and a backlog of 1,488 fall 2025 academic misconduct cases have pressured the university to tighten adjudication and detection practices."
+  },
+  "governance_structure": {
+    "committee_name": "Faculty Senate ad hoc Generative AI Committee (academic policy); Office of Data and Strategic Analytics / AI Faculty Fellows (research & deployment)",
+    "committee_url": "https://www.lsu.edu/senate/standing-committees/gai_committee.php",
+    "committee_members_public": true,
+    "notes": "Dual-track governance. Academic: Faculty Senate GAI Committee (15 members across Engineering, Law, Vet Med, Libraries, etc.), chaired by Param Singh, vice-chaired by Fabio M Capra-Ribeiro. Operational/research: ODSA under VP & Chief Data Officer Keena Arbuthnot convenes advisory groups on data governance and ethical AI use and runs the AI/Data Analytics Faculty Fellows program. No Chief AI Officer role exists; no standalone campus AI governance committee at the cabinet level. IT Governance Council (chaired by Tommy Smith, AVP Budget & Planning) covers broader IT and includes ITS leadership but does not appear to have a dedicated AI subcommittee."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "OpenAI via Microsoft Azure",
+      "product": "MikeGPT (custom LSU-built AI assistant)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-02",
+      "evidence_urls": [
+        "https://www.lsu.edu/blog/2025/02/mikegpt_lsu_aitool.php",
+        "https://lsureveille.com/242030/news/lsu-launches-ai-assistant-mikegpt-for-university-faculty-and-students/",
+        "https://lailluminator.com/2024/12/09/lsu-launches-ai-assistant-for-university-employees/"
+      ],
+      "notes": "Custom assistant built by Provost Roy Haggerty, Asst. Prof. James Ghawaly and student developers over summer/fall 2024; uses an OpenAI language model on Microsoft Azure's secure cloud, indexed against 35,000 curated LSU documents (filtered from 350,000+ web pages). Provides source links per response; excludes athletics and LSU Foundation content. Initially rolled out to faculty/staff in late 2024/early 2025, planned expansion to students, prospective students and alumni. LSU described itself as among fewer than five U.S. universities with a homegrown equivalent."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "Bachelor of Science in Artificial Intelligence (Louisiana's first, 3-year accelerated track available)",
+      "level": "undergrad",
+      "announced_or_launched": "2026-03",
+      "evidence_url": "https://www.lsu.edu/mediacenter/news/2026/03/27_lsu_launches_first_bs_in_ai.php"
+    },
+    {
+      "program_type": "concentration",
+      "name": "Online Master's in Computer Science with AI track (ML, reinforcement learning, robotics)",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.lsu.edu/blog/2026/03/vts-eng-ai.php"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Digital Twin Certificate (7-course online program, first of its kind in U.S.)",
+      "level": "both",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.lsu.edu/blog/2026/03/vts-eng-ai.php"
+    },
+    {
+      "program_type": "certificate",
+      "name": "AI Essentials (dual enrollment for Louisiana high school students, partnership with Gordon A. Cain Center)",
+      "level": "undergrad",
+      "announced_or_launched": "2026-08",
+      "evidence_url": "https://www.lsu.edu/blog/2026/03/vts-eng-ai.php"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "LSU joins the AI Alliance (IBM/Meta-led open-AI consortium)",
+      "amount_usd": null,
+      "counterparty": "AI Alliance (IBM, Meta, and AAU-heavy university network)",
+      "date": "2024-12",
+      "evidence_url": "https://www.lsu.edu/mediacenter/news/2024/12/11_ai_alliance.php",
+      "summary": "Only Louisiana institution (higher ed or industry) in the Alliance. Entry coordinated by ODSA and AI Faculty Fellows program with President Tate's backing. Significant because most Alliance members are AAU institutions, reinforcing Tate's AAU aspiration narrative."
+    },
+    {
+      "title": "Faculty Fellows AI projects including DFW reduction tool and academic advising AI",
+      "amount_usd": null,
+      "counterparty": "Internal (ODSA)",
+      "date": null,
+      "evidence_url": "https://www.lsu.edu/data/faculty-fellows/index.php",
+      "summary": "Ongoing Phase 2 implementation of AI/Data Analytics Faculty Fellows projects across three teams: Teaching and Learning, Student Success and Workforce Needs, and University Infrastructure and Facilities."
+    },
+    {
+      "title": "CS capstone with BASF and Entergy as industry AI sponsors",
+      "amount_usd": null,
+      "counterparty": "BASF; Entergy",
+      "date": null,
+      "evidence_url": "https://www.lsu.edu/blog/2026/03/vts-eng-ai.php",
+      "summary": "CS 4700 / Honors 3025 pairs engineering students with business students to build AI solutions on industry-submitted problems."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "William F. Tate IV",
+      "role": "LSU President (through June 2025; now Rutgers)",
+      "date": "2024-12",
+      "context": "LSU joining the AI Alliance; Tate repeatedly tied AI growth to LSU's Top-50 / AAU aspiration",
+      "quote_or_summary": "\"We are honored to join the AI Alliance and to stand at the forefront of artificial intelligence research and education.\" Tate publicly framed AI investment as core to LSU's Top-50 research and AAU membership goals; research spending grew to a record $543M in FY23-24 under his tenure.",
+      "evidence_url": "https://www.lsu.edu/mediacenter/news/2024/12/11_ai_alliance.php"
+    },
+    {
+      "speaker": "Keena Arbuthnot",
+      "role": "VP and Chief Data Officer, LSU",
+      "date": "2024-12",
+      "context": "AI Alliance announcement",
+      "quote_or_summary": "Called Alliance membership \"a remarkable opportunity for LSU to collaborate with like-minded institutions and organizations, all committed to shaping the future of AI.\"",
+      "evidence_url": "https://www.lsu.edu/mediacenter/news/2024/12/11_ai_alliance.php"
+    },
+    {
+      "speaker": "James Dalton",
+      "role": "Executive VP, LSU System & Chancellor, A&M Campus",
+      "date": "2025-11",
+      "context": "New leadership structure announcement; focus on research excellence and AAU eligibility",
+      "quote_or_summary": "\"I don't think about AAU as an aspiration as much as I think about the qualities of an AAU institution as the aspiration.\" Dalton brings experience from Alabama where sponsored research grew 60%.",
+      "evidence_url": "https://lsureveille.com/274603/news/lsu-chancellor-james-dalton-research-goals-wade-rousse/"
+    },
+    {
+      "speaker": "Troy Blanchard",
+      "role": "Interim Provost, LSU",
+      "date": "2026-03",
+      "context": "Launch of Louisiana's first BS in AI",
+      "quote_or_summary": "\"We've built an excellent program that will help students create accurate, reliable, efficient, and safe AI solutions.\"",
+      "evidence_url": "https://www.lsu.edu/mediacenter/news/2026/03/27_lsu_launches_first_bs_in_ai.php"
+    },
+    {
+      "speaker": "Ibrahim Baggili",
+      "role": "Chair, Division of Computer Science and Engineering, LSU",
+      "date": "2026-03",
+      "context": "BS in AI / AI Essentials dual enrollment",
+      "quote_or_summary": "Emphasized preparing \"the AI engineer of the future,\" distinguishing the program from superficial \"data science courses in disguise.\"",
+      "evidence_url": "https://www.lsu.edu/blog/2026/03/vts-eng-ai.php"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Louisiana",
+    "has_state_ai_executive_order": true,
+    "has_higher_ed_system_ai_policy": true,
+    "summary": "Two state-level actions directly bind LSU. (1) Board of Regents adopted a statewide postsecondary AI policy on Oct 22, 2025 covering responsible, ethical and secure AI use across public colleges and universities, with a companion resolution urging systems and institutions (including LSU) to develop conforming institutional policies. Commissioner Kim Hunter Reed framed it around cybersecurity and knowledge development. (2) Governor Jeff Landry's Executive Order JML 25-103 (signed Oct 13, 2025, amending an earlier Aug 2025 EO) bans Chinese Communist Party-linked AI platforms (DeepSeek specifically named) from state schools, colleges, universities and agencies, and extended a freeze on new AI procurement by state entities through Dec 15, 2025, requiring approval for new AI acquisitions during that window.",
+    "evidence_urls": [
+      "https://www.laregents.edu/news/102225release/",
+      "https://gov.louisiana.gov/news/4960",
+      "https://gov.louisiana.gov/assets/ExecutiveOrders/2025/JML-Exective-Order-25-103.pdf",
+      "https://houmatimes.com/news/governor-landry-issues-executive-order-banning-some-ai-platforms-from-schools-universities-and-state-agencies/",
+      "https://pelicanpolicy.org/technology-innovation/understanding-the-state-governments-use-of-ai-executive-order/"
+    ]
+  },
+  "litigation_or_controversy": [
+    {
+      "date": "2026-01",
+      "summary": "Surge in AI-cheating allegations at LSU. Fall 2025 saw 1,488 academic misconduct cases filed; 693 still open as of Jan 14, 2026. Students report scholarships on the line over false positives from Turnitin's AI detector; LSU acknowledges the tool produces both false positives and negatives. Student Alliance for AI Regulation (SAFAR) and Student Government AI Task Force have organized in response. Faculty can escalate based solely on a Turnitin percentage without informal resolution.",
+      "status": "active",
+      "evidence_url": "https://www.wafb.com/2026/01/22/we-all-know-someone-lsu-students-organize-combat-false-ai-allegations/"
+    },
+    {
+      "date": "2025-06",
+      "summary": "President William F. Tate IV departed LSU for the presidency of Rutgers (an AAU institution), citing a desire to return to an AAU environment. This disrupted continuity of LSU's AI-forward AAU aspiration narrative; interim President Matt Lee served until Wade Rousse was named LSU System President Nov 4, 2025 with James Dalton as chancellor.",
+      "status": "resolved",
+      "evidence_url": "https://lsureveille.com/257822/news/administration/lsu-president-tate-leaving-university-for-same-job-at-rutgers/"
+    }
+  ],
+  "narrative_summary": "LSU is one of the more AI-forward SEC/SREB peers despite not being an AAU member. Under departed president William F. Tate IV, LSU explicitly fused its Top-50 research and AAU aspirations to AI investment, and in Dec 2024 became the only Louisiana institution (academic or industry) admitted to the IBM/Meta-led AI Alliance. Operational leadership sits with VP & Chief Data Officer Keena Arbuthnot and the Office of Data and Strategic Analytics (ODSA), which runs an AI/Data Analytics Faculty Fellows program focused on DFW-rate reduction, advising, and workforce analytics. LSU built its own RAG-style assistant, MikeGPT, on OpenAI via Microsoft Azure, indexed against 35,000 LSU documents; CIO Craig Woolley leads ITS support. Academically, LSU launched Louisiana's first BS in AI (approved March 2026, enrolling Fall 2026) plus a Digital Twin certificate, an online MS CS AI track, and a Fall 2026 'AI Essentials' dual-enrollment course for high schoolers. Formal academic policy is thin: the Faculty Senate GAI Committee's Fall 2025 guidelines set course-level instructor discretion, but there is no universal student policy, no Chief AI Officer, and a growing academic-integrity controversy with 1,488 fall 2025 misconduct cases pressuring both Turnitin-based detection and adjudication capacity. State context is restrictive: Board of Regents adopted a postsecondary AI policy Oct 22, 2025, and Gov. Landry's EO JML 25-103 bans Chinese AI platforms (DeepSeek) and froze state AI procurement through Dec 15, 2025. New LSU System President Wade Rousse and Chancellor James Dalton (from Alabama, strong research-growth track record) took over in late 2025 and are expected to continue the AAU-via-AI framing.",
+  "confidence_notes": "HIGH confidence on: AI Alliance membership, MikeGPT deployment, BS in AI approval/launch, state EO and Board of Regents policy, Faculty Senate GAI guidelines, misconduct controversy. MEDIUM confidence on: exact enrollment (publicly quoted figures vary between ~34K undergrad and ~40K total; used 40,937 approx based on Wikipedia/IPEDS-scale fall 2025 references but this should be verified against lsu.edu/data). LOW confidence / gaps: no public MikeGPT user-count metrics; no confirmed Microsoft Copilot or ChatGPT Edu or Claude for Education enterprise tenant disclosure for LSU; no named Chief AI Officer (role does not appear to exist); no published dollar amounts for AI-specific investments; Faculty Senate committee adoption date of guidelines is inferred from Dec 15 deadline and publication as 'Fall 2025' guidelines. PDF text of JML 25-103 and the Fall 2025 GAI guidelines could not be parsed directly via WebFetch; summaries rely on official news releases and Reveille coverage.",
+  "sources": [
+    "https://www.lsu.edu/mediacenter/news/2024/12/11_ai_alliance.php",
+    "https://www.klax-tv.com/news/lsu-joins-prestigious-ai-alliance/article_dbd0c17a-b7d2-11ef-8e56-1b8cde03b747.html",
+    "https://www.businessreport.com/article/the-elite-ai-alliance-has-a-new-member-and-theyre-from-louisiana",
+    "https://www.lsu.edu/blog/2025/02/mikegpt_lsu_aitool.php",
+    "https://lsureveille.com/242030/news/lsu-launches-ai-assistant-mikegpt-for-university-faculty-and-students/",
+    "https://lailluminator.com/2024/12/09/lsu-launches-ai-assistant-for-university-employees/",
+    "https://www.lsu.edu/mediacenter/news/2026/03/27_lsu_launches_first_bs_in_ai.php",
+    "https://lsureveille.com/280661/news/lsu-ai-degree-coming-in-fall/",
+    "https://lsureveille.com/279464/news/louisiana-board-of-regents-approves-ai-degree-at-lsu-name-change-for-college-of-music-dramatic-arts/",
+    "https://www.axios.com/local/new-orleans/2026/03/25/lsu-adds-ai-degree-to-keep-up-with-job-market-demand",
+    "https://www.govtech.com/education/higher-ed/lsu-launches-ai-bachelors-program-3-year-degree-track",
+    "https://www.lsu.edu/blog/2026/03/vts-eng-ai.php",
+    "https://www.lsu.edu/data/faculty-fellows/index.php",
+    "https://www.lsu.edu/data/project-initiatives/index.php",
+    "https://www.lsu.edu/data/about/vice-president.php",
+    "https://www.lsu.edu/mediacenter/news/2023/06/19_keena_arbuthnot_vp_chiefdataofficer.php",
+    "https://www.lsu.edu/ai/index.php",
+    "https://www.lsu.edu/ai/experts/index.php",
+    "https://www.lsu.edu/senate/standing-committees/gai_committee.php",
+    "https://www.lsu.edu/senate/standing-committees/gai_committee/2025_2026ay/gai_guidelines_fall2025.pdf",
+    "https://facultysupport.lsu.edu/resources/generative-ai-resources-for-online-teaching-and-learning/",
+    "https://lsureveille.com/271864/news/faculty-senate-wraps-semester-with-updates-on-ai-policy-and-grad-admissions/",
+    "https://gradpilot.com/ai-policies/louisiana-state-university",
+    "https://www.laregents.edu/news/102225release/",
+    "https://gov.louisiana.gov/news/4960",
+    "https://gov.louisiana.gov/assets/ExecutiveOrders/2025/JML-Exective-Order-25-103.pdf",
+    "https://houmatimes.com/news/governor-landry-issues-executive-order-banning-some-ai-platforms-from-schools-universities-and-state-agencies/",
+    "https://pelicanpolicy.org/technology-innovation/understanding-the-state-governments-use-of-ai-executive-order/",
+    "https://www.klfy.com/louisiana/gov-jeff-landry-restricts-states-ai-use-amid-spying-concerns/",
+    "https://www.lsu.edu/its/units/cio.php",
+    "https://www.lsu.edu/its/units/it-governance/membership.php",
+    "https://www.lsu.edu/administration/orgchart.php",
+    "https://www.lsu.edu/president/senior-leadership.php",
+    "https://lsureveille.com/274603/news/lsu-chancellor-james-dalton-research-goals-wade-rousse/",
+    "https://www.lsuhsc.edu/news/wade_rouse_named_lsu_president.aspx",
+    "https://www.insidehighered.com/news/quick-takes/2025/11/05/new-presidents-hampshire-georgetown-lsu-and-more",
+    "https://www.wafb.com/2026/01/22/we-all-know-someone-lsu-students-organize-combat-false-ai-allegations/",
+    "https://www.wafb.com/2026/01/14/lsu-students-face-mounting-ai-cheating-allegations-detection-technology-creates-campus-controversy/",
+    "https://lsureveille.com/279801/news/heres-how-lsu-student-governments-ai-taskforce-is-addressing-ai-misuse-cases-on-campus/",
+    "https://afrotech.com/lsu-students-face-mounting-ai-cheating-allegations",
+    "https://lailluminator.com/2023/08/29/lsu-leaders-embrace-artificial-intelligence-but-students-increasingly-face-discipline-for-using-it/",
+    "https://lsureveille.com/257822/news/administration/lsu-president-tate-leaving-university-for-same-job-at-rutgers/",
+    "https://www.nola.com/opinions/bill-tate-lsu-president-nil-dei-campus-construction/article_70c7fdbe-90b6-11ef-9912-eb2fc5fad2d0.html"
+  ],
+  "researched_on": "2026-04-16"
+}
