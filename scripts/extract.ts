@@ -33,6 +33,7 @@ const MAX_TURNS = 1; // Single-turn: prompt in, JSON out
 const STAGE = "extracted";
 const MAX_RETRIES = 2;
 const RETRY_DELAY_MS = 5_000;
+const CONCURRENCY = 5;
 
 // ---------------------------------------------------------------------------
 // Load the extraction prompt template
@@ -302,11 +303,13 @@ export async function runExtraction(
   let totalInsights = 0;
   let successCount = 0;
   let failCount = 0;
+  let completed = 0;
 
-  for (const update of toProcess) {
+  async function processOne(update: (typeof toProcess)[number]) {
     const date = new Date(update.timestamp_ms).toISOString().slice(0, 10);
+    const idx = ++completed;
     console.log(
-      `[extract] Processing ${update.update_id} (${date}) [${successCount + failCount + 1}/${toProcess.length}]`
+      `[extract] Processing ${update.update_id} (${date}) [${idx}/${toProcess.length}]`
     );
 
     let lastError: Error | null = null;
@@ -314,20 +317,20 @@ export async function runExtraction(
     for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
       try {
         if (attempt > 0) {
-          console.log(`[extract]   Retry ${attempt}/${MAX_RETRIES}...`);
+          console.log(`[extract]   Retry ${attempt}/${MAX_RETRIES} for ${update.update_id}...`);
           await sleep(RETRY_DELAY_MS * attempt);
         }
 
         const count = await extractUpdate(systemPrompt, update.update_id);
         totalInsights += count;
         successCount++;
-        console.log(`[extract]   Extracted ${count} insights`);
+        console.log(`[extract]   Extracted ${count} insights from ${update.update_id}`);
         lastError = null;
         break;
       } catch (err) {
         lastError = err instanceof Error ? err : new Error(String(err));
         console.error(
-          `[extract]   Error (attempt ${attempt + 1}): ${lastError.message}`
+          `[extract]   Error (attempt ${attempt + 1}) for ${update.update_id}: ${lastError.message}`
         );
       }
     }
@@ -339,6 +342,12 @@ export async function runExtraction(
         `[extract]   FAILED after ${MAX_RETRIES + 1} attempts: ${update.update_id}`
       );
     }
+  }
+
+  // Process in batches of CONCURRENCY
+  for (let i = 0; i < toProcess.length; i += CONCURRENCY) {
+    const batch = toProcess.slice(i, i + CONCURRENCY);
+    await Promise.all(batch.map(processOne));
   }
 
   console.log(
@@ -378,7 +387,9 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-main().catch((err) => {
-  console.error("[extract] Fatal error:", err);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error("[extract] Fatal error:", err);
+    process.exit(1);
+  });
+}

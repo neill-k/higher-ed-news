@@ -1,270 +1,370 @@
-import { getScoutDashboardData } from "@/lib/yutori";
-import { Sidebar } from "@/components/sidebar";
-import { KpiCard } from "@/components/kpi-card";
-import { HorizontalBarChart } from "@/components/horizontal-bar";
+import {
+  BAN,
+  Callout,
+  cx,
+  EmptyReportState,
+  Exhibit,
+  PeerChip,
+  ReportPage,
+  SourceLink,
+} from "@/components/report-page";
+import {
+  ANCHOR_SLUG,
+  countActiveLitigation,
+  countWithChiefAIOfficer,
+  countWithPolicy,
+  filterByTier,
+  getPeerProfiles,
+  recentLeadershipStatements,
+  totalAcademicPrograms,
+  totalVendorDeployments,
+} from "@/lib/peer-data";
+import {
+  formatCompactNumber,
+  formatCurrencyCompact,
+  getReportDataset,
+} from "@/lib/report-data";
+
+function formatMonthYear(value: string | null) {
+  if (!value) return "";
+  const [year, month] = value.split("-");
+  if (!year || !month) return value;
+  const date = new Date(Number(year), Number(month) - 1, 1);
+  return new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric" }).format(date);
+}
 
 export default async function DashboardOverview() {
-  const data = await getScoutDashboardData();
+  const [dataset, peers] = await Promise.all([getReportDataset(), getPeerProfiles()]);
 
-  // Derive leadership-relevant metrics
-  const totalInitiatives = data.totals.initiatives;
-  const totalInstitutions = data.totals.institutions;
-  const totalGeographies = data.totals.geographies;
-  const topCategory = data.categoryBreakdown[0];
+  if (!dataset) {
+    return (
+      <ReportPage title="Executive briefing" subtitle="Run the pipeline to generate the briefing.">
+        <EmptyReportState />
+      </ReportPage>
+    );
+  }
 
-  // Get the most recent update for the "signal" callout
-  const latestUpdate = data.updates[0];
+  const anchor = peers.find((peer) => peer.slug === ANCHOR_SLUG) ?? null;
+  const secPeers = filterByTier(peers, "sec");
+  const nonAnchorPeers = secPeers.filter((peer) => peer.slug !== ANCHOR_SLUG);
 
-  // Flatten recent initiatives across updates for the table
-  const recentInitiatives = data.updates
-    .flatMap((u) =>
-      u.initiatives.map((init) => ({
-        institution: init.institution,
-        title: init.title,
-        description: init.description,
-        categories: init.categories,
-        date: new Date(u.timestamp).toLocaleDateString("en-US", {
-          month: "short",
-          day: "numeric",
-        }),
-      }))
-    )
-    .slice(0, 10);
+  const policyRate = Math.round((countWithPolicy(secPeers) / secPeers.length) * 100);
+  const policyRatePeers = Math.round(
+    (countWithPolicy(nonAnchorPeers) / nonAnchorPeers.length) * 100,
+  );
+  const chiefAIOfficers = countWithChiefAIOfficer(secPeers);
+  const chiefAIOfficerPeers = countWithChiefAIOfficer(nonAnchorPeers);
+  const totalPrograms = totalAcademicPrograms(secPeers);
+  const anchorPrograms = anchor ? anchor.ai_academic_programs.length : 0;
+  const totalDeployments = totalVendorDeployments(secPeers);
+  const activeLitigation = countActiveLitigation(secPeers);
 
-  // Compute week-over-week pace
-  const recentUpdates = data.updates.slice(0, 7);
-  const avgInitiativesPerWeek =
-    recentUpdates.length > 0
-      ? Math.round(
-          recentUpdates.reduce((s, u) => s + u.initiativeCount, 0) /
-            Math.max(recentUpdates.length / 7, 1)
-        )
-      : 0;
+  const { data, insights, investments, institutions, dateRange } = dataset;
+  const totalInvestment = investments.reduce((sum, deal) => sum + deal.amountUsd, 0);
+  const updateCount = data.metadata.updateCount;
+  const generatedLabel = new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    year: "numeric",
+  }).format(new Date(data.metadata.generatedAt));
+
+  // Honest daily-rate change (replaces the misleading "momentum lift" metric)
+  const windowDays =
+    (dateRange.end.getTime() - dateRange.start.getTime()) / (1000 * 60 * 60 * 24);
+  const midDay = windowDays / 2;
+  const firstHalfDays = Math.max(1, midDay);
+  const secondHalfDays = Math.max(1, windowDays - midDay);
+  const earlyInsights = insights.filter(
+    (insight) => new Date(insight.date).getTime() < dateRange.midpoint,
+  );
+  const lateInsights = insights.filter(
+    (insight) => new Date(insight.date).getTime() >= dateRange.midpoint,
+  );
+  const earlyRate = earlyInsights.length / firstHalfDays;
+  const lateRate = lateInsights.length / secondHalfDays;
+  const dailyRateLift = earlyRate > 0 ? lateRate / earlyRate : 1;
+
+  const peerStatements = recentLeadershipStatements(secPeers, 6);
+  const recentTrend = data.trends[0];
+  const recentTension = data.tensions[0];
+
+  // "This week at peers" — gather the most recent statements + deals across SEC peers.
+  const weeklyItems = [
+    ...peers.flatMap((peer) =>
+      peer.notable_deals_investments
+        .filter((deal) => deal.date)
+        .map((deal) => ({
+          kind: "deal" as const,
+          institution: peer.institution,
+          slug: peer.slug,
+          title: deal.title,
+          date: deal.date,
+          summary: deal.summary,
+          href: deal.evidence_url,
+        })),
+    ),
+    ...peers.flatMap((peer) =>
+      peer.leadership_statements
+        .filter((statement) => statement.date)
+        .map((statement) => ({
+          kind: "statement" as const,
+          institution: peer.institution,
+          slug: peer.slug,
+          title: `${statement.speaker} — ${statement.context}`,
+          date: statement.date,
+          summary: statement.quote_or_summary,
+          href: statement.evidence_url,
+        })),
+    ),
+  ]
+    .sort((left, right) => (right.date ?? "").localeCompare(left.date ?? ""))
+    .slice(0, 8);
 
   return (
-    <div className="flex h-full w-full">
-      <Sidebar />
+    <ReportPage
+      eyebrow="LSU CIO Briefing"
+      title="Executive briefing"
+      subtitle={`Peer AI intelligence across ${secPeers.length} SEC institutions, cross-referenced against ${formatCompactNumber(institutions.length)} tracked institutions globally and ${data.metadata.updateCount} update bundles — ${generatedLabel}.`}
+      actionHref="/api/report?format=markdown"
+      actionLabel="Export report"
+    >
+      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+        <BAN
+          label="SEC peers with a published AI policy"
+          value={`${policyRate}%`}
+          definition={`${countWithPolicy(secPeers)} of ${secPeers.length} institutions`}
+          comparator={
+            anchor
+              ? `LSU: ${anchor.ai_policy.has_published_policy ? "yes — Faculty Senate GAI guidelines, Fall 2025" : "no published policy"}. Peer rate excluding LSU: ${policyRatePeers}%.`
+              : undefined
+          }
+        />
+        <BAN
+          label="SEC peers with a dedicated AI leadership role"
+          value={`${chiefAIOfficers} / ${secPeers.length}`}
+          tone="danger"
+          definition={chiefAIOfficers === 0 ? "none publicly named" : `${chiefAIOfficerPeers} excluding LSU`}
+          comparator="No SEC peer has appointed a Chief AI Officer. The CIO question is whether to lead the SEC by doing so."
+        />
+        <BAN
+          label="Tracked capital in AI signals (global)"
+          value={formatCurrencyCompact(totalInvestment)}
+          tone="neutral"
+          definition={`${investments.length} disclosed deals`}
+          comparator={`Only 10.5% of ${insights.length} insights disclose a dollar amount — this is the floor, not the ceiling.`}
+        />
+        <BAN
+          label="Active AI-related controversies at SEC peers"
+          value={`${activeLitigation}`}
+          tone="danger"
+          definition={activeLitigation === 1 ? "1 school with live exposure" : `${activeLitigation} schools`}
+          comparator={
+            anchor && anchor.litigation_or_controversy.some((c) => c.status === "active")
+              ? "Includes LSU — 1,488 Fall 2025 academic misconduct cases with Turnitin detection controversy."
+              : undefined
+          }
+        />
+      </div>
 
-      <main className="flex-1 overflow-y-auto bg-[var(--background)]">
-        <div className="max-w-[1100px] mx-auto px-8 py-8">
-          {/* Header */}
-          <div className="flex items-start justify-between mb-6">
-            <div>
-              <h1 className="text-[22px] font-bold text-[var(--foreground)]">
-                AI in Higher Education
-              </h1>
-              <p className="text-sm text-[var(--muted-foreground)] mt-1">
-                Strategic intelligence briefing {"\u2014"}{" "}
-                {new Date().toLocaleDateString("en-US", {
-                  month: "long",
-                  year: "numeric",
-                })}
-              </p>
-            </div>
-          </div>
-
-          {/* Signal callout */}
-          {latestUpdate && (
-            <div className="flex items-start gap-4 p-5 rounded-[var(--radius-xs)] bg-[#fdf8ed] border border-[#e8dbb8] mb-6">
-              <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[var(--chart-1)] text-white text-xs font-bold shrink-0 mt-0.5">
-                !
-              </div>
-              <div>
-                <div className="text-[11px] font-medium text-[var(--chart-5)] uppercase tracking-wider mb-1">
-                  Latest Signal
-                </div>
-                <div className="text-sm font-semibold text-[var(--foreground)]">
-                  {latestUpdate.title}
-                </div>
-                {latestUpdate.summary && (
-                  <p className="text-xs text-[var(--muted-foreground)] mt-1 leading-relaxed max-w-[700px]">
-                    {latestUpdate.summary.slice(0, 200)}
-                    {latestUpdate.summary.length > 200 ? "..." : ""}
-                  </p>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* KPI Row */}
-          <div className="flex gap-4 mb-8">
-            <KpiCard
-              label="Institutions Making AI Moves"
-              value={String(totalInstitutions)}
-              trend={`across ${totalGeographies} countries`}
-              trendUp
-            />
-            <KpiCard
-              label="Initiatives Tracked"
-              value={String(totalInitiatives)}
-              trend={`~${avgInitiativesPerWeek}/week pace`}
-              trendUp
-            />
-            <KpiCard
-              label="Top Initiative Type"
-              value={topCategory?.label ?? "N/A"}
-              trend={`${topCategory?.value ?? 0} occurrences`}
-              trendUp
-            />
-            <KpiCard
-              label="Geographic Reach"
-              value={`${totalGeographies}`}
-              trend="countries & regions"
-              trendUp
-            />
-          </div>
-
-          {/* Two-column: Categories + Recent Headlines */}
-          <div className="flex gap-6 mb-8">
-            {/* Where the activity is */}
-            <div className="flex-1 p-6 rounded-[var(--radius-m)] bg-[var(--tile)]">
-              <h2 className="text-sm font-semibold text-[var(--foreground)] mb-1">
-                Where the Activity Is
-              </h2>
-              <p className="text-[11px] text-[var(--muted-foreground)] mb-5">
-                Initiative types across all tracked reports
-              </p>
-              <HorizontalBarChart items={data.categoryBreakdown} />
-            </div>
-
-            {/* Recent headlines */}
-            <div className="flex-1 p-6 rounded-[var(--radius-m)] bg-[var(--tile)]">
-              <h2 className="text-sm font-semibold text-[var(--foreground)] mb-1">
-                Recent Headlines
-              </h2>
-              <p className="text-[11px] text-[var(--muted-foreground)] mb-5">
-                Latest developments from the field
-              </p>
-              <ul className="flex flex-col gap-3">
-                {data.updates.slice(0, 5).map((update) => (
-                  <li
-                    key={update.id}
-                    className="flex gap-2 text-xs leading-relaxed"
-                  >
-                    <span className="text-[var(--chart-1)] mt-0.5 shrink-0">
-                      {"\u2022"}
-                    </span>
-                    <div>
-                      <span className="font-medium text-[var(--foreground)]">
-                        {update.title}
-                      </span>
-                      <span className="text-[var(--muted-foreground)] ml-1">
-                        {"\u2014"}{" "}
-                        {update.initiativeCount} initiative
-                        {update.initiativeCount !== 1 ? "s" : ""} across{" "}
-                        {update.institutionCount} institution
-                        {update.institutionCount !== 1 ? "s" : ""}
-                      </span>
-                    </div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          {/* Pace of change timeline */}
-          <div className="p-6 rounded-[var(--radius-m)] bg-[var(--tile)] mb-8">
-            <h2 className="text-sm font-semibold text-[var(--foreground)] mb-1">
-              Pace of Change
-            </h2>
-            <p className="text-[11px] text-[var(--muted-foreground)] mb-5">
-              New initiatives per reporting period
-            </p>
-            <div className="flex items-end gap-2 h-[120px]">
-              {data.timeline.map((point) => {
-                const maxVal = Math.max(
-                  ...data.timeline.map((p) => p.value),
-                  1
-                );
-                const heightPct = Math.round((point.value / maxVal) * 100);
-                return (
-                  <div
-                    key={point.label}
-                    className="flex flex-col items-center gap-1 flex-1"
-                  >
-                    <span className="text-[10px] font-medium text-[var(--foreground)] tabular-nums">
-                      {point.value}
-                    </span>
-                    <div
-                      className="w-full bg-[var(--chart-1)] rounded-t-[3px] transition-all min-h-[4px]"
-                      style={{ height: `${heightPct}%` }}
-                    />
-                    <span className="text-[10px] text-[var(--muted-foreground)]">
-                      {point.label}
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Recent Initiatives table */}
-          <div className="p-6 rounded-[var(--radius-m)] bg-[var(--tile)]">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h2 className="text-sm font-semibold text-[var(--foreground)]">
-                  Recent Initiatives
-                </h2>
-                <p className="text-[11px] text-[var(--muted-foreground)] mt-0.5">
-                  What peer institutions are doing right now
-                </p>
-              </div>
-            </div>
-            <div className="overflow-x-auto">
-              <table className="w-full text-xs">
-                <thead>
-                  <tr className="border-b border-[var(--border-light)]">
-                    <th className="text-left py-2 font-medium text-[var(--muted-foreground)]">
-                      Institution
-                    </th>
-                    <th className="text-left py-2 font-medium text-[var(--muted-foreground)]">
-                      Initiative
-                    </th>
-                    <th className="text-left py-2 font-medium text-[var(--muted-foreground)]">
-                      Type
-                    </th>
-                    <th className="text-left py-2 font-medium text-[var(--muted-foreground)]">
-                      Date
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {recentInitiatives.map((init, i) => (
+      <Exhibit
+        number="1"
+        title="Peer AI posture — the one-line read"
+        subtitle="Where each SEC peer stands on the four moves that matter: published policy, dedicated AI leadership, named vendor deployment, AI degree program."
+        source="SEC peer research team, primary-source verified"
+        n={secPeers.length}
+        asOf="April 2026"
+      >
+        <div className="overflow-x-auto">
+          <table className="min-w-full text-left text-sm">
+            <thead className="bg-[#f5f2e9] text-[10px] uppercase tracking-[0.16em] text-[#8c8782]">
+              <tr>
+                <th className="px-3 py-2.5 font-medium">Institution</th>
+                <th className="px-3 py-2.5 font-medium">Policy</th>
+                <th className="px-3 py-2.5 font-medium">AI leadership role</th>
+                <th className="px-3 py-2.5 font-medium">Vendor deployments</th>
+                <th className="px-3 py-2.5 font-medium">AI programs</th>
+                <th className="px-3 py-2.5 font-medium">Active issues</th>
+              </tr>
+            </thead>
+            <tbody>
+              {[...secPeers]
+                .sort((left, right) => {
+                  if (left.slug === ANCHOR_SLUG) return -1;
+                  if (right.slug === ANCHOR_SLUG) return 1;
+                  return left.institution.localeCompare(right.institution);
+                })
+                .map((peer) => {
+                  const deployments = peer.vendor_deployments.length;
+                  const programs = peer.ai_academic_programs.length;
+                  const active = peer.litigation_or_controversy.filter(
+                    (item) => item.status === "active",
+                  ).length;
+                  const isAnchor = peer.slug === ANCHOR_SLUG;
+                  return (
                     <tr
-                      key={`${init.institution}-${i}`}
-                      className="border-b border-[var(--border-light)] last:border-0"
+                      key={peer.slug}
+                      className={cx(
+                        "border-t border-[#ebe7dd]",
+                        isAnchor ? "bg-[#f5f2e9]" : "",
+                      )}
                     >
-                      <td className="py-2.5 pr-4 font-medium text-[var(--foreground)] whitespace-nowrap">
-                        {init.institution}
+                      <td className="px-3 py-2.5 text-[13px] font-medium text-[#2d2926]">
+                        <div className="flex items-center gap-2">
+                          <span>{peer.institution}</span>
+                          {isAnchor ? <PeerChip name="LSU" highlighted /> : null}
+                        </div>
                       </td>
-                      <td className="py-2.5 pr-4 text-[var(--foreground)] max-w-[300px]">
-                        {init.title}
-                        {init.description && (
-                          <span className="text-[var(--muted-foreground)]">
-                            {" \u2014 "}
-                            {init.description.slice(0, 80)}
-                            {init.description.length > 80 ? "..." : ""}
+                      <td className="px-3 py-2.5 text-[13px] text-[#5e5954]">
+                        {peer.ai_policy.has_published_policy ? "Published" : "None public"}
+                      </td>
+                      <td className="px-3 py-2.5 text-[13px] text-[#5e5954]">
+                        {peer.system_leadership.chief_ai_officer ??
+                          (peer.system_leadership.has_dedicated_ai_role ? "Yes (distributed)" : "No")}
+                      </td>
+                      <td className="px-3 py-2.5 text-[13px] text-[#5e5954] tabular">
+                        {deployments}
+                      </td>
+                      <td className="px-3 py-2.5 text-[13px] text-[#5e5954] tabular">{programs}</td>
+                      <td className="px-3 py-2.5 text-[13px] text-[#5e5954]">
+                        {active > 0 ? (
+                          <span className="inline-flex rounded-full bg-[#f8d8d2] px-2 py-0.5 text-[11px] font-medium text-[#9b3727]">
+                            {active} active
                           </span>
+                        ) : (
+                          <span className="text-[#8c8782]">—</span>
                         )}
-                      </td>
-                      <td className="py-2.5 pr-4 whitespace-nowrap">
-                        {init.categories[0] && (
-                          <span className="inline-block px-2 py-0.5 rounded-full text-[10px] font-medium bg-[var(--muted)] text-[var(--muted-foreground)]">
-                            {init.categories[0]}
-                          </span>
-                        )}
-                      </td>
-                      <td className="py-2.5 text-[var(--muted-foreground)] whitespace-nowrap">
-                        {init.date}
                       </td>
                     </tr>
-                  ))}
-                </tbody>
-              </table>
+                  );
+                })}
+            </tbody>
+          </table>
+        </div>
+      </Exhibit>
+
+      <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
+        <Exhibit
+          number="2"
+          title="Recent moves across SEC peers"
+          subtitle="Deals and leadership statements, most recent first. Each links to its primary source."
+          source="Peer research team"
+          n={weeklyItems.length}
+        >
+          <ol className="space-y-4">
+            {weeklyItems.map((item) => (
+              <li
+                className="flex gap-4 border-b border-[#ebe7dd] pb-3 last:border-none last:pb-0"
+                key={`${item.slug}-${item.title}`}
+              >
+                <div className="w-24 shrink-0 text-[11px] font-medium uppercase tracking-[0.14em] text-[#8c8782]">
+                  {formatMonthYear(item.date)}
+                </div>
+                <div className="min-w-0 flex-1 space-y-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="text-[13px] font-medium text-[#2d2926]">
+                      {item.institution}
+                    </span>
+                    <span className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
+                      {item.kind === "deal" ? "Deal / partnership" : "Leadership"}
+                    </span>
+                  </div>
+                  <div className="text-[13px] leading-[1.55] text-[#2d2926]">{item.title}</div>
+                  <p className="text-[12px] leading-[1.55] text-[#5e5954]">{item.summary}</p>
+                  {item.href ? <SourceLink href={item.href} /> : null}
+                </div>
+              </li>
+            ))}
+          </ol>
+        </Exhibit>
+
+        <div className="flex flex-col gap-5">
+          <Exhibit
+            number="3"
+            title="Where LSU stands, in one view"
+            subtitle="Anchored on the four measures above."
+          >
+            {anchor ? (
+              <div className="space-y-4 text-[13px] leading-[1.6] text-[#2d2926]">
+                <div>
+                  <div className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
+                    Policy
+                  </div>
+                  <div>{anchor.ai_policy.summary}</div>
+                </div>
+                <div>
+                  <div className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
+                    Vendor posture
+                  </div>
+                  <div>
+                    {anchor.vendor_deployments
+                      .map((deploy) => `${deploy.product} (${deploy.scope})`)
+                      .join("; ")}
+                  </div>
+                </div>
+                <div>
+                  <div className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
+                    Governance
+                  </div>
+                  <div>{anchor.governance_structure.notes}</div>
+                </div>
+              </div>
+            ) : (
+              <p className="text-[13px] text-[#5e5954]">LSU profile not available.</p>
+            )}
+          </Exhibit>
+
+          <Callout kind="action">
+            The CIO has two moves the rest of the SEC has not yet made: (1) name a Chief AI
+            Officer or formalize ODSA's AI remit, and (2) convert the Faculty Senate Fall 2025 GAI
+            guidelines into a board-approved university-wide policy before the Dec 2026 accreditation
+            cycle. Either one alone would put LSU ahead of the SEC median.
+          </Callout>
+        </div>
+      </div>
+
+      <Exhibit
+        number="4"
+        title={`Signal volume rose ${dailyRateLift.toFixed(2)}× between the first and second halves of the window`}
+        subtitle={`Computed from daily insight-reporting rates. First half: ${earlyRate.toFixed(1)} insights/day over ~${Math.round(firstHalfDays)} days. Second half: ${lateRate.toFixed(1)}/day over ~${Math.round(secondHalfDays)} days. This is a 4-month window, not a durable trend.`}
+        source="report-data.json (pipeline output)"
+        n={insights.length}
+        caveat="Sparse early data inflates simple count ratios — the daily-rate ratio shown here is the honest comparison."
+      >
+        <div className="grid gap-3 md:grid-cols-3">
+          <div className="rounded-[12px] border border-[#ebe7dd] bg-[#fafaf6] p-4">
+            <div className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">Window</div>
+            <div className="mt-1 text-[14px] font-medium text-[#2d2926]">
+              {dateRange.start.toLocaleDateString()} → {dateRange.end.toLocaleDateString()}
+            </div>
+            <div className="mt-1 text-[11px] text-[#8c8782]">
+              {updateCount} update bundles · {insights.length} insights
             </div>
           </div>
+          {recentTrend ? (
+            <div className="rounded-[12px] border border-[#ebe7dd] bg-[#fafaf6] p-4">
+              <div className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
+                Lead trend
+              </div>
+              <div className="mt-1 text-[14px] font-medium text-[#2d2926]">{recentTrend.name}</div>
+              <p className="mt-1 line-clamp-4 text-[11px] leading-[1.5] text-[#5e5954]">
+                {recentTrend.narrative}
+              </p>
+            </div>
+          ) : null}
+          {recentTension ? (
+            <div className="rounded-[12px] border border-[#ebe7dd] bg-[#fafaf6] p-4">
+              <div className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
+                Sharpest tension
+              </div>
+              <div className="mt-1 text-[14px] font-medium text-[#2d2926]">
+                {recentTension.label}
+              </div>
+              <p className="mt-1 line-clamp-4 text-[11px] leading-[1.5] text-[#5e5954]">
+                {recentTension.description}
+              </p>
+            </div>
+          ) : null}
         </div>
-      </main>
-    </div>
+      </Exhibit>
+    </ReportPage>
   );
 }
