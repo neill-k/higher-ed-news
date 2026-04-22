@@ -52,6 +52,8 @@ export default async function DashboardOverview() {
   const chiefAIOfficers = countWithChiefAIOfficer(secPeers);
   const chiefAIOfficerPeers = countWithChiefAIOfficer(nonAnchorPeers);
   const activeLitigation = countActiveLitigation(secPeers);
+  const peersWithDeployments = secPeers.filter((peer) => peer.vendor_deployments.length > 0).length;
+  const peersWithPrograms = secPeers.filter((peer) => peer.ai_academic_programs.length > 0).length;
 
   const { data, insights, investments, institutions, dateRange } = dataset;
   const totalInvestment = investments.reduce((sum, deal) => sum + deal.amountUsd, 0);
@@ -158,6 +160,15 @@ export default async function DashboardOverview() {
         />
       </div>
 
+      <Callout kind="finding">
+        SEC baseline adoption is already here: {policyRate}% of peers have a published AI policy,
+        {peersWithDeployments} of {secPeers.length} show named vendor deployment, and{" "}
+        {peersWithPrograms} of {secPeers.length} have launched AI academic programs. The real
+        differentiator now is executive ownership. Only {chiefAIOfficers} of {secPeers.length} peers
+        show any dedicated AI leadership role, which is why LSU&rsquo;s biggest upside is turning current
+        activity into formal accountability before the rest of the conference does.
+      </Callout>
+
       <Exhibit
         number="1"
         title="Peer AI posture — the one-line read"
@@ -237,8 +248,8 @@ export default async function DashboardOverview() {
       <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
         <Exhibit
           number="2"
-          title="Recent moves across SEC peers"
-          subtitle="Deals and leadership statements, most recent first. Each links to its primary source."
+          title="What peers actually did, with named evidence"
+          subtitle="Concrete contracts, launches, and leadership statements from SEC peers. Every item links to a primary source so the section reads like evidence, not headlines."
           source="Peer research team"
           n={weeklyItems.length}
         >

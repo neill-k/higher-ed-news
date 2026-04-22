@@ -19,6 +19,7 @@ import {
   formatCategoryLabel,
   getReportDataset,
   percentOf,
+  type ReportInsight,
 } from "@/lib/report-data";
 
 const CATEGORY_KEYS = [
@@ -28,6 +29,57 @@ const CATEGORY_KEYS = [
   "student_experience_and_services",
   "enterprise_tools_and_infrastructure",
 ] as const;
+
+function uniqueValues(values: Array<string | null | undefined>) {
+  return [...new Set(values.filter((value): value is string => Boolean(value)))];
+}
+
+function firstSentence(text: string) {
+  const match = text.match(/.+?[.!?](?:\s|$)/);
+  return match ? match[0].trim() : text;
+}
+
+function formatDateLabel(value: string) {
+  const date = new Date(value);
+
+  if (Number.isNaN(date.getTime())) {
+    return value;
+  }
+
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  }).format(date);
+}
+
+function getTopCategoryLabels(breakdown: Record<string, number>, limit = 2) {
+  return Object.entries(breakdown)
+    .filter(([, count]) => count > 0)
+    .sort((left, right) => right[1] - left[1])
+    .slice(0, limit)
+    .map(([category]) => formatCategoryLabel(category));
+}
+
+function getRepresentativeInstitutions(relatedInsights: ReportInsight[], limit = 3) {
+  return uniqueValues(
+    relatedInsights.flatMap((insight) =>
+      insight.institutions
+        .map((institution) => institution.name)
+        .filter((name) => name && name.toLowerCase() !== "unknown"),
+    ),
+  ).slice(0, limit);
+}
+
+function getRepresentativeVendors(relatedInsights: ReportInsight[], limit = 2) {
+  return uniqueValues(
+    relatedInsights.flatMap((insight) =>
+      insight.toolsAndVendors
+        .map((tool) => tool.vendor)
+        .filter((vendor) => vendor && vendor.toLowerCase() !== "unknown"),
+    ),
+  ).slice(0, limit);
+}
 
 export default async function AdoptionPage() {
   const [dataset, peers] = await Promise.all([getReportDataset(), getPeerProfiles()]);
@@ -76,6 +128,7 @@ export default async function AdoptionPage() {
   const recentBundles = [...data.updateBundles]
     .sort((left, right) => right.timestamp - left.timestamp)
     .slice(0, 5);
+  const insightMap = new Map(insights.map((insight) => [insight.id, insight] as const));
 
   // Peer adoption benchmarks
   const withPolicy = secPeers.filter((peer) => peer.ai_policy.has_published_policy).length;
@@ -84,12 +137,53 @@ export default async function AdoptionPage() {
   const withCommittee = secPeers.filter((peer) => peer.governance_structure.committee_name).length;
   const totalDeployments = totalVendorDeployments(secPeers);
   const totalPrograms = totalAcademicPrograms(secPeers);
+  const bundleCards = recentBundles.map((bundle) => {
+    const topCategories = getTopCategoryLabels(bundle.categoryBreakdown);
+    const exampleInstitutions = getRepresentativeInstitutions(bundle.insights);
+    const exampleVendors = getRepresentativeVendors(bundle.insights);
+
+    return {
+      ...bundle,
+      topCategories,
+      exampleInstitutions,
+      exampleVendors,
+      whatMoved:
+        topCategories.length > 0
+          ? `${bundle.insights.length} signals concentrated in ${topCategories.join(" and ")}.`
+          : `${bundle.insights.length} signals across multiple categories.`,
+      whyItMatters:
+        bundle.trendSignals[0] ??
+        bundle.periodThemes[0] ??
+        firstSentence(bundle.periodSummary),
+      examples:
+        exampleInstitutions.length > 0
+          ? exampleInstitutions.join(", ")
+          : exampleVendors.join(", "),
+    };
+  });
+  const trendCards = data.trends.slice(0, 5).map((trend) => {
+    const relatedInsights = trend.insightIds
+      .map((insightId) => insightMap.get(insightId))
+      .filter((insight): insight is ReportInsight => Boolean(insight));
+    const exampleInstitutions = getRepresentativeInstitutions(relatedInsights);
+    const exampleVendors = getRepresentativeVendors(relatedInsights);
+    const watchItem =
+      relatedInsights.find((insight) => insight.policyImplications)?.policyImplications ??
+      firstSentence(trend.narrative);
+
+    return {
+      ...trend,
+      exampleInstitutions,
+      exampleVendors,
+      watchItem,
+    };
+  });
 
   return (
     <ReportPage
       eyebrow="LSU CIO Briefing"
       title="Adoption & trends"
-      subtitle="Two things the data can honestly support: what the SEC has adopted so far, and the week-by-week narrative of what institutions are announcing."
+      subtitle="This page answers two concrete questions: how far SEC peers have already gone, and which recent moves suggest the next baseline LSU will be judged against."
     >
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-4">
         <BAN
@@ -117,6 +211,14 @@ export default async function AdoptionPage() {
           tone="neutral"
         />
       </div>
+
+      <Callout kind="finding">
+        Baseline SEC adoption is already settled: {withDeployments} of {secPeers.length} peers have
+        named AI deployments, {withPrograms} of {secPeers.length} have AI programs, and{" "}
+        {withPolicy} of {secPeers.length} have a published policy. The useful question is no longer
+        whether campuses are adopting AI. It is which institutions are turning adoption into durable
+        governance, procurement discipline, and workforce advantage.
+      </Callout>
 
       <Exhibit
         number="A1"
@@ -180,30 +282,52 @@ export default async function AdoptionPage() {
       <div className="grid gap-6 xl:grid-cols-[minmax(0,1fr)_360px]">
         <Exhibit
           number="A3"
-          title="Week-by-week narrative — the five most recent update bundles"
-          subtitle="Each bundle summarises what moved that period. This is the analytical prose the pipeline generates; earlier pages discarded it."
+          title="What changed most recently, and why it matters"
+          subtitle="Each bundle answers three questions: what actually moved, where it showed up, and what institutional pattern it signals."
           source="Pipeline synthesis (updateBundles[].periodSummary)"
           n={data.updateBundles.length}
         >
           <ol className="space-y-4">
-            {recentBundles.map((bundle) => (
-              <li key={bundle.updateId} className="border-b border-[#ebe7dd] pb-3 last:border-none last:pb-0">
+            {bundleCards.map((bundle) => (
+              <li
+                key={bundle.updateId}
+                className="border-b border-[#ebe7dd] pb-3 last:border-none last:pb-0"
+              >
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-[13px] font-medium text-[#2d2926]">{bundle.periodTitle}</span>
                   <span className="text-[11px] uppercase tracking-[0.14em] text-[#8c8782]">
                     {bundle.periodRange}
                   </span>
                 </div>
+                <div className="mt-2 grid gap-2 md:grid-cols-2">
+                  <div className="rounded-[12px] border border-[#ebe7dd] bg-[#fafaf6] p-3">
+                    <div className="text-[10px] uppercase tracking-[0.14em] text-[#8c8782]">
+                      What moved
+                    </div>
+                    <div className="mt-1 text-[12.5px] leading-[1.55] text-[#2d2926]">
+                      {bundle.whatMoved}
+                    </div>
+                  </div>
+                  <div className="rounded-[12px] border border-[#ebe7dd] bg-[#fafaf6] p-3">
+                    <div className="text-[10px] uppercase tracking-[0.14em] text-[#8c8782]">
+                      Named examples
+                    </div>
+                    <div className="mt-1 text-[12.5px] leading-[1.55] text-[#2d2926]">
+                      {bundle.examples || "Examples are sparse in this bundle, but the pattern still appears in the source data."}
+                    </div>
+                  </div>
+                </div>
                 <p className="mt-1 text-[12.5px] leading-[1.6] text-[#2d2926]">
                   {bundle.periodSummary}
                 </p>
-                {bundle.periodThemes?.length ? (
-                  <div className="mt-2 flex flex-wrap gap-1.5">
-                    {bundle.periodThemes.slice(0, 5).map((theme) => (
-                      <PeerChip key={theme} name={theme} />
-                    ))}
+                <div className="mt-2 rounded-[12px] border border-[#ebe7dd] bg-[#fafaf6] p-3">
+                  <div className="text-[10px] uppercase tracking-[0.14em] text-[#8c8782]">
+                    Why it matters
                   </div>
-                ) : null}
+                  <p className="mt-1 text-[12px] leading-[1.6] text-[#5e5954]">
+                    {bundle.whyItMatters}
+                  </p>
+                </div>
               </li>
             ))}
           </ol>
@@ -211,13 +335,13 @@ export default async function AdoptionPage() {
 
         <Exhibit
           number="A4"
-          title="Trend narratives in full"
-          subtitle="Earlier pages showed only trend labels. The full analytical narrative is what makes each trend worth citing."
+          title="Trends worth a CIO read"
+          subtitle="Each pattern includes volume, recency, and representative institutions so the claim has a concrete anchor."
           source="Pipeline synthesis (data.trends[].narrative)"
           n={data.trends.length}
         >
           <ol className="space-y-3">
-            {data.trends.slice(0, 5).map((trend) => (
+            {trendCards.map((trend) => (
               <li key={trend.id} className="border-b border-[#ebe7dd] pb-3 last:border-none last:pb-0">
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-[13px] font-semibold text-[#2d2926]">{trend.name}</span>
@@ -233,10 +357,25 @@ export default async function AdoptionPage() {
                   >
                     {trend.direction}
                   </span>
+                  <span className="inline-flex rounded-full bg-[#f5f2e9] px-2 py-0.5 text-[11px] font-medium text-[#5e5954]">
+                    {trend.initiativeCount} signals
+                  </span>
                 </div>
-                <p className="mt-1 line-clamp-6 text-[12px] leading-[1.6] text-[#5e5954]">
-                  {trend.narrative}
-                </p>
+                <div className="mt-2 grid gap-2 text-[11px] text-[#8c8782] md:grid-cols-2">
+                  <div>
+                    Window: {formatDateLabel(trend.firstSeen)} to {formatDateLabel(trend.lastSeen)}
+                  </div>
+                  <div>Category: {formatCategoryLabel(trend.category)}</div>
+                  <div className="md:col-span-2">
+                    Examples:{" "}
+                    {trend.exampleInstitutions.length > 0
+                      ? trend.exampleInstitutions.join(", ")
+                      : trend.exampleVendors.length > 0
+                        ? trend.exampleVendors.join(", ")
+                        : "No clean representative institution names surfaced for this trend."}
+                  </div>
+                </div>
+                <p className="mt-2 text-[12px] leading-[1.6] text-[#5e5954]">{trend.watchItem}</p>
               </li>
             ))}
           </ol>
