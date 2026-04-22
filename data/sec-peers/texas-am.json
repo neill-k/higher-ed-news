@@ -1,0 +1,252 @@
+{
+  "institution": "Texas A&M University",
+  "slug": "texas-am",
+  "city_state": "College Station, TX",
+  "carnegie": "R1",
+  "aau_member": true,
+  "enrollment": 74000,
+  "lsu_peer_tiers": {
+    "sec": true,
+    "sreb_4yr_1": false,
+    "carnegie_land_grant": true,
+    "aau_aspirational": true
+  },
+  "system_leadership": {
+    "president_name": "Susan Ballabina (sole finalist, named April 14, 2026; prior president Mark A. Welsh III resigned September 2025)",
+    "cio_name": "Vince Kellen (Texas A&M System CIO, effective December 1, 2025; succeeded Mark Stone)",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://www.cyber.tamus.edu/policy/guidelines/ai/",
+      "https://ai.tamu.edu/teach-with-ai/use-guidelines-and-ethics.html",
+      "https://ai.tamu.edu/_files/_documents/tamu-cte-genai-syllabus-statement-considerations.pdf"
+    ],
+    "adopted_date": "2024-12",
+    "scope": ["faculty", "students", "staff", "research", "admin"],
+    "key_provisions": [
+      "System Regulation 29.01.05 covers all AI-related activities across system members",
+      "Data categorization required for AI inputs/outputs per A&M System data standard",
+      "Public AI tools prohibited for non-public/internal info (unpublished research, legal, HR)",
+      "Only contracted platforms with technical safeguards permitted for sensitive data",
+      "Bias auditing required on heavily-used AI platforms",
+      "Algorithmic discrimination prevention measures mandated for deployers",
+      "Plain-language transparency notifications required for AI-driven outcomes",
+      "Inventory/tracking of all AI-capable systems required",
+      "Classroom AI use left to faculty discretion; syllabus statement required"
+    ],
+    "summary": "Texas A&M System Regulation 29.01.05 (adopted Dec 10, 2024) establishes a system-wide AI framework requiring data categorization, restrictions on public AI tool use with non-public data, bias auditing, transparency, and system inventory. Classroom-level AI policy is intentionally decentralized to faculty, supported by a CTE-published syllabus statement template and university-wide guidelines on ethics, citation, privacy, and academic integrity."
+  },
+  "governance_structure": {
+    "committee_name": "Texas A&M AI Council (with Ethics and Governance Committee)",
+    "committee_url": "https://ai.tamu.edu/",
+    "committee_members_public": false,
+    "notes": "Texas A&M maintains a university AI Council including an ethics and governance subcommittee; philosophy professor Martin Peterson is a named member. Full roster is not publicly posted. System-level governance flows through the A&M System CIO office (formerly Mark Stone, now Vince Kellen as of Dec 2025) and the System cybersecurity policy office that owns Regulation 29.01.05."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Texas A&M System (multi-model gateway)",
+      "product": "TAMU AI Chat / TAMUS AI Chat (tamu.ai; chat.tamu.ai)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": [
+        "https://www.it.tamu.edu/services/services-by-category/communication-and-collaboration/tamu-ai-chat.html",
+        "https://tamus.ai/",
+        "https://service.tamu.edu/TDClient/36/Portal/KB/ArticleDet?ID=1300"
+      ],
+      "notes": "Secure multi-model chat platform (OpenAI GPT, Anthropic Claude Sonnet, Google Gemini) funded by the A&M System. NetID-gated, daily token allotment per user, sessions not used to train external models. Rolling out across 17+ System institutions; still labeled BETA as of research date."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini + NotebookLM + Google Career Certificates (Coursera)",
+      "scope": "campus-wide",
+      "user_count": 400,
+      "announced_date": "2025-09",
+      "evidence_urls": [
+        "https://www.highereddive.com/news/google-ai-initiative-texas-am/807899/",
+        "https://www.kbtx.com/2025/09/22/texas-am-university-launches-new-partnership-with-google-gemini/",
+        "https://www.it.tamu.edu/services/services-by-category/communication-and-collaboration/google-gemini.html"
+      ],
+      "notes": "Part of Google's 3-year, $1B national AI-in-higher-ed initiative. Two years of free access to paid Google tools. ~400 faculty received deeper training in October 2025; students received free training. Covers Gemini chatbot, NotebookLM research assistant, GitHub Copilot coding, and AI literacy/prompting Coursera certificates."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "OpenAI API (via System subscription)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-09",
+      "evidence_urls": [
+        "https://www.texastribune.org/2025/12/15/texas-universities-ai-course-audits/"
+      ],
+      "notes": "A&M System uses existing OpenAI subscription to audit course syllabi/descriptions across 12 universities. ~20 employees run hundreds of queries per semester against syllabi for curriculum compliance with state restrictions on race/gender content. Testing began Sept 2025."
+    },
+    {
+      "vendor": "Microsoft / GitHub",
+      "product": "GitHub Copilot",
+      "scope": "undisclosed",
+      "user_count": null,
+      "announced_date": "2025-09",
+      "evidence_urls": [
+        "https://www.highereddive.com/news/google-ai-initiative-texas-am/807899/"
+      ],
+      "notes": "GitHub Copilot for coding assistance offered as part of the Google partnership bundle."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "Master of Science in Artificial Intelligence (on-campus)",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://engineering.tamu.edu/cse/academics/degrees/graduate/ms-ai.html"
+    },
+    {
+      "program_type": "degree",
+      "name": "Online Master of Science in Artificial Intelligence",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://engineering.tamu.edu/cse/academics/degrees/graduate/online-degrees/online-ms-ai.html"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Artificial Intelligence and Machine Learning Certificate (CSE)",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://catalog.tamu.edu/graduate/colleges-schools-interdisciplinary/engineering/computer-science/artificial-intelligence-machine-learning-certificate/"
+    },
+    {
+      "program_type": "concentration",
+      "name": "PhD in Civil Engineering – Artificial Intelligence and Data Science track",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://engineering.tamu.edu/civil/academics/degrees/graduate/specialties/artificial-intelligene-and-data-science.html"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "NVIDIA DGX SuperPOD acquisition (via World Wide Technology)",
+      "amount_usd": 45000000,
+      "counterparty": "NVIDIA / World Wide Technology",
+      "date": "2025-02",
+      "evidence_url": "https://news.tamus.edu/texas-am-system-triples-supercomputing-capacity/",
+      "summary": "$45M investment in an NVIDIA DGX SuperPOD with DGX H200 systems and 760 Hopper GPUs, tripling A&M System supercomputing capacity. Positioned as one of the highest-performance AI supercomputers at any North American university; supports ML, generative AI, rendering, and scientific simulation. Includes NVIDIA Deep Learning Institute training."
+    },
+    {
+      "title": "Google $1B AI-in-higher-ed partnership (Texas A&M as participating institution)",
+      "amount_usd": null,
+      "counterparty": "Google",
+      "date": "2025-09",
+      "evidence_url": "https://www.highereddive.com/news/google-ai-initiative-texas-am/807899/",
+      "summary": "Texas A&M joined Google's three-year, $1B national initiative supporting AI education and workforce development at 200+ institutions. Two years of free access to paid Google AI tools, faculty training, and Career Certificates."
+    },
+    {
+      "title": "Texas A&M AI National Security Institute",
+      "amount_usd": null,
+      "counterparty": "Federal / Texas A&M System",
+      "date": null,
+      "evidence_url": "https://governmentrelations.tamu.edu/federal/ai-national-security-institute.html",
+      "summary": "Texas A&M Artificial Intelligence National Security Institute established as a federal-facing AI research priority; details in government relations materials."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "John Sharp",
+      "role": "Chancellor, Texas A&M University System",
+      "date": "2025-02",
+      "context": "NVIDIA DGX SuperPOD announcement",
+      "quote_or_summary": "\"This investment will triple our computing capacity, which will support the A&M System's growing research initiatives, particularly in areas such as machine learning, generative AI applications, graphics rendering and scientific simulations.\"",
+      "evidence_url": "https://news.tamus.edu/texas-am-system-triples-supercomputing-capacity/"
+    },
+    {
+      "speaker": "Shonda Gibson",
+      "role": "Chief Transformation Officer, Texas A&M System",
+      "date": "2025-09",
+      "context": "Google Gemini partnership launch",
+      "quote_or_summary": "\"It is our responsibility to teach students to use it ethically and effectively.\" Emphasized strategic, intentional implementation across the 12 A&M System institutions.",
+      "evidence_url": "https://www.highereddive.com/news/google-ai-initiative-texas-am/807899/"
+    },
+    {
+      "speaker": "Glenn Hegar",
+      "role": "Chancellor, Texas A&M University System",
+      "date": "2025-11",
+      "context": "Announcement naming Vince Kellen as System CIO",
+      "quote_or_summary": "Cited Kellen's \"proven track record leading AI and supercomputing projects\" as a key selection factor, signaling AI/HPC as a strategic System priority.",
+      "evidence_url": "https://news.tamus.edu/stories/vince-kellen-named-chief-information-officer-for-the-texas-am-university-system/"
+    },
+    {
+      "speaker": "Korry Castillo",
+      "role": "Chief Strategy Officer, Texas A&M System",
+      "date": "2025-12",
+      "context": "Internal commentary on AI-driven course audits",
+      "quote_or_summary": "\"Either the tool is learning from my previous queries, or we need to fine tune our requests.\" Acknowledged inconsistent results from OpenAI-powered syllabus audits across the System's 12 universities.",
+      "evidence_url": "https://www.texastribune.org/2025/12/15/texas-universities-ai-course-audits/"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Texas",
+    "has_state_ai_executive_order": false,
+    "has_higher_ed_system_ai_policy": true,
+    "summary": "Texas enacted HB 149, the Texas Responsible AI Governance Act (TRAIGA), on June 22, 2025; it takes effect January 1, 2026. TRAIGA notably excludes institutions of higher education from its 'governmental entity' definition, so universities avoid most of the strictest state-agency requirements. The state also maintains an AI Advisory Council (est. 2023, HB 2060); A&M System CIO Mark Stone was appointed to it by Governor Abbott in September 2024. Separately, the Texas A&M University System issued its own System Regulation 29.01.05 (Dec 10, 2024) governing AI across all System members.",
+    "evidence_urls": [
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://www.bakerbotts.com/thought-leadership/publications/2025/july/texas-enacts-responsible-ai-governance-act-what-companies-need-to-know",
+      "https://news.tamus.edu/governor-abbott-appoints-texas-am-university-system-cio-mark-stone-to-artificial-intelligence-advisory-council/",
+      "https://www.cyber.tamus.edu/policy/guidelines/ai/"
+    ]
+  },
+  "litigation_or_controversy": [
+    {
+      "date": "2025-12",
+      "summary": "A&M System disclosed use of OpenAI (via existing subscription) to audit syllabi and course descriptions across its 12 universities for content related to race and gender, following the 2025 curriculum controversy that led to President Mark Welsh's resignation. AI experts (including computational linguist Emily Bender) criticized the approach as pattern-matching without understanding; critics framed it as political oversight of faculty. Internal System officials acknowledged inconsistent results.",
+      "status": "active",
+      "evidence_url": "https://www.texastribune.org/2025/12/15/texas-universities-ai-course-audits/"
+    },
+    {
+      "date": "2025-09",
+      "summary": "President Mark A. Welsh III resigned after controversy over a gender-identity lesson in an Arts and Sciences course; Texas A&M later paid Welsh $3.5M in separation. Indirectly relevant to AI posture because it triggered the AI-assisted course audit program.",
+      "status": "resolved",
+      "evidence_url": "https://www.texastribune.org/2025/11/04/texas-am-university-mark-welsh-separation-agreement/"
+    }
+  ],
+  "narrative_summary": "Texas A&M operates one of the most built-out AI stacks among SEC peers, driven primarily at the System level (Chancellor John Sharp, new System CIO Vince Kellen as of Dec 2025, succeeding Mark Stone who sits on Governor Abbott's AI Advisory Council). The System adopted Regulation 29.01.05 on Dec 10, 2024, a formal AI policy covering data classification, bias auditing, transparency, and a prohibition on loading non-public data into consumer AI tools. Infrastructure is anchored by a $45M NVIDIA DGX SuperPOD (Feb 2025) pitched as one of North America's top academic AI supercomputers. Tooling is multi-vendor and unusually consolidated: TAMU AI Chat (tamu.ai) is a System-funded secure gateway to OpenAI, Anthropic Claude, and Google Gemini with daily token allotments; a Sept 2025 Google partnership brought Gemini, NotebookLM, GitHub Copilot, and Coursera certificates to all 12 System institutions with 2 years of free access and ~400 faculty trained. Classroom policy is deliberately decentralized to faculty. Academic programs are strong on the graduate side (on-campus and online MS in AI, AI/ML certificate, civil engineering AI/DS PhD track) but no flagship undergraduate AI degree is yet evident. A controversy worth flagging to an LSU CIO: A&M is using OpenAI to audit course syllabi across the System for compliance with Texas restrictions on race/gender content — a politically sensitive use case that AI experts have criticized as unreliable. TRAIGA (effective Jan 1, 2026) largely exempts higher ed from its strictest governmental-entity rules.",
+  "confidence_notes": "HIGH confidence on System-level AI policy (Reg 29.01.05), CIO transition, NVIDIA SuperPOD investment, Google partnership, TAMU AI Chat platform, and TRAIGA state context — all confirmed by primary A&M System, Higher Ed Dive, and Texas Tribune sources. MEDIUM confidence on AI Council composition (only one member, Martin Peterson, surfaced publicly; full roster not posted). LOW confidence on exact launch dates for TAMU AI Chat and most academic program launch dates (catalog pages don't list first-offered dates). Enrollment figure is College Station campus (~74k) from Fall 2025 reporting; total System is ~81k. No evidence of a dedicated Chief AI Officer title — AI leadership is shared between System CIO, Chief Transformation Officer (Shonda Gibson), and the university-level AI Council.",
+  "sources": [
+    "https://www.cyber.tamus.edu/policy/guidelines/ai/",
+    "https://ai.tamu.edu/teach-with-ai/use-guidelines-and-ethics.html",
+    "https://ai.tamu.edu/teach-with-ai/index.html",
+    "https://ai.tamu.edu/index.html",
+    "https://ai.tamu.edu/_files/_documents/tamu-cte-genai-syllabus-statement-considerations.pdf",
+    "https://www.it.tamu.edu/ai-services/index.html",
+    "https://www.it.tamu.edu/services/services-by-category/communication-and-collaboration/tamu-ai-chat.html",
+    "https://www.it.tamu.edu/services/services-by-category/communication-and-collaboration/google-gemini.html",
+    "https://tamus.ai/",
+    "https://service.tamu.edu/TDClient/36/Portal/KB/ArticleDet?ID=1300",
+    "https://news.tamus.edu/stories/vince-kellen-named-chief-information-officer-for-the-texas-am-university-system/",
+    "https://news.tamus.edu/texas-am-system-triples-supercomputing-capacity/",
+    "https://news.tamus.edu/governor-abbott-appoints-texas-am-university-system-cio-mark-stone-to-artificial-intelligence-advisory-council/",
+    "https://edscoop.com/texas-am-names-new-chief-information-officer/",
+    "https://insider.govtech.com/texas/news/vince-kellen-named-cio-of-texas-a-m-university-system",
+    "https://www.highereddive.com/news/google-ai-initiative-texas-am/807899/",
+    "https://www.kbtx.com/2025/09/22/texas-am-university-launches-new-partnership-with-google-gemini/",
+    "https://engineering.tamu.edu/news/2025/07/new-partnership-explores-frontiers-of-ai-in-higher-education.html",
+    "https://engineering.tamu.edu/cse/academics/degrees/graduate/ms-ai.html",
+    "https://engineering.tamu.edu/cse/academics/degrees/graduate/online-degrees/online-ms-ai.html",
+    "https://catalog.tamu.edu/graduate/colleges-schools-interdisciplinary/engineering/computer-science/artificial-intelligence-machine-learning-certificate/",
+    "https://engineering.tamu.edu/civil/academics/degrees/graduate/specialties/artificial-intelligene-and-data-science.html",
+    "https://governmentrelations.tamu.edu/federal/ai-national-security-institute.html",
+    "https://tamids.tamu.edu/",
+    "https://www.govtech.com/education/higher-ed/texas-a-m-university-to-buy-45m-supercomputer",
+    "https://fossforce.com/2025/02/texas-am-is-building-a-45-million-ai-supercomputer/",
+    "https://www.texastribune.org/2025/12/15/texas-universities-ai-course-audits/",
+    "https://www.texastribune.org/2025/11/04/texas-am-university-mark-welsh-separation-agreement/",
+    "https://www.insidehighered.com/news/governance/executive-leadership/2026/04/14/texas-am-taps-longtime-administrator-president",
+    "https://theeagle.com/news/a_m/tamus/article_bf6e3784-d80d-4e2a-a640-e7fdd04ef9be.html",
+    "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+    "https://www.bakerbotts.com/thought-leadership/publications/2025/july/texas-enacts-responsible-ai-governance-act-what-companies-need-to-know",
+    "https://thebatt.com/news/am-navigating-evolving-ai-policies-in-the-classroom/"
+  ],
+  "researched_on": "2026-04-16"
+}

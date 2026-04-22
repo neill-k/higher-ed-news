@@ -3,6 +3,7 @@
 :root {
   /* Pencil design tokens */
   --background: #ffffff;
+  --canvas: #f5f2e9;
   --foreground: #2a2933;
   --card: #ffffff;
   --card-foreground: #2a2933;
@@ -38,10 +39,27 @@
   --error: #ffbfb2;
   --error-fg: #590f00;
 
+  /* Semantic names used by new components (mapped to existing Pencil palette) */
+  --ink: #2a2933;
+  --ink-2: #2a2926;
+  --ink-3: #5e5954;
+  --ink-4: #8c8782;
+  --ink-5: #b8b2a8;
+  --rule: #e7e1d5;
+  --rule-soft: #efeae0;
+  --paper: #ffffff;
+  --accent-strong: #7d6b3d;
+  --accent-soft: #f3dec4;
+  --alert: #9b3727;
+  --alert-soft: #f8d8d2;
+  --positive: #24513d;
+  --positive-soft: #d9ecd8;
+
   /* Radii */
   --radius-xs: 6px;
-  --radius-m: 24px;
-  --radius-l: 40px;
+  --radius-s: 10px;
+  --radius-m: 14px;
+  --radius-l: 20px;
 }
 
 @theme inline {
@@ -52,15 +70,19 @@
 
 @layer base {
   html, body {
-    height: 100%;
+    min-height: 100%;
   }
 
   .font-primary {
     font-family: var(--font-inter), "Inter", sans-serif;
   }
+
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
 }
 
 body {
-  background: var(--background);
+  background: var(--canvas);
   color: var(--foreground);
 }

@@ -23,10 +23,6 @@
 # misc
 .DS_Store
 *.pem
-.claude/
-%SystemDrive%/
-data/
-output/
 
 # debug
 npm-debug.log*
@@ -43,3 +39,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# pipeline database
+data/*.db
+data/*.db-shm
+data/*.db-wal
+
+# generated output
+/output/
+
+# local ai settings
+.claude/
+
+# windows system paths (git worktree artifact)
+%SystemDrive%/
