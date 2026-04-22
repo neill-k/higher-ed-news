@@ -215,7 +215,7 @@ export default async function AdoptionPage() {
       <Callout kind="finding">
         Baseline SEC adoption is already settled: {withDeployments} of {secPeers.length} peers have
         named AI deployments, {withPrograms} of {secPeers.length} have AI programs, and{" "}
-        {withPolicy} of {secPeers.length} have a published policy. The useful question is no longer
+        {withPolicy} of {secPeers.length} have a published policy. The useful question is no longer{" "}
         whether campuses are adopting AI. It is which institutions are turning adoption into durable
         governance, procurement discipline, and workforce advantage.
       </Callout>

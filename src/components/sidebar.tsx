@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
+import type { ReactNode } from "react";
 
 const NAV_ITEMS = [
   { label: "Briefing", href: "/", icon: "grid" },
@@ -11,7 +12,7 @@ const NAV_ITEMS = [
   { label: "Risk & Governance", href: "/governance", icon: "shield" },
 ];
 
-const ICONS: Record<string, React.ReactNode> = {
+const ICONS: Record<string, ReactNode> = {
   grid: (
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <rect x="3" y="3" width="7" height="7" /><rect x="14" y="3" width="7" height="7" /><rect x="14" y="14" width="7" height="7" /><rect x="3" y="14" width="7" height="7" />
@@ -43,33 +44,60 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="shrink-0 border-b border-[var(--sidebar-border)] bg-[var(--sidebar-bg)] md:flex md:min-h-screen md:w-[220px] md:flex-col md:border-b-0 md:border-r">
-      <div className="flex items-center gap-2 px-5 py-5">
-        <div className="flex items-center justify-center w-8 h-8 rounded-[var(--radius-xs)] bg-[var(--foreground)] text-white text-xs font-semibold">
+    <aside className="relative shrink-0 overflow-hidden border-b border-[var(--sidebar-border)] bg-[var(--sidebar-bg)] text-[var(--sidebar-foreground)] md:flex md:min-h-screen md:w-[272px] md:flex-col md:border-b-0">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.06),transparent_34%)]" />
+
+      <div className="relative flex items-center gap-3 px-5 py-5 md:px-6 md:py-7">
+        <div className="flex h-10 w-10 items-center justify-center rounded-[14px] border border-white/10 bg-white/6 text-xs font-semibold tracking-[0.18em] text-[var(--sidebar-active)]">
           AI
         </div>
-        <span className="text-sm font-semibold text-[var(--foreground)]">AI in HE</span>
+        <div className="min-w-0">
+          <div className="text-[10px] font-medium uppercase tracking-[0.26em] text-white/40">
+            LSU Desk
+          </div>
+          <div className="truncate text-[18px] font-semibold text-[var(--sidebar-active)]">
+            AI in HE
+          </div>
+        </div>
       </div>
 
-      <div className="hidden px-5 pt-4 pb-2 text-[10px] font-medium uppercase tracking-wider text-[var(--muted-foreground)] md:block">
-        Briefing
+      <div className="relative hidden px-6 pb-4 text-[12px] leading-[1.65] text-white/60 md:block">
+        Benchmarking LSU against SEC peers on policy, vendors, governance, and institutional AI posture.
       </div>
 
-      <nav className="flex gap-1 overflow-x-auto px-3 pb-4 md:flex-col md:gap-0.5 md:pb-0">
+      <div className="relative hidden px-6 pb-3 text-[10px] font-medium uppercase tracking-[0.24em] text-white/36 md:block">
+        Workspace
+      </div>
+
+      <nav className="relative flex gap-1 overflow-x-auto px-3 pb-4 md:flex-col md:gap-1 md:px-4 md:pb-0">
         {NAV_ITEMS.map((item) => {
           const active = pathname === item.href;
           return (
             <Link
               key={item.href}
               href={item.href}
-              className={`flex items-center gap-2.5 whitespace-nowrap rounded-[var(--radius-xs)] px-3 py-2 text-[13px] font-medium transition-colors ${
+              className={`group flex items-center gap-3 whitespace-nowrap rounded-[18px] px-3 py-2.5 text-[13px] font-medium transition-all duration-200 ${
                 active
-                  ? "bg-[var(--accent)] text-[var(--foreground)]"
-                  : "text-[var(--sidebar-foreground)] hover:bg-[var(--accent)] hover:text-[var(--foreground)]"
+                  ? "bg-white/9 text-[var(--sidebar-active)] shadow-[inset_0_1px_0_rgba(255,255,255,0.08)]"
+                  : "text-[var(--sidebar-foreground)] hover:bg-white/5 hover:text-[var(--sidebar-active)]"
               }`}
             >
-              {ICONS[item.icon]}
-              {item.label}
+              <span
+                className={`flex h-9 w-9 items-center justify-center rounded-full border transition-colors ${
+                  active
+                    ? "border-white/10 bg-white/8 text-[var(--sidebar-active)]"
+                    : "border-white/6 bg-white/3 text-white/55 group-hover:border-white/10 group-hover:text-[var(--sidebar-active)]"
+                }`}
+              >
+                {ICONS[item.icon]}
+              </span>
+              <span className="flex-1">{item.label}</span>
+              <span
+                aria-hidden
+                className={`h-1.5 w-1.5 rounded-full transition-colors ${
+                  active ? "bg-[#d8b27a]" : "bg-transparent group-hover:bg-white/25"
+                }`}
+              />
             </Link>
           );
         })}
@@ -77,13 +105,12 @@ export function Sidebar() {
 
       <div className="hidden flex-1 md:block" />
 
-      <div className="hidden items-center gap-2.5 border-t border-[var(--sidebar-border)] px-5 py-4 md:flex">
-        <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[var(--muted)] text-[var(--muted-foreground)] text-xs font-semibold">
-          NK
+      <div className="relative hidden border-t border-[var(--sidebar-border)] px-6 py-5 md:block">
+        <div className="text-[10px] font-medium uppercase tracking-[0.24em] text-white/36">
+          Cadence
         </div>
-        <div className="flex flex-col">
-          <span className="text-xs font-medium text-[var(--foreground)]">Neill Killgore</span>
-          <span className="text-[10px] text-[var(--muted-foreground)]">nkillgore@gmail.com</span>
+        <div className="mt-2 text-[13px] leading-[1.65] text-white/70">
+          Updated nightly with extraction, synthesis, and report refresh.
         </div>
       </div>
     </aside>

@@ -161,7 +161,7 @@ export default async function DashboardOverview() {
       </div>
 
       <Callout kind="finding">
-        SEC baseline adoption is already here: {policyRate}% of peers have a published AI policy,
+        SEC baseline adoption is already here: {policyRate}% of peers have a published AI policy,{" "}
         {peersWithDeployments} of {secPeers.length} show named vendor deployment, and{" "}
         {peersWithPrograms} of {secPeers.length} have launched AI academic programs. The real
         differentiator now is executive ownership. Only {chiefAIOfficers} of {secPeers.length} peers

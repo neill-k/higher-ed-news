@@ -27,42 +27,46 @@ export function ReportPage({
 }: ReportPageProps) {
   return (
     <ReportShell>
-      <div className="mx-auto flex max-w-[1184px] flex-col gap-5 px-5 py-6 md:px-10 md:py-8">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <div className="space-y-1">
+      <div className="mx-auto flex max-w-[1280px] flex-col gap-6 px-4 py-4 md:px-8 md:py-8 xl:px-10">
+        <div className="report-hero report-entrance rounded-[30px] px-6 py-6 md:px-8 md:py-8">
+          <div className="relative flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+            <div className="max-w-[760px] space-y-3">
             {eyebrow ? (
-              <div className="text-[10px] font-medium uppercase tracking-[0.22em] text-[#8c8782]">
+                <div className="text-[10px] font-medium uppercase tracking-[0.3em] text-[#7d6b3d]">
                 {eyebrow}
               </div>
             ) : null}
-            <h1 className="text-[30px] font-semibold tracking-tight text-[#2d2926] md:text-[32px]">
+              <h1 className="font-display text-[36px] font-semibold leading-none text-[#241d18] md:text-[52px]">
               {title}
             </h1>
             {subtitle ? (
-              <p className="max-w-[80ch] text-sm text-[#5e5954] md:text-base">{subtitle}</p>
+                <p className="max-w-[68ch] text-[14px] leading-6 text-[#5e5954] md:text-[16px]">
+                  {subtitle}
+                </p>
             ) : null}
-          </div>
+            </div>
           {actionLabel && actionHref ? (
             <a
-              className="inline-flex items-center justify-center rounded-full border border-[#d0cbc0] bg-[#d9d9db] px-4 py-2 text-sm font-medium text-[#2a2933] transition-colors hover:bg-[#cecfd2]"
+                className="inline-flex items-center justify-center rounded-full border border-[#2b211a] bg-[#201711] px-5 py-2.5 text-sm font-semibold text-[#fff5e7] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#312219]"
               href={actionHref}
             >
-              {actionLabel}
+                {actionLabel}
             </a>
           ) : null}
+          </div>
         </div>
 
         {tabs?.length ? (
           <div className="overflow-x-auto">
-            <div className="inline-flex min-w-max items-center gap-2 rounded-full border border-[#c5c5cb] bg-white p-2">
+            <div className="inline-flex min-w-max items-center gap-2 rounded-full border border-[var(--border-light)] bg-[rgba(255,250,242,0.72)] p-2 shadow-[var(--surface-shadow)] backdrop-blur-sm">
               {tabs.map((tab) => (
                 <span
                   key={tab.label}
                   className={cx(
                     "rounded-full border px-5 py-2 text-sm transition-colors",
                     tab.active
-                      ? "border-[#d0cbc0] bg-[#d9d9db] text-[#2a2933]"
-                      : "border-[#ebe7dd] bg-white text-[#5e5954]",
+                      ? "border-[#2b211a] bg-[#201711] text-[#fff5e7]"
+                      : "border-[var(--border-light)] bg-white/70 text-[#5e5954]",
                   )}
                 >
                   {tab.label}
@@ -91,14 +95,16 @@ export function Panel({
   children: ReactNode;
 }) {
   return (
-    <section className={cx("rounded-[16px] border border-[#dcd8cb] bg-white p-6", className)}>
+    <section className={cx("report-surface rounded-[28px] p-6 md:p-7", className)}>
       {eyebrow ? (
-        <div className="mb-2 text-[11px] font-medium uppercase tracking-[0.18em] text-[#8c8782]">
+        <div className="mb-2 text-[11px] font-medium uppercase tracking-[0.2em] text-[#8c8782]">
           {eyebrow}
         </div>
       ) : null}
       {title ? (
-        <h2 className="mb-4 text-lg font-semibold text-[#2d2926]">{title}</h2>
+        <h2 className="font-display mb-4 text-[28px] font-semibold leading-none text-[#241d18]">
+          {title}
+        </h2>
       ) : null}
       {children}
     </section>
@@ -128,23 +134,25 @@ export function Exhibit({
   children: ReactNode;
 }) {
   return (
-    <section className={cx("rounded-[16px] border border-[#dcd8cb] bg-white p-6", className)}>
-      <div className="mb-4 space-y-1">
+    <section className={cx("report-surface report-entrance rounded-[28px] p-6 md:p-7", className)}>
+      <div className="mb-5 space-y-2 border-b border-[var(--rule-soft)] pb-4">
         {number ? (
-          <div className="text-[11px] font-medium uppercase tracking-[0.18em] text-[#8c8782]">
+          <div className="text-[11px] font-medium uppercase tracking-[0.22em] text-[#7d6b3d]">
             Exhibit {number}
           </div>
         ) : null}
-        <h2 className="text-lg font-semibold leading-tight text-[#2d2926] md:text-[19px]">
+        <h2 className="font-display text-[28px] font-semibold leading-none text-[#241d18] md:text-[32px]">
           {title}
         </h2>
         {subtitle ? (
-          <p className="max-w-[80ch] text-[13px] leading-[1.55] text-[#5e5954]">{subtitle}</p>
+          <p className="max-w-[80ch] text-[13px] leading-[1.65] text-[#5e5954] md:text-[14px]">
+            {subtitle}
+          </p>
         ) : null}
       </div>
       <div>{children}</div>
       {(source || n || caveat) && (
-        <div className="mt-5 flex flex-wrap gap-x-3 gap-y-1 border-t border-[#ebe7dd] pt-3 text-[11px] leading-[1.5] text-[#8c8782]">
+        <div className="mt-6 flex flex-wrap gap-x-3 gap-y-1 border-t border-[var(--rule-soft)] pt-3 text-[11px] leading-[1.5] text-[#8c8782]">
           {source ? <span>Source: {source}</span> : null}
           {n !== undefined ? <span>n = {n}</span> : null}
           <span>As of {asOf}</span>
@@ -179,16 +187,18 @@ export function BAN({
   tone?: MetricTone;
 }) {
   return (
-    <section className="rounded-[24px] border border-[#ebe7dd] bg-[#f5f5f5] p-5">
-      <div className="space-y-3">
-        <p className="max-w-[22ch] text-xs font-medium text-[#5e5954]">{label}</p>
-        <div className="text-[34px] font-semibold leading-none tracking-tight tabular text-[#2d2926]">
+    <section className="report-surface rounded-[26px] bg-[linear-gradient(180deg,rgba(255,250,242,0.94),rgba(246,238,226,0.84))] p-5">
+      <div className="space-y-4">
+        <p className="max-w-[22ch] text-[11px] font-semibold uppercase tracking-[0.16em] text-[#6c6256]">
+          {label}
+        </p>
+        <div className="text-[40px] font-semibold leading-none tracking-tight tabular text-[#241d18] md:text-[44px]">
           {value}
         </div>
         {definition ? (
           <span
             className={cx(
-              "inline-flex rounded-full px-2.5 py-1 text-[11px] font-medium",
+              "inline-flex rounded-full px-3 py-1 text-[11px] font-semibold tracking-[0.02em]",
               metricToneClasses[tone],
             )}
           >
@@ -196,7 +206,7 @@ export function BAN({
           </span>
         ) : null}
         {comparator ? (
-          <div className="border-t border-[#e7e1d5] pt-3 text-[11px] leading-[1.5] text-[#8c8782]">
+          <div className="border-t border-[var(--rule-soft)] pt-3 text-[11px] leading-[1.55] text-[#756b5f]">
             {comparator}
           </div>
         ) : null}
@@ -243,11 +253,11 @@ export function Callout({ kind, children }: { kind: CalloutKind; children: React
   return (
     <aside
       className={cx(
-        "rounded-[12px] border px-4 py-3 text-[13px] leading-[1.6] text-[#2d2926]",
+        "report-entrance rounded-[24px] border px-5 py-4 text-[13px] leading-[1.7] text-[#241d18] shadow-[var(--surface-shadow)]",
         calloutAccent[kind],
       )}
     >
-      <div className="mb-1 text-[10px] font-medium uppercase tracking-[0.2em] text-[#8c8782]">
+      <div className="mb-2 text-[10px] font-medium uppercase tracking-[0.24em] text-[#8c8782]">
         {calloutLabel[kind]}
       </div>
       <div>{children}</div>
@@ -340,10 +350,10 @@ export function PeerChip({
   return (
     <span
       className={cx(
-        "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-[11px] font-medium",
+        "inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[11px] font-medium",
         highlighted
           ? "border-[#7d6b3d] bg-[#f3dec4] text-[#8b5d1f]"
-          : "border-[#ebe7dd] bg-[#f5f2e9] text-[#5e5954]",
+          : "border-[var(--rule-soft)] bg-[rgba(255,250,242,0.72)] text-[#5e5954]",
       )}
     >
       <span>{name}</span>
@@ -363,7 +373,7 @@ export function SourceLink({ href, label }: { href: string; label?: string }) {
   })();
   return (
     <a
-      className="inline-flex items-center gap-1 text-[11px] text-[#5e5954] underline decoration-[#b8b2a8] decoration-dotted underline-offset-2 hover:text-[#7d6b3d] hover:decoration-[#7d6b3d]"
+      className="inline-flex items-center gap-1 text-[11px] font-medium text-[#5e5954] underline decoration-[#ccb18a] decoration-dotted underline-offset-2 transition-colors hover:text-[#7d6b3d] hover:decoration-[#7d6b3d]"
       href={href}
       target="_blank"
       rel="noopener noreferrer"
@@ -376,7 +386,7 @@ export function SourceLink({ href, label }: { href: string; label?: string }) {
 
 export function EmptyReportState() {
   return (
-    <Panel title="Pipeline output missing" className="max-w-[760px]">
+    <Panel title="Pipeline output missing" className="max-w-[760px] report-entrance">
       <p className="max-w-[60ch] text-sm leading-6 text-[#5e5954]">
         This briefing reads from <code>output/report-data.json</code> and{" "}
         <code>data/sec-peers/*.json</code>. Run the pipeline to generate the signal artifacts, then
