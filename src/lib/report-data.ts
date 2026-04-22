@@ -4,6 +4,23 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { cache } from "react";
 
+const REPORT_DATA_PATHS = [
+  path.join(process.cwd(), "output", "report-data.json"),
+  path.join(process.cwd(), "src", "data", "report-data.json"),
+];
+
+async function readFirstAvailable(paths: string[]) {
+  for (const filePath of paths) {
+    try {
+      return await readFile(filePath, "utf8");
+    } catch {
+      // Try the next candidate path.
+    }
+  }
+
+  return null;
+}
+
 export type ReportInsight = {
   id: string;
   updateId: string;
@@ -307,10 +324,12 @@ export function computeInstitutionScore(institution: InstitutionSnapshot) {
 }
 
 export const getReportDataset = cache(async (): Promise<ReportDataset | null> => {
-  const reportPath = path.join(process.cwd(), "output", "report-data.json");
+  const raw = await readFirstAvailable(REPORT_DATA_PATHS);
+  if (!raw) {
+    return null;
+  }
 
   try {
-    const raw = await readFile(reportPath, "utf8");
     const data = JSON.parse(raw) as TrendReportData;
     const insights = data.updateBundles.flatMap((bundle) => bundle.insights);
     const fallbackStart = new Date(data.metadata.coveragePeriod.start);
