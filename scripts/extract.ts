@@ -18,6 +18,7 @@ import { query } from "@anthropic-ai/claude-agent-sdk";
 import {
   getDb,
   initDb,
+  closeDb,
   getRawUpdate,
   getUnprocessedUpdates,
   logStage,
@@ -371,14 +372,23 @@ async function main() {
     return;
   }
 
-  await runExtraction(db, limit);
+  try {
+    await runExtraction(db, limit);
+  } finally {
+    closeDb();
+  }
 }
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-main().catch((err) => {
-  console.error("[extract] Fatal error:", err);
-  process.exit(1);
-});
+if (
+  process.argv[1]?.endsWith("extract.ts") ||
+  process.argv[1]?.endsWith("extract.js")
+) {
+  main().catch((err) => {
+    console.error("[extract] Fatal error:", err);
+    process.exit(1);
+  });
+}
