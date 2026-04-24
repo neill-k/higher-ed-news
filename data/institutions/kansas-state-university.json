@@ -1,0 +1,612 @@
+{
+  "institution": "Kansas State University",
+  "slug": "kansas-state-university",
+  "city_state": "Manhattan, KS",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI strategy source",
+        "url": "https://www.k-state.edu/provost/initiatives/artificial-intelligence/",
+        "year": null
+      },
+      {
+        "title": "AI guidance source",
+        "url": "https://www.k-state.edu/news/articles/2025/11/university-task-force-responsible-artificial-intelligence.html",
+        "year": null
+      }
+    ],
+    "summary": "Kansas State University has public AI evidence across 4 trend categories, including governance, teaching, research, tools, or workforce activity."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.k-state.edu/provost/initiatives/artificial-intelligence/",
+      "https://www.k-state.edu/news/articles/2025/11/university-task-force-responsible-artificial-intelligence.html",
+      "https://www.k-state.edu/arm/records/topics/best-practices/Updated-Using%20Generative%20AI%20Guidance.pdf"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": false,
+    "key_provisions": [
+      "Use reviewed tools for sensitive data.",
+      "Follow instructor or unit AI expectations.",
+      "Keep human accountability for consequential decisions."
+    ],
+    "summary": "Public sources support a cautious AI posture."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Public AI governance or coordination structure",
+        "type": "other",
+        "scope": "Institution-level AI coordination evidenced by cited sources.",
+        "url": "https://www.k-state.edu/provost/initiatives/artificial-intelligence/"
+      }
+    ],
+    "summary": "A public AI governance, task force, or coordination structure was found."
+  },
+  "initiatives": [
+    {
+      "title": "Responsible GenAI task force",
+      "description": "K-State appointed a task force to build a strategic framework for generative AI policy, procedures, training, procurement, and support.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://www.k-state.edu/provost/initiatives/artificial-intelligence/",
+        "https://www.k-state.edu/news/articles/2025/11/university-task-force-responsible-artificial-intelligence.html"
+      ]
+    },
+    {
+      "title": "Generative AI records guidance",
+      "description": "K-State guidance warns users not to submit confidential or sensitive university records into unapproved generative AI tools.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://www.k-state.edu/arm/records/topics/best-practices/Updated-Using%20Generative%20AI%20Guidance.pdf"
+      ]
+    },
+    {
+      "title": "AI-focused computing pipeline",
+      "description": "K-State computer science is developing AI-centered degree programs and coursework to prepare an AI-aware workforce.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.k-state.edu/news/articles/2026/04/computer-science-expertise-positions-kansas-for-ai-era.html"
+      ]
+    },
+    {
+      "title": "Machine learning autonomous systems programs",
+      "description": "K-State offers bachelor and graduate certificate pathways focused on machine learning and AI frameworks for autonomous systems.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://online.k-state.edu/programs/machine-learning-and-autonomous-systems-bachelors/",
+        "https://www.salina.k-state.edu/academics/degree-options/mlas-certificate/"
+      ]
+    },
+    {
+      "title": "Applied data science and ML professional certificate",
+      "description": "K-State Salina offers an online professional certificate in applied data science and machine learning for workforce upskilling.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.salina.k-state.edu/professional-education/applied-data-science-machine-learning/"
+      ]
+    },
+    {
+      "title": "K-State Responsible Use of Generative AI Task Force",
+      "description": "K-State's Responsible Use of Generative AI Task Force is charged with developing university policy, guidelines, training and support services for student, faculty, researcher and staff use and procurement of generative AI tools.",
+      "significance": "Adds source-backed detail to the public AI posture.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount disclosed for this initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external collaboration identified in the cited source."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.k-state.edu/provost/initiatives/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Beocat HPC cluster AI-capable research infrastructure",
+      "description": "Beocat is K-State's high-performance computing cluster run by the Institute for Computational Research, supporting researchers statewide and providing a named compute-capacity signal even though current GPU counts are not public.",
+      "significance": "Adds source-backed detail to the public AI posture.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount disclosed for this initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external collaboration identified in the cited source."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.k-state.edu/beocat/",
+        "https://www.k-state.edu/ksuniteweekly/announcement/?id=74030"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI research or coordination activity",
+      "focus": "Public AI research, teaching, or tool coordination evidenced in cited sources.",
+      "founded": null,
+      "url": "https://www.k-state.edu/provost/initiatives/artificial-intelligence/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "AI learning pathway or resources",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.k-state.edu/provost/initiatives/artificial-intelligence/"
+    }
+  ],
+  "enterprise_platforms": [],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Beocat",
+    "gpu_count": null,
+    "url": "https://www.k-state.edu/beocat/",
+    "summary": "K-State identifies Beocat as its HPC cluster, available without cost to educational researchers in Kansas and collaborators; public pages cite large-scale usage and infrastructure but not a current GPU count."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Responsible GenAI task force",
+      "scope": "K-State appointed a task force to build a strategic framework for generative AI policy, procedures, training, procurement, and support.",
+      "url": "https://www.k-state.edu/provost/initiatives/artificial-intelligence/"
+    },
+    {
+      "type": "chatbot",
+      "name": "AI-focused computing pipeline",
+      "scope": "K-State computer science is developing AI-centered degree programs and coursework to prepare an AI-aware workforce.",
+      "url": "https://www.k-state.edu/news/articles/2026/04/computer-science-expertise-positions-kansas-for-ai-era.html"
+    },
+    {
+      "type": "other",
+      "name": "Machine learning autonomous systems programs",
+      "scope": "K-State offers bachelor and graduate certificate pathways focused on machine learning and AI frameworks for autonomous systems.",
+      "url": "https://online.k-state.edu/programs/machine-learning-and-autonomous-systems-bachelors/"
+    }
+  ],
+  "equity_and_access_initiatives": [],
+  "regulatory_context": {
+    "state": "KS",
+    "has_state_ai_policy": false,
+    "has_system_ai_policy": false,
+    "summary": "State and system AI context checked only at high level; institution-level sources carry the profile.",
+    "urls": []
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Kansas State University shows an AI posture with five documented initiatives across 4 categories. The evidence emphasizes Responsible GenAI task force, Generative AI records guidance, and AI-focused computing pipeline. Policy maturity is coded as cautious based on public guidance, privacy language, governance, or tool controls. The profile also records teaching, research, workforce, equity, or enterprise-tool activity where sources support it. Leadership names, enrollment, GPU counts, and contract values are left null when not found in the cited public sources.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 1 gap sweep",
+    "sources": [
+      "https://www.k-state.edu/provost/initiatives/artificial-intelligence/",
+      "https://www.k-state.edu/news/articles/2025/11/university-task-force-responsible-artificial-intelligence.html",
+      "https://www.k-state.edu/arm/records/topics/best-practices/Updated-Using%20Generative%20AI%20Guidance.pdf",
+      "https://www.k-state.edu/news/articles/2026/04/computer-science-expertise-positions-kansas-for-ai-era.html",
+      "https://online.k-state.edu/programs/machine-learning-and-autonomous-systems-bachelors/",
+      "https://www.salina.k-state.edu/academics/degree-options/mlas-certificate/",
+      "https://www.salina.k-state.edu/professional-education/applied-data-science-machine-learning/",
+      "https://carnegieclassifications.acenet.edu/news/carnegie-classifications-release-2025-research-activity-designations-debut-updated-methodology/",
+      "https://www.k-state.edu/tlc/teaching_resources/ai_resources/",
+      "https://www.k-state.edu/beocat/",
+      "https://www.k-state.edu/ksuniteweekly/announcement/?id=74030",
+      "https://blogs.k-state.edu/it-news/2025/11/04/software-available-to-students-faculty-and-staff-2/"
+    ],
+    "search_queries": [
+      "\"Kansas State University\" AI strategy",
+      "\"Kansas State University\" generative AI guidelines",
+      "\"Kansas State University\" AI research center",
+      "\"Kansas State University\" AI degree program",
+      "site:k-state.edu Kansas State University Microsoft Copilot Gemini AI tools students faculty assessment AI",
+      "site:k-state.edu Kansas State University Beocat GPU high performance computing artificial intelligence"
+    ],
+    "gaps_acknowledged": [
+      "Leadership names and enrollment were not populated in this missing-only sweep.",
+      "Detailed AI budgets, user counts, and GPU counts were not consistently public.",
+      "No controversy record was added without a reliable institution-specific source.",
+      "Follow-up search closed compute_capacity at the named-system level with Beocat, but no current public GPU count was found.",
+      "Follow-up search found task-force and teaching-resource evidence but no public enterprise AI user counts, contract values, or AI-specific institutional investment total."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "workforce_regional_development",
+        "curriculum_led",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 0,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 5,
+        "governance_led": 10,
+        "student_success_led": 5,
+        "workforce_regional_development": 7,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": false,
+      "adopted_date": null,
+      "classroom_authority_model": "unclear",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Beocat",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 6,
+        "public_federal_state": 1
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": false,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [],
+      "concentration": "none",
+      "top_vendor": null,
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Responsible GenAI task force",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.k-state.edu/provost/initiatives/artificial-intelligence/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Generative AI records guidance",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.k-state.edu/arm/records/topics/best-practices/Updated-Using%20Generative%20AI%20Guidance.pdf"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI-focused computing pipeline",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.k-state.edu/news/articles/2026/04/computer-science-expertise-positions-kansas-for-ai-era.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "Machine learning autonomous systems programs",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://online.k-state.edu/programs/machine-learning-and-autonomous-systems-bachelors/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Applied data science and ML professional certificate",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.salina.k-state.edu/professional-education/applied-data-science-machine-learning/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 5,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "Leadership names and enrollment were not populated in this missing-only sweep.",
+        "Detailed AI budgets, user counts, and GPU counts were not consistently public.",
+        "No controversy record was added without a reliable institution-specific source.",
+        "Follow-up search closed compute_capacity at the named-system level with Beocat, but no current public GPU count was found.",
+        "Follow-up search found task-force and teaching-resource evidence but no public enterprise AI user counts, contract values, or AI-specific institutional investment total."
+      ]
+    }
+  }
+}

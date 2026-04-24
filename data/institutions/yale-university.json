@@ -1,0 +1,1508 @@
+{
+  "institution": "Yale University",
+  "slug": "yale-university",
+  "city_state": "New Haven, CT",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 15564,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Maurie McInnis",
+      "url": "https://president.yale.edu/"
+    },
+    "provost": {
+      "name": "Scott Allan Strobel",
+      "url": "https://provost.yale.edu/"
+    },
+    "cio": {
+      "name": "John Barden",
+      "url": "https://your.yale.edu/information-technology/information-technology-senior-leadership/john-barden"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Jennifer (Jenny) Frederick",
+      "title": "Associate Provost for Academic Initiatives; Executive Director, Poorvu Center for Teaching and Learning",
+      "url": "https://provost.yale.edu/people/jennifer-frederick"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Report of the Yale Task Force on Artificial Intelligence",
+        "url": "https://provost.yale.edu/sites/default/files/files/Yale%20Task%20Force%20on%20AI%20Report%20FINAL.pdf",
+        "year": 2024
+      },
+      {
+        "title": "Advancing Yale's leadership in artificial intelligence — support for faculty, students, and staff",
+        "url": "https://provost.yale.edu/news/advancing-yales-leadership-artificial-intelligence-support-faculty-students-and-staff",
+        "year": 2024
+      },
+      {
+        "title": "AI at Yale strategic hub and toolkits",
+        "url": "https://ai.yale.edu/",
+        "year": 2024
+      }
+    ],
+    "summary": "Yale's AI strategy, driven by the 2024 Yale Task Force on Artificial Intelligence (YTAI) chaired by Provost Scott Strobel, commits over $150M across five years to research infrastructure, secure generative AI access, 20+ faculty hires, ethics/governance work, and curriculum redesign. A central recommendation is to build the capacity to not only develop AI but also to question and guide it, pairing engineering with legal scholars, ethicists, and public-health experts. The rollout is coordinated by Associate Provost Jenny Frederick and anchored at the ai.yale.edu portal."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://provost.yale.edu/news/guidelines-use-generative-ai-tools",
+      "https://ai.yale.edu/guidance",
+      "https://poorvucenter.yale.edu/ai-guidelines",
+      "https://poorvucenter.yale.edu/ai-guidance-for-students",
+      "https://poorvucenter.yale.edu/teaching/teaching-resource-library/ai-guidance-for-teachers",
+      "https://yaledata.yale.edu/yale-university-ai-guidelines-staff",
+      "https://admissions.yale.edu/ai-policy-statement",
+      "https://ai.yale.edu/ai-review-framework"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty must provide clear instructions on permitted use of generative AI for coursework and attribution",
+      "Students must follow instructor guidelines; unauthorized AI use is academic dishonesty and can trigger Executive Committee proceedings",
+      "Yale College regulations require citing AI sources for language, images, and ideas",
+      "Information entered into AI tools should be treated as public — no PHI, FERPA-protected records, or confidential data",
+      "Admissions: submitting substantive AI-generated content is application fraud; ideation and grammar use is allowed",
+      "Clarity platform is Yale's sanctioned 'walled-off' environment where prompts are not used to train external models",
+      "AI Review Framework (AI Steering Committee, fall 2025) governs AI system selection, procurement, and deployment",
+      "Seven specialized committees handle AI review in research, clinical, data governance, and library/collections"
+    ],
+    "summary": "Yale pairs decentralized, faculty-discretion classroom policy with a comprehensive university-level governance stack — the AI Steering Committee's AI Review Framework, constituency-specific guidance from the Poorvu Center and Office of the Provost, and a staff data-governance guideline. The stance is best described as comprehensive: permissive at the classroom level, but backed by formal review, ethics, and data-security infrastructure."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Yale Task Force on Artificial Intelligence (YTAI)",
+        "type": "task_force",
+        "scope": "University-wide review of AI activity and strategy; 18 members across law, computer science, neuroscience, medicine, philosophy, public health; convened January 2024 by Provost Strobel; published final report June 2024",
+        "url": "https://provost.yale.edu/yale-task-force-artificial-intelligence"
+      },
+      {
+        "name": "Yale AI Steering Committee",
+        "type": "committee",
+        "scope": "Charged fall 2025 by the Offices of the Provost and Institutional Risk Management to provide harmonized review and oversight of AI development and deployment; 14 members spanning Chief Data Officer, Associate Provost, legal, IT security, privacy, compliance, and faculty from statistics/data science, philosophy, computer science, anthropology",
+        "url": "https://ai.yale.edu/ai-review-framework"
+      },
+      {
+        "name": "AI Faculty Working Group",
+        "type": "committee",
+        "scope": "Faculty-led working group feeding into the AI Steering Committee; chaired by Bhramar Mukherjee",
+        "url": "https://ai.yale.edu/"
+      },
+      {
+        "name": "Office of the Provost — AI Initiatives",
+        "type": "office",
+        "scope": "Administrative home for the AI seed grant program, Clarity platform coordination, and implementation of the Task Force recommendations; led by Associate Provost Jenny Frederick",
+        "url": "https://provost.yale.edu/news/advancing-yales-leadership-artificial-intelligence-support-faculty-students-and-staff"
+      },
+      {
+        "name": "Digital Ethics Center (DEC)",
+        "type": "office",
+        "scope": "Research center on governance, ethical, legal, and social implications of digital innovation; advises state governments on AI regulation; founding director Luciano Floridi",
+        "url": "https://dec.yale.edu/"
+      }
+    ],
+    "summary": "Yale's AI governance is layered: the one-time YTAI set strategy (Jan–Jun 2024); the standing AI Steering Committee (fall 2025) plus seven specialized sub-committees execute harmonized review; the Provost's AI Initiatives office and Poorvu Center run programs; and the Digital Ethics Center provides an external-facing ethics and state-policy advisory function."
+  },
+  "initiatives": [
+    {
+      "title": "$150M five-year AI investment",
+      "description": "Yale announced on August 28, 2024, a commitment of more than $150 million over five years to expand AI research infrastructure, deploy secure generative AI tools, hire 20+ faculty across FAS, SEAS, and the School of Medicine, fund curriculum review, and run seed grants and a university-wide symposium. The investment implements recommendations of the 2024 Yale Task Force on AI.",
+      "significance": "One of the largest publicly disclosed Ivy League AI commitments and establishes Yale's intent to be a national AI leader across research, teaching, and operations.",
+      "date_announced": "2024-08-28",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "faculty_training_and_development",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 150000000,
+        "funding_source": "Yale University central funds",
+        "description": "$150M over five years across compute, hires, tools, and curriculum"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Solliance",
+            "OpenAI",
+            "Adobe"
+          ],
+          "description": "Vendor partnerships underpin the Clarity platform and enterprise tooling"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Clarity Platform",
+          "vendor": "Yale / Solliance / Microsoft Azure",
+          "role": "Yale-branded secure generative AI chat platform"
+        },
+        {
+          "name": "Microsoft 365 Copilot Enterprise",
+          "vendor": "Microsoft",
+          "role": "Enterprise productivity AI"
+        },
+        {
+          "name": "Adobe Firefly",
+          "vendor": "Adobe",
+          "role": "Generative AI image creation"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals institutional commitment and provides funding floor for governance, ethics, and equity-of-access programs",
+      "source_urls": [
+        "https://news.yale.edu/2024/08/28/yale-announces-150-million-support-leadership-ai",
+        "https://provost.yale.edu/news/advancing-yales-leadership-artificial-intelligence-support-faculty-students-and-staff"
+      ]
+    },
+    {
+      "title": "Clarity Platform — Yale's secure generative AI chatbot",
+      "description": "Clarity is Yale's branded AI platform built with Solliance on Microsoft Azure. It launched at the start of the Fall 2024 semester initially offering GPT-4o in a walled-off environment (no training on Yale prompts) and has since added Anthropic Claude Sonnet 4, Google Gemini 2.5, OpenAI o3, DALL-E 3, custom agents (self-service Custom Agents enabled March 19, 2026), and API access.",
+      "significance": "Broad, free access for all Yale faculty, students, and staff — a reference implementation of equitable, enterprise-controlled generative AI at an R1.",
+      "date_announced": "2024-08",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Portion of the $150M AI investment",
+        "description": "Cost embedded in the $150M investment; specific platform spend not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Solliance",
+            "Microsoft",
+            "OpenAI",
+            "Anthropic",
+            "Google"
+          ],
+          "description": "Multi-model platform built with Solliance on Microsoft Azure, federating frontier model providers"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Clarity",
+          "vendor": "Yale + Solliance + Microsoft Azure",
+          "role": "Campus-wide chat, custom agents, and API"
+        },
+        {
+          "name": "GPT-4o / o3",
+          "vendor": "OpenAI via Azure",
+          "role": "Foundation models"
+        },
+        {
+          "name": "Claude Sonnet 4",
+          "vendor": "Anthropic",
+          "role": "Foundation model"
+        },
+        {
+          "name": "Gemini 2.5",
+          "vendor": "Google",
+          "role": "Foundation model"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Provides a sanctioned alternative to consumer chatbots and allows data-sensitive use cases within guidelines",
+      "source_urls": [
+        "https://ai.yale.edu/yales-ai-tools-and-resources/clarity-platform",
+        "https://er.educause.edu/articles/sponsored/2024/11/enabling-equitable-generative-ai-access-at-yale",
+        "https://ai.yale.edu/posts/2025-08-04-google-gemini-2.5-o3-claude-sonnet-4-agents-on-clarity-platform"
+      ]
+    },
+    {
+      "title": "Regional AI Hub in Holyoke (MGHPCC partnership)",
+      "description": "Yale is a founding partner in a large-scale regional AI hub at the Massachusetts Green High Performance Computing Center in Holyoke, MA, a shared facility projected to host 1,500–2,000 GPUs. Yale is also installing roughly 450 of its own GPUs across Yale Center for Research Computing clusters at MGHPCC, with a second cluster focused on secure biomedical and genomic data expected online by June 2025.",
+      "significance": "Positions Yale in a multi-institution compute consortium rivaling national-lab scale, reducing single-institution infrastructure risk.",
+      "date_announced": "2025-02-26",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Portion of the $150M AI investment plus shared MGHPCC consortium costs",
+        "description": "~450 Yale GPUs plus shared access to the 1,500–2,000 GPU regional AI hub"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Boston University",
+            "Harvard",
+            "MIT",
+            "Northeastern University",
+            "University of Massachusetts system",
+            "Commonwealth of Massachusetts"
+          ],
+          "description": "MGHPCC is a nonprofit consortium; the AI hub adds state government and industry partners"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.yale.edu/2025/02/26/yale-grows-its-research-infrastructure-ai-hub-and-computing-center",
+        "https://www.mghpcc.org/yale-grows-capacity-for-high-performance-computing-ai-related-research/",
+        "https://www.hpcwire.com/off-the-wire/yale-expands-ai-and-hpc-research-with-regional-ai-hub-partnership/"
+      ]
+    },
+    {
+      "title": "AI Seed Grants (Envisioning AI at Yale)",
+      "description": "Provost-funded competitive program awarding Research Grants up to $100,000 and Workshop Grants up to $20,000 for interdisciplinary AI projects. The 2025 round funded 18 teams comprising 62 faculty and research staff across FAS, SEAS, YSE, Yale Law, Yale School of the Arts, and the School of Medicine; a 2026 round is open with the same thresholds.",
+      "significance": "Institutionalizes bottom-up, cross-school AI research seed funding and explicitly privileges projects engaged with the ethics of AI.",
+      "date_announced": "2024-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "faculty_training_and_development",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "Office of the Provost (within the $150M envelope)",
+        "description": "Estimated ~$1.8M+ per round across research + workshop grants"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Multiple Yale schools (FAS, SEAS, YSE, YSL, YSA, YSM)"
+          ],
+          "description": "Explicitly cross-school interdisciplinary teams required"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.yale.edu/seed-grant-awards-2025",
+        "https://ai.yale.edu/opportunities/seed-grants-2025",
+        "https://ai.yale.edu/opportunities/ai-seed-grants-2026"
+      ]
+    },
+    {
+      "title": "AI Steering Committee and AI Review Framework",
+      "description": "Charged in fall 2025 by the Offices of the Provost and Institutional Risk Management, Yale's 14-member AI Steering Committee published an AI Review Framework for Trustworthy AI Systems. Seven specialized sub-committees (research, clinical, data governance, library, etc.) use the framework to evaluate new AI uses campus-wide.",
+      "significance": "Operationalizes ethics and risk review at an institutional level — a model for decentralized universities trying to harmonize AI decisions.",
+      "date_announced": "2025-09",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Provost + Institutional Risk Management",
+        "description": "Committee operations and framework development"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a single, enforceable review gate for new AI systems procurement and deployment",
+      "source_urls": [
+        "https://ai.yale.edu/ai-review-framework",
+        "https://ai.yale.edu/guidance"
+      ]
+    },
+    {
+      "title": "Guidelines for the Use of Generative AI Tools",
+      "description": "The Office of the Provost issued university-wide guidelines for responsible generative AI use covering faculty, students, staff, and research. The guidance is backstopped by constituency-specific documents from the Poorvu Center, Yale Data Governance, and the Yale Privacy Office.",
+      "significance": "Provides a consistent baseline while preserving faculty discretion at the course level — a widely copied hybrid approach.",
+      "date_announced": "2023-08",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Policy development and communications"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Requires syllabus-level instructor rules; defines unauthorized use as academic dishonesty",
+      "source_urls": [
+        "https://provost.yale.edu/news/guidelines-use-generative-ai-tools",
+        "https://poorvucenter.yale.edu/ai-guidelines"
+      ]
+    },
+    {
+      "title": "AI and Innovation in Medicine Distinction Pathway (AIMDP)",
+      "description": "Yale School of Medicine launched a residency track training internal-medicine physicians in applied AI: coding foundations, LLMs, machine-learning in clinical care, AI bootcamps, and hypothesis-driven clinical AI research. Developed by Shaili Gupta, MBBS, MHS, with program director Mark Siegel, MD. Supported by the Tim and Barbara Boroughs Fund.",
+      "significance": "One of the first residency-level AI distinction pathways, explicitly framed around critical evaluation and bias mitigation rather than tool adoption.",
+      "date_announced": "2024-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tim and Barbara Boroughs Fund",
+        "description": "Donor-funded curriculum and faculty effort"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Tim and Barbara Boroughs Fund"
+          ],
+          "description": "Donor-funded specialty track in graduate medical education"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Models how medical schools can train physicians to critically evaluate AI outputs",
+      "source_urls": [
+        "https://medicine.yale.edu/news-article/bridging-medicine-and-technology-yales-new-ai-distinction-pathway/",
+        "https://medicine.yale.edu/internal-medicine/education/residency/specializations/pathways/ai-and-innovation-in-medicine/"
+      ]
+    },
+    {
+      "title": "AI literacy framework for faculty (Yale Library + Poorvu Center)",
+      "description": "Yale Library and the Poorvu Center co-developed a generative AI literacy framework for faculty built on four competencies — understanding, using, evaluating, analyzing — to help faculty redesign courses and coach students.",
+      "significance": "Places AI literacy on par with information literacy as a core faculty competency.",
+      "date_announced": "2025-03-10",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Yale Library + Poorvu Center (within $150M envelope)",
+        "description": "Staff effort and program costs"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Yale University Library",
+            "Poorvu Center for Teaching and Learning"
+          ],
+          "description": "Cross-unit Yale collaboration"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Encourages faculty to embed AI in coursework rather than ban it",
+      "source_urls": [
+        "https://library.yale.edu/news/yale-library-and-poorvu-center-collaborate-ai-literacy-framework-faculty"
+      ]
+    },
+    {
+      "title": "Digital Ethics Center advising state AI policy",
+      "description": "Yale's Digital Ethics Center (DEC), led by founding director Luciano Floridi, is assisting U.S. state legislators on AI regulation that balances innovation and risk. DEC hosts the Digital Vulnerabilities in the Age of AI Summit (DIVAS) and a Policy Fellowship program.",
+      "significance": "Extends Yale's sectoral influence by exporting its ethics capacity to state governments writing AI law.",
+      "date_announced": "2025-05-07",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Yale + external research funding",
+        "description": "Ongoing center operations"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. state legislatures"
+          ],
+          "description": "Direct engagement with state policymakers on AI regulation"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Helps shape state-level AI regulatory baselines",
+      "source_urls": [
+        "https://news.yale.edu/2025/05/07/yales-digital-ethics-center-helps-us-states-navigate-promise-and-perils-ai",
+        "https://dec.yale.edu/"
+      ]
+    },
+    {
+      "title": "Wu Tsai Institute — Center for Neurocomputation and Machine Intelligence",
+      "description": "One of three research centers within the Wu Tsai Institute (est. 2021 via Joseph C. Tsai/Clara Wu Tsai gift), focused on developing AI and data-analysis tools for large neuroscience datasets and computational models of cognition. Houses The Matrix, a high-performance computing, experimental-hardware, and data-visualization core.",
+      "significance": "Bridges frontier AI research with neuroscience, representing a distinctive neuro-AI niche for Yale.",
+      "date_announced": "2021-02-19",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Joseph C. Tsai '86, '90 J.D., and Clara Wu Tsai gift (amount not publicly disclosed in available sources)",
+        "description": "Historic transformative naming gift; specific dollar figure not disclosed in surveyed Yale sources"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Tsai family"
+          ],
+          "description": "Donor-funded institute"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://wti.yale.edu/",
+        "https://wti.yale.edu/research/neurocomputation",
+        "https://yaledailynews.com/blog/2021/02/19/yale-announces-wu-tsai-institute-for-interdisciplinary-neurocognition-research/"
+      ]
+    },
+    {
+      "title": "Institute for Foundations of Data Science (FDS)",
+      "description": "Yale's cross-departmental data-science institute debuted spring 2022 with a grand opening in September 2023 at the renovated Kline Tower. Directed by Daniel Spielman (inaugural James A. Attwood Director, Sterling Professor). Yale has hired 25+ new ladder faculty in Computer Science and Statistics and Data Science since 2018.",
+      "significance": "Anchors Yale's methodological AI/ML research foundation and co-locates Statistics, Computer Science, and Mathematics.",
+      "date_announced": "2022-10-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Yale strategic investment (University Science Strategy Committee priority)",
+        "description": "Institute + 25 new ladder faculty hires"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://fds.yale.edu/",
+        "https://news.yale.edu/2022/10/25/new-data-science-institute-debuts-interdisciplinary-vision",
+        "https://fds.yale.edu/newsroom/news/grand-opening-of-yales-institute-for-foundations-of-data-science-marks-a-historic-milestone/"
+      ]
+    },
+    {
+      "title": "Schmidt Program on AI, Emerging Technologies, and National Power (Jackson School)",
+      "description": "Program at the Yale Jackson School of Global Affairs on AI, emerging tech, and geopolitics. Funds senior fellows, post-doctoral fellows, and cross-disciplinary research bridging technology and international relations.",
+      "significance": "Anchors the policy and national-security framing of AI at Yale, distinct from STEM-centered efforts.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Schmidt Sciences / Schmidt Futures",
+        "description": "Schmidt-family funded program at Jackson School"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Schmidt Sciences / Schmidt Futures"
+          ],
+          "description": "Donor-funded fellowship program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://jackson.yale.edu/centers-initiatives/schmidt-program/"
+      ]
+    },
+    {
+      "title": "Yale College undergraduate admissions AI policy",
+      "description": "Yale College admissions states that submitting substantive AI-generated content in an application constitutes application fraud. Applicants may use AI for idea generation and spelling/grammar, but not to write or rewrite sentences.",
+      "significance": "A concrete example of a selective university drawing a hard line at the admissions layer even as it opens classroom AI use.",
+      "date_announced": "2023-08",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_in_admissions_and_enrollment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Yale College Office of Undergraduate Admissions",
+        "description": "Policy development"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "prohibitive",
+      "policy_implications": "Sets precedent among peer institutions for framing generative AI in admissions as fraud",
+      "source_urls": [
+        "https://admissions.yale.edu/ai-policy-statement"
+      ]
+    },
+    {
+      "title": "Yale Ventures AI accelerators and Innovation Summit",
+      "description": "Yale Ventures operates five accelerator funds (including recently launched HealthTech Works) and stages the annual Yale Innovation Summit — the 2025 edition drew 2,400+ attendees and awarded $350,000+ in prizes across AI-enabled healthcare, sustainable energy, and other tracks. Spin-outs include AIMIGO (AI tool marketplace) and Leibniz AI.",
+      "significance": "Commercialization pipeline for Yale AI research — translates academic advances into startups.",
+      "date_announced": "2025-05-28",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 350000,
+        "funding_source": "Yale Ventures + sponsors",
+        "description": "$350K in prizes at the 2025 Innovation Summit; total accelerator capital larger"
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Yale startups",
+            "Investors",
+            "Corporate sponsors"
+          ],
+          "description": "Multi-party accelerator model"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ventures.yale.edu/",
+        "https://ventures.yale.edu/news/innovation-action-highlights-and-winners-2025-yale-innovation-summit"
+      ]
+    },
+    {
+      "title": "Yale School of Management AI in leadership curriculum and executive ed",
+      "description": "Yale SOM offers AI-focused MBA electives (Generative AI & Entrepreneurship) and executive-education courses on AI challenges and opportunities for leadership, aimed at decision-making, strategy, and business leadership.",
+      "significance": "Brings AI into the management-education core for current and future executives.",
+      "date_announced": "2025-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Yale SOM",
+        "description": "Curriculum and executive-education development"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://som.yale.edu/story/2025/curriculum-focus-generative-ai-entrepreneurship",
+        "https://cdo.som.yale.edu/classes/ai-challenges-and-opportunities-for-leadership/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Wu Tsai Institute — Center for Neurocomputation and Machine Intelligence",
+      "focus": "Neuro-AI, computational models of cognition, large-scale neuroscience data analytics",
+      "founded": "2021",
+      "url": "https://wti.yale.edu/research/neurocomputation"
+    },
+    {
+      "name": "Institute for Foundations of Data Science (FDS)",
+      "focus": "Mathematical, statistical, and algorithmic foundations of data science and AI/ML",
+      "founded": "2022",
+      "url": "https://fds.yale.edu/"
+    },
+    {
+      "name": "Digital Ethics Center (DEC)",
+      "focus": "Governance, ethics, legal, and social implications of AI and digital tech; state-policy advisory",
+      "founded": null,
+      "url": "https://dec.yale.edu/"
+    },
+    {
+      "name": "Computation and Society Initiative",
+      "focus": "Cross-disciplinary research on computation, society, AI ethics (co-founded by Nisheeth Vishnoi)",
+      "founded": null,
+      "url": "https://computationsociety.yale.edu/"
+    },
+    {
+      "name": "Schmidt Program on AI, Emerging Technologies, and National Power (Yale Jackson School)",
+      "focus": "AI and emerging tech in international relations, national security, geopolitics",
+      "founded": null,
+      "url": "https://jackson.yale.edu/centers-initiatives/schmidt-program/"
+    },
+    {
+      "name": "Data-Intensive Social Science Center (DISSC)",
+      "focus": "AI/ML applied to social-science research",
+      "founded": null,
+      "url": "https://dissc.yale.edu/dissc-programs/artificial-intelligence-and-machine-learning"
+    },
+    {
+      "name": "Yale Interdisciplinary Center for Bioethics — Technology and Ethics",
+      "focus": "Bioethics of AI and emerging technologies",
+      "founded": null,
+      "url": "https://bioethics.yale.edu/technology-and-ethics"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "concentration",
+      "name": "Computer Science — Artificial Intelligence and Machine Learning research area",
+      "level": "both",
+      "launched": null,
+      "url": "https://cpsc.yale.edu/research/primary-areas/artificial-intelligence-and-machine-learning"
+    },
+    {
+      "type": "degree",
+      "name": "Computer Science BA/BS (with four combined-major tracks incl. CS & Economics, CS & Mathematics, CS & Psychology, EE & CS)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://engineering.yale.edu/academic-study/departments/computer-science/undergraduate-study"
+    },
+    {
+      "type": "degree",
+      "name": "Computer Science PhD and MS (AI/ML fields of study)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.yale.edu/gsas/degree-granting-departments-programs/computer-science/"
+    },
+    {
+      "type": "certificate",
+      "name": "Certificate in Programming",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.yale.edu/ycps/yale-college/certificates/"
+    },
+    {
+      "type": "concentration",
+      "name": "AI and Innovation in Medicine Distinction Pathway (AIMDP, Internal Medicine residency)",
+      "level": "grad",
+      "launched": "2024-09",
+      "url": "https://medicine.yale.edu/internal-medicine/education/residency/specializations/pathways/ai-and-innovation-in-medicine/"
+    },
+    {
+      "type": "course",
+      "name": "Generative AI & Entrepreneurship (Yale SOM MBA elective)",
+      "level": "grad",
+      "launched": "2025-01",
+      "url": "https://som.yale.edu/story/2025/curriculum-focus-generative-ai-entrepreneurship"
+    },
+    {
+      "type": "course",
+      "name": "AI Challenges and Opportunities for Leadership (Yale SOM Executive Education)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://cdo.som.yale.edu/classes/ai-challenges-and-opportunities-for-leadership/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Yale / Solliance / Microsoft Azure",
+      "product": "Clarity Platform (multi-model generative AI)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://ai.yale.edu/yales-ai-tools-and-resources/clarity-platform"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Enterprise",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://ai.yale.edu/yales-ai-tools-and-resources/microsoft-365-copilot"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Firefly",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://provost.yale.edu/news/advancing-yales-leadership-artificial-intelligence-support-faculty-students-and-staff"
+    },
+    {
+      "vendor": "Consensus",
+      "product": "Consensus AI research discovery (Yale Library trial)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://ai.yale.edu/"
+    },
+    {
+      "vendor": "Wonderchat",
+      "product": "Yale Summer Session AI admissions chatbot",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://summer.yale.edu/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Yale Center for Research Computing clusters at MGHPCC + Regional AI Hub (Holyoke)",
+    "gpu_count": 450,
+    "url": "https://research.computing.yale.edu/ycrc-computing-systems",
+    "summary": "Yale operates high-performance computing clusters at the Massachusetts Green High Performance Computing Center (MGHPCC) in Holyoke, MA, where it is an equal-partner member alongside Boston University, Harvard, MIT, Northeastern, and the UMass system. Yale is installing ~450 GPUs across its clusters and is a founding partner in a regional AI Hub co-located at MGHPCC with 1,500–2,000 shared GPUs. A second Yale cluster dedicated to secure biomedical and genomic data was slated online by June 2025. Cloud-based GPU access supplements on-prem capacity."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "$150M AI leadership investment",
+      "amount_usd": 150000000,
+      "source": "Yale University (central)",
+      "purpose": "Five-year commitment covering compute, Clarity platform, 20+ faculty hires, seed grants, and curriculum review",
+      "date": "2024-08",
+      "url": "https://news.yale.edu/2024/08/28/yale-announces-150-million-support-leadership-ai"
+    },
+    {
+      "title": "Wu Tsai Institute (neuroscience + neuro-AI)",
+      "amount_usd": null,
+      "source": "Joseph C. Tsai '86, '90 J.D., and Clara Wu Tsai",
+      "purpose": "Historic naming gift establishing the Wu Tsai Institute including Center for Neurocomputation and Machine Intelligence",
+      "date": "2021-02",
+      "url": "https://wti.yale.edu/about"
+    },
+    {
+      "title": "Tim and Barbara Boroughs Fund — AIMDP",
+      "amount_usd": null,
+      "source": "Tim and Barbara Boroughs",
+      "purpose": "Funds the AI and Innovation in Medicine Distinction Pathway at Yale School of Medicine",
+      "date": "2024-09",
+      "url": "https://medicine.yale.edu/news-article/bridging-medicine-and-technology-yales-new-ai-distinction-pathway/"
+    },
+    {
+      "title": "Schmidt Program on AI, Emerging Technologies, and National Power",
+      "amount_usd": null,
+      "source": "Schmidt Sciences / Schmidt Futures",
+      "purpose": "Senior and postdoctoral fellowships on AI and geopolitics at Yale Jackson School",
+      "date": null,
+      "url": "https://jackson.yale.edu/centers-initiatives/schmidt-program/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Massachusetts Green High Performance Computing Center (MGHPCC) — Boston University, Harvard, MIT, Northeastern, UMass system",
+      "purpose": "Shared HPC and AI infrastructure consortium",
+      "date": "2024",
+      "url": "https://www.mghpcc.org/yale-joins-the-massachusetts-green-high-performance-computing-center-mghpcc/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Commonwealth of Massachusetts / Massachusetts AI Hub",
+      "purpose": "Regional AI hub at Holyoke, MA with 1,500–2,000 GPUs",
+      "date": "2025-02",
+      "url": "https://aihub.masstech.org/programs-initiatives"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft + Solliance",
+      "purpose": "Clarity multimodal generative AI platform on Microsoft Azure",
+      "date": "2024-08",
+      "url": "https://er.educause.edu/articles/sponsored/2024/11/enabling-equitable-generative-ai-access-at-yale"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI (via Azure), Anthropic, Google, Adobe",
+      "purpose": "Frontier model and creative AI access through Clarity and enterprise tooling",
+      "date": "2024-08",
+      "url": "https://ai.yale.edu/yales-ai-tools-and-resources/clarity-platform"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "AI4LAM (Yale Library member)",
+      "purpose": "Best practices for AI in cultural-heritage institutions",
+      "date": "2026-03",
+      "url": "https://ai.yale.edu/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. state legislatures (via Digital Ethics Center)",
+      "purpose": "Advisory on AI regulation and policy",
+      "date": "2025-05",
+      "url": "https://news.yale.edu/2025/05/07/yales-digital-ethics-center-helps-us-states-navigate-promise-and-perils-ai"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Clarity",
+      "scope": "All Yale students, faculty, staff — teaching, learning, research",
+      "url": "https://ai.yale.edu/yales-ai-tools-and-resources/clarity-platform"
+    },
+    {
+      "type": "chatbot",
+      "name": "Yale Summer Session admissions chatbot (Wonderchat)",
+      "scope": "Prospective Yale Summer Session applicants",
+      "url": "https://summer.yale.edu/"
+    },
+    {
+      "type": "other",
+      "name": "Student AI Toolkit",
+      "scope": "All Yale students — curated resources, guidance, and tool access",
+      "url": "https://ai.yale.edu/yales-ai-tools-and-resources/students"
+    },
+    {
+      "type": "other",
+      "name": "Health Sciences AI Toolkit",
+      "scope": "Yale health-sciences students and trainees",
+      "url": "https://ai.yale.edu/"
+    },
+    {
+      "type": "other",
+      "name": "Consensus AI research discovery (Yale Library trial)",
+      "scope": "All Yale affiliates via Yale Library",
+      "url": "https://ai.yale.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Equitable Generative AI Access via Clarity",
+      "description": "By deploying Clarity at no cost to the entire Yale community, Yale explicitly targets the cost- and capacity-barrier to cutting-edge generative AI and provides a data-secure alternative to consumer chatbots.",
+      "url": "https://er.educause.edu/articles/sponsored/2024/11/enabling-equitable-generative-ai-access-at-yale"
+    },
+    {
+      "title": "Provost's DEIB framing for AI",
+      "description": "Yale's provost has emphasized that AI strategy must reflect DEIB values — considering questions of access, whose voices are represented in AI decisions, and how investments align with values.",
+      "url": "https://yaledailynews.com/blog/2025/03/04/yales-next-ai-priorities-center-on-ethics-and-wider-access-says-provost/"
+    },
+    {
+      "title": "AI literacy framework for faculty",
+      "description": "Yale Library + Poorvu Center framework explicitly frames AI literacy as a competency to be distributed across students and faculty, not siloed in CS.",
+      "url": "https://library.yale.edu/news/yale-library-and-poorvu-center-collaborate-ai-literacy-framework-faculty"
+    },
+    {
+      "title": "AI Communities of Practice",
+      "description": "Cross-campus peer-learning communities hosted via ai.yale.edu, lowering the barrier for non-technical faculty and staff to engage with AI.",
+      "url": "https://ai.yale.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Connecticut",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Connecticut is actively legislating AI. The 2024 Responsible AI Framework from the state Department of Administrative Services set executive-branch guardrails. In 2025, Senate Bill 2 proposed broader oversight including an AI Advisory Council, regulatory sandboxes, a Connecticut Citizens AI Academy, and mandates on Board of Regents for Higher Education. The state's Commission for Educational Technology publishes AI guidance. As a private institution, Yale is not part of a public system, but state-level AI rules on data, bias, synthetic media, and education apply where Yale operates in CT.",
+    "urls": [
+      "https://portal.ct.gov/opm/fin-general/policies/das/-/media/opm/fin-general/policies/ct-responsible-ai-policy-framework-final-02012024.pdf",
+      "https://portal.ct.gov/das/ctedtech/commission-for-educational-technology/initiatives/artificial-intelligence",
+      "https://www.cga.ct.gov/2025/ba/pdf/2025SB-00002-R01-BA.pdf",
+      "https://legiscan.com/CT/bill/SB00002/2025"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": null,
+      "summary": "Yale Daily News has reported that dozens of Computer Science students have been flagged for AI use and urged to self-report or face Yale College Executive Committee proceedings — a visible tension between course-level AI policies and the availability of generative tools.",
+      "status": "unknown",
+      "url": "https://yaledailynews.com/articles/dozens-of-cs-students-flagged-for-ai-use-urged-to-self-report-or-face-excomm"
+    }
+  ],
+  "narrative_summary": "Yale University (private, R1, ~15,564 students, New Haven, CT) is executing one of the most comprehensive AI postures in the Ivy League, anchored by an August 2024 commitment of more than $150 million over five years. The strategy was catalyzed by the 2024 Yale Task Force on Artificial Intelligence (YTAI), convened by Provost Scott Strobel and staffed by 18 faculty and administrative leaders; its report explicitly recommended that Yale build capacity to both develop and critically question AI. Implementation runs through Associate Provost Jenny Frederick, who coordinates the Clarity platform (a multimodal generative AI system built with Solliance on Microsoft Azure, offering GPT-4o, Claude Sonnet 4, Gemini 2.5, o3, custom agents, and API access to the entire Yale community at no cost), Microsoft 365 Copilot Enterprise, and Adobe Firefly campus-wide. Compute is anchored at the Massachusetts Green High Performance Computing Center in Holyoke, where Yale is an equal-partner member of a consortium with BU, Harvard, MIT, Northeastern, and UMass, and a founding partner in a regional AI Hub with 1,500–2,000 GPUs plus ~450 of its own. Research capacity is layered across the Wu Tsai Institute's Center for Neurocomputation and Machine Intelligence, the Institute for Foundations of Data Science (Daniel Spielman, director), the Schmidt Program at the Jackson School, the Digital Ethics Center (Luciano Floridi), the Computation and Society Initiative, and DISSC. Governance is unusually mature: a 14-member AI Steering Committee charged fall 2025 (plus seven sub-committees) operates an AI Review Framework covering procurement, research, clinical, and data-governance reviews; the Office of the Provost publishes generative-AI guidelines; and the Poorvu Center issues faculty/student guidance and curriculum-review grants. Teaching innovation spans the AI and Innovation in Medicine Distinction Pathway (internal medicine residency), a Yale Library/Poorvu AI literacy framework, SOM MBA and executive-education AI courses, and 25+ new ladder hires in Computer Science and Statistics since 2018 with another 20+ AI-focused hires underway. Admissions takes a hard line — substantive AI-generated application content is fraud. Known tensions include ExComm proceedings against CS students flagged for unauthorized AI use. Confidence is high on strategy, governance, and platform rollout; lower on specific dollar amounts for individual components, detailed hire lists, and named research-partnership amounts.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.yale.edu/",
+      "https://ai.yale.edu/guidance",
+      "https://ai.yale.edu/opportunities",
+      "https://ai.yale.edu/seed-grant-awards-2025",
+      "https://ai.yale.edu/opportunities/seed-grants-2025",
+      "https://ai.yale.edu/opportunities/ai-seed-grants-2026",
+      "https://ai.yale.edu/yales-ai-tools-and-resources",
+      "https://ai.yale.edu/yales-ai-tools-and-resources/clarity-platform",
+      "https://ai.yale.edu/yales-ai-tools-and-resources/microsoft-365-copilot",
+      "https://ai.yale.edu/yales-ai-tools-and-resources/students",
+      "https://ai.yale.edu/ai-review-framework",
+      "https://ai.yale.edu/posts/2024-09-09-ai-at-yale-explore-ai-tools-and-learning-opportunities",
+      "https://ai.yale.edu/posts/2025-08-04-google-gemini-2.5-o3-claude-sonnet-4-agents-on-clarity-platform",
+      "https://provost.yale.edu/",
+      "https://provost.yale.edu/news/guidelines-use-generative-ai-tools",
+      "https://provost.yale.edu/news/report-yale-task-force-artificial-intelligence",
+      "https://provost.yale.edu/news/advancing-yales-leadership-artificial-intelligence-support-faculty-students-and-staff",
+      "https://provost.yale.edu/news/exploring-possibilities-artificial-intelligence-yale",
+      "https://provost.yale.edu/yale-task-force-artificial-intelligence",
+      "https://provost.yale.edu/committees/yale-task-force-artificial-intelligence-ytai",
+      "https://provost.yale.edu/people/jennifer-frederick",
+      "https://provost.yale.edu/sites/default/files/files/Yale%20Task%20Force%20on%20AI%20Report%20FINAL.pdf",
+      "https://news.yale.edu/2024/08/28/yale-announces-150-million-support-leadership-ai",
+      "https://news.yale.edu/2025/02/26/yale-grows-its-research-infrastructure-ai-hub-and-computing-center",
+      "https://news.yale.edu/2025/02/26/yale-grows-capacity-high-performance-computing-ai-related-research",
+      "https://news.yale.edu/2025/05/07/yales-digital-ethics-center-helps-us-states-navigate-promise-and-perils-ai",
+      "https://news.yale.edu/2025/12/05/wu-tsai-institute-making-right-connections",
+      "https://news.yale.edu/2026/03/04/how-yale-ventures-accelerating-innovation",
+      "https://news.yale.edu/2022/10/25/new-data-science-institute-debuts-interdisciplinary-vision",
+      "https://news.yale.edu/2025/02/04/yale-increase-undergraduate-enrollment",
+      "https://poorvucenter.yale.edu/ai-guidelines",
+      "https://poorvucenter.yale.edu/ai-guidance-for-students",
+      "https://poorvucenter.yale.edu/teaching/teaching-resource-library/ai-guidance-for-teachers",
+      "https://poorvucenter.yale.edu/aiadvicestudents",
+      "https://poorvucenter.yale.edu/ai-teaching-examples",
+      "https://yaledata.yale.edu/yale-university-ai-guidelines-staff",
+      "https://privacy.yale.edu/resources/ai-and-privacy",
+      "https://library.yale.edu/news/yale-library-and-poorvu-center-collaborate-ai-literacy-framework-faculty",
+      "https://guides.library.yale.edu/libraryAI",
+      "https://medicine.yale.edu/news-article/bridging-medicine-and-technology-yales-new-ai-distinction-pathway/",
+      "https://medicine.yale.edu/news-article/artificial-intelligence-medical-education-research-patient-care/",
+      "https://medicine.yale.edu/news-article/using-ai-to-guide-ai/",
+      "https://medicine.yale.edu/internal-medicine/education/residency/specializations/pathways/ai-and-innovation-in-medicine/",
+      "https://yale-medical-ai.org/",
+      "https://wti.yale.edu/",
+      "https://wti.yale.edu/research/neurocomputation",
+      "https://wti.yale.edu/about",
+      "https://fds.yale.edu/",
+      "https://fds.yale.edu/about/",
+      "https://fds.yale.edu/newsroom/news/grand-opening-of-yales-institute-for-foundations-of-data-science-marks-a-historic-milestone/",
+      "https://dec.yale.edu/",
+      "https://computationsociety.yale.edu/",
+      "https://computationsociety.yale.edu/people",
+      "https://computationsociety.yale.edu/about-0",
+      "https://jackson.yale.edu/centers-initiatives/schmidt-program/",
+      "https://dissc.yale.edu/dissc-programs/artificial-intelligence-and-machine-learning",
+      "https://bioethics.yale.edu/technology-and-ethics",
+      "https://engineering.yale.edu/academic-study/departments/computer-science/undergraduate-study",
+      "https://engineering.yale.edu/academic-study/departments/computer-science/graduate-study",
+      "https://catalog.yale.edu/gsas/degree-granting-departments-programs/computer-science/",
+      "https://catalog.yale.edu/ycps/yale-college/certificates/",
+      "https://cpsc.yale.edu/research/primary-areas/artificial-intelligence-and-machine-learning",
+      "https://cpsc.yale.edu/academics",
+      "https://som.yale.edu/story/2025/curriculum-focus-generative-ai-entrepreneurship",
+      "https://cdo.som.yale.edu/classes/ai-challenges-and-opportunities-for-leadership/",
+      "https://som.yale.edu/executive-education",
+      "https://ventures.yale.edu/",
+      "https://ventures.yale.edu/programs",
+      "https://ventures.yale.edu/news/innovation-action-highlights-and-winners-2025-yale-innovation-summit",
+      "https://admissions.yale.edu/ai-policy-statement",
+      "https://catalog.yale.edu/undergraduate-regulations/regulations/academic-dishonesty/",
+      "https://catalog.yale.edu/handbook-instructors-undergraduates-yale-college/teaching/academic-dishonesty/",
+      "https://research.computing.yale.edu/ycrc-computing-systems",
+      "https://research.computing.yale.edu/about/hpc-resources",
+      "https://www.mghpcc.org/yale-joins-the-massachusetts-green-high-performance-computing-center-mghpcc/",
+      "https://www.mghpcc.org/yale-grows-capacity-for-high-performance-computing-ai-related-research/",
+      "https://aihub.masstech.org/programs-initiatives",
+      "https://www.hpcwire.com/off-the-wire/yale-expands-ai-and-hpc-research-with-regional-ai-hub-partnership/",
+      "https://er.educause.edu/articles/sponsored/2024/11/enabling-equitable-generative-ai-access-at-yale",
+      "https://your.yale.edu/information-technology/information-technology-senior-leadership/john-barden",
+      "https://your.yale.edu/youryale/2025-05-05-meet-your-ai-ssistant",
+      "https://your.yale.edu/information-technology/it-governance-committees",
+      "https://www.yale.edu/about-yale/leadership-organization",
+      "https://www.yale.edu/about-yale/leadership-organization/john-barden",
+      "https://president.yale.edu/",
+      "https://president.yale.edu/about/senior-university-leaders",
+      "https://oir.yale.edu/data-browser/student-data/enrollments",
+      "https://oir.yale.edu/sites/default/files/factsheet_24-25_vf_20250317.pdf",
+      "https://yaledailynews.com/blog/2025/05/17/yale-confronts-ai-with-new-classes-varied-policies-and-an-ethics-focus/",
+      "https://yaledailynews.com/blog/2025/03/04/yales-next-ai-priorities-center-on-ethics-and-wider-access-says-provost/",
+      "https://yaledailynews.com/blog/2025/10/24/beevers-keeping-yales-edge-with-ai",
+      "https://yaledailynews.com/blog/2021/02/19/yale-announces-wu-tsai-institute-for-interdisciplinary-neurocognition-research/",
+      "https://yaledailynews.com/articles/dozens-of-cs-students-flagged-for-ai-use-urged-to-self-report-or-face-excomm",
+      "https://thenewjournalatyale.com/2025/10/inside-yales-quiet-reckoning-with-ai/",
+      "https://portal.ct.gov/opm/fin-general/policies/das/-/media/opm/fin-general/policies/ct-responsible-ai-policy-framework-final-02012024.pdf",
+      "https://portal.ct.gov/das/ctedtech/commission-for-educational-technology/initiatives/artificial-intelligence",
+      "https://www.cga.ct.gov/2025/ba/pdf/2025SB-00002-R01-BA.pdf",
+      "https://legiscan.com/CT/bill/SB00002/2025",
+      "https://ctmirror.org/2026/01/28/artificial-intelligence-regulation-senate-lamont-ct/"
+    ],
+    "search_queries": [
+      "Yale University AI strategy 2025 2026 artificial intelligence",
+      "Yale University generative AI policy guidelines faculty students",
+      "Yale University AI task force committee council 2025",
+      "Yale University CIO provost president 2026",
+      "Yale Clarity AI platform ChatGPT launch deployment users",
+      "Yale University AI research centers institutes Wu Tsai digital humanities",
+      "Yale AI seed grants 2025 2026 recipients research projects",
+      "Yale University AI degree program major minor certificate computer science",
+      "Yale University Holyoke AI hub MGHPCC computing GPU cluster",
+      "Yale University AI gift donation million 2024 2025 endowment",
+      "Yale AI chatbot students admissions enrollment predictive analytics",
+      "Connecticut state higher education AI policy executive order 2025",
+      "Yale Poorvu Center AI faculty training generative AI workshops",
+      "Yale School of Medicine AI clinical research initiative",
+      "Yale Ventures AI startup incubator innovation 2025",
+      "Yale AI partnership Microsoft Solliance Copilot OpenAI deal",
+      "Yale University AI ethics bias accessibility accessibility initiatives",
+      "Yale University AI Steering Committee review framework procurement",
+      "Yale University faculty hires AI 2024 2025 computer science machine learning",
+      "Yale University AI workforce executive education continuing professional",
+      "Yale Computation and Society Initiative director founding ethics",
+      "Yale Foundations of Data Science Institute computer science launch",
+      "Yale AI syllabus policy academic integrity plagiarism cheating",
+      "Yale Jenny Frederick John Lafferty associate provost AI leadership",
+      "Yale Schmidt Futures AI2050 fellowship research grant",
+      "Yale University enrollment 2025 total students undergraduate graduate",
+      "Yale John Barden VP technology campus services CIO IT"
+    ],
+    "gaps_acknowledged": [
+      "Specific dollar breakdown of the $150M across categories (compute vs. hires vs. tools) is not publicly itemized",
+      "Named AI faculty hires made to date are not publicly listed; only aggregate counts (20+) are disclosed",
+      "Wu Tsai Institute founding gift amount is not publicly disclosed in available Yale sources",
+      "No confirmed Yale faculty among AI2050 Senior/Early Career Fellows in the most recent cohorts surfaced in searches",
+      "Active user counts for Clarity and Microsoft Copilot Enterprise at Yale are not publicly disclosed",
+      "Exact adoption date of the very first Yale generative-AI guidelines from the Provost (fall 2023 inferred from context but not confirmed on a single document)",
+      "No publicly disclosed Yale-specific AI-related lawsuit or FERPA complaint; only the Yale Daily News ExComm reporting was surfaced"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "platform_first",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 16,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 12,
+        "governance_led": 15,
+        "student_success_led": 7,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Yale Center for Research Computing clusters at MGHPCC + Regional AI Hub (Holyoke)",
+        "gpu_count": 450,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 152350000,
+      "funding_source_buckets": {
+        "institutional": 8,
+        "philanthropy_foundation": 3,
+        "other_unclear": 6,
+        "public_federal_state": 2
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 3
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 1
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Clarity",
+            "Clarity Platform",
+            "Clarity Platform (multi-model generative AI)",
+            "GPT-4o / o3",
+            "Microsoft 365 Copilot Enterprise"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 2,
+          "products": [
+            "Adobe Firefly"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude Sonnet 4"
+          ]
+        },
+        {
+          "vendor": "Consensus Consensus AI research discovery (Yale Library trial)",
+          "mentions": 1,
+          "products": [
+            "Consensus AI research discovery (Yale Library trial)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini 2.5"
+          ]
+        },
+        {
+          "vendor": "Wonderchat Yale Summer Session AI admissions chatbot",
+          "mentions": 1,
+          "products": [
+            "Yale Summer Session AI admissions chatbot"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "AI and Innovation in Medicine Distinction Pathway (AIMDP)",
+          "summary": "One of the first residency-level AI distinction pathways, explicitly framed around critical evaluation and bias mitigation rather than tool adoption.",
+          "source_url": "https://medicine.yale.edu/news-article/bridging-medicine-and-technology-yales-new-ai-distinction-pathway/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Digital Ethics Center advising state AI policy",
+          "summary": "Extends Yale's sectoral influence by exporting its ethics capacity to state governments writing AI law.",
+          "source_url": "https://news.yale.edu/2025/05/07/yales-digital-ethics-center-helps-us-states-navigate-promise-and-perils-ai"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "Specific dollar breakdown of the $150M across categories (compute vs. hires vs. tools) is not publicly itemized",
+        "Named AI faculty hires made to date are not publicly listed; only aggregate counts (20+) are disclosed",
+        "Wu Tsai Institute founding gift amount is not publicly disclosed in available Yale sources",
+        "No confirmed Yale faculty among AI2050 Senior/Early Career Fellows in the most recent cohorts surfaced in searches",
+        "Active user counts for Clarity and Microsoft Copilot Enterprise at Yale are not publicly disclosed",
+        "Exact adoption date of the very first Yale generative-AI guidelines from the Provost (fall 2023 inferred from context but not confirmed on a single document)",
+        "No publicly disclosed Yale-specific AI-related lawsuit or FERPA complaint; only the Yale Daily News ExComm reporting was surfaced"
+      ]
+    }
+  }
+}

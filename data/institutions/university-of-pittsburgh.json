@@ -1,0 +1,1589 @@
+{
+  "institution": "University of Pittsburgh",
+  "slug": "university-of-pittsburgh",
+  "city_state": "Pittsburgh, PA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 33767,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Joan Gabel",
+      "url": "https://www.chancellor.pitt.edu/leadership"
+    },
+    "provost": {
+      "name": "Joseph J. McCarthy",
+      "url": "https://www.provost.pitt.edu/people"
+    },
+    "cio": {
+      "name": "Mark D. Henderson",
+      "url": "https://www.chancellor.pitt.edu/people/mark-d-henderson"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Joseph T. Yun",
+      "title": "Director of Artificial Intelligence Enablement, Pitt Digital / Research Professor of Electrical and Computer Engineering",
+      "url": "https://www.digital.pitt.edu/news/pantherbytes-blog/spotlight-joe-yun-leading-ai-enablement-pitt-digital"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI at Pitt — institutional AI portal",
+        "url": "https://ai.pitt.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI @ Pitt — enterprise tool landing page",
+        "url": "https://www.digital.pitt.edu/ai",
+        "year": 2025
+      },
+      {
+        "title": "Report of the Ad Hoc Committee on Gen AI in Research & Education",
+        "url": "https://teaching.pitt.edu/ai-committee-report/",
+        "year": 2024
+      },
+      {
+        "title": "Hub for AI and Data Science Leadership (HAIL) launch announcement",
+        "url": "https://markets.chroniclejournal.com/chroniclejournal/article/tokenring-2025-12-19-pitt-launches-hail-a-new-blueprint-for-the-ai-enabled-university-and-regional-workforce",
+        "year": 2025
+      }
+    ],
+    "summary": "Pitt articulates its AI posture through a cluster of interlocking institutional programs rather than a single strategy document. The centerpiece is HAIL (Hub for AI and Data Science Leadership), inaugurated December 2025 as a 'practical-first' engine to unify AI research, teaching, enterprise tools, and regional workforce development under a 'Responsible Data Science' framing. A March 2024 Ad Hoc Committee report from the Offices of the Provost and the Senior Vice Chancellor for Research established the 'Points to Consider' living policy framework, and the AI at Pitt portal coordinates clinical AI (CPACE), computational infrastructure (PSC, CRCD), generative AI tooling (PittGPT, Claude for Education, Gemini, Copilot), and community engagement through the Pitt AI Scholar-Teacher Alliance (PASTA)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.digital.pitt.edu/acceptable-use-generative-artificial-intelligence-tools",
+      "https://www.technology.pitt.edu/ai",
+      "https://www.digital.pitt.edu/ai",
+      "https://teaching.pitt.edu/resources/teaching-with-generative-ai/",
+      "https://www.provost.pitt.edu/academic-integrity-guidelines",
+      "https://teaching.pitt.edu/ai-committee-report/"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Two-tier tool classification: University GenAI Tools (PittGPT, Claude for Education, Gemini, Copilot Chat, NotebookLM) approved for Protected/Restricted data; Public GenAI Tools (ChatGPT, DeepSeek, etc.) limited to public data only",
+      "Users accountable for verifying accuracy of all GenAI outputs and for safeguarding personal information and IP",
+      "Prohibitions on impersonation, falsification of research data, disinformation, and harassment",
+      "Tools must clear Vendor Security Risk Assessment before use with University data",
+      "Noncompliance may trigger disciplinary action, suspension, or termination of access under Faculty/Staff Handbooks, Student Code, or Collective Bargaining Agreements",
+      "Teaching Center publishes sample syllabus language spanning restrictive-to-AI-integrated options; faculty set course-level expectations with institutional guidance"
+    ],
+    "summary": "Pitt's Acceptable Use of Generative AI Tools policy is a comprehensive, data-classification-driven framework that pairs a permissive stance on voluntary faculty adoption with strict guardrails around sensitive data. Private Pitt-hosted tools (PittGPT) are required for restricted data while public tools remain allowed for public data only, and the Teaching Center's resources give faculty a spectrum of syllabus-level options rather than mandating a single rule across courses."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Hub for AI and Data Science Leadership (HAIL)",
+        "type": "office",
+        "scope": "University-wide hub coordinating AI research, education, enterprise tools, and regional workforce development; launched December 2025 under Director Michael Colaresi",
+        "url": "https://ai.pitt.edu/"
+      },
+      {
+        "name": "Ad Hoc Committee on Gen AI in Research and Education",
+        "type": "task_force",
+        "scope": "Combined Provost and Senior Vice Chancellor for Research committee that produced Pitt's March 2024 'Considerations for Responsible Use and Recommendations for Generative AI' report; co-chaired by John Radzilowicz and Lisa Parker",
+        "url": "https://teaching.pitt.edu/ai-committee-report/"
+      },
+      {
+        "name": "Generative AI Committee (Teaching & Learning)",
+        "type": "committee",
+        "scope": "Standing committee coordinating faculty guidance on generative AI in teaching; members include Mike Holland (Vice Chancellor for Science Policy), Jennifer Seng (Deputy Chief Legal Officer), and faculty from across schools",
+        "url": "https://teaching.pitt.edu/resources/generative-ai-committee/"
+      },
+      {
+        "name": "Pitt AI Scholar-Teacher Alliance (PASTA)",
+        "type": "council",
+        "scope": "Cross-disciplinary community of faculty and staff convened by Professor Michael Madison and supported by the CIO; hosts monthly interdisciplinary discussions on AI across research and teaching",
+        "url": "https://digital.pitt.edu/pasta"
+      },
+      {
+        "name": "Pitt Cyber — Institute for Cyber Law, Policy, and Security (AI & Algorithmic Accountability program)",
+        "type": "office",
+        "scope": "Interdisciplinary institute (founded 2017) running policy research on AI governance, algorithmic registries, and AI procurement; houses the Pittsburgh Task Force on Public Algorithms",
+        "url": "https://www.cyber.pitt.edu/ai-governance"
+      },
+      {
+        "name": "Office of the CIO / Pitt Digital — AI Enablement",
+        "type": "office",
+        "scope": "CIO Mark Henderson's organization, with Director of AI Enablement Joe Yun, operates the PittGPT platform and the campus-wide generative AI tool portfolio",
+        "url": "https://www.technology.pitt.edu/about-us/office-of-the-cio"
+      }
+    ],
+    "summary": "Pitt's AI governance is distributed across a governance hub (HAIL), a teaching-focused committee, a research ethics task force that produced a living 'Points to Consider' framework, a university-wide faculty alliance (PASTA), an algorithmic-accountability policy institute (Pitt Cyber), and an operational AI Enablement office inside the CIO organization. The model couples faculty deliberation with a dedicated AI enablement executive and formal policy working groups."
+  },
+  "initiatives": [
+    {
+      "title": "Hub for AI and Data Science Leadership (HAIL) launch",
+      "description": "Pitt inaugurated HAIL in December 2025 as a university-wide hub unifying AI research, teaching, enterprise tooling, and regional workforce development under a 'Responsible Data Science' framing. Director Michael Colaresi leads the effort, which combines Claude for Education, PittGPT, Amazon Bedrock, and NVIDIA-powered GPU compute through the Center for Research Computing and Data.",
+      "significance": "Establishes a single operational hub for Pitt's AI strategy and ties enterprise AI deployment directly to regional workforce development in a way many peers have not attempted.",
+      "date_announced": "2025-12-19",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "campus_wide_platform_rollout",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "University budget with industry partner contributions (AWS, Anthropic, NVIDIA, Leidos)",
+        "description": "Aggregates existing campus AI spending and industry partnerships into a single hub; no standalone dollar figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Anthropic",
+            "Amazon Web Services",
+            "NVIDIA",
+            "Leidos"
+          ],
+          "description": "HAIL operationalizes Pitt's enterprise agreements with Anthropic/AWS for Claude for Education, NVIDIA for the Joint Center for AI and Intelligent Systems, and Leidos for CPACE."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Claude for Education",
+          "vendor": "Anthropic",
+          "role": "Campus-wide LLM for teaching, research, and operations"
+        },
+        {
+          "name": "PittGPT",
+          "vendor": "University of Pittsburgh",
+          "role": "Pitt-hosted private LLM for restricted data"
+        },
+        {
+          "name": "Amazon Bedrock",
+          "vendor": "Amazon Web Services",
+          "role": "Cloud AI platform underpinning PittGPT and custom applications"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "HAIL positions Pitt as a model for coordinating enterprise AI deployment with formal governance and regional workforce strategy; other R1s will likely look to it for a reusable hub pattern.",
+      "source_urls": [
+        "https://markets.chroniclejournal.com/chroniclejournal/article/tokenring-2025-12-19-pitt-launches-hail-a-new-blueprint-for-the-ai-enabled-university-and-regional-workforce",
+        "https://ai.pitt.edu/"
+      ]
+    },
+    {
+      "title": "Claude for Education enterprise agreement with AWS integration",
+      "description": "On December 5, 2025, Pitt became the first university to integrate Claude for Education with AWS under an enterprise agreement. Faculty and staff received access immediately; students were on-boarded over winter recess via claude.ai with Pitt SSO. The agreement runs one year with no long-term lock-in; data remains private and is not used for training Anthropic models.",
+      "significance": "First-of-kind Claude+AWS integration establishes a new enterprise AI procurement pattern for higher education and validates multi-tool institutional AI stacks.",
+      "date_announced": "2025-12-05",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tutoring_and_adaptive_learning"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University IT budget",
+        "description": "Institution-wide license; exact pricing not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Anthropic",
+            "Amazon Web Services"
+          ],
+          "description": "Joint deployment combining Anthropic's Claude 4.5 Sonnet models with AWS cloud infrastructure for custom teaching, research, and operational applications."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Claude for Education",
+          "vendor": "Anthropic",
+          "role": "Campus-wide generative AI assistant with Socratic-style learning mode"
+        },
+        {
+          "name": "Amazon Web Services",
+          "vendor": "Amazon",
+          "role": "Cloud infrastructure and Bedrock integration for custom Pitt applications"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "CIO Mark Henderson emphasized use is voluntary and faculty retain full discretion, setting a precedent that enterprise AI deployments can scale without mandatory adoption.",
+      "source_urls": [
+        "https://www.utimes.pitt.edu/news/cio-says-claude-education",
+        "https://www.pittwire.pitt.edu/announcements-and-updates/2026/02/12/claude-gemini-copilot-generative-ai"
+      ]
+    },
+    {
+      "title": "PittGPT private generative AI platform",
+      "description": "PittGPT is Pitt's in-house ChatGPT-like assistant designed for sensitive data, running on Amazon Bedrock under a closed-loop architecture. Led by Joe Yun, Director of AI Enablement, it is available to faculty and staff for work with restricted data and operates at a cost estimated around $10/user/year at full scale.",
+      "significance": "Demonstrates a mid-size R1 building and operating its own private enterprise LLM stack rather than relying solely on vendor tools for sensitive use cases.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University IT budget",
+        "description": "Internal build funded by Pitt Digital; operating cost estimated at roughly $10 per user per year."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services"
+          ],
+          "description": "PittGPT runs on Amazon Bedrock with private model hosting so no Pitt data is shared with public model providers."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "PittGPT",
+          "vendor": "University of Pittsburgh",
+          "role": "Private institutional LLM assistant for sensitive data"
+        },
+        {
+          "name": "Amazon Bedrock",
+          "vendor": "Amazon Web Services",
+          "role": "Underlying cloud AI platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors the 'restricted data must stay in University GenAI Tools' rule in Pitt's acceptable use policy.",
+      "source_urls": [
+        "https://pittnews.com/article/192376/featured/pitt-pilots-new-ai-program-pittgpt/",
+        "https://www.digital.pitt.edu/news/pantherbytes-blog/spotlight-joe-yun-leading-ai-enablement-pitt-digital"
+      ]
+    },
+    {
+      "title": "Computational Pathology and AI Center of Excellence (CPACE) with $10M Leidos investment",
+      "description": "Leidos committed $10 million over five years to CPACE, which Pitt established in January 2024 within the School of Medicine to develop AI tools for disease detection across heart disease and cancer. CPACE operates a ScanVan, a mobile digitization unit, and the Leidos Computational Pathology Fellowship for clinical AI training.",
+      "significance": "Large, named industry gift into a dedicated clinical-AI center makes Pitt a recognized national leader in pathology AI and signals a scalable pattern for industry-funded applied AI research.",
+      "date_announced": "2025-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Leidos (industry gift)",
+        "description": "Five-year $10M Leidos commitment to accelerate AI-powered disease detection at CPACE."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Leidos"
+          ],
+          "description": "Leidos funds AI tool development, a fellowship program, and the ScanVan slide-digitization initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://investors.leidos.com/news-releases/news-release-details/leidos-invests-10-million-ai-disease-detection-university",
+        "https://www.medschool.pitt.edu/news/10-million-investment-leidos-accelerate-ai-tools-health-care",
+        "https://cpace.pitt.edu/"
+      ]
+    },
+    {
+      "title": "NVIDIA Joint Center for AI and Intelligent Systems",
+      "description": "On October 14, 2024, Pitt signed an MOU with NVIDIA (alongside Carnegie Mellon) to establish a joint center focused on AI applications in clinical medicine and biomanufacturing, as part of NVIDIA's inaugural AI Tech Community in Pittsburgh. Governor Josh Shapiro, Chancellor Joan Gabel, and CMU President Farnam Jahanian co-announced.",
+      "significance": "Positions Pittsburgh as NVIDIA's first 'AI Tech Community' anchor and ties Pitt's clinical AI work to national-scale compute and hardware.",
+      "date_announced": "2024-10-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NVIDIA (industry)",
+        "description": "Joint center with NVIDIA hardware, software, and collaboration; dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Carnegie Mellon University"
+          ],
+          "description": "Multi-institution MOU anchoring NVIDIA's first AI Tech Community in Pittsburgh."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA A100/L40S GPU clusters",
+          "vendor": "NVIDIA",
+          "role": "Compute hardware for AI research through Pitt CRCD"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.health.pitt.edu/news/pitt-and-nvidia-marry-medical-expertise-ai-power/",
+        "https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/",
+        "https://www.pittwire.pitt.edu/pittwire/features-articles/2024/10/15/nvidia-ai-tech-community"
+      ]
+    },
+    {
+      "title": "Acceptable Use of Generative AI Tools policy",
+      "description": "Pitt Digital publishes the institution-wide Acceptable Use of Generative AI Tools policy, which classifies GenAI systems by data sensitivity: University GenAI Tools (PittGPT, Claude for Education, Gemini, Copilot Chat) for restricted/private data, and public tools (ChatGPT, DeepSeek, Grammarly, Notion AI, etc.) for public data only.",
+      "significance": "Data-classification-based AUP is a template for other large R1s trying to balance faculty autonomy with privacy and compliance obligations.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "University operating budget",
+        "description": "Policy authoring and enforcement embedded in existing compliance structures."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal institutional policy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Binds tool selection to data classification, establishes Vendor Security Risk Assessment as a precondition for any AI tool, and ties enforcement to Faculty/Staff/Student handbooks.",
+      "source_urls": [
+        "https://www.digital.pitt.edu/acceptable-use-generative-artificial-intelligence-tools"
+      ]
+    },
+    {
+      "title": "Ad Hoc Committee on Gen AI in Research and Education report",
+      "description": "In March 2024 Pitt published 'Considerations for Responsible Use and Recommendations for Generative AI in Research and Education,' authored by Ravit Dotan, Lisa Parker, and John Radzilowicz. The report offers a 'Points to Consider' living framework, peer benchmarking, an eight-unit faculty survey, and publisher-policy analysis, recommending annual landscape reviews.",
+      "significance": "Pitt's framing of GenAI policy as a 'living framework' rather than a static document is a notable governance pattern that emphasizes recurring faculty deliberation.",
+      "date_announced": "2024-03-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "institutional_ai_strategy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Provost and Senior Vice Chancellor for Research offices",
+        "description": "Committee work, staff time, and peer benchmarking."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Pitt committee."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides the ethics scaffolding (positive-but-careful stance, humanistic perspective) underpinning Pitt's policy posture and continues to inform annual policy refresh.",
+      "source_urls": [
+        "https://teaching.pitt.edu/ai-committee-report/",
+        "https://www.utimes.pitt.edu/news/ad-hoc-committee-provides"
+      ]
+    },
+    {
+      "title": "Online Bachelor of Science in Health Informatics with AI focus",
+      "description": "Pitt's School of Health and Rehabilitation Sciences will launch the university's first fully online undergraduate degree in 2026, a BS in Health Informatics built around data analytics, programming, AI, and big-data systems. It is designed as an upper-division completion pathway at a reduced tuition, culminating in a clinical internship and capstone.",
+      "significance": "One of the first fully online accredited undergraduate programs nationally with a dedicated AI-in-healthcare focus; broadens access and targets a reported 83.4% annual growth in AI health-informatics jobs.",
+      "date_announced": "2025-10-16",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "School of Health and Rehabilitation Sciences",
+        "description": "Launch of a new online degree modality at reduced tuition; dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal school initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Signals willingness to create AI-native academic products and experiment with online-first degree pricing.",
+      "source_urls": [
+        "https://www.pittwire.pitt.edu/features-articles/2025/10/16/online-bs-health-informatics-shrs"
+      ]
+    },
+    {
+      "title": "AI Literacy course portfolio for Spring 2026",
+      "description": "Pitt's Spring 2026 course lineup introduces AI Literacy: Foundations for Critical Thinking and Informed Use (INFSCI 1499), a redesigned Computer Vision graduate course covering multimodal LLMs and agentic AI, LIS 2970 on emerging technologies for underserved communities, Foundations of AI for Business (undergrad and grad), and Data to Prediction: Machine Learning for Public Health (PUBHLT 0413).",
+      "significance": "Builds broad, cross-disciplinary AI literacy before formal requirements, positioning every school (Computing, Business, Public Health, Library Science) to introduce students to responsible and practical AI.",
+      "date_announced": "2025-12-04",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "School operating budgets",
+        "description": "Course development across five schools."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Cross-school curricular initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals Pitt's intent to move AI literacy from optional to normative across the undergraduate experience.",
+      "source_urls": [
+        "https://www.pittwire.pitt.edu/features-articles/2025/12/04/spring-2026-new-academic-programs"
+      ]
+    },
+    {
+      "title": "Pitt AI Scholar-Teacher Alliance (PASTA)",
+      "description": "PASTA emerged from an April 2023 University Senate plenary and has grown into a monthly interdisciplinary forum (first Tuesdays in Oakland) on AI research and teaching, convened by Professor of Law Michael Madison with CIO-level support. It connects seven centers including Pitt Cyber, the Center for Governance and Markets, and the Hub for AI and Data Science Leadership.",
+      "significance": "A grass-roots, faculty-led AI community that complements formal governance bodies and models peer-style sector-wide knowledge sharing within a single campus.",
+      "date_announced": "2023-04-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_ethics_framework",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the CIO and participating centers",
+        "description": "Convener time and meeting support; no dedicated budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Pitt Cyber",
+            "Center for Governance and Markets",
+            "Department of English",
+            "The Future Law Project",
+            "Information Ecosystems",
+            "Research, Ethics & Society Initiative",
+            "University Library System"
+          ],
+          "description": "Seven-center on-campus alliance linking humanities, law, engineering, and policy programs."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Keeps faculty voice central in policy evolution; counters top-down-only AI governance.",
+      "source_urls": [
+        "https://digital.pitt.edu/pasta"
+      ]
+    },
+    {
+      "title": "Health Sciences and Sports Analytics Cloud Innovation Center with AWS",
+      "description": "Pitt partnered with AWS to open the first Cloud Innovation Center (CIC) on the US East Coast focused on health sciences and sports analytics, applying AI and cloud tools to biomedical, clinical, and performance data. The CIC collaborates with the School of Medicine and UPMC partners.",
+      "significance": "Adds Pitt to a small group of universities hosting AWS CICs and anchors AI-driven health and sports analytics research with industry-grade cloud tooling.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "AWS (industry partnership)",
+        "description": "AWS-sponsored CIC with cloud credits, staff, and project support; dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services",
+            "UPMC"
+          ],
+          "description": "Cloud Innovation Center with AWS; UPMC participates on health data use cases."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Amazon Web Services",
+          "vendor": "Amazon",
+          "role": "Cloud infrastructure and AI services for the CIC"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.digital.pitt.edu/news/pantherbytes-blog/aws-cic"
+      ]
+    },
+    {
+      "title": "Pittsburgh Supercomputing Center Bridges-2 AI GPU upgrade",
+      "description": "PSC — a joint center of Pitt and Carnegie Mellon — won an NSF award to upgrade the Bridges-2 supercomputer with NVIDIA H100 GPUs, reinforcing its capacity to support the NAIRR pilot program. Bridges-2 and PSC's Neocortex (with two Cerebras CS-2 systems) are both NAIRR-allocated resources.",
+      "significance": "Keeps Pitt's shared compute infrastructure near the NSF national-scale AI frontier and provides broad access to researchers beyond the host institutions.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4900000,
+        "funding_source": "National Science Foundation",
+        "description": "$4.9M NSF award to upgrade Bridges-2 with NVIDIA H100 GPUs."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "Carnegie Mellon University"
+          ],
+          "description": "Federally funded upgrade to a joint Pitt/CMU HPC resource that feeds NAIRR."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Bridges-2",
+          "vendor": "HPE / NVIDIA",
+          "role": "Petascale HPC+AI resource"
+        },
+        {
+          "name": "Neocortex",
+          "vendor": "Cerebras / HPE",
+          "role": "AI-specialized HPC for NAIRR pilot"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.pittwire.pitt.edu/pittwire/accolades-honors/nsf-bridges-2-gpu-ai-upgrade-2024",
+        "https://www.pittwire.pitt.edu/pittwire/accolades-honors/psc-neocortex-nairr-2024",
+        "https://crc.pitt.edu/overview-crc-services/computing-hardware"
+      ]
+    },
+    {
+      "title": "Pitt BioForge AI-powered biomanufacturing center (Hazelwood Green)",
+      "description": "Pitt BioForge is a $250M biomanufacturing center at Hazelwood Green, anchored by ElevateBio and seeded by a $100M gift from the Richard King Mellon Foundation. AI, automation, and next-generation analytics are core to the facility's cell- and gene-therapy manufacturing platform.",
+      "significance": "Ties Pitt's AI workforce and research agenda to a $250M regional economic development project and signals AI's role in industrial biomanufacturing.",
+      "date_announced": "2023-09-21",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "ai_workforce_training",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "students",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 250000000,
+        "funding_source": "Pitt, ElevateBio, and $100M Richard King Mellon Foundation gift",
+        "description": "$250M biomanufacturing facility with AI-driven automation."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "ElevateBio",
+            "Richard King Mellon Foundation",
+            "City of Pittsburgh"
+          ],
+          "description": "Regional development partnership linking biomanufacturing, AI training, and community access via HAIL's Life Sciences Career Pathways."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Links AI workforce development to neighborhood-level access through Community Engagement Centers in Hazelwood and Homewood.",
+      "source_urls": [
+        "https://elevate.bio/press-releases/elevatebio-and-the-university-of-pittsburgh-announce-creation-of-pitt-bioforge-biomanufacturing-center-at-hazelwood-green-to-accelerate-cell-and-gene-therapy-innovation/",
+        "https://www.post-gazette.com/business/development/2023/09/21/pitt-bioforge-hazelwood-green-pittsburgh-planning-commission/stories/202309210093",
+        "https://www.pittbioforge.org/location"
+      ]
+    },
+    {
+      "title": "Pitt Cyber AI & Algorithmic Accountability program",
+      "description": "Pitt Cyber (founded 2017 by David Hickton) runs a long-standing AI & Algorithmic Accountability program that has produced the Pittsburgh Task Force on Public Algorithms, publications on AI procurement and algorithmic registries, and AI governance inputs to local, state, federal, and multilateral bodies.",
+      "significance": "Provides Pitt with a serious AI policy research voice and creates institutional capacity to weigh in on state and federal AI regulation.",
+      "date_announced": "2017-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "researchers",
+        "community",
+        "accreditors",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University, foundation grants",
+        "description": "Institute operating budget with external research grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "City of Pittsburgh",
+            "Commonwealth of Pennsylvania",
+            "federal AI working groups"
+          ],
+          "description": "Policy research and advisory engagements on AI accountability."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Gives Pitt direct input into regional and national AI procurement and accountability rules.",
+      "source_urls": [
+        "https://www.cyber.pitt.edu/ai-governance",
+        "https://www.cyber.pitt.edu/ai",
+        "https://www.cyber.pitt.edu/research-area/ai-algorithms-and-ethics"
+      ]
+    },
+    {
+      "title": "International Conference on Health, AI & Technology",
+      "description": "Pitt and Carnegie Mellon hosted a three-day international conference October 19-21, 2025 with the Global Federation of Competitiveness Councils on AI's role in healthcare and economic growth. Chancellor Joan Gabel, CMU President Farnam Jahanian, and Gov. Josh Shapiro participated.",
+      "significance": "Elevates Pittsburgh's public profile as an AI hub and aligns university leadership with state government on health-AI strategy.",
+      "date_announced": "2025-10-19",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Pitt, CMU, Council on Competitiveness",
+        "description": "Conference programming and convening."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Carnegie Mellon University",
+            "Global Federation of Competitiveness Councils",
+            "Commonwealth of Pennsylvania"
+          ],
+          "description": "Multi-party convening on health, AI, and economic growth."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.utimes.pitt.edu/news/ai-dominates-discussions"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Computational Pathology and AI Center of Excellence (CPACE)",
+      "focus": "AI-powered disease detection in pathology and laboratory medicine, led by Hooman Rashidi",
+      "founded": "2024",
+      "url": "https://cpace.pitt.edu/"
+    },
+    {
+      "name": "Intelligent Systems Program (ISP)",
+      "focus": "Applied AI graduate program (MS and PhD) spanning medicine, law, education, engineering, and arts & sciences",
+      "founded": null,
+      "url": "https://www.isp.pitt.edu/"
+    },
+    {
+      "name": "Pitt Cyber — Institute for Cyber Law, Policy, and Security",
+      "focus": "AI governance, algorithmic accountability, cyber policy research",
+      "founded": "2017",
+      "url": "https://www.cyber.pitt.edu/"
+    },
+    {
+      "name": "Pittsburgh Supercomputing Center (PSC)",
+      "focus": "Joint Pitt-CMU HPC/AI center; hosts Bridges-2 and Neocortex (NAIRR pilot resource)",
+      "founded": "1986",
+      "url": "https://www.psc.edu/"
+    },
+    {
+      "name": "Center for Research Computing and Data (CRCD)",
+      "focus": "Pitt-hosted HPC, GPU cluster, AI/ML training and consulting",
+      "founded": null,
+      "url": "https://crc.pitt.edu/"
+    },
+    {
+      "name": "Hub for AI and Data Science Leadership (HAIL)",
+      "focus": "University-wide AI coordination, education, enterprise tools, and regional workforce",
+      "founded": "2025",
+      "url": "https://ai.pitt.edu/"
+    },
+    {
+      "name": "Health Sciences and Sports Analytics Cloud Innovation Center (AWS CIC)",
+      "focus": "AI/cloud-driven research in health sciences and sports analytics",
+      "founded": "2024",
+      "url": "https://www.digital.pitt.edu/news/pantherbytes-blog/aws-cic"
+    },
+    {
+      "name": "NVIDIA Joint Center for AI and Intelligent Systems",
+      "focus": "AI in clinical medicine and biomanufacturing, part of NVIDIA's AI Tech Community",
+      "founded": "2024",
+      "url": "https://www.pittwire.pitt.edu/pittwire/features-articles/2024/10/15/nvidia-ai-tech-community"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "MS in Intelligent Systems",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.sci.pitt.edu/academics/masters-degrees/intelligent-systems-ms"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Intelligent Systems",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.sci.pitt.edu/academics/doctoral-degrees/intelligent-systems-phd"
+    },
+    {
+      "type": "degree",
+      "name": "BS in Health Informatics (online, with AI focus)",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://www.pittwire.pitt.edu/features-articles/2025/10/16/online-bs-health-informatics-shrs"
+    },
+    {
+      "type": "certificate",
+      "name": "Certificate in Foundations of AI for Business",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.cba.pitt.edu/academics/certificates/certificate-in-foundations-of-ai-for-business/"
+    },
+    {
+      "type": "course",
+      "name": "AI Literacy: Foundations for Critical Thinking and Informed Use (INFSCI 1499)",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://www.pittwire.pitt.edu/features-articles/2025/12/04/spring-2026-new-academic-programs"
+    },
+    {
+      "type": "course",
+      "name": "Data to Prediction: Machine Learning for Public Health (PUBHLT 0413)",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://www.pittwire.pitt.edu/features-articles/2025/12/04/spring-2026-new-academic-programs"
+    },
+    {
+      "type": "course",
+      "name": "Computer Vision (CS 2770) — redesigned with multimodal LLMs and agentic AI",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://www.pittwire.pitt.edu/features-articles/2025/12/04/spring-2026-new-academic-programs"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Anthropic",
+      "product": "Claude for Education",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.utimes.pitt.edu/news/cio-says-claude-education"
+    },
+    {
+      "vendor": "University of Pittsburgh",
+      "product": "PittGPT",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://pittnews.com/article/192376/featured/pitt-pilots-new-ai-program-pittgpt/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.pittwire.pitt.edu/announcements-and-updates/2026/02/12/claude-gemini-copilot-generative-ai"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.pittwire.pitt.edu/announcements-and-updates/2026/02/12/claude-gemini-copilot-generative-ai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.digital.pitt.edu/news/alerts/unlock-ai-powered-efficiency-microsoft-copilot-available-purchase"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "product": "Amazon Bedrock (underlying platform for PittGPT and Claude integration)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.digital.pitt.edu/news/pantherbytes-blog/aws-cic"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Bridges-2 (PSC) and Neocortex (PSC); Pitt CRCD GPU cluster",
+    "gpu_count": null,
+    "url": "https://crc.pitt.edu/overview-crc-services/computing-hardware",
+    "summary": "Pitt co-operates the Pittsburgh Supercomputing Center with Carnegie Mellon, hosting the petascale Bridges-2 system (recently upgraded with NVIDIA H100 GPUs under a $4.9M NSF award) and the AI-specialized Neocortex system with two Cerebras CS-2 engines. Both are NSF NAIRR-pilot resources. Pitt's own CRCD also runs NVIDIA A100/L40S GPU clusters supporting CUDA, TensorFlow, and PyTorch workflows for campus researchers."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Leidos $10M investment in CPACE",
+      "amount_usd": 10000000,
+      "source": "Leidos",
+      "purpose": "AI-powered disease detection at the Computational Pathology and AI Center of Excellence",
+      "date": "2025-05",
+      "url": "https://investors.leidos.com/news-releases/news-release-details/leidos-invests-10-million-ai-disease-detection-university"
+    },
+    {
+      "title": "Richard King Mellon Foundation $100M gift for BioForge",
+      "amount_usd": 100000000,
+      "source": "Richard King Mellon Foundation",
+      "purpose": "Seed funding for the Pitt BioForge AI-enabled biomanufacturing center at Hazelwood Green",
+      "date": "2021-11",
+      "url": "https://www.pittbioforge.org/location"
+    },
+    {
+      "title": "NSF Bridges-2 GPU upgrade",
+      "amount_usd": 4900000,
+      "source": "National Science Foundation",
+      "purpose": "Adding NVIDIA H100 GPUs to the Bridges-2 supercomputer to expand AI research capacity and support NAIRR",
+      "date": "2024-01",
+      "url": "https://www.pittwire.pitt.edu/pittwire/accolades-honors/nsf-bridges-2-gpu-ai-upgrade-2024"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Anthropic + Amazon Web Services (Claude for Education on AWS)",
+      "purpose": "First university to integrate Claude for Education with AWS; enterprise campus-wide access",
+      "date": "2025-12",
+      "url": "https://www.utimes.pitt.edu/news/cio-says-claude-education"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA + Carnegie Mellon University",
+      "purpose": "Joint Center for AI and Intelligent Systems; Pittsburgh's NVIDIA AI Tech Community anchor",
+      "date": "2024-10",
+      "url": "https://www.pittwire.pitt.edu/pittwire/features-articles/2024/10/15/nvidia-ai-tech-community"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Leidos",
+      "purpose": "CPACE five-year AI-in-healthcare collaboration, Leidos Computational Pathology Fellowship",
+      "date": "2025-05",
+      "url": "https://www.medschool.pitt.edu/news/10-million-investment-leidos-accelerate-ai-tools-health-care"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "ElevateBio + Richard King Mellon Foundation",
+      "purpose": "Pitt BioForge AI-driven cell and gene therapy manufacturing at Hazelwood Green",
+      "date": "2023-09",
+      "url": "https://elevate.bio/press-releases/elevatebio-and-the-university-of-pittsburgh-announce-creation-of-pitt-bioforge-biomanufacturing-center-at-hazelwood-green-to-accelerate-cell-and-gene-therapy-innovation/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services",
+      "purpose": "Health Sciences and Sports Analytics Cloud Innovation Center (first AWS CIC on the US East Coast)",
+      "date": "2024-01",
+      "url": "https://www.digital.pitt.edu/news/pantherbytes-blog/aws-cic"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Carnegie Mellon University (PSC, NVIDIA Tech Community, HAI conference)",
+      "purpose": "Joint supercomputing center and joint AI education and policy convening",
+      "date": "1986-01",
+      "url": "https://www.psc.edu/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation (NAIRR pilot)",
+      "purpose": "Bridges-2 and Neocortex resources allocated to national AI research community via NAIRR",
+      "date": "2024-01",
+      "url": "https://www.pittwire.pitt.edu/pittwire/accolades-honors/psc-neocortex-nairr-2024"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Claude for Education (Socratic mode)",
+      "scope": "All faculty, staff, and students; used for research support, coding, and guided learning",
+      "url": "https://www.utimes.pitt.edu/news/cio-says-claude-education"
+    },
+    {
+      "type": "chatbot",
+      "name": "PittGPT",
+      "scope": "Pitt-hosted private LLM for faculty and staff working with restricted data; student access limited",
+      "url": "https://pittnews.com/article/192376/featured/pitt-pilots-new-ai-program-pittgpt/"
+    },
+    {
+      "type": "tutor",
+      "name": "Intelligent Tutoring Systems and Educational Technology group (ISP)",
+      "scope": "Research-grade tutoring systems across science domains, developed within the Intelligent Systems Program",
+      "url": "https://www.isp.pitt.edu/"
+    },
+    {
+      "type": "other",
+      "name": "Google NotebookLM",
+      "scope": "Campus-wide research assistant for document analysis and citation-grounded study",
+      "url": "https://www.pittwire.pitt.edu/announcements-and-updates/2026/02/12/claude-gemini-copilot-generative-ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "HAIL Community Engagement Centers — Hazelwood and Homewood",
+      "description": "HAIL embeds AI workforce training in neighborhood-level Community Engagement Centers so residents in historically under-invested areas can access Life Sciences Career Pathways and AI vocational training.",
+      "url": "https://markets.chroniclejournal.com/chroniclejournal/article/tokenring-2025-12-19-pitt-launches-hail-a-new-blueprint-for-the-ai-enabled-university-and-regional-workforce"
+    },
+    {
+      "title": "Online BS in Health Informatics at reduced tuition",
+      "description": "Upper-division completion pathway in AI and health informatics offered fully online at reduced tuition, designed for working professionals and nontraditional learners.",
+      "url": "https://www.pittwire.pitt.edu/features-articles/2025/10/16/online-bs-health-informatics-shrs"
+    },
+    {
+      "title": "Pitt Cyber algorithmic accountability work",
+      "description": "Pittsburgh Task Force on Public Algorithms and publications on AI procurement, bias, and algorithmic registries shape equitable governmental use of AI at local and state levels.",
+      "url": "https://www.cyber.pitt.edu/ai"
+    },
+    {
+      "title": "LIS 2970: Empowering the Underserved with Immersive and Emerging Technologies",
+      "description": "MLIS course focused on designing AI/immersive tech interventions for underserved communities.",
+      "url": "https://www.pittwire.pitt.edu/features-articles/2025/12/04/spring-2026-new-academic-programs"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Pennsylvania",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Pennsylvania has moved early on state AI policy. Governor Josh Shapiro's Executive Order 2023-19 established a Generative AI Governing Board for state government and 10 core values guiding AI use. The Commonwealth ran a first-in-the-nation ChatGPT Enterprise pilot in 2024 and signed a 2025 Cooperative Agreement with the University of Pennsylvania for AI advising services. A statewide Artificial Intelligence Policy took effect January 13, 2026. The 2026-27 budget proposes four reforms targeting AI companion bots and age verification. Pennsylvania was ranked top-3 for government AI readiness by Code for America in July 2025. Pitt operates within this context but is not part of a university system with its own AI policy.",
+    "urls": [
+      "https://www.pa.gov/governor/newsroom/2025-press-releases/shapiro-admin-ai-conference-collaboration-u-of-pennsylvania",
+      "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-takes-action-to-protect-pennsylvanians-using-ai",
+      "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/artificial%20intelligence%20policy.pdf",
+      "https://www.cityandstatepa.com/policy/2025/07/pennsylvania-top-3-state-government-ai-readiness/406573/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-10",
+      "summary": "The Pitt-AWS/Anthropic deal to integrate AI into university academics drew faculty debate in the student press, with some faculty publicly questioning pace, vendor dependence, and academic norms around generative AI.",
+      "status": "active",
+      "url": "https://pittnews.com/article/198819/news/pitt-aws-deal-to-integrate-ai-into-university-academics-stirs-debate-among-professors/"
+    }
+  ],
+  "narrative_summary": "The University of Pittsburgh has assembled one of the most structurally complete AI postures among large public R1s without a university-system layer. It couples a dedicated executive role (Joe Yun as Director of AI Enablement inside the CIO organization) with a newly launched governance hub (HAIL, December 2025, under Director Michael Colaresi) and an applied clinical-AI flagship (CPACE, funded by a $10M Leidos gift). The enterprise AI stack is unusually deep for a public university: PittGPT is a private, Bedrock-hosted institutional LLM, and Pitt became the first university to deploy Claude for Education integrated with AWS in December 2025, with Google Gemini, NotebookLM, and Microsoft 365 Copilot Chat also available campus-wide. The research infrastructure rests on the Pittsburgh Supercomputing Center (joint with Carnegie Mellon), which operates the NAIRR-pilot Bridges-2 and Neocortex systems, recently upgraded with NVIDIA H100 GPUs through a $4.9M NSF award. NVIDIA named Pittsburgh its inaugural AI Tech Community anchor in October 2024, further pulling federal and industry attention. Governance is distributed and deliberative: a March 2024 Ad Hoc Committee report set a 'Points to Consider' living framework, Pitt Cyber runs a long-standing AI and Algorithmic Accountability program, and PASTA convenes cross-disciplinary faculty monthly. The Acceptable Use of Generative AI Tools policy uses a comprehensive data-classification model that permits experimentation while requiring Vendor Security Risk Assessment for sensitive data. On the teaching side, Pitt is adding AI literacy, AI for business, and machine-learning-for-public-health courses for Spring 2026 and launching an AI-focused online BS in Health Informatics in 2026. Regionally, Pitt BioForge (a $250M biomanufacturing facility seeded by a $100M Mellon gift and partnered with ElevateBio) and HAIL's Community Engagement Centers in Hazelwood and Homewood tie AI directly to local workforce development. Faculty debate over the pace of vendor integration is live but has not become litigation. The principal gaps in Pitt's posture are the absence of a single published multi-year AI strategy document and limited public evidence of predictive-analytics retention or campus-wide syllabus-level policy mandates.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.pitt.edu/",
+      "https://www.digital.pitt.edu/acceptable-use-generative-artificial-intelligence-tools",
+      "https://www.digital.pitt.edu/ai",
+      "https://www.technology.pitt.edu/ai",
+      "https://teaching.pitt.edu/resources/generative-ai-committee/",
+      "https://teaching.pitt.edu/ai-committee-report/",
+      "https://teaching.pitt.edu/resources/teaching-with-generative-ai/",
+      "https://www.pittwire.pitt.edu/announcements-and-updates/2026/02/12/claude-gemini-copilot-generative-ai",
+      "https://www.pittwire.pitt.edu/features-articles/2025/12/04/spring-2026-new-academic-programs",
+      "https://www.pittwire.pitt.edu/features-articles/2025/10/16/online-bs-health-informatics-shrs",
+      "https://www.pittwire.pitt.edu/pittwire/features-articles/2024/10/15/nvidia-ai-tech-community",
+      "https://www.pittwire.pitt.edu/pittwire/accolades-honors/nsf-bridges-2-gpu-ai-upgrade-2024",
+      "https://www.pittwire.pitt.edu/pittwire/accolades-honors/psc-neocortex-nairr-2024",
+      "https://www.utimes.pitt.edu/news/cio-says-claude-education",
+      "https://www.utimes.pitt.edu/news/gen-ai-academia",
+      "https://www.utimes.pitt.edu/news/ad-hoc-committee-provides",
+      "https://www.utimes.pitt.edu/news/ai-dominates-discussions",
+      "https://www.utimes.pitt.edu/news/while-hazelwood-green",
+      "https://www.digital.pitt.edu/news/pantherbytes-blog/spotlight-joe-yun-leading-ai-enablement-pitt-digital",
+      "https://www.digital.pitt.edu/news/pantherbytes-blog/aws-cic",
+      "https://www.digital.pitt.edu/news/alerts/unlock-ai-powered-efficiency-microsoft-copilot-available-purchase",
+      "https://digital.pitt.edu/pasta",
+      "https://www.cyber.pitt.edu/",
+      "https://www.cyber.pitt.edu/ai",
+      "https://www.cyber.pitt.edu/ai-governance",
+      "https://www.cyber.pitt.edu/research-area/ai-algorithms-and-ethics",
+      "https://cpace.pitt.edu/",
+      "https://www.medschool.pitt.edu/news/10-million-investment-leidos-accelerate-ai-tools-health-care",
+      "https://www.medschool.pitt.edu/news/pitt-and-leidos-are-building-ai-digitize-pathology-slides-and-send-it-road-trip",
+      "https://investors.leidos.com/news-releases/news-release-details/leidos-invests-10-million-ai-disease-detection-university",
+      "https://pittmed.pitt.edu/news/leidos-partnership-artificial-intelligence-digital-pathology-cpace",
+      "https://www.shrs.pitt.edu/story/health-informatics-faculty-help-drive-10-million-leidos-partnership-for-using-ai-tools-in-health-care/",
+      "https://www.research.pitt.edu/resources-generative-ai",
+      "https://www.research.pitt.edu/report/future-digital/ai-everyone",
+      "https://www.chancellor.pitt.edu/leadership",
+      "https://www.chancellor.pitt.edu/people/mark-d-henderson",
+      "https://www.provost.pitt.edu/people",
+      "https://www.provost.pitt.edu/academic-integrity-guidelines",
+      "https://www.isp.pitt.edu/",
+      "https://www.sci.pitt.edu/academics/masters-degrees/intelligent-systems-ms",
+      "https://www.sci.pitt.edu/academics/doctoral-degrees/intelligent-systems-phd",
+      "https://www.cba.pitt.edu/academics/certificates/certificate-in-foundations-of-ai-for-business/",
+      "https://www.psc.edu/",
+      "https://crc.pitt.edu/",
+      "https://crc.pitt.edu/overview-crc-services/computing-hardware",
+      "https://www.health.pitt.edu/news/pitt-and-nvidia-marry-medical-expertise-ai-power/",
+      "https://blogs.nvidia.com/blog/pittsburgh-ai-tech-community/",
+      "https://www.pittmed.pitt.edu/news/nvidia-joint-center-university-of-pittsburgh-ai-tech-community-gov-josh-shapiro",
+      "https://markets.chroniclejournal.com/chroniclejournal/article/tokenring-2025-12-19-pitt-launches-hail-a-new-blueprint-for-the-ai-enabled-university-and-regional-workforce",
+      "https://pittnews.com/article/192376/featured/pitt-pilots-new-ai-program-pittgpt/",
+      "https://pittnews.com/article/198819/news/pitt-aws-deal-to-integrate-ai-into-university-academics-stirs-debate-among-professors/",
+      "https://www.pittbioforge.org/location",
+      "https://elevate.bio/press-releases/elevatebio-and-the-university-of-pittsburgh-announce-creation-of-pitt-bioforge-biomanufacturing-center-at-hazelwood-green-to-accelerate-cell-and-gene-therapy-innovation/",
+      "https://www.post-gazette.com/business/development/2023/09/21/pitt-bioforge-hazelwood-green-pittsburgh-planning-commission/stories/202309210093",
+      "https://www.post-gazette.com/news/education/2025/10/01/pitt-fall-2025-enrollment/stories/202510010051",
+      "https://www.pa.gov/governor/newsroom/2025-press-releases/shapiro-admin-ai-conference-collaboration-u-of-pennsylvania",
+      "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-takes-action-to-protect-pennsylvanians-using-ai",
+      "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/artificial%20intelligence%20policy.pdf",
+      "https://www.cityandstatepa.com/policy/2025/07/pennsylvania-top-3-state-government-ai-readiness/406573/"
+    ],
+    "search_queries": [
+      "University of Pittsburgh AI strategy 2025 2026 artificial intelligence initiative",
+      "University of Pittsburgh generative AI policy acceptable use guidelines",
+      "University of Pittsburgh chief AI officer AI governance committee",
+      "University of Pittsburgh CIO provost president 2026",
+      "University of Pittsburgh AI research center institute Computational Pathology CPACE Leidos",
+      "University of Pittsburgh AI degree certificate program minor artificial intelligence",
+      "University of Pittsburgh supercomputer HPC GPU cluster Center for Research Computing AI",
+      "University of Pittsburgh NSF AI grant NAIRR artificial intelligence research award 2025",
+      "University of Pittsburgh enrollment 2025 students R1 Carnegie",
+      "Pennsylvania higher education AI policy executive order state universities 2025 2026",
+      "University of Pittsburgh AI partnership Microsoft Copilot Google announcement 2025 2026",
+      "University of Pittsburgh AI workforce development economic impact regional",
+      "University of Pittsburgh Joe Yun director AI enablement PittGPT",
+      "University of Pittsburgh Pitt Cyber Institute AI policy research",
+      "University of Pittsburgh NVIDIA Joint Center AI Intelligent Systems partnership",
+      "University of Pittsburgh BioForge Hazelwood Green AI biomanufacturing",
+      "University of Pittsburgh AI tutoring student chatbot predictive analytics retention",
+      "University of Pittsburgh AI controversy lawsuit academic integrity FERPA"
+    ],
+    "gaps_acknowledged": [
+      "No single published 'AI Strategy' PDF with a multi-year roadmap; strategy is distributed across HAIL, the Ad Hoc Committee report, and the Acceptable Use policy.",
+      "Exact adoption date of the Acceptable Use of Generative AI Tools policy not disclosed on the Pitt Digital page.",
+      "Campus-wide Claude/PittGPT user counts and exact contract values not publicly disclosed.",
+      "No clear evidence of a campus-wide predictive analytics retention system or AI-in-admissions platform.",
+      "No evidence of a syllabus-level AI policy requirement; guidance is permissive with sample language.",
+      "Pitt is not part of a university system, so system_ai_policy is not applicable.",
+      "Some initiative date_announced values (e.g., CIC 2024-01-01) are approximated to month granularity from available reporting."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "platform_first",
+        "research_compute_powerhouse",
+        "balanced_enterprise"
+      ],
+      "scores": {
+        "platform_first": 20,
+        "research_compute_powerhouse": 18,
+        "curriculum_led": 12,
+        "governance_led": 13,
+        "student_success_led": 4,
+        "workforce_regional_development": 21,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 3,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Bridges-2 (PSC) and Neocortex (PSC); Pitt CRCD GPU cluster",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 264900000,
+      "funding_source_buckets": {
+        "other_unclear": 4,
+        "philanthropy_foundation": 4,
+        "public_federal_state": 2,
+        "industry_vendor": 4,
+        "institutional": 4
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 2,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Amazon",
+          "mentions": 4,
+          "products": [
+            "Amazon Bedrock",
+            "Amazon Web Services"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 4,
+          "products": [
+            "Amazon Bedrock (underlying platform for PittGPT and Claude integration)",
+            "Claude for Education"
+          ]
+        },
+        {
+          "vendor": "University of Pittsburgh PittGPT",
+          "mentions": 3,
+          "products": [
+            "PittGPT"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Google Gemini",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "Bridges-2",
+            "NVIDIA A100/L40S GPU clusters"
+          ]
+        },
+        {
+          "vendor": "Cerebras / HPE Neocortex",
+          "mentions": 1,
+          "products": [
+            "Neocortex"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 1,
+          "products": [
+            "Microsoft 365 Copilot Chat"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Amazon",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Hub for AI and Data Science Leadership (HAIL) launch",
+          "summary": "Establishes a single operational hub for Pitt's AI strategy and ties enterprise AI deployment directly to regional workforce development in a way many peers have not attempted.",
+          "source_url": "https://markets.chroniclejournal.com/chroniclejournal/article/tokenring-2025-12-19-pitt-launches-hail-a-new-blueprint-for-the-ai-enabled-university-and-regional-workforce"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Claude for Education enterprise agreement with AWS integration",
+          "summary": "First-of-kind Claude+AWS integration establishes a new enterprise AI procurement pattern for higher education and validates multi-tool institutional AI stacks.",
+          "source_url": "https://www.utimes.pitt.edu/news/cio-says-claude-education"
+        },
+        {
+          "claim_type": "usage",
+          "title": "PittGPT private generative AI platform",
+          "summary": "Demonstrates a mid-size R1 building and operating its own private enterprise LLM stack rather than relying solely on vendor tools for sensitive use cases.",
+          "source_url": "https://pittnews.com/article/192376/featured/pitt-pilots-new-ai-program-pittgpt/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Acceptable Use of Generative AI Tools policy",
+          "summary": "Data-classification-based AUP is a template for other large R1s trying to balance faculty autonomy with privacy and compliance obligations.",
+          "source_url": "https://www.digital.pitt.edu/acceptable-use-generative-artificial-intelligence-tools"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Online Bachelor of Science in Health Informatics with AI focus",
+          "summary": "One of the first fully online accredited undergraduate programs nationally with a dedicated AI-in-healthcare focus; broadens access and targets a reported 83.4% annual growth in AI health-informatics jobs.",
+          "source_url": "https://www.pittwire.pitt.edu/features-articles/2025/10/16/online-bs-health-informatics-shrs"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Pitt AI Scholar-Teacher Alliance (PASTA)",
+          "summary": "A grass-roots, faculty-led AI community that complements formal governance bodies and models peer-style sector-wide knowledge sharing within a single campus.",
+          "source_url": "https://digital.pitt.edu/pasta"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Pitt BioForge AI-powered biomanufacturing center (Hazelwood Green)",
+          "summary": "Ties Pitt's AI workforce and research agenda to a $250M regional economic development project and signals AI's role in industrial biomanufacturing.",
+          "source_url": "https://elevate.bio/press-releases/elevatebio-and-the-university-of-pittsburgh-announce-creation-of-pitt-bioforge-biomanufacturing-center-at-hazelwood-green-to-accelerate-cell-and-gene-therapy-innovation/"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No single published 'AI Strategy' PDF with a multi-year roadmap; strategy is distributed across HAIL, the Ad Hoc Committee report, and the Acceptable Use policy.",
+        "Exact adoption date of the Acceptable Use of Generative AI Tools policy not disclosed on the Pitt Digital page.",
+        "Campus-wide Claude/PittGPT user counts and exact contract values not publicly disclosed.",
+        "No clear evidence of a campus-wide predictive analytics retention system or AI-in-admissions platform.",
+        "No evidence of a syllabus-level AI policy requirement; guidance is permissive with sample language.",
+        "Pitt is not part of a university system, so system_ai_policy is not applicable.",
+        "Some initiative date_announced values (e.g., CIC 2024-01-01) are approximated to month granularity from available reporting."
+      ]
+    }
+  }
+}

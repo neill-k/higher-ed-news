@@ -1,0 +1,1364 @@
+{
+  "institution": "University of New Mexico",
+  "slug": "university-of-new-mexico",
+  "city_state": "Albuquerque, NM",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 28285,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Garnett S. Stokes",
+      "url": "https://president.unm.edu/about/index.html"
+    },
+    "provost": {
+      "name": "Barbara Rodriguez (Interim Provost and Executive Vice President for Academic Affairs)",
+      "url": "https://provost.unm.edu/"
+    },
+    "cio": {
+      "name": "Duane Arruti",
+      "url": "https://it.unm.edu/about-it/about-it.html"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Mark Emmons",
+      "title": "Dean, College of University Libraries and Learning Sciences; Chair, UNM AI Steering Committee",
+      "url": "https://news.unm.edu/news/steering-committee-to-guide-ethical-strategic-ai-use-at-unm"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "UNM AI Resources Portal",
+        "url": "https://airesources.unm.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Appropriate Use and Guidelines for AI",
+        "url": "https://airesources.unm.edu/ai-guidance/appropriate-use.html",
+        "year": 2025
+      },
+      {
+        "title": "Steering committee announcement (multi-year strategic framework in development)",
+        "url": "https://news.unm.edu/news/steering-committee-to-guide-ethical-strategic-ai-use-at-unm",
+        "year": 2026
+      }
+    ],
+    "summary": "UNM is in an active strategy-formation phase rather than having a single published AI strategy document. In February 2026, Interim Provost Barbara Rodriguez chartered a 15-member AI Steering Committee, chaired by Dean Mark Emmons, to develop a multi-year strategic framework, a university-wide ethical framework, and coordinated governance across teaching, research, and administration, aligned with the UNM 2040 strategic plan. The committee's charge includes governance, infrastructure, funding, evaluation, and external partnerships. The UNM AI Resources portal (airesources.unm.edu) functions as the public face of current guidance while the formal strategy is drafted."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://airesources.unm.edu/ai-guidance/appropriate-use.html",
+      "https://airesources.unm.edu/educators/syllabus-language.html",
+      "https://airesources.unm.edu/educators/ai-ethics.html"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Only P-Class (public) data may be used in AI tools without special approval",
+      "FERPA data requires permission from the UNM Registrar before use in AI platforms",
+      "HIPAA data requires authorization from the HIPAA Privacy Office",
+      "Instructors must provide syllabus-level guidance on AI expectations",
+      "Students must cite AI-generated content",
+      "Faculty/staff must not submit protected information, data, or copyrighted materials to unreviewed AI tools",
+      "Use is governed by existing UNM policies on Acceptable Information and Information System Use, PII safeguards, Faculty Handbook academic dishonesty provisions, and Student Code of Conduct"
+    ],
+    "summary": "UNM takes a cautious, compliance-anchored stance: AI is permitted but bounded by strict data-classification rules, FERPA/HIPAA workflows, and mandatory syllabus-level expectations. The policy intentionally avoids naming approved/banned tools and instead layers AI use atop existing information-security, academic-integrity, and data-governance policies. UNM explicitly requires Data Steward permission for anything above Public data classification."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UNM Artificial Intelligence Steering Committee",
+        "type": "committee",
+        "scope": "University-wide coordination of AI strategy across academic and administrative units; develops multi-year strategic framework, ethical framework, governance and compliance recommendations, infrastructure planning, and external partnerships.",
+        "url": "https://news.unm.edu/news/steering-committee-to-guide-ethical-strategic-ai-use-at-unm"
+      },
+      {
+        "name": "UNM AI Resources (operating body within College of University Libraries and Learning Sciences)",
+        "type": "office",
+        "scope": "Publishes appropriate-use guidance, syllabus language, ethics resources, tool training, and coordinates licensed AI tool rollouts across students, faculty, staff, and researchers.",
+        "url": "https://airesources.unm.edu/"
+      },
+      {
+        "name": "UNM-Santa Fe Institute Interdisciplinary Working Group on Algorithmic Justice",
+        "type": "other",
+        "scope": "Cross-institution working group co-founded by UNM and Santa Fe Institute faculty to advise New Mexico policymakers on AI benefits and risks, focused on algorithmic bias and equity.",
+        "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1959&context=law_facultyscholarship"
+      }
+    ],
+    "summary": "Governance is anchored by the 15-member AI Steering Committee chartered in February 2026 by the Interim Provost, chaired by Libraries Dean Mark Emmons with representatives spanning Computer Science, Law, Engineering, Teaching Support, IT, branch campuses, student government, and the Health Sciences Library. The airesources.unm.edu operation functions as an execution arm for guidance and tool rollouts. The UNM-Santa Fe Institute Algorithmic Justice working group provides external-facing policy advice to the state."
+  },
+  "initiatives": [
+    {
+      "title": "UNM Artificial Intelligence Steering Committee Chartered",
+      "description": "Interim Provost Barbara Rodriguez appointed a 15-member AI Steering Committee, chaired by Libraries Dean Mark Emmons, to coordinate UNM's AI strategy across academic and administrative units. Members span Computer Science, Law, Engineering, Online Strategies, IT, Teaching Support, branch campuses (UNM-Taos), student government (ASUNM), and the Health Sciences Library.",
+      "significance": "Signals UNM's transition from ad-hoc, library-led AI resources to a formal institution-wide governance body with a mandate to produce a multi-year strategic framework tied to UNM 2040.",
+      "date_announced": "2026-02-24",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Committee operations; no disclosed funding figure."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNM-Taos branch campus",
+            "ASUNM student government"
+          ],
+          "description": "Cross-campus and student representation in committee composition."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Committee is explicitly charged with producing a university-wide ethical framework and governance/compliance recommendations.",
+      "source_urls": [
+        "https://news.unm.edu/news/steering-committee-to-guide-ethical-strategic-ai-use-at-unm",
+        "https://libguides.unm.edu/blog/Steering-committee-to-guide-ethical-strategic-AI-use-at-UNM"
+      ]
+    },
+    {
+      "title": "Enterprise AI Tool Rollout: Microsoft 365 Copilot, Zoom AI Companion, Apple Intelligence",
+      "description": "UNM IT announced a coordinated rollout of licensed AI tools with enterprise data protection: Microsoft 365 Copilot Chat (free, web-based, all users), Microsoft 365 Copilot enhanced (departmental purchase only), Zoom AI Companion (all Pro-license users; HSC version under HIPAA review), and Apple Intelligence (UNM-owned Apple devices on iOS/iPadOS 18.1+ / macOS Sequoia 15.1+).",
+      "significance": "Establishes a vendor-diversified, compliance-first enterprise AI baseline for roughly 28,000 students plus faculty and staff, explicitly relying on enterprise data protection rather than consumer-grade tools.",
+      "date_announced": "2025-05-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNM IT; departmental purchases via UNM Software Store for enhanced Copilot",
+        "description": "Base chat tier provided at no cost; enhanced Copilot licenses sold through UNM Software Store; HSC instance held back pending HIPAA review."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Zoom",
+            "Apple"
+          ],
+          "description": "Multi-vendor enterprise agreements for education-tier AI features with enterprise data protection."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "University-wide web-based generative AI chat with enterprise data protection"
+        },
+        {
+          "name": "Microsoft 365 Copilot (enhanced)",
+          "vendor": "Microsoft",
+          "role": "Departmentally-purchased productivity-suite integration"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summaries, transcripts, and chat"
+        },
+        {
+          "name": "Apple Intelligence",
+          "vendor": "Apple",
+          "role": "On-device AI features on UNM-owned Apple hardware"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Explicitly sidesteps FERPA/HIPAA risk by restricting HSC Zoom AI to pre-review and Apple Intelligence to UNM-owned devices.",
+      "source_urls": [
+        "https://news.unm.edu/news/unm-announces-ai-tools-for-zoom-microsoft-and-apple",
+        "https://airesources.unm.edu/tools-and-training/microsoft-365-copilot.html"
+      ]
+    },
+    {
+      "title": "Trustworthy AI Grand Challenge (Level 1 Team)",
+      "description": "UNM Grand Challenges elevated 'Trustworthy AI: From Theory to Implementation' to a Level 1 team in 2025, led by conveners Melanie Moses (CS), Sonia Gipson Rankin (Law), and Stephanie Moore (OILS), with 24+ members across Engineering, Arts & Sciences, Law, Health Sciences, Mathematics, Political Science, Spanish & Portuguese, and Management. Focus: mathematically and practically trustworthy AI, assessment in resource-limited environments, and addressing hallucinations.",
+      "significance": "Represents UNM's flagship interdisciplinary AI research program, binding technical, legal, educational, and equity expertise under a single institutional banner.",
+      "date_announced": "2025-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UNM Grand Challenges + federated external awards (NSF, partner contributions)",
+        "description": "Institutional Grand Challenge funding plus linked federal awards including RAISE and ARIA subawards."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Brown University",
+            "Santa Fe Institute",
+            "NSF AI2 / Allen Institute for AI",
+            "NVIDIA"
+          ],
+          "description": "Partnerships with Brown (ARIA), Santa Fe Institute (Algorithmic Justice), AI2 (open-source models), and NVIDIA (compute)."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Produces policy-facing research on AI trustworthiness, bias, and assessment that feeds state-level AI guidance conversations.",
+      "source_urls": [
+        "https://grandchallenges.unm.edu/teams/2025/ai.html",
+        "https://trustworthyai.unm.edu/",
+        "https://trustworthyai.unm.edu/news/2025/12/unm-joins-brown-in-ai-research-institute-on-interaction-for-ai-assistants-aria.html"
+      ]
+    },
+    {
+      "title": "NSF ARIA National AI Research Institute (Brown-led, UNM partner)",
+      "description": "UNM joined Brown University and seven other institutions in the AI Research Institute on Interaction for AI Assistants (ARIA), funded by NSF in partnership with Capital One and Intel as part of a $100M, five-institute initiative. ARIA focuses on trustworthy, context-aware AI assistants for mental and behavioral health. UNM's role is led by Melanie Moses and Sonia Gipson Rankin, with Stephanie Moore, drawing on UNM's justice-centered and human-centered AI expertise.",
+      "significance": "Places UNM on a national AI institute roster with Brown, CMU, UC Berkeley, UC San Diego, NYU, Dartmouth, Colby, and Santa Fe Institute, and targets a high-stakes health-AI domain.",
+      "date_announced": "2025-08-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "mental_health_and_wellbeing"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "NSF, Capital One, Intel (institute total); UNM subaward portion undisclosed",
+        "description": "ARIA is one of five institutes funded under a $100M NSF/private-partner commitment; ARIA's institute-level award is $20M."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Brown University (lead)",
+            "Santa Fe Institute",
+            "Colby College",
+            "Dartmouth College",
+            "NYU",
+            "Carnegie Mellon",
+            "UC Berkeley",
+            "UC San Diego",
+            "Data and Society"
+          ],
+          "description": "Multi-institution NSF AI institute collaboration with civil-society partner."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Capital One",
+            "Intel",
+            "NVIDIA"
+          ],
+          "description": "Public-private funding and compute partnerships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Institute output will inform national conventions for trustworthy AI-assistant design in sensitive health contexts.",
+      "source_urls": [
+        "https://news.unm.edu/news/unm-joins-brown-university-in-national-institute-focused-on-intuitive-trustworthy-ai-assistants",
+        "https://trustworthyai.unm.edu/news/2025/12/unm-joins-brown-in-ai-research-institute-on-interaction-for-ai-assistants-aria.html",
+        "https://engineering.unm.edu/news/2025/08/unm-joins-brown-university-in-national-institute-focused-on-intuitive-trustworthy-ai-assistants.html"
+      ]
+    },
+    {
+      "title": "NSF NRT $3M RAISE Graduate Traineeship and Certificate",
+      "description": "Professor Meeko Oishi (Mechanical Engineering) received a nearly $3 million NSF National Research Traineeship award (starting Sept 1, 2024, five-year duration) for 'Reliable and Responsive AI for Autonomous Systems Engineering' (RAISE). The grant funds a new graduate certificate in AI and autonomy open to master's and PhD students and an annual fellows cohort trained in ethical AI for autonomous systems. First cohort enrolled Fall 2025. Co-PIs: Stephanie Moore (OILS), Melanie Moses (CS), Claus Danielson (ME), Rafael Fierro (ECE).",
+      "significance": "Establishes UNM's first dedicated graduate AI-and-autonomy credential, embedded with ethics coursework and federal-lab internships.",
+      "date_announced": "2024-10-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "faculty_training_and_development",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "agentic_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3000000,
+        "funding_source": "NSF National Research Traineeship (NRT) program",
+        "description": "Nearly $3M over five years beginning September 2024."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Sandia National Laboratories",
+            "Air Force Research Laboratory",
+            "Los Alamos National Laboratory"
+          ],
+          "description": "Federal lab internship pipeline for fellows."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds ethical-AI curriculum requirements into a graduate certificate - a model for responsible AI credentialing.",
+      "source_urls": [
+        "https://engineering.unm.edu/news/2024/10/3-million-nsf-grant-will-help-create-graduate-certificate-in-ai-and-autonomy.html",
+        "https://news.unm.edu/news/3-million-nsf-grant-will-help-create-graduate-certificate-in-ai-and-autonomy",
+        "https://raise.unm.edu/"
+      ]
+    },
+    {
+      "title": "Easley HPC Cluster with NVIDIA H100 GPUs",
+      "description": "UNM's Center for Advanced Research Computing (CARC) deployed the Easley cluster (named for mathematician Annie Easley): a Dell mixed CPU/GPU cluster with 60 nodes, 3,968 cores, 22.5 TB RAM, 32 NVIDIA H100 GPUs, NVIDIA 800 Gbps InfiniBand core network, 200 Gbps node connectivity, and a 768 TB all-flash parallel filesystem. Free to UNM faculty, staff, and student researchers via Office of the VP for Research support.",
+      "significance": "Upgrades UNM's AI/ML compute baseline to current-generation H100 GPUs, enabling large-scale training/inference for Trustworthy AI, RAISE, and Health Sciences work.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UNM Office of the Vice President for Research; Dell and NVIDIA equipment",
+        "description": "Equipment cost not publicly disclosed; operational via VPR funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Dell Technologies",
+            "NVIDIA"
+          ],
+          "description": "Hardware procurement and high-speed interconnect."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Easley HPC cluster",
+          "vendor": "Dell Technologies / NVIDIA",
+          "role": "H100-based mixed CPU/GPU research compute"
+        },
+        {
+          "name": "Wheeler cluster",
+          "vendor": "UNM CARC",
+          "role": "300-node/2,400-core general compute"
+        },
+        {
+          "name": "Xena GPU cluster",
+          "vendor": "NVIDIA",
+          "role": "32-node legacy GPU cluster"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://carc.unm.edu/systems/carc-infrastructure.html",
+        "https://carc.unm.edu/news--events/News/easley-cluster.html",
+        "https://carc.unm.edu/about-carc/facilities-description.html"
+      ]
+    },
+    {
+      "title": "New Mexico AI Consortium (NMAIC) Founding Member",
+      "description": "UNM is a founding member of the New Mexico Artificial Intelligence Consortium, announced late 2024, which unites Sandia National Laboratories, Los Alamos National Laboratory, UNM, NMSU, New Mexico Tech, Central New Mexico Community College, and the New Mexico Consortium. The mission covers AI research, workforce development, infrastructure, industry collaboration, and economic growth.",
+      "significance": "Positions UNM as the flagship-university anchor of a state-level, cross-sector AI ecosystem tied to two NNSA national labs.",
+      "date_announced": "2024-12-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "industry_academic_partnership",
+        "community_college_ai_program"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Multi-party consortium; specific budget undisclosed",
+        "description": "Consortium-level coordination across labs and institutions."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Sandia National Laboratories",
+            "Los Alamos National Laboratory",
+            "NMSU",
+            "NM Tech",
+            "CNM",
+            "New Mexico Consortium"
+          ],
+          "description": "State-level AI consortium including two DOE/NNSA national labs and two-year and four-year institutions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Acts as an interlocutor for state AI policy via combined academic and national-lab voice.",
+      "source_urls": [
+        "https://nmaiconsortium.org/",
+        "https://news.unm.edu/news/institutions-around-the-state-unite-to-create-new-mexico-ai-consortium",
+        "https://www.santafenewmexican.com/news/local_news/new-mexico-universities-national-labs-team-up-on-ai/article_1dab3e62-b18f-11ef-a5e3-f395d20b9abe.html"
+      ]
+    },
+    {
+      "title": "Data Science and AI Initiative (Health Sciences-Anchored)",
+      "description": "UNM launched a Data Science and AI Initiative led by Dr. Christopher Amos (who joined UNM in 2024 after founding Dartmouth's Department of Biomedical Data Science). Headquartered at UNM Health Sciences on Camino de Salud, the initiative aims to build UNM into an 'internationally recognized leader' in data science and AI with a biomedical emphasis, expanding research capacity, training, and multidisciplinary collaboration.",
+      "significance": "Centers biomedical AI as a strategic differentiator for UNM, leveraging the Health Sciences Center's translational research base.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UNM Health Sciences Center; leveraging NIH pipeline (including joint $43.6M UNM-UA NIH CTSA award)",
+        "description": "Institute-level investment; ties to NIH clinical and translational science funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Arizona (via CTSA)"
+          ],
+          "description": "$43.6M seven-year NIH CTSA award supporting translational research infrastructure."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Subject to HIPAA-governed data-use workflows coordinated with UNM HIPAA Privacy Office.",
+      "source_urls": [
+        "https://hsc.unm.edu/research/facilities/data-science-and-ai-initiative/",
+        "https://datascience.unm.edu/",
+        "https://hscnews.unm.edu/news/the-university-of-new-mexico-and-the-university-of-arizona-win-joint-43-6-million-nih-award-to-help-turn-clinical-research-into-practical-medicine"
+      ]
+    },
+    {
+      "title": "Faculty OER + Generative AI Pilot ($1,000 Stipends)",
+      "description": "In summer 2024, UNM Libraries (Dean Leo Lo) ran an eight-week pilot paying seven faculty $1,000 each to use generative AI to create or enhance open educational resources, with a focus on underrepresented entities such as minority-owned businesses. Outputs will feed a guidebook including an AI-and-OER chapter. Sits within a broader $2.1M U.S. Department of Education grant establishing a statewide OER consortium.",
+      "significance": "Early experimental model for compensated faculty AI engagement that explicitly combines AI with open-licensing and equity considerations.",
+      "date_announced": "2024-08-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": 7000,
+        "funding_source": "UNM Libraries; linked to $2.1M U.S. Department of Education OER grant",
+        "description": "Seven $1,000 faculty stipends; surrounding Dept. of Education grant totals $2.1M."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Education"
+          ],
+          "description": "OER consortium grant funding."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Generative AI used by faculty to create/enhance OER (noted with Creative Commons caveats)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Raised open questions about Creative Commons licensing of AI-generated content - a policy gap UNM has not formally resolved.",
+      "source_urls": [
+        "https://www.insidehighered.com/news/tech-innovation/digital-publishing/2024/08/09/university-new-mexico-pays-faculty-1000-use-ai"
+      ]
+    },
+    {
+      "title": "UNM-Santa Fe Institute Working Group on Algorithmic Justice",
+      "description": "Faculty from UNM (including School of Law Professor Sonia Gipson Rankin) and the Santa Fe Institute co-founded an interdisciplinary working group to help New Mexico policymakers understand how to leverage AI benefits while mitigating risks such as algorithmic bias, facial-recognition misidentification, and discriminatory criminal-justice and healthcare algorithms.",
+      "significance": "Gives UNM a direct input channel to state AI policy conversations through a cross-institutional, equity-centered working group.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "algorithmic_bias",
+        "ai_ethics_framework",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UNM + Santa Fe Institute",
+        "description": "Faculty-led working group; no disclosed dedicated budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Santa Fe Institute"
+          ],
+          "description": "UNM-SFI co-founded working group."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Directly advises New Mexico policymakers on AI risks and benefits.",
+      "source_urls": [
+        "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1959&context=law_facultyscholarship",
+        "https://honors.unm.edu/academics/course-previews/courses/artificial-intelligence-and-society.html"
+      ]
+    },
+    {
+      "title": "New Mexico AI in Medicine ECHO",
+      "description": "UNM's Project ECHO (telementoring model) runs a New Mexico Artificial Intelligence in Medicine ECHO series, connecting AI subject-matter experts with primary care providers and other healthcare workers to build a community of practice around language models in healthcare.",
+      "significance": "Extends UNM's internationally-known ECHO telementoring model into AI literacy for frontline clinicians, especially in rural New Mexico.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNM Rainforest Innovations / Project ECHO",
+        "description": "Operates within existing ECHO infrastructure."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "New Mexico primary care providers"
+          ],
+          "description": "Telementoring outreach to rural and community clinicians."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://innovations.unm.edu/event/new-mexico-artificial-intelligence-in-medicine-echo-language-models-in-healthcare/"
+      ]
+    },
+    {
+      "title": "UNM Continuing Education AI Prompting / AI Automation Certificates",
+      "description": "UNM Continuing Education offers non-credit AI certificates, including an AI Automation Certificate Course (approximately $1,700, 6-8 hours/week of blended online + live content) and an AI Prompting Certificate, aimed at workforce reskilling.",
+      "significance": "Provides a public, adult-learner pathway to AI skills without requiring degree enrollment.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded continuing education",
+        "description": "Self-funded via course enrollments."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Continuing-education delivery model."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://advance.ce.unm.edu/ai-automation",
+        "https://continuinged.unm.edu/public/category/programStream.do?method=load&selectedProgramAreaId=1008958&selectedProgramStreamId=1009010"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Trustworthy AI: From Theory to Implementation (Grand Challenge Level 1 Team)",
+      "focus": "Mathematically and practically trustworthy AI, assessment methods, and mitigation of hallucinations across real-world contexts.",
+      "founded": "2025",
+      "url": "https://trustworthyai.unm.edu/"
+    },
+    {
+      "name": "Responsive and Resilient AI for Autonomous Systems (RAISE)",
+      "focus": "Graduate traineeship and certificate in ethical, responsive AI for autonomous systems engineering.",
+      "founded": "2024",
+      "url": "https://raise.unm.edu/"
+    },
+    {
+      "name": "UNM Data Science and AI Initiative",
+      "focus": "Interdisciplinary biomedical and health-focused data science and AI research, training, and infrastructure.",
+      "founded": "2024",
+      "url": "https://hsc.unm.edu/research/facilities/data-science-and-ai-initiative/"
+    },
+    {
+      "name": "UNM Center for Advanced Research Computing (CARC)",
+      "focus": "HPC infrastructure and services supporting AI/ML workloads campus-wide.",
+      "founded": null,
+      "url": "https://carc.unm.edu/"
+    },
+    {
+      "name": "UNM Translational Informatics Division",
+      "focus": "Biomedical data science and translational bioinformatics with AI/ML applications.",
+      "founded": null,
+      "url": "https://datascience.unm.edu/"
+    },
+    {
+      "name": "UNM-Santa Fe Institute Working Group on Algorithmic Justice",
+      "focus": "AI equity, bias mitigation, and state policy advisory.",
+      "founded": null,
+      "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1959&context=law_facultyscholarship"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in AI and Autonomy (RAISE)",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://raise.unm.edu/"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Automation Certificate (Continuing Education)",
+      "level": "both",
+      "launched": null,
+      "url": "https://advance.ce.unm.edu/ai-automation"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Prompting Certificate (Continuing Education)",
+      "level": "both",
+      "launched": null,
+      "url": "https://continuinged.unm.edu/public/category/programStream.do?method=load&selectedProgramAreaId=1008958&selectedProgramStreamId=1009010"
+    },
+    {
+      "type": "course",
+      "name": "Artificial Intelligence and Society (Honors College)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://honors.unm.edu/academics/course-previews/courses/artificial-intelligence-and-society.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://airesources.unm.edu/tools-and-training/microsoft-365-copilot.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (enhanced)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://news.unm.edu/news/unm-announces-ai-tools-for-zoom-microsoft-and-apple"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://news.unm.edu/news/unm-announces-ai-tools-for-zoom-microsoft-and-apple"
+    },
+    {
+      "vendor": "Apple",
+      "product": "Apple Intelligence",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://news.unm.edu/news/unm-announces-ai-tools-for-zoom-microsoft-and-apple"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "AI Assistant for Adobe Acrobat",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://airesources.unm.edu/"
+    },
+    {
+      "vendor": "Instructure",
+      "product": "Canvas LMS",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2022-05",
+      "url": "https://canvasinfo.unm.edu/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Easley",
+    "gpu_count": 32,
+    "url": "https://carc.unm.edu/systems/carc-infrastructure.html",
+    "summary": "UNM's CARC operates the new Easley cluster (60 nodes, 3,968 cores, 22.5 TB RAM, 32 NVIDIA H100 GPUs, 800 Gbps NVIDIA InfiniBand core, 768 TB all-flash parallel filesystem) alongside the 300-node Wheeler CPU cluster, the 32-node Xena NVIDIA GPU cluster, and the Taos condo cluster - one of the largest computing centers in New Mexico. CARC services are free to UNM researchers via VPR support."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF NRT RAISE Award",
+      "amount_usd": 3000000,
+      "source": "National Science Foundation (National Research Traineeship program)",
+      "purpose": "Graduate traineeship and certificate in AI and autonomy, led by Prof. Meeko Oishi.",
+      "date": "2024-09",
+      "url": "https://news.unm.edu/news/3-million-nsf-grant-will-help-create-graduate-certificate-in-ai-and-autonomy"
+    },
+    {
+      "title": "NSF ARIA AI Institute (UNM as partner)",
+      "amount_usd": 20000000,
+      "source": "NSF, Capital One, Intel (to institute; UNM subaward undisclosed)",
+      "purpose": "Trustworthy, context-aware AI assistants for mental and behavioral health; UNM role led by Moses and Gipson Rankin.",
+      "date": "2025-08",
+      "url": "https://news.unm.edu/news/unm-joins-brown-university-in-national-institute-focused-on-intuitive-trustworthy-ai-assistants"
+    },
+    {
+      "title": "U.S. Department of Education OER Consortium Grant (AI + OER pilot funded from this)",
+      "amount_usd": 2100000,
+      "source": "U.S. Department of Education",
+      "purpose": "Statewide OER consortium; internally funded faculty AI/OER pilot stipends.",
+      "date": "2024-08",
+      "url": "https://www.insidehighered.com/news/tech-innovation/digital-publishing/2024/08/09/university-new-mexico-pays-faculty-1000-use-ai"
+    },
+    {
+      "title": "NIH CTSA Joint Award with University of Arizona",
+      "amount_usd": 43600000,
+      "source": "National Institutes of Health (Clinical and Translational Science Award)",
+      "purpose": "Translational and clinical research infrastructure underpinning biomedical data science and AI work at UNM HSC.",
+      "date": null,
+      "url": "https://hscnews.unm.edu/news/the-university-of-new-mexico-and-the-university-of-arizona-win-joint-43-6-million-nih-award-to-help-turn-clinical-research-into-practical-medicine"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Brown University (ARIA institute lead)",
+      "purpose": "Trustworthy AI assistants for health contexts.",
+      "date": "2025-08",
+      "url": "https://trustworthyai.unm.edu/news/2025/12/unm-joins-brown-in-ai-research-institute-on-interaction-for-ai-assistants-aria.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Santa Fe Institute",
+      "purpose": "Algorithmic Justice Working Group; ARIA partner.",
+      "date": null,
+      "url": "https://news.unm.edu/news/unm-joins-brown-university-in-national-institute-focused-on-intuitive-trustworthy-ai-assistants"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Sandia National Laboratories",
+      "purpose": "NMAIC co-founder; RAISE internship partner.",
+      "date": "2024-12",
+      "url": "https://nmaiconsortium.org/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Los Alamos National Laboratory",
+      "purpose": "NMAIC co-founder; RAISE internship partner.",
+      "date": "2024-12",
+      "url": "https://nmaiconsortium.org/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Air Force Research Laboratory",
+      "purpose": "RAISE federal lab internship partner.",
+      "date": "2024-09",
+      "url": "https://engineering.unm.edu/news/2024/10/3-million-nsf-grant-will-help-create-graduate-certificate-in-ai-and-autonomy.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "New Mexico State University",
+      "purpose": "NMAIC co-founder.",
+      "date": "2024-12",
+      "url": "https://nmaiconsortium.org/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "New Mexico Tech",
+      "purpose": "NMAIC co-founder.",
+      "date": "2024-12",
+      "url": "https://nmaiconsortium.org/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Central New Mexico Community College",
+      "purpose": "NMAIC co-founder - pipeline for community-college AI pathways.",
+      "date": "2024-12",
+      "url": "https://nmaiconsortium.org/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "Compute infrastructure (Easley H100 cluster) and research collaboration via Trustworthy AI.",
+      "date": null,
+      "url": "https://carc.unm.edu/news--events/News/easley-cluster.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise M365 Copilot deployment.",
+      "date": "2025-05",
+      "url": "https://airesources.unm.edu/tools-and-training/microsoft-365-copilot.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Allen Institute for AI (Ai2) / NSF open-source AI",
+      "purpose": "Open-source AI ecosystem (AI2 NSF partnership cited by Trustworthy AI team).",
+      "date": "2025-08",
+      "url": "https://grandchallenges.unm.edu/teams/2025/ai.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Arizona",
+      "purpose": "$43.6M NIH CTSA - infrastructure for biomedical data science and AI.",
+      "date": null,
+      "url": "https://hscnews.unm.edu/news/the-university-of-new-mexico-and-the-university-of-arizona-win-joint-43-6-million-nih-award-to-help-turn-clinical-research-into-practical-medicine"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "UNM AI Resources - Student Portal",
+      "scope": "Student-facing AI guidance including introductory content, citation guidelines, and tool access information.",
+      "url": "https://airesources.unm.edu/students/index.html"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot Chat (student access)",
+      "scope": "All UNM students have free access to web-based M365 Copilot Chat with enterprise data protection.",
+      "url": "https://airesources.unm.edu/tools-and-training/microsoft-365-copilot.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "UNM-Santa Fe Institute Algorithmic Justice Working Group",
+      "description": "Interdisciplinary working group addressing algorithmic bias in facial recognition, criminal justice, and healthcare, advising New Mexico policymakers.",
+      "url": "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1959&context=law_facultyscholarship"
+    },
+    {
+      "title": "AI + OER Faculty Pilot (minority-owned-business focus)",
+      "description": "UNM Libraries pilot paid seven faculty $1,000 each to use generative AI on OER that specifically addressed underrepresented entities such as minority-owned businesses.",
+      "url": "https://www.insidehighered.com/news/tech-innovation/digital-publishing/2024/08/09/university-new-mexico-pays-faculty-1000-use-ai"
+    },
+    {
+      "title": "NMAIC community-college inclusion",
+      "description": "Central New Mexico Community College is a founding member of NMAIC, building AI pathways from community college into UNM and national labs.",
+      "url": "https://nmaiconsortium.org/"
+    },
+    {
+      "title": "Trustworthy AI Grand Challenge equity thread",
+      "description": "Trustworthy AI team explicitly focuses on trustworthy AI in resource-limited environments and on mitigating real-world bias, co-convened by a law professor specializing in race and technology.",
+      "url": "https://trustworthyai.unm.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "New Mexico",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "New Mexico has no single higher-education AI statute or gubernatorial AI executive order targeting universities, but HB 2 (2025) directs the Legislative Education Study Committee to create an education data governance and AI working group, and the New Mexico Public Education Department issued AI Guidance for K-12 Education 1.0 in May 2025 (produced with NC State's Friday Institute). H.B. 330 (2026 session) would add AI ethics as a computer science elective. UNM is not part of a larger university system - it stands alone among New Mexico publics - so there is no system-level AI policy layered above it.",
+    "urls": [
+      "https://www.nmlegis.gov/Sessions/25%20Regular/bills/house/HB0060.html",
+      "https://web.ped.nm.gov/wp-content/uploads/2025/05/NM-AI-Guidance-Signed-4-29-2025.pdf",
+      "https://www.nmlegis.gov/(X(1)S(0ka3mccnzquogogw4klpnz3j))/handouts/ALESC%20072325%20Item%203%20.1%20%20-%20Report;%20LESC%20Artificial%20Intelligence%20Working%20Group.pdf"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of New Mexico, New Mexico's Carnegie R1 flagship with roughly 28,285 students across all campuses, is in a mid-2020s inflection from scattered, library- and engineering-led AI activity toward a coordinated institutional posture. The governance pivot came February 24, 2026, when Interim Provost Barbara Rodriguez chartered a 15-member AI Steering Committee chaired by Libraries Dean Mark Emmons, explicitly tasked with producing a multi-year strategic framework, a university-wide ethical framework, and governance, infrastructure, and partnership recommendations aligned with the UNM 2040 plan. Policy today is cautious and compliance-anchored: AI is permitted but bounded by existing FERPA, HIPAA, and data-classification rules, with syllabus-level guidance required. Research strength is concentrated in three overlapping programs: the Trustworthy AI Grand Challenge (2025 Level 1 team led by CS professor Melanie Moses, Law professor Sonia Gipson Rankin, and OILS's Stephanie Moore), the $3M NSF NRT RAISE graduate traineeship (Prof. Meeko Oishi, 2024, first cohort Fall 2025), and UNM's partner role in the $20M NSF/Capital One/Intel ARIA institute led by Brown University focused on trustworthy AI assistants for mental and behavioral health. Compute is anchored by CARC's new Easley cluster (32 NVIDIA H100 GPUs, 60 nodes, 800 Gbps InfiniBand). On the enterprise side, UNM IT rolled out Microsoft 365 Copilot Chat, Zoom AI Companion, and Apple Intelligence on May 1, 2025, with a clear priority on enterprise data protection. Regionally, UNM is a founding member of the New Mexico AI Consortium (NMAIC, Dec 2024), sitting at the table with Sandia and Los Alamos national labs, NMSU, NM Tech, CNM, and the New Mexico Consortium - a setup that makes the state's flagship the anchor of a lab-plus-campus AI ecosystem. Equity work is visible through the UNM-Santa Fe Institute Algorithmic Justice working group, a faculty-paid AI + OER pilot focused on minority-owned businesses, and the Trustworthy AI team's explicit focus on bias mitigation and resource-limited deployments. Key gaps: no named chief AI officer, no published comprehensive strategy document, no public reporting on student-facing chatbots or predictive-analytics retention products, and the next provost will not be seated until summer 2026.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://news.unm.edu/news/steering-committee-to-guide-ethical-strategic-ai-use-at-unm",
+      "https://libguides.unm.edu/blog/Steering-committee-to-guide-ethical-strategic-AI-use-at-UNM",
+      "https://airesources.unm.edu/",
+      "https://airesources.unm.edu/ai-guidance/appropriate-use.html",
+      "https://airesources.unm.edu/educators/syllabus-language.html",
+      "https://airesources.unm.edu/educators/ai-ethics.html",
+      "https://airesources.unm.edu/students/index.html",
+      "https://airesources.unm.edu/tools-and-training/microsoft-365-copilot.html",
+      "https://news.unm.edu/news/unm-announces-ai-tools-for-zoom-microsoft-and-apple",
+      "https://grandchallenges.unm.edu/teams/2025/ai.html",
+      "https://trustworthyai.unm.edu/",
+      "https://trustworthyai.unm.edu/news/2025/12/unm-joins-brown-in-ai-research-institute-on-interaction-for-ai-assistants-aria.html",
+      "https://news.unm.edu/news/unm-joins-brown-university-in-national-institute-focused-on-intuitive-trustworthy-ai-assistants",
+      "https://engineering.unm.edu/news/2025/08/unm-joins-brown-university-in-national-institute-focused-on-intuitive-trustworthy-ai-assistants.html",
+      "https://raise.unm.edu/",
+      "https://engineering.unm.edu/news/2024/10/3-million-nsf-grant-will-help-create-graduate-certificate-in-ai-and-autonomy.html",
+      "https://news.unm.edu/news/3-million-nsf-grant-will-help-create-graduate-certificate-in-ai-and-autonomy",
+      "https://carc.unm.edu/",
+      "https://carc.unm.edu/systems/carc-infrastructure.html",
+      "https://carc.unm.edu/news--events/News/easley-cluster.html",
+      "https://carc.unm.edu/about-carc/facilities-description.html",
+      "https://nmaiconsortium.org/",
+      "https://news.unm.edu/news/institutions-around-the-state-unite-to-create-new-mexico-ai-consortium",
+      "https://www.santafenewmexican.com/news/local_news/new-mexico-universities-national-labs-team-up-on-ai/article_1dab3e62-b18f-11ef-a5e3-f395d20b9abe.html",
+      "https://hsc.unm.edu/research/facilities/data-science-and-ai-initiative/",
+      "https://datascience.unm.edu/",
+      "https://www.insidehighered.com/news/tech-innovation/digital-publishing/2024/08/09/university-new-mexico-pays-faculty-1000-use-ai",
+      "https://digitalrepository.unm.edu/cgi/viewcontent.cgi?article=1959&context=law_facultyscholarship",
+      "https://innovations.unm.edu/event/new-mexico-artificial-intelligence-in-medicine-echo-language-models-in-healthcare/",
+      "https://advance.ce.unm.edu/ai-automation",
+      "https://continuinged.unm.edu/public/category/programStream.do?method=load&selectedProgramAreaId=1008958&selectedProgramStreamId=1009010",
+      "https://honors.unm.edu/academics/course-previews/courses/artificial-intelligence-and-society.html",
+      "https://cio.unm.edu/",
+      "https://it.unm.edu/about-it/about-it.html",
+      "https://president.unm.edu/about/index.html",
+      "https://provost.unm.edu/",
+      "https://news.unm.edu/news/unm-breaks-new-records-in-enrollment-growth-fall-2025-numbers-show",
+      "https://hscnews.unm.edu/news/the-university-of-new-mexico-and-the-university-of-arizona-win-joint-43-6-million-nih-award-to-help-turn-clinical-research-into-practical-medicine",
+      "https://canvasinfo.unm.edu/",
+      "https://web.ped.nm.gov/wp-content/uploads/2025/05/NM-AI-Guidance-Signed-4-29-2025.pdf",
+      "https://www.nmlegis.gov/Sessions/25%20Regular/bills/house/HB0060.html"
+    ],
+    "search_queries": [
+      "\"University of New Mexico\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of New Mexico\" generative AI policy acceptable use faculty students",
+      "\"University of New Mexico\" AI governance committee task force council",
+      "\"University of New Mexico\" chief AI officer CIO provost 2025",
+      "\"University of New Mexico\" AI research center institute UNM ARIA",
+      "\"University of New Mexico\" Microsoft Copilot ChatGPT campus-wide deployment",
+      "\"University of New Mexico\" AI degree certificate program computer science machine learning",
+      "\"University of New Mexico\" HPC GPU supercomputer CARC high performance computing",
+      "\"University of New Mexico\" NSF grant AI award million 2024 2025",
+      "\"University of New Mexico\" AI faculty fellowship pay $1000 use AI",
+      "\"New Mexico\" state AI policy executive order higher education 2025 2026",
+      "\"University of New Mexico\" Algorithmic Justice Project bias AI equity",
+      "\"University of New Mexico\" AI chatbot student services Lobomail predictive analytics retention",
+      "\"University of New Mexico\" AI workforce training economic development partnership",
+      "\"University of New Mexico\" Canvas LMS AI tools teaching learning center",
+      "\"University of New Mexico\" AI in medicine health sciences clinical",
+      "\"University of New Mexico\" president Garnett Stokes Mahesh chancellor 2025 2026",
+      "\"University of New Mexico\" enrollment fall 2025 total 28285"
+    ],
+    "gaps_acknowledged": [
+      "No public evidence of an AI-powered student chatbot or predictive-analytics retention product - UNM may operate one but it is not publicized.",
+      "Chief AI Officer position does not exist at UNM; AI strategy lead role is held de facto by the Steering Committee chair.",
+      "Next provost not seated until mid-2026 - current leadership listing uses interim provost Barbara Rodriguez.",
+      "RAISE specific curriculum details (courses, certificate requirements) not fully published.",
+      "UNM subaward portion of the $20M ARIA institute not disclosed.",
+      "Easley cluster procurement cost not publicly disclosed.",
+      "Adoption date of the UNM appropriate-use guidance not timestamped on the public page.",
+      "No published controversies or litigation specifically tied to UNM's AI deployment were located."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "platform_first",
+        "research_compute_powerhouse",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 16,
+        "research_compute_powerhouse": 15,
+        "curriculum_led": 8,
+        "governance_led": 13,
+        "student_success_led": 4,
+        "workforce_regional_development": 11,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Easley",
+        "gpu_count": 32,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 68700000,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "other_unclear": 4,
+        "industry_vendor": 2,
+        "institutional": 1
+      },
+      "partnership_count": 12
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "other": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": true,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Microsoft 365 Copilot (enhanced)",
+            "Microsoft 365 Copilot Chat"
+          ]
+        },
+        {
+          "vendor": "Apple Apple Intelligence",
+          "mentions": 2,
+          "products": [
+            "Apple Intelligence"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "Easley HPC cluster",
+            "Xena GPU cluster"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 1,
+          "products": [
+            "AI Assistant for Adobe Acrobat"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas LMS"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        },
+        {
+          "vendor": "UNM CARC Wheeler cluster",
+          "mentions": 1,
+          "products": [
+            "Wheeler cluster"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Enterprise AI Tool Rollout: Microsoft 365 Copilot, Zoom AI Companion, Apple Intelligence",
+          "summary": "Establishes a vendor-diversified, compliance-first enterprise AI baseline for roughly 28,000 students plus faculty and staff, explicitly relying on enterprise data protection rather than consumer-grade tools.",
+          "source_url": "https://news.unm.edu/news/unm-announces-ai-tools-for-zoom-microsoft-and-apple"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Trustworthy AI Grand Challenge (Level 1 Team)",
+          "summary": "Represents UNM's flagship interdisciplinary AI research program, binding technical, legal, educational, and equity expertise under a single institutional banner.",
+          "source_url": "https://grandchallenges.unm.edu/teams/2025/ai.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "New Mexico AI Consortium (NMAIC) Founding Member",
+          "summary": "Positions UNM as the flagship-university anchor of a state-level, cross-sector AI ecosystem tied to two NNSA national labs.",
+          "source_url": "https://nmaiconsortium.org/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "UNM Continuing Education AI Prompting / AI Automation Certificates",
+          "summary": "Provides a public, adult-learner pathway to AI skills without requiring degree enrollment.",
+          "source_url": "https://advance.ce.unm.edu/ai-automation"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No public evidence of an AI-powered student chatbot or predictive-analytics retention product - UNM may operate one but it is not publicized.",
+        "Chief AI Officer position does not exist at UNM; AI strategy lead role is held de facto by the Steering Committee chair.",
+        "Next provost not seated until mid-2026 - current leadership listing uses interim provost Barbara Rodriguez.",
+        "RAISE specific curriculum details (courses, certificate requirements) not fully published.",
+        "UNM subaward portion of the $20M ARIA institute not disclosed.",
+        "Easley cluster procurement cost not publicly disclosed.",
+        "Adoption date of the UNM appropriate-use guidance not timestamped on the public page.",
+        "No published controversies or litigation specifically tied to UNM's AI deployment were located."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1570 @@
+{
+  "institution": "Arizona State University",
+  "slug": "arizona-state-university",
+  "city_state": "Tempe, AZ",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 160051,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Michael M. Crow",
+      "url": "https://president.asu.edu/the-president"
+    },
+    "provost": {
+      "name": "Nancy Gonzales",
+      "url": "https://provost.asu.edu/about/staff"
+    },
+    "cio": {
+      "name": "Lev Gonick",
+      "url": "https://search.asu.edu/profile/3202000"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Elizabeth Reilley",
+      "title": "Executive Director, AI Acceleration, Enterprise Technology",
+      "url": "https://search.asu.edu/profile/3742704"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "ASU Artificial Intelligence (ai.asu.edu) — strategy hub, guiding principles and Principled Innovation framework",
+        "url": "https://ai.asu.edu/",
+        "year": 2024
+      },
+      {
+        "title": "Digital Trust Guidelines for Generative AI Use",
+        "url": "https://ai.asu.edu/digital-trust-guidelines",
+        "year": 2023
+      },
+      {
+        "title": "Policy and Resources — ASU AI",
+        "url": "https://ai.asu.edu/policy-and-resources",
+        "year": 2024
+      }
+    ],
+    "summary": "ASU frames AI as a permanent part of innovation and anchors its strategy in a Principled Innovation Framework that treats AI as an amplifier — not a replacement — of human intelligence. Under President Michael Crow, Enterprise CIO Lev Gonick, and Executive Director of AI Acceleration Elizabeth Reilley, the university is pursuing a university-wide deployment model: free ChatGPT Edu, Microsoft Copilot Chat, and Google Gemini for all 160,000+ students, faculty, and staff, an in-house CreateAI builder platform with an Ethical AI Engine, and an AI Innovation Challenge that has backed ~500–700 faculty and staff projects since 2024. The strategy emphasizes responsible innovation, access, data privacy (FERPA-aligned), and continuous faculty/staff workforce training to keep pace with advancing models."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.asu.edu/digital-trust-guidelines",
+      "https://ai.asu.edu/policy-and-resources",
+      "https://provost.asu.edu/generative-ai",
+      "https://tlc.sols.asu.edu/teaching/toolkits/syllabus-and-policies-generative-ai",
+      "https://provost.asu.edu/academic-integrity"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No input of student information, personnel records, FERPA-protected data, PII, proprietary IP, grants, or non-public institutional data into generative AI tools unless using an approved vendor agreement",
+      "Use only tools with approved vendor agreements listed on ASU's AI Tools webpage (ChatGPT Edu, Microsoft 365 Copilot Chat, Google Gemini, CreateAI)",
+      "Instructors must set explicit generative AI expectations in each course syllabus; undisclosed student use is governed under academic integrity",
+      "AI use is governed by the Principled Innovation framework and reviewed by Enterprise Technology Digital Trust, Cybersecurity, AI Acceleration, Learning Experience, and the Office of General Counsel",
+      "Assume outputs from free / non-approved tools become public records and may not be copyrightable",
+      "Vendor IT Risk Assessment required before adopting new AI tools for university work"
+    ],
+    "summary": "ASU's AI posture is comprehensive: a Digital Trust Guideline set plus provost-level teaching guidance, syllabus-level requirements, academic integrity rules, and an approved-vendors list. Free tools are discouraged for any institutional data; approved enterprise tools (ChatGPT Edu, Copilot, Gemini, CreateAI) are pushed campus-wide with FERPA protections and no-training guarantees from vendors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Acceleration (Enterprise Technology)",
+        "type": "office",
+        "scope": "Enterprise-wide office (~60+ staff) driving AI strategy, MLOps, data science, product and platform development; led by Elizabeth Reilley; includes Director of AI Technology Zohair Zaidi and Director of AI Solutions and Architecture Roger Kohler",
+        "url": "https://ai.asu.edu/technical-foundation/ai-acceleration-team"
+      },
+      {
+        "name": "Faculty Ethics Committee on AI Technology",
+        "type": "committee",
+        "scope": "Cross-college faculty body assessing bias, transparency, data privacy, accountability, and social impact of AI deployments across ASU",
+        "url": "https://ai.asu.edu/faculty-ethics-committee-ai-technology"
+      },
+      {
+        "name": "Generative AI Community of Practice (Office of the University Provost)",
+        "type": "council",
+        "scope": "Faculty/staff community sharing pedagogical practice, policy guidance, and generative AI use cases across colleges",
+        "url": "https://provost.asu.edu/generative-ai/community-of-practice"
+      },
+      {
+        "name": "Enterprise Technology Digital Trust",
+        "type": "office",
+        "scope": "Reviews and approves AI vendor agreements, privacy and IP guidance, and Digital Trust guidelines for generative AI",
+        "url": "https://ai.asu.edu/digital-trust-guidelines"
+      },
+      {
+        "name": "Learning Engineering Institute (LEI)",
+        "type": "office",
+        "scope": "Runs grant program funding interdisciplinary faculty teams to build AI-powered learning tools on CreateAI Builder",
+        "url": "https://ai.asu.edu/"
+      }
+    ],
+    "summary": "ASU's AI governance is deeply operational rather than advisory: a large AI Acceleration office inside Enterprise Technology owns platform, MLOps, and product; a Faculty Ethics Committee on AI Technology provides ethical review; the Provost's Office runs a Generative AI Community of Practice and academic integrity policy; and state-level policy is influenced by ASU faculty on the Arizona AI Steering Committee convened by Governor Katie Hobbs in May 2025."
+  },
+  "initiatives": [
+    {
+      "title": "First-ever university partnership with OpenAI (ChatGPT Enterprise)",
+      "description": "In January 2024, ASU became the first higher education institution to strike a campus-wide deal with OpenAI, granting students, faculty, and staff access to ChatGPT Enterprise. The initial rollout concentrated on student success, research, and operational streamlining via an AI Innovation Challenge that solicited faculty and staff project proposals.",
+      "significance": "Set the national precedent for campus-wide enterprise LLM deployment in higher education, triggering a wave of similar partnerships at other R1s.",
+      "date_announced": "2024-01-18",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "ASU Enterprise Technology operating budget; OpenAI partnership terms",
+        "description": "University-wide ChatGPT Enterprise license for ~160,000 community members; specific contract value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Flagship enterprise LLM collaboration — OpenAI's first university partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Enterprise",
+          "vendor": "OpenAI",
+          "role": "Secure enterprise LLM workspace with no-training data guarantee"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Established the template for FERPA-aligned, no-training enterprise LLM contracts in higher ed; required an AI Innovation Challenge governance layer to vet proposals.",
+      "source_urls": [
+        "https://ai.asu.edu/openAI",
+        "https://openai.com/index/asu/",
+        "https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education",
+        "https://www.cnbc.com/2024/01/18/openai-announces-first-partnership-with-a-university",
+        "https://www.insidehighered.com/news/quick-takes/2024/01/19/arizona-state-joins-chatgpt-first-higher-ed-partnership"
+      ]
+    },
+    {
+      "title": "ChatGPT Edu with GPT-5 for every student, faculty, and staff member (OpenAI expansion)",
+      "description": "On September 15, 2025, ASU announced an expanded OpenAI collaboration, providing ChatGPT Edu with GPT-5 at no individual cost to all students, faculty, researchers, and staff, with licenses beginning October 1, 2025. The rollout targets three use cases: student learning, faculty teaching and research, and team collaboration.",
+      "significance": "First large-scale GPT-5 rollout in US higher education; pushes campus-wide frontier-model access from pilot into standard infrastructure.",
+      "date_announced": "2025-09-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "ASU Enterprise Technology; OpenAI partnership",
+        "description": "Institution-funded ChatGPT Edu licenses for all 160,000+ students, faculty, and staff; contract value undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Expansion of the 2024 partnership; ChatGPT Edu + GPT-5 deployed to every user."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "FERPA-compliant frontier-model workspace for the entire campus"
+        },
+        {
+          "name": "GPT-5",
+          "vendor": "OpenAI",
+          "role": "Base model powering ChatGPT Edu at ASU"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Reinforces access-equity argument: no individual pays for frontier AI. Tightens FERPA data-handling requirements as use goes universal.",
+      "source_urls": [
+        "https://tech.asu.edu/features/asu-and-openai-expand-collaboration-scaling-ai",
+        "https://ai.asu.edu/chatgpt-edu"
+      ]
+    },
+    {
+      "title": "CreateAI Builder — ASU's in-house AI platform",
+      "description": "CreateAI is ASU's institutional, FERPA-compliant platform for building AI experiences. Since 2025 it has been deployed to 20,000+ ASU employees, with over 7,000 custom AI experiences built, including syllabus bots, writing companions, simulations, and an Ethical AI Engine that assesses bias. The platform integrates ChatGPT Enterprise, Microsoft Copilot, and Gemini under a unified builder.",
+      "significance": "Demonstrates a universities-as-platform-builders model: rather than only consuming vendor tools, ASU operates its own AI IDE for faculty and staff.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "ai_enhanced_pedagogy",
+        "ai_native_institution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ASU Enterprise Technology operating budget",
+        "description": "Internal platform developed and operated by AI Acceleration's 60+ engineering, product, and data science team."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft",
+            "Google",
+            "AWS"
+          ],
+          "description": "Underlying model and cloud providers powering CreateAI."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CreateAI Builder",
+          "vendor": "Arizona State University (in-house)",
+          "role": "Secure, FERPA-compliant AI-experience builder with knowledge bases and Ethical AI Engine"
+        },
+        {
+          "name": "CreateAI Chat",
+          "vendor": "Arizona State University (in-house)",
+          "role": "Unified chat front-end across multiple models"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Allows ASU to route regulated data only through its own secure layer, not commercial chat UIs.",
+      "source_urls": [
+        "https://ai.asu.edu/technical-foundation/createai-builder",
+        "https://ai.asu.edu/create-ai-platform-product-release-notes",
+        "https://tech.asu.edu/features/createai-offers-asu-community-ways-make-ai-work-them",
+        "https://news.asu.edu/20260318-science-and-technology-createai-tool-kit-offers-asu-community-ways-to-customize-ai"
+      ]
+    },
+    {
+      "title": "AI Innovation Challenge — 500–700 funded faculty/staff projects",
+      "description": "Launched in February 2024 after the OpenAI partnership, the AI Innovation Challenge has backed roughly 500 projects in the first year and approximately 700 cumulatively by 2026. Project categories include AI-driven behavioral health training, bias detection, scholarly writing assistants (AI as a Writing Companion), workforce development, and administrative automation.",
+      "significance": "Large-scale grassroots model for institutional AI adoption: instead of top-down mandates, faculty and staff submit proposals that get ChatGPT Enterprise licenses + support.",
+      "date_announced": "2024-02-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_for_scientific_discovery",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ASU Enterprise Technology + OpenAI partnership credits",
+        "description": "License allocations and engineering support rather than direct faculty grants; exact dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Proposal evaluation and licensing support from OpenAI partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Enterprise",
+          "vendor": "OpenAI",
+          "role": "Primary tool provisioned to funded projects"
+        },
+        {
+          "name": "CreateAI Builder",
+          "vendor": "Arizona State University",
+          "role": "Where many projects are built"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes project-by-project governance model: every proposal is reviewed against Digital Trust guidelines before license is granted.",
+      "source_urls": [
+        "https://news.asu.edu/20240715-science-and-technology-ai-has-future-learning",
+        "https://ai.asu.edu/",
+        "https://tech.asu.edu/features/a-step-forward-in-charting-the-future-of-AI-in-higher-education"
+      ]
+    },
+    {
+      "title": "Sol Supercomputer — campus research AI infrastructure",
+      "description": "Sol is ASU Research Computing's 178-node Dell system with 21,000+ CPU cores and 290+ NVIDIA A100 (80GB) and A30 GPUs, delivering 2.27 PF/s on HPL and ranking #388 on the June 2023 Top500. It is provisioned with MONAI, AlphaFold3, TensorFlow, and PyTorch for campus AI research.",
+      "significance": "Gives ASU researchers in-house GPU capacity at a scale few R1s match, enabling LLM fine-tuning, scientific ML, and AlphaFold-class workloads without cloud dependency.",
+      "date_announced": "2022-07-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "ASU Research Computing / Knowledge Enterprise capital",
+        "description": "Multi-million-dollar Dell + NVIDIA + BeeGFS HPC build; exact cost not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Dell Technologies",
+            "NVIDIA"
+          ],
+          "description": "Hardware vendor relationships for Sol's CPU, GPU, and interconnect stack."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Sol Supercomputer",
+          "vendor": "Dell Technologies / NVIDIA",
+          "role": "GPU HPC for campus AI research"
+        },
+        {
+          "name": "Open OnDemand",
+          "vendor": "Ohio Supercomputer Center (open source)",
+          "role": "Web-based research computing access layer"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.asu.edu/20220526-solutions-new-dawn-supercomputing-asu",
+        "https://www.hpcwire.com/2022/07/13/asu-launching-sol-supercomputer/",
+        "https://dl.acm.org/doi/10.1145/3569951.3597573",
+        "https://cores.research.asu.edu/research-computing/capabilities"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot Chat — campus-wide rollout",
+      "description": "By fall 2025, ASU extended Microsoft Copilot Chat to all students, faculty, and staff at no cost, accessible via SSO/ASURITE credentials at copilot.microsoft.com. Copilot is treated as low-risk for FERPA and internal ASU data under the ASURITE sign-in, and vendor terms prohibit using prompts/responses for AI training.",
+      "significance": "ASU is running a multi-model strategy — ChatGPT Edu, Microsoft Copilot, and Google Gemini all offered in parallel — a pattern few R1s have adopted.",
+      "date_announced": "2025-08-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ASU Enterprise Technology / Microsoft EDU agreement",
+        "description": "Microsoft Copilot Chat licensing for entire community; amount undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Microsoft 365 EDU and Copilot Chat deployment at ASU."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "AI assistant embedded in Word, Excel, PowerPoint, Outlook, Teams"
+        },
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Web chat access at no cost via ASURITE SSO"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Under ASURITE sign-in, Copilot qualifies for FERPA and internal-use data; outside SSO, the same guidelines as free tools apply.",
+      "source_urls": [
+        "https://ai.asu.edu/microsoft-copilot-chat",
+        "https://ai.asu.edu/ai-tools/microsoft-365-copilot",
+        "https://lx.asu.edu/microsoft-365-copilot"
+      ]
+    },
+    {
+      "title": "Digital Trust Guidelines for Generative AI",
+      "description": "ASU's enterprise-level acceptable-use policy for generative AI, jointly developed by Enterprise Technology Digital Trust, Cybersecurity, AI Acceleration, Learning Experience, and the Office of General Counsel. Prohibits input of student records, personnel records, PII, grants, IP, and non-public data into GenAI unless via an approved vendor agreement. Requires Vendor IT Risk Assessment for any new tool.",
+      "significance": "A model comprehensive AI acceptable-use policy for R1s: explicitly aligns AI use with FERPA, HIPAA, GDPR, and IP law.",
+      "date_announced": "2023-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Operating budget",
+        "description": "Cross-office policy development; no material dollar investment disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy development across ASU offices."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors every other ASU AI initiative in FERPA/HIPAA/GDPR/IP requirements and sets the vetting bar before any AI tool touches institutional data.",
+      "source_urls": [
+        "https://ai.asu.edu/digital-trust-guidelines",
+        "https://ai.asu.edu/policy-and-resources"
+      ]
+    },
+    {
+      "title": "AI degree and doctoral programs — BS AI in Business, MS AI Engineering, MS AI in Business, PhD in AI",
+      "description": "ASU offers a Bachelor of Science in Artificial Intelligence in Business (W. P. Carey), MS in Artificial Intelligence Engineering with a Computing Sciences concentration (Fulton Schools / SCAI), MS in Artificial Intelligence in Business (launched fall 2024), and a new PhD in Artificial Intelligence in the School of Computing and Augmented Intelligence (announced December 2025). Two additional software engineering and materials science engineering AI concentrations launched for spring 2026.",
+      "significance": "One of the deepest AI degree portfolios at any public R1, spanning undergrad, master's, and doctoral tiers and bridging engineering with business.",
+      "date_announced": "2024-08-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_workforce_training",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ASU Fulton Schools of Engineering; W. P. Carey School of Business",
+        "description": "Program launches across two colleges; individual program budgets undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-college curriculum development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.asu.edu/asu-programs",
+        "https://degrees.apps.asu.edu/bachelors/major/ASU00/BAAIBBS/artificial-intelligence-in-business",
+        "https://wpcarey.asu.edu/masters-programs/ai-business",
+        "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESAIECSMS/artificial-intelligence-engineering-computing-sciences-ms",
+        "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESAIPHD/artificial-intelligence-phd",
+        "https://www.statepress.com/article/2025/12/scitech-scai-phd-program",
+        "https://www.bestcolleges.com/news/asu-ai-business-degree/"
+      ]
+    },
+    {
+      "title": "ASU Artificial Intelligence Cloud Innovation Center (AI CIC), powered by AWS",
+      "description": "A joint ASU–AWS center located at ASU SkySong that applies Amazon's 'Working Backwards' methodology to build generative-AI solutions for public-sector partners — government agencies, education institutions, and nonprofits. Projects delivered include a generative-AI cybersecurity advisor for local governments, an ASU resume analyzer, and a medical-document query tool for a local health provider.",
+      "significance": "One of the earliest university/hyperscaler AI CICs; operationalizes an industry partnership model where students and staff prototype real public-sector AI.",
+      "date_announced": "2023-11-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ASU + AWS joint investment",
+        "description": "AWS-funded research center with ASU student interns and technologists; no public dollar figure."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services"
+          ],
+          "description": "Long-term ASU–AWS partnership; predecessor Smart City CIC continues."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AWS Bedrock / SageMaker",
+          "vendor": "Amazon Web Services",
+          "role": "Cloud AI infrastructure powering AI CIC projects"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://tech.asu.edu/features/launch-ai-cic",
+        "https://smartchallenges.asu.edu/",
+        "https://pit.asu.edu/artificial-intelligence-cloud-innovation-center",
+        "https://aws.amazon.com/blogs/publicsector/asu-and-aws-open-smart-city-cloud-innovation-center/"
+      ]
+    },
+    {
+      "title": "Syllabot and CreateAI Builder Marketplace — scaled AI chatbots for courses",
+      "description": "Syllabot is an AI chatbot template built on CreateAI that answers student questions about assignments, due dates, and grading policies. Roughly 1,000 Syllabots are currently active at ASU, and the CreateAI Builder Marketplace shares templates across faculty. Related tools include the ASU Experience Center chatbot (staff support) and the finances chatbot for student financial aid inquiries.",
+      "significance": "Converts an institutional AI platform into a library of reusable course-level chatbots — one of the few proof points that CreateAI is producing durable pedagogy, not just pilots.",
+      "date_announced": "2024-10-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "ASU Enterprise Technology; Learning Engineering Institute grants",
+        "description": "LEI grants funded 18 projects across two cohorts building AI-powered learning experiences on CreateAI."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal to ASU."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Syllabot",
+          "vendor": "Arizona State University",
+          "role": "Student-facing course chatbot template"
+        },
+        {
+          "name": "CreateAI Builder Marketplace",
+          "vendor": "Arizona State University",
+          "role": "Template exchange for faculty-built AI experiences"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "FERPA-compliant chatbot pattern that individual instructors can deploy without building infrastructure from scratch.",
+      "source_urls": [
+        "https://tech.asu.edu/features/experience-center-chatbot",
+        "https://ai.asu.edu/introducing-createai-builder-marketplace",
+        "https://openai.com/index/asu/"
+      ]
+    },
+    {
+      "title": "ASU faculty lead Arizona's first AI Steering Committee",
+      "description": "On May 21, 2025, Governor Katie Hobbs announced Arizona's first 19-member AI Steering Committee, tasked with producing a statewide responsible-AI plan by spring 2026. Multiple ASU faculty and administrators serve: Diana Bowman (Sandra Day O'Connor College of Law), Greg Dawson (W. P. Carey), Deputy CIO Kyle Bowen, Bill Gates (Mechanics of Democracy Laboratory), and former deputy CIO Chris Richardson.",
+      "significance": "ASU's governance expertise is exported to the state level — a rare case of a single R1 substantially shaping state-level AI policy.",
+      "date_announced": "2025-05-21",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "faculty",
+        "community",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "State of Arizona (Office of the Governor)",
+        "description": "Advisory committee service; no dollar investment from ASU."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Arizona Governor's Office",
+            "Arizona Department of Administration"
+          ],
+          "description": "ASU faculty embedded on state AI policy body."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Increases alignment between ASU's Digital Trust Guidelines and forthcoming Arizona statewide AI policy.",
+      "source_urls": [
+        "https://azgovernor.gov/office-arizona-governor/news/2025/05/governor-katie-hobbs-announces-members-arizonas-first-ai",
+        "https://news.asu.edu/20250603-local-national-and-global-affairs-ai-arizona-sun-devils-help-lead-states-first-policy-task",
+        "https://www.aztechcouncil.org/news/governor-hobbs-announces-members-of-ai-steering-committee/"
+      ]
+    },
+    {
+      "title": "$2.8M NSF grant — Expanding AI Innovation in Pervasive Systems",
+      "description": "In July 2024, ASU received a $2.8 million NSF grant titled 'Expanding AI Innovation in Pervasive Systems at Arizona State University,' uniting researchers across arts/media/engineering, electrical and computer engineering, computer science, and chemical engineering to advance AI for health and other real-world domains.",
+      "significance": "Exemplar cross-disciplinary NSF-funded AI research award at a public R1 that has crossed $1B/year in research expenditures overall.",
+      "date_announced": "2024-07-08",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2800000,
+        "funding_source": "National Science Foundation (NSF)",
+        "description": "Single-award NSF grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded AI research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.asu.edu/20240708-health-and-medicine-asu-researchers-receive-28m-grant-harness-power-ai-health",
+        "https://news.asu.edu/20251229-science-and-technology-research-expenditures-ranking-underscores-asus-dramatic-growth"
+      ]
+    },
+    {
+      "title": "AI Learning — ASU Learning Enterprise workforce upskilling portfolio",
+      "description": "Through ASU's Learning Enterprise, the university offers a portfolio of short AI courses targeting workers in vulnerable sectors — leadership, finance, healthcare, education, sustainability, and more. The portfolio extends from student-facing training (Kiro AI developer tool training sessions and the Kiro Spark Challenge) to workforce and community members.",
+      "significance": "Extends ASU's AI bet beyond enrolled students into community workforce development, reinforcing its 'access at scale' institutional charter.",
+      "date_announced": "2024-09-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "ASU Learning Enterprise operating budget; industry partners",
+        "description": "Course portfolio with multiple partners; unified budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Kiro (AWS)"
+          ],
+          "description": "Kiro developer-tool training and Kiro Spark Challenge for students."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Kiro",
+          "vendor": "Amazon Web Services",
+          "role": "AI developer tool used for training sessions"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://learning.asu.edu/ai-learning/",
+        "https://tech.asu.edu/features/sun-devils-gain-access-kiros-new-ai-developer-tool"
+      ]
+    },
+    {
+      "title": "Faculty Ethics Committee on AI Technology",
+      "description": "A dedicated cross-college faculty committee convened to assess bias, transparency, data privacy, accountability, and social impact of AI technology used across ASU. Brings together expertise in education, law, global futures, film, and business to review sensitive AI deployments and vendor choices.",
+      "significance": "One of the more formalized faculty-led AI ethics bodies at a US R1 — distinct from IT governance and from academic integrity policy.",
+      "date_announced": "2024-09-03",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Operating budget",
+        "description": "Faculty service committee; no direct dollar investment."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal to ASU."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Complements Digital Trust (IT) guidelines with a faculty-led ethics check.",
+      "source_urls": [
+        "https://ai.asu.edu/faculty-ethics-committee-ai-technology",
+        "https://news.asu.edu/20240903-science-and-technology-asu-workgroup-addresses-ethical-questions-about-use-ai-higher-ed"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI and Data Analytics Center (AIDA), W. P. Carey School of Business",
+      "focus": "AI and data analytics research for business applications; co-directed by Pei-yu (Sharon) Chen and Olivia Liu Sheng with associate directors Dragan Boscovic and Joseph Cazier",
+      "founded": null,
+      "url": "https://aida.wpcarey.asu.edu/"
+    },
+    {
+      "name": "ASU Artificial Intelligence Cloud Innovation Center (AI CIC), powered by AWS",
+      "focus": "Generative AI prototyping for government, education, and nonprofit public-sector partners",
+      "founded": "2023",
+      "url": "https://smartchallenges.asu.edu/"
+    },
+    {
+      "name": "School of Computing and Augmented Intelligence (SCAI)",
+      "focus": "AI, machine learning, data analytics, cybersecurity, informatics, and robotics within the Ira A. Fulton Schools of Engineering",
+      "founded": "2021",
+      "url": "https://scai.engineering.asu.edu/"
+    },
+    {
+      "name": "Cognition and Intelligence Lab (CogInt)",
+      "focus": "Text/image/video understanding; robotics teaching through demonstrations; human-centered AI",
+      "founded": null,
+      "url": "https://cogintlab-asu.github.io/"
+    },
+    {
+      "name": "Robotics and Intelligent Systems Laboratory (RISE)",
+      "focus": "Wearable assistive robots, soft robots, unmanned aerial vehicles, and control of advanced robotic systems",
+      "founded": null,
+      "url": "https://home.riselab.info/"
+    },
+    {
+      "name": "Learning Engineering Institute (LEI)",
+      "focus": "Interdisciplinary AI-in-learning grants; builds tools like ReQUESTA (multi-agent question generator) on CreateAI Builder",
+      "founded": null,
+      "url": "https://ai.asu.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "BS in Artificial Intelligence in Business",
+      "level": "undergrad",
+      "launched": "2024-08",
+      "url": "https://degrees.apps.asu.edu/bachelors/major/ASU00/BAAIBBS/artificial-intelligence-in-business"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Artificial Intelligence Engineering (Computing Sciences concentration)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESAIECSMS/artificial-intelligence-engineering-computing-sciences-ms"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Artificial Intelligence in Business (MS-AIB)",
+      "level": "grad",
+      "launched": "2024-08",
+      "url": "https://wpcarey.asu.edu/masters-programs/ai-business"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Artificial Intelligence",
+      "level": "grad",
+      "launched": "2025-12",
+      "url": "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESAIPHD/artificial-intelligence-phd"
+    },
+    {
+      "type": "concentration",
+      "name": "AI Engineering — Software Engineering concentration",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://ai.asu.edu/asu-programs"
+    },
+    {
+      "type": "concentration",
+      "name": "AI Engineering — Materials Science Engineering concentration",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://ai.asu.edu/asu-programs"
+    },
+    {
+      "type": "course",
+      "name": "AI Learning — ASU Learning Enterprise short courses across leadership, finance, healthcare, education, sustainability",
+      "level": "both",
+      "launched": "2024-09",
+      "url": "https://learning.asu.edu/ai-learning/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Enterprise",
+      "scope": "campus-wide",
+      "user_count": 160000,
+      "deployed": "2024-02",
+      "url": "https://ai.asu.edu/openAI"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu (GPT-5)",
+      "scope": "campus-wide",
+      "user_count": 160000,
+      "deployed": "2025-10",
+      "url": "https://tech.asu.edu/features/asu-and-openai-expand-collaboration-scaling-ai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot / Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": 160000,
+      "deployed": "2025-08",
+      "url": "https://ai.asu.edu/microsoft-copilot-chat"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini for Education",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.asu.edu/"
+    },
+    {
+      "vendor": "Arizona State University",
+      "product": "CreateAI Builder + CreateAI Chat",
+      "scope": "campus-wide",
+      "user_count": 20000,
+      "deployed": "2025-01",
+      "url": "https://ai.asu.edu/technical-foundation/createai-builder"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Sol",
+    "gpu_count": 290,
+    "url": "https://cores.research.asu.edu/research-computing/capabilities",
+    "summary": "ASU Research Computing operates Sol, a 178-node Dell HPC with 21,000+ AMD Epyc 7713 CPU cores, 224+ NVIDIA A100 (80GB) and 12+ A30 (24GB) GPUs (290+ GPUs total), 200GB/s HDR InfiniBand, and 4PB BeeGFS storage. Sol achieves 2.272 PF/s on HPL and ranked #388 on the June 2023 Top500. Preloaded with MONAI, AlphaFold3, TensorFlow, and PyTorch to support campus AI research."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF Expanding AI Innovation in Pervasive Systems",
+      "amount_usd": 2800000,
+      "source": "National Science Foundation",
+      "purpose": "Cross-disciplinary AI research spanning health, engineering, and arts/media",
+      "date": "2024-07",
+      "url": "https://news.asu.edu/20240708-health-and-medicine-asu-researchers-receive-28m-grant-harness-power-ai-health"
+    },
+    {
+      "title": "NSF Cyberinfrastructure Facilitators training grant (with University of Tennessee)",
+      "amount_usd": 5000000,
+      "source": "National Science Foundation (split between UT and ASU)",
+      "purpose": "Training and coordination of cyberinfrastructure experts",
+      "date": "2022-11",
+      "url": "https://ciren.utk.edu/2022/11/11/nsf-grants-ut-and-arizona-state-university-5-million-to-train-cyberinfrastructure-facilitators/"
+    },
+    {
+      "title": "$4.2M NSF award — computational modeling for sustainability",
+      "amount_usd": 4200000,
+      "source": "National Science Foundation",
+      "purpose": "Innovation in AI-adjacent computational modeling for sustainability",
+      "date": "2021-10",
+      "url": "https://news.asu.edu/20211014-4-million-nsf-grant-will-advance-innovation-computational-modeling-sustainability"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "First university-wide ChatGPT Enterprise/Edu partnership; ~500–700 funded projects; expanded to GPT-5 campus-wide in September 2025",
+      "date": "2024-01",
+      "url": "https://ai.asu.edu/openAI"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft 365 Copilot and Copilot Chat campus-wide deployment",
+      "date": "2025-08",
+      "url": "https://ai.asu.edu/microsoft-copilot-chat"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services",
+      "purpose": "Smart City and AI Cloud Innovation Centers; Kiro developer tool training",
+      "date": "2023-11",
+      "url": "https://tech.asu.edu/features/launch-ai-cic"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini for Education as one of three campus-wide LLM offerings",
+      "date": null,
+      "url": "https://ai.asu.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Dell Technologies / NVIDIA",
+      "purpose": "Sol supercomputer hardware (CPUs, A100/A30 GPUs, HDR InfiniBand)",
+      "date": "2022-07",
+      "url": "https://www.hpcwire.com/2022/07/13/asu-launching-sol-supercomputer/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Arizona Governor's Office / Arizona AI Steering Committee",
+      "purpose": "ASU faculty (Bowman, Dawson, Bowen, Gates, Richardson) serve on state's first AI policy body",
+      "date": "2025-05",
+      "url": "https://azgovernor.gov/office-arizona-governor/news/2025/05/governor-katie-hobbs-announces-members-arizonas-first-ai"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Syllabot",
+      "scope": "~1,000 instances deployed across ASU courses; student-facing Q&A on assignments and grading",
+      "url": "https://tech.asu.edu/features/createai-offers-asu-community-ways-make-ai-work-them"
+    },
+    {
+      "type": "chatbot",
+      "name": "Experience Center chatbot",
+      "scope": "Sun Devil community support across staff and student-facing services",
+      "url": "https://tech.asu.edu/features/experience-center-chatbot"
+    },
+    {
+      "type": "chatbot",
+      "name": "Finances chatbot",
+      "scope": "Student financial-aid Q&A integrated into ASU services",
+      "url": "https://openai.com/index/asu/"
+    },
+    {
+      "type": "tutor",
+      "name": "AI as a Writing Companion",
+      "scope": "Scholarly writing assistant built on ChatGPT for students across disciplines",
+      "url": "https://openai.com/index/asu/"
+    },
+    {
+      "type": "other",
+      "name": "AI Innovation student pitch program",
+      "scope": "Student-designed AI-powered campus services across learning support, wellbeing, and campus operations",
+      "url": "https://www.edtechinnovationhub.com/news/arizona-state-university-students-pitch-ai-tools-to-improve-campus-life"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "No-cost campus-wide AI access (ChatGPT Edu, Microsoft Copilot, Gemini, CreateAI)",
+      "description": "ASU provides frontier AI tools at no individual cost to all 160,000+ students, faculty, and staff, a deliberate equity-of-access move framed by President Crow as part of ASU's access charter.",
+      "url": "https://tech.asu.edu/features/asu-and-openai-expand-collaboration-scaling-ai"
+    },
+    {
+      "title": "AI workforce portfolio for vulnerable sectors",
+      "description": "ASU Learning Enterprise runs short AI courses for workers in health, education, finance, sustainability, and leadership — explicitly aimed at communities most exposed to AI-driven disruption.",
+      "url": "https://learning.asu.edu/ai-learning/"
+    },
+    {
+      "title": "AI CIC projects for public-sector partners",
+      "description": "ASU AI Cloud Innovation Center prioritizes generative AI solutions for government agencies, education institutions, and nonprofits, extending ASU's AI capability into under-resourced public services.",
+      "url": "https://smartchallenges.asu.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Arizona",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Arizona has an active generative-AI policy environment. The Arizona Department of Administration Statewide Policy P2000 (Generative AI Policy) was published March 15, 2024 and updated October 24, 2024, establishing four core principles: Empowerment, Transparency and Accountability, Fairness, and Privacy and Security. In May 2025 Governor Katie Hobbs convened Arizona's first AI Steering Committee (19 members, multiple ASU faculty) to produce a statewide responsible-AI plan by spring 2026. The legislature has passed an anti-deepfake law (HB 2394, 2024), AI political disclosure (SB 1359, 2024), and HB 2175 (2025) restricting AI use in medical-claim denials; 2026 bills address minors and AI chatbots. ASU is not part of a multi-campus system with a system-wide AI policy, but the Arizona Board of Regents (ABOR) IP and acceptable-use policies (e.g., ABOR 6-908) apply.",
+    "urls": [
+      "https://aset.az.gov/sites/default/files/2024-03/P2000%20-%20Generative%20AI%20Policy.pdf",
+      "https://azgovernor.gov/office-arizona-governor/news/2025/05/governor-katie-hobbs-announces-members-arizonas-first-ai",
+      "https://doa.az.gov/news/arizona-pioneers-practical-uses-generative-ai",
+      "https://azmirror.com/2026/02/12/arizona-legislature-tackles-ai-regulation-as-lawmakers-warn-part-time-session-cant-keep-pace/",
+      "https://www.recordinglaw.com/us-laws/ai-laws/arizona-ai-laws/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2023-07",
+      "summary": "ASU faculty reported a surge in unauthorized ChatGPT use and began reframing academic-integrity policies as case-by-case responses ahead of a formal provost-level update. A separate 2023 report alleged that at least 59% of students in an online ASU computer science class engaged in prohibited cheating behavior during an AI-era course.",
+      "status": "resolved",
+      "url": "https://www.statepress.com/article/2023/07/ai-cheating-crackdown"
+    },
+    {
+      "date": "2024-05",
+      "summary": "Faculty raised concerns in Inside Higher Ed about transparency, governance, and data use of the OpenAI partnership, leading ASU to formalize additional guidance and the Faculty Ethics Committee on AI Technology.",
+      "status": "resolved",
+      "url": "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2024/05/21/unpacking-asus-openai-partnership-and"
+    }
+  ],
+  "narrative_summary": "Arizona State University is arguably the most AI-saturated R1 in the United States. With ~160,000 students and a public mandate for access at scale, ASU has turned AI from a policy question into an operational one: every student, faculty, and staff member now has no-cost access to ChatGPT Edu (GPT-5, since October 2025), Microsoft Copilot Chat, Google Gemini, and ASU's own CreateAI Builder — the four-platform stack is unusual among peer R1s, most of whom have standardized on one. The work is run from a large Enterprise Technology AI Acceleration office led by Executive Director Elizabeth Reilley (with CIO Lev Gonick reporting to President Michael Crow), staffed at roughly 60+ across MLOps, data science, product, and AI development. ASU's January 2024 deal with OpenAI was the first university-wide partnership of its kind; the AI Innovation Challenge that followed has funded ~500–700 faculty and staff projects. Policy is comprehensive: Digital Trust Guidelines define acceptable use, FERPA/HIPAA/GDPR/IP constraints, and a Vendor IT Risk Assessment gate; a Faculty Ethics Committee on AI Technology provides cross-college ethical review; a Generative AI Community of Practice under the Provost runs pedagogy. Academic programs span a BS (AI in Business), multiple master's (AI Engineering, AI in Business), a new PhD in AI (announced December 2025), and AI concentrations in software and materials science engineering. Research infrastructure is anchored by the Sol supercomputer (290+ A100/A30 GPUs, 2.27 PF/s), the AI Cloud Innovation Center with AWS, and NSF-funded AI programs totaling millions. ASU exports expertise outward through the Arizona AI Steering Committee (five ASU-affiliated members as of May 2025) and through community-facing AI workforce training via the Learning Enterprise. Open questions remain around academic integrity (case-by-case enforcement rather than a unified provost policy), the scale of actual student use versus access, and how a four-vendor AI strategy compounds cost and data-governance complexity.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.asu.edu/",
+      "https://ai.asu.edu/openAI",
+      "https://ai.asu.edu/chatgpt-edu",
+      "https://ai.asu.edu/microsoft-copilot-chat",
+      "https://ai.asu.edu/ai-tools/microsoft-365-copilot",
+      "https://ai.asu.edu/technical-foundation/createai-builder",
+      "https://ai.asu.edu/create-ai-platform-product-release-notes",
+      "https://ai.asu.edu/introducing-createai-builder-marketplace",
+      "https://ai.asu.edu/technical-foundation/ai-acceleration-team",
+      "https://ai.asu.edu/digital-trust-guidelines",
+      "https://ai.asu.edu/policy-and-resources",
+      "https://ai.asu.edu/faculty-ethics-committee-ai-technology",
+      "https://ai.asu.edu/asu-programs",
+      "https://tech.asu.edu/features/asu-and-openai-expand-collaboration-scaling-ai",
+      "https://tech.asu.edu/features/ASU-launches-AI-acceleration",
+      "https://tech.asu.edu/features/a-step-forward-in-charting-the-future-of-AI-in-higher-education",
+      "https://tech.asu.edu/features/experience-center-chatbot",
+      "https://tech.asu.edu/features/createai-offers-asu-community-ways-make-ai-work-them",
+      "https://tech.asu.edu/features/launch-ai-cic",
+      "https://tech.asu.edu/features/sun-devils-gain-access-kiros-new-ai-developer-tool",
+      "https://news.asu.edu/20240118-university-news-new-collaboration-openai-charts-future-ai-higher-education",
+      "https://news.asu.edu/20240715-science-and-technology-ai-has-future-learning",
+      "https://news.asu.edu/20240903-science-and-technology-asu-workgroup-addresses-ethical-questions-about-use-ai-higher-ed",
+      "https://news.asu.edu/20240708-health-and-medicine-asu-researchers-receive-28m-grant-harness-power-ai-health",
+      "https://news.asu.edu/20250603-local-national-and-global-affairs-ai-arizona-sun-devils-help-lead-states-first-policy-task",
+      "https://news.asu.edu/20251229-science-and-technology-research-expenditures-ranking-underscores-asus-dramatic-growth",
+      "https://news.asu.edu/20260318-science-and-technology-createai-tool-kit-offers-asu-community-ways-to-customize-ai",
+      "https://news.asu.edu/20250811-university-news-asu-record-enrollment-fall-2025",
+      "https://news.asu.edu/20220526-solutions-new-dawn-supercomputing-asu",
+      "https://president.asu.edu/the-president",
+      "https://provost.asu.edu/about/staff",
+      "https://provost.asu.edu/generative-ai",
+      "https://provost.asu.edu/generative-ai/community-of-practice",
+      "https://provost.asu.edu/academic-integrity",
+      "https://tlc.sols.asu.edu/teaching/toolkits/syllabus-and-policies-generative-ai",
+      "https://openai.com/index/asu/",
+      "https://scai.engineering.asu.edu/",
+      "https://aida.wpcarey.asu.edu/",
+      "https://smartchallenges.asu.edu/",
+      "https://pit.asu.edu/artificial-intelligence-cloud-innovation-center",
+      "https://cores.research.asu.edu/research-computing/capabilities",
+      "https://cogintlab-asu.github.io/",
+      "https://home.riselab.info/",
+      "https://degrees.apps.asu.edu/bachelors/major/ASU00/BAAIBBS/artificial-intelligence-in-business",
+      "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESAIECSMS/artificial-intelligence-engineering-computing-sciences-ms",
+      "https://degrees.apps.asu.edu/masters-phd/major/ASU00/ESAIPHD/artificial-intelligence-phd",
+      "https://wpcarey.asu.edu/masters-programs/ai-business",
+      "https://learning.asu.edu/ai-learning/",
+      "https://search.asu.edu/profile/3202000",
+      "https://search.asu.edu/profile/3742704",
+      "https://www.hpcwire.com/2022/07/13/asu-launching-sol-supercomputer/",
+      "https://dl.acm.org/doi/10.1145/3569951.3597573",
+      "https://www.statepress.com/article/2023/07/ai-cheating-crackdown",
+      "https://www.statepress.com/article/2025/12/scitech-scai-phd-program",
+      "https://www.insidehighered.com/news/quick-takes/2024/01/19/arizona-state-joins-chatgpt-first-higher-ed-partnership",
+      "https://www.insidehighered.com/news/tech-innovation/artificial-intelligence/2024/05/21/unpacking-asus-openai-partnership-and",
+      "https://www.cnbc.com/2024/01/18/openai-announces-first-partnership-with-a-university",
+      "https://www.bestcolleges.com/news/asu-ai-business-degree/",
+      "https://www.edtechinnovationhub.com/news/arizona-state-university-students-pitch-ai-tools-to-improve-campus-life",
+      "https://azgovernor.gov/office-arizona-governor/news/2025/05/governor-katie-hobbs-announces-members-arizonas-first-ai",
+      "https://aset.az.gov/sites/default/files/2024-03/P2000%20-%20Generative%20AI%20Policy.pdf",
+      "https://doa.az.gov/news/arizona-pioneers-practical-uses-generative-ai",
+      "https://azmirror.com/2026/02/12/arizona-legislature-tackles-ai-regulation-as-lawmakers-warn-part-time-session-cant-keep-pace/",
+      "https://www.recordinglaw.com/us-laws/ai-laws/arizona-ai-laws/",
+      "https://www.aztechcouncil.org/news/governor-hobbs-announces-members-of-ai-steering-committee/",
+      "https://ciren.utk.edu/2022/11/11/nsf-grants-ut-and-arizona-state-university-5-million-to-train-cyberinfrastructure-facilitators/",
+      "https://news.asu.edu/20211014-4-million-nsf-grant-will-advance-innovation-computational-modeling-sustainability"
+    ],
+    "search_queries": [
+      "\"Arizona State University\" AI strategy 2025 2026",
+      "\"Arizona State University\" OpenAI ChatGPT Enterprise partnership",
+      "\"Arizona State University\" AI acceptable use policy generative AI",
+      "\"Arizona State University\" AI research center institute",
+      "\"Arizona State University\" chief AI officer CIO Lev Gonick",
+      "\"Arizona State University\" AI degree major program bachelor masters",
+      "\"Arizona State University\" AI governance council committee task force",
+      "Arizona State University president provost 2026",
+      "\"Arizona State University\" AI Acceleration Elizabeth Reilley",
+      "\"Arizona State University\" enrollment 2025 2026 size",
+      "\"Arizona State University\" Supercomputer Sol HPC GPU compute",
+      "\"Arizona State University\" AI chatbot student support personalized",
+      "\"Arizona State University\" NSF AI grant million research funding",
+      "\"Arizona State University\" School of Computing and Augmented Intelligence SCAI",
+      "\"Arizona State University\" CreateAI platform projects faculty",
+      "\"Arizona State University\" AI ethics framework Principled Innovation",
+      "\"Arizona State University\" AI faculty training workshop development",
+      "\"Arizona State University\" AWS partnership Cloud Innovation Center",
+      "\"Arizona State University\" AI cheating academic integrity policy violation",
+      "Arizona state AI policy higher education executive order legislation",
+      "\"Arizona State University\" Microsoft Copilot deployment education"
+    ],
+    "gaps_acknowledged": [
+      "Exact dollar value of OpenAI, Microsoft, Google, and AWS enterprise contracts is not publicly disclosed; all set to null in investment.amount_usd.",
+      "ChatGPT Edu adoption/usage statistics across the 160K population have not been published; user_count reflects license eligibility, not active use.",
+      "A single consolidated provost-level academic-integrity policy specifically for AI is still under development per 2023 reporting; current practice is case-by-case under the general Academic Integrity policy.",
+      "Equity/accessibility initiatives specific to AI (beyond universal access) — e.g., disability accommodations for AI tooling or multilingual supports — are not surfaced in ASU's public AI pages.",
+      "No dedicated Chief AI Officer title; AI leadership is split between Enterprise Technology (Reilley, Gonick) and the Faculty Ethics Committee.",
+      "Individual gifts/donations specifically tagged to AI (versus NSF grants or Enterprise Technology budget) are not disclosed in public sources."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 22,
+        "research_compute_powerhouse": 22,
+        "curriculum_led": 10,
+        "governance_led": 12,
+        "student_success_led": 9,
+        "workforce_regional_development": 12,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Sol",
+        "gpu_count": 290,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 12000000,
+      "funding_source_buckets": {
+        "public_federal_state": 5,
+        "industry_vendor": 7,
+        "institutional": 2,
+        "other_unclear": 3
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 3,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "OpenAI",
+          "mentions": 6,
+          "products": [
+            "ChatGPT Edu",
+            "ChatGPT Edu (GPT-5)",
+            "ChatGPT Enterprise",
+            "GPT-5"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot / Copilot Chat",
+            "Microsoft Copilot Chat"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 2,
+          "products": [
+            "AWS Bedrock / SageMaker",
+            "Kiro"
+          ]
+        },
+        {
+          "vendor": "Arizona State University (in-house) CreateAI Builder",
+          "mentions": 1,
+          "products": [
+            "CreateAI Builder"
+          ]
+        },
+        {
+          "vendor": "Arizona State University (in-house) CreateAI Chat",
+          "mentions": 1,
+          "products": [
+            "CreateAI Chat"
+          ]
+        },
+        {
+          "vendor": "Arizona State University CreateAI Builder",
+          "mentions": 1,
+          "products": [
+            "CreateAI Builder"
+          ]
+        },
+        {
+          "vendor": "Arizona State University CreateAI Builder + CreateAI Chat",
+          "mentions": 1,
+          "products": [
+            "CreateAI Builder + CreateAI Chat"
+          ]
+        },
+        {
+          "vendor": "Arizona State University CreateAI Builder Marketplace",
+          "mentions": 1,
+          "products": [
+            "CreateAI Builder Marketplace"
+          ]
+        },
+        {
+          "vendor": "Arizona State University Syllabot",
+          "mentions": 1,
+          "products": [
+            "Syllabot"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini for Education"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Sol Supercomputer"
+          ]
+        },
+        {
+          "vendor": "Ohio Supercomputer Center (open source) Open OnDemand",
+          "mentions": 1,
+          "products": [
+            "Open OnDemand"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "OpenAI",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "student_success",
+          "title": "First-ever university partnership with OpenAI (ChatGPT Enterprise)",
+          "summary": "Set the national precedent for campus-wide enterprise LLM deployment in higher education, triggering a wave of similar partnerships at other R1s.",
+          "source_url": "https://ai.asu.edu/openAI"
+        },
+        {
+          "claim_type": "learning",
+          "title": "CreateAI Builder — ASU's in-house AI platform",
+          "summary": "Demonstrates a universities-as-platform-builders model: rather than only consuming vendor tools, ASU operates its own AI IDE for faculty and staff.",
+          "source_url": "https://ai.asu.edu/technical-foundation/createai-builder"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Innovation Challenge — 500–700 funded faculty/staff projects",
+          "summary": "Large-scale grassroots model for institutional AI adoption: instead of top-down mandates, faculty and staff submit proposals that get ChatGPT Enterprise licenses + support.",
+          "source_url": "https://news.asu.edu/20240715-science-and-technology-ai-has-future-learning"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Digital Trust Guidelines for Generative AI",
+          "summary": "A model comprehensive AI acceptable-use policy for R1s: explicitly aligns AI use with FERPA, HIPAA, GDPR, and IP law.",
+          "source_url": "https://ai.asu.edu/digital-trust-guidelines"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Syllabot and CreateAI Builder Marketplace — scaled AI chatbots for courses",
+          "summary": "Converts an institutional AI platform into a library of reusable course-level chatbots — one of the few proof points that CreateAI is producing durable pedagogy, not just pilots.",
+          "source_url": "https://tech.asu.edu/features/experience-center-chatbot"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI Learning — ASU Learning Enterprise workforce upskilling portfolio",
+          "summary": "Extends ASU's AI bet beyond enrolled students into community workforce development, reinforcing its 'access at scale' institutional charter.",
+          "source_url": "https://learning.asu.edu/ai-learning/"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 8,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "Exact dollar value of OpenAI, Microsoft, Google, and AWS enterprise contracts is not publicly disclosed; all set to null in investment.amount_usd.",
+        "ChatGPT Edu adoption/usage statistics across the 160K population have not been published; user_count reflects license eligibility, not active use.",
+        "A single consolidated provost-level academic-integrity policy specifically for AI is still under development per 2023 reporting; current practice is case-by-case under the general Academic Integrity policy.",
+        "Equity/accessibility initiatives specific to AI (beyond universal access) — e.g., disability accommodations for AI tooling or multilingual supports — are not surfaced in ASU's public AI pages.",
+        "No dedicated Chief AI Officer title; AI leadership is split between Enterprise Technology (Reilley, Gonick) and the Faculty Ethics Committee.",
+        "Individual gifts/donations specifically tagged to AI (versus NSF grants or Enterprise Technology budget) are not disclosed in public sources."
+      ]
+    }
+  }
+}

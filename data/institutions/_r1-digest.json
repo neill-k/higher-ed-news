@@ -1,0 +1,2350 @@
+{
+  "generated_at": "2026-04-24T05:32:59.858Z",
+  "generated_by": "scripts/institution-analytics.ts",
+  "summary": {
+    "generated_at": "2026-04-24T05:32:59.858Z",
+    "generated_by": "scripts/institution-analytics.ts",
+    "expected_r1_profiles": 187,
+    "profiles_present": 187,
+    "profiles_missing": 0,
+    "validation": {
+      "checked": 187,
+      "failed": 0,
+      "warnings": 0,
+      "validation_summary_path": "data/institutions/_validation-summary.json"
+    },
+    "total_initiatives": 1883,
+    "total_disclosed_usd": 26227405486,
+    "profiles_with_dedicated_ai_role": 124,
+    "profiles_with_published_strategy": 161,
+    "profiles_with_acceptable_use_policy": 184,
+    "profiles_with_governance_body": 187,
+    "profiles_with_dedicated_ai_compute": 172,
+    "research_confidence": {
+      "high": 81,
+      "medium": 106
+    },
+    "total_research_sources_listed": 5320
+  },
+  "coverage": {
+    "by_category": {
+      "governance_and_policy": 629,
+      "teaching_and_learning": 856,
+      "research_and_innovation": 813,
+      "student_experience_and_services": 224,
+      "enterprise_tools_and_infrastructure": 647,
+      "workforce_and_economic_development": 566,
+      "equity_access_and_inclusion": 405,
+      "institutional_transformation": 346
+    },
+    "by_subcategory": {
+      "acceptable_use_policy": 188,
+      "institutional_ai_strategy": 171,
+      "ai_ethics_framework": 267,
+      "regulatory_compliance": 118,
+      "data_privacy_and_security": 272,
+      "syllabus_level_policy": 129,
+      "ai_literacy_requirement": 188,
+      "ai_enhanced_pedagogy": 214,
+      "ai_resilient_assessment": 117,
+      "ai_tutoring_and_adaptive_learning": 33,
+      "faculty_training_and_development": 339,
+      "ai_in_specific_disciplines": 212,
+      "ai_degree_program": 166,
+      "ai_research_center": 364,
+      "industry_academic_partnership": 237,
+      "ai_for_scientific_discovery": 410,
+      "computing_infrastructure": 236,
+      "open_source_contribution": 25,
+      "cross_border_research_alliance": 68,
+      "ai_chatbot_or_virtual_assistant": 45,
+      "predictive_analytics_retention": 7,
+      "ai_in_admissions_and_enrollment": 11,
+      "personalized_student_support": 126,
+      "career_and_workforce_readiness": 177,
+      "mental_health_and_wellbeing": 6,
+      "campus_wide_platform_rollout": 249,
+      "lms_embedded_ai": 18,
+      "ai_vendor_partnership": 264,
+      "data_infrastructure_and_unification": 129,
+      "ai_powered_admin_tools": 85,
+      "cybersecurity_and_ai_risk": 62,
+      "ai_workforce_training": 229,
+      "ai_incubator_or_startup_support": 23,
+      "industry_certification_pathway": 80,
+      "community_college_ai_program": 19,
+      "continuing_and_executive_education": 133,
+      "regional_economic_impact": 159,
+      "digital_divide_and_access": 87,
+      "ai_tool_equity": 174,
+      "algorithmic_bias": 96,
+      "multilingual_and_culturally_responsive_ai": 14,
+      "disability_and_accessibility": 23,
+      "underrepresented_student_support": 99,
+      "business_model_disruption": 16,
+      "ai_and_degree_value": 11,
+      "liberal_arts_in_ai_era": 18,
+      "institutional_restructuring": 95,
+      "ai_native_institution": 11,
+      "faculty_role_evolution": 82
+    },
+    "by_technology": {
+      "large_language_models": 1306,
+      "generative_ai_multimodal": 922,
+      "predictive_analytics_ml": 776,
+      "agentic_ai": 152,
+      "ai_search_and_retrieval": 131,
+      "computer_vision": 243,
+      "nlp_for_assessment": 116,
+      "robotics_and_physical_ai": 101,
+      "quantum_and_ai": 18,
+      "general_ai": 984,
+      "unspecified": 6
+    },
+    "by_stakeholder": {
+      "students": 1582,
+      "faculty": 1579,
+      "administrators": 704,
+      "researchers": 956,
+      "board_and_trustees": 40,
+      "accreditors": 25,
+      "government_and_regulators": 241,
+      "employers": 493,
+      "community": 519
+    },
+    "by_adoption_stage": {
+      "announcement": 94,
+      "pilot": 174,
+      "scaling": 464,
+      "operational": 1145,
+      "transformative": 6
+    },
+    "by_investment_scale": {
+      "major": 194,
+      "significant": 430,
+      "moderate": 478,
+      "exploratory": 326,
+      "unknown": 455
+    },
+    "by_collaboration_pattern": {
+      "industry_academic": 483,
+      "cross_institution": 375,
+      "international": 16,
+      "government_academic": 220,
+      "community_academic": 97,
+      "startup_academic": 16,
+      "none": 787
+    },
+    "by_policy_stance": {
+      "prohibitive": 5,
+      "cautious": 168,
+      "permissive": 516,
+      "comprehensive": 635,
+      "not_applicable": 559
+    },
+    "maturity_dimension_profile_counts": {
+      "strategy_and_leadership": 183,
+      "policy_and_governance": 187,
+      "teaching_and_curriculum": 187,
+      "research_infrastructure": 186,
+      "student_services": 158,
+      "workforce_and_community": 176,
+      "partnerships_and_ecosystem": 175,
+      "equity_and_inclusion": 172
+    },
+    "by_strategic_archetype": {
+      "curriculum_led": 8,
+      "platform_first": 42,
+      "balanced_enterprise": 23,
+      "research_compute_powerhouse": 41,
+      "governance_led": 60,
+      "workforce_regional_development": 12,
+      "student_success_led": 1
+    },
+    "by_policy_quality_score": {
+      "1": 2,
+      "2": 2,
+      "3": 17,
+      "4": 103,
+      "5": 63
+    },
+    "by_compute_capacity_tier": {
+      "gpu_cluster_disclosed": 38,
+      "advanced_hpc_disclosed": 50,
+      "named_system_capacity_unknown": 56,
+      "modest_gpu_disclosed": 5,
+      "dedicated_compute_capacity_unknown": 23,
+      "none": 15
+    },
+    "by_vendor_parent": {
+      "Perplexity AI Perplexity Enterprise Pro": 4,
+      "NVIDIA": 93,
+      "Microsoft": 441,
+      "Anthropic": 35,
+      "AU Library AI Instruction Toolkit": 1,
+      "Credo Reference Credo Information Literacy Modules": 1,
+      "Google": 209,
+      "IBM": 10,
+      "Open source Python / R": 1,
+      "OpenAI": 138,
+      "Perplexity AI Perplexity": 4,
+      "Turnitin": 8,
+      "Amazon": 42,
+      "Arizona State University (in-house) CreateAI Builder": 1,
+      "Arizona State University (in-house) CreateAI Chat": 1,
+      "Arizona State University CreateAI Builder": 1,
+      "Arizona State University CreateAI Builder + CreateAI Chat": 1,
+      "Arizona State University CreateAI Builder Marketplace": 1,
+      "Arizona State University Syllabot": 1,
+      "Ohio Supercomputer Center (open source) Open OnDemand": 1,
+      "Instructure": 28,
+      "Adobe": 29,
+      "Dell Dell PowerEdge R640": 1,
+      "Salesforce": 4,
+      "Epic Systems Epic EHR": 5,
+      "Baylor College of Medicine / MARRVEL AI AI-MARRVEL": 1,
+      "BCM Alkek Center for Metagenomics and Microbiome Research CMMR HPCC": 1,
+      "BMJ BMJ Impact Analytics": 1,
+      "Epic Systems Epic EHR (with EpicCare Link)": 1,
+      "Epic Systems EpicCare Link": 1,
+      "Inductive Bio DATAMAP": 1,
+      "InformAI Liver transplant outcome predictor": 1,
+      "Ex Libris / Clarivate Primo OneSearch Research Assistant": 2,
+      "Clarivate Web of Science Research Assistant": 1,
+      "Clarivate Web of Science Research Assistant (evaluation)": 1,
+      "Elsevier Scopus AI": 1,
+      "Elsevier Scopus AI (evaluation)": 1,
+      "Ocelot Bear-Bot": 1,
+      "Ocelot Bear-Bot financial aid chatbot": 1,
+      "Boston University / LibreChat TerrierGPT": 1,
+      "Zoom": 41,
+      "Multiple vendors Multiple GenAI services": 1,
+      "Brown University (AI Sandbox) LibreChat (in development)": 1,
+      "Brown University (AI Sandbox) Transcribe": 1,
+      "Brown University (Brown AI Sandbox) Transcribe": 1,
+      "DeepSeek DeepSeek-R1": 1,
+      "Meta Llama 3.3": 1,
+      "Mistral AI Mistral": 2,
+      "Ollama Ollama": 1,
+      "Multiple vendors Generative AI tools": 17,
+      "Multiple vendors Generative AI tools referenced in guidance": 11,
+      "Learnvia (CMU-founded nonprofit) Learnvia AI tutor": 1,
+      "Case Western Reserve University ([U]Tech) CWRU AI": 1,
+      "Case Western Reserve University ([U]Tech) CWRU AI (ai.case.edu)": 1,
+      "CWRU Law + Wickard.ai 1L Vibe Coding Competition": 1,
+      "Wickard.ai Introduction to AI and the Law": 1,
+      "Catholic University IgniteHub AI portals for student support": 1,
+      "Catholic University of America IgniteHub AI portals": 1,
+      "Multiple AI Services and approved tools": 1,
+      "Institution or cited partner Empire AI resources": 1,
+      "Dartmouth College Dartmouth Career Network": 1,
+      "Duke University OIT Duke AI Suite": 2,
+      "Duke University Research Computing Duke Compute Cluster GPUs": 1,
+      "Florida Atlantic University owlONE / OwlsleyAI": 2,
+      "Institution or cited partner Center for Connected Autonomy and AI": 1,
+      "Florida State University ITS Ruby ChatBot": 2,
+      "Box Box AI": 7,
+      "George Washington University GW Chat": 1,
+      "Mainstay Pounce": 1,
+      "Harvard University Information Technology AI Sandbox": 2,
+      "Harvard FAS Research Computing Kempner AI Cluster GPUs": 1,
+      "Institutional or mixed vendor Howard AI initiative resources": 1,
+      "Mixed or institution-supported vendors Howard AI initiative resources": 1,
+      "Indiana University Crimson": 1,
+      "Johns Hopkins HopGPT": 4,
+      "Lehigh LTS / LibreChat Lehigh LLM Gateway": 2,
+      "Lehigh LTS Lehigh LLM Gateway": 2,
+      "Lehigh Course-specific AI tutor": 1,
+      "Lehigh LTS Lehigh LLM Gateway / GPT Sandbox": 1,
+      "Louisiana State University MikeGPT": 2,
+      "Gradescope AI-assisted grading features in institutional AI catalog": 1,
+      "Gradescope Gradescope AI features": 1,
+      "Institution or cited partner Intelligent Systems Center research infrastructure": 1,
+      "Montana State University RCI CatChat": 1,
+      "Montana State University Research Computing Infrastructure CatChat": 1,
+      "Multiple Course-approved generative AI tools": 1,
+      "Institution or cited partner Bison AI supercomputer": 1,
+      "Institutional or mixed vendor Northwestern AI education resources": 1,
+      "Mixed or institution-supported vendors Northwestern AI education resources": 1,
+      "Old Dominion University MonarchMind": 1,
+      "Purdue University Charlie": 1,
+      "Purdue University GenAI Studio": 1,
+      "Purdue University Variate": 1,
+      "Multiple AI tools subject to SLU ITS approval for sensitive data": 1,
+      "Khan Academy Khanmigo Teacher Tools": 2,
+      "Institutional or mixed vendor Generative AI campus hub and DoIT resources": 1,
+      "Mixed or institution-supported vendors Generative AI campus hub and DoIT resources": 1,
+      "Texas A&M University TAMU AI Chat": 2,
+      "Institutional or mixed vendor Campus AI guidance and data-classification rules": 1,
+      "Mixed or institution-supported vendors Campus AI guidance and data-classification rules": 1,
+      "Institution or cited partner UA AI readiness initiative": 1,
+      "University of Arizona AI Verde": 2,
+      "Institutional or mixed vendor IT policy stack and AHPCC GPU resources": 1,
+      "Mixed or institution-supported vendors IT policy stack and AHPCC GPU resources": 1,
+      "UC Berkeley BearGPT": 2,
+      "UC Berkeley AI Platform Beta (River)": 1,
+      "Institution or cited partner UCI AI research and teaching ecosystem": 1,
+      "UC Irvine ZotGPT": 1,
+      "UC Irvine ZotGPT Chat / Creator / ClassChat / API": 1,
+      "Canva Canva Magic Studio": 1,
+      "UC Riverside HPCC GPU cluster": 1,
+      "UC San Diego TritonGPT": 2,
+      "UCSF Versa Chat / Versa Assistants": 1,
+      "Mainstay Knightbot": 2,
+      "Intel / UCF ARCC Stokes CPU Cluster": 1,
+      "Mainstay Knightbot (curated-knowledge chatbot)": 1,
+      "Institutional or mixed vendor UC AI software/tools guidance": 1,
+      "Mixed or institution-supported vendors UC AI software/tools guidance": 1,
+      "University of Cincinnati BearcatGPT": 1,
+      "CU Boulder Campus LLM Gateway": 1,
+      "CU Boulder Campus LLM Gateway initiative": 1,
+      "Institutional or mixed vendor AI Initiative Workspace and University Libraries AI resources": 1,
+      "Mixed or institution-supported vendors AI Initiative Workspace and University Libraries AI resources": 1,
+      "UF NaviGator AI": 1,
+      "University of Florida NaviGator AI": 1,
+      "University of Hawaii Bow": 1,
+      "University of Hawaii Bow AI chatbot for UH Data Governance Office": 1,
+      "University of Idaho Kestrel GPU cluster": 1,
+      "Blackboard": 16,
+      "Epic Systems MyChart": 1,
+      "Grammarly": 5,
+      "LinkedIn LinkedIn Learning (AI Coaching)": 1,
+      "Panopto Panopto Connect": 1,
+      "UIC / Break Through Tech Chicago 1-Search": 1,
+      "University of Illinois College of Medicine Rockford (internal) SimEHR": 1,
+      "YuJa YuJa Panorama": 1,
+      "University of Illinois (NCSA) Illinois Chat (uiuc.chat)": 2,
+      "MMLI / UIUC AlphaSynthesis": 1,
+      "Anthology Anthology Ally": 1,
+      "Center for Teaching / OTLT AI Assessment Scale": 1,
+      "Epic Systems Epic": 3,
+      "Evidently Evidently": 1,
+      "Evidently Evidently (AI chart review in Epic)": 1,
+      "Nabla Nabla": 2,
+      "Nabla Nabla (ambient clinical scribing)": 1,
+      "Siteimprove Siteimprove": 1,
+      "University of Iowa (in-house) Argon HPC": 1,
+      "University of Iowa (in-house) Iowa AI Gateway": 1,
+      "University of Iowa (in-house) Iowa AI Gateway (planned 2026 pilot)": 1,
+      "University of Iowa (lead) ImagiQ": 1,
+      "University of Iowa Argon HPC / GPU resources": 1,
+      "University of Iowa IIHR Flood AI": 1,
+      "Databricks Databricks Data Lakehouse": 1,
+      "Databricks Databricks Data Lakehouse (KUMC Digital Research Platform)": 1,
+      "Databricks MLFlow": 1,
+      "KU (Amber Rowland lab) VOISS / iKNOW": 1,
+      "KU Center for Research Computing BigJay": 1,
+      "KU FLITE AI-SCORE": 1,
+      "Open source Python": 1,
+      "UK CAAI (in-house) Forecaster / CLASSify / LLM Factory / CAT-Talk / SmartState / Vision Foundry": 1,
+      "UK CAAI AgriGuide": 1,
+      "University of Kentucky (CAAI) LLM Factory / CLASSify / Forecaster / CAT-Talk / SmartState / Vision Foundry": 1,
+      "University of Kentucky CATS AI Sandbox / Nexus": 1,
+      "Institute of Data Data Science & AI Program": 1,
+      "Meta Llama 3": 2,
+      "Meta Llama 3 (self-hosted at LITE Center secure AI sandbox)": 1,
+      "Moodle Moodle": 1,
+      "Moodle Moodle LMS (hosts AI Literacy microcredential badges)": 1,
+      "Aidoc Aidoc AI Care Platform": 1,
+      "Aidoc Aidoc AI Care Platform (radiology AI)": 1,
+      "Consensus Consensus": 1,
+      "Elicit Elicit": 1,
+      "SciSpace SciSpace": 1,
+      "UofL ITS CARDS": 1,
+      "UofL ITS LARCC": 1,
+      "Ohio Supercomputer Center Open OnDemand": 1,
+      "Meta Llama inference node": 1,
+      "UMBC DoIT (in-house) myUMBC Answers": 1,
+      "UMBC DoIT (in-house) myUMBC Answers AI search/chatbot": 1,
+      "Vanderbilt University (open-source) Amplify (UMBC instance)": 1,
+      "Axis Research & Technologies OMNIMED SmartOR": 1,
+      "Otter.ai Otter.ai": 1,
+      "xFoundry Alliance CognoXent": 1,
+      "UMD Division of IT TerpAI": 3,
+      "Ohio Supercomputer Center / open source Open OnDemand": 1,
+      "Perplexity Perplexity Enterprise Pro": 1,
+      "Perplexity Perplexity Enterprise Pro (1-year pilot)": 1,
+      "UMD Division of IT UMD Virtual Agent": 1,
+      "UMD Division of IT UMD Virtual Agent Hub (Virtual Study Assistants + Departmental Assistants)": 1,
+      "UMD HPC@UMD Zaratan cluster": 1,
+      "UMass Amherst / UMass IT campusGenAI": 2,
+      "Cohere Command": 1,
+      "Meta Llama": 1,
+      "Mistral Mistral models": 1,
+      "SchedMD Slurm": 1,
+      "UMass Amherst (campus-built, multi-vendor) UMass GenAI Platform": 1,
+      "VAST Data VAST Data storage": 1,
+      "MGHPCC consortium Unity HPC and AI Platform": 1,
+      "UMass System (UMass Amherst UITS) campusGenAI": 1,
+      "MGHPCC / UMass Amherst Research Computing Unity HPC cluster": 1,
+      "Ziplines Education Ziplines Education platform": 1,
+      "AMD AMD EPYC CPU": 1,
+      "Khan Academy Khanmigo": 1,
+      "Aidoc aiOS": 1,
+      "Aidoc aiOS clinical AI platform (13+ FDA-cleared algorithms)": 1,
+      "CodaMetrix Automated coding": 1,
+      "CodaMetrix Autonomous medical coding": 1,
+      "CodaMetrix CodaMetrix": 1,
+      "Conversica Conversational AI for athletics ticket sales": 1,
+      "Conversica Conversica": 1,
+      "Epic Ambient documentation": 1,
+      "Epic Epic ambient documentation": 1,
+      "Epic/Abridge (per UHealth reporting) Ambient dictation": 1,
+      "Theator Surgical video AI analysis": 1,
+      "Theator Theator": 1,
+      "University of Miami Sylvester CORAL": 1,
+      "University of Michigan MiMaizey": 2,
+      "University of Michigan (ITS) MiMaizey (student personal assistant)": 1,
+      "University of Michigan (ITS) U-M GPT Toolkit (developer APIs)": 1,
+      "University of Michigan (ITS) U-M Maizey (no-code RAG builder)": 1,
+      "University of Michigan U-M Maizey": 1,
+      "Cray/HPE Maple (Cray cluster)": 1,
+      "Dell Technologies Dell solutions": 1,
+      "EdgeTheory EdgeTheory narrative-intelligence platform": 1,
+      "HPE (Apollo 2000) Magnolia": 1,
+      "Intel Intel AI for Workforce content": 1,
+      "Apple Apple Intelligence": 4,
+      "EdSights Roary": 1,
+      "EdSights Roary AI texting chatbot": 1,
+      "Meta Llama 4 Maverick 17B Instruct": 1,
+      "National Research Platform Nautilus": 1,
+      "TeamDynamix Conversational AI (IT service management)": 1,
+      "TeamDynamix TeamDynamix Conversational AI": 1,
+      "University of Missouri (in-house) Hellbender": 1,
+      "University of Missouri (in-house) Show-Me AI": 1,
+      "University of Missouri (in-house) Show-Me AI (walled-garden multi-model generative AI platform)": 1,
+      "UMKC faculty (Serra) MootMentorAI": 1,
+      "PromptMind PromptMind": 2,
+      "Open source LibreChat": 1,
+      "Oracle": 1,
+      "UM (open source Amplify) Amplify GenAI (chat.umontana.ai)": 1,
+      "UM / MUS ChatMT": 1,
+      "Vanderbilt University (open source) / UM-hosted Amplify GenAI": 1,
+      "EdSights Cornelius (EdSights platform)": 1,
+      "EdSights Cornelius conversational AI": 1,
+      "Holland Computing Center Swan cluster (AlphaFold, PyTorch, TensorFlow, Apptainer)": 1,
+      "UNL Biological Systems Engineering (in-house build) Flex-Ro autonomous planter": 1,
+      "ActiumHealth ActiumHealth conversational AI platform": 1,
+      "ActiumHealth Conversational AI patient communication platform": 1,
+      "Davis Global Center 3D CADWalls / 2D iWalls": 1,
+      "Davis Global Center iEXCEL Laser CAVE-5": 1,
+      "Epic Systems Epic EHR (integrated with ActiumHealth Phase 2 by Nov 2025)": 1,
+      "Familyroom.health (UNeMed commercialization) Familyroom.health": 1,
+      "HIPPO T&C HIPPO T&C VR platform": 1,
+      "iEXCEL / Davis Global Center Holographic Theater (70-seat)": 1,
+      "Nebraska Medicine / partner engineers Discharge prediction AI": 1,
+      "UNMC Approved Technology List": 1,
+      "UNMC Research IT CIHC Supercomputer (HIPAA-compliant)": 1,
+      "Anthology Ally": 1,
+      "Anthology Ally accessibility remediation": 1,
+      "Institute of Data Data Science & AI Bootcamp": 2,
+      "Panopto Panopto": 1,
+      "Panopto Panopto lecture-capture with auto-captioning": 1,
+      "Apple Apple Intelligence (on iPads issued through Digital Wolf Pack)": 1,
+      "Apple iPad Air": 1,
+      "Filament Blockchain IoT platform": 1,
+      "Ford/Lincoln Lincoln MKZ autonomous testbed": 1,
+      "Switch Citadel Data Center": 1,
+      "USNH DeepThought": 2,
+      "Ai2 consortium OMAI open multimodal AI infrastructure": 1,
+      "Tassel AI commencement name-pronunciation voice synthesis": 1,
+      "Tassel Tassel Name Announcements": 1,
+      "University System of New Hampshire (RCC) DeepThought": 1,
+      "University System of New Hampshire (RCC) DeepThought AI (multi-LLM platform with custom chatbot builder)": 1,
+      "UNM CARC Wheeler cluster": 1,
+      "Measurement Incorporated Project Essay Grade (PEG)": 2,
+      "Technolutions Slate AI": 1,
+      "Technolutions Slate AI (admissions holistic scoring)": 1,
+      "UNC University Library PromptLab": 1,
+      "In-house / Red Hat / Slurm Starlight (Orion + GPU partitions)": 1,
+      "HPE Apollo 6500 Gen10": 1,
+      "TeamDynamix TeamDynamix AI Chatbot": 1,
+      "TeamDynamix TeamDynamix AI Chatbot (ITSM)": 1,
+      "University of North Dakota Medora GH200 cluster": 1,
+      "Bright Computing Bright Cluster Manager": 1,
+      "UNT Health Fort Worth MOSAIC": 1,
+      "Notre Dame OIT (internal) AI Development Platform (secure sandbox)": 1,
+      "Notre Dame Privacy Sandbox": 1,
+      "Praxis AI Praxis AI": 1,
+      "Praxis AI Praxis AI (classroom tutoring pilot)": 1,
+      "Ivy.ai SoonerBot": 1,
+      "Ivy.ai SoonerBot student-services chatbot": 1,
+      "Kaltura Kaltura MyMedia": 1,
+      "Kaltura MyMedia AI captions": 1,
+      "KnowBe4 AIDA": 1,
+      "KnowBe4 AIDA (AI-driven phishing + training)": 1,
+      "Undisclosed GPU-accelerated compute enclave": 1,
+      "University of Oregon CPE / Ziplines Education AI Essentials Certificate": 1,
+      "UO Teaching Engagement Program GenAI Policy and Assignment Design Self-Check Tool (Beta)": 1,
+      "Flexential Philadelphia-Collegeville data center": 1,
+      "University of Pittsburgh PittGPT": 3,
+      "Cerebras / HPE Neocortex": 1,
+      "Intel / AMD Intel + AMD multi-core CPUs": 1,
+      "University of Rhode Island URI Data Classification Schema": 1,
+      "Qualified Health Enterprise GenAI platform (HIPAA-compliant chat, agents, governance controls)": 1,
+      "Qualified Health Qualified Health platform": 1,
+      "Gartner Gartner Campus Access": 2,
+      "AdmitHub / Mainstay Ace": 1,
+      "DataCamp DataCamp campus access": 1,
+      "Mainstay (formerly AdmitHub) Ace admissions chatbot (USC Aiken branch)": 1,
+      "University of South Carolina (internally built) Garnet AI Foundry Portal": 1,
+      "USC Research Computing Hyperion HPC": 1,
+      "Epic Systems Epic AI tools": 1,
+      "Epic Systems Epic AI tools (message triage, chart summarization)": 1,
+      "USF Health (vendor undisclosed) Aimee": 1,
+      "D2L": 1,
+      "Ryght Ryght platform": 1,
+      "USC (internal) Tommy": 1,
+      "USC CARC Discovery": 1,
+      "Coursera": 4,
+      "Integer Technologies Edge-deployed autonomy software stack": 1,
+      "Intel / Dell via MAIN AI course + digital badge platform": 1,
+      "University of Tennessee System UT Verse": 2,
+      "University of Tennessee System (internal) UT AI Hub (multi-model gateway)": 1,
+      "University of Tennessee System (internally operated) UT AI Hub": 1,
+      "University of Tennessee System UT Verse TwinWave Studio": 1,
+      "xAI Grok": 2,
+      "Dell Dell PowerEdge XE8640": 1,
+      "OpenSFS Lustre filesystem": 1,
+      "University of Tennessee (internal) UT Verse": 1,
+      "University of Tennessee UT Verse": 1,
+      "University of Tennessee UTVersal Translator": 1,
+      "Cloudforce nebulaONE": 3,
+      "U.S. General Services Administration GSA Per Diem API": 1,
+      "University of Washington / RosettaCommons Rosetta": 1,
+      "edX / 2U edX platform": 1,
+      "UT Austin UT Dell Medical Center (AI-native)": 1,
+      "OpenSCAD project OpenSCAD": 1,
+      "UT Dallas CometAI": 1,
+      "UT Dallas Office of Information Technology CometAI": 1,
+      "UT Dallas OIT Ganymede / Ganymede2 / Juno / Europa / Titan": 1,
+      "Texas Advanced Computing Center TACC HPC resources": 1,
+      "Texas Advanced Computing Center TACC supercomputing resources": 1,
+      "LinkedIn LinkedIn Learning": 1,
+      "UTSA Research Computing Shamu (legacy)": 1,
+      "DeepMind AlphaFold / AlphaFold 3": 1,
+      "Epic Systems Epic EHR (integration target for AI tools including iDFax)": 1,
+      "Open source (Baker Lab) RFDiffusion": 1,
+      "TEAM-AI / Open Source OHNLP": 1,
+      "UTHealth Houston / CDHI AI Translator": 1,
+      "UTHealth Houston / CDHI iDFax": 1,
+      "UTHealth Houston AI Hub": 1,
+      "UTHealth Houston AI Hub (institutional portal with Llama 4, MedGemma, Mistral, Whisper)": 1,
+      "Abridge Abridge Ambient AI": 1,
+      "Abridge Abridge Ambient AI Clinical Scribe": 1,
+      "Epic Systems Epic Bedside TV and Epic Monitor (virtual nursing)": 1,
+      "Epic Systems Epic Monitor and Epic Bedside TV": 1,
+      "Qualified Health Qualified Health AI Agent": 1,
+      "Qualified Health Qualified Health Enterprise AI Platform": 1,
+      "Qualified Health Qualified Health Enterprise AI Platform (HIPAA-compliant chat + purpose-built agents + clinical quality registries)": 1,
+      "Data Direct Networks Lysosome": 1,
+      "Perplexity AI Perplexity (research synthesis with citations)": 1,
+      "Qualified Health Qualified Health": 1,
+      "UT Southwestern BioHPC Lamella": 1,
+      "UT Southwestern BioHPC Nucleus": 1,
+      "UT Southwestern Custom LLM pipeline": 1,
+      "UT Southwestern Radiology C-spine fracture detection": 1,
+      "UT Southwestern Radiology ICH detection algorithm": 1,
+      "UT Southwestern Radiology PE detection algorithm": 1,
+      "Epic Systems Epic EHR (Nabla integration target)": 1,
+      "Givzey / Version2.ai Doug Reynolds (virtual engagement officer)": 1,
+      "Givzey / Version2.ai Virtual Engagement Officer (Doug Reynolds)": 1,
+      "Nabla Nabla ambient AI clinical documentation": 1,
+      "Hewlett Packard Enterprise HPE Cray XD670 servers": 1,
+      "Hewlett Packard Enterprise HPE GreenLake": 1,
+      "University of Utah ProEd AI Essentials / AI Prompting / AI Automation certificates": 1,
+      "Abridge Abridge": 1,
+      "Abridge Abridge Ambient Clinical Documentation": 1,
+      "UVM VACC (open-source models) Locally hosted open-source LLMs": 1,
+      "UVM Vermont Advanced Computing Center VACC Locally-Hosted Open-Source LLMs": 1,
+      "Medical Predictive Science Corporation / UVA HeRO (Heart Rate Observation)": 1,
+      "Springbok Analytics (UVA spin-out) Springbok Analytics": 1,
+      "UVA / AMD Afton HPC": 1,
+      "UVA Darden CAiSEY (Classroom AI Studio for Engaging You)": 1,
+      "UVA Rivanna HPC": 1,
+      "Workday": 7,
+      "Allen Institute for AI OLMo / Tulu": 1,
+      "TrustArc TrustArc": 1,
+      "TrustArc TrustArc Privacy Management Platform": 1,
+      "University of Washington IT Hyak Klone": 1,
+      "University of Washington IT Purple": 1,
+      "University of Washington IT Purple (UW-branded GenAI tool)": 1,
+      "University of Washington IT Tillicum": 1,
+      "Cisco Webex AI Assistant": 2,
+      "Undisclosed Ask Pounce!": 1,
+      "Mainstay Cowboy Joe admissions chatbot": 1,
+      "Mainstay Cowboy Joe chatbot": 1,
+      "University of Wyoming (Advanced Research Computing Center) REGLLM": 1,
+      "University of Wyoming (ARCC) REGLLM regulations chatbot (prototype)": 1,
+      "Utah State University (in-house) Aggie AI: Write": 2,
+      "Utah State University (in-house) AI Lesson Plan Builder": 1,
+      "Utah State University (in-house) AI-Enhanced VR Nursing Simulation": 1,
+      "Utah State University (in-house) Medical Interpreter AI Coach": 1,
+      "Vanderbilt (in-house, open-source) Amplify 2.0": 2,
+      "Hammerspace Hammerspace Data Orchestration": 1,
+      "Hammerspace Hammerspace Data Orchestration (10 PB HPC data fabric)": 1,
+      "Vanderbilt (built on Amplify) Quincy": 1,
+      "Vanderbilt (in-house, open-source) Amplify": 1,
+      "Vanderbilt Amplify": 1,
+      "VCU (internal) TACIT": 1,
+      "VCU HPRC Apollo cluster (HPC)": 1,
+      "VCU HPRC Athena cluster (HPC)": 1,
+      "Virginia Tech Advanced Research Computing ARC LLM Gateway": 1,
+      "Virginia Tech Advanced Research Computing ARC LLM Gateway (llm.arc.vt.edu) and Open OnDemand LLMs": 1,
+      "Virginia Tech Enrollment Management Internal essay-scoring model": 1,
+      "Epic Systems Epic integrated AI (via CHAI)": 1,
+      "NIST NIST AI Risk Management Framework": 1,
+      "SchedMD SLURM": 1,
+      "WashU IT / DI2 Secure Ask WashU Beta": 1,
+      "Cursor Cursor AI": 2,
+      "Mainstay (formerly AdmitHub) W the Warrior Bot": 2,
+      "Wayne State C&IT (self-hosted) WarriorGPT": 2,
+      "Amesite Inc. Amesite platform": 1,
+      "Kyndryl Kyndryl Bridge": 1,
+      "Syntasa Syntasa Sentiment Analytics": 1,
+      "DataDirect Networks DDN Lustre + GPFS": 1,
+      "Epic Systems Epic in-basket AI": 1,
+      "Hyro Hyro Conversational AI": 1,
+      "Hyro Hyro Conversational AI (patient-facing virtual assistant)": 1,
+      "WCM Radiology TRACE (Tool for Reproducible, Accurate Contour Estimation)": 1,
+      "NOAA NOAA Open Data Dissemination (NODD)": 1,
+      "Precision Neuroscience Layer 7 Cortical Interface": 1,
+      "Third-party AI chatbot vendor Ask Morgan": 1,
+      "Third-party chatbot vendor Ask Morgan": 1,
+      "Version2.ai (Givzey) Wren Virtual Engagement Officer": 2,
+      "DeepSeek DeepSeek": 1,
+      "Perplexity AI Perplexity Pro": 1,
+      "William & Mary (internal) STLI Academy": 1,
+      "ASSISTments Foundation ASSISTments": 1,
+      "Canonical Ubuntu 20.04": 1,
+      "Commonwealth of Massachusetts Massachusetts Data Commons": 1,
+      "Snowflake Snowflake": 1,
+      "VAST Data VAST scale-out storage": 1,
+      "Consensus Consensus AI research discovery (Yale Library trial)": 1,
+      "Wonderchat Yale Summer Session AI admissions chatbot": 1
+    },
+    "by_vendor_concentration": {
+      "low": 69,
+      "high": 86,
+      "moderate": 25,
+      "none": 7
+    },
+    "by_student_service_type": {
+      "other": 270,
+      "chatbot": 141,
+      "tutor": 44,
+      "predictive_analytics": 6,
+      "advisor": 11,
+      "wellness": 3
+    },
+    "by_outcome_claim_type": {
+      "productivity": 46,
+      "learning": 80,
+      "student_success": 42,
+      "usage": 431,
+      "career": 331,
+      "cost_or_revenue": 8,
+      "research_output": 7
+    },
+    "by_risk_level": {
+      "managed": 166,
+      "medium": 21
+    },
+    "by_analytics_gap_type": {
+      "cost_or_funding": 161,
+      "platform_usage_or_contracts": 178,
+      "assessment_redesign": 79,
+      "student_subgroup_impact": 104,
+      "compute_capacity": 150
+    }
+  },
+  "rankings": {
+    "top_institutions_by_initiative_count": [
+      {
+        "slug": "vanderbilt-university",
+        "institution": "Vanderbilt University",
+        "initiative_count": 21
+      },
+      {
+        "slug": "university-of-notre-dame",
+        "institution": "University of Notre Dame",
+        "initiative_count": 20
+      },
+      {
+        "slug": "case-western-reserve-university",
+        "institution": "Case Western Reserve University",
+        "initiative_count": 19
+      },
+      {
+        "slug": "washington-state-university",
+        "institution": "Washington State University",
+        "initiative_count": 19
+      },
+      {
+        "slug": "wayne-state-university",
+        "institution": "Wayne State University",
+        "initiative_count": 19
+      },
+      {
+        "slug": "university-of-massachusetts-amherst",
+        "institution": "University of Massachusetts-Amherst",
+        "initiative_count": 18
+      },
+      {
+        "slug": "virginia-commonwealth-university",
+        "institution": "Virginia Commonwealth University",
+        "initiative_count": 18
+      },
+      {
+        "slug": "university-of-miami",
+        "institution": "University of Miami",
+        "initiative_count": 17
+      },
+      {
+        "slug": "university-of-missouri-columbia",
+        "institution": "University of Missouri-Columbia",
+        "initiative_count": 17
+      },
+      {
+        "slug": "university-of-south-carolina",
+        "institution": "University of South Carolina",
+        "initiative_count": 17
+      },
+      {
+        "slug": "university-of-washington",
+        "institution": "University of Washington",
+        "initiative_count": 17
+      },
+      {
+        "slug": "american-university",
+        "institution": "American University",
+        "initiative_count": 16
+      },
+      {
+        "slug": "baylor-college-of-medicine",
+        "institution": "Baylor College of Medicine",
+        "initiative_count": 16
+      },
+      {
+        "slug": "brown-university",
+        "institution": "Brown University",
+        "initiative_count": 16
+      },
+      {
+        "slug": "carnegie-mellon-university",
+        "institution": "Carnegie Mellon University",
+        "initiative_count": 16
+      },
+      {
+        "slug": "university-of-iowa",
+        "institution": "University of Iowa",
+        "initiative_count": 16
+      },
+      {
+        "slug": "university-of-kansas",
+        "institution": "University of Kansas",
+        "initiative_count": 16
+      },
+      {
+        "slug": "university-of-southern-california",
+        "institution": "University of Southern California",
+        "initiative_count": 16
+      },
+      {
+        "slug": "university-of-tennessee-knoxville",
+        "institution": "University of Tennessee-Knoxville",
+        "initiative_count": 16
+      },
+      {
+        "slug": "william-and-mary",
+        "institution": "William & Mary",
+        "initiative_count": 16
+      },
+      {
+        "slug": "baylor-university",
+        "institution": "Baylor University",
+        "initiative_count": 15
+      },
+      {
+        "slug": "university-of-louisiana-at-lafayette",
+        "institution": "University of Louisiana at Lafayette",
+        "initiative_count": 15
+      },
+      {
+        "slug": "university-of-louisville",
+        "institution": "University of Louisville",
+        "initiative_count": 15
+      },
+      {
+        "slug": "university-of-maryland-baltimore-county",
+        "institution": "University of Maryland-Baltimore County",
+        "initiative_count": 15
+      },
+      {
+        "slug": "university-of-nebraska-medical-center",
+        "institution": "University of Nebraska Medical Center",
+        "initiative_count": 15
+      }
+    ],
+    "top_institutions_by_disclosed_investment": [
+      {
+        "slug": "university-of-oklahoma",
+        "institution": "University of Oklahoma",
+        "disclosed_usd": 9024063156
+      },
+      {
+        "slug": "university-of-wisconsin-milwaukee",
+        "institution": "University of Wisconsin-Milwaukee",
+        "disclosed_usd": 3378600000
+      },
+      {
+        "slug": "university-of-nebraska-medical-center",
+        "institution": "University of Nebraska Medical Center",
+        "disclosed_usd": 2191000000
+      },
+      {
+        "slug": "university-of-southern-california",
+        "institution": "University of Southern California",
+        "disclosed_usd": 1415300000
+      },
+      {
+        "slug": "university-of-michigan-ann-arbor",
+        "institution": "University of Michigan-Ann Arbor",
+        "disclosed_usd": 1325000000
+      },
+      {
+        "slug": "university-of-texas-at-austin",
+        "institution": "University of Texas at Austin",
+        "disclosed_usd": 1267000000
+      },
+      {
+        "slug": "virginia-polytechnic-institute-and-state-university",
+        "institution": "Virginia Polytechnic Institute and State University",
+        "disclosed_usd": 1001610000
+      },
+      {
+        "slug": "harvard-university",
+        "institution": "Harvard University",
+        "disclosed_usd": 500000000
+      },
+      {
+        "slug": "university-of-texas-at-san-antonio",
+        "institution": "University of Texas at San Antonio",
+        "disclosed_usd": 497800000
+      },
+      {
+        "slug": "university-of-texas-health-science-center-at-san-antonio",
+        "institution": "University of Texas Health Science Center at San Antonio",
+        "disclosed_usd": 473580000
+      },
+      {
+        "slug": "weill-cornell-medicine",
+        "institution": "Weill Cornell Medicine",
+        "disclosed_usd": 429000000
+      },
+      {
+        "slug": "university-at-buffalo",
+        "institution": "University at Buffalo",
+        "disclosed_usd": 400000000
+      },
+      {
+        "slug": "university-of-rochester",
+        "institution": "University of Rochester",
+        "disclosed_usd": 275000000
+      },
+      {
+        "slug": "university-of-illinois-urbana-champaign",
+        "institution": "University of Illinois Urbana-Champaign",
+        "disclosed_usd": 269000000
+      },
+      {
+        "slug": "university-of-pittsburgh",
+        "institution": "University of Pittsburgh",
+        "disclosed_usd": 264900000
+      },
+      {
+        "slug": "university-of-virginia",
+        "institution": "University of Virginia",
+        "disclosed_usd": 246250000
+      },
+      {
+        "slug": "university-of-washington",
+        "institution": "University of Washington",
+        "disclosed_usd": 184500000
+      },
+      {
+        "slug": "university-of-north-carolina-at-charlotte",
+        "institution": "University of North Carolina at Charlotte",
+        "disclosed_usd": 165100000
+      },
+      {
+        "slug": "yale-university",
+        "institution": "Yale University",
+        "disclosed_usd": 152350000
+      },
+      {
+        "slug": "university-of-utah",
+        "institution": "University of Utah",
+        "disclosed_usd": 150000000
+      },
+      {
+        "slug": "university-of-massachusetts-lowell",
+        "institution": "University of Massachusetts-Lowell",
+        "disclosed_usd": 148500000
+      },
+      {
+        "slug": "washington-state-university",
+        "institution": "Washington State University",
+        "disclosed_usd": 142532500
+      },
+      {
+        "slug": "carnegie-mellon-university",
+        "institution": "Carnegie Mellon University",
+        "disclosed_usd": 132400000
+      },
+      {
+        "slug": "university-of-missouri-columbia",
+        "institution": "University of Missouri-Columbia",
+        "disclosed_usd": 128150000
+      },
+      {
+        "slug": "university-of-massachusetts-boston",
+        "institution": "University of Massachusetts-Boston",
+        "disclosed_usd": 108439695
+      }
+    ],
+    "top_institutions_by_maturity_breadth": [
+      {
+        "slug": "arizona-state-university",
+        "institution": "Arizona State University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "auburn-university",
+        "institution": "Auburn University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "baylor-university",
+        "institution": "Baylor University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "binghamton-university",
+        "institution": "Binghamton University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "boston-college",
+        "institution": "Boston College",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "brandeis-university",
+        "institution": "Brandeis University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "brown-university",
+        "institution": "Brown University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "california-institute-of-technology",
+        "institution": "California Institute of Technology",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "carnegie-mellon-university",
+        "institution": "Carnegie Mellon University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "case-western-reserve-university",
+        "institution": "Case Western Reserve University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "catholic-university-of-america",
+        "institution": "Catholic University of America",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "clemson-university",
+        "institution": "Clemson University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "colorado-state-university-fort-collins",
+        "institution": "Colorado State University-Fort Collins",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "columbia-university",
+        "institution": "Columbia University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "cornell-university",
+        "institution": "Cornell University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "cuny-graduate-school-and-university-center",
+        "institution": "CUNY Graduate School and University Center",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "dartmouth-college",
+        "institution": "Dartmouth College",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "duke-university",
+        "institution": "Duke University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "east-carolina-university",
+        "institution": "East Carolina University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "emory-university",
+        "institution": "Emory University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "florida-atlantic-university",
+        "institution": "Florida Atlantic University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "florida-international-university",
+        "institution": "Florida International University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "george-mason-university",
+        "institution": "George Mason University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "george-washington-university",
+        "institution": "George Washington University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      },
+      {
+        "slug": "georgetown-university",
+        "institution": "Georgetown University",
+        "breadth": 8,
+        "maturity_dimensions": [
+          "strategy_and_leadership",
+          "policy_and_governance",
+          "teaching_and_curriculum",
+          "research_infrastructure",
+          "student_services",
+          "workforce_and_community",
+          "partnerships_and_ecosystem",
+          "equity_and_inclusion"
+        ]
+      }
+    ],
+    "top_vendors_and_tools": [
+      {
+        "name": "Microsoft Copilot (Microsoft)",
+        "count": 42
+      },
+      {
+        "name": "Gemini (Google)",
+        "count": 38
+      },
+      {
+        "name": "ChatGPT Edu (OpenAI)",
+        "count": 32
+      },
+      {
+        "name": "Microsoft 365 Copilot (Microsoft)",
+        "count": 31
+      },
+      {
+        "name": "NotebookLM (Google)",
+        "count": 26
+      },
+      {
+        "name": "ChatGPT (OpenAI)",
+        "count": 22
+      },
+      {
+        "name": "Copilot (Microsoft)",
+        "count": 22
+      },
+      {
+        "name": "Generative AI tools (Multiple vendors)",
+        "count": 17
+      },
+      {
+        "name": "Zoom AI Companion (Zoom)",
+        "count": 17
+      },
+      {
+        "name": "Claude (Anthropic)",
+        "count": 12
+      },
+      {
+        "name": "Copilot Chat (Microsoft)",
+        "count": 11
+      },
+      {
+        "name": "Copilot for Microsoft 365 (Microsoft)",
+        "count": 11
+      },
+      {
+        "name": "Microsoft Copilot Chat (Microsoft)",
+        "count": 9
+      },
+      {
+        "name": "Canvas (Instructure)",
+        "count": 7
+      },
+      {
+        "name": "Google Gemini (Google)",
+        "count": 7
+      },
+      {
+        "name": "Microsoft 365 Copilot Chat (Microsoft)",
+        "count": 7
+      },
+      {
+        "name": "ChatGPT Enterprise (OpenAI)",
+        "count": 6
+      },
+      {
+        "name": "Azure OpenAI Service (Microsoft)",
+        "count": 5
+      },
+      {
+        "name": "Epic EHR (Epic Systems)",
+        "count": 5
+      },
+      {
+        "name": "Adobe Firefly (Adobe)",
+        "count": 4
+      },
+      {
+        "name": "Amazon Bedrock (Amazon Web Services)",
+        "count": 4
+      },
+      {
+        "name": "Claude for Education (Anthropic)",
+        "count": 4
+      },
+      {
+        "name": "Gemini and NotebookLM (Google)",
+        "count": 4
+      },
+      {
+        "name": "Perplexity (Perplexity AI)",
+        "count": 4
+      },
+      {
+        "name": "Apple Intelligence (Apple)",
+        "count": 3
+      },
+      {
+        "name": "AWS AI services (Amazon Web Services)",
+        "count": 3
+      },
+      {
+        "name": "Claude via AWS (Anthropic)",
+        "count": 3
+      },
+      {
+        "name": "enterprise AI tools (Google)",
+        "count": 3
+      },
+      {
+        "name": "enterprise AI tools (OpenAI)",
+        "count": 3
+      },
+      {
+        "name": "Epic (Epic Systems)",
+        "count": 3
+      }
+    ],
+    "top_collaboration_partners": [
+      {
+        "name": "Microsoft",
+        "count": 130
+      },
+      {
+        "name": "OpenAI",
+        "count": 60
+      },
+      {
+        "name": "Google",
+        "count": 59
+      },
+      {
+        "name": "National Science Foundation",
+        "count": 59
+      },
+      {
+        "name": "NVIDIA",
+        "count": 48
+      },
+      {
+        "name": "NSF",
+        "count": 39
+      },
+      {
+        "name": "See cited source",
+        "count": 35
+      },
+      {
+        "name": "regional employers and learners",
+        "count": 34
+      },
+      {
+        "name": "Anthropic",
+        "count": 22
+      },
+      {
+        "name": "Public, system, industry, government, or research partners named in cited sources",
+        "count": 18
+      },
+      {
+        "name": "NIH",
+        "count": 14
+      },
+      {
+        "name": "Zoom",
+        "count": 14
+      },
+      {
+        "name": "Adobe",
+        "count": 12
+      },
+      {
+        "name": "IBM",
+        "count": 11
+      },
+      {
+        "name": "MIT",
+        "count": 11
+      },
+      {
+        "name": "Amazon",
+        "count": 10
+      },
+      {
+        "name": "Meta",
+        "count": 10
+      },
+      {
+        "name": "Cornell University",
+        "count": 9
+      },
+      {
+        "name": "Amazon Web Services",
+        "count": 8
+      },
+      {
+        "name": "Capital One",
+        "count": 8
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "count": 8
+      },
+      {
+        "name": "College of Engineering",
+        "count": 8
+      },
+      {
+        "name": "University of Arkansas",
+        "count": 8
+      },
+      {
+        "name": "Epic Systems",
+        "count": 7
+      },
+      {
+        "name": "Harvard",
+        "count": 7
+      },
+      {
+        "name": "Commonwealth of Pennsylvania",
+        "count": 6
+      },
+      {
+        "name": "Dell Technologies",
+        "count": 6
+      },
+      {
+        "name": "Intel",
+        "count": 6
+      },
+      {
+        "name": "Northeastern University",
+        "count": 6
+      },
+      {
+        "name": "U.S. Department of Defense",
+        "count": 6
+      }
+    ],
+    "top_source_domains": [
+      {
+        "name": "case.edu",
+        "count": 40
+      },
+      {
+        "name": "umass.edu",
+        "count": 40
+      },
+      {
+        "name": "carnegieclassifications.acenet.edu",
+        "count": 39
+      },
+      {
+        "name": "cmu.edu",
+        "count": 39
+      },
+      {
+        "name": "sc.edu",
+        "count": 35
+      },
+      {
+        "name": "unmc.edu",
+        "count": 35
+      },
+      {
+        "name": "unr.edu",
+        "count": 32
+      },
+      {
+        "name": "uwm.edu",
+        "count": 32
+      },
+      {
+        "name": "usf.edu",
+        "count": 31
+      },
+      {
+        "name": "ou.edu",
+        "count": 30
+      },
+      {
+        "name": "uvm.edu",
+        "count": 30
+      },
+      {
+        "name": "american.edu",
+        "count": 28
+      },
+      {
+        "name": "uml.edu",
+        "count": 28
+      },
+      {
+        "name": "unlv.edu",
+        "count": 27
+      },
+      {
+        "name": "wpi.edu",
+        "count": 27
+      },
+      {
+        "name": "memphis.edu",
+        "count": 26
+      },
+      {
+        "name": "govtech.com",
+        "count": 25
+      },
+      {
+        "name": "usm.edu",
+        "count": 25
+      },
+      {
+        "name": "uwyo.edu",
+        "count": 22
+      },
+      {
+        "name": "vanderbilt.edu",
+        "count": 22
+      },
+      {
+        "name": "umaine.edu",
+        "count": 21
+      },
+      {
+        "name": "unc.edu",
+        "count": 21
+      },
+      {
+        "name": "utep.edu",
+        "count": 21
+      },
+      {
+        "name": "mass.gov",
+        "count": 20
+      },
+      {
+        "name": "news.vanderbilt.edu",
+        "count": 20
+      },
+      {
+        "name": "utsouthwestern.edu",
+        "count": 20
+      },
+      {
+        "name": "wm.edu",
+        "count": 20
+      },
+      {
+        "name": "ucf.edu",
+        "count": 19
+      },
+      {
+        "name": "usu.edu",
+        "count": 19
+      },
+      {
+        "name": "utsa.edu",
+        "count": 18
+      }
+    ],
+    "top_vendor_parents": [
+      {
+        "name": "Microsoft",
+        "count": 441
+      },
+      {
+        "name": "Google",
+        "count": 209
+      },
+      {
+        "name": "OpenAI",
+        "count": 138
+      },
+      {
+        "name": "NVIDIA",
+        "count": 93
+      },
+      {
+        "name": "Amazon",
+        "count": 42
+      },
+      {
+        "name": "Zoom",
+        "count": 41
+      },
+      {
+        "name": "Anthropic",
+        "count": 35
+      },
+      {
+        "name": "Adobe",
+        "count": 29
+      },
+      {
+        "name": "Instructure",
+        "count": 28
+      },
+      {
+        "name": "Multiple vendors Generative AI tools",
+        "count": 17
+      },
+      {
+        "name": "Blackboard",
+        "count": 16
+      },
+      {
+        "name": "Multiple vendors Generative AI tools referenced in guidance",
+        "count": 11
+      },
+      {
+        "name": "IBM",
+        "count": 10
+      },
+      {
+        "name": "Turnitin",
+        "count": 8
+      },
+      {
+        "name": "Box Box AI",
+        "count": 7
+      },
+      {
+        "name": "Workday",
+        "count": 7
+      },
+      {
+        "name": "Epic Systems Epic EHR",
+        "count": 5
+      },
+      {
+        "name": "Grammarly",
+        "count": 5
+      },
+      {
+        "name": "Apple Apple Intelligence",
+        "count": 4
+      },
+      {
+        "name": "Coursera",
+        "count": 4
+      },
+      {
+        "name": "Johns Hopkins HopGPT",
+        "count": 4
+      },
+      {
+        "name": "Perplexity AI Perplexity",
+        "count": 4
+      },
+      {
+        "name": "Perplexity AI Perplexity Enterprise Pro",
+        "count": 4
+      },
+      {
+        "name": "Salesforce",
+        "count": 4
+      },
+      {
+        "name": "Cloudforce nebulaONE",
+        "count": 3
+      },
+      {
+        "name": "Epic Systems Epic",
+        "count": 3
+      },
+      {
+        "name": "UMD Division of IT TerpAI",
+        "count": 3
+      },
+      {
+        "name": "University of Pittsburgh PittGPT",
+        "count": 3
+      },
+      {
+        "name": "Cisco Webex AI Assistant",
+        "count": 2
+      },
+      {
+        "name": "Cursor Cursor AI",
+        "count": 2
+      }
+    ],
+    "top_outcome_claim_institutions": [
+      {
+        "slug": "washington-state-university",
+        "institution": "Washington State University",
+        "outcome_claim_count": 11
+      },
+      {
+        "slug": "university-of-south-florida",
+        "institution": "University of South Florida",
+        "outcome_claim_count": 10
+      },
+      {
+        "slug": "university-of-mississippi",
+        "institution": "University of Mississippi",
+        "outcome_claim_count": 9
+      },
+      {
+        "slug": "university-of-north-dakota",
+        "institution": "University of North Dakota",
+        "outcome_claim_count": 9
+      },
+      {
+        "slug": "boston-college",
+        "institution": "Boston College",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "florida-state-university",
+        "institution": "Florida State University",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "georgia-state-university",
+        "institution": "Georgia State University",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "northeastern-university",
+        "institution": "Northeastern University",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "university-of-louisville",
+        "institution": "University of Louisville",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "university-of-maryland-baltimore",
+        "institution": "University of Maryland, Baltimore",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "university-of-missouri-kansas-city",
+        "institution": "University of Missouri-Kansas City",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "university-of-nevada-las-vegas",
+        "institution": "University of Nevada-Las Vegas",
+        "outcome_claim_count": 8
+      },
+      {
+        "slug": "boston-university",
+        "institution": "Boston University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "clemson-university",
+        "institution": "Clemson University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "columbia-university",
+        "institution": "Columbia University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "dartmouth-college",
+        "institution": "Dartmouth College",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "east-carolina-university",
+        "institution": "East Carolina University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "florida-international-university",
+        "institution": "Florida International University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "johns-hopkins-university",
+        "institution": "Johns Hopkins University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "lehigh-university",
+        "institution": "Lehigh University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "massachusetts-institute-of-technology",
+        "institution": "Massachusetts Institute of Technology",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "montana-state-university",
+        "institution": "Montana State University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "north-dakota-state-university",
+        "institution": "North Dakota State University",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "university-of-alabama-at-birmingham",
+        "institution": "University of Alabama at Birmingham",
+        "outcome_claim_count": 7
+      },
+      {
+        "slug": "university-of-california-los-angeles",
+        "institution": "University of California, Los Angeles",
+        "outcome_claim_count": 7
+      }
+    ],
+    "top_student_impact_institutions": [
+      {
+        "slug": "brown-university",
+        "institution": "Brown University",
+        "student_facing_tool_count": 6,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "university-of-south-carolina",
+        "institution": "University of South Carolina",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 4
+      },
+      {
+        "slug": "university-of-notre-dame",
+        "institution": "University of Notre Dame",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "university-of-wisconsin-madison",
+        "institution": "University of Wisconsin-Madison",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "vanderbilt-university",
+        "institution": "Vanderbilt University",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "arizona-state-university",
+        "institution": "Arizona State University",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "florida-state-university",
+        "institution": "Florida State University",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-iowa",
+        "institution": "University of Iowa",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-north-carolina-at-chapel-hill",
+        "institution": "University of North Carolina at Chapel Hill",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-illinois-chicago",
+        "institution": "University of Illinois Chicago",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 1
+      },
+      {
+        "slug": "university-of-north-carolina-at-charlotte",
+        "institution": "University of North Carolina at Charlotte",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 1
+      },
+      {
+        "slug": "utah-state-university",
+        "institution": "Utah State University",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 1
+      },
+      {
+        "slug": "yale-university",
+        "institution": "Yale University",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 1
+      },
+      {
+        "slug": "university-of-miami",
+        "institution": "University of Miami",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 0
+      },
+      {
+        "slug": "university-of-minnesota-twin-cities",
+        "institution": "University of Minnesota-Twin Cities",
+        "student_facing_tool_count": 5,
+        "student_experience_signal_count": 0
+      },
+      {
+        "slug": "university-of-washington",
+        "institution": "University of Washington",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "virginia-commonwealth-university",
+        "institution": "Virginia Commonwealth University",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "wayne-state-university",
+        "institution": "Wayne State University",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 3
+      },
+      {
+        "slug": "boston-university",
+        "institution": "Boston University",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "case-western-reserve-university",
+        "institution": "Case Western Reserve University",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "georgia-state-university",
+        "institution": "Georgia State University",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-california-irvine",
+        "institution": "University of California, Irvine",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-central-florida",
+        "institution": "University of Central Florida",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-nevada-las-vegas",
+        "institution": "University of Nevada-Las Vegas",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      },
+      {
+        "slug": "university-of-south-florida",
+        "institution": "University of South Florida",
+        "student_facing_tool_count": 4,
+        "student_experience_signal_count": 2
+      }
+    ],
+    "top_research_enterprise_institutions": [
+      {
+        "slug": "carnegie-mellon-university",
+        "institution": "Carnegie Mellon University",
+        "research_center_count": 12,
+        "scientific_discovery_signal_count": 3,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-pennsylvania",
+        "institution": "University of Pennsylvania",
+        "research_center_count": 11,
+        "scientific_discovery_signal_count": 1,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-north-carolina-at-charlotte",
+        "institution": "University of North Carolina at Charlotte",
+        "research_center_count": 10,
+        "scientific_discovery_signal_count": 2,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-north-texas",
+        "institution": "University of North Texas",
+        "research_center_count": 10,
+        "scientific_discovery_signal_count": 2,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "vanderbilt-university",
+        "institution": "Vanderbilt University",
+        "research_center_count": 10,
+        "scientific_discovery_signal_count": 2,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "university-of-nevada-reno",
+        "institution": "University of Nevada-Reno",
+        "research_center_count": 9,
+        "scientific_discovery_signal_count": 7,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "brown-university",
+        "institution": "Brown University",
+        "research_center_count": 9,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-virginia",
+        "institution": "University of Virginia",
+        "research_center_count": 9,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "university-of-notre-dame",
+        "institution": "University of Notre Dame",
+        "research_center_count": 9,
+        "scientific_discovery_signal_count": 3,
+        "compute_capacity_tier": "dedicated_compute_capacity_unknown"
+      },
+      {
+        "slug": "university-of-maine",
+        "institution": "University of Maine",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "university-of-maryland-baltimore-county",
+        "institution": "University of Maryland-Baltimore County",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "university-of-pittsburgh",
+        "institution": "University of Pittsburgh",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-texas-at-austin",
+        "institution": "University of Texas at Austin",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-wisconsin-madison",
+        "institution": "University of Wisconsin-Madison",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "university-of-southern-california",
+        "institution": "University of Southern California",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 3,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "west-virginia-university",
+        "institution": "West Virginia University",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 3,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-illinois-urbana-champaign",
+        "institution": "University of Illinois Urbana-Champaign",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 2,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-maryland-college-park",
+        "institution": "University of Maryland-College Park",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 2,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-kansas",
+        "institution": "University of Kansas",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 1,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-north-carolina-at-chapel-hill",
+        "institution": "University of North Carolina at Chapel Hill",
+        "research_center_count": 8,
+        "scientific_discovery_signal_count": 1,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-texas-health-science-center-at-houston",
+        "institution": "University of Texas Health Science Center at Houston",
+        "research_center_count": 7,
+        "scientific_discovery_signal_count": 6,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-texas-southwestern-medical-center",
+        "institution": "University of Texas Southwestern Medical Center",
+        "research_center_count": 7,
+        "scientific_discovery_signal_count": 5,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      },
+      {
+        "slug": "university-of-louisiana-at-lafayette",
+        "institution": "University of Louisiana at Lafayette",
+        "research_center_count": 7,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "named_system_capacity_unknown"
+      },
+      {
+        "slug": "university-of-michigan-ann-arbor",
+        "institution": "University of Michigan-Ann Arbor",
+        "research_center_count": 7,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "gpu_cluster_disclosed"
+      },
+      {
+        "slug": "worcester-polytechnic-institute",
+        "institution": "Worcester Polytechnic Institute",
+        "research_center_count": 7,
+        "scientific_discovery_signal_count": 4,
+        "compute_capacity_tier": "advanced_hpc_disclosed"
+      }
+    ]
+  },
+  "geography": {
+    "by_state": {
+      "TX": 16,
+      "CA": 14,
+      "NY": 12,
+      "MA": 11,
+      "FL": 8,
+      "OH": 7,
+      "PA": 7,
+      "IL": 6,
+      "VA": 6,
+      "CO": 5,
+      "DC": 5,
+      "MO": 5,
+      "NC": 5,
+      "GA": 4,
+      "IN": 4,
+      "MD": 4,
+      "MI": 4,
+      "TN": 4,
+      "AL": 3,
+      "AZ": 3,
+      "LA": 3,
+      "MS": 3,
+      "NJ": 3,
+      "SC": 3,
+      "UT": 3,
+      "CT": 2,
+      "IA": 2,
+      "KS": 2,
+      "KY": 2,
+      "MT": 2,
+      "ND": 2,
+      "NE": 2,
+      "NH": 2,
+      "NM": 2,
+      "NV": 2,
+      "OK": 2,
+      "OR": 2,
+      "RI": 2,
+      "WA": 2,
+      "WI": 2,
+      "AR": 1,
+      "DE": 1,
+      "HI": 1,
+      "ID": 1,
+      "ME": 1,
+      "MN": 1,
+      "VT": 1,
+      "WV": 1,
+      "WY": 1
+    },
+    "by_system": {
+      "none": 109,
+      "University of California": 10,
+      "University of Texas System": 8,
+      "State University System of Florida": 6,
+      "State University of New York": 4,
+      "University of Massachusetts": 3,
+      "University of Missouri System": 3,
+      "University of North Carolina": 3,
+      "University System of Georgia": 3,
+      "University System of Maryland": 3,
+      "Indiana University": 2,
+      "Nevada System of Higher Education": 2,
+      "University of Alabama System": 2,
+      "University of Colorado": 2,
+      "University of Illinois": 2,
+      "University of Nebraska": 2,
+      "University of Tennessee System": 2,
+      "University of Wisconsin": 2,
+      "California State University": 1,
+      "City University of New York": 1,
+      "Cornell University": 1,
+      "Mississippi Institutions of Higher Learning": 1,
+      "Montana University System": 1,
+      "North Dakota University System": 1,
+      "Texas A&M University System": 1,
+      "University of Louisiana System": 1,
+      "University of Maine System": 1,
+      "University of Michigan": 1,
+      "University of Minnesota System": 1,
+      "University of North Texas System": 1,
+      "University of Oklahoma System": 1,
+      "University of South Carolina System": 1,
+      "University of Washington": 1,
+      "University System of New Hampshire": 1,
+      "Utah System of Higher Education": 1,
+      "Washington State University": 1,
+      "West Virginia University System": 1
+    }
+  },
+  "exports": {
+    "directory": "output/analytics",
+    "tables": [
+      "institutions.csv",
+      "initiatives.csv",
+      "initiative_categories.csv",
+      "initiative_subcategories.csv",
+      "initiative_technologies.csv",
+      "initiative_stakeholders.csv",
+      "initiative_collaborations.csv",
+      "initiative_tools.csv",
+      "initiative_sources.csv",
+      "profile_gaps.csv",
+      "institution_analytics_signals.csv",
+      "institution_vendor_exposure.csv",
+      "institution_outcome_claims.csv",
+      "institution_analytics_gaps.csv",
+      "summary.json"
+    ]
+  }
+}

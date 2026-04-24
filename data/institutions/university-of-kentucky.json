@@ -1,0 +1,1425 @@
+{
+  "institution": "University of Kentucky",
+  "slug": "university-of-kentucky",
+  "city_state": "Lexington, KY",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 34709,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Eli Capilouto",
+      "url": "https://pres.uky.edu/about-president"
+    },
+    "provost": {
+      "name": "Robert S. DiPaola",
+      "url": "https://provost.uky.edu/about/about-provost"
+    },
+    "cio": {
+      "name": "Brian Nichols",
+      "url": "https://its.uky.edu/about-its/enterprise-chief-information-officer"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Ian McClure and Heath Price",
+      "title": "Interim Co-Directors, CATS AI (Commonwealth AI Transdisciplinary Strategy)",
+      "url": "https://catsai.uky.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Commonwealth AI Transdisciplinary Strategy (CATS AI)",
+        "url": "https://catsai.uky.edu/",
+        "year": 2025
+      },
+      {
+        "title": "CATS AI: UK's leadership in advancing Kentucky through artificial intelligence (President's announcement)",
+        "url": "https://pres.uky.edu/news/cats-ai-uks-leadership-advancing-kentucky-through-artificial-intelligence",
+        "year": 2025
+      },
+      {
+        "title": "UK ADVANCE 2025 Instructional Guidelines and Recommendations",
+        "url": "https://advance.uky.edu/sites/default/files/2025-06/ukadvance-instructional-guidelines-2025-approved.pdf",
+        "year": 2025
+      }
+    ],
+    "summary": "UK launched the Commonwealth AI Transdisciplinary Strategy (CATS AI) on November 13, 2025 as an institution-wide framework to coordinate AI across all 17 colleges, libraries, UK HealthCare, research centers and institutes. A Board of Trustees October 2025 resolution charged the university to be the 'partner-of-choice' for AI and emerging technologies in Kentucky. CATS AI is structured around five subcommittees (Research, Education, Health, Administration, Students), a central steering committee, an AI Literacy and Training (ALT) Hub, and a Guidelines for Operations (GO) Group that evolved from the prior UK ADVANCE team. The strategy pairs literacy/training, a CATS AI Sandbox/Nexus of approved tools, and a flagship corporate partnership with Microsoft."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://advance.uky.edu/faculty-guidelines",
+      "https://advance.uky.edu/clinical-guidelines",
+      "https://uknow.uky.edu/campus-news/updated-research-guidelines-use-ai-university-kentucky",
+      "https://celt.uky.edu/ai-course-policy-examples",
+      "https://its.uky.edu/news/what-know-about-ai-safety-and-microsoft-copilot-uk",
+      "https://advance.uky.edu/sites/default/files/2025-06/ukadvance-instructional-guidelines-2025-approved.pdf"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Four-tier course policy model: No Use, Conditional Use, Unrestricted Use, and Shared Exploration — faculty must declare a stance on the syllabus",
+      "Four guiding principles: people-centered, adaptable, effective, awareness-promoting",
+      "Generative AI may not be listed as an author on research or peer review",
+      "Sensitive data (HIPAA, FERPA, SSNs, banking info, passwords) must never be entered into AI tools",
+      "Microsoft 365 Copilot designated as the institutionally approved tool under enterprise contract that excludes UK data from public-model training",
+      "Separate guideline tracks for instruction, research, and clinical care; clinical guidelines added in 2024",
+      "Governance through UK ADVANCE (now the CATS AI Guidelines for Operations / GO Group)"
+    ],
+    "summary": "UK's AI policy is among the most comprehensive in a public R1 — a coordinated set of guidelines covering instruction, research, and clinical care authored by the transdisciplinary UK ADVANCE team (rebranded as the GO Group under CATS AI). Policy stance is permissive-to-comprehensive: faculty choose from four syllabus options rather than a campus-wide ban, while research and clinical settings include explicit data-privacy, HIPAA/FERPA, and authorship rules. Microsoft 365 Copilot is the recommended enterprise tool because UK's tenant agreement prevents institutional data from training public models."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "CATS AI Steering Committee",
+        "type": "council",
+        "scope": "Institution-wide coordination of AI across all 17 colleges, libraries, UK HealthCare, research centers and institutes",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "CATS AI — AI Research Subcommittee (co-chairs Chad Risko, Brent Seales)",
+        "type": "committee",
+        "scope": "AI technology and cross-disciplinary research applications",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "CATS AI — AI Education Subcommittee (chair Hubie Ballard)",
+        "type": "committee",
+        "scope": "Curriculum, teaching, faculty training and AI literacy",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "CATS AI — AI Health Subcommittee (chair Romil Chadha)",
+        "type": "committee",
+        "scope": "Clinical decisions, patient outcomes, and UK HealthCare system efficiency",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "CATS AI — AI Administration Subcommittee (co-chairs Adam Recktenwald, Jake Stover)",
+        "type": "committee",
+        "scope": "Operational improvements and workflow automation across UK administration",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "CATS AI — AI for Students Subcommittee (chair Taylor Blair)",
+        "type": "committee",
+        "scope": "Student perspective, career readiness, student-facing AI adoption",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "Guidelines for Operations (GO) Group (formerly UK ADVANCE)",
+        "type": "task_force",
+        "scope": "Develops institutional guidance and recommendations for responsible AI adoption across instruction, research, and clinical care",
+        "url": "https://advance.uky.edu/"
+      },
+      {
+        "name": "AI Literacy and Training (ALT) Hub (formerly AI/ML Hub)",
+        "type": "office",
+        "scope": "Concierge training, professional development, and tool onboarding for faculty/staff/students",
+        "url": "https://catsai.uky.edu/"
+      },
+      {
+        "name": "Advancing Kentucky Together (AKT) Network",
+        "type": "other",
+        "scope": "Corporate- and institutional-partner network into which CATS AI is operationalized; Microsoft is anchor corporate partner",
+        "url": "https://akt.uky.edu/"
+      }
+    ],
+    "summary": "UK has moved from a working-group posture (UK ADVANCE, June 2023) to a fully elevated institutional governance structure under CATS AI, announced November 2025. A Provost/EVPFA-led task force (DiPaola and Eric Monday) defined the framework; two interim co-directors (McClure and Price) steer operations while a national search runs for a permanent director. Five subcommittees cover research, education, health, administration, and students, and the rebranded GO Group continues to produce policy guidance."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of Commonwealth AI Transdisciplinary Strategy (CATS AI)",
+      "description": "On November 13, 2025, President Eli Capilouto announced CATS AI — a university-wide framework to coordinate AI across education, research, healthcare, and operations, operationalized through the Advancing Kentucky Together (AKT) Network. The structure includes five subcommittees, an ALT training hub, a CATS AI Sandbox/Nexus of approved tools, and a Guidelines for Operations (GO) Group for policy.",
+      "significance": "A flagship public R1 moving from a cautious working-group stance to an institution-wide AI strategy tied to a corporate partner — a replicable template for other land-grant universities.",
+      "date_announced": "2025-11-13",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "institutional_ai_strategy",
+        "ai_native_institution",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "board_and_trustees",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Kentucky institutional investment; corporate partnership (Microsoft); AKT Network partners",
+        "description": "Significant investments in AI tools and training for all UK employees and students announced at launch; specific dollar figure not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Phygital Labs"
+          ],
+          "description": "Microsoft named anchor corporate partner in the AKT Network; Phygital Labs co-delivers Microsoft 365/Copilot training."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CATS AI Sandbox / Nexus",
+          "vendor": "University of Kentucky",
+          "role": "Personal hub of approved AI tools and applications for students, faculty, staff, and clinicians"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals to peers that AI strategy can be positioned as an institutional transformation effort, not an IT or academic-affairs sub-initiative.",
+      "source_urls": [
+        "https://pres.uky.edu/news/cats-ai-uks-leadership-advancing-kentucky-through-artificial-intelligence",
+        "https://catsai.uky.edu/",
+        "http://uknow.uky.edu/campus-news/uk-cats-ai-builds-momentum-governance-training-and-campus-initiatives",
+        "https://campustechnology.com/articles/2025/12/02/university-of-kentucky-initiative-to-advance-ai-efforts-across-the-campus-and-state.aspx"
+      ]
+    },
+    {
+      "title": "Microsoft corporate partnership for responsible AI across the Commonwealth",
+      "description": "On November 25, 2025, UK became one of the nation's first institutions to join Microsoft as a corporate partner in a comprehensive AI framework — spanning Microsoft Copilot, Copilot Studio, Microsoft 365, the Agent Store, GitHub Copilot for UK developers, Dragon Copilot for UK HealthCare clinicians, and the Microsoft Discovery Platform for research.",
+      "significance": "One of the first comprehensive multi-product Microsoft-university collaborations branded around 'responsible AI' — healthcare, developer, productivity, and research tools under one institutional agreement.",
+      "date_announced": "2025-11-25",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout",
+        "industry_academic_partnership",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Kentucky and Microsoft",
+        "description": "Enterprise licensing and co-development agreement; financial terms not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Corporate partnership operationalized through CATS AI and the AKT Network."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Campus-wide generative AI assistant for students, faculty, staff"
+        },
+        {
+          "name": "Copilot Studio",
+          "vendor": "Microsoft",
+          "role": "Agent authoring platform for staff and administrative workflows"
+        },
+        {
+          "name": "Agent Store",
+          "vendor": "Microsoft",
+          "role": "Catalog of AI agents for institutional use"
+        },
+        {
+          "name": "GitHub Copilot",
+          "vendor": "Microsoft / GitHub",
+          "role": "Developer productivity for UK internal software teams"
+        },
+        {
+          "name": "Dragon Copilot",
+          "vendor": "Microsoft / Nuance",
+          "role": "Ambient clinical documentation for UK HealthCare providers"
+        },
+        {
+          "name": "Discovery Platform",
+          "vendor": "Microsoft",
+          "role": "Research data platform for UK investigators"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Enterprise tenant contract explicitly carves out institutional data from public-model training; materializes UK's policy that Copilot is the approved tool for sensitive workflows.",
+      "source_urls": [
+        "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/university-of-kentucky-partners-with-microsoft-on-healthcare-ai/"
+      ]
+    },
+    {
+      "title": "Campus-wide Microsoft Copilot rollout for all students, faculty, and staff",
+      "description": "Announced January 29, 2026, UK opened self-service access to Microsoft 365 Copilot for all students, faculty, and staff through the myUK portal, with on-site IT support and an AI-focused all-campus event at the Gatton Student Center on February 26, 2026.",
+      "significance": "A large public R1 moving Copilot from pilot to universal availability is a near-term bellwether for enterprise AI scaling in higher ed.",
+      "date_announced": "2026-01-29",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional licensing",
+        "description": "Enterprise license covering ~34,000 students plus 18,000+ faculty/staff; exact license spend not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Phygital Labs"
+          ],
+          "description": "Phygital Labs co-delivers twice-weekly hands-on Copilot training sessions."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "General-purpose productivity assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Defines a safe default tool the institution can recommend without overriding individual course policies.",
+      "source_urls": [
+        "https://uknow.uky.edu/campus-news/microsoft-copilot-now-available-uk-students-faculty-and-staff",
+        "https://its.uky.edu/news/what-know-about-ai-safety-and-microsoft-copilot-uk"
+      ]
+    },
+    {
+      "title": "Bachelor of Science in Artificial Intelligence (Kentucky's first)",
+      "description": "The Stanley and Karen Pigman College of Engineering's Department of Computer Science launched the Commonwealth's first Bachelor of Science in AI, welcoming its first cohort in Fall 2026. The 120-hour program combines CS fundamentals with machine learning, data analytics, computational modeling, and a required AI ethics course.",
+      "significance": "Among the first AI-named undergraduate majors at a public flagship; pairs a dedicated degree track with the TEK 100 universal AI literacy course.",
+      "date_announced": "2025-11-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Engineering institutional funds",
+        "description": "New curriculum and faculty time; dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Kentucky healthcare, agriculture, manufacturing, automotive, and bourbon employers (aggregate)"
+          ],
+          "description": "Program framed around Kentucky industry workforce needs."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Python",
+          "vendor": "Open source",
+          "role": "Primary programming language across the curriculum"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Builds AI ethics into core coursework rather than a separate elective.",
+      "source_urls": [
+        "https://uknow.uky.edu/campus-news/ai-future-uk-launches-state-s-1st-bachelor-science-ai",
+        "https://cs.engr.uky.edu/academics-1/undergraduate-students/artificial-intelligence-major",
+        "https://academics.uky.edu/programs/bachelors/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "TEK 100 Collaborative Intelligence — universal AI literacy course",
+      "description": "UK launched TEK 100 (Transdisciplinary Educational Approaches to Advance Kentucky — Collaborative Intelligence), a 1-credit-hour asynchronous course open to every UK undergraduate regardless of major. Pilot in Fall 2025 enrolled 50+ first-year students; Spring 2026 offers two rolling sessions (Jan 12 – Mar 2; Mar 9 – May 8). Co-led by Katherine Thompson (AI/ML Hub director) and Tama Thé (founder, COM AI Incubator).",
+      "significance": "One of the first explicitly universal AI literacy requirements at a public R1 — a signal that institutions are treating AI literacy as part of general education, not a disciplinary elective.",
+      "date_announced": "2025-10-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "University of Kentucky (Provost / AI/ML Hub)",
+        "description": "Course development staffing; dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Department of Statistics",
+            "College of Medicine (AI Incubator)",
+            "AI/ML Hub (ALT Hub)"
+          ],
+          "description": "Cross-college curriculum team."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Treats AI literacy as a baseline skill rather than a compliance matter.",
+      "source_urls": [
+        "https://uknow.uky.edu/campus-news/new-uk-course-builds-ai-skills-across-every-major",
+        "https://stat.as.uky.edu/arts-and-sciences-professor-helps-build-course-ai-skills"
+      ]
+    },
+    {
+      "title": "Undergraduate Certificate in Artificial Intelligence",
+      "description": "A 12-credit AI Certificate launched in Spring 2025 is open to all undergraduates in any UK college. Requirements: Intro to AI, Intro to Machine Learning, a computer/data ethics course, and one elective — with non-programming-prerequisite options for non-CS students.",
+      "significance": "A low-barrier AI credential for non-technical majors, closing a gap between major-locked CS programs and the broader student body.",
+      "date_announced": "2025-01-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Engineering / Department of Computer Science",
+        "description": "New credential; budget not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://academics.uky.edu/programs/undergraduate-certificate/artificial-intelligence",
+        "https://uknow.uky.edu/campus-news/new-artificial-intelligence-certificate-now-available-uk-students",
+        "https://cs.engr.uky.edu/students-1/undergraduate-students/ai-certificate"
+      ]
+    },
+    {
+      "title": "Center for Applied Artificial Intelligence (CAAI) at the Institute for Biomedical Informatics",
+      "description": "CAAI, housed within the UK Institute for Biomedical Informatics, provides shared AI infrastructure, reusable code, and staff to translate biomedical research concepts into prototypes. In ~two years the center has led 65+ AI projects with 40+ partners and stewards in-house platforms including Forecaster, CLASSify, LLM Factory, CAT-Talk, SmartState, and Vision Foundry.",
+      "significance": "A mature institutional model for shared AI research services — moving beyond one-off demos into a services and tools platform available across the research enterprise.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 80000000,
+        "funding_source": "Federal grants (NSF, NIH, others) and UK institutional support",
+        "description": "CAAI participates in ~$80M in awards across 26 fully funded projects."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "NIH"
+          ],
+          "description": "Federal research funding across AI biomedical projects."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Forecaster / CLASSify / LLM Factory / CAT-Talk / SmartState / Vision Foundry",
+          "vendor": "UK CAAI (in-house)",
+          "role": "Self-service AI platforms for biomedical research"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Secure, governed research platforms mean UK researchers don't have to route sensitive data through public AI tools.",
+      "source_urls": [
+        "https://caai.ai.uky.edu/",
+        "https://caai.ai.uky.edu/about-us/our-team/",
+        "https://www.govtech.com/education/higher-ed/university-of-kentucky-uses-ai-to-advance-biomedical-research"
+      ]
+    },
+    {
+      "title": "NSF NAIRR Pilot expansion — Democratizing AI Training and Access Statewide",
+      "description": "CAAI received an NSF award (grant 2528161, Educate AI Initiative / NAIRR Pilot expansion) to run five regional AI training workshops across Kentucky in 2026 with the Council on Postsecondary Education and Kentucky Community and Technical College System — reaching geographically isolated and underserved researchers.",
+      "significance": "An explicit rural and community-college outreach model tying an R1's AI cyberinfrastructure to statewide capacity building.",
+      "date_announced": "2026-01-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "community_college_ai_program",
+        "ai_workforce_training",
+        "ai_research_center",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "National Science Foundation (NSF grant 2528161)",
+        "description": "Educate AI Initiative / NAIRR Pilot expansion award; exact dollar amount not disclosed on project page."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "Council on Postsecondary Education (Kentucky)",
+            "Kentucky Community and Technical College System (KCTCS)"
+          ],
+          "description": "Federal-state-system collaboration distributing AI training to rural and underserved regions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Models how NAIRR-backed resources can be deployed at a state/rural scale, not just intra-campus.",
+      "source_urls": [
+        "https://caai.ai.uky.edu/about-us/news-and-events/nairr-pilot-expansion-project/",
+        "https://nairrpilot.org/projects/expansion/democratizing-ai-training"
+      ]
+    },
+    {
+      "title": "AI in Medicine (AIM) Alliance at the UK College of Medicine",
+      "description": "The AIM Alliance, established at the UK College of Medicine with support from Markey Cancer Center, Sanders-Brown Center on Aging, and the Institute for Biomedical Informatics, is led by Xiaoqin Wang, Cody Bumgardner, and Jeffrey Talbert. It builds curated data and AI models available to clinician scientists and runs projects in radiology, pathology, and lung/breast cancer detection.",
+      "significance": "An institutional-scale translational AI-medicine research group — foundational infrastructure many R1 health systems are trying to build.",
+      "date_announced": "2021-09-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UK College of Medicine; Markey Cancer Center; Sanders-Brown Center on Aging; Institute for Biomedical Informatics",
+        "description": "Multi-unit internal funding plus external grants; total not publicly consolidated."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "BunkerHill"
+          ],
+          "description": "Agnostic ML algorithm deployment for disease detection."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://medicine.uky.edu/news/artificial-intelligence-medicine-introducing-aim-2021-09-14t19-09-37",
+        "https://medicine.uky.edu/sites/research/aim"
+      ]
+    },
+    {
+      "title": "UK ADVANCE (now CATS AI Guidelines for Operations / GO Group) policy framework",
+      "description": "Established June 2023 by President Capilouto and led through the Provost's office, UK ADVANCE is a 30+ person transdisciplinary committee (co-chaired by Trey Conatser) that has issued guidelines across three domains: instructional (Fall 2023, updated 2025), research (April 2024), and clinical (2024). It was rebranded as the Guidelines for Operations (GO) Group under CATS AI in 2025.",
+      "significance": "One of the earliest and most comprehensive R1 faculty-governed AI policy structures — explicitly non-prohibitive, framed around the four-tier syllabus model.",
+      "date_announced": "2023-06-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "syllabus_level_policy",
+        "institutional_ai_strategy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Committee staffing and guideline publication."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UK Center for the Enhancement of Learning and Teaching (CELT)",
+            "UK Institute for Biomedical Informatics"
+          ],
+          "description": "CELT operationalizes faculty policy; IBI operationalizes research/clinical policy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes the four-tier course policy framework (No Use / Conditional Use / Unrestricted Use / Shared Exploration) that many institutions are now emulating.",
+      "source_urls": [
+        "https://advance.uky.edu/",
+        "https://advance.uky.edu/faculty-guidelines",
+        "https://advance.uky.edu/clinical-guidelines",
+        "https://uknow.uky.edu/campus-news/uk-advance-team-releases-fall-2023-faculty-guidelines-generative-ai-classroom",
+        "https://uknow.uky.edu/campus-news/updated-research-guidelines-use-ai-university-kentucky",
+        "https://advance.uky.edu/sites/default/files/2025-06/ukadvance-instructional-guidelines-2025-approved.pdf",
+        "https://edscoop.com/university-kentucky-artificial-intelligence-research-policy/"
+      ]
+    },
+    {
+      "title": "Dragon Copilot ambient clinical documentation at UK HealthCare",
+      "description": "Under the Microsoft partnership, UK HealthCare providers gain access to Dragon Copilot for ambient clinical documentation. CATS AI literature references 'ambient listening expansion, hospital innovation, rural care access' as a strategic goal.",
+      "significance": "Ambient AI scribes are a leading enterprise-scale clinical AI deployment in 2025–26; UK's adoption via Dragon Copilot is one of the larger academic-medical-center rollouts.",
+      "date_announced": "2025-11-25",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UK HealthCare / Microsoft partnership",
+        "description": "Enterprise licensing; specific dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Nuance"
+          ],
+          "description": "Dragon Copilot delivered through the UK–Microsoft AKT partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Dragon Copilot",
+          "vendor": "Microsoft / Nuance",
+          "role": "Ambient clinical documentation for clinicians"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Must operate under HIPAA and UK clinical AI guidelines (ADVANCE/GO Group).",
+      "source_urls": [
+        "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/university-of-kentucky-partners-with-microsoft-on-healthcare-ai/"
+      ]
+    },
+    {
+      "title": "AgriGuide — AI assistant for Kentucky farmers via UK Extension",
+      "description": "In collaboration with the Martin-Gatton College of Agriculture, Food and Environment and UK Extension, CAAI developed AgriGuide, an AI-powered assistant that surfaces Kentucky-specific, research-backed agricultural guidance. Streamlines Extension services and makes UK research more accessible to rural Kentuckians.",
+      "significance": "An unusually applied domain-specific retrieval-augmented AI targeted at rural economic development and the land-grant mission.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_in_specific_disciplines",
+        "digital_divide_and_access",
+        "community_college_ai_program"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "CAAI / CAFE / UK Extension",
+        "description": "Institutional development effort."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "UK Martin-Gatton College of Agriculture, Food and Environment",
+            "UK Cooperative Extension Service"
+          ],
+          "description": "Land-grant internal partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AgriGuide",
+          "vendor": "UK CAAI",
+          "role": "Domain-specific AI assistant for agricultural extension"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://caai.ai.uky.edu/agriculture-ai-development/"
+      ]
+    },
+    {
+      "title": "AI Literacy and Training (ALT) Hub",
+      "description": "Formerly the AI/ML Hub, the ALT Hub was rebranded under CATS AI as a 'concierge service' connecting faculty, staff, and students with AI tools and training, running twice-weekly Microsoft 365/Copilot hands-on sessions with Phygital Labs, and anchoring the April 1, 2026 AI Literacy and Training Symposium at the Gatton Student Center. Director: Katherine Thompson.",
+      "significance": "A central training and onboarding function that turns an enterprise Copilot deployment into actual faculty/staff adoption.",
+      "date_announced": "2025-11-13",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UK institutional / Microsoft partnership",
+        "description": "Ongoing training operations."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Phygital Labs"
+          ],
+          "description": "Co-delivery of training curriculum."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Training subject matter"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "http://uknow.uky.edu/campus-news/uk-cats-ai-builds-momentum-governance-training-and-campus-initiatives",
+        "https://catsai.uky.edu/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Applied Artificial Intelligence (CAAI)",
+      "focus": "Applied AI for biomedical and translational research; shared AI platforms",
+      "founded": null,
+      "url": "https://caai.ai.uky.edu/"
+    },
+    {
+      "name": "Institute for Biomedical Informatics (IBI)",
+      "focus": "Biomedical informatics and data science; home of CAAI and AIM Alliance",
+      "founded": null,
+      "url": "https://www.research.uky.edu/IBI"
+    },
+    {
+      "name": "AI in Medicine (AIM) Alliance",
+      "focus": "Clinical AI in radiology, pathology, cancer, aging",
+      "founded": "2021",
+      "url": "https://medicine.uky.edu/sites/research/aim"
+    },
+    {
+      "name": "Center for Computational Sciences (CCS)",
+      "focus": "HPC for science; operates LCC, MCC, ECC clusters and participates in NSF ACCESS and NAIRR Pilot",
+      "founded": "1987",
+      "url": "https://www.ccs.uky.edu/"
+    },
+    {
+      "name": "AI Incubator (College of Medicine)",
+      "focus": "Clinician-led AI prototyping in the College of Medicine",
+      "founded": null,
+      "url": "https://medicine.uky.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": "2026-08",
+      "url": "https://academics.uky.edu/programs/bachelors/artificial-intelligence"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence (12 credits, all colleges)",
+      "level": "undergrad",
+      "launched": "2025-01",
+      "url": "https://academics.uky.edu/programs/undergraduate-certificate/artificial-intelligence"
+    },
+    {
+      "type": "course",
+      "name": "TEK 100 — Collaborative Intelligence: Understanding and Using Modern AI (1 credit, all majors)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://uknow.uky.edu/campus-news/new-uk-course-builds-ai-skills-across-every-major"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-01",
+      "url": "https://uknow.uky.edu/campus-news/microsoft-copilot-now-available-uk-students-faculty-and-staff"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Studio / Agent Store",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai"
+    },
+    {
+      "vendor": "Microsoft / GitHub",
+      "product": "GitHub Copilot",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai"
+    },
+    {
+      "vendor": "Microsoft / Nuance",
+      "product": "Dragon Copilot (ambient clinical documentation)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/university-of-kentucky-partners-with-microsoft-on-healthcare-ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Discovery Platform (research)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai"
+    },
+    {
+      "vendor": "University of Kentucky (CAAI)",
+      "product": "LLM Factory / CLASSify / Forecaster / CAT-Talk / SmartState / Vision Foundry",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://caai.ai.uky.edu/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Lipscomb Compute Cluster (LCC), Morgan Compute Cluster (MCC), and KyRIC",
+    "gpu_count": null,
+    "url": "https://www.ccs.uky.edu/",
+    "summary": "UK's Center for Computational Sciences has supported HPC since 1987 and operates the LCC (~7,200 Intel Skylake/Cascade cores), MCC (~23,500 AMD EPYC Rome cores), and GPU-accelerated resources across its clusters. Research Computing Infrastructure (ITS-RCI) and CCS co-operate the stack, providing thousands of CPU cores, GPU compute, and tens of petabytes of storage. UK contributes to the NSF ACCESS program and NAIRR Pilot, giving researchers access to national cyberinfrastructure beyond campus."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF Educate AI / NAIRR Pilot expansion (Democratizing AI Training and Access Statewide)",
+      "amount_usd": null,
+      "source": "National Science Foundation (grant 2528161)",
+      "purpose": "Rural and community-college AI training workshops across Kentucky",
+      "date": "2026-01",
+      "url": "https://caai.ai.uky.edu/about-us/news-and-events/nairr-pilot-expansion-project/"
+    },
+    {
+      "title": "CAAI portfolio of AI-related federal awards",
+      "amount_usd": 80000000,
+      "source": "NSF, NIH, other federal agencies",
+      "purpose": "26 AI projects across biomedical research, infrastructure, and tools",
+      "date": null,
+      "url": "https://caai.ai.uky.edu/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft (anchor corporate partner in the AKT Network)",
+      "purpose": "Responsible AI framework across Copilot, Copilot Studio, Discovery Platform, GitHub Copilot, Dragon Copilot",
+      "date": "2025-11",
+      "url": "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Phygital Labs",
+      "purpose": "Co-delivery of Microsoft 365/Copilot training via the ALT Hub",
+      "date": "2025-11",
+      "url": "http://uknow.uky.edu/campus-news/uk-cats-ai-builds-momentum-governance-training-and-campus-initiatives"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Kentucky Council on Postsecondary Education (CPE)",
+      "purpose": "NAIRR Pilot statewide expansion",
+      "date": "2026-01",
+      "url": "https://caai.ai.uky.edu/about-us/news-and-events/nairr-pilot-expansion-project/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Kentucky Community and Technical College System (KCTCS)",
+      "purpose": "Statewide AI training workshops",
+      "date": "2026-01",
+      "url": "https://caai.ai.uky.edu/about-us/news-and-events/nairr-pilot-expansion-project/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "BunkerHill",
+      "purpose": "ML algorithm deployment for disease detection with the AIM Alliance",
+      "date": "2021-09",
+      "url": "https://medicine.uky.edu/news/artificial-intelligence-medicine-introducing-aim-2021-09-14t19-09-37"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Bluegrass AgTech Development Corp (Lexington-Fayette Urban County Government, Kentucky Department of Agriculture, Alltech, UK CAFE)",
+      "purpose": "Precision agriculture and AgTech development",
+      "date": null,
+      "url": "https://www.uky.edu"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot (myUK-provisioned)",
+      "scope": "All UK students",
+      "url": "https://uknow.uky.edu/campus-news/microsoft-copilot-now-available-uk-students-faculty-and-staff"
+    },
+    {
+      "type": "other",
+      "name": "CATS AI Sandbox / Nexus of approved AI tools",
+      "scope": "Students, faculty, staff, clinicians",
+      "url": "https://catsai.uky.edu/"
+    },
+    {
+      "type": "tutor",
+      "name": "AI tutoring resources referenced by the Kentucky Council on Postsecondary Education and deployed via CELT",
+      "scope": "Campus-wide (emerging)",
+      "url": "https://celt.uky.edu/ai-resources"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "NSF NAIRR Pilot — Democratizing AI Training and Access Statewide",
+      "description": "Five regional workshops across Kentucky bringing AI training to rural, underserved, and community-college audiences in partnership with CPE and KCTCS.",
+      "url": "https://caai.ai.uky.edu/about-us/news-and-events/nairr-pilot-expansion-project/"
+    },
+    {
+      "title": "TEK 100 universal AI literacy course",
+      "description": "Open to every UK student regardless of major, with no programming prerequisites — designed as a baseline literacy onramp.",
+      "url": "https://uknow.uky.edu/campus-news/new-uk-course-builds-ai-skills-across-every-major"
+    },
+    {
+      "title": "AI Certificate with non-programming-prerequisite options",
+      "description": "Opens the AI credential to students in every college, not just CS/engineering.",
+      "url": "https://academics.uky.edu/programs/undergraduate-certificate/artificial-intelligence"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Kentucky",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Kentucky enacted SB 4 in March 2025 (signed by Governor Andy Beshear) — a government-focused AI governance framework run through the Commonwealth Office of Technology with an AI Governance Committee setting standards. A legislative Artificial Intelligence Task Force was established May 30, 2025 and delivered final recommendations in November 2025, involving educational institutions (including UK) among other stakeholders. UK's state context also includes the Kentucky Department of Education's K-12 AI guidance (one of the earliest in the nation) and the Kentucky Council on Postsecondary Education's coordination of AI integration across public institutions.",
+    "urls": [
+      "https://regulations.ai/regulations/kentucky-sb-4-ai-governance-2025",
+      "https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/kentucky-passes-bill-to-regulate-ai-in-government",
+      "https://www.wmky.org/news/2025-08-20/higher-education-officials-working-to-integrate-ai-into-kentucky-colleges-and-universities",
+      "https://www.education.ky.gov/districts/tech/Pages/A.I.-in-Kentucky-Education.aspx"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-11",
+      "summary": "CAIR filed a civil-rights complaint (Woodcock v. University of Kentucky, E.D. Ky., filed Nov 13, 2025) against UK; the filing does not appear to center on AI specifically but is part of UK's current litigation context. No AI-specific lawsuits have been identified as of April 2026.",
+      "status": "active",
+      "url": "https://www.cair.com/wp-content/uploads/2025/11/Woodcock-v.-UK-Complaint-11.13.2025.pdf"
+    }
+  ],
+  "narrative_summary": "The University of Kentucky — a public R1 land-grant flagship in Lexington (~34,700 students, president Eli Capilouto, provost Robert DiPaola, CIO Brian Nichols) — has moved in 2025–26 from a faculty-governed working group into one of the most fully elevated institutional AI postures at a public R1. The Commonwealth AI Transdisciplinary Strategy (CATS AI), launched November 13, 2025 after a Board of Trustees 'partner-of-choice' resolution, consolidates five subcommittees (Research, Education, Health, Administration, Students), an AI Literacy and Training (ALT) Hub, a Guidelines for Operations (GO) Group that evolved from the prior UK ADVANCE team, and the Advancing Kentucky Together (AKT) Network. A November 25, 2025 corporate partnership with Microsoft is unusually broad, covering Microsoft 365 Copilot (rolled out to all students/faculty/staff January 29, 2026), Copilot Studio, the Agent Store, GitHub Copilot for internal developers, Dragon Copilot for UK HealthCare, and the Microsoft Discovery Platform for research. Policy is comprehensive rather than prohibitive: the UK ADVANCE four-tier syllabus model (No Use / Conditional / Unrestricted / Shared Exploration), separate research and clinical guidelines, explicit HIPAA/FERPA carve-outs, and an enterprise Copilot contract that excludes UK data from public-model training. Academics include the Commonwealth's first Bachelor of Science in AI (Fall 2026, Pigman College of Engineering), an undergraduate AI Certificate open to all colleges (Spring 2025), and the universal TEK 100 'Collaborative Intelligence' literacy course. Research is anchored by the Center for Applied AI (~$80M in awards across 26 projects and in-house platforms like LLM Factory and Vision Foundry), the Institute for Biomedical Informatics, and the AIM Alliance at the College of Medicine. Equity work includes the NSF NAIRR Pilot expansion taking AI training to rural Kentucky and KCTCS colleges. Infrastructure includes the Lipscomb, Morgan, and KyRIC HPC clusters and NSF ACCESS / NAIRR participation. Gaps: no permanent Chief AI Officer yet (interim co-directors McClure and Price); dollar totals for the CATS AI investment and Microsoft contract are not publicly disclosed; student-facing conversational AI is still emerging beyond Copilot; and the institution has no dedicated AI accessibility or algorithmic-bias program as of April 2026.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://catsai.uky.edu/",
+      "https://akt.uky.edu/commonwealth-ai-transdisciplinary-strategy",
+      "https://pres.uky.edu/news/cats-ai-uks-leadership-advancing-kentucky-through-artificial-intelligence",
+      "http://uknow.uky.edu/campus-news/uk-cats-ai-builds-momentum-governance-training-and-campus-initiatives",
+      "https://campustechnology.com/articles/2025/12/02/university-of-kentucky-initiative-to-advance-ai-efforts-across-the-campus-and-state.aspx",
+      "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/ai/university-of-kentucky-partners-with-microsoft-on-healthcare-ai/",
+      "https://uknow.uky.edu/campus-news/microsoft-copilot-now-available-uk-students-faculty-and-staff",
+      "https://its.uky.edu/news/what-know-about-ai-safety-and-microsoft-copilot-uk",
+      "https://uknow.uky.edu/campus-news/ai-future-uk-launches-state-s-1st-bachelor-science-ai",
+      "https://uknow.uky.edu/campus-news/new-uk-course-builds-ai-skills-across-every-major",
+      "https://stat.as.uky.edu/arts-and-sciences-professor-helps-build-course-ai-skills",
+      "https://academics.uky.edu/programs/bachelors/artificial-intelligence",
+      "https://academics.uky.edu/programs/undergraduate-certificate/artificial-intelligence",
+      "https://cs.engr.uky.edu/academics-1/undergraduate-students/artificial-intelligence-major",
+      "https://cs.engr.uky.edu/students-1/undergraduate-students/ai-certificate",
+      "https://uknow.uky.edu/campus-news/new-artificial-intelligence-certificate-now-available-uk-students",
+      "https://caai.ai.uky.edu/",
+      "https://caai.ai.uky.edu/about-us/our-team/",
+      "https://caai.ai.uky.edu/about-us/news-and-events/nairr-pilot-expansion-project/",
+      "https://caai.ai.uky.edu/agriculture-ai-development/",
+      "https://nairrpilot.org/projects/expansion/democratizing-ai-training",
+      "https://www.govtech.com/education/higher-ed/university-of-kentucky-uses-ai-to-advance-biomedical-research",
+      "https://www.research.uky.edu/IBI",
+      "https://medicine.uky.edu/news/artificial-intelligence-medicine-introducing-aim-2021-09-14t19-09-37",
+      "https://medicine.uky.edu/sites/research/aim",
+      "https://www.ccs.uky.edu/",
+      "https://www.ccs.uky.edu/about-ccs/",
+      "https://its.uky.edu/our-teams/research-computing-infrastructure",
+      "https://its.uky.edu/about-its/leadership-team",
+      "https://its.uky.edu/about-its/enterprise-chief-information-officer",
+      "https://scholars.uky.edu/en/equipments/morgan-compute-cluster-cpu-mcc-cpu/",
+      "https://scholars.uky.edu/en/equipments/lipscomb-compute-cluster-cpu-lcc-cpu/",
+      "https://advance.uky.edu/",
+      "https://advance.uky.edu/faculty-guidelines",
+      "https://advance.uky.edu/clinical-guidelines",
+      "https://advance.uky.edu/sites/default/files/2025-06/ukadvance-instructional-guidelines-2025-approved.pdf",
+      "https://uknow.uky.edu/campus-news/updated-research-guidelines-use-ai-university-kentucky",
+      "https://uknow.uky.edu/campus-news/uk-advance-team-releases-fall-2023-faculty-guidelines-generative-ai-classroom",
+      "https://provost.uky.edu/news/faculty-focus-updated-artificial-intelligence-ai-guidelines-faculty",
+      "https://celt.uky.edu/ai-resources",
+      "https://celt.uky.edu/ai-teaching",
+      "https://celt.uky.edu/ai-course-policy-examples",
+      "https://edscoop.com/university-kentucky-artificial-intelligence-research-policy/",
+      "https://pres.uky.edu/about-president",
+      "https://provost.uky.edu/about/about-provost",
+      "https://evpfa.uky.edu/people/brian-nichols",
+      "https://uknow.uky.edu/content/brian-nichols-named-uk-chief-information-officer",
+      "https://uknow.uky.edu/campus-news/robert-dipaola-accepts-position-provost",
+      "https://www.wuky.org/wuky-news/2025-11-14/dr-eli-capilouto-has-announced-that-uk-is-committed-to-becoming-an-ai-university",
+      "https://carnegieclassifications.acenet.edu/institution/university-of-kentucky/",
+      "https://registrar.uky.edu/ferpa",
+      "https://its.uky.edu/our-teams/enterprise-cybersecurity/cybersecurity-compliance-university-kentucky",
+      "https://regulations.ai/regulations/kentucky-sb-4-ai-governance-2025",
+      "https://www.akingump.com/en/insights/ai-law-and-regulation-tracker/kentucky-passes-bill-to-regulate-ai-in-government",
+      "https://www.wmky.org/news/2025-08-20/higher-education-officials-working-to-integrate-ai-into-kentucky-colleges-and-universities",
+      "https://www.education.ky.gov/districts/tech/Pages/A.I.-in-Kentucky-Education.aspx",
+      "https://www.cair.com/wp-content/uploads/2025/11/Woodcock-v.-UK-Complaint-11.13.2025.pdf"
+    ],
+    "search_queries": [
+      "\"University of Kentucky\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Kentucky\" AI policy acceptable use generative AI guidelines faculty",
+      "\"University of Kentucky\" Microsoft AI partnership Copilot collaboration announcement",
+      "\"University of Kentucky\" AI research center institute computing infrastructure",
+      "\"University of Kentucky\" CIO chief information officer 2025 2026",
+      "\"University of Kentucky\" HPC supercomputer GPU cluster LCC MCC",
+      "\"University of Kentucky\" president Capilouto provost DiPaola leadership 2025",
+      "\"University of Kentucky\" AI chatbot student services advisor virtual assistant",
+      "\"University of Kentucky\" Kentucky AI executive order state policy higher education",
+      "\"University of Kentucky\" enrollment 2025 Carnegie classification students",
+      "\"University of Kentucky\" AI healthcare UK HealthCare ambient clinical Nabla Abridge",
+      "\"University of Kentucky\" AI residence hall living learning community students 2025",
+      "\"University of Kentucky\" NSF grant NAIRR AI research funding million",
+      "\"University of Kentucky\" data privacy FERPA AI cybersecurity policy students",
+      "\"University of Kentucky\" AI investment gift endowment million donation 2025",
+      "\"University of Kentucky\" Canvas LMS AI Instructure Panopto integration faculty",
+      "\"University of Kentucky\" AI agriculture workforce rural economic development Kentucky",
+      "\"University of Kentucky\" AI equity accessibility digital divide underrepresented",
+      "\"University of Kentucky\" AI College of Medicine incubator clinical pilot 2025",
+      "\"University of Kentucky\" ADVANCE team chair leader clinician AI guidelines",
+      "\"University of Kentucky\" AI certificate undergraduate computer science minor engineering",
+      "\"University of Kentucky\" Kentucky governor Beshear AI task force state policy commonwealth"
+    ],
+    "gaps_acknowledged": [
+      "No permanent Chief AI Officer yet; McClure and Price are interim co-directors of CATS AI.",
+      "Dollar figures for the CATS AI strategic investment and Microsoft enterprise contract are not publicly disclosed.",
+      "Exact NSF NAIRR Pilot expansion grant dollar amount (2528161) is not published on the CAAI project page.",
+      "Enrollment figure is from a third-party aggregator; official UK enrollment may differ modestly.",
+      "Beyond Microsoft 365 Copilot and Dragon Copilot, no institution-branded student chatbot or predictive-retention platform was publicly identified.",
+      "No dedicated AI accessibility or algorithmic-bias program or office was identified.",
+      "The AI-themed residence hall referenced in announcements is aspirational; no dedicated hall has launched as of April 2026.",
+      "Specific internal gift or philanthropic earmark for CATS AI has not been publicly disclosed as of April 2026."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "workforce_regional_development",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 24,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 13,
+        "governance_led": 11,
+        "student_success_led": 7,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 3,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Lipscomb Compute Cluster (LCC), Morgan Compute Cluster (MCC), and KyRIC",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 80000000,
+      "funding_source_buckets": {
+        "public_federal_state": 5,
+        "industry_vendor": 5,
+        "institutional": 4,
+        "other_unclear": 1
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 2,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 14,
+          "products": [
+            "Agent Store",
+            "Copilot Studio",
+            "Copilot Studio / Agent Store",
+            "Discovery Platform",
+            "Dragon Copilot",
+            "Dragon Copilot (ambient clinical documentation)",
+            "GitHub Copilot",
+            "Microsoft 365 Copilot",
+            "Microsoft Copilot",
+            "Microsoft Discovery Platform (research)"
+          ]
+        },
+        {
+          "vendor": "Open source Python",
+          "mentions": 1,
+          "products": [
+            "Python"
+          ]
+        },
+        {
+          "vendor": "UK CAAI (in-house) Forecaster / CLASSify / LLM Factory / CAT-Talk / SmartState / Vision Foundry",
+          "mentions": 1,
+          "products": [
+            "Forecaster / CLASSify / LLM Factory / CAT-Talk / SmartState / Vision Foundry"
+          ]
+        },
+        {
+          "vendor": "UK CAAI AgriGuide",
+          "mentions": 1,
+          "products": [
+            "AgriGuide"
+          ]
+        },
+        {
+          "vendor": "University of Kentucky (CAAI) LLM Factory / CLASSify / Forecaster / CAT-Talk / SmartState / Vision Foundry",
+          "mentions": 1,
+          "products": [
+            "LLM Factory / CLASSify / Forecaster / CAT-Talk / SmartState / Vision Foundry"
+          ]
+        },
+        {
+          "vendor": "University of Kentucky CATS AI Sandbox / Nexus",
+          "mentions": 1,
+          "products": [
+            "CATS AI Sandbox / Nexus"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "productivity",
+          "title": "Microsoft corporate partnership for responsible AI across the Commonwealth",
+          "summary": "One of the first comprehensive multi-product Microsoft-university collaborations branded around 'responsible AI' — healthcare, developer, productivity, and research tools under one institutional agreement.",
+          "source_url": "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Dragon Copilot ambient clinical documentation at UK HealthCare",
+          "summary": "Ambient AI scribes are a leading enterprise-scale clinical AI deployment in 2025–26; UK's adoption via Dragon Copilot is one of the larger academic-medical-center rollouts.",
+          "source_url": "https://uknow.uky.edu/campus-news/university-kentucky-among-nation-s-1st-institutions-partner-microsoft-responsible-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Literacy and Training (ALT) Hub",
+          "summary": "A central training and onboarding function that turns an enterprise Copilot deployment into actual faculty/staff adoption.",
+          "source_url": "http://uknow.uky.edu/campus-news/uk-cats-ai-builds-momentum-governance-training-and-campus-initiatives"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No permanent Chief AI Officer yet; McClure and Price are interim co-directors of CATS AI.",
+        "Dollar figures for the CATS AI strategic investment and Microsoft enterprise contract are not publicly disclosed.",
+        "Exact NSF NAIRR Pilot expansion grant dollar amount (2528161) is not published on the CAAI project page.",
+        "Enrollment figure is from a third-party aggregator; official UK enrollment may differ modestly.",
+        "Beyond Microsoft 365 Copilot and Dragon Copilot, no institution-branded student chatbot or predictive-retention platform was publicly identified.",
+        "No dedicated AI accessibility or algorithmic-bias program or office was identified.",
+        "The AI-themed residence hall referenced in announcements is aspirational; no dedicated hall has launched as of April 2026.",
+        "Specific internal gift or philanthropic earmark for CATS AI has not been publicly disclosed as of April 2026."
+      ]
+    }
+  }
+}

@@ -1,0 +1,667 @@
+{
+  "institution": "George Washington University",
+  "slug": "george-washington-university",
+  "city_state": "Washington, DC",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "GW IT Generative Artificial Intelligence",
+      "url": "https://it.gwu.edu/ai-guidance-and-best-practices"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI Guidance and Best Practices",
+        "url": "https://it.gwu.edu/ai-guidance-and-best-practices",
+        "year": 2025
+      },
+      {
+        "title": "Guidelines for Using Generative Artificial Intelligence in Academic Work",
+        "url": "https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf",
+        "year": 2023
+      }
+    ],
+    "summary": "GW publishes administrative AI guidance, academic generative AI guidelines, privacy guidance, and an IT page for approved enterprise AI tools. The posture is governance-first: responsible procurement, privacy, data classification, and faculty-level academic expectations are the strongest public signals."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.gwu.edu/ai-guidance-and-best-practices",
+      "https://it.gwu.edu/gen-ai",
+      "https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence",
+      "https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf"
+    ],
+    "adopted_date": "2023-04",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "George Washington University's AI policy posture is best characterized as comprehensive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "GW Information Technology",
+        "type": "office",
+        "scope": "Reviews AI tools, procurement, and enterprise AI services.",
+        "url": "https://it.gwu.edu/gen-ai"
+      },
+      {
+        "name": "GW Privacy Office",
+        "type": "office",
+        "scope": "Publishes privacy guidance for use of artificial intelligence.",
+        "url": "https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence"
+      }
+    ],
+    "summary": "George Washington University's public AI governance is organized through GW Information Technology, GW Privacy Office."
+  },
+  "initiatives": [
+    {
+      "title": "AI guidance and best practices for administration",
+      "description": "GW IT publishes administrative AI guidance for responsible use, procurement, and approved tools, separate from academic-work guidance.",
+      "significance": "George Washington University's ai guidance and best practices for administration is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://it.gwu.edu/ai-guidance-and-best-practices"
+      ]
+    },
+    {
+      "title": "Generative AI tools and services review",
+      "description": "GW IT's GenAI page says it is collaborating with campus partners to implement AI solutions and continuously reviewing tools for security, compliance, and data classification.",
+      "significance": "George Washington University's generative ai tools and services review is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_infrastructure_and_unification",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://it.gwu.edu/gen-ai"
+      ]
+    },
+    {
+      "title": "Privacy guidance for artificial intelligence",
+      "description": "GW's Privacy Office warns that AI tools create privacy risks, recommends walled-garden operation for generative AI, and ties AI implementation to procurement and data-protection policies.",
+      "significance": "George Washington University's privacy guidance for artificial intelligence is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Academic generative AI guidelines",
+      "description": "GW's April 2023 academic guidelines and faculty research guides help instructors set expectations for generative AI in coursework.",
+      "significance": "George Washington University's academic generative ai guidelines is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf",
+        "https://guides.himmelfarb.gwu.edu/faculty/generative-AI"
+      ]
+    },
+    {
+      "title": "Generative AI 101 public engineering event",
+      "description": "GW Engineering hosted a 2023 Generative AI 101 event with experts in computer science, engineering systems, digital trade, and data governance.",
+      "significance": "George Washington University's generative ai 101 public engineering event is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines",
+        "ai_ethics_framework",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "GW Engineering",
+            "Elliott School Digital Trade and Data Governance Hub",
+            "external AI policy experts"
+          ],
+          "description": "Public AI learning event."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.gwu.edu/generative-ai-101"
+      ]
+    },
+    {
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "date_announced": null,
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "title": "Pegasus GPU and Grace Hopper HPC expansion",
+      "description": "GW is expanding Pegasus with state-of-the-art GPU-based systems including Nvidia Grace Hopper superchip and L40S GPU resources, building on a Pegasus cluster with V100 GPU nodes and more than 2 PFLOPs of single-precision capacity.",
+      "significance": "This closes GW’s compute-capacity gap with a named cluster and public GPU configuration.",
+      "primary_category": "research_and_innovation",
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "source_urls": [
+        "https://it.gwu.edu/hpc-pegasus",
+        "https://it.gwu.edu/hpc-expansion"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Institute for Data, Democracy & Politics",
+      "focus": "Research on data, democracy, politics, and AI governance/policy implications.",
+      "founded": null,
+      "url": "https://iddp.gwu.edu/"
+    },
+    {
+      "name": "Digital Trade and Data Governance Hub",
+      "focus": "Data governance, AI policy, and digital trade research.",
+      "founded": null,
+      "url": "https://datagovhub.elliott.gwu.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "Generative AI 101",
+      "level": "both",
+      "launched": "2023-05",
+      "url": "https://engineering.gwu.edu/generative-ai-101"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.gwu.edu/microsoft-copilot"
+    },
+    {
+      "vendor": "George Washington University",
+      "product": "GW Chat",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.gwu.edu/ai-tools-status"
+    },
+    {
+      "vendor": "Box",
+      "product": "Box AI",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.gwu.edu/ai-tools-status"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.gwu.edu/ai-tools-status"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.gwu.edu/ai-tools-status"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Pegasus",
+    "gpu_count": 120,
+    "url": "https://it.gwu.edu/hpc-pegasus",
+    "summary": "GW’s Pegasus flagship HPC cluster has 200+ nodes and 2.14 PFLOPs single-precision capacity. Public specifications list 16 small GPU nodes with two NVIDIA Tesla V100 GPUs each and 22 large GPU nodes with four V100 SXM2 GPUs each, plus an expansion adding Nvidia Grace Hopper superchip and L40S GPU systems for advanced AI, CFD, and large-memory workloads; the recorded count reflects the 120 V100 GPUs implied by the published node table."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Generative AI academic-work guidelines",
+      "scope": "Students and faculty using generative AI in coursework.",
+      "url": "https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Privacy and walled-garden AI guidance",
+      "description": "GW privacy guidance recommends walled-garden regimes and role-based access for AI tools handling university data.",
+      "url": "https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence"
+    }
+  ],
+  "regulatory_context": {
+    "state": "District of Columbia",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "George Washington University operates in District of Columbia; public AI guidance should be read alongside applicable state, federal, and institutional privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://it.gwu.edu/ai-guidance-and-best-practices",
+      "https://it.gwu.edu/gen-ai"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "George Washington University now has stronger public evidence for both platforms and compute. GW IT lists Microsoft Copilot, GW Chat, Box AI, Zoom AI, Google Gemini, and NotebookLM statuses, with Copilot available to faculty, students, and staff for public and restricted data. Research compute is anchored in Pegasus, a 200+ node flagship HPC cluster with a published V100 GPU configuration and an expansion adding Nvidia Grace Hopper and L40S GPU systems for advanced AI and computational workloads. Public gaps remain around contract values, active-user counts, AI-specific budget totals, and subgroup student outcomes.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://it.gwu.edu/ai-guidance-and-best-practices",
+      "https://it.gwu.edu/gen-ai",
+      "https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence",
+      "https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf",
+      "https://iddp.gwu.edu/",
+      "https://datagovhub.elliott.gwu.edu/",
+      "https://engineering.gwu.edu/generative-ai-101",
+      "https://guides.himmelfarb.gwu.edu/faculty/generative-AI",
+      "https://it.gwu.edu/hpc-pegasus",
+      "https://it.gwu.edu/hpc-expansion",
+      "https://it.gwu.edu/microsoft-copilot",
+      "https://it.gwu.edu/ai-tools-status"
+    ],
+    "search_queries": [
+      "George Washington University AI strategy 2025 2026",
+      "George Washington University generative AI policy guidelines",
+      "George Washington University AI research center institute",
+      "George Washington University Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "George Washington University AI degree certificate workforce training",
+      "District of Columbia higher education AI policy",
+      "site:gwu.edu Pegasus GPU high performance computing George Washington University",
+      "site:gwu.edu GW Microsoft Copilot AI faculty students",
+      "site:gwu.edu GW AI tools status Copilot GW Chat Box AI Zoom AI Gemini NotebookLM"
+    ],
+    "gaps_acknowledged": [
+      "No GW chief AI officer or single AI strategy office was found.",
+      "GW publishes approved AI tool status and Pegasus GPU capacity, but enterprise tool user counts, contract values, and comprehensive AI budget totals were not disclosed.",
+      "No student subgroup outcome metrics tied to AI tools or teaching guidance were found."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "governance_led",
+        "research_compute_powerhouse",
+        "student_success_led"
+      ],
+      "scores": {
+        "platform_first": 15,
+        "research_compute_powerhouse": 12,
+        "curriculum_led": 2,
+        "governance_led": 12,
+        "student_success_led": 3,
+        "workforce_regional_development": 2,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-04",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 2,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Pegasus",
+        "gpu_count": 120,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 6
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Box Box AI",
+          "mentions": 1,
+          "products": [
+            "Box AI"
+          ]
+        },
+        {
+          "vendor": "George Washington University GW Chat",
+          "mentions": 1,
+          "products": [
+            "GW Chat"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Google Gemini"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 1,
+          "products": [
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 1,
+          "products": [
+            "Zoom AI"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Box Box AI",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "AI guidance and best practices for administration",
+          "summary": "George Washington University's ai guidance and best practices for administration is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://it.gwu.edu/ai-guidance-and-best-practices"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Generative AI tools and services review",
+          "summary": "George Washington University's generative ai tools and services review is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://it.gwu.edu/gen-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Privacy guidance for artificial intelligence",
+          "summary": "George Washington University's privacy guidance for artificial intelligence is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Academic generative AI guidelines",
+          "summary": "George Washington University's academic generative ai guidelines is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf"
+        },
+        {
+          "claim_type": "career",
+          "title": "Generative AI 101 public engineering event",
+          "summary": "George Washington University's generative ai 101 public engineering event is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://engineering.gwu.edu/generative-ai-101"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 3,
+      "notes": [
+        "No GW chief AI officer or single AI strategy office was found.",
+        "GW publishes approved AI tool status and Pegasus GPU capacity, but enterprise tool user counts, contract values, and comprehensive AI budget totals were not disclosed.",
+        "No student subgroup outcome metrics tied to AI tools or teaching guidance were found."
+      ]
+    }
+  }
+}

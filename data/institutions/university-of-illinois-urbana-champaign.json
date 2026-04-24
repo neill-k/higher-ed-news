@@ -1,0 +1,1483 @@
+{
+  "institution": "University of Illinois Urbana-Champaign",
+  "slug": "university-of-illinois-urbana-champaign",
+  "city_state": "Urbana-Champaign, IL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Illinois",
+  "enrollment": 60848,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Timothy L. Killeen",
+      "url": "https://www.uillinois.edu/about/president"
+    },
+    "provost": {
+      "name": "John Coleman",
+      "url": "https://provost.illinois.edu/staff-directory/john-coleman/"
+    },
+    "cio": {
+      "name": "Mairead Martin",
+      "url": "https://www.cio.illinois.edu/ociostaff/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Charles Lee Isbell Jr.",
+      "title": "Chancellor and Vice President, AI researcher leading campus AI direction",
+      "url": "https://news.uillinois.edu/view/7815/83595028"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University of Illinois System Generative AI Principles",
+        "url": "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/principles",
+        "year": 2024
+      },
+      {
+        "title": "Generative AI Guidance for Instructors (EVPAA)",
+        "url": "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/instructors",
+        "year": 2024
+      },
+      {
+        "title": "AI Apps @ Illinois (Enterprise GenAI)",
+        "url": "https://genai.illinois.edu/ai-apps/",
+        "year": 2025
+      }
+    ],
+    "summary": "UIUC operates under the University of Illinois System's six-principle generative AI framework (accountability, inclusiveness, reliability/safety, fairness, transparency, privacy/security) rather than a single UIUC-specific strategy document. Campus execution is distributed across the Office of the CIO's Enterprise GenAI team, NCSA's Center for Artificial Intelligence Innovation, the Provost's Campus AI Curriculum Task Force, and the Center for Innovation in Teaching & Learning (CITL). In 2025 the university hired AI researcher Charles Isbell Jr. (former Georgia Tech dean) as Chancellor, effectively embedding AI expertise in the campus's top academic leadership role."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/principles",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/instructors",
+      "https://www.cybersecurity.illinois.edu/privacy-considerations-for-generative-ai/",
+      "https://guides.library.illinois.edu/generativeAI/coursepolicies"
+    ],
+    "adopted_date": "2024-01",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No single overarching UIUC AI ban; faculty set course-level policies and must disclose acceptable uses",
+      "Initiatives involving PII must comply with FERPA, HIPAA, COPPA and other regulations",
+      "Library provides 'AI in this Course' Canvas Commons module for syllabus-level policies",
+      "System-level six principles: accountability, inclusiveness, reliability/safety, fairness, transparency, privacy/security",
+      "Approved enterprise tools gated by data-classification (via genai.illinois.edu/ai-apps)"
+    ],
+    "summary": "UIUC follows a comprehensive, distributed policy model: the U of I System sets binding generative AI principles that address accountability, fairness, privacy, and security; the campus CIO publishes an approved-apps catalog that maps each tool to allowed data types; faculty are required to set course-level AI policies and the Library supplies a ready-made Canvas module to do so. The posture is permissive within guardrails rather than prohibitive."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Campus AI Curriculum Task Force",
+        "type": "task_force",
+        "scope": "Provost-charged task force to develop campus AI curriculum recommendations across colleges",
+        "url": "https://provost.illinois.edu/about/committees/education-2/campus-ai-curriculum-task-force/"
+      },
+      {
+        "name": "Gen AI Committee (Office of the Provost Information Technology Committees)",
+        "type": "committee",
+        "scope": "Provost-level IT committee coordinating generative AI across campus governance",
+        "url": "https://provost.illinois.edu/about/committees/information-technology-committees/"
+      },
+      {
+        "name": "Enterprise GenAI Team (Office of the CIO)",
+        "type": "office",
+        "scope": "Operational team managing enterprise AI tools, data-protection controls, and training",
+        "url": "https://genai.illinois.edu/ai-apps/"
+      },
+      {
+        "name": "IT Council",
+        "type": "council",
+        "scope": "Campus IT governance body chaired by CIO Mairead Martin",
+        "url": "https://www.cio.illinois.edu/it-council/"
+      },
+      {
+        "name": "Center for Artificial Intelligence Innovation (CAII) at NCSA",
+        "type": "office",
+        "scope": "Central research hub coordinating AI research, industry partnerships, and student training",
+        "url": "https://ai.ncsa.illinois.edu/"
+      }
+    ],
+    "summary": "Governance is poly-centric: policy and principle-setting live at the U of I System EVPAA; curriculum coordination is handled by a Provost-chartered AI Curriculum Task Force; enterprise AI operations sit with the CIO's Enterprise GenAI team; research coordination flows through NCSA's Center for Artificial Intelligence Innovation. There is no single chief AI officer, but the new Chancellor (Charles Isbell, an AI researcher) serves as de facto strategy lead."
+  },
+  "initiatives": [
+    {
+      "title": "Illinois Chat campus-wide LLM platform launch",
+      "description": "NCSA, the Office of the CIO, and Illinois Computes jointly launched Illinois Chat for the Fall 2025 semester. The retrieval-augmented generation (RAG) platform lets any campus user build custom LLM-based chatbots over their own content (teaching assistants, research-data organizers, campus-resource bots) with institution-controlled data security.",
+      "significance": "Illinois joins a small group of R1s deploying a home-grown, RAG-first generative AI platform rather than reselling a commercial tool, giving the institution architectural control over data flow and model choice.",
+      "date_announced": "2025-10-08",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "ai_tutoring_and_adaptive_learning"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NCSA / Office of the CIO / Illinois Computes",
+        "description": "Internally funded through NCSA, the CIO office, and Illinois Computes; dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NCSA",
+            "Office of the CIO",
+            "Illinois Computes"
+          ],
+          "description": "Internal cross-unit collaboration; built by NCSA student researchers and productized with CIO and Illinois Computes support."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Illinois Chat (uiuc.chat)",
+          "vendor": "University of Illinois (NCSA)",
+          "role": "RAG-based LLM platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a precedent that universities can operate their own RAG stack, reducing dependence on vendor-hosted chatbots for sensitive institutional data.",
+      "source_urls": [
+        "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/",
+        "https://www.ncsa.illinois.edu/research/project-highlights/illinois-chat/",
+        "https://uiuc.chat/",
+        "https://ai.ncsa.illinois.edu/its-official-illinois-chat-is-launched-for-campus-community/"
+      ]
+    },
+    {
+      "title": "IBM-Illinois Discovery Accelerator Institute expansion for quantum-AI",
+      "description": "On April 16, 2026, Governor Pritzker, IBM, and UIUC announced the renewal and expansion of the IBM-Illinois Discovery Accelerator Institute. The expansion integrates IBM quantum computers with NCSA's Delta and DeltaAI supercomputers and targets next-generation AI systems and quantum-centric algorithms. The institute has been backed by more than $200 million in planned investments since 2021.",
+      "significance": "One of the largest sustained industry-academic quantum-AI research commitments in U.S. higher ed; positions UIUC as a national hub for hybrid quantum-classical AI research.",
+      "date_announced": "2026-04-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "transformative",
+      "technology_focus": [
+        "quantum_and_ai",
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 200000000,
+        "funding_source": "IBM + University of Illinois",
+        "description": "More than $200M in planned investments over the institute's ten-year scope since 2021; 2026 expansion extends the commitment."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM",
+            "Grainger College of Engineering",
+            "NCSA"
+          ],
+          "description": "Deep industry-academic partnership anchoring UIUC's flagship quantum-AI research agenda."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "IBM Quantum",
+          "vendor": "IBM",
+          "role": "Quantum computing hardware"
+        },
+        {
+          "name": "Delta / DeltaAI",
+          "vendor": "NCSA (HPE Cray / NVIDIA)",
+          "role": "HPC / AI supercomputing"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a template for multi-year industry-academic quantum-AI institutes, and demonstrates state-level co-investment (Illinois committed $500M to the Illinois Quantum and Microelectronics Park).",
+      "source_urls": [
+        "https://newsroom.ibm.com/2026-04-16-ibm-and-the-university-of-illinois-urbana-champaign-expand-discovery-accelerator-institute-to-advance-ai-and-quantum-computing",
+        "https://gov-pritzker-newsroom.prezly.com/governor-pritzker-announces-renewal-and-expansion-of-ibm-illinois-discovery-accelerator-institute",
+        "https://pulse2.com/ibm-expands-discovery-accelerator-institute-with-university-of-illinois-to-advance-ai-and-quantum-supercomputing/"
+      ]
+    },
+    {
+      "title": "Capital One Center for Generative AI Safety (ASKS) launch",
+      "description": "Capital One and the Grainger College of Engineering's Siebel School of Computing and Data Science launched the Center for Generative AI Safety, Knowledge Systems, and Cybersecurity (ASKS) with a $3 million, five-year Capital One pledge. The center funds faculty research awards and PhD fellowships focused on safety, trustworthiness, and security of generative AI models.",
+      "significance": "One of the first corporate-funded centers at a U.S. R1 focused specifically on GenAI safety as opposed to general AI research; directly tied to financial-services industry use cases.",
+      "date_announced": "2025-06-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_ethics_framework",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3000000,
+        "funding_source": "Capital One",
+        "description": "$3M pledge over five years for faculty research awards and PhD fellowships."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Capital One"
+          ],
+          "description": "Extension of a decade-long Capital One Tech Incubator Lab partnership at Illinois (since 2015)."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Normalizes industry-funded AI-safety research centers inside engineering colleges, with implications for how universities manage IP and academic independence.",
+      "source_urls": [
+        "https://asks.grainger.illinois.edu/",
+        "https://siebelschool.illinois.edu/news/capitalone-illinois-asks-center",
+        "https://www.capitalone.com/tech/ai/generative-ai-partnerships-with-uiuc/",
+        "https://www.capitalone.com/tech/ai/uiuc-2025-2026-ai-awardees/"
+      ]
+    },
+    {
+      "title": "DeltaAI supercomputer operational for national AI research",
+      "description": "NCSA brought DeltaAI into full production in late 2024 / 2025 — a 320 NVIDIA Grace Hopper GPU system funded by nearly $30M from NSF, delivered through NSF ACCESS and the NAIRR pilot. DeltaAI entered the Top500 at #89 and delivers 633 petaflops of FP16 performance for AI workloads, complementing the original Delta.",
+      "significance": "One of the largest university-hosted GPU resources serving national researchers; cements UIUC's role as a core provider of public AI compute under NAIRR.",
+      "date_announced": "2024-11-21",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 30000000,
+        "funding_source": "National Science Foundation",
+        "description": "Nearly $30M in NSF awards to NCSA for DeltaAI construction and operation."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "NVIDIA",
+            "HPE"
+          ],
+          "description": "Federal-academic partnership with hardware providers; serves national researchers through ACCESS and NAIRR."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DeltaAI",
+          "vendor": "NVIDIA / HPE Cray / NCSA",
+          "role": "AI supercomputer (320 GH200 GPUs)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Strengthens the case that NAIRR-style shared AI compute reduces the compute gap between well-resourced and emerging AI research programs nationally.",
+      "source_urls": [
+        "https://delta.ncsa.illinois.edu/",
+        "https://ncsa.illinois.edu/research/project-highlights/deltaai/",
+        "https://www.hpcwire.com/2024/11/21/deltaai-unveiled-how-ncsa-is-meeting-the-demand-for-next-gen-ai-research/",
+        "https://dl.acm.org/doi/full/10.1145/3708035.3736062"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot with Data Protection campus rollout",
+      "description": "Technology Services announced that Microsoft Copilot with Data Protection is available to faculty and staff through campus Microsoft 365 licensing. Chat data is not saved and is not available to Microsoft or third-party model training. Copilot for Microsoft 365 is offered as a paid add-on through the University WebStore, alongside ChatGPT Edu availability.",
+      "significance": "Establishes the enterprise SSO-gated pattern for commodity generative AI at a large R1, with clear data-protection contracting distinct from consumer tools.",
+      "date_announced": "2023-11-30",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Campus IT / Microsoft enterprise licensing",
+        "description": "Licensing costs undisclosed; Copilot for M365 sold as paid add-on via WebStore."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "OpenAI"
+          ],
+          "description": "Enterprise licensing and contractual data-protection agreements."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot with Data Protection",
+          "vendor": "Microsoft",
+          "role": "SSO-gated enterprise AI chat"
+        },
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "Productivity AI add-on"
+        },
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise LLM available via WebStore"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Illustrates the tiered-tool model (free SSO default, paid productivity add-on, third-party enterprise LLM) becoming standard at R1s.",
+      "source_urls": [
+        "https://www.techservices.illinois.edu/2023/11/30/announcing-microsoft-copilot-with-data-protection/",
+        "https://answers.uillinois.edu/illinois/page.php?id=133037",
+        "https://genai.illinois.edu/ai-apps/"
+      ]
+    },
+    {
+      "title": "Amazon-Illinois Center on AI for Interactive Conversational Experiences (AICE)",
+      "description": "Amazon invested $1M over two years to launch the AICE Center in 2023 inside Grainger's Siebel School of Computing and Data Science. Directed by NLP researcher Heng Ji, AICE funds PhD fellowships paired with Amazon scientist mentors and targets contextual, emotionally intelligent, multimodal conversational AI.",
+      "significance": "Early example of a company-specific conversational-AI research center at an R1, precursor to the later ASKS center with Capital One.",
+      "date_announced": "2023-04-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1000000,
+        "funding_source": "Amazon",
+        "description": "$1M over two years for research and PhD fellowships."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon",
+            "Grainger College of Engineering",
+            "Siebel School of Computing and Data Science"
+          ],
+          "description": "Amazon Scholar-led center with Amazon scientists mentoring UIUC PhD fellows."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates how a single PI (Heng Ji) can anchor multiple industry-academic AI centers at the same institution.",
+      "source_urls": [
+        "https://aice.illinois.edu/",
+        "https://www.amazon.science/news-and-features/amazon-launches-the-aice-center-at-the-university-of-illinois-urbana-champaign",
+        "https://siebelschool.illinois.edu/news/new-amazon-illinois-center-on-ai-or-interactive-conversational-experiences-will-guide-emerging-technology-into%20a-more-intelligent-multimodal-form"
+      ]
+    },
+    {
+      "title": "NSF Molecule Maker Lab Institute (MMLI) AI institute renewal",
+      "description": "NSF renewed MMLI — headquartered at UIUC with Penn State and Georgia Tech partners — with a new five-year, $15M award. Directed by chemical engineering professor Huimin Zhao, MMLI built AlphaSynthesis, an AI-powered retrosynthesis platform, and closed-loop robotic molecule-development systems.",
+      "significance": "Demonstrates sustained NSF confidence in UIUC as a lead for AI-for-science national institutes, and extends UIUC's multi-institute role (alongside AIFARMS).",
+      "date_announced": "2025-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "cross_border_research_alliance",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 15000000,
+        "funding_source": "National Science Foundation",
+        "description": "$15M five-year NSF renewal award; MMLI was originally established in 2020 as an NSF AI Institute."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Penn State",
+            "Georgia Institute of Technology"
+          ],
+          "description": "Multi-university NSF AI Institute consortium."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AlphaSynthesis",
+          "vendor": "MMLI / UIUC",
+          "role": "AI retrosynthesis planning platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Exemplifies the AI-for-science institute model — concentrated federal investment, shared infrastructure, open-source tool output.",
+      "source_urls": [
+        "https://news.illinois.edu/nsf-reinvests-in-molecule-maker-lab-institute-ai-tools-to-solve-chemistrys-challenges/",
+        "https://bioengineering.illinois.edu/news/grainger-ai-institutes"
+      ]
+    },
+    {
+      "title": "USDA-NSF AIFARMS National AI Institute for agriculture",
+      "description": "AIFARMS is a $20M, five-year USDA-NIFA / NSF National AI Research Institute hosted at UIUC's Center for Digital Agriculture. Led by PI Vikram Adve, it spans UChicago, Danforth Plant Science Center, Michigan State, Tuskegee, Argonne, and USDA-ARS, with 40+ researchers working on autonomous farming, cover-crop planting, remote sensing, and livestock management.",
+      "significance": "UIUC's AI-for-agriculture leadership supports the federal push to use AI for food security and sustainable farming.",
+      "date_announced": "2020-08-26",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "underrepresented_student_support",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "USDA-NIFA / NSF",
+        "description": "$20M five-year grant hosted at UIUC's Center for Digital Agriculture."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Chicago",
+            "Donald Danforth Plant Science Center",
+            "Michigan State",
+            "Tuskegee University",
+            "Argonne National Lab",
+            "USDA-ARS"
+          ],
+          "description": "Seven-partner federal AI Institute consortium."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Model for federal AI Institutes that explicitly include HBCUs (Tuskegee) and national labs, improving access and broadening the AI research community.",
+      "source_urls": [
+        "https://aifarms.illinois.edu/",
+        "https://research.illinois.edu/researchunit/artificial-intelligence-future-agricultural-resilience-management-and-sustainability",
+        "https://aiinstitutes.org/institute-aifarms/"
+      ]
+    },
+    {
+      "title": "AI Curriculum Task Force at Office of the Provost",
+      "description": "The Provost's office chartered a Campus AI Curriculum Task Force to develop recommendations for how AI is woven into curricula across all UIUC colleges, complementing the Provost's Gen AI committee and the IT governance structures.",
+      "significance": "Moves AI from the IT operations lane into the academic-affairs lane, a prerequisite for any systematic AI-literacy graduation requirement.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "institutional_ai_strategy",
+        "faculty_role_evolution",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai",
+        "unspecified"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Funded through Provost office operating budget; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal campus initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a governance path for AI-literacy curriculum standards, likely influencing Big Ten peers.",
+      "source_urls": [
+        "https://provost.illinois.edu/about/committees/education-2/campus-ai-curriculum-task-force/",
+        "https://provost.illinois.edu/about/committees/information-technology-committees/"
+      ]
+    },
+    {
+      "title": "CITL GenAI faculty development and AI Innovators community",
+      "description": "The Center for Innovation in Teaching & Learning (CITL) runs hands-on GenAI workshops, the X3 Studio for GenAI/XR experimentation, and an 'AI Innovators' community bringing together faculty, instructors, and staff to share teaching practices. Gies Professor Vishal Sachdev has built course-specific bots; Rhetoric program faculty lead first-year-writing GenAI discussions across ~4,000 students/year.",
+      "significance": "Mature faculty-development model that pairs technical training with pedagogy redesign and ethics, serving one of the largest first-year-writing programs in the country.",
+      "date_announced": "2023-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Provost / CITL operating budget",
+        "description": "Internal CITL staffing and programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty-development programming."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Canvas 'AI in this Course' module",
+          "vendor": "University Library / Canvas Commons",
+          "role": "Syllabus policy template"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a reusable Canvas module for syllabus-level AI policy that any Big Ten institution could import.",
+      "source_urls": [
+        "https://citl.illinois.edu/learn-new-technologies/generative-artificial-intelligence-gen-ai",
+        "https://citl.illinois.edu/citl-101/instructional-spaces-technologies/teaching-with-technology/generative-artificial-intelligence/gen-ai-training-and-consultations",
+        "https://citl.illinois.edu/learn-new-technologies/generative-artificial-intelligence-gen-ai/illinois-community",
+        "https://guides.library.illinois.edu/generativeAI/coursepolicies"
+      ]
+    },
+    {
+      "title": "Gies College of Business Google AI partnership (Gemini, NotebookLM)",
+      "description": "Gies College of Business embeds AI across courses, career services, and capstones. Through a Google partnership, Gies students receive access to Gemini and NotebookLM, and Gies Professor Vishal Sachdev has built course-specific bots.",
+      "significance": "A full business-school adoption of a major-vendor AI toolkit, including first-hand curricular integration, signals how professional schools are responding to employer demand.",
+      "date_announced": "2024-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Gies College / Google partnership",
+        "description": "Vendor partnership with Google; financial terms not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Access to Gemini and NotebookLM for Gies students."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Generative AI assistant"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Document-grounded AI reasoning"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Shows the emerging 'college-specific AI vendor partnership' pattern layered on top of campus-wide contracts.",
+      "source_urls": [
+        "https://giesbusiness.illinois.edu/about/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Chancellor Charles Isbell Jr. appointment (AI researcher as top campus executive)",
+      "description": "On August 1, 2025, Charles Lee Isbell Jr. — a Georgia Tech-trained AI/ML researcher, former Georgia Tech dean of Computing, and former UW-Madison provost — began as Chancellor of UIUC. Isbell helped develop the first at-scale online MSCS program at Georgia Tech and has published 100+ AI papers.",
+      "significance": "One of the few R1 universities with a working AI researcher as its top campus executive, signaling strategic alignment with the AI era.",
+      "date_announced": "2025-08-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "faculty_role_evolution",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "board_and_trustees",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Board of Trustees executive compensation",
+        "description": "Executive hire; compensation publicly filed but not summarized here."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Executive appointment."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Reinforces a trend of placing AI-native leaders in top campus roles; likely accelerates campus-wide AI curricular and research reorganization.",
+      "source_urls": [
+        "https://news.uillinois.edu/view/7815/83595028",
+        "https://uif.uillinois.edu/news/200/charles-lee-isbell-jr-named-chancellor-at-university-of-illinois-urbana-champaign",
+        "https://www.nprillinois.org/education-desk/2025-06-11/next-u-of-i-chancellor-talks-ai-responding-to-trump-policies-and-comic-books"
+      ]
+    },
+    {
+      "title": "Campus AI Summit: Navigating AI Together",
+      "description": "On April 15, 2026, the U. of I. Faculty Senate and Office of the Provost co-sponsored the 'Navigating AI Together: Conversations on Teaching, Research, and Responsibility' forum, including keynote panels, breakout sessions, and an AI resource showcase that convened CITL, the University Library, the Office of Data Science Research, and NCSA.",
+      "significance": "An institution-wide rallying event signaling that AI governance conversations are no longer siloed inside IT or CS.",
+      "date_announced": "2026-04-15",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Faculty Senate / Provost",
+        "description": "Co-sponsored forum, funded internally."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-unit summit."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates the model of using faculty-senate-hosted summits to anchor campus AI dialogue.",
+      "source_urls": [
+        "https://www.techservices.illinois.edu/2026/04/20/inside-the-ai-summit-how-should-i-use-ai-safely/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Artificial Intelligence Innovation (CAII), NCSA",
+      "focus": "Central AI research hub coordinating research across agriculture, astrophysics, automotive, HEP, life sciences",
+      "founded": "2020",
+      "url": "https://ai.ncsa.illinois.edu/"
+    },
+    {
+      "name": "IBM-Illinois Discovery Accelerator Institute",
+      "focus": "Quantum-centric supercomputing + AI algorithms",
+      "founded": "2021",
+      "url": "https://research.illinois.edu/"
+    },
+    {
+      "name": "Amazon-Illinois Center on AI for Interactive Conversational Experiences (AICE)",
+      "focus": "Multimodal, emotionally intelligent conversational AI",
+      "founded": "2023",
+      "url": "https://aice.illinois.edu/"
+    },
+    {
+      "name": "Capital One Illinois Center for Generative AI Safety, Knowledge Systems, and Cybersecurity (ASKS)",
+      "focus": "Generative AI safety, trustworthiness, cybersecurity",
+      "founded": "2025",
+      "url": "https://asks.grainger.illinois.edu/"
+    },
+    {
+      "name": "NSF AI Institute for Future Agricultural Resilience, Management, and Sustainability (AIFARMS)",
+      "focus": "AI for agriculture, sustainability, remote sensing, livestock",
+      "founded": "2020",
+      "url": "https://aifarms.illinois.edu/"
+    },
+    {
+      "name": "NSF Molecule Maker Lab Institute (MMLI)",
+      "focus": "AI for chemical synthesis and molecular discovery",
+      "founded": "2020",
+      "url": "https://news.illinois.edu/nsf-reinvests-in-molecule-maker-lab-institute-ai-tools-to-solve-chemistrys-challenges/"
+    },
+    {
+      "name": "Center for Digital Agriculture",
+      "focus": "Digital agriculture and AI-for-farming",
+      "founded": null,
+      "url": "https://digitalag.illinois.edu/"
+    },
+    {
+      "name": "Lapis Labs (student-led AI research group)",
+      "focus": "Student-driven AI research and AI-powered products",
+      "founded": null,
+      "url": "https://lapis.rocks/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "concentration",
+      "name": "AI / Machine Learning specialization within B.S. Computer Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options"
+    },
+    {
+      "type": "concentration",
+      "name": "Statistics & CS and Mathematics & CS blended B.S. degrees",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options"
+    },
+    {
+      "type": "degree",
+      "name": "B.S. in Data Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Computer Science (MCS and online MCS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://siebelschool.illinois.edu/academics/graduate/professional-mcs"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Information Management (MSIM, AI/ML pathway)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ischool.illinois.edu/academics/graduate/ms-information-management"
+    },
+    {
+      "type": "course",
+      "name": "ECE 408 (Applied Parallel Programming) with Illinois Chat teaching assistant",
+      "level": "both",
+      "launched": "2023-09",
+      "url": "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "University of Illinois (NCSA)",
+      "product": "Illinois Chat (uiuc.chat)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-08",
+      "url": "https://uiuc.chat/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot with Data Protection",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2023-11",
+      "url": "https://answers.uillinois.edu/illinois/page.php?id=133037"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot for Microsoft 365 (paid add-on)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://genai.illinois.edu/ai-apps/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://genai.illinois.edu/ai-apps/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini / NotebookLM (Gies College)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://giesbusiness.illinois.edu/about/artificial-intelligence"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "DeltaAI (with companion Delta)",
+    "gpu_count": 320,
+    "url": "https://delta.ncsa.illinois.edu/",
+    "summary": "NCSA operates DeltaAI (320 NVIDIA GH200 Grace Hopper GPUs delivering 633 PF FP16) alongside the original Delta (HPE Cray, 338 nodes). Combined the systems serve national researchers through NSF ACCESS and the NAIRR pilot, and support the campus Illinois Chat platform. DeltaAI entered the Top500 at #89 and represents roughly $30M of NSF investment."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "IBM-Illinois Discovery Accelerator Institute (cumulative planned investment)",
+      "amount_usd": 200000000,
+      "source": "IBM + Illinois",
+      "purpose": "Quantum computing + AI research (ten-year institute)",
+      "date": "2021-05",
+      "url": "https://newsroom.ibm.com/2026-04-16-ibm-and-the-university-of-illinois-urbana-champaign-expand-discovery-accelerator-institute-to-advance-ai-and-quantum-computing"
+    },
+    {
+      "title": "Illinois Quantum and Microelectronics Park (state co-investment supporting UIUC)",
+      "amount_usd": 500000000,
+      "source": "State of Illinois",
+      "purpose": "Quantum + AI research park (co-located with UIUC ecosystem)",
+      "date": "2024-01",
+      "url": "https://gov-pritzker-newsroom.prezly.com/governor-pritzker-announces-renewal-and-expansion-of-ibm-illinois-discovery-accelerator-institute"
+    },
+    {
+      "title": "Capital One ASKS Center pledge",
+      "amount_usd": 3000000,
+      "source": "Capital One",
+      "purpose": "GenAI safety research, PhD fellowships",
+      "date": "2025-06",
+      "url": "https://siebelschool.illinois.edu/news/capitalone-illinois-asks-center"
+    },
+    {
+      "title": "NSF DeltaAI funding",
+      "amount_usd": 30000000,
+      "source": "National Science Foundation",
+      "purpose": "National AI supercomputer for NAIRR/ACCESS",
+      "date": "2024-11",
+      "url": "https://ncsa.illinois.edu/research/project-highlights/deltaai/"
+    },
+    {
+      "title": "NSF AIFARMS Institute",
+      "amount_usd": 20000000,
+      "source": "USDA-NIFA / NSF",
+      "purpose": "AI for agriculture",
+      "date": "2020-08",
+      "url": "https://aifarms.illinois.edu/"
+    },
+    {
+      "title": "NSF Molecule Maker Lab Institute renewal",
+      "amount_usd": 15000000,
+      "source": "National Science Foundation",
+      "purpose": "AI for molecular synthesis",
+      "date": "2025-09",
+      "url": "https://news.illinois.edu/nsf-reinvests-in-molecule-maker-lab-institute-ai-tools-to-solve-chemistrys-challenges/"
+    },
+    {
+      "title": "Amazon AICE Center",
+      "amount_usd": 1000000,
+      "source": "Amazon",
+      "purpose": "Conversational AI research and fellowships",
+      "date": "2023-04",
+      "url": "https://aice.illinois.edu/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM",
+      "purpose": "Quantum-centric supercomputing + AI (IBM-Illinois Discovery Accelerator Institute)",
+      "date": "2021-05",
+      "url": "https://newsroom.ibm.com/2026-04-16-ibm-and-the-university-of-illinois-urbana-champaign-expand-discovery-accelerator-institute-to-advance-ai-and-quantum-computing"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon",
+      "purpose": "AICE Center on conversational AI",
+      "date": "2023-04",
+      "url": "https://aice.illinois.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Capital One",
+      "purpose": "ASKS Center on GenAI safety (and Capital One Tech Incubator Lab since 2015)",
+      "date": "2025-06",
+      "url": "https://siebelschool.illinois.edu/news/capitalone-illinois-asks-center"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini + NotebookLM access for Gies College of Business",
+      "date": "2024-01",
+      "url": "https://giesbusiness.illinois.edu/about/artificial-intelligence"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Copilot with Data Protection enterprise AI",
+      "date": "2023-11",
+      "url": "https://www.techservices.illinois.edu/2023/11/30/announcing-microsoft-copilot-with-data-protection/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "AI Institutes (MMLI, AIFARMS), DeltaAI, NAIRR pilot",
+      "date": "2020-08",
+      "url": "https://delta.ncsa.illinois.edu/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UChicago, Penn State, Georgia Tech, Danforth, Michigan State, Tuskegee, Argonne, USDA-ARS",
+      "purpose": "MMLI and AIFARMS multi-institution AI Institute consortia",
+      "date": "2020-08",
+      "url": "https://aiinstitutes.org/institute-aifarms/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "Illinois Chat course bots (e.g., ECE 408 teaching assistant)",
+      "scope": "Custom RAG chatbots built on Illinois Chat, used in ECE 408 and other courses since Fall 2023",
+      "url": "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/"
+    },
+    {
+      "type": "other",
+      "name": "Gies course bots (Prof. Vishal Sachdev)",
+      "scope": "Business-school course-specific GenAI bots to enhance learning and appropriate AI use",
+      "url": "https://citl.illinois.edu/learn-new-technologies/generative-artificial-intelligence-gen-ai/illinois-community"
+    },
+    {
+      "type": "chatbot",
+      "name": "Illinois Chat (uiuc.chat)",
+      "scope": "Self-serve platform for any student, faculty, staff to build custom chatbots",
+      "url": "https://uiuc.chat/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "NAIRR pilot participation via DeltaAI",
+      "description": "DeltaAI provides free or low-cost AI compute to national researchers through NSF ACCESS and the NAIRR pilot, broadening access for less-resourced institutions.",
+      "url": "https://ncsa.illinois.edu/research/project-highlights/deltaai/"
+    },
+    {
+      "title": "NCSA AI-focused NSF REU program",
+      "description": "NCSA continues a funded NSF Research Experiences for Undergraduates program bringing ~10 undergraduates/year from diverse academic backgrounds into AI/ML research.",
+      "url": "https://www.ncsa.illinois.edu/2025/02/20/ncsa-awarded-funding-to-continue-ai-focused-nsf-reu-program/"
+    },
+    {
+      "title": "AIFARMS inclusion of HBCU (Tuskegee) and community-facing ag research",
+      "description": "AIFARMS embeds Tuskegee University as a partner and explicitly targets diverse farming communities as stakeholders.",
+      "url": "https://aifarms.illinois.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Illinois",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Illinois is one of the more AI-active states. The U of I System has adopted binding generative AI principles that bind UIUC, UIC, and UIS. At the state level, Illinois has passed approximately half a dozen AI-related laws (classroom use in community colleges via HB1859; mental-health AI counseling; deepfake performer likeness protections; HB2503 creating a State Instructional Technology Advisory Board), and Governor Pritzker has publicly pushed back on federal efforts (December 2025) to restrict state-level AI regulation. Illinois also committed $500M to the Illinois Quantum and Microelectronics Park, a state-level AI/quantum economic development signal directly benefiting UIUC.",
+    "urls": [
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/principles",
+      "https://capitolnewsillinois.com/news/illinois-leaders-wont-back-down-following-trumps-order-limiting-ai-regulation/",
+      "https://capitolnewsillinois.com/news/new-laws-illinois-education-measures-focus-on-immigrant-rights-ai-in-the-classroom/",
+      "https://gov-pritzker-newsroom.prezly.com/governor-pritzker-announces-renewal-and-expansion-of-ibm-illinois-discovery-accelerator-institute"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Illinois Urbana-Champaign is one of the most AI-mature public R1s in the United States, with strength that runs from foundational research through enterprise deployment to campus-scale teaching practice. Research depth is anchored by NCSA's Center for Artificial Intelligence Innovation and its DeltaAI supercomputer (320 NVIDIA GH200 GPUs, ~$30M NSF), which serves national researchers via the NAIRR pilot, alongside four major partnership institutes: IBM-Illinois Discovery Accelerator (quantum + AI, $200M+ planned over ten years, expanded April 2026), Capital One ASKS (GenAI safety, $3M/5 years), Amazon AICE (conversational AI), and two NSF National AI Institutes — AIFARMS for agriculture ($20M) and MMLI for chemical synthesis ($15M renewal, 2025). Enterprise posture is defined by three parallel AI tools: the home-grown Illinois Chat RAG platform launched for Fall 2025, Microsoft Copilot with Data Protection (free for faculty/staff), and ChatGPT Edu, all cataloged at genai.illinois.edu with data-classification guidance. Governance is distributed across the U of I System EVPAA (which publishes binding generative AI principles covering accountability, fairness, privacy, security, inclusiveness, and transparency), the Provost's Campus AI Curriculum Task Force and Gen AI committee, the CIO's Enterprise GenAI team, and CITL's faculty-development community. Teaching integration is mature: CITL runs hands-on GenAI workshops and an AI Innovators community; the Library provides a Canvas Commons 'AI in this Course' module for syllabus policies; the rhetoric program has woven GenAI into the ~4,000-student first-year writing program; and Gies College of Business has a Google Gemini/NotebookLM partnership. Leadership signals matter: in August 2025 UIUC installed Charles Isbell Jr., an AI/ML researcher and former Georgia Tech computing dean, as Chancellor — one of the few R1s with an AI-native top campus executive. State context is supportive: Illinois has passed multiple AI laws, committed $500M to the Illinois Quantum and Microelectronics Park, and publicly resisted federal preemption of state AI regulation. The clearest gap is the absence of a single unified 'UIUC AI Strategy' document — policy and strategy are distributed across System principles, task-force charters, and CIO tool catalogs rather than consolidated into one document, and there is no formal chief AI officer role.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://uiuc.ai/",
+      "https://www.ncsa.illinois.edu/research/artificial-intelligence/",
+      "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/",
+      "https://www.ncsa.illinois.edu/research/project-highlights/illinois-chat/",
+      "https://uiuc.chat/",
+      "https://ai.ncsa.illinois.edu/",
+      "https://ai.ncsa.illinois.edu/its-official-illinois-chat-is-launched-for-campus-community/",
+      "https://delta.ncsa.illinois.edu/",
+      "https://ncsa.illinois.edu/research/project-highlights/deltaai/",
+      "https://ncsa.illinois.edu/research/project-highlights/delta/",
+      "https://www.hpcwire.com/2024/11/21/deltaai-unveiled-how-ncsa-is-meeting-the-demand-for-next-gen-ai-research/",
+      "https://dl.acm.org/doi/full/10.1145/3708035.3736062",
+      "https://www.ncsa.illinois.edu/2025/02/20/ncsa-awarded-funding-to-continue-ai-focused-nsf-reu-program/",
+      "https://newsroom.ibm.com/2026-04-16-ibm-and-the-university-of-illinois-urbana-champaign-expand-discovery-accelerator-institute-to-advance-ai-and-quantum-computing",
+      "https://gov-pritzker-newsroom.prezly.com/governor-pritzker-announces-renewal-and-expansion-of-ibm-illinois-discovery-accelerator-institute",
+      "https://pulse2.com/ibm-expands-discovery-accelerator-institute-with-university-of-illinois-to-advance-ai-and-quantum-supercomputing/",
+      "https://asks.grainger.illinois.edu/",
+      "https://siebelschool.illinois.edu/news/capitalone-illinois-asks-center",
+      "https://www.capitalone.com/tech/ai/generative-ai-partnerships-with-uiuc/",
+      "https://www.capitalone.com/tech/ai/uiuc-2025-2026-ai-awardees/",
+      "https://aice.illinois.edu/",
+      "https://www.amazon.science/news-and-features/amazon-launches-the-aice-center-at-the-university-of-illinois-urbana-champaign",
+      "https://siebelschool.illinois.edu/news/new-amazon-illinois-center-on-ai-or-interactive-conversational-experiences-will-guide-emerging-technology-into%20a-more-intelligent-multimodal-form",
+      "https://aifarms.illinois.edu/",
+      "https://aiinstitutes.org/institute-aifarms/",
+      "https://research.illinois.edu/researchunit/artificial-intelligence-future-agricultural-resilience-management-and-sustainability",
+      "https://news.illinois.edu/nsf-reinvests-in-molecule-maker-lab-institute-ai-tools-to-solve-chemistrys-challenges/",
+      "https://bioengineering.illinois.edu/news/grainger-ai-institutes",
+      "https://provost.illinois.edu/about/committees/education-2/campus-ai-curriculum-task-force/",
+      "https://provost.illinois.edu/about/committees/information-technology-committees/",
+      "https://provost.illinois.edu/staff-directory/john-coleman/",
+      "https://news.illinois.edu/coleman-named-vice-chancellor-for-academic-affairs-and-provost/",
+      "https://www.cio.illinois.edu/",
+      "https://www.cio.illinois.edu/ociostaff/",
+      "https://www.cio.illinois.edu/it-council/",
+      "https://www.techservices.illinois.edu/org-chart/",
+      "https://www.techservices.illinois.edu/2023/11/30/announcing-microsoft-copilot-with-data-protection/",
+      "https://www.techservices.illinois.edu/2025/07/11/get-to-know-new-chief-administrative-officer-jim-hurst/",
+      "https://www.techservices.illinois.edu/2024/12/17/university-of-illinois-announces-key-leadership-updates/",
+      "https://www.techservices.illinois.edu/2026/04/20/inside-the-ai-summit-how-should-i-use-ai-safely/",
+      "https://answers.uillinois.edu/illinois/page.php?id=133037",
+      "https://genai.illinois.edu/ai-apps/",
+      "https://citl.illinois.edu/",
+      "https://citl.illinois.edu/learn-new-technologies/generative-artificial-intelligence-gen-ai",
+      "https://citl.illinois.edu/citl-101/instructional-spaces-technologies/teaching-with-technology/generative-artificial-intelligence/gen-ai-training-and-consultations",
+      "https://citl.illinois.edu/learn-new-technologies/generative-artificial-intelligence-gen-ai/illinois-community",
+      "https://guides.library.illinois.edu/generativeAI/coursepolicies",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/principles",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/instructors",
+      "https://www.cybersecurity.illinois.edu/privacy-considerations-for-generative-ai/",
+      "https://siebelschool.illinois.edu/academics/undergraduate/degree-program-options",
+      "https://siebelschool.illinois.edu/academics/graduate/professional-mcs",
+      "https://ischool.illinois.edu/academics/graduate/ms-information-management",
+      "https://ischool.illinois.edu/research/areas/artificial-intelligence-and-machine-learning",
+      "https://giesbusiness.illinois.edu/about/artificial-intelligence",
+      "https://news.uillinois.edu/view/7815/83595028",
+      "https://uif.uillinois.edu/news/200/charles-lee-isbell-jr-named-chancellor-at-university-of-illinois-urbana-champaign",
+      "https://www.nprillinois.org/education-desk/2025-06-11/next-u-of-i-chancellor-talks-ai-responding-to-trump-policies-and-comic-books",
+      "https://dailyillini.com/news-stories/university-news/administration/2026/01/08/president-killeen-to-step-down-june-2027/",
+      "https://capitolnewsillinois.com/news/illinois-leaders-wont-back-down-following-trumps-order-limiting-ai-regulation/",
+      "https://capitolnewsillinois.com/news/new-laws-illinois-education-measures-focus-on-immigrant-rights-ai-in-the-classroom/",
+      "https://news.illinois.edu/illinois-sets-another-freshman-record-as-enrollment-tops-60000/",
+      "https://ipmnewsroom.org/university-of-illinois-urbana-champaign-sees-record-breaking-enrollment-of-over-59000-students-as-fall-semester-begins/"
+    ],
+    "search_queries": [
+      "\"University of Illinois Urbana-Champaign\" AI strategy 2025 2026",
+      "\"University of Illinois Urbana-Champaign\" generative AI policy acceptable use faculty",
+      "\"University of Illinois Urbana-Champaign\" chief AI officer OR \"AI council\" OR \"AI committee\"",
+      "\"University of Illinois Urbana-Champaign\" CIO technology services 2025",
+      "\"Illinois Chat\" UIUC AI platform launch Fall 2025 students faculty",
+      "\"NCSA\" University Illinois \"Delta AI\" OR \"DeltaAI\" supercomputer GPU 2025",
+      "\"IBM-Illinois Discovery Accelerator\" quantum AI 2026 investment",
+      "\"Amazon-Illinois\" AICE conversational AI center Urbana-Champaign investment",
+      "\"Capital One Center\" ASKS University Illinois Urbana-Champaign generative AI safety launch",
+      "UIUC \"Siebel School of Computing and Data Science\" AI degree undergraduate 2025",
+      "\"University of Illinois Urbana-Champaign\" Microsoft Copilot OR ChatGPT Edu OR Gemini campus enterprise",
+      "UIUC president chancellor provost 2026 new leadership",
+      "UIUC \"provost\" \"John Coleman\" OR \"interim provost\" Urbana-Champaign 2025",
+      "\"Illinois\" state higher education AI policy governor executive order 2024 2025",
+      "UIUC \"Center for Innovation in Teaching and Learning\" CITL generative AI faculty",
+      "\"University of Illinois\" NSF AI Institute grant award 2024 2025 Urbana-Champaign",
+      "\"University of Illinois\" Urbana-Champaign enrollment 2024 2025 total students",
+      "UIUC \"AIFARMS\" institute agricultural AI Urbana investment",
+      "UIUC Center for Artificial Intelligence Innovation CAII NCSA research projects",
+      "UIUC \"School of Information Sciences\" iSchool AI curriculum master's degree",
+      "\"University of Illinois Urbana-Champaign\" Granger Foundation Gies College AI",
+      "UIUC data privacy FERPA AI generative ai guidance restriction protected data"
+    ],
+    "gaps_acknowledged": [
+      "No single consolidated 'UIUC AI Strategy' document was found; strategy is distributed across U of I System principles, Provost task-force charters, and CIO tool catalogs.",
+      "UIUC does not appear to have a formal 'Chief AI Officer' title; closest equivalents are the CIO's Enterprise GenAI lead and the Provost's Campus AI Curriculum Task Force chair (named individuals not disclosed publicly in searched sources).",
+      "User counts for enterprise AI tools (Illinois Chat, Copilot, ChatGPT Edu) were not publicly disclosed.",
+      "No ongoing AI-related lawsuits or controversies were found in public search results; absence of controversies is noted rather than asserted.",
+      "Exact adoption date of University of Illinois System Generative AI Principles page estimated as 2024-01 based on indirect signals; precise publication date not listed on the page."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "platform_first",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 17,
+        "research_compute_powerhouse": 20,
+        "curriculum_led": 10,
+        "governance_led": 14,
+        "student_success_led": 3,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "DeltaAI (with companion Delta)",
+        "gpu_count": 320,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 769000000,
+      "funding_source_buckets": {
+        "other_unclear": 4,
+        "public_federal_state": 7,
+        "industry_vendor": 4,
+        "institutional": 5
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "tutor": 1,
+        "other": 1,
+        "chatbot": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Copilot for Microsoft 365",
+            "Copilot for Microsoft 365 (paid add-on)",
+            "Microsoft Copilot with Data Protection"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 3,
+          "products": [
+            "Gemini",
+            "Gemini / NotebookLM (Gies College)",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "Delta / DeltaAI",
+            "DeltaAI"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "University of Illinois (NCSA) Illinois Chat (uiuc.chat)",
+          "mentions": 2,
+          "products": [
+            "Illinois Chat (uiuc.chat)"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "IBM Quantum"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas 'AI in this Course' module"
+          ]
+        },
+        {
+          "vendor": "MMLI / UIUC AlphaSynthesis",
+          "mentions": 1,
+          "products": [
+            "AlphaSynthesis"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Illinois Chat campus-wide LLM platform launch",
+          "summary": "Illinois joins a small group of R1s deploying a home-grown, RAG-first generative AI platform rather than reselling a commercial tool, giving the institution architectural control over data flow and model choice.",
+          "source_url": "https://www.ncsa.illinois.edu/2025/10/08/illinois-chat-is-launched-for-campus-community/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Microsoft Copilot with Data Protection campus rollout",
+          "summary": "Establishes the enterprise SSO-gated pattern for commodity generative AI at a large R1, with clear data-protection contracting distinct from consumer tools.",
+          "source_url": "https://www.techservices.illinois.edu/2023/11/30/announcing-microsoft-copilot-with-data-protection/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "AI Curriculum Task Force at Office of the Provost",
+          "summary": "Moves AI from the IT operations lane into the academic-affairs lane, a prerequisite for any systematic AI-literacy graduation requirement.",
+          "source_url": "https://provost.illinois.edu/about/committees/education-2/campus-ai-curriculum-task-force/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "CITL GenAI faculty development and AI Innovators community",
+          "summary": "Mature faculty-development model that pairs technical training with pedagogy redesign and ethics, serving one of the largest first-year-writing programs in the country.",
+          "source_url": "https://citl.illinois.edu/learn-new-technologies/generative-artificial-intelligence-gen-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Gies College of Business Google AI partnership (Gemini, NotebookLM)",
+          "summary": "A full business-school adoption of a major-vendor AI toolkit, including first-hand curricular integration, signals how professional schools are responding to employer demand.",
+          "source_url": "https://giesbusiness.illinois.edu/about/artificial-intelligence"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "No single consolidated 'UIUC AI Strategy' document was found; strategy is distributed across U of I System principles, Provost task-force charters, and CIO tool catalogs.",
+        "UIUC does not appear to have a formal 'Chief AI Officer' title; closest equivalents are the CIO's Enterprise GenAI lead and the Provost's Campus AI Curriculum Task Force chair (named individuals not disclosed publicly in searched sources).",
+        "User counts for enterprise AI tools (Illinois Chat, Copilot, ChatGPT Edu) were not publicly disclosed.",
+        "No ongoing AI-related lawsuits or controversies were found in public search results; absence of controversies is noted rather than asserted.",
+        "Exact adoption date of University of Illinois System Generative AI Principles page estimated as 2024-01 based on indirect signals; precise publication date not listed on the page."
+      ]
+    }
+  }
+}

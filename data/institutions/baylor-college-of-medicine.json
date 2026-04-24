@@ -1,0 +1,1396 @@
+{
+  "institution": "Baylor College of Medicine",
+  "slug": "baylor-college-of-medicine",
+  "city_state": "Houston, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 1699,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Paul Klotman, MD (retiring June 30, 2026; Jakub Tolar, MD, PhD succeeds July 1, 2026)",
+      "url": "https://www.bcm.edu/about-us/leadership/office-of-the-president"
+    },
+    "provost": {
+      "name": "Alicia Monroe, MD",
+      "url": "https://www.bcm.edu/about-us/leadership/college-administration"
+    },
+    "cio": {
+      "name": "Lee Leiber",
+      "url": "https://theorg.com/org/baylor-college-of-medicine/org-chart/lee-lieber"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Andreas Tolias, PhD",
+      "title": "Founder and Director, Center for Neuroscience and Artificial Intelligence; Brown Foundation Endowed Chair of Neuroscience",
+      "url": "https://www.bcm.edu/departments/neuroscience"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [],
+    "summary": "BCM has not published a single, unified institutional AI strategy document. Its public AI posture is distributed across research initiatives (Center for Neuroscience and AI, AI in Health Lab, CHHAIN, Center for Medical Ethics and Health Policy), a continuing professional development series on AI in academic medicine (BCM 202 AY25), and programmatic partnerships with Rice, CHI St. Luke's, and the Michael E. DeBakey VA. Emphasis is on responsible, equity-focused health AI with humanities and ethics integration rather than a broad administrative AI roadmap."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": false,
+    "policy_urls": [],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "HIPAA-compliant handling of PHI in any AI workflow",
+      "Ethics review of AI in clinical and research settings via Center for Medical Ethics and Health Policy",
+      "Epic EHR governs clinical documentation and AI-related clinical data flows"
+    ],
+    "summary": "No publicly posted institution-wide acceptable use policy for generative AI was located in open research. BCM's cautious posture is inferred from its HIPAA-regulated clinical environment, ethics oversight via the Center for Medical Ethics and Health Policy, and emphasis on human-in-the-loop AI in publications. Note: search results frequently conflate BCM with the separately-governed Baylor University (Waco), which has its own GenAI guidelines; those do not apply to BCM."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Institutional Policy Committee",
+        "type": "committee",
+        "scope": "Institution-wide policy development and amendment process (est. March 2015); general-purpose body that would review any future AI policy.",
+        "url": "https://www.bcm.edu/about-us/leadership/institutional-policy-committee"
+      },
+      {
+        "name": "Center for Medical Ethics and Health Policy",
+        "type": "office",
+        "scope": "40+ year center providing ethics oversight and research on AI trust, consent, and health equity; de facto AI ethics governance hub.",
+        "url": "https://www.bcm.edu/academic-centers/medical-ethics-and-health-policy"
+      },
+      {
+        "name": "Office of Research IT",
+        "type": "office",
+        "scope": "Research computing, data infrastructure, and oversight of AI/ML research platforms across BCM.",
+        "url": "https://www.bcm.edu/research/research-offices/office-of-research-it"
+      }
+    ],
+    "summary": "BCM does not have a single named AI council or task force. Governance is distributed: the Institutional Policy Committee handles institution-wide policy, the Center for Medical Ethics and Health Policy anchors AI ethics and trust research, and Office of Research IT manages research compute. No chief AI officer role exists as of April 2026."
+  },
+  "initiatives": [
+    {
+      "title": "Center for Humanities-based Health AI Innovation (CHHAIN)",
+      "description": "Three-year center co-led by Rice's Medical Humanities Research Institute and BCM's Center for Medical Ethics and Health Policy to integrate humanities research into trustworthy health AI. Co-directed by Kirsten Ostherr (Rice) and Vasiliki Rahimzadeh (BCM).",
+      "significance": "One of the few NEH-funded health AI centers and a flagship humanities-grounded approach to responsible AI in medicine, combining ethics, patient narratives, and policy translation.",
+      "date_announced": "2025-08-05",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "cross_border_research_alliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 500000,
+        "funding_source": "National Endowment for the Humanities",
+        "description": "$500,000 NEH grant over three years to establish CHHAIN in Helix Park, Houston."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Rice University",
+            "Rice Baker Institute for Public Policy",
+            "Hackett Center for Mental Health (Meadows Mental Health Policy Institute)"
+          ],
+          "description": "Multi-institutional hub with Houston-area humanities, policy, and mental health partners."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions BCM as a national voice on trustworthy-AI frameworks shaped by humanities and patient narratives.",
+      "source_urls": [
+        "https://news.rice.edu/news/2025/future-ai-human-rice-baylor-college-medicine-lead-center-humanities-based-health-ai",
+        "https://houston.innovationmap.com/baylor-rice-chhain-ai-center-2673873757.html"
+      ]
+    },
+    {
+      "title": "Center for Neuroscience and Artificial Intelligence",
+      "description": "Strategic research center in BCM's Department of Neuroscience, founded and directed by Andreas Tolias, PhD. Combines imaging, electrophysiology, molecular and behavioral methods with machine learning to understand visual intelligence and build brain-inspired AI.",
+      "significance": "Positions BCM at the fundamental-AI frontier, bridging neuroscience and ML with NIH Director's Pioneer Award-level PI leadership.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NIH, DARPA, Brown Foundation Endowed Chair",
+        "description": "Sustained NIH Director's Pioneer Award, BRAIN Initiative grants, and DARPA funding to the Tolias Lab and center."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH BRAIN Initiative",
+            "DARPA"
+          ],
+          "description": "Federally funded brain-wide connectivity mapping and neural-network research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bcm.edu/departments/neuroscience",
+        "https://toliaslab.org/"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence in Health Lab (ICTR)",
+      "description": "Applied clinical-AI lab led by Dr. Javad Razjouyan, housed jointly in BCM's Institute for Clinical and Translational Research and the Michael E. DeBakey VA's IQuESt. Focus on translating ML into interpretable decision support at the point of care.",
+      "significance": "Rare academic/VA joint AI translation lab explicitly bridging the ML-to-clinical-deployment gap that most research centers leave unresolved.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "BCM ICTR, VA IQuESt",
+        "description": "Core-resource funding within BCM's CTSA-backed ICTR and the VA DeBakey IQuESt center."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Michael E. DeBakey VA Medical Center"
+          ],
+          "description": "Joint BCM-VA translational AI lab."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bcm.edu/research/research-offices/institute-for-clinical-and-translational-research/service-cores/featured-resources/artificial-intelligence-in-health-lab"
+      ]
+    },
+    {
+      "title": "AI-MARRVEL Rare Disease Diagnostic AI",
+      "description": "Machine-learning system developed by BCM researchers (Pengfei Liu, Hugo Bellen, Zhandong Liu) that uses a random-forest classifier trained on 3.5M+ variants plus expert-engineered features to prioritize causative variants for Mendelian disorders. Doubled solve rates across three real-world cohorts.",
+      "significance": "Among the highest-impact AI-for-rare-disease tools in academic medicine, published in NEJM AI and deployed through Baylor Genetics.",
+      "date_announced": "2024-04-25",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "NIH, Baylor Genetics",
+        "description": "Built on MARRVEL platform; subsequent commercial spinout via Baylor Genetics / MARRVEL AI."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Baylor Genetics",
+            "MARRVEL AI"
+          ],
+          "description": "Commercial translation partner delivering AI diagnostic services."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH Undiagnosed Diseases Network",
+            "Deciphering Developmental Disorders (DDD) project"
+          ],
+          "description": "Validation cohorts for diagnostic accuracy."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI-MARRVEL",
+          "vendor": "Baylor College of Medicine / MARRVEL AI",
+          "role": "Genetic variant prioritization AI"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bcm.edu/news/using-ai-to-improve-diagnosis-of-rare-genetic-disorders",
+        "https://ai.nejm.org/doi/abs/10.1056/AIoa2300009",
+        "https://www.marrvel.ai/"
+      ]
+    },
+    {
+      "title": "Rice-BCM AI for Acute Kidney Injury Prevention in Cardiac Surgery ($2.5M NIH)",
+      "description": "Joint Rice University and BCM project to develop an AI system that predicts and manages acute kidney injury in cardiac surgery patients using AI-driven alerts.",
+      "significance": "Concrete example of federally funded cross-institution clinical-AI deployment in a high-risk perioperative setting.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2500000,
+        "funding_source": "National Institutes of Health",
+        "description": "$2.5M NIH grant for joint Rice-BCM AI cardiac surgery safety system."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Rice University"
+          ],
+          "description": "Rice bioengineering and BCM surgery joint development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.geneonline.com/rice-university-and-baylor-college-of-medicine-receive-2-5-million-nih-grant-to-develop-ai-system-for-reducing-acute-kidney-injury-in-cardiac-surgery/"
+      ]
+    },
+    {
+      "title": "DATAMAP Cardiac Drug-Safety AI (ARPA-H / Inductive Bio)",
+      "description": "BCM's Department of Surgery co-leads the cardiac-tissue modeling component of DATAMAP (Digital Acceleration of Toxicity Assessment with Mechanistic and AI-driven Predictions), using human heart slice cultures with multi-electrode arrays to train AI cardiotoxicity models.",
+      "significance": "One of BCM's first ARPA-H contracts and an early example of AI-first drug-toxicity prediction that could reduce animal testing.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 21000000,
+        "funding_source": "ARPA-H (via Inductive Bio lead contract, up to $21M total)",
+        "description": "Inductive Bio-led ARPA-H contract for drug toxicity AI; BCM is a subawardee."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Inductive Bio",
+            "Amgen",
+            "Cincinnati Children's Hospital Medical Center",
+            "Torch Bio"
+          ],
+          "description": "Industry-academic consortium under ARPA-H contract."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DATAMAP",
+          "vendor": "Inductive Bio",
+          "role": "AI drug cardiotoxicity prediction platform"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bcm.edu/news/bcm-to-lead-cardiac-innovation-ai-driven-drug-safety-project",
+        "https://finance.yahoo.com/news/inductive-bio-announces-21m-award-130000609.html"
+      ]
+    },
+    {
+      "title": "AI-Driven Liver Transplant Outcome Prediction",
+      "description": "BCM abdominal transplantation division, with CHI St. Luke's Health and InformAI, built and tested Random Forest and AdaBoost models incorporating 324 disease variables to predict post-liver-transplant survival; the tool supports but does not replace clinician judgment in organ allocation.",
+      "significance": "Early production-adjacent clinical-AI effort that illustrates human-in-the-loop design philosophy now standard in BCM's AI posture.",
+      "date_announced": "2019-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF STTR Phase I (to InformAI)",
+        "description": "NSF Small Business Technology Transfer Phase I funded InformAI; BCM contributed clinical data and validation."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "InformAI",
+            "CHI St. Luke's Health"
+          ],
+          "description": "Houston-based startup-academic-health-system triad."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Liver transplant outcome predictor",
+          "vendor": "InformAI",
+          "role": "Clinical decision support AI"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Reinforces explicit human-in-the-loop posture for BCM clinical AI.",
+      "source_urls": [
+        "https://www.tmc.edu/news/2019/08/baylor-college-of-medicine-is-experimenting-with-ai-to-improve-liver-transplant-outcomes/"
+      ]
+    },
+    {
+      "title": "BCM 202 AY25 Continuing Professional Development AI Series",
+      "description": "BCM CPD series for faculty and clinicians on identifying and using AI tools to streamline clinical workflows, enhance curriculum design, and integrate AI into academic medicine. Formats include lectures, case presentations, literature review, and panel discussion.",
+      "significance": "Institutionalizes AI faculty development as CME, rather than leaving adoption to informal channels.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "BCM Continuing Professional Development",
+        "description": "Operating cost of CPD series; no separately disclosed budget."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals that faculty are expected to adopt AI workflows within ethical guardrails.",
+      "source_urls": [
+        "https://cpd.education.bcm.edu/bcm-202-ay25",
+        "https://clinicianresources.bcm.edu/interest-group/artificial-intelligence-and-technology/"
+      ]
+    },
+    {
+      "title": "Clinical Informatics Fellowship (Pathology & Internal Medicine)",
+      "description": "Two-year ACGME-accredited fellowship preparing physicians for board certification in Clinical Informatics, including AMIA 10x10, Epic Physician Builder I & II, and a capstone; fellowship engages digital pathology, telepathology, and clinical-AI projects.",
+      "significance": "Produces the clinician-informaticist workforce required to deploy and govern AI in healthcare at scale.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "BCM Department of Pathology & Immunology; ACGME accreditation",
+        "description": "Standard fellowship salary lines; no separately disclosed AI-specific budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Epic",
+            "AMIA"
+          ],
+          "description": "Required Epic Physician Builder and AMIA 10x10 training components."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Epic EHR",
+          "vendor": "Epic Systems",
+          "role": "Core EHR platform and informatics training environment"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Board-certified clinical informaticists become the primary human oversight layer for BCM clinical AI.",
+      "source_urls": [
+        "https://amia.org/careers-certifications/informatics-academic-programs/baylor-college-medicine/clinical-informatics",
+        "https://www.bcm.edu/departments/pathology-and-immunology/education/clinical-informatics-fellowship"
+      ]
+    },
+    {
+      "title": "Epic EHR as AI Deployment Substrate",
+      "description": "BCM selected Epic as its enterprise EHR in 2014; EpicCare Link provides view-only access to the full Baylor Medicine health record. BCM's clinical-AI work and informatics fellowships are grounded in the Epic platform.",
+      "significance": "Anchors BCM in the Epic AI ecosystem (ambient documentation, in-basket, deterioration models) available to Epic customers, even though specific BCM deployments of Epic-native AI are not publicly documented.",
+      "date_announced": "2014-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "BCM operating budget",
+        "description": "Enterprise Epic implementation (2014) with ongoing license, hosting, and professional services costs."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Epic Systems"
+          ],
+          "description": "Enterprise EHR vendor relationship."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Epic EHR",
+          "vendor": "Epic Systems",
+          "role": "Enterprise electronic health record and clinical AI substrate"
+        },
+        {
+          "name": "EpicCare Link",
+          "vendor": "Epic Systems",
+          "role": "Community-partner access portal"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "All clinical AI at BCM must integrate with and be governed under Epic's data, audit, and HIPAA controls.",
+      "source_urls": [
+        "https://www.appsruntheworld.com/customers-database/purchases/view/baylor-college-of-medicine-united-states-selects-epic-ehr-for-electronic-health-record",
+        "https://www.bcm.edu/healthcare/for-physicians/epiccare-link"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot Adoption at BCM",
+      "description": "BCM has adopted Microsoft 365 Copilot to a degree that the institution has at least one named Microsoft 365 Copilot Champion on staff. Deployment scope and user count are not publicly disclosed.",
+      "significance": "Signals that BCM is among the academic medical centers integrating enterprise generative AI into daily knowledge work, even without a public announcement.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "BCM IT operating budget",
+        "description": "Undisclosed Microsoft 365 Copilot licensing."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise productivity AI."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Enterprise generative-AI productivity assistant"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "HIPAA scope forces careful segmentation between PHI and Copilot workflows.",
+      "source_urls": [
+        "https://www.linkedin.com/in/forcemultiplier/"
+      ]
+    },
+    {
+      "title": "BCM Research High-Performance Computing (CMMR HPCC & CIBR Clusters)",
+      "description": "BCM operates multiple research HPC clusters including the CMMR HPCC (12 Intel-based 64-bit compute nodes, ~320 physical compute cores on Intel 'Emerald Rapids', plus two dedicated Tesla-class GPU nodes for ML) and medium-scale Linux clusters in the CIBR Center.",
+      "significance": "Provides in-house GPU capacity for ML-heavy genomics and microbiome work, reducing reliance on cloud compute for sensitive data.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "BCM research centers (CMMR, CIBR) and collaborative PI funds",
+        "description": "Condominium-style cluster funded by center cores and investigator contributions."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "CMMR HPCC",
+          "vendor": "BCM Alkek Center for Metagenomics and Microbiome Research",
+          "role": "Research HPC with GPU ML nodes"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bcm.edu/research/research-centers/alkek-center-for-metagenomics-and-microbiome-research/cmmr-sequencing-center/facilities-and-resources",
+        "https://www.bcm.edu/research/research-centers/computational-and-integrative-biomedical-research-center/computation-data-resources"
+      ]
+    },
+    {
+      "title": "Rice-BCM Community Health Symposium: AI, Digital Health and the Built Environment",
+      "description": "Inaugural 2025 symposium co-hosted by Rice and BCM at the BioScience Research Collaborative, co-led by David Abraham (Rice) and Dr. LeChauncy Woodard (BCM associate dean). Focus on AI, geospatial analytics, and digital health for health equity in underserved Harris County communities.",
+      "significance": "Puts BCM at the center of an academic-medical-community conversation on AI that explicitly foregrounds health-disparity reduction, not just clinical performance.",
+      "date_announced": "2025-06-25",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "underrepresented_student_support",
+        "multilingual_and_culturally_responsive_ai"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Rice ENRICH Office",
+        "description": "Sponsored by Rice's Educational and Research Initiatives for Collaborative Health (ENRICH) Office."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Rice University",
+            "Houston Methodist Cypress Hospital",
+            "UC Berkeley (speaker)",
+            "Harris County community partners"
+          ],
+          "description": "Cross-sector convening planning a Harris County AI-enabled public housing evaluation pilot."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "White paper and pilot projects are intended to inform local public-housing and community-sensor policy.",
+      "source_urls": [
+        "https://news.rice.edu/news/2025/rice-and-baylor-college-medicine-host-ai-and-health-equity-symposium"
+      ]
+    },
+    {
+      "title": "Center for Medical Ethics and Health Policy AI Trust Research",
+      "description": "Multi-year research program led by Kristin Kostick-Quenet and colleagues at BCM's Center for Medical Ethics and Health Policy on trust criteria for AI in health, patient consent, and right-to-explanation considerations.",
+      "significance": "Provides the normative-ethics backbone for BCM's 'humanities-based' AI posture and feeds national policy discussions on AI transparency in medicine.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal center funding; federally funded research grants",
+        "description": "Sustained ethics-research program; specific AI-line funding not broken out."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Informs how BCM and peer institutions frame trustworthy AI, patient consent, and explanation rights.",
+      "source_urls": [
+        "https://www.bcm.edu/academic-centers/medical-ethics-and-health-policy",
+        "https://pubmed.ncbi.nlm.nih.gov/37979976/"
+      ]
+    },
+    {
+      "title": "NIH Director's New Innovator Awards Supporting AI/ML Research",
+      "description": "Three BCM faculty received NIH Director's New Innovator Awards ($2.4M each), including Dr. Hongjie Li, who combines single-cell sequencing with machine learning to construct aging trajectories.",
+      "significance": "Demonstrates that BCM's AI research is not concentrated in a single lab but is embedded across early-career investigators and core biomedical problems.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 7200000,
+        "funding_source": "NIH Common Fund High-Risk, High-Reward Research program",
+        "description": "3 x $2.4M New Innovator Awards across three BCM PIs."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH"
+          ],
+          "description": "NIH Common Fund High-Risk, High-Reward program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://patientdaily.com/stories/664996726-baylor-college-faculty-receive-nih-awards-for-groundbreaking-medical-research"
+      ]
+    },
+    {
+      "title": "Baylor-UH Clinical and Translational Science Award ($44.2M)",
+      "description": "BCM and the University of Houston were jointly awarded a $44.2M Clinical and Translational Science Award from the NIH National Center for Advancing Translational Research (August 2024) to expand the regional translational research hub, including data-science and AI-relevant cores.",
+      "significance": "Funds the institutional ICTR infrastructure on which BCM's Artificial Intelligence in Health Lab and other AI translation work depend.",
+      "date_announced": "2024-08-23",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 44200000,
+        "funding_source": "NIH National Center for Advancing Translational Research",
+        "description": "$44.2M CTSA-style regional translational research hub award."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Houston"
+          ],
+          "description": "Regional translational research hub."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uh.edu/news-events/stories/2024/august/08232024-uh-bcm-grant.php"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Neuroscience and Artificial Intelligence",
+      "focus": "Brain-inspired AI, visual intelligence, and neural-network research; combines imaging, electrophysiology, and ML.",
+      "founded": null,
+      "url": "https://www.bcm.edu/departments/neuroscience"
+    },
+    {
+      "name": "Artificial Intelligence in Health Lab (ICTR)",
+      "focus": "Translating machine learning into interpretable clinical decision support at the point of care.",
+      "founded": null,
+      "url": "https://www.bcm.edu/research/research-offices/institute-for-clinical-and-translational-research/service-cores/featured-resources/artificial-intelligence-in-health-lab"
+    },
+    {
+      "name": "Center for Humanities-based Health AI Innovation (CHHAIN)",
+      "focus": "Humanities- and ethics-grounded trustworthy health AI; patient narratives, history, and policy translation.",
+      "founded": "2025",
+      "url": "https://news.rice.edu/news/2025/future-ai-human-rice-baylor-college-medicine-lead-center-humanities-based-health-ai"
+    },
+    {
+      "name": "Center for Medical Ethics and Health Policy",
+      "focus": "Ethics of AI in health, trust criteria, consent, and patient right-to-explanation; 40+ year center.",
+      "founded": null,
+      "url": "https://www.bcm.edu/academic-centers/medical-ethics-and-health-policy"
+    },
+    {
+      "name": "Computational and Integrative Biomedical Research Center (CIBR)",
+      "focus": "Computational infrastructure and data resources for biomedical and AI/ML research.",
+      "founded": null,
+      "url": "https://www.bcm.edu/research/research-centers/computational-and-integrative-biomedical-research-center"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Clinical Informatics Fellowship (ACGME-accredited, two years)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.bcm.edu/departments/pathology-and-immunology/education/clinical-informatics-fellowship"
+    },
+    {
+      "type": "course",
+      "name": "BCM 202 AY25 — AI in Academic Medicine CPD series",
+      "level": "grad",
+      "launched": "2024-07",
+      "url": "https://cpd.education.bcm.edu/bcm-202-ay25"
+    },
+    {
+      "type": "course",
+      "name": "Artificial Intelligence and Technology CME (Clinician Resources)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://clinicianresources.bcm.edu/interest-group/artificial-intelligence-and-technology/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic EHR (with EpicCare Link)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2014-01",
+      "url": "https://www.bcm.edu/healthcare/for-physicians/epiccare-link"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.linkedin.com/in/forcemultiplier/"
+    },
+    {
+      "vendor": "BMJ",
+      "product": "BMJ Impact Analytics",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://bmjgroup.com/bmj-impact-analytics-now-available-at-baylor-college-of-medicine/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "CMMR HPCC",
+    "gpu_count": null,
+    "url": "https://www.bcm.edu/research/research-centers/alkek-center-for-metagenomics-and-microbiome-research/cmmr-sequencing-center/facilities-and-resources",
+    "summary": "BCM operates multiple research HPC resources including the CMMR HPCC (12 Intel 'Emerald Rapids'-based compute nodes, ~320 physical cores, two Tesla-class GPU nodes for ML) and the CIBR Center's medium-scale Linux clusters. No centralized BCM-wide named supercomputer was identified in public sources; most compute is center- and PI-funded."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Center for Precision Medicine Models NIH grant",
+      "amount_usd": 10000000,
+      "source": "National Institutes of Health",
+      "purpose": "Five-year grant continuing use of precision models (including AI-adjacent approaches) to study rare genetic diseases.",
+      "date": "2024-01",
+      "url": "https://www.bcm.edu/news/center-for-precision-medicine-models-receives-10-million-nih-grant"
+    },
+    {
+      "title": "Rice-BCM AI for Acute Kidney Injury in Cardiac Surgery",
+      "amount_usd": 2500000,
+      "source": "National Institutes of Health",
+      "purpose": "AI-driven alert system for predicting and managing AKI in cardiac surgery patients.",
+      "date": null,
+      "url": "https://www.geneonline.com/rice-university-and-baylor-college-of-medicine-receive-2-5-million-nih-grant-to-develop-ai-system-for-reducing-acute-kidney-injury-in-cardiac-surgery/"
+    },
+    {
+      "title": "CHHAIN — Center for Humanities-based Health AI Innovation",
+      "amount_usd": 500000,
+      "source": "National Endowment for the Humanities",
+      "purpose": "Three-year Rice/BCM center embedding humanities research into trustworthy health AI.",
+      "date": "2025-08",
+      "url": "https://news.rice.edu/news/2025/future-ai-human-rice-baylor-college-medicine-lead-center-humanities-based-health-ai"
+    },
+    {
+      "title": "DATAMAP cardiac drug-safety AI (BCM subaward under Inductive Bio ARPA-H contract)",
+      "amount_usd": 21000000,
+      "source": "ARPA-H (prime: Inductive Bio)",
+      "purpose": "AI drug cardiotoxicity prediction; BCM leads human heart slice cardiac modeling.",
+      "date": null,
+      "url": "https://www.bcm.edu/news/bcm-to-lead-cardiac-innovation-ai-driven-drug-safety-project"
+    },
+    {
+      "title": "Baylor-UH Clinical and Translational Science Award",
+      "amount_usd": 44200000,
+      "source": "NIH National Center for Advancing Translational Research",
+      "purpose": "Regional translational research hub, including AI-relevant data-science cores.",
+      "date": "2024-08",
+      "url": "https://www.uh.edu/news-events/stories/2024/august/08232024-uh-bcm-grant.php"
+    },
+    {
+      "title": "NIH Director's New Innovator Awards (3 BCM PIs)",
+      "amount_usd": 7200000,
+      "source": "NIH Common Fund",
+      "purpose": "High-Risk, High-Reward research including ML-enabled aging trajectories (Hongjie Li).",
+      "date": null,
+      "url": "https://patientdaily.com/stories/664996726-baylor-college-faculty-receive-nih-awards-for-groundbreaking-medical-research"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Rice University",
+      "purpose": "Multiple joint AI efforts: CHHAIN, AI for acute kidney injury in cardiac surgery, Community Health AI Symposium.",
+      "date": null,
+      "url": "https://news.rice.edu/news/2025/future-ai-human-rice-baylor-college-medicine-lead-center-humanities-based-health-ai"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Michael E. DeBakey VA Medical Center (IQuESt)",
+      "purpose": "Joint Artificial Intelligence in Health Lab; bedside AI translation.",
+      "date": null,
+      "url": "https://www.bcm.edu/research/research-offices/institute-for-clinical-and-translational-research/service-cores/featured-resources/artificial-intelligence-in-health-lab"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "InformAI",
+      "purpose": "AI liver transplant outcome prediction with CHI St. Luke's Health.",
+      "date": "2019-08",
+      "url": "https://www.tmc.edu/news/2019/08/baylor-college-of-medicine-is-experimenting-with-ai-to-improve-liver-transplant-outcomes/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Inductive Bio, Amgen, Cincinnati Children's, Torch Bio",
+      "purpose": "DATAMAP ARPA-H AI drug cardiotoxicity consortium.",
+      "date": null,
+      "url": "https://www.bcm.edu/news/bcm-to-lead-cardiac-innovation-ai-driven-drug-safety-project"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Baylor Genetics / MARRVEL AI",
+      "purpose": "Commercial translation of AI-MARRVEL rare-disease diagnostic AI.",
+      "date": null,
+      "url": "https://www.marrvel.ai/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Houston",
+      "purpose": "$44.2M joint CTSA-style translational research hub (data-science cores).",
+      "date": "2024-08",
+      "url": "https://www.uh.edu/news-events/stories/2024/august/08232024-uh-bcm-grant.php"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "predictive_analytics",
+      "name": "AI-MARRVEL (research-to-clinic diagnostic AI)",
+      "scope": "Available to BCM students and trainees in genetics/genomics rotations via Baylor Genetics workflows.",
+      "url": "https://www.bcm.edu/news/using-ai-to-improve-diagnosis-of-rare-genetic-disorders"
+    },
+    {
+      "type": "other",
+      "name": "Artificial Intelligence in Medicine Scholars (AIMS) [Baylor University — related, separately governed]",
+      "scope": "Note: AIMS is at Baylor University (Waco), not BCM; listed only to distinguish the two institutions. Not a BCM program.",
+      "url": "https://prehealth.web.baylor.edu/prehealth-engagement/research/artificial-intelligence-medicine-scholars-aims"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Community Health Symposium: AI, Digital Health and the Built Environment",
+      "description": "2025 Rice/BCM symposium focused on AI, geospatial analytics, and digital health for health equity in underserved Harris County communities; planned white paper and AI-enabled public housing evaluation pilot.",
+      "url": "https://news.rice.edu/news/2025/rice-and-baylor-college-medicine-host-ai-and-health-equity-symposium"
+    },
+    {
+      "title": "CHHAIN patient-narrative grounded trustworthy AI",
+      "description": "Defining trustworthy AI through patient voices and humanities insights explicitly named as a core CHHAIN activity.",
+      "url": "https://news.rice.edu/news/2025/future-ai-human-rice-baylor-college-medicine-lead-center-humanities-based-health-ai"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Texas enacted the Texas Responsible Artificial Intelligence Governance Act (TRAIGA, SB 1964 companion framework) signed by Gov. Abbott on June 22, 2025, effective January 1, 2026, and established a seven-member Texas Artificial Intelligence Advisory Council. Critically, TRAIGA's 'governmental entity' definition excludes institutions of higher education, so BCM is not directly bound by TRAIGA's state-agency AI requirements. BCM has no state-system AI policy because it is a freestanding private nonprofit medical college, not part of a public university system.",
+    "urls": [
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://aiadvisorycouncil.texas.gov/s/",
+      "https://www.jw.com/news/insights-texas-89th-legislature-ai/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Baylor College of Medicine (BCM) is a freestanding R1 private-nonprofit medical and biomedical research institution in Houston with ~1,700 students and a posture on AI that is research-forward, ethics-anchored, and distributed rather than centralized. Unlike peer medical schools that have announced a chief AI officer or unified AI strategy, BCM has no public institution-wide AI strategy document, no chief AI officer, and no publicly posted institution-wide acceptable-use policy for generative AI as of April 2026. Instead, AI leadership is exerted through three research muscles: Andreas Tolias's Center for Neuroscience and Artificial Intelligence (foundational, NIH/DARPA-funded, brain-inspired AI), Javad Razjouyan's Artificial Intelligence in Health Lab in the ICTR and VA IQuESt (clinical translation), and Vasiliki Rahimzadeh's leadership of CHHAIN — a new $500K NEH center co-led with Rice that embeds humanities, patient narratives, and ethics into trustworthy health AI. BCM's ethics backbone is the decades-old Center for Medical Ethics and Health Policy, whose researchers (e.g., Kristin Kostick-Quenet) publish on AI trust criteria and patient right-to-explanation. Notable initiatives include AI-MARRVEL (a rare-disease diagnostic AI that doubled solve rates in NEJM AI and has commercial translation via Baylor Genetics/MARRVEL AI), a $2.5M Rice-BCM NIH award for AI-driven acute kidney injury alerts in cardiac surgery, a $21M ARPA-H DATAMAP consortium led by Inductive Bio with BCM contributing human cardiac slice modeling for AI drug-toxicity prediction, and an older InformAI/CHI St. Luke's liver-transplant outcome prediction project. Enterprise AI is grounded in Epic EHR (adopted 2014) and Microsoft 365 Copilot (adopted at an undisclosed scope). Workforce development is driven by an ACGME-accredited Clinical Informatics Fellowship and the BCM 202 AY25 CPD series. Gaps include: no public AI acceptable-use policy, no named chief AI officer, no centralized supercomputer, no disclosed user counts for enterprise AI, and no publicly documented AI litigation or controversies. Texas's TRAIGA (effective January 2026) exempts higher-ed institutions, so BCM faces a light state regulatory overlay but substantial federal HIPAA and FDA scrutiny through its clinical operations.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.bcm.edu/about-us/leadership",
+      "https://www.bcm.edu/about-us/leadership/office-of-the-president",
+      "https://www.bcm.edu/about-us/leadership/college-administration",
+      "https://www.bcm.edu/about-us/leadership/institutional-policy-committee",
+      "https://www.bcm.edu/news/baylor-college-of-medicine-names-new-leader-jakub-tolar-m-d-ph-d",
+      "https://theorg.com/org/baylor-college-of-medicine/org-chart/lee-lieber",
+      "https://www.bcm.edu/departments/neuroscience",
+      "https://toliaslab.org/",
+      "https://www.bcm.edu/research/research-offices/institute-for-clinical-and-translational-research/service-cores/featured-resources/artificial-intelligence-in-health-lab",
+      "https://www.bcm.edu/research/research-offices/institute-for-clinical-and-translational-research/service-cores/featured-resources/artificial-intelligence-in-health-lab/projects",
+      "https://news.rice.edu/news/2025/future-ai-human-rice-baylor-college-medicine-lead-center-humanities-based-health-ai",
+      "https://news.rice.edu/news/2025/rice-and-baylor-college-medicine-host-ai-and-health-equity-symposium",
+      "https://houston.innovationmap.com/baylor-rice-chhain-ai-center-2673873757.html",
+      "https://www.bcm.edu/news/using-ai-to-improve-diagnosis-of-rare-genetic-disorders",
+      "https://ai.nejm.org/doi/abs/10.1056/AIoa2300009",
+      "https://www.marrvel.ai/",
+      "https://www.bcm.edu/news/bcm-to-lead-cardiac-innovation-ai-driven-drug-safety-project",
+      "https://finance.yahoo.com/news/inductive-bio-announces-21m-award-130000609.html",
+      "https://www.tmc.edu/news/2019/08/baylor-college-of-medicine-is-experimenting-with-ai-to-improve-liver-transplant-outcomes/",
+      "https://www.geneonline.com/rice-university-and-baylor-college-of-medicine-receive-2-5-million-nih-grant-to-develop-ai-system-for-reducing-acute-kidney-injury-in-cardiac-surgery/",
+      "https://cpd.education.bcm.edu/bcm-202-ay25",
+      "https://clinicianresources.bcm.edu/interest-group/artificial-intelligence-and-technology/",
+      "https://amia.org/careers-certifications/informatics-academic-programs/baylor-college-medicine/clinical-informatics",
+      "https://www.bcm.edu/departments/pathology-and-immunology/education/clinical-informatics-fellowship",
+      "https://www.bcm.edu/healthcare/for-physicians/epiccare-link",
+      "https://www.appsruntheworld.com/customers-database/purchases/view/baylor-college-of-medicine-united-states-selects-epic-ehr-for-electronic-health-record",
+      "https://www.bcm.edu/research/research-centers/alkek-center-for-metagenomics-and-microbiome-research/cmmr-sequencing-center/facilities-and-resources",
+      "https://www.bcm.edu/research/research-centers/computational-and-integrative-biomedical-research-center/computation-data-resources",
+      "https://www.bcm.edu/research/research-offices/office-of-research-it",
+      "https://www.bcm.edu/academic-centers/medical-ethics-and-health-policy",
+      "https://pubmed.ncbi.nlm.nih.gov/37979976/",
+      "https://www.uh.edu/news-events/stories/2024/august/08232024-uh-bcm-grant.php",
+      "https://patientdaily.com/stories/664996726-baylor-college-faculty-receive-nih-awards-for-groundbreaking-medical-research",
+      "https://www.bcm.edu/news/center-for-precision-medicine-models-receives-10-million-nih-grant",
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://aiadvisorycouncil.texas.gov/s/",
+      "https://www.jw.com/news/insights-texas-89th-legislature-ai/",
+      "https://datausa.io/profile/university/baylor-college-of-medicine",
+      "https://cdn.bcm.edu/sites/default/files/bcm-education-fact-book-ay-2024-2025.pdf",
+      "https://bmjgroup.com/bmj-impact-analytics-now-available-at-baylor-college-of-medicine/"
+    ],
+    "search_queries": [
+      "\"Baylor College of Medicine\" AI strategy artificial intelligence 2025 2026",
+      "\"Baylor College of Medicine\" AI policy acceptable use generative AI",
+      "\"Baylor College of Medicine\" chief AI officer governance council committee",
+      "\"Baylor College of Medicine\" AI research center institute",
+      "\"Baylor College of Medicine\" CIO chief information officer",
+      "\"Baylor College of Medicine\" AI degree certificate curriculum education",
+      "\"Baylor College of Medicine\" president provost dean 2025 2026",
+      "\"Baylor College of Medicine\" NIH grant AI machine learning award",
+      "\"Baylor College of Medicine\" Microsoft Copilot OR ChatGPT enterprise AI platform",
+      "\"Baylor College of Medicine\" Epic EHR AI clinical documentation",
+      "\"Baylor College of Medicine\" HPC GPU supercomputer high performance computing",
+      "Texas state AI policy higher education Texas AI advisory council 2025",
+      "\"Baylor College of Medicine\" AI-MARRVEL genetic diagnosis machine learning",
+      "\"Baylor College of Medicine\" Center for Neuroscience Artificial Intelligence Tolias",
+      "\"Baylor College of Medicine\" liver transplant AI artificial intelligence clinical",
+      "\"Baylor College of Medicine\" enrollment students size",
+      "\"Baylor College of Medicine\" InformAI AI partnership tech",
+      "\"Baylor College of Medicine\" clinical informatics fellowship AI",
+      "\"Baylor College of Medicine\" AI ethics medical ethics health policy center",
+      "\"Baylor College of Medicine\" AI lawsuit FERPA controversy privacy",
+      "\"Baylor College of Medicine\" NSF AI grant funding 2024 2025",
+      "\"Baylor College of Medicine\" cardiac innovation AI drug safety project"
+    ],
+    "gaps_acknowledged": [
+      "No institution-wide AI acceptable-use policy or AI strategy document was found in public sources; inferred stance as 'cautious' based on HIPAA context and ethics-center posture.",
+      "No publicly named chief AI officer or formal AI governance council at BCM.",
+      "Microsoft 365 Copilot scope, user count, and deployment date are not publicly disclosed.",
+      "No aggregate BCM-wide AI compute (GPU count, supercomputer) is published; only center-level (CMMR, CIBR) HPC details are available.",
+      "Date-announced fields are null for several initiatives where BCM has not published a formal launch date.",
+      "No AI-specific litigation or public controversies surfaced in searches; possible undocumented issues cannot be ruled out.",
+      "Public-web sources frequently conflate BCM with Baylor University (Waco); care was taken to exclude Baylor University items, but some edge-case attribution risk remains."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "workforce_regional_development",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 11,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 5,
+        "governance_led": 10,
+        "student_success_led": 6,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 3,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 7,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "CMMR HPCC",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 85400000,
+      "funding_source_buckets": {
+        "public_federal_state": 13,
+        "other_unclear": 6,
+        "philanthropy_foundation": 2,
+        "industry_vendor": 1
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "predictive_analytics": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Epic Systems Epic EHR",
+          "mentions": 2,
+          "products": [
+            "Epic EHR"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "Baylor College of Medicine / MARRVEL AI AI-MARRVEL",
+          "mentions": 1,
+          "products": [
+            "AI-MARRVEL"
+          ]
+        },
+        {
+          "vendor": "BCM Alkek Center for Metagenomics and Microbiome Research CMMR HPCC",
+          "mentions": 1,
+          "products": [
+            "CMMR HPCC"
+          ]
+        },
+        {
+          "vendor": "BMJ BMJ Impact Analytics",
+          "mentions": 1,
+          "products": [
+            "BMJ Impact Analytics"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR (with EpicCare Link)",
+          "mentions": 1,
+          "products": [
+            "Epic EHR (with EpicCare Link)"
+          ]
+        },
+        {
+          "vendor": "Epic Systems EpicCare Link",
+          "mentions": 1,
+          "products": [
+            "EpicCare Link"
+          ]
+        },
+        {
+          "vendor": "Inductive Bio DATAMAP",
+          "mentions": 1,
+          "products": [
+            "DATAMAP"
+          ]
+        },
+        {
+          "vendor": "InformAI Liver transplant outcome predictor",
+          "mentions": 1,
+          "products": [
+            "Liver transplant outcome predictor"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Epic Systems Epic EHR",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "learning",
+          "title": "DATAMAP Cardiac Drug-Safety AI (ARPA-H / Inductive Bio)",
+          "summary": "One of BCM's first ARPA-H contracts and an early example of AI-first drug-toxicity prediction that could reduce animal testing.",
+          "source_url": "https://www.bcm.edu/news/bcm-to-lead-cardiac-innovation-ai-driven-drug-safety-project"
+        },
+        {
+          "claim_type": "usage",
+          "title": "BCM 202 AY25 Continuing Professional Development AI Series",
+          "summary": "Institutionalizes AI faculty development as CME, rather than leaving adoption to informal channels.",
+          "source_url": "https://cpd.education.bcm.edu/bcm-202-ay25"
+        },
+        {
+          "claim_type": "career",
+          "title": "Clinical Informatics Fellowship (Pathology & Internal Medicine)",
+          "summary": "Produces the clinician-informaticist workforce required to deploy and govern AI in healthcare at scale.",
+          "source_url": "https://amia.org/careers-certifications/informatics-academic-programs/baylor-college-medicine/clinical-informatics"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft 365 Copilot Adoption at BCM",
+          "summary": "Signals that BCM is among the academic medical centers integrating enterprise generative AI into daily knowledge work, even without a public announcement.",
+          "source_url": "https://www.linkedin.com/in/forcemultiplier/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 7,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No institution-wide AI acceptable-use policy or AI strategy document was found in public sources; inferred stance as 'cautious' based on HIPAA context and ethics-center posture.",
+        "No publicly named chief AI officer or formal AI governance council at BCM.",
+        "Microsoft 365 Copilot scope, user count, and deployment date are not publicly disclosed.",
+        "No aggregate BCM-wide AI compute (GPU count, supercomputer) is published; only center-level (CMMR, CIBR) HPC details are available.",
+        "Date-announced fields are null for several initiatives where BCM has not published a formal launch date.",
+        "No AI-specific litigation or public controversies surfaced in searches; possible undocumented issues cannot be ruled out.",
+        "Public-web sources frequently conflate BCM with Baylor University (Waco); care was taken to exclude Baylor University items, but some edge-case attribution risk remains."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1683 @@
+{
+  "institution": "Brown University",
+  "slug": "brown-university",
+  "city_state": "Providence, RI",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 11004,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Christina H. Paxson",
+      "url": "https://president.brown.edu/"
+    },
+    "provost": {
+      "name": "Francis J. Doyle III",
+      "url": "https://provost.brown.edu/"
+    },
+    "cio": {
+      "name": "Christopher Keith",
+      "url": "https://it.brown.edu/people/christopher-keith"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Michael L. Littman",
+      "title": "Associate Provost for Artificial Intelligence",
+      "url": "https://provost.brown.edu/communications/academic-priorities-2025-2026-year"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Academic priorities for the 2025-2026 year (Office of the Provost)",
+        "url": "https://provost.brown.edu/communications/academic-priorities-2025-2026-year",
+        "year": 2025
+      },
+      {
+        "title": "Potential impact of AI on our academic mission (Office of the Provost)",
+        "url": "https://provost.brown.edu/communications/potential-impact-ai-our-academic-mission",
+        "year": 2023
+      }
+    ],
+    "summary": "Brown has moved from a decentralized, faculty-discretion posture (2023 provost statement) to a coordinated university-wide AI strategy under inaugural Associate Provost for Artificial Intelligence Michael Littman (appointed 2024-25). The 2025-2026 academic priorities document names AI integration across research, teaching, administrative operations, policy, and communications, backed by the Brown AI Sandbox, a Generative AI in Teaching and Learning Committee, and concrete tool rollouts (Google Gemini, Microsoft Copilot, Transcribe, LibreChat in development). ARIA, a $20M NSF-funded national AI institute, anchors the research strategy."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://provost.brown.edu/communications/potential-impact-ai-our-academic-mission",
+      "https://sheridan.brown.edu/sites/default/files/2023-09/Classroom-Policies-for-AI-Generative-Tools.pdf",
+      "https://www.brown.edu/university-communications/ai-guidelines",
+      "https://communications.sph.brown.edu/guides/ai-guidelines",
+      "https://admission.brown.edu/apply/how-apply/integrity-application-process"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "University declines to prescribe a single AI policy; instructors set course-level rules that supersede the Academic Code default",
+      "Mandates clear syllabus statement on permitted AI use in every course",
+      "Unauthorized AI use is covered by Brown's Academic Code and graduate student regulations",
+      "Requires citation and attribution of AI-generated content in academic work",
+      "OIT guidance prohibits exposing sensitive or restricted data to third-party AI services without enterprise protections",
+      "OVPR issued separate guidance on IP, patentability, and research use of generative AI",
+      "Undergraduate Admissions explicitly bars AI use in application content beyond basic spelling/grammar review"
+    ],
+    "summary": "Brown takes a faculty-discretion, cautious approach codified in Provost Doyle's August 2023 statement and enforced through the existing Academic Code. Classroom policies are delegated to instructors but syllabus-level disclosure is required. Admissions applies a strict no-AI rule, while research and communications use are governed by separate OVPR and University Communications guidelines."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Office of the Associate Provost for Artificial Intelligence",
+        "type": "office",
+        "scope": "University-wide coordination of AI across research, teaching, administrative operations, policy, and communications",
+        "url": "https://provost.brown.edu/communications/academic-priorities-2025-2026-year"
+      },
+      {
+        "name": "Generative AI in Teaching and Learning Committee",
+        "type": "committee",
+        "scope": "Examines generative AI impacts on teaching and learning and issues policy recommendations; co-chaired by Associate Provost Littman and Sheridan Center Executive Director Eric Kaldor",
+        "url": "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools"
+      },
+      {
+        "name": "Brown AI Sandbox project",
+        "type": "other",
+        "scope": "Joint OIT/faculty effort to develop in-house AI tools with Brown-controlled data handling; delivered Transcribe, building LibreChat",
+        "url": "https://ccv.brown.edu/blog/ai-resources/"
+      },
+      {
+        "name": "Office of Information Technology (OIT)",
+        "type": "office",
+        "scope": "Enterprise AI tool procurement, data protection, and Brown AI Sandbox operation",
+        "url": "https://it.brown.edu/about/leadership"
+      },
+      {
+        "name": "Sheridan Center for Teaching and Learning",
+        "type": "office",
+        "scope": "Pedagogical AI guidance and faculty development, including Seminar on AI Literacy (SAIL)",
+        "url": "https://sheridan.brown.edu/resources/classroom-practices/intentional-pedagogy-ai-technology"
+      },
+      {
+        "name": "Office of the Vice President for Research (OVPR) AI guidance",
+        "type": "office",
+        "scope": "Issues IP, patentability, and research-use guidance for generative AI",
+        "url": "https://provost.brown.edu/communications/potential-impact-ai-our-academic-mission"
+      }
+    ],
+    "summary": "Brown's AI governance is anchored by the new Office of the Associate Provost for AI (Michael Littman), which coordinates a standing Generative AI in Teaching and Learning Committee co-run with the Sheridan Center, the Brown AI Sandbox project run from OIT, and separate research- and communications-focused guidance bodies. Policy flows from the Provost's Office, with implementation distributed across OIT, Sheridan, OVPR, and the Data Science Institute."
+  },
+  "initiatives": [
+    {
+      "title": "Michael Littman appointed inaugural Associate Provost for Artificial Intelligence",
+      "description": "Brown created a new senior academic role to coordinate university-wide AI efforts across research, teaching, administrative operations, policy, and communications. Professor Michael L. Littman (CS) is the inaugural Associate Provost for AI, partnering with the VP for IT to evaluate tools and with the Sheridan Center on pedagogy.",
+      "significance": "Creating a dedicated Associate Provost-level AI role signals institutional ownership of AI strategy at an Ivy League R1 and a shift from faculty-discretion to coordinated governance.",
+      "date_announced": "2024-12-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Brown University operating budget",
+        "description": "New associate provost line with coordinating authority across academic affairs, research, and OIT"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal appointment"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates institutional home for AI strategy and enables coordinated tool, policy, and training decisions rather than ad-hoc faculty responses.",
+      "source_urls": [
+        "https://provost.brown.edu/communications/academic-priorities-2025-2026-year",
+        "https://www.browndailyherald.com/article/2024/12/after-appointing-provost-more-ai-initiatives-are-coming-to-brown",
+        "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools"
+      ]
+    },
+    {
+      "title": "ARIA — NSF-funded National AI Institute on Interaction for AI Assistants",
+      "description": "Brown leads the AI Research Institute on Interaction for AI Assistants (ARIA), a $20M NSF-funded national AI institute with an additional $1M over five years from Capital One. Director Ellie Pavlick (CS) and co-director Suresh Venkatasubramanian (CS) lead work on trustworthy, context-aware AI assistants, with an applied focus on mental and behavioral health.",
+      "significance": "One of five NSF National AI Institutes funded in the 2025 cycle; places Brown at the center of federally sponsored research on safe, human-centered LLM assistants.",
+      "date_announced": "2025-07-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "cross_border_research_alliance",
+        "ai_for_scientific_discovery",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 21000000,
+        "funding_source": "National Science Foundation ($20M) and Capital One ($1M over 5 years)",
+        "description": "5-year NSF National AI Institute award plus Capital One industry sponsorship"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Dartmouth College",
+            "Colby College",
+            "NYU",
+            "Carnegie Mellon University",
+            "UC Berkeley",
+            "UC San Diego",
+            "University of New Mexico",
+            "Santa Fe Institute",
+            "Data and Society",
+            "Clemson University",
+            "Community College of Rhode Island"
+          ],
+          "description": "Academic consortium spanning Ivy, R1, liberal arts, and community college partners"
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Capital One",
+            "Google",
+            "SureStart",
+            "Addiction Policy Forum"
+          ],
+          "description": "Industry and nonprofit partners co-fund and advise the institute"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "NIH"
+          ],
+          "description": "Federal funders and research collaborators"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions Brown as a convener for federal policy conversations around trustworthy AI in sensitive health applications.",
+      "source_urls": [
+        "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown",
+        "https://www.brown.edu/news/2025-11-21/aria-kickoff",
+        "https://cs.brown.edu/news/2025/11/24/brown-formally-launches-aria-a-national-institute-on-ai-in-mental-health/",
+        "https://pbn.com/brown-university-receives-20m-to-develop-ai-assistants-for-mental-health-care/"
+      ]
+    },
+    {
+      "title": "Brown AI Sandbox launches Transcribe",
+      "description": "On October 20, 2025 OIT launched Transcribe, the first AI tool built by the Brown AI Sandbox project. Transcribe handles speech-to-text in 11 languages at data clearance levels 1-2 for the entire Brown community and is positioned as a lower-cost alternative to commercial services.",
+      "significance": "Demonstrates in-house build-vs-buy capacity at a mid-size Ivy; allows Brown to process sensitive data without third-party vendor exposure.",
+      "date_announced": "2025-10-20",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Brown OIT",
+        "description": "In-house development funded through OIT operating budget"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal build by Brown AI Sandbox"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Transcribe",
+          "vendor": "Brown University (Brown AI Sandbox)",
+          "role": "Multilingual speech-to-text service for internal Brown use"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Validates an in-house alternative to commercial AI services for sensitive data and sets the template for LibreChat and follow-on sandbox tools.",
+      "source_urls": [
+        "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools",
+        "https://ccv.brown.edu/blog/ai-resources/"
+      ]
+    },
+    {
+      "title": "Google AI services (Gemini Chat + NotebookLM) rolled out community-wide",
+      "description": "In spring 2025, Brown made Google Gemini Chat and NotebookLM available free to all faculty, staff, and students through Brown Google Workspace accounts at data clearance level 3, with a contractual commitment that Google will not train models on Brown data.",
+      "significance": "Moves Brown from experimental AI access to enterprise-grade generative AI for the entire community with meaningful data-protection guarantees.",
+      "date_announced": "2025-03-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Brown Google Workspace contract",
+        "description": "Enterprise licensing bundled with existing Google Workspace agreement"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Enterprise agreement providing Gemini and NotebookLM with no-training data terms"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini Chat",
+          "vendor": "Google",
+          "role": "Campus-wide generative AI chat"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Source-grounded research and study assistant"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes a default community AI stack with known data terms, reducing reliance on shadow use of personal AI accounts.",
+      "source_urls": [
+        "https://ithelp.brown.edu/kb/articles/google-gemini-chat-and-notebooklm-ai-services",
+        "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools",
+        "https://ccv.brown.edu/blog/ai-resources/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot available with enterprise data protection",
+      "description": "Brown provides Microsoft Copilot with enterprise data protection when users authenticate with @ad.brown.edu credentials; prompts and responses are not used for training. Copilot is paired with Microsoft 365 and CareerLAB training sessions.",
+      "significance": "Gives faculty, staff, and students another enterprise-governed generative AI option alongside Google Gemini.",
+      "date_announced": "2024-09-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Brown Microsoft 365 enterprise agreement",
+        "description": "Enterprise Copilot entitlements under existing Microsoft agreement"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "OpenAI"
+          ],
+          "description": "Enterprise Copilot built on GPT-series models"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot (Enterprise)",
+          "vendor": "Microsoft",
+          "role": "Enterprise generative AI assistant across Microsoft 365"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes Microsoft Copilot as an approved admin/productivity AI tool with documented data protections.",
+      "source_urls": [
+        "https://ccv.brown.edu/blog/ai-resources/",
+        "https://masterscareers.brown.edu/classes/enhance-teaching-and-learning-with-microsoft-copilot/",
+        "https://masterscareers.brown.edu/classes/learning-microsoft-365-copilot-and-business-chat/"
+      ]
+    },
+    {
+      "title": "Open-weight LLMs hosted on Oscar HPC cluster",
+      "description": "Brown's Center for Computation and Visualization (CCV) hosts several dozen open-weight LLMs (Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2) on its Oscar HPC cluster with V100 GPU nodes and 4 PB of all-flash parallel storage, accessible to any researcher with a Brown account via Ollama.",
+      "significance": "Gives Brown researchers privacy-preserving, reproducible access to frontier open-weight models without third-party data exposure.",
+      "date_announced": "2025-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "open_source_contribution",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Brown CCV operating budget",
+        "description": "Operated within CCV's Oscar HPC (400+ nodes, V100 GPUs, VAST parallel filesystem)"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal CCV-managed service"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Ollama",
+          "vendor": "Ollama",
+          "role": "Local LLM runtime used to expose hosted models"
+        },
+        {
+          "name": "Llama 3.3",
+          "vendor": "Meta",
+          "role": "Open-weight LLM available on Oscar"
+        },
+        {
+          "name": "DeepSeek-R1",
+          "vendor": "DeepSeek",
+          "role": "Open-weight reasoning model on Oscar"
+        },
+        {
+          "name": "Phi-4",
+          "vendor": "Microsoft",
+          "role": "Open-weight small LLM on Oscar"
+        },
+        {
+          "name": "Mistral",
+          "vendor": "Mistral AI",
+          "role": "Open-weight LLM on Oscar"
+        },
+        {
+          "name": "Gemma 2",
+          "vendor": "Google DeepMind",
+          "role": "Open-weight LLM on Oscar"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Enables researcher-grade AI experimentation without commercial vendor dependency.",
+      "source_urls": [
+        "https://ccv.brown.edu/blog/ai-resources/",
+        "https://docs.ccv.brown.edu/oscar",
+        "https://docs.ccv.brown.edu/oscar/gpu-computing/gpus"
+      ]
+    },
+    {
+      "title": "Online Master's in Data Science: Policy, Governance & Society",
+      "description": "Brown launched a 16-month online master's in data science jointly from the Data Science Institute and School of Professional Studies, explicitly integrating machine learning and AI technical content with policy, governance, and societal impact coursework; first class admitted for 2025.",
+      "significance": "One of the first R1-level online MS programs to fully integrate AI governance/policy into a technical data science degree.",
+      "date_announced": "2024-10-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_ethics_framework",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded; joint DSI + School of Professional Studies operation",
+        "description": "Online professional master's degree with new policy/governance curriculum"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Brown Data Science Institute",
+            "Brown School of Professional Studies"
+          ],
+          "description": "Internal joint venture between the DSI and School of Professional Studies"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Credentials a new cohort of practitioners trained to integrate technical AI skills with governance literacy.",
+      "source_urls": [
+        "https://www.brown.edu/news/2024-10-15/ai-policy",
+        "https://www.browndailyherald.com/article/2024/11/brown-launches-new-online-masters-degree-program-in-data-science",
+        "https://dsi.brown.edu/"
+      ]
+    },
+    {
+      "title": "Human-Centered AI executive education course",
+      "description": "Brown's School of Professional Studies launched Human-Centered AI: Integrating Technology & Human Potential on April 14, 2026 — a live, online six-session executive course led by Professor of the Practice Baba Prasad, focused on leadership, ethics, and change management for AI adoption.",
+      "significance": "Complements Applied AI & Data Science with an ethics- and leadership-first offering, reflecting a two-track AI exec-ed portfolio.",
+      "date_announced": "2026-01-28",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "faculty_training_and_development",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Brown School of Professional Studies (tuition-funded)",
+        "description": "Live, online executive-education offering"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal offering from Brown School of Professional Studies"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Extends Brown's AI reach to mid-career professionals and signals a values-forward posture on responsible AI adoption.",
+      "source_urls": [
+        "https://professional.brown.edu/news/2026-01-28/brown-university-expands-ai-education-portfolio",
+        "https://professional.brown.edu/academics/executive-education/human-centered-ai",
+        "https://professional.brown.edu/academics/executive-education/ai-education"
+      ]
+    },
+    {
+      "title": "Cogut Institute Collaborative Humanities Lab: Models-Scale-Context: AI and the Humanities",
+      "description": "From 2024-2027 the Cogut Institute for the Humanities runs its inaugural Collaborative Humanities Lab, Models-Scale-Context: AI and the Humanities, co-led by historian Holly Case and computer scientist Suresh Venkatasubramanian, with 10 reading groups spanning 25 fields and two new undergraduate courses ('The History of AI' and 'Reading the Large Language Models').",
+      "significance": "Rare formal humanities-led engagement with AI at an Ivy, linking technical and critical perspectives across departments.",
+      "date_announced": "2024-05-16",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "liberal_arts_in_ai_era",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Cogut Institute for the Humanities operating budget",
+        "description": "Multi-year collaborative lab program with workshops, reading groups, and two new courses"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Consortium of Humanities Centers and Institutes (CHCI)"
+          ],
+          "description": "Part of the CHCI network of collaborative humanities labs"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Builds institutional capacity to evaluate AI's social and ethical implications from humanities perspectives.",
+      "source_urls": [
+        "https://humanities.brown.edu/programs/chi/ailab",
+        "https://www.brown.edu/news/2025-07-24/ai-humanities",
+        "https://humanities.brown.edu/news/2024-05-16/ai-lab-announcement"
+      ]
+    },
+    {
+      "title": "Center for Technological Responsibility, Reimagination, and Redesign (CNTR) in the DSI",
+      "description": "Housed in the Data Science Institute and led by Professor Suresh Venkatasubramanian, CNTR studies technical and policy dimensions of automated decision-making and AI, engaging undergraduates, graduate students, postdocs, and faculty in interdisciplinary research on algorithmic accountability.",
+      "significance": "Provides a dedicated institutional locus for responsible-AI research at Brown and contributes to federal policy debates.",
+      "date_announced": "2023-07-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Brown Data Science Institute; external grants",
+        "description": "Standing research center within the DSI"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Federal agencies and policymakers"
+          ],
+          "description": "Engagement on automated decision-making policy"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Bridges technical AI research with regulatory and civil-rights analysis.",
+      "source_urls": [
+        "https://dsi.brown.edu/",
+        "https://dsi.brown.edu/research",
+        "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+      ]
+    },
+    {
+      "title": "Seminar on AI Literacy (SAIL) from the Sheridan Center",
+      "description": "The Sheridan Center for Teaching and Learning runs SAIL, a seminar program that helps faculty and departments build discipline-specific AI literacy curricula using teams of faculty, graduate students, and undergraduates, alongside a Canvas Commons module on AI co-authored with the Brown University Library.",
+      "significance": "Operationalizes AI literacy development bottom-up through discipline-specific teams rather than as a generic campus requirement.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Sheridan Center / Provost's Office",
+        "description": "Ongoing faculty-development program with stipends and materials"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Brown University Library"
+          ],
+          "description": "Joint Canvas Commons module on generative AI"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Canvas Commons AI module",
+          "vendor": "Instructure Canvas",
+          "role": "Shared AI literacy module"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Supports syllabus-level instructor decisions by grounding them in disciplinary AI literacy.",
+      "source_urls": [
+        "https://sheridan.brown.edu/resources/classroom-practices/intentional-pedagogy-ai-technology",
+        "https://sheridan.brown.edu/sites/default/files/2023-09/Classroom-Policies-for-AI-Generative-Tools.pdf"
+      ]
+    },
+    {
+      "title": "Zimmerman Center for Computational Brain Science — NeuroAI",
+      "description": "The Nancy G. Zimmerman Center for Computational Brain Science, within the Carney Institute for Brain Science, runs a NeuroAI research program linking brain science with machine learning, with faculty including Ellie Pavlick and multiple computational-psychiatry labs using EEG/ML to predict TMS response.",
+      "significance": "Creates a distinctive research cluster connecting brain science to AI and provides scientific grounding for ARIA's mental-health work.",
+      "date_announced": "2020-07-24",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Nancy G. Zimmerman gift + Carney Institute + federal grants",
+        "description": "Endowed center within Carney Institute"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Carney Institute collaborators"
+          ],
+          "description": "Cross-departmental computational neuroscience"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://carney.brown.edu/news/2024-11-26/neuroai",
+        "https://ccbs.carney.brown.edu/",
+        "https://www.brown.edu/news/2020-07-24/ccbs"
+      ]
+    },
+    {
+      "title": "ICERM NSF renewal — $16.5M for mathematics and AI research collaboration",
+      "description": "The National Science Foundation renewed Brown's Institute for Computational and Experimental Research in Mathematics (ICERM) with $16.5M in August 2025, explicitly supporting continued programming at the intersection of mathematics and AI.",
+      "significance": "Sustains a national math-AI research hub at Brown, enabling long-running cross-institution collaborations.",
+      "date_announced": "2025-08-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 16500000,
+        "funding_source": "NSF",
+        "description": "Multi-year NSF institute renewal"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Long-standing NSF institute at Brown"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.brown.edu/news/2025-08-04/nsf-grant-mathematics-research-icerm",
+        "https://provost.brown.edu/communications/academic-priorities-2025-2026-year"
+      ]
+    },
+    {
+      "title": "AI Guidelines for University Communications",
+      "description": "Brown University Communications publishes a public set of AI guidelines governing the use of generative AI in institutional marketing, communications, and storytelling, covering attribution, image generation, and authenticity.",
+      "significance": "Operationalizes AI policy in one of the most visible admin functions and models how other divisions can translate the provost's statement.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Brown University Communications",
+        "description": "Internal guideline artifact"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Establishes a reference pattern for division-level AI guidelines across Brown.",
+      "source_urls": [
+        "https://www.brown.edu/university-communications/ai-guidelines",
+        "https://communications.sph.brown.edu/guides/ai-guidelines"
+      ]
+    },
+    {
+      "title": "Strict AI policy in undergraduate admissions",
+      "description": "Brown's Undergraduate Admissions office prohibits applicant use of AI in application content, permitting only basic spelling and grammar review. Brown is among the strictest of top-20 US universities on this point.",
+      "significance": "Sets a clear contrarian benchmark to more permissive peers on AI in admissions and signals authenticity concerns.",
+      "date_announced": "2024-08-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_in_admissions_and_enrollment",
+        "acceptable_use_policy",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Admissions operating budget",
+        "description": "Policy-only"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "prohibitive",
+      "policy_implications": "Raises the bar on authenticity in admissions materials and diverges from peer institutions' more permissive stances.",
+      "source_urls": [
+        "https://admission.brown.edu/apply/how-apply/integrity-application-process",
+        "https://gradpilot.com/news/ai-college-admissions-t10-t20"
+      ]
+    },
+    {
+      "title": "Student AI database incident and disciplinary response",
+      "description": "In April 2025, a Brown undergraduate emailed 3,805 administrators asking them to describe their weekly tasks and used AI to build a public database of administrators, triggering disciplinary review. The incident highlighted tensions between student use of AI for transparency activism and institutional policy.",
+      "significance": "One of the earliest high-profile student-vs-institution AI incidents at an Ivy, foreshadowing policy questions about AI-enabled activism.",
+      "date_announced": "2025-04-02",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "n/a",
+        "description": "Incident, not a funded initiative"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "n/a"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Forces Brown to clarify how AI-enabled data collection by students interacts with privacy and conduct policies.",
+      "source_urls": [
+        "https://turnto10.com/news/local/brown-university-student-potential-discipline-creation-ai-admininstration-professors-staff-members-database-ivy-league-education-public-funding-april-2-2025"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI Research Institute on Interaction for AI Assistants (ARIA)",
+      "focus": "Trustworthy, context-aware AI assistants with mental and behavioral health focus",
+      "founded": "2025",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "name": "Data Science Institute (DSI)",
+      "focus": "Transdisciplinary data science, including policy, governance, and society",
+      "founded": "2023",
+      "url": "https://dsi.brown.edu/"
+    },
+    {
+      "name": "Center for Technological Responsibility, Reimagination, and Redesign (CNTR)",
+      "focus": "Technical and policy dimensions of automated decision-making and algorithmic accountability",
+      "founded": "2023",
+      "url": "https://dsi.brown.edu/"
+    },
+    {
+      "name": "Center for Computational Molecular Biology (CCMB)",
+      "focus": "Computational biology and ML applied to molecular sciences",
+      "founded": null,
+      "url": "https://dsi.brown.edu/"
+    },
+    {
+      "name": "Nancy G. Zimmerman Center for Computational Brain Science",
+      "focus": "Computational neuroscience, NeuroAI, and machine learning",
+      "founded": "2020",
+      "url": "https://ccbs.carney.brown.edu/"
+    },
+    {
+      "name": "Carney Institute for Brain Science",
+      "focus": "Brain science, including machine-learning-driven neuroscience and computational psychiatry",
+      "founded": null,
+      "url": "https://carney.brown.edu/"
+    },
+    {
+      "name": "Institute for Computational and Experimental Research in Mathematics (ICERM)",
+      "focus": "Mathematics and AI research, NSF-funded national institute",
+      "founded": null,
+      "url": "https://icerm.brown.edu/"
+    },
+    {
+      "name": "Cogut Institute for the Humanities — Models-Scale-Context: AI and the Humanities Lab",
+      "focus": "Humanities-led inquiry into AI's ethical, social, and historical dimensions",
+      "founded": "2024",
+      "url": "https://humanities.brown.edu/programs/chi/ailab"
+    },
+    {
+      "name": "Center for Computation and Visualization (CCV)",
+      "focus": "Research computing and AI infrastructure (Oscar HPC, LLM hosting)",
+      "founded": null,
+      "url": "https://ccv.brown.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science (ScM) in Data Science (on-campus)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://dsi.brown.edu/academics/masters-programs/masters-data-science"
+    },
+    {
+      "type": "degree",
+      "name": "Online Master's in Data Science: Policy, Governance & Society",
+      "level": "grad",
+      "launched": "2025-09",
+      "url": "https://www.brown.edu/news/2024-10-15/ai-policy"
+    },
+    {
+      "type": "certificate",
+      "name": "Doctoral Certificate in Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://dsi.brown.edu/academics"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Data Fluency",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://dsi.brown.edu/academics"
+    },
+    {
+      "type": "certificate",
+      "name": "Applied AI & Data Science (executive certificate)",
+      "level": "both",
+      "launched": null,
+      "url": "https://professional.brown.edu/academics/executive-education/applied-ai-data-science"
+    },
+    {
+      "type": "course",
+      "name": "Human-Centered AI: Integrating Technology & Human Potential (executive course)",
+      "level": "both",
+      "launched": "2026-04",
+      "url": "https://professional.brown.edu/academics/executive-education/human-centered-ai"
+    },
+    {
+      "type": "course",
+      "name": "AI Governance and Ethics (executive course)",
+      "level": "both",
+      "launched": null,
+      "url": "https://programs.professional.brown.edu/ai-governance-ethics"
+    },
+    {
+      "type": "course",
+      "name": "CSCI 0410 Foundations of AI and Machine Learning",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://cs.brown.edu/courses/info/csci1410/"
+    },
+    {
+      "type": "course",
+      "name": "Cogut: The History of AI",
+      "level": "undergrad",
+      "launched": "2024-09",
+      "url": "https://www.brown.edu/news/2025-07-24/ai-humanities"
+    },
+    {
+      "type": "course",
+      "name": "Cogut: Reading the Large Language Models",
+      "level": "undergrad",
+      "launched": "2024-09",
+      "url": "https://www.brown.edu/news/2025-07-24/ai-humanities"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Google",
+      "product": "Gemini Chat + NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-03",
+      "url": "https://ithelp.brown.edu/kb/articles/google-gemini-chat-and-notebooklm-ai-services"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot (Enterprise, GPT-series)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "vendor": "Brown University (AI Sandbox)",
+      "product": "Transcribe",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-10",
+      "url": "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools"
+    },
+    {
+      "vendor": "Brown University (AI Sandbox)",
+      "product": "LibreChat (in development)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion (meeting summaries, highlights)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Firefly (via Creative Cloud)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "vendor": "Meta / DeepSeek / Microsoft / Mistral / Google DeepMind",
+      "product": "Open-weight LLMs on Oscar via Ollama (Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Oscar",
+    "gpu_count": 500,
+    "url": "https://docs.ccv.brown.edu/oscar",
+    "summary": "Oscar, Brown's CCV-operated HPC cluster, has 400+ multi-core nodes, nearly 500 GPUs, ~4 PB of VAST Data all-flash parallel storage, and 400 Gb/s NDR + 200 Gb/s HDR InfiniBand. It hosts open-weight LLMs (Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2) accessible via Ollama and underpins ARIA and other AI research. Brown OIT discloses the GPU count as approximate rather than exact."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF National AI Institute grant for ARIA",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation",
+      "purpose": "Lead 5-year national AI research institute on interaction for AI assistants (mental/behavioral health)",
+      "date": "2025-07",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "title": "Capital One contribution to ARIA",
+      "amount_usd": 1000000,
+      "source": "Capital One",
+      "purpose": "Industry co-funding over 5 years for ARIA research",
+      "date": "2025-07",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "title": "NSF ICERM renewal",
+      "amount_usd": 16500000,
+      "source": "National Science Foundation",
+      "purpose": "Renewal of national mathematics institute supporting math + AI research",
+      "date": "2025-08",
+      "url": "https://www.brown.edu/news/2025-08-04/nsf-grant-mathematics-research-icerm"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Enterprise Gemini/NotebookLM deployment and ARIA collaborator",
+      "date": "2025-03",
+      "url": "https://ithelp.brown.edu/kb/articles/google-gemini-chat-and-notebooklm-ai-services"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot with data protection",
+      "date": "2024-09",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Capital One",
+      "purpose": "Industry sponsor of ARIA national AI institute",
+      "date": "2025-07",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Dartmouth, Colby, NYU, CMU, UC Berkeley, UC San Diego, UNM, Santa Fe Institute, Clemson, Data and Society",
+      "purpose": "ARIA academic consortium",
+      "date": "2025-07",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Community College of Rhode Island",
+      "purpose": "ARIA community-college partner for workforce development",
+      "date": "2025-07",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Institutes of Health",
+      "purpose": "ARIA mental-health AI research collaboration",
+      "date": "2025-07",
+      "url": "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Rhode Island Department of Administration ETSS AI Task Force",
+      "purpose": "State AI policy coordination; Brown faculty and leadership engagement",
+      "date": "2025-01",
+      "url": "https://etss.ri.gov/data-and-ai/rhode-island-ai-task-force"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Google Gemini Chat (Brown tenancy)",
+      "scope": "Free to all Brown students with no-training data terms",
+      "url": "https://ithelp.brown.edu/kb/articles/google-gemini-chat-and-notebooklm-ai-services"
+    },
+    {
+      "type": "other",
+      "name": "NotebookLM",
+      "scope": "Research/study assistant grounded in student-supplied sources",
+      "url": "https://ithelp.brown.edu/kb/articles/google-gemini-chat-and-notebooklm-ai-services"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot (Enterprise)",
+      "scope": "Available to all Brown students with enterprise data protection",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "type": "other",
+      "name": "Transcribe (Brown AI Sandbox)",
+      "scope": "Campus-wide speech-to-text in 11 languages, levels 1-2 data",
+      "url": "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools"
+    },
+    {
+      "type": "other",
+      "name": "Zoom AI Companion",
+      "scope": "Meeting summaries and highlights for all Brown Zoom users",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "type": "other",
+      "name": "Adobe Firefly via Creative Cloud",
+      "scope": "Generative image tools for students and faculty in Creative Cloud",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "ARIA workforce development spanning K-12 through professionals",
+      "description": "ARIA commits to workforce-development programs that include K-12, community colleges, and professionals, with Community College of Rhode Island and Clemson as partners to broaden participation.",
+      "url": "https://www.brown.edu/news/2025-11-21/aria-kickoff"
+    },
+    {
+      "title": "CNTR algorithmic accountability research",
+      "description": "CNTR at the Data Science Institute investigates algorithmic bias and the social impact of automated decision-making across sectors.",
+      "url": "https://dsi.brown.edu/research"
+    },
+    {
+      "title": "Universal-access campus AI tools",
+      "description": "Brown makes Gemini, Copilot, Transcribe, and Firefly free to all community members, reducing cost-based AI access inequities within the campus.",
+      "url": "https://ccv.brown.edu/blog/ai-resources/"
+    },
+    {
+      "title": "Online Master's in Data Science (Policy, Governance & Society)",
+      "description": "Online, 16-month format widens access to Brown's AI governance training for working professionals.",
+      "url": "https://www.browndailyherald.com/article/2024/11/brown-launches-new-online-masters-degree-program-in-data-science"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Rhode Island",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Rhode Island Governor Dan McKee signed Executive Order 24-06 establishing an AI Task Force and a Data and AI Center of Excellence within ETSS. The 2026 task force report (released January 28, 2026) recommends vetted AI tools for public education and a K-12 AI-integration framework by 2030. Brown is a private, non-system R1, so there is no system-level AI policy; Brown participates in state-level task-force activity but sets its own institutional policy through the Associate Provost for AI.",
+    "urls": [
+      "https://etss.ri.gov/data-and-ai/rhode-island-ai-task-force",
+      "https://rhodeislandcurrent.com/2026/01/28/rhode-island-releases-its-roadmap-for-ai-some-boundaries-have-yet-to-be-drawn/",
+      "https://turnto10.com/news/local/new-report-calls-rhode-island-embrace-lead-ai-use-artificial-intelligence-task-force-report-government-business-finance-curriculum-janiary-28-2026"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-04",
+      "summary": "Brown undergraduate used generative AI to build a public database of university administrators after emailing 3,805 staff asking about their weekly tasks; the university opened disciplinary review.",
+      "status": "unknown",
+      "url": "https://turnto10.com/news/local/brown-university-student-potential-discipline-creation-ai-admininstration-professors-staff-members-database-ivy-league-education-public-funding-april-2-2025"
+    },
+    {
+      "date": "2025-05",
+      "summary": "Brown joined a federal lawsuit challenging Trump-administration cuts to NSF grant funding that threaten AI and broader research programs.",
+      "status": "active",
+      "url": "https://www.brown.edu/news/2025-05-06/nsf-funding"
+    }
+  ],
+  "narrative_summary": "Brown University's AI posture shifted decisively between 2023 and 2026 from a decentralized, faculty-discretion stance to a coordinated institutional strategy. Provost Frank Doyle's August 2023 statement still anchors classroom policy — instructors set syllabus-level rules, backed by Brown's Academic Code, the Sheridan Center, and OIT data-protection guidance. What's new is the appointment of Professor Michael Littman as the inaugural Associate Provost for Artificial Intelligence and the creation of a standing Generative AI in Teaching and Learning Committee (co-chaired with Sheridan Director Eric Kaldor), which together make AI a named priority in the 2025-2026 academic-priorities document. On research, Brown hit an unusually high watermark in 2025: the NSF awarded Brown a $20M National AI Institute (ARIA) led by Ellie Pavlick and Suresh Venkatasubramanian to build trustworthy, context-aware AI assistants for mental and behavioral health, with $1M in industry sponsorship from Capital One, a 10+ institution academic consortium, and NIH, Google, and community-college partners; ICERM was renewed for another $16.5M. These sit alongside long-standing infrastructure: the Data Science Institute (established 2023), its CNTR and CCMB centers, the Carney Institute's Zimmerman Center for Computational Brain Science, and the Cogut Institute's Models-Scale-Context: AI and the Humanities lab (2024-2027) that gives Brown a distinctive humanities-led voice on AI. On tooling, Brown OIT and the AI Sandbox now run Google Gemini + NotebookLM and Microsoft Copilot with enterprise data protection for the whole community, launched in-house Transcribe (Oct 2025), have LibreChat in development, and host open-weight LLMs (Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2) on the Oscar HPC cluster for researcher use. Brown takes a strict no-AI stance in undergraduate admissions, diverging from most T20 peers. Academic programs include on-campus and online Master's in Data Science (the online variant explicitly centered on policy, governance, and society), Applied AI & Data Science and Human-Centered AI exec-ed courses, and Cogut undergraduate humanities-of-AI courses. Gaps: Brown has not published a monolithic AI strategy document, explicit enrollment/user-count data for campus AI tools, or detailed Oscar GPU counts; a named chief AI officer role does not exist separately from the Associate Provost position.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://provost.brown.edu/communications/academic-priorities-2025-2026-year",
+      "https://provost.brown.edu/communications/potential-impact-ai-our-academic-mission",
+      "https://www.brown.edu/about/administration/provost/communications/potential-impact-ai-our-academic-mission",
+      "https://www.browndailyherald.com/article/2025/11/brown-begins-to-implement-university-wide-ai-tools",
+      "https://www.browndailyherald.com/article/2024/12/after-appointing-provost-more-ai-initiatives-are-coming-to-brown",
+      "https://www.browndailyherald.com/article/2024/11/brown-launches-new-online-masters-degree-program-in-data-science",
+      "https://www.browndailyherald.com/article/2025/09/editorial-brown-must-foster-ai-literacy",
+      "https://www.browndailyherald.com/article/2025/10/guilty-or-not-guilty-inside-browns-academic-misconduct-process",
+      "https://www.brown.edu/news/2025-07-29/aria-ai-institute-brown",
+      "https://www.brown.edu/news/2025-11-21/aria-kickoff",
+      "https://cs.brown.edu/news/2025/11/24/brown-formally-launches-aria-a-national-institute-on-ai-in-mental-health/",
+      "https://pbn.com/brown-university-receives-20m-to-develop-ai-assistants-for-mental-health-care/",
+      "https://www.brown.edu/news/2025-08-04/nsf-grant-mathematics-research-icerm",
+      "https://www.brown.edu/news/2025-05-06/nsf-funding",
+      "https://www.brown.edu/news/2024-10-15/ai-policy",
+      "https://www.brown.edu/news/2025-07-24/ai-humanities",
+      "https://www.brown.edu/news/2020-07-24/ccbs",
+      "https://ccv.brown.edu/blog/ai-resources/",
+      "https://ithelp.brown.edu/kb/articles/pdf/generative-ai-as-a-research-tool",
+      "https://docs.ccv.brown.edu/oscar",
+      "https://docs.ccv.brown.edu/oscar/gpu-computing/gpus",
+      "https://dsi.brown.edu/",
+      "https://dsi.brown.edu/research",
+      "https://dsi.brown.edu/academics",
+      "https://dsi.brown.edu/academics/masters-programs/masters-data-science",
+      "https://carney.brown.edu/",
+      "https://carney.brown.edu/news/2024-11-26/neuroai",
+      "https://ccbs.carney.brown.edu/",
+      "https://humanities.brown.edu/programs/chi/ailab",
+      "https://humanities.brown.edu/news/2024-05-16/ai-lab-announcement",
+      "https://professional.brown.edu/news/2026-01-28/brown-university-expands-ai-education-portfolio",
+      "https://professional.brown.edu/academics/executive-education/applied-ai-data-science",
+      "https://professional.brown.edu/academics/executive-education/human-centered-ai",
+      "https://professional.brown.edu/academics/executive-education/ai-education",
+      "https://programs.professional.brown.edu/ai-governance-ethics",
+      "https://sheridan.brown.edu/resources/classroom-practices/intentional-pedagogy-ai-technology",
+      "https://sheridan.brown.edu/sites/default/files/2023-09/Classroom-Policies-for-AI-Generative-Tools.pdf",
+      "https://it.brown.edu/about/leadership",
+      "https://ithelp.brown.edu/kb/articles/google-gemini-chat-and-notebooklm-ai-services",
+      "https://masterscareers.brown.edu/classes/enhance-teaching-and-learning-with-microsoft-copilot/",
+      "https://masterscareers.brown.edu/classes/learning-microsoft-365-copilot-and-business-chat/",
+      "https://admission.brown.edu/apply/how-apply/integrity-application-process",
+      "https://gradpilot.com/news/ai-college-admissions-t10-t20",
+      "https://gradpilot.com/ai-policies/brown-university",
+      "https://turnto10.com/news/local/brown-university-student-potential-discipline-creation-ai-admininstration-professors-staff-members-database-ivy-league-education-public-funding-april-2-2025",
+      "https://etss.ri.gov/data-and-ai/rhode-island-ai-task-force",
+      "https://rhodeislandcurrent.com/2026/01/28/rhode-island-releases-its-roadmap-for-ai-some-boundaries-have-yet-to-be-drawn/",
+      "https://turnto10.com/news/local/new-report-calls-rhode-island-embrace-lead-ai-use-artificial-intelligence-task-force-report-government-business-finance-curriculum-janiary-28-2026",
+      "https://bulletin.brown.edu/summaryofenrollment/",
+      "https://admission.brown.edu/explore/brown-admission-numbers",
+      "https://www.brown.edu/university-communications/ai-guidelines",
+      "https://communications.sph.brown.edu/guides/ai-guidelines"
+    ],
+    "search_queries": [
+      "Brown University AI strategy 2025 2026 artificial intelligence initiative",
+      "\"Brown University\" generative AI acceptable use policy faculty staff",
+      "\"Brown University\" AI council committee task force governance",
+      "Brown University CIO president provost 2026",
+      "\"Brown University\" AI degree master's certificate data science program",
+      "\"Brown University\" Oscar supercomputer GPU HPC computing AI",
+      "\"Brown University\" AI Microsoft Copilot Claude ChatGPT Edu deployment",
+      "\"Brown University\" Oscar nearly 500 GPUs generative AI research tool",
+      "\"Brown University\" Data Science Institute AI research center",
+      "\"Brown University\" AI news 2025 2026 partnership initiative announcement",
+      "\"Brown University\" Christina Paxson president statement AI 2025",
+      "\"Brown University\" Rhode Island state AI policy executive order higher education",
+      "\"Brown University\" AI ethics Cogut humanities lab 2025",
+      "\"Brown University\" Carney Institute brain science AI machine learning",
+      "\"Brown University\" Sheridan Center AI pedagogy faculty training",
+      "\"Brown University\" NSF AI grant research funding million 2025",
+      "\"Brown University\" AI chatbot student services advising retention",
+      "\"Brown University\" AI literacy course requirement undergraduate computer science",
+      "\"Brown University\" AI controversy lawsuit academic integrity cheating",
+      "\"Brown University\" enrollment 2025 students Providence",
+      "\"Brown University\" AI workforce training executive education 2026 launch"
+    ],
+    "gaps_acknowledged": [
+      "No single monolithic Brown AI strategy document is public; the 2025-2026 academic-priorities memo is the closest artifact and policy is spread across multiple offices.",
+      "Exact user counts for Gemini/Copilot/Transcribe adoption are not publicly disclosed.",
+      "Brown OIT states that Oscar has nearly 500 GPUs, but an exact GPU count and AI-specific FLOPS are not published.",
+      "The Generative AI in Teaching and Learning Committee's full report (expected end of fall 2025) is referenced in the Brown Daily Herald but a public version could not be located during this session.",
+      "No Chief AI Officer role exists separately from the Associate Provost for Artificial Intelligence; treating Littman as the de facto senior AI leader.",
+      "No explicit predictive-analytics retention or admissions-AI deployment was found at Brown; Brown-affiliated research (Annenberg/Meyer/Page) studies similar tools at Georgia State but is not a Brown student deployment."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "platform_first",
+        "governance_led",
+        "balanced_enterprise"
+      ],
+      "scores": {
+        "platform_first": 23,
+        "research_compute_powerhouse": 25,
+        "curriculum_led": 17,
+        "governance_led": 18,
+        "student_success_led": 12,
+        "workforce_regional_development": 6,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 10,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 9,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Oscar",
+        "gpu_count": 500,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 37500000,
+      "funding_source_buckets": {
+        "public_federal_state": 5,
+        "industry_vendor": 3,
+        "institutional": 4,
+        "other_unclear": 7
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 6,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 4
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini Chat",
+            "Gemini Chat + NotebookLM",
+            "Gemma 2",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Copilot (Enterprise)",
+            "Copilot (Enterprise, GPT-series)",
+            "Open-weight LLMs on Oscar via Ollama (Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2)",
+            "Phi-4"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 1,
+          "products": [
+            "Firefly (via Creative Cloud)"
+          ]
+        },
+        {
+          "vendor": "Brown University (AI Sandbox) LibreChat (in development)",
+          "mentions": 1,
+          "products": [
+            "LibreChat (in development)"
+          ]
+        },
+        {
+          "vendor": "Brown University (AI Sandbox) Transcribe",
+          "mentions": 1,
+          "products": [
+            "Transcribe"
+          ]
+        },
+        {
+          "vendor": "Brown University (Brown AI Sandbox) Transcribe",
+          "mentions": 1,
+          "products": [
+            "Transcribe"
+          ]
+        },
+        {
+          "vendor": "DeepSeek DeepSeek-R1",
+          "mentions": 1,
+          "products": [
+            "DeepSeek-R1"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas Commons AI module"
+          ]
+        },
+        {
+          "vendor": "Meta Llama 3.3",
+          "mentions": 1,
+          "products": [
+            "Llama 3.3"
+          ]
+        },
+        {
+          "vendor": "Mistral AI Mistral",
+          "mentions": 1,
+          "products": [
+            "Mistral"
+          ]
+        },
+        {
+          "vendor": "Ollama Ollama",
+          "mentions": 1,
+          "products": [
+            "Ollama"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 1,
+          "products": [
+            "Zoom AI Companion (meeting summaries, highlights)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot available with enterprise data protection",
+          "summary": "Gives faculty, staff, and students another enterprise-governed generative AI option alongside Google Gemini.",
+          "source_url": "https://ccv.brown.edu/blog/ai-resources/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Human-Centered AI executive education course",
+          "summary": "Complements Applied AI & Data Science with an ethics- and leadership-first offering, reflecting a two-track AI exec-ed portfolio.",
+          "source_url": "https://professional.brown.edu/news/2026-01-28/brown-university-expands-ai-education-portfolio"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Student AI database incident and disciplinary response",
+          "summary": "One of the earliest high-profile student-vs-institution AI incidents at an Ivy, foreshadowing policy questions about AI-enabled activism.",
+          "source_url": "https://turnto10.com/news/local/brown-university-student-potential-discipline-creation-ai-admininstration-professors-staff-members-database-ivy-league-education-public-funding-april-2-2025"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No single monolithic Brown AI strategy document is public; the 2025-2026 academic-priorities memo is the closest artifact and policy is spread across multiple offices.",
+        "Exact user counts for Gemini/Copilot/Transcribe adoption are not publicly disclosed.",
+        "Brown OIT states that Oscar has nearly 500 GPUs, but an exact GPU count and AI-specific FLOPS are not published.",
+        "The Generative AI in Teaching and Learning Committee's full report (expected end of fall 2025) is referenced in the Brown Daily Herald but a public version could not be located during this session.",
+        "No Chief AI Officer role exists separately from the Associate Provost for Artificial Intelligence; treating Littman as the de facto senior AI leader.",
+        "No explicit predictive-analytics retention or admissions-AI deployment was found at Brown; Brown-affiliated research (Annenberg/Meyer/Page) studies similar tools at Georgia State but is not a Brown student deployment."
+      ]
+    }
+  }
+}

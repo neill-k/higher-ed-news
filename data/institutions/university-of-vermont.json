@@ -1,0 +1,1323 @@
+{
+  "institution": "University of Vermont",
+  "slug": "university-of-vermont",
+  "city_state": "Burlington, VT",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 13870,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Marlene Tromp",
+      "url": "https://www.uvm.edu/president"
+    },
+    "provost": {
+      "name": "Linda S. Schadler (Interim)",
+      "url": "https://www.uvm.edu/provost/profile/linda-s-schadler"
+    },
+    "cio": {
+      "name": "Kellie B. Campbell",
+      "url": "https://www.uvm.edu/it/profile/kellie-campbell"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Kellie B. Campbell and Kirk Dombrowski",
+      "title": "CIO and VP for Research and Economic Development (co-chairs, AI Taskforce Strategy Working Group)",
+      "url": "https://www.uvm.edu/ai/uvm-ai-team"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Update on AI Taskforce efforts, Spring 2026",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026",
+        "year": 2026
+      },
+      {
+        "title": "UVM's Commitment to Thoughtful Leadership in Artificial Intelligence",
+        "url": "https://www.uvm.edu/it/news/uvms-commitment-thoughtful-leadership-artificial-intelligence",
+        "year": 2025
+      },
+      {
+        "title": "ETS 2025-2026 Plan",
+        "url": "https://www.uvm.edu/it/ets-2025-2026-plan",
+        "year": 2025
+      },
+      {
+        "title": "Letter From the CIO, Spring 2026",
+        "url": "https://www.uvm.edu/it/news/letter-cio-spring-2026",
+        "year": 2026
+      }
+    ],
+    "summary": "UVM has no single published AI strategy document, but operates through a university-wide AI Taskforce (launched 2025) sponsored by the CIO, VP for Research, and Provost. Work is organized across seven working groups (Strategy, Governance, Technology, Research & Innovation, Workforce, Faculty Development, AI in Curriculum) engaging more than 40 participants from across campus. Strategic priorities align with institutional plans 'Amplifying Our Impact' and 'Our Common Ground' and emphasize 'thoughtful, ethical, and effective use of AI.'"
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.uvm.edu/ai",
+      "https://www.uvm.edu/ai/guidelines-researchers",
+      "https://libraries.uvm.edu/research-guides/student-ai",
+      "https://www.uvm.edu/policies/code-academic-integrity",
+      "https://www.uvm.edu/wid/teaching-and-writing-age-artificial-intelligence"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No institution-wide ChatGPT ban; faculty discretion on assignment-level use",
+      "Academic Integrity Code forbids AI-generated work unless explicitly permitted",
+      "Prohibits inputting non-public or confidential UVM data into open AI tools",
+      "NIH applications 'substantially developed by AI' flagged as misconduct risk",
+      "Approved tools: Microsoft Copilot (enterprise) and VACC locally-hosted LLMs",
+      "IRB Section 8.12 governs AI use in human-subjects research",
+      "Citation of AI outputs required per APA/MLA/Chicago style guidance"
+    ],
+    "summary": "UVM takes a role-specific, cautious posture: published guidelines for faculty, students, staff, and researchers rather than a single prohibition or embrace. The university authorizes enterprise Microsoft Copilot (under a Microsoft agreement that exempts UVM data from LLM training) and VACC-hosted open-source LLMs as the two approved pathways for working with sensitive information; open consumer tools are permitted for non-confidential uses but discouraged for research or protected data. Faculty set course-level AI policies, and WID/CTL provide syllabus-statement templates."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UVM AI Taskforce",
+        "type": "task_force",
+        "scope": "University-wide; sponsored by the CIO, VP for Research and Economic Development, and Provost; seven working groups with 40+ members coordinate AI strategy, governance, technology, research, workforce, faculty development, and curriculum",
+        "url": "https://www.uvm.edu/ai/uvm-ai-team"
+      },
+      {
+        "name": "AI Taskforce - Strategy Working Group",
+        "type": "committee",
+        "scope": "Co-chaired by Kirk Dombrowski and Kellie Campbell; sets near-term priorities and manages the AI Innovation Fund",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      },
+      {
+        "name": "AI Taskforce - Governance Working Group",
+        "type": "committee",
+        "scope": "Chaired by Steve Goldman (Larner CIO); advances policies and guidance for responsible AI use, research integrity, privacy, and compliance",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      },
+      {
+        "name": "AI Taskforce - Technology Working Group",
+        "type": "committee",
+        "scope": "Chaired by Mike Austin (CTO); maintains AI tooling environment and computing resources",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      },
+      {
+        "name": "AI Taskforce - Research & Innovation Working Group",
+        "type": "committee",
+        "scope": "Chaired by Alexa Woodward (Executive Director, Vermont Complex Systems); connects researchers with best practices and supports interdisciplinary projects",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      },
+      {
+        "name": "AI Taskforce - Workforce Development Working Group",
+        "type": "committee",
+        "scope": "Chaired by Bettyjo Bouchey (Chief Officer for Professional and Continuing Education); builds campus-wide AI literacy",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      },
+      {
+        "name": "AI Taskforce - Faculty Development Working Group",
+        "type": "committee",
+        "scope": "Chaired by Susanmarie Harrington (CTL Director); supports teaching and scholarship through workshops and guidance",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      },
+      {
+        "name": "AI Taskforce - AI in Curriculum Working Group",
+        "type": "committee",
+        "scope": "Chaired by Jen Karson and Priyantha Wijesinghe; coordinates curricular pilots and departmental recommendations",
+        "url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      }
+    ],
+    "summary": "AI governance is distributed across a seven-working-group Taskforce rather than a single Chief AI Officer role. The Taskforce reports jointly to the Provost, CIO, and VP for Research, ensuring academic, IT, and research perspectives are coupled. Standing committees like the IRB and Privacy/Compliance Office handle domain-specific review (human subjects, NPPD data). No dedicated Chief AI Officer has been named."
+  },
+  "initiatives": [
+    {
+      "title": "IceCore AI Supercomputer",
+      "description": "UVM's Vermont Advanced Computing Center is building IceCore, a GPU supercomputer delivering over 100 petaflops — 100x the throughput of its predecessor DeepGreen. Phase 1 (Fall 2025) brings online 64 NVIDIA Hopper H200 GPUs; Phase 2 (2026) adds 40 H200 SXM and 48 RTX PRO 6000 Blackwell GPUs. The system enables ~1,000 UVM and New England researchers to run private open-source LLMs and large-scale AI workloads without exposing prompts to commercial providers.",
+      "significance": "One of the fastest academic AI supercomputers in the Northeast; lets a mid-size R1 run frontier-model experiments on secure, institutionally controlled hardware.",
+      "date_announced": "2025-07-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2100000,
+        "funding_source": "NSF Major Research Instrumentation + UVM internal funds",
+        "description": "$2.1M NSF MRI grant plus institutional funds, led by Chris Danforth (CEMS)."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF MRI funding with UVM matching funds; Co-PIs from Math/Stats, CS, and Larner College of Medicine."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "H200 / RTX PRO 6000 Blackwell GPUs",
+          "vendor": "NVIDIA",
+          "role": "GPU compute for LLM training, inference, and scientific AI"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Private institutional hosting of open-source LLMs mitigates the confidentiality risk UVM's research guidelines flag about commercial LLM ingestion.",
+      "source_urls": [
+        "https://www.uvm.edu/uvmnews/news/uvm-attracts-55m-nsf-ai-supercomputer-underground-robots-health-science",
+        "https://www.uvm.edu/cems/news/icecore-advances-new-era-discovery-uvm",
+        "https://www.hpcwire.com/off-the-wire/university-of-vermont-secures-5-5m-from-nsf-for-ai-supercomputer-underground-robots-health-science/"
+      ]
+    },
+    {
+      "title": "UVM AI Taskforce",
+      "description": "A university-wide taskforce launched in 2025 under the joint sponsorship of the Provost, CIO, and VP for Research. Seven working groups (Strategy, Governance, Technology, Research & Innovation, Workforce, Faculty Development, AI in Curriculum) with 40+ members coordinate AI posture, set funding priorities, draft guidance, and run the AI Innovation Fund.",
+      "significance": "Replaces the Chief AI Officer model with distributed governance — a pattern increasingly common at mid-size publics that need to engage academic, research, and IT leadership jointly without standing up new executive roles.",
+      "date_announced": "2025-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Enterprise Technology Services",
+        "description": "Staffed by existing UVM leaders; discretionary spend channeled through the AI Innovation Fund."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UVM Provost",
+            "Office of the VP for Research and Economic Development",
+            "Enterprise Technology Services"
+          ],
+          "description": "Tripartite sponsorship ensures academic, research, and IT alignment."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes UVM's role-specific AI policies across faculty, staff, students, and research.",
+      "source_urls": [
+        "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026",
+        "https://www.uvm.edu/it/news/uvms-commitment-thoughtful-leadership-artificial-intelligence",
+        "https://www.uvm.edu/ai/uvm-ai-team"
+      ]
+    },
+    {
+      "title": "AI Innovation Fund",
+      "description": "An internal grant program launched October 9, 2025 by Enterprise Technology Services. Offers mini-grants ($100-$1,000) and larger awards ($1,000-$10,000) for seminars, workshops, and tool exploration aligned with Taskforce priorities. The inaugural round drew 20 proposals; decisions are being announced in Spring 2026.",
+      "significance": "Signals a bottom-up funding pathway — rather than waiting for centralized AI programs, departments can seed micro-experiments in pedagogy, research, and operations.",
+      "date_announced": "2025-10-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UVM Enterprise Technology Services",
+        "description": "Funded through ETS; individual awards capped at $10,000."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Incentivizes ethical experimentation consistent with Taskforce Governance Working Group guidance.",
+      "source_urls": [
+        "https://www.uvm.edu/it/news/announcing-ai-innovation-fund",
+        "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+      ]
+    },
+    {
+      "title": "Provost's AI in Curriculum Fellows Program",
+      "description": "Summer salary and course release for faculty who integrate AI into curricula, administered via the AI in Curriculum working group (chaired by Jen Karson and Priyantha Wijesinghe). Announced Spring 2026.",
+      "significance": "Direct faculty incentive for curriculum redesign — moves beyond workshops and points to AI literacy being baked into courses rather than bolted on.",
+      "date_announced": "2026-01-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Provides summer salary and course release; specific stipend amounts not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports role-specific faculty guidance on AI in teaching.",
+      "source_urls": [
+        "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026",
+        "https://www.uvm.edu/it/news/letter-cio-spring-2026"
+      ]
+    },
+    {
+      "title": "Enterprise Microsoft Copilot Deployment",
+      "description": "UVM's enterprise Microsoft agreement covers Copilot access for the entire UVM community via UVM NetID single sign-on. Data submitted through authenticated Copilot is exempt from Microsoft LLM training. Copilot for Microsoft 365 (paid tier) is available on a limited, case-evaluation basis. Training via 'Copilot Cafe' drop-in workshops and HR-run Talent Development sessions is ongoing.",
+      "significance": "Puts a contractually-protected generative AI tool in every employee's hands without requiring per-license spend — a pragmatic middle path many publics are following.",
+      "date_announced": "2025-07-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UVM Enterprise Technology Services",
+        "description": "Covered under existing Microsoft enterprise agreement; paid M365 Copilot licenses assessed case-by-case."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise agreement provides data-protection terms for authenticated UVM Copilot users."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Enterprise generative AI assistant"
+        },
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "Premium Copilot with Office integration (limited deployment)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Provides a safe default for UVM affiliates; VACC-hosted LLMs remain the approved pathway for confidential research data.",
+      "source_urls": [
+        "https://www.uvm.edu/it/kb/article/microsoft-copilot/",
+        "https://www.uvm.edu/human-resources/news/new-learning-opportunity-ai-uvm-microsoft-copilot-and-more",
+        "https://www.uvm.edu/ai"
+      ]
+    },
+    {
+      "title": "VACC Locally-Hosted LLMs",
+      "description": "The Vermont Advanced Computing Center hosts open-source LLMs in a closed environment to give researchers and clinicians a privacy-preserving alternative to commercial AI services. Approved for use with data that cannot be input to external tools.",
+      "significance": "Operationalizes a second-tier approved AI pathway specifically for confidential and protected data — a crucial complement to Copilot for R1 research and medical workloads.",
+      "date_announced": "2025-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UVM VACC",
+        "description": "Hosted on VACC's GPU cluster infrastructure."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Locally hosted open-source LLMs",
+          "vendor": "UVM VACC (open-source models)",
+          "role": "Privacy-preserving inference for protected research data"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Enables compliance with UVM researcher guidelines prohibiting ingestion of confidential data into commercial LLMs.",
+      "source_urls": [
+        "https://www.uvm.edu/ai",
+        "https://www.uvm.edu/ai/guidelines-researchers",
+        "https://www.uvm.edu/vacc"
+      ]
+    },
+    {
+      "title": "UVM Health Network + Abridge Ambient AI Documentation (Enterprise Deal)",
+      "description": "UVM Health Network, anchored by UVM's Larner College of Medicine, signed an enterprise-wide agreement with Abridge in July 2024 for generative AI-powered ambient clinical documentation. After a 50-clinician pilot, clinicians reported 53% higher professional fulfillment, 60% less documentation time, and 51% lower cognitive load. Rollout is expanding to cardiology, endocrinology, and additional specialties.",
+      "significance": "One of the earlier academic-health-system enterprise deals with Abridge; provides a measurable operational template for ambient AI in teaching hospitals.",
+      "date_announced": "2024-07-09",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UVM Health Network",
+        "description": "Enterprise-wide contract terms not publicly disclosed; covers over one million patients across VT and northern NY."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Abridge"
+          ],
+          "description": "Enterprise deal for generative AI ambient documentation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Abridge",
+          "vendor": "Abridge",
+          "role": "Generative AI ambient clinical documentation"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Relies on vendor-side HIPAA/BAA protections; reinforces institutional precedent for contractually-governed AI tools.",
+      "source_urls": [
+        "https://www.abridge.com/press-release/uvm-health-network-announcement",
+        "https://www.abridge.com/case-study/uvm-health-network",
+        "https://hitconsultant.net/2024/07/09/uvm-health-network-selects-abridge-ai-to-boost-clinician-satisfaction-by-53/",
+        "https://www.businesswire.com/news/home/20240709984486/en/The-University-of-Vermont-Health-Network-Signs-Enterprise-Deal-With-AI-Leader-Abridge-to-Improve-Clinician-Wellbeing"
+      ]
+    },
+    {
+      "title": "Vermont Complex Systems Institute (VCSI)",
+      "description": "In October 2024, UVM's Board of Trustees approved elevating the Vermont Complex Systems Center (housed in CEMS) into a university-wide Institute reporting to the Office of the VP for Research. Directed by Peter Dodds (Institute Director) and Alexa Woodward (Executive Director), VCSI anchors workforce development and research capacity in generative AI and HPC, including doubling the number of K-12 educators certified to teach computer science in Vermont.",
+      "significance": "A structural upgrade that gives AI and complex systems research institute-level visibility, budget, and reach across schools — unusual and deliberate for a mid-size R1.",
+      "date_announced": "2024-10-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UVM + external grants (NSF, MassMutual)",
+        "description": "Institute-level budget supplemented by partnerships including the MassMutual Center of Excellence and NSF linguistic-data grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "MassMutual"
+          ],
+          "description": "MassMutual Center of Excellence in Complex Systems and Data Science."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF funding for linguistic-data-scale analysis."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Includes explicit focus on 'eliminating bias in AI' alongside large-language-model research, signaling ethics-forward posture.",
+      "source_urls": [
+        "https://www.uvm.edu/uvmnews/news/board-approves-formation-vermont-complex-systems-institute",
+        "https://vermontcomplexsystems.org/",
+        "https://vermontcomplexsystems.org/research/mass-mutual/"
+      ]
+    },
+    {
+      "title": "Strategic Leadership and AI Transformation Certificate",
+      "description": "UVM Professional and Continuing Education's non-credit, fully online professional certificate launched Spring 2025. Four 4-week courses (Adaptive Leadership; Strategic Innovation & Design Thinking; AI Strategy & Impact; Decision Velocity & Foresight) for working professionals. $2,600 for the full certificate; $725 per course.",
+      "significance": "Positions UVM's continuing-education arm as a revenue-bearing AI upskilling channel for mid-to-senior managers.",
+      "date_announced": "2025-03-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UVM Professional and Continuing Education (revenue-bearing)",
+        "description": "Tuition-funded; 16 CEUs awarded on completion."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://learn.uvm.edu/news/online-strategic-leadership-ai-transformation-certificate/"
+      ]
+    },
+    {
+      "title": "WID / CTL Faculty AI Pedagogy Support",
+      "description": "UVM's Writing in the Disciplines program and Center for Teaching and Learning (led by Director Susanmarie Harrington, who also chairs the Faculty Development working group of the AI Taskforce) offer workshops, faculty learning groups, syllabus-statement templates, assignment redesign services, and discipline-specific resources for faculty teaching in the age of AI. Faculty learning groups focus on AI literacy, ethics, and critical evaluation rather than detection.",
+      "significance": "A deliberate 'pedagogy over detection' posture; faculty are equipped to redesign assessment rather than police AI use through Turnitin-style tools.",
+      "date_announced": "2023-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "ai_literacy_requirement",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UVM (Center for Teaching and Learning; Writing in the Disciplines)",
+        "description": "Institutional operating budget; no dedicated external funding identified."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Emphasizes syllabus-level faculty policies consistent with WID's five template categories (attribution, assistance only, assignment-specific, prior permission, prohibition).",
+      "source_urls": [
+        "https://www.uvm.edu/wid/teaching-and-writing-age-artificial-intelligence",
+        "https://www.uvm.edu/wid/faculty-learning-groups",
+        "https://www.uvm.edu/writingcenters/undergradwriting/understanding-generative-artificial-intelligence-genai"
+      ]
+    },
+    {
+      "title": "Xenobots / Computer-Designed Organisms Research",
+      "description": "Josh Bongard's Morphology, Evolution & Cognition Lab, in partnership with Tufts University, uses AI-driven evolutionary algorithms to design Xenobots — millimeter-scale living machines built from frog stem cells. The work, including a 2021 paper on self-replicating xenobots, is foundational to the Institute for Computationally Designed Organisms (ICDO) at UVM. Bongard is Veinott Professor of Computer Science.",
+      "significance": "A globally recognized example of AI-for-biology, anchoring UVM's reputation in frontier AI research and drawing ethicist collaborators from the start.",
+      "date_announced": "2020-01-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "DARPA, NSF, private foundations",
+        "description": "Historical DARPA Lifelong Learning Machines and NSF funding; amounts aggregated across multiple grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Tufts University"
+          ],
+          "description": "Xenobots research collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Integrated biomedical ethicist on research team; IRB review.",
+      "source_urls": [
+        "https://www.uvm.edu/uvmnews/news/team-builds-first-living-robots-can-reproduce",
+        "https://www.uvm.edu/cems/artificial-intelligence",
+        "https://jbongard.github.io/docs/CV.pdf"
+      ]
+    },
+    {
+      "title": "UVM at COP30 - Climate + AI Leadership",
+      "description": "Asim Zia (College of Agriculture and Life Sciences) organized a high-profile AI + climate panel at COP30 in Brazil (November 2025) in partnership with UNEP, Cornell, Environmental Peacebuilding, and national delegations including Pakistan and Armenia.",
+      "significance": "Puts UVM on the global stage for climate-AI policy dialogue — unusual for a New England mid-size R1 and aligned with the institution's land-grant sustainability mission.",
+      "date_announced": "2025-11-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UN / partner institutions",
+        "description": "Conference-level engagement rather than a direct grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "UN Environment Programme",
+            "Cornell University",
+            "Environmental Peacebuilding",
+            "Pakistan delegation",
+            "Armenia delegation"
+          ],
+          "description": "International climate + AI panel at COP30."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://vermontbiz.com/news/2025/november/13/uvm-researchers-cop30-lead-climate-and-ai",
+        "https://www.uvm.edu/cals/news/uvm-leads-global-climate-ai-dialogue-cop30-brazil-0"
+      ]
+    },
+    {
+      "title": "Computational Ethics Lab (Juniper Lovato)",
+      "description": "Juniper Lovato's Computational Ethics Lab, based in the Vermont Complex Systems Institute, examines large language model behavior and societal impacts, running experiments on IceCore to study bias, alignment, and the ethics of data-driven AI systems.",
+      "significance": "Embedded AI-ethics research that leverages UVM's own HPC infrastructure rather than depending on external providers.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_research_center",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UVM + external grants",
+        "description": "Operates within VCSI's budget plus individual sponsored research."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Contributes empirical research that informs UVM's AI governance working group.",
+      "source_urls": [
+        "https://juniperlovato.com/about",
+        "https://www.uvm.edu/cems/news/icecore-advances-new-era-discovery-uvm"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Vermont Complex Systems Institute (VCSI)",
+      "focus": "Post-disciplinary complex systems and data science; generative AI, large-scale linguistic data, computational ethics, social data science",
+      "founded": "2024",
+      "url": "https://vermontcomplexsystems.org/"
+    },
+    {
+      "name": "Institute for Computationally Designed Organisms (ICDO)",
+      "focus": "AI-designed biological machines (Xenobots); evolutionary algorithms for morphology",
+      "founded": null,
+      "url": "https://www.uvm.edu/cems/artificial-intelligence"
+    },
+    {
+      "name": "Morphology, Evolution & Cognition Laboratory",
+      "focus": "Automated robot design, computer-designed organisms (Josh Bongard)",
+      "founded": null,
+      "url": "https://www.uvm.edu/cems/artificial-intelligence"
+    },
+    {
+      "name": "UVM Neurobotics Lab",
+      "focus": "Bio-inspired machine learning, meta-learning, context-aware robotics (Nick Cheney)",
+      "founded": null,
+      "url": "https://www.uvm.edu/cems/artificial-intelligence"
+    },
+    {
+      "name": "Computational Story Lab",
+      "focus": "Large-scale linguistic and social data analysis (Peter Dodds, Chris Danforth)",
+      "founded": null,
+      "url": "https://vermontcomplexsystems.org/"
+    },
+    {
+      "name": "Computational Ethics Lab",
+      "focus": "Large language model behavior, bias, alignment (Juniper Lovato)",
+      "founded": null,
+      "url": "https://juniperlovato.com/about"
+    },
+    {
+      "name": "MassMutual Center of Excellence in Complex Systems and Data Science",
+      "focus": "Applied AI and data science via public-private partnership",
+      "founded": null,
+      "url": "https://vermontcomplexsystems.org/research/mass-mutual/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "PhD in Complex Systems and Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalogue.uvm.edu/graduate/complexsystemsdatascience/complexsystemsdatasciencephd/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Complex Systems and Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalogue.uvm.edu/graduate/complexsystemsdatascience/complexsystemsdatasciencems/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Complex Systems and Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uvm.edu/cems/program/certificate-graduate-study-complex-systems-and-data-science"
+    },
+    {
+      "type": "certificate",
+      "name": "Strategic Leadership and AI Transformation Certificate (professional, non-credit)",
+      "level": "grad",
+      "launched": "2025-03",
+      "url": "https://learn.uvm.edu/news/online-strategic-leadership-ai-transformation-certificate/"
+    },
+    {
+      "type": "course",
+      "name": "CS 295A/395D: Artificial Intelligence",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.uvm.edu/~etosch/CS295A-S22/index.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (free tier, UVM enterprise agreement)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-07",
+      "url": "https://www.uvm.edu/it/kb/article/microsoft-copilot/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot for Microsoft 365 (paid)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-07",
+      "url": "https://www.uvm.edu/it/kb/article/microsoft-copilot/"
+    },
+    {
+      "vendor": "UVM Vermont Advanced Computing Center",
+      "product": "VACC Locally-Hosted Open-Source LLMs",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://www.uvm.edu/ai"
+    },
+    {
+      "vendor": "Abridge",
+      "product": "Abridge Ambient Clinical Documentation",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-07",
+      "url": "https://www.abridge.com/press-release/uvm-health-network-announcement"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "IceCore",
+    "gpu_count": 152,
+    "url": "https://www.uvm.edu/vacc/cluster-specs",
+    "summary": "IceCore, operated by the Vermont Advanced Computing Center, replaces the 6-year-old DeepGreen cluster and delivers over 100 petaflops. Phase 1 (Fall 2025): 64 NVIDIA Hopper H200 GPUs. Phase 2 (2026): 40 H200 SXM + 48 RTX PRO 6000 Blackwell GPUs (total ~152 new-generation GPUs). Funded by a $2.1M NSF MRI grant plus UVM matching funds. Supports ~1,000 researchers across UVM, Vermont, and New England, including private hosted open-source LLMs."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF Major Research Instrumentation - IceCore Supercomputer",
+      "amount_usd": 2100000,
+      "source": "National Science Foundation",
+      "purpose": "Fund the IceCore AI supercomputer at VACC",
+      "date": "2025-07",
+      "url": "https://www.uvm.edu/uvmnews/news/uvm-attracts-55m-nsf-ai-supercomputer-underground-robots-health-science"
+    },
+    {
+      "title": "NSF 2025 Research Package (AI + adjacent fields)",
+      "amount_usd": 5500000,
+      "source": "National Science Foundation",
+      "purpose": "Umbrella figure: IceCore, power-grid ML, osteoarthritis, tissue mechanics, protein behavior, atmospheric science, underground robots, renewable energy",
+      "date": "2025-07",
+      "url": "https://www.uvm.edu/uvmnews/news/uvm-attracts-55m-nsf-ai-supercomputer-underground-robots-health-science"
+    },
+    {
+      "title": "Power Grid Machine Learning (NSF CAREER)",
+      "amount_usd": 500000,
+      "source": "National Science Foundation",
+      "purpose": "Machine learning for power grid resilience (Samuel Chevalier)",
+      "date": "2025-07",
+      "url": "https://www.uvm.edu/uvmnews/news/uvm-attracts-55m-nsf-ai-supercomputer-underground-robots-health-science"
+    },
+    {
+      "title": "AI Innovation Fund (internal grants)",
+      "amount_usd": null,
+      "source": "UVM Enterprise Technology Services",
+      "purpose": "Seed funding for AI experiments across UVM ($100-$10,000 per award)",
+      "date": "2025-10",
+      "url": "https://www.uvm.edu/it/news/announcing-ai-innovation-fund"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Abridge",
+      "purpose": "Enterprise-wide ambient clinical documentation across UVM Health Network",
+      "date": "2024-07",
+      "url": "https://www.abridge.com/press-release/uvm-health-network-announcement"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot deployment with data-protection terms",
+      "date": "2025-07",
+      "url": "https://www.uvm.edu/it/kb/article/microsoft-copilot/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "MassMutual",
+      "purpose": "MassMutual Center of Excellence in Complex Systems and Data Science",
+      "date": null,
+      "url": "https://vermontcomplexsystems.org/research/mass-mutual/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "GlobalFoundries + State of Vermont (V-GaN Tech Hub)",
+      "purpose": "EDA Regional Tech Hub for gallium nitride semiconductor development (computing substrate for AI)",
+      "date": "2023-01",
+      "url": "https://vermontbiz.com/news/2025/november/13/uvm-researchers-cop30-lead-climate-and-ai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Tufts University",
+      "purpose": "Xenobots / computer-designed organisms research",
+      "date": "2020-01",
+      "url": "https://www.uvm.edu/uvmnews/news/team-builds-first-living-robots-can-reproduce"
+    },
+    {
+      "pattern": "international",
+      "partner": "UN Environment Programme, Cornell, Pakistan + Armenia delegations",
+      "purpose": "Climate + AI dialogue at COP30 (2025)",
+      "date": "2025-11",
+      "url": "https://www.uvm.edu/cals/news/uvm-leads-global-climate-ai-dialogue-cop30-brazil-0"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "IceCore MRI grant + four CAREER awards in 2025",
+      "date": "2025-07",
+      "url": "https://www.uvm.edu/uvmnews/news/uvm-attracts-55m-nsf-ai-supercomputer-underground-robots-health-science"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot (free tier) via UVM NetID",
+      "scope": "Available to all UVM students, faculty, and staff with data-protection terms",
+      "url": "https://www.uvm.edu/it/kb/article/microsoft-copilot/"
+    },
+    {
+      "type": "other",
+      "name": "UVM Libraries Student AI Research Guide",
+      "scope": "Policy guidance and citation standards for student AI use",
+      "url": "https://libraries.uvm.edu/research-guides/student-ai"
+    },
+    {
+      "type": "other",
+      "name": "Undergraduate Writing Center GenAI Guidance",
+      "scope": "Writing-specific guidance and workshops for students",
+      "url": "https://www.uvm.edu/writingcenters/undergradwriting/understanding-generative-artificial-intelligence-genai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Vermont Complex Systems Institute K-12 Outreach",
+      "description": "VCSI commits to doubling the number of K-12 educators in Vermont certified to teach computer science, with an AI/complex-systems emphasis.",
+      "url": "https://www.uvm.edu/uvmnews/news/board-approves-formation-vermont-complex-systems-institute"
+    },
+    {
+      "title": "Computational Ethics Lab - Algorithmic Bias Research",
+      "description": "Juniper Lovato's lab at VCSI studies bias and fairness in large language models.",
+      "url": "https://juniperlovato.com/about"
+    },
+    {
+      "title": "aiVermont Partnership (external nonprofit)",
+      "description": "Katharine Shepherd, Dean of UVM's College of Education & Social Services, is involved with aiVermont, a nonprofit focused on AI literacy and closing access gaps for K-12 educators.",
+      "url": "https://aivermont.org/about-us"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Vermont",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Vermont established an AI Council and a Division of AI within the Agency of Digital Services via Act 132 of 2022, creating an AI Center for Enablement for state government. The Vermont Agency of Education issued AI guidance for K-12 schools (2024/2026). The Vermont State Colleges System has its own AI policy — but UVM is not part of that system. There is no Vermont executive order targeting higher-ed AI specifically, and UVM operates independently of VSCS.",
+    "urls": [
+      "https://digitalservices.vermont.gov/ai",
+      "https://education.vermont.gov/press-release/vermont-agency-education-releases-new-guidance-support-use-artificial-intelligence",
+      "https://support.vsc.edu/wp-content/uploads/2024/08/AI-Policy.pdf",
+      "https://legislature.vermont.gov/assets/Legislative-Reports/2025-AI-Report-Final.pdf"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Vermont is a flagship public land-grant R1 in Burlington serving roughly 13,900 students. Under new President Marlene Tromp (installed September 30, 2025), Interim Provost Linda Schadler, VP for Research Kirk Dombrowski, and CIO Kellie Campbell (appointed February 2025), UVM has moved quickly from scattered AI conversations to a coherent, distributed governance model. The university-wide AI Taskforce — seven working groups, 40+ members, tripartite sponsorship by Provost/CIO/VPR — substitutes for a Chief AI Officer and addresses strategy, governance, technology, research, workforce, faculty development, and curriculum simultaneously.\n\nOn the research side, UVM punches above its weight. The Vermont Complex Systems Institute (elevated from center to university-wide institute in October 2024 under Peter Dodds and Alexa Woodward) anchors generative-AI and data-science research, including Juniper Lovato's Computational Ethics Lab. The IceCore supercomputer ($2.1M NSF MRI, 100+ petaflops, phased 2025-2026 deployment) gives UVM one of the fastest academic AI GPU clusters in the Northeast, and enables privacy-preserving hosted LLMs for research. Josh Bongard's Xenobots work with Tufts remains a globally visible example of AI-for-biology. On the clinical side, UVM Health Network's 2024 enterprise deal with Abridge delivered a measured 53% increase in clinician fulfillment and 60% documentation-time reduction, with rollout expanding to cardiology and endocrinology.\n\nOn policy, UVM takes a cautious, role-specific stance. There is no blanket prohibition on AI, but neither is there a single published strategy document. Microsoft Copilot (authenticated via UVM NetID under the enterprise agreement) and VACC-hosted open-source LLMs are the two approved pathways; open consumer tools are permitted for non-confidential uses only. Faculty set course-level policies with support from WID and CTL, which have taken a pedagogy-over-detection posture. The AI Innovation Fund (October 2025) and Provost's AI in Curriculum Fellows (Spring 2026) provide seed funding for bottom-up experimentation. Gaps include no Chief AI Officer, no dedicated undergraduate AI major, and no student-facing chatbot; equity-focused AI deployment beyond research is limited.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.uvm.edu/it/news/letter-cio-spring-2026",
+      "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026",
+      "https://www.uvm.edu/it/news/announcing-ai-innovation-fund",
+      "https://www.uvm.edu/it/news/uvms-commitment-thoughtful-leadership-artificial-intelligence",
+      "https://www.uvm.edu/it/ets-2025-2026-plan",
+      "https://www.uvm.edu/it/kb/article/microsoft-copilot/",
+      "https://www.uvm.edu/ai",
+      "https://www.uvm.edu/ai/uvm-ai-team",
+      "https://www.uvm.edu/ai/guidelines-researchers",
+      "https://libraries.uvm.edu/research-guides/student-ai",
+      "https://www.uvm.edu/wid/teaching-and-writing-age-artificial-intelligence",
+      "https://www.uvm.edu/wid/faculty-learning-groups",
+      "https://www.uvm.edu/writingcenters/undergradwriting/understanding-generative-artificial-intelligence-genai",
+      "https://www.uvm.edu/policies/code-academic-integrity",
+      "https://www.uvm.edu/cems/artificial-intelligence",
+      "https://www.uvm.edu/cems/news/icecore-advances-new-era-discovery-uvm",
+      "https://www.uvm.edu/uvmnews/news/uvm-attracts-55m-nsf-ai-supercomputer-underground-robots-health-science",
+      "https://www.hpcwire.com/off-the-wire/university-of-vermont-secures-5-5m-from-nsf-for-ai-supercomputer-underground-robots-health-science/",
+      "https://www.uvm.edu/uvmnews/news/board-approves-formation-vermont-complex-systems-institute",
+      "https://vermontcomplexsystems.org/",
+      "https://vermontcomplexsystems.org/research/mass-mutual/",
+      "https://www.uvm.edu/uvmnews/news/team-builds-first-living-robots-can-reproduce",
+      "https://www.uvm.edu/uvmnews/news/marlene-tromp-starts-uvm-president",
+      "https://www.uvm.edu/president/university-leadership",
+      "https://www.uvm.edu/provost/profile/linda-s-schadler",
+      "https://www.uvm.edu/it/profile/kellie-campbell",
+      "https://www.uvm.edu/uvmnews/news/uvm-announces-hiring-kellie-campbell-chief-information-officer",
+      "https://www.uvm.edu/uvmnews/news/uvm-appoints-dombrowski-vice-president-research",
+      "https://www.abridge.com/press-release/uvm-health-network-announcement",
+      "https://www.abridge.com/case-study/uvm-health-network",
+      "https://hitconsultant.net/2024/07/09/uvm-health-network-selects-abridge-ai-to-boost-clinician-satisfaction-by-53/",
+      "https://www.businesswire.com/news/home/20240709984486/en/The-University-of-Vermont-Health-Network-Signs-Enterprise-Deal-With-AI-Leader-Abridge-to-Improve-Clinician-Wellbeing",
+      "https://learn.uvm.edu/news/online-strategic-leadership-ai-transformation-certificate/",
+      "https://catalogue.uvm.edu/graduate/complexsystemsdatascience/complexsystemsdatasciencephd/",
+      "https://catalogue.uvm.edu/graduate/complexsystemsdatascience/complexsystemsdatasciencems/",
+      "https://www.uvm.edu/cems/program/certificate-graduate-study-complex-systems-and-data-science",
+      "https://www.uvm.edu/human-resources/news/new-learning-opportunity-ai-uvm-microsoft-copilot-and-more",
+      "https://www.uvm.edu/vacc",
+      "https://www.uvm.edu/vacc/cluster-specs",
+      "https://digitalservices.vermont.gov/ai",
+      "https://education.vermont.gov/press-release/vermont-agency-education-releases-new-guidance-support-use-artificial-intelligence",
+      "https://support.vsc.edu/wp-content/uploads/2024/08/AI-Policy.pdf",
+      "https://aivermont.org/about-us",
+      "https://vermontbiz.com/news/2025/november/13/uvm-researchers-cop30-lead-climate-and-ai",
+      "https://www.uvm.edu/cals/news/uvm-leads-global-climate-ai-dialogue-cop30-brazil-0",
+      "https://juniperlovato.com/about",
+      "https://www.uvm.edu/uvmnews/news/university-vermont-unveils-catgpt-worlds-first-ai-trained-pure-vermont-wisdom"
+    ],
+    "search_queries": [
+      "\"University of Vermont\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Vermont\" generative AI policy guidelines faculty students",
+      "\"University of Vermont\" IceCore supercomputer NSF AI HPC",
+      "\"University of Vermont\" AI degree OR certificate OR major OR minor artificial intelligence program",
+      "\"University of Vermont\" Microsoft Copilot ChatGPT Edu AI enterprise deployment",
+      "\"University of Vermont\" Suresh Garimella president provost CIO leadership",
+      "\"University of Vermont\" new president 2025 Marlene Tromp",
+      "\"University of Vermont\" provost Patricia Prelock 2025 2026",
+      "\"Kellie Campbell\" UVM CIO University of Vermont chief information officer",
+      "\"University of Vermont\" Complex Systems Center AI research data science",
+      "\"University of Vermont\" Larner College Medicine AI healthcare research",
+      "\"University of Vermont\" AI chatbot virtual assistant student services",
+      "\"Vermont\" state AI policy artificial intelligence higher education executive order",
+      "\"University of Vermont\" AI curriculum fellows program teaching learning",
+      "\"University of Vermont\" AI ethics research center Josh Bongard xenobots",
+      "\"University of Vermont\" Linda Schadler interim provost 2025",
+      "\"UVM Health Network\" AI ambient documentation Abridge Suki physicians",
+      "\"University of Vermont\" AI partnership industry announcement 2025",
+      "\"University of Vermont\" Vermont Complex Systems Institute launch 2024 2025",
+      "\"University of Vermont\" Kirk Dombrowski vice president research AI",
+      "\"University of Vermont\" faculty AI teaching workshops Writing Disciplines",
+      "\"University of Vermont\" enrollment 2025 total students undergraduate graduate",
+      "\"University of Vermont\" AI cheating academic integrity controversy lawsuit"
+    ],
+    "gaps_acknowledged": [
+      "No single published AI strategy document; taskforce update letters and the ETS 2025-26 Plan substitute for a unified roadmap",
+      "No dedicated Chief AI Officer; leadership is distributed across CIO, VPR, and Provost",
+      "Specific spending amounts for AI Innovation Fund, Abridge contract, Microsoft Copilot M365 paid licenses, and Provost's AI in Curriculum Fellows are not publicly disclosed",
+      "No dedicated undergraduate AI major or minor found; AI-adjacent study lives inside Computer Science and Complex Systems programs",
+      "No student-facing AI chatbot or predictive-analytics retention deployment identified (aside from a satirical 'CatGPT' April Fools post)",
+      "Adopted date of university-wide AI policy is not stated; pages indicate guidance is continually updated",
+      "No open controversy or litigation specifically about AI found at UVM as of research date"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "governance_led",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 13,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 11,
+        "governance_led": 13,
+        "student_success_led": 3,
+        "workforce_regional_development": 9,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "IceCore",
+        "gpu_count": 152,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 8100000,
+      "funding_source_buckets": {
+        "public_federal_state": 7,
+        "institutional": 3,
+        "other_unclear": 6,
+        "industry_vendor": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "other": 2
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Copilot for Microsoft 365",
+            "Copilot for Microsoft 365 (paid)",
+            "Microsoft Copilot",
+            "Microsoft Copilot (free tier, UVM enterprise agreement)"
+          ]
+        },
+        {
+          "vendor": "Abridge Abridge",
+          "mentions": 1,
+          "products": [
+            "Abridge"
+          ]
+        },
+        {
+          "vendor": "Abridge Abridge Ambient Clinical Documentation",
+          "mentions": 1,
+          "products": [
+            "Abridge Ambient Clinical Documentation"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "H200 / RTX PRO 6000 Blackwell GPUs"
+          ]
+        },
+        {
+          "vendor": "UVM VACC (open-source models) Locally hosted open-source LLMs",
+          "mentions": 1,
+          "products": [
+            "Locally hosted open-source LLMs"
+          ]
+        },
+        {
+          "vendor": "UVM Vermont Advanced Computing Center VACC Locally-Hosted Open-Source LLMs",
+          "mentions": 1,
+          "products": [
+            "VACC Locally-Hosted Open-Source LLMs"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": false,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "UVM AI Taskforce",
+          "summary": "Replaces the Chief AI Officer model with distributed governance — a pattern increasingly common at mid-size publics that need to engage academic, research, and IT leadership jointly without standing up new executive roles.",
+          "source_url": "https://www.uvm.edu/it/news/update-ai-taskforce-efforts-spring-2026"
+        },
+        {
+          "claim_type": "career",
+          "title": "Vermont Complex Systems Institute (VCSI)",
+          "summary": "A structural upgrade that gives AI and complex systems research institute-level visibility, budget, and reach across schools — unusual and deliberate for a mid-size R1.",
+          "source_url": "https://www.uvm.edu/uvmnews/news/board-approves-formation-vermont-complex-systems-institute"
+        },
+        {
+          "claim_type": "cost_or_revenue",
+          "title": "Strategic Leadership and AI Transformation Certificate",
+          "summary": "Positions UVM's continuing-education arm as a revenue-bearing AI upskilling channel for mid-to-senior managers.",
+          "source_url": "https://learn.uvm.edu/news/online-strategic-leadership-ai-transformation-certificate/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "WID / CTL Faculty AI Pedagogy Support",
+          "summary": "A deliberate 'pedagogy over detection' posture; faculty are equipped to redesign assessment rather than police AI use through Turnitin-style tools.",
+          "source_url": "https://www.uvm.edu/wid/teaching-and-writing-age-artificial-intelligence"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No single published AI strategy document; taskforce update letters and the ETS 2025-26 Plan substitute for a unified roadmap",
+        "No dedicated Chief AI Officer; leadership is distributed across CIO, VPR, and Provost",
+        "Specific spending amounts for AI Innovation Fund, Abridge contract, Microsoft Copilot M365 paid licenses, and Provost's AI in Curriculum Fellows are not publicly disclosed",
+        "No dedicated undergraduate AI major or minor found; AI-adjacent study lives inside Computer Science and Complex Systems programs",
+        "No student-facing AI chatbot or predictive-analytics retention deployment identified (aside from a satirical 'CatGPT' April Fools post)",
+        "Adopted date of university-wide AI policy is not stated; pages indicate guidance is continually updated",
+        "No open controversy or litigation specifically about AI found at UVM as of research date"
+      ]
+    }
+  }
+}

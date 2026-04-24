@@ -1,0 +1,1765 @@
+{
+  "institution": "University of Massachusetts-Amherst",
+  "slug": "university-of-massachusetts-amherst",
+  "city_state": "Amherst, MA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Massachusetts",
+  "enrollment": 31726,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Marty Meehan",
+      "url": "https://www.massachusetts.edu/about/president"
+    },
+    "provost": {
+      "name": "Fouad Abd-El-Khalick",
+      "url": "https://www.umass.edu/provost/"
+    },
+    "cio": {
+      "name": "Christopher Misra",
+      "url": "https://www.umass.edu/it/about/leadership/christopher-misra"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Tilman Wolf",
+      "title": "Deputy Chancellor for Operational and Organizational Strategies; Co-Chair, Joint Task Force on Generative AI",
+      "url": "https://www.umass.edu/ai/joint-task-force-generative-artificial-intelligence-ai"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Joint Task Force on Generative AI - Recommendations (AY 2023-2024)",
+        "url": "https://www.umass.edu/senate/joint-task-force-generative-ai",
+        "year": 2024
+      },
+      {
+        "title": "Responsible Use of Generative AI (Office of the Provost)",
+        "url": "https://www.umass.edu/provost/responsible-use-generative-ai",
+        "year": 2024
+      },
+      {
+        "title": "AI at UMass portal",
+        "url": "https://www.umass.edu/ai/",
+        "year": 2024
+      }
+    ],
+    "summary": "UMass Amherst frames its AI posture around 'human-centered artificial intelligence for a sustainable future.' The September 2023 Chancellor-chartered Joint Task Force on Generative AI produced shared values and recommendations that now anchor campus guidance, emphasizing preserving human-to-human interaction while supporting thoughtful technology use. Strategy execution is distributed across the Manning College of Information and Computer Sciences (CICS), the Center for Data Science and AI, IT, the Provost's Office, and faculty-led initiatives such as AI Safety and Public Interest Technology."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.umass.edu/provost/responsible-use-generative-ai",
+      "https://www.umass.edu/studentsuccess/guidance-generative-artificial-intelligence",
+      "https://www.umass.edu/ctl/how-do-i-consider-impact-ai-tools-my-courses",
+      "https://www.umass.edu/public-health-sciences/students/sphhs-policy-student-use-generative-ai"
+    ],
+    "adopted_date": "2024-05",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Default: unauthorized student use of generative AI to complete coursework is an academic honesty violation per Faculty Senate",
+      "Instructors must state their AI-use policy in the syllabus and specify disclosure expectations",
+      "Prohibits entering personal, FERPA-protected, HIPAA, copyrighted, or IRB-protected information into external GAI tools",
+      "Preferred tool is the UMass GenAI Platform (campus-hosted) or Microsoft Copilot under the university's enterprise agreement",
+      "Faculty bear responsibility for all GAI-generated content and must align with NIH, NSF, and publisher guidelines in research"
+    ],
+    "summary": "UMass Amherst's Responsible Use of Generative AI guidance (Office of the Provost, 2024) pairs a Faculty Senate academic-integrity default that prohibits unauthorized student GAI use with permissive pathways through approved tools (UMass GenAI Platform, Microsoft Copilot with NetID). Data privacy, FERPA/HIPAA compliance, and ethical accountability are explicit, making the institutional stance cautious with syllabus-level enforcement."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Joint Task Force on Generative AI",
+        "type": "task_force",
+        "scope": "Chancellor-chartered joint task force (Sept 2023) co-chaired by Michelle Trim and Tilman Wolf with 25 cross-campus members; issued recommendations on academic integrity, responsible use, and operational guidance.",
+        "url": "https://www.umass.edu/ai/joint-task-force-generative-artificial-intelligence-ai"
+      },
+      {
+        "name": "Humanities and Fine Arts AI and Emerging Technologies Committee",
+        "type": "committee",
+        "scope": "College-level committee (est. 2024) co-chaired by Joseph Pater (Linguistics) and Pari Riahi (HFA Dean's Office) examining societal and ethical implications of AI.",
+        "url": "https://www.umass.edu/ai/"
+      },
+      {
+        "name": "CICS AI Safety Initiative",
+        "type": "office",
+        "scope": "Manning College of Information and Computer Sciences initiative co-led by Shlomo Zilberstein and Eugene Bagdasarian focused on alignment, robustness, interpretability, and governance.",
+        "url": "https://aisafety.cs.umass.edu/"
+      },
+      {
+        "name": "Public Interest Technology (PIT@UMass) Initiative",
+        "type": "office",
+        "scope": "Cross-disciplinary initiative funding Responsible AI faculty fellowships and partnering with the Center for Data Science and AI on public-interest AI programs.",
+        "url": "https://groups.cs.umass.edu/pit/"
+      },
+      {
+        "name": "College of SBS AI and Social Science Series",
+        "type": "committee",
+        "scope": "Planning group convening social science community around AI research, events, and engagement.",
+        "url": "https://www.umass.edu/ai/"
+      }
+    ],
+    "summary": "Governance is distributed rather than centralized: the Chancellor-chartered Joint Task Force set campus-wide values in 2023-2024; the Manning College's AI Safety Initiative, the Public Interest Technology Initiative, and college-level AI committees in HFA and SBS operationalize the work. There is no single Chief AI Officer; the CIO, Provost, and task force co-chairs share strategic roles."
+  },
+  "initiatives": [
+    {
+      "title": "UMass GenAI Platform - Campus-Wide Secure Generative AI Service",
+      "description": "UMass Amherst IT and the Center for Data Science and AI launched the UMass GenAI Platform in beta on September 17, 2025. It provides single-sign-on access to OpenAI (ChatGPT), Anthropic (Claude), Meta (Llama), Cohere, and Mistral models in a campus-hosted environment with data protections, custom-agent creation, and model-comparison tools.",
+      "significance": "One of the earliest public R1 campus-built, multi-vendor GenAI platforms, offered as an institutional alternative to consumer tools and now expanding to other UMass campuses and partner institutions.",
+      "date_announced": "2025-09-17",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_infrastructure_and_unification",
+        "faculty_training_and_development",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMass Amherst institutional funds; CICS Center for Data Science and AI",
+        "description": "Campus-built platform supported by IT and the Center for Data Science and AI; specific dollar figure not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Anthropic",
+            "Meta",
+            "Cohere",
+            "Mistral"
+          ],
+          "description": "Multi-vendor AI model access routed through UMass infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT (API)",
+          "vendor": "OpenAI",
+          "role": "LLM backend"
+        },
+        {
+          "name": "Claude (API)",
+          "vendor": "Anthropic",
+          "role": "LLM backend"
+        },
+        {
+          "name": "Llama",
+          "vendor": "Meta",
+          "role": "LLM backend"
+        },
+        {
+          "name": "Command",
+          "vendor": "Cohere",
+          "role": "LLM backend"
+        },
+        {
+          "name": "Mistral models",
+          "vendor": "Mistral",
+          "role": "LLM backend"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a compliant pathway for FERPA/HIPAA-aware GAI use and demonstrates an institution-operated alternative to consumer tools that other systems could license.",
+      "source_urls": [
+        "https://www.umass.edu/news/article/umass-genai-platform-now-available-university-community-use",
+        "https://www.umass.edu/it/genai/platform",
+        "https://www.umass.edu/it/news/inside-umass-genai-platform-campus-built-approach-ai",
+        "https://campusgenai.org/"
+      ]
+    },
+    {
+      "title": "Joint Task Force on Generative AI",
+      "description": "Chancellor Javier Reyes established the Joint Task Force on Generative AI in September 2023. Co-chaired by Michelle Trim and Tilman Wolf with 25 cross-campus members, it produced shared values and recommendations during AY 2023-2024 governing appropriate use of generative AI in academics, research, and administration.",
+      "significance": "Codified campus-wide approach that now informs the Provost's Responsible Use guidance and the Faculty Senate academic integrity stance on unauthorized GAI use.",
+      "date_announced": "2023-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "acceptable_use_policy",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Chancellor's Office",
+        "description": "Internal working group; no disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UMass Faculty Senate"
+          ],
+          "description": "Joint Chancellor-Faculty Senate governance structure."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the institution's human-centered AI principles and feeds directly into syllabus, research, and administrative guidance.",
+      "source_urls": [
+        "https://www.umass.edu/senate/joint-task-force-generative-ai",
+        "https://www.umass.edu/ai/joint-task-force-generative-artificial-intelligence-ai"
+      ]
+    },
+    {
+      "title": "Responsible Use of Generative AI Guidance (Office of the Provost)",
+      "description": "The Provost's Office published Responsible Use of Generative AI guidance covering permitted uses, data privacy, academic integrity, and research ethics. Faculty are required to state AI policy in syllabi; unauthorized student use violates the academic honesty policy; personal, FERPA, HIPAA, and copyrighted data must not be entered into external tools.",
+      "significance": "Operationalizes the task force recommendations at the Provost level and aligns with NIH/NSF/publisher expectations for scholarly work.",
+      "date_announced": "2024-05-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Policy development; no disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Provost-led guidance."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Approved enterprise GAI tool under UMass license"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Defines the default stance for R1 peers considering a no-consent-without-syllabus approach paired with approved institutional tools.",
+      "source_urls": [
+        "https://www.umass.edu/provost/responsible-use-generative-ai",
+        "https://www.umass.edu/studentsuccess/guidance-generative-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Unity Research Computing Platform - HPC and AI Cluster",
+      "description": "Unity is a shared HPC cluster maintained by UMass Amherst with UMass Dartmouth and URI, hosted at the Massachusetts Green High Performance Computing Center (MGHPCC). It exceeds 25,000 cores with more than 1,000 Nvidia GPUs (including A100, L40S, V100), 1.5 PB VAST storage, and serves 2,000+ users across 450+ research groups.",
+      "significance": "Provides one of the largest open-access academic AI/ML compute environments in New England, shared across three public universities.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UMass Amherst, UMass Dartmouth, URI, and MGHPCC consortium",
+        "description": "Multi-institution shared infrastructure; full capital stack not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UMass Dartmouth",
+            "University of Rhode Island",
+            "MGHPCC"
+          ],
+          "description": "Tri-institution shared compute located at MGHPCC in Holyoke, MA."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Nvidia GPUs (A100, L40S, V100)",
+          "vendor": "Nvidia",
+          "role": "Accelerated compute"
+        },
+        {
+          "name": "Slurm",
+          "vendor": "SchedMD",
+          "role": "Workload manager"
+        },
+        {
+          "name": "VAST Data storage",
+          "vendor": "VAST Data",
+          "role": "High-performance storage"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates a multi-university shared-compute model for AI research that other state systems can replicate.",
+      "source_urls": [
+        "https://unity.rc.umass.edu/",
+        "https://www.umass.edu/research-computing/unity-research-computing-platform",
+        "https://docs.unity.rc.umass.edu/about/boilerplate/"
+      ]
+    },
+    {
+      "title": "AI for the Commonwealth Internship Program",
+      "description": "Partnership between UMass Amherst's Center for Data Science and AI, the Public Interest Technology Initiative, and the Massachusetts Executive Office of Technology Services and Security placing UMass CICS students in 16-week paid internships at Massachusetts state agencies to build AI tools. Projects have included a digital guide for EEA, an assistant for the Department of Unemployment Assistance, and a procurement system for MassDOT.",
+      "significance": "Public sector AI internship model pairing an R1 with state government; scaled up in 2025-2026 after Healey-Driscoll launch.",
+      "date_announced": "2024-12-20",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "career_and_workforce_readiness",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "government_and_regulators",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Massachusetts Executive Office of Technology Services and Security; UMass Amherst",
+        "description": "Paid undergraduate/graduate internships; specific dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Massachusetts Executive Office of Technology Services and Security (EOTSS)",
+            "MA Executive Office of Energy and Environmental Affairs",
+            "MA Department of Unemployment Assistance",
+            "MassDOT"
+          ],
+          "description": "Experiential AI co-op placements across state agencies."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Creates a replicable state-university public-interest AI pipeline in the wake of EO 628/629 and the Mass AI Hub.",
+      "source_urls": [
+        "https://www.umass.edu/news/article/healey-driscoll-administration-launches-new-partnership-umass-amherst-recruit-students",
+        "https://ds.cs.umass.edu/programs/ai-for-the-commonwealth",
+        "https://groups.cs.umass.edu/pit/ai-for-the-commonwealth-2026/",
+        "https://www.mass.gov/news/umass-students-present-ai-agency-projects-to-governor-healey"
+      ]
+    },
+    {
+      "title": "Massachusetts AI Hub Partnership",
+      "description": "Chancellor Javier Reyes and UMass President Marty Meehan joined Governor Healey in December 2024 to launch the Massachusetts AI Hub at the Massachusetts Technology Collaborative, with MGHPCC as a core compute partner. The hub coordinates academia, industry, startups, and government on applied AI, workforce, and research.",
+      "significance": "Positions UMass Amherst (and MGHPCC) as the state's anchor public-university AI compute and talent partner under the Mass Leads Act.",
+      "date_announced": "2024-12-20",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "industry_academic_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "government_and_regulators",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 31000000,
+        "funding_source": "Commonwealth of Massachusetts (Mass Leads Act) and MassTech Collaborative",
+        "description": "Massachusetts announced a $31 million investment supporting the Hub including compute and programmatic spending."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Massachusetts",
+            "MassTech Collaborative",
+            "MGHPCC",
+            "Northeastern University",
+            "Harvard",
+            "MIT"
+          ],
+          "description": "Statewide academia-industry-government coalition under the Mass AI Hub."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Tests whether a state-led, university-anchored AI hub can function as industrial policy for the sector.",
+      "source_urls": [
+        "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation",
+        "https://www.hpcwire.com/off-the-wire/governor-healey-unveils-massachusetts-ai-hub-partnering-with-mghpcc/",
+        "https://babl.ai/massachusetts-expands-ai-leadership-with-31-million-investment-and-new-hub-director/"
+      ]
+    },
+    {
+      "title": "Computational Decarbonization (CoDec) - $12M NSF-Funded AI for Sustainability",
+      "description": "UMass Amherst received $12 million over five years from NSF to establish Computational Decarbonization (CoDec), a new branch of computer science applying data-driven and AI methods to automate decarbonization of the electrical grid, buildings, transportation, and computing itself.",
+      "significance": "One of NSF's larger sustainability-AI awards, establishing UMass as a national leader in AI for decarbonization.",
+      "date_announced": "2024-05-24",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "industry_academic_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 12000000,
+        "funding_source": "U.S. National Science Foundation",
+        "description": "$12M NSF award over five years led by UMass Amherst computer scientists."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. National Science Foundation"
+          ],
+          "description": "NSF-funded multi-institutional research program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://accelerateumass.org/impact-stories/umass-researchers-awarded-12m-shrink-societys-carbon-footprint-ai-other-computer",
+        "https://gazettenet.com/2024/05/24/umass-nsf-grant-for-codec-55274514/"
+      ]
+    },
+    {
+      "title": "$7.9M NEMC Hub Award for AI Hardware and Memristor Chips",
+      "description": "UMass Amherst was awarded $7.9 million (year one of a projected $23M, four-year project) from the Northeast Microelectronics Coalition (NEMC) Hub through the CHIPS and Science Act's Microelectronics Commons program to develop CMOS-plus-memristor AI hardware for edge intelligence.",
+      "significance": "Ties UMass Amherst to federal industrial policy on AI hardware and positions it within a defense-industrial-academic microelectronics consortium.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 7900000,
+        "funding_source": "CHIPS and Science Act via NEMC Hub / Naval Surface Warfare Center Crane / NSTXL",
+        "description": "Year-one funding of a projected $23M four-year project to develop AI hardware."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "TetraMem",
+            "NY CREATES",
+            "GlobalFoundries",
+            "University of Southern California",
+            "Raytheon",
+            "BAE Systems",
+            "Berkshire Community College"
+          ],
+          "description": "Consortium for AI hardware prototyping."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.umass.edu/news/article/umass-amherst-awarded-79-million-northeast-microelectronics-coalition-hub-build",
+        "https://www.umass.edu/engineering/news/nemc-hub-grant",
+        "https://businesswest.com/blog/umass-amherst-awarded-7-9-million-to-build-ai-hardware/"
+      ]
+    },
+    {
+      "title": "$5M NSF Grant for Causal Decision-Making AI (Zilberstein, CICS)",
+      "description": "CICS Professor Shlomo Zilberstein is a co-principal investigator on a $5 million multi-institutional NSF grant to improve AI-based causal decision making, a foundational area of AI safety and interpretability research.",
+      "significance": "Aligns with the CICS AI Safety Initiative and underpins UMass's national role in trustworthy AI research.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "agentic_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 5000000,
+        "funding_source": "U.S. National Science Foundation",
+        "description": "Multi-institutional NSF award with UMass Amherst as one of five co-PIs."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NSF",
+            "Multi-institution co-PIs"
+          ],
+          "description": "Cross-institution causal AI research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.umass.edu/news/article/cics-shlomo-zilberstein-and-multi-institutional-colleagues-receive-5-million-nsf-grant"
+      ]
+    },
+    {
+      "title": "CICS AI Safety Initiative",
+      "description": "The Manning College of Information and Computer Sciences' AI Safety Initiative, co-led by Shlomo Zilberstein and Eugene Bagdasarian, conducts research on alignment, robustness, interpretability, and governance to ensure advanced AI systems benefit humanity.",
+      "significance": "Gives UMass a named AI Safety presence at a time when most R1 peers are just standing up equivalent groups.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CICS / federal research grants",
+        "description": "CICS-anchored research initiative; funding aggregates from multiple federal grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [],
+          "description": "Research collaborations with peer AI-safety groups."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Research outputs directly inform UMass's governance framing on responsible AI.",
+      "source_urls": [
+        "https://aisafety.cs.umass.edu/",
+        "https://www.umass.edu/ai/"
+      ]
+    },
+    {
+      "title": "EQUATE (Equity, Accountability, Transparency, and Explainability) Initiative",
+      "description": "CICS initiative developing coursework and research on ethical and equitable algorithm design, spanning software systems, programming languages, machine learning, vision, theory, and data management. Includes bias-mitigation research in hiring algorithms and face-recognition governance led by Professor Erik Learned-Miller.",
+      "significance": "Integrates AI fairness and accountability into R1 computer-science curriculum and faculty research.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "algorithmic_bias",
+        "ai_tool_equity",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CICS; federal research grants",
+        "description": "Integrated research and teaching initiative with multiple grant streams."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [],
+          "description": "Research collaboration across peer institutions on AI fairness."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Informs federal debates on facial recognition oversight via Learned-Miller's 'Facial Recognition Technologies in the Wild' work.",
+      "source_urls": [
+        "https://www.cics.umass.edu/research/research-areas/artificial-intelligence",
+        "https://www.umass.edu/graduate/news/how-ai-can-be-used-promote-equity"
+      ]
+    },
+    {
+      "title": "Graduate Certificate in AI for Business (Isenberg)",
+      "description": "Isenberg School of Management launched a 12-credit fully online Graduate Certificate in Artificial Intelligence for Business covering machine learning, generative AI, and application of AI models in business contexts.",
+      "significance": "Expands AI credentialing to working professionals and mid-career business learners.",
+      "date_announced": "2024-06-25",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Isenberg School of Management",
+        "description": "Program launch within existing school structure."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Isenberg program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.isenberg.umass.edu/programs/certificates/grad/artificial-intelligence",
+        "https://www.isenberg.umass.edu/news/isenberg-expands-graduate-offerings-fully-online-certificate-ai-625"
+      ]
+    },
+    {
+      "title": "AI Engineering Graduate Certificate and M.S. AI/ML Systems Concentration (Riccio College of Engineering)",
+      "description": "The Riccio College of Engineering offers an AI Engineering Graduate Certificate and an M.S. concentration in AI and Machine Learning Systems within Electrical and Computer Engineering, covering foundational through applied AI systems.",
+      "significance": "Extends AI credentials beyond CICS into engineering and hardware-systems specializations.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Riccio College of Engineering",
+        "description": "Existing engineering school programs expanded for AI."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Riccio College program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.umass.edu/engineering/academics/ai-engineering-graduate-certificate",
+        "https://www.umass.edu/engineering/academics/ms-concentration-ai-and-machine-learning"
+      ]
+    },
+    {
+      "title": "Center for Data Science and AI - AI in Research Accelerator Program",
+      "description": "The Center for Data Science and AI offers an AI in Research Accelerator Program (Fall 2025-Spring 2026) providing workshops, trainings, seed funding, and technical support for UMass researchers exploring AI/ML in their work.",
+      "significance": "Operational mechanism for faculty AI uptake across disciplines; one of the clearest R1 models for 'AI everywhere in research' support.",
+      "date_announced": "2025-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Center for Data Science and AI; UMass Amherst",
+        "description": "Seed funding program with technical support staff."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-college program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ds.cs.umass.edu/programs/interdisciplinary-ai-accelerator-program",
+        "https://ds.cs.umass.edu/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Enterprise Deployment",
+      "description": "UMass Amherst's enterprise agreement with Microsoft includes Copilot, which does not train on user data when used with a UMass NetID. Copilot is the approved enterprise GAI tool available to faculty, staff, and students alongside the UMass GenAI Platform.",
+      "significance": "Establishes a compliant baseline enterprise GAI tool while the campus-built GenAI Platform scales.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMass enterprise licensing",
+        "description": "Included in UMass Microsoft enterprise agreement."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise licensing including Copilot for UMass community."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Enterprise GAI assistant for productivity and chat"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Shows R1 peers how to pair an enterprise vendor rollout with a cautious syllabus-level policy and institutional alternative.",
+      "source_urls": [
+        "https://www.umass.edu/provost/responsible-use-generative-ai",
+        "https://www.umassp.edu/uits/product-catalog/campusgenai"
+      ]
+    },
+    {
+      "title": "Public Interest Technology Initiative - 2025-2026 Responsible AI Faculty Fellowship",
+      "description": "PIT@UMass announced the 2025-2026 Responsible AI Faculty Fellowship providing seed funding for research, scholarly writing, and curriculum development focused on responsible AI for public good.",
+      "significance": "Connects faculty grant-making directly to responsible-AI curriculum and research across disciplines.",
+      "date_announced": "2025-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_ethics_framework",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Public Interest Technology Initiative; CICS",
+        "description": "Seed grants to multiple faculty fellows; amounts not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-disciplinary fellowship."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://groups.cs.umass.edu/pit/",
+        "https://www.umass.edu/ai/"
+      ]
+    },
+    {
+      "title": "Data Science for the Common Good (DS4CG) Summer Program",
+      "description": "DS4CG is a 12-week paid summer program where UMass Amherst CICS undergraduate, Master's, and PhD students apply data science and AI methods alongside Center for Data Science and AI staff and faculty to partner organizations in government, health, and nonprofits.",
+      "significance": "Long-running applied data science program that trains students on real-world AI projects with social-sector partners.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "career_and_workforce_readiness",
+        "community_college_ai_program"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Center for Data Science and AI; partner organizations",
+        "description": "Paid summer fellowship program."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Partner nonprofits",
+            "Government agencies"
+          ],
+          "description": "Cross-sector data science fellowships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ds.cs.umass.edu/programs/ds4cg",
+        "https://ds.cs.umass.edu/"
+      ]
+    },
+    {
+      "title": "campusGenAI usage milestone",
+      "description": "UMass Amherst reported campusGenAI reaching 26,000 registered users and more than 1,000,000 user engagements, after launching the secure AI platform for students, faculty, and staff.",
+      "significance": "This closes a platform/outcomes gap with a rare institution-published AI usage metric.",
+      "date_announced": "2025-08-18",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_privacy_and_security",
+        "personalized_student_support",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "UMass publishes adoption metrics but not platform budget or per-user cost."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "UMass IT platform; model/vendor stack is not itemized in the cited usage-milestone page."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "campusGenAI",
+          "vendor": "UMass Amherst / UMass IT",
+          "role": "secure generative-AI platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a secure alternative to unsanctioned consumer AI tools.",
+      "source_urls": [
+        "https://www.umass.edu/it/news/20260217/umass-amherst-launches-campusgenai-secure-ai-platform-students-faculty-and-staff",
+        "https://www.umass.edu/it/news/20250818/campusgenai-reaches-1000000-user-engagements-and-26000-registered-users"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Data Science and Artificial Intelligence (CDS-AI)",
+      "focus": "Interdisciplinary data science and AI research, education, industry collaboration, and public service; 45+ affiliated CICS faculty.",
+      "founded": "2015",
+      "url": "https://ds.cs.umass.edu/"
+    },
+    {
+      "name": "CICS AI Safety Initiative",
+      "focus": "Alignment, robustness, interpretability, and governance of advanced AI systems.",
+      "founded": null,
+      "url": "https://aisafety.cs.umass.edu/"
+    },
+    {
+      "name": "Manning College of Information and Computer Sciences AI Research Area",
+      "focus": "Reinforcement learning (UMass hosted the first conference on RL in 2024), NLP, computer vision, robotics, theory.",
+      "founded": null,
+      "url": "https://www.cics.umass.edu/research/research-areas/artificial-intelligence"
+    },
+    {
+      "name": "Public Interest Technology Initiative (PIT@UMass)",
+      "focus": "Responsible AI, public-interest technology research and curriculum.",
+      "founded": null,
+      "url": "https://groups.cs.umass.edu/pit/"
+    },
+    {
+      "name": "EQUATE Initiative",
+      "focus": "Equity, accountability, transparency, and explainability in AI systems.",
+      "founded": null,
+      "url": "https://www.cics.umass.edu/research/research-areas/artificial-intelligence"
+    },
+    {
+      "name": "Computational Social Science Institute (CSSI)",
+      "focus": "AI and machine learning for social science research; hosts equitable algorithms programming.",
+      "founded": null,
+      "url": "https://www.cssi.umass.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence for Business (Isenberg, online)",
+      "level": "grad",
+      "launched": "2024-06",
+      "url": "https://www.isenberg.umass.edu/programs/certificates/grad/artificial-intelligence"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Engineering Graduate Certificate (Riccio College of Engineering)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.umass.edu/engineering/academics/ai-engineering-graduate-certificate"
+    },
+    {
+      "type": "concentration",
+      "name": "M.S. Concentration in AI and Machine Learning Systems (ECE)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.umass.edu/engineering/academics/ms-concentration-ai-and-machine-learning"
+    },
+    {
+      "type": "concentration",
+      "name": "M.S. in Computer Science - Data Science Concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ds.cs.umass.edu/education"
+    },
+    {
+      "type": "certificate",
+      "name": "Master's Certificate in Statistical & Computational Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ds.cs.umass.edu/education"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "UMass Amherst (campus-built, multi-vendor)",
+      "product": "UMass GenAI Platform",
+      "scope": "campus-wide",
+      "user_count": 1000,
+      "deployed": "2025-09",
+      "url": "https://www.umass.edu/it/genai/platform"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot (NetID-gated, no-training-on-user-data)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.umass.edu/provost/responsible-use-generative-ai"
+    },
+    {
+      "vendor": "UMass Amherst / UMass IT",
+      "product": "campusGenAI",
+      "scope": "campus-wide",
+      "user_count": 26000,
+      "deployed": "2026-02",
+      "url": "https://www.umass.edu/it/news/20260217/umass-amherst-launches-campusgenai-secure-ai-platform-students-faculty-and-staff"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Unity Research Computing Platform",
+    "gpu_count": 1300,
+    "url": "https://unity.rc.umass.edu/",
+    "summary": "UMass Amherst maintains Unity, a 25,000+ core shared HPC cluster with ~1,300 Nvidia GPUs (including 100+ A100, L40S, V100), 1.5 PB VAST high-performance storage, and 2 PB NESE storage. Hosted at MGHPCC in Holyoke, MA and shared with UMass Dartmouth and the University of Rhode Island; serves 2,000+ users across 450+ research groups. The campus is also a federal AI-hardware partner via a $7.9M NEMC Hub award building CMOS+memristor edge AI chips."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Computational Decarbonization (CoDec) NSF award",
+      "amount_usd": 12000000,
+      "source": "U.S. National Science Foundation",
+      "purpose": "AI-driven research on decarbonizing grid, buildings, transportation, and computing.",
+      "date": "2024-05",
+      "url": "https://accelerateumass.org/impact-stories/umass-researchers-awarded-12m-shrink-societys-carbon-footprint-ai-other-computer"
+    },
+    {
+      "title": "NEMC Hub AI Hardware award",
+      "amount_usd": 7900000,
+      "source": "CHIPS and Science Act (NEMC Hub / Naval Surface Warfare Center Crane / NSTXL)",
+      "purpose": "Year-one funding to develop CMOS+memristor AI hardware for edge intelligence (part of projected $23M, four-year project).",
+      "date": "2024-09",
+      "url": "https://www.umass.edu/news/article/umass-amherst-awarded-79-million-northeast-microelectronics-coalition-hub-build"
+    },
+    {
+      "title": "Causal Decision-Making NSF Grant (Zilberstein et al.)",
+      "amount_usd": 5000000,
+      "source": "U.S. National Science Foundation",
+      "purpose": "Multi-institutional causal AI decision-making research.",
+      "date": "2024-09",
+      "url": "https://www.umass.edu/news/article/cics-shlomo-zilberstein-and-multi-institutional-colleagues-receive-5-million-nsf-grant"
+    },
+    {
+      "title": "Massachusetts AI Hub initial investment",
+      "amount_usd": 31000000,
+      "source": "Commonwealth of Massachusetts (Mass Leads Act)",
+      "purpose": "Statewide AI hub at MassTech with MGHPCC as compute partner; UMass Amherst is an anchor academic partner.",
+      "date": "2024-12",
+      "url": "https://babl.ai/massachusetts-expands-ai-leadership-with-31-million-investment-and-new-hub-director/"
+    },
+    {
+      "title": "NSF grant - AI and human language processing (Brian Dillon, Linguistics)",
+      "amount_usd": 432656,
+      "source": "U.S. National Science Foundation",
+      "purpose": "Collaborative research on semantic focusing and LM interpretations with NYU.",
+      "date": "2025-09",
+      "url": "https://www.umass.edu/news/article/linguistics-brian-dillon-receives-nsf-grant-explore-ai-and-human-language-processing"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Center for Data Science corporate collaboration on AI/ML research.",
+      "date": null,
+      "url": "https://ds.cs.umass.edu/about"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM",
+      "purpose": "Center for Data Science corporate collaboration on AI/ML research.",
+      "date": null,
+      "url": "https://ds.cs.umass.edu/about"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon",
+      "purpose": "Center for Data Science corporate collaboration on AI/ML research.",
+      "date": null,
+      "url": "https://ds.cs.umass.edu/about"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot license with no-training-on-user-data term and general Microsoft productivity stack.",
+      "date": null,
+      "url": "https://www.umass.edu/provost/responsible-use-generative-ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI / Anthropic / Meta / Cohere / Mistral",
+      "purpose": "Model providers integrated into the UMass GenAI Platform.",
+      "date": "2025-09",
+      "url": "https://www.umass.edu/it/genai/platform"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Commonwealth of Massachusetts (EOTSS)",
+      "purpose": "AI for the Commonwealth student internship program placing UMass CICS students in state agencies.",
+      "date": "2024-12",
+      "url": "https://www.umass.edu/news/article/healey-driscoll-administration-launches-new-partnership-umass-amherst-recruit-students"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Massachusetts AI Hub / MassTech Collaborative / MGHPCC",
+      "purpose": "Statewide AI hub and shared compute partnership.",
+      "date": "2024-12",
+      "url": "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UMass Dartmouth, University of Rhode Island, MGHPCC",
+      "purpose": "Unity Research Computing Platform shared HPC and AI cluster.",
+      "date": null,
+      "url": "https://unity.rc.umass.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "TetraMem, GlobalFoundries, NY CREATES, Raytheon, BAE Systems, USC, Berkshire Community College",
+      "purpose": "NEMC Hub AI hardware consortium (memristor chips for edge AI).",
+      "date": "2024-09",
+      "url": "https://www.umass.edu/engineering/news/nemc-hub-grant"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "UMass GenAI Platform (custom agents)",
+      "scope": "All UMass Amherst students via SSO; faculty/staff can build and share custom AI agents for courses.",
+      "url": "https://www.umass.edu/it/genai/platform"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot (NetID)",
+      "scope": "All students under UMass Microsoft enterprise agreement.",
+      "url": "https://www.umass.edu/provost/responsible-use-generative-ai"
+    },
+    {
+      "type": "chatbot",
+      "name": "campusGenAI",
+      "scope": "Secure AI platform for students, faculty, and staff with 26,000 registered users and more than 1,000,000 engagements reported by UMass IT.",
+      "url": "https://www.umass.edu/it/news/20250818/campusgenai-reaches-1000000-user-engagements-and-26000-registered-users"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "EQUATE Initiative - Equity, Accountability, Transparency, Explainability",
+      "description": "CICS initiative developing ethics-and-equity coursework and fairness research across ML, vision, theory, and data management.",
+      "url": "https://www.cics.umass.edu/research/research-areas/artificial-intelligence"
+    },
+    {
+      "title": "Facial Recognition Governance Research (Erik Learned-Miller)",
+      "description": "Faculty-led research calling for a federal office governing facial recognition technology; advocates for standards and oversight.",
+      "url": "https://www.umass.edu/graduate/news/how-ai-can-be-used-promote-equity"
+    },
+    {
+      "title": "PIT@UMass Responsible AI Faculty Fellowship",
+      "description": "Seed grants for faculty research, writing, and curriculum development on responsible AI for the public good.",
+      "url": "https://groups.cs.umass.edu/pit/"
+    },
+    {
+      "title": "Data Science for the Common Good (DS4CG)",
+      "description": "Summer program applying data science and AI with government, health, and nonprofit partners on equity-oriented projects.",
+      "url": "https://ds.cs.umass.edu/programs/ds4cg"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Massachusetts",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Governor Maura Healey's Executive Orders 628 and 629 (2024) established an AI Strategic Task Force of 26 members spanning business, higher education, and government, co-chaired by the Secretaries of EOED and EOTSS. The FutureTech Act (signed July 2024) authorized $25 million for state AI modernization. In December 2024 the administration announced the Massachusetts AI Hub at MassTech (with $31M initial investment and MGHPCC as core compute partner) and launched the AI for the Commonwealth student program with UMass Amherst. At the UMass System level, the campusGenAI product is now coordinated through the Office of the President's UITS catalogue and is expanding beyond UMass Amherst. DESE has also released a K-12 AI strategy for Massachusetts schools.",
+    "urls": [
+      "https://www.mass.gov/executive-orders/no-628-establishing-an-artificial-intelligence-strategic-task-force",
+      "https://www.mass.gov/executive-orders/no-629-establishing-an-artificial-intelligence-strategic-task-force",
+      "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation",
+      "https://www.mass.gov/artificial-intelligence-at-the-commonwealth",
+      "https://www.umassp.edu/uits/product-catalog/campusgenai",
+      "https://www.doe.mass.edu/edtech/ai/default.html"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2024-12",
+      "summary": "The Massachusetts Daily Collegian reported tension between the Faculty Senate's academic integrity default (unauthorized AI use = cheating) and student/faculty uncertainty about applying the policy consistently; no formal litigation.",
+      "status": "unknown",
+      "url": "https://dailycollegian.com/2024/12/umass-academic-integrity-policy-addresses-ai-technology-on-campus/"
+    },
+    {
+      "date": "2025-02",
+      "summary": "Chancellor Javier Reyes was a candidate for a West Virginia University presidency after prior no-confidence votes by UMass Amherst faculty bodies; leadership stability question is relevant for strategic AI execution but not an AI-specific controversy.",
+      "status": "resolved",
+      "url": "https://www.bostonglobe.com/2025/02/28/metro/chancellor-javier-reyes-umass-candidat-for-ewest-virginia-umass-is-home/"
+    }
+  ],
+  "narrative_summary": "The University of Massachusetts-Amherst, the flagship R1 of the University of Massachusetts system with roughly 31,700 students, has built one of the more deliberate public-university AI postures in the Northeast. Its strategy pivots on three institutional moves: a 2023 Chancellor-chartered Joint Task Force on Generative AI (co-chaired by Deputy Chancellor Tilman Wolf and Michelle Trim); a 2024 Provost's Responsible Use of Generative AI framework that pairs a cautious, syllabus-first academic-integrity default with explicit data-privacy, FERPA, and research-ethics provisions; and a September 2025 launch of the campus-built UMass GenAI Platform, a multi-vendor service providing secure single-sign-on access to OpenAI, Anthropic, Meta, Cohere, and Mistral models along with custom-agent tooling for faculty. Microsoft Copilot (NetID-gated, no-training-on-user-data) serves as the complementary enterprise baseline.\n\nResearch and infrastructure are where UMass punches above its weight. CICS (Manning College of Information and Computer Sciences) is ranked among the top computer-science programs nationally, hosts the AI Safety Initiative (Zilberstein, Bagdasarian), the EQUATE fairness initiative, and the Center for Data Science and AI. Compute is anchored by the Unity Research Computing Platform at MGHPCC (25,000+ cores, ~1,300 Nvidia GPUs, 1.5 PB storage), shared with UMass Dartmouth and URI. Federal investment in the last year includes a $12M NSF CoDec award for AI-driven decarbonization, a $7.9M CHIPS Act NEMC Hub award for CMOS+memristor edge AI hardware, and a $5M NSF causal-decision-making grant.\n\nAt the state level, UMass Amherst is a central partner in Governor Healey's AI for the Commonwealth program and the $31M Massachusetts AI Hub, placing CICS students into Massachusetts state agencies and anchoring the Hub's compute partnership at MGHPCC. Workforce-development depth is backed by Isenberg's online AI-for-Business certificate, engineering AI/ML concentrations, and the Data Science for the Common Good summer program. Gaps worth flagging: there is no Chief AI Officer, no single published multi-year AI strategy document beyond task-force recommendations, and limited public disclosure of budget figures for the GenAI Platform or most initiatives. Leadership stability questions from 2025 (Chancellor Reyes's West Virginia candidacy) are a strategic-execution risk to watch.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.umass.edu/ai/",
+      "https://www.umass.edu/ai/joint-task-force-generative-artificial-intelligence-ai",
+      "https://www.umass.edu/ai/research-ai-umass",
+      "https://www.umass.edu/ai/ai-students-umass",
+      "https://www.umass.edu/senate/joint-task-force-generative-ai",
+      "https://www.umass.edu/provost/responsible-use-generative-ai",
+      "https://www.umass.edu/provost/instructional-policies-and-resources",
+      "https://www.umass.edu/studentsuccess/guidance-generative-artificial-intelligence",
+      "https://www.umass.edu/studentsuccess/academic-integrity",
+      "https://www.umass.edu/public-health-sciences/students/sphhs-policy-student-use-generative-ai",
+      "https://www.umass.edu/ctl/how-do-i-consider-impact-ai-tools-my-courses",
+      "https://www.umass.edu/ideas/resources/generative-artificial-intelligence-and-assessments",
+      "https://www.umass.edu/ideas/generative-ai-text-platforms",
+      "https://www.umass.edu/it/genai/platform",
+      "https://www.umass.edu/it/genai/products",
+      "https://www.umass.edu/it/news/inside-umass-genai-platform-campus-built-approach-ai",
+      "https://www.umass.edu/it/about/leadership/christopher-misra",
+      "https://www.umass.edu/news/article/misra-named-interim-vice-chancellor",
+      "https://www.umass.edu/news/article/jeremy-pelegrin-named-chief-information-security-officer",
+      "https://www.umass.edu/news/article/umass-genai-platform-now-available-university-community-use",
+      "https://www.umass.edu/chancellor/about/leadership-team",
+      "https://www.umass.edu/chancellor/",
+      "https://www.umass.edu/chancellor/campus-leaders",
+      "https://www.umassp.edu/organization/executive-leadership",
+      "https://www.massachusetts.edu/about/chancellors",
+      "https://www.massachusetts.edu/research/next-frontiers-applied-sciences/next-frontiers-artificial-intelligence",
+      "https://www.umassp.edu/uits/product-catalog/campusgenai",
+      "https://campusgenai.org/",
+      "https://ds.cs.umass.edu/",
+      "https://ds.cs.umass.edu/about",
+      "https://ds.cs.umass.edu/programs",
+      "https://ds.cs.umass.edu/programs/ai-for-umass",
+      "https://ds.cs.umass.edu/programs/ai-for-the-commonwealth",
+      "https://ds.cs.umass.edu/programs/ds4cg",
+      "https://ds.cs.umass.edu/programs/interdisciplinary-ai-accelerator-program",
+      "https://ds.cs.umass.edu/education",
+      "https://ds.cs.umass.edu/news/data-core-developing-generative-ai-playground-for-umass-amherst-community",
+      "https://www.cics.umass.edu/organizations/center-data-science",
+      "https://www.cics.umass.edu/research/research-areas",
+      "https://www.cics.umass.edu/research/research-areas/artificial-intelligence",
+      "https://www.cics.umass.edu/news/center-data-science-established-launch-april-9",
+      "https://www.cics.umass.edu/news/ai-internships-social-good",
+      "https://aisafety.cs.umass.edu/",
+      "https://groups.cs.umass.edu/pit/",
+      "https://groups.cs.umass.edu/pit/ai-for-the-commonwealth-2026/",
+      "https://www.isenberg.umass.edu/programs/certificates/grad/artificial-intelligence",
+      "https://www.isenberg.umass.edu/news/isenberg-expands-graduate-offerings-fully-online-certificate-ai-625",
+      "https://www.umass.edu/engineering/academics/ai-engineering-graduate-certificate",
+      "https://www.umass.edu/engineering/academics/ms-concentration-ai-and-machine-learning",
+      "https://www.umass.edu/engineering/news/nemc-hub-grant",
+      "https://www.umass.edu/engineering/news/schmidt-named-provost-professor",
+      "https://unity.rc.umass.edu/",
+      "https://www.umass.edu/research-computing/unity-research-computing-platform",
+      "https://www.umass.edu/research-computing/unity-hpc-ai-platform-0",
+      "https://docs.unity.rc.umass.edu/about/boilerplate/",
+      "https://www.mghpcc.org/project/umass-amherst-research-computing-and-data/",
+      "https://www.mghpcc.org/umass-amherst-boosts-deep-learning-research-with-powerful-new-gpu-cluster-2/",
+      "https://accelerateumass.org/impact-stories/umass-researchers-awarded-12m-shrink-societys-carbon-footprint-ai-other-computer",
+      "https://gazettenet.com/2024/05/24/umass-nsf-grant-for-codec-55274514/",
+      "https://www.amherstbulletin.com/UMass-NSF-Grant-for-CoDec-55331048",
+      "https://www.umass.edu/news/article/cics-shlomo-zilberstein-and-multi-institutional-colleagues-receive-5-million-nsf-grant",
+      "https://www.umass.edu/news/article/linguistics-brian-dillon-receives-nsf-grant-explore-ai-and-human-language-processing",
+      "https://www.umass.edu/humanities-arts/news/professor-brian-dillon-receives-nsf-grant",
+      "https://www.umass.edu/news/article/umass-amherst-awarded-79-million-northeast-microelectronics-coalition-hub-build",
+      "https://businesswest.com/blog/umass-amherst-awarded-7-9-million-to-build-ai-hardware/",
+      "https://www.ept.ca/umass-amherst-nets-7-9m-to-build-cutting-edge-ai-hardware/",
+      "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation",
+      "https://www.mass.gov/news/governor-healey-signs-executive-order-establishing-artificial-intelligence-ai-strategic-task-force",
+      "https://www.mass.gov/news/umass-students-present-ai-agency-projects-to-governor-healey",
+      "https://www.mass.gov/news/healey-driscoll-administration-launches-new-partnership-umass-amherst",
+      "https://www.mass.gov/executive-orders/no-628-establishing-an-artificial-intelligence-strategic-task-force",
+      "https://www.mass.gov/executive-orders/no-629-establishing-an-artificial-intelligence-strategic-task-force",
+      "https://www.mass.gov/info-details/massachusetts-law-about-artificial-intelligence",
+      "https://www.mass.gov/artificial-intelligence-at-the-commonwealth",
+      "https://www.doe.mass.edu/edtech/ai/default.html",
+      "https://digitalgovernmenthub.org/examples/commonwealth-of-massachusetts-executive-order-no-629-establishing-an-artificial-intelligence-strategic-task-force/",
+      "https://www.hpcwire.com/off-the-wire/governor-healey-unveils-massachusetts-ai-hub-partnering-with-mghpcc/",
+      "https://babl.ai/massachusetts-expands-ai-leadership-with-31-million-investment-and-new-hub-director/",
+      "https://www.amherstindy.org/2024/12/27/umass-will-recruit-students-to-work-on-ai-projects-for-social-good/",
+      "https://www.govtech.com/education/higher-ed/umass-students-showcase-ai-tools-built-for-state-agencies",
+      "https://www.govtech.com/education/k-12/massachusetts-unveils-new-ai-strategy-for-k-12-schools",
+      "https://www.nepm.org/regional-news/2025-02-26/months-after-votes-of-no-confidence-umass-amherst-chancellor-appears-to-be-looking-for-new-job",
+      "https://www.bostonglobe.com/2025/02/28/metro/chancellor-javier-reyes-umass-candidat-for-ewest-virginia-umass-is-home/",
+      "https://dailycollegian.com/2024/12/umass-academic-integrity-policy-addresses-ai-technology-on-campus/",
+      "https://www.umass.edu/graduate/news/how-ai-can-be-used-promote-equity",
+      "https://www.umass.edu/issr/events/seminar-artificially-intelligent-naturally-fair-panel-discussion-equitable-algorithms",
+      "https://www.cssi.umass.edu/events/fri-10272023-1230/artificially-intelligent-naturally-fair-panel-discussion-equitable",
+      "https://www.umass.edu/news/article/umass-amherst-launches-economic-development-initiative-spark-growth-across-region-and",
+      "https://www.umass.edu/gateway/article/expanding-deep-learning",
+      "https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst",
+      "https://www.collegetuitioncompare.com/edu/166629/university-of-massachusetts-amherst/enrollment/",
+      "https://www.umass.edu/it/news/20260217/umass-amherst-launches-campusgenai-secure-ai-platform-students-faculty-and-staff",
+      "https://www.umass.edu/it/news/20250818/campusgenai-reaches-1000000-user-engagements-and-26000-registered-users",
+      "https://www.umass.edu/fctl/resources/ai-teaching-and-learning"
+    ],
+    "search_queries": [
+      "\"University of Massachusetts Amherst\" AI strategy 2025 2026",
+      "\"UMass Amherst\" generative AI policy acceptable use faculty students",
+      "\"UMass Amherst\" AI council OR committee OR task force governance",
+      "\"UMass Amherst\" CIO chief information officer 2025",
+      "\"UMass Amherst\" chancellor provost 2025 2026",
+      "\"UMass Amherst\" GenAI Platform Claude OpenAI campus deployment",
+      "\"UMass Amherst\" AI degree certificate minor master's program",
+      "\"UMass Amherst\" AI research center institute Manning CICS Center for Data Science",
+      "\"UMass Amherst\" GPU cluster supercomputer HPC Unity cluster",
+      "\"UMass Amherst\" NSF AI grant gift million dollar 2024 2025",
+      "\"UMass Amherst\" AI chatbot student advising predictive analytics",
+      "\"UMass Amherst\" AI partnership industry Google Microsoft Nvidia",
+      "\"Massachusetts AI Hub\" UMass partnership state",
+      "\"UMass Amherst\" AI ethics equity accessibility bias research",
+      "\"UMass Amherst\" AI workforce training economic development Commonwealth",
+      "\"UMass Amherst\" enrollment total students 2024 2025",
+      "Massachusetts state AI policy executive order government higher education",
+      "\"UMass Amherst\" \"7.9 million\" AI hardware NSF CAREER CRISS",
+      "site:umass.edu UMass Amherst generative AI assessment platform campusGenAI GPU compute funding student subgroup"
+    ],
+    "gaps_acknowledged": [
+      "No UMass-published multi-year AI strategy document beyond task-force recommendations and Provost's guidance",
+      "No named Chief AI Officer or equivalent single strategy owner at Amherst",
+      "UMass GenAI Platform budget, per-user cost, and full vendor-contract terms not publicly disclosed",
+      "Exact launch dates for several CICS/CDS AI programs (EQUATE, AI Safety Initiative) not published",
+      "No public evidence of a dedicated enterprise predictive-analytics / retention AI platform for student success (coverage may exist but was not surfaced in live search)",
+      "No surfaced dedicated AI-in-admissions deployment or AI-mental-health student-facing tool at Amherst",
+      "Disabilities/accessibility-specific AI initiatives not surfaced in public web sources",
+      "Limited disclosure of enterprise-admin AI tools (e.g., HR, finance, procurement AI) beyond Microsoft Copilot",
+      "UMass Amherst publishes campusGenAI usage metrics, but platform budget, per-user cost, and student-subgroup usage/outcomes remain undisclosed."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "workforce_regional_development",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 15,
+        "research_compute_powerhouse": 22,
+        "curriculum_led": 12,
+        "governance_led": 16,
+        "student_success_led": 9,
+        "workforce_regional_development": 22,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-05",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 4,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Unity Research Computing Platform",
+        "gpu_count": 1300,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 56332656,
+      "funding_source_buckets": {
+        "public_federal_state": 8,
+        "other_unclear": 8,
+        "institutional": 6,
+        "industry_vendor": 1
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 1,
+        "chatbot": 2
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Copilot",
+            "Copilot (NetID-gated, no-training-on-user-data)",
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "UMass Amherst / UMass IT campusGenAI",
+          "mentions": 2,
+          "products": [
+            "campusGenAI"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude (API)"
+          ]
+        },
+        {
+          "vendor": "Cohere Command",
+          "mentions": 1,
+          "products": [
+            "Command"
+          ]
+        },
+        {
+          "vendor": "Meta Llama",
+          "mentions": 1,
+          "products": [
+            "Llama"
+          ]
+        },
+        {
+          "vendor": "Mistral Mistral models",
+          "mentions": 1,
+          "products": [
+            "Mistral models"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Nvidia GPUs (A100, L40S, V100)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT (API)"
+          ]
+        },
+        {
+          "vendor": "SchedMD Slurm",
+          "mentions": 1,
+          "products": [
+            "Slurm"
+          ]
+        },
+        {
+          "vendor": "UMass Amherst (campus-built, multi-vendor) UMass GenAI Platform",
+          "mentions": 1,
+          "products": [
+            "UMass GenAI Platform"
+          ]
+        },
+        {
+          "vendor": "VAST Data VAST Data storage",
+          "mentions": 1,
+          "products": [
+            "VAST Data storage"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Unity Research Computing Platform - HPC and AI Cluster",
+          "summary": "Provides one of the largest open-access academic AI/ML compute environments in New England, shared across three public universities.",
+          "source_url": "https://unity.rc.umass.edu/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Massachusetts AI Hub Partnership",
+          "summary": "Positions UMass Amherst (and MGHPCC) as the state's anchor public-university AI compute and talent partner under the Mass Leads Act.",
+          "source_url": "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Enterprise Deployment",
+          "summary": "Establishes a compliant baseline enterprise GAI tool while the campus-built GenAI Platform scales.",
+          "source_url": "https://www.umass.edu/provost/responsible-use-generative-ai"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Public Interest Technology Initiative - 2025-2026 Responsible AI Faculty Fellowship",
+          "summary": "Connects faculty grant-making directly to responsible-AI curriculum and research across disciplines.",
+          "source_url": "https://groups.cs.umass.edu/pit/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "campusGenAI usage milestone",
+          "summary": "This closes a platform/outcomes gap with a rare institution-published AI usage metric.",
+          "source_url": "https://www.umass.edu/it/news/20260217/umass-amherst-launches-campusgenai-secure-ai-platform-students-faculty-and-staff"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No UMass-published multi-year AI strategy document beyond task-force recommendations and Provost's guidance",
+        "No named Chief AI Officer or equivalent single strategy owner at Amherst",
+        "UMass GenAI Platform budget, per-user cost, and full vendor-contract terms not publicly disclosed",
+        "Exact launch dates for several CICS/CDS AI programs (EQUATE, AI Safety Initiative) not published",
+        "No public evidence of a dedicated enterprise predictive-analytics / retention AI platform for student success (coverage may exist but was not surfaced in live search)",
+        "No surfaced dedicated AI-in-admissions deployment or AI-mental-health student-facing tool at Amherst",
+        "Disabilities/accessibility-specific AI initiatives not surfaced in public web sources",
+        "Limited disclosure of enterprise-admin AI tools (e.g., HR, finance, procurement AI) beyond Microsoft Copilot",
+        "UMass Amherst publishes campusGenAI usage metrics, but platform budget, per-user cost, and student-subgroup usage/outcomes remain undisclosed."
+      ]
+    }
+  }
+}

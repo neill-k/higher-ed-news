@@ -1,0 +1,1490 @@
+{
+  "institution": "University of Nebraska Medical Center",
+  "slug": "university-of-nebraska-medical-center",
+  "city_state": "Omaha, NE",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Nebraska",
+  "enrollment": 4818,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Jeffrey P. Gold, MD (NU System President)",
+      "url": "https://nebraska.edu/about/president"
+    },
+    "provost": {
+      "name": "Jane Meza, PhD (Interim Vice Chancellor for Academic Affairs)",
+      "url": "https://www.unmc.edu/aboutus/leadership-mission/vc-academicaffairs.html"
+    },
+    "cio": {
+      "name": "Bret Blackman (NU System VP for IT and CIO; oversees UNMC IT after 2025 alignment). Interim UNMC IT leader: Becker (April 2025).",
+      "url": "https://nebraska.edu/offices-policies/its/meet-our-people"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Emily Glenn and Rachel Lookadoo, JD (co-chairs, UNMC AI Task Force)",
+      "title": "Co-chairs, UNMC AI Task Force (Dean of McGoogan Health Sciences Library; Asst. Professor, College of Public Health)",
+      "url": "https://www.unmc.edu/newsroom/2024/05/28/task-force-report-outlines-future-for-ai-use-at-unmc/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UNMC AI Task Force Report",
+        "url": "https://digitalcommons.unmc.edu/cgi/viewcontent.cgi?article=1000&context=unmc_reports",
+        "year": 2024
+      },
+      {
+        "title": "University of Nebraska AI Taskforce Report (system-wide)",
+        "url": "https://nebraska.edu/offices-policies/provosts-office/academic-affairs/nu-ai-taskforce",
+        "year": 2025
+      },
+      {
+        "title": "NU AI Institute launch announcement",
+        "url": "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/",
+        "year": 2026
+      }
+    ],
+    "summary": "UNMC's AI strategy operates at two levels: (1) an institution-specific 2024 AI Task Force Report authored by a 65-member cross-functional committee addressing education, research, clinical care, business functions, and AI-related disinformation/bias; and (2) participation in the NU System AI Institute launched February 2026 as a hub-and-spoke initiative with UNMC designated as the Center for AI in Health node. UNMC's strategic focus centers on health AI applications: medical imaging, personalized medicine, predictive analytics, clinical decision support, and genomics-based diagnostics, while embedding responsible/ethical AI principles across the academic health sciences enterprise."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://wiki.unmc.edu/index.php/UNMC_AI_Use_Guidelines",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence"
+    ],
+    "adopted_date": "2025-03",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Policy No. 8020 effective 03/07/2025; last revised 06/04/2025",
+      "Prohibits entering confidential, proprietary, patient-regulated (HIPAA), or restricted data into non-approved external GenAI tools",
+      "Only public or Low Risk Data permitted in external AI tools without enterprise agreement and risk assessment",
+      "Mandatory risk assessment for vendor/collaborator AI agreements",
+      "AI use in NIH/NSF peer review prohibited per federal guidance",
+      "Accountability for plagiarism/falsification/fabrication regardless of AI involvement; AI disclosure and citation required when permitted",
+      "Faculty discretion per-course: prohibition, attribution-required, or encouragement",
+      "Institutional Approved Technology List available for tool verification"
+    ],
+    "summary": "UNMC Policy 8020 (effective March 2025) establishes a comprehensive responsible-use framework covering faculty, students, staff, research, and admin. The policy explicitly protects PHI/HIPAA and restricted data, requires risk assessments before vendor AI agreements, prohibits AI use in peer review, and defers syllabus-level specifics to faculty discretion while requiring disclosure and citation when AI is used in permitted contexts."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UNMC AI Task Force",
+        "type": "task_force",
+        "scope": "65-member cross-functional task force (convened summer 2023) addressing education, research, clinical care, business functions, and AI disinformation/bias; co-chaired by the McGoogan Library dean and a College of Public Health faculty member",
+        "url": "https://www.unmc.edu/newsroom/2024/05/28/task-force-report-outlines-future-for-ai-use-at-unmc/"
+      },
+      {
+        "name": "NU System AI Taskforce (policy) / NU AI Institute",
+        "type": "council",
+        "scope": "System-wide body that produced a 2025 strategy recommending the AI Institute, Centers of Excellence per campus, cluster hires, and new degree programs (MS/BS in AI). UNMC members included Howard Fox, Emily Glenn, Kendra Schmid, Chad Vokoun. Board of Regents ratification expected June 2026.",
+        "url": "https://nebraska.edu/offices-policies/provosts-office/academic-affairs/nu-ai-taskforce"
+      },
+      {
+        "name": "Center for Intelligent Health Care (CIHC)",
+        "type": "office",
+        "scope": "Regents-approved Center of Excellence hosting UNMC's clinical-AI research, HPC for ML/DL, and advisory committee. Founding director John Windle, MD.",
+        "url": "https://www.unmc.edu/cihc/index.html"
+      },
+      {
+        "name": "Nebraska Medicine Care-Through-AI working group",
+        "type": "committee",
+        "scope": "Operational group co-chaired by former CIO Scott Raymond and Chad Vokoun, MD (division chief, hospital medicine), coordinating clinical AI deployments with forward-deployed engineers and front-line nurses.",
+        "url": "https://healthsystemcio.com/2025/04/09/at-nebraska-medicine-raymond-leverages-specially-created-unit-to-pilot-innovations-without-disrupting-operations/"
+      }
+    ],
+    "summary": "UNMC's AI governance is multi-layered: a 65-member institutional Task Force (2023-24) produced the foundational report; the NU System Taskforce and Institute (2025-26) provide system-wide coordination; the Center for Intelligent Health Care operates as a Regents-approved Center of Excellence; and a Nebraska Medicine operational working group runs clinical-AI co-development with nurses and engineers."
+  },
+  "initiatives": [
+    {
+      "title": "UNMC AI Task Force and Task Force Report",
+      "description": "UNMC formed a 65-member task force in summer 2023 spanning the academic medical center and clinical partners, and published a comprehensive report on May 28, 2024 addressing AI in education, research, clinical care, business functions, and disinformation/bias. The report recommended policy frameworks, an ongoing AI workgroup, robust communication, and sustained funding.",
+      "significance": "One of the earliest institution-level AI governance frameworks specifically tailored to an academic medical center, with structured cross-functional workgroups assigned to each focus area.",
+      "date_announced": "2024-05-28",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNMC internal",
+        "description": "Institutional investment in governance process; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Nebraska Medicine",
+            "UNMC clinical partners"
+          ],
+          "description": "Cross-functional 65-member task force including clinical partner representatives."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Established foundational governance posture; feeds UNMC Policy 8020 and subsequent NU system efforts.",
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2024/05/28/task-force-report-outlines-future-for-ai-use-at-unmc/",
+        "https://digitalcommons.unmc.edu/cgi/viewcontent.cgi?article=1000&context=unmc_reports",
+        "https://www.unmc.edu/newsroom/2023/09/20/unmc-forms-task-force-to-explore-impact-of-ai/"
+      ]
+    },
+    {
+      "title": "UNMC AI Use Guidelines (Policy 8020)",
+      "description": "UNMC formally adopted Policy 8020 on generative AI use effective March 7, 2025 (last revised June 4, 2025), providing a comprehensive responsible-use framework that protects PHI/HIPAA data, requires risk assessments for vendor agreements, prohibits AI in federal peer review, and requires disclosure/citation when AI is used in permitted contexts.",
+      "significance": "A fully-formed AI acceptable-use policy tailored to the unique data-sensitivity and regulatory environment of an academic medical center, covering faculty/students/staff/research/admin.",
+      "date_announced": "2025-03-07",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNMC internal",
+        "description": "Policy development and compliance infrastructure."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Approved Technology List",
+          "vendor": "UNMC",
+          "role": "Governance list of vetted AI tools for institutional use"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets baseline for all UNMC GenAI use; aligns with HIPAA, NIH/NSF peer-review restrictions, and institutional conduct codes.",
+      "source_urls": [
+        "https://wiki.unmc.edu/index.php/UNMC_AI_Use_Guidelines"
+      ]
+    },
+    {
+      "title": "NU AI Institute (hub-and-spoke) — UNMC Center for AI in Health",
+      "description": "The University of Nebraska launched a system-wide AI Institute on February 9, 2026 with Board of Regents ratification expected June 2026. Structured hub-and-spoke, the Institute designates a Center for AI in Health at UNMC focused on medical imaging, personalized medicine, predictive analytics, clinical decision support, telemedicine, genomics-based diagnostics, and AI ethics in health. Co-directors are Santosh Pitla, PhD (UNL) and Adrian Wisnicki, PhD (UNL); UNMC Interim Chancellor H. Dele Davies is publicly supportive.",
+      "significance": "Positions UNMC as the health-AI node of a statewide strategy with Google and Nebraska Research Initiative support — the first major system-level AI coordination across the four NU campuses.",
+      "date_announced": "2026-02-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NU System, Google, Nebraska Research Initiative, philanthropic partners",
+        "description": "Public-private investment; specific dollar amounts not disclosed at launch."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google",
+            "Nebraska Research Initiative"
+          ],
+          "description": "Industry and philanthropic support partners at launch."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Nebraska-Lincoln",
+            "University of Nebraska at Omaha",
+            "University of Nebraska at Kearney",
+            "UNMC"
+          ],
+          "description": "System-wide hub-and-spoke coordination across four NU campuses."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors long-term state-level AI posture in higher ed; sets expectations for cross-campus ethics, governance, and workforce development.",
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/",
+        "https://ai.nebraska.edu/",
+        "https://nebraska.edu/news-and-events/news/2026/02/university-of-nebraska-launches-ai-institute"
+      ]
+    },
+    {
+      "title": "Center for Intelligent Health Care (CIHC)",
+      "description": "UNMC's Regents-approved Center of Excellence, founded in 2020 and led by founding director John Windle, MD, coordinates AI/ML research across electronic health record optimization, explainable AI for clinical outcomes, gait analysis for peripheral artery disease, wearable bioelectronic devices, drug screening, and spatial analysis of healthcare accessibility. Funding from NSF, NIST, NLM, and AHRQ.",
+      "significance": "UNMC's established multi-year clinical-AI research home with federal funding and a HIPAA-compliant HPC environment specifically for ML/DL workloads.",
+      "date_announced": "2020-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF, NIST, National Library of Medicine, AHRQ",
+        "description": "Multi-agency federal research funding across a 25-year portfolio led by Dr. Windle."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNL",
+            "UNK",
+            "UNO",
+            "national academic partners"
+          ],
+          "description": "Cross-campus and national faculty collaboration."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "NIST",
+            "NLM",
+            "AHRQ"
+          ],
+          "description": "Federal agency research funding."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CIHC Supercomputer (HIPAA-compliant)",
+          "vendor": "UNMC Research IT",
+          "role": "On-premise ML/DL/AI compute in a HIPAA-compliant environment"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/cihc/index.html",
+        "https://www.unmc.edu/cihc/about/index.html",
+        "https://www.unmc.edu/cihc/research/index.html",
+        "https://www.unmc.edu/research-resources/resources/cores/rito/supercomputing.html"
+      ]
+    },
+    {
+      "title": "Nebraska Medicine Patient Communication AI (ActiumHealth)",
+      "description": "Nebraska Medicine (UNMC's $2.5B academic medical system) deployed ActiumHealth's conversational AI platform across its Medical Communication Center handling 2.5 million annual calls. Phase 1 automated intelligent call routing and transfers; Phase 2 (expanding to all specialties by November 2025) integrates with Epic for scheduling, prescription refills, and inpatient lookups.",
+      "significance": "One of the most-cited AMC call center AI deployments — achieved 70% call automation and 40% reduction in abandoned calls while preserving 15-minute organ-transplant response windows.",
+      "date_announced": "2024-01-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Nebraska Medicine operating budget",
+        "description": "Strategic investment not publicly disclosed; deployed as a highest-priority strategic initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "ActiumHealth"
+          ],
+          "description": "Vendor partnership for conversational AI patient-communication platform."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ActiumHealth conversational AI platform",
+          "vendor": "ActiumHealth",
+          "role": "Voice AI agents integrated with telephony and Epic EHR for patient routing, scheduling, refills, and lookups"
+        },
+        {
+          "name": "Epic EHR",
+          "vendor": "Epic Systems",
+          "role": "Integrated with the AI layer for Phase 2 scheduling and clinical workflows"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operational HIPAA-governed AI deployment at scale inside an academic health system; model for other AMCs.",
+      "source_urls": [
+        "https://www.healthcareitnews.com/news/nebraska-medicine-ai-means-40-fewer-calls-need-human-intervention",
+        "https://www.actiumhealth.com/case-studies/nebraska-medicine"
+      ]
+    },
+    {
+      "title": "Nebraska Medicine nurse-led clinical AI co-development",
+      "description": "Nebraska Medicine pairs front-line nurses with forward-deployed engineers to co-develop AI tools; approximately 50 use cases have been built. A flagship application predicts length of stay and surfaces discharge-ready patients for the hospital's departure lounge, with nurses retaining final judgment and chart-level traceability of AI-surfaced evidence.",
+      "significance": "Nurse-led AI design has become a national exemplar — directly addresses clinician trust, workflow friction, and hospital capacity pressures.",
+      "date_announced": "2024-12-13",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Nebraska Medicine operating budget",
+        "description": "Approximately 50 co-developed use cases; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "forward-deployed engineering partners"
+          ],
+          "description": "Vendor-embedded engineers co-locate with nursing teams."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Discharge prediction AI",
+          "vendor": "Nebraska Medicine / partner engineers",
+          "role": "Predicts length of stay and flags discharge-ready patients with evidence traceability"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Human-in-the-loop design with chart-level evidence traceability — informs responsible-AI operational norms.",
+      "source_urls": [
+        "https://www.beckershospitalreview.com/quality/nursing/nebraska-medicine-taps-ai-to-unlock-capacity-ease-strain-on-nurses/",
+        "https://www.wowt.com/2024/12/13/new-unit-nebraska-medicine-integrates-technology-like-ai-into-patient-care/"
+      ]
+    },
+    {
+      "title": "iEXCEL AISER program and iEXCEL 2.0",
+      "description": "UNMC's Interprofessional Experiential Center for Enduring Learning (iEXCEL) at the Davis Global Center pioneered the AISER concept (AI + computational Simulations + Extended Reality) in 2023 in cardiovascular medicine, using 3D CADWalls, holographic theater, and laser-CAVE immersive environments. iEXCEL 2.0 (2025) expands with an iEXCEL Lab for Emerging Technologies for intelligent digital twins and data-driven decision-making, and extends statewide including the Kearney campus.",
+      "significance": "First-in-class combination of AI, simulation, and XR for health professions training; a showcase of digital twins in medical education.",
+      "date_announced": "2023-10-24",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development",
+        "ai_tutoring_and_adaptive_learning"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "computer_vision",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UNMC internal, state of Nebraska, donor (Davis)",
+        "description": "Davis Global Center is a named-gift facility; iEXCEL 2.0 expansion investment not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNK (Kearney expansion)",
+            "Nebraska Medicine (clinical integration)"
+          ],
+          "description": "Statewide simulation expansion."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Holographic Theater (70-seat)",
+          "vendor": "iEXCEL / Davis Global Center",
+          "role": "Immersive instructional environment"
+        },
+        {
+          "name": "iEXCEL Laser CAVE-5",
+          "vendor": "Davis Global Center",
+          "role": "Five-sided immersive 3D laser cave for AISER instruction"
+        },
+        {
+          "name": "3D CADWalls / 2D iWalls",
+          "vendor": "Davis Global Center",
+          "role": "Interactive instructional displays"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2023/10/24/unmc-pioneers-combination-of-ai-simulations-and-extended-reality-in-health-care-scenarios/",
+        "https://www.unmc.edu/iexcel/",
+        "https://www.unmc.edu/iexcel/visualization/technology.html",
+        "https://www.unmc.edu/newsroom/2025/05/20/iexcel-moves-into-new-phase-of-growth-iexcel-2-0/"
+      ]
+    },
+    {
+      "title": "Generative AI Faculty Development Symposium and monthly series",
+      "description": "UNMC's McGoogan Health Sciences Library, College of Public Health, Faculty Development, and Academic Affairs co-sponsored the first Generative AI at UNMC Summer Symposium on July 23, 2024 (100+ attendees) covering assignment design, grading rubrics, information literacy, ethics, deepfakes, and medical visualizations. An ongoing monthly AI discussion series extends faculty development into 2024-25.",
+      "significance": "Normalizes ongoing GenAI capacity-building across a health-sciences faculty audience, with structured sessions ranging from assignment redesign to ethics.",
+      "date_announced": "2024-07-23",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNMC library, Academic Affairs, Faculty Development co-sponsorship",
+        "description": "Internal co-sponsored programming; no external funding disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Nebraska at Omaha"
+          ],
+          "description": "Symposium opened to UNO community."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Builds faculty capacity aligned with Policy 8020 and the Task Force recommendations.",
+      "source_urls": [
+        "https://www.unmc.edu/library/gen_ai_symposium/",
+        "https://www.unmc.edu/newsroom/2024/07/30/symposium-showcases-generative-ai-at-unmc/",
+        "https://www.unmc.edu/newsroom/2024/05/31/new-generative-ai-events-at-unmc-start-this-summer/",
+        "https://www.unmc.edu/newsroom/2024/08/21/unmc-ai-discussion-series-extends-schedule/"
+      ]
+    },
+    {
+      "title": "HIPPO T&C VR/AI behavioral health research MOU",
+      "description": "On October 21, 2024 UNMC signed an MOU with HIPPO T&C (South Korea) for joint clinical research using VR and AI to assess and treat behavioral health conditions including ADHD, plus plans to expand into chronic neurological and medical conditions. Faculty/student/staff exchange included. Partners also include SungKyunKwan University and Samsung Medical Center.",
+      "significance": "International AI/VR behavioral-health partnership with a commercial South Korean healthtech and two major Korean academic partners.",
+      "date_announced": "2024-10-21",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "cross_border_research_alliance",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "HIPPO T&C and UNMC",
+        "description": "MOU framework; funding not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "HIPPO T&C (South Korea)",
+            "SungKyunKwan University",
+            "Samsung Medical Center"
+          ],
+          "description": "Cross-border clinical-AI research alliance focused on pediatric/adolescent behavioral health."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "HIPPO T&C VR platform",
+          "vendor": "HIPPO T&C",
+          "role": "VR cognitive/behavioral data capture with AI analysis layer"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2024/11/12/unmc-signs-understanding-to-collaborate-on-vr-and-ai-research/"
+      ]
+    },
+    {
+      "title": "Familyroom.health ICU caregiver digital platform",
+      "description": "UNMC College of Nursing, with UNeMed/UNeTech and Nebraska Medicine, launched Familyroom.health nationally on October 25, 2025. The platform uses an adaptive assessment engine that evaluates ICU experience level, emotional state, and support systems to deliver algorithm-driven personalized guidance to ICU family caregivers. Over $1M raised; built on 12 years of research by Dr. Breanna Hetland and a 2024 NIH-sponsored task-driven simulation refinement.",
+      "significance": "Nurse-led, commercialized AI-driven caregiver support tool targeting the 15-20M Americans annually thrust into caregiving roles during ICU stays.",
+      "date_announced": "2025-10-21",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "mental_health_and_wellbeing",
+        "ai_incubator_or_startup_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1000000,
+        "funding_source": "NIH and private development funding",
+        "description": "Over $1M secured for development and commercialization."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "UNeMed",
+            "UNeTech",
+            "Nebraska Medicine"
+          ],
+          "description": "Commercialization via UNMC's tech transfer and startup arms."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH"
+          ],
+          "description": "NIH-sponsored task-driven simulations (2024)."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Familyroom.health",
+          "vendor": "Familyroom.health (UNeMed commercialization)",
+          "role": "Adaptive assessment + algorithmic personalized guidance platform for ICU family caregivers"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2025/10/21/unmc-nursing-innovation-launches-nationally-2/"
+      ]
+    },
+    {
+      "title": "Project Health — $2.19B public-private hospital with embedded AI/virtual nursing",
+      "description": "The Board of Regents approved Project Health, a $2.19B investment (the largest in NU history) to build a new academic medical center operational by 2031. Roughly one-third of square footage is dedicated to education; rooms will include virtual nursing tools and real-time monitoring; the facility is designed for 'a future shaped by AI, data science and new models of care' and will sit adjacent to the Catalyst and CORE facilities in Omaha's EDGE District.",
+      "significance": "Capital-scale strategic bet that embeds AI-enabled care delivery into the built environment of the next UNMC academic hospital — a bellwether infrastructure commitment.",
+      "date_announced": "2025-04-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "business_model_disruption",
+        "ai_native_institution",
+        "regional_economic_impact",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "agentic_ai",
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community",
+        "board_and_trustees",
+        "government_and_regulators",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 2190000000,
+        "funding_source": "public-private partnership; NU System / state of Nebraska / philanthropy",
+        "description": "$2.19B construction; projected $3.2B economic impact during construction and $1.5B annual once operational."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Nebraska",
+            "NU Board of Regents"
+          ],
+          "description": "Public-private partnership anchored in state commitment."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Omaha EDGE District",
+            "Nebraska Medicine"
+          ],
+          "description": "Geographic clustering with Catalyst/CORE research buildings."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Capital planning that pre-commits to AI-enabled virtual nursing and real-time monitoring standards.",
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2026/02/10/the-future-of-health-care-is-being-built-in-nebraska/",
+        "https://www.unmc.edu/project-health/",
+        "https://nebraskaexaminer.com/briefs/largest-venture-in-nu-history-project-health-gets-green-light-from-board-of-regents/"
+      ]
+    },
+    {
+      "title": "UNMC IT services alignment with NU System",
+      "description": "Announced January 2025, NU System CIO Bret Blackman leads a review of UNMC IT services, supported by Nebraska Medicine's Chief Innovation Officer. The August 2025 outcome: select UNMC IT services moved under NU ITS leadership, centralizing infrastructure and creating a path for unified enterprise AI tooling across UNMC/UNL/UNO/UNK.",
+      "significance": "A rare example of a mid-sized academic medical center centralizing IT under a statewide system CIO — relevant to enterprise AI licensing and governance.",
+      "date_announced": "2025-01-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "institutional_transformation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "data_infrastructure_and_unification",
+        "institutional_restructuring",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "unspecified"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NU System and UNMC",
+        "description": "Administrative reorganization; cost details not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NU System ITS",
+            "Nebraska Medicine"
+          ],
+          "description": "NU-ITS-led alignment across UNMC and Nebraska Medicine."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 with Copilot Chat (EDP)",
+          "vendor": "Microsoft",
+          "role": "Enterprise GenAI with Enterprise Data Protection available under A5 licenses across NU system"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes the shared IT foundation on which enterprise AI policies, tool lists, and data governance will scale.",
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2025/01/15/university-to-lead-review-of-unmc-it-services/",
+        "https://www.unmc.edu/newsroom/2025/08/18/select-unmc-it-services-to-more-closely-align-with-nu/",
+        "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "CHRI AI/ML Pilot Grant program",
+      "description": "UNMC's Child Health Research Institute funds AI/ML Pilot Grants focused on leveraging AI and machine learning resources to improve pediatric health outcomes. This is one of the few dedicated internal AI funding mechanisms at UNMC targeting a specific population.",
+      "significance": "Demonstrates a funded, population-focused internal AI research pipeline at an AMC.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNMC Child Health Research Institute (internal)",
+        "description": "Pilot grant program dollar amounts not publicly disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/chri/research-resources/funding-opportunities.html",
+        "https://www.unmc.edu/chri/news/aiseminarseries.html"
+      ]
+    },
+    {
+      "title": "UNMC Department of Radiology clinical-AI leadership (Ryan Lee, MD)",
+      "description": "In March 2025, Ryan Lee, MD, was named chair of the UNMC Department of Radiology. Dr. Lee is nationally recognized for clinical deployment of AI in radiology, health-care economics, and quality/safety, and for work on radiology clinical-decision support.",
+      "significance": "Signals a deliberate leadership bet on clinical-AI expertise at the chair level — rare for AMC radiology departments.",
+      "date_announced": "2025-03-12",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNMC",
+        "description": "Senior leadership hire; compensation not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2025/03/12/ryan-lee-md-to-lead-department-of-radiology-2/"
+      ]
+    },
+    {
+      "title": "Medical Innovation Consortium (CRI / Illinois Urbana-Champaign)",
+      "description": "In March 2026 UNMC joined an international public-private-government medical innovation consortium based at the University of Illinois Urbana-Champaign, with an explicit focus that includes 'using AI applications to improve outcomes in rural health or underserved areas across the United States.'",
+      "significance": "Links UNMC into a national rural-health AI collaborative — an important equity angle given Nebraska's rural geography.",
+      "date_announced": "2026-03-03",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "underrepresented_student_support",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Consortium public-private-government membership",
+        "description": "Membership in consortium; investment not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Illinois Urbana-Champaign",
+            "consortium members globally"
+          ],
+          "description": "International public-private-government consortium."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unmc.edu/newsroom/2026/03/03/unmc-joins-consortium-for-medical-innovation-2/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Intelligent Health Care (CIHC)",
+      "focus": "Clinical AI and ML, EHR optimization, explainable AI, gait analysis, wearable bioelectronics, drug screening, and healthcare spatial analytics. Regents-approved Center of Excellence; HIPAA-compliant supercomputing.",
+      "founded": "2020",
+      "url": "https://www.unmc.edu/cihc/index.html"
+    },
+    {
+      "name": "NU AI Institute — UNMC Center for AI in Health (node)",
+      "focus": "Designated UNMC node within the NU System AI Institute; focus on medical imaging, personalized medicine, predictive analytics, clinical decision support, telemedicine, genomics-based diagnostics, and AI ethics in health.",
+      "founded": "2026",
+      "url": "https://ai.nebraska.edu/"
+    },
+    {
+      "name": "iEXCEL (Interprofessional Experiential Center for Enduring Learning) / Davis Global Center",
+      "focus": "AI, computational simulation, and extended reality (AISER) for health professions training; intelligent digital twins and emerging-tech prototyping under iEXCEL 2.0.",
+      "founded": "2017",
+      "url": "https://www.unmc.edu/iexcel/"
+    },
+    {
+      "name": "Child Health Research Institute (CHRI) — AI/ML Pilot Grant Program",
+      "focus": "Pediatric AI/ML research funding, seminar series, and pilot projects to improve child health outcomes.",
+      "founded": null,
+      "url": "https://www.unmc.edu/chri/news/aiseminarseries.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "Generative AI faculty development monthly series (cross-college)",
+      "level": "both",
+      "launched": "2024-07",
+      "url": "https://www.unmc.edu/library/gen_ai_symposium/"
+    },
+    {
+      "type": "course",
+      "name": "AI @ CHRI Seminar Series",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.unmc.edu/chri/news/aiseminarseries.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat with Enterprise Data Protection (A5 licenses)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence"
+    },
+    {
+      "vendor": "ActiumHealth",
+      "product": "Conversational AI patient communication platform",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.actiumhealth.com/case-studies/nebraska-medicine"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic EHR (integrated with ActiumHealth Phase 2 by Nov 2025)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.healthcareitnews.com/news/nebraska-medicine-ai-means-40-fewer-calls-need-human-intervention"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "CIHC HIPAA-compliant supercomputer (UNMC); Holland Computing Center (NU system, primarily at UNL) — Crane and Firefly",
+    "gpu_count": 57,
+    "url": "https://www.unmc.edu/research-resources/resources/cores/rito/supercomputing.html",
+    "summary": "UNMC operates a dedicated HIPAA-compliant supercomputer within the Center for Intelligent Health Care supporting AI, ML, and deep-learning workloads on patient-regulated data — described by UNMC as 'one of a kind in NE.' For non-PHI research workloads UNMC researchers also access the NU system's Holland Computing Center (Crane: 548 nodes, 12,236 cores, 57 Nvidia GPUs as of May 2019; Firefly: 21 TFlop)."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Project Health (new academic hospital)",
+      "amount_usd": 2190000000,
+      "source": "Public-private partnership (NU System, state of Nebraska, philanthropy)",
+      "purpose": "Next-generation AMC with embedded AI-enabled virtual nursing, real-time monitoring, and 1/3 of square footage devoted to education; adjacent to Catalyst/CORE research buildings in Omaha's EDGE District.",
+      "date": "2025-04",
+      "url": "https://www.unmc.edu/newsroom/2026/02/10/the-future-of-health-care-is-being-built-in-nebraska/"
+    },
+    {
+      "title": "Familyroom.health commercialization funding",
+      "amount_usd": 1000000,
+      "source": "NIH and private development funding via UNeMed/UNeTech",
+      "purpose": "Development and national launch of algorithmic assessment platform for ICU family caregivers.",
+      "date": "2025-10",
+      "url": "https://www.unmc.edu/newsroom/2025/10/21/unmc-nursing-innovation-launches-nationally-2/"
+    },
+    {
+      "title": "UNMC total NIH funding (sector context)",
+      "amount_usd": 89000000,
+      "source": "National Institutes of Health",
+      "purpose": "UNMC's 2024 NIH funding baseline (79% of NU System NIH dollars) underpins AI/ML grants across CIHC, CHRI, and multiple colleges.",
+      "date": "2024-01",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/national-institutes-of-health-cuts-could-mean-big-changes-for-unmc/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Industry partner supporting the NU AI Institute launch.",
+      "date": "2026-02",
+      "url": "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "ActiumHealth",
+      "purpose": "Conversational AI platform for Nebraska Medicine's Medical Communication Center.",
+      "date": "2024-01",
+      "url": "https://www.actiumhealth.com/case-studies/nebraska-medicine"
+    },
+    {
+      "pattern": "international",
+      "partner": "HIPPO T&C; SungKyunKwan University; Samsung Medical Center (South Korea)",
+      "purpose": "Joint VR/AI behavioral health research (ADHD, pediatric/adolescent mental health); MOU with faculty/student exchange.",
+      "date": "2024-10",
+      "url": "https://www.unmc.edu/newsroom/2024/11/12/unmc-signs-understanding-to-collaborate-on-vr-and-ai-research/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Illinois Urbana-Champaign medical innovation consortium",
+      "purpose": "International public-private-government collaborative; rural-health AI focus.",
+      "date": "2026-03",
+      "url": "https://www.unmc.edu/newsroom/2026/03/03/unmc-joins-consortium-for-medical-innovation-2/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NSF, NIST, National Library of Medicine, AHRQ",
+      "purpose": "Multi-agency funding of CIHC clinical-AI research portfolio.",
+      "date": null,
+      "url": "https://www.unmc.edu/cihc/research/index.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "ActiumHealth conversational AI (patient-facing, not student-facing — relevant because UNMC students and residents rotate through Nebraska Medicine)",
+      "scope": "Nebraska Medicine enterprise (clinical education setting for UNMC learners)",
+      "url": "https://www.actiumhealth.com/case-studies/nebraska-medicine"
+    },
+    {
+      "type": "wellness",
+      "name": "Familyroom.health (caregiver-facing; clinical learner exposure)",
+      "scope": "National scale-out via UNMC/Nebraska Medicine",
+      "url": "https://www.unmc.edu/newsroom/2025/10/21/unmc-nursing-innovation-launches-nationally-2/"
+    },
+    {
+      "type": "tutor",
+      "name": "Generative AI guidance via McGoogan Library LibGuide (AI for Faculty / AI for Students)",
+      "scope": "UNMC community",
+      "url": "https://unmc.libguides.com/AIresources/AIforFaculty"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI-enabled health mis/disinformation outreach campaign (by Sept 2026)",
+      "description": "Per the AI Task Force Report, UNMC committed to a sustained outreach campaign by September 2026 to inform Nebraskans about harms of health dis/misinformation, bias, and inequity — employing AI for tailored messaging and specifically targeting minority, immigrant, Native American, and rural communities.",
+      "url": "https://digitalcommons.unmc.edu/cgi/viewcontent.cgi?article=1000&context=unmc_reports"
+    },
+    {
+      "title": "Rural Health Initiatives + NU-Kearney AI Workforce & Rural Development Center (sister node)",
+      "description": "UNMC's Rural Health Initiatives partner with UNK's Center for AI Workforce and Rural Development on workforce upskilling and AI literacy for rural Nebraska communities; includes pipeline programs, professional development, and continuing education at the Kristensen Rural Health Education Complex.",
+      "url": "https://www.unmc.edu/rural-health/"
+    },
+    {
+      "title": "Medical Innovation Consortium — rural/underserved AI focus",
+      "description": "UNMC's 2026 consortium membership explicitly targets AI applications improving outcomes in rural and underserved U.S. areas.",
+      "url": "https://www.unmc.edu/newsroom/2026/03/03/unmc-joins-consortium-for-medical-innovation-2/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Nebraska",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Nebraska enacted multiple AI laws in 2025: LB 525 (Conversational AI Safety Act, effective July 1, 2027) requires chatbot operators to block sexually explicit content and implement suicide/self-harm response protocols; LB 172 prohibits AI-generated CSAM; LB 371 provides civil liability for AI-generated non-consensual intimate imagery. LB 642 (AI Consumer Protection Act) is under active legislative consideration. Governor Pillen was among 17 Republican governors opposing a congressional AI moratorium in July 2025. System-level governance is provided by the NU AI Institute (launched Feb 2026) and the NU ITS AI policy framework covering Microsoft 365 Copilot Chat and enterprise data protection rules.",
+    "urls": [
+      "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB642.pdf",
+      "https://nebraskaexaminer.com/2025/07/02/nebraskas-pillen-among-17-republican-governors-to-oppose-congressional-ai-moratorium/",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence",
+      "https://ai.nebraska.edu/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Nebraska Medical Center (UNMC), Nebraska's only public academic health sciences center and an R1 research institution, has built a comprehensive AI posture that is unusually mature for its size (4,818 students across six colleges) and unusually specific to the clinical environment. Governance is anchored in a 65-member AI Task Force that convened in summer 2023 and produced a five-domain report in May 2024 (education, research, clinical care, business functions, AI disinformation/bias), which in turn drove UNMC Policy 8020 — a comprehensive AI Use Guidelines framework effective March 2025 that protects PHI/HIPAA data, requires risk assessments for vendor AI, prohibits AI in NIH/NSF peer review, and defers syllabus-level specifics to faculty discretion. System-level strategy accelerated sharply in February 2026 with the NU AI Institute launch, designating UNMC as the Center for AI in Health node of a hub-and-spoke structure with Google and Nebraska Research Initiative support. Research depth is strongest at the Center for Intelligent Health Care (2020, Regents Center of Excellence, founding director John Windle, MD), which runs a HIPAA-compliant supercomputer and holds federal funding from NSF, NIST, NLM, and AHRQ; the iEXCEL / Davis Global Center pioneered the AISER concept (AI + Simulation + Extended Reality) and is now expanding under iEXCEL 2.0 with intelligent digital twins. Enterprise deployment is significant: Nebraska Medicine's ActiumHealth partnership automates 70% of 2.5M annual patient calls with 40% fewer abandoned calls, and a nurse-led AI co-development approach has produced ~50 clinical use cases including discharge prediction. Capital commitment is anchored by Project Health — a $2.19B public-private hospital (NU's largest-ever investment) explicitly designed around virtual nursing, real-time monitoring, and 'a future shaped by AI.' Gaps include no dedicated Chief AI Officer, no named AI degree/certificate program yet, and limited public disclosure of AI-specific funding amounts. State regulatory context is active but narrow, focused on chatbot safety and non-consensual imagery; a broader AI Consumer Protection Act (LB 642) remains pending.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill (Opus 4.7)",
+    "sources": [
+      "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/",
+      "https://nebraska.edu/offices-policies/provosts-office/academic-affairs/nu-ai-taskforce",
+      "https://wiki.unmc.edu/index.php/UNMC_AI_Use_Guidelines",
+      "https://digitalcommons.unmc.edu/cgi/viewcontent.cgi?article=1000&context=unmc_reports",
+      "https://www.unmc.edu/newsroom/2024/05/28/task-force-report-outlines-future-for-ai-use-at-unmc/",
+      "https://www.midwestmedicaledition.com/articles/unmc-pioneers-combination-of-ai-simulations",
+      "https://www.unmc.edu/newsroom/2024/11/08/update-from-the-university-of-nebraska-nu-system-11/",
+      "https://news.unl.edu/article/university-of-nebraska-launches-ai-institute-to-lead-in-ethical-innovation-research-and",
+      "https://www.healthcareitnews.com/news/nebraska-medicine-ai-means-40-fewer-calls-need-human-intervention",
+      "https://www.unmc.edu/cihc/index.html",
+      "https://www.unmc.edu/cihc/about/index.html",
+      "https://www.unmc.edu/cihc/research/index.html",
+      "https://ai.nebraska.edu/",
+      "https://unmc.libguides.com/AIresources/AIforFaculty",
+      "https://www.unmc.edu/library/gen_ai_symposium/using_gen_ai_assignments.html",
+      "https://www.unmc.edu/library/gen_ai_symposium/",
+      "https://www.unmc.edu/newsroom/2024/05/31/new-generative-ai-events-at-unmc-start-this-summer/",
+      "https://www.unmc.edu/newsroom/2024/07/30/symposium-showcases-generative-ai-at-unmc/",
+      "https://www.unmc.edu/newsroom/2024/08/21/unmc-ai-discussion-series-extends-schedule/",
+      "https://www.unmc.edu/newsroom/2025/03/12/ryan-lee-md-to-lead-department-of-radiology-2/",
+      "https://www.unmc.edu/newsroom/2023/10/24/unmc-pioneers-combination-of-ai-simulations-and-extended-reality-in-health-care-scenarios/",
+      "https://www.unmc.edu/iexcel/",
+      "https://www.unmc.edu/iexcel/visualization/technology.html",
+      "https://www.unmc.edu/newsroom/2025/05/20/iexcel-moves-into-new-phase-of-growth-iexcel-2-0/",
+      "https://www.unmc.edu/newsroom/2025/01/15/university-to-lead-review-of-unmc-it-services/",
+      "https://www.unmc.edu/newsroom/2025/08/18/select-unmc-it-services-to-more-closely-align-with-nu/",
+      "https://www.unmc.edu/aboutus/leadership-mission/index.html",
+      "https://www.unmc.edu/aboutus/leadership-mission/interim-chancellor.html",
+      "https://www.unmc.edu/newsroom/2024/07/01/dele-davies-md-named-interim-unmc-chancellor/",
+      "https://www.unmc.edu/newsroom/2022/07/06/new-chief-information-innovation-officer-is-named/",
+      "https://www.unmc.edu/newsroom/2025/04/09/becker-to-serve-as-interim-leader-for-it/",
+      "https://healthsystemcio.com/2025/04/09/at-nebraska-medicine-raymond-leverages-specially-created-unit-to-pilot-innovations-without-disrupting-operations/",
+      "https://www.unmc.edu/newsroom/2025/09/08/unmc-enrollment-rises-for-25th-straight-year/",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/research-computing",
+      "https://www.unmc.edu/research-resources/resources/cores/rito/supercomputing.html",
+      "https://hcc.unl.edu/",
+      "https://www.unmc.edu/newsroom/2024/11/12/unmc-signs-understanding-to-collaborate-on-vr-and-ai-research/",
+      "https://www.actiumhealth.com/case-studies/nebraska-medicine",
+      "https://www.wowt.com/2024/12/13/new-unit-nebraska-medicine-integrates-technology-like-ai-into-patient-care/",
+      "https://www.beckershospitalreview.com/quality/nursing/nebraska-medicine-taps-ai-to-unlock-capacity-ease-strain-on-nurses/",
+      "https://www.unmc.edu/newsroom/2025/10/21/unmc-nursing-innovation-launches-nationally-2/",
+      "https://www.unmc.edu/newsroom/2026/02/10/the-future-of-health-care-is-being-built-in-nebraska/",
+      "https://www.unmc.edu/project-health/",
+      "https://nebraskaexaminer.com/briefs/largest-venture-in-nu-history-project-health-gets-green-light-from-board-of-regents/",
+      "https://www.unmc.edu/newsroom/2026/03/03/unmc-joins-consortium-for-medical-innovation-2/",
+      "https://www.unmc.edu/chri/research-resources/funding-opportunities.html",
+      "https://www.unmc.edu/chri/news/aiseminarseries.html",
+      "https://nebraskapublicmedia.org/en/news/news-articles/national-institutes-of-health-cuts-could-mean-big-changes-for-unmc/",
+      "https://nebraskaexaminer.com/2025/07/02/nebraskas-pillen-among-17-republican-governors-to-oppose-congressional-ai-moratorium/",
+      "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB642.pdf",
+      "https://www.dailynebraskan.com/news/hall-of-fame-ai-housing-mark-close-of-nebraska-legislative-session/article_fc8fe8a5-b3a4-4ea6-8e01-72ee1f18f5c4.html",
+      "https://www.unmc.edu/rural-health/",
+      "https://www.unmc.edu/newsroom/2023/09/20/unmc-forms-task-force-to-explore-impact-of-ai/"
+    ],
+    "search_queries": [
+      "\"University of Nebraska Medical Center\" AI strategy 2025 artificial intelligence",
+      "\"University of Nebraska Medical Center\" generative AI policy faculty students",
+      "\"UNMC\" AI research center institute Nebraska",
+      "\"UNMC\" chief information officer president chancellor 2025",
+      "\"UNMC\" Nebraska Medicine AI clinical deployment radiology imaging",
+      "\"UNMC\" Microsoft Copilot OR ChatGPT enterprise AI deployment",
+      "\"UNMC\" AI curriculum degree program medical students",
+      "\"Nebraska Medicine\" AI chatbot patient call center deployment",
+      "\"UNMC\" AI grant funding NIH NSF million research",
+      "\"UNMC\" Davis Global Center iEXCEL virtual reality extended reality AI",
+      "\"UNMC\" HPC supercomputer GPU Holland Computing Center AI",
+      "\"UNMC\" AI workforce training rural health Nebraska",
+      "\"UNMC\" chancellor Jeffrey Gold Dele Davies 2025 2026 leadership",
+      "Nebraska state AI legislation higher education policy 2025",
+      "\"UNMC\" enrollment total students 2024 2025 statistics",
+      "\"UNMC\" AI library symposium teaching faculty development",
+      "\"UNMC\" AI equity accessibility bias rural digital divide",
+      "\"Nebraska Medicine\" virtual nursing AI monitoring ICU unit",
+      "\"UNMC\" AI partnership MOU collaboration 2024 2025",
+      "\"UNMC\" chief innovation officer AI strategy lead Scott Raymond",
+      "\"UNMC\" provost senior vice chancellor academic affairs 2025"
+    ],
+    "gaps_acknowledged": [
+      "No dedicated Chief AI Officer role; AI strategy lead role is distributed (task force co-chairs, Nebraska Medicine operational leaders).",
+      "No dedicated AI-specific degree, certificate, or minor program disclosed at UNMC (NU system taskforce proposed MS/BS in AI but placement unclear; BS/MS likely at UNL/UNO rather than UNMC).",
+      "CIHC HPC GPU count for UNMC-specific equipment not publicly disclosed (HCC total: 57 Nvidia GPUs as of May 2019, likely outdated).",
+      "Dollar amounts for most internal AI initiatives (Task Force, iEXCEL 2.0, CHRI AI/ML pilot grants, Policy 8020 compliance) not disclosed.",
+      "Scott Raymond's successor as UNMC CIO/CIIO (after April 2025 departure) — Becker serves as interim; permanent appointee not confirmed via search.",
+      "No UNMC-specific Chief AI Officer appointment; governance is distributed across task force chairs, NU ITS, and Nebraska Medicine operational leaders.",
+      "No public report of AI-related controversies, litigation, or FERPA/HIPAA incidents at UNMC.",
+      "Syllabus-level AI policy percentages (how many UNMC courses have explicit syllabus AI statements) not published."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "governance_led",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 9,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 6,
+        "governance_led": 13,
+        "student_success_led": 7,
+        "workforce_regional_development": 10,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-03",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 2,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 6,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "CIHC HIPAA-compliant supercomputer (UNMC); Holland Computing Center (NU system, primarily at UNL) — Crane and Firefly",
+        "gpu_count": 57,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 2280000000,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "institutional": 4,
+        "philanthropy_foundation": 1,
+        "other_unclear": 4
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "wellness": 1,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": true,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft 365 Copilot Chat with Enterprise Data Protection (A5 licenses)",
+            "Microsoft 365 with Copilot Chat (EDP)"
+          ]
+        },
+        {
+          "vendor": "ActiumHealth ActiumHealth conversational AI platform",
+          "mentions": 1,
+          "products": [
+            "ActiumHealth conversational AI platform"
+          ]
+        },
+        {
+          "vendor": "ActiumHealth Conversational AI patient communication platform",
+          "mentions": 1,
+          "products": [
+            "Conversational AI patient communication platform"
+          ]
+        },
+        {
+          "vendor": "Davis Global Center 3D CADWalls / 2D iWalls",
+          "mentions": 1,
+          "products": [
+            "3D CADWalls / 2D iWalls"
+          ]
+        },
+        {
+          "vendor": "Davis Global Center iEXCEL Laser CAVE-5",
+          "mentions": 1,
+          "products": [
+            "iEXCEL Laser CAVE-5"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR",
+          "mentions": 1,
+          "products": [
+            "Epic EHR"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR (integrated with ActiumHealth Phase 2 by Nov 2025)",
+          "mentions": 1,
+          "products": [
+            "Epic EHR (integrated with ActiumHealth Phase 2 by Nov 2025)"
+          ]
+        },
+        {
+          "vendor": "Familyroom.health (UNeMed commercialization) Familyroom.health",
+          "mentions": 1,
+          "products": [
+            "Familyroom.health"
+          ]
+        },
+        {
+          "vendor": "HIPPO T&C HIPPO T&C VR platform",
+          "mentions": 1,
+          "products": [
+            "HIPPO T&C VR platform"
+          ]
+        },
+        {
+          "vendor": "iEXCEL / Davis Global Center Holographic Theater (70-seat)",
+          "mentions": 1,
+          "products": [
+            "Holographic Theater (70-seat)"
+          ]
+        },
+        {
+          "vendor": "Nebraska Medicine / partner engineers Discharge prediction AI",
+          "mentions": 1,
+          "products": [
+            "Discharge prediction AI"
+          ]
+        },
+        {
+          "vendor": "UNMC Approved Technology List",
+          "mentions": 1,
+          "products": [
+            "Approved Technology List"
+          ]
+        },
+        {
+          "vendor": "UNMC Research IT CIHC Supercomputer (HIPAA-compliant)",
+          "mentions": 1,
+          "products": [
+            "CIHC Supercomputer (HIPAA-compliant)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "NU AI Institute (hub-and-spoke) — UNMC Center for AI in Health",
+          "summary": "Positions UNMC as the health-AI node of a statewide strategy with Google and Nebraska Research Initiative support — the first major system-level AI coordination across the four NU campuses.",
+          "source_url": "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Nebraska Medicine Patient Communication AI (ActiumHealth)",
+          "summary": "One of the most-cited AMC call center AI deployments — achieved 70% call automation and 40% reduction in abandoned calls while preserving 15-minute organ-transplant response windows.",
+          "source_url": "https://www.healthcareitnews.com/news/nebraska-medicine-ai-means-40-fewer-calls-need-human-intervention"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Nebraska Medicine nurse-led clinical AI co-development",
+          "summary": "Nurse-led AI design has become a national exemplar — directly addresses clinician trust, workflow friction, and hospital capacity pressures.",
+          "source_url": "https://www.beckershospitalreview.com/quality/nursing/nebraska-medicine-taps-ai-to-unlock-capacity-ease-strain-on-nurses/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Generative AI Faculty Development Symposium and monthly series",
+          "summary": "Normalizes ongoing GenAI capacity-building across a health-sciences faculty audience, with structured sessions ranging from assignment redesign to ethics.",
+          "source_url": "https://www.unmc.edu/library/gen_ai_symposium/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Familyroom.health ICU caregiver digital platform",
+          "summary": "Nurse-led, commercialized AI-driven caregiver support tool targeting the 15-20M Americans annually thrust into caregiving roles during ICU stays.",
+          "source_url": "https://www.unmc.edu/newsroom/2025/10/21/unmc-nursing-innovation-launches-nationally-2/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No dedicated Chief AI Officer role; AI strategy lead role is distributed (task force co-chairs, Nebraska Medicine operational leaders).",
+        "No dedicated AI-specific degree, certificate, or minor program disclosed at UNMC (NU system taskforce proposed MS/BS in AI but placement unclear; BS/MS likely at UNL/UNO rather than UNMC).",
+        "CIHC HPC GPU count for UNMC-specific equipment not publicly disclosed (HCC total: 57 Nvidia GPUs as of May 2019, likely outdated).",
+        "Dollar amounts for most internal AI initiatives (Task Force, iEXCEL 2.0, CHRI AI/ML pilot grants, Policy 8020 compliance) not disclosed.",
+        "Scott Raymond's successor as UNMC CIO/CIIO (after April 2025 departure) — Becker serves as interim; permanent appointee not confirmed via search.",
+        "No UNMC-specific Chief AI Officer appointment; governance is distributed across task force chairs, NU ITS, and Nebraska Medicine operational leaders.",
+        "No public report of AI-related controversies, litigation, or FERPA/HIPAA incidents at UNMC.",
+        "Syllabus-level AI policy percentages (how many UNMC courses have explicit syllabus AI statements) not published."
+      ]
+    }
+  }
+}

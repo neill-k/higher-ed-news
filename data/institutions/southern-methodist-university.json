@@ -1,0 +1,812 @@
+{
+  "institution": "Southern Methodist University",
+  "slug": "southern-methodist-university",
+  "city_state": "Dallas, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 12000,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "R. Gerald Turner",
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Southern Methodist University public AI posture sources",
+        "url": "https://www.smu.edu/oit/ai/policy",
+        "year": 2026
+      }
+    ],
+    "summary": "SMU links formal generative-AI guidance with NVIDIA DGX SuperPOD/ManeFrame III research computing, O'Donnell data science support, professional AI training, and an AECOM AI-infrastructure fellowship."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.smu.edu/oit/ai/policy",
+      "https://www.smu.edu/oit/research/ai-guide",
+      "https://www.smu.edu/news/research/ai-in-smu-research"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use institutionally reviewed AI tools for sensitive university work.",
+      "Protect restricted, confidential, student, personnel, and research data when using AI tools.",
+      "Verify AI output and keep humans accountable for academic, administrative, and research decisions."
+    ],
+    "summary": "Southern Methodist University's public AI policy posture is comprehensive and emphasizes responsible use, privacy, and human accountability based on reviewed sources."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "O'Donnell Data Science and Research Computing Institute",
+        "type": "office",
+        "scope": "SMU links formal generative-AI guidance with NVIDIA DGX SuperPOD/ManeFrame III research computing, O'Donnell data science support, professional AI training, and an AECOM AI-infrastructure fellowship.",
+        "url": "https://www.smu.edu/oit/ai/policy"
+      }
+    ],
+    "summary": "Governance appears distributed across AI-facing offices, centers, technology units, teaching units, or committees; no standalone chief AI officer was confirmed unless named in leadership."
+  },
+  "initiatives": [
+    {
+      "title": "Responsible AI guidance and governance",
+      "description": "Southern Methodist University has public AI guidance, governance, or strategy resources that frame responsible adoption, privacy, academic integrity, and human oversight.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Microsoft",
+          "name": "Copilot",
+          "role": "campus-wide AI access or support"
+        },
+        {
+          "vendor": "OpenAI",
+          "name": "GPT Business tenant",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_implications": "Requires privacy, academic-integrity, and human-oversight controls as AI use scales.",
+      "source_urls": [
+        "https://www.smu.edu/oit/ai/policy",
+        "https://www.smu.edu/oit/research/ai-guide"
+      ],
+      "policy_stance": "comprehensive"
+    },
+    {
+      "title": "AI tools and campus enablement",
+      "description": "Southern Methodist University provides or pilots institutionally supported AI tools, including Copilot (Microsoft), GPT Business tenant (OpenAI).",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Microsoft",
+          "name": "Copilot",
+          "role": "campus-wide AI access or support"
+        },
+        {
+          "vendor": "OpenAI",
+          "name": "GPT Business tenant",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/oit/ai/policy",
+        "https://www.smu.edu/news/research/ai-in-smu-research"
+      ]
+    },
+    {
+      "title": "SMU CAPE artificial intelligence programs",
+      "description": "Southern Methodist University offers AI-related coursework, certificates, minors, degrees, or faculty-development resources that build AI literacy and discipline-specific AI capability.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/oit/ai/policy"
+      ]
+    },
+    {
+      "title": "O'Donnell Data Science and Research Computing Institute",
+      "description": "Southern Methodist University has visible AI research activity through centers, institutes, labs, or funded projects spanning machine learning, data science, domain applications, or responsible AI.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/oit/ai/policy"
+      ]
+    },
+    {
+      "title": "Student AI literacy and support",
+      "description": "Southern Methodist University points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "career_and_workforce_readiness",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Microsoft",
+          "name": "Copilot",
+          "role": "campus-wide AI access or support"
+        },
+        {
+          "vendor": "OpenAI",
+          "name": "GPT Business tenant",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/oit/ai/policy",
+        "https://www.smu.edu/oit/ai/policy"
+      ]
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Southern Methodist University connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/cape/programs/areas-of-study/artificial-intelligence",
+        "https://www.smu.edu/news/research/smu-aecom-create-ai-infrastructure-doctoral-fellowship"
+      ]
+    },
+    {
+      "title": "SMU Microsoft Copilot and AI training stack",
+      "description": "SMU OIT publishes Microsoft Copilot service pages and AI training/guidance, while the AI Coalition of the Willing documents culture and enablement work around generative AI.",
+      "significance": "Adds source-backed detail to the public AI posture.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount disclosed for this initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external collaboration identified in the cited source."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity and AI assistant in Microsoft tools"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/oit/services/microsoft-copilot",
+        "https://www.smu.edu/oit/ai",
+        "https://blog.smu.edu/itconnect/2025/04/24/pioneering-smu-generative-ai-coalition/"
+      ]
+    },
+    {
+      "title": "SMU generative AI syllabus statement builder and options",
+      "description": "SMU requires faculty to communicate AI use to students through syllabi and provides a syllabus statement builder plus example statement options for generative AI use.",
+      "significance": "Adds source-backed detail to the public AI posture.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "syllabus_level_policy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount disclosed for this initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external collaboration identified in the cited source."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.smu.edu/provost/cte/resources/generative-ai-and-chat-gpt",
+        "https://www.smu.edu/-/media/Site/Provost/provost-office/Communications/syllabus/2024/Spring-2024-Syllabus-Statements-for-Generative-AI.pdf"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "O'Donnell Data Science and Research Computing Institute",
+      "focus": "data science and research computing",
+      "founded": null,
+      "url": "https://www.smu.edu/oit/ai/policy"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "SMU CAPE artificial intelligence programs",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.smu.edu/oit/ai/policy"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.smu.edu/oit/ai/policy"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "GPT Business tenant",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.smu.edu/oit/ai/policy"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.smu.edu/oit/services/microsoft-copilot"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "NVIDIA DGX SuperPOD and ManeFrame III",
+    "gpu_count": null,
+    "url": null,
+    "summary": "Reviewed sources identify AI or HPC infrastructure supporting AI/ML research; exact GPU counts were usually not public."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "O'Donnell Data Science and Research Computing Institute",
+      "date": null,
+      "url": "https://www.smu.edu/oit/ai/policy"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "AI workforce, partnership, and public-impact activity",
+      "date": null,
+      "url": "https://www.smu.edu/cape/programs/areas-of-study/artificial-intelligence"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Responsible AI guidance and governance",
+      "scope": "students",
+      "url": "https://www.smu.edu/oit/ai/policy"
+    },
+    {
+      "type": "other",
+      "name": "AI tools and campus enablement",
+      "scope": "students",
+      "url": "https://www.smu.edu/oit/ai/policy"
+    },
+    {
+      "type": "other",
+      "name": "SMU CAPE artificial intelligence programs",
+      "scope": "students",
+      "url": "https://www.smu.edu/oit/ai/policy"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Student AI literacy and support",
+      "description": "Southern Methodist University points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "url": "https://www.smu.edu/oit/ai/policy"
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Southern Methodist University connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "url": "https://www.smu.edu/cape/programs/areas-of-study/artificial-intelligence"
+    }
+  ],
+  "regulatory_context": {
+    "state": "TX",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "State/system context was checked for TX. Relevant public AI or system governance links are included where found.",
+    "urls": [
+      "https://dir.texas.gov/information-security/artificial-intelligence"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Southern Methodist University is an R1 institution whose public AI posture is best understood as follows: SMU links formal generative-AI guidance with NVIDIA DGX SuperPOD/ManeFrame III research computing, O'Donnell data science support, professional AI training, and an AECOM AI-infrastructure fellowship. The evidence touches governance and policy, teaching and learning, research and innovation, enterprise enablement, student experience, workforce development, and equity or public-impact dimensions. The strongest public sources are first-party AI hubs, guidance pages, research center pages, academic-program materials, and state or system policy resources. Compared with the most centralized AI adopters, several details remain opaque, including named executive AI ownership, exact enterprise user counts, and total AI spending. Even so, the reviewed public record supports a medium-confidence assessment that AI is moving into curriculum, research infrastructure, technology governance, and student or workforce-facing programs rather than remaining purely ad hoc.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 1 gap sweep",
+    "sources": [
+      "https://www.smu.edu/oit/ai/policy",
+      "https://www.smu.edu/oit/research/ai-guide",
+      "https://www.smu.edu/news/research/ai-in-smu-research",
+      "https://guides.smu.edu/ai",
+      "https://www.smu.edu/cape/programs/areas-of-study/artificial-intelligence",
+      "https://www.smu.edu/news/research/smu-aecom-create-ai-infrastructure-doctoral-fellowship",
+      "https://dir.texas.gov/information-security/artificial-intelligence",
+      "https://www.smu.edu/oit/services/microsoft-copilot",
+      "https://www.smu.edu/oit/ai",
+      "https://www.smu.edu/provost/cte/resources/generative-ai-and-chat-gpt",
+      "https://blog.smu.edu/itconnect/2025/04/24/pioneering-smu-generative-ai-coalition/",
+      "https://www.smu.edu/-/media/Site/Provost/provost-office/Communications/syllabus/2024/Spring-2024-Syllabus-Statements-for-Generative-AI.pdf"
+    ],
+    "search_queries": [
+      "Southern Methodist University artificial intelligence strategy guidance",
+      "Southern Methodist University generative AI policy faculty students",
+      "Southern Methodist University AI research center program",
+      "Southern Methodist University AI computing infrastructure partnership",
+      "site:smu.edu Southern Methodist University Microsoft Copilot GPT Business AI tools students faculty 200",
+      "site:smu.edu Southern Methodist University generative AI assessment redesign teaching syllabus"
+    ],
+    "gaps_acknowledged": [
+      "No public chief AI officer was confirmed in reviewed sources.",
+      "No total institution-wide AI investment amount was found.",
+      "Exact enterprise AI user counts or contract values were usually not public.",
+      "Follow-up search reinforced Microsoft Copilot and syllabus-level AI guidance but did not disclose SMU Copilot user counts, ChatGPT/GPT tenant user counts, license cost, or DGX/ManeFrame GPU count."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "governance_led",
+        "workforce_regional_development",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 13,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 4,
+        "governance_led": 11,
+        "student_success_led": 5,
+        "workforce_regional_development": 6,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 4,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "NVIDIA DGX SuperPOD and ManeFrame III",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 5,
+        "institutional": 1,
+        "industry_vendor": 1,
+        "public_federal_state": 1
+      },
+      "partnership_count": 2
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Copilot",
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 4,
+          "products": [
+            "GPT Business tenant"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Responsible AI guidance and governance",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.smu.edu/oit/ai/policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI tools and campus enablement",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.smu.edu/oit/ai/policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "SMU CAPE artificial intelligence programs",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.smu.edu/oit/ai/policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "O'Donnell Data Science and Research Computing Institute",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.smu.edu/oit/ai/policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Student AI literacy and support",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.smu.edu/oit/ai/policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI workforce, partnership, and public-impact activity",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.smu.edu/cape/programs/areas-of-study/artificial-intelligence"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 5,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 4,
+      "notes": [
+        "No public chief AI officer was confirmed in reviewed sources.",
+        "No total institution-wide AI investment amount was found.",
+        "Exact enterprise AI user counts or contract values were usually not public.",
+        "Follow-up search reinforced Microsoft Copilot and syllabus-level AI guidance but did not disclose SMU Copilot user counts, ChatGPT/GPT tenant user counts, license cost, or DGX/ManeFrame GPU count."
+      ]
+    }
+  }
+}

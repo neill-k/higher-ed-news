@@ -1,0 +1,1434 @@
+{
+  "institution": "University of Nebraska-Lincoln",
+  "slug": "university-of-nebraska-lincoln",
+  "city_state": "Lincoln, NE",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Nebraska",
+  "enrollment": 24393,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Jeffrey P. Gold (NU System President)",
+      "url": "https://nebraska.edu/president/meet-the-president/"
+    },
+    "provost": {
+      "name": "Mark Button (UNL Executive Vice Chancellor)",
+      "url": "https://executivevc.unl.edu/"
+    },
+    "cio": {
+      "name": "Rick Haugerud (Interim CIO, UNL)",
+      "url": "https://news.unl.edu/article/haugerud-named-interim-cio"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Santosh Pitla and Adrian Wisnicki (Co-Directors, NU AI Institute)",
+      "title": "Co-Directors, University of Nebraska AI Institute",
+      "url": "https://ai.nebraska.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University of Nebraska AI Institute Launch Announcement",
+        "url": "https://news.unl.edu/article/university-of-nebraska-launches-ai-institute-to-lead-in-ethical-innovation-research-and",
+        "year": 2026
+      },
+      {
+        "title": "NU AI Task Force Roadmap",
+        "url": "https://nebraska.edu/offices-policies/provosts-office/academic-affairs/nu-ai-taskforce",
+        "year": 2025
+      },
+      {
+        "title": "NU Statement on the Use of Generative AI",
+        "url": "https://nebraska.edu/-/media/projects/unca/offices-policies/its/documents/nu-statement-on-the-use-of-generative-ai.pdf",
+        "year": 2025
+      },
+      {
+        "title": "UNL Research and Innovation AI Guidelines",
+        "url": "https://research.unl.edu/blog/ri-develops-ai-guidelines-best-practices/",
+        "year": 2024
+      }
+    ],
+    "summary": "In February 2026, the University of Nebraska system launched the Artificial Intelligence Institute as a hub-and-spoke, system-wide initiative building on an AI Task Force roadmap. UNL serves as a key campus with co-directors in biological systems engineering and English, and is designated as the host of a Center for AI in Agriculture. The strategy emphasizes responsible, human-centered AI across research, teaching, workforce development, and public engagement, with initial funding from Google and the Nebraska Research Initiative."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/policies-guidance",
+      "https://teaching.unl.edu/resources/ai/AI-Policy-Creation/",
+      "https://researchdata.unl.edu/artificial-intelligence/",
+      "https://research.unl.edu/blog/ri-develops-ai-guidelines-best-practices/"
+    ],
+    "adopted_date": "2024-11",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Only Public or Low Risk Data may be used with AI tools unless contractual protections exist (via NU Executive Memorandum 42 risk classification)",
+      "Generative AI use must be disclosed when editing or generating more than a few sentences of research manuscripts",
+      "Research AI activity must comply with Responsible Use of University Computers policy and Research Data/Security policies",
+      "Faculty set course-level AI policy; Center for Transformative Teaching provides templates (prohibited, limited, or permitted)",
+      "Data governance and AI use guidance is provided centrally through NU ITS"
+    ],
+    "summary": "UNL operates under the NU-wide framework that combines Executive Memorandum No. 42 data classification rules, a Statement on Generative AI Use drafted with the Office of General Counsel, and campus-level guidance from the Office of Research and Innovation and the Center for Transformative Teaching. The stance is best described as cautious: AI is permitted but bounded by data-protection rules, disclosure requirements for scholarly work, and faculty discretion at the course level."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "University of Nebraska AI Task Force",
+        "type": "task_force",
+        "scope": "System-wide (UNL, UNO, UNK, UNMC) body charged with recommending a comprehensive AI strategy covering research, education, innovation, and workforce development. Chaired by the NU Interim Executive Vice President and Provost, David Jackson; includes System CIO Bret Blackman and associate general counsel.",
+        "url": "https://nebraska.edu/offices-policies/provosts-office/academic-affairs/nu-ai-taskforce"
+      },
+      {
+        "name": "University of Nebraska Artificial Intelligence Institute",
+        "type": "office",
+        "scope": "System-wide hub coordinating AI research, teaching, and engagement across NU campuses, with planned campus-specific centers (UNL: AI in Agriculture). Co-directed by Santosh Pitla and Adrian Wisnicki of UNL.",
+        "url": "https://ai.nebraska.edu/"
+      },
+      {
+        "name": "UNL Center for Transformative Teaching",
+        "type": "office",
+        "scope": "Provides faculty guidance on AI in teaching, hosts AI learning communities, publishes course policy templates, and runs the OpenAI Impact Program at UNL.",
+        "url": "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/"
+      },
+      {
+        "name": "UNL Office of Research and Innovation AI Guidelines Working Group",
+        "type": "committee",
+        "scope": "Cross-college group (college deans, IANR leadership, center directors, department officers) that developed UNL's AI guidelines for research and creative activities, released November 2024.",
+        "url": "https://research.unl.edu/blog/ri-develops-ai-guidelines-best-practices/"
+      },
+      {
+        "name": "NU ITS AI Working Group",
+        "type": "committee",
+        "scope": "NU Information Technology Services partnership across campuses on AI tool options, responsible use guidance, and enterprise deployment.",
+        "url": "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence"
+      }
+    ],
+    "summary": "UNL sits inside a layered NU-system governance stack: a system-wide AI Task Force (chaired by the provost) produced the roadmap that resulted in the February 2026 launch of the NU AI Institute, where two UNL faculty serve as co-directors. Campus-level governance at UNL is distributed across the Center for Transformative Teaching (pedagogy), the Office of Research and Innovation (research conduct), and NU ITS (tools, data classification, enterprise security). There is no dedicated Chief AI Officer; strategic leadership is provided collectively by Institute co-directors, the System CIO, and the UNL interim CIO."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of the University of Nebraska AI Institute (system-wide, with UNL as home of AI-in-Agriculture center)",
+      "description": "NU announced the AI Institute on February 9, 2026 as a hub-and-spoke system-wide initiative. UNL hosts the Center for AI in Agriculture and provides both co-directors. Board of Regents ratification expected June 2026, with initial support from Google and Nebraska Research Initiative.",
+      "significance": "Places a large agricultural R1 state in the AI-institute wave alongside California, Michigan, and Texas and is one of the first multi-campus systems to adopt an explicit hub-and-spoke AI model with a dedicated agricultural-AI center.",
+      "date_announced": "2026-02-09",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators",
+        "board_and_trustees",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 250000,
+        "funding_source": "Google, plus Nebraska Research Initiative match",
+        "description": "$250K Google gift seeds the institute; Nebraska Research Initiative and future federal grants expected to scale investment after June 2026 regent ratification."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Google $250K gift to seed system-wide AI efforts."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNO",
+            "UNMC",
+            "UNK"
+          ],
+          "description": "Hub-and-spoke coordination across the four NU campuses."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a coordinated statewide structure that can negotiate data, compute, and curriculum agreements across four public universities, and positions Nebraska to compete for NSF AI Research Institutes funding.",
+      "source_urls": [
+        "https://news.unl.edu/article/university-of-nebraska-launches-ai-institute-to-lead-in-ethical-innovation-research-and",
+        "https://nebraska.edu/news-and-events/news/2026/02/university-of-nebraska-launches-ai-institute",
+        "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/",
+        "https://news.unl.edu/article/250k-google-gift-to-boost-nus-ai-research-education",
+        "https://ai.nebraska.edu/"
+      ]
+    },
+    {
+      "title": "Cornelius AI chatbot for undergraduate retention and well-being (EdSights)",
+      "description": "UNL launched Cornelius in November 2025, an EdSights-powered conversational AI that reaches all degree-seeking undergraduates via SMS every ~10 days across four pillars: academic, financial, belonging, and well-being. Analytics feed back to campus leaders.",
+      "significance": "First campus-wide, opt-in conversational AI deployed at UNL and part of a three-campus NU effort to build predictive outreach into student-success operations; representative of the EdSights-style deployment pattern spreading across regional R1s.",
+      "date_announced": "2025-11-03",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "predictive_analytics_retention",
+        "personalized_student_support",
+        "mental_health_and_wellbeing",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1000000,
+        "funding_source": "Anonymous private foundation (grant split three ways across UNL, UNO, UNK over 3 years)",
+        "description": "Three-year $1M foundation grant split across UNL, UNO, and UNK to run, promote, and iterate on the EdSights chatbots."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "EdSights"
+          ],
+          "description": "EdSights provides the SMS conversational AI platform used by 100+ higher-ed partners."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNO",
+            "UNK"
+          ],
+          "description": "Shared funding and platform with sister NU campuses."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Cornelius (EdSights platform)",
+          "vendor": "EdSights",
+          "role": "Text-message conversational AI for undergraduate retention, well-being and advising check-ins"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Raised FERPA and data-privacy questions in the student press; UNL is positioning analytics feedback as a tool to identify institutional barriers rather than to score individual students.",
+      "source_urls": [
+        "https://news.unl.edu/article/ai-powered-chatbot-launches-for-undergraduate-students-in-november",
+        "https://nebraskapublicmedia.org/en/news/news-articles/unl-launched-its-ai-chatbot-cornelius-last-week-and-its-popping-off/",
+        "https://studentlife.unl.edu/meet-cornelius/",
+        "https://www.dailynebraskan.com/news/unl-students-express-concerns-over-cornelius-ai-chatbot/article_e5574dda-7f91-43a6-9396-8e71e226a7d0.html"
+      ]
+    },
+    {
+      "title": "Scott Data / College of Engineering AI Makerspace (8x NVIDIA H100)",
+      "description": "A virtual AI makerspace launched in fall 2025 giving UNL College of Engineering students access to eight NVIDIA H100 GPUs hosted at Omaha-based Scott Data, integrated with the Engineering Design Hub.",
+      "significance": "One of only a handful of higher-ed-affiliated AI makerspaces with H100-class hardware and the first such facility in the Midwest, lowering the barrier for undergraduates to build and train large models.",
+      "date_announced": "2025-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_enhanced_pedagogy",
+        "industry_academic_partnership",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Scott Data partnership (amount not disclosed)",
+        "description": "Scott Data hosts the H100 GPUs and provides operational support as an in-kind industry partnership; dollar value not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Scott Data Center (Omaha)"
+          ],
+          "description": "Industry partner hosts GPU infrastructure for academic users."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA H100",
+          "vendor": "NVIDIA (hosted by Scott Data)",
+          "role": "Eight H100 GPUs available to Engineering students for AI coursework and research"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals that state-flagship R1s can unlock high-end AI compute access for undergraduates via managed-service partnerships rather than capital purchases.",
+      "source_urls": [
+        "https://news.unl.edu/article/scott-data-nebraska-engineering-partner-on-new-ai-makerspace"
+      ]
+    },
+    {
+      "title": "Holland Computing Center Swan cluster expansion for AI/ML workloads",
+      "description": "HCC, the NU-wide research computing center operating at Lincoln and Omaha, maintains the Swan HPC cluster for AI/ML use, with a current inventory that includes A100, H100, L40S, A30, A6000, V100S, and T4 GPUs. An NSF grant #2430234 adds 6x H200 NVL and 52x L40S GPUs, free to NU researchers.",
+      "significance": "Provides the underlying AI compute fabric for the NU AI Institute, backs the state's NSF-funded research, and is the statutorily fastest compute in Nebraska, enabling federated AI work via the National Research Platform.",
+      "date_announced": "2025-08-22",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "open_source_contribution",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF (grant #2430234), University of Nebraska, and priority-access faculty contributions",
+        "description": "NSF grant #2430234 funds the H200/L40S expansion; specific dollar value of that award not published on the HCC page."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded GPU expansion."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "National Research Platform"
+          ],
+          "description": "NU researchers gain access to ~1,500 GPUs across 80+ NRP sites."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Swan cluster (AlphaFold, PyTorch, TensorFlow, Apptainer)",
+          "vendor": "Holland Computing Center",
+          "role": "Primary HPC/GPU resource for AI/ML research across all NU campuses"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Shared-cost, NSF-leveraged compute model lets a public land-grant R1 keep up with peer universities without direct state appropriations for GPUs.",
+      "source_urls": [
+        "https://hcc.unl.edu/ai",
+        "https://hcc.unl.edu/",
+        "https://hcc.unl.edu/hcc-ai-and-ml-workshop",
+        "https://hcc.unl.edu/gp-engine-migrating-aiml-workflows-nautilus"
+      ]
+    },
+    {
+      "title": "Graduate Certificate in Artificial Intelligence (School of Computing)",
+      "description": "UNL's School of Computing launched a 15-credit Graduate Certificate in Artificial Intelligence. The program covers core AI, constraint processing, machine learning, deep learning, NLP, data mining, game theory and information retrieval, with elective tracks in generative AI, robotics, visualization, IoT, analytics and bioinformatics. Credits apply toward an MS in Computer Science or Computer Engineering.",
+      "significance": "Expands a land-grant R1's AI credential offerings to working professionals and is a stepping-stone to a planned joint UNL-UNO MS in AI (CCPE item, August 2025).",
+      "date_announced": "2025-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "faculty_training_and_development",
+        "continuing_and_executive_education",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "School of Computing operating budget; tuition-supported",
+        "description": "Standard tuition-supported graduate certificate; no external seed gift disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Answers Nebraska Coordinating Commission for Postsecondary Education scrutiny on AI credential supply and creates a pipeline to the planned dual-track MS in AI.",
+      "source_urls": [
+        "https://computing.unl.edu/ai-graduate-certificate/",
+        "https://graduate.unl.edu/academics/programs/COAI-GCER/",
+        "https://computing.unl.edu/news/school-computing-introduces-ai-graduate-certificate/",
+        "https://news.unl.edu/article/school-of-computing-introduces-ai-graduate-certificate",
+        "https://ccpe.nebraska.gov/sites/default/files/AP_UNO%20UNL%20Estab%20Dual%20track%20MS%20AI.pdf"
+      ]
+    },
+    {
+      "title": "OpenAI Impact Program and ChatGPT Edu rollout for faculty and staff",
+      "description": "In partnership with OpenAI, UNL Academic Technologies provides up to 200 ChatGPT Edu licenses (no cost to end users) to faculty and staff who propose classroom and campus projects. All participants must complete Generative AI Cybersecurity Awareness Training.",
+      "significance": "One of the early land-grant R1 adopters of ChatGPT Edu under OpenAI's Impact/Edu track; adds a controlled enterprise path alongside NU-provided Microsoft Copilot MGQ agent and Google Gemini/NotebookLM use.",
+      "date_announced": "2025-08",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "OpenAI Impact Program (in-kind licensing), UNL Academic Technologies",
+        "description": "OpenAI provides licenses; UNL covers program administration and training."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "OpenAI Impact Program provides ChatGPT Edu licenses at no cost to users."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise-grade LLM access for up to 200 UNL faculty and staff projects"
+        },
+        {
+          "name": "Microsoft Copilot (incl. MGQ agent)",
+          "vendor": "Microsoft",
+          "role": "NU-wide enterprise AI assistant used for question-bank generation in Canvas"
+        },
+        {
+          "name": "Google Gemini / NotebookLM",
+          "vendor": "Google",
+          "role": "Free tools integrated in CTT AI Exchange examples"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Requires cybersecurity training and project review, reinforcing NU's low-risk-data posture while still giving faculty a sanctioned GenAI path.",
+      "source_urls": [
+        "https://academictech.unl.edu/learning-and-emerging-technologies/open-ai-impact-program/",
+        "https://newsroom.unl.edu/announce/teacherconnect/18651/100682",
+        "https://newsroom.unl.edu/announce/coeupdates/18736/101179",
+        "https://teaching.unl.edu/ai-exchange/use-ai-help-create-large-question-banks-canvas/"
+      ]
+    },
+    {
+      "title": "HIBO Lab NSF AI smart-building grant ($1.2M, three years)",
+      "description": "Assistant professors Iason Konstantzos and Xiaoqi (Clare) Liu in the Durham School of Architectural Engineering and Construction lead a three-year, $1.2M NSF project to build knowledge-informed AI algorithms that autonomously operate building HVAC, lighting, and acoustics at the Human-centered Integrated Building Operations (HIBO) Lab.",
+      "significance": "Demonstrates UNL's bench strength in domain-informed (small-data) AI and engineering-embedded ML, a differentiator from pure LLM-scale research.",
+      "date_announced": "2025-11-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1200000,
+        "funding_source": "National Science Foundation",
+        "description": "Three-year NSF award for knowledge-informed AI for building operations."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF principal funder."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Durham School industry partners"
+          ],
+          "description": "Planned field tests in commercial buildings with industry partners."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Plugs into federal priority areas on safe AI in cyber-physical systems.",
+      "source_urls": [
+        "https://news.unl.edu/article/new-facility-nsf-grant-advance-smart-building-technology",
+        "https://research.unl.edu/blog/new-facility-nsf-grant-advance-smart-building-technology/",
+        "https://engineering.unl.edu/news/251104/konstantzos-liu-technology/",
+        "https://www.constructionowners.com/news/nsf-grant-powers-smarter-ai-driven-building-lab"
+      ]
+    },
+    {
+      "title": "NSRI / UNL AI for national defense (USSTRATCOM electromagnetic spectrum)",
+      "description": "UNL computer science professor Mehmet Can Vuran (Jensen Chair) and colleagues use large language models, reinforcement learning, and convolutional networks to build AI-powered radios for U.S. Strategic Command through the National Strategic Research Institute. Four JEMSO projects were active in 2025 with more than $3.3M awarded.",
+      "significance": "Positions UNL in the national-security AI portfolio via NSRI, one of only 15 U.S. Department of War UARCs, and fits the AI Institute's national-security cross-cutting center.",
+      "date_announced": "2024-11",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3300000,
+        "funding_source": "U.S. Strategic Command via NSRI",
+        "description": "More than $3.3M awarded across four joint electromagnetic spectrum operations (JEMSO) projects during 2025."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Strategic Command",
+            "NSRI",
+            "U.S. Department of War"
+          ],
+          "description": "UARC partnership with USSTRATCOM."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Signals defense-sector embedding for an R1 without a large DoD-funded engineering college, enabled by NSRI's UARC status.",
+      "source_urls": [
+        "https://nsri.nebraska.edu/news/news-releases/2024/11/nsri-unl-developing-ai-for-usstratcom-to-maximize-electromagnetic-spectrum",
+        "https://nsri.nebraska.edu/news/news-releases/2025/04/ai-for-national-defense-engineer-applies-layered-expertise-for-force-protection",
+        "https://nsri.nebraska.edu/news/news-releases/2026/01/nsri-jemso-rd-refines-space-streamlines-ops"
+      ]
+    },
+    {
+      "title": "Autonomous agriculture: Flex-Ro robot and TAPS AI-guided farm wins",
+      "description": "UNL's Biological Systems Engineering department built the Flex-Ro autonomous planter and related AI-driven weed-management robots. In 2025, researcher Nipuna Chamara won a category of UNL's Testing Ag Performance Solutions (TAPS) competition using AI to make farm-management decisions; Santosh Pitla (now NU AI Institute co-director) leads much of this work.",
+      "significance": "Directly supports UNL's designated Center for AI in Agriculture inside the NU AI Institute and demonstrates production-grade applied AI in rural economic development.",
+      "date_announced": "2025-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "computer_vision",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USDA, NSF, IANR funds, industry partners",
+        "description": "Aggregate agricultural-AI research funding across multiple grants; specific totals not consolidated on a single source page."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Nebraska TAPS participants"
+          ],
+          "description": "Real-world growing-season competition on Nebraska research plots."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Agricultural equipment and seed industry partners"
+          ],
+          "description": "Planned commercialization partnerships through the AI Institute."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Flex-Ro autonomous planter",
+          "vendor": "UNL Biological Systems Engineering (in-house build)",
+          "role": "Autonomous planting, phenotyping, and weed-management platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "A land-grant R1 turning applied agricultural AI into economic-development policy by pairing research with extension and commercialization.",
+      "source_urls": [
+        "https://news.unl.edu/article/high-tech-farm-hand-husker-research-team-builds-autonomous-planter",
+        "https://journalstar.com/ne/lancaster-county/lincoln/article_262e722f-0ca3-5f8e-b9f4-4ce85a395cfe.html",
+        "https://news.unl.edu/article/winning-contest-entry-shows-ais-agricultural-potential",
+        "https://nebraska.edu/president/speeches-communications/op-ed/2025/10/how-nebraska-is-leading-the-next-revolution-in-precision-ag"
+      ]
+    },
+    {
+      "title": "UNL Office of Research and Innovation AI guidelines (November 2024)",
+      "description": "UNL's Office of Research and Innovation published institution-wide AI guidelines for research and creative activities, setting disclosure requirements when GenAI is used to edit or generate more than a few sentences, and aligning with NU executive memoranda on computer use, research data, and risk classification.",
+      "significance": "A faculty-developed research-integrity policy specific to generative AI, not merely a reuse policy, providing a template for other R1s.",
+      "date_announced": "2024-11-04",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of Research and Innovation",
+        "description": "Guidelines development and promulgation only."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNL college deans",
+            "IANR leadership",
+            "center directors"
+          ],
+          "description": "Cross-college drafting committee."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Sets an explicit disclosure and data-handling baseline for UNL researchers, reinforcing cautious-but-permissive stance system-wide.",
+      "source_urls": [
+        "https://research.unl.edu/blog/ri-develops-ai-guidelines-best-practices/",
+        "https://researchdata.unl.edu/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Center for Transformative Teaching AI learning communities and AI Exchange",
+      "description": "UNL's Center for Transformative Teaching runs multiple AI-focused faculty development streams: AI Skill Sharing, AI Resistant Pedagogy, an AI Exchange blog with worked examples (e.g., Copilot MGQ agent for Canvas question banks), and an AI and Information Literacy Canvas Commons module co-built with UNL Libraries.",
+      "significance": "Institutionalizes AI literacy and pedagogy support as a first-class teaching-center workstream, not a one-off workshop series.",
+      "date_announced": "2024-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNL Center for Transformative Teaching operating budget",
+        "description": "Internally funded teaching-center programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNL Libraries"
+          ],
+          "description": "Co-built Canvas Commons AI and Information Literacy module."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Canvas AI and Information Literacy module",
+          "vendor": "UNL Libraries / CTT",
+          "role": "Canvas Commons module for student AI literacy"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Models a faculty-agency approach: CTT provides templates but leaves permissive/limited/prohibited policy choice to instructors.",
+      "source_urls": [
+        "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/",
+        "https://teaching.unl.edu/resources/ai/AI-Policy-Creation/",
+        "https://teaching.unl.edu/ai-exchange/use-ai-help-create-large-question-banks-canvas/",
+        "https://teaching.unl.edu/news/fall-ai-skill-sharing-kicked-openai-impact-projects/"
+      ]
+    },
+    {
+      "title": "Husker AI Days (Engineering-led cross-campus AI event)",
+      "description": "The UNL College of Engineering hosts Husker AI Days in April 2026, a two-week initiative featuring workshops, demonstrations, and training sessions that showcase AI applications across education, research, and industry.",
+      "significance": "Serves as the inaugural public-facing programming window for the new AI Institute and the AI makerspace, extending engagement into non-STEM units like Ethnic Studies.",
+      "date_announced": "2026-04",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_workforce_training",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UNL College of Engineering and partner units",
+        "description": "Event-based programming budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNL Ethnic Studies",
+            "College of Engineering"
+          ],
+          "description": "Cross-college programming pulls humanities into AI event."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals institutional commitment to broad AI literacy as a public and student-facing event, not only a research center activity.",
+      "source_urls": [
+        "https://newsroom.unl.edu/announce/cse/20226/107560",
+        "https://newsroom.unl.edu/announce/ethnicstudies/20214/107387",
+        "https://newsroom.unl.edu/announce/cse/20182/107382"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "University of Nebraska Artificial Intelligence Institute (system-wide, with UNL-hosted Center for AI in Agriculture)",
+      "focus": "System-wide coordination of AI research, teaching, engagement; UNL specialty: AI in agriculture, digital humanities, and AI literacy",
+      "founded": "2026",
+      "url": "https://ai.nebraska.edu/"
+    },
+    {
+      "name": "Holland Computing Center (HCC)",
+      "focus": "HPC/GPU infrastructure for AI/ML research across all NU campuses",
+      "founded": null,
+      "url": "https://hcc.unl.edu/"
+    },
+    {
+      "name": "Human-centered Integrated Building Operations (HIBO) Laboratory",
+      "focus": "Knowledge-informed AI for autonomous building operations, architectural engineering",
+      "founded": "2025",
+      "url": "https://engineering.unl.edu/news/251104/konstantzos-liu-technology/"
+    },
+    {
+      "name": "Nebraska Intelligent MoBile Unmanned Systems (NIMBUS) Lab",
+      "focus": "Multi-agent autonomous swarms and unmanned aerial systems AI; partners with NSRI",
+      "founded": null,
+      "url": "https://nimbus.unl.edu/"
+    },
+    {
+      "name": "National Strategic Research Institute (NSRI)",
+      "focus": "UARC for U.S. Strategic Command; AI for defense, joint electromagnetic spectrum operations, counter-WMD",
+      "founded": "2012",
+      "url": "https://nsri.nebraska.edu/"
+    },
+    {
+      "name": "UNL College of Engineering AI Makerspace (virtual, Scott Data)",
+      "focus": "Student AI training with H100 GPU access",
+      "founded": "2025",
+      "url": "https://news.unl.edu/article/scott-data-nebraska-engineering-partner-on-new-ai-makerspace"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence",
+      "level": "grad",
+      "launched": "2025-01",
+      "url": "https://computing.unl.edu/ai-graduate-certificate/"
+    },
+    {
+      "type": "concentration",
+      "name": "AI/ML focus area within MS in Computer Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://graduate.unl.edu/academics/programs/COMP-MS/"
+    },
+    {
+      "type": "course",
+      "name": "AI and Information Literacy (Canvas Commons module, UNL Libraries/CTT)",
+      "level": "undergrad",
+      "launched": "2024-09",
+      "url": "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/"
+    },
+    {
+      "type": "degree",
+      "name": "Dual-track MS in Artificial Intelligence (UNL-UNO, proposed; CCPE item, August 2025)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ccpe.nebraska.gov/sites/default/files/AP_UNO%20UNL%20Estab%20Dual%20track%20MS%20AI.pdf"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (incl. MGQ agent for Canvas)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu via OpenAI Impact Program",
+      "scope": "pilot",
+      "user_count": 200,
+      "deployed": "2025-08",
+      "url": "https://academictech.unl.edu/learning-and-emerging-technologies/open-ai-impact-program/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini / NotebookLM (faculty guidance)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://teaching.unl.edu/ai-exchange/use-ai-help-create-large-question-banks-canvas/"
+    },
+    {
+      "vendor": "EdSights",
+      "product": "Cornelius conversational AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://studentlife.unl.edu/meet-cornelius/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Swan (Holland Computing Center)",
+    "gpu_count": 200,
+    "url": "https://hcc.unl.edu/ai",
+    "summary": "UNL shares NU-wide compute through the Holland Computing Center, which operates the Swan cluster at the Schorr Center in Lincoln and PKI in Omaha. As of August 2025 Swan hosts more than 150 GPUs spanning H100, A100, L40S, A30, A6000, V100S, and T4 classes, with an NSF grant (#2430234) adding 6x H200 NVL and 52x L40S GPUs. The College of Engineering's Scott Data AI makerspace adds eight additional NVIDIA H100 GPUs for undergraduate access. Together these give UNL approximately 200 GPUs of assorted AI-class hardware, plus federated access via the National Research Platform."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Google gift to NU AI efforts",
+      "amount_usd": 250000,
+      "source": "Google",
+      "purpose": "Seed funding for NU AI Institute and system-wide AI work",
+      "date": "2024-11",
+      "url": "https://news.unl.edu/article/250k-google-gift-to-boost-nus-ai-research-education"
+    },
+    {
+      "title": "EdSights chatbot grant",
+      "amount_usd": 1000000,
+      "source": "Anonymous private foundation",
+      "purpose": "Three-year grant split across UNL, UNO, UNK for EdSights-powered student chatbots (Cornelius at UNL)",
+      "date": "2025",
+      "url": "https://nebraskapublicmedia.org/en/news/news-articles/unl-launched-its-ai-chatbot-cornelius-last-week-and-its-popping-off/"
+    },
+    {
+      "title": "NSF grant for knowledge-informed AI for smart buildings (HIBO Lab)",
+      "amount_usd": 1200000,
+      "source": "National Science Foundation",
+      "purpose": "Three-year research grant for AI controlling building systems",
+      "date": "2025-11",
+      "url": "https://news.unl.edu/article/new-facility-nsf-grant-advance-smart-building-technology"
+    },
+    {
+      "title": "NSRI JEMSO AI awards (4 projects)",
+      "amount_usd": 3300000,
+      "source": "U.S. Strategic Command via NSRI UARC",
+      "purpose": "AI for joint electromagnetic spectrum operations",
+      "date": "2025",
+      "url": "https://nsri.nebraska.edu/news/news-releases/2026/01/nsri-jemso-rd-refines-space-streamlines-ops"
+    },
+    {
+      "title": "NSF GPU expansion award #2430234",
+      "amount_usd": null,
+      "source": "National Science Foundation",
+      "purpose": "Adds 6x H200 NVL and 52x L40S GPUs to Swan (free to NU researchers)",
+      "date": "2025",
+      "url": "https://hcc.unl.edu/ai"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Seed gift for AI Institute and system-wide AI efforts",
+      "date": "2024-11",
+      "url": "https://news.unl.edu/article/250k-google-gift-to-boost-nus-ai-research-education"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Edu licenses via OpenAI Impact Program (up to 200 users)",
+      "date": "2025-08",
+      "url": "https://academictech.unl.edu/learning-and-emerging-technologies/open-ai-impact-program/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Scott Data (Omaha)",
+      "purpose": "Hosts 8x H100 GPUs for UNL Engineering AI makerspace",
+      "date": "2025-09",
+      "url": "https://news.unl.edu/article/scott-data-nebraska-engineering-partner-on-new-ai-makerspace"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "EdSights",
+      "purpose": "Vendor for Cornelius conversational AI for undergraduates",
+      "date": "2025-11",
+      "url": "https://studentlife.unl.edu/meet-cornelius/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Strategic Command via NSRI",
+      "purpose": "AI for joint electromagnetic spectrum operations and force protection",
+      "date": "2024-11",
+      "url": "https://nsri.nebraska.edu/news/news-releases/2024/11/nsri-unl-developing-ai-for-usstratcom-to-maximize-electromagnetic-spectrum"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "HIBO AI smart-building grant and HCC GPU expansion",
+      "date": "2025",
+      "url": "https://news.unl.edu/article/new-facility-nsf-grant-advance-smart-building-technology"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UNO, UNMC, UNK (NU System)",
+      "purpose": "Hub-and-spoke coordination across NU AI Institute",
+      "date": "2026-02",
+      "url": "https://ai.nebraska.edu/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Cornelius",
+      "scope": "All UNL degree-seeking undergraduates; SMS; academic, financial, belonging, and well-being check-ins",
+      "url": "https://studentlife.unl.edu/meet-cornelius/"
+    },
+    {
+      "type": "predictive_analytics",
+      "name": "Cornelius backend analytics",
+      "scope": "Institutional-barrier identification from chatbot engagement data",
+      "url": "https://news.unl.edu/article/ai-powered-chatbot-launches-for-undergraduate-students-in-november"
+    },
+    {
+      "type": "tutor",
+      "name": "ChatGPT Edu classroom deployments (OpenAI Impact Program)",
+      "scope": "Pilot in up to 200 faculty/staff-led classroom projects",
+      "url": "https://academictech.unl.edu/learning-and-emerging-technologies/open-ai-impact-program/"
+    },
+    {
+      "type": "other",
+      "name": "AI Makerspace (Scott Data / 8x H100)",
+      "scope": "UNL Engineering students",
+      "url": "https://news.unl.edu/article/scott-data-nebraska-engineering-partner-on-new-ai-makerspace"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI and Information Literacy Canvas Commons module",
+      "description": "Co-built by UNL Libraries and CTT; teaches students to evaluate AI outputs, recognize inaccuracies, and cite AI responsibly.",
+      "url": "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/"
+    },
+    {
+      "title": "Cornelius (universal SMS reach, 24/7)",
+      "description": "Reaches all degree-seeking undergraduates, explicitly targeting belonging and well-being alongside academic and financial support; designed with opt-in/opt-out defaults comparable across EdSights campuses.",
+      "url": "https://studentlife.unl.edu/meet-cornelius/"
+    },
+    {
+      "title": "AI Resistant Pedagogy learning community",
+      "description": "CTT learning community for faculty who want to reduce AI dependence in assessments, keeping equity and integrity considerations for students without AI access or preference.",
+      "url": "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/"
+    },
+    {
+      "title": "Husker AI Days cross-college programming",
+      "description": "Brings non-STEM units (e.g., Ethnic Studies) into the AI conversation to broaden participation.",
+      "url": "https://newsroom.unl.edu/announce/ethnicstudies/20214/107387"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Nebraska",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Nebraska is among 38 states with enacted AI laws. Active statutes include LB383 (bans AI-generated child pornography) and LB371 (civil liability for AI-generated intimate images). In the 2025-26 session, the legislature is considering LB642 (Artificial Intelligence Consumer Protection Act, defining high-risk AI systems and algorithmic discrimination duties) and LB1185 (Controversial AI Safety Act, disclosure for conversational AI). Governor Jim Pillen is evaluating the impact of the Trump administration's 2025 federal executive order seeking to preempt state AI regulation. At the NU system level, Executive Memorandum No. 42 (risk classification and minimum security standards) governs which data classes can be used with AI tools, and the NU Statement on the Use of Generative AI (drafted with the Office of General Counsel) sets the campus-level framework UNL operates under.",
+    "urls": [
+      "https://nebraskaexaminer.com/2025/12/12/how-does-trumps-ai-executive-order-impact-nebraska/",
+      "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB642.pdf",
+      "https://update.legislature.ne.gov/?p=39924",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/policies-guidance",
+      "https://wiki.unmc.edu/index.php/UNMC_AI_Use_Guidelines",
+      "https://ballotpedia.org/AI_deepfake_policy_in_Nebraska"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-11",
+      "summary": "UNL student press and student government raised concerns that Cornelius chatbot SMS outreach feels intrusive and that opt-out paths and data use are not sufficiently clear. UNL has framed Cornelius analytics as targeting institutional barriers rather than individual-level surveillance.",
+      "status": "active",
+      "url": "https://www.dailynebraskan.com/news/unl-students-express-concerns-over-cornelius-ai-chatbot/article_e5574dda-7f91-43a6-9396-8e71e226a7d0.html"
+    },
+    {
+      "date": "2026-01",
+      "summary": "UNL Chancellor Rodney Bennett resigned January 12, 2026 after an historic faculty no-confidence vote (60-14) and a $1.1M severance sparked additional faculty backlash, against the backdrop of a $27.5M budget cut that eliminated four departments. The churn directly affects AI-strategy continuity: Kathy Ankerson assumed the interim chancellorship and no permanent chancellor was in place when the AI Institute was announced in February 2026.",
+      "status": "active",
+      "url": "https://nebraskaexaminer.com/2026/01/05/unl-chancellor-bennett-to-resign-jan-12-almost-six-months-short-of-3-year-contract/"
+    }
+  ],
+  "narrative_summary": "The University of Nebraska-Lincoln (R1, public land grant, ~24.4K enrollment) anchors the University of Nebraska system's AI posture as of April 2026. On February 9, 2026, NU announced the system-wide Artificial Intelligence Institute on a hub-and-spoke model, with UNL supplying both co-directors (Santosh Pitla in biological systems engineering and Adrian Wisnicki in English) and designated as the home of the Center for AI in Agriculture. The institute builds on a 2024-2025 NU AI Task Force roadmap chaired by the system provost that also recommended cluster hiring, federal grant pursuit, and a new joint UNL-UNO MS in AI that entered CCPE review in August 2025. Governance sits in layers: the AI Institute and Task Force at the system level; the UNL Center for Transformative Teaching, Office of Research and Innovation, and NU ITS at the campus level. There is no dedicated Chief AI Officer.\n\nPolicy is cautious rather than comprehensive. Executive Memorandum No. 42 limits AI use to public/low-risk data unless contractual protections exist; the NU Statement on Generative AI and UNL's November 2024 research AI guidelines layer in disclosure and research-integrity rules; the Center for Transformative Teaching leaves course-level policy to faculty with templated options from prohibitive to permissive.\n\nBuild-out is notable for an agricultural-focused R1: a Scott Data-hosted AI makerspace with eight H100 GPUs; a Holland Computing Center Swan cluster growing under NSF grant #2430234 with H200 and additional L40S GPUs; a Cornelius (EdSights) SMS chatbot reaching all undergraduates with support from a $1M three-campus foundation grant; ChatGPT Edu access for up to 200 faculty and staff via the OpenAI Impact Program; Microsoft Copilot and Google Gemini faculty tooling; and a Graduate Certificate in AI.\n\nGaps: instability in campus leadership after Chancellor Bennett's January 2026 resignation, no permanent chancellor during the AI Institute launch, a non-trivial $27.5M budget cut wave, and a still-embryonic state legislative framework (LB642, LB1185) mean UNL's AI ambitions are well-articulated but structurally exposed to budget and leadership turbulence.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://news.unl.edu/article/university-of-nebraska-launches-ai-institute-to-lead-in-ethical-innovation-research-and",
+      "https://nebraska.edu/news-and-events/news/2026/02/university-of-nebraska-launches-ai-institute",
+      "https://www.unmc.edu/newsroom/2026/02/09/nu-launches-ai-institute-as-system-wide-initiative/",
+      "https://news.unl.edu/article/250k-google-gift-to-boost-nus-ai-research-education",
+      "https://ai.nebraska.edu/",
+      "https://nebraska.edu/offices-policies/provosts-office/academic-affairs/nu-ai-taskforce",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence",
+      "https://nebraska.edu/offices-policies/its/policies-processes/artificial-intelligence/policies-guidance",
+      "https://nebraska.edu/-/media/projects/unca/offices-policies/its/documents/nu-statement-on-the-use-of-generative-ai.pdf",
+      "https://teaching.unl.edu/ai/teaching-and-generative-artificial-intelligence/",
+      "https://teaching.unl.edu/resources/ai/AI-Policy-Creation/",
+      "https://teaching.unl.edu/ai-exchange/use-ai-help-create-large-question-banks-canvas/",
+      "https://teaching.unl.edu/news/fall-ai-skill-sharing-kicked-openai-impact-projects/",
+      "https://academictech.unl.edu/learning-and-emerging-technologies/open-ai-impact-program/",
+      "https://newsroom.unl.edu/announce/teacherconnect/18651/100682",
+      "https://newsroom.unl.edu/announce/coeupdates/18736/101179",
+      "https://research.unl.edu/blog/ri-develops-ai-guidelines-best-practices/",
+      "https://researchdata.unl.edu/artificial-intelligence/",
+      "https://hcc.unl.edu/",
+      "https://hcc.unl.edu/ai",
+      "https://hcc.unl.edu/hcc-ai-and-ml-workshop",
+      "https://hcc.unl.edu/gp-engine-migrating-aiml-workflows-nautilus",
+      "https://computing.unl.edu/ai-graduate-certificate/",
+      "https://graduate.unl.edu/academics/programs/COAI-GCER/",
+      "https://computing.unl.edu/news/school-computing-introduces-ai-graduate-certificate/",
+      "https://news.unl.edu/article/school-of-computing-introduces-ai-graduate-certificate",
+      "https://ccpe.nebraska.gov/sites/default/files/AP_UNO%20UNL%20Estab%20Dual%20track%20MS%20AI.pdf",
+      "https://news.unl.edu/article/ai-powered-chatbot-launches-for-undergraduate-students-in-november",
+      "https://nebraskapublicmedia.org/en/news/news-articles/unl-launched-its-ai-chatbot-cornelius-last-week-and-its-popping-off/",
+      "https://studentlife.unl.edu/meet-cornelius/",
+      "https://www.dailynebraskan.com/news/unl-students-express-concerns-over-cornelius-ai-chatbot/article_e5574dda-7f91-43a6-9396-8e71e226a7d0.html",
+      "https://news.unl.edu/article/scott-data-nebraska-engineering-partner-on-new-ai-makerspace",
+      "https://news.unl.edu/article/new-facility-nsf-grant-advance-smart-building-technology",
+      "https://research.unl.edu/blog/new-facility-nsf-grant-advance-smart-building-technology/",
+      "https://engineering.unl.edu/news/251104/konstantzos-liu-technology/",
+      "https://nsri.nebraska.edu/",
+      "https://nsri.nebraska.edu/news/news-releases/2024/11/nsri-unl-developing-ai-for-usstratcom-to-maximize-electromagnetic-spectrum",
+      "https://nsri.nebraska.edu/news/news-releases/2025/04/ai-for-national-defense-engineer-applies-layered-expertise-for-force-protection",
+      "https://nsri.nebraska.edu/news/news-releases/2026/01/nsri-jemso-rd-refines-space-streamlines-ops",
+      "https://news.unl.edu/article/high-tech-farm-hand-husker-research-team-builds-autonomous-planter",
+      "https://journalstar.com/ne/lancaster-county/lincoln/article_262e722f-0ca3-5f8e-b9f4-4ce85a395cfe.html",
+      "https://news.unl.edu/article/winning-contest-entry-shows-ais-agricultural-potential",
+      "https://nebraska.edu/president/speeches-communications/op-ed/2025/10/how-nebraska-is-leading-the-next-revolution-in-precision-ag",
+      "https://news.unl.edu/article/haugerud-named-interim-cio",
+      "https://nebraska.edu/offices-policies/its/meet-our-people",
+      "https://nebraska.edu/meet-our-people/chancellors-and-vice-presidents/bret-blackman",
+      "https://nebraska.edu/president/meet-the-president/",
+      "https://nebraskaexaminer.com/2025/11/18/unl-faculty-overwhelmingly-pass-historic-no-confidence-vote-against-chancellor/",
+      "https://nebraskaexaminer.com/2026/01/05/unl-chancellor-bennett-to-resign-jan-12-almost-six-months-short-of-3-year-contract/",
+      "https://nebraskaexaminer.com/2025/12/12/how-does-trumps-ai-executive-order-impact-nebraska/",
+      "https://nebraskalegislature.gov/FloorDocs/109/PDF/Intro/LB642.pdf",
+      "https://ballotpedia.org/AI_deepfake_policy_in_Nebraska",
+      "https://wiki.unmc.edu/index.php/UNMC_AI_Use_Guidelines",
+      "https://www.collegetuitioncompare.com/edu/181464/university-of-nebraska-lincoln/enrollment/",
+      "https://newsroom.unl.edu/announce/cse/20226/107560",
+      "https://newsroom.unl.edu/announce/ethnicstudies/20214/107387",
+      "https://newsroom.unl.edu/announce/cse/20182/107382"
+    ],
+    "search_queries": [
+      "\"University of Nebraska-Lincoln\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Nebraska-Lincoln\" AI policy acceptable use guidelines faculty students",
+      "\"University of Nebraska-Lincoln\" CIO chief information officer 2025",
+      "\"University of Nebraska-Lincoln\" chief AI officer OR AI task force OR AI committee",
+      "\"University of Nebraska-Lincoln\" AI research center Holland Computing HPC GPU",
+      "\"University of Nebraska-Lincoln\" AI degree program artificial intelligence computer science curriculum",
+      "\"University of Nebraska-Lincoln\" Microsoft Copilot OR Google Gemini OR ChatGPT deployment",
+      "\"University of Nebraska-Lincoln\" AI chatbot student services predictive analytics",
+      "\"University of Nebraska-Lincoln\" president provost 2025 2026 leadership",
+      "\"University of Nebraska-Lincoln\" AI research grant NSF million funding partnership",
+      "\"University of Nebraska\" AI Institute Google 250000 funding announcement 2026",
+      "\"University of Nebraska-Lincoln\" enrollment 2024 2025 total students",
+      "\"University of Nebraska-Lincoln\" AI agriculture robotics research TAPS farm",
+      "\"University of Nebraska-Lincoln\" \"Rick Haugerud\" OR \"Bret Blackman\" CIO interim 2026",
+      "\"University of Nebraska\" state AI policy Nebraska executive order regulations 2025",
+      "\"University of Nebraska-Lincoln\" Cornelius chatbot EdSights grant million foundation",
+      "\"University of Nebraska\" Nebraska AI Institute launch February 2026 centers cross-cutting",
+      "\"University of Nebraska-Lincoln\" chancellor Kathy Ankerson 2026 budget cuts",
+      "\"University of Nebraska-Lincoln\" \"Jeffrey Gold\" \"Rodney Bennett\" chancellor 2025",
+      "\"University of Nebraska-Lincoln\" NSF AI smart building HIBO 1.2 million grant",
+      "\"University of Nebraska-Lincoln\" AI workshop faculty training OpenAI Impact Program",
+      "\"University of Nebraska-Lincoln\" AI MS masters degree program 2025 computer science dual track",
+      "\"University of Nebraska-Lincoln\" NSRI National Strategic Research Institute AI defense 2025"
+    ],
+    "gaps_acknowledged": [
+      "The PDF of the NU Statement on the Use of Generative AI could not be parsed via WebFetch; provisions were sourced indirectly from policy pages and the UNMC companion guidelines which reference Executive Memorandum No. 42.",
+      "No permanent UNL chancellor in place during profile compilation (Ankerson is interim); permanent chancellor search ongoing spring 2026.",
+      "Exact dollar value of the Scott Data AI makerspace partnership and NSF GPU expansion award #2430234 not publicly disclosed.",
+      "Anonymous private-foundation funder of the Cornelius $1M three-campus grant is publicly unnameable per grant terms.",
+      "User counts for Microsoft Copilot and Google Gemini enterprise use at UNL not published; only the OpenAI Impact Program's 200-license cap is published.",
+      "Syllabus-level AI policy is faculty-discretion, not required; central syllabus policy language therefore not applicable.",
+      "A formal published UNL-specific AI strategy document (as opposed to the system-level AI Institute announcement and Task Force roadmap) has not been located; strategy is inferred from system-level and center-level documents."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "platform_first",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 13,
+        "research_compute_powerhouse": 22,
+        "curriculum_led": 12,
+        "governance_led": 10,
+        "student_success_led": 9,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-11",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 4,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Swan (Holland Computing Center)",
+        "gpu_count": 200,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 5750000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 4,
+        "public_federal_state": 7,
+        "other_unclear": 3,
+        "industry_vendor": 2,
+        "institutional": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 1,
+        "predictive_analytics": 1,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": true,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": true,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini / NotebookLM (faculty guidance)",
+            "Google Gemini / NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot (incl. MGQ agent for Canvas)",
+            "Microsoft Copilot (incl. MGQ agent)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu",
+            "ChatGPT Edu via OpenAI Impact Program"
+          ]
+        },
+        {
+          "vendor": "EdSights Cornelius (EdSights platform)",
+          "mentions": 1,
+          "products": [
+            "Cornelius (EdSights platform)"
+          ]
+        },
+        {
+          "vendor": "EdSights Cornelius conversational AI",
+          "mentions": 1,
+          "products": [
+            "Cornelius conversational AI"
+          ]
+        },
+        {
+          "vendor": "Holland Computing Center Swan cluster (AlphaFold, PyTorch, TensorFlow, Apptainer)",
+          "mentions": 1,
+          "products": [
+            "Swan cluster (AlphaFold, PyTorch, TensorFlow, Apptainer)"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas AI and Information Literacy module"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA H100"
+          ]
+        },
+        {
+          "vendor": "UNL Biological Systems Engineering (in-house build) Flex-Ro autonomous planter",
+          "mentions": 1,
+          "products": [
+            "Flex-Ro autonomous planter"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "student_success",
+          "title": "Cornelius AI chatbot for undergraduate retention and well-being (EdSights)",
+          "summary": "First campus-wide, opt-in conversational AI deployed at UNL and part of a three-campus NU effort to build predictive outreach into student-success operations; representative of the EdSights-style deployment pattern spreading across regional R1s.",
+          "source_url": "https://news.unl.edu/article/ai-powered-chatbot-launches-for-undergraduate-students-in-november"
+        },
+        {
+          "claim_type": "usage",
+          "title": "OpenAI Impact Program and ChatGPT Edu rollout for faculty and staff",
+          "summary": "One of the early land-grant R1 adopters of ChatGPT Edu under OpenAI's Impact/Edu track; adds a controlled enterprise path alongside NU-provided Microsoft Copilot MGQ agent and Google Gemini/NotebookLM use.",
+          "source_url": "https://academictech.unl.edu/learning-and-emerging-technologies/open-ai-impact-program/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "NSRI / UNL AI for national defense (USSTRATCOM electromagnetic spectrum)",
+          "summary": "Positions UNL in the national-security AI portfolio via NSRI, one of only 15 U.S. Department of War UARCs, and fits the AI Institute's national-security cross-cutting center.",
+          "source_url": "https://nsri.nebraska.edu/news/news-releases/2024/11/nsri-unl-developing-ai-for-usstratcom-to-maximize-electromagnetic-spectrum"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "The PDF of the NU Statement on the Use of Generative AI could not be parsed via WebFetch; provisions were sourced indirectly from policy pages and the UNMC companion guidelines which reference Executive Memorandum No. 42.",
+        "No permanent UNL chancellor in place during profile compilation (Ankerson is interim); permanent chancellor search ongoing spring 2026.",
+        "Exact dollar value of the Scott Data AI makerspace partnership and NSF GPU expansion award #2430234 not publicly disclosed.",
+        "Anonymous private-foundation funder of the Cornelius $1M three-campus grant is publicly unnameable per grant terms.",
+        "User counts for Microsoft Copilot and Google Gemini enterprise use at UNL not published; only the OpenAI Impact Program's 200-license cap is published.",
+        "Syllabus-level AI policy is faculty-discretion, not required; central syllabus policy language therefore not applicable.",
+        "A formal published UNL-specific AI strategy document (as opposed to the system-level AI Institute announcement and Task Force roadmap) has not been located; strategy is inferred from system-level and center-level documents."
+      ]
+    }
+  }
+}

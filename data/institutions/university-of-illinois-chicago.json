@@ -1,0 +1,1633 @@
+{
+  "institution": "University of Illinois Chicago",
+  "slug": "university-of-illinois-chicago",
+  "city_state": "Chicago, IL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Illinois",
+  "enrollment": 35869,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Timothy L. Killeen",
+      "url": "https://www.uillinois.edu/president"
+    },
+    "provost": {
+      "name": "Karen Colley",
+      "url": "https://provost.uic.edu/"
+    },
+    "cio": {
+      "name": "Matt Riley",
+      "url": "https://it.uic.edu/about/technology-solutions/techsolutionsleadership/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Bryan Libbin",
+      "title": "Associate CIO for Academic Technology; Chair, UIC AI Advisory Group Teaching & Learning subgroup",
+      "url": "https://it.uic.edu/services/ai-resources/advisory-groups/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Statement on Responsible and Acceptable Use of Generative AI",
+        "url": "https://it.uic.edu/news-stories/statement-on-responsible-and-acceptable-use-of-generative-ai/",
+        "year": 2025
+      },
+      {
+        "title": "Higher education must bridge the AI gap (Science editorial by Chancellor Marie Lynn Miranda)",
+        "url": "https://today.uic.edu/chancellor-miranda-authors-science-editorial/",
+        "year": 2025
+      },
+      {
+        "title": "UIC Forward Initiative (IT strategic plan)",
+        "url": "https://it.uic.edu/about/strategy/initiatives/forward/",
+        "year": 2024
+      }
+    ],
+    "summary": "UIC's AI posture is framed publicly by Chancellor Marie Lynn Miranda's March 2025 Science editorial calling on higher education to 'bridge the AI gap' for low-income and first-generation students, combined with a March 2025 system/campus statement on responsible and acceptable use. Strategy is operationalized through the Forward Initiative's research cyberinfrastructure investments (Lakeshore HPC, Chicago Computes), the UIC AI Advisory Group's four subgroups, and a set of externally-funded programs that push AI literacy and AI-in-healthcare into a Hispanic-Serving, urban public setting."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.uic.edu/news-stories/statement-on-responsible-and-acceptable-use-of-generative-ai/",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/instructors",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/students",
+      "https://provost.uic.edu/news-stories/generative-ai-resources-and-guidance-for-faculty/"
+    ],
+    "adopted_date": "2025-03",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "References NIST's trustworthy AI characteristics framework",
+      "High-risk/sensitive data requires advance review via security@uic.edu and data-use agreements",
+      "Microsoft 365 Copilot (with Data Protection) is the only currently approved GenAI environment for use with non-public university data",
+      "Instructors must provide equitable access and are told AI detectors are unreliable",
+      "Students must cite GenAI using APA/MLA and disclose percentage AI-generated",
+      "Faculty given latitude to set course-level policy (CATE sample statements)"
+    ],
+    "summary": "The March 2025 'Statement on Responsible and Acceptable Use of Generative AI', signed by UIC Chief Information Security and Privacy Officer Shefali Mookencherry, sets a comprehensive framework aligned with U of I System guidance, anchored in NIST's trustworthy-AI characteristics. It permits broad use, requires sensitive-data review, and delegates syllabus-level decisions to instructors supported by CATE and Provost-office resources."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UIC AI Advisory Group",
+        "type": "council",
+        "scope": "Campus-wide; four subgroups (Teaching & Learning, Research, Healthcare, Administrative Operations) developing guidelines, best practices, and policy recommendations on GenAI",
+        "url": "https://it.uic.edu/services/ai-resources/advisory-groups/"
+      },
+      {
+        "name": "AI Teaching & Learning Advisory Committee",
+        "type": "committee",
+        "scope": "Faculty-driven committee compiling and curating AI-centered assignments shared across UIC colleges",
+        "url": "https://learning.uic.edu/resources/generative-ai-centered-assignments-for-uic-faculty/"
+      },
+      {
+        "name": "College of Medicine AI Task Force",
+        "type": "task_force",
+        "scope": "Drafts syllabi language and guidelines for student and faculty AI use within the UI College of Medicine",
+        "url": "https://comfaculty.uic.edu/getting-started/using-educational-technology-effectively/artificial-intelligence/"
+      },
+      {
+        "name": "U of I System IT Security, Privacy, and Risk Leadership (Generative AI program)",
+        "type": "office",
+        "scope": "System-level governance producing GenAI guidance for instructors and students across UIC, UIUC, and UIS",
+        "url": "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai"
+      }
+    ],
+    "summary": "Governance is distributed rather than consolidated under a single chief AI officer. Day-to-day stewardship runs through the UIC AI Advisory Group with four discipline-based subgroups chaired by Bryan Libbin (Teaching & Learning), Himanshu Sharma/Andrew Boyd (Research), Jason Maslanka (Admin Ops), and David Chestek (Healthcare). A College of Medicine AI Task Force handles clinical education specifics, and the U of I System's EVPAA/VP Academic Affairs office publishes system-wide GenAI guidance that UIC implements."
+  },
+  "initiatives": [
+    {
+      "title": "Google Accelerator program: campus-wide Gemini / NotebookLM / Gems licensing",
+      "description": "UIC is rolling out free, unrestricted licenses to Google's AI suite (Gemini, NotebookLM, Gems) to every student, faculty, and staff member across all 16 colleges, delivered through Google Workspace. The phased rollout moves from infrastructure setup and pilot faculty training into summer faculty enablement and fall full student access, accompanied by four training modules on fundamentals, ethics, assessment integration, and accessibility.",
+      "significance": "At a large, majority-minority, Hispanic-Serving R1 it is one of the most explicit equity-framed campus-wide GenAI deployments in the sector, positioning access as workforce preparation rather than experimentation.",
+      "date_announced": "2025-09-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Google (in-kind license value) plus UIC internal training/operations",
+        "description": "In-kind licensing of Gemini, NotebookLM, and Gems for 37,000+ community members; UIC provides training and integration costs."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Google AI for Education Accelerator partnership"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "General-purpose conversational and coding assistant"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Source-grounded research synthesis"
+        },
+        {
+          "name": "Gems",
+          "vendor": "Google",
+          "role": "Customized Gemini agents"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Expands the set of approved GenAI tools beyond Microsoft 365 Copilot; privacy/data-classification guardrails still apply.",
+      "source_urls": [
+        "https://learning.uic.edu/news-stories/uic-will-launch-the-google-accelerator-program-to-democratize-ai-access-across-campus/"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot rollout with Data Protection",
+      "description": "Effective February 20, 2025, UIC made Microsoft 365 Copilot licenses available to faculty and staff at $402/user/year (prorated to $133/user through 6/30/2026), while Microsoft 365 Copilot Chat (with Data Protection) is free for all faculty and staff. Copilot with Data Protection is the only GenAI environment currently approved for non-public university data.",
+      "significance": "Sets the institutional 'safe default' for GenAI on sensitive data and defines the commercial/financial envelope for enterprise AI in a public-university budget.",
+      "date_announced": "2025-02-20",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Department-paid licenses plus central free-tier",
+        "description": "Per-seat licensing through the University of Illinois WebStore."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Business Associate Agreement and system-wide Microsoft 365 Copilot deployment"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Integrated productivity AI across Word, Excel, Outlook, Teams"
+        },
+        {
+          "name": "Microsoft 365 Copilot Chat (with Data Protection)",
+          "vendor": "Microsoft",
+          "role": "Free enterprise chat for UIC credentials"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes the only approved channel for non-public institutional data in a GenAI tool.",
+      "source_urls": [
+        "https://it.uic.edu/news-stories/ms-copilot-available-to-uic-staff/",
+        "https://today.uic.edu/microsoft-365-copilot-availability-and-usage-guidelines/",
+        "https://webstore.illinois.edu/shop/product.aspx?zpid=6101&shopBy=2"
+      ]
+    },
+    {
+      "title": "Statement on Responsible and Acceptable Use of Generative AI",
+      "description": "UIC's campus AI acceptable-use statement, posted March 15, 2025 and signed by Chief Information Security and Privacy Officer Shefali Mookencherry, aligns with NIST's trustworthy-AI characteristics and U of I System guidance. It applies to faculty, staff, students, and researchers; permits use of non-prohibited tools; requires review for high-risk or sensitive data; and points to CATE sample syllabus statements.",
+      "significance": "Codifies UIC's 'comprehensive' stance on GenAI and anchors all downstream tool rollouts and governance work.",
+      "date_announced": "2025-03-15",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "institutional_ai_strategy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (CISO office)",
+        "description": "Policy-level statement; no separate budget line disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Illinois System (UIUC, UIS, system IT)"
+          ],
+          "description": "Collaborative policy work with U of I System IT Security, Privacy, and Risk Leadership"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes the ethical and legal frame all other AI work must fit.",
+      "source_urls": [
+        "https://it.uic.edu/news-stories/statement-on-responsible-and-acceptable-use-of-generative-ai/"
+      ]
+    },
+    {
+      "title": "AI.Health4All Center — ARPA-H funded fairness-focused health AI",
+      "description": "The University of Illinois College of Medicine launched the AI.Health4All Center, described as the nation's first AI/ML center centrally focused on improving fairness and reducing bias in healthcare. The center anchors a ~$10 million ARPA-H-funded project (UIC's first ARPA-H award) to merge clinical data across a multi-institution consortium with AI-assisted input from nurses and therapists, in partnership with University of Iowa, University of Missouri, Loyola University, Microsoft, and Tackle AI.",
+      "significance": "A rare R1 example of a health-equity-first AI research center with large federal health-AI funding; sets a national template for bias-aware clinical AI.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "algorithmic_bias",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Advanced Research Projects Agency for Health (ARPA-H)",
+        "description": "UIC's first ARPA-H award; multi-institution consortium."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "ARPA-H"
+          ],
+          "description": "Federal health research funder"
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Iowa",
+            "University of Missouri",
+            "Loyola University"
+          ],
+          "description": "Academic consortium"
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Tackle AI"
+          ],
+          "description": "Cloud and AI platform partners"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions UIC as a fairness-in-clinical-AI authority; likely to shape system-wide IRB/FERPA/HIPAA interpretation.",
+      "source_urls": [
+        "https://medicine.uic.edu/com-research/aihealth4all/",
+        "https://uihealth.uic.edu/news-stories/using-ai-for-more-comprehensive-health-data-and-better-patient-outcomes/",
+        "https://ahs.uic.edu/news-stories/project-will-use-ai-to-merge-health-data-with-input-from-nurses-therapists/"
+      ]
+    },
+    {
+      "title": "Google.org Data + AI undergraduate program",
+      "description": "A $1M Google.org award, announced December 2, 2024, funds UIC's Data + AI program, a pilot launching in 2025-26 led by Amita Shetty (former director of Break Through Tech Chicago). Undergraduates from any discipline take a specialized UIC/industry-designed course followed by experiential learning, with a focus on ethical reasoning and professional mentorship.",
+      "significance": "Moves AI literacy out of the CS major and into general undergraduate education at a highly diverse, majority-first-generation campus.",
+      "date_announced": "2024-12-02",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "ai_workforce_training",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1000000,
+        "funding_source": "Google.org",
+        "description": "Philanthropic grant for curriculum and experiential programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google.org",
+            "Sustainable Fitch"
+          ],
+          "description": "Funder and industry project partner"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds ethics and disclosure into an early undergraduate AI-literacy touchpoint.",
+      "source_urls": [
+        "https://today.uic.edu/google-org-awards-uic-grant-to-launch-data-ai-program/",
+        "https://engineering.uic.edu/news-stories/google-org-awards-uic-grant-to-launch-data-ai-program/",
+        "https://engineering.uic.edu/news-stories/chicago-tech-circles-dataai-course-provides-in-demand-real-world-experience-to-students/",
+        "https://www.chicagobusiness.com/technology/google-donates-1-million-uic-ai-training/"
+      ]
+    },
+    {
+      "title": "Lakeshore HPC cluster and Chicago Computes program",
+      "description": "UIC's Advanced Cyberinfrastructure for Education and Research (ACER) launched the Lakeshore HPC cluster in January 2024 under the Forward Initiative: 10,304 cores, 57.2 TB RAM, 3 PB storage, with 2 nodes of 4x NVIDIA A100 (Chicago Computes partition) and 7 nodes of 4x NVIDIA L40 (HPC Partnership). The Chicago Computes program provides free allocations (up to 100,000 core-hours, 1,000 GPU-hours) to UIC faculty to lower the digital divide in research computing; in year one Lakeshore served 357+ researchers across 100+ groups in 10 colleges.",
+      "significance": "Brings R1-scale AI-capable compute into a campus whose research community is disproportionately dependent on shared infrastructure, explicitly as an equity intervention.",
+      "date_announced": "2024-01-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UIC Forward Initiative plus departmental HPC Partnership buy-in",
+        "description": "Multi-million-dollar institutional investment; exact dollar figure not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UIC departments and colleges (HPC Partnership)"
+          ],
+          "description": "Partner-funded priority-access model"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA A100 80GB GPUs",
+          "vendor": "NVIDIA",
+          "role": "AI training/inference"
+        },
+        {
+          "name": "NVIDIA L40 GPUs",
+          "vendor": "NVIDIA",
+          "role": "Mixed AI and visualization workloads"
+        },
+        {
+          "name": "HPC in the Cloud (AWS)",
+          "vendor": "Amazon Web Services",
+          "role": "On-demand burst HPC"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Adds an on-prem compute pathway compliant with institutional data-classification rules.",
+      "source_urls": [
+        "https://acer.uic.edu/services/hpc/lakeshore/",
+        "https://acer.uic.edu/chicago-computes/",
+        "https://it.uic.edu/news-stories/chicago-computes-program/",
+        "https://it.uic.edu/news-stories/hpc-at-uic/"
+      ]
+    },
+    {
+      "title": "Online Master of Engineering with AI and Machine Learning concentration",
+      "description": "UIC's College of Engineering offers a fully online, asynchronous Master of Engineering with a concentration in AI and ML — nine 8-week courses covering neural networks, deep learning, NLP, computer vision, and responsible AI, completable in 12 months full-time. Targeted at working professionals moving into data science or ML roles.",
+      "significance": "Scales an applied AI/ML credential for adult learners through a public-university online modality, a market dominated by for-profits.",
+      "date_announced": "2023-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded online program",
+        "description": "Operates within the College of Engineering's revenue-generating online portfolio."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://meng.uic.edu/online-program/meng/",
+        "https://meng.uic.edu/news-stories/uic-launches-online-masters-program-in-artificial-intelligence-machine-learning/",
+        "https://today.uic.edu/uic-launches-online-masters-program-in-artificial-intelligence-machine-learning/"
+      ]
+    },
+    {
+      "title": "AI in Medicine (AI-Med) four-year scholarly concentration for medical students",
+      "description": "The UI College of Medicine's AI-Med Scholarly Concentration is a four-year longitudinal program training physician leaders to use AI in clinical care with an explicit fairness lens. A parallel Rockford-campus effort built SimEHR, an AI-enhanced EHR simulator used in M1/M2 clinical training.",
+      "significance": "Few U.S. medical schools embed a longitudinal AI-clinical-fairness curriculum from year 1 through year 4.",
+      "date_announced": "2024-07-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_enhanced_pedagogy",
+        "algorithmic_bias",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Medicine",
+        "description": "Medical school curriculum and simulation investment."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "SimEHR",
+          "vendor": "University of Illinois College of Medicine Rockford (internal)",
+          "role": "Simulated EHR for clinical training"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Tied to the College of Medicine AI Task Force's syllabus/guidelines work.",
+      "source_urls": [
+        "https://medicine.uic.edu/education/md/scholarly-concentration-programs/ai-med/",
+        "https://comfaculty.uic.edu/getting-started/using-educational-technology-effectively/artificial-intelligence/",
+        "https://rockford.medicine.uic.edu/news-stories/ai-enhanced-clinical-training-platform-for-medical-education-is-in-the-works/",
+        "https://medicine.uic.edu/education/md/md-curriculum/educational-policies/policy-on-use-of-artificial-intelligence-ai-in-student-academic-work/"
+      ]
+    },
+    {
+      "title": "UI Health MyChart — ChatGPT-assisted patient-message drafting pilot",
+      "description": "UI Health is piloting the use of ChatGPT to draft responses to the 15,000+ MyChart patient messages sent monthly, with clinician review retained. The pilot is part of UIC's broader Intelligent Revolution feature and sits alongside CREATE WISDOM (predictive models for COVID-19 and pancreatic cancer) and Break Through Tech's 1-Search clinician information-retrieval service.",
+      "significance": "Representative of a growing national pattern of LLM-drafted MyChart replies, and an equity/workload question at a safety-net academic health system.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership",
+        "ai_chatbot_or_virtual_assistant"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UI Health internal",
+        "description": "Pilot-stage operational investment; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI (via ChatGPT)",
+            "Epic Systems (MyChart)"
+          ],
+          "description": "Vendor dependency for LLM and EHR patient portal"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Drafts patient-message replies for clinician review"
+        },
+        {
+          "name": "MyChart",
+          "vendor": "Epic Systems",
+          "role": "Patient portal surface for the pilot"
+        },
+        {
+          "name": "1-Search",
+          "vendor": "UIC / Break Through Tech Chicago",
+          "role": "Clinician information-retrieval service"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Requires HIPAA-compliant integration patterns; ties into the CISO's sensitive-data review process.",
+      "source_urls": [
+        "https://stories.uic.edu/all-stories/intelligent-revolution/index.html",
+        "https://today.uic.edu/tag/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "C2QA partnership — AI/ML for quantum error mitigation",
+      "description": "On June 9, 2022 UIC joined the Brookhaven National Laboratory-led Co-design Center for Quantum Advantage (C2QA) as its 24th partner. Associate Professor Thomas Searles' lab applies data-centric machine-learning methods to error mitigation on Noisy Intermediate-Scale Quantum devices using IBM Quantum Processing Units. UIC is one of six minority-serving institutions in C2QA.",
+      "significance": "Connects AI/ML research to the national quantum program through an HSI-anchored pipeline, tying AI talent development to underrepresented-minority recruitment in quantum.",
+      "date_announced": "2022-06-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "underrepresented_student_support",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "quantum_and_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Department of Energy / Brookhaven National Laboratory (C2QA)",
+        "description": "DOE-funded multi-institution center; UIC share not publicly itemized."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Brookhaven National Laboratory",
+            "U.S. Department of Energy"
+          ],
+          "description": "National-lab-led center"
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM Quantum"
+          ],
+          "description": "Access to IBM cloud quantum processors for ML-based error mitigation"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "IBM Quantum",
+          "vendor": "IBM",
+          "role": "Cloud quantum hardware for ML-based error mitigation"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bnl.gov/newsroom/news.php?a=119587",
+        "https://www.hpcwire.com/off-the-wire/university-of-illinois-chicago-joins-brookhaven-labs-quantum-center/"
+      ]
+    },
+    {
+      "title": "Break Through Tech Chicago + Chicago Tech Circle Data+AI course",
+      "description": "Break Through Tech Chicago is UIC's flagship initiative (with Pivotal Ventures) to advance women and nonbinary students in computing; it doubled representation in UIC computing between 2020 and 2025. The Chicago Tech Circle Data+AI course (CS 294 / FIN 294), launched Fall 2025 with Google.org funding and Sustainable Fitch as a project partner, teaches GenAI tool use, data handling, and ML model literacy with capstone projects for industry judges.",
+      "significance": "One of the clearest national examples of integrating equity, AI literacy, and industry-embedded capstones at a public-university scale.",
+      "date_announced": "2025-08-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "underrepresented_student_support",
+        "ai_workforce_training",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Google.org, Pivotal Ventures",
+        "description": "Philanthropic and in-kind."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google.org",
+            "Pivotal Ventures",
+            "Sustainable Fitch"
+          ],
+          "description": "Funders and project sponsors"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.uic.edu/news-stories/chicago-tech-circles-dataai-course-provides-in-demand-real-world-experience-to-students/",
+        "https://today.uic.edu/uic-aims-to-break-through-gender-gap-in-computer-science/",
+        "https://today.uic.edu/tag/break-through-tech/"
+      ]
+    },
+    {
+      "title": "UIC Business AI Symposium (3rd Annual)",
+      "description": "On May 16, 2025, UIC Business (Department of Information and Decision Sciences) and the Discovery Partners Institute hosted the third annual AI Symposium with IBM, CBIS, DPI, and Wharton/UIC speakers on scaling AI responsibly across data security, ethical frameworks, sustainable infrastructure, workforce readiness, and ROI measurement.",
+      "significance": "An ongoing public-facing forum connecting UIC to Chicago's AI adoption ecosystem and enterprise partners.",
+      "date_announced": "2025-05-16",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "employers",
+        "community",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UIC Business / DPI sponsorships",
+        "description": "Symposium-level investment."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM",
+            "CBIS",
+            "Discovery Partners Institute",
+            "Wharton"
+          ],
+          "description": "Panel and sponsorship partners"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://business.uic.edu/news-stories/3rd-annual-ai-symposium-exploring-the-future-together/"
+      ]
+    },
+    {
+      "title": "TRAILblazer Lab — Teaching and Research with AI Learning",
+      "description": "Led by Dr. Jeremy Riel, the TRAILblazer Lab conducts applied R&D on how AI, digital personalization, and game-based learning can be used for teaching and learning, and how computing can represent human knowledge and cognition.",
+      "significance": "Institutionalizes AI-in-education research within UIC beyond IT/provost-office rollouts.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_enhanced_pedagogy",
+        "ai_tutoring_and_adaptive_learning"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal and competitive grants",
+        "description": "Faculty-led research lab."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://trailblazerlab.org/"
+      ]
+    },
+    {
+      "title": "Digital Scholars program expansion with DPI",
+      "description": "Discovery Partners Institute and UIC's CHANCE program announced an expansion of the Digital Scholars program to provide underrepresented students more access to computing and data-science pathways. Approximately 70% of past participants are Black or Latinx, 60% from Chicago Public Schools, and 35% female.",
+      "significance": "Links pre-college equity pipelines to AI/data careers through a system-level hub.",
+      "date_announced": "2024-06-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "underrepresented_student_support",
+        "ai_workforce_training",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Discovery Partners Institute (University of Illinois System)",
+        "description": "Program expansion funding not publicly itemized."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Discovery Partners Institute"
+          ],
+          "description": "University of Illinois System research hub"
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Chicago Public Schools (CPS)"
+          ],
+          "description": "Majority of participants drawn from CPS"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://dpi.illinois.edu/news/discovery-partners-institute-and-uic-chance-announce-expansion-of-digital-scholars-program"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI.Health4All Center (UI College of Medicine)",
+      "focus": "Fairness and bias reduction in health AI/ML",
+      "founded": "2023",
+      "url": "https://medicine.uic.edu/com-research/aihealth4all/"
+    },
+    {
+      "name": "UIC Artificial Intelligence Laboratory",
+      "focus": "Language emergence among artificial, knowledge-based agents; transportation, manufacturing, NLP, Bayesian networks",
+      "founded": null,
+      "url": "https://ai.uic.edu/"
+    },
+    {
+      "name": "TRAILblazer Lab (Teaching and Research with AI Learning)",
+      "focus": "AI and emerging technologies for teaching, learning, and knowledge representation",
+      "founded": null,
+      "url": "https://trailblazerlab.org/"
+    },
+    {
+      "name": "Advanced Cyberinfrastructure for Education and Research (ACER)",
+      "focus": "HPC, big data, and AI cyberinfrastructure for research",
+      "founded": null,
+      "url": "https://acer.uic.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Online Master of Engineering, AI and Machine Learning concentration",
+      "level": "grad",
+      "launched": "2023-09",
+      "url": "https://meng.uic.edu/online-program/meng/"
+    },
+    {
+      "type": "concentration",
+      "name": "AI in Medicine (AI-Med) Scholarly Concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://medicine.uic.edu/education/md/scholarly-concentration-programs/ai-med/"
+    },
+    {
+      "type": "course",
+      "name": "Chicago Tech Circle Data+AI (CS 294 / FIN 294)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://engineering.uic.edu/news-stories/chicago-tech-circles-dataai-course-provides-in-demand-real-world-experience-to-students/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Computer Science (AI/ML emphasis; Plans A/B/C)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://cs.uic.edu/graduate/ms-program/"
+    },
+    {
+      "type": "course",
+      "name": "AI in Medicine elective (COM Rockford)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://rockford.medicine.uic.edu/education/md/md-curriculum/electives/electives-catalog/ai-medicine/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-02",
+      "url": "https://it.uic.edu/news-stories/ms-copilot-available-to-uic-staff/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat (with Data Protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-02",
+      "url": "https://today.uic.edu/microsoft-365-copilot-availability-and-usage-guidelines/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini / NotebookLM / Gems (Google Accelerator)",
+      "scope": "campus-wide",
+      "user_count": 37000,
+      "deployed": "2025-09",
+      "url": "https://learning.uic.edu/news-stories/uic-will-launch-the-google-accelerator-program-to-democratize-ai-access-across-campus/"
+    },
+    {
+      "vendor": "Box",
+      "product": "Box AI",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "Anthology / Blackboard",
+      "product": "Blackboard Ultra (AI Design Assistant)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "Grammarly",
+      "product": "Grammarly",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Creative Cloud (Firefly / Generative Fill)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "YuJa",
+      "product": "YuJa Panorama",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "Panopto",
+      "product": "Panopto Connect",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "vendor": "LinkedIn",
+      "product": "LinkedIn Learning (AI Coaching)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uic.edu/services/ai-resources/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Lakeshore",
+    "gpu_count": 36,
+    "url": "https://acer.uic.edu/services/hpc/lakeshore/",
+    "summary": "Lakeshore (launched January 2024 under the Forward Initiative) is UIC's flagship on-prem HPC cluster: 10,304 cores, 57.2 TB RAM, 3 PB storage, with 8x NVIDIA A100 (Chicago Computes free-access partition) and 28x NVIDIA L40 (HPC Partnership) GPUs. In year one it served 357+ researchers across 100+ groups in 10 colleges. ACER also offers an AWS-based 'HPC in the Cloud' burst tier."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "ARPA-H award (AI.Health4All consortium)",
+      "amount_usd": 10000000,
+      "source": "Advanced Research Projects Agency for Health",
+      "purpose": "AI-assisted integration of multi-provider health data with nurse/therapist input; fairness-focused clinical AI",
+      "date": "2024-09",
+      "url": "https://uihealth.uic.edu/news-stories/using-ai-for-more-comprehensive-health-data-and-better-patient-outcomes/"
+    },
+    {
+      "title": "Google.org Data + AI grant",
+      "amount_usd": 1000000,
+      "source": "Google.org",
+      "purpose": "Undergraduate Data + AI program led by Amita Shetty",
+      "date": "2024-12",
+      "url": "https://today.uic.edu/google-org-awards-uic-grant-to-launch-data-ai-program/"
+    },
+    {
+      "title": "UIC FY25 total research funding (context)",
+      "amount_usd": 490700000,
+      "source": "Federal, state, industry, and philanthropic (aggregated)",
+      "purpose": "All research funding; AI-specific share not itemized",
+      "date": "2025-06",
+      "url": "https://today.uic.edu/uic-pulls-490m-in-research-funding-in-fiscal-year-2025/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft 365 Copilot deployment; AI.Health4All data platform",
+      "date": "2025-02",
+      "url": "https://it.uic.edu/news-stories/ms-copilot-available-to-uic-staff/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google / Google.org",
+      "purpose": "Data + AI undergraduate program; Google Accelerator Gemini/NotebookLM licensing",
+      "date": "2024-12",
+      "url": "https://today.uic.edu/google-org-awards-uic-grant-to-launch-data-ai-program/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM",
+      "purpose": "Quantum hardware access for AI/ML error-mitigation work via C2QA; AI Symposium panelists",
+      "date": "2022-06",
+      "url": "https://www.bnl.gov/newsroom/news.php?a=119587"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Brookhaven National Laboratory / U.S. DOE (C2QA)",
+      "purpose": "Co-design Center for Quantum Advantage partnership",
+      "date": "2022-06",
+      "url": "https://www.bnl.gov/newsroom/news.php?a=119587"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "ARPA-H",
+      "purpose": "Fairness-focused health-AI consortium",
+      "date": "2024-09",
+      "url": "https://uihealth.uic.edu/news-stories/using-ai-for-more-comprehensive-health-data-and-better-patient-outcomes/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Iowa, University of Missouri, Loyola University",
+      "purpose": "AI.Health4All multi-institution consortium",
+      "date": "2024-09",
+      "url": "https://medicine.uic.edu/com-research/aihealth4all/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Discovery Partners Institute (University of Illinois System)",
+      "purpose": "AI Symposium, Digital Scholars expansion, applied R&D projects",
+      "date": "2025-05",
+      "url": "https://dpi.illinois.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Tackle AI",
+      "purpose": "Clinical-data AI platform partner on AI.Health4All",
+      "date": "2024-09",
+      "url": "https://medicine.uic.edu/com-research/aihealth4all/"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Sustainable Fitch",
+      "purpose": "Capstone project partner for Chicago Tech Circle Data+AI course",
+      "date": "2025-08",
+      "url": "https://engineering.uic.edu/news-stories/chicago-tech-circles-dataai-course-provides-in-demand-real-world-experience-to-students/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Google AI suite (Gemini, NotebookLM, Gems)",
+      "scope": "All 37,000+ students across 16 colleges via Google Workspace",
+      "url": "https://learning.uic.edu/news-stories/uic-will-launch-the-google-accelerator-program-to-democratize-ai-access-across-campus/"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot Chat (Data Protection)",
+      "scope": "All faculty/staff; students served by faculty workflows",
+      "url": "https://today.uic.edu/microsoft-365-copilot-availability-and-usage-guidelines/"
+    },
+    {
+      "type": "other",
+      "name": "Blackboard Ultra AI Design Assistant",
+      "scope": "Course-site authoring/assessment generation",
+      "url": "https://it.uic.edu/services/ai-resources/"
+    },
+    {
+      "type": "tutor",
+      "name": "SimEHR",
+      "scope": "M1/M2 medical students at UIC College of Medicine Rockford",
+      "url": "https://rockford.medicine.uic.edu/news-stories/ai-enhanced-clinical-training-platform-for-medical-education-is-in-the-works/"
+    },
+    {
+      "type": "advisor",
+      "name": "1-Search",
+      "scope": "Clinician information-retrieval service (Break Through Tech student-built)",
+      "url": "https://stories.uic.edu/all-stories/intelligent-revolution/index.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Google Accelerator (universal Gemini/NotebookLM access)",
+      "description": "Universal, unrestricted licenses positioned as dismantling the AI 'digital divide' at an urban public R1.",
+      "url": "https://learning.uic.edu/news-stories/uic-will-launch-the-google-accelerator-program-to-democratize-ai-access-across-campus/"
+    },
+    {
+      "title": "Chicago Computes (free HPC/GPU allocations)",
+      "description": "Up to 100,000 core-hours and 1,000 GPU-hours free for UIC faculty to lower the digital divide in research computing.",
+      "url": "https://acer.uic.edu/chicago-computes/"
+    },
+    {
+      "title": "Break Through Tech Chicago",
+      "description": "Gender-equity pathway in computing; doubled women/nonbinary representation in UIC computing 2020–2025.",
+      "url": "https://today.uic.edu/uic-aims-to-break-through-gender-gap-in-computer-science/"
+    },
+    {
+      "title": "AI.Health4All Center",
+      "description": "Nation's first AI/ML center centrally focused on fairness and bias reduction in healthcare.",
+      "url": "https://medicine.uic.edu/com-research/aihealth4all/"
+    },
+    {
+      "title": "Digital Scholars program (DPI + UIC CHANCE)",
+      "description": "Pre-college-to-college AI/computing pipeline; ~70% Black/Latinx, 60% CPS, 35% female.",
+      "url": "https://dpi.illinois.edu/news/discovery-partners-institute-and-uic-chance-announce-expansion-of-digital-scholars-program"
+    },
+    {
+      "title": "Data + AI undergraduate program",
+      "description": "Google.org-funded cross-disciplinary AI literacy and experiential learning for UIC undergrads.",
+      "url": "https://today.uic.edu/google-org-awards-uic-grant-to-launch-data-ai-program/"
+    },
+    {
+      "title": "Chancellor Miranda Science editorial 'Higher education must bridge the AI gap'",
+      "description": "Public advocacy framing UIC's AI work as an equity imperative for low-income and first-generation students.",
+      "url": "https://today.uic.edu/chancellor-miranda-authors-science-editorial/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Illinois",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Illinois passed multiple AI-specific education laws effective January 1, 2026, including HB2655 (requires the Board of Higher Education to report on AI education across public and private institutions) and a prohibition on community colleges using AI as the sole source of instruction. Executive Order 2026-03 established a State Attainment Working Group linking AI-driven workforce demands to postsecondary access. At the system level, the University of Illinois System's EVPAA/VP for Academic Affairs office publishes Generative AI guidance for instructors, students, and researchers that UIC implements locally through its March 2025 statement and AI Advisory Group.",
+    "urls": [
+      "https://www.govtech.com/education/k-12/new-illinois-education-laws-tackle-ai-immigration-rights",
+      "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/instructors",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/students"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Illinois Chicago (UIC) — a 35,869-student, Hispanic-Serving R1 in the University of Illinois System — is pursuing an AI posture that is unusually explicit in framing itself as an equity and workforce-development play rather than a pure research-prestige play. Chancellor Marie Lynn Miranda's March 2025 Science editorial 'Higher education must bridge the AI gap' anchors the public narrative, and the March 2025 Statement on Responsible and Acceptable Use of Generative AI (signed by CISO Shefali Mookencherry) provides the comprehensive policy frame, built on NIST's trustworthy-AI characteristics and University of Illinois System GenAI guidance. Governance runs through a UIC AI Advisory Group with four subgroups (Teaching & Learning, Research, Healthcare, Administrative Operations) plus a College of Medicine AI Task Force; UIC does not yet have a named chief AI officer, with Associate CIO for Academic Technology Bryan Libbin visibly leading academic-AI rollouts. On enterprise tools UIC operates a two-vendor strategy: Microsoft 365 Copilot (with Data Protection) is the only approved GenAI for non-public data, while a Google Accelerator program is rolling out universal free Gemini/NotebookLM/Gems licenses to all 37,000+ community members, framed as dismantling the AI digital divide. Research investment is concentrated in healthcare AI and quantum: the ARPA-H-funded AI.Health4All Center — described as the nation's first AI/ML center centrally focused on fairness and bias reduction in healthcare — leads a $10M multi-institution consortium with Iowa, Missouri, Loyola, Microsoft, and Tackle AI, while UIC's 2022 entry into Brookhaven's C2QA center (via Prof. Thomas Searles) ties AI/ML error mitigation to national quantum efforts. Workforce and undergraduate AI literacy are anchored by a $1M Google.org grant launching the cross-disciplinary Data + AI undergraduate program (led by Amita Shetty), the Break Through Tech Chicago / Chicago Tech Circle Data+AI course, and DPI's Digital Scholars expansion. Research compute comes from the Lakeshore HPC cluster (10,304 cores, 3 PB, 36 GPUs) launched under the Forward Initiative. Clinical AI deployments (UI Health's MyChart drafting pilot, SimEHR at Rockford) are still small and pilot-stage. The most visible gaps are the absence of a published campus-wide AI strategy document distinct from the March 2025 statement, no named chief AI officer, and limited public disclosure of student-facing predictive-analytics retention tools or an institution-scale chatbot.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill (Opus 4.7 1M)",
+    "sources": [
+      "https://it.uic.edu/services/ai-resources/",
+      "https://it.uic.edu/services/ai-resources/advisory-groups/",
+      "https://it.uic.edu/news-stories/statement-on-responsible-and-acceptable-use-of-generative-ai/",
+      "https://it.uic.edu/news-stories/ms-copilot-available-to-uic-staff/",
+      "https://it.uic.edu/news-stories/chicago-computes-program/",
+      "https://it.uic.edu/news-stories/hpc-at-uic/",
+      "https://it.uic.edu/about/strategy/initiatives/forward/",
+      "https://it.uic.edu/about/technology-solutions/techsolutionsleadership/",
+      "https://provost.uic.edu/news-stories/generative-ai-resources-and-guidance-for-faculty/",
+      "https://provost.uic.edu/",
+      "https://chancellor.uic.edu/about/senior-leadership/",
+      "https://chancellor.uic.edu/about/priorities/",
+      "https://chancellor.uic.edu/about/biography/",
+      "https://today.uic.edu/microsoft-365-copilot-availability-and-usage-guidelines/",
+      "https://today.uic.edu/google-org-awards-uic-grant-to-launch-data-ai-program/",
+      "https://today.uic.edu/generative-ai-resources-and-guidance-for-faculty/",
+      "https://today.uic.edu/chancellor-miranda-authors-science-editorial/",
+      "https://today.uic.edu/introducing-the-uic-it-strategic-plan/",
+      "https://today.uic.edu/uic-pulls-490m-in-research-funding-in-fiscal-year-2025/",
+      "https://today.uic.edu/uic-enrollment-hits-all-time-best-mark/",
+      "https://today.uic.edu/uic-24-25-enrollment/",
+      "https://today.uic.edu/uic-aims-to-break-through-gender-gap-in-computer-science/",
+      "https://today.uic.edu/tag/artificial-intelligence/",
+      "https://today.uic.edu/tag/break-through-tech/",
+      "https://acer.uic.edu/services/hpc/lakeshore/",
+      "https://acer.uic.edu/chicago-computes/",
+      "https://acer.uic.edu/services/hpc/",
+      "https://acer.uic.edu/",
+      "https://learning.uic.edu/news-stories/uic-will-launch-the-google-accelerator-program-to-democratize-ai-access-across-campus/",
+      "https://learning.uic.edu/resources/generative-ai-centered-assignments-for-uic-faculty/",
+      "https://medicine.uic.edu/com-research/aihealth4all/",
+      "https://medicine.uic.edu/com-research/aihealth4all/initiatives/",
+      "https://medicine.uic.edu/education/md/scholarly-concentration-programs/ai-med/",
+      "https://medicine.uic.edu/education/md/md-curriculum/educational-policies/policy-on-use-of-artificial-intelligence-ai-in-student-academic-work/",
+      "https://comfaculty.uic.edu/getting-started/using-educational-technology-effectively/artificial-intelligence/",
+      "https://rockford.medicine.uic.edu/news-stories/ai-enhanced-clinical-training-platform-for-medical-education-is-in-the-works/",
+      "https://rockford.medicine.uic.edu/education/md/md-curriculum/electives/electives-catalog/ai-medicine/",
+      "https://uihealth.uic.edu/news-stories/using-ai-for-more-comprehensive-health-data-and-better-patient-outcomes/",
+      "https://ahs.uic.edu/news-stories/project-will-use-ai-to-merge-health-data-with-input-from-nurses-therapists/",
+      "https://cs.uic.edu/graduate/ms-program/",
+      "https://cs.uic.edu/graduate/",
+      "https://cs.uic.edu/graduate/admissions/",
+      "https://meng.uic.edu/online-program/meng/",
+      "https://meng.uic.edu/news-stories/uic-launches-online-masters-program-in-artificial-intelligence-machine-learning/",
+      "https://meng.uic.edu/news-stories/what-youll-learn-in-uics-online-master-of-engineering-with-a-concentration-in-ai-and-machine-learning/",
+      "https://engineering.uic.edu/news-stories/chicago-tech-circles-dataai-course-provides-in-demand-real-world-experience-to-students/",
+      "https://engineering.uic.edu/news-stories/google-org-awards-uic-grant-to-launch-data-ai-program/",
+      "https://business.uic.edu/news-stories/3rd-annual-ai-symposium-exploring-the-future-together/",
+      "https://research.uic.edu/about/2025-research-funding/",
+      "https://research.uic.edu/arpa-h-overview/",
+      "https://ai.uic.edu/",
+      "https://ai.uic.edu/projects/",
+      "https://trailblazerlab.org/",
+      "https://dpi.illinois.edu/",
+      "https://dpi.illinois.edu/news/discovery-partners-institute-and-uic-chance-announce-expansion-of-digital-scholars-program",
+      "https://dpi.uillinois.edu/applied-research/",
+      "https://www.bnl.gov/newsroom/news.php?a=119587",
+      "https://www.hpcwire.com/off-the-wire/university-of-illinois-chicago-joins-brookhaven-labs-quantum-center/",
+      "https://webstore.illinois.edu/shop/product.aspx?zpid=6101&shopBy=2",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/instructors",
+      "https://www.vpaa.uillinois.edu/digital_risk_management/generative_ai/students",
+      "https://www.chicagobusiness.com/technology/google-donates-1-million-uic-ai-training/",
+      "https://www.chicagobusiness.com/education/university-illinois-system-2024-enrollment-breaks-records",
+      "https://www.govtech.com/education/k-12/new-illinois-education-laws-tackle-ai-immigration-rights",
+      "https://www.illinois.gov/government/executive-orders/executive-order.executive-order-2026-03.2026.html",
+      "https://stories.uic.edu/all-stories/intelligent-revolution/index.html",
+      "https://www.uic.edu/about/leadership/"
+    ],
+    "search_queries": [
+      "\"University of Illinois Chicago\" AI strategy 2025 2026 artificial intelligence initiative",
+      "\"University of Illinois Chicago\" generative AI policy guidelines faculty students",
+      "\"UIC\" AI council committee task force governance artificial intelligence",
+      "\"University of Illinois Chicago\" CIO chancellor provost leadership 2025",
+      "\"UIC\" AI research center institute laboratory Discovery Partners Institute",
+      "\"University of Illinois Chicago\" AI degree program certificate computer science masters",
+      "\"University of Illinois Chicago\" Microsoft Copilot ChatGPT enterprise deployment",
+      "\"UIC\" supercomputer HPC GPU cluster research computing AI",
+      "\"University of Illinois Chicago\" NSF AI grant million research funding 2024 2025",
+      "\"University of Illinois Chicago\" Google.org AI data grant partnership",
+      "\"UIC\" AI chatbot student services advising predictive analytics retention",
+      "\"UIC\" AI health medicine hospital College of Medicine clinical",
+      "\"University of Illinois Chicago\" enrollment students 2024 2025 size R1",
+      "Illinois state artificial intelligence policy higher education executive order",
+      "\"UIC\" AI laboratory Ian Howard Discovery Partners quantum IBM",
+      "\"University of Illinois Chicago\" Break Through Tech AI workforce training women",
+      "\"UIC\" AI equity access digital divide Chicago underrepresented students",
+      "\"UIC\" Google Gemini NotebookLM Accelerator AI campus license deployment 2025 2026",
+      "\"University of Illinois Chicago\" AI ethics research center computer science faculty",
+      "\"UIC\" College of Engineering Data AI concentration Master Engineering Online",
+      "\"University of Illinois Chicago\" Intelligent Revolution stories 2025 AI feature",
+      "\"UIC\" AI.Health4All center founded director funding ARPA-H data",
+      "\"UIC\" Forward Initiative Chancellor Miranda strategic plan technology AI"
+    ],
+    "gaps_acknowledged": [
+      "AI.Health4All Center founding date and full director list not publicly confirmed; 2023 is an inferred date based on ARPA-H award timeline.",
+      "No dedicated chief AI officer; AI strategy lead mapping uses the most visible academic-AI executive (Bryan Libbin) as proxy.",
+      "Public student-facing predictive-analytics retention platform (e.g., EAB Navigate, Civitas) at UIC was not located and is not listed.",
+      "Campus-wide student AI chatbot (admissions or advising) was not located in public sources.",
+      "Dollar figure for the Forward Initiative / Lakeshore cluster is not publicly disclosed.",
+      "Enterprise_platforms user_count values largely null because UIC does not publish seat counts; 37,000 value for Google Accelerator reflects reported UIC community size.",
+      "Chicago Tech Circle course launch month approximated as August 2025 based on 'Fall 2025 inaugural' language.",
+      "No known AI-specific controversies or litigation were surfaced in searches; the absence should not be read as exhaustive."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "workforce_regional_development",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 30,
+        "research_compute_powerhouse": 13,
+        "curriculum_led": 11,
+        "governance_led": 10,
+        "student_success_led": 9,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-03",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "requires_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Lakeshore",
+        "gpu_count": 36,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 501700000,
+      "funding_source_buckets": {
+        "public_federal_state": 5,
+        "industry_vendor": 3,
+        "philanthropy_foundation": 2,
+        "institutional": 6,
+        "other_unclear": 1
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "other": 3,
+        "tutor": 1,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 1
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini",
+            "Gemini / NotebookLM / Gems (Google Accelerator)",
+            "Gems",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot Chat (with Data Protection)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "NVIDIA A100 80GB GPUs",
+            "NVIDIA L40 GPUs"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 1,
+          "products": [
+            "Adobe Creative Cloud (Firefly / Generative Fill)"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "HPC in the Cloud (AWS)"
+          ]
+        },
+        {
+          "vendor": "Blackboard",
+          "mentions": 1,
+          "products": [
+            "Blackboard Ultra (AI Design Assistant)"
+          ]
+        },
+        {
+          "vendor": "Box Box AI",
+          "mentions": 1,
+          "products": [
+            "Box AI"
+          ]
+        },
+        {
+          "vendor": "Epic Systems MyChart",
+          "mentions": 1,
+          "products": [
+            "MyChart"
+          ]
+        },
+        {
+          "vendor": "Grammarly",
+          "mentions": 1,
+          "products": [
+            "Grammarly"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "IBM Quantum"
+          ]
+        },
+        {
+          "vendor": "LinkedIn LinkedIn Learning (AI Coaching)",
+          "mentions": 1,
+          "products": [
+            "LinkedIn Learning (AI Coaching)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        },
+        {
+          "vendor": "Panopto Panopto Connect",
+          "mentions": 1,
+          "products": [
+            "Panopto Connect"
+          ]
+        },
+        {
+          "vendor": "UIC / Break Through Tech Chicago 1-Search",
+          "mentions": 1,
+          "products": [
+            "1-Search"
+          ]
+        },
+        {
+          "vendor": "University of Illinois College of Medicine Rockford (internal) SimEHR",
+          "mentions": 1,
+          "products": [
+            "SimEHR"
+          ]
+        },
+        {
+          "vendor": "YuJa YuJa Panorama",
+          "mentions": 1,
+          "products": [
+            "YuJa Panorama"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 1,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "learning",
+          "title": "Google Accelerator program: campus-wide Gemini / NotebookLM / Gems licensing",
+          "summary": "At a large, majority-minority, Hispanic-Serving R1 it is one of the most explicit equity-framed campus-wide GenAI deployments in the sector, positioning access as workforce preparation rather than experimentation.",
+          "source_url": "https://learning.uic.edu/news-stories/uic-will-launch-the-google-accelerator-program-to-democratize-ai-access-across-campus/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft 365 Copilot rollout with Data Protection",
+          "summary": "Sets the institutional 'safe default' for GenAI on sensitive data and defines the commercial/financial envelope for enterprise AI in a public-university budget.",
+          "source_url": "https://it.uic.edu/news-stories/ms-copilot-available-to-uic-staff/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UI Health MyChart — ChatGPT-assisted patient-message drafting pilot",
+          "summary": "Representative of a growing national pattern of LLM-drafted MyChart replies, and an equity/workload question at a safety-net academic health system.",
+          "source_url": "https://stories.uic.edu/all-stories/intelligent-revolution/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UIC Business AI Symposium (3rd Annual)",
+          "summary": "An ongoing public-facing forum connecting UIC to Chicago's AI adoption ecosystem and enterprise partners.",
+          "source_url": "https://business.uic.edu/news-stories/3rd-annual-ai-symposium-exploring-the-future-together/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "AI.Health4All Center founding date and full director list not publicly confirmed; 2023 is an inferred date based on ARPA-H award timeline.",
+        "No dedicated chief AI officer; AI strategy lead mapping uses the most visible academic-AI executive (Bryan Libbin) as proxy.",
+        "Public student-facing predictive-analytics retention platform (e.g., EAB Navigate, Civitas) at UIC was not located and is not listed.",
+        "Campus-wide student AI chatbot (admissions or advising) was not located in public sources.",
+        "Dollar figure for the Forward Initiative / Lakeshore cluster is not publicly disclosed.",
+        "Enterprise_platforms user_count values largely null because UIC does not publish seat counts; 37,000 value for Google Accelerator reflects reported UIC community size.",
+        "Chicago Tech Circle course launch month approximated as August 2025 based on 'Fall 2025 inaugural' language.",
+        "No known AI-specific controversies or litigation were surfaced in searches; the absence should not be read as exhaustive."
+      ]
+    }
+  }
+}

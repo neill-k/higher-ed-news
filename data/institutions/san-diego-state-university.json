@@ -1,0 +1,755 @@
+{
+  "institution": "San Diego State University",
+  "slug": "san-diego-state-university",
+  "city_state": "San Diego, CA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "California State University",
+  "enrollment": null,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Institutional AI guidance",
+        "url": "https://its.sdsu.edu/ai",
+        "year": null
+      },
+      {
+        "title": "Teaching or AI guidance",
+        "url": "https://ctl.sdsu.edu/teaching/ai",
+        "year": null
+      }
+    ],
+    "summary": "San Diego State University's public AI posture combines published guidance, teaching resources, research centers, AI-relevant programs, and research computing. Public evidence points to distributed governance rather than a verified standalone chief AI officer."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://its.sdsu.edu/ai",
+      "https://ctl.sdsu.edu/teaching/ai"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": false,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use appropriate or approved AI tools within institutional data rules",
+      "Faculty should set clear course-level AI expectations",
+      "Users remain responsible for accuracy, attribution, privacy, and academic integrity",
+      "Sensitive data should not be entered into unapproved public tools"
+    ],
+    "summary": "San Diego State publishes campus AI technology and teaching resources that frame generative AI as usable with privacy, academic integrity, and instructor-rule guardrails."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI technology and teaching guidance owners",
+        "type": "office",
+        "scope": "Distributed responsibility for AI tool guidance, teaching support, and research coordination.",
+        "url": "https://its.sdsu.edu/ai"
+      },
+      {
+        "name": "SDSU Big Data Analytics Center",
+        "type": "office",
+        "scope": "AI-relevant research coordination.",
+        "url": "https://bigdata.sdsu.edu/"
+      }
+    ],
+    "summary": "San Diego State University's AI governance is distributed across IT, teaching support, and research units."
+  },
+  "initiatives": [
+    {
+      "title": "San Diego State University AI guidance and acceptable-use resources",
+      "description": "San Diego State publishes campus AI technology and teaching resources that frame generative AI as usable with privacy, academic integrity, and instructor-rule guardrails.",
+      "significance": "Institution-level guidance is the baseline signal for responsible AI adoption.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "San Diego State University",
+        "description": "Policy and guidance work; no dollar amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal campus guidance."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Generative AI tools",
+          "vendor": "Multiple vendors",
+          "role": "Tools referenced in campus guidance"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "AI use is permitted within privacy, security, course, and attribution guardrails.",
+      "source_urls": [
+        "https://its.sdsu.edu/ai",
+        "https://ctl.sdsu.edu/teaching/ai"
+      ]
+    },
+    {
+      "title": "San Diego State University generative AI teaching resources",
+      "description": "San Diego State University publishes faculty-facing resources for syllabus language, assignments, assessment, and student expectations around generative AI.",
+      "significance": "Teaching guidance moves AI adoption from conduct enforcement into course design.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "faculty_training_and_development",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "San Diego State University",
+        "description": "Faculty support resources; no amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Faculty set course-level rules and students need clear disclosure and permitted-use expectations.",
+      "source_urls": [
+        "https://ctl.sdsu.edu/teaching/ai"
+      ]
+    },
+    {
+      "title": "SDSU Big Data Analytics Center",
+      "description": "San Diego State University has AI, machine learning, data science, policy, health, or autonomy research structures that organize faculty and graduate research.",
+      "significance": "Dedicated research structures are a core marker of R1 AI maturity.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "San Diego State University",
+        "description": "Research center/institute support; aggregate AI-specific amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "San Diego State University"
+          ],
+          "description": "Cross-school or interdisciplinary AI research ecosystem."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://bigdata.sdsu.edu/",
+        "https://ai.sdsu.edu/"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence and Machine Learning Bootcamp",
+      "description": "San Diego State University offers AI-relevant degrees, certificates, bootcamps, or structured learning pathways in AI, machine learning, data science, analytics, or computing.",
+      "significance": "AI credentials connect R1 research capacity to student and employer demand.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "ai_degree_program",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "San Diego State University",
+        "description": "Program delivery; no amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "regional employers and learners"
+          ],
+          "description": "Workforce-facing education and credentialing."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ces.sdsu.edu/artificial-intelligence-machine-learning-bootcamp"
+      ]
+    },
+    {
+      "title": "San Diego State University research computing for AI workloads",
+      "description": "SDSU research computing resources support computational and data-intensive research, including AI-relevant workloads.",
+      "significance": "AI maturity depends on scalable compute as well as policy and curricula.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "San Diego State University",
+        "description": "Research computing infrastructure; AI-specific public amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Institutional research infrastructure."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.sdsu.edu/research_affairs/hpc"
+      ]
+    },
+    {
+      "title": "San Diego State University responsible and equitable AI access",
+      "description": "San Diego State University's public AI resources stress transparent expectations, responsible use, and access-aware teaching or public-interest AI work.",
+      "significance": "Equity evidence distinguishes mature AI adoption from simple tool availability.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_tool_equity",
+        "algorithmic_bias",
+        "digital_divide_and_access",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "San Diego State University",
+        "description": "Access and responsible-use work; no amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal guidance or public-interest research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Clear AI expectations reduce unequal access, ambiguous enforcement, and privacy risk.",
+      "source_urls": [
+        "https://its.sdsu.edu/ai",
+        "https://ctl.sdsu.edu/teaching/ai"
+      ]
+    },
+    {
+      "title": "Campus AI tool suite and Google Gemini results",
+      "description": "SDSU's IT Division lists ChatGPT Edu, Microsoft Copilot, Google Gemini, NotebookLM, Zoom AI Companion, Adobe Firefly, Khanmigo Teacher Tools, and an Academic Applications of AI micro-credential as supported AI services. Google's SDSU case study reports that SDSU is using Gemini for Education and NotebookLM in teaching and that early student feedback found AI helped students study more efficiently.",
+      "significance": "SDSU has one of the clearer public platform-and-usage stories among CSU institutions, with both campus tool listings and an external case study describing early results.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "lms_embedded_ai",
+        "faculty_training_and_development",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "SDSU existing license agreements and CSU Chancellor's Office funding",
+        "description": "The SDSU IT page says AI services are included in existing license agreements or funded by the CSU Chancellor's Office, but does not disclose contract values."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft",
+            "Google",
+            "Zoom",
+            "Adobe",
+            "Khan Academy"
+          ],
+          "description": "SDSU's public AI services page identifies multiple vendor-provided tools available to campus users."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise generative AI for CSU/SDSU students and employees"
+        },
+        {
+          "name": "Gemini and NotebookLM",
+          "vendor": "Google",
+          "role": "Generative AI and source-grounded study/workflow tools for students, faculty, and staff"
+        },
+        {
+          "name": "Khanmigo Teacher Tools",
+          "vendor": "Khan Academy",
+          "role": "Canvas-connected faculty teaching tool"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "The campus tool suite pairs broad access with privacy/data-protection language and AI training resources.",
+      "source_urls": [
+        "https://it.sdsu.edu/services/ai",
+        "https://edu.google.com/intl/ALL_us/resources/customer-stories/sdsu-gemini/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "SDSU Big Data Analytics Center",
+      "focus": "AI, machine learning, data science, policy, health, autonomy, or computing research.",
+      "founded": null,
+      "url": "https://bigdata.sdsu.edu/"
+    },
+    {
+      "name": "San Diego State University AI research resource",
+      "focus": "AI, machine learning, data science, policy, health, autonomy, or computing research.",
+      "founded": null,
+      "url": "https://ai.sdsu.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence and Machine Learning Bootcamp",
+      "level": "both",
+      "launched": null,
+      "url": "https://ces.sdsu.edu/artificial-intelligence-machine-learning-bootcamp"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI; Microsoft; Google; Zoom; Adobe; Khan Academy",
+      "product": "SDSU supported AI services",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.sdsu.edu/services/ai"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://research.sdsu.edu/research_affairs/hpc",
+    "summary": "SDSU research computing resources support computational and data-intensive research, including AI-relevant workloads."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "SDSU Big Data Analytics Center",
+      "amount_usd": null,
+      "source": "San Diego State University",
+      "purpose": "AI research, education, or infrastructure capacity.",
+      "date": null,
+      "url": "https://bigdata.sdsu.edu/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "San Diego State University",
+      "purpose": "Interdisciplinary AI research and education coordination.",
+      "date": null,
+      "url": "https://bigdata.sdsu.edu/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "ChatGPT Edu, Microsoft Copilot, Google Gemini, NotebookLM, and SDSU GPT",
+      "scope": "SDSU says students, faculty, and staff can use supported AI services for academic, research, and daily work with campus privacy and training guidance.",
+      "url": "https://it.sdsu.edu/services/ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Responsible and transparent AI use",
+      "description": "SDSU's AI services page frames supported tools as available to students, faculty, and staff through existing licenses or CSU Chancellor's Office funding; Google's case study describes SDSU as lowering barriers to entry for a 36,000-student Hispanic-Serving Institution.",
+      "url": "https://it.sdsu.edu/services/ai"
+    }
+  ],
+  "regulatory_context": {
+    "state": "CA",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "San Diego State University operates under federal education, privacy, and research obligations plus California State University system rules. This sweep found institutional AI guidance but no separate campus-specific AI statute.",
+    "urls": [
+      "https://its.sdsu.edu/ai",
+      "https://ctl.sdsu.edu/teaching/ai"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "San Diego State University is an R1 institution whose public AI posture is visible in responsible-use guidance, classroom resources, AI-relevant research structures, credentials or workforce programming, and research computing. The campus permits AI experimentation with guardrails rather than presenting a simple prohibition. Faculty-facing materials make course policy and assessment design central to implementation, while technology guidance emphasizes privacy, security, attribution, and responsible use. Research evidence comes from AI, machine-learning, data-science, policy, health, autonomy, or computing organizations, supported by high-performance or research computing resources. The profile is strongest on public policy resources, research centers, programs, and infrastructure, and weaker on exact budgets, enterprise license counts, adoption metrics, and named executive ownership. Overall, the institution appears to be in a growing-to-operational phase: AI work is real and distributed across functions, but public evidence does not yet show a single centralized AI operating model with disclosed outcomes.",
+  "research_quality": {
+    "compiled_at": "2026-04-23",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://it.sdsu.edu/services/ai",
+      "https://ctl.sdsu.edu/teaching/ai",
+      "https://bigdata.sdsu.edu/",
+      "https://ai.sdsu.edu/",
+      "https://ces.sdsu.edu/artificial-intelligence-machine-learning-bootcamp",
+      "https://research.sdsu.edu/research_affairs/hpc",
+      "https://edu.google.com/intl/ALL_us/resources/customer-stories/sdsu-gemini/"
+    ],
+    "search_queries": [
+      "San Diego State University generative AI guidance policy",
+      "San Diego State University artificial intelligence research center",
+      "San Diego State University AI degree certificate program",
+      "San Diego State University high performance computing AI",
+      "San Diego State University AI equity student guidance",
+      "San Diego State University artificial intelligence Microsoft Copilot Gemini official",
+      "San Diego State University Google Gemini NotebookLM student results official"
+    ],
+    "gaps_acknowledged": [
+      "Current president, provost, CIO, and chief AI officer were not independently verified in this worker sweep, so leadership names are left null.",
+      "SDSU's supported AI tools and early Gemini/NotebookLM results are public, but exact enterprise AI contract values, license counts, and active user metrics were not publicly confirmed.",
+      "The SDSU IT page identifies existing license agreements and CSU Chancellor's Office funding, but AI-specific total budget was not disclosed in the public sources used.",
+      "No institution-specific AI litigation or major controversy was confirmed."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "research_compute_powerhouse",
+        "platform_first",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 6,
+        "research_compute_powerhouse": 8,
+        "curriculum_led": 5,
+        "governance_led": 11,
+        "student_success_led": 3,
+        "workforce_regional_development": 2,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": false,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 3,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 2,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "dedicated_compute_capacity_unknown"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "public_federal_state": 8
+      },
+      "partnership_count": 1
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini and NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Khan Academy Khanmigo Teacher Tools",
+          "mentions": 1,
+          "products": [
+            "Khanmigo Teacher Tools"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 1,
+          "products": [
+            "SDSU supported AI services"
+          ]
+        },
+        {
+          "vendor": "Multiple vendors Generative AI tools",
+          "mentions": 1,
+          "products": [
+            "Generative AI tools"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "San Diego State University AI guidance and acceptable-use resources",
+          "summary": "Institution-level guidance is the baseline signal for responsible AI adoption.",
+          "source_url": "https://its.sdsu.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "San Diego State University generative AI teaching resources",
+          "summary": "Teaching guidance moves AI adoption from conduct enforcement into course design.",
+          "source_url": "https://ctl.sdsu.edu/teaching/ai"
+        },
+        {
+          "claim_type": "career",
+          "title": "Artificial Intelligence and Machine Learning Bootcamp",
+          "summary": "AI credentials connect R1 research capacity to student and employer demand.",
+          "source_url": "https://ces.sdsu.edu/artificial-intelligence-machine-learning-bootcamp"
+        },
+        {
+          "claim_type": "usage",
+          "title": "San Diego State University responsible and equitable AI access",
+          "summary": "Equity evidence distinguishes mature AI adoption from simple tool availability.",
+          "source_url": "https://its.sdsu.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Campus AI tool suite and Google Gemini results",
+          "summary": "SDSU has one of the clearer public platform-and-usage stories among CSU institutions, with both campus tool listings and an external case study describing early results.",
+          "source_url": "https://it.sdsu.edu/services/ai"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 4,
+      "notes": [
+        "Current president, provost, CIO, and chief AI officer were not independently verified in this worker sweep, so leadership names are left null.",
+        "SDSU's supported AI tools and early Gemini/NotebookLM results are public, but exact enterprise AI contract values, license counts, and active user metrics were not publicly confirmed.",
+        "The SDSU IT page identifies existing license agreements and CSU Chancellor's Office funding, but AI-specific total budget was not disclosed in the public sources used.",
+        "No institution-specific AI litigation or major controversy was confirmed."
+      ]
+    }
+  }
+}

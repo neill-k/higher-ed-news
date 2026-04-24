@@ -1,0 +1,609 @@
+{
+  "institution": "Tufts University",
+  "slug": "tufts-university",
+  "city_state": "Medford, MA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI strategy source",
+        "url": "https://ovpe.tufts.edu/initiatives/ai/ai-council/",
+        "year": null
+      },
+      {
+        "title": "AI guidance source",
+        "url": "https://it.tufts.edu/ai",
+        "year": null
+      }
+    ],
+    "summary": "Tufts University has public AI evidence across 4 trend categories, including governance, teaching, research, tools, or workforce activity."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ovpe.tufts.edu/initiatives/ai/ai-council/",
+      "https://it.tufts.edu/ai",
+      "https://it.tufts.edu/guidelines-use-generative-ai-tools"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use reviewed tools for sensitive data.",
+      "Follow instructor or unit AI expectations.",
+      "Keep human accountability for consequential decisions."
+    ],
+    "summary": "Public sources support a comprehensive AI posture."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Public AI governance or coordination structure",
+        "type": "other",
+        "scope": "Institution-level AI coordination evidenced by cited sources.",
+        "url": "https://ovpe.tufts.edu/initiatives/ai/ai-council/"
+      }
+    ],
+    "summary": "A public AI governance, task force, or coordination structure was found."
+  },
+  "initiatives": [
+    {
+      "title": "Tufts AI Council",
+      "description": "Tufts AI Council provides institution-wide AI guidance, surveys AI activity, reviews guidelines annually, and works with the Tufts Institute for Artificial Intelligence.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://ovpe.tufts.edu/initiatives/ai/ai-council/"
+      ]
+    },
+    {
+      "title": "Generative AI resource hub",
+      "description": "Tufts Technology Services provides a central AI site with resources, guidelines, tools, training, events, and project activity.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://it.tufts.edu/ai"
+      ]
+    },
+    {
+      "title": "Generative AI usage guidelines",
+      "description": "Tufts guidelines cover generative AI use and procurement and emphasize technology review for AI tools used for Tufts matters.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://it.tufts.edu/guidelines-use-generative-ai-tools"
+      ]
+    },
+    {
+      "title": "CELT AI teaching resources",
+      "description": "Tufts CELT provides faculty resources for course guidelines, assessment redesign, AI literacy, and department-level conversations.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://provost.tufts.edu/celt/online-resources/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Research Technology GenAI support",
+      "description": "Tufts says Research Technology supports GenAI for data processing, transcription, literature reviews, translation, and research tasks.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://it.tufts.edu/ai"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Chat and Adobe Firefly supported AI tools",
+      "description": "Tufts Technology Services identifies Copilot Chat as available to members of the Tufts community through Microsoft licensing and recommends Adobe Firefly through Tufts Adobe accounts for image generation.",
+      "significance": "This closes platform usage with named supported tools and campus login guidance.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "Tufts states Copilot Chat is included in Microsoft licensing and Firefly is free with Tufts Adobe account; no contract values disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Adobe"
+          ],
+          "description": "Supported tools are provided through Tufts Microsoft and Adobe accounts."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Microsoft",
+          "name": "Copilot Chat",
+          "role": "approved Tufts-account generative AI assistant"
+        },
+        {
+          "vendor": "Adobe",
+          "name": "Firefly",
+          "role": "approved image-generation tool through Tufts Adobe account"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Guidance tells users to use approved AI tools for university-related work and protect Tufts data.",
+      "source_urls": [
+        "https://it.tufts.edu/guides/microsoft-copilot",
+        "https://it.tufts.edu/generative-ai-tools"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI research or coordination activity",
+      "focus": "Public AI research, teaching, or tool coordination evidenced in cited sources.",
+      "founded": null,
+      "url": "https://ovpe.tufts.edu/initiatives/ai/ai-council/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "AI learning pathway or resources",
+      "level": "both",
+      "launched": null,
+      "url": "https://ovpe.tufts.edu/initiatives/ai/ai-council/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.tufts.edu/guides/microsoft-copilot"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Firefly",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.tufts.edu/generative-ai-tools"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": null,
+    "summary": "No public GPU count found during this sweep."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Tufts AI Council",
+      "scope": "Tufts AI Council provides institution-wide AI guidance, surveys AI activity, reviews guidelines annually, and works with the Tufts Institute for Artificial Intelligence.",
+      "url": "https://ovpe.tufts.edu/initiatives/ai/ai-council/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Generative AI resource hub",
+      "scope": "Tufts Technology Services provides a central AI site with resources, guidelines, tools, training, events, and project activity.",
+      "url": "https://it.tufts.edu/ai"
+    },
+    {
+      "type": "chatbot",
+      "name": "Generative AI usage guidelines",
+      "scope": "Tufts guidelines cover generative AI use and procurement and emphasize technology review for AI tools used for Tufts matters.",
+      "url": "https://it.tufts.edu/guidelines-use-generative-ai-tools"
+    }
+  ],
+  "equity_and_access_initiatives": [],
+  "regulatory_context": {
+    "state": "MA",
+    "has_state_ai_policy": false,
+    "has_system_ai_policy": false,
+    "summary": "State and system AI context checked only at high level; institution-level sources carry the profile.",
+    "urls": []
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Tufts University shows an AI posture with five documented initiatives across 4 categories. The evidence emphasizes Tufts AI Council, Generative AI resource hub, and Generative AI usage guidelines. Policy maturity is coded as comprehensive based on public guidance, privacy language, governance, or tool controls. The profile also records teaching, research, workforce, equity, or enterprise-tool activity where sources support it. Leadership names, enrollment, GPU counts, and contract values are left null when not found in the cited public sources.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://ovpe.tufts.edu/initiatives/ai/ai-council/",
+      "https://it.tufts.edu/ai",
+      "https://it.tufts.edu/guidelines-use-generative-ai-tools",
+      "https://provost.tufts.edu/celt/online-resources/artificial-intelligence/",
+      "https://carnegieclassifications.acenet.edu/news/carnegie-classifications-release-2025-research-activity-designations-debut-updated-methodology/",
+      "https://it.tufts.edu/guides/microsoft-copilot",
+      "https://it.tufts.edu/generative-ai-tools"
+    ],
+    "search_queries": [
+      "\"Tufts University\" AI strategy",
+      "\"Tufts University\" generative AI guidelines",
+      "\"Tufts University\" AI research center",
+      "\"Tufts University\" AI degree program",
+      "site:tufts.edu Tufts University AI tools Copilot ChatGPT generative AI assessment redesign HPC GPU artificial intelligence",
+      "site:tufts.edu Tufts University Microsoft Copilot Adobe Firefly generative AI assessment redesign HPC GPU"
+    ],
+    "gaps_acknowledged": [
+      "Leadership names and enrollment were not populated in this missing-only sweep.",
+      "Detailed AI budgets, user counts, and GPU counts were not consistently public.",
+      "No controversy record was added without a reliable institution-specific source.",
+      "Tufts now has public Copilot and Firefly platform evidence, but Worker 3 did not find public seat counts, contract values, dedicated AI GPU counts, or subgroup-level student outcomes.",
+      "Targeted searches did not surface a public Tufts assessment-redesign initiative beyond responsible-use cautions and tool guidance."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "platform_first",
+        "research_compute_powerhouse",
+        "student_success_led"
+      ],
+      "scores": {
+        "platform_first": 10,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 2,
+        "governance_led": 11,
+        "student_success_led": 5,
+        "workforce_regional_development": 0,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "unclear",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 1,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "dedicated_compute_capacity_unknown"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 5,
+        "public_federal_state": 1
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 3
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": false,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Adobe",
+          "mentions": 2,
+          "products": [
+            "Firefly"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Copilot Chat"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Adobe",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Tufts AI Council",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://ovpe.tufts.edu/initiatives/ai/ai-council/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Generative AI resource hub",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://it.tufts.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Generative AI usage guidelines",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://it.tufts.edu/guidelines-use-generative-ai-tools"
+        },
+        {
+          "claim_type": "learning",
+          "title": "CELT AI teaching resources",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://provost.tufts.edu/celt/online-resources/artificial-intelligence/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Research Technology GenAI support",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://it.tufts.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Chat and Adobe Firefly supported AI tools",
+          "summary": "This closes platform usage with named supported tools and campus login guidance.",
+          "source_url": "https://it.tufts.edu/guides/microsoft-copilot"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "Leadership names and enrollment were not populated in this missing-only sweep.",
+        "Detailed AI budgets, user counts, and GPU counts were not consistently public.",
+        "No controversy record was added without a reliable institution-specific source.",
+        "Tufts now has public Copilot and Firefly platform evidence, but Worker 3 did not find public seat counts, contract values, dedicated AI GPU counts, or subgroup-level student outcomes.",
+        "Targeted searches did not surface a public Tufts assessment-redesign initiative beyond responsible-use cautions and tool guidance."
+      ]
+    }
+  }
+}

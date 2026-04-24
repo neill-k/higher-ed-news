@@ -1,21 +1,31 @@
 import type { Metadata } from "next";
-import { Manrope, Newsreader } from "next/font/google";
+import { Funnel_Sans, Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 
-const manrope = Manrope({
-  variable: "--font-manrope",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
-const newsreader = Newsreader({
-  variable: "--font-newsreader",
+const geist = Geist({
+  variable: "--font-geist",
+  subsets: ["latin"],
+});
+
+const funnelSans = Funnel_Sans({
+  variable: "--font-funnel-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "AI in Higher Ed — Dashboard",
+  title: "R1 AI Market Deck",
   description:
-    "Tracking AI initiatives across universities worldwide",
+    "A Meeker-style narrative deck on AI adoption across R1 universities.",
 };
 
 export default function RootLayout({
@@ -26,7 +36,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${manrope.variable} ${newsreader.variable} min-h-full antialiased`}
+      className={`${inter.variable} ${geist.variable} ${funnelSans.variable} ${geistMono.variable} min-h-full antialiased`}
     >
       <body className="min-h-screen font-primary">{children}</body>
     </html>

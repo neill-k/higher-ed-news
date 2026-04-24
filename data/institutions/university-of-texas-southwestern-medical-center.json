@@ -1,0 +1,1532 @@
+{
+  "institution": "University of Texas Southwestern Medical Center",
+  "slug": "university-of-texas-southwestern-medical-center",
+  "city_state": "Dallas, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 2728,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Daniel K. Podolsky, M.D.",
+      "url": "https://www.utsouthwestern.edu/about-us/office-of-the-president/"
+    },
+    "provost": {
+      "name": "W. P. Andrew Lee, M.D.",
+      "url": "https://www.utsouthwestern.edu/education/provost/"
+    },
+    "cio": {
+      "name": "Russell Poole",
+      "url": "https://www.utsouthwestern.edu/ctplus/stories/2020/cio-poole.html"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Steve Jiang, Ph.D.",
+      "title": "Vice Chair for Digital Health and AI, Department of Radiation Oncology; Director, Medical Artificial Intelligence and Automation (MAIA) Lab; Barbara Crittenden Professor in Cancer Research",
+      "url": "https://labs.utsouthwestern.edu/maia-lab"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence with Meaning (AIM) — UT Southwestern AI overview",
+        "url": "https://www.utsouthwestern.edu/ai/",
+        "year": 2025
+      },
+      {
+        "title": "Using AI at UT Southwestern — employee campus update on AI platform rollout",
+        "url": "https://www.utsouthwestern.edu/employees/campus-updates/articles/year-2025/artificial-intelligence-info.html",
+        "year": 2025
+      }
+    ],
+    "summary": "UT Southwestern frames its AI program as 'AI with Meaning' (AIM), organized around four domains — clinical care, research, education, and administration — with responsible-use, HIPAA, and FERPA compliance as explicit guardrails. Implementation is led by a four-executive oversight group (CIO Russell Poole, Chief Compliance & Audit Officer Natalie A. Ramello, General Counsel Erin M. Sine, and Chief Information Security Officer Tony Lakin). Enterprise rollout was rescheduled to December 1, 2025 to align integration, governance, subscription management, training, and a central AI Resource Website. UTSW also participates in the systemwide UT-REAL-Health-AI initiative ($25M) and the Microsoft-anchored Trustworthy & Responsible AI Network (TRAIN)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.utsouthwestern.edu/ai/",
+      "https://www.utsouthwestern.edu/ai/tools/",
+      "https://www.utsouthwestern.edu/employees/campus-updates/articles/year-2025/artificial-intelligence-info.html"
+    ],
+    "adopted_date": "2025-12",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Users must use an institutionally-approved AI tool for work-related tasks; consumer/general ChatGPT is not permitted for PHI or protected data",
+      "HIPAA, FERPA, and UT System privacy compliance required for all AI workflows",
+      "Centralized subscription allocation and management across the enterprise",
+      "Mandatory 'Principles of Responsible and Ethical Conduct when using Generative AI' training via Percipio",
+      "Four-executive oversight structure (CIO, CISO, General Counsel, Chief Compliance & Audit Officer) governs enterprise AI deployment",
+      "Approved-tool catalog with explicit pricing tiers, audiences, and integration status"
+    ],
+    "summary": "UTSW operates a comprehensive, centrally governed AI policy anchored by the December 1, 2025 enterprise platform launch. Guidance specifies approved vendors (Microsoft 365 Copilot, Microsoft Teams Premium, OpenAI ChatGPT, Cloudforce nebulaONE on UTSW Azure, Qualified Health, and others in pilot), data-handling rules, and mandatory responsible-use training. The stance is permissive toward approved tools but prohibitive toward consumer AI use with PHI or sensitive data."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Platform Executive Oversight Group (Poole, Ramello, Sine, Lakin)",
+        "type": "council",
+        "scope": "Enterprise-wide AI deployment, integration, governance, and compliance for the Dec 2025 platform rollout",
+        "url": "https://www.utsouthwestern.edu/employees/campus-updates/articles/year-2025/artificial-intelligence-info.html"
+      },
+      {
+        "name": "AI in Healthcare Oversight Committee / AI Taskforce",
+        "type": "committee",
+        "scope": "Reviews AI use cases in clinical and operational contexts; coordinates with IRB and executive leadership",
+        "url": "https://www.utsouthwestern.edu/ai/"
+      },
+      {
+        "name": "Ethics in AI Working Group (U-HACK MED)",
+        "type": "task_force",
+        "scope": "Facilitates programmatic inclusion of AI ethics in graduate/medical education; hosts educational events. Led by Darlene King, M.D. and Prapti Mody, M.D. (2025)",
+        "url": "https://www.utsouthwestern.edu/departments/bioinformatics/initiatives-events/u-hackmed/ethics-ai/index.html"
+      },
+      {
+        "name": "Informatics Coordinating Office (ICO)",
+        "type": "office",
+        "scope": "Enterprise informatics training and education, including AI-adjacent programs",
+        "url": "https://www.utsouthwestern.edu/about-us/administrative-offices/ico/education-training/"
+      },
+      {
+        "name": "UT System Data and AI Ecosystem workgroups",
+        "type": "council",
+        "scope": "Five systemwide workgroups covering technology platforms, data acquisition, governance, non-Microsoft tools, and project enablement; UTSW leaders include DuWayne Willett (CMIO), Brian Evans (Chief Enterprise Architect), Tammye Garrett (Chief Data Officer)",
+        "url": "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/data-and-ai-ecosystem"
+      }
+    ],
+    "summary": "UTSW operates a multi-layer governance model: an executive four-person oversight group for enterprise AI rollout, a clinical AI oversight committee for healthcare use cases, an ethics working group embedded in bioinformatics education, and system-level participation in the UT Health Intelligence Platform and UT-REAL-Health-AI governance. A single dedicated Chief AI Officer has not been named."
+  },
+  "initiatives": [
+    {
+      "title": "Enterprise AI Platform Launch (AIM)",
+      "description": "UT Southwestern rescheduled the introduction of its enterprise AI platform to December 1, 2025 after finalizing integrations, institutional standards, guidance documents, training resources, and subscription allocation processes. Launch includes AI Town Halls, targeted training for research/clinical/administrative users, and a new AI Resource Website.",
+      "significance": "Shows a major academic medical center operationalizing enterprise AI with an explicit executive oversight structure rather than shadow-IT adoption.",
+      "date_announced": "2025-12-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "institutional_ai_strategy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Southwestern institutional funds",
+        "description": "Enterprise AI program with centrally managed subscriptions and a tool catalog spanning Microsoft 365 Copilot, Teams Premium, OpenAI ChatGPT, Cloudforce nebulaONE, Qualified Health, Perplexity, and planned Microsoft Foundry, Google Gemini/Vertex AI, and Anthropic Claude Code deployments."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "OpenAI",
+            "Google",
+            "Anthropic",
+            "Cloudforce",
+            "Qualified Health",
+            "Perplexity"
+          ],
+          "description": "Multi-vendor AI tooling strategy with centralized governance"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI across Office apps for admin users"
+        },
+        {
+          "name": "Microsoft Teams Premium",
+          "vendor": "Microsoft",
+          "role": "Meeting summarization / minutes"
+        },
+        {
+          "name": "nebulaONE",
+          "vendor": "Cloudforce",
+          "role": "ChatGPT-class models hosted in UTSW Azure tenant"
+        },
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Individual-user general inquiry and content generation"
+        },
+        {
+          "name": "Qualified Health",
+          "vendor": "Qualified Health",
+          "role": "Healthcare-focused ChatGPT and agent building (free for 2 years)"
+        },
+        {
+          "name": "Perplexity",
+          "vendor": "Perplexity AI",
+          "role": "Research synthesis with citations"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes approved-tool catalog and centralized governance as the template for AI access across UTSW.",
+      "source_urls": [
+        "https://www.utsouthwestern.edu/employees/campus-updates/articles/year-2025/artificial-intelligence-info.html",
+        "https://www.utsouthwestern.edu/ai/tools/",
+        "https://www.utsouthwestern.edu/ai/"
+      ]
+    },
+    {
+      "title": "Trustworthy & Responsible AI Network (TRAIN) founding member",
+      "description": "In March 2024, UT Southwestern joined Microsoft and more than a dozen leading academic medical centers (Cleveland Clinic, Duke, Johns Hopkins, Mass General Brigham, Mount Sinai, Northwestern, Vanderbilt, and others) to launch TRAIN — a consortium setting shared standards for safe, fair, and reliable AI in healthcare, a secure AI tool registration portal, and outcome-measurement tools.",
+      "significance": "Anchors UTSW in a national governance consortium shaping responsible AI standards for hospital systems.",
+      "date_announced": "2024-03-20",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "industry_academic_partnership",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "researchers",
+        "faculty",
+        "accreditors",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Consortium membership; Microsoft as technology-enabling partner",
+        "description": "Consortium contribution; financial terms not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Microsoft",
+            "AdventHealth",
+            "Advocate Health",
+            "Boston Children's Hospital",
+            "Cleveland Clinic",
+            "Duke Health",
+            "Johns Hopkins Medicine",
+            "Mass General Brigham",
+            "MedStar Health",
+            "Mercy",
+            "Mount Sinai Health System",
+            "Northwestern Medicine",
+            "Providence",
+            "Sharp HealthCare",
+            "University of Wisconsin School of Medicine and Public Health",
+            "Vanderbilt University Medical Center"
+          ],
+          "description": "National healthcare AI governance consortium"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TRAIN secure registration portal",
+          "vendor": "Microsoft / TRAIN",
+          "role": "AI tool registration and outcome measurement"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Aligns UTSW AI governance to an emerging sector standard for healthcare AI safety and quality.",
+      "source_urls": [
+        "https://www.utsouthwestern.edu/newsroom/articles/year-2024/march-train-consortium.html",
+        "https://news.microsoft.com/source/2024/03/11/new-consortium-of-healthcare-leaders-announces-formation-of-trustworthy-responsible-ai-network-train-making-safe-and-fair-ai-accessible-to-every-healthcare-organization/"
+      ]
+    },
+    {
+      "title": "UT-REAL-Health-AI systemwide initiative",
+      "description": "On June 24, 2025, the UT System announced $25 million ($15M from the Texas Legislature, $10M from the Board of Regents) to launch the UT Research, Engineering, and Application Laboratory for Healthcare AI. It establishes a statewide AI model inventory, a HIPAA-compliant generative AI testing platform, secure data-sharing labs, cloud/computing resources, and recruits clinicians, developers, and AI experts. UTSW is one of the participating UT health institutions.",
+      "significance": "Positions the UT System (and UTSW) as a nationally visible, state-funded testbed for responsible healthcare AI.",
+      "date_announced": "2025-06-24",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "cross_border_research_alliance",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 25000000,
+        "funding_source": "Texas Legislature ($15M) and UT System Board of Regents ($10M)",
+        "description": "Systemwide AI laboratory for healthcare, coordinated through UT Health Intelligence Platform (UT-HIP)"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System",
+            "UT Southwestern",
+            "UTHealth Houston",
+            "UT Health San Antonio",
+            "UTMB",
+            "UT MD Anderson Cancer Center",
+            "Dell Medical School (UT Austin)",
+            "UT Tyler Health Science Center",
+            "UTRGV School of Medicine"
+          ],
+          "description": "UT Health Intelligence Platform member institutions"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Texas Legislature",
+            "UT System Board of Regents"
+          ],
+          "description": "State appropriation and regental allocation funding the laboratory"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Institutionalizes shared AI model inventory, testing, and governance across Texas's largest public healthcare-research footprint.",
+      "source_urls": [
+        "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24",
+        "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/real-health-ai",
+        "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/data-and-ai-ecosystem"
+      ]
+    },
+    {
+      "title": "AI-driven medical data extraction pipeline (kidney cancer)",
+      "description": "A multidisciplinary UTSW team from the Lyda Hill Department of Bioinformatics, Pathology, and Urology built an LLM-based pipeline that extracts structured data from free-text pathology reports. Validated on 2,200+ kidney cancer cases and 3,500+ additional records, achieving 99% accuracy on tumor type and 97% on metastasis detection. Published in npj Digital Medicine (July 28, 2025).",
+      "significance": "Demonstrates how academic medical centers can convert unstructured clinical text into analysis-ready datasets, accelerating cancer research and quality measurement.",
+      "date_announced": "2025-07-28",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "National Cancer Institute Kidney Cancer SPORE (P50 CA196516); Brock Fund for Medical Science Chair in Pathology",
+        "description": "NCI SPORE and endowed chair funding supporting the research team"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Cancer Institute"
+          ],
+          "description": "NCI SPORE funding the underlying cancer research program"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Custom LLM pipeline",
+          "vendor": "UT Southwestern",
+          "role": "Extracts and standardizes structured data from pathology reports"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.utsouthwestern.edu/newsroom/articles/year-2025/july-ai-model-speeds-medical-data-extraction.html"
+      ]
+    },
+    {
+      "title": "UT System AI Symposium in Health Care (inaugural)",
+      "description": "UT Southwestern hosted the inaugural UT System AI Symposium in Health Care on May 30-31, 2024, co-chaired by Yang Xie (UTSW), Ying Ding (UT Austin), and Hongfang Liu (UTHealth Houston), with Nigam Shah (Stanford) and Peter Stone (UT Austin) as keynote speakers. Eight UT System entities participated across education, biomedical research, and medical-care tracks.",
+      "significance": "Establishes UTSW as a convening center for UT System healthcare AI activity and cross-institution collaboration.",
+      "date_announced": "2024-05-30",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "faculty_training_and_development",
+        "ai_research_center",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UT System and host institutions",
+        "description": "Symposium programming and hosting"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Austin",
+            "UTHealth Houston",
+            "UT Health San Antonio",
+            "UTMB",
+            "UT MD Anderson Cancer Center",
+            "UT Tyler School of Medicine",
+            "UTRGV School of Medicine",
+            "Stanford University"
+          ],
+          "description": "UT System-wide convening with external keynotes"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.utsouthwestern.edu/ai-symposium/",
+        "https://www.utsystem.edu/news/2024/05/30/how-ai-enhancing-health-care"
+      ]
+    },
+    {
+      "title": "Program in Applied Artificial Intelligence in Clinical Imaging (PAAICI)",
+      "description": "Housed in the Department of Radiology, PAAICI drives basic discovery, translation, and clinical deployment of AI/ML in imaging. Deployed tools include algorithms that detect and flag possible intracranial hemorrhage on head CT, cervical spine fractures, and pulmonary embolism, and prioritize radiologist review — with documented improvements in turnaround time.",
+      "significance": "Example of a research program successfully translating AI into routine clinical radiology workflows.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Department of Radiology, UTSW",
+        "description": "Imaging AI research and clinical translation"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [],
+          "description": null
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ICH detection algorithm",
+          "vendor": "UT Southwestern Radiology",
+          "role": "Flags possible intracranial hemorrhage on head CT"
+        },
+        {
+          "name": "C-spine fracture detection",
+          "vendor": "UT Southwestern Radiology",
+          "role": "Computer-aided detection in cervical spine imaging"
+        },
+        {
+          "name": "PE detection algorithm",
+          "vendor": "UT Southwestern Radiology",
+          "role": "Pulmonary embolism detection on CT"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates clinical AI operating under FDA/regulatory and UTSW radiology governance.",
+      "source_urls": [
+        "https://www.utsouthwestern.edu/departments/radiology/research/programs/",
+        "https://www.utsouthwestern.edu/departments/radiology/divisions/imaging-informatics/"
+      ]
+    },
+    {
+      "title": "Medical Artificial Intelligence and Automation (MAIA) Lab",
+      "description": "The MAIA Lab, led by Steve Jiang, Ph.D. in the Department of Radiation Oncology, develops AI for treatment planning, medical imaging, outcome prediction, and related clinical applications. The lab supports open-source databases, specialized personnel, and academic-industrial collaborations.",
+      "significance": "One of UTSW's flagship AI-in-medicine labs with a decade-plus track record in radiation oncology automation.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UTSW, grants, philanthropic gifts",
+        "description": "Laboratory operations supported by institutional funds, grants, and donations"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Collaborations with academic and industrial partners (unnamed on public page)"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://labs.utsouthwestern.edu/maia-lab",
+        "https://www.utsouthwestern.edu/ai/ai-research/"
+      ]
+    },
+    {
+      "title": "BioHPC — academic AI computing infrastructure",
+      "description": "UTSW operates BioHPC, centered on the Nucleus compute cluster (~800 nodes, 28,000+ CPU cores, 100 GPU nodes including NVIDIA P4/P40/P100/V100/H100 cards, 60 large-memory GPU nodes), backed by Lysosome (21 PB high-performance storage, DDN SFA400NVX2) and Lamella cloud storage gateway. 30+ PB of high-performance storage and ~100 PB cold storage support AI and computational biomedicine.",
+      "significance": "One of Texas's largest academic HPC footprints dedicated to biomedical AI and ML workloads.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UTSW institutional investment",
+        "description": "Dedicated HPC/GPU infrastructure for AI, bioinformatics, and imaging"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Data Direct Networks"
+          ],
+          "description": "HPC vendor relationships"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Nucleus",
+          "vendor": "UT Southwestern BioHPC",
+          "role": "Main HPC cluster with CPU and GPU nodes"
+        },
+        {
+          "name": "Lysosome",
+          "vendor": "Data Direct Networks",
+          "role": "21 PB high-performance storage"
+        },
+        {
+          "name": "Lamella",
+          "vendor": "UT Southwestern BioHPC",
+          "role": "Cloud storage gateway"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.biohpc.work",
+        "https://www.utsouthwestern.edu/research/research-support/biohpc/systems/",
+        "https://portal.biohpc.swmed.edu/content/about/"
+      ]
+    },
+    {
+      "title": "U-HACK MED and Ethics in AI working group",
+      "description": "U-HACK MED is a biomedical hackathon program in the Lyda Hill Department of Bioinformatics launched in 2018. Its Ethics in AI working group facilitates inclusion of AI ethics in graduate and medical education and hosts periodic events; led by Darlene King, M.D. and Prapti Mody, M.D. as of 2025. A February 2026 two-day nanocourse on 'Ethics in AI — Scientific Writing' covers AI detection and ethical use in research writing.",
+      "significance": "Integrates AI ethics and hackathon-style experiential learning into medical and graduate education.",
+      "date_announced": "2018-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Lyda Hill Department of Bioinformatics",
+        "description": "Departmental programming and nanocourses"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [],
+          "description": "Open to UTSW and broader biomedical community"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides the academic scaffolding for institutional AI ethics discourse.",
+      "source_urls": [
+        "https://www.utsouthwestern.edu/departments/bioinformatics/initiatives-events/u-hackmed/ethics-ai/index.html",
+        "https://www.u-hackmed.org/ethics-ai",
+        "https://www.nanocourses.net/summer-2024"
+      ]
+    },
+    {
+      "title": "AI-enhanced medical education (Jamieson Lab / OSCE grading)",
+      "description": "The Jamieson Lab (Andrew Jamieson, Ph.D., Lyda Hill Department of Bioinformatics) builds multimodal AI models that integrate video, audio, and text to analyze communication and diagnostic reasoning in medical students' Objective Structured Clinical Examinations (OSCEs). The system streamlines reviewing and grading of student clinical work.",
+      "significance": "Indicates AI moving from research topic to active educational-assessment infrastructure at an R1 medical school.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy",
+        "ai_tutoring_and_adaptive_learning"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Departmental and grant funding",
+        "description": "Lab-scale research and pilots"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [],
+          "description": "Internal UTSW collaborations across medical education"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://labs.utsouthwestern.edu/jamieson-lab",
+        "https://www.utsouthwestern.edu/ai/ai-research/",
+        "https://www.utsouthwestern.edu/research/scientific-report/articles/ai-innovations-in-medical-education.html"
+      ]
+    },
+    {
+      "title": "Xie Lab — AI and imaging analysis for lung cancer",
+      "description": "The Xie Lab, led by Yang Xie, Ph.D. (Associate Dean for Data Sciences), combines AI with imaging analysis to develop personalized treatment strategies for non-small cell lung cancer within the Quantitative Biomedical Research Center.",
+      "significance": "Illustrative of translational AI-in-oncology research at UTSW and the QBRC, feeding the broader AIM clinical-care portfolio.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NIH and institutional funding",
+        "description": "Lab operations and research grants"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Institutes of Health"
+          ],
+          "description": "NIH-funded cancer research"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://qbrc.swmed.edu/labs/xielab/",
+        "https://www.utsouthwestern.edu/ai/ai-research/"
+      ]
+    },
+    {
+      "title": "Clinical Informatics Fellowship and Health Informatics M.S.",
+      "description": "UTSW runs a two-year ACGME-accredited Clinical Informatics Fellowship and a two-year Master of Science in Health Informatics through the School of Health Professions. Curriculum includes machine learning, predictive analytics, and evaluation/integration of AI-driven solutions into clinical workflows.",
+      "significance": "Workforce pipeline producing physicians and informaticians prepared for AI-enabled clinical practice.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "ai_degree_program",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UTSW and ACGME-funded GME slots",
+        "description": "Fellowship and master's-level programming"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Accreditation Council for Graduate Medical Education (ACGME)"
+          ],
+          "description": "Accreditation and credentialing"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.utsouthwestern.edu/departments/pediatrics/divisions/clinical-informatics/fellowship/",
+        "https://osph.utsouthwestern.edu/degree-programs/health-informatics/course-descriptions.html",
+        "https://www.utsouthwestern.edu/departments/clinical-informatics/education.html"
+      ]
+    },
+    {
+      "title": "Secure HIPAA-compliant ChatGPT via OpenAI collaboration",
+      "description": "UT Southwestern has partnered with OpenAI (alongside systemwide UTHealth Houston activity) to facilitate secure, HIPAA-compliant ChatGPT access for clinicians, researchers, and administrators, with generic consumer ChatGPT prohibited for PHI. Access is surfaced through the UTSW approved-tools catalog.",
+      "significance": "Moves enterprise-grade generative AI into clinical and research workflows without violating privacy law.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UTSW institutional funds",
+        "description": "Enterprise subscription and integration costs (undisclosed)"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft",
+            "Cloudforce"
+          ],
+          "description": "HIPAA-compliant ChatGPT delivery via enterprise agreements and UTSW Azure tenant (nebulaONE)"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT (HIPAA-compliant enterprise)",
+          "vendor": "OpenAI",
+          "role": "Enterprise generative AI for clinicians and admin"
+        },
+        {
+          "name": "nebulaONE",
+          "vendor": "Cloudforce",
+          "role": "GPT-class models within UTSW Azure environment"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes the default path for compliant generative AI use at UTSW.",
+      "source_urls": [
+        "https://www.utsouthwestern.edu/ai/tools/",
+        "https://www.utsouthwestern.edu/ai/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Lyda Hill Department of Bioinformatics",
+      "focus": "Computational biomedical research, AI/ML, deep learning, multiscale imaging, single-cell genomics, AI in medical education",
+      "founded": "2015",
+      "url": "https://www.utsouthwestern.edu/departments/bioinformatics/"
+    },
+    {
+      "name": "Medical Artificial Intelligence and Automation (MAIA) Lab",
+      "focus": "AI for treatment planning, medical imaging, and outcome prediction; led by Steve Jiang, Ph.D.",
+      "founded": null,
+      "url": "https://labs.utsouthwestern.edu/maia-lab"
+    },
+    {
+      "name": "Program in Applied Artificial Intelligence in Clinical Imaging (PAAICI)",
+      "focus": "Radiology AI/ML discovery, translation, and clinical deployment",
+      "founded": null,
+      "url": "https://www.utsouthwestern.edu/departments/radiology/research/programs/"
+    },
+    {
+      "name": "Imaging Informatics Section, Department of Radiology",
+      "focus": "Computational imaging, AI-enabled workflow, image and data integration",
+      "founded": null,
+      "url": "https://www.utsouthwestern.edu/departments/radiology/divisions/imaging-informatics/"
+    },
+    {
+      "name": "Quantitative Biomedical Research Center (QBRC)",
+      "focus": "Data science and AI methods for biomedical research, including the Xie Lab's imaging-AI work on non-small cell lung cancer",
+      "founded": null,
+      "url": "https://qbrc.swmed.edu/"
+    },
+    {
+      "name": "Jamieson Lab (Lyda Hill Department of Bioinformatics)",
+      "focus": "Multimodal AI (video, audio, text) for medical education assessment and diagnostic reasoning",
+      "founded": null,
+      "url": "https://labs.utsouthwestern.edu/jamieson-lab"
+    },
+    {
+      "name": "Clinical Informatics Center",
+      "focus": "Clinical informatics research, fellowship training, and enterprise applications",
+      "founded": null,
+      "url": "https://www.utsouthwestern.edu/departments/clinical-informatics/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Ph.D. in Computational and Systems Biology (Lyda Hill Dept. of Bioinformatics)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://gsbs.utsouthwestern.edu/programs/biomedical-engineering/core-research-areas/computational-biology/"
+    },
+    {
+      "type": "degree",
+      "name": "Ph.D. in Biomedical Engineering with Computational Biology core",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.utsouthwestern.edu/education/graduate-school/programs/biomedical-engineering/core-research-areas/computational-biology/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Health Informatics (School of Health Professions)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://osph.utsouthwestern.edu/degree-programs/health-informatics/course-descriptions.html"
+    },
+    {
+      "type": "certificate",
+      "name": "ACGME Clinical Informatics Fellowship (Pediatrics-based, campus-wide)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/clinical-informatics/fellowship/"
+    },
+    {
+      "type": "course",
+      "name": "Ethics in AI nanocourses (U-HACK MED / Bioinformatics)",
+      "level": "both",
+      "launched": "2024-06",
+      "url": "https://www.nanocourses.net/summer-2024"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Teams Premium (meeting summarization)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT (individual-user plan)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Cloudforce",
+      "product": "nebulaONE (GPT-class models in UTSW Azure)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Qualified Health",
+      "product": "Healthcare-focused ChatGPT and agent builder",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Perplexity AI",
+      "product": "Perplexity (research synthesis with citations)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Foundry (planned)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2026-06",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini / Vertex AI (pilot)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2026-07",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude Code (planned)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2026-05",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Nucleus (BioHPC)",
+    "gpu_count": 100,
+    "url": "https://portal.biohpc.swmed.edu/content/about/",
+    "summary": "BioHPC operates the Nucleus cluster (~800 nodes, 28,000+ CPU cores, 100 GPU nodes including NVIDIA P4/P40/P100/V100/H100 cards, 60 large-memory GPU nodes), Lysosome storage (21 PB raw, DDN SFA400NVX2), and Lamella cloud-storage gateway. Total 30+ PB high-performance and ~100 PB cold storage, accessible via web browser. Described as one of Texas's largest academic HPC environments."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "UT-REAL-Health-AI launch appropriation",
+      "amount_usd": 25000000,
+      "source": "Texas Legislature ($15M) and UT System Board of Regents ($10M)",
+      "purpose": "Launch a systemwide healthcare AI research, engineering, and application laboratory (UT-HIP); UTSW is a participating institution",
+      "date": "2025-06",
+      "url": "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24"
+    },
+    {
+      "title": "Lyda Hill Department of Bioinformatics (endowment origin)",
+      "amount_usd": null,
+      "source": "Lyda Hill Philanthropies",
+      "purpose": "Established the Lyda Hill Department of Bioinformatics in 2015 as the foundation for UTSW's AI/computational biomedical research",
+      "date": "2015-01",
+      "url": "https://www.utsouthwestern.edu/departments/bioinformatics/"
+    },
+    {
+      "title": "NCI Kidney Cancer SPORE (P50 CA196516)",
+      "amount_usd": null,
+      "source": "National Cancer Institute",
+      "purpose": "Funds the kidney cancer research program that produced the 2025 AI data-extraction pipeline",
+      "date": null,
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2025/july-ai-model-speeds-medical-data-extraction.html"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "TRAIN consortium technology-enabling partner; Microsoft 365 Copilot, Teams Premium, and (planned) Foundry deployments",
+      "date": "2024-03",
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2024/march-train-consortium.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "HIPAA-compliant ChatGPT for clinicians, researchers, and administrators",
+      "date": null,
+      "url": "https://www.utsouthwestern.edu/ai/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Cloudforce",
+      "purpose": "nebulaONE — GPT-class models in UTSW Azure tenant",
+      "date": null,
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Qualified Health",
+      "purpose": "Healthcare-focused ChatGPT and agent building (2-year free term)",
+      "date": null,
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google Cloud",
+      "purpose": "Planned Gemini / Vertex AI pilot (July 2026)",
+      "date": "2026-07",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Anthropic",
+      "purpose": "Planned Claude Code deployment (late spring 2026)",
+      "date": "2026-05",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "TRAIN consortium (17 health systems + Microsoft)",
+      "purpose": "National healthcare AI quality, safety, and monitoring standards",
+      "date": "2024-03",
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2024/march-train-consortium.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UT Health Intelligence Platform (UT-HIP) and UT System health institutions",
+      "purpose": "UT-REAL-Health-AI and Data & AI Ecosystem workgroups",
+      "date": "2025-06",
+      "url": "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/data-and-ai-ecosystem"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Cancer Institute",
+      "purpose": "Kidney Cancer SPORE funding AI data-extraction research",
+      "date": null,
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2025/july-ai-model-speeds-medical-data-extraction.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "AI OSCE grading and communication analysis (Jamieson Lab)",
+      "scope": "Pilot / research use in medical education assessment",
+      "url": "https://www.utsouthwestern.edu/research/scientific-report/articles/ai-innovations-in-medical-education.html"
+    },
+    {
+      "type": "advisor",
+      "name": "Perplexity (research synthesis with citations) — via UTSW approved-tool catalog",
+      "scope": "Approved for students, faculty, staff through enterprise catalog",
+      "url": "https://www.utsouthwestern.edu/ai/tools/"
+    },
+    {
+      "type": "other",
+      "name": "BioHPC self-service AI/ML compute",
+      "scope": "Graduate students and researchers across UTSW",
+      "url": "https://www.biohpc.work"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "UT-REAL-Health-AI equitable access provision",
+      "description": "Initiative explicitly commits to 'ensure equitable access to AI capabilities to prevent care disparities' across UT health institutions.",
+      "url": "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24"
+    },
+    {
+      "title": "TRAIN fairness and safety standards",
+      "description": "TRAIN consortium activities set shared safety and fairness standards for healthcare AI tools — UTSW is a founding member.",
+      "url": "https://www.utsouthwestern.edu/newsroom/articles/year-2024/march-train-consortium.html"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas passed HB 149 (Texas Responsible AI Governance framework) creating a statewide Artificial Intelligence Council and baseline prohibitions on social-scoring and harmful AI design; effective January 1, 2026. At the system level, UT operates under Board of Regents' Rules and Regulations and UTS policies, and the UT-REAL-Health-AI/UT-HIP initiative provides a shared AI governance framework across health institutions including UTSW. Texas SB 17 (anti-DEI) also constrains equity-adjacent programming at public universities.",
+    "urls": [
+      "https://www.texastribune.org/2025/05/23/texas-ai-bill-legislation-regulation/",
+      "https://www.utsystem.edu/offices/board-of-regents/regents-rules-and-regulations",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/real-health-ai"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "UT Southwestern Medical Center's AI posture is defined by disciplined enterprise governance layered on a deep biomedical research base. The institution frames its strategy as 'AI with Meaning' (AIM) across four domains — clinical care, research, education, and administration — with a December 1, 2025 enterprise platform launch overseen by a four-executive council (CIO Russell Poole, CISO Tony Lakin, General Counsel Erin M. Sine, Chief Compliance & Audit Officer Natalie A. Ramello). A centrally managed approved-tool catalog spans Microsoft 365 Copilot, Teams Premium, ChatGPT, Cloudforce nebulaONE (GPT in UTSW Azure), Qualified Health, and Perplexity, with pilots of Microsoft Foundry, Google Gemini/Vertex AI, and Anthropic Claude Code staged through 2026. Research activity is anchored by the Lyda Hill Department of Bioinformatics (2015), the MAIA Lab (radiation oncology AI under Steve Jiang), the Program in Applied AI in Clinical Imaging (PAAICI) in Radiology, the QBRC's Xie Lab, and the Jamieson Lab, supported by BioHPC's ~800-node Nucleus cluster (100 GPU nodes, H100s among others) and 30+ PB storage. Educational pathways include PhD programs in Computational and Systems Biology, an M.S. in Health Informatics, and an ACGME Clinical Informatics Fellowship; AI ethics content is delivered through U-HACK MED nanocourses and a working group led by Darlene King and Prapti Mody. UTSW is embedded in national and state consortia: the Microsoft-anchored Trustworthy & Responsible AI Network (TRAIN, March 2024, 17 members), the UT System's Data and AI Ecosystem, and the $25M UT-REAL-Health-AI initiative funded in June 2025 by the Texas Legislature and Board of Regents. Clinical AI is operational in radiology (ICH, C-spine fracture, PE detection), and published research includes a 2025 LLM pipeline that extracts structured data from pathology reports at 99% tumor-type accuracy. No dedicated Chief AI Officer is yet named; AI leadership is distributed across the CIO, CMIO (DuWayne Willett), Chief Data Officer (Tammye Garrett), Chief Enterprise Architect (Brian Evans), and research leaders. The posture is comprehensive and compliance-forward — approved tools for approved uses, with HIPAA and FERPA governing data handling.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.utsouthwestern.edu/ai/",
+      "https://www.utsouthwestern.edu/ai/tools/",
+      "https://www.utsouthwestern.edu/ai/ai-research/",
+      "https://www.utsouthwestern.edu/ai-symposium/",
+      "https://www.utsouthwestern.edu/employees/campus-updates/articles/year-2025/artificial-intelligence-info.html",
+      "https://www.utsouthwestern.edu/newsroom/articles/year-2024/march-train-consortium.html",
+      "https://www.utsouthwestern.edu/newsroom/articles/year-2024/may-new-age-of-ai.html",
+      "https://www.utsouthwestern.edu/newsroom/articles/year-2025/july-ai-model-speeds-medical-data-extraction.html",
+      "https://www.utsouthwestern.edu/research/scientific-report/articles/ai-innovations-in-medical-education.html",
+      "https://www.utsouthwestern.edu/departments/radiology/research/programs/",
+      "https://www.utsouthwestern.edu/departments/radiology/divisions/imaging-informatics/",
+      "https://labs.utsouthwestern.edu/maia-lab",
+      "https://labs.utsouthwestern.edu/jamieson-lab",
+      "https://qbrc.swmed.edu/labs/xielab/",
+      "https://www.utsouthwestern.edu/departments/bioinformatics/",
+      "https://www.utsouthwestern.edu/departments/bioinformatics/initiatives-events/u-hackmed/ethics-ai/index.html",
+      "https://www.u-hackmed.org/ethics-ai",
+      "https://www.nanocourses.net/summer-2024",
+      "https://www.utsouthwestern.edu/departments/clinical-informatics/education.html",
+      "https://www.utsouthwestern.edu/departments/pediatrics/divisions/clinical-informatics/fellowship/",
+      "https://osph.utsouthwestern.edu/degree-programs/health-informatics/course-descriptions.html",
+      "https://gsbs.utsouthwestern.edu/programs/biomedical-engineering/core-research-areas/computational-biology/",
+      "https://www.utsouthwestern.edu/about-us/facts/",
+      "https://www.utsouthwestern.edu/about-us/office-of-the-president/",
+      "https://www.utsouthwestern.edu/education/provost/",
+      "https://www.utsouthwestern.edu/ctplus/stories/2020/cio-poole.html",
+      "https://www.biohpc.work",
+      "https://portal.biohpc.swmed.edu/content/about/",
+      "https://www.utsouthwestern.edu/research/research-support/biohpc/systems/",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/data-and-ai-ecosystem",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/initiatives/real-health-ai",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24",
+      "https://news.microsoft.com/source/2024/03/11/new-consortium-of-healthcare-leaders-announces-formation-of-trustworthy-responsible-ai-network-train-making-safe-and-fair-ai-accessible-to-every-healthcare-organization/",
+      "https://www.texastribune.org/2025/05/23/texas-ai-bill-legislation-regulation/",
+      "https://www.utsystem.edu/offices/board-of-regents/regents-rules-and-regulations"
+    ],
+    "search_queries": [
+      "\"UT Southwestern Medical Center\" AI strategy artificial intelligence 2025 2026",
+      "\"UT Southwestern\" chief AI officer OR \"AI governance\" OR \"AI committee\"",
+      "\"UT Southwestern\" president provost CIO 2026",
+      "\"UT Southwestern\" TRAIN Microsoft Trustworthy and Responsible AI Network 2024",
+      "\"UT Southwestern\" BioHPC GPU supercomputer computing infrastructure",
+      "\"UT Southwestern\" AI ethics U-HACK MED bioinformatics artificial intelligence education",
+      "\"UT Southwestern\" Texas AI state policy HB OR SB regulations higher education",
+      "\"UT Southwestern\" total enrollment graduate medical school students 2025 IPEDS",
+      "\"UT Southwestern\" AI imaging radiology diagnosis deployment clinical 2025",
+      "\"UT Southwestern\" Russell Poole CIO information officer technology",
+      "\"UT Southwestern\" AI responsible use policy acceptable HIPAA ChatGPT guidelines",
+      "\"UT Southwestern\" Microsoft Azure Copilot enterprise AI platform rollout",
+      "\"UT Southwestern\" OpenAI ChatGPT collaboration HIPAA enterprise",
+      "\"UT Southwestern\" NIH NSF grant AI machine learning 2024 2025 million",
+      "\"UT Southwestern\" bioinformatics program degree PhD AI machine learning",
+      "\"UT Southwestern\" AI startup incubator Innovation Hub commercialization entrepreneurship",
+      "\"UT System\" AI policy regents systemwide regulations 2025 health institutions",
+      "UT Southwestern Medical Center total employees fact book 2024 2025"
+    ],
+    "gaps_acknowledged": [
+      "Specific disclosed dollar amounts for UTSW's share of the UT-REAL-Health-AI $25M and for the enterprise AI platform rollout are not publicly itemized.",
+      "No dedicated Chief AI Officer has been named; governance is distributed across CIO/CISO/Compliance/General Counsel and CMIO/Chief Data Officer/Chief Enterprise Architect.",
+      "Specific FDA-clearance vendors deployed in UTSW Radiology (Aidoc, Viz.ai, Cleerly, etc.) were not confirmed in public sources; only internally-developed algorithms (ICH, C-spine, PE) were directly attributed.",
+      "UTSW has no published syllabus-level AI policy equivalent to undergraduate-focused institutions (medical/graduate-only campus).",
+      "User counts for enterprise AI platform deployments are not disclosed.",
+      "No specific controversies or litigation related to AI were located."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 26,
+        "research_compute_powerhouse": 25,
+        "curriculum_led": 10,
+        "governance_led": 13,
+        "student_success_led": 7,
+        "workforce_regional_development": 5,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-12",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 5,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Nucleus (BioHPC)",
+        "gpu_count": 100,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 25000000,
+      "funding_source_buckets": {
+        "institutional": 3,
+        "public_federal_state": 4,
+        "other_unclear": 5,
+        "industry_vendor": 3,
+        "philanthropy_foundation": 1
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "tutor": 1,
+        "advisor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft Foundry (planned)",
+            "Microsoft Teams Premium",
+            "Microsoft Teams Premium (meeting summarization)",
+            "TRAIN secure registration portal",
+            "nebulaONE (GPT-class models in UTSW Azure)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 4,
+          "products": [
+            "ChatGPT",
+            "ChatGPT (HIPAA-compliant enterprise)",
+            "ChatGPT (individual-user plan)",
+            "Healthcare-focused ChatGPT and agent builder"
+          ]
+        },
+        {
+          "vendor": "Cloudforce nebulaONE",
+          "mentions": 2,
+          "products": [
+            "nebulaONE"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude Code (planned)"
+          ]
+        },
+        {
+          "vendor": "Data Direct Networks Lysosome",
+          "mentions": 1,
+          "products": [
+            "Lysosome"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini / Vertex AI (pilot)"
+          ]
+        },
+        {
+          "vendor": "Perplexity AI Perplexity",
+          "mentions": 1,
+          "products": [
+            "Perplexity"
+          ]
+        },
+        {
+          "vendor": "Perplexity AI Perplexity (research synthesis with citations)",
+          "mentions": 1,
+          "products": [
+            "Perplexity (research synthesis with citations)"
+          ]
+        },
+        {
+          "vendor": "Qualified Health Qualified Health",
+          "mentions": 1,
+          "products": [
+            "Qualified Health"
+          ]
+        },
+        {
+          "vendor": "UT Southwestern BioHPC Lamella",
+          "mentions": 1,
+          "products": [
+            "Lamella"
+          ]
+        },
+        {
+          "vendor": "UT Southwestern BioHPC Nucleus",
+          "mentions": 1,
+          "products": [
+            "Nucleus"
+          ]
+        },
+        {
+          "vendor": "UT Southwestern Custom LLM pipeline",
+          "mentions": 1,
+          "products": [
+            "Custom LLM pipeline"
+          ]
+        },
+        {
+          "vendor": "UT Southwestern Radiology C-spine fracture detection",
+          "mentions": 1,
+          "products": [
+            "C-spine fracture detection"
+          ]
+        },
+        {
+          "vendor": "UT Southwestern Radiology ICH detection algorithm",
+          "mentions": 1,
+          "products": [
+            "ICH detection algorithm"
+          ]
+        },
+        {
+          "vendor": "UT Southwestern Radiology PE detection algorithm",
+          "mentions": 1,
+          "products": [
+            "PE detection algorithm"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Enterprise AI Platform Launch (AIM)",
+          "summary": "Shows a major academic medical center operationalizing enterprise AI with an explicit executive oversight structure rather than shadow-IT adoption.",
+          "source_url": "https://www.utsouthwestern.edu/employees/campus-updates/articles/year-2025/artificial-intelligence-info.html"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Medical Artificial Intelligence and Automation (MAIA) Lab",
+          "summary": "One of UTSW's flagship AI-in-medicine labs with a decade-plus track record in radiation oncology automation.",
+          "source_url": "https://labs.utsouthwestern.edu/maia-lab"
+        },
+        {
+          "claim_type": "learning",
+          "title": "U-HACK MED and Ethics in AI working group",
+          "summary": "Integrates AI ethics and hackathon-style experiential learning into medical and graduate education.",
+          "source_url": "https://www.utsouthwestern.edu/departments/bioinformatics/initiatives-events/u-hackmed/ethics-ai/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI-enhanced medical education (Jamieson Lab / OSCE grading)",
+          "summary": "Indicates AI moving from research topic to active educational-assessment infrastructure at an R1 medical school.",
+          "source_url": "https://labs.utsouthwestern.edu/jamieson-lab"
+        },
+        {
+          "claim_type": "career",
+          "title": "Clinical Informatics Fellowship and Health Informatics M.S.",
+          "summary": "Workforce pipeline producing physicians and informaticians prepared for AI-enabled clinical practice.",
+          "source_url": "https://www.utsouthwestern.edu/departments/pediatrics/divisions/clinical-informatics/fellowship/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "Specific disclosed dollar amounts for UTSW's share of the UT-REAL-Health-AI $25M and for the enterprise AI platform rollout are not publicly itemized.",
+        "No dedicated Chief AI Officer has been named; governance is distributed across CIO/CISO/Compliance/General Counsel and CMIO/Chief Data Officer/Chief Enterprise Architect.",
+        "Specific FDA-clearance vendors deployed in UTSW Radiology (Aidoc, Viz.ai, Cleerly, etc.) were not confirmed in public sources; only internally-developed algorithms (ICH, C-spine, PE) were directly attributed.",
+        "UTSW has no published syllabus-level AI policy equivalent to undergraduate-focused institutions (medical/graduate-only campus).",
+        "User counts for enterprise AI platform deployments are not disclosed.",
+        "No specific controversies or litigation related to AI were located."
+      ]
+    }
+  }
+}

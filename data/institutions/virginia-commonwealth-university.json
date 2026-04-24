@@ -1,0 +1,1669 @@
+{
+  "institution": "Virginia Commonwealth University",
+  "slug": "virginia-commonwealth-university",
+  "city_state": "Richmond, VA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 29280,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Michael Rao",
+      "url": "https://president.vcu.edu/bio/"
+    },
+    "provost": {
+      "name": "Arturo Saavedra",
+      "url": "https://news.vcu.edu/article/arturo-saavedra-named-vcus-executive-vice-president-and-provost"
+    },
+    "cio": {
+      "name": "Alex Henson",
+      "url": "https://cio.ts.vcu.edu/about/staff/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Andrew Arroyo",
+      "title": "Senior Vice Provost for Academic Affairs",
+      "url": "https://aiguidebook.vcu.edu/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence Guidebook (VCU AI portal)",
+        "url": "https://aiguidebook.vcu.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Acceptable Use of Generative AI Technology Policy",
+        "url": "https://vcu.public.doctract.com/doctract/documentportal/08DE25FC31398F5D486E7414FA311446",
+        "year": 2025
+      },
+      {
+        "title": "Gen AI and Teaching Guidelines for Faculty",
+        "url": "https://faculty.provost.vcu.edu/faculty-resources/center-for-teaching-and-learning-excellence/gen-ai-and-teaching-guidelines---faculty/",
+        "year": 2025
+      },
+      {
+        "title": "Convergence Labs: Launching VCU's Next Horizon (Provost blog)",
+        "url": "https://blogs.vcu.edu/provost/2025/09/12/convergence-labs-launching-vcus-next-horizon/",
+        "year": 2025
+      }
+    ],
+    "summary": "VCU frames AI as 'AI for the public good' and operationalizes the strategy through three converging channels: the provost-sponsored AI Guidebook and Convergence Labs (which elevate AI as one of three university-wide Enterprise Themes alongside Neurosciences and Health Outcomes), a formal Acceptable Use of Generative AI Technology Policy (adopted November 12, 2025) anchored in the CIO/IT Governance review process, and a GenAI Faculty Advisory Committee supporting teaching and learning. The university is pairing enterprise tooling (Microsoft Copilot, Google Gemini, NotebookLM, Zoom AI Companion, Adobe Express) with a fast-moving academic portfolio (two AI minors, a Master of Decision Analytics, the Human-AI ColLab, AI Futures Lab, Media + AI Initiative, and the Convergence Lab Initiative) and a Richmond-region partnership with AI Ready RVA to make Richmond 'the world's most AI-literate city.'"
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://vcu.public.doctract.com/doctract/documentportal/08DE25FC31398F5D486E7414FA311446",
+      "https://blogs.vcu.edu/ico/2026/03/13/understanding-vcus-generative-ai-policy-responsible-ethical-and-safe-use-of-ai-on-campus/",
+      "https://faculty.provost.vcu.edu/faculty-resources/center-for-teaching-and-learning-excellence/gen-ai-and-teaching-guidelines---faculty/",
+      "https://faculty.provost.vcu.edu/faculty-resources/center-for-teaching-and-learning-excellence/gen-ai-guidelines-for-students/",
+      "https://guides.library.vcu.edu/ai"
+    ],
+    "adopted_date": "2025-11",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Only GenAI tools vetted and approved through the University IT Governance Process may be used with sensitive/non-public (Category II) and confidential/regulated (Category I) data",
+      "Student work is protected under FERPA and may not be uploaded to GenAI tools without written consent",
+      "Faculty must include a Gen AI statement in every course syllabus clarifying when and how AI use is permissible",
+      "Users must verify accuracy of AI outputs; GenAI 'can produce outputs that appear factual but are inaccurate, biased, or misleading'",
+      "AI-related university business communications may be subject to Freedom of Information Act (FOIA) requests, even on personal accounts",
+      "Meeting transcription restricted to Zoom AI Companion and Google Meet's built-in transcription",
+      "Copyright and third-party intellectual property must be respected when using GenAI tools"
+    ],
+    "summary": "VCU adopted a formal Acceptable Use of Generative AI Technology policy on November 12, 2025, establishing institution-wide expectations for responsible, ethical, and safe GenAI use. The policy pairs a centralized IT Governance approval gate for any tool handling VCU data with syllabus-level faculty authority on classroom use, FERPA-grounded protections for student work, and explicit attention to FOIA exposure of AI-mediated business communications."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "GenAI Faculty Advisory Committee (Faculty Advisory Committee for Gen AI & Teaching & Learning)",
+        "type": "committee",
+        "scope": "Established fall 2023 to equip faculty with information on Gen AI and its evolving role in the classroom. Chaired by Susan Coombes (Associate Professor, Office of the Provost - Faculty Affairs); 11 members drawn from Schools of Education, Arts, Medicine, College of Engineering, Health Professions, Humanities & Sciences, VCU Libraries, LEDstudio, Graduate School, and Office of Student Advocacy.",
+        "url": "https://faculty.provost.vcu.edu/task-forces--committees/genai-committee/"
+      },
+      {
+        "name": "University IT Governance (Office of the CIO)",
+        "type": "office",
+        "scope": "Reviews and approves any AI/GenAI tool that handles, processes, or transmits VCU data before institutional use; maintains the list of approved enterprise AI tools and enforces the Acceptable Use of Generative AI Technology policy.",
+        "url": "https://cio.ts.vcu.edu/it-governance/"
+      },
+      {
+        "name": "Convergence Labs (AI Enterprise Theme)",
+        "type": "office",
+        "scope": "University-wide strategic initiative launched Fall 2025 organizing cross-disciplinary work around three Enterprise Themes — Artificial Intelligence, Neurosciences, and Health Outcomes — under the Office of the Provost.",
+        "url": "https://academics.provost.vcu.edu/convergence-labs/"
+      },
+      {
+        "name": "Office of the CIO AI Program",
+        "type": "office",
+        "scope": "Publishes AI guidance, maintains the approved-tools inventory, and coordinates emerging technology evaluation (emergingtech@vcu.edu). Led by CIO Alex Henson with CISO Dan Han.",
+        "url": "https://cio.ts.vcu.edu/ai/"
+      }
+    ],
+    "summary": "VCU's AI governance runs on three tracks: (1) an Office of the CIO IT Governance review that gates any tool touching institutional data, (2) a provost-sponsored GenAI Faculty Advisory Committee chaired by Susan Coombes that leads teaching-and-learning guidance, and (3) Convergence Labs as the Provost's strategic umbrella for AI as an Enterprise Theme. VCU has not named a Chief AI Officer; strategy leadership sits with Senior Vice Provost Andrew Arroyo and the CIO."
+  },
+  "initiatives": [
+    {
+      "title": "Acceptable Use of Generative AI Technology Policy",
+      "description": "VCU adopted a formal institutional policy on November 12, 2025, covering all faculty, staff, students, and research activity. The policy requires IT Governance approval for any GenAI tool handling Category I (confidential) or Category II (sensitive) data, syllabus-level faculty disclosure of permitted AI use, FERPA-based protections for student work, and FOIA awareness for business communications.",
+      "significance": "Moves VCU from an informal 'guidance' posture to a binding university-wide policy anchored in the IT Governance process, signaling the institutional shift from exploration to operational AI governance at an R1 public research university.",
+      "date_announced": "2025-11-12",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU operating budget (CIO/IT Governance)",
+        "description": "Staff time and governance infrastructure costs; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal VCU policy action."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Codifies the IT Governance gate as the single point of truth for institutional AI tool approval, aligning VCU with Virginia's EO 30 higher-ed AI registry expectations.",
+      "source_urls": [
+        "https://vcu.public.doctract.com/doctract/documentportal/08DE25FC31398F5D486E7414FA311446",
+        "https://blogs.vcu.edu/ico/2026/03/13/understanding-vcus-generative-ai-policy-responsible-ethical-and-safe-use-of-ai-on-campus/"
+      ]
+    },
+    {
+      "title": "Convergence Labs (AI Enterprise Theme)",
+      "description": "Launched Fall 2025 under the Office of the Provost, Convergence Labs is VCU's university-wide effort to organize cross-disciplinary research and teaching around three Enterprise Themes: Artificial Intelligence, Neurosciences, and Health Outcomes. The AI theme coordinates faculty, staff, and students across colleges to explore AI beyond disciplinary boundaries.",
+      "significance": "Elevates AI from a departmental topic to one of only three institution-wide strategic themes at a major R1 urban research university, signaling a 'next horizon' positioning akin to Arizona State's or Vanderbilt's AI-enterprise strategies.",
+      "date_announced": "2025-09-12",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "VCU operating budget (Office of the Provost)",
+        "description": "Undisclosed university strategic investment in AI as one of three Enterprise Themes."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "VCU colleges and schools"
+          ],
+          "description": "Cross-campus, cross-discipline faculty and student collaboration across schools."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals a shift to institution-wide structures for AI, not just college-specific programs.",
+      "source_urls": [
+        "https://blogs.vcu.edu/provost/2025/09/12/convergence-labs-launching-vcus-next-horizon/",
+        "https://academics.provost.vcu.edu/convergence-labs/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot + Google Gemini + NotebookLM enterprise rollout",
+      "description": "VCU Technology Services provides free, licensed access to Microsoft Copilot (at go.vcu.edu/copilot), Google Gemini, NotebookLM (via VCU Google Workspace), Adobe Express, and Zoom AI Companion for all faculty, staff, and students. Copilot and Gemini are approved for Category II data; prompts and outputs are not used to train third-party models.",
+      "significance": "Gives a ~29,000-student R1 public university a multi-vendor enterprise AI stack comparable to peer R1s and provides faculty/students campus-wide with privacy-protected GenAI tools at no individual cost.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "VCU Technology Services licensing budget",
+        "description": "Enterprise licenses covering ~29,000 students plus faculty and staff; per-seat cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "Adobe",
+            "Zoom"
+          ],
+          "description": "Enterprise software agreements with Copilot, Gemini/NotebookLM, Adobe Express, Zoom AI Companion."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Primary enterprise GenAI assistant, Category II approved"
+        },
+        {
+          "name": "Google Gemini",
+          "vendor": "Google",
+          "role": "Campus-wide GenAI assistant, Category II approved"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Research/study AI in VCU Google Workspace"
+        },
+        {
+          "name": "Adobe Express",
+          "vendor": "Adobe",
+          "role": "Creative GenAI (images, video) for students/faculty"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting transcription and summaries"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides the 'official' sanctioned tool path that the Acceptable Use of GenAI policy points users toward, reducing shadow-IT AI adoption.",
+      "source_urls": [
+        "https://aiguidebook.vcu.edu/tools/",
+        "https://cio.ts.vcu.edu/ai/"
+      ]
+    },
+    {
+      "title": "Practical AI Minor (Interdisciplinary Studies)",
+      "description": "Launched Fall 2024 through the Bachelor of Interdisciplinary Studies program in University College, the Practical AI Minor combines foundational technology and ethics coursework with electives spanning mass media, business, and machine learning. It is open to all undergraduates regardless of technical background.",
+      "significance": "One of the first explicitly 'practical' (non-CS-centric) AI minors at a major public R1, positioned as a literacy credential for non-technical majors rather than an engineering specialization.",
+      "date_announced": "2024-06",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU University College",
+        "description": "Curriculum development and faculty coverage; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University College (BIS)",
+            "multiple VCU colleges"
+          ],
+          "description": "Interdisciplinary minor drawing electives from across VCU."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Embeds AI ethics into an interdisciplinary minor rather than isolating it in engineering, supporting university-wide AI literacy goals.",
+      "source_urls": [
+        "https://news.vcu.edu/article/2024/06/vcu-launches-new-minors-in-artificial-intelligence-and-in-mixed-and-immersive-reality",
+        "https://bulletin.vcu.edu/undergraduate/university-college/practical-ai-minor/",
+        "https://ids.vcu.edu/ids-minors/practical-ai-minor/"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Minor (College of Engineering)",
+      "description": "The College of Engineering offers a minor in Artificial Intelligence (18+ credits) built around two foundational CMSC AI courses, linear algebra, an ethics elective, coding elective, and a specialized AI elective. It is designed primarily for senior-level engineering students or students with comparable skill sets.",
+      "significance": "Pairs with the University College Practical AI minor to give VCU both a technical and an interdisciplinary AI credential, reaching undergraduates with different preparation levels.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU College of Engineering",
+        "description": "Curriculum and faculty coverage for engineering-side AI minor."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal College of Engineering program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://bulletin.vcu.edu/undergraduate/engineering/artificial-intelligence-minor/"
+      ]
+    },
+    {
+      "title": "Master of Decision Analytics (M.D.A.)",
+      "description": "VCU's AACSB-accredited Master of Decision Analytics is delivered in weekend (20-month) and evening formats through the School of Business, with five concentrations including Data Science in Business, Financial Analytics, Marketing Analytics, Accounting Analytics, and Production & Operations Analytics. Curriculum covers statistical, mathematical, and ML methods for business decision-making.",
+      "significance": "A graduate analytics/ML credential positioned for working professionals, reinforcing VCU's workforce pipeline in AI-adjacent decision sciences.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU School of Business",
+        "description": "Ongoing graduate program operating cost."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal VCU School of Business."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://business.vcu.edu/graduate-programs/mda-weekend/",
+        "https://business.vcu.edu/academics/supply-chain-management-and-analytics/master-of-decision-analytics-evening-format/"
+      ]
+    },
+    {
+      "title": "Human-AI ColLab (VCU School of Business)",
+      "description": "Opened September 2024 under Director Victoria Yoon, the Human-AI ColLab is a VCU School of Business research laboratory organized around four programs: AI for Agile National Security, AI for Innovative Healthcare Services, AI for Transformative Business, and Responsible and Ethical AI. It engages core faculty, cross-institutional affiliates (Baylor, Wake Forest, West Texas A&M), and graduate students.",
+      "significance": "A dedicated business-school AI research center unusual among public R1s, focused squarely on human-AI collaboration, national security, health services, and ethics.",
+      "date_announced": "2024-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU School of Business; external research awards",
+        "description": "Lab startup and ongoing research funding; specific amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Baylor University",
+            "Wake Forest University",
+            "West Texas A&M University"
+          ],
+          "description": "Affiliated researchers from peer institutions collaborating on AI research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://business.vcu.edu/centers-institutes-and-labs/human-ai-collab/",
+        "https://virginiabusiness.com/vcus-business-school-preps-students-for-ai-economy/"
+      ]
+    },
+    {
+      "title": "AI Futures Lab (Humanities Research Center)",
+      "description": "Housed within VCU's Humanities Research Center in the College of Humanities and Sciences, the AI Futures Lab is co-directed by Jennifer Rhee and Caddie Alford of the Department of English. Its research examines AI through the lens of race, gender, sexuality, disability, environmental concerns, social media rhetorics, and critical AI studies.",
+      "significance": "Anchors VCU's critical-AI and humanistic-AI research in a standing lab, complementing the business and engineering centers with explicit attention to power relations, equity, and environmental costs of AI.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Humanities Research Center; College of Humanities and Sciences",
+        "description": "Seed and operating support from the Humanities Research Center."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "VCU Humanities Research Center",
+            "Media, Art, and Text Ph.D. Program",
+            "Gender, Sexuality, and Women's Studies"
+          ],
+          "description": "Cross-departmental humanities collaboration on critical AI studies."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://humanitiescenter.vcu.edu/labs/ai-futures-lab/"
+      ]
+    },
+    {
+      "title": "Media + AI Initiative",
+      "description": "Founded in 2024, the Media + AI Initiative at VCU is an interdisciplinary hub for students, educators, and professionals applying AI to media, journalism, advertising, and public relations. The initiative offers AI courses, workshops, research collaborations, and industry partnerships.",
+      "significance": "Positions VCU's Robertson School of Media and Culture/peer units as a destination for creative-industry AI education, at a time when newsrooms and ad agencies are rapidly deploying GenAI.",
+      "date_announced": "2024",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "VCU College/internal; industry partnerships",
+        "description": "Startup funding details not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Media and creative industries (unspecified)"
+          ],
+          "description": "Industry partnerships for AI-driven media solutions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.mediaandai.org/"
+      ]
+    },
+    {
+      "title": "VCU + CCI Central Virginia Node AI Testbed",
+      "description": "Launched January 31, 2026, VCU and the Commonwealth Cyber Initiative Central Virginia Node (CCI CVN, directed by Erdem Topsakal) opened a shared AI Testbed powered by NVIDIA H-100 GPUs. The testbed supports AI inference, training, and testing for VCU researchers and CCI CVN-supported collaborations, with remote SSH access over the VCU network.",
+      "significance": "Gives regional Virginia researchers dedicated H-100 GPU capacity for large-model AI work outside federally shared resources, and concretely operationalizes the Commonwealth Cyber Initiative's AI+cybersecurity research mission.",
+      "date_announced": "2026-01-31",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Commonwealth Cyber Initiative (Virginia state)",
+        "description": "State-funded AI testbed; H-100 GPU count not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth Cyber Initiative Central Virginia Node (CCI CVN)",
+            "Virginia Tech (CCI hub)"
+          ],
+          "description": "Virginia state-funded multi-university AI+cybersecurity infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA H-100 GPUs",
+          "vendor": "NVIDIA",
+          "role": "Core AI compute for training and inference"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://cci-cvn.org/vcu-and-cvn-launch-ai-testbed-to-accelerate-advanced-research-and-innovation/"
+      ]
+    },
+    {
+      "title": "Convergence Lab Initiative (CLI) $17.8M Department of Defense award",
+      "description": "On April 16, 2025, VCU's Convergence Lab Initiative at the College of Engineering (led by Director Nibir Dhar with Senior Associate Dean Erdem Topsakal) received its final $8.8M disbursement, completing a $17.8M DoD grant. The portfolio includes 25 projects across quantum and photonic devices, microelectronics, AI, and neuromorphic computing, with partners CivilianCyber, Sivananthan Laboratories, and the University of Connecticut.",
+      "significance": "A multi-year, eight-figure federal investment that explicitly includes AI and neuromorphic computing alongside defense-relevant RF/electro-optic research, putting VCU in a small class of R1s with significant AI-linked DoD research funding.",
+      "date_announced": "2025-04-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "general_ai",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 17800000,
+        "funding_source": "U.S. Department of Defense",
+        "description": "Full $17.8M DoD grant completed April 2025 with final $8.8M disbursement."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Defense",
+            "University of Connecticut",
+            "CivilianCyber",
+            "Sivananthan Laboratories"
+          ],
+          "description": "DoD-funded multi-institution AI, microelectronics, and photonics collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://blogs.vcu.edu/engineering/2025/04/16/department-of-defense-completes-17-8-million-award-to-convergence-lab-initiative-for-collaborative-research-and-specialized-stem-development/",
+        "https://www.cli-vcu.org/"
+      ]
+    },
+    {
+      "title": "NSF $750,000 AI-in-Healthcare 'Living Labs' award",
+      "description": "The National Science Foundation awarded Rodrigo Spínola, Ph.D. (VCU College of Engineering computer science associate professor) a $750,000 grant to build experiential 'living labs' for undergraduates addressing the shortage of AI professionals in healthcare. The project targets a replicable STEM workforce-development model.",
+      "significance": "Directly links federal AI workforce dollars to VCU's engineering college and an explicit healthcare-AI workforce gap, one of the fastest-growing national labor pools.",
+      "date_announced": "2025-04-15",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "ai_in_specific_disciplines",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 750000,
+        "funding_source": "National Science Foundation",
+        "description": "$750,000 NSF award for experiential AI-in-healthcare undergraduate learning."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded workforce development award to VCU College of Engineering."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://blogs.vcu.edu/engineering/2025/04/15/national-science-foundation-award-funds-development-of-experiential-learning-program-to-address-shortage-of-ai-professionals-in-healthcare/"
+      ]
+    },
+    {
+      "title": "VCU + AI Ready RVA Partnership (MOU)",
+      "description": "Announced November 18, 2025, VCU and the Richmond-area nonprofit AI Ready RVA signed a Memorandum of Understanding to advance AI education, research, and community impact across Greater Richmond. The partnership includes co-hosted workshops, internships, and 'The R Prize' — Richmond's communitywide challenge to become the world's most AI-literate city — with named leaders Beverly Warren (then-interim provost) and William Willis (AI Ready RVA board chair).",
+      "significance": "Ties an R1 public university's AI agenda directly to a regional civic AI-literacy campaign, a pattern still relatively rare at this scale in U.S. higher ed.",
+      "date_announced": "2025-11-18",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "VCU and AI Ready RVA (nonprofit)",
+        "description": "MOU; specific dollar commitments not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "AI Ready RVA (nonprofit)"
+          ],
+          "description": "Formal MOU with Richmond-area AI civic nonprofit; R Prize community challenge."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions VCU as the regional anchor for AI literacy in central Virginia.",
+      "source_urls": [
+        "https://news.vcu.edu/article/vcu-ai-richmond"
+      ]
+    },
+    {
+      "title": "Generative AI Teaching Summit (College of Humanities and Sciences)",
+      "description": "Held October 17, 2025 in the STEM Building on Fall Reading Day, the Generative AI Teaching Summit brought 100+ CHS faculty and staff together for panels, faculty roundtables, and hands-on workshops on AI literacy, prompt engineering, ethics, instructional design, and classroom applications.",
+      "significance": "Demonstrates large-scale faculty development investment in AI pedagogy at a single R1 college in one day, with follow-on sessions from the Center for Teaching and Learning Excellence.",
+      "date_announced": "2025-10-17",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU College of Humanities and Sciences",
+        "description": "CHS-funded summit."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "VCU Center for Teaching and Learning Excellence",
+            "Faculty Affairs"
+          ],
+          "description": "Cross-departmental faculty development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://intranet.chs.vcu.edu/faculty/ai-teaching-summit/"
+      ]
+    },
+    {
+      "title": "Common Book 2025-26: 'The Coming Wave' by Mustafa Suleyman",
+      "description": "VCU selected Mustafa Suleyman's 'The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma' as the 2025-26 Common Book for the entire campus community, creating sustained dialogue about AI's societal impact across the academic year.",
+      "significance": "Uses the common-book platform to drive university-wide AI literacy beyond formal coursework, complementing the AI minor and GenAI Teaching Summit.",
+      "date_announced": "2025-08-20",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "VCU Common Book program",
+        "description": "Programming and event budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal VCU academic programming."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://commonwealthtimes.org/2025/08/20/new-common-book-continues-vcus-ai-focus/"
+      ]
+    },
+    {
+      "title": "TACIT: AI cell-mapping tool for personalized cancer diagnostics (VCU Massey)",
+      "description": "Researchers at the VCU Massey Comprehensive Cancer Center developed TACIT (Threshold-based Assignment of Cell Types from Multiplexed Imaging Data), an AI tool that analyzes tissue samples in minutes by comparing them against a database of 5+ million cells. Primary validation has been on breast, colon, and ovarian cancers.",
+      "significance": "A peer-reviewed, patient-care-relevant AI tool from an NCI-designated comprehensive cancer center — among the most concrete examples of a public R1 shipping AI into clinical research pipelines.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VCU Massey Cancer Center; federal research grants",
+        "description": "Federal research funding; specific amount per tool not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "VCU Health clinical partners"
+          ],
+          "description": "Cross-institutional clinical validation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TACIT",
+          "vendor": "VCU (internal)",
+          "role": "AI cell-mapping for cancer tissue analysis"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.vcuhealth.org/news/new-ai-tool-created-by-vcu-researchers-could-lead-to-more-personalized-treatments-for-patients/",
+        "https://www.vcuhealth.org/news/ai-cell-mapping-tool-provides-multi-layered-view-of-cancer-behavior-vcu-researchers-say/"
+      ]
+    },
+    {
+      "title": "High Performance Research Computing (HPRC) GPU Expansion",
+      "description": "VCU's HPRC operates the Athena cluster (117 nodes, 9,470 CPU cores, 69.5 TB RAM, 34 NVIDIA V100/A100/H100 GPUs, 3 PB Lustre filesystem, 200 Gb/s InfiniBand) and the Apollo cluster for federally regulated (CAT I) data. GPU computing hours grew 90% from 76,431 in 2023 to 145,696 in 2024, following a 2024 GPU equipment investment dedicated to supporting AI and ML research.",
+      "significance": "Demonstrates measurable compute scaling to meet AI demand; the CAT I-compliant Apollo cluster distinguishes VCU from many peers that lack regulated-data AI compute.",
+      "date_announced": "2025-02-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "VCU Research and Innovation; federal grants",
+        "description": "2024 GPU equipment investment; specific amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA (GPU vendor)"
+          ],
+          "description": "Enterprise GPU deployment."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Athena cluster (HPC)",
+          "vendor": "VCU HPRC",
+          "role": "Primary AI/ML compute"
+        },
+        {
+          "name": "Apollo cluster (HPC)",
+          "vendor": "VCU HPRC",
+          "role": "CAT I-regulated data AI compute"
+        },
+        {
+          "name": "NVIDIA V100/A100/H100 GPUs",
+          "vendor": "NVIDIA",
+          "role": "GPU acceleration for AI workloads"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Apollo enables compliant AI research on FERPA/HIPAA-level data.",
+      "source_urls": [
+        "https://research.vcu.edu/resources/cores/hprc/",
+        "https://research.vcu.edu/resources/cores/hprc/facilities/",
+        "https://blogs.vcu.edu/engineering/2025/02/10/vcu-high-performance-research-computing-core-facility/"
+      ]
+    },
+    {
+      "title": "Commonwealth Cyber Initiative AI+Cybersecurity Seed Grant (Federated IoT Learning)",
+      "description": "VCU participated in a 2025 Commonwealth Cyber Initiative seed-grant round ($1.61M across 18 grants to 9 Virginia public universities) with a 'Privacy-Preserving Federated IoT Learning for Smart Public Health Surveillance' project, applying federated learning to public-health IoT data.",
+      "significance": "Ties AI research to both state AI+cybersecurity strategy and applied public-health surveillance, an early example of federated-learning in state-supported higher-ed research.",
+      "date_announced": "2025-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cybersecurity_and_ai_risk",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Commonwealth Cyber Initiative (Virginia state)",
+        "description": "Seed grant share within $1.61M round; VCU award amount not individually disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth Cyber Initiative",
+            "other Virginia public universities"
+          ],
+          "description": "Multi-institution Virginia CCI AI+cybersecurity collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Human-AI ColLab",
+      "focus": "Human-AI collaboration, national security AI, healthcare AI, business AI, responsible and ethical AI",
+      "founded": "2024",
+      "url": "https://business.vcu.edu/centers-institutes-and-labs/human-ai-collab/"
+    },
+    {
+      "name": "AI Futures Lab (Humanities Research Center)",
+      "focus": "Critical AI studies, AI and power relations, AI ethics through humanities lens",
+      "founded": null,
+      "url": "https://humanitiescenter.vcu.edu/labs/ai-futures-lab/"
+    },
+    {
+      "name": "Media + AI Initiative",
+      "focus": "AI in journalism, advertising, public relations, media production",
+      "founded": "2024",
+      "url": "https://www.mediaandai.org/"
+    },
+    {
+      "name": "Convergence Lab Initiative (CLI)",
+      "focus": "RF, electro-optics, infrared, AI/edge technologies, microelectronics, neuromorphic computing",
+      "founded": null,
+      "url": "https://www.cli-vcu.org/"
+    },
+    {
+      "name": "Convergence Labs (University-wide Enterprise Theme)",
+      "focus": "University-wide AI, Neurosciences, and Health Outcomes Enterprise Themes",
+      "founded": "2025",
+      "url": "https://academics.provost.vcu.edu/convergence-labs/"
+    },
+    {
+      "name": "VCU High Performance Research Computing (HPRC)",
+      "focus": "HPC/GPU compute for AI/ML research (Athena + Apollo clusters)",
+      "founded": null,
+      "url": "https://research.vcu.edu/resources/cores/hprc/"
+    },
+    {
+      "name": "VCU + CCI Central Virginia Node AI Testbed",
+      "focus": "H-100 GPU-powered AI inference, training, testing",
+      "founded": "2026",
+      "url": "https://cci-cvn.org/vcu-and-cvn-launch-ai-testbed-to-accelerate-advanced-research-and-innovation/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "minor",
+      "name": "Practical Artificial Intelligence (Interdisciplinary)",
+      "level": "undergrad",
+      "launched": "2024-08",
+      "url": "https://bulletin.vcu.edu/undergraduate/university-college/practical-ai-minor/"
+    },
+    {
+      "type": "minor",
+      "name": "Artificial Intelligence (College of Engineering)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://bulletin.vcu.edu/undergraduate/engineering/artificial-intelligence-minor/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Decision Analytics (MDA) — Weekend and Evening formats; 5 concentrations",
+      "level": "grad",
+      "launched": null,
+      "url": "https://business.vcu.edu/graduate-programs/mda-weekend/"
+    },
+    {
+      "type": "degree",
+      "name": "B.S. in Computer Science - Data Science concentration",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://egr.vcu.edu/future-students/first-year/undergraduate-degrees/data-science-bachelors/"
+    },
+    {
+      "type": "certificate",
+      "name": "Data Science Certificate (Post-baccalaureate)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://bulletin.vcu.edu/graduate/school-engineering/computer-science/data-science-certificate/"
+    },
+    {
+      "type": "certificate",
+      "name": "Data Science & AI Bootcamp (12- or 24-week, with Institute of Data)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.ocpe.vcu.edu/datascienceai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM (VCU Google Workspace)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Express (GenAI creative)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Athena (general) + Apollo (CAT I regulated data) + CCI CVN AI Testbed",
+    "gpu_count": 34,
+    "url": "https://research.vcu.edu/resources/cores/hprc/facilities/",
+    "summary": "VCU HPRC runs two main clusters: Athena (117 nodes, 9,470 CPU cores, 69.5 TB RAM, 34 NVIDIA V100/A100/H100 GPUs, 3 PB Lustre, 200 Gb/s InfiniBand) and Apollo (CAT I-regulated data). GPU hours grew 90% from 2023 to 2024 after a 2024 GPU investment for AI/ML. A separate VCU + CCI Central Virginia Node AI Testbed (launched January 2026) adds NVIDIA H-100 GPUs dedicated to AI inference, training, and testing."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "DoD Convergence Lab Initiative grant (final disbursement)",
+      "amount_usd": 17800000,
+      "source": "U.S. Department of Defense",
+      "purpose": "Quantum/photonic devices, microelectronics, AI, and neuromorphic computing research across 25 projects",
+      "date": "2025-04",
+      "url": "https://blogs.vcu.edu/engineering/2025/04/16/department-of-defense-completes-17-8-million-award-to-convergence-lab-initiative-for-collaborative-research-and-specialized-stem-development/"
+    },
+    {
+      "title": "NSF Living Labs AI-in-Healthcare award (Spinola)",
+      "amount_usd": 750000,
+      "source": "National Science Foundation",
+      "purpose": "Experiential undergraduate learning to address AI professional shortage in healthcare",
+      "date": "2025-04",
+      "url": "https://blogs.vcu.edu/engineering/2025/04/15/national-science-foundation-award-funds-development-of-experiential-learning-program-to-address-shortage-of-ai-professionals-in-healthcare/"
+    },
+    {
+      "title": "Commonwealth Cyber Initiative AI+Cybersecurity Seed Grant (VCU share)",
+      "amount_usd": null,
+      "source": "Commonwealth Cyber Initiative (Virginia)",
+      "purpose": "Privacy-Preserving Federated IoT Learning for Smart Public Health Surveillance",
+      "date": "2025-04",
+      "url": "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html"
+    },
+    {
+      "title": "SCHEV Fund for Excellence and Innovation grant (2024)",
+      "amount_usd": 75000,
+      "source": "Virginia State Council of Higher Education (SCHEV)",
+      "purpose": "AI education/innovation (VCU received from broader Virginia state grant round)",
+      "date": "2024",
+      "url": "https://www.schev.edu/institutions/grants/fund-for-excellence-and-innovation"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "community_academic",
+      "partner": "AI Ready RVA (Richmond nonprofit)",
+      "purpose": "MOU for AI education, research, workforce, and 'R Prize' civic AI literacy challenge",
+      "date": "2025-11",
+      "url": "https://news.vcu.edu/article/vcu-ai-richmond"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Commonwealth Cyber Initiative Central Virginia Node (CCI CVN)",
+      "purpose": "Shared AI Testbed (H-100 GPUs) and AI+cybersecurity research",
+      "date": "2026-01",
+      "url": "https://cci-cvn.org/vcu-and-cvn-launch-ai-testbed-to-accelerate-advanced-research-and-innovation/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Defense",
+      "purpose": "$17.8M Convergence Lab Initiative AI, microelectronics, photonics research",
+      "date": "2025-04",
+      "url": "https://blogs.vcu.edu/engineering/2025/04/16/department-of-defense-completes-17-8-million-award-to-convergence-lab-initiative-for-collaborative-research-and-specialized-stem-development/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft Copilot enterprise license for faculty/staff/students",
+      "date": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini + NotebookLM campus-wide access via VCU Google Workspace",
+      "date": null,
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Institute of Data",
+      "purpose": "VCU Bootcamps Data Science & AI program",
+      "date": null,
+      "url": "https://bootcamp.ocpe.vcu.edu/datascienceai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Baylor, Wake Forest, West Texas A&M",
+      "purpose": "Human-AI ColLab affiliated research collaboration",
+      "date": "2024-09",
+      "url": "https://business.vcu.edu/centers-institutes-and-labs/human-ai-collab/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot (go.vcu.edu/copilot)",
+      "scope": "All students, faculty, staff; Category II approved",
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Google Gemini",
+      "scope": "All students, faculty, staff; Category II approved",
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "type": "other",
+      "name": "NotebookLM",
+      "scope": "All students, faculty, staff in VCU Google Workspace",
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    },
+    {
+      "type": "other",
+      "name": "Zoom AI Companion",
+      "scope": "All students, faculty, staff — meeting transcription/summaries",
+      "url": "https://aiguidebook.vcu.edu/tools/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI accessibility guidance for faculty",
+      "description": "VCU's Gen AI teaching guidelines require faculty to verify AI resources are accessible and freely available for all students, avoiding tools that disadvantage students or require personal data purchases.",
+      "url": "https://faculty.provost.vcu.edu/faculty-resources/center-for-teaching-and-learning-excellence/gen-ai-and-teaching-guidelines---faculty/"
+    },
+    {
+      "title": "Practical AI Minor (open to all majors)",
+      "description": "Interdisciplinary minor intentionally designed to be accessible to non-STEM majors, positioned as AI literacy for students in healthcare, education, government, art, and business.",
+      "url": "https://ids.vcu.edu/ids-minors/practical-ai-minor/"
+    },
+    {
+      "title": "AI Futures Lab critical AI research",
+      "description": "Humanities-center lab explicitly studying AI's relationship to race, gender, sexuality, disability, and environmental equity.",
+      "url": "https://humanitiescenter.vcu.edu/labs/ai-futures-lab/"
+    },
+    {
+      "title": "R Prize / AI Ready RVA civic AI literacy",
+      "description": "Through the VCU + AI Ready RVA partnership, the R Prize is positioned as a Richmond-wide civic challenge to close the regional AI-literacy gap.",
+      "url": "https://news.vcu.edu/article/vcu-ai-richmond"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Virginia",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Virginia Governor Glenn Youngkin signed Executive Order 30 on January 18, 2024, creating an AI governance framework covering state agencies, K-12 schools, public colleges and universities, and law enforcement. VITA maintains a Higher Education AI Registration Process: any AI system that public universities seek to develop, procure, or deploy must be entered into a VITA-maintained registry and undergo governance review. EO 30 paired AI Education Guidelines (co-developed with SCHEV) with a statewide AI Task Force that reports to both executive and legislative branches. Former Gov. Youngkin vetoed legislative AI regulation bills in March 2025 on economic-growth grounds; Democrats reintroduced similar transparency and safety regulation bills in 2026.",
+    "urls": [
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://www.vita.virginia.gov/policy--governance/governance/artificial-intelligence/higher-education-ai-registration-process/",
+      "https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/ai/pdf/COVA_AI_Strategy_EO30_TaskForceReport.pdf",
+      "https://www.schev.edu/Home/Components/News/News/688/263"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Virginia Commonwealth University is an urban, public R1 research university (~29,280 students) in Richmond that, over 2024-2026, has moved from ad-hoc AI experimentation into a comprehensive, governance-anchored AI posture. The centerpiece is the Acceptable Use of Generative AI Technology policy (adopted November 12, 2025), which places the CIO's IT Governance review process at the center of institutional AI decisions and binds AI use to FERPA, FOIA, and syllabus-level faculty authority. Strategy leadership sits with Senior Vice Provost Andrew Arroyo and CIO Alex Henson rather than a dedicated Chief AI Officer, while a GenAI Faculty Advisory Committee (chaired by Susan Coombes) leads teaching-and-learning guidance. Fall 2025's launch of Convergence Labs elevated AI to one of three university-wide Enterprise Themes (alongside Neurosciences and Health Outcomes) under the Office of the Provost, and a partnership MOU with the regional nonprofit AI Ready RVA (November 2025) extends the strategy into Richmond's civic and workforce agenda via 'The R Prize.' On the research side, VCU has built a multi-center portfolio — the Human-AI ColLab (School of Business, opened September 2024 under Victoria Yoon), the AI Futures Lab (Humanities Research Center, co-directed by Jennifer Rhee and Caddie Alford), the Media + AI Initiative (2024), and the Convergence Lab Initiative in Engineering (led by Nibir Dhar) that just completed a $17.8M Department of Defense grant spanning AI and neuromorphic computing. Compute capacity includes the HPRC's Athena and Apollo clusters (34 NVIDIA V100/A100/H100 GPUs, CAT I-compliant Apollo for regulated data) and a brand-new VCU + CCI CVN H-100 AI Testbed launched January 2026. Academically, VCU runs two complementary AI minors (Practical AI in University College and AI in Engineering), a Master of Decision Analytics, a Data Science & AI bootcamp, and the first Gen AI Teaching Summit (October 2025, 100+ CHS faculty). Enterprise tooling is multi-vendor — Microsoft Copilot, Google Gemini, NotebookLM, Adobe Express, and Zoom AI Companion — all Category II approved and free to all 29,000+ users. Gaps: VCU has not named a Chief AI Officer, has not disclosed per-program dollar amounts for several initiatives, and operates under Virginia's EO 30 registry regime without a separate system-level AI policy (VCU is an independent institution, not part of a system).",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://aiguidebook.vcu.edu/",
+      "https://aiguidebook.vcu.edu/tools/",
+      "https://aiguidebook.vcu.edu/latest/",
+      "https://aiguidebook.vcu.edu/programs-courses/",
+      "https://aiguidebook.vcu.edu/Research-in-AI-at-VCU/",
+      "https://cio.ts.vcu.edu/ai/",
+      "https://cio.ts.vcu.edu/about/staff/",
+      "https://cio.ts.vcu.edu/it-governance/",
+      "https://ts.vcu.edu/about-us/leadership/",
+      "https://blogs.vcu.edu/ico/2026/03/13/understanding-vcus-generative-ai-policy-responsible-ethical-and-safe-use-of-ai-on-campus/",
+      "https://vcu.public.doctract.com/doctract/documentportal/08DE25FC31398F5D486E7414FA311446",
+      "https://faculty.provost.vcu.edu/task-forces--committees/genai-committee/",
+      "https://faculty.provost.vcu.edu/faculty-resources/center-for-teaching-and-learning-excellence/gen-ai-and-teaching-guidelines---faculty/",
+      "https://faculty.provost.vcu.edu/faculty-resources/center-for-teaching-and-learning-excellence/gen-ai-guidelines-for-students/",
+      "https://guides.library.vcu.edu/ai",
+      "https://news.vcu.edu/article/vcu-ai-richmond",
+      "https://news.vcu.edu/article/2024/06/vcu-launches-new-minors-in-artificial-intelligence-and-in-mixed-and-immersive-reality",
+      "https://news.vcu.edu/article/2024/09/new-vcu-humanities-courses-consider-nontechnical-aspects-of-artificial-intelligence",
+      "https://news.vcu.edu/article/arturo-saavedra-named-vcus-executive-vice-president-and-provost",
+      "https://news.vcu.edu/article/2025/01/vcu-is-creating-the-next-generation-of-thinkers-inventors-innovators-and-problem-solvers",
+      "https://news.vcu.edu/article/2025/03/chatbots-avatars-and-more-vcu-researchers-delve-into-ais-potential-in-public-health",
+      "https://news.vcu.edu/article/future-of-data-centers",
+      "https://blogs.vcu.edu/provost/2025/09/12/convergence-labs-launching-vcus-next-horizon/",
+      "https://academics.provost.vcu.edu/convergence-labs/",
+      "https://business.vcu.edu/centers-institutes-and-labs/human-ai-collab/",
+      "https://business.vcu.edu/graduate-programs/mda-weekend/",
+      "https://business.vcu.edu/academics/supply-chain-management-and-analytics/master-of-decision-analytics-evening-format/",
+      "https://bulletin.vcu.edu/undergraduate/university-college/practical-ai-minor/",
+      "https://bulletin.vcu.edu/undergraduate/engineering/artificial-intelligence-minor/",
+      "https://bulletin.vcu.edu/graduate/school-business/decision-analytics-programs/decision-analytics-mda/",
+      "https://bulletin.vcu.edu/graduate/school-engineering/computer-science/data-science-certificate/",
+      "https://ids.vcu.edu/ids-minors/practical-ai-minor/",
+      "https://humanitiescenter.vcu.edu/labs/ai-futures-lab/",
+      "https://www.mediaandai.org/",
+      "https://www.cli-vcu.org/",
+      "https://blogs.vcu.edu/engineering/2025/04/16/department-of-defense-completes-17-8-million-award-to-convergence-lab-initiative-for-collaborative-research-and-specialized-stem-development/",
+      "https://blogs.vcu.edu/engineering/2025/04/15/national-science-foundation-award-funds-development-of-experiential-learning-program-to-address-shortage-of-ai-professionals-in-healthcare/",
+      "https://blogs.vcu.edu/engineering/2025/02/10/vcu-high-performance-research-computing-core-facility/",
+      "https://research.vcu.edu/resources/cores/hprc/",
+      "https://research.vcu.edu/resources/cores/hprc/facilities/",
+      "https://cci-cvn.org/vcu-and-cvn-launch-ai-testbed-to-accelerate-advanced-research-and-innovation/",
+      "https://commonwealthtimes.org/2026/01/21/vcu-hones-in-on-teaching-ai-skills-literacy-university-wide/",
+      "https://commonwealthtimes.org/2025/08/20/new-common-book-continues-vcus-ai-focus/",
+      "https://intranet.chs.vcu.edu/faculty/ai-teaching-summit/",
+      "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html",
+      "https://www.vcuhealth.org/news/new-ai-tool-created-by-vcu-researchers-could-lead-to-more-personalized-treatments-for-patients/",
+      "https://www.vcuhealth.org/news/ai-cell-mapping-tool-provides-multi-layered-view-of-cancer-behavior-vcu-researchers-say/",
+      "https://www.vcuhealth.org/news/harnessing-the-power-of-data-and-ai-at-vcu-health/",
+      "https://www.vcuhealth.org/news/vcu-led-global-research-team-uses-ai-to-improve-prediction-of-death-risk-for-hospitalized-cirrhosis-patients/",
+      "https://en.wikipedia.org/wiki/Michael_Rao",
+      "https://en.wikipedia.org/wiki/Virginia_Commonwealth_University",
+      "https://virginiabusiness.com/vcus-business-school-preps-students-for-ai-economy/",
+      "https://virginiabusiness.com/business-schools-data-science-education-trends/",
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://www.vita.virginia.gov/policy--governance/governance/artificial-intelligence/higher-education-ai-registration-process/",
+      "https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/ai/pdf/COVA_AI_Strategy_EO30_TaskForceReport.pdf",
+      "https://www.schev.edu/Home/Components/News/News/688/263",
+      "https://www.schev.edu/institutions/grants/fund-for-excellence-and-innovation",
+      "https://bootcamp.ocpe.vcu.edu/datascienceai",
+      "https://egr.vcu.edu/future-students/first-year/undergraduate-degrees/data-science-bachelors/"
+    ],
+    "search_queries": [
+      "\"Virginia Commonwealth University\" AI strategy 2025 2026 artificial intelligence",
+      "\"Virginia Commonwealth University\" AI acceptable use policy generative AI",
+      "\"Virginia Commonwealth University\" AI task force committee governance",
+      "\"VCU\" president provost CIO 2026",
+      "\"VCU\" \"Virginia Commonwealth\" CIO chief information officer",
+      "\"VCU\" AI research center institute artificial intelligence",
+      "\"VCU\" practical AI minor degree program certificate",
+      "\"Virginia Commonwealth University\" Microsoft Copilot ChatGPT Claude enterprise AI",
+      "\"Virginia Commonwealth University\" AI grant funding NSF million 2025",
+      "\"VCU\" AI chatbot student services predictive analytics retention",
+      "\"VCU\" HPC supercomputer GPU high performance computing",
+      "\"VCU\" AI partnership industry academic 2025 2026",
+      "\"VCU\" \"AI Futures Lab\" OR \"Convergence Labs\" Virginia Commonwealth University launched",
+      "\"Virginia Commonwealth University\" Michael Rao president",
+      "\"VCU\" enrollment 2025 2026 students total",
+      "\"VCU Health\" AI artificial intelligence clinical healthcare 2025",
+      "\"Virginia Commonwealth University\" \"master of decision analytics\" degree",
+      "\"Virginia\" state AI executive order 30 higher education policy 2024",
+      "\"VCU\" AI ethics accessibility equity digital divide",
+      "\"Virginia Commonwealth University\" data science artificial intelligence degree graduate",
+      "\"VCU\" AI summit faculty professional development 2025 teaching",
+      "\"VCU\" Human AI ColLab Business School opened 2024",
+      "\"VCU\" AI course general education literacy requirement"
+    ],
+    "gaps_acknowledged": [
+      "VCU has not publicly named a Chief AI Officer; the 'AI strategy lead' is inferred from Senior Vice Provost Andrew Arroyo's public quotes on AI strategy rather than a formally designated title",
+      "Per-initiative dollar amounts are not disclosed for Convergence Labs (Enterprise Theme), Media + AI Initiative, AI Futures Lab, and the VCU share of the Commonwealth Cyber Initiative seed grants",
+      "Exact GPU count and acquisition cost for the VCU + CCI CVN AI Testbed are not publicly disclosed",
+      "No public evidence of a dedicated student-facing chatbot for admissions, advising, or retention analytics — VCU relies on general-purpose Copilot/Gemini plus institutional systems",
+      "No public VCU-specific predictive-analytics-for-retention initiative was found; may exist internally under Strategic Enrollment Management but is not publicly documented",
+      "VCU Health clinical AI deployment details (beyond TACIT research tool) are limited in public sources",
+      "The 2024 SCHEV Fund for Excellence and Innovation grant amount of $75,000 is based on one-line search-result mention; full program details not verified"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "curriculum_led",
+      "secondary": [
+        "balanced_enterprise",
+        "research_compute_powerhouse",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 14,
+        "research_compute_powerhouse": 18,
+        "curriculum_led": 19,
+        "governance_led": 15,
+        "student_success_led": 10,
+        "workforce_regional_development": 16,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: curriculum led."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-11",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 10,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 3,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Athena (general) + Apollo (CAT I regulated data) + CCI CVN AI Testbed",
+        "gpu_count": 34,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 18625000,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "other_unclear": 4,
+        "institutional": 7,
+        "industry_vendor": 2
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 2
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Google Gemini",
+            "NotebookLM",
+            "NotebookLM (VCU Google Workspace)"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 2,
+          "products": [
+            "Adobe Express",
+            "Adobe Express (GenAI creative)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "NVIDIA H-100 GPUs",
+            "NVIDIA V100/A100/H100 GPUs"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "VCU (internal) TACIT",
+          "mentions": 1,
+          "products": [
+            "TACIT"
+          ]
+        },
+        {
+          "vendor": "VCU HPRC Apollo cluster (HPC)",
+          "mentions": 1,
+          "products": [
+            "Apollo cluster (HPC)"
+          ]
+        },
+        {
+          "vendor": "VCU HPRC Athena cluster (HPC)",
+          "mentions": 1,
+          "products": [
+            "Athena cluster (HPC)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot + Google Gemini + NotebookLM enterprise rollout",
+          "summary": "Gives a ~29,000-student R1 public university a multi-vendor enterprise AI stack comparable to peer R1s and provides faculty/students campus-wide with privacy-protected GenAI tools at no individual cost.",
+          "source_url": "https://aiguidebook.vcu.edu/tools/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Master of Decision Analytics (M.D.A.)",
+          "summary": "A graduate analytics/ML credential positioned for working professionals, reinforcing VCU's workforce pipeline in AI-adjacent decision sciences.",
+          "source_url": "https://business.vcu.edu/graduate-programs/mda-weekend/"
+        },
+        {
+          "claim_type": "career",
+          "title": "NSF $750,000 AI-in-Healthcare 'Living Labs' award",
+          "summary": "Directly links federal AI workforce dollars to VCU's engineering college and an explicit healthcare-AI workforce gap, one of the fastest-growing national labor pools.",
+          "source_url": "https://blogs.vcu.edu/engineering/2025/04/15/national-science-foundation-award-funds-development-of-experiential-learning-program-to-address-shortage-of-ai-professionals-in-healthcare/"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "VCU has not publicly named a Chief AI Officer; the 'AI strategy lead' is inferred from Senior Vice Provost Andrew Arroyo's public quotes on AI strategy rather than a formally designated title",
+        "Per-initiative dollar amounts are not disclosed for Convergence Labs (Enterprise Theme), Media + AI Initiative, AI Futures Lab, and the VCU share of the Commonwealth Cyber Initiative seed grants",
+        "Exact GPU count and acquisition cost for the VCU + CCI CVN AI Testbed are not publicly disclosed",
+        "No public evidence of a dedicated student-facing chatbot for admissions, advising, or retention analytics — VCU relies on general-purpose Copilot/Gemini plus institutional systems",
+        "No public VCU-specific predictive-analytics-for-retention initiative was found; may exist internally under Strategic Enrollment Management but is not publicly documented",
+        "VCU Health clinical AI deployment details (beyond TACIT research tool) are limited in public sources",
+        "The 2024 SCHEV Fund for Excellence and Innovation grant amount of $75,000 is based on one-line search-result mention; full program details not verified"
+      ]
+    }
+  }
+}

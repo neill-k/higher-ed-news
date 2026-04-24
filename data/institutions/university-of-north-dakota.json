@@ -1,0 +1,1461 @@
+{
+  "institution": "University of North Dakota",
+  "slug": "university-of-north-dakota",
+  "city_state": "Grand Forks, ND",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "North Dakota University System",
+  "enrollment": 15844,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Andrew Armacost",
+      "url": "https://und.edu/about/president/index.html"
+    },
+    "provost": {
+      "name": "Eric Link",
+      "url": "https://und.edu/academics/provost/"
+    },
+    "cio": {
+      "name": "Madhavi Marasinghe",
+      "url": "https://campus.und.edu/directory/madhavi.marasinghe"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Andrew Armacost",
+      "title": "President (lead of NDUS AI task force and UND's 'AI university' moonshot)",
+      "url": "https://blogs.und.edu/und-today/2025/08/simple-pattern-magnificent-designs-state-of-the-university-2025/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "State of the University 2025 — 'AI University' Moonshot",
+        "url": "https://blogs.und.edu/und-today/2025/08/simple-pattern-magnificent-designs-state-of-the-university-2025/",
+        "year": 2025
+      },
+      {
+        "title": "UND Artificial Intelligence Guidelines (Provost's Office)",
+        "url": "https://und.edu/academics/provost/about/ai.html",
+        "year": 2024
+      },
+      {
+        "title": "AI and Human Innovation Initiative Charter",
+        "url": "https://und.edu/academics/provost/about/ai-human-innovation-initiative.html",
+        "year": 2025
+      }
+    ],
+    "summary": "In his August 21, 2025 State of the University address, President Andrew Armacost unveiled two 'moonshot' goals for 2025-26: (1) make UND 'the AI university for North Dakota' and (2) launch or substantially advance four new companies from UND research. The AI moonshot is framed as a public-private, cross-campus effort built on the existing AI Research (AIR) Center, the AI PhD, the Provost's AI and Human Innovation Initiative, and strengthened compute (Medora Grace Hopper cluster). Armacost is simultaneously chairing the statewide NDUS AI task force that the State Board of Higher Education created to set system-wide direction."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://und.edu/academics/provost/about/ai.html",
+      "https://und.edu/academics/ttada/ai-resources.html",
+      "https://www.ndit.nd.gov/artificial-intelligence-guidelines"
+    ],
+    "adopted_date": "2024-01",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Users are responsible for verifying accuracy, avoiding plagiarism, and documenting and citing all generative-AI use transparently",
+      "Private or restricted data (including non-public research data) may not be entered into generative AI tools, per SBHE 1202.3 Data Privacy Policy",
+      "Acceptable AI use is discipline- and course-specific; faculty are expected to set explicit classroom expectations",
+      "AI detector tools are discouraged due to documented false positives and bias against non-native English speakers",
+      "All AI procurement (including free tools) must flow through Jaggaer and be reviewed by UIT for security and contract risk",
+      "All IT projects with an AI component must be reviewed by the Digital Initiatives Prioritization Committee (DIPC)"
+    ],
+    "summary": "UND's Provost-published AI guidelines are best described as cautious-permissive: generative AI is allowed for teaching and research with accuracy, citation, data-protection, and procurement guardrails, and with faculty holding discretion at the course level. The framework pairs UND's own guidance with the state SBHE 1202.3 data-privacy policy and NDIT's statewide AI guidelines, with IT-side gating through UIT procurement and the DIPC."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "NDUS Presidents' AI Task Force",
+        "type": "task_force",
+        "scope": "System-level task force convened by the State Board of Higher Education, comprised of heads of NDUS institutions and chaired by UND President Andrew Armacost, to develop strategies for AI in curriculum, academic integrity, and policy.",
+        "url": "https://www.govtech.com/education/higher-ed/north-dakota-higher-ed-task-force-to-study-risks-of-ai"
+      },
+      {
+        "name": "Digital Initiatives Prioritization Committee (DIPC)",
+        "type": "committee",
+        "scope": "UND-wide committee that evaluates and prioritizes all IT projects including AI initiatives. Co-chaired by the AVP Finance & Operations and the Deputy CIO; scores projects on strategic alignment, ROI, feasibility, user impact, and risk. Meets quarterly.",
+        "url": "https://campus.und.edu/campus-services/uit/cio/it-governance.html"
+      },
+      {
+        "name": "AI and Human Innovation Initiative",
+        "type": "office",
+        "scope": "Provost-office initiative led by Emily Cherry Oliver (Theatre), Anna Kinney, Amanda Voigt, and Sona Lesmeister that brings an arts-and-humanities lens to AI across teaching, research, and community projects. Funded by the College of Arts & Sciences Dean's Office and the Provost's Office.",
+        "url": "https://und.edu/academics/provost/about/ai-human-innovation-initiative.html"
+      },
+      {
+        "name": "Teaching Transformation and Development Academy (TTaDA)",
+        "type": "office",
+        "scope": "Central faculty-development office that delivers AI teaching workshops, maintains the AI Assignment Library in Scholarly Commons, and drafts classroom AI-policy guidance.",
+        "url": "https://und.edu/academics/ttada/index.html"
+      },
+      {
+        "name": "Artificial Intelligence Research (AIR) Center",
+        "type": "office",
+        "scope": "College of Engineering & Mines research center led by Professor Naima Kaabouch; coordinates AI research with 19 academic partner institutions and industry (Harris, Northrop Grumman, RTX, Botlink) and hosts the AI PhD research thrust.",
+        "url": "https://engineering.und.edu/research/air/index.html"
+      }
+    ],
+    "summary": "AI governance at UND spans three layers: a state system-level task force chaired by the UND president, an IT-operational gating layer via the DIPC under the AVP/CIO, and an academic/research layer split between the Provost-led AI and Human Innovation Initiative (humanities, pedagogy) and the Engineering-led AIR Center (technical research). There is no standalone chief AI officer; Armacost personally anchors the strategy."
+  },
+  "initiatives": [
+    {
+      "title": "'AI University for North Dakota' Moonshot",
+      "description": "On August 21, 2025 President Andrew Armacost declared at the State of the University address that UND would aim to become 'the AI university for North Dakota' by the end of the 2025-26 academic year, serving as a national example of how a public R1 can adopt AI through public-private partnerships and cross-campus engagement.",
+      "significance": "A president-led, top-line institutional pivot to AI-native positioning is rare among mid-size public R1s and anchors several downstream initiatives (compute, pedagogy, research, startups).",
+      "date_announced": "2025-08-21",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_native_institution",
+        "institutional_restructuring",
+        "ai_research_center",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UND operating budget; public-private partnerships to be developed",
+        "description": "No top-line dollar figure was disclosed at announcement; pieces are being built on existing infrastructure (AIR Center, AI PhD, CRC clusters)."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "To be named"
+          ],
+          "description": "Armacost framed the moonshot as requiring public-private partnerships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals institution-wide expectation to integrate AI into curriculum, research, and operations; raises adoption stakes for faculty governance and IT prioritization.",
+      "source_urls": [
+        "https://www.govtech.com/education/higher-ed/university-of-north-dakota-aspires-to-lead-state-in-ai",
+        "https://blogs.und.edu/und-today/2025/08/simple-pattern-magnificent-designs-state-of-the-university-2025/",
+        "https://www.grandforksherald.com/news/local/in-state-of-the-university-address-armacost-says-und-will-become-north-dakotas-ai-university"
+      ]
+    },
+    {
+      "title": "PhD in Artificial Intelligence",
+      "description": "UND offers a 90-credit Doctor of Philosophy in Artificial Intelligence housed in the School of Electrical Engineering & Computer Science, with four tracks (AI Foundations, Advanced AI Techniques, Machine Vision and Robotics, AI Applications) and core courses spanning AI, applied machine learning, and philosophical/ethical implications of AI.",
+      "significance": "UND markets this as the first AI PhD of its kind in the region and uses it as the academic backbone of the AI moonshot and AIR Center.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_research_center",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "robotics_and_physical_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Graduate School / College of Engineering & Mines",
+        "description": "Funded through standard graduate program infrastructure and leveraged against the AIR Center."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "19 academic partner institutions of the AIR Center including Ohio State, NC State, Virginia Tech, UC Davis"
+          ],
+          "description": "Students engage with the AIR Center's partner network for projects."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://und.edu/programs/artificial-intelligence-phd/index.html",
+        "https://und-public.courseleaf.com/graduateacademicinformation/departmentalcoursesprograms/phd-ai/"
+      ]
+    },
+    {
+      "title": "Graduate Certificate in AI & Machine Learning",
+      "description": "A 9-credit graduate certificate in the College of Engineering & Mines requiring CSCI 543 (Machine Learning), CSCI 544 (Soft Computing/Computational Intelligence I), and CSCI 554 (Applications in AI/Computational Intelligence); credits are stackable toward a master's.",
+      "significance": "Offers a lower-barrier entry into graduate AI study and a workforce-credential option for professionals already in the region.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "industry_certification_pathway",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "College of Engineering & Mines",
+        "description": "Delivered through existing graduate faculty capacity."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external partner disclosed for the certificate."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://und.edu/programs/artificial-intelligence-machine-learning-certificate/requirements.html"
+      ]
+    },
+    {
+      "title": "AI and Human Innovation Initiative and annual Showcase",
+      "description": "Provost-led initiative co-led by Emily Cherry Oliver (chair of Theatre), Anna Kinney, Amanda Voigt, and Sona Lesmeister that brings an arts-and-humanities lens to AI. Its anchor event is the annual AI and Human Innovation Showcase (inaugural in February 2025; second edition March 20, 2026) with keynote, panel, lightning-round, and digital-exhibit formats.",
+      "significance": "Deliberately counter-weights the engineering-centric AIR narrative with humanities-led inquiry into ethics, creative practice, and human-AI partnership — a model for non-STEM AI integration.",
+      "date_announced": "2025-02-28",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "liberal_arts_in_ai_era",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Arts & Sciences Dean's Office and the Provost's Office",
+        "description": "Funded via a joint Dean/Provost grant; amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Community members and town-gown collaborators invited to Showcase"
+          ],
+          "description": "Explicit invitation to community members and cross-disciplinary teams."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Models faculty-led, ethics-forward AI adoption that complements the moonshot's technical framing.",
+      "source_urls": [
+        "https://und.edu/academics/provost/about/ai-human-innovation-initiative.html",
+        "https://blogs.und.edu/und-today/2025/03/inaugural-ai-event-explores-pros-pitfalls-of-artificial-intelligence/",
+        "https://blogs.und.edu/und-today/2026/03/und-explores-human-centered-future-of-ai-at-annual-showcase/",
+        "https://blogs.und.edu/uletter/2026/01/ai-and-human-innovation-showcase-seeking-project-proposals/"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Research (AIR) Center",
+      "description": "College of Engineering & Mines research center led by Professor Naima Kaabouch that pioneers AI software/hardware systems. Focus areas include machine learning, deep learning, NLP, algorithm development, and ethical AI. Partners include Harris, Northrop Grumman, RTX (Raytheon), Botlink, and 19 academic partner institutions.",
+      "significance": "Provides the research backbone for UND's AI moonshot and integrates industry use cases (especially defense, cybersecurity, UAS) directly into graduate training.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "computer_vision",
+        "robotics_and_physical_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "College of Engineering & Mines, federal grants, industry contracts",
+        "description": "Total center budget not publicly disclosed; funded through a mix of College budget, federal awards (e.g., ISEAI), and industry partnerships."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Harris Corporation",
+            "Northrop Grumman",
+            "RTX Corporation",
+            "Botlink"
+          ],
+          "description": "Industry partners contribute use cases and co-investment."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Ohio State",
+            "NC State",
+            "Virginia Tech",
+            "UC Davis",
+            "15 others"
+          ],
+          "description": "19-institution academic partner network supports joint research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.und.edu/research/air/index.html",
+        "https://engineering.und.edu/research/air/partnerships.html"
+      ]
+    },
+    {
+      "title": "NSF ISEAI Planning Award — Center for Infrastructure Security in the Era of AI",
+      "description": "In September 2024 UND received an $18,231 NSF planning grant (UND's share of a multi-site award led by George Mason University) to support UND's participation as a partner site in the proposed Industry-University Cooperative Research Center (IUCRC) for Infrastructure Security in the Era of AI (ISEAI). UND PIs include Prakash Ranganathan (lead), Jielun Zhang, Sicong Shao, and Diego Fregolent Mendes de Oliveira.",
+      "significance": "Positions UND's Center for Cyber Security Research (C2SR) in the national pipeline for critical-infrastructure AI security alongside AWS, Peraton, and GDIT.",
+      "date_announced": "2024-09-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "cybersecurity_and_ai_risk",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": 18231,
+        "funding_source": "National Science Foundation (IUCRC planning grant)",
+        "description": "Planning-phase NSF award for UND's partner role; full Phase I funding contingent on follow-on proposal."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "AWS",
+            "Peraton",
+            "GDIT"
+          ],
+          "description": "Named industry partners to the Mason-led center."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "George Mason University (lead)",
+            "University of Arkansas"
+          ],
+          "description": "Multi-site IUCRC planning consortium."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://blogs.und.edu/press-releases/2024/09/und-awarded-nsf-funding-for-center-for-infrastructure-security-in-the-era-of-ai-iseai/",
+        "https://blogs.und.edu/und-today/2024/09/und-awarded-nsf-grant-to-find-cybersecurity-solutions-for-industry/"
+      ]
+    },
+    {
+      "title": "Medora GH200 AI Cluster (CRC)",
+      "description": "UND's Computational Research Center deployed Medora, a 16-node NVIDIA Grace Hopper (GH200) cluster with 72-core CPUs and advanced Hopper GPUs, described as 'an AI engine built for speed, scale, and scientific discovery' for training AI models and high-impact research. Sits alongside the older Talon HPE Apollo 6500 cluster (34 nodes, ~2 PFLOPS GPU-side).",
+      "significance": "Gives UND top-tier AI training compute in-state — a material advantage for a mid-size R1 and a credibility pillar for the AI moonshot.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UND Computational Research Center / institutional",
+        "description": "Cluster acquisition cost not publicly disclosed; housed in the Chester Fritz Library CRC facility."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "HPE"
+          ],
+          "description": "Vendors for the Grace Hopper and Apollo 6500 platforms."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Grace Hopper GH200",
+          "vendor": "NVIDIA",
+          "role": "GPU architecture powering Medora"
+        },
+        {
+          "name": "Apollo 6500 Gen10",
+          "vendor": "HPE",
+          "role": "Platform for the Talon HPC cluster"
+        },
+        {
+          "name": "Bright Cluster Manager",
+          "vendor": "NVIDIA (Bright Computing)",
+          "role": "HPC cluster management on Talon"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://und.edu/research/crc/clusters-equipment/index.html",
+        "https://www.prweb.com/releases/university_of_north_dakota_deploys_bright_cluster_manager_for_hpc_data_science_and_the_cloud_on_hpe_apollo_6500_gen10_system/prweb16629857.htm"
+      ]
+    },
+    {
+      "title": "AI & Autonomy Summit (IWRC) — Grand Forks",
+      "description": "On September 10, 2025 UND and IEEE-USA co-hosted the Innovation, Workforce and Research Conference (IWRC) on AI & Autonomy at Memorial Union. Participants included DARPA, MITRE, Kratos Defense, Northrop Grumman, Grand Farm, SBA, gener8tor 1889, Sen. Kevin Cramer, and Air Force Research Laboratory. North Dakota officially declared September 8-13 'Autonomy Week.'",
+      "significance": "Positions Grand Forks as a national hub for AI and autonomy, linking UND to defense, federal, and regional agtech ecosystems.",
+      "date_announced": "2025-09-10",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "agentic_ai",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "government_and_regulators",
+        "community",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "IEEE-USA and UND co-hosting; additional federal and industry sponsors",
+        "description": "Event budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IEEE-USA",
+            "Northrop Grumman",
+            "Kratos Defense",
+            "MITRE",
+            "gener8tor 1889"
+          ],
+          "description": "Industry co-sponsors and exhibitors."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "DARPA",
+            "Air Force Research Laboratory",
+            "SBA",
+            "Office of Sen. Kevin Cramer"
+          ],
+          "description": "Federal agency speakers and sponsors."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://blogs.und.edu/und-today/2025/10/ai-autonomy-summit-showcases-grand-forks-as-national-hub/"
+      ]
+    },
+    {
+      "title": "NDUS AI Task Force chaired by UND President",
+      "description": "The North Dakota State Board of Higher Education asked President Armacost to form and chair a task force of all NDUS institution heads to develop system-wide strategies for AI in curriculum, academic integrity, and policy. Five working groups have studied AI governance, a future-ready workforce, statewide infrastructure, legislative/policy, and organizational structure.",
+      "significance": "Makes UND the de facto coordination point for AI policy across the 11-institution North Dakota University System.",
+      "date_announced": "2023-04",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "students",
+        "board_and_trustees",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NDUS system office; no dedicated dollar figure disclosed",
+        "description": "In-kind time of system leadership plus Dakota Digital Academy programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "All 11 NDUS institutions",
+            "NDUS Dakota Digital Academy"
+          ],
+          "description": "System-wide task force spans two research universities and regional, community, and tribal institutions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Elevates UND's policy voice statewide and drives system-level alignment on data privacy, academic integrity, and workforce initiatives.",
+      "source_urls": [
+        "https://edscoop.com/chatgpt-north-dakota-university-system/",
+        "https://www.govtech.com/education/higher-ed/north-dakota-higher-ed-task-force-to-study-risks-of-ai",
+        "https://www.grandforksherald.com/news/north-dakota/north-dakota-higher-ed-leaders-form-task-force-to-combat-negative-effects-of-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "TeamDynamix AI Chatbot for IT and Student Services",
+      "description": "UIT deployed a TeamDynamix-based AI chatbot covering 15,000 students and 2,700 faculty/staff. Support specialist Logan Tong authored 150+ intents and scenarios without writing code. The bot fields tech questions and is being extended to grade inquiries, billing, and High-Performance Computing Center requests (compute allocations, storage, scheduling).",
+      "significance": "A concrete, production AI deployment at the operational layer — rare to see a campus-wide service chatbot also used for HPC allocation workflows.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_powered_admin_tools",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "ai_search_and_retrieval",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UIT operating budget",
+        "description": "License cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "TeamDynamix"
+          ],
+          "description": "Vendor platform for ITSM plus chatbot."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TeamDynamix AI Chatbot",
+          "vendor": "TeamDynamix",
+          "role": "Conversational support for IT, student services, and HPC requests"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Moves AI from theoretical policy conversations into daily operational reality; surfaces governance questions around student data handling inside bot conversations.",
+      "source_urls": [
+        "https://www.teamdynamix.com/resources/customer-stories/und-offers-better-faster-it-service-with-ai-chatbot/"
+      ]
+    },
+    {
+      "title": "TTaDA AI faculty development (courses, AI Assignment Library, workshops)",
+      "description": "UND's Teaching Transformation and Development Academy delivers an asynchronous T&L 2900 'AI and Education' course, hosts the CFL Scholarly Commons AI Assignment Library populated by faculty who pilot AI assignments, and runs summer workshops including a dedicated AI policy-drafting session for syllabi.",
+      "significance": "Turns provost-level AI guidance into concrete faculty capability, with reusable artifacts (assignments, syllabus language) that diffuse across departments.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Provost's Office / TTaDA operating budget; NDUS Dakota Digital Academy $1,000 AI professional-development scholarships supplement faculty participation",
+        "description": "Core budget embedded in TTaDA operations."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NDUS Dakota Digital Academy"
+          ],
+          "description": "System-level professional development vehicle co-funds faculty AI learning."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Operationalizes the 'discipline-specific' approach stated in UND's AI policy.",
+      "source_urls": [
+        "https://und.edu/academics/ttada/ai-resources.html",
+        "https://www.enrole.com/und/jsp/course.jsp?categoryId=&courseId=TL.AIAE",
+        "https://und.edu/academics/ttada/may-workshops.html",
+        "https://ndus.edu/2024/02/20/ndus-faculty-awarded-ai-professional-development-scholarships/"
+      ]
+    },
+    {
+      "title": "Digital Initiatives Prioritization Committee (DIPC) mandatory AI review",
+      "description": "The Office of the CIO's governance framework mandates that every IT project with an AI component be submitted to the DIPC, which scores proposals quarterly on strategic alignment (30%), ROI (20%), feasibility (20%), user impact (15%), and risk (15%) and recommends a prioritized list to the Provost and AVP/CIO.",
+      "significance": "Creates a formal institutional choke-point for AI adoption that reconciles enthusiasm against risk, cost, and strategic fit.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UIT operating budget (governance overhead)",
+        "description": "Governance process with no separate line-item budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal governance body."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Gives UIT/Provost central visibility and veto over AI spend and risk — a meaningful governance maturity signal.",
+      "source_urls": [
+        "https://campus.und.edu/campus-services/uit/cio/it-governance.html"
+      ]
+    },
+    {
+      "title": "Research Institute for Autonomous Systems (RIAS) — UAS and AI policy",
+      "description": "RIAS, housed at UND's Grand Forks campus, conducts multidisciplinary research on unmanned and autonomous systems and leads autonomous-systems policy development, hosts the Collegiate Drone Racing Championship, a Cyber-Security Initiative, and the National Security Corridor, and runs Arctic research supercomputing and drone-delivered medical supply projects with tribal colleges.",
+      "significance": "Positions UND at the policy-research intersection for AI-enabled autonomy — unusual among R1s and tied closely to Grand Forks' defense/UAS industry cluster.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "cross_border_research_alliance",
+        "cybersecurity_and_ai_risk",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Federal agencies (DoD, DARPA-aligned), state, and industry",
+        "description": "Center-level budget not disclosed; multi-source sponsor base."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Tribal colleges in ND"
+          ],
+          "description": "Drone-delivered medical supply projects with tribal partners."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "DoD ecosystem",
+            "DARPA-adjacent agencies"
+          ],
+          "description": "National-security-aligned autonomy research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Feeds into national autonomous-systems policy debates and the Grand Forks 'National Security Corridor' narrative.",
+      "source_urls": [
+        "https://und.edu/research/rias/index.html"
+      ]
+    },
+    {
+      "title": "MS in Applied Economics & Predictive Analytics",
+      "description": "Graduate program offered on-campus and online blending economic theory, mathematical economics, and advanced statistical methods (including predictive analytics). Offered by the College of Business and delivered to both domestic and international cohorts.",
+      "significance": "Workforce-focused analytics pathway adjacent to AI degree offerings; surfaces predictive analytics as a non-engineering entry point.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Nistler College of Business & Public Administration",
+        "description": "Tuition-funded graduate program."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No disclosed external partner."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://und.edu/programs/applied-economics-ms/requirements.html",
+        "https://und-public.courseleaf.com/graduateacademicinformation/departmentalcoursesprograms/economicsapplied/econ-ms/"
+      ]
+    },
+    {
+      "title": "Medora Grace Hopper AI cluster GPU disclosure",
+      "description": "UND CRC publishes hardware details for Medora, including 72 NVIDIA GH200 GPU cores, complementing the existing Talon and CRC AI/HPC profile.",
+      "significance": "The disclosed GPU-core count strengthens the compute-capacity signal for UND's AI-university push.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "UND publishes GPU capacity but not Medora acquisition cost."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Institutional CRC resource."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Medora GH200 cluster",
+          "vendor": "University of North Dakota",
+          "role": "AI/HPC infrastructure"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://und.edu/research/crc/clusters-equipment/index.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Artificial Intelligence Research (AIR) Center",
+      "focus": "AI software/hardware systems, ML/DL/NLP, ethical AI; industry partnerships with Harris, Northrop Grumman, RTX, Botlink and 19 academic partners.",
+      "founded": null,
+      "url": "https://engineering.und.edu/research/air/index.html"
+    },
+    {
+      "name": "Research Institute for Autonomous Systems (RIAS)",
+      "focus": "Unmanned and autonomous systems research and policy; Cyber-Security Initiative, National Security Corridor, drone racing, Arctic research, tribal-partnered medical drone delivery.",
+      "founded": null,
+      "url": "https://und.edu/research/rias/index.html"
+    },
+    {
+      "name": "Computational Research Center (CRC)",
+      "focus": "HPC and AI compute services — Talon (HPE Apollo 6500) and Medora (NVIDIA Grace Hopper GH200 cluster).",
+      "founded": null,
+      "url": "https://und.edu/research/crc/index.html"
+    },
+    {
+      "name": "Center for Cyber Security Research (C2SR)",
+      "focus": "Cyber-physical security and AI-infrastructure security; UND partner site in the NSF ISEAI IUCRC led by George Mason.",
+      "founded": null,
+      "url": "https://blogs.und.edu/press-releases/2024/09/und-awarded-nsf-funding-for-center-for-infrastructure-security-in-the-era-of-ai-iseai/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "PhD in Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://und.edu/programs/artificial-intelligence-phd/index.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence & Machine Learning Graduate Certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://und.edu/programs/artificial-intelligence-machine-learning-certificate/requirements.html"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Applied Economics & Predictive Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://und.edu/programs/applied-economics-ms/requirements.html"
+    },
+    {
+      "type": "course",
+      "name": "T&L 2900: AI and Education (asynchronous, educator-facing)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.enrole.com/und/jsp/course.jsp?categoryId=&courseId=TL.AIAE"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "TeamDynamix",
+      "product": "TeamDynamix AI Chatbot (ITSM)",
+      "scope": "campus-wide",
+      "user_count": 17700,
+      "deployed": null,
+      "url": "https://www.teamdynamix.com/resources/customer-stories/und-offers-better-faster-it-service-with-ai-chatbot/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Medora (Grace Hopper) and Talon (HPE Apollo 6500)",
+    "gpu_count": 72,
+    "url": "https://und.edu/research/crc/clusters-equipment/index.html",
+    "summary": "UND CRC lists Medora and Talon clusters and discloses 72 NVIDIA GH200 GPU cores for Medora, providing a public AI-compute capacity figure."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF ISEAI Planning Grant (UND share)",
+      "amount_usd": 18231,
+      "source": "National Science Foundation (subaward from George Mason-led IUCRC planning project)",
+      "purpose": "Plan UND's participation as a partner site in the Infrastructure Security in the Era of AI center; PIs Prakash Ranganathan, Jielun Zhang, Sicong Shao, Diego Fregolent Mendes de Oliveira.",
+      "date": "2024-09",
+      "url": "https://blogs.und.edu/press-releases/2024/09/und-awarded-nsf-funding-for-center-for-infrastructure-security-in-the-era-of-ai-iseai/"
+    },
+    {
+      "title": "NSF Research Traineeship Program award (UND)",
+      "amount_usd": 1999846,
+      "source": "National Science Foundation",
+      "purpose": "Graduate research training (STEM/AI-adjacent workforce development).",
+      "date": null,
+      "url": "https://www.grandforksherald.com/news/local/und-receives-almost-2-million-in-funding-for-national-science-foundation-research-traineeship-program"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Harris Corporation",
+      "purpose": "AIR Center industry partner (AI applications in defense/comms).",
+      "date": null,
+      "url": "https://engineering.und.edu/research/air/partnerships.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Northrop Grumman",
+      "purpose": "AIR Center industry partner; AI & Autonomy Summit sponsor and exhibitor.",
+      "date": null,
+      "url": "https://engineering.und.edu/research/air/partnerships.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "RTX Corporation (Raytheon)",
+      "purpose": "AIR Center industry partner.",
+      "date": null,
+      "url": "https://engineering.und.edu/research/air/partnerships.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Botlink",
+      "purpose": "AIR Center industry partner (drones / UAS software).",
+      "date": null,
+      "url": "https://engineering.und.edu/research/air/partnerships.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "TeamDynamix",
+      "purpose": "Vendor of UND's campus-wide AI chatbot platform.",
+      "date": null,
+      "url": "https://www.teamdynamix.com/resources/customer-stories/und-offers-better-faster-it-service-with-ai-chatbot/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA / HPE / Bright Computing",
+      "purpose": "Compute infrastructure for AI: NVIDIA Grace Hopper in Medora; HPE Apollo 6500 and Bright Cluster Manager on Talon.",
+      "date": "2019-10",
+      "url": "https://insidehpc.com/2019/10/bright-computing-powers-deep-learning-at-university-of-north-dakota/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "George Mason University (lead) and University of Arkansas",
+      "purpose": "NSF ISEAI IUCRC planning consortium.",
+      "date": "2024-09",
+      "url": "https://blogs.und.edu/press-releases/2024/09/und-awarded-nsf-funding-for-center-for-infrastructure-security-in-the-era-of-ai-iseai/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "IEEE-USA / DARPA / Air Force Research Laboratory / SBA",
+      "purpose": "Co-hosts and speakers at the 2025 AI & Autonomy Summit.",
+      "date": "2025-09",
+      "url": "https://blogs.und.edu/und-today/2025/10/ai-autonomy-summit-showcases-grand-forks-as-national-hub/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "19-institution AIR academic partner network (Ohio State, NC State, Virginia Tech, UC Davis, etc.)",
+      "purpose": "Joint AI research collaborations.",
+      "date": null,
+      "url": "https://engineering.und.edu/research/air/partnerships.html"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Grand Farm",
+      "purpose": "AgTech / autonomy collaboration anchor in the region; participated in AI & Autonomy Summit.",
+      "date": "2025-09",
+      "url": "https://blogs.und.edu/und-today/2025/10/ai-autonomy-summit-showcases-grand-forks-as-national-hub/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "UND TeamDynamix AI Chatbot",
+      "scope": "Campus-wide support chatbot covering tech support, grades, billing, and HPC requests (15,000 students + 2,700 faculty/staff).",
+      "url": "https://www.teamdynamix.com/resources/customer-stories/und-offers-better-faster-it-service-with-ai-chatbot/"
+    },
+    {
+      "type": "chatbot",
+      "name": "UND Admissions Chatbot",
+      "scope": "Public-facing chatbot on UND's website answering prospective-student admissions questions.",
+      "url": "https://und.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Digital accessibility 85%/100% commitment",
+      "description": "Armacost committed at the August 2025 State of the University address to 85% digital accessibility compliance by end of fall 2025 and 100% by April 2026 — bears directly on equitable access to AI-mediated digital services.",
+      "url": "https://blogs.und.edu/und-today/2025/08/simple-pattern-magnificent-designs-state-of-the-university-2025/"
+    },
+    {
+      "title": "RIAS drone-delivered medical supply projects with tribal colleges",
+      "description": "RIAS partners with North Dakota tribal colleges on AI-enabled autonomous medical-supply delivery, addressing rural and tribal access gaps.",
+      "url": "https://und.edu/research/rias/index.html"
+    },
+    {
+      "title": "NDUS Dakota Digital Academy AI professional-development scholarships",
+      "description": "NDUS awards $1,000 scholarships, open to UND faculty, for AI professional development aimed at broadening faculty capability across system institutions (including community and tribal colleges).",
+      "url": "https://ndus.edu/2024/02/20/ndus-faculty-awarded-ai-professional-development-scholarships/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "North Dakota",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "North Dakota has a statewide AI policy and guidelines published by North Dakota Information Technology (NDIT) covering secure, private, and ethical AI use across state entities. At the K-12 level, the Department of Public Instruction has released an AI guidance framework. The State Board of Higher Education has convened an NDUS-wide AI task force chaired by UND President Armacost and authorized Valley City State University and North Dakota State University to establish AI institutes focused on K-12 teacher readiness and workforce development. The SBHE 1202.3 Data Privacy Policy binds NDUS institutions including UND. North Dakota is also on track to become the first state with 100% broadband access, and its Digital Equity Plan connects AI, rural access, and workforce.",
+    "urls": [
+      "https://www.ndit.nd.gov/artificial-intelligence-guidelines",
+      "https://www.ndit.nd.gov/about-us/publications/statewide-it-plan/statewide-it-plan-2025-2027",
+      "https://www.nd.gov/dpi/policyguidelines/north-dakota-k-12-ai-guidance-framework",
+      "https://www.govtech.com/education/higher-ed/north-dakota-ed-board-advances-ai-with-university-institutes",
+      "https://ndus.edu/2025/01/02/artificial-intelligence-and-institutional-research-reflecting-on-the-role-of-ir-in-the-ethical-and-responsible-use-of-ai-technologies/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of North Dakota, the state's oldest (founded 1883) and flagship R1 (Carnegie 2025), enters 2026 with an unusually clear top-down AI posture. President Andrew Armacost used his August 21, 2025 State of the University address to declare that UND will become 'the AI university for North Dakota' — one of two presidential 'moonshots' for 2025-26 (the other is launching four UND-spinout companies). The announcement is not standalone: it builds on UND's AI Research (AIR) Center under Naima Kaabouch in the College of Engineering & Mines, a 90-credit PhD in Artificial Intelligence, a 9-credit graduate AI/ML certificate, the interdisciplinary AI and Human Innovation Initiative (humanities-led, co-directed by Emily Cherry Oliver and colleagues in the Provost's Office), and a compute base that includes the new Medora NVIDIA Grace Hopper cluster and the older Talon HPE Apollo 6500 system in the Computational Research Center. Governance runs on three layers: statewide leadership (Armacost also chairs the State Board of Higher Education's NDUS AI task force representing all 11 system institutions), operational gating (the Digital Initiatives Prioritization Committee co-chaired by the AVP Finance/Operations and the Deputy CIO mandatorily reviews any IT project with an AI component), and academic support (TTaDA's AI workshops, T&L 2900 course, and the CFL AI Assignment Library). Policy-wise, UND's Provost-published AI guidelines take a cautious-but-permissive stance anchored on accuracy, disclosure, SBHE 1202.3 data privacy, UIT procurement review, and faculty discretion at the course level. Deployed AI is most visible in the campus-wide TeamDynamix AI chatbot supporting 15,000 students and 2,700 staff, plus a public admissions chatbot. Research externalities include the NSF ISEAI planning award (UND is a George Mason-led IUCRC partner site with AWS, Peraton, GDIT), the IEEE-USA co-hosted September 2025 AI & Autonomy Summit bringing DARPA, AFRL, Northrop Grumman, Kratos, MITRE, and Grand Farm to Grand Forks, and the Research Institute for Autonomous Systems anchoring the National Security Corridor. Notable gaps: no named chief AI officer, no disclosed campus-wide enterprise LLM license (Copilot/ChatGPT Edu/Gemini for Education), limited public financial disclosure around the moonshot, and no visible syllabus-level mandate. Confidence in this profile is medium-high — several figures and dates are not publicly disclosed.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://und.edu/academics/provost/about/ai.html",
+      "https://und.edu/academics/provost/about/ai-human-innovation-initiative.html",
+      "https://und.edu/academics/ttada/ai-resources.html",
+      "https://und.edu/academics/ttada/index.html",
+      "https://und.edu/academics/ttada/may-workshops.html",
+      "https://und.edu/programs/artificial-intelligence-phd/index.html",
+      "https://und.edu/programs/artificial-intelligence-machine-learning-certificate/requirements.html",
+      "https://und.edu/programs/applied-economics-ms/requirements.html",
+      "https://und-public.courseleaf.com/graduateacademicinformation/departmentalcoursesprograms/phd-ai/",
+      "https://und-public.courseleaf.com/graduateacademicinformation/departmentalcoursesprograms/economicsapplied/econ-ms/",
+      "https://und.edu/about/administration.html",
+      "https://und.edu/about/president/index.html",
+      "https://und.edu/academics/provost/",
+      "https://und.edu/research/crc/index.html",
+      "https://und.edu/research/crc/clusters-equipment/index.html",
+      "https://und.edu/research/rias/index.html",
+      "https://engineering.und.edu/research/air/index.html",
+      "https://engineering.und.edu/research/air/partnerships.html",
+      "https://campus.und.edu/campus-services/uit/cio/index.html",
+      "https://campus.und.edu/campus-services/uit/cio/it-governance.html",
+      "https://campus.und.edu/directory/madhavi.marasinghe",
+      "https://blogs.und.edu/press-releases/2024/09/und-awarded-nsf-funding-for-center-for-infrastructure-security-in-the-era-of-ai-iseai/",
+      "https://blogs.und.edu/und-today/2024/09/und-awarded-nsf-grant-to-find-cybersecurity-solutions-for-industry/",
+      "https://blogs.und.edu/und-today/2025/08/simple-pattern-magnificent-designs-state-of-the-university-2025/",
+      "https://blogs.und.edu/und-today/2025/09/und-sets-new-all-time-enrollment-record-in-fall-2025/",
+      "https://blogs.und.edu/press-releases/2025/09/und-sets-new-all-time-enrollment-record-in-fall-2025/",
+      "https://blogs.und.edu/und-today/2025/10/ai-autonomy-summit-showcases-grand-forks-as-national-hub/",
+      "https://blogs.und.edu/und-today/2025/03/inaugural-ai-event-explores-pros-pitfalls-of-artificial-intelligence/",
+      "https://blogs.und.edu/und-today/2026/03/und-explores-human-centered-future-of-ai-at-annual-showcase/",
+      "https://blogs.und.edu/uletter/2026/01/ai-and-human-innovation-showcase-seeking-project-proposals/",
+      "https://blogs.und.edu/uletter/2025/02/ai-and-human-innovation-showcase-is-feb-28/",
+      "https://blogs.und.edu/uletter/2025/09/moonshot-comes-within-reach/",
+      "https://blogs.und.edu/uletter/2025/09/center-for-innovation-to-integrate-with-division-of-research-economic-development/",
+      "https://www.govtech.com/education/higher-ed/university-of-north-dakota-aspires-to-lead-state-in-ai",
+      "https://www.govtech.com/education/higher-ed/can-the-university-of-north-dakota-launch-four-companies",
+      "https://www.govtech.com/education/higher-ed/north-dakota-higher-ed-task-force-to-study-risks-of-ai",
+      "https://www.govtech.com/education/higher-ed/north-dakota-ed-board-advances-ai-with-university-institutes",
+      "https://edscoop.com/chatgpt-north-dakota-university-system/",
+      "https://www.grandforksherald.com/news/local/in-state-of-the-university-address-armacost-says-und-will-become-north-dakotas-ai-university",
+      "https://www.grandforksherald.com/news/local/und-symposium-on-ai-and-humanities-set-for-friday",
+      "https://www.grandforksherald.com/news/local/und-receives-almost-2-million-in-funding-for-national-science-foundation-research-traineeship-program",
+      "https://www.grandforksherald.com/news/local/mission-to-launch-four-companies-sparks-campus-wide-interest-at-und",
+      "https://www.grandforksherald.com/news/north-dakota/north-dakota-higher-ed-leaders-form-task-force-to-combat-negative-effects-of-artificial-intelligence",
+      "https://www.teamdynamix.com/resources/customer-stories/und-offers-better-faster-it-service-with-ai-chatbot/",
+      "https://www.prweb.com/releases/university_of_north_dakota_deploys_bright_cluster_manager_for_hpc_data_science_and_the_cloud_on_hpe_apollo_6500_gen10_system/prweb16629857.htm",
+      "https://insidehpc.com/2019/10/bright-computing-powers-deep-learning-at-university-of-north-dakota/",
+      "https://ndus.edu/2024/02/20/ndus-faculty-awarded-ai-professional-development-scholarships/",
+      "https://ndus.edu/2025/01/02/artificial-intelligence-and-institutional-research-reflecting-on-the-role-of-ir-in-the-ethical-and-responsible-use-of-ai-technologies/",
+      "https://www.ndit.nd.gov/artificial-intelligence-guidelines",
+      "https://www.ndit.nd.gov/about-us/publications/statewide-it-plan/statewide-it-plan-2025-2027",
+      "https://www.nd.gov/dpi/policyguidelines/north-dakota-k-12-ai-guidance-framework",
+      "https://www.enrole.com/und/jsp/course.jsp?categoryId=&courseId=TL.AIAE",
+      "https://dda.ndus.edu/ai/",
+      "https://blogs.und.edu/uletter/2025/08/new-ai-features-integrated-with-teamdynamix-launch-on-aug-18/",
+      "https://blogs.und.edu/uletter/2023/09/ai-assignment-library-available-for-faculty/"
+    ],
+    "search_queries": [
+      "'University of North Dakota' AI strategy 2025 2026",
+      "'University of North Dakota' artificial intelligence policy acceptable use",
+      "'University of North Dakota' AI council committee task force governance",
+      "'University of North Dakota' CIO chief information officer 2026",
+      "'University of North Dakota' Microsoft Copilot OR ChatGPT OR Google Gemini deployment campus",
+      "'University of North Dakota' AI chatbot students admissions predictive analytics",
+      "'University of North Dakota' AI grant NSF funding million",
+      "'University of North Dakota' GPU HPC supercomputer compute research cluster",
+      "'University of North Dakota' AI partnership industry MOU company 2025",
+      "'University of North Dakota' enrollment 2025 president provost",
+      "'University of North Dakota' AI faculty training workshop professional development",
+      "'University of North Dakota' AI minor certificate undergraduate program curriculum",
+      "'University of North Dakota' AI center institute launch 2024 2025",
+      "'University of North Dakota' Armacost AI moonshot August 2025 announcement",
+      "'University of North Dakota' ChatBot virtual assistant student services 'UND'",
+      "'University of North Dakota' AI humanities symposium grant Hewlett faculty",
+      "'UND' 'North Dakota' AI accessibility equity digital divide broadband",
+      "North Dakota state government AI policy executive order higher education",
+      "'NDUS' 'NDCCS' artificial intelligence policy system-wide task force",
+      "site:und.edu University of North Dakota AI GPU count Medora Talon ChatGPT Copilot assessment funding"
+    ],
+    "gaps_acknowledged": [
+      "No named chief AI officer is apparent at UND; Armacost personally acts as strategy lead.",
+      "No dollar figure disclosed for the 'AI university' moonshot.",
+      "No evidence of a campus-wide enterprise license for Microsoft Copilot, ChatGPT Edu, or Gemini for Education as of research date.",
+      "Founding dates for the AIR Center, RIAS, and CRC not stated on their public pages.",
+      "No published institution-wide AI strategy document (distinct from the State of the University address and Provost AI guidelines).",
+      "No visible syllabus-level AI disclosure mandate; policy delegates to faculty discretion.",
+      "Controversies/litigation related to AI at UND not surfaced in research — absence not confirmation of none.",
+      "Founding/launch dates for the AI PhD and AI/ML certificate not stated publicly.",
+      "UND publishes Medora GPU-core capacity and TeamDynamix AI launch details, but no dollar figure for the AI University moonshot or enterprise AI license spend was found."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "research_compute_powerhouse",
+        "workforce_regional_development",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 3,
+        "research_compute_powerhouse": 15,
+        "curriculum_led": 11,
+        "governance_led": 13,
+        "student_success_led": 4,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "rejects_or_limits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 3,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Medora (Grace Hopper) and Talon (HPE Apollo 6500)",
+        "gpu_count": 72,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 2018077,
+      "funding_source_buckets": {
+        "public_federal_state": 6,
+        "institutional": 6,
+        "other_unclear": 5
+      },
+      "partnership_count": 10
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "chatbot": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 9
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "Bright Cluster Manager",
+            "Grace Hopper GH200"
+          ]
+        },
+        {
+          "vendor": "HPE Apollo 6500 Gen10",
+          "mentions": 1,
+          "products": [
+            "Apollo 6500 Gen10"
+          ]
+        },
+        {
+          "vendor": "TeamDynamix TeamDynamix AI Chatbot",
+          "mentions": 1,
+          "products": [
+            "TeamDynamix AI Chatbot"
+          ]
+        },
+        {
+          "vendor": "TeamDynamix TeamDynamix AI Chatbot (ITSM)",
+          "mentions": 1,
+          "products": [
+            "TeamDynamix AI Chatbot (ITSM)"
+          ]
+        },
+        {
+          "vendor": "University of North Dakota Medora GH200 cluster",
+          "mentions": 1,
+          "products": [
+            "Medora GH200 cluster"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "NVIDIA",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": true,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "'AI University for North Dakota' Moonshot",
+          "summary": "A president-led, top-line institutional pivot to AI-native positioning is rare among mid-size public R1s and anchors several downstream initiatives (compute, pedagogy, research, startups).",
+          "source_url": "https://www.govtech.com/education/higher-ed/university-of-north-dakota-aspires-to-lead-state-in-ai"
+        },
+        {
+          "claim_type": "career",
+          "title": "Graduate Certificate in AI & Machine Learning",
+          "summary": "Offers a lower-barrier entry into graduate AI study and a workforce-credential option for professionals already in the region.",
+          "source_url": "https://und.edu/programs/artificial-intelligence-machine-learning-certificate/requirements.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI and Human Innovation Initiative and annual Showcase",
+          "summary": "Deliberately counter-weights the engineering-centric AIR narrative with humanities-led inquiry into ethics, creative practice, and human-AI partnership — a model for non-STEM AI integration.",
+          "source_url": "https://und.edu/academics/provost/about/ai-human-innovation-initiative.html"
+        },
+        {
+          "claim_type": "research_output",
+          "title": "Medora GH200 AI Cluster (CRC)",
+          "summary": "Gives UND top-tier AI training compute in-state — a material advantage for a mid-size R1 and a credibility pillar for the AI moonshot.",
+          "source_url": "https://und.edu/research/crc/clusters-equipment/index.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI & Autonomy Summit (IWRC) — Grand Forks",
+          "summary": "Positions Grand Forks as a national hub for AI and autonomy, linking UND to defense, federal, and regional agtech ecosystems.",
+          "source_url": "https://blogs.und.edu/und-today/2025/10/ai-autonomy-summit-showcases-grand-forks-as-national-hub/"
+        },
+        {
+          "claim_type": "career",
+          "title": "NDUS AI Task Force chaired by UND President",
+          "summary": "Makes UND the de facto coordination point for AI policy across the 11-institution North Dakota University System.",
+          "source_url": "https://edscoop.com/chatgpt-north-dakota-university-system/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "TeamDynamix AI Chatbot for IT and Student Services",
+          "summary": "A concrete, production AI deployment at the operational layer — rare to see a campus-wide service chatbot also used for HPC allocation workflows.",
+          "source_url": "https://www.teamdynamix.com/resources/customer-stories/und-offers-better-faster-it-service-with-ai-chatbot/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Digital Initiatives Prioritization Committee (DIPC) mandatory AI review",
+          "summary": "Creates a formal institutional choke-point for AI adoption that reconciles enthusiasm against risk, cost, and strategic fit.",
+          "source_url": "https://campus.und.edu/campus-services/uit/cio/it-governance.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "MS in Applied Economics & Predictive Analytics",
+          "summary": "Workforce-focused analytics pathway adjacent to AI degree offerings; surfaces predictive analytics as a non-engineering entry point.",
+          "source_url": "https://und.edu/programs/applied-economics-ms/requirements.html"
+        }
+      ],
+      "public_claim_count": 9
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 11,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No named chief AI officer is apparent at UND; Armacost personally acts as strategy lead.",
+        "No dollar figure disclosed for the 'AI university' moonshot.",
+        "No evidence of a campus-wide enterprise license for Microsoft Copilot, ChatGPT Edu, or Gemini for Education as of research date.",
+        "Founding dates for the AIR Center, RIAS, and CRC not stated on their public pages.",
+        "No published institution-wide AI strategy document (distinct from the State of the University address and Provost AI guidelines).",
+        "No visible syllabus-level AI disclosure mandate; policy delegates to faculty discretion.",
+        "Controversies/litigation related to AI at UND not surfaced in research — absence not confirmation of none.",
+        "Founding/launch dates for the AI PhD and AI/ML certificate not stated publicly.",
+        "UND publishes Medora GPU-core capacity and TeamDynamix AI launch details, but no dollar figure for the AI University moonshot or enterprise AI license spend was found."
+      ]
+    }
+  }
+}

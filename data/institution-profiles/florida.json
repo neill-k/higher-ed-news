@@ -1,0 +1,222 @@
+{
+  "institution": "University of Florida",
+  "slug": "florida",
+  "city_state": "Gainesville, FL",
+  "carnegie": "R1",
+  "aau_member": true,
+  "enrollment": 56311,
+  "system_leadership": {
+    "president_name": "Donald W. Landry (Interim)",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://privacy.ufl.edu/laws-and-regulations/ai-governance/",
+      "https://ai.ufl.edu/about/ai-ethics/"
+    ],
+    "adopted_date": null,
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "key_provisions": [
+      "Prohibition on using restricted or sensitive data (student records, PHI, unpublished research) with generative AI tools including UF GPT/Copilot",
+      "Integrated Risk Management review required before enterprise AI tool adoption",
+      "Mandatory disclosure to participants before AI meeting transcription",
+      "Compliance alignment with FERPA, HIPAA, FIPA, COPPA, GDPR, and EU AI Act",
+      "Enterprise data protection required via GatorLink SSO for Copilot usage"
+    ],
+    "summary": "UF maintains AI governance guidance through its Privacy Office rather than a single codified policy document. The guidance forbids restricted/sensitive data in generative AI tools, requires risk review for enterprise AI adoption, and aligns to federal/state privacy law. Ethical principles are supplemented by a faculty Working Group in AI Ethics and Policy."
+  },
+  "governance_structure": {
+    "committee_name": "Working Group in AI Ethics and Policy; AI Blue Sky Task Force; AI2 Center (centralized AI academic leadership)",
+    "committee_url": "https://ai.ufl.edu/teaching-with-ai/for-uf-faculty/working-group-in-ai-ethics-and-policy/",
+    "committee_members_public": true,
+    "notes": "The Working Group in AI Ethics and Policy lists named faculty members (David Gray Grant, Jim Hoover, Juan Claudio Nino, Amy L. Stein, Sonja Schmer-Galunder). The AI Blue Sky Task Force, co-chaired by Jane Southworth and Kati Migliaccio, released a spring 2025 strategic report. Academic AI leadership was centralized in 2022 via the AI2 Center. UF has no publicly-named dedicated AI leader; AI is led through the Provost's office and technology leader Elias Eldayrie at UFIT."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Microsoft",
+      "product": "UF GPT (Microsoft Copilot / Microsoft 365 Copilot with Enterprise Data Protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": [
+        "https://it.ufl.edu/ai/microsoft-copilot/",
+        "https://guides.uflib.ufl.edu/artificialintelligence/ufaiapps"
+      ],
+      "notes": "Branded as 'UF GPT' for the UF community. Free to all students, faculty, and staff via GatorLink SSO with Enterprise Data Protection (no retention, no training on prompts). Restricted/sensitive data prohibited."
+    },
+    {
+      "vendor": "NVIDIA / UF in-house",
+      "product": "NaviGator AI (self-service platform: Chat, Assistant, Toolkit, Analytics, Tutor, Notebook, Alt-text, ConVey, Prompt)",
+      "scope": "campus-wide",
+      "user_count": 1000,
+      "announced_date": "2024-07",
+      "evidence_urls": [
+        "https://it.ufl.edu/ai/",
+        "https://ai.ufl.edu/teaching-with-ai/for-uf-faculty/navigator/"
+      ],
+      "notes": "UFIT describes NaviGator as the first comprehensive self-service AI platform in U.S. higher education. Launched July 2024; reported ~1,000 users and 3.4M pages generated in early reporting. Supports multiple LLMs with BYO data and includes Google Gemini integration in NaviGator Notebook."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (via NaviGator Notebook)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": "https://it.ufl.edu/ai/",
+      "notes": "Gemini integrated into the NaviGator Notebook research/note-taking component; not a separate enterprise tenant."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "certificate",
+      "name": "AI Fundamentals and Applications Certificate",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/ENG_UCT12/"
+    },
+    {
+      "program_type": "concentration",
+      "name": "AI Across the Curriculum (200+ AI courses spanning all 16 colleges)",
+      "level": "both",
+      "announced_or_launched": null,
+      "evidence_url": "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/"
+    },
+    {
+      "program_type": "certificate",
+      "name": "AI Majors, Minors and Certificates portfolio (multiple college-specific tracks)",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://ai.ufl.edu/for-our-students/ai-majors-minors--certificates/"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "NVIDIA DGX B200 SuperPOD acquisition (HiPerGator 4)",
+      "amount_usd": 24000000,
+      "counterparty": "NVIDIA",
+      "date": "2024-12",
+      "evidence_url": "https://news.ufl.edu/2024/12/hipergator-upgrade/",
+      "summary": "UF Board of Trustees approved $24M to acquire an NVIDIA DGX B200 SuperPOD, making UF among the first universities with Blackwell-generation infrastructure."
+    },
+    {
+      "title": "HiPerGator 4 unveiling (total investment figure)",
+      "amount_usd": 33000000,
+      "counterparty": "NVIDIA",
+      "date": "2025-10",
+      "evidence_url": "https://news.ufl.edu/2025/10/hipergator-4-unveiling/",
+      "summary": "Unveiled October 14, 2025. 63 DGX B200 nodes, 504 Blackwell GPUs, 30x faster than prior generation, ranked #3 globally for speed on MLCommons. Nearly 7,000 users and 33M research requests annually; underpins 60% of UF's $1.33B research budget."
+    },
+    {
+      "title": "Original NVIDIA DGX A100 SuperPOD gift (foundation of AI University)",
+      "amount_usd": 50000000,
+      "counterparty": "NVIDIA / Chris Malachowsky",
+      "date": null,
+      "evidence_url": "https://ai.ufl.edu/about/building-an-ai-university/",
+      "summary": "Founding $50M NVIDIA DGX A100 SuperPOD donation (with NVIDIA cofounder and UF alumnus Chris Malachowsky) launched UF's AI University initiative in 2020 and drove hiring of 100+ AI faculty."
+    },
+    {
+      "title": "State of Florida AI investment",
+      "amount_usd": 18800000,
+      "counterparty": "State of Florida",
+      "date": "2023",
+      "evidence_url": "https://ai.ufl.edu/about/building-an-ai-university/",
+      "summary": "Florida legislature allocated $18.8M toward UF AI initiative; UF funded 15 AI projects across 10 colleges."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Donald W. Landry",
+      "role": "Interim President, University of Florida",
+      "date": "2025-10",
+      "context": "HiPerGator 4 unveiling",
+      "quote_or_summary": "'This land-grant institution has succeeded in what we want to see across the state... Vision, partnership and dedication have brought us here.'",
+      "evidence_url": "https://news.ufl.edu/2025/10/hipergator-4-unveiling/"
+    },
+    {
+      "speaker": "Mori Hosseini",
+      "role": "Chair, UF Board of Trustees",
+      "date": "2025-10",
+      "context": "HiPerGator 4 unveiling",
+      "quote_or_summary": "'Our dedication to AI is not merely fostering economic development, but also safeguarding lives, conserving resources, enhancing healthcare, and strengthening Florida.'",
+      "evidence_url": "https://news.ufl.edu/2025/10/hipergator-4-unveiling/"
+    },
+    {
+      "speaker": "Elias G. Eldayrie",
+      "role": "Senior VP and technology leader, University of Florida",
+      "date": null,
+      "context": "UF AI University narrative",
+      "quote_or_summary": "'Clean data is the oxygen of AI.' Eldayrie is credited with establishing UF's leadership position in AI in higher education.",
+      "evidence_url": "https://ai.ufl.edu/about/building-an-ai-university/"
+    },
+    {
+      "speaker": "UF Provost (via Florida BoG coverage)",
+      "role": "Provost, University of Florida",
+      "date": "2026-03",
+      "context": "Florida Board of Governors AI discussion",
+      "quote_or_summary": "UF's Provost stated there is no practical way for the Board of Governors to impose a uniform AI policy across all Florida public universities, suggesting a decentralized, institution-led approach.",
+      "evidence_url": "https://floridaphoenix.com/2026/03/26/university-leaders-grapple-with-the-upside-and-downside-of-ai/"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Florida",
+    "has_state_ai_executive_order": false,
+    "has_higher_ed_system_ai_policy": false,
+    "summary": "Florida has no state executive order on AI specifically targeting higher education. Gov. DeSantis announced a proposed 'AI Bill of Rights' (SB 482) for the 2026 legislative session focused on consumer protections, deepfakes, and child safety. The Florida Board of Governors has a newly-formed Task Force on Artificial Intelligence and Cybersecurity (chaired by Ed Haddock) compiling near-term recommendations for the State University System; as of March 2026 no uniform BoG AI policy has been adopted and UF's provost publicly expressed skepticism about system-wide uniformity. Florida has also engaged with the Trump administration's December 2025 AI executive order that seeks to curb state AI regulation, creating state-federal tension.",
+    "evidence_urls": [
+      "https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-proposal-citizen-bill-rights-artificial",
+      "https://floridaphoenix.com/2026/03/26/university-leaders-grapple-with-the-upside-and-downside-of-ai/",
+      "https://www.wlrn.org/2025-12-22/ai-bill-of-rights-emerges-in-florida-senate"
+    ]
+  },
+  "litigation_or_controversy": null,
+  "narrative_summary": "UF is the most aggressive AI positioning in the sector and a national benchmark. The posture dates to 2020 with a $50M NVIDIA DGX A100 SuperPOD gift from alumnus/NVIDIA cofounder Chris Malachowsky, which seeded the 'AI University' brand, 'AI Across the Curriculum' in all 16 colleges (200+ courses, 12,000+ students annually), and hiring of 100+ AI faculty. In October 2025 UF unveiled HiPerGator 4, a $33M NVIDIA DGX B200 Blackwell SuperPOD ranked #3 globally on MLCommons speed — the fastest university-owned supercomputer in the U.S. Enterprise AI is delivered via two tracks: 'UF GPT' (Microsoft 365 Copilot with Enterprise Data Protection, campus-wide via GatorLink) and 'NaviGator AI,' UFIT's self-service in-house platform (launched July 2024) spanning chat, assistant-building, analytics, tutoring, and prompt engineering, described as the first comprehensive self-service AI platform in U.S. higher ed. Governance is distributed: Privacy Office guidance, a faculty Working Group in AI Ethics and Policy, an AI Blue Sky Task Force (2025 strategic report), the AI2 Center, and technology leader Elias Eldayrie at UFIT. UF has no publicly named dedicated AI leader. Florida's Board of Governors is only now forming system-level AI posture, and UF's provost publicly opposes uniform state-system policy — meaning UF is effectively setting the ceiling that peers (including the institution) will be benchmarked against. For the institution: watch UF's NaviGator model as a build-vs-buy case study, and Florida's pending AI Bill of Rights (SB 482) as a regional regulatory signal.",
+  "confidence_notes": "HIGH confidence on infrastructure (HiPerGator, NVIDIA partnership), vendor deployments, academic programs, and leadership names — all from ufl.edu primary sources. MEDIUM on specific launch dates for UF GPT/Copilot (not found; only NaviGator has a July 2024 launch reference). Exact user counts for Copilot and total AI-related spend beyond HiPerGator not disclosed. No 'dedicated AI leader' title exists at UF; AI leadership is distributed across Provost, technology leader, and the AI2 Center. Florida Board of Governors AI policy is in formation (March 2026); no final system-wide policy adopted. No litigation or controversy surfaced in searches. Policy adopted_date left null — UF's privacy/AI guidance page does not display a formal adoption date.",
+  "sources": [
+    "https://ai.ufl.edu/",
+    "https://ai.ufl.edu/about/",
+    "https://ai.ufl.edu/about/building-an-ai-university/",
+    "https://ai.ufl.edu/about/ai-ethics/",
+    "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/",
+    "https://ai.ufl.edu/teaching-with-ai/for-uf-faculty/working-group-in-ai-ethics-and-policy/",
+    "https://ai.ufl.edu/teaching-with-ai/for-uf-faculty/navigator/",
+    "https://ai.ufl.edu/for-our-students/ai-majors-minors--certificates/",
+    "https://ai.ufl.edu/students/ai-student-advisory-council/",
+    "https://ai.ufl.edu/research/ai-support/nvidia-partnership/",
+    "https://privacy.ufl.edu/laws-and-regulations/ai-governance/",
+    "https://it.ufl.edu/ai/",
+    "https://it.ufl.edu/ai/microsoft-copilot/",
+    "https://it.ufl.edu/ai/navigator-toolkit/",
+    "https://it.ufl.edu/about-ufit/organization/office-of-the-cio/",
+    "https://guides.uflib.ufl.edu/artificialintelligence/ufaiapps",
+    "https://catalog.ufl.edu/UGRD/colleges-schools/UGENG/ENG_UCT12/",
+    "https://catalog.ufl.edu/UGRD/academic-programs/AI/",
+    "https://news.ufl.edu/2024/12/hipergator-upgrade/",
+    "https://news.ufl.edu/2025/01/fastest-academic-supercomputer-arrives-at-uf/",
+    "https://news.ufl.edu/2025/05/the-fourth-generation-model-of-ufs-hipergator/",
+    "https://news.ufl.edu/2025/10/hipergator-4-unveiling/",
+    "https://news.ufl.edu/2026/04/ai-rule-making-dashboard/",
+    "https://president.ufl.edu/about/",
+    "https://president.ufl.edu/cabinet/",
+    "https://aa.ufl.edu/about-the-office/leadership/biography/elias-g-eldayrie.html",
+    "https://ir.aa.ufl.edu/facts/enrollment/",
+    "https://developer.nvidia.com/blog/uf-launches-ai-partnership-with-nvidia/",
+    "https://campustechnology.com/articles/2024/12/16/university-of-florida-invests-in-supercomputer-upgrade-for-ai-research.aspx",
+    "https://pureai.com/articles/2024/12/15/university-of-florida-hipergator-upgrade.aspx",
+    "https://narratives.insidehighered.com/university-florida-building-ai-university/",
+    "https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-proposal-citizen-bill-rights-artificial",
+    "https://www.wlrn.org/2025-12-22/ai-bill-of-rights-emerges-in-florida-senate",
+    "https://floridaphoenix.com/2026/03/26/university-leaders-grapple-with-the-upside-and-downside-of-ai/",
+    "https://www.govtech.com/education/higher-ed/florida-university-provosts-expect-major-changes-with-ai",
+    "https://www.alligator.org/article/2024/09/what-has-uf-been-doing-with-ai-so-far",
+    "https://neuron.expert/news/uf-unveils-navigator-ai-higher-eds-first-comprehensive-self-service-ai-platform/8334/en/"
+  ],
+  "researched_on": "2026-04-16"
+}

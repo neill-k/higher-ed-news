@@ -1,0 +1,812 @@
+{
+  "institution": "Montana State University",
+  "slug": "montana-state-university",
+  "city_state": "Bozeman, MT",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 17000,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Waded Cruzado",
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Montana State University public AI posture sources",
+        "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html",
+        "year": 2026
+      }
+    ],
+    "summary": "Montana State's public AI posture centers on faculty scholarship support, MSU Library/Research CyberInfrastructure collaboration, a graduate AI certificate, and AI/ML work in Montana NSF EPSCoR."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html",
+      "https://www.montana.edu/academics/artificial-intelligence-graduate/",
+      "https://www.mtnsfepscor.org/smart-fires/aiml"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use institutionally reviewed AI tools for sensitive university work.",
+      "Protect restricted, confidential, student, personnel, and research data when using AI tools.",
+      "Verify AI output and keep humans accountable for academic, administrative, and research decisions."
+    ],
+    "summary": "Montana State University's public AI policy posture is cautious and emphasizes responsible use, privacy, and human accountability based on reviewed sources."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Montana NSF EPSCoR AIML team",
+        "type": "office",
+        "scope": "Montana State's public AI posture centers on faculty scholarship support, MSU Library/Research CyberInfrastructure collaboration, a graduate AI certificate, and AI/ML work in Montana NSF EPSCoR.",
+        "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+      }
+    ],
+    "summary": "Governance appears distributed across AI-facing offices, centers, technology units, teaching units, or committees; no standalone chief AI officer was confirmed unless named in leadership."
+  },
+  "initiatives": [
+    {
+      "title": "Responsible AI guidance and governance",
+      "description": "Montana State University has public AI guidance, governance, or strategy resources that frame responsible adoption, privacy, academic integrity, and human oversight.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_implications": "Requires privacy, academic-integrity, and human-oversight controls as AI use scales.",
+      "source_urls": [
+        "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html",
+        "https://www.montana.edu/academics/artificial-intelligence-graduate/"
+      ],
+      "policy_stance": "cautious"
+    },
+    {
+      "title": "AI tools and campus enablement",
+      "description": "Montana State University provides public AI support channels, guidance, or enablement even where no single enterprise platform contract was found.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html",
+        "https://www.mtnsfepscor.org/smart-fires/aiml"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence graduate certificate",
+      "description": "Montana State University offers AI-related coursework, certificates, minors, degrees, or faculty-development resources that build AI literacy and discipline-specific AI capability.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+      ]
+    },
+    {
+      "title": "Montana NSF EPSCoR AIML team",
+      "description": "Montana State University has visible AI research activity through centers, institutes, labs, or funded projects spanning machine learning, data science, domain applications, or responsible AI.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+      ]
+    },
+    {
+      "title": "Student AI literacy and support",
+      "description": "Montana State University points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "career_and_workforce_readiness",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html",
+        "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+      ]
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Montana State University connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.montana.edu/research/",
+        "https://archive.legmt.gov/content/Committees/Interim/2025-2026/EDIC/March-2026/2.MTDA-External-Briefing-on-Artificial-Intelligence-in-Education.pdf"
+      ]
+    },
+    {
+      "title": "CatChat on-premise generative AI portal",
+      "description": "CatChat is a free generative AI portal for all MSU students, faculty, and staff, hosted on MSU systems and powered by the Tempest supercomputer.",
+      "significance": "This closes Montana State’s platform gap with a campus-wide, institution-hosted LLM service rather than only external tools.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_privacy_and_security",
+        "personalized_student_support",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Technology fees",
+        "description": "Access and security page says CatChat is free to faculty, staff, and students and supported by technology fees; no total cost disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Institution-hosted service maintained by MSU Research Computing."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Montana State University RCI",
+          "name": "CatChat",
+          "role": "on-premise LLM portal"
+        },
+        {
+          "vendor": "OpenAI / Mistral AI / Google",
+          "name": "gpt-oss, Mistral, Gemma models",
+          "role": "models available inside CatChat"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Keeps data in-house and approves public/restricted data use under MSU data stewardship standards.",
+      "source_urls": [
+        "https://www.montana.edu/uit/rci/catchat/catchat.html",
+        "https://www.montana.edu/uit/rci/catchat/access-and-security.html"
+      ]
+    },
+    {
+      "title": "Provost AI resources and Copilot options",
+      "description": "MSU Provost AI resources identify CatChat, Microsoft Copilot Chat, and paid Microsoft 365 Copilot, including a public $216 per-user annual price for the enhanced Copilot tier.",
+      "significance": "This closes part of the platform/cost gap with specific tool and pricing evidence.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 216,
+        "funding_source": "Per-user department or individual Microsoft 365 Copilot cost",
+        "description": "MSU lists Microsoft 365 Copilot as available at an additional cost of $216 per user per year."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "MSU lists Microsoft Copilot tools as part of the institutional AI resource menu."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Microsoft",
+          "name": "Microsoft Copilot Chat / Microsoft 365 Copilot",
+          "role": "AI assistant options in the MSU tool portfolio"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Encourages tool selection based on data sensitivity and workflow needs.",
+      "source_urls": [
+        "https://www.montana.edu/provost/faculty/AI.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Montana NSF EPSCoR AIML team",
+      "focus": "AI/ML for SMART FIRES research",
+      "founded": null,
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence graduate certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Montana State University Research Computing Infrastructure",
+      "product": "CatChat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.montana.edu/uit/rci/catchat/catchat.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.montana.edu/provost/faculty/AI.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.montana.edu/provost/faculty/AI.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Tempest",
+    "gpu_count": null,
+    "url": "https://www.montana.edu/uit/rci/catchat/catchat.html",
+    "summary": "MSU CatChat is maintained by Research Computing with computational resources provided by the Tempest supercomputer, which the public pages describe as powering the on-premise generative AI service; a public total GPU count for Tempest was not found in this sweep."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "Montana NSF EPSCoR AIML team",
+      "date": null,
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "AI workforce, partnership, and public-impact activity",
+      "date": null,
+      "url": "https://www.montana.edu/research/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Responsible AI guidance and governance",
+      "scope": "students",
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    },
+    {
+      "type": "other",
+      "name": "AI tools and campus enablement",
+      "scope": "students",
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    },
+    {
+      "type": "other",
+      "name": "Artificial Intelligence graduate certificate",
+      "scope": "students",
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Student AI literacy and support",
+      "description": "Montana State University points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Montana State University connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "url": "https://www.montana.edu/research/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "MT",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "State/system context was checked for MT. Relevant public AI or system governance links are included where found.",
+    "urls": [
+      "https://archive.legmt.gov/content/Committees/Interim/2025-2026/EDIC/March-2026/2.MTDA-External-Briefing-on-Artificial-Intelligence-in-Education.pdf"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Montana State University is an R1 institution whose public AI posture is best understood as follows: Montana State's public AI posture centers on faculty scholarship support, MSU Library/Research CyberInfrastructure collaboration, a graduate AI certificate, and AI/ML work in Montana NSF EPSCoR. The evidence touches governance and policy, teaching and learning, research and innovation, enterprise enablement, student experience, workforce development, and equity or public-impact dimensions. The strongest public sources are first-party AI hubs, guidance pages, research center pages, academic-program materials, and state or system policy resources. Compared with the most centralized AI adopters, several details remain opaque, including named executive AI ownership, exact enterprise user counts, and total AI spending. Even so, the reviewed public record supports a medium-confidence assessment that AI is moving into curriculum, research infrastructure, technology governance, and student or workforce-facing programs rather than remaining purely ad hoc.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html",
+      "https://www.montana.edu/academics/artificial-intelligence-graduate/",
+      "https://www.mtnsfepscor.org/smart-fires/aiml",
+      "https://www.montana.edu/uit/",
+      "https://www.montana.edu/research/",
+      "https://archive.legmt.gov/content/Committees/Interim/2025-2026/EDIC/March-2026/2.MTDA-External-Briefing-on-Artificial-Intelligence-in-Education.pdf",
+      "https://www.montana.edu/uit/rci/catchat/catchat.html",
+      "https://www.montana.edu/uit/rci/catchat/access-and-security.html",
+      "https://www.montana.edu/provost/faculty/AI.html"
+    ],
+    "search_queries": [
+      "Montana State University artificial intelligence strategy guidance",
+      "Montana State University generative AI policy faculty students",
+      "Montana State University AI research center program",
+      "Montana State University AI computing infrastructure partnership",
+      "site:montana.edu Montana State University AI Copilot Gemini ChatGPT tools faculty students",
+      "site:montana.edu Montana State University CatChat Copilot Tempest GPU artificial intelligence"
+    ],
+    "gaps_acknowledged": [
+      "No public chief AI officer was confirmed in reviewed sources.",
+      "No total institution-wide AI investment amount was found.",
+      "Exact enterprise AI user counts or contract values were usually not public.",
+      "MSU now discloses an on-premise CatChat platform and Microsoft 365 Copilot per-user cost, but public sources still do not disclose CatChat usage counts or Tempest GPU totals.",
+      "Worker 3 did not find public student subgroup outcome measures for CatChat or AI literacy resources."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "platform_first",
+        "governance_led",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 15,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 2,
+        "governance_led": 10,
+        "student_success_led": 7,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Tempest",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 216,
+      "funding_source_buckets": {
+        "other_unclear": 5,
+        "institutional": 1,
+        "public_federal_state": 1,
+        "industry_vendor": 1
+      },
+      "partnership_count": 2
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft Copilot Chat",
+            "Microsoft Copilot Chat / Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "gpt-oss, Mistral, Gemma models"
+          ]
+        },
+        {
+          "vendor": "Montana State University RCI CatChat",
+          "mentions": 1,
+          "products": [
+            "CatChat"
+          ]
+        },
+        {
+          "vendor": "Montana State University Research Computing Infrastructure CatChat",
+          "mentions": 1,
+          "products": [
+            "CatChat"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Responsible AI guidance and governance",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI tools and campus enablement",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Artificial Intelligence graduate certificate",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Montana NSF EPSCoR AIML team",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Student AI literacy and support",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.montana.edu/facultyexcellence/ai/ai_research/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI workforce, partnership, and public-impact activity",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.montana.edu/research/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Provost AI resources and Copilot options",
+          "summary": "This closes part of the platform/cost gap with specific tool and pricing evidence.",
+          "source_url": "https://www.montana.edu/provost/faculty/AI.html"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 5,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "No public chief AI officer was confirmed in reviewed sources.",
+        "No total institution-wide AI investment amount was found.",
+        "Exact enterprise AI user counts or contract values were usually not public.",
+        "MSU now discloses an on-premise CatChat platform and Microsoft 365 Copilot per-user cost, but public sources still do not disclose CatChat usage counts or Tempest GPU totals.",
+        "Worker 3 did not find public student subgroup outcome measures for CatChat or AI literacy resources."
+      ]
+    }
+  }
+}

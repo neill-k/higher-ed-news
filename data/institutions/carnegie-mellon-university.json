@@ -1,0 +1,1736 @@
+{
+  "institution": "Carnegie Mellon University",
+  "slug": "carnegie-mellon-university",
+  "city_state": "Pittsburgh, PA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 16676,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Farnam Jahanian",
+      "url": "https://www.cmu.edu/leadership/president/bio"
+    },
+    "provost": {
+      "name": "James H. Garrett Jr.",
+      "url": "https://www.cmu.edu/leadership/the-provost/"
+    },
+    "cio": {
+      "name": "Stan Waddell",
+      "url": "https://www.cmu.edu/cio/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Theresa Mayer",
+      "title": "Vice President for Research",
+      "url": "https://www.cmu.edu/leadership/senior-admin/index.html"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI at CMU — institutional AI portal (research and education strategy)",
+        "url": "https://ai.cmu.edu/",
+        "year": 2024
+      },
+      {
+        "title": "AI at CMU — Curriculum and learning",
+        "url": "https://ai.cmu.edu/curriculum",
+        "year": 2024
+      },
+      {
+        "title": "AI at CMU — Research and policy impact",
+        "url": "https://ai.cmu.edu/research-and-policy-impact",
+        "year": 2024
+      },
+      {
+        "title": "A Preliminary Report on a Model for Maturing AI Adoption (CMU Software Engineering Institute)",
+        "url": "https://www.sei.cmu.edu/library/aimaturitymodel-overview/",
+        "year": 2025
+      }
+    ],
+    "summary": "CMU frames its AI posture through the university-wide AI at CMU portal, which organizes the institution's work around three pillars: pioneering safe AI technologies, embedding human-centered design in autonomous systems, and directing AI toward societal benefit. Rather than publishing a single 'AI strategy' PDF, CMU articulates its plan through interlocking programs: AI for Science, Responsible AI via the Block Center, the K&L Gates ethics initiative, industry co-located labs (BNY, Amazon, NVIDIA), and a continuously expanding degree portfolio. The Software Engineering Institute separately publishes an AI Maturity Model (2025) used by federal and industry adopters, signaling CMU's role as a reference source for sector-wide AI adoption practice."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html",
+      "https://www.cmu.edu/teaching/technology/aitools/index.html",
+      "https://www.cmu.edu/teaching/technology/aitools/academicintegrity/index.html",
+      "https://www.cmu.edu/leadership/the-provost/campus-comms/2023/2023-08-29.html",
+      "https://www.cmu.edu/career/students-and-alumni/resource-library/ai-guidance/index.html"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Five vetted, SSO-protected generative AI tools (ChatGPT Edu, Google NotebookLM, Google Gemini, Microsoft Copilot Chat, Zoom AI Companion) are the only tools approved for CMU data",
+      "Instructors must define AI use expectations in each syllabus; academic integrity policy treats unauthorized AI as 'unauthorized assistance'",
+      "No CUI (Controlled Unclassified Information) in any generative AI tool; vendor safeguards required for other CMU data",
+      "FERPA, ADA, copyright, and data-classification compliance required before an instructor can require a tool",
+      "Human-in-the-loop review mandated for AI outputs",
+      "Eberly Center provides curated sample syllabus language across a spectrum from restrictive to generative AI-integrated"
+    ],
+    "summary": "CMU's policy is a comprehensive, layered framework rather than a single prohibitive or permissive rule. The central provost guidance (August 2023) anchors AI to the existing Academic Integrity Policy, the Office of the CIO maintains a vetted-tool list with enterprise data protections, and the Eberly Center publishes detailed faculty guidance including FERPA/ADA/privacy requirements and sample syllabus language. The stance is permissive at the course level (instructor discretion) but comprehensive at the institutional level (explicit ethics, privacy, and compliance scaffolding)."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Block Center for Technology and Society — Responsible AI Initiative",
+        "type": "office",
+        "scope": "University-wide initiative coordinating responsible AI research, policy engagement, and education across SCS, Heinz College, and engineering",
+        "url": "https://www.cmu.edu/block-center/responsible-ai/"
+      },
+      {
+        "name": "CMU-K&L Gates Initiative in Ethics and Computational Technologies",
+        "type": "office",
+        "scope": "Endowed initiative advancing research, faculty appointments, and fellowships on ethics of AI and computational technologies",
+        "url": "https://www.cmu.edu/ethics-ai/"
+      },
+      {
+        "name": "Office of the CIO — Generative AI program",
+        "type": "office",
+        "scope": "Operational AI tool vetting, procurement, licensing, and security guidance for campus-wide use",
+        "url": "https://www.cmu.edu/computing/services/ai/"
+      },
+      {
+        "name": "Eberly Center for Teaching Excellence — Generative AI teaching guidance",
+        "type": "office",
+        "scope": "Faculty-facing guidance, syllabus templates, GAITAR fellowship, and teaching-as-research support for AI in the classroom",
+        "url": "https://www.cmu.edu/teaching/technology/aitools/"
+      },
+      {
+        "name": "Office of the Vice President for Research",
+        "type": "office",
+        "scope": "Coordinates university-wide AI research strategy, industry partnerships (BNY, Amazon, NVIDIA), and cross-cutting initiatives like Keystone AI + Quantum Factory",
+        "url": "https://www.cmu.edu/research/"
+      }
+    ],
+    "summary": "CMU uses a distributed governance model rather than a single AI council. The Block Center runs the cross-university Responsible AI initiative, the K&L Gates Initiative anchors ethics research and faculty lines, the CIO's office governs operational AI tool deployment, the Eberly Center governs teaching-facing policy, and the VP for Research coordinates major industry partnerships. This polycentric approach reflects CMU's depth — multiple units with real authority — but means there is no single named Chief AI Officer."
+  },
+  "initiatives": [
+    {
+      "title": "Amazon-CMU AI Innovation Hub",
+      "description": "CMU and Amazon announced a strategic AI Innovation Hub spanning generative AI, robotics, NLP, and cloud computing research. The hub supports doctoral fellowships, joint research projects, and symposia, and was announced alongside Amazon's $20B Pennsylvania investment.",
+      "significance": "Sets a template for anchoring hyperscaler AI R&D around a single R1 partner, tying corporate cloud infrastructure investment to academic research capacity.",
+      "date_announced": "2025-10-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_vendor_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "robotics_and_physical_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Amazon",
+        "description": "'Substantial funding' for research projects, Ph.D. fellowships, and community-building initiatives; specific amount not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon",
+            "Amazon Web Services"
+          ],
+          "description": "Joint research hub with AWS Agentic AI leadership and CMU VP for Research"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AWS cloud services",
+          "vendor": "Amazon Web Services",
+          "role": "Compute and platform partner"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Industry-funded research with fellowship channels — raises standard IP and open-science questions but no public dispute reported",
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2025/october/amazon-and-carnegie-mellon-university-launch-strategic-ai-innovation-hub"
+      ]
+    },
+    {
+      "title": "BNY AI Lab at Carnegie Mellon",
+      "description": "BNY (Bank of New York Mellon) and CMU announced a five-year, $10M agreement to create the BNY AI Lab on CMU's Pittsburgh campus focused on governance, trust, and accountability for mission-critical AI. BNY is already the largest employer of CMU's M.S. in Artificial Intelligence & Innovation graduates.",
+      "significance": "Shows how a major financial institution is locating AI R&D physically on a university campus — a model for co-located industry labs at R1s.",
+      "date_announced": "2025-09-11",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 10000000,
+        "funding_source": "Bank of New York Mellon (BNY)",
+        "description": "$10 million over five years to fund research, cross-disciplinary courses, and talent recruitment"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "BNY (Bank of New York Mellon)"
+          ],
+          "description": "Dedicated physical lab on Pittsburgh campus with President Jahanian and BNY CEO Robin Vince signing"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Explicit focus on AI governance and accountability — academic-industry bridging of regulated-industry AI oversight practice",
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2025/september/bny-and-carnegie-mellon-university-join-forces-to-advance-ai-education-and-research",
+        "https://investingnews.com/bny-and-carnegie-mellon-university-join-forces-to-advance-research-and-development-in-ai/"
+      ]
+    },
+    {
+      "title": "NVIDIA AI Tech Community (CMU-led Joint Research Center)",
+      "description": "NVIDIA launched its first-of-its-kind AI Tech Community in Pittsburgh, anchored by two joint research centers — CMU leads the robotics/autonomy/AI center, Pitt leads AI and intelligent systems. Universities receive NVIDIA's latest AI software, Isaac Lab for robot learning, and Deep Learning Institute access.",
+      "significance": "Positions Pittsburgh (and CMU specifically) as NVIDIA's flagship academic robotics+AI community and establishes a replicable joint-center template with other cities.",
+      "date_announced": "2024-10-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NVIDIA",
+        "description": "In-kind access to NVIDIA software (Isaac Lab, NVAITC resources) plus research collaboration; specific dollar amount not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "University of Pittsburgh",
+            "Pittsburgh Robotics Network"
+          ],
+          "description": "First-of-its-kind NVIDIA AI Tech Community with Pennsylvania Gov. Shapiro, CMU President Jahanian, and NVIDIA federal VP at signing"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Isaac Lab",
+          "vendor": "NVIDIA",
+          "role": "Robot learning / sim-to-real platform"
+        },
+        {
+          "name": "NVAITC program",
+          "vendor": "NVIDIA",
+          "role": "AI Tech Center joint research framework"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2024/october/cmu-and-nvidia-to-lead-joint-research-center-for-robotics-autonomy-ai",
+        "https://www.cmu.edu/news/stories/archives/2024/october/nvidia-ai-tech-community-announced-in-pittsburgh",
+        "https://www.pittwire.pitt.edu/pittwire/features-articles/2024/10/15/nvidia-ai-tech-community"
+      ]
+    },
+    {
+      "title": "CMU/NIST AI Measurement Science & Engineering Cooperative Research Center (AIMSEC)",
+      "description": "NIST awarded CMU $6M to establish AIMSEC, a joint center for cooperative research and experimentation on testing and evaluation of modern AI capabilities — advancing measurement science across human services, education, finance, transportation, energy, and other domains.",
+      "significance": "Signals CMU's role as a federal anchor for AI evaluation and measurement standards at a moment when regulators and enterprises need independent benchmarking capacity.",
+      "date_announced": "2024-09-26",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 6000000,
+        "funding_source": "National Institute of Standards and Technology (NIST)",
+        "description": "$6M cooperative agreement to establish the AIMSEC joint center"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIST",
+            "U.S. Department of Commerce"
+          ],
+          "description": "Federal cooperative research center anchored at CMU Heinz College"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Directly supports federal AI risk-management and measurement infrastructure — feeds into NIST AI RMF implementation",
+      "source_urls": [
+        "https://www.nist.gov/news-events/news/2024/09/nist-awards-6-million-carnegie-mellon-university-establish-ai-cooperative",
+        "https://www.post-gazette.com/business/tech-news/2024/10/02/cmu-ai-research-institute-biden/stories/202410010090",
+        "https://www.heinz.cmu.edu/media/2024/September/nist-awards-6m-to-carnegie-mellon-university-to-establish-ai-cooperative-research-center"
+      ]
+    },
+    {
+      "title": "Robotics Innovation Center (RIC) opening",
+      "description": "CMU opened the 150,000 sq-ft Robotics Innovation Center in February 2026, designed to unite university, industry, and government researchers in robotics, automation, and AI. Features include wet labs, a 75,000-gallon water tank, drone cages, and corporate partner accommodations.",
+      "significance": "A major physical anchor for the U.S. robotics/physical-AI sector — co-located, mixed-use research real estate explicitly designed to accelerate spin-outs and keep talent in-region.",
+      "date_announced": "2026-02-27",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "ai_incubator_or_startup_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "agentic_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 46500000,
+        "funding_source": "Richard King Mellon Foundation ($45M) + Commonwealth of Pennsylvania ($1.5M)",
+        "description": "$45M lead grant from Richard King Mellon Foundation plus $1.5M Pennsylvania state investment for a Physical AI Accelerator; additional support from Heinz Endowments and Benedum Foundation"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Richard King Mellon Foundation",
+            "Commonwealth of Pennsylvania",
+            "Heinz Endowments",
+            "Benedum Foundation"
+          ],
+          "description": "Philanthropic and state investment anchoring regional robotics/AI ecosystem"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2026/february/cmus-robotics-innovation-center-fuels-pittsburghs-new-economic-renaissance",
+        "https://www.cmu.edu/ric/updates/opening.html"
+      ]
+    },
+    {
+      "title": "Keystone AI + Quantum Factory",
+      "description": "Seven Pennsylvania R1 universities (CMU, Drexel, Lehigh, Penn State, Temple, Penn, Pitt) plus the Pittsburgh Supercomputing Center and Team Pennsylvania launched a statewide innovation network translating AI and quantum research into practical solutions for PA's key industries, coordinating research, workforce development, and shared GPU/CPU infrastructure.",
+      "significance": "A rare multi-institution state-scale AI+quantum collaborative — provides a template for how a state can consolidate its R1 research capacity into a single innovation chassis.",
+      "date_announced": "2026-04-21",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "cross_border_research_alliance",
+        "ai_workforce_training",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "quantum_and_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Commonwealth of Pennsylvania (Shapiro administration) + participating universities",
+        "description": "State-endorsed multi-institutional network; funding figures not disclosed in launch materials"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Drexel University",
+            "Lehigh University",
+            "Pennsylvania State University",
+            "Temple University",
+            "University of Pennsylvania",
+            "University of Pittsburgh",
+            "Pittsburgh Supercomputing Center",
+            "Team Pennsylvania",
+            "Commonwealth of Pennsylvania"
+          ],
+          "description": "Seven PA R1s plus PSC and state economic development agencies"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Coordinated with PA Dept. of Community and Economic Development; ties directly to Shapiro administration's responsible-AI executive order",
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory"
+      ]
+    },
+    {
+      "title": "Google Cloud GPU cluster for CMU AI research",
+      "description": "CMU partnered with Google Public Sector (announced March 2025) to acquire a large cloud-based GPU cluster, significantly expanding HPC capacity for AI research, including safer AI systems, scientific models, and large-scale AI evaluations.",
+      "significance": "Marks a shift for R1 AI research toward hybrid on-prem + hyperscaler GPU capacity, reducing the 'GPU-poor university' constraint on frontier AI work.",
+      "date_announced": "2025-03-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "data_infrastructure_and_unification",
+        "computing_infrastructure",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Google Public Sector + CMU",
+        "description": "Large cloud-based GPU cluster — specific dollar figure not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google",
+            "Google Public Sector"
+          ],
+          "description": "Cloud GPU capacity for AI research including safety and evaluations"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Google Cloud GPU cluster",
+          "vendor": "Google",
+          "role": "HPC / AI training infrastructure"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.hpcwire.com/off-the-wire/carnegie-mellon-expands-ai-research-with-google-powered-cloud-gpu-cluster/"
+      ]
+    },
+    {
+      "title": "Bridges-2 NVIDIA H100 upgrade at Pittsburgh Supercomputing Center",
+      "description": "A $4.9M NSF award funds a major enhancement to the Bridges-2 supercomputer at PSC (joint CMU/Pitt center), adding NVIDIA H100 GPUs to expand AI and HPC research capacity for the national research community.",
+      "significance": "One of the few NSF-funded academic AI clusters with H100 capacity serving a national user base — underpins federal open-science AI workloads.",
+      "date_announced": "2024-08-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4900000,
+        "funding_source": "National Science Foundation",
+        "description": "$4.9M NSF award to enhance Bridges-2 with NVIDIA H100 GPUs"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "University of Pittsburgh",
+            "Pittsburgh Supercomputing Center"
+          ],
+          "description": "Federally funded shared HPC at jointly operated CMU/Pitt supercomputing center"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Bridges-2 (with NVIDIA H100)",
+          "vendor": "NVIDIA / PSC",
+          "role": "National HPC resource for AI research"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.cmu.edu/mcs/news-events/2024/0814-4-9-million-nsf-award-funds-major-enhancement-to-bridges-2-system",
+        "https://www.cmu.edu/news/stories/archives/2024/august/49m-nsf-award-funds-major-enhancement-to-bridges-2-system"
+      ]
+    },
+    {
+      "title": "NSF Institute for Computer-Aided Reasoning in Mathematics (ICARM)",
+      "description": "CMU leads a new NSF-funded, Simons Foundation-supported institute helping mathematicians use AI to accelerate reasoning and problem-solving across cybersecurity, finance, space, and health care. One of six national mathematics institutes in the NSF cohort.",
+      "significance": "Institutionalizes AI-for-mathematics as a discipline-shaping research program; likely to feed formal-methods and proof-assistant AI into downstream disciplines.",
+      "date_announced": "2025-08-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "National Science Foundation + Simons Foundation",
+        "description": "Part of NSF's $74M total award across six mathematics institutes; ICARM-specific share not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "Simons Foundation",
+            "University of South Carolina",
+            "Georgia Gwinnett College"
+          ],
+          "description": "NSF-funded three-year pilot led by Prof. Jeremy Avigad"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2025/august/new-nsf-institute-at-cmu-will-help-mathematicians-harness-ai-and-advance-discoveries",
+        "https://www.wesa.fm/education/2025-08-11/carnegie-mellon-math-research-ai-nsf"
+      ]
+    },
+    {
+      "title": "Learnvia AI-enabled learning collaborative",
+      "description": "CMU announced Learnvia (January 2026), a nonprofit learning collaborative using AI-enabled courseware (including an AI tutor, discussion forums, homework and quizzes) to improve outcomes in high-enrollment gateway courses, starting with Calculus I. Backed by a $55M Gates Foundation grant — the largest grant to a single entity in the foundation's higher ed portfolio.",
+      "significance": "A defining example of AI-native gateway-course redesign at scale — spans 38 institutions from community colleges to large publics and directly targets the ~30% gateway-course attrition problem.",
+      "date_announced": "2026-01-29",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_enhanced_pedagogy",
+        "personalized_student_support",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 55000000,
+        "funding_source": "Bill & Melinda Gates Foundation",
+        "description": "$55M grant — largest single-entity grant in Gates Foundation higher-ed portfolio"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Bill & Melinda Gates Foundation",
+            "38 partner higher-ed institutions (community colleges through large public research universities)"
+          ],
+          "description": "Nonprofit spun out of CMU learning-engineering research"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Learnvia AI tutor",
+          "vendor": "Learnvia (CMU-founded nonprofit)",
+          "role": "Courseware + AI tutor for gateway courses"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a sector expectation that AI-native gateway redesign must be measured against learning-outcome evidence, not just adoption metrics",
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2026/January/learnvia"
+      ]
+    },
+    {
+      "title": "Campus AI tool rollout — five vetted generative AI tools",
+      "description": "CMU's Office of the CIO provides campus-wide access to five vetted generative AI tools (ChatGPT Edu, Google NotebookLM, Google Gemini, Microsoft Copilot Chat, Zoom AI Companion), all accessed via Andrew SSO with enterprise data protections including FERPA-compliant handling and no training on user prompts.",
+      "significance": "A multi-vendor (rather than single-vendor) enterprise AI baseline — demonstrates that many R1s prefer a portfolio to a single platform standard.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CMU Computing Services",
+        "description": "Enterprise licensing and security vetting across five vendors"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Google",
+            "Microsoft",
+            "Zoom"
+          ],
+          "description": "Enterprise agreements with vendor data-protection commitments"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Vetted campus-wide generative AI"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Vetted research/study AI"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Vetted general-purpose AI"
+        },
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Vetted campus-wide generative AI"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting-embedded AI summarization"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a vetted-tool baseline that instructors can require; unvetted tools cannot be mandated under FERPA guidance",
+      "source_urls": [
+        "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html",
+        "https://www.cmu.edu/computing/services/ai/tools/copilot/ms-copilot-how-to.html",
+        "https://www.cmu.edu/computing/software/titles/copilot/index.html"
+      ]
+    },
+    {
+      "title": "Generative AI Teaching as Research (GAITAR) Fellowship",
+      "description": "Eberly Center fellowship awarding $5,000 plus in-kind support to faculty implementing a generative-AI teaching innovation in a CMU course, with required measurement of impact on student learning. Operates as part of CMU's broader teaching-as-research program.",
+      "significance": "Institutionalizes a 'measure what you deploy' norm for classroom AI — one of the cleanest examples of a university treating AI pedagogy as an empirical research program.",
+      "date_announced": "2023-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Eberly Center / Provost",
+        "description": "$5,000 stipends per fellow plus Eberly staff support"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal CMU initiative"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Normalizes empirical measurement of AI-in-classroom impact",
+      "source_urls": [
+        "https://www.cmu.edu/teaching/facultyprograms/index.html",
+        "https://seminars.eberly.cmu.edu/",
+        "https://www.cmu.edu/teaching/technology/aitools/index.html"
+      ]
+    },
+    {
+      "title": "K&L Gates Presidential Fellowship in Ethics and Computational Technologies",
+      "description": "Endowed fellowship (part of a $10M K&L Gates gift establishing the K&L Gates Endowment for Ethics and Computational Technologies) funding up to three doctoral students per year whose research addresses fairness, autonomy, accountability, and human-AI interaction.",
+      "significance": "One of the most substantial endowed investments in AI ethics pipeline-building at any U.S. R1; shapes the long-term supply of AI-ethics researchers.",
+      "date_announced": "2024-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_research_center",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 10000000,
+        "funding_source": "K&L Gates (global law firm)",
+        "description": "$10M gift establishing endowment for faculty lines, fellowships, and biennial AI ethics conference"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "K&L Gates LLP"
+          ],
+          "description": "Law-firm-funded endowment spanning SCS, Dietrich College, and Heinz College"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors CMU's ethics research pipeline; faculty regularly consulted by federal and state regulators",
+      "source_urls": [
+        "https://www.cmu.edu/ethics-ai/",
+        "https://www.cmu.edu/ethics-ai/news/2025-fellows.html",
+        "https://philanthropynewsdigest.org/news/carnegie-mellon-receives-10-million-for-ai-computer-ethics-research"
+      ]
+    },
+    {
+      "title": "Pennsylvania AI advisory services agreement",
+      "description": "Gov. Shapiro's administration signed a cooperative agreement with CMU (Block Center) providing state-level AI advisory services — helping PA develop AI policy, conduct risk assessments, and govern state use of generative AI. CMU also helped design and evaluate the PA/OpenAI ChatGPT Enterprise pilot (175 employees across 14 agencies).",
+      "significance": "A rare case of a state government embedding an R1 university as its ongoing AI advisory backbone — not just a one-off contract.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Commonwealth of Pennsylvania",
+        "description": "Cooperative agreement; amount not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Pennsylvania",
+            "Governor's Office",
+            "Pennsylvania Office of Administration"
+          ],
+          "description": "CMU Block Center serves as PA's academic AI advisor"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Enterprise (pilot)",
+          "vendor": "OpenAI",
+          "role": "State-government AI pilot tool"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Directly shapes Pennsylvania's Executive Order 2023-19 implementation and state AI governance",
+      "source_urls": [
+        "https://statescoop.com/pennsylvania-taps-carnegie-mellon-university-for-ai-advisory-services/",
+        "https://www.pa.gov/governor/newsroom/2025-press-releases/-shapiro-administration-leads-the-way-in-ethical-use-of-ai",
+        "https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai"
+      ]
+    },
+    {
+      "title": "AI for Science initiative",
+      "description": "University-wide research initiative housing the AI Science Foundry (autonomous AI-guided experimentation across materials, chemistry, biology) and the Keystone Astronomy & AI (KAAI) Visiting Fellows Program (Simons-supported postdoc residency at the McWilliams Center).",
+      "significance": "Positions CMU as a national hub for AI-driven science across multiple domains with both compute-scale and experimental-facility depth.",
+      "date_announced": "2024-06-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF, Simons Foundation, CMU",
+        "description": "Multi-source federal and philanthropic funding across programs"
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "Simons Foundation",
+            "international KAAI fellows",
+            "NSF"
+          ],
+          "description": "Fellowship and residency program with mentorship pairing AI/statistics and astrophysics experts"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.cmu.edu/research-and-policy-impact/ai-for-science",
+        "https://ai-science-foundry.cmu.edu/",
+        "https://www.cmu.edu/news/stories/archives/2026/april/carnegie-mellon-launches-new-effort-to-advance-ai-driven-astronomy"
+      ]
+    },
+    {
+      "title": "B.S. in Artificial Intelligence — the first AI bachelor's degree in the U.S.",
+      "description": "CMU's School of Computer Science offers the first undergraduate B.S. in Artificial Intelligence in the U.S., launched fall 2018. The curriculum spans computer science, math, statistics, computational modeling, machine learning, and symbolic computation, alongside a minor, additional major, and graduate certificates in Generative AI.",
+      "significance": "The benchmark undergraduate AI program in U.S. higher ed — a reference point that other institutions model their AI degrees against.",
+      "date_announced": "2018-05-10",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CMU School of Computer Science",
+        "description": "Core operating program; operational since 2018"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Institutional program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.cs.cmu.edu/bs-in-artificial-intelligence/",
+        "https://www.cmu.edu/admission/majors-programs/school-of-computer-science/artificial-intelligence",
+        "https://ai.cmu.edu/curriculum"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "CMU/NIST AI Measurement Science & Engineering Cooperative Research Center (AIMSEC)",
+      "focus": "Measurement science and evaluation of modern AI systems across domains including human services, education, finance, transportation, and energy",
+      "founded": "2024",
+      "url": "https://www.nist.gov/news-events/news/2024/09/nist-awards-6-million-carnegie-mellon-university-establish-ai-cooperative"
+    },
+    {
+      "name": "Block Center for Technology and Society — Responsible AI Initiative",
+      "focus": "Fairness, accountability, transparency, and ethics in AI, with translation to policy and practice",
+      "founded": "2022",
+      "url": "https://www.cmu.edu/block-center/responsible-ai/"
+    },
+    {
+      "name": "CMU-K&L Gates Initiative in Ethics and Computational Technologies",
+      "focus": "Ethics of AI and computational technologies; fairness, autonomy, accountability",
+      "founded": "2016",
+      "url": "https://www.cmu.edu/ethics-ai/"
+    },
+    {
+      "name": "Institute for Computer-Aided Reasoning in Mathematics (ICARM)",
+      "focus": "AI-assisted mathematical reasoning; applications to cybersecurity, finance, space, health care",
+      "founded": "2025",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/august/new-nsf-institute-at-cmu-will-help-mathematicians-harness-ai-and-advance-discoveries"
+    },
+    {
+      "name": "Robotics Innovation Center (RIC)",
+      "focus": "Robotics, automation, physical AI, and industry-academic collaboration",
+      "founded": "2026",
+      "url": "https://www.cmu.edu/ric/updates/opening.html"
+    },
+    {
+      "name": "NVIDIA AI Tech Center at CMU (NVAITC — robotics, autonomy, AI)",
+      "focus": "Joint robotics/autonomy/AI research with NVIDIA, part of the Pittsburgh AI Tech Community",
+      "founded": "2024",
+      "url": "https://www.cmu.edu/news/stories/archives/2024/october/cmu-and-nvidia-to-lead-joint-research-center-for-robotics-autonomy-ai"
+    },
+    {
+      "name": "BNY AI Lab at CMU",
+      "focus": "Governance, trust, and accountability in mission-critical AI; financial AI research and education",
+      "founded": "2025",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/september/bny-and-carnegie-mellon-university-join-forces-to-advance-ai-education-and-research"
+    },
+    {
+      "name": "CMU-Amazon AI Innovation Hub",
+      "focus": "Generative AI, robotics, NLP, and cloud computing research",
+      "founded": "2025",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/october/amazon-and-carnegie-mellon-university-launch-strategic-ai-innovation-hub"
+    },
+    {
+      "name": "Human-Centered AI Research Center (with Seoul National University)",
+      "focus": "Human-centered AI; joint center opened 2025 in Seoul",
+      "founded": "2025",
+      "url": "https://www.eurekalert.org/news-releases/1081845"
+    },
+    {
+      "name": "AI Science Foundry",
+      "focus": "AI-guided autonomous experimentation across hard materials, chemistry, and biology",
+      "founded": null,
+      "url": "https://ai-science-foundry.cmu.edu/"
+    },
+    {
+      "name": "Software Engineering Institute (SEI) — AI work",
+      "focus": "AI engineering, AI maturity model, federal AI acquisition and adoption",
+      "founded": "1984",
+      "url": "https://www.sei.cmu.edu/library/aimaturitymodel-overview/"
+    },
+    {
+      "name": "Pittsburgh Supercomputing Center (PSC) — joint CMU/Pitt",
+      "focus": "National HPC including NSF-funded Bridges-2 with NVIDIA H100 GPUs supporting AI research",
+      "founded": "1986",
+      "url": "https://www.psc.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "B.S. in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": "2018-08",
+      "url": "https://www.cs.cmu.edu/bs-in-artificial-intelligence/"
+    },
+    {
+      "type": "minor",
+      "name": "Minor in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://ai.cmu.edu/curriculum"
+    },
+    {
+      "type": "concentration",
+      "name": "Additional Major in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/artificialintelligence/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence and Innovation (MSAII)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://msaii.cs.cmu.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in AI Systems Management (Heinz College)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.heinz.cmu.edu/programs/artificial-intelligence-masters/"
+    },
+    {
+      "type": "certificate",
+      "name": "Online Graduate Certificate in Managing AI Systems (MAIS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cmu.edu/online/mais/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Generative AI (SCS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.cmu.edu/bs-in-artificial-intelligence/"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in AI Engineering (College of Engineering / MSAI-ETIM and related)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.topuniversities.com/universities/carnegie-mellon-university/college-engineering-public-policy/postgrad/master-science-degree-artificial-intelligence-engineering"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat (with enterprise data protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.cmu.edu/computing/services/ai/tools/copilot/ms-copilot-how-to.html"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (web app, via Andrew SSO)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Bridges-2 (at Pittsburgh Supercomputing Center) + TRACE (College of Engineering) + Google Cloud GPU cluster",
+    "gpu_count": null,
+    "url": "https://www.psc.edu/",
+    "summary": "CMU operates a layered AI compute stack: the NSF-funded Bridges-2 supercomputer at the Pittsburgh Supercomputing Center (joint CMU/Pitt) was upgraded with NVIDIA H100 GPUs in 2024 via a $4.9M NSF award; the College of Engineering maintains TRACE (Tartan Research Advanced Computing Environment) with NVIDIA Ampere GPUs and AMD EPYC CPUs housed at PSC; the School of Computer Science supports privately-owned HPC clusters; and CMU partnered with Google Public Sector in March 2025 for a large cloud-based GPU cluster. NVIDIA provides Isaac Lab and additional resources via the AI Tech Community partnership."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Gates Foundation grant for Learnvia",
+      "amount_usd": 55000000,
+      "source": "Bill & Melinda Gates Foundation",
+      "purpose": "Nonprofit learning collaborative with AI-enabled gateway-course courseware",
+      "date": "2026-01",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/January/learnvia"
+    },
+    {
+      "title": "Richard King Mellon Foundation grant for Robotics Innovation Center",
+      "amount_usd": 45000000,
+      "source": "Richard King Mellon Foundation",
+      "purpose": "Lead grant for 150,000 sq-ft robotics/AI research facility",
+      "date": "2026-02",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/february/cmus-robotics-innovation-center-fuels-pittsburghs-new-economic-renaissance"
+    },
+    {
+      "title": "K&L Gates Endowment for Ethics and Computational Technologies",
+      "amount_usd": 10000000,
+      "source": "K&L Gates LLP",
+      "purpose": "Faculty lines, Presidential Fellowships, biennial conference on AI ethics",
+      "date": "2016-09",
+      "url": "https://philanthropynewsdigest.org/news/carnegie-mellon-receives-10-million-for-ai-computer-ethics-research"
+    },
+    {
+      "title": "BNY five-year AI research agreement",
+      "amount_usd": 10000000,
+      "source": "Bank of New York Mellon (BNY)",
+      "purpose": "AI research, cross-disciplinary courses, recruiting — BNY AI Lab",
+      "date": "2025-09",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/september/bny-and-carnegie-mellon-university-join-forces-to-advance-ai-education-and-research"
+    },
+    {
+      "title": "NIST AIMSEC cooperative research award",
+      "amount_usd": 6000000,
+      "source": "National Institute of Standards and Technology",
+      "purpose": "Establish AI measurement science and evaluation research center",
+      "date": "2024-09",
+      "url": "https://www.nist.gov/news-events/news/2024/09/nist-awards-6-million-carnegie-mellon-university-establish-ai-cooperative"
+    },
+    {
+      "title": "NSF Bridges-2 enhancement (NVIDIA H100)",
+      "amount_usd": 4900000,
+      "source": "National Science Foundation",
+      "purpose": "H100 GPU upgrade to Bridges-2 national HPC resource",
+      "date": "2024-08",
+      "url": "https://www.cmu.edu/mcs/news-events/2024/0814-4-9-million-nsf-award-funds-major-enhancement-to-bridges-2-system"
+    },
+    {
+      "title": "Pennsylvania state investment in Physical AI Accelerator (at RIC)",
+      "amount_usd": 1500000,
+      "source": "Commonwealth of Pennsylvania",
+      "purpose": "Physical AI Accelerator at the Robotics Innovation Center",
+      "date": "2026-02",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/february/cmus-robotics-innovation-center-fuels-pittsburghs-new-economic-renaissance"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon / AWS",
+      "purpose": "CMU-Amazon AI Innovation Hub for generative AI, robotics, NLP, cloud",
+      "date": "2025-10",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/october/amazon-and-carnegie-mellon-university-launch-strategic-ai-innovation-hub"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "NVIDIA AI Tech Community — CMU leads robotics/autonomy/AI joint research center",
+      "date": "2024-10",
+      "url": "https://www.cmu.edu/news/stories/archives/2024/october/cmu-and-nvidia-to-lead-joint-research-center-for-robotics-autonomy-ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Bank of New York Mellon (BNY)",
+      "purpose": "BNY AI Lab — governance, trust, accountability in mission-critical AI",
+      "date": "2025-09",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/september/bny-and-carnegie-mellon-university-join-forces-to-advance-ai-education-and-research"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google / Google Public Sector",
+      "purpose": "Cloud GPU cluster for AI research",
+      "date": "2025-03",
+      "url": "https://www.hpcwire.com/off-the-wire/carnegie-mellon-expands-ai-research-with-google-powered-cloud-gpu-cluster/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Egen and UltronAI",
+      "purpose": "AI-driven industry solutions in retail, health/life sciences, media, public sector",
+      "date": "2024-12",
+      "url": "https://www.ece.cmu.edu/news-and-events/story/2024/12/cmu-egen-ultronai-partnership.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NIST / U.S. Department of Commerce",
+      "purpose": "AIMSEC cooperative research center for AI measurement science",
+      "date": "2024-09",
+      "url": "https://www.nist.gov/news-events/news/2024/09/nist-awards-6-million-carnegie-mellon-university-establish-ai-cooperative"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation + Simons Foundation",
+      "purpose": "ICARM institute for AI-aided mathematical reasoning",
+      "date": "2025-08",
+      "url": "https://www.cmu.edu/news/stories/archives/2025/august/new-nsf-institute-at-cmu-will-help-mathematicians-harness-ai-and-advance-discoveries"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Commonwealth of Pennsylvania (Shapiro administration)",
+      "purpose": "State AI advisory services, PA/OpenAI pilot evaluation, Keystone AI + Quantum Factory",
+      "date": "2024-01",
+      "url": "https://statescoop.com/pennsylvania-taps-carnegie-mellon-university-for-ai-advisory-services/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Drexel, Lehigh, Penn State, Temple, Penn, Pitt, PSC",
+      "purpose": "Keystone AI + Quantum Factory statewide innovation network",
+      "date": "2026-04",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory"
+    },
+    {
+      "pattern": "international",
+      "partner": "Seoul National University",
+      "purpose": "Human-Centered AI Research Center — joint center opened February 2025",
+      "date": "2025-02",
+      "url": "https://www.eurekalert.org/news-releases/1081845"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Army",
+      "purpose": "Army AI Task Force hosted at CMU National Robotics Engineering Center (NREC)",
+      "date": "2019-02",
+      "url": "https://www.cmu.edu/news/stories/archives/2019/february/army-ai-task-force.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "Learnvia AI tutor (courseware with integrated AI tutor)",
+      "scope": "38 higher-ed partner institutions starting with Calculus I; CMU-founded nonprofit",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/January/learnvia"
+    },
+    {
+      "type": "chatbot",
+      "name": "AI tools from Dietrich College (chatbot for controversial topics, etc.)",
+      "scope": "Research and classroom tools connecting humanities/social sciences to AI",
+      "url": "https://www.cmu.edu/news/stories/archives/2024/november/cmu-ai-tools-including-a-chatbot-for-controversial-topics-connect-humanities-and-social-sciences-to"
+    },
+    {
+      "type": "other",
+      "name": "AI Guidance for Students (Career & Professional Development Center)",
+      "scope": "Campus-wide guidance and resources on using AI in job search and career development",
+      "url": "https://www.cmu.edu/career/students-and-alumni/resource-library/ai-guidance/index.html"
+    },
+    {
+      "type": "other",
+      "name": "ChatGPT Edu, Copilot Chat, Gemini, NotebookLM, Zoom AI Companion (via Andrew SSO)",
+      "scope": "Vetted campus-wide generative AI tools available to all students, faculty, and staff",
+      "url": "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Learnvia — gateway-course AI tutoring targeted at broad-access institutions",
+      "description": "Learnvia focuses on community colleges and large public research universities to address the ~30% attrition rate in gateway courses, with Gates Foundation $55M backing",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/January/learnvia"
+    },
+    {
+      "title": "HCII accessibility research — AI for disability inclusion",
+      "description": "Human-Computer Interaction Institute researches accessibility-first AI design, including human-robot interaction, AI transportation, and inclusive participatory design",
+      "url": "https://accessibility.cs.cmu.edu/"
+    },
+    {
+      "title": "Block Center Responsible AI — algorithmic bias and fairness research",
+      "description": "Research and tools addressing bias in AI, improving system accountability, and developing tools for AI governance with social-impact orientation",
+      "url": "https://www.cmu.edu/block-center/responsible-ai/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Pennsylvania",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Pennsylvania is an active state-level AI policy jurisdiction. Governor Josh Shapiro signed Executive Order 2023-19 in September 2023 establishing principles for state generative AI use and creating a Generative AI Governing Board. In January 2024, PA launched a first-in-the-nation ChatGPT Enterprise pilot (175 employees across 14 agencies) co-designed with CMU's Block Center. CMU is not part of a public university system — it is a private nonprofit — so there is no system-level AI policy layered above institutional policy.",
+    "urls": [
+      "https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai",
+      "https://digitalgovernmenthub.org/examples/commonwealth-of-pennsylvania-artificial-intelligence-executive-order/",
+      "https://www.pa.gov/governor/newsroom/2025-press-releases/-shapiro-administration-leads-the-way-in-ethical-use-of-ai",
+      "https://statescoop.com/pennsylvania-taps-carnegie-mellon-university-for-ai-advisory-services/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Carnegie Mellon University is one of a small handful of R1s where AI is an institutional identity rather than a strategic overlay. The university pioneered the first U.S. undergraduate B.S. in Artificial Intelligence (2018) and maintains a deep academic AI program portfolio (minor, additional major, multiple M.S. degrees across SCS, Heinz College, and the College of Engineering, plus online certificates), anchored by decades of investment in machine learning, robotics, and learning engineering. On research, CMU has rapidly accumulated industry-scale partnerships in 2024–2026: the NVIDIA AI Tech Community (October 2024), the BNY AI Lab (September 2025, $10M over five years), the CMU-Amazon AI Innovation Hub (October 2025), the NIST AIMSEC cooperative research center ($6M, September 2024), and a Google Public Sector cloud GPU cluster (March 2025). It also opened the 150,000 sq-ft Robotics Innovation Center in February 2026 with $45M from the Richard King Mellon Foundation and a $1.5M state Physical AI Accelerator. Learning-engineering spun out Learnvia in January 2026 with a $55M Gates Foundation grant — the largest single-entity grant in the foundation's higher-ed portfolio — to deploy AI-enabled courseware across 38 institutions, targeting gateway-course attrition. Policy and governance are distributed rather than centralized: the provost's Academic Integrity Policy (August 2023 reminder) anchors classroom AI, the Office of the CIO governs a five-vendor vetted tool portfolio (ChatGPT Edu, Copilot Chat, Gemini, NotebookLM, Zoom AI Companion) with FERPA-compliant enterprise protections, the Eberly Center provides comprehensive faculty guidance and a measurement-focused GAITAR fellowship, the Block Center runs the university-wide Responsible AI Initiative, and the K&L Gates Initiative (a $10M endowed program) funds ethics faculty lines and fellowships. Statewide, CMU serves as Pennsylvania's academic AI advisor under a cooperative agreement with the Shapiro administration and co-leads the April 2026 Keystone AI + Quantum Factory across seven PA R1s. The institution does not have a named Chief AI Officer — responsibility is distributed across the VP for Research, the CIO, the Block Center, the Eberly Center, and the provost — which reflects institutional depth but makes the AI posture harder to summarize in a single document. No current AI-specific controversy or litigation was identified in public reporting.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.cmu.edu/",
+      "https://ai.cmu.edu/curriculum",
+      "https://ai.cmu.edu/research-and-policy-impact",
+      "https://ai.cmu.edu/research-and-policy-impact/ai-for-science",
+      "https://www.cmu.edu/leadership/president/bio",
+      "https://www.cmu.edu/leadership/the-provost/",
+      "https://www.cmu.edu/leadership/senior-admin/index.html",
+      "https://www.cmu.edu/cio/",
+      "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html",
+      "https://www.cmu.edu/computing/services/ai/tools/copilot/ms-copilot-how-to.html",
+      "https://www.cmu.edu/computing/software/titles/copilot/index.html",
+      "https://www.cmu.edu/teaching/technology/aitools/index.html",
+      "https://www.cmu.edu/teaching/technology/aitools/academicintegrity/index.html",
+      "https://www.cmu.edu/teaching/technology/aitools/use/index.html",
+      "https://www.cmu.edu/teaching/technology/aitools/gen-ai-for-grading-and-feedback/index.html",
+      "https://www.cmu.edu/leadership/the-provost/campus-comms/2023/2023-08-29.html",
+      "https://www.cmu.edu/teaching/facultyprograms/index.html",
+      "https://seminars.eberly.cmu.edu/",
+      "https://www.cmu.edu/block-center/responsible-ai/",
+      "https://www.cmu.edu/ethics-ai/",
+      "https://www.cmu.edu/ethics-ai/news/2025-fellows.html",
+      "https://www.cs.cmu.edu/bs-in-artificial-intelligence/",
+      "https://www.cs.cmu.edu/bs-in-artificial-intelligence/faq",
+      "https://www.cmu.edu/admission/majors-programs/school-of-computer-science/artificial-intelligence",
+      "https://msaii.cs.cmu.edu/",
+      "https://www.heinz.cmu.edu/programs/artificial-intelligence-masters/",
+      "https://www.cmu.edu/online/mais/",
+      "https://ml.cmu.edu/academics/",
+      "http://coursecatalog.web.cmu.edu/schools-colleges/schoolofcomputerscience/artificialintelligence/",
+      "https://www.lti.cs.cmu.edu/academics/masters-programs/msaii.html",
+      "https://www.nist.gov/news-events/news/2024/09/nist-awards-6-million-carnegie-mellon-university-establish-ai-cooperative",
+      "https://www.heinz.cmu.edu/media/2024/September/nist-awards-6m-to-carnegie-mellon-university-to-establish-ai-cooperative-research-center",
+      "https://www.post-gazette.com/business/tech-news/2024/10/02/cmu-ai-research-institute-biden/stories/202410010090",
+      "https://www.cmu.edu/news/stories/archives/2024/october/cmu-and-nvidia-to-lead-joint-research-center-for-robotics-autonomy-ai",
+      "https://www.cmu.edu/news/stories/archives/2024/october/nvidia-ai-tech-community-announced-in-pittsburgh",
+      "https://www.pittwire.pitt.edu/pittwire/features-articles/2024/10/15/nvidia-ai-tech-community",
+      "https://www.cmu.edu/news/stories/archives/2025/september/bny-and-carnegie-mellon-university-join-forces-to-advance-ai-education-and-research",
+      "https://investingnews.com/bny-and-carnegie-mellon-university-join-forces-to-advance-research-and-development-in-ai/",
+      "https://www.cmu.edu/news/stories/archives/2025/october/amazon-and-carnegie-mellon-university-launch-strategic-ai-innovation-hub",
+      "https://www.govtech.com/education/higher-ed/carnegie-mellon-university-to-build-10m-ai-lab",
+      "https://www.hpcwire.com/off-the-wire/carnegie-mellon-expands-ai-research-with-google-powered-cloud-gpu-cluster/",
+      "https://www.cmu.edu/mcs/news-events/2024/0814-4-9-million-nsf-award-funds-major-enhancement-to-bridges-2-system",
+      "https://www.cmu.edu/news/stories/archives/2024/august/49m-nsf-award-funds-major-enhancement-to-bridges-2-system",
+      "https://www.cmu.edu/engineering/trace/index.html",
+      "https://www.psc.edu/",
+      "https://computing.cs.cmu.edu/research/hpc",
+      "https://www.cmu.edu/news/stories/archives/2025/august/new-nsf-institute-at-cmu-will-help-mathematicians-harness-ai-and-advance-discoveries",
+      "https://www.wesa.fm/education/2025-08-11/carnegie-mellon-math-research-ai-nsf",
+      "https://www.cmu.edu/ri/updates/opening.html",
+      "https://www.cmu.edu/ric/updates/opening.html",
+      "https://www.cmu.edu/news/stories/archives/2026/february/cmus-robotics-innovation-center-fuels-pittsburghs-new-economic-renaissance",
+      "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory",
+      "https://www.cmu.edu/news/stories/archives/2026/January/learnvia",
+      "https://philanthropynewsdigest.org/news/carnegie-mellon-receives-10-million-for-ai-computer-ethics-research",
+      "https://www.cmu.edu/annual-report-2025/cio/index.html",
+      "https://www.cmu.edu/annual-report-2025/assets/annual-report-2025.pdf",
+      "https://www.eurekalert.org/news-releases/1081845",
+      "https://statescoop.com/pennsylvania-taps-carnegie-mellon-university-for-ai-advisory-services/",
+      "https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai",
+      "https://www.pa.gov/governor/newsroom/2025-press-releases/-shapiro-administration-leads-the-way-in-ethical-use-of-ai",
+      "https://digitalgovernmenthub.org/examples/commonwealth-of-pennsylvania-artificial-intelligence-executive-order/",
+      "https://www.sei.cmu.edu/library/aimaturitymodel-overview/",
+      "https://accessibility.cs.cmu.edu/",
+      "https://www.cmu.edu/news/stories/archives/2024/november/cmu-ai-tools-including-a-chatbot-for-controversial-topics-connect-humanities-and-social-sciences-to",
+      "https://www.cmu.edu/career/students-and-alumni/resource-library/ai-guidance/index.html",
+      "https://www.ece.cmu.edu/news-and-events/story/2024/12/cmu-egen-ultronai-partnership.html",
+      "https://www.cmu.edu/news/stories/archives/2019/february/army-ai-task-force.html",
+      "https://www.cmu.edu/news/stories/archives/2026/april/carnegie-mellon-launches-new-effort-to-advance-ai-driven-astronomy",
+      "https://ai-science-foundry.cmu.edu/",
+      "https://www.usnews.com/best-colleges/carnegie-mellon-university-3242",
+      "https://www.cmu.edu/ira/2024-info-at-a-glance.pdf"
+    ],
+    "search_queries": [
+      "\"Carnegie Mellon University\" AI strategy 2025 2026 institutional",
+      "\"Carnegie Mellon\" generative AI policy acceptable use faculty students",
+      "\"Carnegie Mellon\" AI council OR committee OR task force governance",
+      "Carnegie Mellon University president provost CIO 2025 2026",
+      "\"Carnegie Mellon\" AI research center institute launch 2024 2025",
+      "\"Carnegie Mellon\" AI degree major minor bachelor master certificate",
+      "\"Carnegie Mellon\" Microsoft Copilot OR ChatGPT Edu OR Claude enterprise deployment",
+      "\"Carnegie Mellon\" GPU cluster supercomputer HPC AI computing infrastructure",
+      "\"Carnegie Mellon\" AI gift OR donation OR endowment million 2024 2025",
+      "\"Carnegie Mellon\" AI partnership announcement industry MOU 2024 2025",
+      "\"Carnegie Mellon\" AI chatbot students advising virtual assistant",
+      "Pennsylvania higher education AI policy executive order 2024 2025",
+      "\"Carnegie Mellon\" AI ethics framework responsible AI Block Center",
+      "\"Carnegie Mellon\" AI equity accessibility disability inclusion underrepresented",
+      "\"Carnegie Mellon\" AI workforce training incubator startup economic development Pittsburgh",
+      "\"Carnegie Mellon\" AI controversy cheating academic integrity FERPA lawsuit",
+      "\"Carnegie Mellon\" Eberly Center faculty AI training workshop teaching",
+      "\"Carnegie Mellon\" AI for scientific discovery astronomy biology chemistry materials",
+      "\"Carnegie Mellon\" NVIDIA AI tech community research partnership",
+      "\"Carnegie Mellon\" enrollment fall 2024 total undergraduate graduate students"
+    ],
+    "gaps_acknowledged": [
+      "No named Chief AI Officer exists; governance is distributed across VP Research, CIO, Block Center, Eberly Center, and provost — consistent with CMU's polycentric model but makes a single accountable leader hard to name",
+      "CMU has no public single 'AI Strategic Plan' PDF; ai.cmu.edu is the closest to an institutional AI strategy document but is pillar-based rather than dated roadmap-style",
+      "Exact Amazon and NVIDIA partnership dollar amounts were not disclosed in public materials; only directional scale could be captured",
+      "Exact GPU count for the Google Cloud cluster and TRACE was not publicly disclosed",
+      "No public AI-specific controversy or litigation was identified; not attested in searches but possible unreported cases may exist",
+      "ICARM dollar-share within the $74M NSF six-institute cohort not disclosed at public level",
+      "MSAI-ETIM and other engineering AI degrees have limited public launch-date information"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 16,
+        "research_compute_powerhouse": 20,
+        "curriculum_led": 11,
+        "governance_led": 14,
+        "student_success_led": 6,
+        "workforce_regional_development": 22,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 12,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 5,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Bridges-2 (at Pittsburgh Supercomputing Center) + TRACE (College of Engineering) + Google Cloud GPU cluster",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 132400000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 5,
+        "other_unclear": 6,
+        "public_federal_state": 7,
+        "industry_vendor": 4,
+        "institutional": 1
+      },
+      "partnership_count": 11
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "tutor": 1,
+        "chatbot": 1,
+        "other": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 5,
+          "products": [
+            "Gemini",
+            "Gemini (web app, via Andrew SSO)",
+            "Google Cloud GPU cluster",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 3,
+          "products": [
+            "Bridges-2 (with NVIDIA H100)",
+            "Isaac Lab",
+            "NVAITC program"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT Edu",
+            "ChatGPT Enterprise (pilot)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot Chat",
+            "Microsoft Copilot Chat (with enterprise data protection)"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "AWS cloud services"
+          ]
+        },
+        {
+          "vendor": "Learnvia (CMU-founded nonprofit) Learnvia AI tutor",
+          "mentions": 1,
+          "products": [
+            "Learnvia AI tutor"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "BNY AI Lab at Carnegie Mellon",
+          "summary": "Shows how a major financial institution is locating AI R&D physically on a university campus — a model for co-located industry labs at R1s.",
+          "source_url": "https://www.cmu.edu/news/stories/archives/2025/september/bny-and-carnegie-mellon-university-join-forces-to-advance-ai-education-and-research"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Robotics Innovation Center (RIC) opening",
+          "summary": "A major physical anchor for the U.S. robotics/physical-AI sector — co-located, mixed-use research real estate explicitly designed to accelerate spin-outs and keep talent in-region.",
+          "source_url": "https://www.cmu.edu/news/stories/archives/2026/february/cmus-robotics-innovation-center-fuels-pittsburghs-new-economic-renaissance"
+        },
+        {
+          "claim_type": "career",
+          "title": "Keystone AI + Quantum Factory",
+          "summary": "A rare multi-institution state-scale AI+quantum collaborative — provides a template for how a state can consolidate its R1 research capacity into a single innovation chassis.",
+          "source_url": "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Bridges-2 NVIDIA H100 upgrade at Pittsburgh Supercomputing Center",
+          "summary": "One of the few NSF-funded academic AI clusters with H100 capacity serving a national user base — underpins federal open-science AI workloads.",
+          "source_url": "https://www.cmu.edu/mcs/news-events/2024/0814-4-9-million-nsf-award-funds-major-enhancement-to-bridges-2-system"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Learnvia AI-enabled learning collaborative",
+          "summary": "A defining example of AI-native gateway-course redesign at scale — spans 38 institutions from community colleges to large publics and directly targets the ~30% gateway-course attrition problem.",
+          "source_url": "https://www.cmu.edu/news/stories/archives/2026/January/learnvia"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Campus AI tool rollout — five vetted generative AI tools",
+          "summary": "A multi-vendor (rather than single-vendor) enterprise AI baseline — demonstrates that many R1s prefer a portfolio to a single platform standard.",
+          "source_url": "https://www.cmu.edu/computing/services/ai/meet-ai/secure-ai.html"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No named Chief AI Officer exists; governance is distributed across VP Research, CIO, Block Center, Eberly Center, and provost — consistent with CMU's polycentric model but makes a single accountable leader hard to name",
+        "CMU has no public single 'AI Strategic Plan' PDF; ai.cmu.edu is the closest to an institutional AI strategy document but is pillar-based rather than dated roadmap-style",
+        "Exact Amazon and NVIDIA partnership dollar amounts were not disclosed in public materials; only directional scale could be captured",
+        "Exact GPU count for the Google Cloud cluster and TRACE was not publicly disclosed",
+        "No public AI-specific controversy or litigation was identified; not attested in searches but possible unreported cases may exist",
+        "ICARM dollar-share within the $74M NSF six-institute cohort not disclosed at public level",
+        "MSAI-ETIM and other engineering AI degrees have limited public launch-date information"
+      ]
+    }
+  }
+}

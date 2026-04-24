@@ -1,0 +1,792 @@
+{
+  "institution": "Clemson University",
+  "slug": "clemson-university",
+  "city_state": "Clemson, SC",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 28000,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Robert H. Jones",
+      "url": null
+    },
+    "provost": {
+      "name": "J. Cole Smith",
+      "url": null
+    },
+    "cio": {
+      "name": "Brian Voss",
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Clemson University public AI posture sources",
+        "url": "https://www.clemson.edu/ai",
+        "year": 2026
+      }
+    ],
+    "summary": "Clemson has a university-wide AI Initiative aligned with Clemson Elevate, ChatGPT Edu for students/faculty/staff, human-centered AI guidelines, training, and research-growth ambitions tied to high-performance computing."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.clemson.edu/ai",
+      "https://www.clemson.edu/provost/",
+      "https://www.clemson.edu/provost/leadership/"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use institutionally reviewed AI tools for sensitive university work.",
+      "Protect restricted, confidential, student, personnel, and research data when using AI tools.",
+      "Verify AI output and keep humans accountable for academic, administrative, and research decisions."
+    ],
+    "summary": "Clemson University's public AI policy posture is comprehensive and emphasizes responsible use, privacy, and human accountability based on reviewed sources."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Clemson University AI governance and support functions",
+        "type": "committee",
+        "scope": "Clemson has a university-wide AI Initiative aligned with Clemson Elevate, ChatGPT Edu for students/faculty/staff, human-centered AI guidelines, training, and research-growth ambitions tied to high-performance computing.",
+        "url": "https://www.clemson.edu/ai"
+      }
+    ],
+    "summary": "Governance appears distributed across AI-facing offices, centers, technology units, teaching units, or committees; no standalone chief AI officer was confirmed unless named in leadership."
+  },
+  "initiatives": [
+    {
+      "title": "Responsible AI guidance and governance",
+      "description": "Clemson University has public AI guidance, governance, or strategy resources that frame responsible adoption, privacy, academic integrity, and human oversight.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "OpenAI",
+          "name": "ChatGPT Edu",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_implications": "Requires privacy, academic-integrity, and human-oversight controls as AI use scales.",
+      "source_urls": [
+        "https://www.clemson.edu/ai",
+        "https://www.clemson.edu/provost/"
+      ],
+      "policy_stance": "comprehensive"
+    },
+    {
+      "title": "AI tools and campus enablement",
+      "description": "Clemson University provides or pilots institutionally supported AI tools, including ChatGPT Edu (OpenAI).",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "OpenAI",
+          "name": "ChatGPT Edu",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.clemson.edu/ai",
+        "https://www.clemson.edu/provost/leadership/"
+      ]
+    },
+    {
+      "title": "AI resources and training",
+      "description": "Clemson University offers AI-related coursework, certificates, minors, degrees, or faculty-development resources that build AI literacy and discipline-specific AI capability.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.clemson.edu/ai"
+      ]
+    },
+    {
+      "title": "AI research portfolio",
+      "description": "Clemson University has visible AI research activity through centers, institutes, labs, or funded projects spanning machine learning, data science, domain applications, or responsible AI.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.clemson.edu/ccit/about/about-our-cio.html"
+      ]
+    },
+    {
+      "title": "Student AI literacy and support",
+      "description": "Clemson University points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "career_and_workforce_readiness",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "OpenAI",
+          "name": "ChatGPT Edu",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.clemson.edu/ai",
+        "https://www.clemson.edu/ai"
+      ]
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Clemson University connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.clemson.edu/clemson-university-launches-ai-initiative/",
+        "https://admin.sc.gov/technology/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Palmetto 2 GPU-rich research computing platform",
+      "description": "Clemson RCD documentation identifies Palmetto 2 as the primary campus HPC resource with 1,615 GPUs and broad researcher, student, faculty, and staff use.",
+      "significance": "This closes the compute-capacity gap with one of the clearest public R1 GPU disclosures in the sweep.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public total acquisition or operating cost was disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal research computing platform."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://docs.rcd.clemson.edu/palmetto/about/"
+      ]
+    },
+    {
+      "title": "Enterprise ChatGPT Edu and Copilot access",
+      "description": "Clemson’s AI hub states all students, faculty, and staff have access to ChatGPT Edu, while AI guidelines identify Microsoft Copilot as available with commercial data protection in the Clemson Microsoft 365 tenant.",
+      "significance": "This closes platform-usage evidence with named enterprise AI tools and campus-wide scope.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public seat count or contract value disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft"
+          ],
+          "description": "Supported enterprise AI tools are provided through university-managed access."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "OpenAI",
+          "name": "ChatGPT Edu",
+          "role": "secure campus generative AI platform"
+        },
+        {
+          "vendor": "Microsoft",
+          "name": "Copilot",
+          "role": "Microsoft 365 generative AI assistant with commercial data protection"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supported tools are bound by Clemson AI guidelines and data-protection expectations.",
+      "source_urls": [
+        "https://www.clemson.edu/ai",
+        "https://www.clemson.edu/brand/application/ai-guidelines.html"
+      ]
+    }
+  ],
+  "research_centers": [],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "AI resources and training",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.clemson.edu/ai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.clemson.edu/ai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.clemson.edu/brand/application/ai-guidelines.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Palmetto 2",
+    "gpu_count": 1615,
+    "url": "https://docs.rcd.clemson.edu/palmetto/about/",
+    "summary": "Palmetto 2 is Clemson’s primary HPC resource and the public RCD documentation lists 1,206 compute nodes, 54,540 CPU cores, and 1,615 GPUs, with heavy use by researchers, students, faculty, and staff."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "AI research portfolio",
+      "date": null,
+      "url": "https://www.clemson.edu/ccit/about/about-our-cio.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "AI workforce, partnership, and public-impact activity",
+      "date": null,
+      "url": "https://news.clemson.edu/clemson-university-launches-ai-initiative/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Responsible AI guidance and governance",
+      "scope": "students",
+      "url": "https://www.clemson.edu/ai"
+    },
+    {
+      "type": "other",
+      "name": "AI tools and campus enablement",
+      "scope": "students",
+      "url": "https://www.clemson.edu/ai"
+    },
+    {
+      "type": "other",
+      "name": "AI resources and training",
+      "scope": "students",
+      "url": "https://www.clemson.edu/ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Student AI literacy and support",
+      "description": "Clemson University points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "url": "https://www.clemson.edu/ai"
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Clemson University connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "url": "https://news.clemson.edu/clemson-university-launches-ai-initiative/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "SC",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "State/system context was checked for SC. Relevant public AI or system governance links are included where found.",
+    "urls": [
+      "https://admin.sc.gov/technology/artificial-intelligence"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Clemson University is an R1 institution whose public AI posture is best understood as follows: Clemson has a university-wide AI Initiative aligned with Clemson Elevate, ChatGPT Edu for students/faculty/staff, human-centered AI guidelines, training, and research-growth ambitions tied to high-performance computing. The evidence touches governance and policy, teaching and learning, research and innovation, enterprise enablement, student experience, workforce development, and equity or public-impact dimensions. The strongest public sources are first-party AI hubs, guidance pages, research center pages, academic-program materials, and state or system policy resources. Compared with the most centralized AI adopters, several details remain opaque, including named executive AI ownership, exact enterprise user counts, and total AI spending. Even so, the reviewed public record supports a medium-confidence assessment that AI is moving into curriculum, research infrastructure, technology governance, and student or workforce-facing programs rather than remaining purely ad hoc.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://www.clemson.edu/ai",
+      "https://www.clemson.edu/provost/",
+      "https://www.clemson.edu/provost/leadership/",
+      "https://www.clemson.edu/ccit/about/about-our-cio.html",
+      "https://news.clemson.edu/clemson-university-launches-ai-initiative/",
+      "https://admin.sc.gov/technology/artificial-intelligence",
+      "https://www.clemson.edu/brand/application/ai-guidelines.html",
+      "https://docs.rcd.clemson.edu/palmetto/about/"
+    ],
+    "search_queries": [
+      "Clemson University artificial intelligence strategy guidance",
+      "Clemson University generative AI policy faculty students",
+      "Clemson University AI research center program",
+      "Clemson University AI computing infrastructure partnership",
+      "site:clemson.edu Clemson University ChatGPT Edu Copilot Gemini AI tools students faculty",
+      "site:clemson.edu Clemson University supercomputer GPU cluster AI Palmetto"
+    ],
+    "gaps_acknowledged": [
+      "No public chief AI officer was confirmed in reviewed sources.",
+      "No total institution-wide AI investment amount was found.",
+      "Exact enterprise AI user counts or contract values were usually not public.",
+      "Clemson discloses campus-wide ChatGPT Edu/Copilot access and Palmetto 2 GPU count, but public sources still do not disclose seat utilization, annual contract value, or student subgroup outcomes."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "research_compute_powerhouse",
+        "platform_first",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 11,
+        "research_compute_powerhouse": 12,
+        "curriculum_led": 2,
+        "governance_led": 9,
+        "student_success_led": 7,
+        "workforce_regional_development": 6,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 3,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 0,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Palmetto 2",
+        "gpu_count": 1615,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 7,
+        "institutional": 1
+      },
+      "partnership_count": 2
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "OpenAI",
+          "mentions": 5,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Copilot",
+            "Microsoft Copilot"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "OpenAI",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Responsible AI guidance and governance",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.clemson.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI tools and campus enablement",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.clemson.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI resources and training",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.clemson.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI research portfolio",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.clemson.edu/ccit/about/about-our-cio.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Student AI literacy and support",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://www.clemson.edu/ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI workforce, partnership, and public-impact activity",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://news.clemson.edu/clemson-university-launches-ai-initiative/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Enterprise ChatGPT Edu and Copilot access",
+          "summary": "This closes platform-usage evidence with named enterprise AI tools and campus-wide scope.",
+          "source_url": "https://www.clemson.edu/ai"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 5,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 4,
+      "notes": [
+        "No public chief AI officer was confirmed in reviewed sources.",
+        "No total institution-wide AI investment amount was found.",
+        "Exact enterprise AI user counts or contract values were usually not public.",
+        "Clemson discloses campus-wide ChatGPT Edu/Copilot access and Palmetto 2 GPU count, but public sources still do not disclose seat utilization, annual contract value, or student subgroup outcomes."
+      ]
+    }
+  }
+}

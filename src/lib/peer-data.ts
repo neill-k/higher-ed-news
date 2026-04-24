@@ -11,15 +11,9 @@ export type PeerProfile = {
   carnegie: string;
   aau_member: boolean;
   enrollment: number | null;
-  lsu_peer_tiers: {
-    sec: boolean;
-    sreb_4yr_1: boolean;
-    carnegie_land_grant: boolean;
-    aau_aspirational: boolean;
-  };
   system_leadership: {
     president_name: string | null;
-    cio_name: string | null;
+    cio_name?: string | null;
     chief_ai_officer: string | null;
     has_dedicated_ai_role: boolean;
   };
@@ -87,8 +81,6 @@ export type PeerProfile = {
   sources: string[];
   researched_on: string;
 };
-
-export const ANCHOR_SLUG = "lsu";
 
 export type VendorBucket =
   | "microsoft_copilot"
@@ -161,37 +153,51 @@ export const VENDOR_ORDER: VendorBucket[] = [
   "other",
 ];
 
+function asArray<T>(value: T[] | T | null | undefined): T[] {
+  if (value === null || value === undefined) {
+    return [];
+  }
+
+  return Array.isArray(value) ? value : [value];
+}
+
+function normalizeProfile(profile: PeerProfile) {
+  return {
+    ...profile,
+    ai_policy: {
+      ...profile.ai_policy,
+      policy_urls: asArray(profile.ai_policy.policy_urls),
+      scope: asArray(profile.ai_policy.scope),
+      key_provisions: asArray(profile.ai_policy.key_provisions),
+    },
+    vendor_deployments: asArray(profile.vendor_deployments).map((deployment) => ({
+      ...deployment,
+      evidence_urls: asArray(deployment.evidence_urls),
+    })),
+    ai_academic_programs: asArray(profile.ai_academic_programs),
+    notable_deals_investments: asArray(profile.notable_deals_investments),
+    leadership_statements: asArray(profile.leadership_statements),
+    state_ai_policy_context: {
+      ...profile.state_ai_policy_context,
+      evidence_urls: asArray(profile.state_ai_policy_context.evidence_urls),
+    },
+    litigation_or_controversy: asArray(profile.litigation_or_controversy),
+    sources: asArray(profile.sources),
+  } satisfies PeerProfile;
+}
+
 export const getPeerProfiles = cache(async (): Promise<PeerProfile[]> => {
-  const dir = path.join(process.cwd(), "data", "sec-peers");
+  const dir = path.join(process.cwd(), "data", "institution-profiles");
   const entries = await readdir(dir);
   const files = entries.filter((name) => name.endsWith(".json") && !name.startsWith("_"));
   const profiles = await Promise.all(
     files.map(async (file) => {
       const raw = await readFile(path.join(dir, file), "utf8");
-      return JSON.parse(raw) as PeerProfile;
+      return normalizeProfile(JSON.parse(raw) as PeerProfile);
     }),
   );
   return profiles.sort((left, right) => left.institution.localeCompare(right.institution));
 });
-
-export const getAnchor = cache(async (): Promise<PeerProfile | null> => {
-  const profiles = await getPeerProfiles();
-  return profiles.find((p) => p.slug === ANCHOR_SLUG) ?? null;
-});
-
-export function peerSetLabel(key: "sec" | "sreb_4yr_1" | "carnegie_land_grant" | "aau_aspirational") {
-  if (key === "sec") return "SEC";
-  if (key === "sreb_4yr_1") return "SREB 4-Yr 1";
-  if (key === "carnegie_land_grant") return "Carnegie Land-Grant";
-  return "AAU aspirational";
-}
-
-export function filterByTier(
-  profiles: PeerProfile[],
-  tier: "sec" | "sreb_4yr_1" | "carnegie_land_grant" | "aau_aspirational",
-) {
-  return profiles.filter((profile) => profile.lsu_peer_tiers[tier]);
-}
 
 /** True when a peer has at least one deployment classified into this bucket. */
 export function hasVendor(profile: PeerProfile, bucket: VendorBucket) {

@@ -1,0 +1,2050 @@
+{
+  "institution": "Vanderbilt University",
+  "slug": "vanderbilt-university",
+  "city_state": "Nashville, TN",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 13575,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Daniel Diermeier (Chancellor)",
+      "url": "https://www.vanderbilt.edu/chancellor/biography-diermeier/"
+    },
+    "provost": {
+      "name": "C. Cybele Raver",
+      "url": "https://www.vanderbilt.edu/provost/"
+    },
+    "cio": {
+      "name": "Shane Callahan",
+      "url": "https://news.vanderbilt.edu/2024/04/01/shane-callahan-named-chief-information-officer/"
+    },
+    "chief_ai_officer": {
+      "name": "Allen Karns",
+      "url": "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/"
+    },
+    "ai_strategy_lead": {
+      "name": "Jules White",
+      "title": "Senior Advisor to the Chancellor on Generative AI in Enterprise and Education; Professor of Computer Science; Director, Amplify Generative AI Innovation Center; Director, Vanderbilt Initiative on the Future of Learning & Generative AI",
+      "url": "https://news.vanderbilt.edu/2024/01/08/vanderbilt-extends-leadership-in-generative-ai/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Vanderbilt University Academic Affairs Guidance for Artificial Intelligence (AI) Tools",
+        "url": "https://cdn.vanderbilt.edu/vu-URL/wp-content/uploads/sites/241/2023/08/16143452/Vanderbilt-University-Academic-Affairs-Guidance-for-Artificial-Intelligence.pdf",
+        "year": 2023
+      },
+      {
+        "title": "Generative AI at Vanderbilt — Institutional AI portal",
+        "url": "https://www.vanderbilt.edu/generative-ai/",
+        "year": 2024
+      },
+      {
+        "title": "Amplify Generative AI Innovation Center (AGI Center) — Launch Announcement",
+        "url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/",
+        "year": 2026
+      },
+      {
+        "title": "Vanderbilt Expands Multi-Tool AI Strategy with ChatGPT Edu, Amplify 2.0 and More",
+        "url": "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/",
+        "year": 2026
+      },
+      {
+        "title": "Vanderbilt to Establish College Dedicated to Computing, AI and Data Science",
+        "url": "https://news.vanderbilt.edu/2024/03/25/vanderbilt-to-establish-a-college-dedicated-to-computing-ai-and-data-science/",
+        "year": 2024
+      }
+    ],
+    "summary": "Vanderbilt has pursued an unusually aggressive, vendor-independent AI strategy anchored by three institutional moves: (1) creation of the College of Connected Computing (CCC) in March 2024 — its first new college in over 40 years — with inaugural dean Matthew Johnson-Roberson (from Carnegie Mellon's Robotics Institute) appointed May 2025; (2) an in-house, open-source generative AI platform called Amplify, built in Vanderbilt's private AWS cloud and now adopted by more than 50 higher-ed institutions; and (3) a deliberate 'multi-tool' offering that pairs Amplify 2.0 with ChatGPT Edu, Microsoft 365 Copilot, and Grow with Google, all free to faculty, students, and staff. The strategy is led day-to-day by Jules White (Senior Advisor to the Chancellor on Generative AI) and Allen Karns (Chief AI and Technology Officer), executed through the new Amplify GenAI Innovation (AGI) Center inside CCC, and coordinated with Provost C. Cybele Raver's AdvancED Institute and the Office of Learning Innovation. Vanderbilt reports that more than 70 percent of its campus community regularly uses generative AI tools and that 10,000+ users are active on Amplify."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.vanderbilt.edu/generative-ai/academic-integrity/",
+      "https://cdn.vanderbilt.edu/vu-URL/wp-content/uploads/sites/241/2023/08/16143452/Vanderbilt-University-Academic-Affairs-Guidance-for-Artificial-Intelligence.pdf",
+      "https://hr.vanderbilt.edu/policies/generative-ai/",
+      "https://www.vanderbilt.edu/faculty-manual/part-iii-university-principles-and-policies/ch6-acceptable-use-of-information-technology/",
+      "https://as.vanderbilt.edu/gci-ai/syllabus-ai-policies/"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty hold authority to set course-level AI policy — policy requires every syllabus include AI guidelines ('if you do not provide a statement, the university permits students to use generative AI tools, but they must disclose all use')",
+      "Academic integrity adjudication goes through the Undergraduate Honor Council and must be based on evidence (content inconsistencies, fake citations, style discrepancies) — reports cannot rest solely on AI-detector output",
+      "Vanderbilt disabled Turnitin's AI detector citing false positives and student privacy concerns, and does not endorse any institutional AI-detection tool",
+      "Staff guidance (July 2023) prohibits entering FERPA-, HIPAA-, or contract-protected data into generative AI tools and requires supervisor review before adopting AI into workflows",
+      "Approved-tool model: ChatGPT Edu, Amplify, Microsoft 365 Copilot, and Grow with Google authenticate via Vanderbilt SSO and are contracted for enterprise data protection",
+      "Distributed governance: Provost, VUIT, CCC/AGI Center, Office of Learning Innovation, and AdvancED jointly operationalize policy guidance rather than a single compliance office"
+    ],
+    "summary": "Vanderbilt's AI policy is deliberately permissive and decentralized: the August 2023 Academic Affairs Guidance delegates classroom policy to individual faculty while requiring every syllabus to state its AI stance, and defaults to permitting generative AI with disclosure when a syllabus is silent. A parallel staff policy (hr.vanderbilt.edu/policies/generative-ai, July 2023) governs workplace use with explicit FERPA/HIPAA/contract data-entry prohibitions. The university has taken an unusually firm stance against institutional AI-detection tools — disabling Turnitin's AI detector and refusing to adopt others — citing privacy and reliability concerns."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Amplify Generative AI Innovation Center (AGI Center)",
+        "type": "office",
+        "scope": "Launched February 2026 inside the College of Connected Computing as a 'living laboratory' for ethical, human-centered generative and agentic AI across research, teaching, student success, administrative operations, and external partnerships. Co-led by Director Jules White (Professor of Computer Science) and Chief AI and Technology Officer Allen Karns.",
+        "url": "https://www.vanderbilt.edu/agi/"
+      },
+      {
+        "name": "Vanderbilt Initiative on the Future of Learning & Generative AI",
+        "type": "office",
+        "scope": "Interdisciplinary hub directed by Jules White that connects and advises faculty on generative AI use, produces research, workshops, and courses, and feeds the Coursera global AI curriculum.",
+        "url": "https://www.vanderbilt.edu/generative-ai/future-learning-initiative/"
+      },
+      {
+        "name": "AdvancED — The Institute for the Advancement of Higher Education",
+        "type": "office",
+        "scope": "Created late 2023 by Provost C. Cybele Raver to unify online and lifelong learning, pedagogical support, and educational technology. Runs the Faculty AI Toolkit, Teaching in the Age of AI training, and the Innovation in Teaching Award for generative AI pedagogy.",
+        "url": "https://www.vanderbilt.edu/advanced-institute/"
+      },
+      {
+        "name": "Office of Learning Innovation",
+        "type": "office",
+        "scope": "Directed by Assistant Provost and Executive Director Mallika Vinekar; partners with VUIT and OpenAI on ChatGPT Edu rollout and with Coursera on the generative AI curriculum; coordinates enterprise AI training for faculty and staff.",
+        "url": "https://www.vanderbilt.edu/provost/"
+      },
+      {
+        "name": "Chancellor's Executive Director for Science and Technology Strategy",
+        "type": "office",
+        "scope": "Role created July 2025 and held by Padma Raghavan (formerly Vice Provost for Research); sets Vanderbilt's science and technology strategy for energy innovation, defense and national security, and health technology — all of which include major AI components.",
+        "url": "https://news.vanderbilt.edu/2025/06/25/padma-raghavan-appointed-to-a-new-role-within-the-office-of-the-chancellor/"
+      },
+      {
+        "name": "Grand Challenge Initiative: Artificial Intelligence (College of Arts and Science)",
+        "type": "committee",
+        "scope": "A&S Grand Challenge that unites scholars across humanities, social sciences, and engineering to examine the applications and implications of AI; publishes the Syllabus AI Policies library, organizes AI courses, and curates AI in the News.",
+        "url": "https://as.vanderbilt.edu/gci-ai/"
+      },
+      {
+        "name": "AVAIL — Advanced Vanderbilt Artificial Intelligence Laboratory (VUMC)",
+        "type": "council",
+        "scope": "VUMC-wide body providing strategic and operational leadership for identification, review, selection, implementation, efficacy testing, and life-cycle management of AI technologies; oversees two subcommittees (AI Technology Sub-Committee and Patient-Engaging Technology Sub-Committee).",
+        "url": "https://www.vumc.org/avail/avail-advanced-vanderbilt-artificial-intelligence-laboratory"
+      },
+      {
+        "name": "ADVANCE Center (VUMC)",
+        "type": "office",
+        "scope": "AI Discovery and Vigilance to Accelerate Innovation and Clinical Excellence — launched March 2024 inside VUMC's Department of Biomedical Informatics to evaluate clinical AI deployments.",
+        "url": "https://www.vumc.org/ai/welcome"
+      }
+    ],
+    "summary": "Vanderbilt runs a distributed governance stack with three academic-side anchors — the AGI Center and the Initiative on the Future of Learning inside the new College of Connected Computing, and AdvancED / Office of Learning Innovation inside the Provost's Office — plus a clinical-side governance layer (AVAIL and the ADVANCE Center) at Vanderbilt University Medical Center. Strategic coordination runs through Chancellor Diermeier via Jules White (senior advisor on generative AI) and Padma Raghavan (science and technology strategy). There is no single chief AI officer for the whole institution; instead, Allen Karns holds the 'Chief AI and Technology Officer' title within VUIT/CCC."
+  },
+  "initiatives": [
+    {
+      "title": "College of Connected Computing (first new Vanderbilt college in 40+ years)",
+      "description": "Vanderbilt announced in March 2024 the creation of the College of Connected Computing (CCC), its first new college since 1981, dedicated to computer science, AI, data science, cybersecurity, and human-computer interaction. Matthew Johnson-Roberson (director of Carnegie Mellon's Robotics Institute and co-founder of Refraction AI) was named inaugural dean in March 2025, effective May 1, 2025. In fall 2025 the Department of Computer Science and Data Science Institute moved into the college, and graduate programs begin fall 2026.",
+      "significance": "Creating a standalone AI-and-computing college signals board- and chancellor-level commitment to AI as core institutional identity, not an add-on, and positions Vanderbilt to compete with the Stanford/CMU/MIT tier on AI talent recruitment.",
+      "date_announced": "2024-03-25",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "ai_degree_program",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 25000000,
+        "funding_source": "John and Laura Arnold (gift); institutional resources",
+        "description": "$25M transformational gift from John and Laura Arnold endowing the dean's chair and three additional faculty chairs; college also supported by current-use funding for the founding dean."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Carnegie Mellon Robotics Institute (dean origin)"
+          ],
+          "description": "Dean recruited from CMU's Robotics Institute; CCC explicitly positions itself as a hub for industry, government, and nonprofit partnerships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a permanent organizational home for AI education, research, and enterprise-AI R&D; consolidates formerly distributed CS and data science programs into a coherent structure.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2024/03/25/vanderbilt-to-establish-a-college-dedicated-to-computing-ai-and-data-science/",
+        "https://news.vanderbilt.edu/2025/03/06/vanderbilt-receives-transformational-25-million-gift-for-new-college-of-connected-computing/",
+        "https://news.vanderbilt.edu/2025/03/20/vanderbilt-names-technology-visionary-matthew-johnson-roberson-as-its-first-dean-of-the-college-of-connected-computing/",
+        "https://news.vanderbilt.edu/2025/11/06/decoding-vanderbilts-new-college-of-connected-computing/"
+      ]
+    },
+    {
+      "title": "Amplify Generative AI Innovation (AGI) Center launch",
+      "description": "Launched February 2, 2026 inside the College of Connected Computing, the AGI Center is a 'living laboratory' for generative and agentic AI in research, teaching, student success, administrative operations, and external partnerships. Co-led by Director Jules White and Chief AI and Technology Officer Allen Karns. Over 40+ higher-ed institutions currently pilot the Amplify platform developed here; Vanderbilt's own Amplify user base exceeds 10,000.",
+      "significance": "Establishes Vanderbilt as an infrastructure provider to the broader higher-ed sector (not just a consumer), with an open-source AI stack competing against vendor platforms.",
+      "date_announced": "2026-02-02",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_research_center",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "College of Connected Computing / institutional",
+        "description": "Funded through CCC's operational budget and industry partnerships; specific dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "50+ higher-education institutions adopting Amplify",
+            "U.S. Senate AI Working Group"
+          ],
+          "description": "AGI Center leaders White and Karns have briefed a U.S. Senate AI working group and delivered keynote addresses at Meta, Oracle, and Wells Fargo."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Anthropic",
+            "OpenAI",
+            "Mistral",
+            "Amazon Nova",
+            "Google",
+            "Meta"
+          ],
+          "description": "Amplify integrates and arbitrates across a dozen LLMs from multiple vendors via a single enterprise stack."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Amplify",
+          "vendor": "Vanderbilt (in-house, open-source)",
+          "role": "Enterprise generative AI platform running in Vanderbilt's private AWS cloud"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Consolidates AI governance, tool procurement, training, and research into one organizational unit while preserving vendor optionality.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/",
+        "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/",
+        "https://www.vanderbilt.edu/agi/"
+      ]
+    },
+    {
+      "title": "Amplify 2.0 multi-model, agent-enabled platform release",
+      "description": "Released January 2026, Amplify 2.0 upgrades Vanderbilt's in-house generative AI platform to ~12 LLM options from Anthropic, OpenAI, Amazon Nova, and Mistral, and introduces agentic features: a personal AI email assistant, scheduling agent, intelligent note-taker, and user-built chatbots. Runs in Vanderbilt's private AWS cloud, integrated with Outlook, calendars, and institutional databases.",
+      "significance": "Shows a research university shipping production-grade agentic-AI infrastructure with multi-model flexibility — an emerging pattern that contrasts with single-vendor campus deployments and is being picked up by 50+ peer institutions.",
+      "date_announced": "2026-01-06",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Vanderbilt University IT (VUIT) / CCC",
+        "description": "Open-source, developed in-house; cost-efficient by pooling vendor API spend across units. User base >10,000."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Anthropic",
+            "OpenAI",
+            "Mistral",
+            "Amazon"
+          ],
+          "description": "Multi-vendor LLM routing via Amplify's API layer."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Amplify 2.0",
+          "vendor": "Vanderbilt (in-house, open-source)",
+          "role": "Enterprise generative AI platform with agents, custom chatbots, and document retrieval"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "LLM accessed via Amplify"
+        },
+        {
+          "name": "GPT models",
+          "vendor": "OpenAI",
+          "role": "LLM accessed via Amplify"
+        },
+        {
+          "name": "Mistral",
+          "vendor": "Mistral AI",
+          "role": "LLM accessed via Amplify"
+        },
+        {
+          "name": "Amazon Nova",
+          "vendor": "Amazon",
+          "role": "LLM accessed via Amplify"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Gives Vanderbilt durable vendor independence and a private-cloud data posture; reduces pressure to sole-source from any one AI provider.",
+      "source_urls": [
+        "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/",
+        "https://www.vanderbilt.edu/agi/platforms/amplify/"
+      ]
+    },
+    {
+      "title": "Multi-tool campus AI stack: ChatGPT Edu + Amplify 2.0 + Microsoft Copilot + Grow with Google",
+      "description": "On January 12, 2026 Vanderbilt announced campus-wide, no-cost access to ChatGPT Edu, Amplify 2.0, and Grow with Google for every faculty, student, and staff with a @vanderbilt.edu email; Microsoft 365 Copilot had been rolled out to faculty and staff in February 2024. ChatGPT Edu rollout required 'months of collaboration' between Office of Learning Innovation, VUIT, and OpenAI to meet Vanderbilt's data-security standards. More than 70% of the campus community uses generative AI regularly.",
+      "significance": "Flagship example of a research university adopting multiple major LLM vendors simultaneously at enterprise scale instead of picking one — a posture increasingly cited by peers as a template.",
+      "date_announced": "2026-01-12",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Provost's Office / VUIT",
+        "description": "Enterprise licensing for ChatGPT Edu (OpenAI), Microsoft 365 Copilot, and Google/Coursera; provided free to end users."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft",
+            "Google",
+            "Coursera"
+          ],
+          "description": "Simultaneous enterprise partnerships with all three major generative AI vendors plus Coursera for workforce training."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise LLM desktop/mobile interface under university data-security contract"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI embedded across Office 365"
+        },
+        {
+          "name": "Grow with Google",
+          "vendor": "Google / Coursera",
+          "role": "Workforce certificate programs (AI essentials, data analytics)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Normalizes AI access as a basic campus utility on par with email or LMS; shifts policy focus from access control to literate use.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/",
+        "https://news.vanderbilt.edu/2024/02/20/copilot-a-microsoft-ai-tool-powered-by-chatgpt-available-for-vanderbilt-faculty-and-staff/",
+        "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide"
+      ]
+    },
+    {
+      "title": "Academic Affairs Guidance for Artificial Intelligence Tools (foundational AI policy)",
+      "description": "Released August 1, 2023 by the Office of the Provost, this document is Vanderbilt's foundational institutional AI policy. It delegates classroom authority to individual faculty, requires every syllabus to state its AI stance, defaults to permitting generative AI with disclosure when silent, and routes integrity adjudication through the Undergraduate Honor Council with explicit caveats that AI-detector output alone is insufficient evidence.",
+      "significance": "Represents the faculty-discretion, disclosure-first pole of higher-ed AI policy — a deliberately permissive alternative to prohibitive or centralized models, explicitly paired with a ban on institutional AI-detection tools.",
+      "date_announced": "2023-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Policy development and ongoing faculty training by AdvancED and Office of Learning Innovation."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Sets a national reference point for 'faculty-led, disclosure-default' AI policy with explicit skepticism of AI-detection tools on privacy and reliability grounds.",
+      "source_urls": [
+        "https://www.vanderbilt.edu/generative-ai/academic-integrity/",
+        "https://cdn.vanderbilt.edu/vu-URL/wp-content/uploads/sites/241/2023/08/16143452/Vanderbilt-University-Academic-Affairs-Guidance-for-Artificial-Intelligence.pdf",
+        "https://as.vanderbilt.edu/gci-ai/syllabus-ai-policies/"
+      ]
+    },
+    {
+      "title": "VALIANT — Vanderbilt Lab for Immersive AI Translation (grand opening)",
+      "description": "Grand-opened March 27, 2025 in the School of Engineering, VALIANT comprises 12 constituent labs, ~41 AI Faculty Fellows, and ~65 AI Scholars (doctoral students). Directed by University Distinguished Professor Bennett Landman (Stevenson Chair of ECE). Research spans medical imaging (brain, eye, lung, pancreas), computer vision for archaeology, EEG-to-fMRI inference via deep learning, and high-performance AI translation. Runs an annual AI Summer School.",
+      "significance": "Consolidates Vanderbilt's applied-AI research into a single 12-lab federation with a formal fellowship/scholar structure, a pattern of 'AI translation institutes' appearing across R1 engineering schools.",
+      "date_announced": "2025-03-27",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "School of Engineering / institutional",
+        "description": "Funded through School of Engineering and research grants; specific launch budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "VUMC (medical imaging collaborations)"
+          ],
+          "description": "Tight coupling with Vanderbilt University Medical Center on clinical AI research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.vanderbilt.edu/2025/04/04/vanderbilt-celebrates-opening-of-new-center-focused-on-ai-translation/",
+        "https://www.vanderbilt.edu/valiant/",
+        "https://www.vanderbilt.edu/valiant/about-us/labs/"
+      ]
+    },
+    {
+      "title": "Vanderbilt-Coursera Generative AI Curriculum (500K+ learners)",
+      "description": "Starting May 2023 with Jules White's 'Prompt Engineering for ChatGPT' course, Vanderbilt has published 13+ Coursera generative AI courses and 7 specializations, reaching 500,000+ cumulative enrollments (327,000+ in prompt engineering alone). White received Coursera's Innovation Award in September 2024. Current specializations include Trustworthy Generative AI, Generative AI Software Engineering, AI Agent Developer, and Microsoft 365 Copilot for Leaders.",
+      "significance": "Turns a single university's AI faculty into a globally distributed continuing-education product, establishing Vanderbilt as a top-three university Coursera publisher and broadening sector revenue models.",
+      "date_announced": "2023-05-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "faculty_training_and_development",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "transformative",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Coursera revenue-share / institutional",
+        "description": "Generates ongoing revenue through Coursera partnership; specific dollar figures not public."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Coursera",
+            "Microsoft (Copilot specialization)"
+          ],
+          "description": "Coursera is Vanderbilt's primary MOOC partner; Microsoft co-developed the 365 Copilot leaders specialization."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Coursera",
+          "vendor": "Coursera",
+          "role": "MOOC distribution platform"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.vanderbilt.edu/2024/10/31/pioneering-ai-education-vanderbilt-and-coursera-lead-the-way-in-global-generative-ai/",
+        "https://www.vanderbilt.edu/generative-ai/coursera/",
+        "https://www.coursera.org/instructor/juleswhite"
+      ]
+    },
+    {
+      "title": "Institute of National Security — $2.5M Hewlett Foundation grant for AI-driven information warfare research",
+      "description": "Announced February 10, 2026, the Vanderbilt Institute of National Security received a $2.5M, two-year grant from the William & Flora Hewlett Foundation for the Wicked Problems Lab, including the Synthetic Information Filtering Testbed (SIFT) — described as a first-of-its-kind research initiative designed to strengthen democratic resilience against AI-powered influence operations.",
+      "significance": "Example of philanthropic funding targeting AI-harm mitigation research at an R1, linking national-security expertise to AI-policy scholarship.",
+      "date_announced": "2026-02-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2500000,
+        "funding_source": "William & Flora Hewlett Foundation",
+        "description": "Two-year grant for the Wicked Problems Lab and SIFT testbed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "William & Flora Hewlett Foundation",
+            "U.S. national security community"
+          ],
+          "description": "Private-foundation-backed applied research into AI-powered influence operations and democratic resilience."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Positions Vanderbilt as an academic-policy voice on AI and information integrity.",
+      "source_urls": [
+        "https://www.vanderbilt.edu/national-security/2026/02/10/vanderbilt-university-institute-of-national-security-awarded-2-5-million-grant-from-william-flora-hewlett-foundation-to-advance-research-on-ai-driven-information-warfare/"
+      ]
+    },
+    {
+      "title": "AVAIL — Advanced Vanderbilt Artificial Intelligence Laboratory (VUMC enterprise AI governance)",
+      "description": "VUMC-wide body providing strategic and operational leadership for AI technology identification, review, selection, implementation, efficacy testing, advancement, and life-cycle management. Operates an Executive Steering Committee overseeing two subcommittees: an AI Technology Sub-Committee (AIT) and a Patient-Engaging Technology Sub-Committee (PET).",
+      "significance": "Mature example of a separate academic-medical-center AI governance body, distinct from the parent university's governance — a pattern seen at most R1s with large teaching hospitals.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "data_privacy_and_security",
+        "ai_ethics_framework",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Vanderbilt University Medical Center",
+        "description": "VUMC enterprise governance funding; specific budget not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a gated pathway for clinical AI evaluation and deployment separate from campus-wide research AI policy.",
+      "source_urls": [
+        "https://www.vumc.org/avail/avail-advanced-vanderbilt-artificial-intelligence-laboratory",
+        "https://www.vumc.org/ai/welcome"
+      ]
+    },
+    {
+      "title": "DAX Copilot ambient clinical documentation rollout (VUMC)",
+      "description": "Vanderbilt University Medical Center has rolled out Nuance/Microsoft DAX Copilot ambient AI scribe to approximately 1,300 active users including physicians, advanced-practice providers, dietitians, physical and occupational therapists, and ED clinicians. The tool transcribes and structures patient encounters into the EHR so clinicians can focus on patients.",
+      "significance": "Large-scale operational clinical AI deployment at an academic medical center; a sector-defining example of AI reducing documentation burden.",
+      "date_announced": "2024-01-05",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "community",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "VUMC enterprise licensing",
+        "description": "Enterprise license for Nuance/Microsoft DAX Copilot across ~1,300 clinicians."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft / Nuance"
+          ],
+          "description": "Enterprise deployment of Microsoft-owned Nuance DAX Copilot."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DAX Copilot",
+          "vendor": "Microsoft / Nuance",
+          "role": "Ambient clinical documentation AI scribe"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes precedent for operational clinical AI at VUMC under AVAIL governance.",
+      "source_urls": [
+        "https://news.vumc.org/2025/08/25/clinicians-patients-cheer-the-ai-ear-in-vanderbilt-health-exam-rooms/",
+        "https://news.vumc.org/2024/01/05/artificial-intelligence-advances-work-in-vumcs-clinical-and-research-settings/",
+        "https://www.healthcareitnews.com/news/vanderbilt-piloting-nuance-dax-copilot-testing-other-genai-use-cases"
+      ]
+    },
+    {
+      "title": "Enterprise AI and Computing Innovation Studio",
+      "description": "Launched early September 2025 as a collaboration among Vanderbilt University IT (VUIT), the Amplify GenAI Innovation Center, and the Data Science Institute. Brings together undergraduates, graduate students, and staff to build project-based AI solutions for enterprise use. Housed within the Data Science Institute.",
+      "significance": "Gives students real operational AI-development experience solving university-business problems — a live-ops training model distinct from classroom AI courses.",
+      "date_announced": "2025-09-25",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_workforce_training",
+        "ai_incubator_or_startup_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "VUIT / AGI Center / DSI",
+        "description": "Joint operational funding across three units; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "VUIT",
+            "AGI Center",
+            "Data Science Institute"
+          ],
+          "description": "Three-way internal collaboration."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Amplify",
+          "vendor": "Vanderbilt",
+          "role": "Underlying platform used to build enterprise AI solutions"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Provides a vetted sandbox for student-built AI applications touching enterprise data.",
+      "source_urls": [
+        "https://vanderbilthustler.com/2025/09/25/amplify-generative-ai-innovation-center-and-data-science-institute-launch-enterprise-ai-and-computing-innovation-studio/"
+      ]
+    },
+    {
+      "title": "Generative AI minor (College of Connected Computing)",
+      "description": "A new undergraduate minor in generative AI, tentatively launching spring 2026, introduces students to the principles, tools, and implications of generative AI — including foundations of generative AI, AI strategy and organizational dynamics, and ethics, responsibility, and AI governance. Awarded through the College of Connected Computing.",
+      "significance": "One of the earlier dedicated undergraduate generative AI minors at an elite R1, with an explicit 'strategy + governance' track alongside the technical curriculum.",
+      "date_announced": "2025-11-06",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_ethics_framework",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Connected Computing",
+        "description": "Curriculum development under CCC's founding budget."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds AI ethics and governance as a credit-bearing requirement for minor completion.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2025/11/06/decoding-vanderbilts-new-college-of-connected-computing/",
+        "https://computing.vanderbilt.edu/"
+      ]
+    },
+    {
+      "title": "MS ECE (Applied AI) specialization and MS in Computer Science AI concentration",
+      "description": "Graduate offerings include the MS in Electrical and Computer Engineering with an Applied AI specialization and the MS in Computer Science with AI coursework in the School of Engineering. Graduate programs will expand through the CCC starting fall 2026.",
+      "significance": "Dedicated applied-AI graduate track at an engineering school — common but essential building block of R1 AI talent supply.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "School of Engineering",
+        "description": "Existing graduate program budgets."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.vanderbilt.edu/departments/computer-science/research-artificial-intelligence/",
+        "https://engineering.vanderbilt.edu/departments/computer-science/graduate/"
+      ]
+    },
+    {
+      "title": "Quincy HR chatbot (People, Culture and Belonging)",
+      "description": "Launched December 11, 2024 by Vanderbilt's People, Culture and Belonging division, Quincy is a custom chatbot (built on Amplify) providing employees with quick answers, guidance, and support on HR topics.",
+      "significance": "Early concrete example of administrative AI operationalization at an R1, built on the institution's own Amplify platform rather than a vendor product.",
+      "date_announced": "2024-12-11",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "People, Culture and Belonging / institutional",
+        "description": "Built on Amplify using existing platform capabilities."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Quincy",
+          "vendor": "Vanderbilt (built on Amplify)",
+          "role": "HR employee assistance chatbot"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates Amplify's chatbot-builder capability for non-technical units.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2024/12/12/meet-quincy-people-culture-and-belonging-launches-new-chatbot/"
+      ]
+    },
+    {
+      "title": "ACCRE HPC modernization with Hammerspace (10PB GPU/CPU data fabric)",
+      "description": "In November 2025, Vanderbilt's Advanced Computing Center for Research and Education (ACCRE) selected Hammerspace to power a 10-petabyte, next-generation research data infrastructure integrating CPU/GPU server-local storage, commodity storage servers, and multi-PB archival capacity. ACCRE runs ~750 compute nodes including ~80 GPU nodes (each with 2, 4, or 8 NVIDIA GPUs). Expected storage cost reduction of 48%.",
+      "significance": "Keeps Vanderbilt's campus HPC competitive for AI training and inference at a time when many R1s are outsourcing to cloud; establishes a data-fabric pattern peers will likely follow.",
+      "date_announced": "2025-11-20",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Vanderbilt ACCRE / institutional",
+        "description": "Infrastructure investment for 10PB data fabric; specific dollar amount not disclosed; expected 48% storage cost reduction."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Hammerspace",
+            "NVIDIA"
+          ],
+          "description": "Vendor partnership with Hammerspace for the data fabric and NVIDIA for GPU compute."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Hammerspace Data Orchestration",
+          "vendor": "Hammerspace",
+          "role": "Global data fabric for HPC and AI workloads"
+        },
+        {
+          "name": "NVIDIA GPUs",
+          "vendor": "NVIDIA",
+          "role": "AI training/inference compute"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hammerspace.com/vanderbilt-accre-selects-hammerspace/",
+        "https://www.hpcwire.com/off-the-wire/vanderbilt-advanced-computing-center-for-research-and-education-selects-hammerspace-to-power-next-gen-research-data-infrastructure/",
+        "https://www.vanderbilt.edu/accre/technical-details/"
+      ]
+    },
+    {
+      "title": "Deep Research Assist program (Data Science Institute)",
+      "description": "Launched February 26, 2025 by the Data Science Institute, Deep Research Assist provides personalized sessions where DSI AI experts guide Vanderbilt researchers in leveraging advanced AI reasoning models and agent systems to generate research backgrounds, explore novel directions, and develop grant proposals.",
+      "significance": "Concierge-style AI-for-research enablement model that translates frontier LLM capabilities into grant-writing and literature review for faculty across disciplines.",
+      "date_announced": "2025-02-26",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Data Science Institute",
+        "description": "DSI operational funding."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.vanderbilt.edu/datascience/2025/02/26/vanderbilt-data-science-institute-unveils-deep-research-assist-program-to-academic-research/"
+      ]
+    },
+    {
+      "title": "Global Education Deans' Forum on AI Transformation",
+      "description": "Vanderbilt's Peabody College hosted the Global Education Deans' Forum October 21-24, 2025 — convening deans from 30 colleges and universities on four continents under the theme 'Navigating the AI Transformation: Colleges of Education in the Evolving Higher Education Landscape.' Co-hosted with Florida State (Daves College of Education) and University of Kansas (School of Education and Human Sciences).",
+      "significance": "Positions Vanderbilt's Peabody College as a convening hub for global ed-school AI-transformation dialogue.",
+      "date_announced": "2025-10-21",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Peabody College / host partners",
+        "description": "Convening budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Florida State University",
+            "University of Kansas",
+            "30 higher-ed institutions from four continents"
+          ],
+          "description": "Multi-continent deans' forum on AI in education."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Produces cross-institutional consensus statements on AI in teacher preparation.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2025/11/05/at-vanderbilt-education-leaders-from-around-the-globe-meet-to-shape-the-future-of-ai-in-learning/"
+      ]
+    },
+    {
+      "title": "Shutdown of Turnitin AI detector (integrity-tool policy)",
+      "description": "Vanderbilt disabled Turnitin's AI-detection feature after documented false-positive rates and student-privacy concerns. The university currently offers no institutionally supported AI-detection tool. Policy explicitly states that an Undergraduate Honor Council report cannot be based solely on AI-detector output.",
+      "significance": "One of the most public R1 decisions to remove AI-detection from academic integrity workflows — cited nationally by faculty and student-rights groups.",
+      "date_announced": "2023-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Policy decision; no direct cost."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Turnitin AI detector",
+          "vendor": "Turnitin",
+          "role": "Disabled / not used"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Sets precedent that algorithmic-bias and FERPA concerns can override vendor AI-detection adoption.",
+      "source_urls": [
+        "https://www.vanderbilt.edu/generative-ai/academic-integrity/",
+        "https://marcwatkins.substack.com/p/beyond-ineffective-how-unreliable"
+      ]
+    },
+    {
+      "title": "Innovation in Teaching Award for generative AI (AdvancED)",
+      "description": "Announced during AdvancED's first year (2024), this annual award honors one full-time faculty member for excellence and innovation in using generative AI in the classroom. Paired with the Faculty AI Toolkit — concise guidance including a tool comparison guide, teaching checklist, class-prep prompts, and student-learning strategies.",
+      "significance": "Institutionalizes generative AI pedagogy as a recognized faculty career dimension rather than a tolerated experiment.",
+      "date_announced": "2024-12-19",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "AdvancED / Office of the Provost",
+        "description": "Award funding and toolkit-development resources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals that generative AI use is celebrated, not suspect, when paired with pedagogical intention.",
+      "source_urls": [
+        "https://news.vanderbilt.edu/2024/12/19/advanced-redefines-faculty-and-student-experience-in-its-first-year/",
+        "https://www.vanderbilt.edu/advanced-institute/faculty-learning-resources/"
+      ]
+    },
+    {
+      "title": "Planning Assistant — accessibility-focused student AI",
+      "description": "A Vanderbilt-developed AI project that scans course syllabi to extract key dates and automatically adds them to a student's calendar. Future iterations plan to decompose complex assignments into subtasks and suggest timelines — particularly aimed at students with executive-function-affecting disabilities.",
+      "significance": "Concrete accessibility-driven AI use case showing how an R1 can translate AI platform capability into disability-inclusive student tooling.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "personalized_student_support",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal / student innovation",
+        "description": "Developed within Vanderbilt's AI ecosystem; specific funding not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Illustrates the equity upside of campus-wide AI access when paired with accessibility intent.",
+      "source_urls": [
+        "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide"
+      ]
+    },
+    {
+      "title": "AI Days 2026 — campus AI conference",
+      "description": "Two-day campus AI conference March 4-5, 2026 at Holiday Inn Vanderbilt, hosted by CCC and the Data Science Institute. Day 1 focuses on AI literacy and strategy; Day 2 on hands-on building. Keynote by Dean Matthew Johnson-Roberson. Topics include LLMs, agentic systems, AI ethics, human-AI collaboration, AI-enhanced education. Free to Vanderbilt community; grew from 150+ attendees in 2025.",
+      "significance": "Scaled annual convening that turns Vanderbilt's internal AI expertise into a public, inter-unit learning event.",
+      "date_announced": "2026-03-04",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "CCC / DSI",
+        "description": "Conference operating budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Connected Computing",
+            "Data Science Institute"
+          ],
+          "description": "Internal cross-college collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.vanderbilt.edu/datascience/ai-days-2026/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Amplify Generative AI Innovation Center (AGI Center)",
+      "focus": "Ethical, human-centered generative and agentic AI across research, teaching, student success, administrative operations, and external partnerships",
+      "founded": "2026",
+      "url": "https://www.vanderbilt.edu/agi/"
+    },
+    {
+      "name": "VALIANT — Vanderbilt Lab for Immersive AI Translation",
+      "focus": "Applied AI, machine learning, and high-performance computing across medical imaging, computer vision, brain-signal inference, and interdisciplinary translation; 12 constituent labs, ~41 faculty fellows, ~65 scholars",
+      "founded": "2025",
+      "url": "https://www.vanderbilt.edu/valiant/"
+    },
+    {
+      "name": "Data Science Institute (DSI)",
+      "focus": "Cross-disciplinary data science and AI research, including the Deep Research Assist program, Hugging Face model releases, and undergraduate summer research",
+      "founded": "2019",
+      "url": "https://www.vanderbilt.edu/datascience/"
+    },
+    {
+      "name": "Vanderbilt Initiative on the Future of Learning & Generative AI",
+      "focus": "Generative AI for learning; faculty advising; research, workshops, and courses",
+      "founded": "2023",
+      "url": "https://www.vanderbilt.edu/generative-ai/future-learning-initiative/"
+    },
+    {
+      "name": "AVAIL — Advanced Vanderbilt Artificial Intelligence Laboratory (VUMC)",
+      "focus": "Clinical AI technology identification, review, selection, implementation, efficacy testing, advancement, and life-cycle management across VUMC",
+      "founded": null,
+      "url": "https://www.vumc.org/avail/avail-advanced-vanderbilt-artificial-intelligence-laboratory"
+    },
+    {
+      "name": "ADVANCE Center (VUMC)",
+      "focus": "AI Discovery and Vigilance to Accelerate Innovation and Clinical Excellence; clinical AI evaluation inside the Department of Biomedical Informatics",
+      "founded": "2024",
+      "url": "https://www.vumc.org/ai/welcome"
+    },
+    {
+      "name": "SCOPE Lab",
+      "focus": "AI methods for decision-making in complex, uncertain environments; real-community field testing",
+      "founded": null,
+      "url": "https://scopelab.ai/"
+    },
+    {
+      "name": "Institute of National Security — Wicked Problems Lab / SIFT",
+      "focus": "AI-driven information warfare research and democratic resilience against AI-powered influence operations",
+      "founded": "2024",
+      "url": "https://www.vanderbilt.edu/national-security/"
+    },
+    {
+      "name": "Grand Challenge Initiative: Artificial Intelligence (College of Arts and Science)",
+      "focus": "Humanities and social-science scholarship on AI applications, implications, and ethics",
+      "founded": "2023",
+      "url": "https://as.vanderbilt.edu/gci-ai/"
+    },
+    {
+      "name": "Advanced Computing Center for Research and Education (ACCRE)",
+      "focus": "Campus-wide HPC for AI, data analytics, and simulation (~750 nodes, ~80 GPU nodes, 10 PB data fabric)",
+      "founded": "2002",
+      "url": "https://www.vanderbilt.edu/accre/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "minor",
+      "name": "Generative AI Minor",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://news.vanderbilt.edu/2025/11/06/decoding-vanderbilts-new-college-of-connected-computing/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Electrical and Computer Engineering — Applied AI specialization",
+      "level": "grad",
+      "launched": null,
+      "url": "https://engineering.vanderbilt.edu/departments/computer-science/research-artificial-intelligence/"
+    },
+    {
+      "type": "certificate",
+      "name": "Certificate in Emerging Learning Technologies and AI (Peabody College)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://peabody.vanderbilt.edu/academics/graduate-professional-certificates/emerging-learning-technologies-ai/"
+    },
+    {
+      "type": "degree",
+      "name": "BA/BS in Computer Science (including AI and applied ML coursework) — CCC",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://engineering.vanderbilt.edu/departments/computer-science/undergraduate-program/"
+    },
+    {
+      "type": "minor",
+      "name": "Data Science Minor (now awarded by CCC)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://www.vanderbilt.edu/datascience/"
+    },
+    {
+      "type": "course",
+      "name": "DS 3891 Introduction to Generative Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.vanderbilt.edu/datascience/"
+    },
+    {
+      "type": "certificate",
+      "name": "Prompt Engineering for ChatGPT (Coursera)",
+      "level": "both",
+      "launched": "2023-05",
+      "url": "https://www.coursera.org/learn/prompt-engineering"
+    },
+    {
+      "type": "certificate",
+      "name": "Generative AI Software Engineering Specialization (Coursera)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.coursera.org/specializations/generative-ai-software-engineering"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Agent Developer Specialization (Coursera)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.coursera.org/specializations/ai-agents"
+    },
+    {
+      "type": "certificate",
+      "name": "Trustworthy Generative AI (Coursera)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.coursera.org/learn/trustworthy-generative-ai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Vanderbilt (in-house, open-source)",
+      "product": "Amplify 2.0",
+      "scope": "campus-wide",
+      "user_count": 10000,
+      "deployed": "2024-11",
+      "url": "https://www.vanderbilt.edu/agi/platforms/amplify/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-01",
+      "url": "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-02",
+      "url": "https://news.vanderbilt.edu/2024/02/20/copilot-a-microsoft-ai-tool-powered-by-chatgpt-available-for-vanderbilt-faculty-and-staff/"
+    },
+    {
+      "vendor": "Google / Coursera",
+      "product": "Grow with Google (certificate pathway)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-01",
+      "url": "https://www.vanderbilt.edu/generative-ai/coursera/"
+    },
+    {
+      "vendor": "Microsoft / Nuance",
+      "product": "DAX Copilot (ambient clinical documentation)",
+      "scope": "college-specific",
+      "user_count": 1300,
+      "deployed": "2024-01",
+      "url": "https://news.vumc.org/2025/08/25/clinicians-patients-cheer-the-ai-ear-in-vanderbilt-health-exam-rooms/"
+    },
+    {
+      "vendor": "Hammerspace",
+      "product": "Hammerspace Data Orchestration (10 PB HPC data fabric)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://hammerspace.com/vanderbilt-accre-selects-hammerspace/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "ACCRE (Advanced Computing Center for Research and Education)",
+    "gpu_count": 80,
+    "url": "https://www.vanderbilt.edu/accre/technical-details/",
+    "summary": "ACCRE runs approximately 750 compute nodes including ~80 GPU nodes (each equipped with 2, 4, or 8 NVIDIA GPUs) inside a 4,000-square-foot center. In November 2025 ACCRE selected Hammerspace to deploy a 10-petabyte next-generation research data infrastructure integrating CPU/GPU server-local storage, commodity storage servers, and multi-PB archival, with an expected 48% reduction in average storage cost. Amplify additionally runs in Vanderbilt's private AWS cloud for enterprise AI workloads."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "John and Laura Arnold $25M gift for College of Connected Computing",
+      "amount_usd": 25000000,
+      "source": "John and Laura Arnold",
+      "purpose": "Endowed chair for inaugural dean plus three faculty chairs for CCC",
+      "date": "2025-03",
+      "url": "https://news.vanderbilt.edu/2025/03/06/vanderbilt-receives-transformational-25-million-gift-for-new-college-of-connected-computing/"
+    },
+    {
+      "title": "Hewlett Foundation $2.5M grant for AI-driven information warfare research",
+      "amount_usd": 2500000,
+      "source": "William & Flora Hewlett Foundation",
+      "purpose": "Wicked Problems Lab and Synthetic Information Filtering Testbed (SIFT) at Institute of National Security",
+      "date": "2026-02",
+      "url": "https://www.vanderbilt.edu/national-security/2026/02/10/vanderbilt-university-institute-of-national-security-awarded-2-5-million-grant-from-william-flora-hewlett-foundation-to-advance-research-on-ai-driven-information-warfare/"
+    },
+    {
+      "title": "Asness family $10M gift for Institute of National Security",
+      "amount_usd": 10000000,
+      "source": "Asness family",
+      "purpose": "Support national security research including AI-related research threads",
+      "date": "2025-06",
+      "url": "https://giving.vanderbilt.edu/impact-stories/11-25m-gift-will-propel-efforts-in-national-security-research-and-neurodiverse-innovation/"
+    },
+    {
+      "title": "Discovery Vanderbilt research investment",
+      "amount_usd": 80000000,
+      "source": "Vanderbilt University (institutional)",
+      "purpose": "Broad research expansion including AI and computing; $50M invested in year one",
+      "date": "2024-04",
+      "url": "https://news.vanderbilt.edu/2024/04/15/discovery-vanderbilt-sends-research-soaring/"
+    },
+    {
+      "title": "Generative AI Seed Grant program",
+      "amount_usd": null,
+      "source": "Vanderbilt University (institutional)",
+      "purpose": "Internal seed funding for faculty generative AI projects",
+      "date": "2023-09",
+      "url": "https://news.vanderbilt.edu/2023/09/28/vanderbilt-introduces-generative-ai-seed-grant/"
+    },
+    {
+      "title": "Innovation Catalyst Funds (October 2025 cycle)",
+      "amount_usd": null,
+      "source": "Vanderbilt University (institutional)",
+      "purpose": "Seven faculty awards including AI-related projects",
+      "date": "2026-02",
+      "url": "https://news.vanderbilt.edu/2026/02/02/innovation-catalyst-funds-awarded-to-seven-faculty-from-october-2025-cycle/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Edu enterprise deployment",
+      "date": "2026-01",
+      "url": "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft 365 Copilot enterprise license; Microsoft 365 Copilot for Leaders Coursera specialization; Nuance DAX Copilot clinical deployment at VUMC",
+      "date": "2024-02",
+      "url": "https://news.vanderbilt.edu/2024/02/20/copilot-a-microsoft-ai-tool-powered-by-chatgpt-available-for-vanderbilt-faculty-and-staff/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Anthropic",
+      "purpose": "Claude models accessed via Amplify multi-vendor platform",
+      "date": null,
+      "url": "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Coursera",
+      "purpose": "Generative AI curriculum distribution; 500K+ cumulative enrollments across 13+ courses and 7 specializations",
+      "date": "2023-05",
+      "url": "https://news.vanderbilt.edu/2024/10/31/pioneering-ai-education-vanderbilt-and-coursera-lead-the-way-in-global-generative-ai/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Grow with Google workforce certificate programs",
+      "date": "2026-01",
+      "url": "https://www.vanderbilt.edu/generative-ai/coursera/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Hammerspace",
+      "purpose": "10PB research data fabric modernizing ACCRE HPC",
+      "date": "2025-11",
+      "url": "https://hammerspace.com/vanderbilt-accre-selects-hammerspace/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "50+ higher-ed institutions adopting Amplify",
+      "purpose": "Shared ecosystem around the open-source Amplify platform",
+      "date": "2024-11",
+      "url": "https://www.vanderbilt.edu/agi/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Senate AI working group",
+      "purpose": "Policy briefings by Jules White and Allen Karns",
+      "date": null,
+      "url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "William & Flora Hewlett Foundation",
+      "purpose": "$2.5M grant for AI-driven information warfare research (SIFT)",
+      "date": "2026-02",
+      "url": "https://www.vanderbilt.edu/national-security/2026/02/10/vanderbilt-university-institute-of-national-security-awarded-2-5-million-grant-from-william-flora-hewlett-foundation-to-advance-research-on-ai-driven-information-warfare/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Florida State University; University of Kansas",
+      "purpose": "Co-hosts of the Global Education Deans' Forum on AI Transformation (October 2025)",
+      "date": "2025-10",
+      "url": "https://news.vanderbilt.edu/2025/11/05/at-vanderbilt-education-leaders-from-around-the-globe-meet-to-shape-the-future-of-ai-in-learning/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Amplify 2.0 (personal AI email assistant, scheduling agent, intelligent note-taker, custom chatbots)",
+      "scope": "Campus-wide, free with @vanderbilt.edu email",
+      "url": "https://www.vanderbilt.edu/agi/platforms/amplify/"
+    },
+    {
+      "type": "other",
+      "name": "ChatGPT Edu",
+      "scope": "Campus-wide, free with @vanderbilt.edu email",
+      "url": "https://www.vanderbilt.edu/generative-ai/tools/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Quincy (HR chatbot for People, Culture and Belonging)",
+      "scope": "Employee-facing; built on Amplify",
+      "url": "https://news.vanderbilt.edu/2024/12/12/meet-quincy-people-culture-and-belonging-launches-new-chatbot/"
+    },
+    {
+      "type": "other",
+      "name": "Planning Assistant (syllabus-to-calendar AI for accessibility)",
+      "scope": "Pilot; disability-inclusive student tooling",
+      "url": "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot (writing, summarization, productivity)",
+      "scope": "Campus-wide, faculty/staff; student access through multi-tool stack",
+      "url": "https://www.vanderbilt.edu/generative-ai/tools/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "No-cost campus-wide AI access (ChatGPT Edu, Amplify 2.0, Copilot, Grow with Google)",
+      "description": "All faculty, students, and staff with @vanderbilt.edu email receive free access to four enterprise AI tools, designed to close within-campus tool-access gaps. Reported >70% campus-community usage.",
+      "url": "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/"
+    },
+    {
+      "title": "Planning Assistant for students with executive-function disabilities",
+      "description": "AI that scans syllabi, extracts dates, and adds them to calendars; future roadmap decomposes complex assignments into subtasks with suggested timelines.",
+      "url": "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide"
+    },
+    {
+      "title": "Disabling Turnitin AI detector to protect student privacy",
+      "description": "Citing false positives and data-privacy risks, Vanderbilt disabled Turnitin's AI detector and refuses to endorse any institutional AI-detection tool; protects students who do not consent to AI-detection data processing.",
+      "url": "https://www.vanderbilt.edu/generative-ai/academic-integrity/"
+    },
+    {
+      "title": "Coursera generative AI courses with financial aid / free audit",
+      "description": "500K+ cumulative enrollments across 13+ AI courses through Coursera, many available free-audit; brings Vanderbilt AI curriculum to global learners outside the university.",
+      "url": "https://www.vanderbilt.edu/generative-ai/coursera/"
+    },
+    {
+      "title": "InclusAbility identity initiative",
+      "description": "Division of Equity, Diversity and Inclusion initiative bringing an inclusive lens to the Disabled community; context for AI accessibility work on campus.",
+      "url": "https://www.vanderbilt.edu/diversity/identity-initiatives/inclusability/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Tennessee",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Tennessee Code 49-7-185 (2024) requires the University of Tennessee System Board of Trustees, the Tennessee Board of Regents, and each state university's local governing board to adopt and post an AI policy by July 1, 2025, with non-compliance reporting to the joint government operations committee. Vanderbilt is a private nonprofit and not directly bound by the statute, but the state regulatory context sets norms Vanderbilt's policy choices are compared against. The UT System's BT0035 policy (University of Tennessee Board of Trustees) is the state's flagship public-sector AI policy. Additional 2025 state legislation focuses on K-12 and higher-ed responsible AI guidance.",
+    "urls": [
+      "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+      "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2023-09",
+      "summary": "Vanderbilt disabled Turnitin's AI-detection tool after documented false-positive rates, signaling institutional skepticism of AI-detection vendors on reliability and student-privacy grounds. No active litigation, but the decision was widely covered and is cited by faculty and student-rights groups as precedent.",
+      "status": "resolved",
+      "url": "https://marcwatkins.substack.com/p/beyond-ineffective-how-unreliable"
+    },
+    {
+      "date": "2024-11",
+      "summary": "Vanderbilt secured a federal preliminary injunction against the NLRB over disclosure requirements the university argued conflicted with FERPA. Not an AI-specific case but relevant to Vanderbilt's strict data-privacy posture that also drives its AI-tool vetting.",
+      "status": "resolved",
+      "url": "https://natlawreview.com/article/federal-court-acknowledges-catch-22-involving-ferpa-and-nrla"
+    }
+  ],
+  "narrative_summary": "Vanderbilt University has emerged as one of the most AI-forward R1s in the country through a three-legged strategy: (1) institutional restructuring around the College of Connected Computing (CCC) — its first new college in 40+ years, announced March 2024 and anchored by a $25M Arnold family gift and inaugural dean Matthew Johnson-Roberson (from Carnegie Mellon's Robotics Institute); (2) a vendor-independent, in-house generative AI platform called Amplify, built on Vanderbilt's private AWS cloud, now used by 10,000+ campus users and adopted by 50+ peer institutions; and (3) an explicit 'multi-tool' enterprise AI stack that simultaneously pairs Amplify 2.0 with ChatGPT Edu (OpenAI), Microsoft 365 Copilot, and Grow with Google — all free to faculty, students, and staff. Governance is distributed rather than centralized: Jules White (Senior Advisor to Chancellor Daniel Diermeier on Generative AI) and Allen Karns (Chief AI and Technology Officer) co-lead the new Amplify Generative AI Innovation Center inside CCC, while Provost C. Cybele Raver's AdvancED Institute and Office of Learning Innovation (Mallika Vinekar) handle faculty development, and Padma Raghavan (Chancellor's Executive Director for Science and Technology Strategy, July 2025) sets the cross-cutting R&D agenda. Policy posture is deliberately permissive: the August 2023 Academic Affairs Guidance delegates classroom AI policy to faculty while requiring every syllabus to state its AI stance; defaults to permitting generative AI with disclosure; and famously disables Turnitin's AI detector on false-positive and privacy grounds. Research infrastructure is strong — VALIANT (12 labs, ~41 AI Fellows, ~65 AI Scholars, opened March 2025) for applied AI, ACCRE's newly modernized 10-PB Hammerspace data fabric with ~80 NVIDIA GPU nodes, and VUMC's AVAIL + ADVANCE Center for clinical AI governance with 1,300+ DAX Copilot users. Investment and external funding include the $25M CCC gift, a $2.5M Hewlett grant for AI-driven information warfare research, and the Coursera partnership that has delivered 500,000+ cumulative enrollments across 13+ generative AI courses and 7 specializations. Gaps worth watching: Vanderbilt has no single chief AI officer at the institutional level; equity/inclusion AI work is nascent beyond the accessibility-focused Planning Assistant; and the state-level Tennessee AI policy regime (49-7-185) is not binding on a private institution, leaving Vanderbilt's policy stance intentionally self-determined.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://news.vanderbilt.edu/2026/01/12/vanderbilt-expands-multi-tool-ai-strategy-with-chatgpt-edu-amplify-2-0-and-more/",
+      "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/",
+      "https://news.vanderbilt.edu/2024/03/25/vanderbilt-to-establish-a-college-dedicated-to-computing-ai-and-data-science/",
+      "https://news.vanderbilt.edu/2025/03/06/vanderbilt-receives-transformational-25-million-gift-for-new-college-of-connected-computing/",
+      "https://news.vanderbilt.edu/2025/03/20/vanderbilt-names-technology-visionary-matthew-johnson-roberson-as-its-first-dean-of-the-college-of-connected-computing/",
+      "https://news.vanderbilt.edu/2025/11/06/decoding-vanderbilts-new-college-of-connected-computing/",
+      "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/",
+      "https://computing.vanderbilt.edu/home/about/",
+      "https://www.vanderbilt.edu/agi/",
+      "https://www.vanderbilt.edu/agi/platforms/amplify/",
+      "https://www.vanderbilt.edu/generative-ai/",
+      "https://www.vanderbilt.edu/generative-ai/academic-integrity/",
+      "https://www.vanderbilt.edu/generative-ai/tools/",
+      "https://www.vanderbilt.edu/generative-ai/coursera/",
+      "https://www.vanderbilt.edu/generative-ai/future-learning-initiative/",
+      "https://cdn.vanderbilt.edu/vu-URL/wp-content/uploads/sites/241/2023/08/16143452/Vanderbilt-University-Academic-Affairs-Guidance-for-Artificial-Intelligence.pdf",
+      "https://hr.vanderbilt.edu/policies/generative-ai/",
+      "https://www.vanderbilt.edu/faculty-manual/part-iii-university-principles-and-policies/ch6-acceptable-use-of-information-technology/",
+      "https://as.vanderbilt.edu/gci-ai/",
+      "https://as.vanderbilt.edu/gci-ai/syllabus-ai-policies/",
+      "https://news.vanderbilt.edu/2024/11/14/amplify-vanderbilts-new-custom-generative-ai-software-is-now-open-to-all-faculty-staff-and-students/",
+      "https://news.vanderbilt.edu/2024/02/20/copilot-a-microsoft-ai-tool-powered-by-chatgpt-available-for-vanderbilt-faculty-and-staff/",
+      "https://news.vanderbilt.edu/2024/01/08/vanderbilt-extends-leadership-in-generative-ai/",
+      "https://news.vanderbilt.edu/2024/10/31/pioneering-ai-education-vanderbilt-and-coursera-lead-the-way-in-global-generative-ai/",
+      "https://news.vanderbilt.edu/2024/12/12/meet-quincy-people-culture-and-belonging-launches-new-chatbot/",
+      "https://news.vanderbilt.edu/2024/12/19/advanced-redefines-faculty-and-student-experience-in-its-first-year/",
+      "https://news.vanderbilt.edu/2024/04/22/ai-harnessing-the-machine/",
+      "https://news.vanderbilt.edu/2024/04/15/discovery-vanderbilt-sends-research-soaring/",
+      "https://news.vanderbilt.edu/2023/09/28/vanderbilt-introduces-generative-ai-seed-grant/",
+      "https://news.vanderbilt.edu/2023/12/11/institute-for-the-advancement-of-higher-education-to-drive-trans-institutional-innovation-in-teaching-and-learning/",
+      "https://news.vanderbilt.edu/2025/06/25/padma-raghavan-appointed-to-a-new-role-within-the-office-of-the-chancellor/",
+      "https://news.vanderbilt.edu/2025/09/29/search-begins-for-vanderbilts-new-vice-provost-for-research-and-innovation-committee-named/",
+      "https://news.vanderbilt.edu/2025/11/05/at-vanderbilt-education-leaders-from-around-the-globe-meet-to-shape-the-future-of-ai-in-learning/",
+      "https://engineering.vanderbilt.edu/2025/04/04/vanderbilt-celebrates-opening-of-new-center-focused-on-ai-translation/",
+      "https://engineering.vanderbilt.edu/departments/computer-science/research-artificial-intelligence/",
+      "https://engineering.vanderbilt.edu/departments/computer-science/graduate/",
+      "https://engineering.vanderbilt.edu/departments/computer-science/undergraduate-program/",
+      "https://www.vanderbilt.edu/valiant/",
+      "https://www.vanderbilt.edu/valiant/about-us/labs/",
+      "https://www.vanderbilt.edu/datascience/",
+      "https://www.vanderbilt.edu/datascience/artificial-intelligence/",
+      "https://www.vanderbilt.edu/datascience/2025/02/26/vanderbilt-data-science-institute-unveils-deep-research-assist-program-to-academic-research/",
+      "https://www.vanderbilt.edu/datascience/ai-days-2026/",
+      "https://vanderbilthustler.com/2025/09/25/amplify-generative-ai-innovation-center-and-data-science-institute-launch-enterprise-ai-and-computing-innovation-studio/",
+      "https://www.vanderbilt.edu/advanced-institute/",
+      "https://www.vanderbilt.edu/advanced-institute/faculty-learning-resources/",
+      "https://www.vanderbilt.edu/accre/",
+      "https://www.vanderbilt.edu/accre/technical-details/",
+      "https://hammerspace.com/vanderbilt-accre-selects-hammerspace/",
+      "https://www.hpcwire.com/off-the-wire/vanderbilt-advanced-computing-center-for-research-and-education-selects-hammerspace-to-power-next-gen-research-data-infrastructure/",
+      "https://www.vumc.org/avail/avail-advanced-vanderbilt-artificial-intelligence-laboratory",
+      "https://www.vumc.org/ai/welcome",
+      "https://www.vumc.org/dbmi/GenerativeAI",
+      "https://news.vumc.org/2024/01/05/artificial-intelligence-advances-work-in-vumcs-clinical-and-research-settings/",
+      "https://news.vumc.org/2024/03/06/new-center-focused-on-advancing-health-ai-to-launch-at-vumc/",
+      "https://news.vumc.org/2025/08/25/clinicians-patients-cheer-the-ai-ear-in-vanderbilt-health-exam-rooms/",
+      "https://www.healthcareitnews.com/news/vanderbilt-piloting-nuance-dax-copilot-testing-other-genai-use-cases",
+      "https://www.vanderbilt.edu/national-security/2026/02/10/vanderbilt-university-institute-of-national-security-awarded-2-5-million-grant-from-william-flora-hewlett-foundation-to-advance-research-on-ai-driven-information-warfare/",
+      "https://giving.vanderbilt.edu/impact-stories/11-25m-gift-will-propel-efforts-in-national-security-research-and-neurodiverse-innovation/",
+      "https://www.vanderbilt.edu/about/university-leadership/",
+      "https://www.vanderbilt.edu/chancellor/biography-diermeier/",
+      "https://www.vanderbilt.edu/chancellor/initiatives-and-outreach/growth/connected-computing/",
+      "https://news.vanderbilt.edu/2024/04/01/shane-callahan-named-chief-information-officer/",
+      "https://edscoop.com/vanderbilt-university-ciso-cio-shane-callahan/",
+      "https://scopelab.ai/",
+      "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+      "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/",
+      "https://marcwatkins.substack.com/p/beyond-ineffective-how-unreliable",
+      "https://natlawreview.com/article/federal-court-acknowledges-catch-22-involving-ferpa-and-nrla",
+      "https://peabody.vanderbilt.edu/academics/graduate-professional-certificates/emerging-learning-technologies-ai/",
+      "https://www.edtechinnovationhub.com/news/vanderbilt-university-rolls-out-expanded-edtech-stack-as-generative-ai-access-scales-campus-wide",
+      "https://vanderbilthustler.com/2026/04/09/a-vanderbilt-sophomore-is-reinventing-the-career-search-with-a-new-ai-powered-platform/",
+      "https://registrar.vanderbilt.edu/documents/2025_Spring_Enrollment_Report.pdf"
+    ],
+    "search_queries": [
+      "Vanderbilt University AI strategy 2025 2026 Generative AI",
+      "Vanderbilt University AI policy acceptable use faculty students",
+      "Vanderbilt University chief AI officer OR chief digital officer OR CIO",
+      "Vanderbilt University College of Connected Computing launch 2024 2025",
+      "Vanderbilt Amplify AI platform OpenAI ChatGPT Edu campus",
+      "Vanderbilt AI research center institute lab 2025 2026",
+      "Vanderbilt University president chancellor provost 2025 2026",
+      "Vanderbilt Data Science Institute DSI AI research",
+      "Vanderbilt AI partnership industry Meta Oracle OpenAI Anthropic",
+      "Vanderbilt University Medical Center AI AVAIL clinical",
+      "Vanderbilt Jules White AI Coursera generative",
+      "Vanderbilt University AI degree program minor certificate generative AI",
+      "Vanderbilt AI course minor computer science new fall 2025 2026",
+      "Vanderbilt Grand Challenge Initiative AI Artificial Intelligence College Arts Sciences",
+      "Vanderbilt HPC ACCRE supercomputer GPU AI computing infrastructure",
+      "Tennessee higher education AI policy state governance",
+      "Vanderbilt University AI investment gift funding research millions",
+      "Vanderbilt Microsoft Copilot deployment campus partnership",
+      "Vanderbilt AdvancED Institute Advancement Higher Education faculty AI teaching",
+      "Vanderbilt AI equity access digital divide disability accessibility 2025",
+      "Vanderbilt VP Research Office 2025 current vice provost",
+      "Vanderbilt Matthew Johnson-Roberson dean College of Connected Computing",
+      "Vanderbilt AI chatbot student services advising chatbot",
+      "Vanderbilt Future of Learning initiative AI learning innovation",
+      "Vanderbilt University controversy AI lawsuit FERPA cheating 2024 2025",
+      "Vanderbilt Office of the Provost Mallika Vinekar learning innovation AI",
+      "Vanderbilt VP Research Padma Raghavan science technology strategy",
+      "Vanderbilt Center for Generative AI enterprise technology Allen Karns"
+    ],
+    "gaps_acknowledged": [
+      "Specific dollar amount for launch budget of the Amplify GenAI Innovation Center not publicly disclosed",
+      "Total Amplify user count beyond the reported 10,000+ Vanderbilt figure not broken out by role (faculty/student/staff)",
+      "Specific dollar amounts for most enterprise AI licensing (ChatGPT Edu, Copilot, Grow with Google) not disclosed",
+      "Interim Chief Research Officer (Elizabeth Zechmeister) AI portfolio not fully documented ahead of the early-2026 permanent-hire decision",
+      "No institution-wide 'Chief AI Officer' title; 'Chief AI and Technology Officer' (Allen Karns) sits within VUIT/CCC rather than reporting directly to the Chancellor or Provost",
+      "No explicit Vanderbilt-published AI ethics framework at the institutional level; ethics work is distributed across AGI Center, GCI-AI, AdvancED, and AVAIL",
+      "Limited public data on equity-specific AI initiatives beyond accessibility (Planning Assistant) and campus-wide no-cost access",
+      "Detailed adoption metrics for Microsoft 365 Copilot and ChatGPT Edu not public",
+      "Launch date for the CCC AI minor stated as 'tentatively spring 2026' — may shift; confirmed catalog listing not yet verified",
+      "No identified controversy specifically tied to Vanderbilt AI deployments; the FERPA-NLRB case is data-privacy but not AI-specific"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "curriculum_led",
+      "secondary": [
+        "platform_first",
+        "research_compute_powerhouse",
+        "balanced_enterprise"
+      ],
+      "scores": {
+        "platform_first": 23,
+        "research_compute_powerhouse": 19,
+        "curriculum_led": 26,
+        "governance_led": 14,
+        "student_success_led": 11,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: curriculum led."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "rejects_or_limits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 15,
+      "ai_program_count": 10,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 7,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 3,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 10,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "ACCRE (Advanced Computing Center for Research and Education)",
+        "gpu_count": 80,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 117500000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 5,
+        "institutional": 12,
+        "public_federal_state": 2,
+        "industry_vendor": 4,
+        "other_unclear": 4
+      },
+      "partnership_count": 10
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "other": 4,
+        "chatbot": 1
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "DAX Copilot",
+            "DAX Copilot (ambient clinical documentation)",
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT Edu",
+            "GPT models"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Grow with Google",
+            "Grow with Google (certificate pathway)"
+          ]
+        },
+        {
+          "vendor": "Vanderbilt (in-house, open-source) Amplify 2.0",
+          "mentions": 2,
+          "products": [
+            "Amplify 2.0"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "Amazon Nova"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude"
+          ]
+        },
+        {
+          "vendor": "Coursera",
+          "mentions": 1,
+          "products": [
+            "Coursera"
+          ]
+        },
+        {
+          "vendor": "Hammerspace Hammerspace Data Orchestration",
+          "mentions": 1,
+          "products": [
+            "Hammerspace Data Orchestration"
+          ]
+        },
+        {
+          "vendor": "Hammerspace Hammerspace Data Orchestration (10 PB HPC data fabric)",
+          "mentions": 1,
+          "products": [
+            "Hammerspace Data Orchestration (10 PB HPC data fabric)"
+          ]
+        },
+        {
+          "vendor": "Mistral AI Mistral",
+          "mentions": 1,
+          "products": [
+            "Mistral"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA GPUs"
+          ]
+        },
+        {
+          "vendor": "Turnitin",
+          "mentions": 1,
+          "products": [
+            "Turnitin AI detector"
+          ]
+        },
+        {
+          "vendor": "Vanderbilt (built on Amplify) Quincy",
+          "mentions": 1,
+          "products": [
+            "Quincy"
+          ]
+        },
+        {
+          "vendor": "Vanderbilt (in-house, open-source) Amplify",
+          "mentions": 1,
+          "products": [
+            "Amplify"
+          ]
+        },
+        {
+          "vendor": "Vanderbilt Amplify",
+          "mentions": 1,
+          "products": [
+            "Amplify"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Amplify Generative AI Innovation (AGI) Center launch",
+          "summary": "Establishes Vanderbilt as an infrastructure provider to the broader higher-ed sector (not just a consumer), with an open-source AI stack competing against vendor platforms.",
+          "source_url": "https://news.vanderbilt.edu/2026/02/02/vanderbilt-launches-amplify-generative-ai-innovation-center-within-college-of-connected-computing/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Amplify 2.0 multi-model, agent-enabled platform release",
+          "summary": "Shows a research university shipping production-grade agentic-AI infrastructure with multi-model flexibility — an emerging pattern that contrasts with single-vendor campus deployments and is being picked up by 50+ peer institutions.",
+          "source_url": "https://computing.vanderbilt.edu/2026/01/06/amplify-2-0-ushers-in-a-new-era-of-ai-powered-productivity-at-vanderbilt/"
+        },
+        {
+          "claim_type": "cost_or_revenue",
+          "title": "Vanderbilt-Coursera Generative AI Curriculum (500K+ learners)",
+          "summary": "Turns a single university's AI faculty into a globally distributed continuing-education product, establishing Vanderbilt as a top-three university Coursera publisher and broadening sector revenue models.",
+          "source_url": "https://news.vanderbilt.edu/2024/10/31/pioneering-ai-education-vanderbilt-and-coursera-lead-the-way-in-global-generative-ai/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "DAX Copilot ambient clinical documentation rollout (VUMC)",
+          "summary": "Large-scale operational clinical AI deployment at an academic medical center; a sector-defining example of AI reducing documentation burden.",
+          "source_url": "https://news.vumc.org/2025/08/25/clinicians-patients-cheer-the-ai-ear-in-vanderbilt-health-exam-rooms/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Generative AI minor (College of Connected Computing)",
+          "summary": "One of the earlier dedicated undergraduate generative AI minors at an elite R1, with an explicit 'strategy + governance' track alongside the technical curriculum.",
+          "source_url": "https://news.vanderbilt.edu/2025/11/06/decoding-vanderbilts-new-college-of-connected-computing/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Deep Research Assist program (Data Science Institute)",
+          "summary": "Concierge-style AI-for-research enablement model that translates frontier LLM capabilities into grant-writing and literature review for faculty across disciplines.",
+          "source_url": "https://www.vanderbilt.edu/datascience/2025/02/26/vanderbilt-data-science-institute-unveils-deep-research-assist-program-to-academic-research/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Shutdown of Turnitin AI detector (integrity-tool policy)",
+          "summary": "One of the most public R1 decisions to remove AI-detection from academic integrity workflows — cited nationally by faculty and student-rights groups.",
+          "source_url": "https://www.vanderbilt.edu/generative-ai/academic-integrity/"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 13,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 10,
+      "notes": [
+        "Specific dollar amount for launch budget of the Amplify GenAI Innovation Center not publicly disclosed",
+        "Total Amplify user count beyond the reported 10,000+ Vanderbilt figure not broken out by role (faculty/student/staff)",
+        "Specific dollar amounts for most enterprise AI licensing (ChatGPT Edu, Copilot, Grow with Google) not disclosed",
+        "Interim Chief Research Officer (Elizabeth Zechmeister) AI portfolio not fully documented ahead of the early-2026 permanent-hire decision",
+        "No institution-wide 'Chief AI Officer' title; 'Chief AI and Technology Officer' (Allen Karns) sits within VUIT/CCC rather than reporting directly to the Chancellor or Provost",
+        "No explicit Vanderbilt-published AI ethics framework at the institutional level; ethics work is distributed across AGI Center, GCI-AI, AdvancED, and AVAIL",
+        "Limited public data on equity-specific AI initiatives beyond accessibility (Planning Assistant) and campus-wide no-cost access",
+        "Detailed adoption metrics for Microsoft 365 Copilot and ChatGPT Edu not public",
+        "Launch date for the CCC AI minor stated as 'tentatively spring 2026' — may shift; confirmed catalog listing not yet verified",
+        "No identified controversy specifically tied to Vanderbilt AI deployments; the FERPA-NLRB case is data-privacy but not AI-specific"
+      ]
+    }
+  }
+}

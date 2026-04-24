@@ -1,0 +1,1484 @@
+{
+  "institution": "University of North Texas",
+  "slug": "university-of-north-texas",
+  "city_state": "Denton, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of North Texas System",
+  "enrollment": 47507,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Harrison Keller",
+      "url": "https://president.unt.edu/"
+    },
+    "provost": {
+      "name": "Michael McPherson",
+      "url": "https://vpaa.unt.edu/"
+    },
+    "cio": {
+      "name": "James Garrison",
+      "url": "https://president.unt.edu/presidents-cabinet.html"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Song Fu",
+      "title": "Director, Applied AI and Data Science Institute",
+      "url": "https://ai.unt.edu/people-institute.html"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UNT Applied Artificial Intelligence & Data Science Institute mission and focus areas",
+        "url": "https://ai.unt.edu/",
+        "year": 2024
+      },
+      {
+        "title": "UNT System Generative AI site (Guiding Principles, approved tools, FAQ)",
+        "url": "https://ai.untsystem.edu/index.html",
+        "year": 2024
+      },
+      {
+        "title": "UNT System Guiding Principles for Generative AI",
+        "url": "https://ai.untsystem.edu/guiding-principles.html",
+        "year": 2024
+      },
+      {
+        "title": "R1 Our Way Task Force strategic framework",
+        "url": "https://vpaa.unt.edu/initiatives/r1.html",
+        "year": 2022
+      }
+    ],
+    "summary": "UNT operates a two-layer strategy: the UNT System maintains a public 'Generative AI at UNT System' hub that centralizes guiding principles, approved enterprise tools (Copilot, M365 Copilot, UNiTyAI), and training; the Denton campus hosts the Applied AI and Data Science Institute, which frames AI as a core engine for research, workforce training, and industry partnerships. The strategy emphasizes 'inclusive and responsible AI,' ties directly to the R1 Our Way tier-one mission, and treats AI as a cross-college capability spanning engineering, information, business, science, and health."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.untsystem.edu/guiding-principles.html",
+      "https://policy.unt.edu/policy/06-003",
+      "https://guides.library.unt.edu/plagiarism/at-unt",
+      "https://vpaa.unt.edu/ss/integrity/FAQ_AI_Faculty"
+    ],
+    "adopted_date": "2023-07",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Syllabus-level AI policy is required on every course syllabus",
+      "Unauthorized AI use is treated as cheating under Student Academic Integrity Policy 06.003",
+      "Detection reports (e.g., Turnitin) alone are insufficient evidence of violations",
+      "Users must not input sensitive, confidential, or personal data into public AI tools",
+      "FERPA and HIPAA compliance explicitly required for AI-assisted workflows",
+      "AI-generated outputs must be verified, attributed, and disclosed",
+      "System-approved stack: Copilot Chat (public data), Microsoft 365 Copilot (internal), UNiTyAI (secure Azure-native)"
+    ],
+    "summary": "UNT couples faculty discretion at the syllabus level with a strong System-level policy floor. The UNT System 'Guiding Principles for Generative AI' spell out privacy, accountability, ethics, and limitations, and direct users to institution-approved tools. Academic Integrity Policy 06.003 treats unauthorized AI use as cheating, while faculty must publish explicit syllabus language on permitted AI use."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Applied AI and Data Science Institute",
+        "type": "office",
+        "scope": "University-wide hub for AI research, education, workforce training, and industry partnerships",
+        "url": "https://ai.unt.edu/"
+      },
+      {
+        "name": "UNT System Generative AI program (ai.untsystem.edu)",
+        "type": "office",
+        "scope": "System-level governance, tool approval, guiding principles, and training for UNT, UNT Health Science Center, and UNT Dallas",
+        "url": "https://ai.untsystem.edu/"
+      },
+      {
+        "name": "Academic Integrity Task Force",
+        "type": "task_force",
+        "scope": "Faculty Senate task force addressing AI-related academic integrity, syllabus guidance, and support for faculty, administrators, and students",
+        "url": "https://vpaa.unt.edu/ss/integrity/FAQ_AI_Faculty"
+      },
+      {
+        "name": "R1 Our Way Task Force",
+        "type": "task_force",
+        "scope": "Strategic initiative elevating UNT's R1 research posture; sets the context in which AI is funded and organized across colleges",
+        "url": "https://vpaa.unt.edu/initiatives/r1.html"
+      }
+    ],
+    "summary": "Governance is split: the UNT System runs centralized generative-AI governance (approved tools, principles, FERPA/HIPAA guardrails), while the Denton campus governs academic AI through the Applied AI and Data Science Institute and a Faculty Senate–linked Academic Integrity Task Force. UNT has not publicly designated a Chief AI Officer."
+  },
+  "initiatives": [
+    {
+      "title": "UNT launches Bachelor of Science in Artificial Intelligence (Fall 2026)",
+      "description": "UNT's Board of Regents approved a 120-hour Bachelor of Science in AI, housed in the College of Engineering at Discovery Park, with a July/Fall 2026 launch. Curriculum spans applied AI, software development for AI, machine learning, autonomous systems, and interdisciplinary offerings such as 'AI in Games,' with an embedded focus on ethics and societal implications.",
+      "significance": "Makes UNT one of the first public universities in Texas to offer a standalone undergraduate AI degree, aimed at the 118,000+ AI-adjacent job openings in the DFW market.",
+      "date_announced": "2025-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "career_and_workforce_readiness",
+        "ai_and_degree_value"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UNT Board of Regents / state allocation",
+        "description": "Board-approved new degree with projected median first-year salary of $68,208 and five-year median of $105,335; cost of degree estimated at $34,000."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Dallas-Fort Worth employers"
+          ],
+          "description": "Program rationale built on DFW labor-market demand signals."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Formal recognition of AI as a discrete degree track signals institutional commitment to AI-native curricula and workforce alignment.",
+      "source_urls": [
+        "https://engineering.unt.edu/cse/undergraduate/bsai.html",
+        "https://dentonrc.com/education/higher_education/university_of_north_texas/unt-to-launch-undergraduate-ai-degree-this-fall/article_e366f9f0-d89e-41ef-b2e1-e94163f192ec.html",
+        "https://www.govtech.com/education/higher-ed/university-of-north-texas-to-offer-ai-major-for-undergrads",
+        "https://www.dallasobserver.com/news/unt-ai-degree-40648546/"
+      ]
+    },
+    {
+      "title": "UNT System UNiTyAI secure generative AI platform",
+      "description": "UNiTyAI is a private, Microsoft Azure-native generative AI platform offered System-wide (UNT, UNT HSC, UNT Dallas). It supports natural-language conversations, document/image analysis, and no-code custom GPTs for use cases such as admissions assistants, academic advising bots, IT helpdesk triage, and policy Q&A agents.",
+      "significance": "Gives the UNT System a sanctioned alternative to public chatbots, enabling FERPA/HIPAA-compliant AI deployment across academic and medical contexts.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_chatbot_or_virtual_assistant"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNT System IT",
+        "description": "Enterprise platform built on Microsoft Azure; no public cost disclosure."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Azure-hosted GenAI with Microsoft foundation models."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UNiTyAI",
+          "vendor": "UNT System (Azure-based)",
+          "role": "Secure enterprise GenAI platform"
+        },
+        {
+          "name": "Microsoft Azure OpenAI",
+          "vendor": "Microsoft",
+          "role": "Underlying cloud/model layer"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a sanctioned data-safe AI channel, reducing shadow-IT use of consumer AI with student/patient data.",
+      "source_urls": [
+        "https://ai.untsystem.edu/services.html",
+        "https://ai.untsystem.edu/index.html"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Chat and Microsoft 365 Copilot rollout",
+      "description": "The UNT System provides Copilot Chat at no cost to all students, faculty, and staff for public-data use, and offers Microsoft 365 Copilot as a $20/user/month add-on license for faculty and staff across Word, Excel, PowerPoint, Outlook, Teams, SharePoint, and OneDrive.",
+      "significance": "Standardizes the enterprise productivity AI stack across a 47,000+ student institution and its System partners, with explicit data-handling guardrails.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNT System IT",
+        "description": "Copilot Chat bundled at no cost; M365 Copilot as optional paid add-on."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Microsoft agreement extended to AI features."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Free generative AI chat for all users"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Paid productivity AI across Office apps"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Users are directed away from public, sensitive-data inputs toward Copilot Chat's public-data mode and M365 Copilot's internal-data mode.",
+      "source_urls": [
+        "https://ai.untsystem.edu/services.html",
+        "https://guides.library.unt.edu/artificial-intelligence/Copilot"
+      ]
+    },
+    {
+      "title": "NSF S-STEM AI Scholars program ($2M)",
+      "description": "UNT's Department of Computer Science and Engineering won a nearly $2 million NSF S-STEM grant to fund the 'AI Scholars' program. The award supports at least 10 scholarship students per cohort (renewable up to three years) through mentorship, specialized coursework, an AI certificate, and paid research in computer vision, bioinformatics, and cybersecurity.",
+      "significance": "Opens AI pathways to financially-qualifying undergraduates at an R1 public university and builds a mentor-driven pipeline for the DFW tech economy.",
+      "date_announced": "2024-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "underrepresented_student_support",
+        "ai_research_center",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "National Science Foundation (S-STEM)",
+        "description": "Nearly $2M for scholarships, mentoring, and research experiences; PI Xiaohui Yuan with co-PIs Xuan Guo, David Keathly, Amar Maharjan, Kirill Morozov, and Gergely Záruba."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "S-STEM grant-funded program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.unt.edu/news/unt_enhancing_ai_education_and_research_efforts_with_2m_nsf_grant.html",
+        "https://www.untsystem.edu/news/unt-enhancing-ai-education-and-research-efforts-with-nsf-grant.php"
+      ]
+    },
+    {
+      "title": "Responsible AI Lab (launched August 2022)",
+      "description": "Directed by Dr. Yunhe Feng, UNT's Responsible AI Lab focuses on Efficient GenAI (long-context inference, RAG, edge AI, quantum-AI), Trustworthy AI (privacy, adversarial auditing, bias mitigation, explainability), and Applied Impact (biomedicine, education, agriculture, large-scale scientific modeling). Funders include NSF, Oak Ridge National Lab, Microsoft, Google, and NVIDIA.",
+      "significance": "Anchors UNT's public-facing responsible AI research agenda and gives the university a brand in trustworthy/efficient generative AI.",
+      "date_announced": "2022-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF, ORNL, Microsoft, Google, NVIDIA",
+        "description": "Mixed federal and industry funding; specific totals not disclosed on lab page."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "NVIDIA"
+          ],
+          "description": "Industry-funded applied research."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "Oak Ridge National Laboratory"
+          ],
+          "description": "Federal research partnerships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Publishes research on adversarial auditing and bias mitigation that informs broader responsible AI practice.",
+      "source_urls": [
+        "https://yunhefeng.me/lab/"
+      ]
+    },
+    {
+      "title": "Sinha Innovation Lab for Data Science and Department of Data Science",
+      "description": "In 2024, Broadcom VP and UNT Ph.D. alum Vikas Sinha and his wife Anuradha endowed the Anuradha and Vikas Sinha Department of Data Science with $3M. In June 2025 they added $2.15M to launch the Sinha Innovation Lab for Data Science in UNT's College of Information (combined Sinha gifts exceed $5M), supporting student hands-on training, faculty research, and industry projects.",
+      "significance": "Privately funded data-science infrastructure in the College of Information strengthens UNT's applied AI pipeline beyond engineering.",
+      "date_announced": "2025-06-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 5000000,
+        "funding_source": "Anuradha and Vikas Sinha (private gift)",
+        "description": "Combined Sinha gifts exceed $5M: $3M (2024) endowment for a named department; $2.15M (2025) for the innovation lab."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Broadcom (Sinha alumnus)"
+          ],
+          "description": "Alumni/industry-driven funding with industry project pipeline."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/"
+      ]
+    },
+    {
+      "title": "MOSAIC AI forensics tool ($2M NIJ grant)",
+      "description": "UNT Health Fort Worth won a $2M National Institute of Justice grant to build MOSAIC (Unifying Methods of Sex, Stature, Affinity & Age for Identification through Computational Standardization), an AI platform that standardizes the generation of biological profiles from skeletal remains to accelerate missing-persons identification. Once complete, the tool will be free to law enforcement and forensic anthropologists.",
+      "significance": "Real-world applied AI with criminal-justice impact, and a signature example of UNT's health-science AI research.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "open_source_contribution",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "National Institute of Justice",
+        "description": "$2M federal NIJ grant to UNT Health Fort Worth."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Institute of Justice"
+          ],
+          "description": "Federal grant-funded collaboration."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "MOSAIC",
+          "vendor": "UNT Health Fort Worth",
+          "role": "AI forensic biological-profile tool"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unthealth.edu/newsroom/story/unt-health-researchers-awarded-2-million-collaborative-nij-grant-to-develop-ai-tools-for-identifying-human-remains.html",
+        "https://dallasinnovates.com/from-fort-worth-to-the-forensics-lab-unt-health-idea-and-2m-grant-fuel-ai-tool-to-help-solve-missing-persons-cases/"
+      ]
+    },
+    {
+      "title": "Texas Talent Accelerator regional workforce initiative",
+      "description": "Launched in September 2025, the Texas Talent Accelerator is a regional initiative convened by UNT with colleges, employers, nonprofits, and economic development agencies. It aims to align credentials, programs, and curricula — including AI and data-science skills — with North Texas employer demand.",
+      "significance": "Positions UNT as a convening workforce-intermediary in the DFW AI economy and connects academic programs to employer demand signals.",
+      "date_announced": "2025-09-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "industry_certification_pathway",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNT-led coalition",
+        "description": "Regional coalition with multiple partners; specific funding not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Regional colleges",
+            "DFW employers",
+            "nonprofits",
+            "economic development entities"
+          ],
+          "description": "Multi-stakeholder workforce alignment."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://learnworkecosystemlibrary.com/initiatives/texas-talent-accelerator-university-of-north-texas/",
+        "https://communityimpact.com/sponsored/sponsored/2026/01/29/the-texas-talent-accelerator-transforms-the-north-texas-workforce/"
+      ]
+    },
+    {
+      "title": "Graduate Academic Certificate in Artificial Intelligence (online)",
+      "description": "UNT's College of Engineering offers an online Graduate Academic Certificate in AI covering core AI, software development for AI, and machine learning, structured as a stackable credential for working professionals.",
+      "significance": "Provides an adult-learner on-ramp into AI competency and feeds UNT's MS in AI pipeline.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded",
+        "description": "Self-funded online certificate."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://online.unt.edu/news/unts-college-engineering-launches-online-graduate-academic-certificate-artificial-intelligence.html",
+        "https://online.unt.edu/programs/graduate/artificial-intelligence-gac.html"
+      ]
+    },
+    {
+      "title": "AI in Professional Communication undergraduate certificate",
+      "description": "A four-course undergraduate certificate that teaches students to leverage AI tools, navigate ethical challenges, and produce data-informed content for AI-augmented workplaces.",
+      "significance": "Extends AI skills beyond engineering into communication and liberal-arts disciplines — a signal of cross-college AI literacy.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded",
+        "description": "Existing undergraduate certificate."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unt.edu/academics/programs/artificial-intelligence-professional-communication-certificate.html"
+      ]
+    },
+    {
+      "title": "AI4ALL College Pathways partnership",
+      "description": "UNT is one of the first four universities paired with national nonprofit AI4ALL to offer free AI summer experiences for rising high-school students, with explicit focus on underrepresented groups. Programming covers machine learning fundamentals, neural networks, NLP, AI ethics, and project work with faculty mentors.",
+      "significance": "Concrete K-16 equity pipeline for AI talent that broadens who enters the AI workforce.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "underrepresented_student_support",
+        "digital_divide_and_access",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "AI4ALL / UNT",
+        "description": "Pre-college summer programming with free-to-student enrollment."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "AI4ALL"
+          ],
+          "description": "National non-profit collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.unt.edu/ai4all.html"
+      ]
+    },
+    {
+      "title": "UNT Dallas campus-wide AI integration and AI Community of Practice (2024-25)",
+      "description": "During AY 2024-25, UNT Dallas laid the foundation for campus-wide AI adoption: an AI Community of Practice was launched, 138 faculty/staff (67% of faculty) engaged in AI learning, and training from external experts (e.g., Dr. Jose Bowen, co-author of Teaching with AI) was delivered via workshops, webinars, and micro-credentials.",
+      "significance": "Demonstrates faculty-development scale across the UNT System and positions UNT Dallas as a peer sibling in AI pedagogy.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNT Dallas institutional",
+        "description": "Internally funded professional-development program."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "AAC&U Institute on AI, Pedagogy, and the Curriculum (2025-26)"
+          ],
+          "description": "Participation in national peer learning."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.untdallas.edu/news/ai_initiatives_2024-25.php",
+        "https://www.untsystem.edu/news/untd-ai-initiatives-2025.php"
+      ]
+    },
+    {
+      "title": "Academic Integrity Task Force on AI and syllabus-level policy",
+      "description": "UNT's Academic Integrity Office, working with the Faculty Senate, convened a task force of faculty (tenured, tenure-track, and non-tenure-track), administrators, and student representatives to address AI concerns across campus. Outputs include required syllabus language on AI, FAQ resources for faculty, and guidance that AI detector reports alone are insufficient evidence for a violation.",
+      "significance": "Institutionalizes the handling of AI within academic integrity infrastructure and pushes policy decisions into every course.",
+      "date_announced": "2023-07-20",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UNT internal",
+        "description": "Faculty Senate task force; no dedicated line-item disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the operational model for AI-in-teaching governance at the instructor level.",
+      "source_urls": [
+        "https://vpaa.unt.edu/ss/integrity/FAQ_AI_Faculty",
+        "https://guides.library.unt.edu/plagiarism/at-unt",
+        "https://www.untdallas.edu/sites/default/files/guidance-ai-use-classes_2023-07-20.pdf"
+      ]
+    },
+    {
+      "title": "Talon3 HPC cluster and UNT Research Computing",
+      "description": "UNT's main HPC facility, Talon3, is a 350-node heterogeneous Dell PowerEdge cluster (including NVIDIA Tesla K80 GPUs) managed with Bright Cluster Manager and operated by the North Texas Scientific Computing unit, supporting AI, materials science, engineering, chemistry, and physics workloads.",
+      "significance": "Provides the campus-level compute substrate for AI and deep-learning research across multiple colleges.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UNT internal + external grants",
+        "description": "Institutional HPC with federal and state grant-funded node additions."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Dell",
+            "NVIDIA",
+            "Bright Computing"
+          ],
+          "description": "Vendor-provided hardware/management stack."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Talon3",
+          "vendor": "Dell / NVIDIA",
+          "role": "HPC cluster for AI and scientific computing"
+        },
+        {
+          "name": "Bright Cluster Manager",
+          "vendor": "Bright Computing",
+          "role": "Cluster management"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hpc.unt.edu/",
+        "https://research.unt.edu/research-services/research-computing",
+        "https://www.hpcwire.com/off-the-wire/university-north-texas-implements-bright-computing-technology-efficient-cluster-management/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Applied AI and Data Science Institute",
+      "focus": "University-wide AI/DS hub coordinating research, education, and industry partnerships",
+      "founded": null,
+      "url": "https://ai.unt.edu/"
+    },
+    {
+      "name": "Responsible AI Lab",
+      "focus": "Trustworthy/efficient generative AI, privacy, bias mitigation, explainability",
+      "founded": "2022",
+      "url": "https://yunhefeng.me/lab/"
+    },
+    {
+      "name": "Computer Vision and Intelligent Systems Laboratory (CoVIS)",
+      "focus": "Computer vision, pattern recognition, data mining",
+      "founded": null,
+      "url": "https://ai.unt.edu/ai-research.html"
+    },
+    {
+      "name": "Human Intelligence and Language Technologies Lab (HiLT)",
+      "focus": "NLP, machine learning, educational companion robots",
+      "founded": null,
+      "url": "https://ai.unt.edu/ai-research.html"
+    },
+    {
+      "name": "Biomedical AI Lab",
+      "focus": "Machine learning for medical intervention outcomes and wearable analytics",
+      "founded": null,
+      "url": "https://www.biomed-ai.com/people/mark-v-albert"
+    },
+    {
+      "name": "Information Management and Knowledge Discovery Lab (IMKD)",
+      "focus": "Spatial/spatio-temporal data mining and trajectory modeling",
+      "founded": null,
+      "url": "https://ai.unt.edu/ai-research.html"
+    },
+    {
+      "name": "Information Retrieval and Text Mining Lab",
+      "focus": "Text search, filtering, organizing, mining",
+      "founded": null,
+      "url": "https://ai.unt.edu/ai-research.html"
+    },
+    {
+      "name": "Multimedia Information Group",
+      "focus": "Video/image processing and multimedia retrieval",
+      "founded": null,
+      "url": "https://ai.unt.edu/ai-research.html"
+    },
+    {
+      "name": "Sinha Innovation Lab for Data Science",
+      "focus": "Applied data-science student training, faculty research, industry projects",
+      "founded": "2025",
+      "url": "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/"
+    },
+    {
+      "name": "Anuradha and Vikas Sinha Department of Data Science",
+      "focus": "Named department hosting AI/DS curriculum and research in the College of Information",
+      "founded": "2024",
+      "url": "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence (concentrations: Machine Learning, Autonomous Systems, Biomedical Engineering)",
+      "level": "grad",
+      "launched": "2020-08",
+      "url": "https://www.unt.edu/academics/programs/artificial-intelligence-masters.html"
+    },
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": "2026-07",
+      "url": "https://engineering.unt.edu/cse/undergraduate/bsai.html"
+    },
+    {
+      "type": "degree",
+      "name": "Combined B.S./M.S. Computer Science and Artificial Intelligence",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.unt.edu/academics/programs/combined-bachelors-masters-computer-science-and-artificial-intelligence-degrees.html"
+    },
+    {
+      "type": "degree",
+      "name": "Combined B.S./M.S. Computer Engineering and Artificial Intelligence",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.unt.edu/academics/programs/combined-bachelors-masters-computer-engineering-and-artificial-intelligence-degrees.html"
+    },
+    {
+      "type": "degree",
+      "name": "Combined B.A./M.S. Information Technology and Artificial Intelligence",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.unt.edu/academics/programs/combined-bachelors-masters-information-technology-and-artificial-intelligence-degrees.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Academic Certificate in Artificial Intelligence (online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://online.unt.edu/programs/graduate/artificial-intelligence-gac.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.unt.edu/academics/programs/artificial-intelligence-certificate.html"
+    },
+    {
+      "type": "certificate",
+      "name": "AI in Professional Communication Certificate (undergraduate)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.unt.edu/academics/programs/artificial-intelligence-professional-communication-certificate.html"
+    },
+    {
+      "type": "minor",
+      "name": "Minor in Human Language Technology (NLP-focused)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://linguistics.unt.edu/academic-programs/undergraduate/minor-hlt.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.untsystem.edu/services.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.untsystem.edu/services.html"
+    },
+    {
+      "vendor": "UNT System (Azure-native)",
+      "product": "UNiTyAI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.untsystem.edu/services.html"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (Google Workspace for Education)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://guides.library.unt.edu/artificial-intelligence/gemini"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Talon3",
+    "gpu_count": null,
+    "url": "https://hpc.unt.edu/",
+    "summary": "Talon3 is UNT's 350-node Dell PowerEdge HPC cluster, including NVIDIA Tesla K80 GPU nodes, managed by Bright Cluster Manager and operated by North Texas Scientific Computing. It supports AI, ML, and scientific computing across engineering, materials science, chemistry, physics, and informatics. Specific current GPU counts are not published on the public site."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF S-STEM AI Scholars grant",
+      "amount_usd": 2000000,
+      "source": "National Science Foundation",
+      "purpose": "Undergraduate AI scholarships, mentorship, and research",
+      "date": "2024-01",
+      "url": "https://research.unt.edu/news/unt_enhancing_ai_education_and_research_efforts_with_2m_nsf_grant.html"
+    },
+    {
+      "title": "Anuradha and Vikas Sinha Department of Data Science endowment",
+      "amount_usd": 3000000,
+      "source": "Anuradha and Vikas Sinha (private gift)",
+      "purpose": "Endow a named department for data science in the College of Information",
+      "date": "2024-01",
+      "url": "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/"
+    },
+    {
+      "title": "Sinha Innovation Lab for Data Science",
+      "amount_usd": 2150000,
+      "source": "Anuradha and Vikas Sinha (private gift)",
+      "purpose": "Fund a data-science innovation lab in the College of Information",
+      "date": "2025-06",
+      "url": "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/"
+    },
+    {
+      "title": "NIJ MOSAIC AI forensics grant",
+      "amount_usd": 2000000,
+      "source": "National Institute of Justice",
+      "purpose": "Develop AI tools for identifying human remains (missing persons)",
+      "date": "2024-09",
+      "url": "https://www.unthealth.edu/newsroom/story/unt-health-researchers-awarded-2-million-collaborative-nij-grant-to-develop-ai-tools-for-identifying-human-remains.html"
+    },
+    {
+      "title": "Texas University Fund annual research allocation",
+      "amount_usd": 20000000,
+      "source": "State of Texas (TUF)",
+      "purpose": "Annual research endowment available to UNT for emerging research priorities including AI/DS",
+      "date": "2023-06",
+      "url": "https://en.wikipedia.org/wiki/University_of_North_Texas"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Azure-based UNiTyAI platform and Copilot stack; Responsible AI Lab sponsorship",
+      "date": null,
+      "url": "https://ai.untsystem.edu/services.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini for Education access; Responsible AI Lab sponsorship",
+      "date": null,
+      "url": "https://yunhefeng.me/lab/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "GPU hardware and Responsible AI Lab sponsorship",
+      "date": null,
+      "url": "https://yunhefeng.me/lab/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Broadcom (via Sinha family)",
+      "purpose": "Alumni-industry philanthropy funding data science department and lab",
+      "date": "2024-01",
+      "url": "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Oak Ridge National Laboratory",
+      "purpose": "Responsible AI research collaboration",
+      "date": null,
+      "url": "https://yunhefeng.me/lab/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "S-STEM AI Scholars and REU grants",
+      "date": "2024-01",
+      "url": "https://research.unt.edu/news/unt_enhancing_ai_education_and_research_efforts_with_2m_nsf_grant.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Institute of Justice",
+      "purpose": "MOSAIC forensic AI tool for missing-persons identification",
+      "date": "2024-09",
+      "url": "https://www.unthealth.edu/newsroom/story/unt-health-researchers-awarded-2-million-collaborative-nij-grant-to-develop-ai-tools-for-identifying-human-remains.html"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Texas Talent Accelerator regional coalition",
+      "purpose": "Align AI and DS credentials with DFW employer demand",
+      "date": "2025-09",
+      "url": "https://learnworkecosystemlibrary.com/initiatives/texas-talent-accelerator-university-of-north-texas/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "AI4ALL",
+      "purpose": "Pre-college pipeline for underrepresented students",
+      "date": null,
+      "url": "https://ai.unt.edu/ai4all.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "UNiTyAI-based admissions and advising bots (UNT System)",
+      "scope": "System-deployed on Azure; uses include admissions assistance, academic advising, IT helpdesk triage, policy Q&A",
+      "url": "https://ai.untsystem.edu/services.html"
+    },
+    {
+      "type": "chatbot",
+      "name": "Copilot Chat (free to all students)",
+      "scope": "General-purpose generative AI chatbot across the System",
+      "url": "https://ai.untsystem.edu/services.html"
+    },
+    {
+      "type": "other",
+      "name": "HiLT Lab educational companion robots",
+      "scope": "Research-stage NLP-based tutoring/companion robots",
+      "url": "https://ai.unt.edu/ai-research.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI4ALL College Pathways at UNT",
+      "description": "Summer program for underrepresented rising high-school students covering ML, neural networks, NLP, and AI ethics.",
+      "url": "https://ai.unt.edu/ai4all.html"
+    },
+    {
+      "title": "NSF S-STEM AI Scholars",
+      "description": "Financial-need-based undergraduate scholarships with mentoring and paid AI research placements.",
+      "url": "https://research.unt.edu/news/unt_enhancing_ai_education_and_research_efforts_with_2m_nsf_grant.html"
+    },
+    {
+      "title": "Free enterprise GenAI access (Copilot Chat)",
+      "description": "No-cost generative AI chat provided to all UNT System students, faculty, and staff, reducing paywall barriers.",
+      "url": "https://ai.untsystem.edu/services.html"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas passed the Responsible AI Governance Act (HB 149 / 'Texas RAIGA') creating a statewide regulatory framework, a Texas AI Council within the Department of Information Resources, and a sandbox program — effective January 1, 2026. A December 11, 2025 federal executive order seeks to preempt state AI laws, creating enforcement uncertainty for Texas public universities. The UNT System maintains its own AI policy layer (guiding principles, approved tools, FERPA/HIPAA guardrails) and is not in the University of Texas System.",
+    "urls": [
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/HB00149S.htm",
+      "https://www.texastribune.org/2025/12/19/texas-ai-law-trump-executive-order/",
+      "https://ai.untsystem.edu/guiding-principles.html"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2023-07",
+      "summary": "Detection tools alone (e.g., Turnitin) are formally declared insufficient evidence for AI-related academic-integrity violations at UNT — a policy response to faculty over-reliance on AI detectors.",
+      "status": "resolved",
+      "url": "https://guides.library.unt.edu/plagiarism/at-unt"
+    },
+    {
+      "date": "2024-01",
+      "summary": "Under Texas SB 17 (anti-DEI law), UNT eliminated its DEI department; this indirectly affects how UNT frames AI equity and underrepresented-student initiatives, which must now be positioned outside a DEI umbrella.",
+      "status": "resolved",
+      "url": "https://www.wfaa.com/article/news/local/unt-eliminating-diversity-equity-and-inclusion-department-new-texas-law/287-9919b532-ba4b-43f9-9b7a-bb2cc3e4e838"
+    }
+  ],
+  "narrative_summary": "The University of North Texas presents a mid-maturity, dual-layer AI posture that is accelerating rapidly. At the System level, UNT operates a centralized generative-AI program with published guiding principles, a three-tier approved stack (Copilot Chat at no cost, Microsoft 365 Copilot as a paid add-on, and the Azure-native UNiTyAI for data-sensitive workloads), and formal FERPA/HIPAA guardrails. At the Denton campus, the Applied AI and Data Science Institute, led by Director Song Fu with three associate directors across engineering, data science, and analytics, serves as the university-wide hub linking 30+ AI faculty, seven named research labs (including the Responsible AI Lab founded in 2022 and funded by NSF, ORNL, Microsoft, Google, and NVIDIA), and a Talon3 HPC cluster. On the academic side, UNT runs one of Texas's earliest MS in AI programs (2020) and has received Board of Regents approval for a Bachelor of Science in Artificial Intelligence launching in July/Fall 2026, along with a set of online and undergraduate certificates (including one in AI for Professional Communication). The pipeline is reinforced by an NSF S-STEM $2M 'AI Scholars' grant, the AI4ALL partnership for underrepresented high-school students, and a $5M+ Sinha family gift that established a named Department of Data Science (2024) and Sinha Innovation Lab (2025). UNT Health Fort Worth anchors applied-science AI with a $2M NIJ grant for MOSAIC, an AI forensic tool for missing-persons identification. Governance is split among the System GenAI program, the AI Institute, and a Faculty Senate Academic Integrity Task Force that requires every syllabus to publish AI policy. UNT has not designated a Chief AI Officer. The bigger contextual constraints are Texas SB 17 (forcing AI-equity work outside a DEI frame) and the incoming Texas RAIGA regime plus a December 2025 federal preemption executive order. Gaps include no publicly quantified GPU counts, no published campus-wide enterprise AI adoption metrics outside UNT Dallas's faculty-training numbers, and no single consolidated UNT-Denton AI strategy document comparable to peer R1s.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.unt.edu/",
+      "https://ai.unt.edu/people-institute.html",
+      "https://ai.unt.edu/ai-research.html",
+      "https://ai.unt.edu/ai-education.html",
+      "https://ai.unt.edu/ai4all.html",
+      "https://ai.untsystem.edu/index.html",
+      "https://ai.untsystem.edu/services.html",
+      "https://ai.untsystem.edu/guiding-principles.html",
+      "https://ai.untsystem.edu/faq.html",
+      "https://president.unt.edu/",
+      "https://president.unt.edu/presidents-cabinet.html",
+      "https://president.unt.edu/people/pamela-padilla.html",
+      "https://vpaa.unt.edu/",
+      "https://vpaa.unt.edu/initiatives/r1.html",
+      "https://vpaa.unt.edu/ss/integrity/FAQ_AI_Faculty",
+      "https://guides.library.unt.edu/artificial-intelligence/AIfaculty",
+      "https://guides.library.unt.edu/artificial_intelligence/AIstudents",
+      "https://guides.library.unt.edu/artificial-intelligence/Copilot",
+      "https://guides.library.unt.edu/artificial-intelligence/claude",
+      "https://guides.library.unt.edu/artificial-intelligence/OpenAI",
+      "https://guides.library.unt.edu/plagiarism/at-unt",
+      "https://policy.unt.edu/policy/06-003",
+      "https://www.untdallas.edu/sites/default/files/guidance-ai-use-classes_2023-07-20.pdf",
+      "https://www.untdallas.edu/news/ai_initiatives_2024-25.php",
+      "https://www.untsystem.edu/news/untd-ai-initiatives-2025.php",
+      "https://engineering.unt.edu/research/ai/index.html",
+      "https://engineering.unt.edu/cse/undergraduate/bsai.html",
+      "https://engineering.unt.edu/news/new-nsf-grant-offers-undergrads-opportunities-ai-research",
+      "https://engineering.unt.edu/about/discovery-park.html",
+      "https://research.unt.edu/news/unt_enhancing_ai_education_and_research_efforts_with_2m_nsf_grant.html",
+      "https://research.unt.edu/research-services/research-computing",
+      "https://research.unt.edu/magazine/2025/nsf_career_awards_2025.html",
+      "https://research.unt.edu/magazine/ai-student-scholars.html",
+      "https://research.unt.edu/magazine/ai-classroom.html",
+      "https://dentonrc.com/education/higher_education/university_of_north_texas/unt-to-launch-undergraduate-ai-degree-this-fall/article_e366f9f0-d89e-41ef-b2e1-e94163f192ec.html",
+      "https://www.govtech.com/education/higher-ed/university-of-north-texas-to-offer-ai-major-for-undergrads",
+      "https://www.dallasobserver.com/news/unt-ai-degree-40648546/",
+      "https://dallasinnovates.com/unt-ph-d-grad-gives-2m-to-launch-data-science-innovation-lab/",
+      "https://dallasinnovates.com/from-fort-worth-to-the-forensics-lab-unt-health-idea-and-2m-grant-fuel-ai-tool-to-help-solve-missing-persons-cases/",
+      "https://www.unthealth.edu/newsroom/story/unt-health-researchers-awarded-2-million-collaborative-nij-grant-to-develop-ai-tools-for-identifying-human-remains.html",
+      "https://yunhefeng.me/lab/",
+      "https://hpc.unt.edu/",
+      "https://www.hpcwire.com/off-the-wire/university-north-texas-implements-bright-computing-technology-efficient-cluster-management/",
+      "https://online.unt.edu/news/unts-college-engineering-launches-online-graduate-academic-certificate-artificial-intelligence.html",
+      "https://online.unt.edu/programs/graduate/artificial-intelligence-gac.html",
+      "https://www.unt.edu/academics/programs/artificial-intelligence-certificate.html",
+      "https://www.unt.edu/academics/programs/artificial-intelligence-professional-communication-certificate.html",
+      "https://www.unt.edu/academics/programs/artificial-intelligence-masters.html",
+      "https://www.unt.edu/academics/programs/combined-bachelors-masters-computer-science-and-artificial-intelligence-degrees.html",
+      "https://www.unt.edu/academics/programs/combined-bachelors-masters-computer-engineering-and-artificial-intelligence-degrees.html",
+      "https://www.unt.edu/academics/programs/combined-bachelors-masters-information-technology-and-artificial-intelligence-degrees.html",
+      "https://learnworkecosystemlibrary.com/initiatives/texas-talent-accelerator-university-of-north-texas/",
+      "https://communityimpact.com/sponsored/sponsored/2026/01/29/the-texas-talent-accelerator-transforms-the-north-texas-workforce/",
+      "https://carnegieclassifications.acenet.edu/institution/university-of-north-texas/",
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/HB00149S.htm",
+      "https://www.texastribune.org/2025/12/19/texas-ai-law-trump-executive-order/",
+      "https://www.wfaa.com/article/news/local/unt-eliminating-diversity-equity-and-inclusion-department-new-texas-law/287-9919b532-ba4b-43f9-9b7a-bb2cc3e4e838"
+    ],
+    "search_queries": [
+      "\"University of North Texas\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of North Texas\" generative AI policy faculty students acceptable use",
+      "\"University of North Texas\" AI research center institute lab",
+      "\"University of North Texas\" CIO provost president 2026",
+      "\"University of North Texas\" AI council committee task force governance",
+      "\"University of North Texas\" Microsoft Copilot Google Gemini ChatGPT Claude for Education",
+      "\"UNT\" \"UNiTyAI\" launch generative AI platform secure",
+      "\"University of North Texas\" AI undergraduate bachelor degree fall 2026 announcement",
+      "\"University of North Texas\" HPC Talon supercomputer GPU computing cluster",
+      "Texas state AI policy higher education 2025 2026 executive order",
+      "\"University of North Texas\" AI grant NSF million award 2025 research",
+      "\"University of North Texas\" AI chatbot virtual assistant student services admissions",
+      "\"UNT System\" data governance AI FERPA approved tool classification",
+      "\"University of North Texas\" faculty training AI workshop institute development",
+      "\"University of North Texas\" AI ethics Turing Fellows scholars program",
+      "\"University of North Texas\" AI partnership Oracle Microsoft AWS NVIDIA industry",
+      "\"University of North Texas\" Discovery Park AI hub economic development Dallas Fort Worth",
+      "\"University of North Texas\" Pamela Padilla Vice President Research AI innovation",
+      "\"UNT\" AI minor certificate interdisciplinary undergraduate artificial intelligence",
+      "\"University of North Texas\" AI Institute director Xuan Guo Barrett Bryant",
+      "\"UNT\" \"Academic Integrity\" AI task force policy syllabus 2024 2025",
+      "\"University of North Texas\" R1 Carnegie classification enrollment 2025 students",
+      "\"University of North Texas\" AI workforce training Texas workforce commission credentials",
+      "\"University of North Texas\" AI equity accessibility digital divide underrepresented",
+      "\"University of North Texas\" AI forensics NIJ Kenyhercz missing persons 2 million"
+    ],
+    "gaps_acknowledged": [
+      "No publicly designated Chief AI Officer at UNT.",
+      "No single consolidated UNT-Denton strategic AI plan document comparable to peer R1 strategies.",
+      "Exact GPU counts and current scale of Talon3 not disclosed on the public HPC site.",
+      "UNiTyAI deployment metrics (user counts, pilot dates) not publicly disclosed.",
+      "Launch dates for several academic certificates (Undergraduate AI Certificate; AI in Professional Communication) not published.",
+      "No public reporting of syllabus-level adherence to AI policy across the full course catalog.",
+      "Student mental-health-and-wellbeing AI deployments and LMS-embedded AI (e.g., Canvas integrations) were not surfaced in public sources."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "curriculum_led",
+        "workforce_regional_development",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 15,
+        "research_compute_powerhouse": 16,
+        "curriculum_led": 17,
+        "governance_led": 13,
+        "student_success_led": 5,
+        "workforce_regional_development": 17,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-07",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 9,
+      "ai_program_count": 9,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 10,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Talon3",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 29150000,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "philanthropy_foundation": 1,
+        "other_unclear": 4,
+        "industry_vendor": 2,
+        "institutional": 3
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Copilot Chat",
+            "Microsoft 365 Copilot",
+            "Microsoft Azure OpenAI",
+            "UNiTyAI"
+          ]
+        },
+        {
+          "vendor": "Bright Computing Bright Cluster Manager",
+          "mentions": 1,
+          "products": [
+            "Bright Cluster Manager"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini (Google Workspace for Education)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Talon3"
+          ]
+        },
+        {
+          "vendor": "UNT Health Fort Worth MOSAIC",
+          "mentions": 1,
+          "products": [
+            "MOSAIC"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "UNT launches Bachelor of Science in Artificial Intelligence (Fall 2026)",
+          "summary": "Makes UNT one of the first public universities in Texas to offer a standalone undergraduate AI degree, aimed at the 118,000+ AI-adjacent job openings in the DFW market.",
+          "source_url": "https://engineering.unt.edu/cse/undergraduate/bsai.html"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "UNT System UNiTyAI secure generative AI platform",
+          "summary": "Gives the UNT System a sanctioned alternative to public chatbots, enabling FERPA/HIPAA-compliant AI deployment across academic and medical contexts.",
+          "source_url": "https://ai.untsystem.edu/services.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Chat and Microsoft 365 Copilot rollout",
+          "summary": "Standardizes the enterprise productivity AI stack across a 47,000+ student institution and its System partners, with explicit data-handling guardrails.",
+          "source_url": "https://ai.untsystem.edu/services.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "Texas Talent Accelerator regional workforce initiative",
+          "summary": "Positions UNT as a convening workforce-intermediary in the DFW AI economy and connects academic programs to employer demand signals.",
+          "source_url": "https://learnworkecosystemlibrary.com/initiatives/texas-talent-accelerator-university-of-north-texas/"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI4ALL College Pathways partnership",
+          "summary": "Concrete K-16 equity pipeline for AI talent that broadens who enters the AI workforce.",
+          "source_url": "https://ai.unt.edu/ai4all.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UNT Dallas campus-wide AI integration and AI Community of Practice (2024-25)",
+          "summary": "Demonstrates faculty-development scale across the UNT System and positions UNT Dallas as a peer sibling in AI pedagogy.",
+          "source_url": "https://www.untdallas.edu/news/ai_initiatives_2024-25.php"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No publicly designated Chief AI Officer at UNT.",
+        "No single consolidated UNT-Denton strategic AI plan document comparable to peer R1 strategies.",
+        "Exact GPU counts and current scale of Talon3 not disclosed on the public HPC site.",
+        "UNiTyAI deployment metrics (user counts, pilot dates) not publicly disclosed.",
+        "Launch dates for several academic certificates (Undergraduate AI Certificate; AI in Professional Communication) not published.",
+        "No public reporting of syllabus-level adherence to AI policy across the full course catalog.",
+        "Student mental-health-and-wellbeing AI deployments and LMS-embedded AI (e.g., Canvas integrations) were not surfaced in public sources."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1301 @@
+{
+  "institution": "University of Rochester",
+  "slug": "university-of-rochester",
+  "city_state": "Rochester, NY",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 11946,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Sarah C. Mangelsdorf",
+      "url": "https://www.rochester.edu/about/administration.html"
+    },
+    "provost": {
+      "name": "Nicole Sampson",
+      "url": "https://www.rochester.edu/provost/about/our-people/"
+    },
+    "cio": {
+      "name": "Julie Myers",
+      "url": "https://tech.rochester.edu/vp-it/leaders/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Jenny Leonard",
+      "title": "Associate Vice President of Digital Strategy (AI Council, Administrative domain co-lead)",
+      "url": "https://www.rochester.edu/ai/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence at the University of Rochester (AI Council portal)",
+        "url": "https://www.rochester.edu/ai/",
+        "year": 2025
+      },
+      {
+        "title": "Boundless Possibility — 2030 Strategic Plan (AI woven across research, education, health, creative mission)",
+        "url": "https://boundless.rochester.edu/",
+        "year": 2023
+      },
+      {
+        "title": "Responsible Use of AI Tools and Institutional Data Security (Office of the Provost)",
+        "url": "https://www.rochester.edu/provost/responsible-use-of-ai-tools-and-institutional-data-security/",
+        "year": 2025
+      }
+    ],
+    "summary": "Rochester frames AI as a cross-cutting enabler inside its 2030 Boundless Possibility strategic plan and operationalizes that framing through a President/Provost-sponsored AI Council organized into five domains (Administrative, AI Tools, Education, Clinical, Research). The university has stood up a secure ChatGPT-based platform (chat.rochester.edu / UR AI Chat v2 on Azure OpenAI), issued multiple policy documents in 2024–2025, and joined New York's Empire AI consortium as one of only two newly admitted R1 partners. A proposed AI Horizons Institute (led by CS professor Christopher Kanan) is a centerpiece of the research strategy."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.rochester.edu/provost/gen-ai-education/",
+      "https://www.rochester.edu/university-research/about/committees/ai-research-committee/responsible-use-gen-ai/",
+      "https://www.rochester.edu/provost/responsible-use-of-ai-tools-and-institutional-data-security/",
+      "https://www.rochester.edu/communications/ai-committee/guidelines/"
+    ],
+    "adopted_date": "2024-12",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Instructors must publish a syllabus-level GenAI policy specifying when students must, may, or cannot use GenAI on each assignment",
+      "Non-public or sensitive University data may not be uploaded to public AI tools; only chat.rochester.edu is approved for moderate- and high-risk data",
+      "Researchers must restrict GenAI inputs to low-risk data and comply with HIPAA, FERPA, and IP policies",
+      "GenAI use must be disclosed in research proposals, publications, dissertations, and capstone projects, with advance committee approval for theses",
+      "GenAI detection tools are characterized as unreliable and biased; human oversight is required for grading and feedback",
+      "Policy references NIST AI 600-1 and UNESCO AI-in-education guidance"
+    ],
+    "summary": "The University of Rochester adopted a comprehensive generative-AI policy framework between December 2024 and May 2025, layering an Education guidance (Provost), a Research guidance (AI in Research Committee), and an institutional data-security guidance. The stance is permissive-with-structure: faculty retain academic freedom but must post syllabus-level rules, and every constituent is bound by data-classification limits tied to the university's internal chat.rochester.edu platform."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "University AI Council",
+        "type": "council",
+        "scope": "University-wide body organizing AI governance into five domain tracks: Administrative, AI Tools, Education, Clinical (URMC), and Research. Co-leads include Jenny Leonard, Courtney Peplin, Robert Evangelista, James Forrester, Edwin van Wijngaarden, Lisa Nelson, and AnnMarie White.",
+        "url": "https://www.rochester.edu/ai/"
+      },
+      {
+        "name": "AI in Research Committee",
+        "type": "committee",
+        "scope": "Sub-committee of the Faculty Senate chartered by the Research Executive Committee; publishes and maintains Responsible Use of GenAI in Research guidelines.",
+        "url": "https://www.rochester.edu/university-research/ai-research-committee/"
+      },
+      {
+        "name": "GenAI in Education Working Group",
+        "type": "committee",
+        "scope": "Education-domain workstream under the AI Council; led by Assistant Vice Provost Edwin van Wijngaarden; produces and revises the Gen AI Use in Education Guidance.",
+        "url": "https://www.rochester.edu/provost/gen-ai-education/"
+      },
+      {
+        "name": "University Marketing and Communications Generative AI Committee",
+        "type": "committee",
+        "scope": "Develops GenAI guidelines specific to marketing, web, and brand communications use.",
+        "url": "https://www.rochester.edu/communications/ai-committee/guidelines/"
+      },
+      {
+        "name": "URMC Clinical AI governance (led through the Chief Applications Officer)",
+        "type": "office",
+        "scope": "Clinical-domain AI review and deployment governance for UR Medicine; stood up alongside Qualified Health and Dragon Copilot rollouts.",
+        "url": "https://www.rochester.edu/ai/"
+      }
+    ],
+    "summary": "Governance is distributed across an AI Council with five domain tracks, each co-led by a named administrator, plus a Faculty Senate AI in Research Committee and targeted sub-committees for education, marketing, and clinical AI. There is no single Chief AI Officer; accountability runs through the Provost, VP for Research, VP for IT/CIO, and URMC CAO."
+  },
+  "initiatives": [
+    {
+      "title": "Launch and expansion of chat.rochester.edu (UR AI Chat v2 on Azure OpenAI / GPT-4o)",
+      "description": "Rochester launched a university-licensed ChatGPT instance at chat.rochester.edu in January 2025 and released v2 on May 9, 2025, moving to GPT-4o on Azure OpenAI and adding a Document Agent for PDF/Word/text uploads. The platform is approved for moderate- and high-risk institutional data and is accessible to all UR and URMC users via SSO and Duo.",
+      "significance": "Gives Rochester one of the earliest campus-wide secure GenAI platforms among mid-size private R1s, and is the anchor that lets the Provost restrict sensitive data from public tools.",
+      "date_announced": "2025-01-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Central IT, Office of the Provost",
+        "description": "License fees and Azure consumption for campus-wide GPT-4o access; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft Azure OpenAI Service"
+          ],
+          "description": "GPT-4o delivered through Microsoft's Azure OpenAI tenant; OpenAI licensing routed via Microsoft partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UR AI Chat v2 (chat.rochester.edu)",
+          "vendor": "OpenAI / Microsoft Azure",
+          "role": "Secure ChatGPT-style assistant with Document Agent"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Pairs with the Provost's March 2025 data-security directive that bars sensitive data from public AI tools; the internal platform is the sanctioned alternative.",
+      "source_urls": [
+        "https://tech.rochester.edu/news-item/new-updates-to-chat-rochester-edu/",
+        "https://www.campustimes.org/2025/02/11/new-ur-chatbot-released-with-more-features-expected-in-coming-weeks/",
+        "https://www.rochester.edu/provost/responsible-use-of-ai-tools-and-institutional-data-security/"
+      ]
+    },
+    {
+      "title": "University of Rochester joins Empire AI consortium",
+      "description": "UR (and RIT and Icahn School of Medicine at Mount Sinai) were admitted to Empire AI in February 2025, joining founding members SUNY, CUNY, Columbia, Cornell, NYU, RPI, and the Flatiron Institute. New York State's FY26 budget added $90M capital and $25M/10-year SUNY operating funding on top of the original $275M commitment; $50M in private funding is tied to the newer members.",
+      "significance": "Gives Rochester shared access to the state-funded AI computing center at the University of Buffalo and embeds UR as the only consortium member with an integrated health system (eight hospitals) for clinical AI research.",
+      "date_announced": "2025-02-25",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "cross_border_research_alliance",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 275000000,
+        "funding_source": "New York State (Empire AI); additional $90M capital + $25M/10yr operating; $50M private",
+        "description": "State-led consortium investment of $275M initial plus $90M capital and $25M/10yr operating in FY26, with $50M in new private funding. Rochester's specific share is not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "SUNY System",
+            "CUNY",
+            "Columbia University",
+            "Cornell University",
+            "NYU",
+            "Rensselaer Polytechnic Institute",
+            "Flatiron Institute",
+            "Rochester Institute of Technology",
+            "Icahn School of Medicine at Mount Sinai"
+          ],
+          "description": "Statewide research compute and collaboration consortium anchored at University at Buffalo."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "New York State",
+            "Empire State Development"
+          ],
+          "description": "Primary public funder of Empire AI's compute center and operating budget."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Binds UR to shared state AI compute governance and aligns its research with NY's public-interest AI priorities.",
+      "source_urls": [
+        "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/",
+        "https://www.rochester.edu/ai/"
+      ]
+    },
+    {
+      "title": "URMC enterprise-wide deployment of Qualified Health GenAI platform",
+      "description": "On October 1, 2025, URMC announced it will license and deploy Qualified Health's enterprise-wide generative AI platform across approximately 32,000 employees (including 3,000+ researchers and 2,000 physicians) spanning eight hospitals, an NCI-designated cancer center, and the Schools of Medicine, Dentistry, and Nursing. The platform provides HIPAA-compliant chat, tailored AI agents, governance controls, and real-time monitoring to automate administrative and regulatory workflows.",
+      "significance": "One of the largest single-contract enterprise GenAI rollouts in academic medicine to date, and the operational backbone of URMC's clinical AI strategy.",
+      "date_announced": "2025-10-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "URMC operating budget",
+        "description": "Multi-year enterprise contract; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Qualified Health"
+          ],
+          "description": "Enterprise GenAI platform vendor."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Qualified Health platform",
+          "vendor": "Qualified Health",
+          "role": "HIPAA-compliant enterprise GenAI platform with agents and governance controls"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Deployed with explicit guardrails and governance controls; framed by CMIO Gregg Nicandri as 'right guardrails' being prerequisite to positive AI transformation.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/university-of-rochester-medical-center-taps-qualified-health-as-enterprise-wide-genai-solution-302572550.html",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/university-of-rochester-medical-center-incorporates-generative-ai-platform/"
+      ]
+    },
+    {
+      "title": "URMC PowerScribe One + Microsoft Dragon Copilot in radiology",
+      "description": "URMC migrated to cloud-based PowerScribe One and is in preview with Microsoft Dragon Copilot, using Smart Impression (generative AI auto-drafting of radiology impressions in each radiologist's style) and prior-report summarization for imaging workflows. Led operationally by Stacie Barnard (Director, Integrated Clinical Systems) and Dr. Sean Cleary (Vice Chair of Informatics for Imaging Sciences).",
+      "significance": "Demonstrates URMC's early adoption of named-vendor clinical GenAI inside a top-tier imaging workflow, and anchors Microsoft's case studies for Dragon Copilot in academic medicine.",
+      "date_announced": "2026-03-30",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "URMC operating budget",
+        "description": "Subscription and licensing through Microsoft; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Nuance"
+          ],
+          "description": "PowerScribe One (Nuance, now Microsoft) and Dragon Copilot deployed in URMC radiology."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "PowerScribe One",
+          "vendor": "Microsoft / Nuance",
+          "role": "Cloud-based radiology speech recognition and impression auto-draft"
+        },
+        {
+          "name": "Dragon Copilot",
+          "vendor": "Microsoft",
+          "role": "Generative AI companion for ambient clinical documentation and prior-report summarization"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Deployed under URMC clinical AI governance with preview-phase guardrails on Dragon Copilot.",
+      "source_urls": [
+        "https://www.microsoft.com/en/customers/story/26248-university-of-rochester-medical-center-microsoft-dragon-copilot",
+        "https://www.hcinnovationgroup.com/analytics-ai/article/53078074/at-the-university-of-rochester-medical-center-a-breakthrough-with-generative-ai"
+      ]
+    },
+    {
+      "title": "AI Horizons Institute — proposed NSF AI Institute",
+      "description": "A transdisciplinary AI Horizons Institute, led by Associate Professor Christopher Kanan (CS, Center for Visual Science) with co-leads spanning education, philosophy, computational linguistics, psychology, and medicine, submitted an NSF AI Institute proposal during a one-year planning effort funded through the Provost's transdisciplinary RFP. The institute focuses on generative and agentic AI informed by neuroscience, psychology, and philosophy, with a healthcare application arm.",
+      "significance": "Represents Rochester's bid to move from a mid-sized AI research footprint (fewer than ten core AI faculty) toward a federally funded AI institute peer to Cornell, Columbia, and NYU.",
+      "date_announced": "2024-11-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Provost's transdisciplinary RFP planning award; proposed NSF AI Institute",
+        "description": "One of ten 2024–2025 planning awards drawn from Mangelsdorf's $8.5M transdisciplinary research center commitment; NSF AI Institute award not yet decided."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Proposed NSF AI Institute (pending)."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Design includes explicit ethical, educational, and healthcare application arms, reflecting UR's cautious-with-ethics stance.",
+      "source_urls": [
+        "https://boundless.rochester.edu/transdisciplinary-rfp-ai-horizons-institute/",
+        "https://www.rochester.edu/provost/transdisciplinary-rfp/planning-fund-recipients-2024-2025/"
+      ]
+    },
+    {
+      "title": "GenAI in Education Guidance (syllabus-level policy + faculty guidance)",
+      "description": "Adopted December 2, 2024 and revised in March and May 2025, the Office of the Provost's GenAI in Education Guidance requires every instructor to publish a syllabus-level policy specifying when students must, may, or cannot use GenAI on each assignment. The document codifies principles covering academic integrity, bias, privacy, transparency, accountability, equitable access, and academic freedom.",
+      "significance": "Places Rochester among the R1 private universities with an enforceable syllabus-level requirement rather than just advisory guidance.",
+      "date_announced": "2024-12-02",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Internal policy development; no dedicated dollar amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal university policy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Requires syllabus-level GenAI rules across the university; references NIST AI 600-1 and UNESCO guidance.",
+      "source_urls": [
+        "https://www.rochester.edu/provost/gen-ai-education/"
+      ]
+    },
+    {
+      "title": "Responsible Use of GenAI in Research guidance",
+      "description": "Published December 13, 2024 by the Faculty Senate AI in Research Committee, the guidance bounds research use of GenAI by three principles: data protection (only low-risk data into web-based tools), verification (human scrutiny of accuracy, bias, reproducibility), and transparency (disclose tools, versions, parameters, and prompts in proposals, publications, and dissertations).",
+      "significance": "Gives UR researchers a clear, committee-endorsed standard aligned with HIPAA/FERPA/IP policy and with emerging federal sponsor expectations.",
+      "date_announced": "2024-12-13",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "accreditors",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Vice President for Research",
+        "description": "Internal policy effort by AI in Research Committee."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty governance output."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Aligns research use of GenAI with HIPAA, FERPA, IP, and data-classification policies.",
+      "source_urls": [
+        "https://www.rochester.edu/university-research/about/committees/ai-research-committee/responsible-use-gen-ai/",
+        "https://www.rochester.edu/university-research/ai-research-committee/"
+      ]
+    },
+    {
+      "title": "BlueHive H100 GPU partition for CoE-DSAI affiliated PIs",
+      "description": "Through a strategic investment by the Center of Excellence in Data Science and Artificial Intelligence, Rochester added a dedicated BlueHive HPC partition with NVIDIA Hopper H100 GPUs for priority access by CoE-DSAI PIs, on top of existing K80/V100/A100 nodes and ~1,440 TFLOPS / 5.2 PB storage at the Center for Integrated Research Computing (CIRC).",
+      "significance": "Expands UR's internal GPU capacity for generative AI and foundation model work at a moment when most peer institutions are rate-limited by compute.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Center of Excellence in Data Science and Artificial Intelligence (Empire State Development funding flow)",
+        "description": "Capital investment in H100 GPU nodes; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "H100 GPU technology vendor."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "BlueHive HPC H100 partition",
+          "vendor": "NVIDIA / CIRC",
+          "role": "Dedicated GPU partition for CoE-DSAI AI research"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.circ.rochester.edu/",
+        "https://www.rochester.edu/coe/"
+      ]
+    },
+    {
+      "title": "MS in Healthcare Data Science and AI (online)",
+      "description": "Delivered jointly by the Goergen Institute for Data Science and AI and the UR Health Lab at URMC, the online MS targets working clinical and technical professionals. It sits alongside UR's MS in Data Science, Advanced Certificate in Data Science, and Simon Business School's online MS in Business Analytics and Applied AI.",
+      "significance": "Directly ties AI degree revenue to URMC's clinical AI strategy and to the regional health-and-education workforce pipeline.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded program; co-administered by Goergen Institute and UR Health Lab",
+        "description": "Program investment not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UR Health Lab (URMC)"
+          ],
+          "description": "Cross-school joint program with the Medical Center."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.hajim.rochester.edu/dsc/graduate/ms-in-healthcare-data-science.html",
+        "https://www.hajim.rochester.edu/dsc/graduate/index.html"
+      ]
+    },
+    {
+      "title": "Goergen Institute renamed to include Artificial Intelligence",
+      "description": "In 2024 the Goergen Institute for Data Science was renamed the Goergen Institute for Data Science and Artificial Intelligence (GIDS-AI) to reflect its expanded AI portfolio. Mujdat Cetin (Robin and Tim Wentworth Director) was reappointed to a second five-year term leading 100+ affiliated faculty across the university.",
+      "significance": "Signals that AI is now a named, institution-level research priority rather than a subset of data science.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Hajim School of Engineering and Applied Sciences / Provost",
+        "description": "Renaming and reappointment; no separate budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [],
+          "description": "Internal multi-school affiliation of 100+ faculty."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.rochester.edu/newscenter/goergen-institute-name-change-artificial-intelligence-expertise-634522/",
+        "https://www.hajim.rochester.edu/dsc/"
+      ]
+    },
+    {
+      "title": "Marketing & Communications GenAI Guidelines",
+      "description": "University Marketing and Communications convened an internal GenAI committee and published guidelines governing GenAI use in web content, brand language, imagery, and external communications, complementing the Provost's educational guidance.",
+      "significance": "Extends UR's governance into brand, web, and public-facing content — a channel often under-governed at peer R1s.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "University Marketing and Communications",
+        "description": "Internal policy committee; no dedicated budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal governance effort."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Specifies when and how GenAI output may be used in official university content.",
+      "source_urls": [
+        "https://www.rochester.edu/communications/ai-committee/guidelines/"
+      ]
+    },
+    {
+      "title": "Greene Center AI career channel",
+      "description": "Rochester's Gwen M. Greene Center for Career Education and Connections stood up a dedicated Artificial Intelligence career channel (careereducation.rochester.edu) that curates AI job markets, internships, skill pathways, and employer partners for undergraduate and graduate students.",
+      "significance": "Operationalizes workforce AI readiness at the student-services level rather than leaving it to individual academic programs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "career_and_workforce_readiness",
+        "ai_workforce_training",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Greene Center operating budget",
+        "description": "Internal operating investment; no dedicated dollar amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Employer partners curated through the Greene Center AI channel."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://careereducation.rochester.edu/channels/artificial-intelligence/",
+        "https://careereducation.rochester.edu/resources/careers-in-ai/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Goergen Institute for Data Science and Artificial Intelligence (GIDS-AI)",
+      "focus": "University-wide AI and data science research hub; 100+ affiliated faculty; houses CoE-DSAI",
+      "founded": "2015",
+      "url": "https://www.hajim.rochester.edu/dsc/"
+    },
+    {
+      "name": "New York State Center of Excellence in Data Science and Artificial Intelligence (CoE-DSAI)",
+      "focus": "Empire State Development-funded center supporting NY businesses with data science and AI R&D; Finger Lakes Science & Tech Showcase",
+      "founded": "2014",
+      "url": "https://www.rochester.edu/coe/"
+    },
+    {
+      "name": "Center for Integrated Research Computing (CIRC)",
+      "focus": "HPC and AI compute (BlueHive, NVIDIA K80/V100/A100/H100; ~1,440 TFLOPS; 5.2 PB storage) for 110+ departments",
+      "founded": "2009",
+      "url": "https://www.circ.rochester.edu/"
+    },
+    {
+      "name": "UR Health Lab (URMC)",
+      "focus": "Translational AI and digital health lab inside the Medical Center; co-administers MS in Healthcare Data Science & AI and supports Qualified Health deployment",
+      "founded": null,
+      "url": "https://www.urmc.rochester.edu/"
+    },
+    {
+      "name": "Laboratory for Laser Energetics — Conesus supercomputer",
+      "focus": "DOE-funded HPC site supporting fusion and physics AI workloads",
+      "founded": "1970",
+      "url": "https://www.lle.rochester.edu/"
+    },
+    {
+      "name": "Center for Visual Science",
+      "focus": "Home of proposed AI Horizons Institute lead Christopher Kanan; vision and perception AI research",
+      "founded": "1963",
+      "url": "https://www.cvs.rochester.edu/"
+    },
+    {
+      "name": "Department of Computer Science — AI Research Group",
+      "focus": "Core AI/ML faculty research group spanning NLP, vision, robotics, and multi-agent systems",
+      "founded": null,
+      "url": "https://www.cs.rochester.edu/research/ai/index.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "BS / BA in Computer Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.cs.rochester.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "BS / BA in Data Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.hajim.rochester.edu/dsc/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Computer Science (AI track)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.rochester.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Data Science (NYS-accredited, 30 credits)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.hajim.rochester.edu/dsc/graduate/ms.html"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Healthcare Data Science and AI (online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.hajim.rochester.edu/dsc/graduate/ms-in-healthcare-data-science.html"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Computer Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.rochester.edu/"
+    },
+    {
+      "type": "certificate",
+      "name": "Advanced Certificate in Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.hajim.rochester.edu/dsc/graduate/certificate.html"
+    },
+    {
+      "type": "degree",
+      "name": "Simon Business School — Online MS in Business Analytics and Applied AI",
+      "level": "grad",
+      "launched": null,
+      "url": "https://simon.rochester.edu/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI / Microsoft Azure",
+      "product": "UR AI Chat v2 (chat.rochester.edu) — GPT-4o on Azure OpenAI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://tech.rochester.edu/news-item/new-updates-to-chat-rochester-edu/"
+    },
+    {
+      "vendor": "Qualified Health",
+      "product": "Enterprise GenAI platform (HIPAA-compliant chat, agents, governance controls)",
+      "scope": "campus-wide",
+      "user_count": 32000,
+      "deployed": "2025-10",
+      "url": "https://www.prnewswire.com/news-releases/university-of-rochester-medical-center-taps-qualified-health-as-enterprise-wide-genai-solution-302572550.html"
+    },
+    {
+      "vendor": "Microsoft / Nuance",
+      "product": "PowerScribe One (cloud-based radiology speech recognition, Smart Impression generative AI)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://www.microsoft.com/en/customers/story/26248-university-of-rochester-medical-center-microsoft-dragon-copilot"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Dragon Copilot (ambient AI + prior-report summarization; preview in URMC radiology)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://www.microsoft.com/en/customers/story/26248-university-of-rochester-medical-center-microsoft-dragon-copilot"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "BlueHive (CIRC) + Conesus (Laboratory for Laser Energetics)",
+    "gpu_count": null,
+    "url": "https://www.circ.rochester.edu/",
+    "summary": "The Center for Integrated Research Computing operates BlueHive (~1,440 TFLOPS, 5.2 PB storage) with NVIDIA K80, V100, A100, and — through a CoE-DSAI strategic investment — H100 GPU partitions for AI research. The Laboratory for Laser Energetics operates the Conesus supercomputer for physics workloads. Empire AI consortium membership (Feb 2025) adds access to the $275M+ state AI computing center at University at Buffalo. Exact GPU counts are not publicly disclosed."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "New York State Empire AI initial investment (shared across consortium members)",
+      "amount_usd": 275000000,
+      "source": "New York State / Empire State Development",
+      "purpose": "Statewide AI computing center at University at Buffalo; shared consortium resource for UR research",
+      "date": "2024-01",
+      "url": "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/"
+    },
+    {
+      "title": "Empire AI FY26 capital and operating supplement",
+      "amount_usd": 115000000,
+      "source": "New York State FY26 budget ($90M capital + $25M/10yr SUNY operating)",
+      "purpose": "Expanded Empire AI operations",
+      "date": "2025-05",
+      "url": "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/"
+    },
+    {
+      "title": "Empire AI private funding tranche tied to new members including UR",
+      "amount_usd": 50000000,
+      "source": "Private donors / foundations",
+      "purpose": "Expansion tied to admitting UR, RIT, and Mount Sinai",
+      "date": "2025-02",
+      "url": "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/"
+    },
+    {
+      "title": "Mangelsdorf transdisciplinary research centers commitment (AI Horizons among ten awardees)",
+      "amount_usd": 8500000,
+      "source": "Office of the President / Provost",
+      "purpose": "Planning funding for transdisciplinary research centers including AI Horizons Institute",
+      "date": "2024-01",
+      "url": "https://www.rochester.edu/provost/transdisciplinary-rfp/planning-fund-recipients-2024-2025/"
+    },
+    {
+      "title": "NSF microelectronics workforce grant (UR + Boise State; Micron industry partner)",
+      "amount_usd": 2100000,
+      "source": "National Science Foundation",
+      "purpose": "K-12 STEM teacher leadership pipeline for microelectronics; AI-adjacent workforce",
+      "date": "2025-10",
+      "url": "https://rbj.net/2025/10/03/university-rochester-boise-state-nsf-grant-stem-semiconductors/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft / OpenAI (Azure OpenAI)",
+      "purpose": "GPT-4o platform powering chat.rochester.edu",
+      "date": "2025-01",
+      "url": "https://tech.rochester.edu/news-item/new-updates-to-chat-rochester-edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Qualified Health",
+      "purpose": "Enterprise GenAI platform for URMC (32,000 employees)",
+      "date": "2025-10",
+      "url": "https://www.prnewswire.com/news-releases/university-of-rochester-medical-center-taps-qualified-health-as-enterprise-wide-genai-solution-302572550.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft / Nuance",
+      "purpose": "PowerScribe One + Dragon Copilot in URMC radiology",
+      "date": "2026-03",
+      "url": "https://www.microsoft.com/en/customers/story/26248-university-of-rochester-medical-center-microsoft-dragon-copilot"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Empire AI consortium (SUNY, CUNY, Columbia, Cornell, NYU, RPI, Flatiron, RIT, Mount Sinai)",
+      "purpose": "Shared state-funded AI compute and research collaboration",
+      "date": "2025-02",
+      "url": "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "New York State / Empire State Development (NYSTAR)",
+      "purpose": "Ongoing funding of CoE-DSAI and AI workforce initiatives",
+      "date": null,
+      "url": "https://www.rochester.edu/coe/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Micron Technology",
+      "purpose": "Microelectronics workforce pipeline (NSF-funded)",
+      "date": "2025-10",
+      "url": "https://rbj.net/2025/10/03/university-rochester-boise-state-nsf-grant-stem-semiconductors/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Proposed NSF AI Institute (AI Horizons); multiple Future of Work / CAREER / EAGER AI grants",
+      "date": "2024-11",
+      "url": "https://boundless.rochester.edu/transdisciplinary-rfp-ai-horizons-institute/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "UR AI Chat v2 (chat.rochester.edu)",
+      "scope": "All UR and URMC students, faculty, and staff; approved for moderate- and high-risk data",
+      "url": "https://tech.rochester.edu/news-item/new-updates-to-chat-rochester-edu/"
+    },
+    {
+      "type": "other",
+      "name": "Greene Center AI career channel",
+      "scope": "Undergraduate and graduate students; AI careers, internships, and employer connections",
+      "url": "https://careereducation.rochester.edu/channels/artificial-intelligence/"
+    },
+    {
+      "type": "other",
+      "name": "River Campus Libraries GenAI LibGuide",
+      "scope": "Students, faculty, staff — curated learning resources on GenAI literacy",
+      "url": "https://libguides.lib.rochester.edu/GenAI"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Equitable access principle in GenAI in Education Guidance",
+      "description": "The Provost's guidance explicitly lists equitable access to GenAI tools and resources as a guiding principle, tying university-provided access (chat.rochester.edu) to the requirement that instructors not assume students can afford external paid tools.",
+      "url": "https://www.rochester.edu/provost/gen-ai-education/"
+    },
+    {
+      "title": "University accessibility services (applies to AI tools)",
+      "description": "UR's accessibility office coordinates reasonable accommodations that now include disclosure expectations for AI tools used by students with disabilities.",
+      "url": "https://www.rochester.edu/accessibility.html"
+    },
+    {
+      "title": "Office of Equity & Inclusion Strategic Incentive Fund",
+      "description": "University-wide fund supporting EDI efforts, including AI-adjacent faculty hiring and research.",
+      "url": "https://www.rochester.edu/diversity/faculty-staff/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "New York",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "New York State signed the Responsible AI Safety and Education (RAISE) Act on December 19, 2025, creating an AI oversight office inside the Department of Financial Services and imposing transparency, safety-protocol publication, and 72-hour incident-reporting obligations on large frontier AI developers (with penalties up to $1M first / $3M subsequent). The Act primarily targets developers of very large models rather than universities directly, but it frames the state compliance environment. Earlier in 2024–2025 the state stood up Empire AI, a consortium UR joined in February 2025 with $275M+ in state funding. UR is a private university with no state-system AI policy above it, but it participates in state-funded consortia (Empire AI, CoE-DSAI, NYSTAR).",
+    "urls": [
+      "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-require-ai-frameworks-ai-frontier-models",
+      "https://www.skadden.com/insights/publications/2026/01/new-york-enacts-ai-transparency-law",
+      "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2023-05",
+      "summary": "Class action filed against the University of Rochester over the May 2023 MOVEit data breach (~88,000 individuals, SSNs exposed). Pre-dates UR's GenAI platform but shapes its data-security posture.",
+      "status": "active",
+      "url": "https://www.classaction.org/news/university-of-rochester-hit-with-class-action-over-may-2023-data-breach"
+    },
+    {
+      "date": null,
+      "summary": "URMC settled a $2.85M class action over Facebook Pixel / patient data transmission practices — relevant context for URMC's emphasis on HIPAA-compliant AI tooling.",
+      "status": "resolved",
+      "url": "https://www.weitzlux.com/firm-news/urmc-patient-data-privacy-settlement/"
+    }
+  ],
+  "narrative_summary": "The University of Rochester is a mid-sized private R1 (~11,946 students) whose AI posture punches above its weight because it couples a conventional academic AI footprint with an unusually large integrated health system (URMC, eight hospitals, 32,000 employees) and a deep optics/physics computing base. Under President Sarah Mangelsdorf, Provost Nicole Sampson, and CIO Julie Myers, Rochester has built out a five-domain AI Council (Administrative, AI Tools, Education, Clinical, Research) with named co-leads rather than appointing a single Chief AI Officer. Policy is comprehensive and documented: the Provost's December 2024 GenAI in Education Guidance requires syllabus-level rules, the Faculty Senate AI in Research Committee issued parallel research guidance the same month, a March 2025 provostal directive bars sensitive data from public AI tools, and Marketing and URMC each added sub-committees.\n\nThe anchor deployment is chat.rochester.edu / UR AI Chat v2, a GPT-4o-on-Azure platform (launched January 2025, v2 May 2025) with a Document Agent and approval for moderate/high-risk data. At URMC, a parallel enterprise stack is emerging: Microsoft PowerScribe One with Smart Impression plus Dragon Copilot preview in radiology, and a 2025 enterprise-wide deployment of Qualified Health covering 32,000 employees. On the research side, Rochester renamed the Goergen Institute to include Artificial Intelligence (GIDS-AI) in 2024, upgraded CIRC's BlueHive cluster with NVIDIA H100 GPUs funded by CoE-DSAI, and joined New York's Empire AI consortium in February 2025 — one of only three new members. Christopher Kanan's AI Horizons Institute is UR's bid for a federally funded NSF AI Institute, backed by Mangelsdorf's $8.5M transdisciplinary-centers commitment.\n\nGaps: UR has no single Chief AI Officer, explicit dollar figures for most deployments are undisclosed, and Rochester acknowledges in its own planning materials that it has fewer than ten core AI faculty compared with 50+ at Cornell/Columbia/NYU — a scale deficit the AI Horizons proposal is meant to close.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.rochester.edu/ai/",
+      "https://www.rochester.edu/provost/gen-ai-education/",
+      "https://www.rochester.edu/university-research/about/committees/ai-research-committee/responsible-use-gen-ai/",
+      "https://www.rochester.edu/university-research/ai-research-committee/",
+      "https://www.rochester.edu/provost/responsible-use-of-ai-tools-and-institutional-data-security/",
+      "https://www.rochester.edu/communications/ai-committee/guidelines/",
+      "https://tech.rochester.edu/news-item/new-updates-to-chat-rochester-edu/",
+      "https://www.campustimes.org/2025/02/11/new-ur-chatbot-released-with-more-features-expected-in-coming-weeks/",
+      "https://www.rochester.edu/newscenter/goergen-institute-name-change-artificial-intelligence-expertise-634522/",
+      "https://www.hajim.rochester.edu/dsc/",
+      "https://www.hajim.rochester.edu/dsc/graduate/ms.html",
+      "https://www.hajim.rochester.edu/dsc/graduate/certificate.html",
+      "https://www.hajim.rochester.edu/dsc/graduate/ms-in-healthcare-data-science.html",
+      "https://www.cs.rochester.edu/research/ai/index.html",
+      "https://www.rochester.edu/coe/",
+      "https://www.rochester.edu/coe/finger-lakes-science-and-technology-showcase/2025showcase/",
+      "https://www.circ.rochester.edu/",
+      "https://rochesterbeacon.com/2025/02/25/ur-rit-join-artificial-intelligence-consortium/",
+      "https://www.prnewswire.com/news-releases/university-of-rochester-medical-center-taps-qualified-health-as-enterprise-wide-genai-solution-302572550.html",
+      "https://www.microsoft.com/en/customers/story/26248-university-of-rochester-medical-center-microsoft-dragon-copilot",
+      "https://www.hcinnovationgroup.com/analytics-ai/article/53078074/at-the-university-of-rochester-medical-center-a-breakthrough-with-generative-ai",
+      "https://boundless.rochester.edu/transdisciplinary-rfp-ai-horizons-institute/",
+      "https://www.rochester.edu/provost/transdisciplinary-rfp/planning-fund-recipients-2024-2025/",
+      "https://rbj.net/2025/10/03/university-rochester-boise-state-nsf-grant-stem-semiconductors/",
+      "https://rbj.net/2025/04/29/ai-workforce-programs-colleges-ny/",
+      "https://careereducation.rochester.edu/channels/artificial-intelligence/",
+      "https://careereducation.rochester.edu/resources/careers-in-ai/",
+      "https://libguides.lib.rochester.edu/GenAI",
+      "https://libguides.urmc.rochester.edu/ArtificialIntelligence",
+      "https://www.rochester.edu/about/administration.html",
+      "https://tech.rochester.edu/vp-it/leaders/",
+      "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-require-ai-frameworks-ai-frontier-models",
+      "https://www.skadden.com/insights/publications/2026/01/new-york-enacts-ai-transparency-law",
+      "https://www.classaction.org/news/university-of-rochester-hit-with-class-action-over-may-2023-data-breach",
+      "https://www.weitzlux.com/firm-news/urmc-patient-data-privacy-settlement/",
+      "https://admissions.rochester.edu/campus-life/university-facts/"
+    ],
+    "search_queries": [
+      "\"University of Rochester\" AI strategy 2025 artificial intelligence initiative",
+      "\"University of Rochester\" generative AI policy acceptable use faculty students",
+      "\"University of Rochester\" \"chat.rochester\" OR \"UR chatbot\" OpenAI ChatGPT deployment 2024 2025",
+      "\"Goergen Institute\" Rochester data science AI research center director",
+      "\"University of Rochester\" president provost CIO 2025 leadership",
+      "\"University of Rochester Medical Center\" generative AI clinical deployment Epic Microsoft",
+      "\"University of Rochester\" AI degree program masters certificate data science artificial intelligence",
+      "\"University of Rochester\" AI research NSF grant funding 2024 2025 million",
+      "\"University of Rochester\" AI accessibility equity students career workforce",
+      "\"New York\" state AI policy executive order universities governor Hochul 2024 2025",
+      "\"University of Rochester\" enrollment total students 2024 2025 undergraduate graduate",
+      "\"University of Rochester\" AI cybersecurity risk ethics controversy lawsuit 2024 2025",
+      "\"University of Rochester\" \"Center for Integrated Research Computing\" CIRC HPC GPU AI"
+    ],
+    "gaps_acknowledged": [
+      "No single Chief AI Officer is named; AI strategy leadership is distributed across AI Council domain co-leads.",
+      "Specific dollar amounts for the chat.rochester.edu license, the Qualified Health contract, and the BlueHive H100 investment are not publicly disclosed.",
+      "Exact GPU counts at CIRC/BlueHive are not publicly disclosed.",
+      "Rochester's internal planning materials note fewer than ten core AI faculty, but no public headcount is published.",
+      "The AI Horizons Institute NSF proposal decision has not been reported.",
+      "No documented controversy tied specifically to generative AI use (FERPA violations, AI-driven cheating cases, or faculty/student disputes) surfaced in this research cycle."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "platform_first",
+        "governance_led",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 16,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 11,
+        "governance_led": 14,
+        "student_success_led": 7,
+        "workforce_regional_development": 9,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-12",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "BlueHive (CIRC) + Conesus (Laboratory for Laser Energetics)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 450600000,
+      "funding_source_buckets": {
+        "public_federal_state": 6,
+        "philanthropy_foundation": 1,
+        "other_unclear": 3,
+        "industry_vendor": 2,
+        "institutional": 5
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "other": 2
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Dragon Copilot",
+            "Dragon Copilot (ambient AI + prior-report summarization; preview in URMC radiology)",
+            "PowerScribe One",
+            "PowerScribe One (cloud-based radiology speech recognition, Smart Impression generative AI)",
+            "UR AI Chat v2 (chat.rochester.edu)",
+            "UR AI Chat v2 (chat.rochester.edu) — GPT-4o on Azure OpenAI"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "BlueHive HPC H100 partition"
+          ]
+        },
+        {
+          "vendor": "Qualified Health Enterprise GenAI platform (HIPAA-compliant chat, agents, governance controls)",
+          "mentions": 1,
+          "products": [
+            "Enterprise GenAI platform (HIPAA-compliant chat, agents, governance controls)"
+          ]
+        },
+        {
+          "vendor": "Qualified Health Qualified Health platform",
+          "mentions": 1,
+          "products": [
+            "Qualified Health platform"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Launch and expansion of chat.rochester.edu (UR AI Chat v2 on Azure OpenAI / GPT-4o)",
+          "summary": "Gives Rochester one of the earliest campus-wide secure GenAI platforms among mid-size private R1s, and is the anchor that lets the Provost restrict sensitive data from public tools.",
+          "source_url": "https://tech.rochester.edu/news-item/new-updates-to-chat-rochester-edu/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "URMC PowerScribe One + Microsoft Dragon Copilot in radiology",
+          "summary": "Demonstrates URMC's early adoption of named-vendor clinical GenAI inside a top-tier imaging workflow, and anchors Microsoft's case studies for Dragon Copilot in academic medicine.",
+          "source_url": "https://www.microsoft.com/en/customers/story/26248-university-of-rochester-medical-center-microsoft-dragon-copilot"
+        },
+        {
+          "claim_type": "career",
+          "title": "MS in Healthcare Data Science and AI (online)",
+          "summary": "Directly ties AI degree revenue to URMC's clinical AI strategy and to the regional health-and-education workforce pipeline.",
+          "source_url": "https://www.hajim.rochester.edu/dsc/graduate/ms-in-healthcare-data-science.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "Greene Center AI career channel",
+          "summary": "Operationalizes workforce AI readiness at the student-services level rather than leaving it to individual academic programs.",
+          "source_url": "https://careereducation.rochester.edu/channels/artificial-intelligence/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 11,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No single Chief AI Officer is named; AI strategy leadership is distributed across AI Council domain co-leads.",
+        "Specific dollar amounts for the chat.rochester.edu license, the Qualified Health contract, and the BlueHive H100 investment are not publicly disclosed.",
+        "Exact GPU counts at CIRC/BlueHive are not publicly disclosed.",
+        "Rochester's internal planning materials note fewer than ten core AI faculty, but no public headcount is published.",
+        "The AI Horizons Institute NSF proposal decision has not been reported.",
+        "No documented controversy tied specifically to generative AI use (FERPA violations, AI-driven cheating cases, or faculty/student disputes) surfaced in this research cycle."
+      ]
+    }
+  }
+}

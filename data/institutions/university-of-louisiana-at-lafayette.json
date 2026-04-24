@@ -1,0 +1,1502 @@
+{
+  "institution": "University of Louisiana at Lafayette",
+  "slug": "university-of-louisiana-at-lafayette",
+  "city_state": "Lafayette, LA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Louisiana System",
+  "enrollment": 19723,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Ramesh Kolluru",
+      "url": "https://louisiana.edu/directory/people/ramesh-kolluru"
+    },
+    "provost": {
+      "name": "Jaimie Hebert",
+      "url": "https://louisiana.edu/directory/people/jaimie-hebert"
+    },
+    "cio": {
+      "name": "Gene Fields",
+      "url": "https://louisiana.edu/directory/people/gene-fields"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Raju Gottumukkala",
+      "title": "Director, Center for Applied Artificial Intelligence (CAAI); Director, AHeAD Center",
+      "url": "https://caai.louisiana.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "UL Lafayette Guidance on Generative Artificial Intelligence in the Classroom",
+        "url": "https://academicaffairs.louisiana.edu/about-us/policies-procedures-guidelines-and-forms/guidelines/guidance-generative-artificial",
+        "year": null
+      },
+      {
+        "title": "Generative Artificial Intelligence Guidelines (Graduate School)",
+        "url": "https://louisiana.edu/graduateschool/generative-artificial-intelligence-guidelines",
+        "year": 2025
+      },
+      {
+        "title": "Artificial Intelligence Guidelines (Office of Communications & Marketing)",
+        "url": "https://ocm.louisiana.edu/digital-communications/artificial-intelligence-guidelines",
+        "year": null
+      }
+    ],
+    "summary": "UL Lafayette has no single published campus-wide AI strategy document but has built a coherent AI posture through its Center for Applied Artificial Intelligence (CAAI), NSF-funded AHeAD Center, AI4ALL workforce program, UL System AI literacy microcredential, and multiple unit-level guidelines (Academic Affairs, Graduate School, Office of Communications & Marketing). President Ramesh Kolluru (appointed February 2026), formerly VP for Research, founded the Informatics Research Institute and is a nationally recognized leader in data science, AI, and innovation, which positions AI as a strategic priority embedded across research, workforce development, and state economic strategy."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://academicaffairs.louisiana.edu/about-us/policies-procedures-guidelines-and-forms/guidelines/guidance-generative-artificial",
+      "https://louisiana.edu/graduateschool/generative-artificial-intelligence-guidelines",
+      "https://ocm.louisiana.edu/digital-communications/artificial-intelligence-guidelines",
+      "https://louisiana.edu/distancelearning/technology/ai-tools-use",
+      "https://distancelearning.louisiana.edu/teach-online-hybrid/best-practices-online-education/generative-ai/ai-and-academic-integrity"
+    ],
+    "adopted_date": "2025-06",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty discretion on classroom AI use; default prohibition with permitted uses subject to syllabus policy",
+      "Students are responsible for accuracy, bias, and integrity of AI-generated content",
+      "Transparency and citation of AI usage required when permitted",
+      "CRAAFTED prompt-engineering checklist (Context, Role, Assignment, Audience, Format, Tone, Exemplar, Details) for responsible prompting",
+      "FERPA- and HIPAA-protected data may not be entered into AI tools; no proprietary data on students, employees, or patients",
+      "AI-generated work may not be presented as human-authored per OCM guidelines",
+      "Graduate students must disclose AI use in research with faculty advisor oversight"
+    ],
+    "summary": "UL Lafayette takes a cautious, faculty-discretion approach: individual courses default to prohibiting AI-generated submissions as academic-integrity violations, but the university publishes multiple layers of guidance that allow and scaffold permitted uses with mandatory transparency, data-privacy safeguards (FERPA/HIPAA), and ethics framing. There is no unified campus-wide acceptable-use mandate; guidance is distributed across Academic Affairs, the Graduate School, the Office of Communications & Marketing, and Distance Learning."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Information Technology Cabinet",
+        "type": "council",
+        "scope": "Approves university-wide IT policies, standards, and budgets",
+        "url": "https://it.louisiana.edu/security-governance/governance"
+      },
+      {
+        "name": "Instructional Technology Advisory Council (ITAC)",
+        "type": "council",
+        "scope": "Monthly body covering teaching-technology initiatives, including AI-in-classroom guidance",
+        "url": "https://it.louisiana.edu/security-governance/governance"
+      },
+      {
+        "name": "Data Standards Subcommittee (ERP Governance)",
+        "type": "committee",
+        "scope": "Data governance for enterprise systems; relevant to AI data use",
+        "url": "https://it.louisiana.edu/security-governance/governance"
+      },
+      {
+        "name": "Center for Applied Artificial Intelligence (CAAI)",
+        "type": "office",
+        "scope": "Applied AI research, workforce development, and innovation platform under the Informatics Research Institute",
+        "url": "https://caai.louisiana.edu/"
+      }
+    ],
+    "summary": "UL Lafayette has no single dedicated campus AI council or task force. AI governance is distributed: the IT Cabinet and ITAC handle enterprise and instructional technology decisions, the ERP Data Standards Subcommittee governs data use, and the Center for Applied Artificial Intelligence (CAAI) operates as the university's de facto AI strategy and research office. Unit-level guideline ownership sits with Academic Affairs, the Graduate School, and the Office of Communications & Marketing."
+  },
+  "initiatives": [
+    {
+      "title": "Center for Applied Artificial Intelligence (CAAI) launch",
+      "description": "UL Lafayette established the Center for Applied Artificial Intelligence (CAAI) under the Informatics Research Institute as a successor to the NSF-funded Center for Visual and Decision Informatics (CVDI, 2012-2023). CAAI pursues use-driven AI research, AI-ready workforce training, and an innovation platform for the regional economy, led by Dr. Raju Gottumukkala.",
+      "significance": "Positions UL Lafayette as a regional hub for applied AI research and workforce development, building on a decade of NSF industry-university center leadership to compete for the next generation of applied AI funding.",
+      "date_announced": "2023-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Louisiana at Lafayette; carryover from prior NSF CVDI center funding",
+        "description": "CAAI builds on NSF CVDI assets (2012-2023) and is positioned as UL Lafayette's next major applied-research center; specific founding investment not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Local industry partners",
+            "LITE Center (Louisiana Immersive Technologies Enterprise)"
+          ],
+          "description": "CAAI convenes AI researchers, domain experts, industry specialists, and community stakeholders to address real-world challenges."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals institutional commitment to applied AI as a research priority and workforce pipeline.",
+      "source_urls": [
+        "https://caai.louisiana.edu/",
+        "https://informaticsinstitute.louisiana.edu/centers/center-applied-artificial-intelligence-0"
+      ]
+    },
+    {
+      "title": "AHeAD Center (Accessible Healthcare through AI-Augmented Decisions)",
+      "description": "UL Lafayette won an NSF Industry-University Cooperative Research Center (IUCRC) planning grant and is establishing the AHeAD Center to develop AI-augmented decision-support tools for healthcare, led by CAAI director Raju Gottumukkala, with co-directors at Tulane, Georgia Tech, and University of Florida. Dozens of industry members have signed on.",
+      "significance": "First NSF IUCRC led by UL Lafayette focused on AI in healthcare; places the university in the national network of industry-university AI research centers.",
+      "date_announced": "2025-10-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF IUCRC planning grant; industry membership fees; partner-university contributions",
+        "description": "NSF planning grant amount not disclosed publicly; AHeAD will be funded by industry membership fees plus future NSF IUCRC Phase I/II awards."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Tulane University",
+            "Georgia Institute of Technology",
+            "University of Florida"
+          ],
+          "description": "Multi-university IUCRC with co-directors at each partner site."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Healthcare providers",
+            "AI technology firms"
+          ],
+          "description": "Dozens of industry members support the center through the IUCRC model."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF IUCRC program backs the center structure."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Addresses human-AI interaction, privacy-preserving AI, and robustness of AI models as core research themes.",
+      "source_urls": [
+        "https://louisiana.edu/news/ul-lafayette-establish-research-center-focused-implementing-ai-health-care",
+        "https://caai.louisiana.edu/collaboration/accessible-healthcare-through-ai-augmented-decisions-ahead-center",
+        "https://news.ece.ufl.edu/2025/11/18/harley-joins-forces-with-university-of-louisiana-at-lafayette-tulane-georgia-tech-to-accelerate-innovation-in-ai-augmented-health-systems/"
+      ]
+    },
+    {
+      "title": "Secure AI sandbox at LITE Center with Meta Llama 3",
+      "description": "CAAI is building a secure, locally hosted AI sandbox at the Louisiana Immersive Technologies Enterprise (LITE) Center, enabling students, faculty, and local industry partners to experiment with open-weight LLMs including Meta's Llama 3 without exposing data to third-party cloud services.",
+      "significance": "Rare example of an R1 building a self-hosted open-weight LLM environment for privacy-sensitive experimentation, positioning UL Lafayette's AI sandbox as regional infrastructure for local startups and researchers.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "data_infrastructure_and_unification",
+        "computing_infrastructure",
+        "cybersecurity_and_ai_risk",
+        "ai_incubator_or_startup_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CAAI / LITE Center operating budget",
+        "description": "Amount not disclosed; runs on existing CAAI compute and LITE Center facilities."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Local startup spinoffs",
+            "LITE Center"
+          ],
+          "description": "Local industry partners and spinoffs use the sandbox for privacy-preserving open-weight LLM work."
+        },
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Regional AI startups"
+          ],
+          "description": "Spinoffs operate from the Secure AI Sandbox for LLM experimentation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Llama 3",
+          "vendor": "Meta",
+          "role": "Open-weight LLM hosted locally in the sandbox"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates a practical institutional answer to the data-privacy concerns around commercial cloud LLMs.",
+      "source_urls": [
+        "https://caai.louisiana.edu/",
+        "https://lite.louisiana.edu/"
+      ]
+    },
+    {
+      "title": "UL System Empowering AI Literacy for Students microcredential",
+      "description": "Free, self-paced AI literacy microcredential developed by faculty and staff across the University of Louisiana System (including UL Lafayette), launched Spring 2025, covering AI history, best practices, ethics, responsible use, and data privacy for all enrolled students.",
+      "significance": "System-wide AI literacy baseline for 80,000+ students across nine UL System campuses; UL Lafayette integrates it into courses and faculty development.",
+      "date_announced": "2025-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_tool_equity",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University of Louisiana System",
+        "description": "System-developed, free to all enrolled students; specific development cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Nine UL System campuses"
+          ],
+          "description": "Co-developed by faculty/staff across the UL System's member institutions."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Moodle",
+          "vendor": "Moodle",
+          "role": "Delivery/badging platform for the microcredential"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a consistent AI literacy and ethics baseline for all students across a nine-campus system.",
+      "source_urls": [
+        "https://louisiana.edu/distancelearning/news/preparing-students-ai-first-world-ul-system-launches-new-ai-microcredential",
+        "https://www.usnews.com/education/u-s-news-higher-ground/articles/2026-04-02/ai-louisiana-university-students-microcredential",
+        "https://moodle.louisiana.edu/badges/badge.php?hash=f9a1b8c7d0da48a024e46da447fbdc3134180f31"
+      ]
+    },
+    {
+      "title": "AI4ALL Workforce Development Program",
+      "description": "CAAI-operated workforce program aimed at lowering barriers to entry into AI careers, equipping individuals from all backgrounds with in-demand AI skills regardless of prior experience or educational attainment.",
+      "significance": "Bridges equity/access and workforce pipeline goals, extending AI training beyond degree-seeking students into the broader regional labor market.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "underrepresented_student_support",
+        "digital_divide_and_access",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CAAI / industry and grant partners",
+        "description": "Specific funding not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Regional employers"
+          ],
+          "description": "Pipeline initiative coordinated with local industry."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Extends AI readiness to non-traditional learners and workforce re-skilling.",
+      "source_urls": [
+        "https://caai.louisiana.edu/collaboration/ai4all-workforce-development"
+      ]
+    },
+    {
+      "title": "UL Lafayette Data Science & AI Bootcamp (Institute of Data partnership)",
+      "description": "A 24-week part-time professional bootcamp co-delivered with the Institute of Data covering statistics, data analysis, SQL, ML, NLP, deep learning, and cloud computing; graduates receive both a UL Lafayette Certificate of Completion and an Institute of Data industry certification. Advertised 93% job placement rate within 180 days.",
+      "significance": "Non-degree pathway for career changers into AI/data science, expanding UL Lafayette's workforce role beyond traditional degree programs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Tuition / Institute of Data partnership",
+        "description": "Revenue-sharing partnership with an external bootcamp provider."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Institute of Data"
+          ],
+          "description": "Continuing-education partnership; Institute of Data provides curriculum and industry certification."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Data Science & AI Program",
+          "vendor": "Institute of Data",
+          "role": "Curriculum and industry certification provider"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Extends access to AI skills training to non-matriculated adult learners.",
+      "source_urls": [
+        "https://bootcamp.ce.louisiana.edu/datascienceai",
+        "https://bootcamp.ce.louisiana.edu/datascienceai-lp"
+      ]
+    },
+    {
+      "title": "Guidance on Generative AI in the Classroom",
+      "description": "Academic Affairs Division guidance that outlines a default prohibition on AI-generated submissions, faculty discretion to permit uses, student responsibility for accuracy/bias, mandatory transparency, and sample syllabus statements ranging from prohibitive to permissive.",
+      "significance": "Establishes a distributed, faculty-discretion model for AI use, with layered guidance rather than a single binding campus-wide policy.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "ai_ethics_framework",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Academic Affairs Division operating budget",
+        "description": "Policy-drafting effort; no dedicated budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Academic Affairs guidance."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Referenced in citation examples"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Default prohibition with permitted-use sample syllabi creates uneven classroom experiences.",
+      "source_urls": [
+        "https://academicaffairs.louisiana.edu/about-us/policies-procedures-guidelines-and-forms/guidelines/guidance-generative-artificial",
+        "https://distancelearning.louisiana.edu/teach-online-hybrid/best-practices-online-education/generative-ai/ai-and-academic-integrity"
+      ]
+    },
+    {
+      "title": "Graduate School Generative AI Guidelines",
+      "description": "Graduate School guidelines emphasizing authorial transparency, faculty advisor oversight of AI use in research, intellectual property protection, academic integrity, and ethical application pairing AI with human expertise.",
+      "significance": "Addresses research integrity distinct from classroom use, with a more comprehensive posture than the undergraduate classroom guidance.",
+      "date_announced": "2025-06-13",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Graduate School operating budget",
+        "description": "Policy-drafting effort."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Graduate School guidance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds advisor oversight and disclosure requirements in graduate research workflows.",
+      "source_urls": [
+        "https://louisiana.edu/graduateschool/generative-artificial-intelligence-guidelines"
+      ]
+    },
+    {
+      "title": "Office of Communications & Marketing AI Guidelines",
+      "description": "OCM guidelines permitting AI for brainstorming, drafts, SEO, social, and productivity tasks while explicitly prohibiting AI-generated visual content, AI fact-checking, and any entry of FERPA/HIPAA/state-federal protected data into AI systems; requires human authorship and disclosure.",
+      "significance": "Unit-level data-privacy-forward AI policy that explicitly addresses state/federal compliance for university communications staff.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "OCM operating budget",
+        "description": "Policy-drafting effort."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal OCM guidance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes FERPA/HIPAA compliance for generative-AI use in university communications.",
+      "source_urls": [
+        "https://ocm.louisiana.edu/digital-communications/artificial-intelligence-guidelines"
+      ]
+    },
+    {
+      "title": "AI for Louisiana Medicaid fraud detection",
+      "description": "UL Lafayette is developing an AI and data-analysis tool for the Louisiana Department of Health to identify fraud, waste, and abuse in the Medicaid program. The tool is trained on national fraud data and peer-reviewed literature, then applied to Louisiana Medicaid data with staff verification of findings; built under existing state-university computing contract so no additional cost to LDH.",
+      "significance": "High-visibility state-government AI deployment directly tied to a university research contract, showcasing R1 applied-AI work for public-sector program integrity.",
+      "date_announced": "2025-04-22",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "community",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Louisiana Department of Health (within existing UL Lafayette contract)",
+        "description": "Cost absorbed inside existing state computing contract, not a new appropriation."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Louisiana Department of Health"
+          ],
+          "description": "University builds and state agency deploys and validates findings."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Human-in-the-loop verification of AI findings before program action.",
+      "source_urls": [
+        "https://www.route-fifty.com/digital-government/2025/04/louisiana-will-turn-ai-detect-medicaid-fraud-health-officials-say/404761/",
+        "https://lailluminator.com/2025/04/22/louisiana-will-turn-to-ai-to-detect-medicaid-fraud-health-officials-say/"
+      ]
+    },
+    {
+      "title": "AI and ML concentrations in Computer Science and Informatics",
+      "description": "UL Lafayette's School of Computing & Informatics delivers AI/ML content through core courses (CMPS 420 Artificial Intelligence, CMPS 422 Machine Learning), a Cloud Computing concentration, a Cybersecurity concentration, and graduate options including an MS in Informatics with machine learning tracks.",
+      "significance": "Mainstream integration of AI/ML into existing CS and Informatics programs; UL Lafayette awarded the nation's first master's in computer science in 1959 and has continued to expand AI curricular coverage.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "State appropriation and tuition",
+        "description": "Embedded in existing academic program budgets."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Maintains AI/ML fluency for computing graduates.",
+      "source_urls": [
+        "https://computing.louisiana.edu/computer-science/ai-and-ml-education-during-bs-computer-science-ul-lafayette",
+        "https://cacs.louisiana.edu/computer-science/computer-science-undergraduate/ai-and-ml-education",
+        "https://computing.louisiana.edu/computer-sciences/computer-science/masters"
+      ]
+    },
+    {
+      "title": "LONI high-performance computing access (Deep Bayou / QB-3)",
+      "description": "UL Lafayette researchers access the Louisiana Optical Network Initiative (LONI) high-performance computing fabric, including the QB-3 NVIDIA V100-based cluster and Deep Bayou GPU cluster, plus the state's $12.5 million 2022 investment in an AI-capable LONI supercomputer.",
+      "significance": "Provides the GPU-backed compute base UL Lafayette researchers rely on for machine-learning and deep-learning work, without UL Lafayette having to stand up an exclusively campus-local supercomputer.",
+      "date_announced": "2022-06-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 12500000,
+        "funding_source": "State of Louisiana (LONI shared resource)",
+        "description": "State invested $12.5M in 2022 for a new AI-capable LONI supercomputer accessible to member institutions including UL Lafayette."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "LSU",
+            "Louisiana Tech",
+            "Tulane",
+            "University of New Orleans",
+            "Southern University",
+            "LSU Health Sciences Center"
+          ],
+          "description": "LONI is a shared fabric across Louisiana's R1 and R2 institutions."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Louisiana"
+          ],
+          "description": "State-funded HPC infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "QB-3 / Deep Bayou GPU cluster",
+          "vendor": "NVIDIA (V100/V100S GPUs) / LONI",
+          "role": "Shared HPC for ML and deep learning"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "http://hpc.loni.org/resources/hpc/system.php?system=DeepBayou",
+        "https://issuu.com/noahredman1/docs/thequiltcircle2023_final_web/s/24100812",
+        "https://louisiana.edu/news/zeke-puts-ul-lafayette-loni-map"
+      ]
+    },
+    {
+      "title": "NSF CAIG grant: AI for coastal phytoplankton dynamics",
+      "description": "UL Lafayette is a participant in the NSF Collaborations in AI and Geosciences (CAIG) program (over $20M total across 25 projects) with a project titled 'Empowering Artificial Intelligence to Reveal Phytoplankton Community Dynamics in Coastal Oceans'.",
+      "significance": "Applies AI to coastal-ocean geoscience, leveraging UL Lafayette's domain strengths and extending its AI research portfolio into environmental modeling.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF CAIG program",
+        "description": "Individual award amount not disclosed publicly; part of $20M+ CAIG cohort."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded CAIG project."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.nsf.gov/news/nsf-invests-20m-advance-artificial-intelligence-technologies"
+      ]
+    },
+    {
+      "title": "Autonomous Recovery from Cyber Attacks (ARC) research project",
+      "description": "$12 million federal appropriation for a joint UL Lafayette and Radiance Technologies research project developing AI-enabled technologies that help systems autonomously detect and recover from cyberattacks.",
+      "significance": "Major federal cybersecurity-AI research investment tying UL Lafayette's cybersecurity and AI capabilities to national-security priorities.",
+      "date_announced": "2025-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "agentic_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 12000000,
+        "funding_source": "Federal appropriation (national security)",
+        "description": "$12M federal appropriation for the ARC project."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Radiance Technologies"
+          ],
+          "description": "Joint research on autonomous cyber recovery."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. federal government"
+          ],
+          "description": "Federally funded national-security project."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://louisiana.edu/news/nearly-25m-federal-support-advances-ul-lafayette-research-semiconductors-life-sciences-cybersecurity",
+        "https://www.kadn.com/news/local/ul-receives-nearly-25-million-in-federal-funding-for-research-national-security-and-more/article_68d697f7-ea5c-4539-81b5-8d5d4515d33c.html"
+      ]
+    },
+    {
+      "title": "Compliance with Louisiana Executive Order JML 25-109 (AI use in state agencies)",
+      "description": "UL Lafayette, as a Louisiana public higher-education institution, operates under Governor Jeff Landry's amended Executive Order JML 25-109 banning free AI tools operated by hostile foreign governments (including CCP-linked systems like DeepSeek) and requiring CIO or agency-head approval of state AI procurement.",
+      "significance": "Illustrates how state-level executive action is reshaping campus AI procurement in Louisiana; UL Lafayette must route AI decisions through its CIO and align with state and Board of Regents guidance.",
+      "date_announced": "2025-10-13",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "acceptable_use_policy",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "government_and_regulators",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "N/A (compliance overhead)",
+        "description": "No new appropriation; compliance with state executive order."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Louisiana",
+            "Louisiana Board of Regents",
+            "University of Louisiana System"
+          ],
+          "description": "State policy cascade through the Board of Regents to system institutions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "prohibitive",
+      "policy_implications": "Prohibits specific foreign-operated AI tools and centralizes AI-procurement approval through the CIO.",
+      "source_urls": [
+        "https://gov.louisiana.gov/news/4960",
+        "https://www.doa.la.gov/media/tzqptbak/jml-25-109-amended-state-government-s-use-of-ai.pdf",
+        "https://www.doa.la.gov/doa/ots/policies-and-forms/artificial-intelligence-acceptable-use-policy/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Applied Artificial Intelligence (CAAI)",
+      "focus": "Applied AI research, AI workforce development, innovation ecosystem; hosts AHeAD Center and AI4ALL; operates secure AI sandbox at LITE Center",
+      "founded": "2023",
+      "url": "https://caai.louisiana.edu/"
+    },
+    {
+      "name": "Accessible Healthcare through AI-Augmented Decisions (AHeAD) Center",
+      "focus": "NSF IUCRC planning-grant center on AI decision support in healthcare; human-AI interaction, privacy-preserving AI, model robustness",
+      "founded": "2025",
+      "url": "https://caai.louisiana.edu/collaboration/accessible-healthcare-through-ai-augmented-decisions-ahead-center"
+    },
+    {
+      "name": "Informatics Research Institute (IRI)",
+      "focus": "Parent institute for CAAI, CBIT, NIMSAT, and former CVDI; informatics and data-science research",
+      "founded": "2014",
+      "url": "https://informaticsinstitute.louisiana.edu/"
+    },
+    {
+      "name": "Center for Business & Information Technologies (CBIT)",
+      "focus": "Business analytics, data-driven decision-making, and technology-transfer for regional economic development",
+      "founded": "2003",
+      "url": "https://cbit.louisiana.edu/"
+    },
+    {
+      "name": "National Incident Management Systems and Advanced Technologies (NIMSAT) Institute",
+      "focus": "Public-private partnerships and advanced information technologies for disaster resilience",
+      "founded": "2007",
+      "url": "https://nimsat.louisiana.edu/"
+    },
+    {
+      "name": "Center for Critical Infrastructure Cybersecurity (CCIC)",
+      "focus": "Interdisciplinary cybersecurity and AI-for-security research on critical infrastructure",
+      "founded": null,
+      "url": "https://cybersecurity.louisiana.edu/"
+    },
+    {
+      "name": "Louisiana Immersive Technologies Enterprise (LITE)",
+      "focus": "Immersive technologies, visualization, and host for CAAI's secure AI sandbox",
+      "founded": "2006",
+      "url": "https://lite.louisiana.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "CMPS 420 Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://computing.louisiana.edu/computer-sciences/computer-science/undergraduate/courses"
+    },
+    {
+      "type": "course",
+      "name": "CMPS 422 Machine Learning",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://computing.louisiana.edu/computer-sciences/computer-science/undergraduate/courses"
+    },
+    {
+      "type": "degree",
+      "name": "BS in Computer Science (with AI/ML content)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://louisiana.edu/majors-minors/computer-science"
+    },
+    {
+      "type": "concentration",
+      "name": "Cloud Computing concentration (BS Computer Science)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://louisiana.edu/majors-minors/computer-science"
+    },
+    {
+      "type": "concentration",
+      "name": "Cybersecurity concentration (BS Computer Science and Informatics)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://computing.louisiana.edu/informatics/major-concentrations/cybersecurity"
+    },
+    {
+      "type": "degree",
+      "name": "BS in Informatics",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://louisiana.edu/majors-minors/informatics"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Informatics (ML, data analytics, cybersecurity tracks; online and on-campus)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://computing.louisiana.edu/informatics/masters-informatics"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Computer Science (nation's first MS CS, 1959)",
+      "level": "grad",
+      "launched": "1959-01",
+      "url": "https://computing.louisiana.edu/computer-sciences/computer-science/masters"
+    },
+    {
+      "type": "certificate",
+      "name": "Empowering AI Literacy for Students Microcredential (UL System)",
+      "level": "both",
+      "launched": "2025-01",
+      "url": "https://louisiana.edu/distancelearning/news/preparing-students-ai-first-world-ul-system-launches-new-ai-microcredential"
+    },
+    {
+      "type": "certificate",
+      "name": "Data Science & AI Bootcamp (Institute of Data partnership)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.ce.louisiana.edu/datascienceai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Meta",
+      "product": "Llama 3 (self-hosted at LITE Center secure AI sandbox)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://caai.louisiana.edu/"
+    },
+    {
+      "vendor": "Moodle",
+      "product": "Moodle LMS (hosts AI Literacy microcredential badges)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://moodle.louisiana.edu/badges/badge.php?hash=f9a1b8c7d0da48a024e46da447fbdc3134180f31"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "LONI (shared; includes QB-3 and Deep Bayou GPU clusters)",
+    "gpu_count": null,
+    "url": "http://hpc.loni.org/resources/hpc/system.php?system=DeepBayou",
+    "summary": "UL Lafayette's primary AI compute is delivered through the Louisiana Optical Network Initiative (LONI), a shared state-funded HPC fabric across Louisiana R1/R2s, including the NVIDIA V100-based QB-3 cluster and Deep Bayou GPU cluster (NSF CC* award #2020446), with a $12.5M state investment in 2022 targeting expanded AI capability. UL Lafayette supplements LONI with on-campus HPC resources (an on-campus HPC cluster, Posit Cloud, Google Colab, Jupyter services) and a planned secure AI sandbox running open-weight LLMs (Llama 3) at the LITE Center. Researchers also access Science DMZ infrastructure with 80GE backbone connectivity for data-intensive workloads."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "State of Louisiana LONI AI supercomputer investment",
+      "amount_usd": 12500000,
+      "source": "State of Louisiana",
+      "purpose": "New AI-capable LONI supercomputer accessible to UL Lafayette and other LONI member institutions",
+      "date": "2022-06",
+      "url": "https://issuu.com/noahredman1/docs/thequiltcircle2023_final_web/s/24100812"
+    },
+    {
+      "title": "Autonomous Recovery from Cyber Attacks (ARC) federal appropriation",
+      "amount_usd": 12000000,
+      "source": "U.S. federal appropriation",
+      "purpose": "AI-enabled autonomous cyber recovery research (UL Lafayette + Radiance Technologies)",
+      "date": "2025-01",
+      "url": "https://louisiana.edu/news/nearly-25m-federal-support-advances-ul-lafayette-research-semiconductors-life-sciences-cybersecurity"
+    },
+    {
+      "title": "Silicon Bayou Semiconductor Training Center",
+      "amount_usd": 5000000,
+      "source": "U.S. federal appropriation",
+      "purpose": "Semiconductor manufacturing training and research facility (supports AI-adjacent compute workforce)",
+      "date": "2025-01",
+      "url": "https://louisiana.edu/news/nearly-25m-federal-support-advances-ul-lafayette-research-semiconductors-life-sciences-cybersecurity"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Tulane University; Georgia Institute of Technology; University of Florida",
+      "purpose": "AHeAD Center co-directors for NSF IUCRC on AI-augmented healthcare decisions",
+      "date": "2025-10",
+      "url": "https://louisiana.edu/news/ul-lafayette-establish-research-center-focused-implementing-ai-health-care"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Louisiana Department of Health",
+      "purpose": "AI tool development for Medicaid fraud, waste, and abuse detection",
+      "date": "2025-04",
+      "url": "https://www.route-fifty.com/digital-government/2025/04/louisiana-will-turn-ai-detect-medicaid-fraud-health-officials-say/404761/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Radiance Technologies",
+      "purpose": "Autonomous Recovery from Cyber Attacks (ARC) joint research on AI cyber recovery",
+      "date": "2025-01",
+      "url": "https://louisiana.edu/news/nearly-25m-federal-support-advances-ul-lafayette-research-semiconductors-life-sciences-cybersecurity"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Institute of Data",
+      "purpose": "Data Science & AI professional bootcamp with industry certification",
+      "date": null,
+      "url": "https://bootcamp.ce.louisiana.edu/datascienceai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Louisiana System (nine campuses)",
+      "purpose": "Empowering AI Literacy for Students microcredential co-development and delivery",
+      "date": "2025-01",
+      "url": "https://louisiana.edu/distancelearning/news/preparing-students-ai-first-world-ul-system-launches-new-ai-microcredential"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "CAIG grant: AI for coastal phytoplankton dynamics; prior CVDI IUCRC (2012-2023); AHeAD IUCRC planning grant",
+      "date": null,
+      "url": "https://www.nsf.gov/news/nsf-invests-20m-advance-artificial-intelligence-technologies"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "LONI member universities (LSU, Tulane, Louisiana Tech, UNO, Southern, LSU HSC)",
+      "purpose": "Shared AI-capable HPC via LONI (QB-3, Deep Bayou)",
+      "date": null,
+      "url": "http://hpc.loni.org/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Empowering AI Literacy Microcredential",
+      "scope": "Free self-paced AI literacy badge for all enrolled UL System students",
+      "url": "https://moodle.louisiana.edu/badges/badge.php?hash=f9a1b8c7d0da48a024e46da447fbdc3134180f31"
+    },
+    {
+      "type": "other",
+      "name": "AI 101 student blog and CRAAFTED prompting checklist",
+      "scope": "Self-service prompting and AI orientation resources from Office of Distance Learning",
+      "url": "https://louisiana.edu/online/blog/ai-101-overview-ai-college-students"
+    },
+    {
+      "type": "other",
+      "name": "Secure AI sandbox (LITE Center)",
+      "scope": "Locally hosted open-weight LLM environment for student, faculty, and partner use",
+      "url": "https://caai.louisiana.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI4ALL Workforce Development",
+      "description": "Lowers entry barriers to AI careers for individuals from all backgrounds regardless of prior experience or educational attainment.",
+      "url": "https://caai.louisiana.edu/collaboration/ai4all-workforce-development"
+    },
+    {
+      "title": "Empowering AI Literacy for Students Microcredential (free system-wide)",
+      "description": "Free AI literacy badge open to all enrolled UL System students (80,000+), removing cost barriers to AI fluency.",
+      "url": "https://louisiana.edu/distancelearning/news/preparing-students-ai-first-world-ul-system-launches-new-ai-microcredential"
+    }
+  ],
+  "regulatory_context": {
+    "state": "LA",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Louisiana has an active AI policy stack affecting higher education: Governor Jeff Landry's Executive Order JML 25-109 (amended October 2025) bans free AI tools from hostile foreign governments (including DeepSeek and other CCP-linked systems) in state agencies and universities, and requires CIO or agency-head approval for state AI procurement. The Louisiana Board of Regents adopted a Policy on Responsible, Ethical, Secure Use of AI on October 22, 2025, and established an ongoing Artificial Intelligence Committee chaired by Regent T. Jay Seale III. The UL System, through its Board and system office, is cascading those standards to member institutions and has launched a system-wide student AI literacy microcredential. The Louisiana Division of Administration also publishes an Artificial Intelligence Acceptable Use Policy for state agencies.",
+    "urls": [
+      "https://www.laregents.edu/news/102225release/",
+      "https://www.laregents.edu/102225release/",
+      "https://gov.louisiana.gov/news/4960",
+      "https://www.doa.la.gov/media/tzqptbak/jml-25-109-amended-state-government-s-use-of-ai.pdf",
+      "https://www.doa.la.gov/doa/ots/policies-and-forms/artificial-intelligence-acceptable-use-policy/",
+      "https://www.ulsystem.edu/forms-of-ai/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-07",
+      "summary": "President E. Joseph Savoie stepped down abruptly on July 30, 2025 after 17 years, with the UL System Board announcing he would retain $510,000/year as president emeritus through December before transitioning to the College of Education as a tenured faculty member after a paid sabbatical. The transition drew public scrutiny in Louisiana press. Not AI-specific, but shaped the leadership context for AI strategy handoff to interim president (then permanent president) Ramesh Kolluru.",
+      "status": "resolved",
+      "url": "https://lailluminator.com/2025/07/30/university-of-louisiana-at-lafayette-president-to-retire-immediately/"
+    }
+  ],
+  "narrative_summary": "The University of Louisiana at Lafayette is an R1 public research university (Carnegie R1, ~19,700 enrollment) in the University of Louisiana System whose AI posture is anchored in research rather than enterprise rollouts. The Center for Applied Artificial Intelligence (CAAI), stood up in 2023 as a successor to the decade-long NSF CVDI industry-university center, is the institution's strategic AI hub, directed by Dr. Raju Gottumukkala. CAAI runs applied AI research, the AI4ALL workforce program, a planned secure open-weight-LLM sandbox at the LITE Center (running Meta Llama 3 locally for privacy), and the newly announced NSF IUCRC planning-grant AHeAD Center on AI-augmented healthcare decisions co-led with Tulane, Georgia Tech, and the University of Florida. Major federal funding in 2025 included a $12M ARC project with Radiance Technologies on AI-enabled autonomous cyber recovery, plus NSF CAIG geosciences AI work and a high-profile state contract to build AI fraud-detection tooling for the Louisiana Department of Health's Medicaid program. Research compute runs primarily through the shared LONI HPC fabric (QB-3, Deep Bayou, plus a $12.5M 2022 state AI-supercomputer investment) rather than a dedicated campus supercomputer.\n\nOn policy, UL Lafayette has no single campus-wide AI strategy or acceptable-use mandate. Instead, a distributed stack of unit-level guidance covers the Academic Affairs classroom (cautious, faculty-discretion default with sample syllabi), the Graduate School (comprehensive, emphasizing disclosure and advisor oversight for research), the Office of Communications & Marketing (comprehensive, FERPA/HIPAA-aware for administrative use), and Distance Learning's AI Tools & Use hub (with the CRAAFTED prompting checklist). Governance sits across the IT Cabinet, ITAC, the ERP Data Standards Subcommittee, and CAAI, rather than a dedicated AI council. At the system/state level, the UL System's free Empowering AI Literacy microcredential (Spring 2025) is scaling to 80,000+ students, the Louisiana Board of Regents adopted a Responsible, Ethical, Secure AI policy in October 2025 with a standing AI Committee, and Governor Landry's Executive Order JML 25-109 prohibits hostile-foreign AI tools and centralizes procurement approval. Leadership changes in 2025-2026 (President Savoie's abrupt July 2025 departure, interim tenure by Jaimie Hebert, and Ramesh Kolluru's February 2026 appointment as the seventh president) place an AI-fluent research leader atop the institution, with CIO Gene Fields handling IT/procurement compliance. Gaps include the absence of a dedicated chief AI officer, no publicly disclosed campus-wide commercial LLM platform (e.g., Copilot, ChatGPT Edu), and no published unified AI strategy document.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://caai.louisiana.edu/",
+      "https://caai.louisiana.edu/about-us",
+      "https://caai.louisiana.edu/collaboration/ai4all-workforce-development",
+      "https://caai.louisiana.edu/collaboration/accessible-healthcare-through-ai-augmented-decisions-ahead-center",
+      "https://informaticsinstitute.louisiana.edu/centers/center-applied-artificial-intelligence-0",
+      "https://informaticsinstitute.louisiana.edu/about-us/history",
+      "https://louisiana.edu/news/ul-lafayette-establish-research-center-focused-implementing-ai-health-care",
+      "https://louisiana.edu/news/ul-lafayette-again-earns-carnegies-prestigious-r1-designation",
+      "https://louisiana.edu/news/nearly-25m-federal-support-advances-ul-lafayette-research-semiconductors-life-sciences-cybersecurity",
+      "https://louisiana.edu/news/ul-lafayette-welcomes-its-largest-freshman-class-ever",
+      "https://louisiana.edu/about-us/leadership-administration",
+      "https://louisiana.edu/directory/people/ramesh-kolluru",
+      "https://louisiana.edu/directory/people/jaimie-hebert",
+      "https://louisiana.edu/directory/people/gene-fields",
+      "https://louisiana.edu/distancelearning/technology/ai-tools-use",
+      "https://louisiana.edu/distancelearning/news/preparing-students-ai-first-world-ul-system-launches-new-ai-microcredential",
+      "https://louisiana.edu/graduateschool/generative-artificial-intelligence-guidelines",
+      "https://louisiana.edu/privacy-statement",
+      "https://louisiana.edu/online/blog/ai-101-overview-ai-college-students",
+      "https://academicaffairs.louisiana.edu/about-us/policies-procedures-guidelines-and-forms/guidelines/guidance-generative-artificial",
+      "https://distancelearning.louisiana.edu/teach-online-hybrid/best-practices-online-education/generative-ai/ai-and-academic-integrity",
+      "https://ocm.louisiana.edu/digital-communications/artificial-intelligence-guidelines",
+      "https://it.louisiana.edu/security-governance/governance",
+      "https://computing.louisiana.edu/computer-science/ai-and-ml-education-during-bs-computer-science-ul-lafayette",
+      "https://cacs.louisiana.edu/computer-science/computer-science-undergraduate/ai-and-ml-education",
+      "https://computing.louisiana.edu/computer-sciences/computer-science/masters",
+      "https://computing.louisiana.edu/informatics/masters-informatics",
+      "https://computing.louisiana.edu/informatics/major-concentrations/cybersecurity",
+      "https://bootcamp.ce.louisiana.edu/datascienceai",
+      "https://bootcamp.ce.louisiana.edu/datascienceai-lp",
+      "https://lite.louisiana.edu/",
+      "https://cybersecurity.louisiana.edu/",
+      "https://cbit.louisiana.edu/",
+      "https://nimsat.louisiana.edu/",
+      "https://moodle.louisiana.edu/badges/badge.php?hash=f9a1b8c7d0da48a024e46da447fbdc3134180f31",
+      "https://www.laregents.edu/news/102225release/",
+      "https://www.laregents.edu/102225release/",
+      "https://gov.louisiana.gov/news/4960",
+      "https://www.doa.la.gov/media/tzqptbak/jml-25-109-amended-state-government-s-use-of-ai.pdf",
+      "https://www.doa.la.gov/doa/ots/policies-and-forms/artificial-intelligence-acceptable-use-policy/",
+      "https://www.ulsystem.edu/forms-of-ai/",
+      "https://www.route-fifty.com/digital-government/2025/04/louisiana-will-turn-ai-detect-medicaid-fraud-health-officials-say/404761/",
+      "https://lailluminator.com/2025/04/22/louisiana-will-turn-to-ai-to-detect-medicaid-fraud-health-officials-say/",
+      "https://lailluminator.com/2025/07/30/university-of-louisiana-at-lafayette-president-to-retire-immediately/",
+      "https://www.insidehighered.com/news/quick-takes/2025/08/01/ul-lafayette-president-retires-suddenly",
+      "https://www.nsf.gov/news/nsf-invests-20m-advance-artificial-intelligence-technologies",
+      "http://hpc.loni.org/resources/hpc/system.php?system=DeepBayou",
+      "https://issuu.com/noahredman1/docs/thequiltcircle2023_final_web/s/24100812",
+      "https://news.ece.ufl.edu/2025/11/18/harley-joins-forces-with-university-of-louisiana-at-lafayette-tulane-georgia-tech-to-accelerate-innovation-in-ai-augmented-health-systems/",
+      "https://www.usnews.com/education/u-s-news-higher-ground/articles/2026-04-02/ai-louisiana-university-students-microcredential",
+      "https://www.kadn.com/news/local/ul-receives-nearly-25-million-in-federal-funding-for-research-national-security-and-more/article_68d697f7-ea5c-4539-81b5-8d5d4515d33c.html"
+    ],
+    "search_queries": [
+      "\"University of Louisiana at Lafayette\" AI artificial intelligence strategy 2025 2026",
+      "\"University of Louisiana at Lafayette\" AI policy acceptable use generative",
+      "\"University of Louisiana at Lafayette\" president provost CIO leadership",
+      "\"University of Louisiana at Lafayette\" \"Center for Applied Artificial Intelligence\" CAAI",
+      "\"UL Lafayette\" AI council OR committee OR task force governance",
+      "\"University of Louisiana\" system AI microcredential announcement",
+      "\"UL Lafayette\" AI degree OR certificate OR major OR minor computing",
+      "\"University of Louisiana at Lafayette\" HPC supercomputer GPU AI research infrastructure",
+      "\"UL Lafayette\" NSF grant AI artificial intelligence million",
+      "\"UL Lafayette\" AHeAD NSF Industry University Cooperative Research Center healthcare AI",
+      "\"University of Louisiana at Lafayette\" LITE center AI sandbox Llama",
+      "\"University of Louisiana at Lafayette\" president E. Joseph Savoie 2025 2026",
+      "\"UL Lafayette\" enrollment student count Fall 2025 total",
+      "\"University of Louisiana at Lafayette\" CIO information technology services vice president",
+      "Louisiana state AI policy higher education executive order governor",
+      "\"UL Lafayette\" AI4ALL workforce development partnership",
+      "\"UL Lafayette\" CITLS center for teaching learning support AI faculty training",
+      "\"UL Lafayette\" FERPA HIPAA AI data privacy policy",
+      "\"University of Louisiana at Lafayette\" R1 research classification Carnegie 2025",
+      "\"University of Louisiana at Lafayette\" federal funding research 2025 25 million",
+      "\"University of Louisiana at Lafayette\" Medicaid fraud AI Department of Health",
+      "\"UL Lafayette\" LONI Silicon Bayou computing supercomputer GPU cluster",
+      "Louisiana Board of Regents AI higher education policy framework 2025"
+    ],
+    "gaps_acknowledged": [
+      "No single campus-wide published AI strategy document found",
+      "No evidence of a campus-wide commercial generative-AI platform license (Microsoft Copilot, Google Gemini, ChatGPT Edu, Claude for Education) - search surfaced no such deal",
+      "No dedicated Chief AI Officer role",
+      "Specific NSF dollar amount for the AHeAD planning grant not disclosed publicly",
+      "On-campus GPU count and exact supercomputer configuration at UL Lafayette (as distinct from shared LONI resources) not disclosed",
+      "No public litigation or controversy specific to UL Lafayette AI use identified",
+      "CAAI founding date (2023) inferred from IRI narrative rather than a dated press release",
+      "AI4ALL program start date, enrollment numbers, and funding source not disclosed on the public page"
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 5,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 13,
+        "governance_led": 12,
+        "student_success_led": 3,
+        "workforce_regional_development": 21,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-06",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 10,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "LONI (shared; includes QB-3 and Deep Bayou GPU clusters)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 29500000,
+      "funding_source_buckets": {
+        "public_federal_state": 11,
+        "other_unclear": 4,
+        "institutional": 2,
+        "industry_vendor": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Institute of Data Data Science & AI Program",
+          "mentions": 1,
+          "products": [
+            "Data Science & AI Program"
+          ]
+        },
+        {
+          "vendor": "Meta Llama 3",
+          "mentions": 1,
+          "products": [
+            "Llama 3"
+          ]
+        },
+        {
+          "vendor": "Meta Llama 3 (self-hosted at LITE Center secure AI sandbox)",
+          "mentions": 1,
+          "products": [
+            "Llama 3 (self-hosted at LITE Center secure AI sandbox)"
+          ]
+        },
+        {
+          "vendor": "Moodle Moodle",
+          "mentions": 1,
+          "products": [
+            "Moodle"
+          ]
+        },
+        {
+          "vendor": "Moodle Moodle LMS (hosts AI Literacy microcredential badges)",
+          "mentions": 1,
+          "products": [
+            "Moodle LMS (hosts AI Literacy microcredential badges)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "QB-3 / Deep Bayou GPU cluster"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Institute of Data Data Science & AI Program",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": false,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Center for Applied Artificial Intelligence (CAAI) launch",
+          "summary": "Positions UL Lafayette as a regional hub for applied AI research and workforce development, building on a decade of NSF industry-university center leadership to compete for the next generation of applied AI funding.",
+          "source_url": "https://caai.louisiana.edu/"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI4ALL Workforce Development Program",
+          "summary": "Bridges equity/access and workforce pipeline goals, extending AI training beyond degree-seeking students into the broader regional labor market.",
+          "source_url": "https://caai.louisiana.edu/collaboration/ai4all-workforce-development"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "UL Lafayette Data Science & AI Bootcamp (Institute of Data partnership)",
+          "summary": "Non-degree pathway for career changers into AI/data science, expanding UL Lafayette's workforce role beyond traditional degree programs.",
+          "source_url": "https://bootcamp.ce.louisiana.edu/datascienceai"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Office of Communications & Marketing AI Guidelines",
+          "summary": "Unit-level data-privacy-forward AI policy that explicitly addresses state/federal compliance for university communications staff.",
+          "source_url": "https://ocm.louisiana.edu/digital-communications/artificial-intelligence-guidelines"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 7,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No single campus-wide published AI strategy document found",
+        "No evidence of a campus-wide commercial generative-AI platform license (Microsoft Copilot, Google Gemini, ChatGPT Edu, Claude for Education) - search surfaced no such deal",
+        "No dedicated Chief AI Officer role",
+        "Specific NSF dollar amount for the AHeAD planning grant not disclosed publicly",
+        "On-campus GPU count and exact supercomputer configuration at UL Lafayette (as distinct from shared LONI resources) not disclosed",
+        "No public litigation or controversy specific to UL Lafayette AI use identified",
+        "CAAI founding date (2023) inferred from IRI narrative rather than a dated press release",
+        "AI4ALL program start date, enrollment numbers, and funding source not disclosed on the public page"
+      ]
+    }
+  }
+}

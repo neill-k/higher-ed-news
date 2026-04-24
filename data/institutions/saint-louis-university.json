@@ -1,0 +1,536 @@
+{
+  "institution": "Saint Louis University",
+  "slug": "saint-louis-university",
+  "city_state": "St. Louis, MO",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "SLU AI Guidelines",
+      "url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Complete AI Guidelines",
+        "url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php",
+        "year": 2025
+      },
+      {
+        "title": "Developing Guidelines for Generative AI Use",
+        "url": "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf",
+        "year": 2025
+      }
+    ],
+    "summary": "Saint Louis University has detailed complete AI guidelines that apply across academic, research, and administrative use, including AI subtypes such as generative and agentic AI. The guidance is backed by teaching resources and an M.S. in Artificial Intelligence, but public evidence of enterprise AI platform rollout is limited."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php",
+      "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "Saint Louis University's AI policy posture is best characterized as comprehensive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Office of the Provost AI guidelines",
+        "type": "office",
+        "scope": "University-wide detailed AI guidelines.",
+        "url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+      },
+      {
+        "name": "Reinert Center for Transformative Teaching and Learning",
+        "type": "office",
+        "scope": "Faculty support for developing generative AI course guidelines.",
+        "url": "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf"
+      }
+    ],
+    "summary": "Saint Louis University's public AI governance is organized through Office of the Provost AI guidelines, Reinert Center for Transformative Teaching and Learning."
+  },
+  "initiatives": [
+    {
+      "title": "Complete AI Guidelines",
+      "description": "SLU's guidelines cover ethical use, transparency, disclosure, privacy, human oversight, non-discrimination, restricted/confidential data, malicious use, training, and opt-out from model training where available.",
+      "significance": "Saint Louis University's complete ai guidelines is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+      ]
+    },
+    {
+      "title": "Academic AI use rules",
+      "description": "SLU states instructor permission is required unless a syllabus grants permission; unauthorized AI use is treated similarly to unauthorized assistance or plagiarism.",
+      "significance": "Saint Louis University's academic ai use rules is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "ai_resilient_assessment",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+      ]
+    },
+    {
+      "title": "M.S. in Artificial Intelligence",
+      "description": "SLU's catalog lists a graduate M.S. in Artificial Intelligence with AI principles and elective coursework for applying AI and machine learning to problems.",
+      "significance": "Saint Louis University's m.s. in artificial intelligence is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://catalog.slu.edu/colleges-schools/science-engineering/computer-science/artificial-intelligence-ms/artificial-intelligence-ms.pdf"
+      ]
+    },
+    {
+      "title": "Generative AI teaching resource guide",
+      "description": "The Reinert Center provides resources for developing course-level generative AI guidelines, helping faculty make intentional and overt decisions about AI use.",
+      "significance": "Saint Louis University's generative ai teaching resource guide is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf"
+      ]
+    },
+    {
+      "title": "AI data and privacy controls",
+      "description": "SLU guidelines prohibit restricted, confidential, and personal information in generative AI tools unless contract language and ITS security controls permit it, with Madrid DPO approval where applicable.",
+      "significance": "Saint Louis University's ai data and privacy controls is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "cybersecurity_and_ai_risk",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+      ]
+    }
+  ],
+  "research_centers": [],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.slu.edu/colleges-schools/science-engineering/computer-science/artificial-intelligence-ms/artificial-intelligence-ms.pdf"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Graduate Pathway",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.slu.edu/colleges-schools/academic-affairs/into/graduate-pathways/artificial-intelligence/artificial-intelligence.pdf"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Multiple",
+      "product": "AI tools subject to SLU ITS approval for sensitive data",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": false,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": null,
+    "summary": "No public SLU AI supercomputer or dedicated AI compute commitment surfaced."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Course-level AI permissions and citation/disclosure",
+      "scope": "Students using AI under instructor guidance.",
+      "url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Bias and non-discrimination provisions",
+      "description": "SLU guidelines require AI technologies to be assessed for bias and designed to promote equity.",
+      "url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Missouri",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Saint Louis University operates in Missouri; public AI guidance should be read alongside applicable state, federal, and institutional privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php",
+      "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Saint Louis University (St. Louis, MO) is an R1 institution whose public AI posture shows activity across governance, teaching, research, enterprise tooling, workforce readiness, and access. Saint Louis University has detailed complete AI guidelines that apply across academic, research, and administrative use, including AI subtypes such as generative and agentic AI. The guidance is backed by teaching resources and an M.S. in Artificial Intelligence, but public evidence of enterprise AI platform rollout is limited. The most concrete public initiatives captured here are Complete AI Guidelines; Academic AI use rules; M.S. in Artificial Intelligence; Generative AI teaching resource guide; AI data and privacy controls. Across the profile, the strongest evidence comes from official university AI hubs, policy pages, teaching resources, research-center pages, and program pages rather than secondary reporting. The institution_type is set to r1_research from the canonical Carnegie R1 list. Known gaps are intentionally explicit: leadership names, user counts, detailed budgets, and compute counts are only included when they surfaced in public sources. Overall, the profile supports at least five AI initiatives and evidences strategy/leadership, governance, teaching/curriculum, research infrastructure, student services or enterprise tooling, workforce/community, partnerships, and equity dimensions where public sources permit.",
+  "research_quality": {
+    "compiled_at": "2026-04-23",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php",
+      "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf",
+      "https://catalog.slu.edu/colleges-schools/science-engineering/computer-science/artificial-intelligence-ms/artificial-intelligence-ms.pdf",
+      "https://catalog.slu.edu/colleges-schools/academic-affairs/into/graduate-pathways/artificial-intelligence/artificial-intelligence.pdf"
+    ],
+    "search_queries": [
+      "Saint Louis University AI strategy 2025 2026",
+      "Saint Louis University generative AI policy guidelines",
+      "Saint Louis University AI research center institute",
+      "Saint Louis University Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "Saint Louis University AI degree certificate workforce training",
+      "Missouri higher education AI policy"
+    ],
+    "gaps_acknowledged": [
+      "No SLU chief AI officer, central AI research center, or AI investment amount was found.",
+      "No public campus-wide approved AI product list was found beyond ITS approval controls.",
+      "Enrollment was left null rather than relying on non-source local data."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "curriculum_led",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 3,
+        "research_compute_powerhouse": 0,
+        "curriculum_led": 5,
+        "governance_led": 12,
+        "student_success_led": 1,
+        "workforce_regional_development": 2,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 6
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 3,
+      "ai_program_count": 2,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 0,
+      "scientific_discovery_signal_count": 0,
+      "computing_infrastructure_signal_count": 0,
+      "compute": {
+        "has_dedicated_ai_compute": false,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "none"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 5
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Multiple AI tools subject to SLU ITS approval for sensitive data",
+          "mentions": 1,
+          "products": [
+            "AI tools subject to SLU ITS approval for sensitive data"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Multiple AI tools subject to SLU ITS approval for sensitive data",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Complete AI Guidelines",
+          "summary": "Saint Louis University's complete ai guidelines is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Academic AI use rules",
+          "summary": "Saint Louis University's academic ai use rules is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+        },
+        {
+          "claim_type": "career",
+          "title": "M.S. in Artificial Intelligence",
+          "summary": "Saint Louis University's m.s. in artificial intelligence is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://catalog.slu.edu/colleges-schools/science-engineering/computer-science/artificial-intelligence-ms/artificial-intelligence-ms.pdf"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Generative AI teaching resource guide",
+          "summary": "Saint Louis University's generative ai teaching resource guide is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.slu.edu/cttl/resources/resource-guides/developing-guidlines-for-ai-use.pdf"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI data and privacy controls",
+          "summary": "Saint Louis University's ai data and privacy controls is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.slu.edu/provost/ai-guidelines/complete-ai-guidelines.php"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 3,
+      "notes": [
+        "No SLU chief AI officer, central AI research center, or AI investment amount was found.",
+        "No public campus-wide approved AI product list was found beyond ITS approval controls.",
+        "Enrollment was left null rather than relying on non-source local data."
+      ]
+    }
+  }
+}

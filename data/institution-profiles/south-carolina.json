@@ -1,0 +1,179 @@
+{
+  "institution": "University of South Carolina",
+  "slug": "south-carolina",
+  "city_state": "Columbia, SC",
+  "carnegie": "R1",
+  "aau_member": false,
+  "enrollment": 40200,
+  "system_leadership": {
+    "president_name": "Michael Amiridis",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://sc.edu/about/offices_and_divisions/cte/teaching_resources/generative_ai/genai_teaching_guidelines/",
+      "https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/",
+      "https://sc.edu/about/offices_and_divisions/faculty_senate/about/news/2025/ai_taskforcereport.pdf",
+      "https://sc.edu/study/colleges_schools/education/research/forms/ai_guidelines.php"
+    ],
+    "adopted_date": "2025",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "key_provisions": [
+      "Guiding Principles for AI Use in Teaching issued by Center for Teaching Excellence in alignment with 2024-2025 Provost's AI Task Force",
+      "Faculty must communicate clear AI expectations in syllabi",
+      "Require verification of AI-generated content before sharing with students",
+      "Prohibit uploading student work or personal data to public (non-approved) AI tools; require use of university-approved tools (Garnet AI Foundry)",
+      "Student academic integrity policy explicitly addresses AI misuse",
+      "Separate AI Roadmap for Research and Creative Scholarship (launched Oct 2024) governs research use"
+    ],
+    "summary": "USC's AI policy posture is a layered framework rather than a single document: the Center for Teaching Excellence's 'Guiding Principles for AI Use in Teaching' (flowing from the 2024-2025 Provost's AI Task Force report), a student academic integrity AI policy, College of Education graduate research guidelines, and a university-wide AI Roadmap for research launched in October 2024. All guidance routes users to university-approved tools through the Garnet AI Foundry."
+  },
+  "governance_structure": {
+    "committee_name": "Provost's Task Force on the Use of Artificial Intelligence (2024-2025); AI Committee within Division of IT",
+    "committee_url": "https://sc.edu/about/offices_and_divisions/faculty_senate/about/news/2025/ai_taskforcereport.pdf",
+    "committee_members_public": true,
+    "notes": "Provost convened a 2024-2025 Task Force that produced a public report in 2025. Governance of operational AI deployment is centralized in the Division of Information Technology's Garnet AI Foundry, reporting to VP/technology leader Brice Bible. Research AI is governed under a separate Roadmap led by VP for Research Julius Fridriksson. No named dedicated AI leader."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu (enterprise)",
+      "scope": "campus-wide",
+      "user_count": 23000,
+      "announced_date": "2025-06",
+      "evidence_urls": [
+        "https://scdailygazette.com/2025/06/20/usc-signs-1-5m-contract-with-openai-to-train-students-faculty-on-responsible-use/",
+        "https://www.dailygamecock.com/article/2025/08/usc-contracts-with-openai-provides-free-chatgpt-access-to-students-faculty-news-grady",
+        "https://www.dailygamecock.com/article/2025/10/14-000-students-faculty-access-chatgpt-through-usc-openai-partnership-news-grady",
+        "https://sc.edu/about/offices_and_divisions/division_of_information_technology/ai/"
+      ],
+      "notes": "$1.5M contract signed June 2025; free ChatGPT Edu (GPT-5, GPT-4, GPT-4o mini, DALL-E) rolled out to all students/faculty/staff starting Aug 15, 2025. USC states it is the only SC university with enterprise ChatGPT Edu. Garnet AI Foundry page reports 23,000+ active ChatGPT users across USC."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-03",
+      "evidence_urls": [
+        "https://www.microsoft.com/en/customers/story/25399-university-of-south-carolina-microsoft-365-copilot",
+        "https://sc.edu/about/offices_and_divisions/division_of_information_technology/about_us/news/2025/new_ai_tool_helps_boost_productivity.php"
+      ],
+      "notes": "Deployment publicly announced March 21, 2025 at $430/year/seat via departmental purchase. Microsoft customer story (Oct 2025) reports 84% of Copilot users save 1-5 hours/week and 8 of 10 users report satisfaction. USC is featured as a Microsoft higher-ed reference customer; rolled out in cohorts across IT, engineering, humanities, HR, and student services."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "certificate",
+      "name": "Artificial Intelligence Literacy (undergraduate interdisciplinary certificate)",
+      "level": "undergrad",
+      "announced_or_launched": "2025-08",
+      "evidence_url": "https://sc.edu/about/offices_and_divisions/cte/about/news/2025/genai_teaching_guidelines.php"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Garnet AI Fluency 101 (university-wide AI fluency course with Aila AI tutor)",
+      "level": "both",
+      "announced_or_launched": "2026-01",
+      "evidence_url": "https://sc.edu/about/offices_and_divisions/division_of_information_technology/about_us/news/2026/new_resource_garnet_ai_fluency_101.php"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "USC-OpenAI ChatGPT Edu enterprise contract",
+      "amount_usd": 1500000,
+      "counterparty": "OpenAI",
+      "date": "2025-06",
+      "evidence_url": "https://scdailygazette.com/2025/06/20/usc-signs-1-5m-contract-with-openai-to-train-students-faculty-on-responsible-use/",
+      "summary": "$1.5M contract for enterprise ChatGPT Edu access to all students, faculty, and staff; data contractually excluded from OpenAI training. USC is the first (and, per USC, only) South Carolina institution with enterprise ChatGPT Edu."
+    },
+    {
+      "title": "Microsoft 365 Copilot deployment featured as Microsoft customer reference",
+      "amount_usd": null,
+      "counterparty": "Microsoft",
+      "date": "2025-10",
+      "evidence_url": "https://www.microsoft.com/en/customers/story/25399-university-of-south-carolina-microsoft-365-copilot",
+      "summary": "Microsoft published a customer story featuring USC's Copilot deployment. Documented outcomes: 84% of users save 1-5 hours/week; 8/10 users satisfied. This is among the most-cited higher-ed Copilot productivity data points in vendor marketing."
+    },
+    {
+      "title": "University-wide AI Roadmap for Research and Creative Scholarship",
+      "amount_usd": null,
+      "counterparty": "Internal (Office of the VP for Research)",
+      "date": "2024-10",
+      "evidence_url": "https://sc.edu/about/offices_and_divisions/research/news_and_pubs/news/2024/20241009_AI_Roadmap_Launch.php",
+      "summary": "Six-step AI research roadmap launched Oct 8, 2024 by VP for Research Julius Fridriksson and VP/technology leader Brice Bible. Includes GrRx (Grantasaurus Rex), a language model trained on 24,000+ USC grant applications to provide proposal feedback, plus HESTIA Core data infrastructure and Microsoft Copilot implementation for admin productivity."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Juan Caicedo",
+      "role": "Chair, Civil and Environmental Engineering, USC",
+      "date": "2025-10",
+      "context": "Microsoft customer story on USC Copilot deployment",
+      "quote_or_summary": "'On some weeks when I have to do a lot of work on my computer, Copilot might be saving me four or five hours in a week easily.'",
+      "evidence_url": "https://www.microsoft.com/en/customers/story/25399-university-of-south-carolina-microsoft-365-copilot"
+    },
+    {
+      "speaker": "Elizabeth (Liz) Shirkey",
+      "role": "Assistant VP of IT User Engagement & Experience (formerly Executive Director, IT Service & Customer Engagement)",
+      "date": "2025-10",
+      "context": "Microsoft customer story on USC Copilot deployment",
+      "quote_or_summary": "Framed USC's rollout as a cohort-based, governance-led approach pairing Copilot access with training workshops and self-paced modules across IT, engineering, humanities, HR, and student services.",
+      "evidence_url": "https://www.microsoft.com/en/customers/story/25399-university-of-south-carolina-microsoft-365-copilot"
+    },
+    {
+      "speaker": "Michael Amiridis",
+      "role": "President, University of South Carolina",
+      "date": "2025-09",
+      "context": "2025 State of the University address",
+      "quote_or_summary": "Addressed record enrollment (40,200 Columbia campus), research growth, and infrastructure; AI referenced within broader innovation agenda. No standalone AI policy announcement in the speech.",
+      "evidence_url": "https://www.dailygamecock.com/article/2025/09/amiridis-talks-enrollment-research-infrastructure-in-state-of-the-university-speech-news-elam"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "South Carolina",
+    "has_state_ai_executive_order": false,
+    "has_higher_ed_system_ai_policy": false,
+    "summary": "South Carolina has no published gubernatorial AI executive order as of April 2026. Governor Henry McMaster chairs the Southern Regional Education Board (SREB) Commission on AI in Education, giving SC a regional leadership posture without statutory mandates. The SC House Standing Committee on AI and Cybersecurity (Rep. Jeff Bradley) is drafting legislation covering cybersecurity frameworks, digital identity/deepfakes, and workforce AI training. H.5253 (Feb 2026) would establish limits on AI use in K-12 public schools but does not reach higher education. The SC Commission on Higher Education (CHE) has not issued a binding system-wide AI policy; governance is institution-led.",
+    "evidence_urls": [
+      "https://www.maynardnexsen.com/publication-artificial-intelligence",
+      "https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm",
+      "https://www.sccompetes.org/resource/from-robots-to-resumes-south-carolinas-future-increasingly-dependent-on-ai-in-education/"
+    ]
+  },
+  "litigation_or_controversy": null,
+  "narrative_summary": "The University of South Carolina (Columbia, ~40,200 students, Carnegie R1, institution profile, non-AAU) has executed one of the most aggressive enterprise AI deployments in the sector. Under President Michael Amiridis and VP/technology leader Brice Bible, USC launched a dual-vendor strategy: a March 2025 Microsoft 365 Copilot rollout that became a flagship Microsoft customer reference (84% of users save 1-5 hours/week; 8/10 satisfied) and a $1.5M June 2025 OpenAI contract making USC the first (and per USC, only) South Carolina institution with enterprise ChatGPT Edu for all students, faculty, and staff. Both are operationally unified under the Garnet AI Foundry inside the Division of IT, which reports 23,000+ active ChatGPT users and runs a Garnet & Black GPT library, Aila AI tutor, and Garnet AI Fluency 101 course. Policy followed deployment: the Provost's 2024-2025 AI Task Force report drove Center for Teaching Excellence 'Guiding Principles' and a new undergrad AI Literacy certificate (fall 2025); the Office of the VP for Research (Julius Fridriksson) separately launched an AI Roadmap (Oct 2024) including the GrRx grant-writing model trained on 24,000+ USC proposals. USC has no named dedicated AI leader. State context is permissive: no SC executive order, no CHE mandate, with Gov. McMaster chairing the SREB AI-in-Education Commission. For the institution, USC is a live comparable: institution profile with more mature enterprise deployment, stronger vendor co-marketing, and a clear policy-through-governance (rather than policy-first) model.",
+  "confidence_notes": "HIGH confidence on Copilot and ChatGPT Edu deployments, $1.5M contract value, 84%/1-5 hrs stat, 23,000 ChatGPT users, president, technology leader, AI Roadmap, and Task Force. MEDIUM confidence on exact Copilot user count (not disclosed) and precise adopted_date of consolidated AI policy (guidelines issued 2025 but no single dated policy document). Task Force report PDF could not be parsed in full, so detailed membership and recommendation list rely on secondary CTE summaries. No named dedicated AI leader confirmed from IT leadership page. State AI policy context current as of April 2026 with no SC executive order identified.",
+  "sources": [
+    "https://www.microsoft.com/en/customers/story/25399-university-of-south-carolina-microsoft-365-copilot",
+    "https://sc.edu/about/offices_and_divisions/division_of_information_technology/about_us/news/2025/new_ai_tool_helps_boost_productivity.php",
+    "https://sc.edu/about/offices_and_divisions/division_of_information_technology/ai/",
+    "https://sc.edu/about/offices_and_divisions/division_of_information_technology/about_us/leadership/index.php",
+    "https://sc.edu/about/offices_and_divisions/division_of_information_technology/about_us/news/2026/new_resource_garnet_ai_fluency_101.php",
+    "https://sc.edu/about/offices_and_divisions/cte/about/news/2025/genai_teaching_guidelines.php",
+    "https://sc.edu/about/offices_and_divisions/cte/teaching_resources/generative_ai/genai_teaching_guidelines/",
+    "https://sc.edu/about/offices_and_divisions/student_conduct_and_academic_integrity/academic_integrity/artificial_intelligence/",
+    "https://sc.edu/about/offices_and_divisions/faculty_senate/about/news/2025/ai_taskforcereport.pdf",
+    "https://sc.edu/study/colleges_schools/education/research/forms/ai_guidelines.php",
+    "https://sc.edu/about/offices_and_divisions/research/news_and_pubs/news/2024/20241009_AI_Roadmap_Launch.php",
+    "https://sc.edu/uofsc/posts/2025/08/enrollment-announcement-fall-2025.php",
+    "https://scdailygazette.com/2025/06/20/usc-signs-1-5m-contract-with-openai-to-train-students-faculty-on-responsible-use/",
+    "https://scdailygazette.com/2025/10/07/clemson-becomes-second-sc-university-eyeing-open-ai-contract-heres-how-schools-are-using-the-tech/",
+    "https://www.dailygamecock.com/article/2025/08/usc-contracts-with-openai-provides-free-chatgpt-access-to-students-faculty-news-grady",
+    "https://www.dailygamecock.com/article/2025/10/14-000-students-faculty-access-chatgpt-through-usc-openai-partnership-news-grady",
+    "https://www.dailygamecock.com/article/2025/09/amiridis-talks-enrollment-research-infrastructure-in-state-of-the-university-speech-news-elam",
+    "https://research.cec.sc.edu/aii/",
+    "https://www.maynardnexsen.com/publication-artificial-intelligence",
+    "https://www.scstatehouse.gov/sess126_2025-2026/bills/5253.htm",
+    "https://www.sccompetes.org/resource/from-robots-to-resumes-south-carolinas-future-increasingly-dependent-on-ai-in-education/",
+    "https://governor.sc.gov/executive-branch/executive-orders"
+  ],
+  "researched_on": "2026-04-16"
+}

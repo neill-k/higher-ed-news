@@ -1,0 +1,800 @@
+{
+  "institution": "Columbia University",
+  "slug": "columbia-university",
+  "city_state": "New York, NY",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "Columbia AI",
+      "url": "https://ai.columbia.edu/content/about-columbia-ai"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Columbia AI university-wide initiative",
+        "url": "https://ai.columbia.edu/content/about-columbia-ai",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI Policy",
+        "url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy",
+        "year": null
+      }
+    ],
+    "summary": "Columbia AI is a university-wide initiative powered by the Data Science Institute and driven by Columbia Engineering, the Office of the Executive Vice President for Research, and DSI. Columbia also has a detailed Provost generative AI policy covering teaching, learning, research, procurement, disclosure, bias, confidentiality, and data security."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "Columbia University's AI policy posture is best characterized as comprehensive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Provost's Working Group on Generative AI",
+        "type": "committee",
+        "scope": "Develops policies and guidelines for generative AI use and procurement across Columbia.",
+        "url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+      },
+      {
+        "name": "Columbia AI",
+        "type": "office",
+        "scope": "University-wide AI initiative powered by the Data Science Institute.",
+        "url": "https://ai.columbia.edu/content/about-columbia-ai"
+      }
+    ],
+    "summary": "Columbia University's public AI governance is organized through Provost's Working Group on Generative AI, Columbia AI."
+  },
+  "initiatives": [
+    {
+      "title": "Columbia AI university-wide initiative",
+      "description": "Columbia AI coordinates AI activity across schools, centers, and institutes, with DSI as a hub for infrastructure, interdisciplinary collaboration, and responsible AI perspectives.",
+      "significance": "Columbia University's columbia ai university-wide initiative is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Data Science Institute",
+            "Columbia Engineering",
+            "Office of the Executive Vice President for Research"
+          ],
+          "description": "University-wide AI coordination."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.columbia.edu/content/about-columbia-ai"
+      ]
+    },
+    {
+      "title": "Provost generative AI policy",
+      "description": "Columbia's policy applies to staff, faculty, students, and researchers, requires disclosure and accuracy review, restricts confidential and personal data, addresses bias, and routes AI procurement through IT review.",
+      "significance": "Columbia University's provost generative ai policy is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT/Gemini/NotebookLM/GitHub Copilot examples",
+          "vendor": "Multiple vendors",
+          "role": "Examples covered by the policy"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+      ]
+    },
+    {
+      "title": "AI for Sciences and Engineering Center",
+      "description": "DSI's AISE center convenes researchers building AI systems and researchers applying AI to physics, climate, materials, oceanography, neuroscience, and biomedical informatics.",
+      "significance": "Columbia University's ai for sciences and engineering center is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Data Science Institute",
+            "Columbia scientific research communities"
+          ],
+          "description": "Interdisciplinary scientific AI hub."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://datascience.columbia.edu/research/centers/ai-for-sciences-and-engineering/"
+      ]
+    },
+    {
+      "title": "Columbia Engineering AI executive certificate",
+      "description": "Columbia Engineering's online AI certificate offered six rigorous courses covering algorithms, ML, neural networks, NLP, computer vision, robotics, security, privacy, and policy for working professionals.",
+      "significance": "Columbia University's columbia engineering ai executive certificate is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.engineering.columbia.edu/"
+      ]
+    },
+    {
+      "title": "AI syllabus and teaching resources",
+      "description": "The Provost policy links teaching resources, AI syllabus statement templates, faculty examples, and academic-integrity support for integrating generative AI into coursework.",
+      "significance": "Columbia University's ai syllabus and teaching resources is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "syllabus_level_policy",
+        "faculty_training_and_development",
+        "personalized_student_support",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+      ]
+    },
+    {
+      "title": "Google Gemini and NotebookLM secure campus rollout",
+      "description": "CUIT pages identify Google Gemini and NotebookLM as generative AI tools available through Columbia accounts, adding supported AI-search, writing, and research workflows to the institutionally governed tool portfolio.",
+      "significance": "This closes a platform evidence gap by moving Columbia beyond policy-only references to named supported AI platforms.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services",
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "personalized_student_support",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public seat count or contract value disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Google tools are available through Columbia account infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Google",
+          "name": "Gemini",
+          "role": "supported generative AI tool"
+        },
+        {
+          "vendor": "Google",
+          "name": "NotebookLM",
+          "role": "supported research and note-taking AI tool"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Adds supported tools within Columbia AI policy and CUIT guidance.",
+      "source_urls": [
+        "https://www.cuit.columbia.edu/content/google-gemini",
+        "https://www.cuit.columbia.edu/content/notebooklm"
+      ]
+    },
+    {
+      "title": "Empire AI student-preparation assessment grant",
+      "description": "Columbia is part of the Empire AI consortium grant from Google.org to expand multi-institution assessment of preparing students for an AI-driven workforce.",
+      "significance": "This is a public, outcomes-oriented student-preparation signal tied to a disclosed external grant.",
+      "date_announced": "2026-01-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "career_and_workforce_readiness",
+        "ai_workforce_training",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1000000,
+        "funding_source": "Google.org via Empire AI consortium",
+        "description": "Grant totals more than $1 million for the consortium."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Empire AI",
+            "CUNY",
+            "Google.org"
+          ],
+          "description": "Multi-institution student-preparation assessment effort."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.columbia.edu/news/empire-ai-columbia-university-collaboration-gets-google-gift-ai-education"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI for Sciences and Engineering Center",
+      "focus": "Scientific AI architectures, scale-appropriate computing platforms, and AI for scientific discovery.",
+      "founded": null,
+      "url": "https://datascience.columbia.edu/research/centers/ai-for-sciences-and-engineering/"
+    },
+    {
+      "name": "Columbia AI",
+      "focus": "University-wide AI research and education coordination.",
+      "founded": null,
+      "url": "https://ai.columbia.edu/artificial-intelligence"
+    },
+    {
+      "name": "SPS AI Lab",
+      "focus": "AI literacy and innovation skills for School of Professional Studies students, alumni, and faculty.",
+      "founded": "2026",
+      "url": "https://sps.columbia.edu/news/columbia-sps-launches-artificial-intelligence-ai-lab-advance-ai-and-innovation-skills"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Columbia Engineering Artificial Intelligence online certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.engineering.columbia.edu/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Multiple",
+      "product": "AI Services and approved tools",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.cuit.columbia.edu/content/google-gemini"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.cuit.columbia.edu/content/notebooklm"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT university-licensed access",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.columbia.edu/content/AI-Resources"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://datascience.columbia.edu/research/centers/ai-for-sciences-and-engineering/",
+    "summary": "Columbia's AI for Sciences and Engineering Center focuses on large-scale AI and computing systems for scientific discovery, but public pages consulted did not disclose a campus-wide GPU count."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Empire AI Google.org AI education assessment grant",
+      "amount_usd": 1000000,
+      "source": "Google.org via Empire AI consortium",
+      "purpose": "Expand a multi-institution assessment of how to prepare students for an AI-driven workforce.",
+      "date": "2026-01",
+      "url": "https://news.columbia.edu/news/empire-ai-columbia-university-collaboration-gets-google-gift-ai-education"
+    },
+    {
+      "title": "NSF AI Institute for ARtificial and Natural Intelligence",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation",
+      "purpose": "Establish a Columbia-led institute connecting artificial intelligence and neuroscience.",
+      "date": "2023-05",
+      "url": "https://www.engineering.columbia.edu/about/news/team-led-columbia-university-wins-20m-nsf-grant-develop-ai-institute-artificial-and"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Columbia schools, centers, and institutes",
+      "purpose": "University-wide AI coordination through Columbia AI.",
+      "date": null,
+      "url": "https://ai.columbia.edu/content/about-columbia-ai"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "AI syllabus statement templates and teaching resources",
+      "scope": "Instructional and student guidance through the Provost policy resources.",
+      "url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+    },
+    {
+      "type": "other",
+      "name": "Google Gemini and NotebookLM",
+      "scope": "Supported AI tools for Columbia account holders; CUIT and school pages describe availability through Columbia accounts.",
+      "url": "https://www.cuit.columbia.edu/content/notebooklm"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Bias review in generative AI policy",
+      "description": "Columbia policy requires users to check outputs for bias and avoid disparate impact.",
+      "url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+    }
+  ],
+  "regulatory_context": {
+    "state": "New York",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Columbia University operates in New York; public AI guidance should be read alongside applicable state, federal, and institutional privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Columbia University (New York, NY) is an R1 institution whose public AI posture shows activity across governance, teaching, research, enterprise tooling, workforce readiness, and access. Columbia AI is a university-wide initiative powered by the Data Science Institute and driven by Columbia Engineering, the Office of the Executive Vice President for Research, and DSI. Columbia also has a detailed Provost generative AI policy covering teaching, learning, research, procurement, disclosure, bias, confidentiality, and data security. The most concrete public initiatives captured here are Columbia AI university-wide initiative; Provost generative AI policy; AI for Sciences and Engineering Center; Columbia Engineering AI executive certificate; AI syllabus and teaching resources. Across the profile, the strongest evidence comes from official university AI hubs, policy pages, teaching resources, research-center pages, and program pages rather than secondary reporting. The institution_type is set to r1_research from the canonical Carnegie R1 list. Known gaps are intentionally explicit: leadership names, user counts, detailed budgets, and compute counts are only included when they surfaced in public sources. Overall, the profile supports at least five AI initiatives and evidences strategy/leadership, governance, teaching/curriculum, research infrastructure, student services or enterprise tooling, workforce/community, partnerships, and equity dimensions where public sources permit.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy",
+      "https://ai.columbia.edu/content/about-columbia-ai",
+      "https://datascience.columbia.edu/research/centers/ai-for-sciences-and-engineering/",
+      "https://ai.columbia.edu/artificial-intelligence",
+      "https://ai.engineering.columbia.edu/",
+      "https://www.cuit.columbia.edu/content/google-gemini",
+      "https://www.cuit.columbia.edu/content/notebooklm",
+      "https://ai.columbia.edu/content/AI-Resources",
+      "https://news.columbia.edu/news/empire-ai-columbia-university-collaboration-gets-google-gift-ai-education",
+      "https://sps.columbia.edu/news/columbia-sps-launches-artificial-intelligence-ai-lab-advance-ai-and-innovation-skills",
+      "https://www.engineering.columbia.edu/about/news/team-led-columbia-university-wins-20m-nsf-grant-develop-ai-institute-artificial-and"
+    ],
+    "search_queries": [
+      "Columbia University AI strategy 2025 2026",
+      "Columbia University generative AI policy guidelines",
+      "Columbia University AI research center institute",
+      "Columbia University Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "Columbia University AI degree certificate workforce training",
+      "New York higher education AI policy",
+      "Columbia University Google AI tools Gemini NotebookLM 2025",
+      "Columbia University Google.org Empire AI assessment AI education grant",
+      "Columbia University NSF AI Institute Dynamic Systems 20 million"
+    ],
+    "gaps_acknowledged": [
+      "No single campus-wide chief AI officer was found in public sources.",
+      "Specific Columbia AI central budget and campus-wide AI platform usage counts were not disclosed.",
+      "Enrollment was left null rather than relying on non-source local data.",
+      "After targeted Worker 3 searches, Columbia still did not disclose exact seat counts or contract values for Gemini, NotebookLM, or university-licensed ChatGPT access.",
+      "After targeted Worker 3 searches, Columbia AISE public pages still did not disclose a Columbia-owned GPU count for AI compute."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "governance_led",
+        "research_compute_powerhouse",
+        "student_success_led"
+      ],
+      "scores": {
+        "platform_first": 13,
+        "research_compute_powerhouse": 7,
+        "curriculum_led": 4,
+        "governance_led": 11,
+        "student_success_led": 6,
+        "workforce_regional_development": 5,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 3,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "dedicated_compute_capacity_unknown"
+      },
+      "disclosed_funding_usd": 21000000,
+      "funding_source_buckets": {
+        "industry_vendor": 3,
+        "public_federal_state": 1,
+        "institutional": 1,
+        "other_unclear": 4
+      },
+      "partnership_count": 1
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "other": 2
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 1,
+          "products": [
+            "ChatGPT/Gemini/NotebookLM/GitHub Copilot examples"
+          ]
+        },
+        {
+          "vendor": "Multiple AI Services and approved tools",
+          "mentions": 1,
+          "products": [
+            "AI Services and approved tools"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT university-licensed access"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Columbia AI university-wide initiative",
+          "summary": "Columbia University's columbia ai university-wide initiative is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.columbia.edu/content/about-columbia-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Provost generative AI policy",
+          "summary": "Columbia University's provost generative ai policy is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI for Sciences and Engineering Center",
+          "summary": "Columbia University's ai for sciences and engineering center is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://datascience.columbia.edu/research/centers/ai-for-sciences-and-engineering/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Columbia Engineering AI executive certificate",
+          "summary": "Columbia University's columbia engineering ai executive certificate is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.engineering.columbia.edu/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI syllabus and teaching resources",
+          "summary": "Columbia University's ai syllabus and teaching resources is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Google Gemini and NotebookLM secure campus rollout",
+          "summary": "This closes a platform evidence gap by moving Columbia beyond policy-only references to named supported AI platforms.",
+          "source_url": "https://www.cuit.columbia.edu/content/google-gemini"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Empire AI student-preparation assessment grant",
+          "summary": "This is a public, outcomes-oriented student-preparation signal tied to a disclosed external grant.",
+          "source_url": "https://news.columbia.edu/news/empire-ai-columbia-university-collaboration-gets-google-gift-ai-education"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "No single campus-wide chief AI officer was found in public sources.",
+        "Specific Columbia AI central budget and campus-wide AI platform usage counts were not disclosed.",
+        "Enrollment was left null rather than relying on non-source local data.",
+        "After targeted Worker 3 searches, Columbia still did not disclose exact seat counts or contract values for Gemini, NotebookLM, or university-licensed ChatGPT access.",
+        "After targeted Worker 3 searches, Columbia AISE public pages still did not disclose a Columbia-owned GPU count for AI compute."
+      ]
+    }
+  }
+}

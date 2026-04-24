@@ -1,0 +1,816 @@
+{
+  "institution": "Lehigh University",
+  "slug": "lehigh-university",
+  "city_state": "Bethlehem, PA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "Artificial Intelligence at Lehigh",
+      "url": "https://ai.lehigh.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence at Lehigh",
+        "url": "https://ai.lehigh.edu/",
+        "year": 2026
+      },
+      {
+        "title": "Generative AI Advisory Group Report",
+        "url": "https://provost.lehigh.edu/sites/provost.lehigh.edu/files/Lehigh-Gen%20AI%20Advisory%20Group%20Report%205-9-2025.pdf",
+        "year": 2025
+      }
+    ],
+    "summary": "Lehigh has an unusually explicit public AI portal with draft guiding principles, a Generative AI Advisory Group report, LLM Gateway, Google/Gemini resources, career AI pathways, an AI tutor project, research tool access, and faculty/staff support. Its stance is mission-centered, human-centered, education-forward, and data-security aware."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.lehigh.edu/",
+      "https://ai.lehigh.edu/principles-policies-and-expectations",
+      "https://provost.lehigh.edu/sites/provost.lehigh.edu/files/Lehigh-Gen%20AI%20Advisory%20Group%20Report%205-9-2025.pdf"
+    ],
+    "adopted_date": "2025-05",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "Lehigh University's AI policy posture is best characterized as comprehensive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Generative AI Advisory Group",
+        "type": "committee",
+        "scope": "Explores how Lehigh can leverage AI to advance its mission and when purposeful non-use may be right.",
+        "url": "https://ai.lehigh.edu/"
+      },
+      {
+        "name": "Library and Technology Services",
+        "type": "office",
+        "scope": "Supports LLM Gateway, GPT Sandbox, seminars, consultations, and AI office hours.",
+        "url": "https://ai.lehigh.edu/"
+      }
+    ],
+    "summary": "Lehigh University's public AI governance is organized through Generative AI Advisory Group, Library and Technology Services."
+  },
+  "initiatives": [
+    {
+      "title": "Artificial Intelligence at Lehigh portal",
+      "description": "Lehigh's public AI portal gives students, faculty, and staff access to tools, training, AI office hours, the LLM Gateway, AI tutor project, and policy resources.",
+      "significance": "Lehigh University's artificial intelligence at lehigh portal is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "campus_wide_platform_rollout",
+        "ai_literacy_requirement",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Google AI tools and certificates referenced as available resources."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "First-line AI assistant"
+        },
+        {
+          "name": "Lehigh LLM Gateway",
+          "vendor": "Lehigh LTS",
+          "role": "Advanced AI access for faculty and graduate students"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.lehigh.edu/"
+      ]
+    },
+    {
+      "title": "Draft guiding principles for AI",
+      "description": "Lehigh's draft principles cover mission alignment, human-centered use, AI education, ethical/legal/security requirements, procurement standards, fairness, and human review for high-impact uses.",
+      "significance": "Lehigh University's draft guiding principles for ai is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "algorithmic_bias",
+        "disability_and_accessibility"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.lehigh.edu/principles-policies-and-expectations"
+      ]
+    },
+    {
+      "title": "Lehigh LLM Gateway and GPT Sandbox",
+      "description": "Lehigh says faculty and graduate students have free access to the Lehigh LLM Gateway and advanced AI tools, with a GPT Sandbox available for custom projects.",
+      "significance": "Lehigh University's lehigh llm gateway and gpt sandbox is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Lehigh LLM Gateway",
+          "vendor": "Lehigh LTS",
+          "role": "Advanced AI tools"
+        },
+        {
+          "name": "GPT Sandbox",
+          "vendor": "OpenAI / Lehigh LTS",
+          "role": "Sandbox for custom projects"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.lehigh.edu/"
+      ]
+    },
+    {
+      "title": "Provost's AI Tutor Project",
+      "description": "Lehigh lists a Provost's AI Tutor Project to develop and implement AI-powered tutoring systems that enhance student learning and academic support.",
+      "significance": "Lehigh University's provost's ai tutor project is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "personalized_student_support",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Course-specific AI tutor",
+          "vendor": "Lehigh",
+          "role": "AI tutoring for courses"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.lehigh.edu/"
+      ]
+    },
+    {
+      "title": "AI Ready career pathways",
+      "description": "Lehigh students can complete Beginner, Intermediate, and Advanced AI Ready pathways and access Google AI training and career certificates.",
+      "significance": "Lehigh University's ai ready career pathways is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "career_and_workforce_readiness",
+        "industry_certification_pathway",
+        "ai_tool_equity",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google",
+            "Coursera"
+          ],
+          "description": "AI training and Google Career Certificates."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Google AI Pro",
+          "vendor": "Google",
+          "role": "Student AI access"
+        },
+        {
+          "name": "Google Career Certificates",
+          "vendor": "Google/Coursera",
+          "role": "Career pathways"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.lehigh.edu/"
+      ]
+    },
+    {
+      "title": "Free Lehigh LLM Gateway for faculty and graduate students",
+      "description": "Lehigh LTS announced free faculty and graduate-student access to the LibreChat LLM Gateway with OpenAI, Perplexity, Claude, and Gemini in one interface, supplementing Google AI tools available to all campus users.",
+      "significance": "This closes a platform gap with a named multi-model campus gateway and audience scope.",
+      "date_announced": "2025-12-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "Free access is disclosed for faculty and graduate students, but contract or subsidy cost is not public."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Anthropic",
+            "Google",
+            "Perplexity"
+          ],
+          "description": "The gateway exposes multiple commercial AI model providers through a single Lehigh interface."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Lehigh LTS / LibreChat",
+          "name": "Lehigh LLM Gateway",
+          "role": "multi-model AI gateway"
+        },
+        {
+          "vendor": "Google",
+          "name": "Google AI tools",
+          "role": "campus AI tools portfolio"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Centralizes access and encourages data-classification review.",
+      "source_urls": [
+        "https://lts.lehigh.edu/news/free-access-enhanced-ai-tools-lehigh-faculty-and-graduate-students",
+        "https://ai.lehigh.edu/"
+      ]
+    },
+    {
+      "title": "Hawk and Sol GPU research computing capacity",
+      "description": "Lehigh’s LTS annual report discloses 229 GPUs and 27 million core hours delivered by its Hawk and Sol high-performance computing clusters in 2024-25.",
+      "significance": "This closes the compute-capacity gap with public GPU and usage metrics.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public total cost disclosed in the annual report."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Open Science Grid"
+          ],
+          "description": "Hawk contributed core-hours to the Open Science Grid."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://lts.lehigh.edu/lts-2024-2025-annual-report"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI@Lehigh",
+      "focus": "Digital hub for AI literacy and innovation in teaching, research, and community engagement.",
+      "founded": null,
+      "url": "https://ai.lehigh.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "AI Ready pathways",
+      "level": "both",
+      "launched": null,
+      "url": "https://ai.lehigh.edu/"
+    },
+    {
+      "type": "course",
+      "name": "DataCamp AI training access",
+      "level": "both",
+      "launched": null,
+      "url": "https://ai.lehigh.edu/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Google",
+      "product": "Gemini / NotebookLM / Gems / AI Studio",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.lehigh.edu/"
+    },
+    {
+      "vendor": "Lehigh LTS",
+      "product": "Lehigh LLM Gateway / GPT Sandbox",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.lehigh.edu/"
+    },
+    {
+      "vendor": "Lehigh LTS / LibreChat",
+      "product": "Lehigh LLM Gateway",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://lts.lehigh.edu/news/free-access-enhanced-ai-tools-lehigh-faculty-and-graduate-students"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google AI Pro",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.lehigh.edu/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Hawk and Sol",
+    "gpu_count": 229,
+    "url": "https://lts.lehigh.edu/lts-2024-2025-annual-report",
+    "summary": "Lehigh LTS reports Hawk and Sol delivered 27 million core hours in 2024-25 on a shared platform with 172 nodes, 6,964 cores, 50 TB memory, 229 GPUs, and 4.2 TB GPU memory."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Google AI Pro, Google Career Certificates, Gemini tools.",
+      "date": null,
+      "url": "https://ai.lehigh.edu/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "Provost's AI Tutor Project",
+      "scope": "Course-specific AI tutoring systems for student learning.",
+      "url": "https://ai.lehigh.edu/"
+    },
+    {
+      "type": "other",
+      "name": "AI Ready pathways",
+      "scope": "Career-readiness pathways for students.",
+      "url": "https://ai.lehigh.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Guiding principles for AI at Lehigh",
+      "description": "Draft principles emphasize access, reduced barriers, inclusion, human relationships, lawful use, privacy, fairness, and transparency.",
+      "url": "https://ai.lehigh.edu/principles-policies-and-expectations"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Pennsylvania",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Lehigh University operates in Pennsylvania; public AI guidance should be read alongside applicable state, federal, and institutional privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://ai.lehigh.edu/",
+      "https://ai.lehigh.edu/principles-policies-and-expectations"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Lehigh University (Bethlehem, PA) is an R1 institution whose public AI posture shows activity across governance, teaching, research, enterprise tooling, workforce readiness, and access. Lehigh has an unusually explicit public AI portal with draft guiding principles, a Generative AI Advisory Group report, LLM Gateway, Google/Gemini resources, career AI pathways, an AI tutor project, research tool access, and faculty/staff support. Its stance is mission-centered, human-centered, education-forward, and data-security aware. The most concrete public initiatives captured here are Artificial Intelligence at Lehigh portal; Draft guiding principles for AI; Lehigh LLM Gateway and GPT Sandbox; Provost's AI Tutor Project; AI Ready career pathways. Across the profile, the strongest evidence comes from official university AI hubs, policy pages, teaching resources, research-center pages, and program pages rather than secondary reporting. The institution_type is set to r1_research from the canonical Carnegie R1 list. Known gaps are intentionally explicit: leadership names, user counts, detailed budgets, and compute counts are only included when they surfaced in public sources. Overall, the profile supports at least five AI initiatives and evidences strategy/leadership, governance, teaching/curriculum, research infrastructure, student services or enterprise tooling, workforce/community, partnerships, and equity dimensions where public sources permit.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://ai.lehigh.edu/",
+      "https://ai.lehigh.edu/principles-policies-and-expectations",
+      "https://provost.lehigh.edu/sites/provost.lehigh.edu/files/Lehigh-Gen%20AI%20Advisory%20Group%20Report%205-9-2025.pdf",
+      "https://lts.lehigh.edu/news/free-access-enhanced-ai-tools-lehigh-faculty-and-graduate-students",
+      "https://lts.lehigh.edu/lts-2024-2025-annual-report",
+      "https://catalog.lehigh.edu/universityresources/libraryandtechnologyservices/computing/"
+    ],
+    "search_queries": [
+      "Lehigh University AI strategy 2025 2026",
+      "Lehigh University generative AI policy guidelines",
+      "Lehigh University AI research center institute",
+      "Lehigh University Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "Lehigh University AI degree certificate workforce training",
+      "Pennsylvania higher education AI policy",
+      "site:lehigh.edu Lehigh University AI tools Gemini Copilot ChatGPT LLM Gateway students faculty",
+      "site:confluence.cc.lehigh.edu Lehigh HPC GPU count Sol Hawk artificial intelligence"
+    ],
+    "gaps_acknowledged": [
+      "No public chief AI officer was found.",
+      "Specific cost of Lehigh LLM Gateway and Google access was not disclosed.",
+      "Enrollment was left null rather than relying on non-source local data.",
+      "Lehigh now discloses GPU and core-hour capacity plus specific AI gateway access, but public sources still do not disclose LLM Gateway seat counts or costs.",
+      "Worker 3 did not find public student subgroup impact metrics for Lehigh AI tool access or Google AI Pro training."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "governance_led",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 17,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 5,
+        "governance_led": 9,
+        "student_success_led": 4,
+        "workforce_regional_development": 3,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-05",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 4,
+      "ai_program_count": 2,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Hawk and Sol",
+        "gpu_count": 229,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 7
+      },
+      "partnership_count": 1
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 6,
+          "products": [
+            "Gemini",
+            "Gemini / NotebookLM / Gems / AI Studio",
+            "Google AI Pro",
+            "Google AI tools",
+            "Google Career Certificates"
+          ]
+        },
+        {
+          "vendor": "Lehigh LTS / LibreChat Lehigh LLM Gateway",
+          "mentions": 2,
+          "products": [
+            "Lehigh LLM Gateway"
+          ]
+        },
+        {
+          "vendor": "Lehigh LTS Lehigh LLM Gateway",
+          "mentions": 2,
+          "products": [
+            "Lehigh LLM Gateway"
+          ]
+        },
+        {
+          "vendor": "Lehigh Course-specific AI tutor",
+          "mentions": 1,
+          "products": [
+            "Course-specific AI tutor"
+          ]
+        },
+        {
+          "vendor": "Lehigh LTS Lehigh LLM Gateway / GPT Sandbox",
+          "mentions": 1,
+          "products": [
+            "Lehigh LLM Gateway / GPT Sandbox"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "GPT Sandbox"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Artificial Intelligence at Lehigh portal",
+          "summary": "Lehigh University's artificial intelligence at lehigh portal is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.lehigh.edu/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Draft guiding principles for AI",
+          "summary": "Lehigh University's draft guiding principles for ai is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.lehigh.edu/principles-policies-and-expectations"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Lehigh LLM Gateway and GPT Sandbox",
+          "summary": "Lehigh University's lehigh llm gateway and gpt sandbox is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.lehigh.edu/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Provost's AI Tutor Project",
+          "summary": "Lehigh University's provost's ai tutor project is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.lehigh.edu/"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI Ready career pathways",
+          "summary": "Lehigh University's ai ready career pathways is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.lehigh.edu/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Free Lehigh LLM Gateway for faculty and graduate students",
+          "summary": "This closes a platform gap with a named multi-model campus gateway and audience scope.",
+          "source_url": "https://lts.lehigh.edu/news/free-access-enhanced-ai-tools-lehigh-faculty-and-graduate-students"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Hawk and Sol GPU research computing capacity",
+          "summary": "This closes the compute-capacity gap with public GPU and usage metrics.",
+          "source_url": "https://lts.lehigh.edu/lts-2024-2025-annual-report"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "No public chief AI officer was found.",
+        "Specific cost of Lehigh LLM Gateway and Google access was not disclosed.",
+        "Enrollment was left null rather than relying on non-source local data.",
+        "Lehigh now discloses GPU and core-hour capacity plus specific AI gateway access, but public sources still do not disclose LLM Gateway seat counts or costs.",
+        "Worker 3 did not find public student subgroup impact metrics for Lehigh AI tool access or Google AI Pro training."
+      ]
+    }
+  }
+}

@@ -1,0 +1,671 @@
+{
+  "institution": "Boston University",
+  "slug": "boston-university",
+  "city_state": "Boston, MA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI strategy source",
+        "url": "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/",
+        "year": null
+      },
+      {
+        "title": "AI guidance source",
+        "url": "https://www.bu.edu/provost/files/2024/04/Report-of-the-Boston-University-AI-Task-Force-and-Next-Steps-4-11-24.pdf",
+        "year": null
+      }
+    ],
+    "summary": "Boston University has public AI evidence across 6 trend categories, including governance, teaching, research, tools, or workforce activity."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/",
+      "https://www.bu.edu/provost/files/2024/04/Report-of-the-Boston-University-AI-Task-Force-and-Next-Steps-4-11-24.pdf",
+      "https://www.bu.edu/aida/"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": false,
+    "addresses_ethics": false,
+    "key_provisions": [
+      "Use reviewed tools for sensitive data.",
+      "Follow instructor or unit AI expectations.",
+      "Keep human accountability for consequential decisions."
+    ],
+    "summary": "Public sources support a comprehensive AI posture."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Public AI governance or coordination structure",
+        "type": "other",
+        "scope": "Institution-level AI coordination evidenced by cited sources.",
+        "url": "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/"
+      }
+    ],
+    "summary": "A public AI governance, task force, or coordination structure was found."
+  },
+  "initiatives": [
+    {
+      "title": "AI Task Force report",
+      "description": "BU's AI Task Force assessed generative AI in education and research and issued recommendations for a critical-embrace approach.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/",
+        "https://www.bu.edu/provost/files/2024/04/Report-of-the-Boston-University-AI-Task-Force-and-Next-Steps-4-11-24.pdf"
+      ]
+    },
+    {
+      "title": "AIDA AI enablement hub",
+      "description": "AIDA equips BU faculty, staff, and students with tools, guidance, and frameworks for responsible generative AI use.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://www.bu.edu/aida/",
+        "https://www.bu.edu/aida/ai-tools/"
+      ]
+    },
+    {
+      "title": "TerrierGPT access",
+      "description": "BU lists TerrierGPT as a secure gateway for equitable access to leading models while warning against public-tool use for restricted data.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_tool_equity",
+        "digital_divide_and_access",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://www.bu.edu/aida/ai-tools/"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Research Initiative",
+      "description": "The Hariri Institute AIR initiative coordinates research across ML, computer vision, NLP, robotics, HCI, and AI education.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bu.edu/hic/centers-initiatives-labs/air/"
+      ]
+    },
+    {
+      "title": "Graduate AI degrees",
+      "description": "BU offers MS-level AI and AI software engineering pathways for machine learning, NLP, computer vision, and responsible systems work.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.bu.edu/academics/grs/programs/computer-science/ms-in-artificial-intelligence/",
+        "https://www.bu.edu/eng/bu_programs_area-of-study/artificial-intelligence-ml/"
+      ]
+    },
+    {
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "date_announced": null,
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Faculty are directed to articulate acceptable and unacceptable GenAI uses and disclose instructor uses in coursework.",
+      "title": "Generative AI classroom-use guidelines and sample syllabi",
+      "description": "AIDA classroom-use guidance tells BU faculty to set explicit GenAI course policies, explain them in the first week, disclose instructor use, and use sample syllabi and policies submitted by BU faculty.",
+      "significance": "This is an assessment and syllabus redesign signal tied to classroom implementation rather than only a policy report.",
+      "primary_category": "teaching_and_learning",
+      "subcategories": [
+        "ai_resilient_assessment",
+        "syllabus_level_policy",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "source_urls": [
+        "https://www.bu.edu/aida/guidance/generative-ai-guidelines-for-classroom-use/"
+      ]
+    },
+    {
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "date_announced": "2025-11-01",
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "title": "AI at BU undergraduate certificate",
+      "description": "BU launched a four-hour online AI at BU student certificate for undergraduates alongside expanded faculty and staff AI resources.",
+      "significance": "Adds a student-facing AI literacy and usage signal tied to a concrete course-like credential.",
+      "primary_category": "teaching_and_learning",
+      "subcategories": [
+        "ai_literacy_requirement",
+        "career_and_workforce_readiness",
+        "personalized_student_support"
+      ],
+      "source_urls": [
+        "https://www.bu.edu/articles/2025/ai-online-course-resources/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI research or coordination activity",
+      "focus": "Public AI research, teaching, or tool coordination evidenced in cited sources.",
+      "founded": null,
+      "url": "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "AI learning pathway or resources",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Boston University / LibreChat",
+      "product": "TerrierGPT",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.bu.edu/aida/ai-tools/terriergpt/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.bu.edu/tech/services/cccs/collaboration/conversational-ai/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.bu.edu/tech/services/cccs/collaboration/conversational-ai/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Shared Computing Cluster",
+    "gpu_count": null,
+    "url": "https://www.bu.edu/tech/support/research/software-and-programming/gpu-computing/",
+    "summary": "BU Research Computing documents GPU computing on the Shared Computing Cluster, including NVIDIA GPU nodes for batch and interactive workloads and current examples spanning A100, A100-80G, A40, A6000, and H200 models. The technical summary lists GPU-equipped SCC nodes, but public pages present live inventory through the qgpus command rather than a single durable total GPU count."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "AI Task Force report",
+      "scope": "BU's AI Task Force assessed generative AI in education and research and issued recommendations for a critical-embrace approach.",
+      "url": "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/"
+    },
+    {
+      "type": "chatbot",
+      "name": "AIDA AI enablement hub",
+      "scope": "AIDA equips BU faculty, staff, and students with tools, guidance, and frameworks for responsible generative AI use.",
+      "url": "https://www.bu.edu/aida/"
+    },
+    {
+      "type": "chatbot",
+      "name": "TerrierGPT access",
+      "scope": "BU lists TerrierGPT as a secure gateway for equitable access to leading models while warning against public-tool use for restricted data.",
+      "url": "https://www.bu.edu/aida/ai-tools/"
+    },
+    {
+      "type": "other",
+      "name": "AI at BU undergraduate certificate",
+      "scope": "Four-hour online AI certificate for Boston University undergraduates.",
+      "url": "https://www.bu.edu/articles/2025/ai-online-course-resources/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "TerrierGPT access",
+      "description": "BU lists TerrierGPT as a secure gateway for equitable access to leading models while warning against public-tool use for restricted data.",
+      "url": "https://www.bu.edu/aida/ai-tools/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "MA",
+    "has_state_ai_policy": false,
+    "has_system_ai_policy": false,
+    "summary": "State and system AI context checked only at high level; institution-level sources carry the profile.",
+    "urls": []
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Boston University now shows a stronger platform and compute story. TerrierGPT provides BU students, faculty, staff, and researchers with secure, no-charge access during the pilot to leading models from OpenAI, Anthropic, Google, Meta, and others, while BU also lists Copilot Chat and Google Gemini as conversational AI options. Research Computing documents GPU workloads on the Shared Computing Cluster, including A100, A100-80G, A40, A6000, and H200 examples. AIDA classroom guidance and the AI at BU undergraduate certificate add explicit assessment, syllabus, and student-facing AI literacy evidence. Exact TerrierGPT usage, contract costs, AI budget totals, current SCC aggregate GPU count, and subgroup outcome metrics remain undisclosed.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/",
+      "https://www.bu.edu/provost/files/2024/04/Report-of-the-Boston-University-AI-Task-Force-and-Next-Steps-4-11-24.pdf",
+      "https://www.bu.edu/aida/",
+      "https://www.bu.edu/aida/ai-tools/",
+      "https://www.bu.edu/hic/centers-initiatives-labs/air/",
+      "https://www.bu.edu/academics/grs/programs/computer-science/ms-in-artificial-intelligence/",
+      "https://www.bu.edu/eng/bu_programs_area-of-study/artificial-intelligence-ml/",
+      "https://carnegieclassifications.acenet.edu/news/carnegie-classifications-release-2025-research-activity-designations-debut-updated-methodology/",
+      "https://www.bu.edu/aida/ai-tools/terriergpt/",
+      "https://www.bu.edu/tech/services/cccs/collaboration/conversational-ai/terriergpt/",
+      "https://www.bu.edu/tech/support/research/software-and-programming/gpu-computing/",
+      "https://www.bu.edu/tech/support/research/computing-resources/tech-summary/",
+      "https://www.bu.edu/aida/guidance/generative-ai-guidelines-for-classroom-use/",
+      "https://www.bu.edu/articles/2025/ai-online-course-resources/"
+    ],
+    "search_queries": [
+      "\"Boston University\" AI strategy",
+      "\"Boston University\" generative AI guidelines",
+      "\"Boston University\" AI research center",
+      "\"Boston University\" AI degree program",
+      "site:bu.edu/aida TerrierGPT Boston University students faculty staff secure access",
+      "site:bu.edu/tech Shared Computing Cluster GPU A100 H200 Boston University",
+      "site:bu.edu/aida generative AI classroom use guidelines sample syllabi Boston University",
+      "site:bu.edu/articles AI at BU student certificate undergraduates"
+    ],
+    "gaps_acknowledged": [
+      "Leadership names and enrollment were not populated in this missing-only sweep.",
+      "TerrierGPT, Copilot, Gemini, and SCC GPU resources are public, but active-user counts, contract values, and a single durable total SCC GPU count were not found.",
+      "AI at BU and AIDA resources are public, but student subgroup outcome metrics were not disclosed."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "platform_first",
+        "student_success_led",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 9,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 5,
+        "governance_led": 11,
+        "student_success_led": 8,
+        "workforce_regional_development": 0,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": false,
+      "addresses_ethics": false,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 3,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 0,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Shared Computing Cluster",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 7
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 3,
+        "other": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Boston University / LibreChat TerrierGPT",
+          "mentions": 1,
+          "products": [
+            "TerrierGPT"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Google Gemini"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 1,
+          "products": [
+            "Microsoft Copilot Chat"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Boston University / LibreChat TerrierGPT",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "AI Task Force report",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.bu.edu/provost/about/committees/boston-university-ai-task-force/"
+        },
+        {
+          "claim_type": "career",
+          "title": "AIDA AI enablement hub",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.bu.edu/aida/"
+        },
+        {
+          "claim_type": "career",
+          "title": "TerrierGPT access",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.bu.edu/aida/ai-tools/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Artificial Intelligence Research Initiative",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.bu.edu/hic/centers-initiatives-labs/air/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Graduate AI degrees",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://www.bu.edu/academics/grs/programs/computer-science/ms-in-artificial-intelligence/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Generative AI classroom-use guidelines and sample syllabi",
+          "summary": "This is an assessment and syllabus redesign signal tied to classroom implementation rather than only a policy report.",
+          "source_url": "https://www.bu.edu/aida/guidance/generative-ai-guidelines-for-classroom-use/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI at BU undergraduate certificate",
+          "summary": "Adds a student-facing AI literacy and usage signal tied to a concrete course-like credential.",
+          "source_url": "https://www.bu.edu/articles/2025/ai-online-course-resources/"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 4,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 3,
+      "notes": [
+        "Leadership names and enrollment were not populated in this missing-only sweep.",
+        "TerrierGPT, Copilot, Gemini, and SCC GPU resources are public, but active-user counts, contract values, and a single durable total SCC GPU count were not found.",
+        "AI at BU and AIDA resources are public, but student subgroup outcome metrics were not disclosed."
+      ]
+    }
+  }
+}

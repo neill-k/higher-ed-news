@@ -1,0 +1,1425 @@
+{
+  "institution": "Utah State University",
+  "slug": "utah-state-university",
+  "city_state": "Logan, UT",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 29831,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Brad L. Mortensen",
+      "url": "https://www.usu.edu/president/bio/"
+    },
+    "provost": {
+      "name": "Laurens H. Smith",
+      "url": "https://www.usu.edu/provost/"
+    },
+    "cio": {
+      "name": "Eric Hawley",
+      "url": "https://it.usu.edu/about_cio"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Kevin Moon",
+      "title": "Director, Data Science & Artificial Intelligence (DSAI) Center",
+      "url": "https://www.usu.edu/dsai/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Utah Board of Higher Education AI Integration Resolution (system-level directive applicable to USU)",
+        "url": "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/",
+        "year": 2025
+      },
+      {
+        "title": "USU AI Innovations in Teaching & Learning (campus hub)",
+        "url": "https://www.usu.edu/tlt/ai",
+        "year": null
+      },
+      {
+        "title": "Data Science & Artificial Intelligence (DSAI) Center launch announcement",
+        "url": "https://www.usu.edu/today/story/usu-launches-new-data-science-amp-artificial-intelligence-center",
+        "year": 2025
+      }
+    ],
+    "summary": "USU has not published a single named institutional AI strategy document. Its de facto strategy is assembled from three strands: the DSAI Center (launched Jan 2025) as a cross-college research and education hub; campus AI policies anchored in Information Security Policy 2-8 and Office of Research Integrity guidance; and the Utah Board of Higher Education's December 2025 pro-human AI resolution that directs all USHE institutions, including USU, to embed AI literacy, responsible adoption, and workforce readiness. Newly inaugurated (Jan 2026) President Brad Mortensen has publicly framed 'agriculture and AI and the intersection of technology and human well-being' as a signature priority, foreshadowing a more consolidated strategy."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.usu.edu/infosec/policy/2-8-artificial-intelligence-use-compliance",
+      "https://research.usu.edu/compliance/ai-in-research",
+      "https://www.usu.edu/ai/help-resources/"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Prohibits upload of FERPA, HIPAA/PHI, PII, donor, IP, and payment-card data to AI tools without a USU-approved privacy agreement",
+      "Requires human review of AI-generated content for accuracy, bias, and copyright before institutional use",
+      "Positions AI as a supplement to, not replacement for, human judgment",
+      "Directs users to officially provisioned tools (Microsoft Copilot with data protection, Zoom AI Companion, Box AI, Google Gemini via @usu.edu login, NotebookLM)",
+      "Faculty are encouraged (not required) to include AI expectations in syllabi",
+      "Research guidance aligns with NSF and NIH prohibitions on uploading proposals/peer-review material to unapproved AI tools"
+    ],
+    "summary": "USU Information Security Policy 2-8 ('Artificial Intelligence Use & Compliance') governs AI use across faculty, staff, students, research, and administration. The overall stance is cautious but operational: the university lists approved tools and use cases while strictly prohibiting ingestion of regulated data into unvetted models. Syllabus-level AI disclosure is encouraged rather than mandated, and research integrity guidance mirrors federal sponsor rules."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Data Science & Artificial Intelligence (DSAI) Center faculty steering committee",
+        "type": "council",
+        "scope": "Cross-college governance of AI/data science research priorities and space planning; members drawn from the four founding departments (Mathematics & Statistics, Electrical & Computer Engineering, Data Analytics & Information Systems, Computer Science)",
+        "url": "https://www.usu.edu/dsai/"
+      },
+      {
+        "name": "Center for Instructional Design and Innovation (CIDI)",
+        "type": "office",
+        "scope": "Leads campus AI-in-teaching program, syllabus templates, faculty workshops, and the Aggie AI product line (Canvas-integrated tools)",
+        "url": "https://www.usu.edu/tlt/ai"
+      },
+      {
+        "name": "Office of Research Integrity and Compliance (RIC)",
+        "type": "office",
+        "scope": "Owns AI-in-research guidance, human-subjects confidentiality, sponsor-alignment, and misconduct framing for generative AI use",
+        "url": "https://research.usu.edu/compliance/ai-in-research"
+      },
+      {
+        "name": "USU Information Security (InfoSec) Office",
+        "type": "office",
+        "scope": "Custodian of Policy 2-8 AI Use & Compliance and enforcement of approved-tool list",
+        "url": "https://www.usu.edu/infosec/policy/2-8-artificial-intelligence-use-compliance"
+      },
+      {
+        "name": "Utah Board of Higher Education statewide AI Task Force (system-level oversight of USU)",
+        "type": "task_force",
+        "scope": "Recommends system-wide AI direction for all USHE institutions; membership includes board members, AI experts, and institutional leaders from USU and peers",
+        "url": "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/"
+      }
+    ],
+    "summary": "AI governance at USU is distributed across a faculty-led center (DSAI), an instructional design office (CIDI), a research-compliance office (RIC), and IT InfoSec. There is no named chief AI officer or unified AI council at the presidential level; system-level direction comes from the Utah Board of Higher Education AI Task Force, to which USU is subject."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of Data Science & Artificial Intelligence (DSAI) Center",
+      "description": "On January 14, 2025, USU opened the DSAI Center as a cross-college hub spanning Mathematics & Statistics, Electrical & Computer Engineering, Data Analytics & Information Systems, and Computer Science. Director Kevin Moon (Math/Stats) leads the effort, with founding department funding and an approved request for physical-space appropriation from the 2025 Utah Legislature.",
+      "significance": "Gives USU its first named institutional locus for interdisciplinary AI research and education, positioning a land-grant R1 to be the state's second-tier AI hub alongside the University of Utah.",
+      "date_announced": "2025-01-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Four founding academic departments plus a 2025 Utah Legislature capital request for physical space",
+        "description": "Operating funds pooled from founding departments; space and infrastructure pending state appropriation."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Recursion Pharmaceuticals",
+            "Valence Labs"
+          ],
+          "description": "Launch keynote by Berton Earnshaw (AI Founding Fellow, Recursion; Scientific Director, Valence Labs) signaled intent to link the center to Utah's drug-discovery AI cluster."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a campus home for research ethics, IRB-aligned AI work, and industry engagement.",
+      "source_urls": [
+        "https://www.usu.edu/today/story/usu-launches-new-data-science-amp-artificial-intelligence-center",
+        "https://www.usu.edu/dsai/",
+        "https://www.usu.edu/dsai/programs",
+        "https://usustatesman.com/data-and-ai-center-coming-to-campus/"
+      ]
+    },
+    {
+      "title": "Aggie AI: Write (Canvas-integrated writing tutor)",
+      "description": "A CIDI-English Department collaboration that began in 2022 as 'Writing Coach' and was renamed Aggie AI: Write in fall 2024 after student input. The tool helps students brainstorm topics, structure outlines, draft, and self-assess, while giving instructors visibility into student-AI interactions inside Canvas. Workshops are led by English lecturer Russ Winn for USU faculty, grad students, and concurrent-enrollment high school teachers.",
+      "significance": "One of the more instructor-visible Canvas-embedded AI tutors in the USHE system; establishes 'Aggie AI' as an in-house product umbrella (Aggie AI: Research, Aggie AI: Study) distinct from commercial LLMs.",
+      "date_announced": "2024-12-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "lms_embedded_ai",
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "USU Center for Instructional Design and Innovation and English Department",
+        "description": "Internally built Canvas LTI; no publicly disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [
+            "USU Writing Center",
+            "USU Writing Fellows",
+            "USU Libraries"
+          ],
+          "description": "Tool tested with USU Writing Center, Writing Fellows, USU Libraries, and English 1010/2010/2020/Concurrent Enrollment committees."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Aggie AI: Write",
+          "vendor": "Utah State University (in-house)",
+          "role": "Canvas-integrated writing tutor"
+        },
+        {
+          "name": "Canvas",
+          "vendor": "Instructure",
+          "role": "Host LMS"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Transparent use-pattern data for instructors partially addresses academic-integrity concerns about hidden AI use.",
+      "source_urls": [
+        "https://chass.usu.edu/english/news/articles/aggie-ai-write",
+        "https://artsci.usu.edu/english/news/2024-fall/aggie-ai-students",
+        "https://www.usu.edu/tlt/ai"
+      ]
+    },
+    {
+      "title": "Information Security Policy 2-8: AI Use & Compliance",
+      "description": "USU's binding AI acceptable-use policy, owned by the Information Security office. Prohibits upload of FERPA, HIPAA/PHI, PII, donor, IP, and payment-card data to AI tools lacking a university privacy agreement. Requires human review of AI output for accuracy, bias, and copyright, and directs users to the officially provisioned tool list.",
+      "significance": "Provides the enforceable floor for AI use across a 29,000-student R1, and explicitly lists approved vs. unapproved tools — the clearest institutional-risk control at USU.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "USU Information Security operating budget",
+        "description": "Policy-only; no capital."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Anchors FERPA/HIPAA posture and blocks shadow-IT AI deployment.",
+      "source_urls": [
+        "https://www.usu.edu/infosec/policy/2-8-artificial-intelligence-use-compliance",
+        "https://www.usu.edu/ai/help-resources/"
+      ]
+    },
+    {
+      "title": "Approved enterprise AI tool stack",
+      "description": "USU offers all users Microsoft Copilot with Commercial Data Protection, Zoom AI Companion, Box AI, Google Gemini (via @usu.edu login), and Google NotebookLM at no cost. Departments can purchase Microsoft 365 Copilot seats at $30/month. ChatGPT Enterprise and Claude for Education are not on the approved list as of April 2026.",
+      "significance": "Multi-vendor posture (vs. Microsoft-only single-vendor lock-in at the University of Utah) gives USU broader coverage but a more fragmented compliance surface.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Existing enterprise licensing agreements (Microsoft A5, Google Workspace for Education, Zoom, Box); departmental add-ons for M365 Copilot",
+        "description": "Bundled within existing enterprise contracts; departmental Copilot M365 at $30/user/month."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "Zoom",
+            "Box"
+          ],
+          "description": "Standard enterprise license relationships with data-protection terms."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot (Commercial Data Protection)",
+          "vendor": "Microsoft",
+          "role": "Free enterprise chat/search for all USU users"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Paid productivity assistant ($30/mo/user), departmental"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summarization and Q&A"
+        },
+        {
+          "name": "Box AI",
+          "vendor": "Box",
+          "role": "Document analysis in Box storage"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Chat/productivity, @usu.edu SSO"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Document synthesis/notebook tool"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Operationalizes Policy 2-8 by giving users vetted alternatives to retail AI tools.",
+      "source_urls": [
+        "https://www.usu.edu/ai/tools",
+        "https://www.usu.edu/ai/help-resources/"
+      ]
+    },
+    {
+      "title": "Statewide NVIDIA AI education and workforce MOU (USU co-signatory)",
+      "description": "USU is one of eight USHE institutions named in the 2025 Utah–NVIDIA MOU (alongside University of Utah, UVU, Weber State, Utah Tech, Southern Utah, Snow, and Salt Lake Community College). Instructors gain access to NVIDIA Deep Learning Institute certifications in generative AI, data science, and accelerated computing; state agencies are exploring internship/apprenticeship pipelines.",
+      "significance": "Plugs USU into a multi-state industry-AI talent pipeline without having to negotiate bilaterally with NVIDIA; important for rural/land-grant workforce reach.",
+      "date_announced": "2025-09-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "faculty_training_and_development",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NVIDIA, Governor's Office of Economic Opportunity, USHE",
+        "description": "In-kind training, certifications, and NVIDIA Deep Learning Institute access; monetary value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Utah Governor's Office of Economic Opportunity",
+            "Utah System of Higher Education",
+            "University of Utah",
+            "Utah Valley University",
+            "Weber State University",
+            "Utah Tech University",
+            "Southern Utah University",
+            "Snow College",
+            "Salt Lake Community College"
+          ],
+          "description": "Multi-institution, state-backed AI education and workforce partnership with NVIDIA."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA Deep Learning Institute",
+          "vendor": "NVIDIA",
+          "role": "Certification platform for generative AI, data science, accelerated computing"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Creates a credentialing pathway that complements but doesn't substitute for accredited degrees.",
+      "source_urls": [
+        "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/",
+        "https://business.utah.gov/news/utah-leaders-collaborate-with-nvidia-to-advance-tech-talent-development/",
+        "https://blogs.nvidia.com/blog/utah-ai-education/"
+      ]
+    },
+    {
+      "title": "AI and Writing undergraduate certificate",
+      "description": "College of Humanities & Social Sciences credential that teaches rhetorical, ethical, and craft dimensions of writing with and about AI — one of the earlier humanities-side AI credentials in USHE.",
+      "significance": "Signals that USU is treating AI literacy as a humanistic, not only STEM, obligation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "College of Humanities & Social Sciences",
+        "description": "Curricular credential; no capital."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Normalizes AI use in writing-heavy disciplines under a guided curriculum.",
+      "source_urls": [
+        "https://www.usu.edu/degrees-majors/ai-and-writing_uc",
+        "https://www.usu.edu/dsai/programs"
+      ]
+    },
+    {
+      "title": "Machine Learning and Artificial Intelligence post-baccalaureate certificate (PBC)",
+      "description": "A stackable PBC from Math & Statistics / Computer Science that trains working professionals and recent graduates in applied ML/AI. Complements the BS, MS, and PhD tracks in Data Science and Statistics.",
+      "significance": "Extends AI credentialing to non-traditional learners — critical for a land-grant institution with statewide campuses.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "ai_degree_program"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Math & Statistics / Computer Science departmental",
+        "description": "Curricular credential; no capital."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usu.edu/degrees-majors/machine-learning-and-artificial-intelligence_pbc",
+        "https://www.usu.edu/dsai/programs"
+      ]
+    },
+    {
+      "title": "Remote Sensing & GeoAI certificates (undergrad and online graduate)",
+      "description": "Quinney College of Natural Resources and Department of Environment & Society offer paired undergraduate and online graduate certificates in Remote Sensing & Geospatial AI — teaching satellite imagery, computer vision, and ML for land, water, and natural-resource applications.",
+      "significance": "Applied AI credentialing aligned with USU's land-grant mission and Space Dynamics Laboratory strengths.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_for_scientific_discovery",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Quinney College of Natural Resources; Department of Environment & Society",
+        "description": "Curricular credential; no capital."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usu.edu/degrees-majors/remote-sensing-and-geospatial-artificial-intelligence-foundations_cp",
+        "https://qcnr.usu.edu/mnr/geo-ai-certificate.php"
+      ]
+    },
+    {
+      "title": "Space Dynamics Laboratory autonomous & intelligent systems portfolio",
+      "description": "SDL, wholly owned by USU and the sole University Affiliated Research Center (UARC) for the U.S. Missile Defense Agency and U.S. Space Force, operates an Autonomous & Intelligent Systems capability. This includes AI/ML-enabled autonomy software for UAS and satellites, real-time sensor data compression/visualization, and mission CONOPS using combined autonomy + AI/ML.",
+      "significance": "SDL is USU's largest AI-adjacent research enterprise (>1,200 employees, national-security customers) and a key reason USU's AI capacity extends beyond the DSAI Center.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "agentic_ai",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "U.S. Department of Defense (MDA, Space Force), other federal sponsors",
+        "description": "Sustained multi-decade federal funding as a UARC; specific AI line-item not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Missile Defense Agency",
+            "U.S. Space Force",
+            "U.S. Department of Defense"
+          ],
+          "description": "UARC relationship for MDA and Space Force; one of 15 DoD UARCs nationally."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "National-security scope means SDL operates under classified-research policy distinct from main-campus AI rules.",
+      "source_urls": [
+        "https://www.sdl.usu.edu/capabilities/autonomous-systems/",
+        "https://www.sdl.usu.edu/",
+        "https://www.usu.edu/today/story/space-dynamics-lab-receives-new-department-of-defense-sponsorship"
+      ]
+    },
+    {
+      "title": "Utah Board of Higher Education AI Integration Resolution (December 2025)",
+      "description": "A USHE Executive Committee resolution that directs all Utah public colleges and universities — including USU — to pursue three imperatives: (1) graduate all students with foundational AI literacy and human-centered applied skills; (2) responsibly integrate AI into teaching, research, and operations while preserving mentorship; (3) lead a system-wide review of higher-education design for the AI era. Anchored in Utah's 'pro-human AI' framework.",
+      "significance": "Creates a system-level accountability floor for USU's AI posture and aligns it with state policy, regardless of institutional capacity.",
+      "date_announced": "2025-12-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_literacy_requirement",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "USHE operating, Talent Ready Utah",
+        "description": "System-level coordination; no specific appropriation to USU disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Utah Board of Higher Education",
+            "Utah System of Higher Education",
+            "Utah Office of Artificial Intelligence Policy"
+          ],
+          "description": "System-wide resolution with state AI policy office alignment."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Obliges USU to report progress against system-level AI metrics.",
+      "source_urls": [
+        "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/"
+      ]
+    },
+    {
+      "title": "Analytics Solution Center (ASC) industry AI consulting",
+      "description": "A Jon M. Huntsman School of Business unit that blends academic rigor with practical ML/AI consulting for industry clients, providing applied student and faculty capacity for data-driven problems.",
+      "significance": "Revenue-generating front door for non-academic AI engagements; complements DSAI Center research mission.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Huntsman School of Business + fee-for-service industry revenue",
+        "description": "Consulting model; specific revenue not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Undisclosed industry clients"
+          ],
+          "description": "Project-based engagements between Huntsman students/faculty and industry sponsors."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://huntsman.usu.edu/asc/",
+        "https://www.usu.edu/ai/centers-programs"
+      ]
+    },
+    {
+      "title": "AI-enhanced VR nursing simulations and AI Lesson Plan Builder (TLT/CIDI portfolio)",
+      "description": "USU's Teaching & Learning Technologies (TLT) group, in partnership with CIDI, has built AI-powered tools including a virtual patient interaction simulator for nursing students and a standards-aligned lesson plan generator for K-12 science teachers, alongside a medical-interpreter AI coach.",
+      "significance": "Demonstrates that USU is building in-house discipline-specific AI rather than exclusively buying commercial products — important leverage for land-grant extension and teacher preparation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_tutoring_and_adaptive_learning",
+        "ai_in_specific_disciplines",
+        "multilingual_and_culturally_responsive_ai"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "USU internal (TLT / CIDI)",
+        "description": "In-house tool development; no publicly disclosed budget."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Aggie AI: Write",
+          "vendor": "Utah State University (in-house)",
+          "role": "Writing tutor"
+        },
+        {
+          "name": "AI Lesson Plan Builder",
+          "vendor": "Utah State University (in-house)",
+          "role": "K-12 standards-aligned lesson generator"
+        },
+        {
+          "name": "AI-Enhanced VR Nursing Simulation",
+          "vendor": "Utah State University (in-house)",
+          "role": "Virtual patient for clinical communication training"
+        },
+        {
+          "name": "Medical Interpreter AI Coach",
+          "vendor": "Utah State University (in-house)",
+          "role": "Medical translation practice with feedback"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "In-house build-out reduces vendor-data-risk exposure under Policy 2-8.",
+      "source_urls": [
+        "https://www.usu.edu/tlt/ai"
+      ]
+    },
+    {
+      "title": "NSF ExLENT grant for biotech/AI workforce development (USU College of Engineering)",
+      "description": "A $1 million NSF ExLENT (Experiential Learning for Emerging and Novel Technologies) award to USU's College of Engineering to prepare students from diverse professional and educational backgrounds for careers in life sciences and biotechnology, including emerging fields such as AI and advanced manufacturing.",
+      "significance": "Demonstrates competitive federal pull for USU's workforce-AI bets outside the R1 peers' usual fundable-AI channels.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "underrepresented_student_support",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1000000,
+        "funding_source": "U.S. National Science Foundation (ExLENT program)",
+        "description": "$1M federal award to USU College of Engineering."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. National Science Foundation"
+          ],
+          "description": "ExLENT program award."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usu.edu/today/story/usu-receives-1m-nsf-grant-for-biotech-workforce-development"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Data Science & Artificial Intelligence (DSAI) Center",
+      "focus": "Cross-college hub for data science, machine learning, and AI research and education; links Math & Stats, ECE, DAIS, and CS",
+      "founded": "2025",
+      "url": "https://www.usu.edu/dsai/"
+    },
+    {
+      "name": "Space Dynamics Laboratory (SDL) — Autonomous & Intelligent Systems",
+      "focus": "Autonomy, AI/ML for UAS and satellites, sensor intelligence; DoD UARC for MDA and Space Force",
+      "founded": "1982",
+      "url": "https://www.sdl.usu.edu/capabilities/autonomous-systems/"
+    },
+    {
+      "name": "Analytics Solution Center (ASC), Huntsman School of Business",
+      "focus": "Applied ML/AI consulting for industry clients",
+      "founded": null,
+      "url": "https://huntsman.usu.edu/asc/"
+    },
+    {
+      "name": "Center for Growth and Opportunity (CGO)",
+      "focus": "Policy research on economic implications of AI, automation, and reskilling",
+      "founded": null,
+      "url": "https://www.thecgo.org/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "B.S. Data Science (joint Math/Stats + CS)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/data-science_bs"
+    },
+    {
+      "type": "minor",
+      "name": "Data Science minor (joint Math/Stats + CS)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.usu.edu/programs/DASC"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. Data Science (joint Math/Stats + CS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/data-science_ms"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Data Analytics (MDA; joint DAIS + Math/Stats)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/master-of-data-analytics_mdata"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Statistics and Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/statistics-and-data-science_phd"
+    },
+    {
+      "type": "certificate",
+      "name": "Machine Learning & Artificial Intelligence PBC",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/machine-learning-and-artificial-intelligence_pbc"
+    },
+    {
+      "type": "certificate",
+      "name": "AI and Writing undergraduate certificate",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/ai-and-writing_uc"
+    },
+    {
+      "type": "certificate",
+      "name": "Remote Sensing & Geospatial AI Foundations certificate",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/remote-sensing-and-geospatial-artificial-intelligence-foundations_cp"
+    },
+    {
+      "type": "certificate",
+      "name": "Remote Sensing & GeoAI (online graduate) certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://qcnr.usu.edu/mnr/geo-ai-certificate.php"
+    },
+    {
+      "type": "certificate",
+      "name": "Data Science certificate (joint CS + Math/Stats)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usu.edu/degrees-majors/data-science_pbc"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (Commercial Data Protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/ai/tools"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (paid)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/ai/tools"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (via @usu.edu SSO)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/ai/tools"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/ai/tools"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/ai/tools"
+    },
+    {
+      "vendor": "Box",
+      "product": "Box AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/ai/tools"
+    },
+    {
+      "vendor": "Instructure",
+      "product": "Canvas LMS (host for Aggie AI: Write and related in-house LTI tools)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usu.edu/tlt/ai"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": false,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://research.usu.edu/hpc",
+    "summary": "USU does not operate its own campus supercomputer. Research computing is provided through a longstanding MOU with the University of Utah's Center for High Performance Computing (CHPC), which hosts the Notchpeak and Kingspeak clusters and (beginning summer 2026) the state-backed $50M HPE/NVIDIA-powered AI factory. USU faculty and students have the same access rights as U of U researchers. This shared-model posture keeps USU's marginal cost low but means its AI compute capacity is dependent on U of U roadmap decisions."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF ExLENT award to USU College of Engineering for biotech/AI workforce",
+      "amount_usd": 1000000,
+      "source": "U.S. National Science Foundation (ExLENT program)",
+      "purpose": "Experiential learning pipelines spanning AI, advanced manufacturing, biotech",
+      "date": null,
+      "url": "https://www.usu.edu/today/story/usu-receives-1m-nsf-grant-for-biotech-workforce-development"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "AI education, Deep Learning Institute certifications, workforce training via statewide MOU",
+      "date": "2025-09",
+      "url": "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Missile Defense Agency / U.S. Space Force (via SDL UARC)",
+      "purpose": "Autonomy and AI/ML for national-security missions",
+      "date": null,
+      "url": "https://www.sdl.usu.edu/capabilities/autonomous-systems/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Utah Center for High Performance Computing",
+      "purpose": "Shared access to HPC/GPU infrastructure for USU researchers",
+      "date": null,
+      "url": "https://research.usu.edu/hpc"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Recursion Pharmaceuticals / Valence Labs",
+      "purpose": "Keynote and opening relationship with USU DSAI Center",
+      "date": "2025-01",
+      "url": "https://www.usu.edu/today/story/usu-launches-new-data-science-amp-artificial-intelligence-center"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "Aggie AI: Write",
+      "scope": "Canvas-integrated writing tutor; used in English 1010/2010/2020 and concurrent enrollment",
+      "url": "https://chass.usu.edu/english/news/articles/aggie-ai-write"
+    },
+    {
+      "type": "tutor",
+      "name": "Canvas AI Support Tool (originally SQL tutor)",
+      "scope": "Live-feedback tutor for student queries, designed to extend to other disciplines",
+      "url": "https://www.usu.edu/tlt/ai"
+    },
+    {
+      "type": "tutor",
+      "name": "Course AI Assistant",
+      "scope": "Customizable Canvas-embedded assistant tailored to individual course modules",
+      "url": "https://www.usu.edu/tlt/ai"
+    },
+    {
+      "type": "other",
+      "name": "AI-Enhanced VR Nursing Simulations",
+      "scope": "Virtual patient interactions for clinical communication training",
+      "url": "https://www.usu.edu/tlt/ai"
+    },
+    {
+      "type": "other",
+      "name": "Medical Interpreter AI Coach",
+      "scope": "Video-based practice tool for medical-translation scenarios with instant feedback",
+      "url": "https://www.usu.edu/tlt/ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Utah Assistive Technology Program (UATP) under the Institute for Disability Research, Policy & Practice",
+      "description": "Loan, financing, and device-reuse programs that help Utahns with disabilities access technology — an infrastructure on which AI accessibility tools can be layered, though the program is broader than AI alone.",
+      "url": "https://idrpp.usu.edu/uatp/"
+    },
+    {
+      "title": "Remote Sensing & GeoAI online graduate certificate",
+      "description": "Fully online delivery broadens access to AI/geospatial credentials for rural and working-professional learners across Utah's large land area.",
+      "url": "https://qcnr.usu.edu/mnr/geo-ai-certificate.php"
+    },
+    {
+      "title": "NSF ExLENT grant serving diverse professional and educational backgrounds",
+      "description": "Explicitly targets learners from non-traditional pathways for AI/advanced-technology careers.",
+      "url": "https://www.usu.edu/today/story/usu-receives-1m-nsf-grant-for-biotech-workforce-development"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Utah",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Utah is one of the most AI-forward U.S. states. It operates an Office of Artificial Intelligence Policy (commerce.utah.gov/ai) and the governor's pro-human AI framework (six pillars including academic R&D, industry innovation, learning/education, public protection, state-government deployment, workforce). The Utah Board of Higher Education passed a December 2025 resolution directing all USHE institutions (including USU) to embed AI literacy, responsible adoption, and workforce readiness. HB 168 (2025), which would have codified an AI-in-Education Task Force, passed the House but did not clear the Senate in the 2025 session; similar efforts are expected to return. Utah also signed a 2025 statewide NVIDIA MOU in which USU is a named participant.",
+    "urls": [
+      "https://ai.utah.gov/",
+      "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/",
+      "https://le.utah.gov/~2025/bills/static/HB0168.html",
+      "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Utah State University enters 2026 as a mid-capacity R1 whose AI posture is assembled from many working parts rather than a single unified strategy. Its central move is the January 2025 launch of the Data Science & Artificial Intelligence (DSAI) Center under director Kevin Moon — a cross-college hub pooling Mathematics & Statistics, Electrical & Computer Engineering, Data Analytics & Information Systems, and Computer Science. The DSAI Center, paired with the long-established Space Dynamics Laboratory's autonomy and AI/ML portfolio for the Missile Defense Agency and Space Force, gives USU a credible research footprint that pairs civilian-academic AI with federal national-security scale. Teaching and learning is the area of sharpest near-term execution: the Center for Instructional Design and Innovation's 'Aggie AI: Write' Canvas tutor is one of the more advanced LMS-integrated writing assistants in USHE, and TLT's in-house portfolio (VR nursing sims, K-12 lesson-plan builder, medical-interpreter coach, customizable course assistants) shows USU building discipline-specific AI instead of only renting it. Policy is cautious but operational: Information Security Policy 2-8 binds all users, and the approved-tool stack (Microsoft Copilot with commercial data protection, Microsoft 365 Copilot departmental, Gemini, NotebookLM, Zoom AI Companion, Box AI) is multi-vendor where the University of Utah's is Microsoft-only. USU has no campus-owned AI supercomputer; it runs on University of Utah CHPC under MOU and will indirectly benefit from the state-backed $50M HPE/NVIDIA AI factory coming online summer 2026. Governance is distributed — DSAI faculty steering committee, CIDI, Office of Research Integrity, InfoSec — and there is no named Chief AI Officer. The institution is exposed to, and co-signed, Utah's aggressive state-level posture: the governor's pro-human AI framework, the December 2025 Utah Board of Higher Education AI resolution, and the statewide NVIDIA MOU all apply. Newly inaugurated President Brad Mortensen (Jan 2026) has publicly signaled AI, agriculture, and 'technology and human well-being' as institutional priorities, suggesting a forthcoming consolidated strategy. The main gaps are the absence of a public dollar-denominated AI investment, no dedicated AI compute, no named CAIO, and limited public visibility into AI equity/access work beyond the general-purpose Utah Assistive Technology Program.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill (Opus 4.7, 1M context)",
+    "sources": [
+      "https://www.usu.edu/about/fast-facts/",
+      "https://www.usu.edu/about/leadership/",
+      "https://www.usu.edu/president/bio/",
+      "https://www.usu.edu/provost/",
+      "https://it.usu.edu/about_cio",
+      "https://www.usu.edu/infosec/policy/2-8-artificial-intelligence-use-compliance",
+      "https://www.usu.edu/ai/help-resources/",
+      "https://www.usu.edu/ai/tools",
+      "https://www.usu.edu/ai/centers-programs",
+      "https://www.usu.edu/tlt/ai",
+      "https://www.usu.edu/teach/help-topics/teaching-tips/ai-and-teaching",
+      "https://www.usu.edu/dsai/",
+      "https://www.usu.edu/dsai/programs",
+      "https://www.usu.edu/today/story/usu-launches-new-data-science-amp-artificial-intelligence-center",
+      "https://www.usu.edu/today/story/usu-receives-1m-nsf-grant-for-biotech-workforce-development",
+      "https://www.usu.edu/today/story/brad-mortensen-officially-inaugurated-as-usus-18th-president",
+      "https://www.usu.edu/today/story/utah-board-of-higher-education-names-brad-l-mortensen-president-of-utah-state-university",
+      "https://chass.usu.edu/english/news/articles/aggie-ai-write",
+      "https://artsci.usu.edu/english/news/2024-fall/aggie-ai-students",
+      "https://research.usu.edu/compliance/ai-in-research",
+      "https://research.usu.edu/hpc",
+      "https://www.sdl.usu.edu/capabilities/autonomous-systems/",
+      "https://www.sdl.usu.edu/",
+      "https://huntsman.usu.edu/asc/",
+      "https://www.thecgo.org/",
+      "https://idrpp.usu.edu/uatp/",
+      "https://www.usu.edu/degrees-majors/ai-and-writing_uc",
+      "https://www.usu.edu/degrees-majors/machine-learning-and-artificial-intelligence_pbc",
+      "https://www.usu.edu/degrees-majors/remote-sensing-and-geospatial-artificial-intelligence-foundations_cp",
+      "https://qcnr.usu.edu/mnr/geo-ai-certificate.php",
+      "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/",
+      "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/",
+      "https://business.utah.gov/news/utah-leaders-collaborate-with-nvidia-to-advance-tech-talent-development/",
+      "https://blogs.nvidia.com/blog/utah-ai-education/",
+      "https://ai.utah.gov/",
+      "https://le.utah.gov/~2025/bills/static/HB0168.html",
+      "https://carnegieclassifications.acenet.edu/institution/utah-state-university/",
+      "https://en.wikipedia.org/wiki/Brad_L._Mortensen",
+      "https://en.wikipedia.org/wiki/Space_Dynamics_Laboratory"
+    ],
+    "search_queries": [
+      "\"Utah State University\" AI strategy 2025 2026 artificial intelligence",
+      "\"Utah State University\" AI acceptable use policy generative AI guidelines faculty",
+      "\"Utah State University\" AI task force committee council governance",
+      "\"Utah State University\" president provost CIO chief information officer 2026",
+      "\"Utah State University\" AI degree program certificate minor data science",
+      "\"Utah State University\" DSAI Center launch director artificial intelligence",
+      "\"Utah State University\" high performance computing HPC cluster",
+      "\"usu.edu\" Copilot OR \"Microsoft 365\" OR \"ChatGPT\" approved AI tool",
+      "\"Utah State University\" \"AI task force\" OR \"AI council\" OR \"AI committee\" President",
+      "\"Utah State University\" Microsoft Copilot ChatGPT Edu enterprise AI platform campus",
+      "\"Utah State University\" AI research grant NSF million funding",
+      "\"Utah State University\" \"USU\" AI workforce training \"Space Dynamics\"",
+      "\"Utah State University\" \"Canvas\" OR \"LMS\" AI integration faculty teaching",
+      "\"Utah State University\" chatbot student advising virtual assistant",
+      "Utah HB 168 higher education AI task force USU 2025 bill",
+      "\"Aggie AI\" OR \"AggieAI\" Utah State University launch Canvas writing",
+      "\"Utah State University\" \"Elizabeth Cantwell\" president AI strategy",
+      "\"Utah State University\" \"USU\" AI ethics responsible research center institute",
+      "\"Utah State University\" current president 2026 interim permanent appointed",
+      "\"Utah State University\" AI research machine learning lab Space Dynamics Laboratory SDL",
+      "\"Utah State University\" artificial intelligence equity accessibility disability digital divide rural",
+      "\"Utah State University\" Brad Mortensen president AI innovation technology inauguration",
+      "\"Utah State University\" NVIDIA MOU AI workforce Utah higher education",
+      "\"Utah State University\" USU AI curriculum faculty fellows pedagogy initiative",
+      "\"Utah State University\" USU \"AI Fluency\" OR \"AI literacy\" students graduates",
+      "\"Utah State University\" enrollment 2025 2026 carnegie classification",
+      "\"Utah State University\" USU AI classroom assistant \"Aggie\" chatbot library writing center",
+      "\"Utah State University\" AI controversy cheating FERPA lawsuit faculty",
+      "\"Utah State University\" Space Dynamics Lab AI machine learning autonomous satellite",
+      "\"Eric Hawley\" USU CIO Utah State University IT",
+      "\"Utah State University\" AI investment gift donation million startup incubator"
+    ],
+    "gaps_acknowledged": [
+      "No publicly disclosed dollar-denominated USU AI investment comparable to peer R1s' $50-100M funds; DSAI Center operating budget not public.",
+      "Effective/adopted date of Information Security Policy 2-8 (AI Use & Compliance) not published on the policy page.",
+      "No public evidence of a named USU chief AI officer, CAIO equivalent, or presidential-level AI council; governance is distributed.",
+      "GPU counts, node counts, and USU's share of University of Utah CHPC capacity not publicly reported.",
+      "Aggie AI: Write enrollment/usage metrics not published.",
+      "USU's share of the statewide NVIDIA MOU benefits (seat counts, certifications issued) not disclosed.",
+      "No public AI-specific gifts or donor-named endowments located; possible but not confirmed.",
+      "No AI-related controversies, lawsuits, or formal complaints surfaced in search; absence may reflect low public profile rather than absence of issues.",
+      "Provost position is listed with Laurens H. Smith but a permanent provost search was ongoing in 2025 — status as of April 2026 may be interim."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "platform_first",
+        "curriculum_led",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 18,
+        "research_compute_powerhouse": 8,
+        "curriculum_led": 16,
+        "governance_led": 11,
+        "student_success_led": 7,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 10,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 2,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": false,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "none"
+      },
+      "disclosed_funding_usd": 1000000,
+      "funding_source_buckets": {
+        "public_federal_state": 6,
+        "institutional": 3,
+        "other_unclear": 3,
+        "industry_vendor": 2
+      },
+      "partnership_count": 4
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "tutor": 3,
+        "other": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini",
+            "Gemini (via @usu.edu SSO)",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (paid)",
+            "Microsoft Copilot (Commercial Data Protection)"
+          ]
+        },
+        {
+          "vendor": "Box Box AI",
+          "mentions": 2,
+          "products": [
+            "Box AI"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 2,
+          "products": [
+            "Canvas",
+            "Canvas LMS (host for Aggie AI: Write and related in-house LTI tools)"
+          ]
+        },
+        {
+          "vendor": "Utah State University (in-house) Aggie AI: Write",
+          "mentions": 2,
+          "products": [
+            "Aggie AI: Write"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA Deep Learning Institute"
+          ]
+        },
+        {
+          "vendor": "Utah State University (in-house) AI Lesson Plan Builder",
+          "mentions": 1,
+          "products": [
+            "AI Lesson Plan Builder"
+          ]
+        },
+        {
+          "vendor": "Utah State University (in-house) AI-Enhanced VR Nursing Simulation",
+          "mentions": 1,
+          "products": [
+            "AI-Enhanced VR Nursing Simulation"
+          ]
+        },
+        {
+          "vendor": "Utah State University (in-house) Medical Interpreter AI Coach",
+          "mentions": 1,
+          "products": [
+            "Medical Interpreter AI Coach"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "learning",
+          "title": "Aggie AI: Write (Canvas-integrated writing tutor)",
+          "summary": "One of the more instructor-visible Canvas-embedded AI tutors in the USHE system; establishes 'Aggie AI' as an in-house product umbrella (Aggie AI: Research, Aggie AI: Study) distinct from commercial LLMs.",
+          "source_url": "https://chass.usu.edu/english/news/articles/aggie-ai-write"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Information Security Policy 2-8: AI Use & Compliance",
+          "summary": "Provides the enforceable floor for AI use across a 29,000-student R1, and explicitly lists approved vs. unapproved tools — the clearest institutional-risk control at USU.",
+          "source_url": "https://www.usu.edu/infosec/policy/2-8-artificial-intelligence-use-compliance"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Approved enterprise AI tool stack",
+          "summary": "Multi-vendor posture (vs. Microsoft-only single-vendor lock-in at the University of Utah) gives USU broader coverage but a more fragmented compliance surface.",
+          "source_url": "https://www.usu.edu/ai/tools"
+        },
+        {
+          "claim_type": "career",
+          "title": "Statewide NVIDIA AI education and workforce MOU (USU co-signatory)",
+          "summary": "Plugs USU into a multi-state industry-AI talent pipeline without having to negotiate bilaterally with NVIDIA; important for rural/land-grant workforce reach.",
+          "source_url": "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "AI and Writing undergraduate certificate",
+          "summary": "Signals that USU is treating AI literacy as a humanistic, not only STEM, obligation.",
+          "source_url": "https://www.usu.edu/degrees-majors/ai-and-writing_uc"
+        },
+        {
+          "claim_type": "cost_or_revenue",
+          "title": "Analytics Solution Center (ASC) industry AI consulting",
+          "summary": "Revenue-generating front door for non-academic AI engagements; complements DSAI Center research mission.",
+          "source_url": "https://huntsman.usu.edu/asc/"
+        },
+        {
+          "claim_type": "career",
+          "title": "NSF ExLENT grant for biotech/AI workforce development (USU College of Engineering)",
+          "summary": "Demonstrates competitive federal pull for USU's workforce-AI bets outside the R1 peers' usual fundable-AI channels.",
+          "source_url": "https://www.usu.edu/today/story/usu-receives-1m-nsf-grant-for-biotech-workforce-development"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No publicly disclosed dollar-denominated USU AI investment comparable to peer R1s' $50-100M funds; DSAI Center operating budget not public.",
+        "Effective/adopted date of Information Security Policy 2-8 (AI Use & Compliance) not published on the policy page.",
+        "No public evidence of a named USU chief AI officer, CAIO equivalent, or presidential-level AI council; governance is distributed.",
+        "GPU counts, node counts, and USU's share of University of Utah CHPC capacity not publicly reported.",
+        "Aggie AI: Write enrollment/usage metrics not published.",
+        "USU's share of the statewide NVIDIA MOU benefits (seat counts, certifications issued) not disclosed.",
+        "No public AI-specific gifts or donor-named endowments located; possible but not confirmed.",
+        "No AI-related controversies, lawsuits, or formal complaints surfaced in search; absence may reflect low public profile rather than absence of issues.",
+        "Provost position is listed with Laurens H. Smith but a permanent provost search was ongoing in 2025 — status as of April 2026 may be interim."
+      ]
+    }
+  }
+}

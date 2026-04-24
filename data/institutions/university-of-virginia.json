@@ -1,0 +1,1426 @@
+{
+  "institution": "University of Virginia",
+  "slug": "university-of-virginia",
+  "city_state": "Charlottesville, VA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 26409,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Scott C. Beardsley",
+      "url": "https://president.virginia.edu/about-the-president"
+    },
+    "provost": {
+      "name": "Brie Gertler (Interim)",
+      "url": "https://provost.virginia.edu/"
+    },
+    "cio": {
+      "name": "Kelly Doney",
+      "url": "https://cio.virginia.edu/leadership"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Ryan Wright and Henry Kautz",
+      "title": "Co-Directors, AI Research@UVA",
+      "url": "https://ai.provost.virginia.edu/new-co-directors-for-ai-researchatuva"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI @ UVA (Provost-sponsored AI portal)",
+        "url": "https://ai.provost.virginia.edu/",
+        "year": 2025
+      },
+      {
+        "title": "2025 Update on the Report of the Provost's Task Force on AI Research",
+        "url": "https://ai.provost.virginia.edu/2025-update-on-the-report-of-the-provost-s-task-force-on-ai-research",
+        "year": 2025
+      },
+      {
+        "title": "Report of the Provost's Task Force on Generative AI in Teaching and Learning",
+        "url": "https://genai.provost.virginia.edu/task-force-report",
+        "year": 2023
+      },
+      {
+        "title": "Guidance for Faculty & Students (Generative AI in Teaching and Learning)",
+        "url": "https://genai.provost.virginia.edu/guidance-for-faculty-students",
+        "year": 2024
+      }
+    ],
+    "summary": "UVA has built its AI posture around two provost-sponsored task forces (AI Research, and Generative AI in Teaching and Learning) whose recommendations produced AI Research@UVA in fall 2025, a standing body led by co-directors Ryan Wright (McIntire) and Henry Kautz (former NSF AI Institutes lead) that coordinates AI across the University. The strategy is organized around 'making AI both great and good,' anchoring responsible AI across research, education, healthcare, operations, and public service, and is operationalized through named hubs (LaCross AI Institute at Darden, National Security Data and Policy Institute, Digital Technology for Democracy Lab, AI Literacy and Action Lab, AI4VA) plus enterprise tooling (UVA Copilot Chat) and expanded Research Computing. Governance flows through the Provost's Office, the Vice President/CIO, UVA Health, and school-level deans rather than a single Chief AI Officer."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://genai.provost.virginia.edu/guidance-for-faculty-students",
+      "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317",
+      "https://honor.virginia.edu/faculty-tas/artificial-intelligence",
+      "https://med.virginia.edu/policies/uva-school-of-medicine-som-md-program-policy-on-generative-ai/"
+    ],
+    "adopted_date": "2024-08",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Instructors must state in each syllabus which Gen-AI uses are permitted and which are prohibited; defaulting to 'course-by-course' decisions rather than a single institution-wide rule",
+      "Only UVA Copilot Chat and Copilot for Microsoft 365 are officially supported — prompts and outputs stay inside UVA's tenant and are not used to train models",
+      "Instructors may not require students to create accounts with non-UVA Gen-AI tools that demand phone numbers or other personal data",
+      "Faculty may not enter students' original work into AI tools that would add the content to training datasets",
+      "University discourages use of AI detectors for academic fraud detection and discourages using Gen-AI to grade written work",
+      "Honor Committee guidance: undisclosed AI-generated work is a Honor Code violation; UVA School of Medicine MD program has its own generative-AI policy"
+    ],
+    "summary": "UVA's AI policy stance is cautious-and-delegated: the Provost publishes university-level Guidance for Faculty and Students, ITS publishes AI Responsible Use Guidelines and Terms of Use, and the Honor Committee and individual schools (notably the School of Medicine MD program) add their own rules, but decisions about permitted use on any given course or assignment are delegated to instructors via syllabus-level policy. The center of gravity is UVA Copilot Chat as the only officially supported tool for university data."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Research@UVA",
+        "type": "office",
+        "scope": "Standing university-wide research coordination body launched fall 2025; convenes existing AI hubs, advises leadership on strategy, and supports interdisciplinary AI research across all schools. Co-directed by Ryan Wright (McIntire) and Henry Kautz (Computer Science / former NSF).",
+        "url": "https://ai.provost.virginia.edu/"
+      },
+      {
+        "name": "Provost's Task Force on AI Research",
+        "type": "task_force",
+        "scope": "Established by then-Provost Ian Baucom; issued recommendations on computing resources, strategy, AI research center, ethics training, and data integration. Its 2025 update documents progress and the creation of AI Research@UVA.",
+        "url": "https://ai.provost.virginia.edu/2025-update-on-the-report-of-the-provost-s-task-force-on-ai-research"
+      },
+      {
+        "name": "Provost's Task Force on Generative AI in Teaching and Learning",
+        "type": "task_force",
+        "scope": "Convened by Vice Provost for Academic Affairs Brie Gertler; co-chaired by Natasha Heny (Education & Human Development) and Andrew Pennock (Batten). Produced the University's core guidance for faculty and students.",
+        "url": "https://genai.provost.virginia.edu/task-force-report"
+      },
+      {
+        "name": "Honor Committee AI guidance",
+        "type": "committee",
+        "scope": "Student-run Honor Committee publishes guidance for faculty and TAs on handling AI in academic integrity cases; treats undisclosed AI use as a potential Honor Code violation.",
+        "url": "https://honor.virginia.edu/faculty-tas/artificial-intelligence"
+      },
+      {
+        "name": "LaCross AI Institute Advisory Council",
+        "type": "council",
+        "scope": "Chaired by former Darden Dean Scott Beardsley (now UVA President) and supported by Academic Directors Yael Grushka-Cockayne and Raj Venkatesan; governs the LaCross Institute for Ethical AI in Business at Darden.",
+        "url": "https://www.darden.virginia.edu/intelligence"
+      }
+    ],
+    "summary": "Governance is federated across the Provost (AI Research@UVA and the two task forces), the CIO/ITS (UVA Copilot Chat and AI Responsible Use guidance), the Honor Committee (academic integrity), and school-level bodies (LaCross Advisory Council at Darden, SOM MD-program policy, Karsh Institute's democracy lab). UVA has not appointed a Chief AI Officer; accountability flows through the Provost, CIO Kelly Doney, and the AI Research@UVA co-directors."
+  },
+  "initiatives": [
+    {
+      "title": "AI Research@UVA launched as university-wide AI research coordinating body",
+      "description": "In fall 2025 the Provost's Office stood up AI Research@UVA, a standing body to advance, coordinate, and expand AI research across the University, foster interdisciplinary collaboration, and increase the visibility of UVA's AI work. Ryan Wright (McIntire) and Henry Kautz (CS, former NSF AI Institutes lead) were named co-directors; an advisory board supports them.",
+      "significance": "Establishes a named university-wide AI research office (short of a Chief AI Officer) that sector peers increasingly rely on to consolidate fragmented school-level AI efforts.",
+      "date_announced": "2025-10-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "institutional_ai_strategy",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Virginia / Provost's Office",
+        "description": "Base-budget funding increase for Research Computing plus one-time hardware/staff investments accompany the AI Research@UVA launch; specific dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "McIntire School of Commerce",
+            "School of Engineering and Applied Science",
+            "School of Data Science",
+            "Darden",
+            "UVA Health"
+          ],
+          "description": "Convenes AI activity across UVA's schools and institutes."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals UVA's shift from task-force-led AI governance to a standing, directed office with dedicated co-directors and an advisory board.",
+      "source_urls": [
+        "https://ai.provost.virginia.edu/",
+        "https://ai.provost.virginia.edu/2025-update-on-the-report-of-the-provost-s-task-force-on-ai-research",
+        "https://ai.provost.virginia.edu/new-co-directors-for-ai-researchatuva"
+      ]
+    },
+    {
+      "title": "LaCross Institute for Ethical AI in Business established at Darden with $62M gift",
+      "description": "Approved by the Board of Visitors on September 16, 2024, the LaCross Institute is anchored by a $101 million gift from Dave (MBA '78) and Kathy LaCross, of which $50–62 million is directed to AI initiatives. Academic Directors Yael Grushka-Cockayne and Raj Venkatesan lead teaching and research on responsible, ethical AI in business, with former Darden Dean Scott Beardsley chairing the Advisory Council.",
+      "significance": "One of the largest single donor gifts to an AI ethics/business-school institute in U.S. higher ed, and the anchor for UVA Darden's AI-first strategy course redesign.",
+      "date_announced": "2024-09-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_degree_program",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 101000000,
+        "funding_source": "Dave and Kathy LaCross (donor gift)",
+        "description": "$101M total gift to Darden, with $50M earmarked for the AI institute (later expanded to $62M for AI initiatives)."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UVA School of Data Science",
+            "Darden Institute for Business in Society",
+            "Batten Institute",
+            "Collaboratory for Applied Data Science in Business"
+          ],
+          "description": "Cross-school collaboration to coordinate ethical-AI work across UVA."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Centers 'ethical AI' as a business-school research and teaching frame at a top-20 MBA program.",
+      "source_urls": [
+        "https://news.virginia.edu/content/uva-launches-institute-darden-school-business-focus-artificial-intelligence",
+        "https://www.darden.virginia.edu/intelligence",
+        "https://poetsandquants.com/2024/09/23/mba-roundup-uva-launches-artificial-intelligence-institute-at-the-darden-school/"
+      ]
+    },
+    {
+      "title": "Capital One AI Research Neighborhood and Ph.D. Fellowship ($4.5M)",
+      "description": "Announced October 27, 2025, Capital One committed $2M to create a 31,000-sq-ft AI Research Neighborhood in UVA Engineering's new Whitehead Road Engineering Academic Building, matched by $2M from UVA, plus $500K for the Capital One Ph.D. Fellowship Awards. The neighborhood will house 50+ AI researchers focused on machine learning, data analytics, behavioral design, cyber systems, and model-based systems engineering.",
+      "significance": "Establishes a named industry-funded AI research hub inside Engineering's new flagship building, tying UVA directly to a top FinTech AI program (Capital One is led by EVP/Chief Scientist Prem Natarajan).",
+      "date_announced": "2025-10-27",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "computing_infrastructure",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4500000,
+        "funding_source": "Capital One ($2M) + UVA matching ($2M) + Fellowship ($0.5M)",
+        "description": "$4.5M total partnership: $2M from Capital One for the AI Research Neighborhood, matched $2M by UVA, plus $0.5M for Ph.D. Fellowship Awards."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Capital One"
+          ],
+          "description": "Named research neighborhood, fellowship program, and fintech-AI collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces the industry-academic partnership model as UVA Engineering's AI fundraising strategy.",
+      "source_urls": [
+        "https://engineering.virginia.edu/news-events/news/capital-one-and-uva-engineering-announce-major-partnership-advance-ai-research-and-education",
+        "https://www.capitalone.com/tech/ai/capital-one-uva-engineering-partnership/",
+        "https://team.firstignite.com/capital-one-and-uva-engineering-launch-4-5m-ai-partnership/"
+      ]
+    },
+    {
+      "title": "UVA Copilot Chat deployed as official enterprise Gen-AI tool",
+      "description": "UVA licensed a Microsoft 365 Copilot Chat enterprise edition (UVA Copilot Chat) accessible to faculty, staff, and students with UVA M365 credentials. Prompts and outputs stay inside UVA's tenant and are not used to train Microsoft's models. It is the only officially supported Gen-AI tool for UVA data; ITS directs all users to this platform.",
+      "significance": "Gives UVA a single sanctioned campus-wide Gen-AI surface that anchors the Provost's 'only use UVA Copilot for coursework' guidance — a common pattern emerging across large R1 publics.",
+      "date_announced": "2024-08-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Virginia ITS (enterprise license)",
+        "description": "Enterprise-wide Microsoft 365 Copilot license; cost not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Microsoft Copilot license with UVA-specific tenant and data protection."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UVA Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Primary approved Gen-AI chat for university data"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Embedded AI in Word, Excel, Outlook, PowerPoint, Teams"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Centralizes Gen-AI usage on a vendor platform with data-handling guarantees; enables the Provost to direct coursework off public ChatGPT.",
+      "source_urls": [
+        "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=09794a07db50b3084fac7608f496195f",
+        "https://guides.lib.virginia.edu/genai/copilot",
+        "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317",
+        "https://hub.advancement.virginia.edu/subpage/uva-copilot"
+      ]
+    },
+    {
+      "title": "National Security Data and Policy Institute ($20M ODNI contract)",
+      "description": "Launched in fall 2024 with a $20 million contract catalyzed by the Office of the Director of National Intelligence, the Institute coalesces UVA's expertise in data science, AI, research computing, and public policy to address national security challenges. Founding director Philip Potter leads; the Institute is co-located with the Albemarle County defense/intelligence hub (DIA, NGA, NGIC).",
+      "significance": "Puts UVA at the center of federally funded AI + national-security research and is a template for how R1 publics monetize AI-adjacent policy expertise.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "Office of the Director of National Intelligence (ODNI)",
+        "description": "$20M ODNI contract; initial hire of six with dozens of UVA researchers contributing."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "ODNI",
+            "Defense Intelligence Agency",
+            "National Geospatial-Intelligence Agency",
+            "National Ground Intelligence Center"
+          ],
+          "description": "Federal national-security partnerships with nearby Albemarle County intelligence hub."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Extends UVA's AI strategy into the national-security policy domain, raising FERPA/ITAR-adjacent governance questions for future dual-use work.",
+      "source_urls": [
+        "https://news.virginia.edu/content/uva-launch-institute-focused-national-security"
+      ]
+    },
+    {
+      "title": "AI Literacy and Action Lab launched by UVA Library and College of Arts & Sciences",
+      "description": "Announced April 17, 2026, the AI Literacy and Action Lab (led by University Librarian Leo S. Lo, Senior Associate Dean Bill Ashby, and Associate University Librarian Mira Waller) runs a program of pilot projects across Economics (Anton Korinek), first-year Writing (Piers Gelly), Philosophy (David Danks), and STEM/Chemistry (Andreas Gahlmann), plus asynchronous modules with AI4VA. Fall 2026 adds the 'Thinking in the Age of AI' seminar and an 'AI Literacy Across the Disciplines' series.",
+      "significance": "Signals UVA's shift from ad-hoc Gen-AI guidance to a structured, librarian-led AI-literacy curriculum that touches humanities, sciences, and community learners — an early sector example of a library-anchored AI literacy program.",
+      "date_announced": "2026-04-17",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development",
+        "ai_in_specific_disciplines",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UVA Library / College of Arts & Sciences / Online Education and Digital Innovation (OEDI)",
+        "description": "Pilot-scale cross-unit program; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UVA Library",
+            "College and Graduate School of Arts & Sciences",
+            "Online Education and Digital Innovation (OEDI)",
+            "AI4VA"
+          ],
+          "description": "Cross-unit program bridging library, college, and OEDI."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Formalizes AI literacy as a cross-disciplinary competency (technical, ethical, critical thinking, practical skills, societal impact) within the curriculum.",
+      "source_urls": [
+        "https://library.virginia.edu/ai/lab",
+        "https://library.virginia.edu/news/2026/new-ai-literacy-and-action-lab-creates-pathway-understanding-judgment-and-experimentation",
+        "https://www.infodocket.com/2026/04/17/university-of-virginia-new-ai-literacy-and-action-lab-creates-pathway-for-understanding-judgment-and-experimentation/"
+      ]
+    },
+    {
+      "title": "Darden 'All-In' Gen-AI redesign of core Strategy course",
+      "description": "Beginning fall 2025, Darden's core first-year MBA Strategy course requires all 359 first-year students to use ChatGPT, Claude, Copilot, or any chatbot in coursework — including on exams — with full transparency about which tool, what prompts, and how the student verified output. The course introduces a custom Classroom AI Studio for Engaging You ('CAiSEY') discussion agent and a course-specific Gen-AI policy. Course head is Professor Jared Harris.",
+      "significance": "A top-tier MBA program mandating Gen-AI use (including on assessments) inverts typical higher-ed policy defaults and is a high-visibility example of AI-resilient assessment at scale.",
+      "date_announced": "2025-08-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy",
+        "ai_tutoring_and_adaptive_learning",
+        "syllabus_level_policy",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Darden School of Business (tied to LaCross AI Institute)",
+        "description": "Course-level redesign with a custom AI agent (CAiSEY); specific budget not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "CAiSEY (Classroom AI Studio for Engaging You)",
+          "vendor": "UVA Darden",
+          "role": "Custom AI discussion/tutoring agent for core Strategy course"
+        },
+        {
+          "name": "ChatGPT / Claude / Copilot",
+          "vendor": "OpenAI / Anthropic / Microsoft",
+          "role": "Student-selected Gen-AI chat tools required for course work"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Inverts the default 'unauthorized AI = academic fraud' frame by making AI use required with transparency — a model for AI-resilient assessment.",
+      "source_urls": [
+        "https://news.darden.virginia.edu/2025/11/10/uva-darden-goes-all-in-on-use-of-generative-ai-in-core-strategy-course/",
+        "https://news.virginia.edu/content/uvas-darden-school-using-ai-isnt-cheating-its-part-assignment",
+        "https://www.darden.virginia.edu/lacross-ai-institute/education"
+      ]
+    },
+    {
+      "title": "Afton HPC system and NVIDIA BasePOD expansion (Research Computing)",
+      "description": "UVA Research Computing released Afton into production July 2, 2024 — 300 AMD EPYC 9454 nodes with 28,800 cores, 750GB–1.5TB RAM per node, and a shared 8 PB storage fabric alongside the legacy Rivanna system. Afton and Rivanna together provide 55 GPU nodes (NVIDIA A100, A40, A6000, V100, RTX3090, RTX2080) including an NVIDIA BasePOD for deep-learning workloads.",
+      "significance": "Doubles UVA's HPC capacity and provides a named GPU/BasePOD platform to support AI-specific research — the kind of computing 'pipe' the Provost's Task Force explicitly recommended investing in.",
+      "date_announced": "2024-07-02",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UVA Research Computing / Provost / Office of the Vice President for Research",
+        "description": "Base-budget increase plus one-time hardware/staff investments; Afton and Rivanna share 8 PB storage and 55 GPU nodes including NVIDIA BasePOD. Specific dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "AMD"
+          ],
+          "description": "Hardware vendor relationships for BasePOD and EPYC nodes."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Afton HPC",
+          "vendor": "UVA / AMD",
+          "role": "Primary HPC system (AMD EPYC 9454)"
+        },
+        {
+          "name": "Rivanna HPC",
+          "vendor": "UVA",
+          "role": "Legacy HPC system (still active)"
+        },
+        {
+          "name": "NVIDIA BasePOD",
+          "vendor": "NVIDIA",
+          "role": "Dedicated AI/ML GPU platform"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.rc.virginia.edu/2024/06/production-release-of-the-afton-hpc-system-july-2-2024/",
+        "https://www.rc.virginia.edu/userinfo/hpc/",
+        "https://www.rc.virginia.edu/userinfo/rivanna/overview/"
+      ]
+    },
+    {
+      "title": "AI4VA: Commonwealth-wide AI workforce and small-business initiative",
+      "description": "Run out of the Vice Provost for Online Education and Digital Innovation (OEDI), AI4VA pairs Virginia small businesses, non-profits, and local public agencies with UVA student teams (100+ hours) for six-week pro-bono AI strategy and implementation projects. OEDI partners with Riipen, Grow With Google, and the Charlottesville Regional Chamber. A separate $750K Commonwealth appropriation (budget amendment 183#2s in SB800) funds UVA-led planning of a broader Virginia AI partnership with Virginia Tech, industry, and government.",
+      "significance": "Positions UVA as a regional/state AI workforce hub — an example of 'regional economic impact' that also feeds the AI Literacy and Action Lab's community-learning track.",
+      "date_announced": "2024-10-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "ai_tool_equity",
+        "career_and_workforce_readiness",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 750000,
+        "funding_source": "Commonwealth of Virginia (SB800 budget amendment) + OEDI",
+        "description": "$750K Commonwealth appropriation for UVA to plan a Virginia-wide AI partnership with Virginia Tech; AI4VA itself is an OEDI-run program funded internally and via partners."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Riipen",
+            "Grow With Google",
+            "Charlottesville Regional Chamber of Commerce"
+          ],
+          "description": "Student-team consulting engagements with Virginia small businesses and nonprofits."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Virginia Tech"
+          ],
+          "description": "Planned collaborative Commonwealth-wide AI initiative."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Virginia"
+          ],
+          "description": "SB800 state appropriation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Connects UVA's AI posture to the Commonwealth's economic development and workforce agenda.",
+      "source_urls": [
+        "https://oedi.provost.virginia.edu/ai4va",
+        "https://budget.lis.virginia.gov/amendment/2025/1/SB800/Introduced/MR/183/2s/"
+      ]
+    },
+    {
+      "title": "Digital Technology for Democracy Lab at the Karsh Institute",
+      "description": "Administered by the Karsh Institute of Democracy and funded through UVA's Grand Challenges Research Initiatives, the Digital Technology for Democracy Lab (DTD Lab) examines how AI and other digital systems challenge and fortify democratic institutions. It runs a postdoctoral fellowship program, seed grants, and research-practice partnerships; 2025–2026 seed grant and postdoc cohorts (Aug 2026 start) are active.",
+      "significance": "One of the few R1 AI-and-democracy labs explicitly chartered as part of a Grand Challenges strategic investment, extending UVA's 'AI for public good' framing into elections, disinformation, and governance.",
+      "date_announced": "2023-02-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UVA Grand Challenges Research Initiatives / Karsh Institute",
+        "description": "Funded through UVA's Grand Challenges strategic research theme; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Karsh Institute of Democracy",
+            "UVA Grand Challenges"
+          ],
+          "description": "Strategic research theme collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Produces research on AI's impact on democratic institutions that feeds state and federal policy debates.",
+      "source_urls": [
+        "https://dtdlab.virginia.edu/",
+        "https://karshinstitute.virginia.edu/digital-technology-democracy-lab",
+        "https://research.virginia.edu/initiatives/strategic-research-themes/grand-challenges-research-investments/grand-challenges-2"
+      ]
+    },
+    {
+      "title": "Clinical AI portfolio at UVA Health (HeRO, Med-AI, Advanced Medical Analytics)",
+      "description": "UVA School of Medicine operates a long-running clinical AI portfolio: the Med-AI research program, the Center for Advanced Medical Analytics, and HeRO (Heart Rate Observation) — an FDA-cleared neonatal sepsis early-warning system deployed in 27 countries. The SOM MD Program has a dedicated Generative AI policy; Springbok Analytics (MRI-to-3D muscle rendering) was spun out of UVA research.",
+      "significance": "Demonstrates that UVA's AI-in-healthcare footprint is operational and commercial — not just exploratory — and includes a school-specific AI policy at the MD program level.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "regulatory_compliance",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "NIH, FDA-cleared devices, commercial spin-outs (Springbok Analytics), UVA Health",
+        "description": "Multi-decade NIH-funded clinical AI portfolio; specific totals not publicly consolidated."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Springbok Analytics",
+            "UVA Health"
+          ],
+          "description": "Clinical AI translational partnerships and spin-outs."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH",
+            "FDA"
+          ],
+          "description": "Federal funding and FDA clearance (HeRO)."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "HeRO (Heart Rate Observation)",
+          "vendor": "Medical Predictive Science Corporation / UVA",
+          "role": "FDA-cleared neonatal sepsis predictor"
+        },
+        {
+          "name": "Springbok Analytics",
+          "vendor": "Springbok Analytics (UVA spin-out)",
+          "role": "MRI-to-3D muscle volume AI platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "School of Medicine MD Program Policy on Generative AI constitutes one of UVA's most specific school-level AI policies.",
+      "source_urls": [
+        "https://med.virginia.edu/research/med-ai/",
+        "https://med.virginia.edu/advanced-medical-analytics/",
+        "https://med.virginia.edu/policies/uva-school-of-medicine-som-md-program-policy-on-generative-ai/"
+      ]
+    },
+    {
+      "title": "M.S. in Data Science AI concentration and expanded AI academic programs",
+      "description": "UVA's School of Data Science (the first dedicated data science school in the U.S., anchored by a $120M Quantitative Foundation gift and a new $33M building opened April 2024) offers a residential and online M.S. in Data Science with an AI concentration, a B.S. and Minor in Data Science, a Ph.D. in Data Science, and the SCPS AI Essentials continuing-ed certificate. Darden added an AI MBA track in 2025 under the LaCross AI Institute.",
+      "significance": "Establishes one of the broadest, most sustained AI academic-program portfolios at any R1 public — undergrad, master's, doctoral, MBA concentration, and continuing education.",
+      "date_announced": "2024-04-26",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_and_degree_value"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 120000000,
+        "funding_source": "Quantitative Foundation (Jaffray Woodriff)",
+        "description": "$120M Quantitative Foundation gift enabled the School of Data Science; $33M building opened April 26, 2024."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Quantitative Foundation"
+          ],
+          "description": "Donor gift that seeded the School of Data Science."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Curricular stack (Python, R, SQL, PyTorch, TensorFlow, AWS, Snowflake, DBT)",
+          "vendor": "Various",
+          "role": "Industry-standard data science and AI tools taught across programs"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://datascience.virginia.edu/degrees/msds-residential",
+        "https://datascience.virginia.edu/academics",
+        "https://news.virginia.edu/content/new-data-science-building-embodies-schools-core-values",
+        "https://www.scps.virginia.edu/programs/artificial-intelligence-essentials",
+        "https://poetsandquants.com/2025/04/23/another-top-u-s-b-school-adds-an-ai-track-to-its-mba-program/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI Research@UVA",
+      "focus": "University-wide coordinating body for AI research across all schools",
+      "founded": "2025",
+      "url": "https://ai.provost.virginia.edu/"
+    },
+    {
+      "name": "LaCross Institute for Ethical Artificial Intelligence in Business",
+      "focus": "Ethical AI in business teaching, research, and engagement",
+      "founded": "2024",
+      "url": "https://www.darden.virginia.edu/intelligence"
+    },
+    {
+      "name": "National Security Data and Policy Institute",
+      "focus": "AI, data science, and public policy for national security",
+      "founded": "2024",
+      "url": "https://news.virginia.edu/content/uva-launch-institute-focused-national-security"
+    },
+    {
+      "name": "Digital Technology for Democracy Lab (Karsh Institute)",
+      "focus": "AI/digital technology impact on democratic institutions",
+      "founded": "2023",
+      "url": "https://dtdlab.virginia.edu/"
+    },
+    {
+      "name": "Capital One AI Research Neighborhood (UVA Engineering)",
+      "focus": "Machine learning, data analytics, behavioral design, cyber systems, model-based systems engineering",
+      "founded": "2025",
+      "url": "https://engineering.virginia.edu/news-events/news/capital-one-and-uva-engineering-announce-major-partnership-advance-ai-research-and-education"
+    },
+    {
+      "name": "AI Literacy and Action Lab (UVA Library + College of Arts & Sciences)",
+      "focus": "Cross-disciplinary AI literacy curriculum and pilots",
+      "founded": "2026",
+      "url": "https://library.virginia.edu/ai/lab"
+    },
+    {
+      "name": "Human-AI Technology Lab (HAI Lab)",
+      "focus": "Human-AI interaction research in School of Engineering",
+      "founded": null,
+      "url": "https://hai-lab-uva.github.io/"
+    },
+    {
+      "name": "Center for Advanced Medical Analytics (SOM)",
+      "focus": "Clinical predictive analytics and ML",
+      "founded": null,
+      "url": "https://med.virginia.edu/advanced-medical-analytics/"
+    },
+    {
+      "name": "Med-AI (UVA School of Medicine)",
+      "focus": "AI research program in the School of Medicine",
+      "founded": null,
+      "url": "https://med.virginia.edu/research/med-ai/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Data Science, Residential (AI concentration)",
+      "level": "grad",
+      "launched": "2014-08",
+      "url": "https://datascience.virginia.edu/degrees/msds-residential"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Data Science, Online (AI concentration)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://datascience.virginia.edu/academics"
+    },
+    {
+      "type": "degree",
+      "name": "B.S. in Data Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://records.ureg.virginia.edu/preview_program.php?catoid=67&poid=10260"
+    },
+    {
+      "type": "minor",
+      "name": "Minor in Data Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://datascience.virginia.edu/academics"
+    },
+    {
+      "type": "degree",
+      "name": "Ph.D. in Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://datascience.virginia.edu/academics"
+    },
+    {
+      "type": "concentration",
+      "name": "MBA AI Track / Concentration (Darden)",
+      "level": "grad",
+      "launched": "2025-04",
+      "url": "https://www.darden.virginia.edu/lacross-ai-institute/education"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Essentials (SCPS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.scps.virginia.edu/programs/artificial-intelligence-essentials"
+    },
+    {
+      "type": "course",
+      "name": "Core Strategy (Darden, 'All-In' Gen-AI redesign)",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://news.darden.virginia.edu/2025/11/10/uva-darden-goes-all-in-on-use-of-generative-ai-in-core-strategy-course/"
+    },
+    {
+      "type": "course",
+      "name": "Thinking in the Age of AI (College of Arts & Sciences)",
+      "level": "undergrad",
+      "launched": "2026-08",
+      "url": "https://library.virginia.edu/ai/lab"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "UVA Copilot Chat (Microsoft 365 Copilot Chat enterprise)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=09794a07db50b3084fac7608f496195f"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://guides.lib.virginia.edu/genai/copilot"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Afton (primary) and Rivanna (legacy)",
+    "gpu_count": 55,
+    "url": "https://www.rc.virginia.edu/userinfo/hpc/",
+    "summary": "UVA Research Computing operates Afton (300 nodes, 28,800 AMD EPYC 9454 cores, 750GB–1.5TB RAM per node; released July 2, 2024) and Rivanna (603 nodes, 20,476+ cores). The systems share an 8 PB storage fabric and provide 55 GPU nodes (NVIDIA A100, A40, A6000, V100, RTX3090, RTX2080) including an NVIDIA BasePOD dedicated to AI/ML workloads. Following the Provost's AI Research Task Force recommendations, UVA increased the Research Computing base budget and made additional one-time hardware/staff investments."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "LaCross family gift to UVA Darden (AI and ethics)",
+      "amount_usd": 101000000,
+      "source": "Dave and Kathy LaCross",
+      "purpose": "Establish the LaCross Institute for Ethical AI in Business ($50–62M specifically for AI initiatives)",
+      "date": "2023-10",
+      "url": "https://news.virginia.edu/content/uva-launches-institute-darden-school-business-focus-artificial-intelligence"
+    },
+    {
+      "title": "ODNI contract for National Security Data and Policy Institute",
+      "amount_usd": 20000000,
+      "source": "Office of the Director of National Intelligence",
+      "purpose": "Stand up national security AI/data-policy institute",
+      "date": "2024-09",
+      "url": "https://news.virginia.edu/content/uva-launch-institute-focused-national-security"
+    },
+    {
+      "title": "Capital One AI Research Neighborhood + Ph.D. Fellowship",
+      "amount_usd": 4500000,
+      "source": "Capital One ($2M) + UVA match ($2M) + Fellowship ($0.5M)",
+      "purpose": "31,000-sq-ft AI research neighborhood and fellowship awards in UVA Engineering",
+      "date": "2025-10",
+      "url": "https://engineering.virginia.edu/news-events/news/capital-one-and-uva-engineering-announce-major-partnership-advance-ai-research-and-education"
+    },
+    {
+      "title": "Quantitative Foundation gift to School of Data Science",
+      "amount_usd": 120000000,
+      "source": "Quantitative Foundation (Jaffray Woodriff)",
+      "purpose": "Establishment of the School of Data Science and construction of its 61,000-sq-ft LEED Gold building",
+      "date": "2019-01",
+      "url": "https://news.virginia.edu/content/new-data-science-building-embodies-schools-core-values"
+    },
+    {
+      "title": "Commonwealth of Virginia appropriation (SB800 amendment 183#2s)",
+      "amount_usd": 750000,
+      "source": "Commonwealth of Virginia (state budget)",
+      "purpose": "UVA-led planning of a collaborative Commonwealth-wide AI initiative with Virginia Tech, industry, and government",
+      "date": "2025-01",
+      "url": "https://budget.lis.virginia.gov/amendment/2025/1/SB800/Introduced/MR/183/2s/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Capital One",
+      "purpose": "$4.5M AI Research Neighborhood + Ph.D. Fellowship in UVA Engineering",
+      "date": "2025-10",
+      "url": "https://engineering.virginia.edu/news-events/news/capital-one-and-uva-engineering-announce-major-partnership-advance-ai-research-and-education"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "UVA Copilot Chat enterprise license (campus-wide Gen-AI)",
+      "date": "2024-08",
+      "url": "https://guides.lib.virginia.edu/genai/copilot"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Office of the Director of National Intelligence",
+      "purpose": "$20M contract for National Security Data and Policy Institute",
+      "date": "2024-09",
+      "url": "https://news.virginia.edu/content/uva-launch-institute-focused-national-security"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Virginia Tech",
+      "purpose": "Planned Commonwealth-wide AI partnership (state-funded planning)",
+      "date": "2025-01",
+      "url": "https://budget.lis.virginia.gov/amendment/2025/1/SB800/Introduced/MR/183/2s/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Riipen + Grow With Google + Charlottesville Regional Chamber",
+      "purpose": "AI4VA: Virginia small-business/non-profit AI consulting with UVA student teams",
+      "date": "2024-10",
+      "url": "https://oedi.provost.virginia.edu/ai4va"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "NVIDIA BasePOD GPU platform on Afton/Rivanna for AI/ML research",
+      "date": "2024-07",
+      "url": "https://www.rc.virginia.edu/userinfo/hpc/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "UVA Copilot Chat",
+      "scope": "Campus-wide Gen-AI chat for faculty, staff, and students with UVA M365 credentials",
+      "url": "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=09794a07db50b3084fac7608f496195f"
+    },
+    {
+      "type": "tutor",
+      "name": "CAiSEY (Classroom AI Studio for Engaging You)",
+      "scope": "Custom AI discussion/tutoring agent for Darden's core first-year Strategy course (~359 MBA students)",
+      "url": "https://news.darden.virginia.edu/2025/11/10/uva-darden-goes-all-in-on-use-of-generative-ai-in-core-strategy-course/"
+    },
+    {
+      "type": "other",
+      "name": "AI4VA student teams",
+      "scope": "UVA student consulting teams embedded with Virginia small businesses/non-profits",
+      "url": "https://oedi.provost.virginia.edu/ai4va"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI4VA community learning track",
+      "description": "AI4VA partnership with Grow With Google and the Charlottesville Regional Chamber provides AI consulting and literacy to Virginia small businesses and non-profits that otherwise lack access to AI expertise.",
+      "url": "https://oedi.provost.virginia.edu/ai4va"
+    },
+    {
+      "title": "AI Literacy and Action Lab community modules",
+      "description": "Asynchronous AI-literacy modules and office hours developed with AI4VA for community learners, extending the lab's cross-disciplinary framework beyond UVA students.",
+      "url": "https://library.virginia.edu/ai/lab"
+    },
+    {
+      "title": "Instructor guidance against requiring non-UVA Gen-AI accounts",
+      "description": "Provost guidance prohibits instructors from requiring students to create accounts on Gen-AI tools that demand personal information (e.g., phone numbers), reducing access and privacy disparities.",
+      "url": "https://genai.provost.virginia.edu/guidance-for-faculty-students"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Virginia",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Governor Glenn Youngkin signed Executive Order 30 in January 2024, setting AI safety/ethics standards for state agencies, K-12, colleges and universities, and law enforcement, with SCHEV and the Department of Education directed to issue education guidelines; EO 51 (2025) adds a Virginia agentic-AI pilot to reduce regulations. A state AI Task Force provides biannual recommendations. Virginia does not operate a single public-university system, so there is no system-level AI policy layered on top of UVA's own; UVA operates independently under Commonwealth guidance.",
+    "urls": [
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://www.governor.virginia.gov/newsroom/news-releases/2024/january/name-1019979-en.html",
+      "https://www.woodsrogers.com/insights/publications/overview-of-virginias-ai-executive-order",
+      "https://www.orm.virginia.gov/media/governorvirginiagov/orm/pdf/Overview-of-the-AI-Task-Force.pdf"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-05",
+      "summary": "The Cavalier Daily editorial board criticized UVA for leaving AI policy largely to individual instructors and called for stronger institution-wide guidance, especially around academic integrity and detection.",
+      "status": "unknown",
+      "url": "https://www.cavalierdaily.com/article/2025/05/editorial-uva-needs-to-promote-better-artificial-intelligence-policies"
+    }
+  ],
+  "narrative_summary": "The University of Virginia has organized its AI posture around two provost-led task forces (AI Research, and Generative AI in Teaching and Learning) whose recommendations have since been operationalized by AI Research@UVA, a standing university-wide coordinating body launched in fall 2025 under co-directors Ryan Wright (McIntire) and Henry Kautz (Computer Science, former NSF AI Institutes lead). UVA has not named a Chief AI Officer; instead, AI leadership is federated across the Provost's Office, CIO Kelly Doney (who joined in 2023), UVA Health, the Honor Committee, and the deans of its AI-anchoring schools. President Scott C. Beardsley (formerly Darden's dean) took office January 1, 2026, and has personal ties to the LaCross AI Institute, the largest single AI investment on campus.\n\nFunding and partnership activity is unusually dense: a $101M gift from Dave and Kathy LaCross (2023) created the LaCross Institute for Ethical AI in Business at Darden; a $20M ODNI contract (2024) stood up the National Security Data and Policy Institute under Philip Potter; a $4.5M Capital One partnership (2025) created a 31,000-sq-ft AI Research Neighborhood and Ph.D. Fellowship program in Engineering's new Whitehead Road building; the Karsh Institute's Digital Technology for Democracy Lab (2023) works on AI and democratic institutions; and a $750K Commonwealth appropriation funds UVA-led planning of a state-wide AI partnership with Virginia Tech. Research computing backs this with the Afton HPC system (released July 2024), which more than doubled capacity, plus 55 GPU nodes and an NVIDIA BasePOD on top of the existing Rivanna system.\n\nOn the teaching/policy side, UVA's stance is cautious-and-delegated: the Provost publishes guidance and ITS runs UVA Copilot Chat as the only officially supported Gen-AI tool, but instructors decide course-level rules on syllabi, and the Honor Committee treats undisclosed AI use as a possible Honor Code violation. Bright spots include Darden's 'All-In' Gen-AI redesign of its core first-year Strategy course (359 MBAs required to use AI with full transparency) and the Library-led AI Literacy and Action Lab launched April 2026, which pilots AI literacy pedagogy across Economics, Writing, Philosophy, and Chemistry. Gaps include the absence of a named Chief AI Officer, no published institution-wide AI strategy document distinct from the task-force updates, no predictive-analytics-for-retention program surfaced in public sources, and student-press criticism that AI policy is too loosely devolved to instructors.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.provost.virginia.edu/",
+      "https://ai.provost.virginia.edu/2025-update-on-the-report-of-the-provost-s-task-force-on-ai-research",
+      "https://ai.provost.virginia.edu/new-co-directors-for-ai-researchatuva",
+      "https://genai.provost.virginia.edu/",
+      "https://genai.provost.virginia.edu/task-force-report",
+      "https://genai.provost.virginia.edu/guidance-for-faculty-students",
+      "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=09794a07db50b3084fac7608f496195f",
+      "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317",
+      "https://honor.virginia.edu/faculty-tas/artificial-intelligence",
+      "https://med.virginia.edu/policies/uva-school-of-medicine-som-md-program-policy-on-generative-ai/",
+      "https://news.virginia.edu/content/uva-launches-institute-darden-school-business-focus-artificial-intelligence",
+      "https://news.virginia.edu/content/uva-launch-institute-focused-national-security",
+      "https://news.virginia.edu/content/uvas-darden-school-using-ai-isnt-cheating-its-part-assignment",
+      "https://news.darden.virginia.edu/2025/11/10/uva-darden-goes-all-in-on-use-of-generative-ai-in-core-strategy-course/",
+      "https://www.darden.virginia.edu/intelligence",
+      "https://www.darden.virginia.edu/lacross-ai-institute/education",
+      "https://engineering.virginia.edu/news-events/news/capital-one-and-uva-engineering-announce-major-partnership-advance-ai-research-and-education",
+      "https://www.capitalone.com/tech/ai/capital-one-uva-engineering-partnership/",
+      "https://library.virginia.edu/ai/lab",
+      "https://library.virginia.edu/news/2026/new-ai-literacy-and-action-lab-creates-pathway-understanding-judgment-and-experimentation",
+      "https://www.infodocket.com/2026/04/17/university-of-virginia-new-ai-literacy-and-action-lab-creates-pathway-for-understanding-judgment-and-experimentation/",
+      "https://www.rc.virginia.edu/userinfo/hpc/",
+      "https://www.rc.virginia.edu/2024/06/production-release-of-the-afton-hpc-system-july-2-2024/",
+      "https://www.rc.virginia.edu/userinfo/rivanna/overview/",
+      "https://oedi.provost.virginia.edu/ai4va",
+      "https://budget.lis.virginia.gov/amendment/2025/1/SB800/Introduced/MR/183/2s/",
+      "https://dtdlab.virginia.edu/",
+      "https://karshinstitute.virginia.edu/digital-technology-democracy-lab",
+      "https://research.virginia.edu/initiatives/strategic-research-themes/grand-challenges-research-investments/grand-challenges-2",
+      "https://datascience.virginia.edu/",
+      "https://datascience.virginia.edu/degrees/msds-residential",
+      "https://datascience.virginia.edu/academics",
+      "https://records.ureg.virginia.edu/preview_program.php?catoid=67&poid=10260",
+      "https://www.scps.virginia.edu/programs/artificial-intelligence-essentials",
+      "https://poetsandquants.com/2025/04/23/another-top-u-s-b-school-adds-an-ai-track-to-its-mba-program/",
+      "https://poetsandquants.com/2024/09/23/mba-roundup-uva-launches-artificial-intelligence-institute-at-the-darden-school/",
+      "https://news.virginia.edu/content/new-data-science-building-embodies-schools-core-values",
+      "https://med.virginia.edu/research/med-ai/",
+      "https://med.virginia.edu/advanced-medical-analytics/",
+      "https://hai-lab-uva.github.io/",
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://www.governor.virginia.gov/newsroom/news-releases/2024/january/name-1019979-en.html",
+      "https://www.woodsrogers.com/insights/publications/overview-of-virginias-ai-executive-order",
+      "https://www.orm.virginia.gov/media/governorvirginiagov/orm/pdf/Overview-of-the-AI-Task-Force.pdf",
+      "https://president.virginia.edu/about-the-president",
+      "https://cio.virginia.edu/leadership",
+      "https://provost.virginia.edu/",
+      "https://www.cavalierdaily.com/article/2025/05/editorial-uva-needs-to-promote-better-artificial-intelligence-policies",
+      "https://www.collegetuitioncompare.com/edu/234076/university-of-virginia-main-campus/enrollment/",
+      "https://guides.lib.virginia.edu/genai/copilot"
+    ],
+    "search_queries": [
+      "\"University of Virginia\" AI strategy 2025 2026",
+      "\"University of Virginia\" generative AI policy faculty students",
+      "\"University of Virginia\" AI governance council task force provost",
+      "\"University of Virginia\" president provost CIO 2026",
+      "\"University of Virginia\" AI research center institute launch",
+      "\"University of Virginia\" Microsoft Copilot ChatGPT Edu campus deployment",
+      "\"University of Virginia\" AI degree program school of data science",
+      "\"University of Virginia\" HPC GPU cluster Rivanna Afton supercomputer",
+      "\"University of Virginia\" Capital One AI Research Neighborhood partnership",
+      "\"University of Virginia\" AI4VA initiative state partnership",
+      "\"UVA\" Digital Technology for Democracy Lab launch",
+      "\"University of Virginia\" AI chatbot student advising predictive analytics",
+      "\"UVA Darden\" generative AI MBA strategy course Scott Snell",
+      "\"University of Virginia\" AI health medicine radiology clinical",
+      "\"University of Virginia\" enrollment 2025 total students",
+      "Virginia state artificial intelligence executive order governor Youngkin universities",
+      "\"UVA\" Kautz Ryan Wright AI Research director appointment",
+      "\"University of Virginia\" School of Data Science building 2024 launch"
+    ],
+    "gaps_acknowledged": [
+      "No named Chief AI Officer; AI strategy leadership is federated and no single published institution-wide AI strategy document exists beyond the two task-force reports/updates",
+      "No evidence of a centrally deployed AI-powered student-advising/retention predictive-analytics system surfaced in public sources",
+      "Specific dollar amounts for the Research Computing base-budget increase and for UVA Copilot Chat enterprise licensing are not publicly disclosed",
+      "Exact launch date for UVA Copilot Chat is approximated to August 2024 based on ITS guidance publication; no authoritative press release was located",
+      "No publicly documented formal equity-and-access initiative explicitly targeting algorithmic-bias auditing or disability accessibility within AI tool rollouts beyond the Provost's instructor guidance",
+      "Enrollment figure is most recent publicly reported total (AY 2024-2025, 26,409); official IRA figure for 2025-2026 not located"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 8,
+        "research_compute_powerhouse": 22,
+        "curriculum_led": 15,
+        "governance_led": 15,
+        "student_success_led": 3,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "requires_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 9,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 9,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Afton (primary) and Rivanna (legacy)",
+        "gpu_count": 55,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 246250000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 4,
+        "other_unclear": 5,
+        "public_federal_state": 2,
+        "industry_vendor": 3,
+        "institutional": 3
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 5,
+          "products": [
+            "ChatGPT / Claude / Copilot",
+            "Microsoft 365 Copilot",
+            "UVA Copilot Chat",
+            "UVA Copilot Chat (Microsoft 365 Copilot Chat enterprise)"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "Curricular stack (Python, R, SQL, PyTorch, TensorFlow, AWS, Snowflake, DBT)"
+          ]
+        },
+        {
+          "vendor": "Medical Predictive Science Corporation / UVA HeRO (Heart Rate Observation)",
+          "mentions": 1,
+          "products": [
+            "HeRO (Heart Rate Observation)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA BasePOD"
+          ]
+        },
+        {
+          "vendor": "Springbok Analytics (UVA spin-out) Springbok Analytics",
+          "mentions": 1,
+          "products": [
+            "Springbok Analytics"
+          ]
+        },
+        {
+          "vendor": "UVA / AMD Afton HPC",
+          "mentions": 1,
+          "products": [
+            "Afton HPC"
+          ]
+        },
+        {
+          "vendor": "UVA Darden CAiSEY (Classroom AI Studio for Engaging You)",
+          "mentions": 1,
+          "products": [
+            "CAiSEY (Classroom AI Studio for Engaging You)"
+          ]
+        },
+        {
+          "vendor": "UVA Rivanna HPC",
+          "mentions": 1,
+          "products": [
+            "Rivanna HPC"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "UVA Copilot Chat deployed as official enterprise Gen-AI tool",
+          "summary": "Gives UVA a single sanctioned campus-wide Gen-AI surface that anchors the Provost's 'only use UVA Copilot for coursework' guidance — a common pattern emerging across large R1 publics.",
+          "source_url": "https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=09794a07db50b3084fac7608f496195f"
+        },
+        {
+          "claim_type": "learning",
+          "title": "AI Literacy and Action Lab launched by UVA Library and College of Arts & Sciences",
+          "summary": "Signals UVA's shift from ad-hoc Gen-AI guidance to a structured, librarian-led AI-literacy curriculum that touches humanities, sciences, and community learners — an early sector example of a library-anchored AI literacy program.",
+          "source_url": "https://library.virginia.edu/ai/lab"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Darden 'All-In' Gen-AI redesign of core Strategy course",
+          "summary": "A top-tier MBA program mandating Gen-AI use (including on assessments) inverts typical higher-ed policy defaults and is a high-visibility example of AI-resilient assessment at scale.",
+          "source_url": "https://news.darden.virginia.edu/2025/11/10/uva-darden-goes-all-in-on-use-of-generative-ai-in-core-strategy-course/"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI4VA: Commonwealth-wide AI workforce and small-business initiative",
+          "summary": "Positions UVA as a regional/state AI workforce hub — an example of 'regional economic impact' that also feeds the AI Literacy and Action Lab's community-learning track.",
+          "source_url": "https://oedi.provost.virginia.edu/ai4va"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Digital Technology for Democracy Lab at the Karsh Institute",
+          "summary": "One of the few R1 AI-and-democracy labs explicitly chartered as part of a Grand Challenges strategic investment, extending UVA's 'AI for public good' framing into elections, disinformation, and governance.",
+          "source_url": "https://dtdlab.virginia.edu/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No named Chief AI Officer; AI strategy leadership is federated and no single published institution-wide AI strategy document exists beyond the two task-force reports/updates",
+        "No evidence of a centrally deployed AI-powered student-advising/retention predictive-analytics system surfaced in public sources",
+        "Specific dollar amounts for the Research Computing base-budget increase and for UVA Copilot Chat enterprise licensing are not publicly disclosed",
+        "Exact launch date for UVA Copilot Chat is approximated to August 2024 based on ITS guidance publication; no authoritative press release was located",
+        "No publicly documented formal equity-and-access initiative explicitly targeting algorithmic-bias auditing or disability accessibility within AI tool rollouts beyond the Provost's instructor guidance",
+        "Enrollment figure is most recent publicly reported total (AY 2024-2025, 26,409); official IRA figure for 2025-2026 not located"
+      ]
+    }
+  }
+}

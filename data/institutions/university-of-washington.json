@@ -1,0 +1,1658 @@
+{
+  "institution": "University of Washington",
+  "slug": "university-of-washington",
+  "city_state": "Seattle, WA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Washington",
+  "enrollment": 63727,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Robert J. Jones",
+      "url": "https://www.washington.edu/president/biography/"
+    },
+    "provost": {
+      "name": "Tricia Serio",
+      "url": "https://www.washington.edu/provost/"
+    },
+    "cio": {
+      "name": "Andreas Bohman",
+      "url": "https://it.uw.edu/uw-it/divisions/office-of-the-cio/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Noah A. Smith",
+      "title": "Vice Provost for Artificial Intelligence; Charles and Lisa Simonyi Endowed Chair for Artificial Intelligence and Emerging Technologies",
+      "url": "https://www.washington.edu/provost/2025/11/18/noah-smith-named-endowed-chair-and-vice-provost-for-artificial-intelligence/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI Task Force Final Report (WAISTAR framework)",
+        "url": "https://www.ai.uw.edu/about/ai-task-force/",
+        "year": 2025
+      },
+      {
+        "title": "AI@UW Initiative",
+        "url": "https://www.ai.uw.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI General Use Guidelines",
+        "url": "https://it.uw.edu/guides/security-authentication/artificial-intelligence-guidelines/",
+        "year": 2025
+      }
+    ],
+    "summary": "UW's strategy is articulated through the AI@UW initiative launched in November 2025 and anchored by the Washington AI Initiative for Society, Teaching and Research (WAISTAR) framework from the 80-member AI Task Force. The strategy covers four pillars - student success, research, teaching, and resources - and is led by a new Vice Provost for AI (Noah Smith). A $10M Simonyi gift funds an endowed chair, SEED-AI grants, governance, scholarships, and computing. The AI Task Force report was released in March 2025, and AI@UW operationalizes its recommendations."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.uw.edu/guides/security-authentication/artificial-intelligence-guidelines/",
+      "https://teaching.washington.edu/course-design/ai/",
+      "https://finance.uw.edu/recmgt/UW-records-ai-guidance"
+    ],
+    "adopted_date": "2025-09",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Data classification rules: public (Level 1) permitted; restricted (Levels 2-4) require contractual protections",
+      "Only UW-approved GenAI tools may be used with University data (UWare catalog governs)",
+      "Disclosure of GenAI use required in research and coursework",
+      "Prohibits use of GenAI for high-risk decisions (hiring, admissions, performance) without privacy assessments",
+      "Faculty must establish per-course AI policy via syllabus",
+      "Privacy documentation in TrustArc platform; records retention via Records Management Services"
+    ],
+    "summary": "UW adopted a Generative AI General Use Guidelines policy on September 16, 2025 that is comprehensive rather than prohibitive - it allows responsible use while imposing data-classification, privacy-assessment, and disclosure requirements. The institution defers syllabus-level AI policy to instructors and provides sample statements through Teaching@UW. Microsoft Copilot Chat (with commercial data protection) is the officially supported GenAI service."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Task Force",
+        "type": "task_force",
+        "scope": "80-member body across 5 working groups (research/knowledge, student services, teaching & learning, infrastructure, administration); co-chaired by CIO Andreas Bohman and iSchool Dean Anind Dey. Produced the WAISTAR framework and final report in March 2025.",
+        "url": "https://www.ai.uw.edu/about/ai-task-force/"
+      },
+      {
+        "name": "AI Governance Committee (AI@UW)",
+        "type": "committee",
+        "scope": "New governance committee funded via Simonyi gift, operating under AI@UW and the Vice Provost for AI",
+        "url": "https://www.washington.edu/news/2025/11/18/10-million-gift-from-charles-and-lisa-simonyi-establishes-aiuw-to-advance-artificial-intelligence-and-emerging-technologies/"
+      },
+      {
+        "name": "Office of the Vice Provost for Artificial Intelligence",
+        "type": "office",
+        "scope": "University-wide AI leadership office established November 2025 under Noah Smith, reporting to the Provost",
+        "url": "https://www.washington.edu/provost/2025/11/18/noah-smith-named-endowed-chair-and-vice-provost-for-artificial-intelligence/"
+      },
+      {
+        "name": "ADA Digital Accessibility Board",
+        "type": "council",
+        "scope": "Oversees university-wide digital accessibility including AI-driven tools to meet the April 2026 ADA Title II deadline",
+        "url": "https://www.washington.edu/accessibility/digital/initiative/"
+      }
+    ],
+    "summary": "UW has a layered governance structure: a university-wide Task Force (since Feb 2024) that produced the WAISTAR strategic framework, a new AI Governance Committee under the Vice Provost for AI, and the Office of the Vice Provost for AI itself (stood up Nov 2025). UW-IT's CIO co-chaired the task force, embedding IT and policy oversight in a single process."
+  },
+  "initiatives": [
+    {
+      "title": "AI@UW initiative launched with $10M Simonyi gift",
+      "description": "In November 2025, UW launched AI@UW - a university-wide initiative for artificial intelligence - underwritten by a $10 million gift from Charles and Lisa Simonyi. Funds establish the Charles and Lisa Simonyi Endowed Chair for AI and Emerging Technologies, seed grants, a governance committee, student scholarships, community engagement, and computing investments.",
+      "significance": "Establishes a named, funded, university-wide AI leadership structure that other R1s are now benchmarking against; integrates governance, research, teaching, and infrastructure under one initiative with durable endowment funding.",
+      "date_announced": "2025-11-18",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "institutional_ai_strategy",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Charles and Lisa Simonyi philanthropic gift (Simonyi Fund for Artificial Intelligence and Emerging Technologies)",
+        "description": "$10M endowment funding chair, SEED-AI grants, scholarships, governance, and computing resources"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Charles Simonyi (Microsoft technical fellow)",
+            "Lisa Simonyi (UW Foundation Board chair)"
+          ],
+          "description": "Donor-funded university-wide AI initiative"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates formal AI leadership and funds a governance committee; positions UW as a comprehensive-stance institution.",
+      "source_urls": [
+        "https://www.washington.edu/news/2025/11/18/10-million-gift-from-charles-and-lisa-simonyi-establishes-aiuw-to-advance-artificial-intelligence-and-emerging-technologies/",
+        "https://www.ai.uw.edu/"
+      ]
+    },
+    {
+      "title": "Noah Smith appointed inaugural Vice Provost for Artificial Intelligence",
+      "description": "Noah A. Smith, Amazon Professor of Machine Learning at the Allen School and senior director of NLP research at the Allen Institute for AI, was named the University's first vice provost and endowed chair for AI, beginning November 1, 2025, for a five-year term.",
+      "significance": "Creates a dedicated, senior, provost-level AI strategy role - a governance signal adopted by a growing number of top research universities in 2025.",
+      "date_announced": "2025-11-18",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Simonyi endowed chair",
+        "description": "Endowed chair and vice provost office with five-year term"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Centralizes AI strategy at the Provost's Office; leader is also tied to Ai2, reinforcing R&D pipeline.",
+      "source_urls": [
+        "https://www.washington.edu/provost/2025/11/18/noah-smith-named-endowed-chair-and-vice-provost-for-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "UW AI Task Force and WAISTAR strategy framework",
+      "description": "UW's 80-member AI Task Force, co-chaired by CIO Andreas Bohman and iSchool Dean Anind Dey, ran from February 2024 and released its final report in March 2025. The report outlines the Washington AI Initiative for Society, Teaching and Research (WAISTAR) framework across five working-group domains: research/knowledge, student services, teaching & learning, infrastructure, and administration.",
+      "significance": "One of the largest and most structured R1 AI task forces in the sector; its report explicitly connects governance, investment, and infrastructure into a single sustainable roadmap.",
+      "date_announced": "2024-02-15",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UW Provost's Office and UW-IT",
+        "description": "Internal staffing and effort for 80-member task force and five working groups"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "The task force's recommendations drove the creation of the Vice Provost for AI role and AI@UW.",
+      "source_urls": [
+        "https://www.ai.uw.edu/about/ai-task-force/",
+        "https://www.washington.edu/provost/2024/02/15/task-force-appointed-to-address-ai/",
+        "https://www.washington.edu/provost/2024/09/24/update-on-the-work-of-the-ai-task-force/"
+      ]
+    },
+    {
+      "title": "Generative AI General Use Guidelines adopted",
+      "description": "UW-IT adopted its Generative AI General Use Guidelines on September 16, 2025. The policy permits GenAI for public (Level 1) data but restricts use with higher-sensitivity data to UW-approved services with contractual protections. It mandates TrustArc privacy documentation, disclosure in research and coursework, and prohibits GenAI for high-risk decisions without privacy assessment.",
+      "significance": "Comprehensive policy stance that balances permissive use with data-classification and disclosure requirements, aligning with a broader sector trend away from blanket bans.",
+      "date_announced": "2025-09-16",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UW-IT",
+        "description": "Policy effort with TrustArc privacy tooling"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "TrustArc"
+          ],
+          "description": "Privacy management platform integration for GenAI documentation"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TrustArc",
+          "vendor": "TrustArc",
+          "role": "Privacy management documentation for GenAI"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates formal guardrails and required disclosure; embeds AI policy in existing Appropriate Use Policy.",
+      "source_urls": [
+        "https://it.uw.edu/guides/security-authentication/artificial-intelligence-guidelines/",
+        "https://finance.uw.edu/recmgt/UW-records-ai-guidance"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Chat rolled out campus-wide",
+      "description": "UW-IT deployed Microsoft Copilot Chat with commercial data protection as the only UW-supported generative AI tool for faculty, staff, students, UW Medicine workforce, and Shared UW NetIDs. Microsoft 365 Copilot premium integrations (Word, Excel, Outlook) are rolling out, along with GitHub Copilot, ChatGPT Edu, Zoom AI Companion, and Workday AI features.",
+      "significance": "A large tri-campus deployment of enterprise GenAI built on Microsoft 365 licensing - representative of the dominant vendor pattern across public R1s.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UW-IT / Microsoft 365 enterprise agreement",
+        "description": "Tri-campus deployment of Copilot Chat with commercial data protection"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Copilot deployment via Microsoft 365"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Campus-wide GenAI assistant"
+        },
+        {
+          "name": "Microsoft 365 Copilot (Premium)",
+          "vendor": "Microsoft",
+          "role": "AI in Word/Excel/Outlook (rolling out)"
+        },
+        {
+          "name": "GitHub Copilot",
+          "vendor": "GitHub / Microsoft",
+          "role": "AI coding assistant"
+        },
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "GenAI for faculty and staff"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting transcription and summarization"
+        },
+        {
+          "name": "Workday AI",
+          "vendor": "Workday",
+          "role": "Financial process automation"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Official tool list constrains users to approved GenAI surfaces; aligns with data-classification policy.",
+      "source_urls": [
+        "https://it.uw.edu/uware/microsoft-copilot-chat/",
+        "https://it.uw.edu/guides/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Purple - UW's primary campus GenAI tool",
+      "description": "UW-IT offers 'Purple' as its branded safe-and-secure GenAI tool for students, faculty, staff, and researchers, alongside Tillicum (GPU compute) and Microsoft Copilot.",
+      "significance": "UW-branded GenAI wrapper is a distinctive approach to providing guardrailed AI tooling to the full tri-campus community.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UW-IT",
+        "description": "UW-branded secure GenAI deployment"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Purple",
+          "vendor": "University of Washington IT",
+          "role": "UW-branded safe-and-secure generative AI tool for tri-campus use"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Complements Copilot as the institutional-branded GenAI surface under UW's AUP.",
+      "source_urls": [
+        "https://it.uw.edu/guides/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Tillicum GPU supercomputer for AI research",
+      "description": "UW-IT operates Tillicum, a next-generation GPU-accelerated research computing platform built on NVIDIA H200 GPUs with NVLink 4.0 and 400 Gbps InfiniBand, designed for AI, ML, and data science workloads. It sits alongside the Hyak Klone HPC cluster, with access subsidized by the Student Technology Fee.",
+      "significance": "Tri-campus dedicated AI compute on current-generation H200 GPUs positions UW in the top tier of R1 research computing capacity; subsidized student access supports instruction and thesis work.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UW-IT, Student Technology Fee, NVIDIA H200 hardware",
+        "description": "GPU cluster with subscription billing at $0.90/GPU-hour"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "H200 GPU hardware platform for research computing"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Tillicum",
+          "vendor": "University of Washington IT",
+          "role": "GPU-accelerated research computing platform"
+        },
+        {
+          "name": "Hyak Klone",
+          "vendor": "University of Washington IT",
+          "role": "HPC cluster for research"
+        },
+        {
+          "name": "NVIDIA H200",
+          "vendor": "NVIDIA",
+          "role": "GPU hardware for AI workloads"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hyak.uw.edu/",
+        "https://hyak.uw.edu/docs/tillicum/architecture/",
+        "https://hyak.uw.edu/docs/tillicum/"
+      ]
+    },
+    {
+      "title": "OMAI: $152M NSF/NVIDIA open multimodal AI infrastructure project",
+      "description": "Announced August 2025, the Open Multimodal AI Infrastructure to Accelerate Science (OMAI) is led by Noah Smith (UW Allen School/Ai2) and co-PI Hanna Hajishirzi (UW/Ai2). NSF awarded $75M through its Mid-Scale Research Infrastructure program; NVIDIA added $77M. Partners include Cirrascale and Supermicro, plus U. Hawai'i at Hilo, U. New Hampshire, and U. New Mexico.",
+      "significance": "One of the largest single NSF/NVIDIA AI infrastructure awards to an R1; explicitly focused on fully open models, weights, and data for science - counterpoint to closed commercial LLMs.",
+      "date_announced": "2025-08-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "open_source_contribution",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 152000000,
+        "funding_source": "NSF ($75M Mid-Scale Research Infrastructure) and NVIDIA ($77M)",
+        "description": "Five-year open multimodal AI model infrastructure for science"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Cirrascale Cloud Services",
+            "Supermicro"
+          ],
+          "description": "Cloud, hardware, and GPU partners for OMAI infrastructure"
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Allen Institute for AI (Ai2)",
+            "University of Hawai'i at Hilo",
+            "University of New Hampshire",
+            "University of New Mexico"
+          ],
+          "description": "Multi-university open AI research consortium"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF Mid-Scale Research Infrastructure award"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "OLMo / Tulu",
+          "vendor": "Allen Institute for AI",
+          "role": "Open foundation models built on OMAI infrastructure"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.cs.washington.edu/2025/08/14/allen-school-partners-with-ai2-to-advance-open-ai-and-breakthrough-science-with-support-from-nsf-and-nvidia/",
+        "https://www.geekwire.com/2025/allen-institute-for-ai-lands-152m-from-nvidia-and-nsf-to-lead-national-ai-project/",
+        "https://allenai.org/blog/nsf-nvidia"
+      ]
+    },
+    {
+      "title": "SEED-AI faculty grants program",
+      "description": "Launched in early 2026, the Supporting Educational Excellence and Discovery with AI Grants (SEED-AI) program awards UW faculty $1,000-$50,000 for projects that use AI to enhance teaching and learning. The inaugural cohort funded 36 SEED-AI grants; the 2026 call closes February 1, 2026 with awards announced March 1, 2026.",
+      "significance": "A structured, provost-backed internal grant program incentivizing AI-enhanced pedagogy across disciplines - a concrete alternative to top-down AI mandates.",
+      "date_announced": "2026-02-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Simonyi gift / Office of the Vice Provost for AI",
+        "description": "Internal grant program (awards $1K-$50K each, 36 inaugural awards)"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.ai.uw.edu/resources/supporting-educational-excellence-and-discovery-with-ai-grants-seed-ai-2026/"
+      ]
+    },
+    {
+      "title": "Allen School CS curriculum redesign for the AI era",
+      "description": "In 2025, Paul G. Allen School director Magdalena Balazinska declared 'coding is dead' and announced a curriculum pivot away from programming syntax toward AI system design, human-AI collaboration, and ethical/interdisciplinary topics. New courses include AI-aided software development; students are now required to cite AI as a collaborator.",
+      "significance": "One of the earliest and most public CS-curriculum redesigns from a top-tier R1 to explicitly account for generative AI, signaling a sector-wide reconsideration of what CS teaches.",
+      "date_announced": "2025-07-11",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Paul G. Allen School / College of Engineering",
+        "description": "Curriculum redesign and new courses"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Students must cite AI tools as collaborators, akin to human co-authorship.",
+      "source_urls": [
+        "https://www.geekwire.com/2025/coding-is-dead-uw-computer-science-program-rethinks-curriculum-for-the-ai-era/",
+        "https://www.cs.washington.edu/academics/undergraduate/ai-education/"
+      ]
+    },
+    {
+      "title": "Graduate AI degree and certificate portfolio",
+      "description": "UW offers a robust portfolio of AI/ML graduate credentials: MS in AI and Machine Learning for Engineering (stackable, starts Fall 2026), Graduate Certificate in Modern AI Methods (Allen School, in-person, 16 credits), Graduate Certificate in AI and ML for Engineering (online, 16 credits), iSchool Graduate Certificate in AI for Organizations, and an MSIM AI specialization (online, spring 2026).",
+      "significance": "Breadth of AI graduate credentials across Allen School, Engineering, and iSchool signals a systemic, not ad-hoc, AI workforce strategy.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Program tuition",
+        "description": "Self-sustaining graduate AI/ML credentials"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.ai.uw.edu/student-success/ai-degree-programs/",
+        "https://www.cs.washington.edu/academics/graduate/certificate-modern-ai/",
+        "https://www.engr.washington.edu/admission/professional-masters-certificates/masters-artificial-intelligence-and-machine-learning",
+        "https://ischool.uw.edu/programs/msim/specializations/artificial-intelligence",
+        "https://www.pce.uw.edu/certificates/modern-artificial-intelligence-methods"
+      ]
+    },
+    {
+      "title": "CREATE: accessibility-focused AI research center",
+      "description": "The Center for Research and Education on Accessible Technology and Experiences (CREATE), founded in 2020 with a $2.5M Microsoft gift, conducts AI research on accessibility: ASL-to-English translation, audio web representations, AI hiring-bias in autism, and data-driven mental-health apps. The leadership team spans the Allen School, iSchool, Medicine, Mechanical Engineering, HCDE, and Disability Studies.",
+      "significance": "Explicit, institutionally-funded fusion of accessibility, disability justice, and AI - a maturity dimension most R1s under-invest in.",
+      "date_announced": "2020-05-28",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "algorithmic_bias",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "nlp_for_assessment",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2500000,
+        "funding_source": "Microsoft inaugural gift",
+        "description": "Center establishment gift; ongoing research grants"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Inaugural $2.5M investment"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Drives accessibility expectations into UW's AI tool evaluation.",
+      "source_urls": [
+        "https://create.uw.edu/",
+        "https://www.washington.edu/news/2020/05/28/create-announced/",
+        "https://www.washington.edu/research/research-centers/center-for-research-and-education-on-accessible-technology-and-experiences-create/"
+      ]
+    },
+    {
+      "title": "Institute of Medical Data Science (IMDS)",
+      "description": "IMDS is a joint effort of UW Schools of Medicine, Public Health, and the College of Engineering (including the Allen School), developing and implementing AI and data science methods for medical data applications.",
+      "significance": "Cross-school clinical-AI institute embeds AI in UW Medicine's academic medical center, a structural advantage for translational AI research.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UW internal, NIH grants",
+        "description": "Multi-school AI-in-medicine institute"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UW Medicine",
+            "UW School of Public Health",
+            "UW College of Engineering"
+          ],
+          "description": "Joint initiative across schools"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://uwhealthai.org/about/",
+        "https://www.cs.washington.edu/research/centers-initiatives/"
+      ]
+    },
+    {
+      "title": "Participation in NSF AI Institute for Foundations of Machine Learning (IFML)",
+      "description": "UW Allen School faculty (Byron Boots, Sham Kakade, Jamie Morgenstern, Sewoong Oh, and Zaid Harchaoui in Statistics) are core members of the UT Austin-led NSF AI Institute for Foundations of Machine Learning, a five-year $20M NSF award.",
+      "significance": "UW's participation in a flagship NSF AI institute strengthens its role in national AI foundations research.",
+      "date_announced": "2020-08-26",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "National Science Foundation",
+        "description": "Five-year NSF AI Institute award (UW as partner)"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Texas at Austin (lead)",
+            "Other NSF AI Institute partners"
+          ],
+          "description": "Multi-institution NSF AI Institute"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federal AI institute program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.cs.washington.edu/2020/08/26/new-nsf-ai-institute-for-foundations-of-machine-learning-aims-to-address-major-research-challenges-in-artificial-intelligence-and-broaden-participation-in-the-field/",
+        "https://www.washington.edu/news/2020/08/26/faculty-from-allen-school-evans-school-tapped-for-nsf-institutes-on-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "UW Libraries Using AI for Students guide",
+      "description": "UW Libraries maintains an active 'Using AI for Students' guide offering research-aware frameworks for ethical generative AI use, including bias, source evaluation, and citation practice.",
+      "significance": "Library-led AI literacy complements instructor-level policy and ensures tri-campus reach for student-facing AI guidance.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UW Libraries",
+        "description": "Library staff time and guides"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://guides.lib.uw.edu/usingAI",
+        "https://www.washington.edu/studentlife/2023/10/11/ai-tools-and-academic-integrity/"
+      ]
+    },
+    {
+      "title": "ADA Digital Accessibility Initiative covering AI tools",
+      "description": "UW's ADA Digital Accessibility Board runs a tri-campus initiative to ensure all web, mobile, and academic course content - including AI-driven tools and generated outputs - meets ADA Title II requirements by the April 2026 federal deadline.",
+      "significance": "Tightly couples AI-tool rollout with accessibility compliance, a regulatory-compliance dimension rarely operationalized at this scale.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "governance_and_policy",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "unspecified"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "accreditors",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UW internal / accessibility office",
+        "description": "Multi-year tri-campus accessibility compliance project"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Aligns AI vendor/tool approvals with ADA Title II requirements.",
+      "source_urls": [
+        "https://www.washington.edu/accessibility/digital/initiative/",
+        "https://www.washington.edu/accessibility/disability-inclusion/access-and-inclusion-initiatives/"
+      ]
+    },
+    {
+      "title": "UW Law students shape Washington State AI policy",
+      "description": "UW School of Law students participated in the Washington State AI Task Force (administered by the Attorney General), contributing to the Preliminary Report (Dec 2024), Interim Report (Dec 2025), and Final Report (due July 2026) that are shaping state AI regulation affecting public universities.",
+      "significance": "UW is embedded in Washington State's AI policymaking through the AG Task Force, giving the institution early visibility into upcoming state-level compliance obligations.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "government_and_regulators",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UW Law / Washington AG's Office",
+        "description": "In-kind contribution to state policymaking"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Washington State Attorney General's Office",
+            "Washington State AI Task Force"
+          ],
+          "description": "State policy engagement"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Helps shape future state AI compliance rules.",
+      "source_urls": [
+        "https://www.law.uw.edu/news-events/news/2025/ai-task-force",
+        "https://www.atg.wa.gov/aitaskforce",
+        "https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Paul G. Allen School of Computer Science & Engineering - AI research",
+      "focus": "Foundational AI research, ML, NLP, computer vision, AI for science",
+      "founded": "2017",
+      "url": "https://www.cs.washington.edu/research/artificial-intelligence/"
+    },
+    {
+      "name": "CREATE: Center for Research and Education on Accessible Technology and Experiences",
+      "focus": "Accessibility, disability-centered AI, ASL translation, hiring bias, mental health apps",
+      "founded": "2020",
+      "url": "https://create.uw.edu/"
+    },
+    {
+      "name": "Institute of Medical Data Science (IMDS)",
+      "focus": "AI and data science for medical applications",
+      "founded": "2021",
+      "url": "https://uwhealthai.org/about/"
+    },
+    {
+      "name": "AI for bioMedical Sciences (AIMS) Lab",
+      "focus": "Explainable AI, model auditing, disease drivers in biomedical science",
+      "founded": null,
+      "url": "https://aims.cs.washington.edu/"
+    },
+    {
+      "name": "AI Institute for Societal Decision Making (AI-SDM) affiliated faculty",
+      "focus": "Human-centered AI for societal good, interdisciplinary AI-social science research",
+      "founded": null,
+      "url": "https://www.cs.washington.edu/research/centers-initiatives/"
+    },
+    {
+      "name": "AI4ALL at the Paul G. Allen School",
+      "focus": "Pre-college pipeline and underrepresented-student AI education",
+      "founded": null,
+      "url": "https://ai4all.cs.washington.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence and Machine Learning for Engineering",
+      "level": "grad",
+      "launched": "2026-09",
+      "url": "https://www.engr.washington.edu/admission/professional-masters-certificates/masters-artificial-intelligence-and-machine-learning"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Modern Artificial Intelligence Methods",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.washington.edu/academics/graduate/certificate-modern-ai/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence and Machine Learning for Engineering",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.engr.washington.edu/admission/professional-masters-certificates/artificial-intelligence-and-machine-learning-certificate"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence for Organizations (iSchool)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ischool.uw.edu/programs/msim/specializations/artificial-intelligence"
+    },
+    {
+      "type": "concentration",
+      "name": "MSIM Artificial Intelligence Specialization (online)",
+      "level": "grad",
+      "launched": "2026-03",
+      "url": "https://ischool.uw.edu/programs/msim/specializations/artificial-intelligence"
+    },
+    {
+      "type": "certificate",
+      "name": "Certificate in Machine Learning (UW PCE)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.pce.uw.edu/certificates/machine-learning"
+    },
+    {
+      "type": "certificate",
+      "name": "Certificate in Machine Learning & Deep Learning: Application Frontiers (UW PCE)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.pce.uw.edu/certificates/machine-learning-and-deep-learning-application-frontiers"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat (with commercial data protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/uware/microsoft-copilot-chat/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (Premium)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "vendor": "University of Washington IT",
+      "product": "Purple (UW-branded GenAI tool)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "vendor": "GitHub / Microsoft",
+      "product": "GitHub Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "vendor": "Workday",
+      "product": "Workday AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "vendor": "TrustArc",
+      "product": "TrustArc Privacy Management Platform",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.uw.edu/guides/security-authentication/artificial-intelligence-guidelines/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Tillicum (with Hyak Klone HPC cluster)",
+    "gpu_count": null,
+    "url": "https://hyak.uw.edu/docs/tillicum/architecture/",
+    "summary": "UW-IT operates Tillicum, a next-generation NVIDIA H200-based GPU computing platform with NVLink 4.0 and 400 Gbps InfiniBand fabric, purpose-built for AI, ML, and data-science workloads. It complements the Hyak Klone HPC cluster. Subscription billing is $0.90 per GPU-hour; the UW Student Technology Fee subsidizes student access. The NSF/NVIDIA-funded OMAI project provides an additional AI compute backbone for open-model research."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Simonyi Fund for Artificial Intelligence and Emerging Technologies",
+      "amount_usd": 10000000,
+      "source": "Charles and Lisa Simonyi",
+      "purpose": "Endowed chair, SEED-AI grants, governance committee, scholarships, computing and community engagement via AI@UW",
+      "date": "2025-11",
+      "url": "https://www.washington.edu/news/2025/11/18/10-million-gift-from-charles-and-lisa-simonyi-establishes-aiuw-to-advance-artificial-intelligence-and-emerging-technologies/"
+    },
+    {
+      "title": "OMAI: Open Multimodal AI Infrastructure to Accelerate Science",
+      "amount_usd": 152000000,
+      "source": "NSF Mid-Scale Research Infrastructure ($75M) and NVIDIA ($77M)",
+      "purpose": "Fully open multimodal AI models, weights, and training data for science; led by UW Allen School and Ai2",
+      "date": "2025-08",
+      "url": "https://news.cs.washington.edu/2025/08/14/allen-school-partners-with-ai2-to-advance-open-ai-and-breakthrough-science-with-support-from-nsf-and-nvidia/"
+    },
+    {
+      "title": "NSF AI Institute for Foundations of Machine Learning (IFML) participation",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation",
+      "purpose": "UT Austin-led AI Institute; UW is a core partner institution (UW Allen School and Statistics)",
+      "date": "2020-08",
+      "url": "https://www.washington.edu/news/2020/08/26/faculty-from-allen-school-evans-school-tapped-for-nsf-institutes-on-artificial-intelligence/"
+    },
+    {
+      "title": "Microsoft inaugural gift to establish CREATE",
+      "amount_usd": 2500000,
+      "source": "Microsoft",
+      "purpose": "Establish Center for Research and Education on Accessible Technology and Experiences",
+      "date": "2020-05",
+      "url": "https://www.washington.edu/news/2020/05/28/create-announced/"
+    },
+    {
+      "title": "Paul G. Allen School endowment (historical context)",
+      "amount_usd": 50000000,
+      "source": "Paul G. Allen ($40M) and Microsoft ($10M)",
+      "purpose": "Endowment establishing the Paul G. Allen School of Computer Science & Engineering - home to UW's AI research base",
+      "date": "2017-03",
+      "url": "https://www.washington.edu/news/2017/03/09/paul-g-allen-school-of-computer-science-and-engineering/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Allen Institute for AI (Ai2)",
+      "purpose": "Long-standing open-source AI partnership, including OLMo, Tulu, and OMAI; Noah Smith and Hanna Hajishirzi hold joint appointments",
+      "date": null,
+      "url": "https://allenai.org/about"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft Copilot deployment, CREATE founding gift, research collaborations, Allen School endowment",
+      "date": null,
+      "url": "https://www.microsoft.com/en-us/puget-sound/university-of-washington-seattle"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "H200 GPU hardware for Tillicum; $77M partner in the OMAI project",
+      "date": "2025-08",
+      "url": "https://news.cs.washington.edu/2025/08/14/allen-school-partners-with-ai2-to-advance-open-ai-and-breakthrough-science-with-support-from-nsf-and-nvidia/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Cirrascale Cloud Services",
+      "purpose": "Managed cloud services partner for OMAI open-AI infrastructure",
+      "date": "2025-08",
+      "url": "https://news.cs.washington.edu/2025/08/14/allen-school-partners-with-ai2-to-advance-open-ai-and-breakthrough-science-with-support-from-nsf-and-nvidia/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Supermicro",
+      "purpose": "Hardware platform supplier for OMAI",
+      "date": "2025-08",
+      "url": "https://news.cs.washington.edu/2025/08/14/allen-school-partners-with-ai2-to-advance-open-ai-and-breakthrough-science-with-support-from-nsf-and-nvidia/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "OMAI ($75M), IFML ($20M), and other AI research awards",
+      "date": null,
+      "url": "https://www.nsf.gov/news/nsf-nvidia-partnership-enables-ai2-develop-fully-open-ai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Hawai'i at Hilo, University of New Hampshire, University of New Mexico",
+      "purpose": "OMAI consortium partners for open science AI",
+      "date": "2025-08",
+      "url": "https://allenai.org/blog/nsf-nvidia"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot Chat",
+      "scope": "Available to all UW students, faculty, staff with UW NetID across all three campuses",
+      "url": "https://it.uw.edu/uware/microsoft-copilot-chat/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Purple (UW-branded GenAI)",
+      "scope": "Tri-campus generative AI access for students, faculty, staff, researchers",
+      "url": "https://it.uw.edu/guides/artificial-intelligence/"
+    },
+    {
+      "type": "other",
+      "name": "UW Libraries 'Using AI for Students' guide",
+      "scope": "Tri-campus AI literacy and responsible-use resource",
+      "url": "https://guides.lib.uw.edu/usingAI"
+    },
+    {
+      "type": "other",
+      "name": "Student Technology Fee-subsidized GPU access on Tillicum/Hyak",
+      "scope": "Graduate and undergraduate research and coursework use",
+      "url": "http://depts.washington.edu/uwrcc/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "CREATE - disability and accessibility AI research",
+      "description": "Cross-school center focused on accessibility and AI for disabled users, including ASL-to-English translation, hiring bias studies, and mental health tools.",
+      "url": "https://create.uw.edu/"
+    },
+    {
+      "title": "ADA Digital Accessibility Initiative",
+      "description": "Tri-campus program to bring all digital content, including AI tools and course materials, into ADA Title II compliance by April 2026.",
+      "url": "https://www.washington.edu/accessibility/digital/initiative/"
+    },
+    {
+      "title": "AI4ALL @ Allen School",
+      "description": "Pre-college program to broaden underrepresented-student participation in AI education.",
+      "url": "https://ai4all.cs.washington.edu/"
+    },
+    {
+      "title": "UW Diversity Blueprint 2022-2026",
+      "description": "Tri-campus equity framework that frames AI tool access and outcomes within broader inclusion goals.",
+      "url": "https://www.washington.edu/accessibility/disability-inclusion/access-and-inclusion-initiatives/"
+    },
+    {
+      "title": "Data equity position statement (Jennifer Mankoff / CREATE)",
+      "description": "Research position addressing equitable data production and access for underrepresented scholars and communities.",
+      "url": "https://create.uw.edu/increasing-data-equity-through-accessibility/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Washington",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Governor Jay Inslee issued Executive Order 24-01 on Artificial Intelligence in 2024, requiring state agencies to assess workforce impacts and develop research partnerships by January 2025. The Washington State Legislature passed ESSB 5838 establishing a state AI Task Force under the Attorney General's Office; its Preliminary Report (Dec 2024) and Interim Report (Dec 2025) are shaping 2026 AI policy, with a Final Report due July 2026. The legislature is also considering a bill to require union talks over government AI use. UW is not part of a multi-campus system (it governs its own tri-campus structure), so there is no system-level AI policy above the institutional level.",
+    "urls": [
+      "https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf",
+      "https://www.atg.wa.gov/aitaskforce",
+      "https://washingtonstatestandard.com/2025/11/20/wa-legislature-to-consider-requiring-union-talks-over-government-use-of-ai/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-10",
+      "summary": "Zhong v. UW et al. admissions-discrimination lawsuit: A family filed suit against UW, the University of California, Michigan, and Cornell over rejections of applicant Stanley Zhong (4.4 GPA, 1590 SAT). The plaintiffs notably used multiple AI models to draft and cross-check legal arguments.",
+      "status": "active",
+      "url": "https://legalinsurrection.com/2026/04/student-turned-google-engineer-who-was-rejected-by-16-colleges-uses-ai-to-sue-them/"
+    },
+    {
+      "date": "2025-07",
+      "summary": "Hidden prompt-injection controversy: Research papers from 14 institutions including UW posted on arXiv were found to contain hidden prompt injections intended to manipulate AI-based peer review (white-on-white or tiny font). UW acknowledged as one of the implicated institutions in media coverage.",
+      "status": "unknown",
+      "url": "https://controverity.com/2025/07/08/prompt-injection-in-academic-papers-stir-controversy-over-research-integrity/"
+    }
+  ],
+  "narrative_summary": "The University of Washington has moved decisively in 2024-2025 from ad hoc AI activity to a structured, provost-led AI posture. An 80-member AI Task Force (co-chaired by CIO Andreas Bohman and iSchool Dean Anind Dey) produced the Washington AI Initiative for Society, Teaching and Research (WAISTAR) framework in March 2025, and the newly installed Vice Provost for Artificial Intelligence, Noah Smith - an Amazon Professor of ML at the Allen School and Ai2 senior director of NLP research - is now driving implementation through the AI@UW initiative, underwritten by a $10M Simonyi endowment gift announced November 18, 2025. AI@UW funds an AI governance committee, 36 inaugural SEED-AI faculty grants, scholarships, and computing. Policy-wise, UW adopted Generative AI General Use Guidelines on September 16, 2025 that classify data sensitivity, require documentation in TrustArc, mandate disclosure of AI use in research and coursework, and prohibit GenAI for high-risk decisions without privacy assessment - a comprehensive stance that still delegates syllabus-level policy to instructors. On enterprise tooling UW has campus-wide Microsoft 365 Copilot Chat with commercial data protection, the UW-branded 'Purple' GenAI surface, GitHub Copilot, ChatGPT Edu, Zoom AI Companion, and Workday AI. Research capacity is world-class: Tillicum (NVIDIA H200 GPU cluster) and Hyak Klone HPC, the $152M OMAI NSF/NVIDIA open multimodal AI project led by UW (Noah Smith and Hanna Hajishirzi), participation in the NSF AI Institute for Foundations of Machine Learning, the CREATE accessibility-AI center ($2.5M Microsoft seed), the Institute of Medical Data Science, and the AIMS biomedical AI lab. Teaching is pivoting hard: Allen School director Magdalena Balazinska declared 'coding is dead' in July 2025 and the CS curriculum is being restructured around AI system design, ethics, and human-AI collaboration, with students required to cite AI as a collaborator. UW offers a broad portfolio of AI/ML graduate credentials (MSE AI/ML for Engineering, Modern AI Methods, AI for Organizations, MSIM AI, Machine Learning certificates). Equity work is anchored by CREATE, the ADA Digital Accessibility Initiative (April 2026 deadline), AI4ALL, and the UW Diversity Blueprint. Washington State context is active: Governor Inslee's 2024 EO 24-01 and the ESSB 5838 AG AI Task Force shape the state regulatory environment, with UW Law students embedded in the process. Notable open risks include an active admissions-discrimination lawsuit (Zhong v. UW) and the July 2025 hidden-prompt-injection controversy implicating UW researchers. UW is plausibly at Maturity Level 4 (Integrated) in most dimensions - strategy, governance, research infrastructure, and enterprise tools - with emerging maturity in student services AI and workforce-certification pathways.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.washington.edu/news/2025/11/18/10-million-gift-from-charles-and-lisa-simonyi-establishes-aiuw-to-advance-artificial-intelligence-and-emerging-technologies/",
+      "https://www.washington.edu/provost/2025/11/18/noah-smith-named-endowed-chair-and-vice-provost-for-artificial-intelligence/",
+      "https://www.ai.uw.edu/",
+      "https://www.ai.uw.edu/about/ai-task-force/",
+      "https://www.ai.uw.edu/resources/supporting-educational-excellence-and-discovery-with-ai-grants-seed-ai-2026/",
+      "https://www.ai.uw.edu/student-success/ai-degree-programs/",
+      "https://www.washington.edu/provost/2024/02/15/task-force-appointed-to-address-ai/",
+      "https://www.washington.edu/provost/2024/09/24/update-on-the-work-of-the-ai-task-force/",
+      "https://www.washington.edu/provost/committees-reports/",
+      "https://it.uw.edu/guides/security-authentication/artificial-intelligence-guidelines/",
+      "https://it.uw.edu/guides/artificial-intelligence/",
+      "https://it.uw.edu/uware/microsoft-copilot-chat/",
+      "https://it.uw.edu/uw-it/divisions/office-of-the-cio/",
+      "https://teaching.washington.edu/course-design/ai/",
+      "https://teaching.washington.edu/course-design/ai/sample-ai-syllabus-statements/",
+      "https://www.washington.edu/studentlife/2023/10/11/ai-tools-and-academic-integrity/",
+      "https://guides.lib.uw.edu/usingAI",
+      "https://grad.uw.edu/advice/effective-and-responsible-use-of-ai-in-research/",
+      "https://finance.uw.edu/recmgt/UW-records-ai-guidance",
+      "https://hyak.uw.edu/",
+      "https://hyak.uw.edu/docs/tillicum/architecture/",
+      "https://hyak.uw.edu/docs/tillicum/",
+      "http://depts.washington.edu/uwrcc/",
+      "https://www.cs.washington.edu/research/artificial-intelligence/",
+      "https://www.cs.washington.edu/research/centers-initiatives/",
+      "https://www.cs.washington.edu/academics/graduate/certificate-modern-ai/",
+      "https://www.cs.washington.edu/academics/undergraduate/ai-education/",
+      "https://news.cs.washington.edu/2025/08/14/allen-school-partners-with-ai2-to-advance-open-ai-and-breakthrough-science-with-support-from-nsf-and-nvidia/",
+      "https://news.cs.washington.edu/2020/08/26/new-nsf-ai-institute-for-foundations-of-machine-learning-aims-to-address-major-research-challenges-in-artificial-intelligence-and-broaden-participation-in-the-field/",
+      "https://create.uw.edu/",
+      "https://create.uw.edu/increasing-data-equity-through-accessibility/",
+      "https://www.washington.edu/news/2020/05/28/create-announced/",
+      "https://www.washington.edu/research/research-centers/center-for-research-and-education-on-accessible-technology-and-experiences-create/",
+      "https://www.washington.edu/accessibility/digital/initiative/",
+      "https://www.washington.edu/accessibility/disability-inclusion/access-and-inclusion-initiatives/",
+      "https://uwhealthai.org/about/",
+      "https://aims.cs.washington.edu/",
+      "https://ai4all.cs.washington.edu/",
+      "https://ischool.uw.edu/programs/msim/specializations/artificial-intelligence",
+      "https://www.engr.washington.edu/admission/professional-masters-certificates/masters-artificial-intelligence-and-machine-learning",
+      "https://www.engr.washington.edu/admission/professional-masters-certificates/artificial-intelligence-and-machine-learning-certificate",
+      "https://www.pce.uw.edu/certificates/modern-artificial-intelligence-methods",
+      "https://www.pce.uw.edu/certificates/machine-learning",
+      "https://www.pce.uw.edu/certificates/machine-learning-and-deep-learning-application-frontiers",
+      "https://www.engr.washington.edu/mycoe/academic/integrity",
+      "https://www.geekwire.com/2025/coding-is-dead-uw-computer-science-program-rethinks-curriculum-for-the-ai-era/",
+      "https://www.geekwire.com/2025/allen-institute-for-ai-lands-152m-from-nvidia-and-nsf-to-lead-national-ai-project/",
+      "https://allenai.org/blog/nsf-nvidia",
+      "https://allenai.org/about",
+      "https://www.nsf.gov/news/nsf-nvidia-partnership-enables-ai2-develop-fully-open-ai",
+      "https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf",
+      "https://www.atg.wa.gov/aitaskforce",
+      "https://washingtonstatestandard.com/2025/11/20/wa-legislature-to-consider-requiring-union-talks-over-government-use-of-ai/",
+      "https://www.law.uw.edu/news-events/news/2025/ai-task-force",
+      "https://www.dailyuw.com/news/ai-task-force-releases-report-detailing-ai-implementation-and-advancement-across-uw-campuses/article_5e1b9b32-8d03-11ef-93be-bf99c3ff15c7.html",
+      "https://legalinsurrection.com/2026/04/student-turned-google-engineer-who-was-rejected-by-16-colleges-uses-ai-to-sue-them/",
+      "https://controverity.com/2025/07/08/prompt-injection-in-academic-papers-stir-controversy-over-research-integrity/",
+      "https://www.washington.edu/news/2025/10/30/washington-residents-make-up-nearly-two-thirds-of-incoming-class-as-enrollment-increases-across-all-three-uw-campuses/",
+      "https://www.washington.edu/president/biography/",
+      "https://www.washington.edu/provost/",
+      "https://www.linkedin.com/in/abohman/",
+      "https://www.washington.edu/news/2025/02/03/34th-uw-president/",
+      "https://www.washington.edu/news/2022/02/23/andreas-bohman-selected-as-vp-for-uw-it-and-uws-chief-information-officer/",
+      "https://www.washington.edu/news/2017/03/09/paul-g-allen-school-of-computer-science-and-engineering/"
+    ],
+    "search_queries": [
+      "\"University of Washington\" AI strategy 2025 2026 provost generative AI",
+      "\"University of Washington\" generative AI policy guidelines faculty students",
+      "\"University of Washington\" AI governance committee task force council",
+      "\"University of Washington\" CIO 2025 president provost",
+      "\"University of Washington\" AI research center institute launch Paul Allen School",
+      "\"University of Washington\" AI degree major minor certificate artificial intelligence program",
+      "\"University of Washington\" HPC GPU supercomputer AI compute Hyak Tillicum",
+      "\"University of Washington\" NSF AI grant 2025 institute partnership industry",
+      "\"University of Washington\" AI chatbot student services advising predictive analytics retention",
+      "\"University of Washington\" AI equity accessibility digital divide underrepresented",
+      "Washington state AI executive order higher education policy 2024 2025",
+      "\"University of Washington\" AI controversy lawsuit academic integrity 2025",
+      "\"University of Washington\" Microsoft Copilot campus deployment rollout AI assistant",
+      "\"University of Washington\" AI curriculum Allen School rethink computer science 2025",
+      "\"University of Washington\" AI workforce training continuing education professional certificate",
+      "\"University of Washington\" AI task force report March 2025 recommendations",
+      "\"University of Washington\" \"AI Institute\" NSF foundation medical imaging dynamic systems",
+      "\"University of Washington\" enrollment 2025 total students Seattle Tacoma Bothell",
+      "\"University of Washington\" CREATE accessibility AI disability research center"
+    ],
+    "gaps_acknowledged": [
+      "Exact GPU count on Tillicum/Hyak not publicly disclosed",
+      "No evidence of a dedicated chief AI officer role outside the Vice Provost for AI",
+      "User counts for Microsoft Copilot and Purple deployments not publicly disclosed",
+      "Specific predictive-analytics-retention tooling (e.g., EAB Navigate) at UW not explicitly confirmed in public sources during this pass",
+      "Precise date Microsoft Copilot Chat went live tri-campus not identified",
+      "AI-SDM institute affiliation details for UW faculty are referenced but not separately page-verified",
+      "Detailed stack on ChatGPT Edu deployment scope (all students vs. pilot) not explicitly detailed"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "research_compute_powerhouse",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 22,
+        "research_compute_powerhouse": 16,
+        "curriculum_led": 12,
+        "governance_led": 15,
+        "student_success_led": 10,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Tillicum (with Hyak Klone HPC cluster)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 234500000,
+      "funding_source_buckets": {
+        "other_unclear": 5,
+        "public_federal_state": 6,
+        "philanthropy_foundation": 5,
+        "institutional": 4,
+        "industry_vendor": 2
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 2
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "GitHub Copilot",
+            "Microsoft 365 Copilot (Premium)",
+            "Microsoft 365 Copilot Chat",
+            "Microsoft 365 Copilot Chat (with commercial data protection)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "Workday",
+          "mentions": 2,
+          "products": [
+            "Workday AI"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "Allen Institute for AI OLMo / Tulu",
+          "mentions": 1,
+          "products": [
+            "OLMo / Tulu"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA H200"
+          ]
+        },
+        {
+          "vendor": "TrustArc TrustArc",
+          "mentions": 1,
+          "products": [
+            "TrustArc"
+          ]
+        },
+        {
+          "vendor": "TrustArc TrustArc Privacy Management Platform",
+          "mentions": 1,
+          "products": [
+            "TrustArc Privacy Management Platform"
+          ]
+        },
+        {
+          "vendor": "University of Washington IT Hyak Klone",
+          "mentions": 1,
+          "products": [
+            "Hyak Klone"
+          ]
+        },
+        {
+          "vendor": "University of Washington IT Purple",
+          "mentions": 1,
+          "products": [
+            "Purple"
+          ]
+        },
+        {
+          "vendor": "University of Washington IT Purple (UW-branded GenAI tool)",
+          "mentions": 1,
+          "products": [
+            "Purple (UW-branded GenAI tool)"
+          ]
+        },
+        {
+          "vendor": "University of Washington IT Tillicum",
+          "mentions": 1,
+          "products": [
+            "Tillicum"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": true,
+      "public_claims": [
+        {
+          "claim_type": "learning",
+          "title": "Generative AI General Use Guidelines adopted",
+          "summary": "Comprehensive policy stance that balances permissive use with data-classification and disclosure requirements, aligning with a broader sector trend away from blanket bans.",
+          "source_url": "https://it.uw.edu/guides/security-authentication/artificial-intelligence-guidelines/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Chat rolled out campus-wide",
+          "summary": "A large tri-campus deployment of enterprise GenAI built on Microsoft 365 licensing - representative of the dominant vendor pattern across public R1s.",
+          "source_url": "https://it.uw.edu/uware/microsoft-copilot-chat/"
+        },
+        {
+          "claim_type": "research_output",
+          "title": "Tillicum GPU supercomputer for AI research",
+          "summary": "Tri-campus dedicated AI compute on current-generation H200 GPUs positions UW in the top tier of R1 research computing capacity; subsidized student access supports instruction and thesis work.",
+          "source_url": "https://hyak.uw.edu/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Graduate AI degree and certificate portfolio",
+          "summary": "Breadth of AI graduate credentials across Allen School, Engineering, and iSchool signals a systemic, not ad-hoc, AI workforce strategy.",
+          "source_url": "https://www.ai.uw.edu/student-success/ai-degree-programs/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UW Libraries Using AI for Students guide",
+          "summary": "Library-led AI literacy complements instructor-level policy and ensures tri-campus reach for student-facing AI guidance.",
+          "source_url": "https://guides.lib.uw.edu/usingAI"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "Exact GPU count on Tillicum/Hyak not publicly disclosed",
+        "No evidence of a dedicated chief AI officer role outside the Vice Provost for AI",
+        "User counts for Microsoft Copilot and Purple deployments not publicly disclosed",
+        "Specific predictive-analytics-retention tooling (e.g., EAB Navigate) at UW not explicitly confirmed in public sources during this pass",
+        "Precise date Microsoft Copilot Chat went live tri-campus not identified",
+        "AI-SDM institute affiliation details for UW faculty are referenced but not separately page-verified",
+        "Detailed stack on ChatGPT Edu deployment scope (all students vs. pilot) not explicitly detailed"
+      ]
+    }
+  }
+}

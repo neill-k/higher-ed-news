@@ -1,0 +1,1595 @@
+{
+  "institution": "University of Pennsylvania",
+  "slug": "university-of-pennsylvania",
+  "city_state": "Philadelphia, PA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 24023,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "J. Larry Jameson",
+      "url": "https://president.upenn.edu/"
+    },
+    "provost": {
+      "name": "John L. Jackson, Jr.",
+      "url": "https://provost.upenn.edu/"
+    },
+    "cio": {
+      "name": "Joshua Beeman",
+      "url": "https://almanac.upenn.edu/articles/joshua-beeman-vice-president-for-information-technology-and-chief-information-officer"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Marylyn D. Ritchie",
+      "title": "Vice Dean of AI and Computing, Perelman School of Medicine; Penn AI Council member",
+      "url": "https://almanac.upenn.edu/articles/marylyn-d-ritchie-inaugural-vice-dean-of-artificial-intelligence-and-computing-for-the-perelman-school-of-medicine"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Statement on Guidance for the University of Pennsylvania Community on Use of Generative Artificial Intelligence",
+        "url": "https://isc.upenn.edu/security/AI-guidance",
+        "year": 2023
+      },
+      {
+        "title": "Penn AI Initiative",
+        "url": "https://ai.upenn.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Provost's Office Announces Penn AI Council",
+        "url": "https://research.upenn.edu/news/provosts-office-announces-penn-ai-council/",
+        "year": 2024
+      }
+    ],
+    "summary": "Penn's AI strategy is coordinated through the Provost's Office via the Penn AI Council (established October 2024) and the Penn AI Initiative (launched 2025). The strategy spans five thematic pillars (AI Foundations, AI+Health, AI+Science, AI+Business, AI+Society) and is underpinned by the Penn Advanced Research Computing Center (PARCC), a school-level vice dean of AI in Perelman, the Wharton AI & Analytics Initiative, and Penn GSE's AI pedagogy work. Policy direction comes from a 2023 university-wide guidance document developed by Information Security, the Privacy Office, and multiple provost offices."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://isc.upenn.edu/security/AI-guidance",
+      "https://almanac.upenn.edu/articles/of-record-guidance-for-the-university-of-pennsylvania-community-on-use-of-generative-artificial-intelligence",
+      "https://cetli.upenn.edu/resources/generative-ai/penn-ai-guidance-and-policies/"
+    ],
+    "adopted_date": "2023-11",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Transparency: disclose when AI tools are used in work product",
+      "Accountability: validate accuracy of AI-generated content, guard against hallucinations",
+      "No moderate/high-risk Penn data in AI tools without Privacy Office review and contractual protections",
+      "Explicit prohibition on exposing patient information (identifiable or deidentified) to public AI tools (HIPAA)",
+      "IRB approval required before exposing research participant data to AI",
+      "Faculty set course-level AI policies; Code of Academic Integrity applies; treat AI assistance as you would assistance from another person",
+      "Schools and departments may issue more specific guidance (Wharton, Law, Medicine have supplemental policies)"
+    ],
+    "summary": "Penn's generative AI guidance is detailed, principle-based, and applies to the entire community. It embraces generative AI while enforcing guardrails on data privacy, HIPAA/FERPA, IP, bias, and academic integrity. Faculty retain course-level discretion, with the Center for Excellence in Teaching, Learning, and Innovation (CETLI) providing syllabus and assessment templates."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Penn AI Council",
+        "type": "council",
+        "scope": "Five-member senior faculty council convened by the Provost and Senior Vice Provost for Research. Provides strategic input, coordinates cross-disciplinary AI research, engages all 12 schools, and leads planning for the Penn Advanced Research Computing Center. Inaugural members: Duncan Watts, Eric Bradlow, Bhuvnesh Jain, Marylyn Ritchie, Rene Vidal.",
+        "url": "https://research.upenn.edu/news/provosts-office-announces-penn-ai-council/"
+      },
+      {
+        "name": "Perelman School of Medicine Vice Dean of AI and Computing",
+        "type": "office",
+        "scope": "Inaugural vice dean role (Marylyn Ritchie, April 2024) with responsibility for AI strategy across Penn Medicine's research, education, and healthcare delivery missions.",
+        "url": "https://almanac.upenn.edu/articles/marylyn-d-ritchie-inaugural-vice-dean-of-artificial-intelligence-and-computing-for-the-perelman-school-of-medicine"
+      },
+      {
+        "name": "Information Systems & Computing (ISC) AI Guidance Team",
+        "type": "office",
+        "scope": "ISC (in collaboration with the University Privacy Office, Office of the Vice Provost for Education, Office of the Vice Provost for Faculty, Senior Vice Provost for Research, Office of Clinical Research, General Counsel, Procurement, and Penn Center of Innovation) authored and maintains the university-wide generative AI guidance and operates enterprise AI tool procurement and security review.",
+        "url": "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources"
+      },
+      {
+        "name": "Wharton AI & Analytics Initiative (WAIAI) Leadership",
+        "type": "office",
+        "scope": "Wharton-school initiative (Eric Bradlow, Vice Dean of AI and Analytics) coordinating eight specialized labs including Generative AI Labs, Accountable AI Lab, Causal Data Science Lab, Human-AI Research, and Healthcare Analytics Lab.",
+        "url": "https://ai-analytics.wharton.upenn.edu/"
+      },
+      {
+        "name": "Penn AI Pedagogy Initiative (PAPI)",
+        "type": "committee",
+        "scope": "University-wide co-design initiative led by Seiji Isotani (Penn GSE) for AI in teaching and learning, connecting student teams with faculty partners.",
+        "url": "https://www.gse.upenn.edu/our-expertise/penn-ai-pedagogy-initiative"
+      }
+    ],
+    "summary": "Penn operates a multi-layered AI governance structure: the Penn AI Council provides university-wide strategic coordination; a vice dean of AI leads Penn Medicine; Wharton, Law, SEAS, and GSE run their own AI leadership and guidance bodies; ISC provides the cross-cutting policy, privacy, and security floor."
+  },
+  "initiatives": [
+    {
+      "title": "Penn AI Council established to coordinate university-wide AI strategy",
+      "description": "The Provost's Office and Office of the Vice Provost for Research announced the inaugural Penn AI Council on October 1, 2024, composed of five senior faculty (Duncan Watts, Eric Bradlow, Bhuvnesh Jain, Marylyn Ritchie, Rene Vidal) to act as strategic advisors, coordinate cross-school research, and lead planning for the Penn Advanced Research Computing Center.",
+      "significance": "Formalizes faculty-led AI governance at a decentralized Ivy League university and ties governance directly to compute buildout — a pattern peers are replicating.",
+      "date_announced": "2024-10-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_research_center",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal (Provost / Vice Provost for Research)",
+        "description": "Faculty effort and Provost's Office operational support; no separate budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "All 12 Penn schools"
+          ],
+          "description": "Council explicitly charged with engaging every Penn school."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a durable governance body whose remit includes compute, research coordination, and strategic advising to senior leadership.",
+      "source_urls": [
+        "https://research.upenn.edu/news/provosts-office-announces-penn-ai-council/",
+        "https://penntoday.upenn.edu/news/introducing-penn-ai-council",
+        "https://www.thedp.com/article/2024/11/penn-establishes-ai-council"
+      ]
+    },
+    {
+      "title": "University-wide generative AI guidance issued",
+      "description": "In November 2023 Penn published a 'Statement on Guidance for the University of Pennsylvania Community on Use of Generative Artificial Intelligence' — a nine-category framework (transparency, accountability, bias, data protection, HIPAA, IP, academic integrity, research integrity, vendor review) that applies to faculty, staff, students, pre- and post-doctoral trainees.",
+      "significance": "One of the earliest university-wide comprehensive AI guidance documents from an Ivy League institution, setting a template for shared services (ISC + Privacy + Provost) authorship.",
+      "date_announced": "2023-11-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (ISC, Privacy Office, Provost)",
+        "description": "Staff effort across multiple offices; ongoing operational support for consultations."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "ISC",
+            "University Privacy Office",
+            "Office of the Vice Provost for Education",
+            "Office of the Vice Provost for Faculty",
+            "Senior Vice Provost for Research",
+            "Office of Clinical Research",
+            "Office of General Counsel",
+            "Procurement",
+            "Penn Center of Innovation"
+          ],
+          "description": "Nine co-authoring offices — a notably broad internal coalition."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets baseline norms on data classification, HIPAA, IP, and academic integrity that every school can extend but not contradict.",
+      "source_urls": [
+        "https://isc.upenn.edu/security/AI-guidance",
+        "https://almanac.upenn.edu/articles/of-record-guidance-for-the-university-of-pennsylvania-community-on-use-of-generative-artificial-intelligence",
+        "https://www.thedp.com/article/2023/11/penn-artificial-intelligence-guidelines-2023-university-wide"
+      ]
+    },
+    {
+      "title": "Penn Advanced Research Computing Center (PARCC) launched with NVIDIA DGX SuperPOD",
+      "description": "Penn partnered with Flexential and NVIDIA to deploy PARCC at Flexential's Philadelphia-Collegeville data center, anchored by an NVIDIA DGX SuperPOD with DGX B200 systems and Quantum-2 InfiniBand. Phase I began in May 2025 and doubles Penn's computing capacity with 7.2 MW of power and 1,500+ watts per square foot with liquid cooling.",
+      "significance": "Major HPC buildout gives Penn Ivy-competitive AI training infrastructure and signals the shift from distributed, faculty-managed clusters to centralized AI compute among R1 privates.",
+      "date_announced": "2025-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "University capital; commercial colocation contract with Flexential",
+        "description": "Specific investment amount not disclosed; hardware includes NVIDIA DGX B200 SuperPOD."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Flexential",
+            "NVIDIA",
+            "AHEAD"
+          ],
+          "description": "Flexential provides colocation, NVIDIA hardware and Mission Control software, AHEAD rack integration."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DGX SuperPOD with DGX B200 systems",
+          "vendor": "NVIDIA",
+          "role": "Core AI compute"
+        },
+        {
+          "name": "Quantum-2 InfiniBand networking",
+          "vendor": "NVIDIA",
+          "role": "Interconnect"
+        },
+        {
+          "name": "Philadelphia-Collegeville data center",
+          "vendor": "Flexential",
+          "role": "Colocation"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Centralized compute gives Penn leverage to attach data governance, security, and fair-access policies to AI research at the infrastructure layer.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/flexential-university-of-pennsylvania-partner-to-launch-penn-advanced-research-computing-center-302458238.html",
+        "https://ai.upenn.edu/"
+      ]
+    },
+    {
+      "title": "Raj and Neera Singh B.S.E. in Artificial Intelligence — first Ivy League undergraduate AI degree",
+      "description": "Penn Engineering launched the Raj and Neera Singh Program in AI, offering a BSE in AI — the first Ivy League undergraduate AI major and one of the first AI undergraduate engineering programs in the U.S. Students entered the program in fall 2024. Curriculum covers machine learning, algorithms, data analytics, advanced robotics, plus AI safety, ethics, and social good. Program director: George J. Pappas.",
+      "significance": "A flagship credential in the Ivy League that signals AI has moved from concentration/elective into standalone ABET-track engineering degree status — likely to pressure peers.",
+      "date_announced": "2024-02-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Raj and Neera Singh naming gift to Penn Engineering",
+        "description": "Gift amount not publicly disclosed; named program + major curriculum investment."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Penn Engineering program across ESE and CIS."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Encodes AI ethics and safety as required components of an accredited engineering degree.",
+      "source_urls": [
+        "https://ai.seas.upenn.edu/",
+        "https://penntoday.upenn.edu/news/penn-engineering-launches-first-ivy-league-undergraduate-degree-artificial-intelligence",
+        "https://almanac.upenn.edu/articles/penn-engineering-first-bse-program-in-artificial-intelligence-in-the-ivy-league",
+        "https://www.thedp.com/article/2024/02/penn-new-major-engineering-degree-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Cooperative AI advising agreement with the Commonwealth of Pennsylvania",
+      "description": "On October 30, 2025, Penn President J. Larry Jameson and PA Chief Transformation Officer Ben Kirshner signed a cooperative agreement under which Penn provides the Shapiro administration with AI expertise on organizational strategy, risk assessment, and governance — leveraging Penn faculty experts. Announced at the 'Unlocking AI for Public Good' summit.",
+      "significance": "Atypical formalized university-state AI advisory partnership; provides a template for how R1s can monetize or contribute public-interest AI capacity to state government.",
+      "date_announced": "2025-10-30",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "regulatory_compliance",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "faculty",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Financial terms not disclosed",
+        "description": "Cooperative agreement; compensation structure not public."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Pennsylvania, Governor's Office of Administration"
+          ],
+          "description": "Penn supplies AI strategy and governance expertise to state government."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions Penn as a de facto AI policy advisor to the state; informs Pennsylvania's Executive Order-level AI governance.",
+      "source_urls": [
+        "https://penntoday.upenn.edu/news/university-pennsylvania-and-commonwealth-pennsylvania-sign-cooperative-ai-advising-agreement",
+        "https://www.thedp.com/article/2025/10/penn-ai-partnership-commonwealth-shapiro",
+        "https://www.pa.gov/governor/newsroom/2025-press-releases/shapiro-admin-ai-conference-collaboration-u-of-pennsylvania"
+      ]
+    },
+    {
+      "title": "Keystone AI + Quantum Factory — seven-university Pennsylvania alliance",
+      "description": "In April 2026 Pennsylvania's seven research universities (Penn, Carnegie Mellon, Drexel, Lehigh, Penn State, Temple, Pitt) and the Pittsburgh Supercomputing Center launched the Keystone AI + Quantum Factory, a commonwealth-level collaboration to pool shared compute, coordinate AI and quantum research, and drive commercialization in energy, manufacturing, agriculture, life sciences, and robotics.",
+      "significance": "First time PA's seven R1s have formally aligned on AI+quantum at the commonwealth scale — a possible model for state-anchored university consortia.",
+      "date_announced": "2026-04-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "quantum_and_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "employers",
+        "community",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Commonwealth and university-level commitments; private partners",
+        "description": "Shared compute infrastructure and workforce programs; specific total not disclosed in early coverage."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Carnegie Mellon University",
+            "Drexel University",
+            "Lehigh University",
+            "Penn State",
+            "Temple University",
+            "University of Pittsburgh",
+            "Pittsburgh Supercomputing Center"
+          ],
+          "description": "Seven R1s plus PSC."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Pennsylvania"
+          ],
+          "description": "State leaders as convening partner."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Aligns state economic development, compute resources, and higher-ed research into a single coordinated platform.",
+      "source_urls": [
+        "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory",
+        "https://www.govtech.com/education/higher-ed/pa-colleges-pool-supercomputing-resources-for-ai-quantum-research",
+        "https://www.hpcwire.com/off-the-wire/psc-pennsylvania-universities-form-keystone-ai-and-quantum-factory-initiative/",
+        "https://pennwatch.org/pennsylvanias-seven-research-universities-state-leaders-launch-keystone-ai-quantum-factory-to-drive-innovation-jobs-and-growth/"
+      ]
+    },
+    {
+      "title": "NSF AIRFoundry — $18M AI-driven RNA BioFoundry",
+      "description": "Penn Engineering, Penn Medicine's Institute for RNA Innovation, and the University of Puerto Rico-Mayagüez lead a six-year, $18M NSF BioFoundry grant (AIRFoundry) integrating AI into RNA design, synthesis, and delivery. Partners include Drexel, Children's Hospital of Philadelphia, and InfiniFluidics.",
+      "significance": "One of five NSF BioFoundries nationwide; positions Penn at the frontier of AI-for-science and democratizes RNA research tools.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "industry_academic_partnership",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 18000000,
+        "funding_source": "U.S. National Science Foundation (NSF BioFoundry program)",
+        "description": "Six-year, $18M NSF grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Puerto Rico-Mayagüez",
+            "Drexel University",
+            "Children's Hospital of Philadelphia"
+          ],
+          "description": "Multi-institution scientific collaboration."
+        },
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "InfiniFluidics"
+          ],
+          "description": "Philadelphia startup co-founded by Penn faculty focused on lipid nanoparticle manufacturing."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://airfoundry.upenn.edu/",
+        "https://blog.seas.upenn.edu/melding-ai-and-rna-penns-18-million-airfoundry-to-revolutionize-rna-research/",
+        "https://penntoday.upenn.edu/news/penn-new-hub-ai-driven-rna-research-nsf-airfoundry",
+        "https://almanac.upenn.edu/articles/penn-and-urm-lead-18-million-six-year-grant-for-rna-focused-nsf-airfoundry"
+      ]
+    },
+    {
+      "title": "Penn GSE PASS program expands with $1M Google.org grant",
+      "description": "Penn GSE's Pioneering AI in School Systems (PASS) program received a $1M Google.org grant (announced October 28, 2025) and in March 2026 expanded to two PA intermediate units, two PA districts, one Delaware district, and one New Jersey district. Directed by Michael Golden, Betty Chandy, and Lara Paparo with faculty support from Bodong Chen, Seiji Isotani, and Shiyan Jiang.",
+      "significance": "Positions Penn GSE as a national model for K-12 AI professional development — connects R1 research university to regional K-12 pipeline.",
+      "date_announced": "2025-10-28",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "community_college_ai_program",
+        "continuing_and_executive_education",
+        "digital_divide_and_access",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1000000,
+        "funding_source": "Google.org; Marrazzo Family Foundation (initial 2025 launch)",
+        "description": "Google.org $1M investment announced October 2025; initial PASS launch supported by Marrazzo Family Foundation."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google.org"
+          ],
+          "description": "Philanthropic arm of Google funding K-12 AI capacity-building."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "School District of Philadelphia",
+            "PA intermediate units",
+            "Delaware and NJ school districts"
+          ],
+          "description": "Regional K-12 school district collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Pairs AI professional development with policy alignment to emerging state AI standards.",
+      "source_urls": [
+        "https://www.gse.upenn.edu/news/penn-gses-pass-program-receives-1-million-google-expand-ai-education-schools",
+        "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts",
+        "https://technical.ly/entrepreneurship/penn-ai-program-google-grant-philadelphia-money-moves/",
+        "https://almanac.upenn.edu/articles/penn-gse-receives-1-million-gift-from-google-to-expand-ai-education-in-schools-systems"
+      ]
+    },
+    {
+      "title": "Penn GSE co-leads $26M K-12 AI education grants program",
+      "description": "In February 2026, Penn GSE announced it was co-leading a $26 million grant program to develop and support AI-driven tools for K-12 education infrastructure, including responsible innovation research and practice-oriented field projects.",
+      "significance": "Shifts university role from in-house AI research into a funder/coordinator of the K-12 AI edtech ecosystem, at scale.",
+      "date_announced": "2026-02-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "ai_tool_equity",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 26000000,
+        "funding_source": "Partnership-funded grants program (partners not fully enumerated in public coverage)",
+        "description": "$26M program coordinated by Penn GSE."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "K-12 school systems",
+            "AI edtech partners"
+          ],
+          "description": "Grants flow to K-12 practitioner-led projects."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes Penn as a K-12 AI capacity-building hub regionally and nationally.",
+      "source_urls": [
+        "https://www.gse.upenn.edu/news/penn-gse-partners-launch-26m-ai-grants-program-advancing-k-12-education",
+        "https://www.thedp.com/article/2026/02/penn-graduate-school-education-artificial-intelligence-grant-program",
+        "https://almanac.upenn.edu/articles/penn-gse-and-partners-launch-26-million-grant-program-to-support-k12-ai-education-infrastructure"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Chat enabled for Penn community under enterprise data protections",
+      "description": "Penn ISC negotiated enterprise Microsoft Copilot Chat access for anyone with a Penn (or Penn Medicine) Microsoft 365 account. Users can leverage GPT-class models while protected by Penn's data security agreements with Microsoft. Also available: GitHub Copilot via the GitHub Campus Program, with access to models from OpenAI, Anthropic, and Google.",
+      "significance": "Shifts enterprise AI from shadow use to governed, contracted access — a common pattern across R1s but notable for its breadth at Penn.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal IT budget; enterprise licensing",
+        "description": "Enterprise Microsoft 365 contract covers Copilot Chat; GitHub Campus program for students."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "GitHub",
+            "Anthropic (via GitHub Copilot)",
+            "OpenAI (via Microsoft/GitHub)"
+          ],
+          "description": "Enterprise vendor contracts with data protection terms."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "General-purpose generative AI for faculty/staff/students"
+        },
+        {
+          "name": "GitHub Copilot",
+          "vendor": "GitHub/Microsoft",
+          "role": "Developer assistant; includes Claude Sonnet/Opus and Gemini models for premium queries"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Gives the community a Penn-contracted option so sensitive data does not flow to unreviewed third-party tools.",
+      "source_urls": [
+        "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources",
+        "https://isc.upenn.edu/resources/activate-microsoft-copilot-chat",
+        "https://www.med.upenn.edu/pmacs/psomai/microsoft-copilot-chat",
+        "https://support.wharton.upenn.edu/help/copilot-web"
+      ]
+    },
+    {
+      "title": "Perelman School of Medicine appoints inaugural Vice Dean of AI and Computing",
+      "description": "In March/April 2024 Perelman SOM appointed Marylyn D. Ritchie as inaugural Vice Dean of Artificial Intelligence and Computing. Ritchie also directs the Institute for Biomedical Informatics and is VP for Research Informatics at Penn Medicine.",
+      "significance": "One of the earliest vice-dean-level AI leadership roles at a top medical school — a structural signal for peer academic medical centers.",
+      "date_announced": "2024-03-28",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "institutional_ai_strategy",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Perelman School of Medicine",
+        "description": "New vice dean role and office support."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Penn Medicine",
+            "University of Pennsylvania Health System"
+          ],
+          "description": "Bridges academic medicine, research informatics, and health-system operations."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Formalizes medical-school-level AI strategy with direct authority over informatics and biobank.",
+      "source_urls": [
+        "https://almanac.upenn.edu/articles/marylyn-d-ritchie-inaugural-vice-dean-of-artificial-intelligence-and-computing-for-the-perelman-school-of-medicine",
+        "https://www.med.upenn.edu/evpdeancommunications/2024-03-28-346.html",
+        "https://www.thedp.com/article/2024/04/penn-marylyn-ritchie-inaugural-artificial-intelligence-computing-dean"
+      ]
+    },
+    {
+      "title": "Wharton AI & Analytics Initiative (WAIAI) and Generative AI Labs",
+      "description": "Wharton announced the AI & Analytics Initiative in May 2024 as an umbrella for eight specialized labs: Generative AI Labs (Ethan and Lilach Mollick, co-directors), Accountable AI Lab, Causal Data Science Lab, Forensic Analytics Lab, Healthcare Analytics Lab, Human-AI Research, People Analytics, and Sports Analytics and Business Initiative. Vice Dean: Eric Bradlow.",
+      "significance": "Largest business-school AI investment to date; Mollicks' Gen AI Labs influences corporate AI practice globally, and the umbrella structure is being copied at peer B-schools.",
+      "date_announced": "2024-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Wharton School; corporate memberships",
+        "description": "Major internal investment; specific dollar figure not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Corporate members (WAIAI)"
+          ],
+          "description": "Corporate memberships drive applied AI research and hack-AI-thon."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Emphasizes experimentation, transparency, and accountable AI research rather than prescriptive restrictions.",
+      "source_urls": [
+        "https://ai-analytics.wharton.upenn.edu/",
+        "https://ai.wharton.upenn.edu/",
+        "https://gail.wharton.upenn.edu/",
+        "https://gail.wharton.upenn.edu/about-us/"
+      ]
+    },
+    {
+      "title": "Penn GSE Penn AI Pedagogy Initiative (PAPI)",
+      "description": "PAPI is a university-wide project led by Seiji Isotani at Penn GSE that pairs interdisciplinary student teams with faculty partners to co-design AI-supported teaching strategies grounded in real classroom needs.",
+      "significance": "Faculty-student co-design is an emerging model for institutional AI pedagogy change; PAPI is among the most visible such efforts at an Ivy.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Penn GSE internal funding",
+        "description": "Fellowship/stipend-style support for student-faculty co-design teams."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Penn GSE",
+            "Penn undergraduate and graduate schools"
+          ],
+          "description": "Cross-school at Penn."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Couples faculty development with structured student input — a governance model beyond policy-by-memo.",
+      "source_urls": [
+        "https://www.gse.upenn.edu/our-expertise/penn-ai-pedagogy-initiative"
+      ]
+    },
+    {
+      "title": "AI Month at Penn (April 2025 and April 2026)",
+      "description": "University-wide programming across April each year focused on human-centered AI, featuring research talks, cross-school dialogues, student showcases, and the Penn AI annual 'Discovering the Future of AI' awards. The first AI Month ran in April 2025.",
+      "significance": "Signature public-facing convening that keeps faculty, students, and staff aligned on Penn's AI narrative and surfaces cross-school research.",
+      "date_announced": "2025-04-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "community",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Vice Provost for Research; Penn AI Initiative",
+        "description": "Annual programming budget; recurring."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "All Penn schools"
+          ],
+          "description": "Cross-school programming."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Normalizes sustained AI-literacy conversations across disciplines.",
+      "source_urls": [
+        "https://ai.upenn.edu/",
+        "https://research.upenn.edu/news/penn-ai-announces-the-2026-discovering-the-future-of-ai-award-recipients/"
+      ]
+    },
+    {
+      "title": "Penn professors advise the Pennsylvania Commission on AI",
+      "description": "In February 2026, Penn faculty publicly advised on a Pennsylvania commission report on the impact of AI, recommending statewide guardrails and guidance; Penn serves as an expert bench for state-level AI regulation.",
+      "significance": "Further anchors Penn as the commonwealth's academic AI policy voice and translates research expertise into statute-shaping input.",
+      "date_announced": "2026-02-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Faculty service; Commonwealth commission expenses",
+        "description": "Faculty advisory work."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Pennsylvania Commission on AI"
+          ],
+          "description": "Faculty expertise to state commission."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Penn's policy recommendations are likely to shape state-level AI requirements on higher education.",
+      "source_urls": [
+        "https://www.thedp.com/article/2026/02/penn-pennsylvania-commission-report-impact-of-artificial-intelligence"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Penn AI Initiative",
+      "focus": "University-wide AI research and education hub organized around AI Foundations, AI+Health, AI+Science, AI+Business, AI+Society",
+      "founded": "2025",
+      "url": "https://ai.upenn.edu/"
+    },
+    {
+      "name": "Penn Engineering AI Program (Raj and Neera Singh)",
+      "focus": "Undergraduate and online graduate AI engineering programs, plus research; director George J. Pappas",
+      "founded": "2024",
+      "url": "https://ai.seas.upenn.edu/"
+    },
+    {
+      "name": "Wharton AI & Analytics Initiative (WAIAI)",
+      "focus": "Business-school-wide AI research, eight specialized labs, executive education",
+      "founded": "2024",
+      "url": "https://ai-analytics.wharton.upenn.edu/"
+    },
+    {
+      "name": "Wharton Generative AI Labs (GAIL)",
+      "focus": "Applied generative AI research and prototyping for work and learning; co-directed by Ethan and Lilach Mollick",
+      "founded": "2023",
+      "url": "https://gail.wharton.upenn.edu/"
+    },
+    {
+      "name": "Wharton Human-AI Research",
+      "focus": "Human-AI interaction, trust, persuasion, and future of work research",
+      "founded": null,
+      "url": "https://ai.wharton.upenn.edu/"
+    },
+    {
+      "name": "Institute for Biomedical Informatics (IBI)",
+      "focus": "Biomedical AI, health informatics, biobank analytics; directed by Marylyn Ritchie",
+      "founded": null,
+      "url": "https://ibi.upenn.edu/"
+    },
+    {
+      "name": "NSF AIRFoundry (AI-driven RNA BioFoundry)",
+      "focus": "AI-enabled RNA design, synthesis, and delivery; $18M six-year NSF-funded national foundry",
+      "founded": "2024",
+      "url": "https://airfoundry.upenn.edu/"
+    },
+    {
+      "name": "PennAITech",
+      "focus": "AI for aging in place and care management; NIH/NIA-funded (Grant P30AG073105)",
+      "founded": null,
+      "url": "https://www.pennaitech.org/"
+    },
+    {
+      "name": "Penn Quantum Information, Engineering, Science and Technology (QUIEST)",
+      "focus": "Quantum-AI intersection and quantum information research",
+      "founded": null,
+      "url": "https://quiest.seas.upenn.edu/"
+    },
+    {
+      "name": "Predictive Intelligence Lab (AI4Science)",
+      "focus": "Scientific machine learning and AI for engineering/science",
+      "founded": null,
+      "url": "https://ai4science.seas.upenn.edu/"
+    },
+    {
+      "name": "Machine Learning Research at Penn (MLR@Penn)",
+      "focus": "Faculty-student ML research community",
+      "founded": null,
+      "url": "https://mlrpenn.vercel.app/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Raj and Neera Singh B.S.E. in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": "2024-09",
+      "url": "https://catalog.upenn.edu/undergraduate/programs/artificial-intelligence-bse/"
+    },
+    {
+      "type": "degree",
+      "name": "Raj and Neera Singh M.S.E. in Artificial Intelligence (Online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://online.seas.upenn.edu/degrees/mse-ai-online/"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Graduate Certificate (Online, Penn Engineering)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://online.seas.upenn.edu/course-catalog/ai-online-grad-cert/"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Graduate Certificate (on-campus)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.upenn.edu/graduate/programs/artificial-intelligence-certificate/"
+    },
+    {
+      "type": "degree",
+      "name": "Learning Analytics and Artificial Intelligence, M.S.Ed. (Penn GSE, online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.gse.upenn.edu/academics/learning-analytics-AI-online-msed"
+    },
+    {
+      "type": "course",
+      "name": "AI For Business Specialization (Wharton / Coursera)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.coursera.org/specializations/ai-for-business-wharton"
+    },
+    {
+      "type": "course",
+      "name": "Leadership Program in AI and Analytics (Wharton Executive Education)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://online-execed.wharton.upenn.edu/leadership-program-in-ai-and-analytics"
+    },
+    {
+      "type": "concentration",
+      "name": "AI Strategy and Governance (Wharton Online)",
+      "level": "both",
+      "launched": null,
+      "url": "https://platform.onlinelearning.upenn.edu/offering/ai-strategy-and-governance-a0Q2E00000MTwrwUAD"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat (enterprise-contracted, via Penn M365)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://isc.upenn.edu/resources/activate-microsoft-copilot-chat"
+    },
+    {
+      "vendor": "Microsoft/GitHub",
+      "product": "GitHub Copilot (Campus Program)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources"
+    },
+    {
+      "vendor": "Microsoft (Penn Medicine)",
+      "product": "Microsoft Copilot Chat for Penn Medicine",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.med.upenn.edu/pmacs/psomai/microsoft-copilot-chat"
+    },
+    {
+      "vendor": "NVIDIA / Flexential",
+      "product": "PARCC (NVIDIA DGX SuperPOD B200 + Quantum-2 InfiniBand; Philadelphia-Collegeville colo)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://www.prnewswire.com/news-releases/flexential-university-of-pennsylvania-partner-to-launch-penn-advanced-research-computing-center-302458238.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Penn Advanced Research Computing Center (PARCC)",
+    "gpu_count": null,
+    "url": "https://ai.upenn.edu/",
+    "summary": "PARCC, launched May 2025 with Flexential and NVIDIA, is Penn's centralized AI/HPC platform. Anchored by an NVIDIA DGX SuperPOD with DGX B200 systems and Quantum-2 InfiniBand networking, the facility is housed at Flexential's Philadelphia-Collegeville data center, provides 7.2 MW of power at 1,500+ watts/sq ft with liquid cooling, and doubles Penn's prior processing capacity. Supports research across all 12 schools."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Raj and Neera Singh gift funding the Program in AI (BSE)",
+      "amount_usd": null,
+      "source": "Raj and Neera Singh",
+      "purpose": "Endow and launch Penn Engineering's AI undergraduate degree program",
+      "date": "2024-02",
+      "url": "https://penntoday.upenn.edu/news/penn-engineering-launches-first-ivy-league-undergraduate-degree-artificial-intelligence"
+    },
+    {
+      "title": "Harlan M. Stone gift for Amy Gutmann Hall (data science / AI hub)",
+      "amount_usd": 25000000,
+      "source": "Harlan M. Stone (Penn Trustee)",
+      "purpose": "Construction of $137M data science building opened September 2024; anchors AI programs including BSE in AI",
+      "date": "2019-01",
+      "url": "https://penntoday.upenn.edu/news/dedication-penn-amy-gutmann-hall-celebrated"
+    },
+    {
+      "title": "NSF AIRFoundry",
+      "amount_usd": 18000000,
+      "source": "U.S. National Science Foundation",
+      "purpose": "Six-year AI+RNA national foundry",
+      "date": "2024-09",
+      "url": "https://blog.seas.upenn.edu/melding-ai-and-rna-penns-18-million-airfoundry-to-revolutionize-rna-research/"
+    },
+    {
+      "title": "Google.org grant to Penn GSE PASS program",
+      "amount_usd": 1000000,
+      "source": "Google.org",
+      "purpose": "Expand PASS K-12 AI professional development to PA/DE/NJ school districts and intermediate units",
+      "date": "2025-10",
+      "url": "https://www.gse.upenn.edu/news/penn-gses-pass-program-receives-1-million-google-expand-ai-education-schools"
+    },
+    {
+      "title": "Penn GSE-led $26M K-12 AI grants program",
+      "amount_usd": 26000000,
+      "source": "Partnership (funders not fully enumerated in public coverage)",
+      "purpose": "K-12 AI education infrastructure grants",
+      "date": "2026-02",
+      "url": "https://www.gse.upenn.edu/news/penn-gse-partners-launch-26m-ai-grants-program-advancing-k-12-education"
+    },
+    {
+      "title": "PennAITech (NIH/NIA)",
+      "amount_usd": null,
+      "source": "National Institute on Aging (NIH)",
+      "purpose": "AI for aging in place; Grant P30AG073105",
+      "date": null,
+      "url": "https://www.pennaitech.org/"
+    },
+    {
+      "title": "Marrazzo Family Foundation gift to PASS program",
+      "amount_usd": null,
+      "source": "Marrazzo Family Foundation",
+      "purpose": "Initial launch of PASS K-12 AI education initiative in 2025",
+      "date": "2025-01",
+      "url": "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot Chat access for Penn and Penn Medicine with negotiated data protections",
+      "date": "2024-01",
+      "url": "https://isc.upenn.edu/resources/activate-microsoft-copilot-chat"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "DGX SuperPOD and Quantum-2 InfiniBand supply and Mission Control software for PARCC",
+      "date": "2025-05",
+      "url": "https://www.prnewswire.com/news-releases/flexential-university-of-pennsylvania-partner-to-launch-penn-advanced-research-computing-center-302458238.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Flexential",
+      "purpose": "Colocation hosting PARCC at Philadelphia-Collegeville data center",
+      "date": "2025-05",
+      "url": "https://www.prnewswire.com/news-releases/flexential-university-of-pennsylvania-partner-to-launch-penn-advanced-research-computing-center-302458238.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "GitHub",
+      "purpose": "Campus Program Copilot access for students",
+      "date": null,
+      "url": "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google.org",
+      "purpose": "$1M grant to Penn GSE PASS program",
+      "date": "2025-10",
+      "url": "https://www.gse.upenn.edu/news/penn-gses-pass-program-receives-1-million-google-expand-ai-education-schools"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Commonwealth of Pennsylvania (Governor's Office of Administration)",
+      "purpose": "Cooperative AI advising agreement for state AI governance and strategy",
+      "date": "2025-10",
+      "url": "https://penntoday.upenn.edu/news/university-pennsylvania-and-commonwealth-pennsylvania-sign-cooperative-ai-advising-agreement"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Keystone AI + Quantum Factory (CMU, Drexel, Lehigh, Penn State, Temple, Pitt, PSC)",
+      "purpose": "Statewide shared AI/quantum compute and commercialization alliance",
+      "date": "2026-04",
+      "url": "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Puerto Rico-Mayagüez; Drexel; CHOP",
+      "purpose": "NSF AIRFoundry AI+RNA biofoundry",
+      "date": "2024-09",
+      "url": "https://airfoundry.upenn.edu/"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "InfiniFluidics",
+      "purpose": "Lipid nanoparticle manufacturing for AIRFoundry RNA delivery",
+      "date": "2024-09",
+      "url": "https://blog.seas.upenn.edu/melding-ai-and-rna-penns-18-million-airfoundry-to-revolutionize-rna-research/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft Copilot Chat (for students via PennO365)",
+      "scope": "General-purpose generative AI for coursework and productivity with data-protection terms",
+      "url": "https://isc.upenn.edu/resources/activate-microsoft-copilot-chat"
+    },
+    {
+      "type": "other",
+      "name": "GitHub Copilot (Campus Program, students)",
+      "scope": "Developer assistant for engineering/CS students; unlimited access to baseline models",
+      "url": "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources"
+    },
+    {
+      "type": "other",
+      "name": "Wharton Generative AI Labs tools",
+      "scope": "Research-driven AI prototypes released to students and public",
+      "url": "https://gail.wharton.upenn.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Enterprise-contracted Microsoft Copilot access as an equity floor",
+      "description": "By providing all Penn faculty, staff, and students with institutional Copilot Chat under Penn's data-protection contract, Penn reduces dependence on paid consumer subscriptions and narrows the AI tool-access gap within the community.",
+      "url": "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources"
+    },
+    {
+      "title": "Penn GSE PASS regional K-12 expansion",
+      "description": "Brings AI professional development and equity-centered practice to intermediate units and school districts across PA, DE, and NJ — including the School District of Philadelphia — to close AI capability gaps in under-resourced K-12 systems.",
+      "url": "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts"
+    },
+    {
+      "title": "Bias and data protection provisions in university AI guidance",
+      "description": "Penn's 2023 guidance explicitly calls out bias in training data and mandates consideration of disparate impact when using AI tools.",
+      "url": "https://isc.upenn.edu/security/AI-guidance"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Pennsylvania",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Pennsylvania has an active state-level AI policy posture: Gov. Shapiro's 2023 executive order created a Generative AI Governing Board for state government, Pennsylvania adopted an Artificial Intelligence Policy effective January 13, 2026, governing state agency AI use, and the Pennsylvania Department of Education has released an AI endorsement framework for teacher preparation programs. The governor has explicitly left K-12 and higher-ed AI policy to district and institutional leaders. Penn operates as an advisor to the state via the October 2025 cooperative AI advising agreement and Penn faculty serve on the Pennsylvania commission on AI impact. Penn is private and has no public-system AI policy above it.",
+    "urls": [
+      "https://digitalgovernmenthub.org/examples/commonwealth-of-pennsylvania-artificial-intelligence-executive-order/",
+      "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/artificial%20intelligence%20policy.pdf",
+      "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/educators/certification-preparation-programs/specific-program-guidelines/ai%20endorsement%20framework%20guidelines.pdf",
+      "https://www.cityandstatepa.com/policy/2025/07/pennsylvania-top-3-state-government-ai-readiness/406573/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-10",
+      "summary": "ShinyHunters social-engineering breach of Penn's email and donor systems. Hackers invoked FERPA in ransom messaging and released files on February 4, 2026, after Penn refused a $1M ransom. While not strictly an AI controversy, the breach shapes Penn's risk posture on AI tools that touch student or donor data.",
+      "status": "active",
+      "url": "https://techcrunch.com/2025/11/05/university-of-pennsylvania-confirms-hacker-stole-data-during-cyberattack/"
+    },
+    {
+      "date": "2024-12",
+      "summary": "Debate within Penn (reported in Daily Pennsylvanian) about whether the university should impose a single AI policy across courses or preserve college-level and faculty-level discretion. Current practice maintains faculty autonomy with the university guidance as a floor.",
+      "status": "resolved",
+      "url": "https://www.thedp.com/article/2024/12/penn-policies-artificial-intelligence-classroom"
+    }
+  ],
+  "narrative_summary": "The University of Pennsylvania has built one of the most structurally mature AI postures in the Ivy League over 2023–2026. Governance is anchored by the Penn AI Council (October 2024), a five-member faculty body chartered by the Provost to coordinate cross-school strategy and oversee buildout of the Penn Advanced Research Computing Center. This sits above a comprehensive November 2023 generative AI guidance co-authored by nine university offices, and is reinforced at the school level by an inaugural Vice Dean of AI and Computing at Perelman (Marylyn Ritchie), the Wharton AI & Analytics Initiative (WAIAI) launched in May 2024 with eight specialized labs including the Mollicks' Generative AI Labs, and a broad Penn AI Pedagogy Initiative at Penn GSE. Infrastructure matches the governance ambition: PARCC, launched in May 2025 with Flexential and NVIDIA, delivers an NVIDIA DGX SuperPOD (DGX B200) with Quantum-2 InfiniBand housed at a dedicated 7.2-MW colocation facility, doubling Penn's compute capacity. On the academic side, the Raj and Neera Singh BSE in AI — which admitted its first cohort in fall 2024 — is the first Ivy League undergraduate AI major, paired with online MSE and graduate certificate pathways at Penn Engineering and Wharton. Penn is also the commonwealth's de facto AI policy partner: an October 2025 cooperative AI advising agreement with Governor Shapiro's Office of Administration, faculty service on the state AI commission (February 2026), and leadership in the April 2026 Keystone AI + Quantum Factory alongside CMU, Drexel, Lehigh, Penn State, Temple, Pitt, and the Pittsburgh Supercomputing Center. Investment is substantial and diverse: Amy Gutmann Hall ($137M building opened 2024; $25M Stone gift), the Singhs' BSE naming gift, an $18M NSF AIRFoundry grant, a $1M Google.org PASS grant, and a $26M K-12 AI grants program led by Penn GSE. Enterprise tooling is centered on Microsoft Copilot Chat for all affiliates and GitHub Copilot via the Campus Program, with negotiated data-protection contracts that serve as an equity floor. Notable gaps are the absence of a single named Chief AI Officer (coverage is distributed across provost, school, and council roles), no publicly documented student-facing predictive-analytics retention system, and ongoing security risk surfaced by the late-2025 ShinyHunters breach that will likely constrain future AI data deployments.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.upenn.edu/",
+      "https://research.upenn.edu/news/provosts-office-announces-penn-ai-council/",
+      "https://penntoday.upenn.edu/news/introducing-penn-ai-council",
+      "https://isc.upenn.edu/security/AI-guidance",
+      "https://almanac.upenn.edu/articles/of-record-guidance-for-the-university-of-pennsylvania-community-on-use-of-generative-artificial-intelligence",
+      "https://cetli.upenn.edu/resources/generative-ai/penn-ai-guidance-and-policies/",
+      "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources",
+      "https://isc.upenn.edu/resources/activate-microsoft-copilot-chat",
+      "https://www.med.upenn.edu/pmacs/psomai/microsoft-copilot-chat",
+      "https://support.wharton.upenn.edu/help/copilot-web",
+      "https://almanac.upenn.edu/articles/marylyn-d-ritchie-inaugural-vice-dean-of-artificial-intelligence-and-computing-for-the-perelman-school-of-medicine",
+      "https://www.med.upenn.edu/evpdeancommunications/2024-03-28-346.html",
+      "https://almanac.upenn.edu/articles/joshua-beeman-vice-president-for-information-technology-and-chief-information-officer",
+      "https://penntoday.upenn.edu/news/joshua-beeman-named-vp-it-and-university-cio-penn",
+      "https://www.prnewswire.com/news-releases/flexential-university-of-pennsylvania-partner-to-launch-penn-advanced-research-computing-center-302458238.html",
+      "https://ai.seas.upenn.edu/",
+      "https://catalog.upenn.edu/undergraduate/programs/artificial-intelligence-bse/",
+      "https://catalog.upenn.edu/graduate/programs/artificial-intelligence-certificate/",
+      "https://online.seas.upenn.edu/course-catalog/ai-online-grad-cert/",
+      "https://penntoday.upenn.edu/news/penn-engineering-launches-first-ivy-league-undergraduate-degree-artificial-intelligence",
+      "https://almanac.upenn.edu/articles/penn-engineering-first-bse-program-in-artificial-intelligence-in-the-ivy-league",
+      "https://www.thedp.com/article/2024/02/penn-new-major-engineering-degree-artificial-intelligence",
+      "https://ai-analytics.wharton.upenn.edu/",
+      "https://ai.wharton.upenn.edu/",
+      "https://gail.wharton.upenn.edu/",
+      "https://gail.wharton.upenn.edu/about-us/",
+      "https://mgmt.wharton.upenn.edu/profile/emollick/",
+      "https://www.gse.upenn.edu/our-expertise/penn-ai-pedagogy-initiative",
+      "https://www.gse.upenn.edu/news/penn-gses-pass-program-receives-1-million-google-expand-ai-education-schools",
+      "https://www.gse.upenn.edu/news/penn-gse-announces-expansion-pioneering-ai-school-systems-program-school-districts",
+      "https://www.gse.upenn.edu/news/penn-gse-partners-launch-26m-ai-grants-program-advancing-k-12-education",
+      "https://www.gse.upenn.edu/academics/learning-analytics-AI-online-msed",
+      "https://almanac.upenn.edu/articles/penn-gse-and-partners-launch-26-million-grant-program-to-support-k12-ai-education-infrastructure",
+      "https://penntoday.upenn.edu/news/university-pennsylvania-and-commonwealth-pennsylvania-sign-cooperative-ai-advising-agreement",
+      "https://www.thedp.com/article/2025/10/penn-ai-partnership-commonwealth-shapiro",
+      "https://www.pa.gov/governor/newsroom/2025-press-releases/shapiro-admin-ai-conference-collaboration-u-of-pennsylvania",
+      "https://www.thedp.com/article/2026/02/penn-pennsylvania-commission-report-impact-of-artificial-intelligence",
+      "https://airfoundry.upenn.edu/",
+      "https://blog.seas.upenn.edu/melding-ai-and-rna-penns-18-million-airfoundry-to-revolutionize-rna-research/",
+      "https://penntoday.upenn.edu/news/penn-new-hub-ai-driven-rna-research-nsf-airfoundry",
+      "https://almanac.upenn.edu/articles/penn-and-urm-lead-18-million-six-year-grant-for-rna-focused-nsf-airfoundry",
+      "https://www.pennaitech.org/",
+      "https://quiest.seas.upenn.edu/",
+      "https://ai4science.seas.upenn.edu/",
+      "https://mlrpenn.vercel.app/",
+      "https://penntoday.upenn.edu/news/dedication-penn-amy-gutmann-hall-celebrated",
+      "https://penntoday.upenn.edu/news/penn-engineering-reveals-new-data-science-building-will-be-named-amy-gutmann-hall",
+      "https://www.cmu.edu/news/stories/archives/2026/april/pennsylvania-universities-and-commonwealth-leaders-launch-keystone-ai-quantum-factory",
+      "https://www.govtech.com/education/higher-ed/pa-colleges-pool-supercomputing-resources-for-ai-quantum-research",
+      "https://www.hpcwire.com/off-the-wire/psc-pennsylvania-universities-form-keystone-ai-and-quantum-factory-initiative/",
+      "https://pennwatch.org/pennsylvanias-seven-research-universities-state-leaders-launch-keystone-ai-quantum-factory-to-drive-innovation-jobs-and-growth/",
+      "https://digitalgovernmenthub.org/examples/commonwealth-of-pennsylvania-artificial-intelligence-executive-order/",
+      "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/artificial%20intelligence%20policy.pdf",
+      "https://www.cityandstatepa.com/policy/2025/07/pennsylvania-top-3-state-government-ai-readiness/406573/",
+      "https://techcrunch.com/2025/11/05/university-of-pennsylvania-confirms-hacker-stole-data-during-cyberattack/",
+      "https://www.thedp.com/article/2026/02/penn-hack-donor-data-ransom-one-million-shinyhunters-gse-emai",
+      "https://www.thedp.com/article/2024/12/penn-policies-artificial-intelligence-classroom",
+      "https://online-execed.wharton.upenn.edu/leadership-program-in-ai-and-analytics",
+      "https://www.coursera.org/specializations/ai-for-business-wharton",
+      "https://research.upenn.edu/news/penn-ai-announces-the-2026-discovering-the-future-of-ai-award-recipients/",
+      "https://www.upenn.edu/about/facts"
+    ],
+    "search_queries": [
+      "\"University of Pennsylvania\" AI strategy 2025 2026 site:upenn.edu",
+      "\"University of Pennsylvania\" generative AI policy guidelines faculty staff",
+      "\"University of Pennsylvania\" AI council committee task force chief AI officer",
+      "\"University of Pennsylvania\" AI research center institute launch 2025",
+      "\"University of Pennsylvania\" AI degree certificate major minor curriculum program",
+      "\"University of Pennsylvania\" Microsoft Copilot ChatGPT Edu Claude for Education campus deployment",
+      "\"University of Pennsylvania\" AI gift donation million endowment NSF grant 2025",
+      "\"University of Pennsylvania\" provost president CIO 2025 2026",
+      "\"University of Pennsylvania\" Keystone AI Quantum Factory 2025 seven research universities",
+      "\"University of Pennsylvania\" AI chatbot predictive analytics student services retention",
+      "\"University of Pennsylvania\" AI lawsuit controversy FERPA cheating academic integrity",
+      "Pennsylvania state AI policy executive order higher education universities 2025",
+      "\"University of Pennsylvania\" Raj Neera Singh artificial intelligence degree BSE launched fall 2024",
+      "\"University of Pennsylvania\" AI literacy syllabus assessment academic integrity 2024 2025",
+      "\"Penn Medicine\" AI clinical artificial intelligence Perelman Marylyn Ritchie dean",
+      "\"University of Pennsylvania\" enrollment 2024 2025 fall",
+      "\"Penn Engineering\" AIRFoundry NSF RNA biofoundry grant artificial intelligence",
+      "\"University of Pennsylvania\" AI workforce training continuing education executive online course",
+      "\"Wharton\" Generative AI Labs Mollick launch director 2023 2024",
+      "\"University of Pennsylvania\" AI accessibility disability underrepresented equity bias",
+      "\"Penn GSE\" AI pedagogy PASS program Google grant 2026",
+      "\"University of Pennsylvania\" Amy Gutmann Hall data science launch opening"
+    ],
+    "gaps_acknowledged": [
+      "No disclosed dollar amount for the Raj and Neera Singh naming gift.",
+      "No publicly documented dedicated institution-wide Chief AI Officer title — AI leadership is distributed across Penn AI Council, Perelman Vice Dean of AI, Wharton vice dean, and the provost's office.",
+      "No specific cost figure for PARCC; NVIDIA DGX SuperPOD typical GPU count not disclosed publicly.",
+      "No confirmed Penn-run AI chatbot or predictive-analytics retention system surfaced in public reporting (only MSEd academic program and enterprise Copilot rollout).",
+      "No explicit syllabus-level AI policy requirement — faculty retain discretion under university guidance.",
+      "Full dollar total and donor roster for the $26M K-12 AI grants program not fully enumerated in public coverage.",
+      "Detailed Penn adoption of Claude for Education (vs. Copilot/GitHub routing to Claude) not confirmed."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 12,
+        "research_compute_powerhouse": 15,
+        "curriculum_led": 16,
+        "governance_led": 14,
+        "student_success_led": 3,
+        "workforce_regional_development": 23,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-11",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 11,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Penn Advanced Research Computing Center (PARCC)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 70000000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 5,
+        "public_federal_state": 3,
+        "industry_vendor": 4,
+        "other_unclear": 5,
+        "institutional": 5
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 1
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 5,
+          "products": [
+            "Copilot Chat",
+            "Copilot Chat (enterprise-contracted, via Penn M365)",
+            "GitHub Copilot",
+            "GitHub Copilot (Campus Program)",
+            "Microsoft Copilot Chat for Penn Medicine"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 3,
+          "products": [
+            "DGX SuperPOD with DGX B200 systems",
+            "PARCC (NVIDIA DGX SuperPOD B200 + Quantum-2 InfiniBand; Philadelphia-Collegeville colo)",
+            "Quantum-2 InfiniBand networking"
+          ]
+        },
+        {
+          "vendor": "Flexential Philadelphia-Collegeville data center",
+          "mentions": 1,
+          "products": [
+            "Philadelphia-Collegeville data center"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "student_success",
+          "title": "Penn AI Council established to coordinate university-wide AI strategy",
+          "summary": "Formalizes faculty-led AI governance at a decentralized Ivy League university and ties governance directly to compute buildout — a pattern peers are replicating.",
+          "source_url": "https://research.upenn.edu/news/provosts-office-announces-penn-ai-council/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Cooperative AI advising agreement with the Commonwealth of Pennsylvania",
+          "summary": "Atypical formalized university-state AI advisory partnership; provides a template for how R1s can monetize or contribute public-interest AI capacity to state government.",
+          "source_url": "https://penntoday.upenn.edu/news/university-pennsylvania-and-commonwealth-pennsylvania-sign-cooperative-ai-advising-agreement"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Chat enabled for Penn community under enterprise data protections",
+          "summary": "Shifts enterprise AI from shadow use to governed, contracted access — a common pattern across R1s but notable for its breadth at Penn.",
+          "source_url": "https://isc.upenn.edu/ai/artificial-intelligence/penn-generative-ai-tools-resources"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 12,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No disclosed dollar amount for the Raj and Neera Singh naming gift.",
+        "No publicly documented dedicated institution-wide Chief AI Officer title — AI leadership is distributed across Penn AI Council, Perelman Vice Dean of AI, Wharton vice dean, and the provost's office.",
+        "No specific cost figure for PARCC; NVIDIA DGX SuperPOD typical GPU count not disclosed publicly.",
+        "No confirmed Penn-run AI chatbot or predictive-analytics retention system surfaced in public reporting (only MSEd academic program and enterprise Copilot rollout).",
+        "No explicit syllabus-level AI policy requirement — faculty retain discretion under university guidance.",
+        "Full dollar total and donor roster for the $26M K-12 AI grants program not fully enumerated in public coverage.",
+        "Detailed Penn adoption of Claude for Education (vs. Copilot/GitHub routing to Claude) not confirmed."
+      ]
+    }
+  }
+}

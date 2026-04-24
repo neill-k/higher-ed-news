@@ -1,0 +1,1379 @@
+{
+  "institution": "University of Utah",
+  "slug": "university-of-utah",
+  "city_state": "Salt Lake City, UT",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "Utah System of Higher Education",
+  "enrollment": 38261,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Taylor R. Randall",
+      "url": "https://president.utah.edu/"
+    },
+    "provost": {
+      "name": "Mitzi M. Montoya",
+      "url": "https://academic-affairs.utah.edu/"
+    },
+    "cio": {
+      "name": "Stephen (Steve) Hess",
+      "url": "https://it.utah.edu/cio/"
+    },
+    "chief_ai_officer": {
+      "name": "Manish Parashar",
+      "url": "https://ai.utah.edu/about.php"
+    },
+    "ai_strategy_lead": {
+      "name": "Manish Parashar",
+      "title": "Chief Artificial Intelligence Officer and Director, Scientific Computing and Imaging Institute",
+      "url": "https://attheu.utah.edu/science-technology/manish-parashar-appointed-inaugural-chief-ai-officer-for-u/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "One-U Responsible AI Initiative",
+        "url": "https://rai.utah.edu/",
+        "year": 2023
+      },
+      {
+        "title": "University of Utah AI Office (Guidelines & Policies)",
+        "url": "https://ai.utah.edu/guidelines/",
+        "year": 2025
+      },
+      {
+        "title": "AI in Research Guidance",
+        "url": "https://ai.utah.edu/guidelines/",
+        "year": 2025
+      }
+    ],
+    "summary": "Utah's AI strategy is anchored by the $100M One-U Responsible AI Initiative (launched October 2023) and a dedicated AI Office led by inaugural Chief AI Officer Manish Parashar (February 2025). The approach is explicitly 'responsible advancement': integrate AI across research, teaching, and operations while protecting privacy, civil rights, accountability, transparency and fairness. A late-2025 sovereign AI factory partnership with HPE and NVIDIA plus campus-wide ChatGPT Edu and Microsoft Copilot rollouts translate the strategy into concrete infrastructure and tooling."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.utah.edu/guidelines/",
+      "https://it.utah.edu/node4/posts/2023/september/ai-guidelines.php",
+      "https://attheu.utah.edu/facultystaff/fall-2023-instructional-guidelines-on-generative-ai/"
+    ],
+    "adopted_date": "2023-09",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No entry of sensitive/restricted data (PHI, FERPA, PII, IP, PCI) into AI tools per Rule 4-004C",
+      "AI use must comply with all existing university policies",
+      "Faculty encouraged to define AI use cases in syllabi (brainstorming vs. prohibited)",
+      "Misrepresenting AI-generated content as one's own is academic misconduct",
+      "AI functionality in licensed software must undergo data/privacy review before use",
+      "Approved chatbot guidance (Microsoft Copilot Chat, ChatGPT Edu) with commercial data protection",
+      "Separate healthcare-specific guidance gating ChatGPT Edu from hospital and clinic personnel"
+    ],
+    "summary": "Utah has published a layered, comprehensive guidance set covering IT, teaching, research, grading, chatbot use, and marcomm. The stance is permissive-within-guardrails: faculty have discretion, approved enterprise tools are provided, and hard data-classification rules prohibit sharing sensitive data with any AI system. The AI Office (2025) consolidates governance across these domains."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "University of Utah Office of Artificial Intelligence (AI Office)",
+        "type": "office",
+        "scope": "Leads AI strategy, policy, and governance across the university; staffed by 13 cross-functional leaders spanning IT, research, teaching, data, compliance, policy, communications, and purchasing",
+        "url": "https://ai.utah.edu/about.php"
+      },
+      {
+        "name": "One-U Responsible AI Initiative (One-U RAI)",
+        "type": "office",
+        "scope": "University-wide responsible-AI research coordination based at the Scientific Computing and Imaging Institute; three thematic areas (Health Care & Wellness, Environment, Teaching & Learning) and a faculty fellow cohort",
+        "url": "https://rai.utah.edu/"
+      },
+      {
+        "name": "Utah Responsible AI Community Consortium (One-Utah RAI Consortium)",
+        "type": "council",
+        "scope": "Volunteer-led network with four Special Interest Groups (Community Engagement, Infrastructure, Policy & Frameworks, Workforce Development) connecting academia, industry, government and community",
+        "url": "https://rai.utah.edu/"
+      },
+      {
+        "name": "Internal AI Governance Council & External AI Advisory Board (announced)",
+        "type": "council",
+        "scope": "Governance bodies announced alongside the HPE/NVIDIA sovereign AI factory partnership to provide advice on the university's AI ecosystem",
+        "url": "https://healthcare.utah.edu/huntsmancancerinstitute/press-releases/2025/09/u-build-ai-ecosystem-partnership-tech-powerhouses"
+      }
+    ],
+    "summary": "Governance is anchored in a dedicated AI Office (reporting through the provost) with a 13-person cross-functional leadership team, the SCI Institute-based One-U RAI, and a broader community consortium. A distinct internal governance council plus external advisory board was announced with the September 2025 sovereign AI factory partnership."
+  },
+  "initiatives": [
+    {
+      "title": "Inaugural Chief AI Officer appointment (Manish Parashar)",
+      "description": "The University of Utah named Manish Parashar, director of the Scientific Computing and Imaging (SCI) Institute and former NSF Office of Advanced Cyberinfrastructure director, as its first Chief AI Officer effective February 10, 2025. He reports to Provost Mitzi Montoya and advises President Taylor Randall on AI strategy, research translation, industry collaboration, and ethics.",
+      "significance": "A CAIO appointment at the R1 level signals that AI strategy has moved from an IT or provost portfolio add-on to a dedicated executive function — a pattern other R1s are increasingly following.",
+      "date_announced": "2025-02-10",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Utah (internal)",
+        "description": "Senior executive hire with dedicated AI Office and 13-member leadership team across IT, research, teaching, data, compliance and policy"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal appointment"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes an accountable executive and a cross-functional AI Office; aligns with the Utah Office of Artificial Intelligence Policy's emphasis on named leadership and frameworks.",
+      "source_urls": [
+        "https://attheu.utah.edu/science-technology/manish-parashar-appointed-inaugural-chief-ai-officer-for-u/",
+        "https://www.deseret.com/utah/2025/02/13/ai-university-utah-taylor-randall-computer-science-research-artificial-intelligence/",
+        "https://ai.utah.edu/about.php"
+      ]
+    },
+    {
+      "title": "One-U Responsible AI Initiative ($100M)",
+      "description": "A university-wide responsible AI initiative launched in October 2023 with a $100M commitment. It spans three thematic research areas — health care & wellness, environment, and teaching & learning — and runs faculty/postdoc/graduate/visiting fellowships, cluster hires, and seed grants (approximately $400K in inaugural awards). As of December 2025, twelve additional faculty fellows joined the program.",
+      "significance": "One of the largest single-university responsible-AI commitments in the country; functions as the organizing backbone for Utah's AI research portfolio and the source of many secondary initiatives.",
+      "date_announced": "2023-10-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 100000000,
+        "funding_source": "University of Utah central investment plus philanthropic contributions",
+        "description": "$100M multi-year responsible-AI initiative covering fellowships, cluster hires, seed grants, and a community consortium"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Utah Responsible AI Community Consortium"
+          ],
+          "description": "Statewide volunteer-led consortium spanning academia, industry, government and community"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds ethics, privacy and civil-rights considerations into Utah's AI research agenda by design rather than as an afterthought.",
+      "source_urls": [
+        "https://rai.utah.edu/",
+        "https://attheu.utah.edu/facultystaff/responsible-ai-initiative-seeks-to-solve-societal-problems/",
+        "https://sci.utah.edu/"
+      ]
+    },
+    {
+      "title": "Sovereign AI factory with HPE and NVIDIA ($50M partnership)",
+      "description": "A $50M public-private partnership (announced September 2025) to build a university-operated 'sovereign AI factory' using HPE Cray XD670 servers with NVIDIA Hopper GPUs, managed via HPE GreenLake. Funded in part by a $10M lead gift from Peter and Brynn Huntsman / the Huntsman Family Foundation, the system triples Utah's research computing capacity and comes online in summer 2026. Workloads target LLM training, NLP, multimodal AI, cancer, Alzheimer's, mental health, and genetics.",
+      "significance": "A flagship model for how mid-size R1s are acquiring frontier AI compute through public-private philanthropy rather than federal grants alone, paired with explicit 'sovereign' data-residency framing.",
+      "date_announced": "2025-09-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 50000000,
+        "funding_source": "University of Utah, State of Utah, Huntsman Family Foundation ($10M lead gift), HPE, NVIDIA",
+        "description": "$50M public-private partnership (incl. $10M Huntsman gift) for a sovereign AI factory; 3.5x increase in compute capacity"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Hewlett Packard Enterprise",
+            "NVIDIA"
+          ],
+          "description": "HPE supplies Cray XD670 servers and GreenLake managed service; NVIDIA supplies Hopper GPUs"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Utah"
+          ],
+          "description": "State participation in sovereign AI factory to expand regional economic development"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "HPE Cray XD670 servers",
+          "vendor": "Hewlett Packard Enterprise",
+          "role": "Compute platform"
+        },
+        {
+          "name": "NVIDIA Hopper GPUs",
+          "vendor": "NVIDIA",
+          "role": "AI acceleration"
+        },
+        {
+          "name": "HPE GreenLake",
+          "vendor": "Hewlett Packard Enterprise",
+          "role": "Managed service layer"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions the university as a sovereign steward of its AI compute and data, with governance and advisory bodies attached.",
+      "source_urls": [
+        "https://www.hpe.com/us/en/newsroom/press-release/2025/10/university-of-utah-and-the-state-of-utah-to-accelerate-medical-research-and-expand-regional-economic-development-with-a-sovereign-ai-factory-powered-by-hpe-and-nvidia.html",
+        "https://healthcare.utah.edu/huntsmancancerinstitute/press-releases/2025/09/u-build-ai-ecosystem-partnership-tech-powerhouses",
+        "https://www.sltrib.com/news/education/2025/09/10/university-utah-approves-50m-ai/",
+        "https://www.kpcw.org/state-regional/2026-04-22/university-of-utahs-ai-supercomputer-to-come-online-this-summer"
+      ]
+    },
+    {
+      "title": "Campus-wide ChatGPT Edu rollout",
+      "description": "On November 20, 2025, Utah launched ChatGPT Edu to all students, faculty, and staff via a University IT Service Catalog request flow. Features include the latest OpenAI models, multimodal capabilities, Canvas, custom GPTs, and image generation, with enhanced privacy controls and no training on university data. OpenAI trained 100+ faculty, staff and students as session leaders by December 2025, with a campus-wide ChatGPT Essentials webinar in January 2026.",
+      "significance": "Puts Utah among the first wave of R1s to deploy ChatGPT Edu campus-wide rather than piloting by college or role, a bellwether for enterprise AI adoption in higher ed.",
+      "date_announced": "2025-11-20",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development",
+        "ai_tutoring_and_adaptive_learning"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Utah (enterprise agreement with OpenAI)",
+        "description": "Campus-wide enterprise license across students, faculty, staff — dollar value not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Enterprise license and OpenAI-led training for 100+ in-house session leaders"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Campus-wide generative AI assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Restrictions: hospital and clinic personnel excluded pending healthcare data-protection review; sensitive/restricted data prohibited.",
+      "source_urls": [
+        "https://attheu.utah.edu/facultystaff/u-launches-chatgpt-edu-a-university-centered-generative-ai-tool-for-campus-use/",
+        "https://www.deseret.com/education/2025/11/30/university-of-utah-launches-chatgpt-edu-campuswide/",
+        "https://ai.utah.edu/tools/chatgpt/index.php"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot campus deployment",
+      "description": "Microsoft Copilot was rolled out to University of Utah and University of Utah Health staff and faculty, and students in degree-granting programs beginning February 2024, at no additional cost as part of the university's A5-tier Microsoft Campus Agreement. The deployment provides commercial data protection but prohibits sharing sensitive or restricted data.",
+      "significance": "Early-wave enterprise Copilot access bundled into an existing Microsoft agreement — a template other A5-tier institutions have followed to broaden AI tool availability without new procurement.",
+      "date_announced": "2024-01-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Microsoft A5-tier Campus Agreement",
+        "description": "Included in existing Microsoft enterprise license; incremental cost not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Microsoft Copilot access via A5 agreement"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Chat-based generative AI with commercial data protection"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Approved for general use but not for PHI, FERPA-protected data, or other restricted categories.",
+      "source_urls": [
+        "https://attheu.utah.edu/facultystaff/microsoft-copilot-ai-chat-platform-is-now-available/",
+        "https://it.utah.edu/node4/posts/2024/january/microsoft-copilot.php",
+        "https://attheu.utah.edu/announcements/microsoft-copilot-ai-chat-platform-is-now-available-to-students/"
+      ]
+    },
+    {
+      "title": "Utah-NVIDIA statewide AI education and workforce partnership",
+      "description": "Governor Spencer Cox and President Taylor Randall signed a memorandum of understanding with NVIDIA to build a statewide AI education and workforce pipeline. Utah educators gain access to NVIDIA's Deep Learning Institute University Ambassador Program (teaching kits, workshops, cloud GPU access). The University of Utah's One-U Responsible AI Initiative leads the academic side of the partnership.",
+      "significance": "Demonstrates a flagship public-R1-meets-industry model for state-level AI talent strategy, linking K-12, community colleges, universities, and adult education with a single vendor curriculum stack.",
+      "date_announced": "2025-09-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "community_college_ai_program",
+        "regional_economic_impact",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Utah Governor's Office of Economic Opportunity, NVIDIA, USHE institutions",
+        "description": "Memorandum of understanding across state government, USHE institutions, and NVIDIA for workforce AI training"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "Statewide teaching kits, workshop content, and cloud GPU access"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Utah Governor's Office of Economic Opportunity",
+            "Utah System of Higher Education"
+          ],
+          "description": "State leadership and multi-institution coordination"
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Utah Valley University",
+            "Utah State University",
+            "other USHE institutions"
+          ],
+          "description": "Multi-campus workforce pipeline"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA Deep Learning Institute (DLI) University Ambassador Program",
+          "vendor": "NVIDIA",
+          "role": "Workforce curriculum and cloud GPU access"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Aligns with Utah Board of Higher Education's statewide direction on AI, emphasizing pro-human AI skills and workforce readiness.",
+      "source_urls": [
+        "https://attheu.utah.edu/students/u-taps-nvidias-ai-expertise/",
+        "https://blogs.nvidia.com/blog/utah-ai-education/",
+        "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/",
+        "https://www.govtech.com/education/higher-ed/utah-nvidia-team-up-for-ai-upskilling-in-education-workforce"
+      ]
+    },
+    {
+      "title": "Business AI undergraduate minor (Eccles School)",
+      "description": "The David Eccles School of Business announced a 16-credit Business AI minor open to all University of Utah undergraduates (announced November 2025). Curriculum covers Python programming, business strategy, machine learning and analytics, data visualization and communication, chatbot development, predictive analytics, and a dedicated AI ethics elective.",
+      "significance": "One of the first cross-campus business-AI minors at an R1, deliberately engineered for non-computing majors — a likely pattern for democratizing AI skills beyond CS.",
+      "date_announced": "2025-11-03",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "David Eccles School of Business",
+        "description": "New 16-credit undergraduate minor open to all University of Utah undergraduates"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic offering"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds an AI ethics elective into the core of a business-AI curriculum, reflecting Academic Senate feedback.",
+      "source_urls": [
+        "https://eccles.utah.edu/news/new-business-ai-minor-announced-for-all-university-of-utah-undergraduate-students/",
+        "https://www.deseret.com/utah/2025/11/03/university-of-utah-ai-minor/"
+      ]
+    },
+    {
+      "title": "Kahlert School AI minor and 'Exploring AI' course",
+      "description": "The Kahlert School of Computing introduced a new undergraduate AI minor and a non-technical 'Exploring AI' course (COMP 1960) designed to give any U of U student foundational AI literacy. The minor complements the Business AI minor in positioning Utah to offer AI education at multiple depths across majors.",
+      "significance": "Pairs a technical minor with a genuinely non-technical survey course — an approach most R1s are still figuring out.",
+      "date_announced": "2025-10-30",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Kahlert School of Computing",
+        "description": "New undergraduate AI minor plus introductory non-major course"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.price.utah.edu/2025/10/30/kahlert-school-of-computing-introduces-new-ai-minor-and-exploring-ai-course",
+        "https://magazine.utah.edu/issues/winter-2026/the-u-to-offer-two-new-minors-in-ai/"
+      ]
+    },
+    {
+      "title": "UBot and UGuide AI student support chatbots",
+      "description": "The University's Innovation Lab (Office of Undergraduate Studies) developed UBot, a Socratic virtual tutor available to students around the clock, and UGuide, a virtual assistant that helps students explore majors. Both are student-facing AI tools developed in-house; UGuide is in early pilot.",
+      "significance": "Demonstrates a shift from third-party chatbot procurement to in-house R&D of student-facing AI agents, enabling tighter policy alignment and data control.",
+      "date_announced": "2025-01-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_tutoring_and_adaptive_learning",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University of Utah Innovation Lab",
+        "description": "In-house development through the Innovation Lab (Office of Undergraduate Studies)"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal development"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UBot",
+          "vendor": "University of Utah Innovation Lab",
+          "role": "Socratic virtual tutor"
+        },
+        {
+          "name": "UGuide",
+          "vendor": "University of Utah Innovation Lab",
+          "role": "Major exploration assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "In-house agents operate under the AI Office's guardrails and the university's data-classification policy.",
+      "source_urls": [
+        "https://us.utah.edu/news-and-updates/posts/ai-powered-chatbots.php",
+        "https://innovationlab.utah.edu/our-work/teaching-excellence.php"
+      ]
+    },
+    {
+      "title": "TEF-Talk teaching feedback AI dashboard",
+      "description": "TEF-Talk is an AI-powered dashboard developed in partnership with the Center for Teaching & Learning Excellence, the Office of Undergraduate Studies, and the Spark Innovation Lab. It synthesizes course feedback, peer reviews, and self-reflections to help faculty and administrators interpret teaching evaluation data.",
+      "significance": "A concrete, early example of AI applied to faculty development and institutional assessment rather than student-facing use cases — a category many institutions are still approaching tentatively.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_powered_admin_tools",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University of Utah (internal)",
+        "description": "Cross-unit internal development"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal collaboration across CTLE, Undergraduate Studies, and the Spark Innovation Lab"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TEF-Talk",
+          "vendor": "University of Utah Spark Innovation Lab",
+          "role": "AI-driven teaching-evaluation synthesis"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://innovationlab.utah.edu/our-work/teaching-excellence.php",
+        "https://cte.utah.edu/instructor-education/ai-for-teaching.php"
+      ]
+    },
+    {
+      "title": "ProEd AI micro-credential suite (AI Essentials, Prompting, Automation)",
+      "description": "The University of Utah Professional Education (ProEd) unit runs a public-facing AI micro-credential stack: AI Essentials, AI Prompting, and AI Automation (no-code integration with Make.com, Zapier, n8n). Open to both internal learners and the broader regional workforce.",
+      "significance": "Builds a revenue-generating and regionally relevant AI upskilling channel distinct from the degree-program pipeline — a pattern many R1s are replicating.",
+      "date_announced": "2025-01-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "ProEd revenue",
+        "description": "Online micro-credential revenue model"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Make.com",
+            "Zapier",
+            "n8n"
+          ],
+          "description": "Vendor-integrated curriculum in the AI Automation certificate"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Essentials / AI Prompting / AI Automation certificates",
+          "vendor": "University of Utah ProEd",
+          "role": "Online micro-credentials"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://upskill.utah.edu/ai-essentials",
+        "https://upskill.utah.edu/ai-prompting",
+        "https://upskill.utah.edu/ai-automation"
+      ]
+    },
+    {
+      "title": "Price College faculty AI upskilling program",
+      "description": "The John and Marcia Price College of Engineering runs a multi-week faculty AI upskilling program combining topical 'deeper dive' sessions (Generative AI, Deep Learning, Human-AI Interaction), small-group research application clinics, and 4–6 weeks of individual expert consultations. Graduates are prepared to design AI-driven research projects and write competitive proposals.",
+      "significance": "Invests in mid-career faculty uptake of AI research methods — a crucial but under-addressed bottleneck for sector AI adoption.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Price College of Engineering",
+        "description": "College-funded faculty development program"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.price.utah.edu/ai/upskilling-in-ai"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Scientific Computing and Imaging (SCI) Institute",
+      "focus": "Computational science, scientific machine learning, medical imaging, responsible AI; home of the Chief AI Officer and One-U RAI",
+      "founded": "1994",
+      "url": "https://sci.utah.edu/"
+    },
+    {
+      "name": "One-U Responsible AI Initiative (One-U RAI)",
+      "focus": "Health care & wellness, environment, teaching & learning; responsible-AI research",
+      "founded": "2023",
+      "url": "https://rai.utah.edu/"
+    },
+    {
+      "name": "Utah Robotics Center",
+      "focus": "Robot learning and AI, medical robotics, micro/nano-robotics, swarms, assistive robotics",
+      "founded": null,
+      "url": "https://robotics.coe.utah.edu/"
+    },
+    {
+      "name": "DELPHI Data Science Initiative (Data Exploration and Learning for Precision Health Intelligence)",
+      "focus": "Biomedical data science, precision health AI, seed grants",
+      "founded": "2022",
+      "url": "https://uofuhealth.utah.edu/delphi-data-science-initiative"
+    },
+    {
+      "name": "One Utah Data Science Hub",
+      "focus": "Interdisciplinary data science coordination (houses DELPHI and DATASET initiatives)",
+      "founded": "2022",
+      "url": "https://www.research.utah.edu/one-utah-data-science-hub/"
+    },
+    {
+      "name": "Utah NeuroRobotics Lab",
+      "focus": "AI-powered prosthetic and assistive devices (led by Jacob A. George)",
+      "founded": null,
+      "url": "https://robotics.coe.utah.edu/facultylabs/"
+    },
+    {
+      "name": "Center for High Performance Computing (CHPC)",
+      "focus": "HPC, machine learning infrastructure, advanced training",
+      "founded": null,
+      "url": "https://www.chpc.utah.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "minor",
+      "name": "Artificial Intelligence Minor (Kahlert School of Computing)",
+      "level": "undergrad",
+      "launched": "2025-10",
+      "url": "https://www.price.utah.edu/2025/10/30/kahlert-school-of-computing-introduces-new-ai-minor-and-exploring-ai-course"
+    },
+    {
+      "type": "minor",
+      "name": "Business AI Minor (David Eccles School of Business)",
+      "level": "undergrad",
+      "launched": "2025-11",
+      "url": "https://eccles.utah.edu/news/new-business-ai-minor-announced-for-all-university-of-utah-undergraduate-students/"
+    },
+    {
+      "type": "minor",
+      "name": "Cognitive Science Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.utah.edu/programs/CGSCMIN"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Deep Learning (Kahlert School of Computing)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.utah.edu/graduate/academic-programs/certificate-programs/graduate-certificate-in-deep-learning/"
+    },
+    {
+      "type": "concentration",
+      "name": "PhD / MS in Computer Science with AI specialization",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.utah.edu/graduate/academic-programs/ms-and-phd-programs/"
+    },
+    {
+      "type": "degree",
+      "name": "Data Science undergraduate degree",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.cs.utah.edu/undergraduate/academic-programs/undergraduate-academic-program-overview/"
+    },
+    {
+      "type": "course",
+      "name": "CS 4300 Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.utah.edu/courses/2093131"
+    },
+    {
+      "type": "course",
+      "name": "COMP 1960 Exploring AI (non-technical)",
+      "level": "undergrad",
+      "launched": "2025-10",
+      "url": "https://www.price.utah.edu/2025/10/30/kahlert-school-of-computing-introduces-new-ai-minor-and-exploring-ai-course"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Essentials (ProEd)",
+      "level": "both",
+      "launched": null,
+      "url": "https://upskill.utah.edu/ai-essentials"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Prompting (ProEd)",
+      "level": "both",
+      "launched": null,
+      "url": "https://upskill.utah.edu/ai-prompting"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Automation (ProEd)",
+      "level": "both",
+      "launched": null,
+      "url": "https://upskill.utah.edu/ai-automation"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://attheu.utah.edu/facultystaff/u-launches-chatgpt-edu-a-university-centered-generative-ai-tool-for-campus-use/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (A5-tier)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-02",
+      "url": "https://attheu.utah.edu/facultystaff/microsoft-copilot-ai-chat-platform-is-now-available/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "University of Utah Sovereign AI Factory (HPE/NVIDIA)",
+    "gpu_count": null,
+    "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/10/university-of-utah-and-the-state-of-utah-to-accelerate-medical-research-and-expand-regional-economic-development-with-a-sovereign-ai-factory-powered-by-hpe-and-nvidia.html",
+    "summary": "Utah is standing up a $50M sovereign AI factory built on HPE Cray XD670 servers with NVIDIA Hopper GPUs, managed via HPE GreenLake; projected to triple campus AI compute capacity and come online summer 2026. The Center for High Performance Computing (CHPC) continues to operate baseline HPC and GPU resources, with 80 additional GPUs reported added in 2025."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "One-U Responsible AI Initiative launch commitment",
+      "amount_usd": 100000000,
+      "source": "University of Utah central investment (President Taylor Randall announcement)",
+      "purpose": "Multi-year responsible-AI research initiative across health, environment, and teaching & learning",
+      "date": "2023-10",
+      "url": "https://attheu.utah.edu/facultystaff/responsible-ai-initiative-seeks-to-solve-societal-problems/"
+    },
+    {
+      "title": "Huntsman Family Foundation lead gift for AI ecosystem",
+      "amount_usd": 10000000,
+      "source": "Peter and Brynn Huntsman / Huntsman Family Foundation",
+      "purpose": "Lead gift catalyzing the $50M sovereign AI factory partnership with HPE and NVIDIA",
+      "date": "2025-09",
+      "url": "https://www.sltrib.com/news/education/2025/09/10/university-utah-approves-50m-ai/"
+    },
+    {
+      "title": "Sovereign AI factory partnership ($50M total)",
+      "amount_usd": 50000000,
+      "source": "University of Utah, State of Utah, Huntsman Family Foundation, HPE, NVIDIA",
+      "purpose": "Build statewide AI ecosystem and 3.5x campus compute capacity for cancer, Alzheimer's, mental health and genetics research",
+      "date": "2025-09",
+      "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/10/university-of-utah-and-the-state-of-utah-to-accelerate-medical-research-and-expand-regional-economic-development-with-a-sovereign-ai-factory-powered-by-hpe-and-nvidia.html"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "Campus-wide ChatGPT Edu rollout with privacy controls and training",
+      "date": "2025-11",
+      "url": "https://attheu.utah.edu/facultystaff/u-launches-chatgpt-edu-a-university-centered-generative-ai-tool-for-campus-use/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Campus-wide Microsoft Copilot access via A5-tier agreement",
+      "date": "2024-02",
+      "url": "https://attheu.utah.edu/facultystaff/microsoft-copilot-ai-chat-platform-is-now-available/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Hewlett Packard Enterprise (HPE)",
+      "purpose": "Sovereign AI factory compute platform (HPE Cray XD670, GreenLake)",
+      "date": "2025-09",
+      "url": "https://www.hpe.com/us/en/newsroom/press-release/2025/10/university-of-utah-and-the-state-of-utah-to-accelerate-medical-research-and-expand-regional-economic-development-with-a-sovereign-ai-factory-powered-by-hpe-and-nvidia.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "Sovereign AI factory GPUs (Hopper) and statewide workforce/education MOU via NVIDIA DLI Ambassador Program",
+      "date": "2025-09",
+      "url": "https://blogs.nvidia.com/blog/utah-ai-education/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "State of Utah (Governor's Office of Economic Opportunity)",
+      "purpose": "Statewide AI education and workforce partnership; co-funder of the sovereign AI factory",
+      "date": "2025-09",
+      "url": "https://business.utah.gov/news/utah-leaders-collaborate-with-nvidia-to-advance-tech-talent-development/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Utah Responsible AI Community Consortium",
+      "purpose": "Volunteer-led network linking academia, industry, government, and community around responsible AI",
+      "date": "2024-01",
+      "url": "https://rai.utah.edu/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Utah System of Higher Education (USHE)",
+      "purpose": "Statewide coordination of AI strategy under the Utah Board of Higher Education direction",
+      "date": "2024-06",
+      "url": "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "ChatGPT Edu",
+      "scope": "All students, faculty and staff (excluding hospital/clinic personnel)",
+      "url": "https://ai.utah.edu/tools/chatgpt/index.php"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot",
+      "scope": "All staff, faculty, and students in degree-granting programs",
+      "url": "https://attheu.utah.edu/announcements/microsoft-copilot-ai-chat-platform-is-now-available-to-students/"
+    },
+    {
+      "type": "tutor",
+      "name": "UBot",
+      "scope": "Socratic virtual tutor in the Innovation Lab",
+      "url": "https://us.utah.edu/news-and-updates/posts/ai-powered-chatbots.php"
+    },
+    {
+      "type": "advisor",
+      "name": "UGuide",
+      "scope": "Virtual assistant for major exploration (early pilot)",
+      "url": "https://us.utah.edu/news-and-updates/posts/ai-powered-chatbots.php"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Responsible AI ethics framework (One-U RAI)",
+      "description": "Explicit mission to advance AI while protecting privacy, civil rights, civil liberties, fairness, accountability, and transparency — embedded across fellowships, seed grants, and the community consortium",
+      "url": "https://rai.utah.edu/"
+    },
+    {
+      "title": "Utah Responsible AI Community Consortium — Special Interest Groups",
+      "description": "Four SIGs (Community Engagement, Infrastructure, Policy & Frameworks, Workforce Development) broaden participation beyond campus faculty",
+      "url": "https://rai.utah.edu/"
+    },
+    {
+      "title": "ChatGPT Edu open to all students",
+      "description": "Free enterprise access for every student removes a per-student paywall that has been a point of equity concern at peer institutions",
+      "url": "https://attheu.utah.edu/facultystaff/u-launches-chatgpt-edu-a-university-centered-generative-ai-tool-for-campus-use/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Utah",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Utah was the first U.S. state to enact AI-specific legislation (Utah Artificial Intelligence Policy Act / SB 149, March 2024), which established the Office of Artificial Intelligence Policy and an AI Learning Laboratory Program. Amendments (SB 226, SB 332) in 2025 extended the UAIPA's repeal date to July 2027. The Utah Board of Higher Education has issued a statewide direction on AI emphasizing pro-human AI skills and workforce readiness across USHE institutions, including the University of Utah.",
+    "urls": [
+      "https://le.utah.gov/~2024/bills/sbillint/SB0149.htm",
+      "https://ai.utah.gov/",
+      "https://www.davispolk.com/insights/client-update/utah-scales-back-reach-generative-ai-consumer-protection-law",
+      "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Utah presents one of the most structurally ambitious AI postures among public R1s. The foundation is the One-U Responsible AI Initiative (launched October 2023 with a $100M multi-year commitment), which explicitly organizes research around three themes — health care & wellness, environment, and teaching & learning — and emphasizes 'responsible advancement' anchored in privacy, civil rights, fairness, accountability, and transparency. Governance matured sharply in 2025 with the appointment of Manish Parashar as inaugural Chief AI Officer (February 10, 2025), reporting to Provost Mitzi Montoya and advising President Taylor Randall. The AI Office he leads includes 13 cross-functional leaders spanning IT, research, teaching, data, compliance, policy, communications, and purchasing — a far more integrated structure than the bolt-on committees common at peer institutions. On infrastructure, Utah announced a $50M sovereign AI factory with Hewlett Packard Enterprise and NVIDIA in September 2025 (including a $10M Huntsman Family Foundation lead gift), using HPE Cray XD670 servers with NVIDIA Hopper GPUs managed via GreenLake, projected to come online summer 2026 and triple campus compute. Enterprise deployments moved quickly: Microsoft Copilot campus-wide in February 2024 via the A5 agreement, then ChatGPT Edu rolled out to every student, faculty member, and staff employee in November 2025 (with hospital and clinic personnel gated pending healthcare data-protection review). Curricular depth grew in parallel — a Kahlert School AI minor and non-technical 'Exploring AI' course (October 2025), and an Eccles Business AI minor (November 2025) open to all undergraduates — plus a ProEd micro-credential stack (AI Essentials / Prompting / Automation) for workforce learners. Student-facing tools include in-house agents UBot (Socratic tutor) and UGuide (major exploration). State context matters: Utah was the first state to enact AI-specific legislation (SB 149, 2024) and the Utah Board of Higher Education has issued explicit system-wide direction, so university strategy aligns tightly with state priorities on workforce readiness and pro-human AI. Gaps remain in published FERPA-specific AI guidance for student data, public disclosure of enterprise AI user counts, and a formal campus-wide syllabus policy; but the scope and integration of Utah's AI posture is on a short list of U.S. public R1s.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.utah.edu/",
+      "https://ai.utah.edu/about.php",
+      "https://ai.utah.edu/at-a-glance.php",
+      "https://ai.utah.edu/guidelines/",
+      "https://ai.utah.edu/innovate.php",
+      "https://ai.utah.edu/learn/courses-programs.php",
+      "https://ai.utah.edu/tools/chatgpt/index.php",
+      "https://ai.utah.edu/blog/posts/2026/utah-strength-responsible-ai.php",
+      "https://ai.utah.edu/blog/posts/2026/chatgpt-edu-advanced-features-training.php",
+      "https://rai.utah.edu/",
+      "https://rai.utah.edu/trib-faster-research-ai-partnership/",
+      "https://sci.utah.edu/",
+      "https://sci.utah.edu/the-u-to-build-an-ai-ecosystem-in-partnership-with-tech-powerhouses/",
+      "https://attheu.utah.edu/science-technology/manish-parashar-appointed-inaugural-chief-ai-officer-for-u/",
+      "https://attheu.utah.edu/facultystaff/responsible-ai-initiative-seeks-to-solve-societal-problems/",
+      "https://attheu.utah.edu/facultystaff/u-launches-chatgpt-edu-a-university-centered-generative-ai-tool-for-campus-use/",
+      "https://attheu.utah.edu/facultystaff/microsoft-copilot-ai-chat-platform-is-now-available/",
+      "https://attheu.utah.edu/announcements/microsoft-copilot-ai-chat-platform-is-now-available-to-students/",
+      "https://attheu.utah.edu/facultystaff/fall-2023-instructional-guidelines-on-generative-ai/",
+      "https://attheu.utah.edu/students/u-taps-nvidias-ai-expertise/",
+      "https://attheu.utah.edu/announcements/university-ushe-cio-stephen-hess-to-retire-in-early-2026/",
+      "https://attheu.utah.edu/artificial-intelligence/u-building-ai-ecosystem-with-tech-powerhouses/",
+      "https://attheu.utah.edu/students/ushe-reports-historic-enrollment-and-completion-data-for-the-university-of-utah/",
+      "https://it.utah.edu/cio/",
+      "https://it.utah.edu/cio/uit-leadership.php",
+      "https://it.utah.edu/node4/posts/2023/september/ai-guidelines.php",
+      "https://it.utah.edu/node4/posts/2024/january/microsoft-copilot.php",
+      "https://www.hpe.com/us/en/newsroom/press-release/2025/10/university-of-utah-and-the-state-of-utah-to-accelerate-medical-research-and-expand-regional-economic-development-with-a-sovereign-ai-factory-powered-by-hpe-and-nvidia.html",
+      "https://healthcare.utah.edu/huntsmancancerinstitute/press-releases/2025/09/u-build-ai-ecosystem-partnership-tech-powerhouses",
+      "https://www.sltrib.com/news/education/2025/09/10/university-utah-approves-50m-ai/",
+      "https://dailyutahchronicle.com/2025/10/02/the-u-approves-50-million-for-ai-cancer-research/",
+      "https://www.deseret.com/utah/2025/02/13/ai-university-utah-taylor-randall-computer-science-research-artificial-intelligence/",
+      "https://www.deseret.com/education/2025/11/30/university-of-utah-launches-chatgpt-edu-campuswide/",
+      "https://www.deseret.com/utah/2025/11/03/university-of-utah-ai-minor/",
+      "https://www.kpcw.org/state-regional/2026-04-22/university-of-utahs-ai-supercomputer-to-come-online-this-summer",
+      "https://utahnewsdispatch.com/2026/04/07/university-of-utahs-ai-supercomputer-set-to-come-online-this-summer/",
+      "https://www.route-fifty.com/artificial-intelligence/2026/04/university-utahs-ai-supercomputer-set-come-online-summer/412701/",
+      "https://eccles.utah.edu/news/new-business-ai-minor-announced-for-all-university-of-utah-undergraduate-students/",
+      "https://www.price.utah.edu/ai/upskilling-in-ai",
+      "https://www.price.utah.edu/2025/10/30/kahlert-school-of-computing-introduces-new-ai-minor-and-exploring-ai-course",
+      "https://upskill.utah.edu/ai-essentials",
+      "https://upskill.utah.edu/ai-prompting",
+      "https://upskill.utah.edu/ai-automation",
+      "https://us.utah.edu/news-and-updates/posts/ai-powered-chatbots.php",
+      "https://innovationlab.utah.edu/our-work/teaching-excellence.php",
+      "https://cte.utah.edu/instructor-education/ai-for-teaching.php",
+      "https://ai.utah.gov/",
+      "https://le.utah.gov/~2024/bills/sbillint/SB0149.htm",
+      "https://ushe.edu/utah-board-of-higher-education-sets-statewide-direction-on-ai/",
+      "https://ushe.edu/goeo-legislative-leaders-and-utah-universities-collaborate-with-nvidia-to-advance-tech-talent-development/",
+      "https://business.utah.gov/news/utah-leaders-collaborate-with-nvidia-to-advance-tech-talent-development/",
+      "https://blogs.nvidia.com/blog/utah-ai-education/",
+      "https://www.govtech.com/education/higher-ed/utah-nvidia-team-up-for-ai-upskilling-in-education-workforce",
+      "https://uofuhealth.utah.edu/delphi-data-science-initiative",
+      "https://www.research.utah.edu/one-utah-data-science-hub/",
+      "https://robotics.coe.utah.edu/",
+      "https://robotics.coe.utah.edu/research-areas/robot-learning-ai/",
+      "https://www.cs.utah.edu/graduate/academic-programs/ms-and-phd-programs/",
+      "https://www.cs.utah.edu/graduate/academic-programs/certificate-programs/graduate-certificate-in-deep-learning/",
+      "https://www.davispolk.com/insights/client-update/utah-scales-back-reach-generative-ai-consumer-protection-law",
+      "https://magazine.utah.edu/issues/winter-2026/the-u-to-offer-two-new-minors-in-ai/"
+    ],
+    "search_queries": [
+      "\"University of Utah\" AI strategy 2025 2026 artificial intelligence initiative",
+      "\"University of Utah\" generative AI policy acceptable use faculty",
+      "\"University of Utah\" AI governance committee task force chief AI officer",
+      "\"University of Utah\" ChatGPT Edu rollout students faculty OpenAI 2025",
+      "\"University of Utah\" NVIDIA HPE supercomputer AI Blackwell DGX partnership",
+      "\"University of Utah\" AI degree program computing major masters artificial intelligence",
+      "\"University of Utah\" CIO chief information officer Steve Hess",
+      "\"University of Utah\" president provost Randall Montoya enrollment",
+      "Utah state AI policy higher education Office of Artificial Intelligence Policy 2024 2025",
+      "\"University of Utah\" Scientific Computing Imaging Institute AI research 2025",
+      "\"University of Utah\" AI workforce upskilling partnership industry OpenAI NVIDIA training",
+      "\"University of Utah\" AI research center institute cancer Huntsman $50 million",
+      "\"University of Utah\" AI research centers CoE robotics machine learning institutes",
+      "\"University of Utah\" AI teaching learning pedagogy faculty resources CTLE assessment",
+      "\"University of Utah\" DELPHI precision health data science AI",
+      "\"University of Utah\" Price College engineering AI upskilling program certificate",
+      "\"University of Utah\" enrollment fall 2025 size total students",
+      "\"University of Utah\" business AI minor Eccles Lassonde student experience AI chatbot advising",
+      "\"University of Utah\" AI controversy cheating FERPA lawsuit data privacy violation",
+      "\"University of Utah\" Microsoft Copilot campus deployment A5 tier license"
+    ],
+    "gaps_acknowledged": [
+      "No publicly stated syllabus-level AI policy requirement (faculty discretion encouraged but not mandated)",
+      "Enterprise AI user counts (ChatGPT Edu, Microsoft Copilot adoption numbers) not publicly disclosed",
+      "Exact GPU count for the HPE/NVIDIA sovereign AI factory not disclosed",
+      "Founding date of Utah Robotics Center not publicly documented in sources consulted",
+      "No active, publicly documented AI-related litigation or formal controversy found; treated as none rather than unknown",
+      "Dedicated AI-specific equity programs beyond the One-U RAI framework are not separately branded"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "curriculum_led",
+      "secondary": [
+        "balanced_enterprise",
+        "workforce_regional_development",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 11,
+        "research_compute_powerhouse": 13,
+        "curriculum_led": 21,
+        "governance_led": 10,
+        "student_success_led": 10,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: curriculum led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 9,
+      "ai_program_count": 11,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 2,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "University of Utah Sovereign AI Factory (HPE/NVIDIA)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 160000000,
+      "funding_source_buckets": {
+        "institutional": 7,
+        "philanthropy_foundation": 2,
+        "public_federal_state": 3,
+        "industry_vendor": 2,
+        "other_unclear": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 2,
+        "tutor": 1,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Amazon",
+          "mentions": 3,
+          "products": [
+            "TEF-Talk",
+            "UBot",
+            "UGuide"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot",
+            "Microsoft Copilot (A5-tier)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "NVIDIA Deep Learning Institute (DLI) University Ambassador Program",
+            "NVIDIA Hopper GPUs"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "Hewlett Packard Enterprise HPE Cray XD670 servers",
+          "mentions": 1,
+          "products": [
+            "HPE Cray XD670 servers"
+          ]
+        },
+        {
+          "vendor": "Hewlett Packard Enterprise HPE GreenLake",
+          "mentions": 1,
+          "products": [
+            "HPE GreenLake"
+          ]
+        },
+        {
+          "vendor": "University of Utah ProEd AI Essentials / AI Prompting / AI Automation certificates",
+          "mentions": 1,
+          "products": [
+            "AI Essentials / AI Prompting / AI Automation certificates"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Amazon",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Campus-wide ChatGPT Edu rollout",
+          "summary": "Puts Utah among the first wave of R1s to deploy ChatGPT Edu campus-wide rather than piloting by college or role, a bellwether for enterprise AI adoption in higher ed.",
+          "source_url": "https://attheu.utah.edu/facultystaff/u-launches-chatgpt-edu-a-university-centered-generative-ai-tool-for-campus-use/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Utah-NVIDIA statewide AI education and workforce partnership",
+          "summary": "Demonstrates a flagship public-R1-meets-industry model for state-level AI talent strategy, linking K-12, community colleges, universities, and adult education with a single vendor curriculum stack.",
+          "source_url": "https://attheu.utah.edu/students/u-taps-nvidias-ai-expertise/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "TEF-Talk teaching feedback AI dashboard",
+          "summary": "A concrete, early example of AI applied to faculty development and institutional assessment rather than student-facing use cases — a category many institutions are still approaching tentatively.",
+          "source_url": "https://innovationlab.utah.edu/our-work/teaching-excellence.php"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "ProEd AI micro-credential suite (AI Essentials, Prompting, Automation)",
+          "summary": "Builds a revenue-generating and regionally relevant AI upskilling channel distinct from the degree-program pipeline — a pattern many R1s are replicating.",
+          "source_url": "https://upskill.utah.edu/ai-essentials"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Price College faculty AI upskilling program",
+          "summary": "Invests in mid-career faculty uptake of AI research methods — a crucial but under-addressed bottleneck for sector AI adoption.",
+          "source_url": "https://www.price.utah.edu/ai/upskilling-in-ai"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No publicly stated syllabus-level AI policy requirement (faculty discretion encouraged but not mandated)",
+        "Enterprise AI user counts (ChatGPT Edu, Microsoft Copilot adoption numbers) not publicly disclosed",
+        "Exact GPU count for the HPE/NVIDIA sovereign AI factory not disclosed",
+        "Founding date of Utah Robotics Center not publicly documented in sources consulted",
+        "No active, publicly documented AI-related litigation or formal controversy found; treated as none rather than unknown",
+        "Dedicated AI-specific equity programs beyond the One-U RAI framework are not separately branded"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1583 @@
+{
+  "institution": "Washington University in St. Louis",
+  "slug": "washington-university-in-st-louis",
+  "city_state": "St. Louis, MO",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 16399,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Andrew D. Martin (Chancellor)",
+      "url": "https://andrewdmartin.washu.edu/"
+    },
+    "provost": {
+      "name": "Mark D. West",
+      "url": "https://provost.washu.edu/"
+    },
+    "cio": {
+      "name": "Jessie Minton",
+      "url": "https://it.wustl.edu/about-it/office-of-the-cio/"
+    },
+    "chief_ai_officer": {
+      "name": "Philip R.O. Payne",
+      "url": "https://centerforhealthai.wustl.edu/"
+    },
+    "ai_strategy_lead": {
+      "name": "Mark D. West",
+      "title": "Provost and Executive Vice Chancellor for Academic Affairs (leads +AI initiative); supported by Betsy Sinclair, Nathan Jacobs, Jen Smith, and Peter Boumgarden",
+      "url": "https://ai.washu.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "+AI Academic Initiative announcement",
+        "url": "https://source.washu.edu/2026/03/university-introduces-ai-academic-initiative/",
+        "year": 2026
+      },
+      {
+        "title": "WashU+AI Initiative Home",
+        "url": "https://ai.washu.edu/",
+        "year": 2026
+      },
+      {
+        "title": "DI2 Accelerator AI Coordinating Committee charter",
+        "url": "https://di2accelerator.wustl.edu/ai/ai-coordinating-committee/",
+        "year": 2025
+      },
+      {
+        "title": "McKelvey Engineering AI Signature Initiative (strategic plan)",
+        "url": "https://engineering.washu.edu/about/initiatives/strategic-plan/signature-initiatives/engineering-AI-research.html",
+        "year": 2024
+      }
+    ],
+    "summary": "WashU's AI strategy is anchored by the universitywide +AI academic initiative launched March 4, 2026, led by Provost Mark D. West. The strategy pursues four goals: fuel student success, transform teaching and learning, accelerate world-class research, and support the St. Louis region, while emphasizing human judgment and responsible use. Execution is coordinated by the Digital Intelligence & Innovation (DI2) Accelerator and a newly chartered AI Coordinating Committee (launched Fall 2025) reporting to the Chancellor, which is tasked with a 12-month AI roadmap. The Center for Health AI (2024) and the Center for Computational and AI-enabled Imaging Sciences (2025) serve as flagship research structures, while McKelvey Engineering's signature AI initiative ties AI research into domain-specific problem solving."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.wustl.edu/ai/",
+      "https://ai.washu.edu/",
+      "https://ctl.wustl.edu/resources/language-for-course-policies-on-artificial-intelligence-ai/",
+      "https://provost.washu.edu/vpei/navigating-artificial-intelligence/"
+    ],
+    "adopted_date": "2023-12",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Do not enter WashU intellectual property or secure data (including deidentified healthcare data) into non-approved AI platforms",
+      "Approved secure tools (Secure WashU ChatGPT, Ask WashU Beta, Gemini for Education, ChatGPT Edu, Secure AI API Endpoints, Box AI, Zoom AI Companion) are HIPAA/FERPA protected",
+      "All new AI tools must go through an Office of Information Security Vendor Security Review before institutional use/purchase",
+      "Faculty set course-level syllabus AI policies using CTL templates (four stances: allowed without restriction, allowed with citation, partially restricted, fully restricted)",
+      "Academic integrity expectations require students to review course expectations for authorized AI use and seek instructor clarification",
+      "Institutional ethics review committee (via CISO) uses NIST AI Risk Management Framework baseline controls to vet AI use cases"
+    ],
+    "summary": "WashU operates a comprehensive AI policy framework combining institution-level guardrails (vendor review, data classification, NIST AI RMF-aligned risk assessment) with distributed instructor discretion at the course level. The Center for Teaching and Learning publishes four standard syllabus stances faculty can adopt. WashU IT maintains an approved tools catalog with clearly labeled HIPAA/FERPA-protected options and explicit prohibitions on entering sensitive data into non-approved platforms."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Coordinating Committee",
+        "type": "committee",
+        "scope": "Cohesive, responsible, strategic AI adoption across the university; identifies high-impact opportunities, establishes ethics guidelines, advises on data governance, recommends resource allocation; reports directly to the Chancellor. Members include Office of the Provost, IT, Digital Transformation, school deans, WashU-BJC Center for Health AI, Epic/HIP leadership, and at-large faculty. Chartered for a 12-month roadmap.",
+        "url": "https://di2accelerator.wustl.edu/ai/ai-coordinating-committee/"
+      },
+      {
+        "name": "+AI Initiative Leadership Team (Office of the Provost)",
+        "type": "office",
+        "scope": "Drives the universitywide +AI academic initiative. Led by Provost Mark D. West with AVPs Betsy Sinclair and Nathan Jacobs (Digital Transformation), VP Jen Smith (Educational Initiatives), and AVP Peter Boumgarden.",
+        "url": "https://ai.washu.edu/"
+      },
+      {
+        "name": "Digital Intelligence & Innovation (DI2) Accelerator",
+        "type": "office",
+        "scope": "Operational hub for AI initiatives including AI tool rollout, Digital Transformation Research Corps, AI Curriculum Corps, and AI education programming. Executive director Dan Maranan.",
+        "url": "https://di2accelerator.wustl.edu/"
+      },
+      {
+        "name": "AI Ethics Review Committee",
+        "type": "committee",
+        "scope": "Supplements existing IT governance bodies across administration, teaching/learning, research, and clinical operations. Uses structured rubrics and NIST AI RMF 72 requirements as baseline. Led operationally by WashU's CISO who drafted the institution-wide AI risk management policy.",
+        "url": "https://www.wwt.com/case-study/fostering-responsible-ai-how-washu-is-building-a-smarter-approach-to-risk-and-governance"
+      },
+      {
+        "name": "Academic AI Working Group (Office of the Provost)",
+        "type": "task_force",
+        "scope": "Faculty insight groups exploring AI opportunities and considerations; informs policy and pedagogical practice around generative AI.",
+        "url": "https://provost.washu.edu/vpei/navigating-artificial-intelligence/"
+      }
+    ],
+    "summary": "WashU employs a multi-tier AI governance model. The AI Coordinating Committee (launched Fall 2025) reports directly to the Chancellor and serves as the strategic coordinating body. The Provost-led +AI Initiative Leadership Team drives academic strategy, while the DI2 Accelerator is the operational engine for tool rollout and programs. A separate AI Ethics Review Committee, led by the CISO and aligned with NIST AI RMF, handles risk assessment. Notably, Philip Payne serves as a dedicated Chief Health AI Officer for WashU Medicine and BJC Health through their joint Center for Health AI."
+  },
+  "initiatives": [
+    {
+      "title": "+AI Universitywide Academic Initiative Launch",
+      "description": "On March 4, 2026, WashU announced a universitywide academic initiative called +AI, led by Provost Mark D. West. The initiative is framed around four pillars: fuel student success, transform teaching and learning, accelerate world-class research, and support the St. Louis region. It includes the AI Literacy for the WashU Scholar Canvas module, the AI Curriculum Corps, institutionally supported AI tools, faculty insight groups, and +AI Perspectives Week (March 2026) featuring The Atlantic CEO Nicholas Thompson.",
+      "significance": "Establishes WashU's first fully integrated, universitywide AI strategy explicitly framed to balance AI enthusiasm with human judgment and institutional values.",
+      "date_announced": "2026-03-04",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost; DI2 Accelerator",
+        "description": "Universitywide program with dedicated leadership team spanning multiple vice provost offices; specific dollar amount not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Center for Teaching and Learning",
+            "WashU IT",
+            "DI2 Accelerator",
+            "WashU Libraries"
+          ],
+          "description": "Cross-functional partnership across provost office, IT, teaching and learning, and libraries."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Advanced AI tool for undergrads who complete AI Literacy module"
+        },
+        {
+          "name": "Gemini for Education",
+          "vendor": "Google",
+          "role": "Free secure AI tool for Danforth Campus"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Danforth Campus research/note-taking tool"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the strategic frame for all downstream AI policy and practice across the university.",
+      "source_urls": [
+        "https://source.washu.edu/2026/03/university-introduces-ai-academic-initiative/",
+        "https://ai.washu.edu/",
+        "https://www.studlife.com/news/2026/03/26/washu-admin-launches-ai-initiative-encourages-discussion-on-and-use-of-ai"
+      ]
+    },
+    {
+      "title": "AI Literacy for the WashU Scholar Canvas Module",
+      "description": "A 30-minute self-enrollment Canvas module for undergraduate and graduate students on the Danforth Campus providing a shared foundation for understanding, critically evaluating, and responsibly using generative AI. Students who complete the module receive free access to ChatGPT Edu. Over 1,000 students had completed the module as of March 2026.",
+      "significance": "Creates an institutional AI literacy baseline tied directly to tool access, effectively making AI literacy a de facto prerequisite for enhanced generative AI privileges.",
+      "date_announced": "2025-10",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "DI2 Accelerator",
+        "description": "Canvas-based self-paced module with tied tool entitlement; development cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "ChatGPT Edu access tied to module completion."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Canvas",
+          "vendor": "Instructure",
+          "role": "LMS host for the module"
+        },
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Reward tool unlocked by completion"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a literacy-gated access model, distinct from universal rollout or full restriction.",
+      "source_urls": [
+        "https://ai.washu.edu/ai-literacy/",
+        "https://www.studlife.com/news/2026/03/26/washu-admin-launches-ai-initiative-encourages-discussion-on-and-use-of-ai"
+      ]
+    },
+    {
+      "title": "Secure WashU ChatGPT Rollout",
+      "description": "In December 2023, WashU launched its own secure, HIPAA- and FERPA-protected version of ChatGPT (currently ChatGPT-4o) free to all students, faculty, and staff. Developed jointly by the DI2 Accelerator and WashU IT, the tool prohibits OpenAI/Microsoft from viewing or training on user data. An upgrade to GPT-4o was deployed in October 2024. A complementary Secure Ask WashU Beta adds multi-file support and model selection.",
+      "significance": "Early R1-scale deployment of a closed, regulated-data-eligible LLM interface tied to institutional identity and vendor terms.",
+      "date_announced": "2023-12-19",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_chatbot_or_virtual_assistant"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WashU IT; DI2 Accelerator",
+        "description": "Custom secure LLM deployment via OpenAI/Microsoft partnership with contractual data-use restrictions."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft"
+          ],
+          "description": "Negotiated agreement preventing vendor viewing or training on WashU data."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Secure WashU ChatGPT",
+          "vendor": "OpenAI / Microsoft Azure",
+          "role": "HIPAA/FERPA-compliant LLM for entire campus"
+        },
+        {
+          "name": "Secure Ask WashU Beta",
+          "vendor": "OpenAI / internal",
+          "role": "Advanced chatbot with multi-file, multi-model support"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates the preferred institutional model: approved closed tools for sensitive data, with public tools allowed only for non-sensitive inputs.",
+      "source_urls": [
+        "https://www.studlife.com/news/2024/01/31/washington-university-launches-its-own-version-of-chatgpt",
+        "https://it.wustl.edu/ai/",
+        "https://gpt.wustl.edu/"
+      ]
+    },
+    {
+      "title": "Center for Health AI (CHAI) Launch with BJC Health System",
+      "description": "On November 13, 2024, WashU Medicine and BJC Health System jointly launched the Center for Health AI, led by Philip R.O. Payne as founding director and Chief Health AI Officer. Clinical focus areas include workflow and documentation automation, sepsis/chemo risk prediction, medical imaging interpretation, blood loss prediction in surgery, and scheduling/resource optimization. Operating team includes Paul Scheel, Chris Miller, CIO Jessie Minton, and Jerry Fox.",
+      "significance": "One of the earliest major academic medical center partnerships with a large community health system establishing joint AI governance and a dedicated Chief Health AI Officer.",
+      "date_announced": "2024-11-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "administrators",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "WashU Medicine and BJC Health System (joint)",
+        "description": "Joint investment; specific dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "BJC Health System"
+          ],
+          "description": "Joint academic-health system AI center with shared governance."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Epic",
+          "vendor": "Epic Systems",
+          "role": "Integrated into governance via Epic/HIP leadership on AI Coordinating Committee"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a model for AMC–health system joint AI governance at scale.",
+      "source_urls": [
+        "https://medicine.washu.edu/news/washu-medicine-bjc-health-system-launch-center-for-health-ai/",
+        "https://centerforhealthai.wustl.edu/",
+        "https://source.washu.edu/2024/11/washu-medicine-bjc-health-system-launch-center-for-health-ai/"
+      ]
+    },
+    {
+      "title": "Center for Computational and AI-enabled Imaging Sciences",
+      "description": "Announced November 2025 by the Mallinckrodt Institute of Radiology at WashU Medicine, the new center is directed by Mark Anastasio (Mallinckrodt Endowed Professor of Imaging Sciences). It develops AI-based imaging tools for diagnosis and precision treatment of cancers, cardiovascular disease, and neurological disease, with partners across McKelvey Engineering, Siteman Cancer Center, and Medicine/Neurology/Psychiatry/Radiation Oncology.",
+      "significance": "Vertically integrated imaging AI center bridging clinical radiology with core computer-vision and ML research.",
+      "date_announced": "2025-11-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Mallinckrodt Institute of Radiology; McKelvey School of Engineering",
+        "description": "New center standing up with endowed professorial leadership; cross-school support."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "McKelvey School of Engineering",
+            "Siteman Cancer Center",
+            "WashU Medicine departments"
+          ],
+          "description": "Multi-school WashU collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://medicine.washu.edu/news/new-center-to-develop-ai-based-imaging-tools-to-improve-diagnosis-care/"
+      ]
+    },
+    {
+      "title": "AI for Health Institute and AI for Health Seed Grant",
+      "description": "The AI for Health Institute connects AI researchers with health investigators across WashU to advance AI in health. Its AI for Health Seed Grant program awards up to $50,000 per project for interdisciplinary AI+health research; FY2026 proposals were due March 4, 2026. Research supported includes surgical AI, spinal cord disease detection, cognitive assistance, and healthcare communication.",
+      "significance": "Institutional seed funding mechanism translating cross-disciplinary AI+health collaboration into funded pilot projects.",
+      "date_announced": "2024-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 50000,
+        "funding_source": "WashU internal (Here and Next Seed Grant program; AI for Health Institute)",
+        "description": "Per-project seed grants of up to $50,000; total annual program budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "McKelvey School of Engineering",
+            "WashU Medicine",
+            "Institute for Informatics, Data Science and Biostatistics (I2DB)"
+          ],
+          "description": "Multi-school WashU collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://aihealth.wustl.edu/",
+        "https://research.washu.edu/funding/here-next-research-funding/ai-for-health-seed-grant/"
+      ]
+    },
+    {
+      "title": "Digital Transformation Research Corps",
+      "description": "A 10-week summer DI2 Accelerator program that pairs WashU faculty-led research teams with student developers and data scientists to create digital tools and AI models. The 2026 cohort will accelerate 18 faculty-led research projects, more than doubling the scale of the 2025 pilot. Applications for 2026 were due January 15, 2026.",
+      "significance": "Cross-disciplinary research-accelerator model translating AI expertise into domain research artifacts.",
+      "date_announced": "2025-12",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "faculty_training_and_development",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "DI2 Accelerator",
+        "description": "Student support, technical mentorship, and computing resources; budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "WashU faculty across all schools"
+          ],
+          "description": "Cross-school participation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://source.washu.edu/2025/12/faculty-can-apply-for-digital-transformation-research-corps/",
+        "https://di2accelerator.wustl.edu/2026-digital-transformation-research-corps-projects-announced/"
+      ]
+    },
+    {
+      "title": "AI Curriculum Corps (Summer 2026)",
+      "description": "Launching Summer 2026, the AI Curriculum Corps is a DI2-supported faculty grant program that helps faculty adapt and create courses using generative AI to advance pedagogical goals across disciplines. Supported by the provost's +AI initiative and multiple partner units.",
+      "significance": "Direct institutional investment in retooling curriculum around generative AI rather than only in retrofitting policy.",
+      "date_announced": "2026-03",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "DI2 Accelerator; Office of the Provost",
+        "description": "Faculty grants; amounts not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CTL",
+            "DI2 Accelerator",
+            "Office of the Provost"
+          ],
+          "description": "Cross-unit WashU partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.washu.edu/",
+        "https://di2accelerator.wustl.edu/"
+      ]
+    },
+    {
+      "title": "WashU Law Global AI Partnership",
+      "description": "Beginning 2026, WashU School of Law launched a global network connecting WashU Law with nine preeminent legal programs across six continents (University of Queensland, Fudan University, Universidad de la Sabana, Addis Ababa University, National Law School of India University, Utrecht University, Comillas University, Koç University, University of Nottingham). Components include virtual webinars on AI regulation, joint research forums, and in-person faculty/student training. Dean Stephanie Lindquist leads.",
+      "significance": "Positions WashU Law as a global hub for AI-and-law education — one of the few international AI education alliances among U.S. law schools.",
+      "date_announced": "2026-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "cross_border_research_alliance",
+        "ai_in_specific_disciplines",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WashU School of Law",
+        "description": "Multi-institution international network; amounts not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "University of Queensland",
+            "Fudan University Law School",
+            "Universidad de la Sabana",
+            "Addis Ababa University School of Law",
+            "National Law School of India University",
+            "Utrecht University",
+            "Comillas University",
+            "Koç University Faculty of Law",
+            "University of Nottingham"
+          ],
+          "description": "Nine-institution global AI-and-law alliance across six continents."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Builds global AI regulatory literacy among future lawyers, judges, and policymakers.",
+      "source_urls": [
+        "https://natlawreview.com/article/washu-law-cements-leadership-legal-tech-new-global-ai-partnership"
+      ]
+    },
+    {
+      "title": "WashU + Mayfield AI Garage Partnership",
+      "description": "Announced February 24, 2026, Silicon Valley VC Mayfield partnered with WashU's Skandalaris Center and McKelvey School of Engineering to run an AI Garage program (May-November 2026). Winning student teams are hosted at the Skandalaris Center with mentorship, workspace, academic credits, and VC access. WashU is only the second university (after Berkeley) to join Mayfield's AI Garage.",
+      "significance": "Direct institutional-VC pipeline for student AI startup formation; rare second-mover into Mayfield's flagship university AI program.",
+      "date_announced": "2026-02-24",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Mayfield (venture capital); WashU Skandalaris Center",
+        "description": "VC-backed incubation; specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Mayfield"
+          ],
+          "description": "Venture capital partnership with Silicon Valley AI-focused VC."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://skandalaris.wustl.edu/washu-mayfield-ai-garage-partnership-announcement/"
+      ]
+    },
+    {
+      "title": "Fundamentals of AI Professional Certificate (CAPS + DI2)",
+      "description": "Launched September 29, 2025 as a 9-week non-credit professional certificate by WashU Continuing & Professional Studies (CAPS) with the DI2 Accelerator. Designed for professionals and lifelong learners with no coding experience; three hands-on modules cover AI tools, core AI concepts, and ethics/bias/accountability. Led by DI2 executive director Dan Maranan.",
+      "significance": "Extends AI upskilling beyond enrolled students to working professionals in the St. Louis region.",
+      "date_announced": "2025-09-29",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WashU CAPS; DI2 Accelerator",
+        "description": "Tuition-based non-credit certificate program."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CAPS",
+            "DI2 Accelerator"
+          ],
+          "description": "Internal WashU partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://di2accelerator.wustl.edu/washu-caps-and-di2-accelerator-partner-to-launch-new-ai-fundamentals-certificate/"
+      ]
+    },
+    {
+      "title": "NSF AI-ACCESS Training Grant ($3M, 5 years)",
+      "description": "The National Science Foundation is investing $3 million over five years in WashU's AI-ACCESS program (Artificial Intelligence Advancements and Convergence in Computational, Environmental and Social Sciences). WashU will recruit 49 doctoral students (24 NSF-funded, 25 WashU-funded) trained at the intersection of AI, environmental science, and social science to address climate change and similar global challenges.",
+      "significance": "Externally validated convergent AI training grant channeling PhD pipeline into climate/environmental AI applications.",
+      "date_announced": "2023-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_degree_program",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 3000000,
+        "funding_source": "National Science Foundation",
+        "description": "NSF Research Traineeship award over 5 years."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded interdisciplinary training program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://source.washu.edu/2023/09/3m-grant-funds-training-to-harness-power-of-ai-for-social-environmental-challenges/",
+        "https://artsci.washu.edu/ampersand/3m-grant-funds-training-harness-power-ai-social-environmental-challenges"
+      ]
+    },
+    {
+      "title": "AI Ethics Review Committee and NIST AI RMF Risk Governance",
+      "description": "WashU's CISO led drafting a universitywide AI risk management policy and stood up an AI ethics review committee. With WWT consulting support, WashU evaluated ~20 active AI use cases (8 deep-dived) using a multi-lens rubric (auditor, attacker, risk officer, innovator) and the NIST AI RMF's 72 baseline requirements. The work reduced shadow AI and tool sprawl and established a structured intake/review process.",
+      "significance": "Operational, NIST-aligned AI risk governance inside an R1 private university — one of the earlier documented adoptions of NIST AI RMF at scale in higher ed.",
+      "date_announced": "2024-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "cybersecurity_and_ai_risk",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WashU IT; Office of Information Security",
+        "description": "Internal risk/compliance investment with external consulting support from WWT."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "World Wide Technology (WWT)"
+          ],
+          "description": "Consulting engagement supporting governance design."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NIST AI Risk Management Framework",
+          "vendor": "NIST",
+          "role": "Governance baseline (72 controls)"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Standardizes how WashU evaluates every new AI use case and procurement.",
+      "source_urls": [
+        "https://www.wwt.com/case-study/fostering-responsible-ai-how-washu-is-building-a-smarter-approach-to-risk-and-governance"
+      ]
+    },
+    {
+      "title": "Center for Trustworthy AI in Cyberphysical Systems",
+      "description": "A McKelvey Engineering research center developing methods, tools, and integrated systems that make AI-driven cyberphysical systems (autonomous vehicles, drones, delivery systems) secure, safe, reliable, and resilient. Includes four core research areas (secure CPS, hardware security, systems, resilience). Faculty include Ning Zhang.",
+      "significance": "Institutional research capability for AI-CPS security — a growing national concern as AI enters physical systems.",
+      "date_announced": "2023-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "cybersecurity_and_ai_risk",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "McKelvey School of Engineering; federal grants",
+        "description": "Standing research center; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "multi-institutional research teams"
+          ],
+          "description": "Cross-institutional CPS security collaborations."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://sites.wustl.edu/trustworthyai/",
+        "https://engineering.washu.edu/about/initiatives/strategic-plan/signature-initiatives/engineering-AI-research.html"
+      ]
+    },
+    {
+      "title": "Center for High Performance Computing (CHPC) with 100+ NVIDIA GPUs",
+      "description": "Operated by the Research Computing and Informatics Facility (RCIF), CHPC provides massive-scale compute to WashU's imaging and AI research community with 100+ datacenter-class NVIDIA GPUs (SXM H100, A100 80G/40G; PCIe A100, V100S, V100, T4, K20). Infrastructure includes 3 petaflops of GPU-accelerated capacity, HDR InfiniBand interconnect, 18+ PB of tiered storage, and SLURM scheduling.",
+      "significance": "One of the larger university-operated GPU-accelerated HPC clusters among private R1s, enabling large-model and imaging AI at scale.",
+      "date_announced": "2022-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "WashU RCIF; federal grants; departmental buy-in",
+        "description": "Multi-PB storage and 3 PF GPU capacity; exact capital investment not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Intel",
+            "AMD"
+          ],
+          "description": "Hardware vendor relationships for GPU/CPU infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA H100/A100/V100/T4",
+          "vendor": "NVIDIA",
+          "role": "GPU compute"
+        },
+        {
+          "name": "SLURM",
+          "vendor": "SchedMD",
+          "role": "HPC scheduler"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://sites.wustl.edu/chpc/",
+        "https://rcifw.github.io/facilities-hcp/",
+        "https://research.washu.edu/core-facilities/research-computing-and-informatics-facility/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Health AI (CHAI) — WashU Medicine + BJC Health System",
+      "focus": "Clinical AI for care delivery, workflow automation, risk prediction, medical imaging",
+      "founded": "2024",
+      "url": "https://centerforhealthai.wustl.edu/"
+    },
+    {
+      "name": "AI for Health Institute (AIHealth)",
+      "focus": "Cross-disciplinary AI and health research",
+      "founded": null,
+      "url": "https://aihealth.wustl.edu/"
+    },
+    {
+      "name": "Center for Computational and AI-enabled Imaging Sciences",
+      "focus": "AI imaging for diagnosis and precision treatment of cancer, cardiovascular, neurological disease",
+      "founded": "2025",
+      "url": "https://medicine.washu.edu/news/new-center-to-develop-ai-based-imaging-tools-to-improve-diagnosis-care/"
+    },
+    {
+      "name": "Center for Trustworthy AI in Cyberphysical Systems",
+      "focus": "Secure, safe, reliable AI-driven cyberphysical systems",
+      "founded": null,
+      "url": "https://sites.wustl.edu/trustworthyai/"
+    },
+    {
+      "name": "Institute for Informatics, Data Science and Biostatistics (I2DB)",
+      "focus": "Biomedical informatics and data science",
+      "founded": null,
+      "url": "https://i2db.wustl.edu/"
+    },
+    {
+      "name": "Digital Intelligence & Innovation (DI2) Accelerator",
+      "focus": "Universitywide AI tools, education, and research programs",
+      "founded": null,
+      "url": "https://di2accelerator.wustl.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Data Mining & Machine Learning (CSE)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://cse.washu.edu/academics/graduate/Graduate-Certificate-in-Data-Mining-Machine-Learning.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Certificate (McKelvey Engineering)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://engineering.washu.edu/academics/graduate-admissions/earn-a-masters-degree-at-WashU.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Fundamentals of AI Professional Certificate (CAPS + DI2)",
+      "level": "both",
+      "launched": "2025-09",
+      "url": "https://di2accelerator.wustl.edu/washu-caps-and-di2-accelerator-partner-to-launch-new-ai-fundamentals-certificate/"
+    },
+    {
+      "type": "course",
+      "name": "AI Literacy for the WashU Scholar (Canvas module)",
+      "level": "both",
+      "launched": "2025-10",
+      "url": "https://ai.washu.edu/ai-literacy/"
+    },
+    {
+      "type": "concentration",
+      "name": "Machine Learning & AI research area (CSE)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://cse.washu.edu/faculty-research/research-areas/Machine-Learning-Artificial-Intelligence.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "Secure WashU ChatGPT (GPT-4o)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2023-12",
+      "url": "https://gpt.wustl.edu/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://ai.washu.edu/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini for Education",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://ai.washu.edu/"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://ai.washu.edu/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://it.wustl.edu/ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (licensed)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://it.wustl.edu/ai/"
+    },
+    {
+      "vendor": "Box",
+      "product": "Box AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.wustl.edu/ai/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.wustl.edu/ai/"
+    },
+    {
+      "vendor": "WashU IT / DI2",
+      "product": "Secure Ask WashU Beta",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://it.wustl.edu/items/secure-ask-washu-beta/"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic integrated AI (via CHAI)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2024-11",
+      "url": "https://centerforhealthai.wustl.edu/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Center for High Performance Computing (CHPC) at RCIF",
+    "gpu_count": 100,
+    "url": "https://sites.wustl.edu/chpc/",
+    "summary": "CHPC operates 100+ datacenter-class NVIDIA GPUs (H100 SXM, A100 80G/40G SXM, plus PCIe A100, V100S, V100, T4, K20) delivering ~3 petaflops of GPU-accelerated capacity, with HDR InfiniBand interconnect and 18+ PB of tiered storage. Scheduled via SLURM. Supports imaging, ML, and large-model research. McKelvey Engineering also operates a separate EIT compute cluster."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF AI-ACCESS Research Traineeship",
+      "amount_usd": 3000000,
+      "source": "National Science Foundation",
+      "purpose": "Train 49 PhD students at intersection of AI, environmental and social sciences",
+      "date": "2023-09",
+      "url": "https://source.washu.edu/2023/09/3m-grant-funds-training-to-harness-power-of-ai-for-social-environmental-challenges/"
+    },
+    {
+      "title": "NSF award for AI-powered imaging systems (WashU + UC Riverside)",
+      "amount_usd": 1000000,
+      "source": "National Science Foundation",
+      "purpose": "Advance AI methods for image generation systems in science, medicine, and engineering",
+      "date": "2025-08",
+      "url": "https://insideucr.ucr.edu/awards/2025/08/07/uc-riverside-and-washu-researchers-receive-nsf-awards-improve-ai-powered-imaging"
+    },
+    {
+      "title": "AI for Health Seed Grants",
+      "amount_usd": 50000,
+      "source": "WashU (Here & Next Seed Grant + AI for Health Institute)",
+      "purpose": "Up to $50K per project for interdisciplinary AI+health research",
+      "date": "2026-03",
+      "url": "https://research.washu.edu/funding/here-next-research-funding/ai-for-health-seed-grant/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "BJC Health System",
+      "purpose": "Joint Center for Health AI for clinical AI deployment and governance",
+      "date": "2024-11",
+      "url": "https://centerforhealthai.wustl.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI / Microsoft Azure",
+      "purpose": "Secure WashU ChatGPT (HIPAA/FERPA) and ChatGPT Edu",
+      "date": "2023-12",
+      "url": "https://gpt.wustl.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini for Education and NotebookLM deployment",
+      "date": "2026-03",
+      "url": "https://ai.washu.edu/"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Mayfield (venture capital)",
+      "purpose": "AI Garage student startup accelerator program",
+      "date": "2026-02",
+      "url": "https://skandalaris.wustl.edu/washu-mayfield-ai-garage-partnership-announcement/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "World Wide Technology (WWT)",
+      "purpose": "AI risk governance consulting; NIST AI RMF implementation",
+      "date": "2024-01",
+      "url": "https://www.wwt.com/case-study/fostering-responsible-ai-how-washu-is-building-a-smarter-approach-to-risk-and-governance"
+    },
+    {
+      "pattern": "international",
+      "partner": "9-university Global AI and Law Network",
+      "purpose": "WashU Law-led international AI education and research alliance across six continents",
+      "date": "2026-01",
+      "url": "https://natlawreview.com/article/washu-law-cements-leadership-legal-tech-new-global-ai-partnership"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "AI-ACCESS training grant; AI imaging award",
+      "date": "2023-09",
+      "url": "https://source.washu.edu/2023/09/3m-grant-funds-training-to-harness-power-of-ai-for-social-environmental-challenges/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Secure WashU ChatGPT",
+      "scope": "Campus-wide, all students/faculty/staff, HIPAA/FERPA-protected",
+      "url": "https://gpt.wustl.edu/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Secure Ask WashU Beta",
+      "scope": "University-protected Q&A with multi-file, multi-model support",
+      "url": "https://it.wustl.edu/items/secure-ask-washu-beta/"
+    },
+    {
+      "type": "tutor",
+      "name": "ChatGPT Edu (for undergrads after AI Literacy module)",
+      "scope": "Danforth Campus undergrads",
+      "url": "https://ai.washu.edu/"
+    },
+    {
+      "type": "other",
+      "name": "AI Literacy for the WashU Scholar Canvas module",
+      "scope": "Self-enroll Danforth Campus undergrads and grads",
+      "url": "https://ai.washu.edu/ai-literacy/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI Literacy module tied to ChatGPT Edu access",
+      "description": "Every Danforth undergrad/graduate student can self-enroll in the 30-minute AI Literacy Canvas module and receive free ChatGPT Edu access — intentionally leveling the playing field around AI tool access.",
+      "url": "https://ai.washu.edu/ai-literacy/"
+    },
+    {
+      "title": "Digital Accessibility Office standards apply to AI tools",
+      "description": "WashU's digital accessibility program ensures electronic/IT (including AI tools) are accessible to users with disabilities.",
+      "url": "https://digitalaccessibility.wustl.edu/"
+    },
+    {
+      "title": "NSF AI-ACCESS trainee diversity recruitment",
+      "description": "AI-ACCESS PhD training program includes explicit diverse recruitment commitments for its 49-student cohort.",
+      "url": "https://source.washu.edu/2023/09/3m-grant-funds-training-to-harness-power-of-ai-for-social-environmental-challenges/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Missouri",
+    "has_state_ai_policy": false,
+    "has_system_ai_policy": false,
+    "summary": "Missouri has no statewide higher education AI policy as of early 2026. The Missouri Department of Elementary and Secondary Education has issued K-12 guidance, but higher education institutions set their own policies. As a private institution, WashU does not sit within a state university system; its policy framework is entirely institutional. Six of Missouri's eleven public four-year universities have AI policies/guidelines; WashU has adopted a comprehensive private-institution framework that exceeds the state baseline.",
+    "urls": [
+      "https://dese.mo.gov/media/pdf/artificial-intelligence-guidance-local-education-agencies",
+      "https://www.primecenter.org/policy-brief-database/ai"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Washington University in St. Louis is building a mature, multi-layered AI posture anchored in the March 2026 launch of the universitywide +AI Academic Initiative, led by Provost Mark D. West. The initiative is intentionally positioned to balance enthusiasm and caution: Chancellor Andrew D. Martin frames the challenge as one of 'appropriate fit' for AI in the research and educational mission, and West emphasizes human judgment over 'alarm nor unexamined enthusiasm.' Governance is multi-tier — a new AI Coordinating Committee chartered Fall 2025 reports directly to the Chancellor and is tasked with a 12-month roadmap; the Provost's +AI leadership team includes AVPs Sinclair, Jacobs, Smith, and Boumgarden; the DI2 Accelerator is the operational hub; and a CISO-led AI ethics review committee, aligned with the NIST AI RMF's 72 controls (developed with WWT), governs risk. WashU uniquely holds a dedicated Chief Health AI Officer role — Philip R.O. Payne — leading the joint WashU Medicine/BJC Health Center for Health AI (2024), with a companion Center for Computational and AI-enabled Imaging Sciences launched November 2025 at the Mallinckrodt Institute of Radiology. Enterprise tooling is comprehensive: Secure WashU ChatGPT (2023, GPT-4o), ChatGPT Edu, Gemini for Education, NotebookLM, Microsoft Copilot, Box AI, and Ask WashU Beta are all institutionally supported with clear HIPAA/FERPA labels and a vendor-review process for anything new. Research capacity rests on the CHPC HPC cluster (100+ datacenter GPUs, ~3 PF, 18+ PB tiered storage), McKelvey's AI signature initiative, the Center for Trustworthy AI in CPS, and the AI for Health Institute's $50K seed grants. Workforce programs span the CAPS Fundamentals of AI certificate, the AI Curriculum Corps, the Digital Transformation Research Corps (18 projects in 2026), and the Mayfield AI Garage partnership (second university after Berkeley). WashU Law launched a nine-institution global AI and Law network in 2026. Policy stance is comprehensive: course-level syllabus templates from the CTL (four stances), institutional acceptable use rules, and an AI Literacy module that ties ChatGPT Edu access to completion — a distinctive literacy-gated access model. The main gaps are public disclosure of dollar figures for the +AI initiative and any student-retention predictive analytics work, which do not appear to be publicly documented.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.washu.edu/",
+      "https://ai.washu.edu/ai-literacy/",
+      "https://ai.wustl.edu/",
+      "https://it.wustl.edu/ai/",
+      "https://gpt.wustl.edu/",
+      "https://di2accelerator.wustl.edu/",
+      "https://di2accelerator.wustl.edu/ai/",
+      "https://di2accelerator.wustl.edu/ai/ai-coordinating-committee/",
+      "https://di2accelerator.wustl.edu/university-introduces-ai-academic-initiative/",
+      "https://di2accelerator.wustl.edu/washu-caps-and-di2-accelerator-partner-to-launch-new-ai-fundamentals-certificate/",
+      "https://di2accelerator.wustl.edu/2026-digital-transformation-research-corps-projects-announced/",
+      "https://source.washu.edu/2026/03/university-introduces-ai-academic-initiative/",
+      "https://source.washu.edu/2025/12/faculty-can-apply-for-digital-transformation-research-corps/",
+      "https://source.washu.edu/2024/11/washu-medicine-bjc-health-system-launch-center-for-health-ai/",
+      "https://source.washu.edu/2023/09/3m-grant-funds-training-to-harness-power-of-ai-for-social-environmental-challenges/",
+      "https://source.washu.edu/2025/01/minton-wins-2024-st-louis-orbie-award/",
+      "https://source.washu.edu/2025/09/minton-honored-for-leadership-in-technology/",
+      "https://medicine.washu.edu/news/washu-medicine-bjc-health-system-launch-center-for-health-ai/",
+      "https://medicine.washu.edu/news/new-center-to-develop-ai-based-imaging-tools-to-improve-diagnosis-care/",
+      "https://medicine.washu.edu/news/payne-elected-president-of-medical-informatics-organization/",
+      "https://centerforhealthai.wustl.edu/",
+      "https://aihealth.wustl.edu/",
+      "https://engineering.washu.edu/about/initiatives/strategic-plan/signature-initiatives/engineering-AI-research.html",
+      "https://cse.washu.edu/faculty-research/research-areas/Machine-Learning-Artificial-Intelligence.html",
+      "https://cse.washu.edu/academics/graduate/Graduate-Certificate-in-Data-Mining-Machine-Learning.html",
+      "https://sites.wustl.edu/chpc/",
+      "https://rcifw.github.io/facilities-hcp/",
+      "https://research.washu.edu/core-facilities/research-computing-and-informatics-facility/",
+      "https://research.washu.edu/funding/here-next-research-funding/ai-for-health-seed-grant/",
+      "https://sites.wustl.edu/trustworthyai/",
+      "https://ctl.wustl.edu/resources/language-for-course-policies-on-artificial-intelligence-ai/",
+      "https://provost.washu.edu/vpei/navigating-artificial-intelligence/",
+      "https://skandalaris.wustl.edu/washu-mayfield-ai-garage-partnership-announcement/",
+      "https://natlawreview.com/article/washu-law-cements-leadership-legal-tech-new-global-ai-partnership",
+      "https://www.wwt.com/case-study/fostering-responsible-ai-how-washu-is-building-a-smarter-approach-to-risk-and-governance",
+      "https://washu.edu/about-washu/university-leadership/cabinet/",
+      "https://andrewdmartin.washu.edu/about-the-office/",
+      "https://it.wustl.edu/about-it/office-of-the-cio/",
+      "https://www.studlife.com/news/2026/03/26/washu-admin-launches-ai-initiative-encourages-discussion-on-and-use-of-ai",
+      "https://www.studlife.com/news/2024/01/31/washington-university-launches-its-own-version-of-chatgpt",
+      "https://www.studlife.com/news/2024/10/23/university-upgrades-its-chatgpt-model-to-4-omni",
+      "https://it.wustl.edu/items/secure-ask-washu-beta/",
+      "https://digitalaccessibility.wustl.edu/",
+      "https://dese.mo.gov/media/pdf/artificial-intelligence-guidance-local-education-agencies",
+      "https://www.primecenter.org/policy-brief-database/ai",
+      "https://insideucr.ucr.edu/awards/2025/08/07/uc-riverside-and-washu-researchers-receive-nsf-awards-improve-ai-powered-imaging"
+    ],
+    "search_queries": [
+      "\"Washington University in St. Louis\" AI strategy 2025 2026",
+      "\"Washington University in St. Louis\" AI acceptable use policy generative AI guidelines",
+      "\"Washington University in St. Louis\" chief AI officer OR AI council OR AI task force",
+      "\"Washington University in St. Louis\" AI research institute OR center launch 2024 2025",
+      "\"Washington University in St. Louis\" CIO provost president 2026",
+      "\"Washington University\" WashU AI degree OR certificate OR program McKelvey",
+      "\"Washington University\" WashU Microsoft Copilot OR ChatGPT Edu OR Google Gemini campus",
+      "\"Washington University\" WashU GPU HPC supercomputer cluster research computing",
+      "\"Washington University\" WashU AI gift OR donation OR NSF grant million 2024 2025",
+      "\"Washington University\" WashU AI partnership announcement industry 2025 2026",
+      "\"Washington University\" WashU AI chatbot students predictive analytics retention",
+      "Missouri higher education AI policy state",
+      "\"Washington University\" WashU AI literacy Canvas module undergraduate",
+      "\"Washington University\" WashU AI controversy lawsuit FERPA academic integrity",
+      "\"Jessie Minton\" WashU Washington University CIO AI",
+      "\"Philip Payne\" OR \"Philip R.O. Payne\" chief health AI officer WashU",
+      "\"Washington University\" WashU Center for Trustworthy AI Cyberphysical Systems",
+      "\"Washington University\" WashU enrollment 2025 student count undergraduate graduate",
+      "\"Washington University\" WashU AI accessibility digital divide equity inclusive",
+      "\"Washington University\" WashU \"Ask WashU\" chatbot student services"
+    ],
+    "gaps_acknowledged": [
+      "Specific dollar amount of the +AI initiative is not publicly disclosed",
+      "No publicly documented student-retention predictive-analytics program at WashU",
+      "Center for Health AI and AI for Health Institute funding levels not publicly disclosed",
+      "AI Coordinating Committee's chair identity not published",
+      "Enrollment figure (16,399) is 2024 official total; precise 2025-26 counts vary across WashU sources (15,952 Fall 2025 facts vs 18,292 full+part-time listings)"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "platform_first",
+        "balanced_enterprise",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 24,
+        "research_compute_powerhouse": 28,
+        "curriculum_led": 13,
+        "governance_led": 12,
+        "student_success_led": 6,
+        "workforce_regional_development": 11,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-12",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 7,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Center for High Performance Computing (CHPC) at RCIF",
+        "gpu_count": 100,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 4050000,
+      "funding_source_buckets": {
+        "public_federal_state": 6,
+        "other_unclear": 6,
+        "institutional": 5,
+        "industry_vendor": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 2,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "OpenAI",
+          "mentions": 5,
+          "products": [
+            "ChatGPT Edu",
+            "Secure Ask WashU Beta",
+            "Secure WashU ChatGPT (GPT-4o)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini for Education",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (licensed)",
+            "Microsoft 365 Copilot Chat",
+            "Secure WashU ChatGPT"
+          ]
+        },
+        {
+          "vendor": "Box Box AI",
+          "mentions": 1,
+          "products": [
+            "Box AI"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic",
+          "mentions": 1,
+          "products": [
+            "Epic"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic integrated AI (via CHAI)",
+          "mentions": 1,
+          "products": [
+            "Epic integrated AI (via CHAI)"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas"
+          ]
+        },
+        {
+          "vendor": "NIST NIST AI Risk Management Framework",
+          "mentions": 1,
+          "products": [
+            "NIST AI Risk Management Framework"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA H100/A100/V100/T4"
+          ]
+        },
+        {
+          "vendor": "SchedMD SLURM",
+          "mentions": 1,
+          "products": [
+            "SLURM"
+          ]
+        },
+        {
+          "vendor": "WashU IT / DI2 Secure Ask WashU Beta",
+          "mentions": 1,
+          "products": [
+            "Secure Ask WashU Beta"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 1,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "OpenAI",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "student_success",
+          "title": "+AI Universitywide Academic Initiative Launch",
+          "summary": "Establishes WashU's first fully integrated, universitywide AI strategy explicitly framed to balance AI enthusiasm with human judgment and institutional values.",
+          "source_url": "https://source.washu.edu/2026/03/university-introduces-ai-academic-initiative/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Secure WashU ChatGPT Rollout",
+          "summary": "Early R1-scale deployment of a closed, regulated-data-eligible LLM interface tied to institutional identity and vendor terms.",
+          "source_url": "https://www.studlife.com/news/2024/01/31/washington-university-launches-its-own-version-of-chatgpt"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Center for Health AI (CHAI) Launch with BJC Health System",
+          "summary": "One of the earliest major academic medical center partnerships with a large community health system establishing joint AI governance and a dedicated Chief Health AI Officer.",
+          "source_url": "https://medicine.washu.edu/news/washu-medicine-bjc-health-system-launch-center-for-health-ai/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Ethics Review Committee and NIST AI RMF Risk Governance",
+          "summary": "Operational, NIST-aligned AI risk governance inside an R1 private university — one of the earlier documented adoptions of NIST AI RMF at scale in higher ed.",
+          "source_url": "https://www.wwt.com/case-study/fostering-responsible-ai-how-washu-is-building-a-smarter-approach-to-risk-and-governance"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "Specific dollar amount of the +AI initiative is not publicly disclosed",
+        "No publicly documented student-retention predictive-analytics program at WashU",
+        "Center for Health AI and AI for Health Institute funding levels not publicly disclosed",
+        "AI Coordinating Committee's chair identity not published",
+        "Enrollment figure (16,399) is 2024 official total; precise 2025-26 counts vary across WashU sources (15,952 Fall 2025 facts vs 18,292 full+part-time listings)"
+      ]
+    }
+  }
+}

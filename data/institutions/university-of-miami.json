@@ -1,0 +1,1766 @@
+{
+  "institution": "University of Miami",
+  "slug": "university-of-miami",
+  "city_state": "Coral Gables, FL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 19852,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Joe Echevarria",
+      "url": "https://president.miami.edu/"
+    },
+    "provost": {
+      "name": "Joel H. Samuels",
+      "url": "https://news.miami.edu/stories/2025/07/university-of-miami-gets-a-new-provost.html"
+    },
+    "cio": {
+      "name": "David W. Reis",
+      "url": "https://www.it.miami.edu/about-umit/leadership/index.html"
+    },
+    "chief_ai_officer": {
+      "name": "David Wayne",
+      "url": "https://ai.it.miami.edu/the-ai-team/index.html"
+    },
+    "ai_strategy_lead": {
+      "name": "David Wayne",
+      "title": "Chief Artificial Intelligence Officer, University of Miami & UHealth",
+      "url": "https://ai.it.miami.edu/the-ai-team/index.html"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI at The U — Institutional AI Portal",
+        "url": "https://ai.it.miami.edu/",
+        "year": 2024
+      },
+      {
+        "title": "Teaching and Learning with AI — PETAL Guidance",
+        "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html",
+        "year": 2024
+      },
+      {
+        "title": "AI Projects Dashboard (348 projects as of March 2026)",
+        "url": "https://ai.it.miami.edu/ai-projects/index.html",
+        "year": 2025
+      }
+    ],
+    "summary": "The University of Miami has built its AI posture around a dedicated Chief Artificial Intelligence Officer (David Wayne) who leads a joint academic-and-health-system AI Enablement Team overseeing 348 tracked AI projects across teaching, research, patient care, athletics, operations, and revenue cycle. The institution's 'AI at The U' portal centralizes approved tools (Microsoft Copilot, Google Gemini, Adobe Firefly, Blackboard AI Design Assistant), training, and a project request pipeline. The Frost Institute for Data Science and Computing (IDSC) anchors research through three Knight Foundation Endowed Chairs in Data Science and AI and the Triton AI-optimized supercomputer, while PETAL sets faculty and student-facing teaching policy. UHealth, an integrated clinical enterprise, runs a parallel AI deployment exceeding 150 projects spanning imaging (Aidoc), ambient documentation (Epic/ambient dictation), surgical video (Theator), and autonomous coding (CodaMetrix)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html",
+      "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html",
+      "https://www.it.miami.edu/about-umit/policies-and-procedures/index.html"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No HIPAA-protected, confidential, or personally identifiable data may be entered into any generative AI system unless the tool is formally approved and contract-covered",
+      "Instructors set course-level AI policies via one of four syllabus templates (strict ban, moderate/limited use, liberal/active use, exploratory/participatory)",
+      "Students bear 100% responsibility for final products and must disclose and document AI use",
+      "AI detection tools (e.g., GPTZero) are discouraged due to FERPA concerns and documented bias against non-native English writers",
+      "Approved/officially supported tools: Microsoft Copilot (with UM sign-in), Copilot for Microsoft 365, Google Gemini, Adobe Firefly, Blackboard AI Design Assistant, Gradescope",
+      "Zoom bots such as Otter.ai are prohibited from recording meetings that may contain sensitive data"
+    ],
+    "summary": "The University of Miami operates a comprehensive, layered AI policy framework: PETAL sets teaching-and-learning guidance with seven student principles and four syllabus templates; Academic Technologies maintains the approved-tools catalog; UMIT enforces data protection via the acceptable-use policy and the 'public-website equivalence' rule for any data submitted to generative AI. Policy explicitly addresses HIPAA, FERPA, data privacy, ethics, and bias in AI detection. Faculty retain syllabus-level discretion within the overarching framework."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Office of the Chief Artificial Intelligence Officer",
+        "type": "office",
+        "scope": "University-wide and UHealth AI strategy, governance, and implementation",
+        "url": "https://ai.it.miami.edu/the-ai-team/index.html"
+      },
+      {
+        "name": "AI Enablement Team (UMIT)",
+        "type": "office",
+        "scope": "Implements AI strategy, evaluates projects, delivers tools and training across the university",
+        "url": "https://ai.it.miami.edu/"
+      },
+      {
+        "name": "Data Informatics: Governance & Security (led by Timothy Smith, Ph.D.)",
+        "type": "office",
+        "scope": "Governance and security strategy for data informatics and digital research enablement",
+        "url": "https://ai.it.miami.edu/the-ai-team/index.html"
+      },
+      {
+        "name": "Platform for Excellence in Teaching and Learning (PETAL)",
+        "type": "office",
+        "scope": "Faculty AI pedagogy guidance, training, and syllabus policy templates",
+        "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+      },
+      {
+        "name": "Institute for Bioethics and Health Policy — AI & Big Data Resources",
+        "type": "other",
+        "scope": "AI ethics consultation, RECS (Research Ethics Consultation Service), WHO collaborating role for AI ethics",
+        "url": "https://bioethics.miami.edu/informatics/computing-triage/ai-and-big-data-resources/index.html"
+      },
+      {
+        "name": "Miller School of Medicine AI Education Office",
+        "type": "office",
+        "scope": "AI in medical education curriculum and faculty development (Dr. Shirin Shafazand, Director)",
+        "url": "https://news.med.miami.edu/"
+      }
+    ],
+    "summary": "UM's governance sits on a hybrid academic/clinical model: a Chief Artificial Intelligence Officer in UMIT leads strategy across the university and UHealth, supported by an AI Enablement Team, a Data Informatics Governance & Security function, and a product/data-science bench. Teaching and curricular policy runs through PETAL; ethics consultation runs through the Institute for Bioethics. The Miller School of Medicine added a dedicated AI-in-medical-education office in 2025."
+  },
+  "initiatives": [
+    {
+      "title": "Chief Artificial Intelligence Officer role established (David Wayne)",
+      "description": "UM and UHealth created a shared Chief Artificial Intelligence Officer role held by David Wayne, Ph.D., leading AI strategy, governance, and implementation across the academic enterprise and the health system, supported by an AI Enablement Team.",
+      "significance": "Dual academic/clinical CAIO roles remain uncommon and signal that UM treats AI as a convergent executive priority rather than a departmental program.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Miami / UHealth",
+        "description": "Dedicated senior executive position with AI Enablement Team, data science and engineering unit, cognitive computing, product management, and governance/security staff."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UHealth",
+            "Miller School of Medicine"
+          ],
+          "description": "Joint academic-and-health-system reporting lines."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a single accountable owner for responsible AI strategy spanning clinical, research, and academic domains.",
+      "source_urls": [
+        "https://ai.it.miami.edu/the-ai-team/index.html",
+        "https://ai.it.miami.edu/"
+      ]
+    },
+    {
+      "title": "Campus-wide Microsoft Copilot deployment with GPT-5.2",
+      "description": "UM made Copilot on the Web with commercial data protection available to all faculty, staff, and students ages 18+, with a phased Copilot for Microsoft 365 rollout to full-time faculty, staff, and graduate students. As of December 2025, Copilot for Microsoft 365 is powered by GPT-5.2.",
+      "significance": "One of the most comprehensive, enterprise-protected generative AI deployments at a private R1, combining web chat with productivity-suite integration on latest-generation frontier models.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "University IT budget (Microsoft enterprise agreement)",
+        "description": "Enterprise licensing of Copilot for Microsoft 365 for full-time faculty, staff, and graduate students plus universal Copilot on the Web access with data protection."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise vendor partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "Productivity-suite generative AI"
+        },
+        {
+          "name": "Copilot on the Web",
+          "vendor": "Microsoft",
+          "role": "Data-protected chat assistant (GPT-4 / GPT-5.2)"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "All data submitted must still respect the university's HIPAA / FERPA / confidentiality rules.",
+      "source_urls": [
+        "https://www.it.miami.edu/copilot",
+        "https://www.it.miami.edu/copilot-for-365",
+        "https://www.it.miami.edu/copilot-gpt5"
+      ]
+    },
+    {
+      "title": "UHealth + Aidoc system-wide radiology AI deployment",
+      "description": "University of Miami Health System deployed Aidoc's aiOS platform, integrating 13 FDA-cleared algorithms (including pulmonary embolism, incidental PE, intracranial hemorrhage) with more than 20 solutions in active deployment covering brain aneurysm, c-spine fracture, and brain vessel occlusion. Results are surfaced within approximately five minutes.",
+      "significance": "A multi-algorithm, FDA-cleared AI deployment across the entire health system puts UM in the top tier of academic medical center AI adopters.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_vendor_partnership",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University of Miami Health System",
+        "description": "System-wide deployment; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Aidoc"
+          ],
+          "description": "FDA-cleared clinical AI platform partnership with UHealth."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "aiOS",
+          "vendor": "Aidoc",
+          "role": "Clinical AI orchestration platform for radiology"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Use is bounded by FDA clearance; UHealth retains physician-in-the-loop review.",
+      "source_urls": [
+        "https://www.aidoc.com/about/news/umiami-health-aidoc-ai/",
+        "https://news.med.miami.edu/aidoc-ai-health-care/"
+      ]
+    },
+    {
+      "title": "UHealth SoLé Mia AI-enabled medical center opens",
+      "description": "UHealth opened SoLé Mia in North Miami on September 30, 2025 — a 363,000 sq ft, seven-story, 10-acre outpatient facility where every physician is AI-enabled on day one through guided scheduling, self-check-in, ambient dictation, and advanced coding support.",
+      "significance": "One of the first U.S. academic medical centers to launch a flagship facility with AI embedded in the default physician workflow.",
+      "date_announced": "2025-09-30",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "campus_wide_platform_rollout",
+        "ai_native_institution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UHealth / Turnberry SoLé Mia partnership",
+        "description": "UHealth's largest ambulatory facility to date with AI embedded in physician workflow."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Turnberry Associates",
+            "LeFrak"
+          ],
+          "description": "Real estate partnership for SoLé Mia campus."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Ambient dictation",
+          "vendor": "Epic/Abridge (per UHealth reporting)",
+          "role": "Clinical note generation"
+        },
+        {
+          "name": "Automated coding",
+          "vendor": "CodaMetrix",
+          "role": "Revenue cycle AI"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Clinician oversight and HIPAA-aligned procurement remain mandatory.",
+      "source_urls": [
+        "https://news.med.miami.edu/uhealth-sole-mia-medical-center-opens-in-north-miami/",
+        "https://www.jmco.com/articles/healthcare/uhealth-opens-ai-powered-medical-center-in-north-miami-dade/"
+      ]
+    },
+    {
+      "title": "Knight Foundation Endowed Chairs of Data Science and AI",
+      "description": "The John S. and James L. Knight Foundation, with matching funds from Phillip and Patricia Frost, seeded six endowed chairs at the Frost Institute for Data Science and Computing, with Yelena Yesha, Mingzhe Chen, and David Chapman named as the first three Knight Foundation Chairs of Data Science and AI.",
+      "significance": "A sustained, named-chair pipeline concentrates AI research talent at one of the nation's most AI-focused private R1s.",
+      "date_announced": "2021-02-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 12000000,
+        "funding_source": "Knight Foundation, Phillip and Patricia Frost",
+        "description": "$4.3M Knight + $2M existing Knight funds + $6M Frost match = $12M+ endowment for six chairs"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "John S. and James L. Knight Foundation"
+          ],
+          "description": "Philanthropic investment in regional tech talent."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.miami.edu/stories/2021/02/endowments-will-power-big-data-solutions-with-technical-talent.html",
+        "https://idsc.miami.edu/mingzhe-chen-knight-chair/",
+        "https://idsc.miami.edu/magazine/david-chapman-named-knight-foundation-chair-in-data-science-and-ai/"
+      ]
+    },
+    {
+      "title": "Triton AI-optimized supercomputer (IBM Power Systems)",
+      "description": "The Frost IDSC operates Triton, UM's first GPU-accelerated HPC system built on IBM Power Systems AC922 servers with NVIDIA Tesla V100 GPUs (2 per node), a $3.7M system used by ~1,500 researchers across UM's three campuses. Triton shares the AI-optimized architecture of the U.S. DOE Summit and Sierra supercomputers.",
+      "significance": "Dedicated AI-class HPC at a private R1 enables large-model, clinical, and climate research without external cloud dependency.",
+      "date_announced": "2019-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 3700000,
+        "funding_source": "University of Miami",
+        "description": "$3.7M IBM Power Systems installation with NVIDIA V100 GPUs."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM",
+            "NVIDIA"
+          ],
+          "description": "Systems integration and GPU partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "IBM Power Systems AC922",
+          "vendor": "IBM",
+          "role": "HPC compute"
+        },
+        {
+          "name": "Tesla V100 GPU",
+          "vendor": "NVIDIA",
+          "role": "AI acceleration"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://idsc.miami.edu/triton/",
+        "https://insidehpc.com/2019/08/ibm-deploys-triton-ai-supercomputer-at-university-of-miami/",
+        "https://www.hpcwire.com/off-the-wire/university-of-miami-deploys-3-7m-ibm-power-system-for-ai-hpc/"
+      ]
+    },
+    {
+      "title": "NSF Center for Accelerated Real Time Analytics (UM CARTA) renewal",
+      "description": "UM CARTA is an NSF-funded Industry/University Cooperative Research Center (IUCRC) affiliated with IDSC; co-led by Mitsunori Ogihara and Yelena Yesha, it draws 50+ faculty from six universities and more than 20 industry/government members and was renewed in spring 2024 for another five years under NSF award 2310807.",
+      "significance": "A sustained NSF IUCRC anchors UM's applied AI research alliances with industry and government partners.",
+      "date_announced": "2021-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF + industry member dues",
+        "description": "NSF IUCRC Phase II with 20+ member organizations."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "UMBC",
+            "Tel Aviv University"
+          ],
+          "description": "Multi-university NSF cooperative research center."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://carta.miami.edu/",
+        "https://idsc.miami.edu/u-miami-carta/",
+        "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2051800"
+      ]
+    },
+    {
+      "title": "NSF regional cyberinfrastructure grant for South Florida AI",
+      "description": "Ravi Vadapalli, Ph.D., IDSC director of advanced computing, received a $1.4M NSF grant to strengthen regional advanced-networking infrastructure, expand research capacity, and coordinate among approximately two dozen smaller South Florida universities.",
+      "significance": "Extends UM's AI infrastructure beyond its own campus, positioning it as a regional hub for research computing.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1400000,
+        "funding_source": "National Science Foundation",
+        "description": "Two-year NSF grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "~24 regional South Florida universities",
+            "National Science Foundation"
+          ],
+          "description": "Regional cyberinfrastructure coordination."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://idsc.miami.edu/building-south-floridas-ai-future/"
+      ]
+    },
+    {
+      "title": "Bachelor and Master programs in Data Science and Artificial Intelligence",
+      "description": "The Department of Computer Science offers both a B.S. and a B.A. in Data Science and Artificial Intelligence and a Master of Science in Data Science with concentrations including Technical Data Science, Smart Cities, Data Visualization, and Marine & Atmospheric Sciences; internships and capstones flow through the Frost IDSC's Industrial Advisory Board.",
+      "significance": "Named degree-level AI programs at both undergraduate and graduate levels remain relatively rare at private R1s.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Arts and Sciences",
+        "description": "Degree programs with experiential learning through IDSC's Industrial Advisory Board."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IDSC Industrial Advisory Board"
+          ],
+          "description": "Industry-placed internship pipeline."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://csc.as.miami.edu/programs/bachelor-of-dsai/index.html",
+        "https://csc.as.miami.edu/programs/bachelor-of-arts-dsai/index.html",
+        "https://msdatascience.as.miami.edu/"
+      ]
+    },
+    {
+      "title": "Miami Herbert Minor in AI for Business Technology",
+      "description": "Miami Herbert Business School offers a 12-credit minor in Artificial Intelligence for Business Technology, including courses in Generative AI for Business Technology (BTE 271) and Foundations of AI for Business Technology (BTE 371), plus an executive-education track on 'Mastering AI.'",
+      "significance": "Cross-college AI programs signal that UM is mainstreaming AI literacy beyond computer science.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Miami Herbert Business School",
+        "description": "Credit-bearing minor and executive education programs."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://bulletin.miami.edu/undergraduate-academic-programs/business/business-technology/ai-for-business-technology-minor/",
+        "https://exed.miami.edu/online-course/mastering-ai-shaping-future-business-leadership/"
+      ]
+    },
+    {
+      "title": "Miller School of Medicine AI Education Office (Dr. Shirin Shafazand)",
+      "description": "The Miller School of Medicine established an AI-focused education office in 2025 with Dr. Shirin Shafazand as inaugural faculty director; she launched 'Introduction to Artificial Intelligence in Medicine and Public Health' covering machine learning, prompt engineering, and AI ethics.",
+      "significance": "Formalizes AI literacy as part of medical curriculum, not just clinical deployment.",
+      "date_announced": "2025-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Miller School of Medicine",
+        "description": "Dedicated faculty director and curriculum."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions AI ethics as a required competency for medical trainees.",
+      "source_urls": [
+        "https://floridamedspace.com/university-of-miami-launches-innovative-ai-office-to-transform-medical-education/"
+      ]
+    },
+    {
+      "title": "Sylvester Cancer Center CORAL AI tool for multiple myeloma",
+      "description": "Sylvester Comprehensive Cancer Center researchers developed CORAL, an AI tool that analyzes standard bone marrow biopsy slides to predict genetic subtypes and patient outcomes in multiple myeloma, potentially reducing reliance on expensive cytogenetic workups.",
+      "significance": "Original clinical AI research (not just vendor deployment) demonstrates UM's translational pipeline from research to patient care.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Sylvester Comprehensive Cancer Center",
+        "description": "Internal research; specific funding undisclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "CORAL",
+          "vendor": "University of Miami Sylvester",
+          "role": "Computer-vision AI for myeloma biopsy analysis"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.med.miami.edu/a-new-lens-on-multiple-myeloma/"
+      ]
+    },
+    {
+      "title": "PETAL Teaching with AI course and policy framework",
+      "description": "PETAL (Platform for Excellence in Teaching and Learning) launched an asynchronous Blackboard-hosted 'Teaching with AI' certificate, a seven-principle student framework, and four syllabus policy templates (strict ban, moderate, liberal, exploratory/participatory). Early completers receive a copy of Ethan Mollick's 'Co-Intelligence.'",
+      "significance": "Gives faculty syllabus-level agency inside a comprehensive institutional framework — a middle path between bans and laissez-faire.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "syllabus_level_policy",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University of Miami (PETAL)",
+        "description": "Faculty development program and policy infrastructure."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Blackboard Ultra",
+          "vendor": "Anthology",
+          "role": "LMS hosting the certificate"
+        },
+        {
+          "name": "AI Design Assistant",
+          "vendor": "Anthology (Blackboard)",
+          "role": "Course-creation AI for faculty"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions faculty policy discretion within institutional data-privacy guardrails.",
+      "source_urls": [
+        "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+      ]
+    },
+    {
+      "title": "Institute for Bioethics & WHO AI ethics collaboration",
+      "description": "The Institute for Bioethics and Health Policy maintains an AI & Big Data Resources hub initiated with WHO support, and faculty contributed to the WHO Guidance on Ethics & Governance of AI for Health. The Research Ethics Consultation Service (RECS) advises investigators on genomics and AI ethics.",
+      "significance": "Few U.S. private R1s sit at the intersection of institutional AI deployment and international AI-ethics policy formation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institute for Bioethics / WHO",
+        "description": "Ongoing scholarly work and consultation services."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "World Health Organization"
+          ],
+          "description": "WHO Collaborating Center contributing to AI health guidance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds ethics oversight into UM's AI research and clinical deployments.",
+      "source_urls": [
+        "https://bioethics.miami.edu/informatics/computing-triage/ai-and-big-data-resources/index.html"
+      ]
+    },
+    {
+      "title": "U-LINK AI interdisciplinary seed program",
+      "description": "U-LINK (University of Miami Laboratory for Integrative Knowledge) supports interdisciplinary projects leveraging AI and machine learning to address societal problems and fundamental research challenges across schools.",
+      "significance": "Dedicated institutional seed funding accelerates cross-disciplinary AI applications.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University of Miami (Provost / Research)",
+        "description": "Internal seed program."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ulink.miami.edu/projects/u-link-artificial-intelligence/index.html"
+      ]
+    },
+    {
+      "title": "UHealth AI project portfolio (150+ projects; top-10% adopter)",
+      "description": "UHealth IT has completed 155 AI projects with 40 in progress, placing the system in the top 10% of AI users in healthcare. Use cases span ambient documentation, predictive models for readmission and deterioration, surgical video analysis (Theator), conversational patient scheduling, and automated revenue cycle.",
+      "significance": "Unusual breadth of operational AI deployments across a single health system.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "data_infrastructure_and_unification",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "computer_vision",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "researchers",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "University of Miami Health System",
+        "description": "Enterprise-wide AI deployment program, 150+ active projects."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Aidoc",
+            "Theator",
+            "Conversica",
+            "CodaMetrix",
+            "Epic"
+          ],
+          "description": "Multiple vendor partnerships."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Theator",
+          "vendor": "Theator",
+          "role": "Surgical video AI"
+        },
+        {
+          "name": "Conversica",
+          "vendor": "Conversica",
+          "role": "Conversational AI for scheduling/engagement"
+        },
+        {
+          "name": "CodaMetrix",
+          "vendor": "CodaMetrix",
+          "role": "Autonomous medical coding"
+        },
+        {
+          "name": "Epic ambient documentation",
+          "vendor": "Epic",
+          "role": "Ambient clinical note generation"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Each deployment requires HIPAA review and clinical governance.",
+      "source_urls": [
+        "https://www.chiefhealthcareexecutive.com/view/how-the-university-of-miami-health-system-is-using-ai",
+        "https://ai.it.miami.edu/ai-projects/index.html"
+      ]
+    },
+    {
+      "title": "Approved AI tools catalog (Copilot, Gemini, Firefly, Blackboard, Gradescope)",
+      "description": "Academic Technologies maintains a supported AI tools catalog: Microsoft Copilot (with commercial data protection), Copilot for Microsoft 365, Google Gemini (with data-protection assurance), Adobe Firefly (Creative Campus license), Blackboard AI Design Assistant, Gradescope AI grouping, and Chrome 'Help Me Write.'",
+      "significance": "A curated, contract-covered tools catalog reduces shadow-IT risk and gives instructors a defensible baseline.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "acceptable_use_policy",
+        "lms_embedded_ai"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Multiple vendor enterprise agreements",
+        "description": "Approved tools spanning productivity, generative, LMS, and assessment AI."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "Adobe",
+            "Anthology (Blackboard)",
+            "Turnitin (Gradescope)"
+          ],
+          "description": "Enterprise vendor licensing and integration."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Multimodal generative AI"
+        },
+        {
+          "name": "Firefly",
+          "vendor": "Adobe",
+          "role": "Generative image AI"
+        },
+        {
+          "name": "Gradescope",
+          "vendor": "Turnitin",
+          "role": "AI-assisted grading"
+        },
+        {
+          "name": "AI Design Assistant",
+          "vendor": "Anthology (Blackboard)",
+          "role": "Course creation AI"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Shifts AI use toward contract-covered tools with data protection.",
+      "source_urls": [
+        "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Frost Institute for Data Science and Computing (IDSC)",
+      "focus": "AI & Machine Learning, Data Ethics, Digital Health, Earth Systems, Human-Centered Design, Smart Cities",
+      "founded": "2020",
+      "url": "https://idsc.miami.edu/"
+    },
+    {
+      "name": "NSF University of Miami Center for Accelerated Real Time Analytics (UM CARTA)",
+      "focus": "Real-time analytics, ML for weather/climate, food security, legal text, quantum, cloud privacy",
+      "founded": "2021",
+      "url": "https://carta.miami.edu/"
+    },
+    {
+      "name": "Institute for Bioethics and Health Policy — AI Ethics",
+      "focus": "AI ethics, responsible AI for health, WHO collaborating center work",
+      "founded": null,
+      "url": "https://bioethics.miami.edu/informatics/computing-triage/ai-and-big-data-resources/index.html"
+    },
+    {
+      "name": "Sylvester Comprehensive Cancer Center — AI in Oncology",
+      "focus": "Computer-vision and predictive AI for cancer diagnosis and outcomes (e.g., CORAL for myeloma)",
+      "founded": null,
+      "url": "https://news.med.miami.edu/a-new-lens-on-multiple-myeloma/"
+    },
+    {
+      "name": "U-LINK (University of Miami Laboratory for Integrative Knowledge) — AI",
+      "focus": "Interdisciplinary seed funding for AI/ML societal research",
+      "founded": null,
+      "url": "https://ulink.miami.edu/projects/u-link-artificial-intelligence/index.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "B.S. in Data Science and Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://csc.as.miami.edu/programs/bachelor-of-dsai/index.html"
+    },
+    {
+      "type": "degree",
+      "name": "B.A. in Data Science and Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://csc.as.miami.edu/programs/bachelor-of-arts-dsai/index.html"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://msdatascience.as.miami.edu/"
+    },
+    {
+      "type": "minor",
+      "name": "Minor in Artificial Intelligence for Business Technology",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://bulletin.miami.edu/undergraduate-academic-programs/business/business-technology/ai-for-business-technology-minor/"
+    },
+    {
+      "type": "course",
+      "name": "Introduction to Artificial Intelligence in Medicine and Public Health",
+      "level": "grad",
+      "launched": "2025-01",
+      "url": "https://floridamedspace.com/university-of-miami-launches-innovative-ai-office-to-transform-medical-education/"
+    },
+    {
+      "type": "certificate",
+      "name": "Mastering AI: Shaping the Future of Business and Leadership (executive education)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://exed.miami.edu/online-course/mastering-ai-shaping-future-business-leadership/"
+    },
+    {
+      "type": "certificate",
+      "name": "Teaching with AI (PETAL / Blackboard asynchronous)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot on the Web (with commercial data protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.it.miami.edu/copilot"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot for Microsoft 365 (GPT-5.2 as of Dec 2025)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://www.it.miami.edu/copilot-for-365"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (with data protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Firefly (Creative Campus license)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html"
+    },
+    {
+      "vendor": "Anthology",
+      "product": "Blackboard AI Design Assistant / Ultra",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+    },
+    {
+      "vendor": "Turnitin",
+      "product": "Gradescope (AI response grouping)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html"
+    },
+    {
+      "vendor": "Aidoc",
+      "product": "aiOS clinical AI platform (13+ FDA-cleared algorithms)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.aidoc.com/about/news/umiami-health-aidoc-ai/"
+    },
+    {
+      "vendor": "Epic",
+      "product": "Ambient documentation",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-09",
+      "url": "https://news.med.miami.edu/uhealth-sole-mia-medical-center-opens-in-north-miami/"
+    },
+    {
+      "vendor": "CodaMetrix",
+      "product": "Autonomous medical coding",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.it.miami.edu/ai-projects/index.html"
+    },
+    {
+      "vendor": "Theator",
+      "product": "Surgical video AI analysis",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.it.miami.edu/ai-projects/index.html"
+    },
+    {
+      "vendor": "Conversica",
+      "product": "Conversational AI for athletics ticket sales",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.it.miami.edu/ai-projects/index.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Triton (also Pegasus)",
+    "gpu_count": null,
+    "url": "https://idsc.miami.edu/triton/",
+    "summary": "UM operates Triton, a $3.7M IBM Power Systems AC922 supercomputer with NVIDIA Tesla V100 GPUs (2 per node), paired with the Pegasus HPC cluster and a Visualization Laboratory. Triton was ranked among the Top 5 Academic Institution Supercomputers in the U.S. in 2019 and supports ~1,500 researchers across the three UM campuses. A regional 5G+ edge-computing environment extends the compute footprint."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Knight Foundation + Frost match for six IDSC Endowed Chairs",
+      "amount_usd": 12000000,
+      "source": "John S. and James L. Knight Foundation + Phillip and Patricia Frost",
+      "purpose": "Six endowed faculty chairs at IDSC focused on AI, machine learning, smart cities, and digital health",
+      "date": "2021-02",
+      "url": "https://news.miami.edu/stories/2021/02/endowments-will-power-big-data-solutions-with-technical-talent.html"
+    },
+    {
+      "title": "NSF IUCRC renewal for UM CARTA (Phase II)",
+      "amount_usd": null,
+      "source": "National Science Foundation",
+      "purpose": "Five-year renewal of NSF Industry/University Cooperative Research Center for real-time analytics",
+      "date": "2024-04",
+      "url": "https://carta.miami.edu/phase-ii/index.html"
+    },
+    {
+      "title": "NSF regional cyberinfrastructure grant",
+      "amount_usd": 1400000,
+      "source": "National Science Foundation",
+      "purpose": "Build advanced networking and research-computing capacity across two dozen South Florida institutions",
+      "date": "2024-01",
+      "url": "https://idsc.miami.edu/building-south-floridas-ai-future/"
+    },
+    {
+      "title": "Triton IBM Power Systems supercomputer",
+      "amount_usd": 3700000,
+      "source": "University of Miami",
+      "purpose": "GPU-accelerated AI/HPC system for campus research",
+      "date": "2019-08",
+      "url": "https://www.hpcwire.com/off-the-wire/university-of-miami-deploys-3-7m-ibm-power-system-for-ai-hpc/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM",
+      "purpose": "Triton AI-optimized supercomputer",
+      "date": "2019-08",
+      "url": "https://insidehpc.com/2019/08/ibm-deploys-triton-ai-supercomputer-at-university-of-miami/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Campus-wide Copilot / Copilot for Microsoft 365",
+      "date": null,
+      "url": "https://www.it.miami.edu/copilot-for-365"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Aidoc",
+      "purpose": "Health-system-wide radiology AI (aiOS, 13+ FDA-cleared algorithms)",
+      "date": null,
+      "url": "https://www.aidoc.com/about/news/umiami-health-aidoc-ai/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Theator",
+      "purpose": "Surgical video AI analysis",
+      "date": null,
+      "url": "https://ai.it.miami.edu/ai-projects/index.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "CodaMetrix",
+      "purpose": "Autonomous medical coding",
+      "date": null,
+      "url": "https://ai.it.miami.edu/ai-projects/index.html"
+    },
+    {
+      "pattern": "international",
+      "partner": "World Health Organization",
+      "purpose": "WHO Guidance on Ethics & Governance of AI for Health (UM as collaborating center)",
+      "date": null,
+      "url": "https://bioethics.miami.edu/informatics/computing-triage/ai-and-big-data-resources/index.html"
+    },
+    {
+      "pattern": "international",
+      "partner": "Tel Aviv University",
+      "purpose": "Strategic AI/data science alliance via IDSC",
+      "date": null,
+      "url": "https://idsc.miami.edu/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "UM CARTA IUCRC (Phase I and Phase II) and regional cyberinfrastructure",
+      "date": "2021-05",
+      "url": "https://carta.miami.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "GE Global Research",
+      "purpose": "Industrial AI/ML collaboration via IDSC",
+      "date": null,
+      "url": "https://idsc.miami.edu/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "City of Coral Gables",
+      "purpose": "Smart cities / civic AI applications",
+      "date": null,
+      "url": "https://idsc.miami.edu/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Knight Foundation",
+      "purpose": "Regional tech talent and AI endowed chairs",
+      "date": "2021-02",
+      "url": "https://knightfoundation.org/press/releases/knight-foundation-invests-15m-in-fiu-um-baptist-health-to-expand-miamis-tech-talent-accelerate-innovation/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot on the Web (UM-signed-in)",
+      "scope": "All students 18+",
+      "url": "https://www.it.miami.edu/copilot"
+    },
+    {
+      "type": "chatbot",
+      "name": "Google Gemini (with data protection)",
+      "scope": "Students / faculty / staff",
+      "url": "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html"
+    },
+    {
+      "type": "other",
+      "name": "Adobe Firefly (image generation)",
+      "scope": "Students / faculty / staff via Creative Campus license",
+      "url": "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html"
+    },
+    {
+      "type": "tutor",
+      "name": "Blackboard AI Design Assistant (course-embedded)",
+      "scope": "All courses using Blackboard Ultra",
+      "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+    },
+    {
+      "type": "predictive_analytics",
+      "name": "Student retention / success predictive models (UMIT)",
+      "scope": "Internal administrative use",
+      "url": "https://ai.it.miami.edu/ai-projects/index.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "NSF regional cyberinfrastructure grant for South Florida AI access",
+      "description": "A $1.4M NSF grant to build advanced-networking infrastructure and research-computing capacity for ~24 smaller South Florida universities, addressing regional AI digital divide.",
+      "url": "https://idsc.miami.edu/building-south-floridas-ai-future/"
+    },
+    {
+      "title": "PETAL guidance against AI-detection bias",
+      "description": "The university's teaching-with-AI guidance explicitly discourages AI text detectors, citing FERPA concerns and documented bias against non-native English writers.",
+      "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+    },
+    {
+      "title": "Accessibility-first AI tool selection",
+      "description": "PETAL guidance references resources on AI accessibility benefits and differential impacts on students with disabilities; Office of Disability Services consulted in tool rollout.",
+      "url": "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Florida",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "As of April 2026, Florida has no enacted comprehensive AI law, but Senate Bill 482, the 'Artificial Intelligence Bill of Rights,' passed the Florida Senate 35-2 on March 4, 2026 and is under House consideration. If enacted, it would take effect July 1, 2026, establishing AI rights for Florida residents and obligations on chatbot platforms, bot operators, and certain educational entities. Governor DeSantis has publicly defended state-level AI authority against federal preemption attempts (Trump EO 14365 of December 11, 2025). As a private, non-system institution, UM is not bound by a system-level AI policy; it is not part of the State University System of Florida.",
+    "urls": [
+      "https://www.rumberger.com/insights/artificial-intelligence-in-the-classroom-an-overview-of-florida-senate-bill-482-the-artificial-intelligence-bill-of-rights/",
+      "https://floridaphoenix.com/2026/04/20/floridas-ai-bill-of-rights-what-happened-whats-in-it-and-whats-next/",
+      "https://lawreview.law.miami.edu/mind-the-gap-floridas-bid-to-define-ai-rights/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Miami has built one of the most operationally mature AI postures among private R1 universities, centered on a dual academic/clinical Chief Artificial Intelligence Officer (David Wayne) whose team tracks 348 AI projects and delivers enterprise-protected generative AI (Copilot, Gemini, Firefly, Blackboard) to all 19,852 students, faculty, and staff. Research is anchored by the Frost Institute for Data Science and Computing (IDSC), which houses three John S. and James L. Knight Foundation Endowed Chairs of Data Science and AI — funded by a $12M Knight/Frost endowment — and operates the $3.7M Triton AI-optimized IBM supercomputer. UM co-leads NSF's CARTA Industry/University Cooperative Research Center (renewed for five more years in 2024) and has drawn specialized AI talent including former NASA AI-systems leader Jacqueline Le Moigne. On the clinical side, UHealth has completed 155+ AI projects (top 10% of U.S. health systems) spanning Aidoc's 13+ FDA-cleared imaging algorithms, Epic ambient documentation, Theator surgical video analysis, CodaMetrix autonomous coding, and Conversica scheduling. The September 2025 opening of UHealth SoLé Mia — a 363,000 sq ft facility where every physician is AI-enabled on day one — marks a shift toward AI-native clinical operations. On governance, the PETAL center maintains a comprehensive teaching framework (seven student principles, four syllabus policy templates, a Blackboard certificate) that takes an explicitly permissive-yet-guardrailed stance: instructors retain syllabus-level discretion within institutional HIPAA/FERPA/data-privacy rules, AI detection tools are discouraged for equity reasons, and the Institute for Bioethics and Health Policy supports WHO's Guidance on Ethics & Governance of AI for Health. Academic programming spans B.S./B.A. in Data Science and AI, an M.S. in Data Science, a Miami Herbert minor in AI for Business Technology, and a new 2025 Miller School of Medicine AI Education Office. Gaps include the absence of a single named 'AI Strategic Plan' document and limited public disclosure of student-facing chatbot deployments beyond approved vendor tools. Florida's pending SB 482 ('AI Bill of Rights') may change the regulatory posture in July 2026.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.it.miami.edu/",
+      "https://ai.it.miami.edu/the-ai-team/index.html",
+      "https://ai.it.miami.edu/ai-projects/index.html",
+      "https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/index.html",
+      "https://academictechnologies.it.miami.edu/explore-technologies/artificial-intelligence/index.html",
+      "https://idsc.miami.edu/",
+      "https://idsc.miami.edu/triton/",
+      "https://idsc.miami.edu/building-south-floridas-ai-future/",
+      "https://idsc.miami.edu/mingzhe-chen-knight-chair/",
+      "https://idsc.miami.edu/magazine/david-chapman-named-knight-foundation-chair-in-data-science-and-ai/",
+      "https://idsc.miami.edu/u-miami-carta/",
+      "https://carta.miami.edu/",
+      "https://carta.miami.edu/phase-ii/index.html",
+      "https://bioethics.miami.edu/informatics/computing-triage/ai-and-big-data-resources/index.html",
+      "https://www.it.miami.edu/copilot",
+      "https://www.it.miami.edu/copilot-for-365",
+      "https://www.it.miami.edu/copilot-gpt5",
+      "https://www.it.miami.edu/copilot-week",
+      "https://csc.as.miami.edu/programs/bachelor-of-dsai/index.html",
+      "https://csc.as.miami.edu/programs/bachelor-of-arts-dsai/index.html",
+      "https://msdatascience.as.miami.edu/",
+      "https://bulletin.miami.edu/undergraduate-academic-programs/business/business-technology/ai-for-business-technology-minor/",
+      "https://exed.miami.edu/online-course/mastering-ai-shaping-future-business-leadership/",
+      "https://news.miami.edu/stories/2021/02/endowments-will-power-big-data-solutions-with-technical-talent.html",
+      "https://news.miami.edu/stories/2025/07/university-of-miami-gets-a-new-provost.html",
+      "https://news.miami.edu/as/stories/2025/12/ai-pioneer-from-nasa-joins-the-university-of-miami-as-a-visiting-professor.html",
+      "https://news.miami.edu/stories/2024/10/aiming-to-shape-a-new-tech-revolution.html",
+      "https://news.med.miami.edu/uhealth-sole-mia-medical-center-opens-in-north-miami/",
+      "https://news.med.miami.edu/aidoc-ai-health-care/",
+      "https://news.med.miami.edu/a-new-lens-on-multiple-myeloma/",
+      "https://news.med.miami.edu/david-reis-ph-d-named-a-2025-beckers-cio-to-know/",
+      "https://www.aidoc.com/about/news/umiami-health-aidoc-ai/",
+      "https://www.chiefhealthcareexecutive.com/view/how-the-university-of-miami-health-system-is-using-ai",
+      "https://floridamedspace.com/university-of-miami-launches-innovative-ai-office-to-transform-medical-education/",
+      "https://ulink.miami.edu/projects/u-link-artificial-intelligence/index.html",
+      "https://www.hpcwire.com/off-the-wire/university-of-miami-deploys-3-7m-ibm-power-system-for-ai-hpc/",
+      "https://insidehpc.com/2019/08/ibm-deploys-triton-ai-supercomputer-at-university-of-miami/",
+      "https://www.rumberger.com/insights/artificial-intelligence-in-the-classroom-an-overview-of-florida-senate-bill-482-the-artificial-intelligence-bill-of-rights/",
+      "https://floridaphoenix.com/2026/04/20/floridas-ai-bill-of-rights-what-happened-whats-in-it-and-whats-next/",
+      "https://lawreview.law.miami.edu/mind-the-gap-floridas-bid-to-define-ai-rights/",
+      "https://knightfoundation.org/press/releases/knight-foundation-invests-15m-in-fiu-um-baptist-health-to-expand-miamis-tech-talent-accelerate-innovation/",
+      "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2051800",
+      "https://www.collegetuitioncompare.com/edu/135726/university-of-miami/enrollment/"
+    ],
+    "search_queries": [
+      "\"University of Miami\" AI strategy artificial intelligence initiative 2025",
+      "\"University of Miami\" generative AI policy acceptable use faculty",
+      "\"University of Miami\" Institute for Data Science and Computing IDSC AI",
+      "\"University of Miami\" CIO chief information officer 2025",
+      "\"University of Miami\" president provost 2025 Julio Frenk Joe Echevarria",
+      "\"University of Miami\" AI degree master's data science artificial intelligence program",
+      "\"University of Miami\" Triton supercomputer NVIDIA AI GPU cluster",
+      "\"University of Miami\" Knight Foundation endowed chair data science AI gift",
+      "\"University of Miami\" UHealth AI clinical health artificial intelligence 2024 2025",
+      "\"University of Miami\" Herbert Business School AI generative artificial intelligence",
+      "\"University of Miami\" AI task force committee governance responsible AI",
+      "\"University of Miami\" ChatGPT Copilot campus-wide rollout students",
+      "\"University of Miami\" AI cheating academic integrity policy 2024",
+      "\"University of Miami\" SoLé Mia AI medical center opened 2025",
+      "Florida state AI policy higher education universities executive order",
+      "\"University of Miami\" CARTA Center Accelerated Real Time Analytics NSF",
+      "\"University of Miami\" AI equity accessibility inclusion initiatives",
+      "\"University of Miami\" AI ethics bioethics Institute for Bioethics Responsible",
+      "\"University of Miami\" NSF AI grant million research 2024 2025",
+      "\"University of Miami\" AI research projects 2025 new center launched",
+      "\"University of Miami\" enrollment total students 2024 2025"
+    ],
+    "gaps_acknowledged": [
+      "No single named 'AI Strategic Plan' PDF is publicly published; the strategy is evidenced through the AI at The U portal, PETAL framework, and AI Projects Dashboard rather than a formal strategy document.",
+      "Exact adoption date of the acceptable-use AI policy / PETAL framework is not disclosed.",
+      "GPU count on the Triton supercomputer is not publicly disclosed.",
+      "No public confirmation of a dedicated AI council or committee with named members (beyond the CAIO office and the AI Enablement Team) — governance appears to be centralized in UMIT rather than a shared faculty body.",
+      "Specific amount_usd is undisclosed for the UHealth / Aidoc partnership and the Microsoft Copilot enterprise license.",
+      "No public controversies or AI-related litigation were surfaced during this research.",
+      "The Copilot for Microsoft 365 user count is not publicly reported."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "research_compute_powerhouse",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 31,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 13,
+        "governance_led": 15,
+        "student_success_led": 5,
+        "workforce_regional_development": 16,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 5,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Triton (also Pegasus)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 17100000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 2,
+        "public_federal_state": 4,
+        "institutional": 10,
+        "industry_vendor": 3,
+        "other_unclear": 2
+      },
+      "partnership_count": 11
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 1,
+        "tutor": 1,
+        "predictive_analytics": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 1
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Blackboard",
+          "mentions": 4,
+          "products": [
+            "AI Design Assistant",
+            "Blackboard AI Design Assistant / Ultra",
+            "Blackboard Ultra"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Copilot for Microsoft 365",
+            "Copilot for Microsoft 365 (GPT-5.2 as of Dec 2025)",
+            "Copilot on the Web",
+            "Copilot on the Web (with commercial data protection)"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 2,
+          "products": [
+            "Firefly",
+            "Firefly (Creative Campus license)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "Gemini (with data protection)"
+          ]
+        },
+        {
+          "vendor": "Turnitin",
+          "mentions": 2,
+          "products": [
+            "Gradescope",
+            "Gradescope (AI response grouping)"
+          ]
+        },
+        {
+          "vendor": "Aidoc aiOS",
+          "mentions": 1,
+          "products": [
+            "aiOS"
+          ]
+        },
+        {
+          "vendor": "Aidoc aiOS clinical AI platform (13+ FDA-cleared algorithms)",
+          "mentions": 1,
+          "products": [
+            "aiOS clinical AI platform (13+ FDA-cleared algorithms)"
+          ]
+        },
+        {
+          "vendor": "CodaMetrix Automated coding",
+          "mentions": 1,
+          "products": [
+            "Automated coding"
+          ]
+        },
+        {
+          "vendor": "CodaMetrix Autonomous medical coding",
+          "mentions": 1,
+          "products": [
+            "Autonomous medical coding"
+          ]
+        },
+        {
+          "vendor": "CodaMetrix CodaMetrix",
+          "mentions": 1,
+          "products": [
+            "CodaMetrix"
+          ]
+        },
+        {
+          "vendor": "Conversica Conversational AI for athletics ticket sales",
+          "mentions": 1,
+          "products": [
+            "Conversational AI for athletics ticket sales"
+          ]
+        },
+        {
+          "vendor": "Conversica Conversica",
+          "mentions": 1,
+          "products": [
+            "Conversica"
+          ]
+        },
+        {
+          "vendor": "Epic Ambient documentation",
+          "mentions": 1,
+          "products": [
+            "Ambient documentation"
+          ]
+        },
+        {
+          "vendor": "Epic Epic ambient documentation",
+          "mentions": 1,
+          "products": [
+            "Epic ambient documentation"
+          ]
+        },
+        {
+          "vendor": "Epic/Abridge (per UHealth reporting) Ambient dictation",
+          "mentions": 1,
+          "products": [
+            "Ambient dictation"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "IBM Power Systems AC922"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Tesla V100 GPU"
+          ]
+        },
+        {
+          "vendor": "Theator Surgical video AI analysis",
+          "mentions": 1,
+          "products": [
+            "Surgical video AI analysis"
+          ]
+        },
+        {
+          "vendor": "Theator Theator",
+          "mentions": 1,
+          "products": [
+            "Theator"
+          ]
+        },
+        {
+          "vendor": "University of Miami Sylvester CORAL",
+          "mentions": 1,
+          "products": [
+            "CORAL"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Blackboard",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "productivity",
+          "title": "Campus-wide Microsoft Copilot deployment with GPT-5.2",
+          "summary": "One of the most comprehensive, enterprise-protected generative AI deployments at a private R1, combining web chat with productivity-suite integration on latest-generation frontier models.",
+          "source_url": "https://www.it.miami.edu/copilot"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UHealth + Aidoc system-wide radiology AI deployment",
+          "summary": "A multi-algorithm, FDA-cleared AI deployment across the entire health system puts UM in the top tier of academic medical center AI adopters.",
+          "source_url": "https://www.aidoc.com/about/news/umiami-health-aidoc-ai/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "UHealth SoLé Mia AI-enabled medical center opens",
+          "summary": "One of the first U.S. academic medical centers to launch a flagship facility with AI embedded in the default physician workflow.",
+          "source_url": "https://news.med.miami.edu/uhealth-sole-mia-medical-center-opens-in-north-miami/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UHealth AI project portfolio (150+ projects; top-10% adopter)",
+          "summary": "Unusual breadth of operational AI deployments across a single health system.",
+          "source_url": "https://www.chiefhealthcareexecutive.com/view/how-the-university-of-miami-health-system-is-using-ai"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No single named 'AI Strategic Plan' PDF is publicly published; the strategy is evidenced through the AI at The U portal, PETAL framework, and AI Projects Dashboard rather than a formal strategy document.",
+        "Exact adoption date of the acceptable-use AI policy / PETAL framework is not disclosed.",
+        "GPU count on the Triton supercomputer is not publicly disclosed.",
+        "No public confirmation of a dedicated AI council or committee with named members (beyond the CAIO office and the AI Enablement Team) — governance appears to be centralized in UMIT rather than a shared faculty body.",
+        "Specific amount_usd is undisclosed for the UHealth / Aidoc partnership and the Microsoft Copilot enterprise license.",
+        "No public controversies or AI-related litigation were surfaced during this research.",
+        "The Copilot for Microsoft 365 user count is not publicly reported."
+      ]
+    }
+  }
+}

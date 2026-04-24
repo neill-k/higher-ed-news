@@ -1,0 +1,1364 @@
+{
+  "institution": "University of Southern Mississippi",
+  "slug": "university-of-southern-mississippi",
+  "city_state": "Hattiesburg, MS",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "Mississippi Institutions of Higher Learning",
+  "enrollment": 13191,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Joseph S. Paul",
+      "url": "https://www.usm.edu/president/index.php"
+    },
+    "provost": {
+      "name": "Lance Nail",
+      "url": "https://www.usm.edu/university/leadership.php"
+    },
+    "cio": {
+      "name": "David J. Sliman",
+      "url": "https://www.usm.edu/itech/cio-biography.php"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Kelly Lester",
+      "title": "Associate Provost for Faculty Success; Co-chair, USM AI Taskforce",
+      "url": "https://www.usm.edu/provost/artificial-intelligence.php"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence (Office of the Provost)",
+        "url": "https://www.usm.edu/provost/artificial-intelligence.php",
+        "year": 2025
+      },
+      {
+        "title": "Artificial Intelligence Taskforce Timeline",
+        "url": "https://www.usm.edu/provost/ai-timeline.php",
+        "year": 2025
+      },
+      {
+        "title": "AI Guidelines for Students",
+        "url": "https://www.usm.edu/student-help/artificial-intelligence.php",
+        "year": 2024
+      },
+      {
+        "title": "Responsible Use of AI in Research (USM Office of Research Integrity)",
+        "url": "https://www.usm.edu/research-integrity/responsible-use-ai.pdf",
+        "year": 2024
+      }
+    ],
+    "summary": "USM frames AI around 'ethical, secure, and responsible use' aligned with academic integrity, data privacy, and transparency, with an explicit charge from President Paul in August 2025 to ensure every USM baccalaureate graduate understands AI/machine learning fundamentals. The strategy combines required syllabus-level policy, a 24-member AI Taskforce co-chaired out of the Provost's Office, partnership with the state Mississippi Artificial Intelligence Network (MAIN), Coursera Career Academy rollout, and a Governor-funded Maritime AI Innovation Lab plus a master's degree in Robotics and Intelligent Systems on the Gulf Coast."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.usm.edu/provost/artificial-intelligence.php",
+      "https://www.usm.edu/student-help/artificial-intelligence.php",
+      "https://www.usm.edu/research-integrity/responsible-use-ai.pdf"
+    ],
+    "adopted_date": "2024-01",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Three-option syllabus language: encouraged use, limited/permissible use, or human-only (no AI)",
+      "Citation required for any AI use, even outlining/organizing",
+      "Prohibited: analyzing confidential data, malicious uses, IP-violating generated content, unauthorized surveillance",
+      "Unauthorized AI use treated as academic integrity violation (May 2023 code amendment)",
+      "Students bear full responsibility for accuracy and content of submitted work"
+    ],
+    "summary": "USM operates a cautious/permissive-with-guardrails framework: faculty choose one of three permissioning levels per syllabus, AI use must be cited, and unauthorized use is an academic integrity violation. Research use is governed by a separate 'Responsible Use of AI' document emphasizing data privacy and confidentiality. After unauthorized AI violations peaked in summer 2024 (53.9% of 613 cases), enforcement drove a 61% year-over-year drop in summer 2025."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "USM AI Taskforce",
+        "type": "task_force",
+        "scope": "24 faculty/staff across five colleges and administrative units; co-chaired by Kelly Lester (Associate Provost for Faculty Success) and Joanne Tran (Assistant Provost for Academic Affairs), with Kendrick Buford (Academic Integrity Director). Originally founded spring 2023, expanded and recharged by President Paul in August 2025 to guide AI curriculum, infrastructure, and cross-institutional recommendations.",
+        "url": "https://www.usm.edu/provost/artificial-intelligence.php"
+      },
+      {
+        "name": "Academic Integrity Council",
+        "type": "council",
+        "scope": "Oversees academic integrity policy including AI-related violations; coordinates with AI Task Force on syllabus policy and enforcement.",
+        "url": "https://www.usm.edu/academic-integrity/academic-integrity-council.php"
+      },
+      {
+        "name": "Center for Faculty Development (CFD) AI Fellows",
+        "type": "office",
+        "scope": "Two Spring 2026 CFD Faculty Fellows ($3,300 stipends each) organize AI workshops, ACUE credential cohort, and monthly AI content for faculty.",
+        "url": "https://www.usm.edu/provost/artificial-intelligence.php"
+      }
+    ],
+    "summary": "AI governance sits in the Office of the Provost via a 24-member AI Taskforce recharged by the President in August 2025, working alongside the Academic Integrity Council and the Center for Faculty Development's AI Fellows program. There is no chief AI officer; strategic ownership is distributed across the Associate Provost for Faculty Success, Assistant Provost for Academic Affairs, Academic Integrity Director, VP for Research, and CIO (iTech)."
+  },
+  "initiatives": [
+    {
+      "title": "Required three-option AI syllabus policy",
+      "description": "Beginning Spring 2024, every USM syllabus must include one of three standardized AI usage levels: (1) encouraged use with citation, (2) limited/permissible for specific assignments only, or (3) human-generated work only. Unauthorized AI use is treated as an academic integrity violation.",
+      "significance": "Establishes a sector-model for course-level AI permissioning at the R1 scale with measurable enforcement outcomes — cases dropped 61% year-over-year after the first full year of operation.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USM Office of the Provost",
+        "description": "Policy authored and maintained internally; enforcement through Academic Integrity Office."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Codifies faculty discretion within institutionally standardized options; cited as driver of a 104% spike in integrity cases in summer 2024 and then a 61% decline by summer 2025.",
+      "source_urls": [
+        "https://www.usm.edu/provost/artificial-intelligence.php",
+        "https://www.usm.edu/provost/ai-timeline.php",
+        "https://www.usm.edu/student-help/artificial-intelligence.php"
+      ]
+    },
+    {
+      "title": "USM AI Taskforce re-charge (Aug 2025)",
+      "description": "President Joseph S. Paul expanded and re-charged the AI Taskforce in August 2025 with a directive that every USM baccalaureate graduate must understand AI and machine learning fundamentals. The 24-member body is co-chaired by Kelly Lester and Joanne Tran, with curriculum recommendations due by end of fall 2025 and infrastructure recommendations due in spring 2026.",
+      "significance": "Converts AI from a compliance/integrity question into a graduation-outcomes mandate — a rare step at the R1 level that ties AI fluency to every degree.",
+      "date_announced": "2025-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_literacy_requirement",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USM Office of the President / Provost",
+        "description": "Governance body rather than dedicated line-item; resources flow through Provost and CFD budgets."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal, cross-college representation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Shifts USM from permissioning-only to an AI-literacy graduation requirement; implementation target fall 2026.",
+      "source_urls": [
+        "https://www.usm.edu/provost/artificial-intelligence.php",
+        "https://www.usm.edu/provost/ai-timeline.php"
+      ]
+    },
+    {
+      "title": "Maritime AI Innovation Lab (MAI-TAP grant)",
+      "description": "On June 12, 2025, Governor Tate Reeves announced $1.24 million to USM under the Mississippi AI Talent Accelerator Program (MAI-TAP) to stand up a Maritime AI Innovation Lab focused on port efficiency, vessel safety, and Blue Economy supply chain optimization at the Gulf Park campus, with matching endowment fundraising and GPU infrastructure investment.",
+      "significance": "Anchors AI in Mississippi's Blue Economy — a rare maritime-specific applied AI lab at a public R1 — and links state workforce policy directly to institutional capacity.",
+      "date_announced": "2025-06-12",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "regional_economic_impact",
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "agentic_ai",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1240000,
+        "funding_source": "State of Mississippi (AccelerateMS / MDA) + AWS partnership",
+        "description": "Portion of the $9.1M MAI-TAP state-level AI initiative; endowment with private match being pursued."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "AccelerateMS",
+            "Mississippi Development Authority",
+            "Amazon Web Services"
+          ],
+          "description": "MAI-TAP state-AWS public-private cohort of 8 Mississippi IHL/private institutions."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AWS cloud services",
+          "vendor": "Amazon Web Services",
+          "role": "MAI-TAP program infrastructure partner"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions USM as Mississippi's maritime-AI lead within the MAI-TAP cohort.",
+      "source_urls": [
+        "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/",
+        "https://www.usm.edu/provost/ai-timeline.php"
+      ]
+    },
+    {
+      "title": "Master's in Robotics and Intelligent Systems (Gulf Park)",
+      "description": "As part of the MAI-TAP award, USM's Gulf Park campus is launching a new master's degree in Robotics and Intelligent Systems, with funds earmarked for faculty hires, graduate researchers, and GPU infrastructure.",
+      "significance": "One of the first graduate-level robotics+AI degrees in Mississippi, tied to Gulf Coast defense and maritime industry demand.",
+      "date_announced": "2025-06-12",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "career_and_workforce_readiness",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "State MAI-TAP grant (portion of $1.24M to USM)",
+        "description": "Subset of MAI-TAP award; specific degree budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Mississippi",
+            "AWS"
+          ],
+          "description": "Program tied to state AI workforce plan and AWS cloud stack."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/",
+        "https://www.usm.edu/provost/ai-timeline.php"
+      ]
+    },
+    {
+      "title": "Intelligent Autonomous Systems for Seabed Warfare (Integer/ONR)",
+      "description": "USM and Integer Technologies received a $25 million ceiling Office of Naval Research contract in July 2025 (with a $10.6M option exercise announced April 2026, $24.8M cumulative) to build AI/ML-powered autonomous decision-support tools for unmanned underwater platforms. Integer opened an office inside the Roger F. Wicker Center for Ocean Enterprise in Gulfport for co-located testing.",
+      "significance": "Among the largest AI/ML defense research partnerships at a Mississippi university; couples federal defense funding with industry-on-campus presence.",
+      "date_announced": "2025-07-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "agentic_ai",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 25000000,
+        "funding_source": "U.S. Office of Naval Research",
+        "description": "$25M ceiling; $24.8M cumulative through April 2026."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Integer Technologies"
+          ],
+          "description": "On-campus industry office at the Roger F. Wicker Center for Ocean Enterprise."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Office of Naval Research"
+          ],
+          "description": "Prime federal sponsor."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Edge-deployed autonomy software stack",
+          "vendor": "Integer Technologies",
+          "role": "Industry partner / decision-support software"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/news/2025/release/integer-usm-defense-contract.php",
+        "https://www.globenewswire.com/news-release/2026/04/07/3269748/0/en/Integer-Technologies-Celebrates-Grand-Opening-of-New-Office-at-The-University-of-Southern-Mississippi-s-Roger-F-Wicker-Center-for-Ocean-Enterprise.html"
+      ]
+    },
+    {
+      "title": "MAIN AI Lab (Cook Library 204)",
+      "description": "In Spring 2025 USM opened the MAIN AI Lab in Cook Library Room 204 on the Hattiesburg campus, with six AI-ready workstations available during library hours and reservable by faculty for class sessions, through partnership with the Mississippi Artificial Intelligence Network.",
+      "significance": "Puts a physical, low-friction AI learning space in the library — a tactic aimed at closing the digital-divide gap for students without personal AI access.",
+      "date_announced": "2025-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "digital_divide_and_access",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "MAIN (Mississippi Artificial Intelligence Network) / USM Libraries",
+        "description": "Physical lab space with six workstations; funding partially via state MAIN network."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Mississippi Artificial Intelligence Network (MAIN)"
+          ],
+          "description": "Statewide AI education network."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/provost/artificial-intelligence.php",
+        "https://www.usm.edu/provost/ai-timeline.php",
+        "https://mainms.org/"
+      ]
+    },
+    {
+      "title": "MAIN-partnered AI course stack with digital badges",
+      "description": "In Spring 2024 USM launched four Intel/Dell-developed courses via the Mississippi Artificial Intelligence Network: Introduction to AI, Introduction to Generative AI, Applied Ethics for AI, and AI for Cybersecurity, all with digital badges for workforce/K-12 and higher-ed learners.",
+      "significance": "Embeds a statewide industry curriculum inside an R1 institution, explicitly for workforce training as well as students.",
+      "date_announced": "2024-01-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "continuing_and_executive_education",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "MAIN / Intel / Dell curriculum partnership",
+        "description": "Curriculum developed by Intel and Dell, delivered via MAIN network."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Intel",
+            "Dell",
+            "Mississippi Artificial Intelligence Network"
+          ],
+          "description": "MAIN serves as the aggregator; Intel and Dell supplied the course content."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI course + digital badge platform",
+          "vendor": "Intel / Dell via MAIN",
+          "role": "Curriculum and credentialing"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/provost/ai-timeline.php",
+        "https://mainms.org/"
+      ]
+    },
+    {
+      "title": "Coursera Career Academy (campus-wide)",
+      "description": "USM launched Coursera Career Academy in fall 2024, making Coursera Plus-style access free to all students, faculty, staff, and Alumni Association members — with an explicit emphasis on AI literacy, heavily using Coursera's AI catalog. In six months 500+ users completed 400+ courses (~2,900 learning hours), earning USM a 2025 Coursera Outstanding Achievement Award (Rising Star).",
+      "significance": "Operationalizes 'AI literacy for every graduate' at scale via a vendor platform — a playbook other mid-sized R1s are watching.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "continuing_and_executive_education",
+        "campus_wide_platform_rollout",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USM Office of the Provost",
+        "description": "Campus-wide institutional license."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Coursera",
+            "Google",
+            "IBM",
+            "Meta",
+            "Microsoft",
+            "AWS",
+            "Adobe"
+          ],
+          "description": "Access to content from major AI vendors via Coursera's enterprise offering."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Coursera Career Academy",
+          "vendor": "Coursera",
+          "role": "Campus-wide AI/upskilling platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/provost/coursera.php",
+        "https://www.usm.edu/news/2025/release/coursera-outstanding-achievement-award.php"
+      ]
+    },
+    {
+      "title": "INS 292: AI for Social Good (interdisciplinary course)",
+      "description": "A 3-credit face-to-face interdisciplinary course co-taught by five faculty from all four colleges, with each instructor delivering a 3-week module applying AI to real-world issues. Open to 40 students across majors, delivered in Hattiesburg with virtual participation for Gulf Park and online learners.",
+      "significance": "A rare team-taught, cross-college AI course pitched at non-majors — designed to be replicable as USM scales AI literacy to all baccalaureate graduates.",
+      "date_announced": "2025-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "USM Office of the Provost (faculty $3,000 stipends + $1,000/college dev funds)",
+        "description": "Pilot course with faculty stipends."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-college."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/provost/ai-social-good.php",
+        "https://www.usm.edu/provost/artificial-intelligence.php"
+      ]
+    },
+    {
+      "title": "Hatchathon: Reclaiming Time Using Generative AI",
+      "description": "USM's Center for Entrepreneurship (The Hatchery), in partnership with VOXO Inc. and the School of Computing Sciences and Computer Engineering, ran a November 2024 student hackathon with 83 participants focused on generative-AI solutions for time reclamation. Winners included 'Cohesion' (AI data organizer), 'PrepAI' (personalized study), 'Samantha' (calendar sync), and 'Seymore's Seemore' (USM site search extension).",
+      "significance": "Operational model for integrating entrepreneurship, industry partners, and generative AI into experiential student learning.",
+      "date_announced": "2024-11-12",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_incubator_or_startup_support",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "The Hatchery / VOXO Inc.",
+        "description": "Annual event; 3rd annual held in 2025 with record participation."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "VOXO Inc."
+          ],
+          "description": "Lead industry partner for the Hatchathon."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/news/2024/release/hatchathon.php",
+        "https://www.usm.edu/news/2025/release/hatchathon.php"
+      ]
+    },
+    {
+      "title": "José Bowen AI Faculty Workshop Series (Spring 2026)",
+      "description": "USM's Center for Faculty Development hosted Dr. José Antonio Bowen for a four-workshop series for faculty and staff on pedagogy in the age of generative AI, attended alongside a separate March 2026 MAIN x Google/Carahsoft Gemini workshop at the Thad Cochran Center and a complementary April 2026 Bowen workshop.",
+      "significance": "Signals the CFD-led 'how, when, and why' faculty-development layer that complements the Provost's top-down AI literacy mandate.",
+      "date_announced": "2026-03-31",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USM Center for Faculty Development",
+        "description": "Workshop series and external speaker fees."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google",
+            "Carahsoft",
+            "MAIN"
+          ],
+          "description": "Google/Carahsoft sponsored Gemini workshop via MAIN."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Workshop subject; demo platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/news/2026/releases/jose-antonio-brown-ai-workshop.php",
+        "https://www.usm.edu/provost/artificial-intelligence.php"
+      ]
+    },
+    {
+      "title": "NSF Congressional AI Education Showcase participation (Rahimi / NAIRR Pilot)",
+      "description": "Dr. Nick Rahimi of USM's School of Computing Sciences and Computer Engineering was one of only 14 NSF awardees invited to the 2024 Congressional AI Education Showcase on Capitol Hill, presenting a proposal tied to the NSF-funded National AI Research Resource (NAIRR) Pilot to provide ML and cybersecurity AI resources to USM students.",
+      "significance": "Puts USM on the national NAIRR Pilot radar — a small but meaningful federal-policy visibility event for a non-flagship R1.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "NSF (via NAIRR Pilot)",
+        "description": "Participation in NAIRR Pilot; specific award amount for Rahimi's project not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "NAIRR Pilot"
+          ],
+          "description": "Federal AI research resource allocation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/news/2024/release/congressional-ai-education-showcase.php"
+      ]
+    },
+    {
+      "title": "NSF grant for ethical research practices ($399,672)",
+      "description": "In 2025, USM received a $399,672 three-year NSF grant to strengthen ethical research practices at research-active institutions. While not exclusively AI, it undergirds USM's 'Responsible Use of AI in Research' posture and its research integrity infrastructure.",
+      "significance": "Connects AI ethics work to broader research integrity funding, reinforcing USM's framing of AI as a research integrity issue.",
+      "date_announced": "2025-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "unspecified"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 399672,
+        "funding_source": "National Science Foundation",
+        "description": "Three-year project."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Federal grant."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports ongoing refinement of USM's AI research integrity document.",
+      "source_urls": [
+        "https://www.usm.edu/news/2025/release/nsfgrant.php"
+      ]
+    },
+    {
+      "title": "GCBC-USM Executive Leadership Academy on AI",
+      "description": "The Gulf Coast Business Council and Southern Miss launched a nine-month executive academy for up to 25 Gulf Coast executives focused on AI-driven strategy, governance, and organizational leadership.",
+      "significance": "This adds workforce and regional economic-development evidence with cohort size and credential details.",
+      "date_announced": "2026-01-20",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No tuition, contract, or subsidy amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Gulf Coast Business Council"
+          ],
+          "description": "Regional executive education partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.usm.edu/news/2026/releases/executive-leadership-academy.php"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Maritime AI Innovation Lab (Gulf Park)",
+      "focus": "Port efficiency, vessel safety, and Blue Economy supply chain AI",
+      "founded": "2025",
+      "url": "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/"
+    },
+    {
+      "name": "Roger F. Wicker Center for Ocean Enterprise",
+      "focus": "Ocean/maritime research with autonomous systems and defense AI testing; hosts Integer Technologies office",
+      "founded": "2022",
+      "url": "https://www.usm.edu/ocean-enterprise/index.php"
+    },
+    {
+      "name": "School of Computing Sciences and Computer Engineering — Center for Cybersecurity",
+      "focus": "Cyber Innovations Laboratory and Security and Privacy of Emerging Networks Laboratory; AI/ML, computer vision, bioinformatics, robotics",
+      "founded": null,
+      "url": "https://www.usm.edu/computing-sciences-computer-engineering/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master's in Robotics and Intelligent Systems (Gulf Park) — announced June 2025",
+      "level": "grad",
+      "launched": "2026-08",
+      "url": "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/"
+    },
+    {
+      "type": "degree",
+      "name": "Computer Science PhD with AI/machine learning concentration (including online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usm.edu/graduate-programs/computer-science-phd.php"
+    },
+    {
+      "type": "course",
+      "name": "INS 292: AI for Social Good (interdisciplinary 3-credit pilot)",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://www.usm.edu/provost/ai-social-good.php"
+    },
+    {
+      "type": "certificate",
+      "name": "MAIN digital badges — Intro to AI / Intro to Generative AI / Applied Ethics for AI / AI for Cybersecurity",
+      "level": "both",
+      "launched": "2024-01",
+      "url": "https://mainms.org/"
+    },
+    {
+      "type": "certificate",
+      "name": "GCBC-USM Executive Leadership Academy: Executives and Artificial Intelligence",
+      "level": "grad",
+      "launched": "2026-03",
+      "url": "https://www.usm.edu/news/2026/releases/executive-leadership-academy.php"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Coursera",
+      "product": "Coursera Career Academy (campus-wide license)",
+      "scope": "campus-wide",
+      "user_count": 500,
+      "deployed": "2024-09",
+      "url": "https://www.usm.edu/provost/coursera.php"
+    },
+    {
+      "vendor": "Instructure",
+      "product": "Canvas LMS (institutional)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2017-08",
+      "url": "https://www.wdam.com/story/36084015/southern-miss-transitions-to-canvas-for-online-learning/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 (O365) — Word/Excel/Outlook/Teams/OneDrive",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usm.edu/itech/microsoft-office-365.php"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Magnolia",
+    "gpu_count": null,
+    "url": "https://insidehpc.com/2017/09/magnolia-supercomputer-powers-research-university-southern-mississippi/",
+    "summary": "USM operates the 'Magnolia' HPC cluster (Advanced Clustering Technologies, 2017, NSF MRI $622,986) — 1,896 standard compute cores and 7,168 CUDA GPU cores across mixed compute/GPU/large-memory nodes — supporting materials science, biosciences, coastal/marine science, and data mining/bioinformatics/geoinformatics research. Additional GPU infrastructure is being stood up at Gulf Park under the 2025 Maritime AI Innovation Lab MAI-TAP award."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "MAI-TAP state grant (Maritime AI Lab + Robotics/Intelligent Systems master's)",
+      "amount_usd": 1240000,
+      "source": "State of Mississippi (AccelerateMS / MDA / AWS)",
+      "purpose": "Maritime AI Innovation Lab, robotics master's degree, faculty/graduate researcher support, GPU infrastructure, endowment seed",
+      "date": "2025-06",
+      "url": "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/"
+    },
+    {
+      "title": "Intelligent Autonomous Systems for Seabed Warfare (ONR prime; Integer Technologies)",
+      "amount_usd": 25000000,
+      "source": "U.S. Office of Naval Research",
+      "purpose": "AI/ML for unmanned undersea autonomous decision-support; co-located with Integer at Wicker Center",
+      "date": "2025-07",
+      "url": "https://www.usm.edu/news/2025/release/integer-usm-defense-contract.php"
+    },
+    {
+      "title": "NSF grant — ethical research practices (AI-adjacent)",
+      "amount_usd": 399672,
+      "source": "NSF",
+      "purpose": "Strengthening ethical research practices at research-active institutions",
+      "date": "2025",
+      "url": "https://www.usm.edu/news/2025/release/nsfgrant.php"
+    },
+    {
+      "title": "NSF Major Research Instrumentation — Magnolia HPC cluster",
+      "amount_usd": 622986,
+      "source": "NSF MRI",
+      "purpose": "Campus-wide HPC/GPU cluster for research",
+      "date": "2017-09",
+      "url": "https://insidehpc.com/2017/09/magnolia-supercomputer-powers-research-university-southern-mississippi/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Integer Technologies",
+      "purpose": "AI/ML autonomous underwater systems; on-campus office at Wicker Center for Ocean Enterprise",
+      "date": "2025-07",
+      "url": "https://www.usm.edu/news/2025/release/integer-usm-defense-contract.php"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Mississippi Artificial Intelligence Network (MAIN)",
+      "purpose": "Statewide AI education, lab space, digital badges, workforce training",
+      "date": "2024-09",
+      "url": "https://mainms.org/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "State of Mississippi / AccelerateMS / MDA / AWS",
+      "purpose": "Mississippi AI Talent Accelerator Program (MAI-TAP) cohort",
+      "date": "2025-06",
+      "url": "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "VOXO Inc.",
+      "purpose": "Annual Hatchathon partner; generative-AI student entrepreneurship",
+      "date": "2024-11",
+      "url": "https://www.usm.edu/news/2024/release/hatchathon.php"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google / Carahsoft (via MAIN)",
+      "purpose": "Gemini workshop for Mississippi AI audience (March 2026)",
+      "date": "2026-03",
+      "url": "https://www.usm.edu/provost/artificial-intelligence.php"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NSF NAIRR Pilot",
+      "purpose": "AI research resource access for USM students (Rahimi proposal)",
+      "date": "2024-01",
+      "url": "https://www.usm.edu/news/2024/release/congressional-ai-education-showcase.php"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "MAIN AI Lab (Cook Library 204)",
+      "scope": "Physical AI-ready workstation space open during library hours; reservable for class use",
+      "url": "https://www.usm.edu/provost/artificial-intelligence.php"
+    },
+    {
+      "type": "other",
+      "name": "Coursera Career Academy (AI catalog)",
+      "scope": "Free campus-wide Coursera access with AI literacy focus",
+      "url": "https://www.usm.edu/provost/coursera.php"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "MAIN AI Lab in Cook Library",
+      "description": "Free access to AI-ready workstations in the main Hattiesburg library for students without personal AI tool access; aimed at closing the digital-divide gap.",
+      "url": "https://www.usm.edu/provost/artificial-intelligence.php"
+    },
+    {
+      "title": "Coursera Career Academy — free for alumni",
+      "description": "Extends no-cost Coursera access (including AI pathways) to all active students, faculty, staff, and Alumni Association members, broadening AI upskilling beyond enrolled students.",
+      "url": "https://www.usm.edu/provost/coursera.php"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Mississippi",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Mississippi operates at the more active end for a Republican southern state: Governor Reeves' June 2025 $9.1M Mississippi AI Talent Accelerator Program (MAI-TAP) explicitly funds public/private higher-ed AI capacity; the 2025 SB 2426 and the 2025-26 Mississippi Artificial Intelligence Regulation (AIR) Task Force (report Jan 2026) drive a review of AI regulation for the state code; and SB 2059 (2025) establishes an AI in Education Task Force for K-12 with workforce implications. There is no formal IHL-level AI policy for the eight public universities, leaving USM's policy framework institution-specific.",
+    "urls": [
+      "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/",
+      "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426PS.htm",
+      "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm",
+      "https://www.peer.ms.gov/sites/default/files/2026-01/AIRTF_FInal_011326.pdf"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2024-08",
+      "summary": "Academic integrity violations at USM increased 104% year-over-year in summer 2024, with 53.9% (331/613) attributable to unauthorized AI use; 44 students received XF grades. Enforcement led to a 61% decrease the following summer.",
+      "status": "resolved",
+      "url": "https://www.usm.edu/provost/ai-timeline.php"
+    }
+  ],
+  "narrative_summary": "The University of Southern Mississippi is a mid-sized public R1 (13,191 students, Hattiesburg + Gulf Coast, Mississippi IHL system) that has moved in roughly 24 months from AI-as-integrity-problem to AI-as-institutional-strategy. The foundation was a Spring 2024 three-option syllabus policy and a 2023 AI Taskforce spun out of Academic Integrity; enforcement drove a 104% spike in integrity cases in summer 2024 followed by a 61% decline one year later. In August 2025 President Joseph S. Paul expanded the Taskforce under Provost Lance Nail and Associate Provost Kelly Lester and charged it to make AI/ML literacy a requirement for every USM baccalaureate graduate by fall 2026 — one of the more assertive graduate-outcomes moves at a public R1. Infrastructure has moved in parallel: the 2017 NSF-funded Magnolia HPC cluster; a Fall-2024 Coursera Career Academy campus-wide license (500+ early users, 2,900+ learning hours, a 2025 Coursera Rising Star Award); the Spring-2025 MAIN AI Lab in Cook Library; and a Spring-2026 faculty workshop series with José Bowen plus Google Gemini via MAIN/Carahsoft. Research and workforce capacity is concentrated on the Gulf Coast: the June-2025 $1.24M Mississippi AI Talent Accelerator Program award funds a new Maritime AI Innovation Lab at Gulf Park, a master's in Robotics and Intelligent Systems, GPU compute, and endowment seed funding; and the July-2025 $25M Office of Naval Research contract with Integer Technologies (cumulative $24.8M by April 2026) positions USM's Roger F. Wicker Center for Ocean Enterprise as a DoD AI/ML autonomy hub, with Integer maintaining an on-campus office. Policy posture is cautious-with-guardrails: AI use is broadly allowed but faculty-permissioned per syllabus, must be cited, and cannot touch confidential data; a separate 'Responsible Use of AI in Research' document governs sponsored research. There is no chief AI officer and no IHL-system AI policy, but CIO David J. Sliman, VP for Research Kelly L. Lucas, and Provost Nail coordinate closely. Gaps: no public enterprise-AI chatbot, no disclosed predictive analytics deployment, and Microsoft Copilot availability is not publicly documented.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://www.usm.edu/provost/artificial-intelligence.php",
+      "https://www.usm.edu/provost/ai-timeline.php",
+      "https://www.usm.edu/provost/ai-social-good.php",
+      "https://www.usm.edu/provost/coursera.php",
+      "https://www.usm.edu/student-help/artificial-intelligence.php",
+      "https://www.usm.edu/research-integrity/responsible-use-ai.pdf",
+      "https://www.usm.edu/academic-integrity/ai-task-force.php",
+      "https://www.usm.edu/academic-integrity/academic-integrity-council.php",
+      "https://www.usm.edu/university/leadership.php",
+      "https://www.usm.edu/president/index.php",
+      "https://www.usm.edu/itech/cio-biography.php",
+      "https://www.usm.edu/itech/microsoft-office-365.php",
+      "https://www.usm.edu/graduate-programs/computer-science-phd.php",
+      "https://www.usm.edu/computing-sciences-computer-engineering/",
+      "https://www.usm.edu/ocean-enterprise/index.php",
+      "https://www.usm.edu/news/2024/release/hatchathon.php",
+      "https://www.usm.edu/news/2025/release/hatchathon.php",
+      "https://www.usm.edu/news/2024/release/congressional-ai-education-showcase.php",
+      "https://www.usm.edu/news/2025/release/nsfgrant.php",
+      "https://www.usm.edu/news/2025/release/coursera-outstanding-achievement-award.php",
+      "https://www.usm.edu/news/2025/release/integer-usm-defense-contract.php",
+      "https://www.usm.edu/news/2025/release/carnegie-classification-release.php",
+      "https://www.usm.edu/news/2026/releases/integer-technologies-grand-opening.php",
+      "https://www.usm.edu/news/2026/releases/jose-antonio-brown-ai-workshop.php",
+      "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/",
+      "https://www.globenewswire.com/news-release/2026/04/07/3269748/0/en/Integer-Technologies-Celebrates-Grand-Opening-of-New-Office-at-The-University-of-Southern-Mississippi-s-Roger-F-Wicker-Center-for-Ocean-Enterprise.html",
+      "https://mainms.org/",
+      "https://www.sreb.org/ai-main",
+      "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426PS.htm",
+      "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2001-2099/SB2059PS.htm",
+      "https://www.peer.ms.gov/sites/default/files/2026-01/AIRTF_FInal_011326.pdf",
+      "https://insidehpc.com/2017/09/magnolia-supercomputer-powers-research-university-southern-mississippi/",
+      "https://online.usm.edu/blog/southern-miss-r1-university/",
+      "https://en.wikipedia.org/wiki/University_of_Southern_Mississippi",
+      "https://www.wdam.com/story/36084015/southern-miss-transitions-to-canvas-for-online-learning/",
+      "https://www.usm.edu/news/2026/releases/executive-leadership-academy.php"
+    ],
+    "search_queries": [
+      "\"University of Southern Mississippi\" AI artificial intelligence strategy 2025 2026",
+      "\"University of Southern Mississippi\" generative AI policy acceptable use",
+      "\"University of Southern Mississippi\" AI committee task force council governance",
+      "\"University of Southern Mississippi\" president provost CIO 2025",
+      "\"University of Southern Mississippi\" Maritime AI Innovation Lab Robotics Intelligent Systems master degree",
+      "\"University of Southern Mississippi\" Coursera AI courses certificates rollout",
+      "\"University of Southern Mississippi\" Mississippi Artificial Intelligence Network MAIN lab Cook library",
+      "\"University of Southern Mississippi\" HPC supercomputer GPU cluster research computing",
+      "\"University of Southern Mississippi\" CIO Chief Information Officer iTech",
+      "Mississippi state AI regulation task force 2024 2025 higher education policy",
+      "\"University of Southern Mississippi\" computing science artificial intelligence lab research",
+      "\"University of Southern Mississippi\" Microsoft Copilot Office 365 AI students faculty",
+      "\"University of Southern Mississippi\" Carnegie R1 2025 classification research",
+      "\"University of Southern Mississippi\" INS 292 OR AI for Social Good interdisciplinary course",
+      "\"University of Southern Mississippi\" enrollment 2025 students total",
+      "\"University of Southern Mississippi\" Hatchathon AI reclaiming time 2024",
+      "\"University of Southern Mississippi\" Blue Economy port maritime AI research partnership",
+      "\"University of Southern Mississippi\" NSF NIH AI machine learning grant research 2024 2025",
+      "\"University of Southern Mississippi\" Office of Naval Research seabed warfare autonomous AI",
+      "\"University of Southern Mississippi\" D2L Brightspace Canvas learning management AI integration",
+      "\"University of Southern Mississippi\" chatbot student services advising AI",
+      "\"University of Southern Mississippi\" computer science PhD AI machine learning concentration",
+      "\"University of Southern Mississippi\" robotics intelligent systems master 2025 2026 launch",
+      "site:usm.edu University of Southern Mississippi AI compute GPU student subgroup funding assessment",
+      "site:usm.edu Southern Miss artificial intelligence task force GPU compute AI student subgroup"
+    ],
+    "gaps_acknowledged": [
+      "Microsoft 365 Copilot availability at USM is not publicly documented; only the base M365 productivity suite is confirmed.",
+      "No public record of an enterprise student-services AI chatbot, predictive analytics retention platform, or LMS-embedded AI rollout in Canvas.",
+      "GPU count for Magnolia and for the incoming Gulf Park Maritime AI Lab not publicly disclosed.",
+      "Exact 2024 research expenditure and 2025 Carnegie R1 reclassification confirmation — USM is widely reported as R1 and is on the 187-institution master list the sweep is using, but the USM press release itself does not state the 2025 result directly.",
+      "Mississippi PEER AIR Task Force 2026 report PDF could not be parsed in tool environment; summary relied on public-coverage secondary sources.",
+      "No chief AI officer at USM; AI strategy lead inferred from the Associate Provost for Faculty Success role and AI Taskforce co-chair responsibilities.",
+      "Worker 3 found a workforce-development AI academy with cohort size, but Southern Miss still does not publicly disclose Magnolia GPU count or enterprise AI chatbot/Copilot deployment details.",
+      "Worker 3 did not find public student subgroup outcome data for Southern Miss AI initiatives."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 9,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 14,
+        "governance_led": 13,
+        "student_success_led": 4,
+        "workforce_regional_development": 23,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 10,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 2,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 3,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Magnolia",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 27262658,
+      "funding_source_buckets": {
+        "public_federal_state": 8,
+        "other_unclear": 7,
+        "institutional": 3
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "other": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Coursera",
+          "mentions": 2,
+          "products": [
+            "Coursera Career Academy",
+            "Coursera Career Academy (campus-wide license)"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "AWS cloud services"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas LMS (institutional)"
+          ]
+        },
+        {
+          "vendor": "Integer Technologies Edge-deployed autonomy software stack",
+          "mentions": 1,
+          "products": [
+            "Edge-deployed autonomy software stack"
+          ]
+        },
+        {
+          "vendor": "Intel / Dell via MAIN AI course + digital badge platform",
+          "mentions": 1,
+          "products": [
+            "AI course + digital badge platform"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 1,
+          "products": [
+            "Microsoft 365 (O365) — Word/Excel/Outlook/Teams/OneDrive"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Coursera",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Required three-option AI syllabus policy",
+          "summary": "Establishes a sector-model for course-level AI permissioning at the R1 scale with measurable enforcement outcomes — cases dropped 61% year-over-year after the first full year of operation.",
+          "source_url": "https://www.usm.edu/provost/artificial-intelligence.php"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "USM AI Taskforce re-charge (Aug 2025)",
+          "summary": "Converts AI from a compliance/integrity question into a graduation-outcomes mandate — a rare step at the R1 level that ties AI fluency to every degree.",
+          "source_url": "https://www.usm.edu/provost/artificial-intelligence.php"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Maritime AI Innovation Lab (MAI-TAP grant)",
+          "summary": "Anchors AI in Mississippi's Blue Economy — a rare maritime-specific applied AI lab at a public R1 — and links state workforce policy directly to institutional capacity.",
+          "source_url": "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/"
+        },
+        {
+          "claim_type": "career",
+          "title": "MAIN-partnered AI course stack with digital badges",
+          "summary": "Embeds a statewide industry curriculum inside an R1 institution, explicitly for workforce training as well as students.",
+          "source_url": "https://www.usm.edu/provost/ai-timeline.php"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Coursera Career Academy (campus-wide)",
+          "summary": "Operationalizes 'AI literacy for every graduate' at scale via a vendor platform — a playbook other mid-sized R1s are watching.",
+          "source_url": "https://www.usm.edu/provost/coursera.php"
+        },
+        {
+          "claim_type": "usage",
+          "title": "NSF grant for ethical research practices ($399,672)",
+          "summary": "Connects AI ethics work to broader research integrity funding, reinforcing USM's framing of AI as a research integrity issue.",
+          "source_url": "https://www.usm.edu/news/2025/release/nsfgrant.php"
+        },
+        {
+          "claim_type": "career",
+          "title": "GCBC-USM Executive Leadership Academy on AI",
+          "summary": "This adds workforce and regional economic-development evidence with cohort size and credential details.",
+          "source_url": "https://www.usm.edu/news/2026/releases/executive-leadership-academy.php"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "Microsoft 365 Copilot availability at USM is not publicly documented; only the base M365 productivity suite is confirmed.",
+        "No public record of an enterprise student-services AI chatbot, predictive analytics retention platform, or LMS-embedded AI rollout in Canvas.",
+        "GPU count for Magnolia and for the incoming Gulf Park Maritime AI Lab not publicly disclosed.",
+        "Exact 2024 research expenditure and 2025 Carnegie R1 reclassification confirmation — USM is widely reported as R1 and is on the 187-institution master list the sweep is using, but the USM press release itself does not state the 2025 result directly.",
+        "Mississippi PEER AIR Task Force 2026 report PDF could not be parsed in tool environment; summary relied on public-coverage secondary sources.",
+        "No chief AI officer at USM; AI strategy lead inferred from the Associate Provost for Faculty Success role and AI Taskforce co-chair responsibilities.",
+        "Worker 3 found a workforce-development AI academy with cohort size, but Southern Miss still does not publicly disclose Magnolia GPU count or enterprise AI chatbot/Copilot deployment details.",
+        "Worker 3 did not find public student subgroup outcome data for Southern Miss AI initiatives."
+      ]
+    }
+  }
+}

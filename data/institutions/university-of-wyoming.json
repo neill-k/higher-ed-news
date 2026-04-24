@@ -1,0 +1,1407 @@
+{
+  "institution": "University of Wyoming",
+  "slug": "university-of-wyoming",
+  "city_state": "Laramie, WY",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 10819,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Edward (Ed) Seidel",
+      "url": "https://www.uwyo.edu/president/ed-seidel/index.html"
+    },
+    "provost": {
+      "name": "Anne Alexander",
+      "url": "https://www.uwyo.edu/acadaffairs/"
+    },
+    "cio": {
+      "name": "Amy McLaughlin",
+      "url": "https://www.uwyo.edu/news/2025/04/mclaughlin-selected-as-uw-vice-president-for-information-technology-and-chief-information-officer.html"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Jeff Hamerlinck",
+      "title": "Associate Director, School of Computing; President's Fellow; Chair of President's AI Across the University Commission",
+      "url": "https://www.uwyo.edu/news/2025/12/uw-establishes-ai-across-the-university-commission.html"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University of Wyoming AI Initiative (AI4WY) — Mission and Strategic Priorities",
+        "url": "https://www.uwyo.edu/president/initiatives/ai4wy/index.html",
+        "year": 2024
+      },
+      {
+        "title": "UW Establishes AI Across the University Commission (charter)",
+        "url": "https://www.uwyo.edu/news/2025/12/uw-establishes-ai-across-the-university-commission.html",
+        "year": 2025
+      },
+      {
+        "title": "President Seidel 'Artificial Intelligence at UW' Statement",
+        "url": "https://www.uwbrandingiron.com/2023/02/28/seidel-addresses-ai-in-recent-statement/",
+        "year": 2023
+      },
+      {
+        "title": "Artificial Intelligence: Responding to the Challenge and Opportunity (Joint Appropriations presentation)",
+        "url": "https://www.uwyo.edu/acadaffairs/_files/docs/ai-01-11-24-powerpoint-presentation.pdf",
+        "year": 2024
+      }
+    ],
+    "summary": "UW's AI strategy is a president-led, Wyoming-focused initiative (AI4WY) directing AI research, education, and industry engagement toward the state's signature sectors: agriculture, energy, engineering, tourism, wildlife conservation, and rural healthcare. Launched in a February 2023 statement by President Ed Seidel and operationalized through the School of Computing (2022), AI4WY branding (2024), and a 12-member President's AI Across the University Commission (December 10, 2025) chaired by Jeff Hamerlinck, the strategy is anchored by a $3.9M NSF MRI 'AI4WY' grant to stand up a 24-node NVIDIA Grace Hopper cluster. The Commission is charged with producing the 'UW and AI Today' strategic framework report by mid-June 2026 covering AI policy, investments, and best practices for the next two years."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html",
+      "https://uwyo.libguides.com/aisupport",
+      "https://uwyo.libguides.com/aisupport/faculty",
+      "https://uwyo.libguides.com/aisupport/student",
+      "https://journals.uwyo.edu/index.php/jtilt/ai-policy"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty are provided sample syllabus language on a spectrum from full prohibition of generative AI to unrestricted use; each syllabus must explicitly state the AI policy for that course (August 2025 syllabus template update)",
+      "Users must acknowledge/disclose AI tool usage in reports, scholarly writing, and publications",
+      "Users must critically review AI outputs and not uncritically adopt generated content",
+      "Students are guided to treat generative-AI chatbots as a supplementary tool, not a primary source, and to avoid copy-pasting chatbot output",
+      "Academic dishonesty policy is being rewritten to contemplate AI-assisted plagiarism",
+      "Recommendations call for ethics education for employees and students and for hiring AI instructors and researchers"
+    ],
+    "summary": "UW's AI posture is integration-focused rather than prohibitive: the AI Committee (25+ members, chaired by Interim Provost Anne Alexander) sets campus-wide guidance with sample syllabus language spanning prohibition to unrestricted use, and requires course-level syllabus statements. Guidance emphasizes transparency, critical review, and citation of AI outputs. UW has not published a single consolidated acceptable-use regulation for AI; instead, permissive course-level discretion is the operative stance while a formal 'UW and AI Today' framework is being drafted by the President's Commission for mid-2026 delivery."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "President's AI Across the University Commission",
+        "type": "commission",
+        "scope": "12-member body established December 10, 2025 and reporting to President Seidel. Chaired by Jeff Hamerlinck (Associate Director, School of Computing). Coordinates AI integration across academics, research, and administration, with five thematic committees (Teaching and Learning with AI; Academic Hiring regarding AI; AI-related Research & Development Opportunities; AI Services and Tools; External Collaborations). Initial terms run through December 31, 2026; the Commission is slated to publish the 'UW and AI Today' strategic framework by June 15, 2026.",
+        "url": "https://www.uwyo.edu/news/2025/12/uw-establishes-ai-across-the-university-commission.html"
+      },
+      {
+        "name": "Artificial Intelligence (AI) Committee",
+        "type": "committee",
+        "scope": "25+ member Academic Affairs committee chaired by Interim Provost Anne Alexander, with representatives from Economics, Engineering & Computer Science, School of Computing, Philosophy & Religious Studies, IT/CIO, Libraries, American Heritage Center, UW Foundation, Faculty Senate, and student government (ASUW). Updated charge letter issued August 2025. Produces syllabus-language guidance, AI-acknowledgment guidelines (June 2024), and faculty/student resources.",
+        "url": "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html"
+      },
+      {
+        "name": "Teaching and Learning with AI Committee",
+        "type": "committee",
+        "scope": "Office of the Provost committee with 30+ members and multiple working groups, now also serving as one of the five thematic committees under the President's AI Across the University Commission.",
+        "url": "https://www.uwyo.edu/news/2025/12/uw-establishes-ai-across-the-university-commission.html"
+      },
+      {
+        "name": "Wyoming AI (WyAI)",
+        "type": "office",
+        "scope": "Cross-campus initiative organized by the School of Computing and the Learning Design and Technology program; convenes expert panels and curates ethics-of-AI programming. Lead contact: William Cain (Associate Professor, Counseling Leadership Advocacy & Design).",
+        "url": "https://www.uwyo.edu/soc/engagement/community-industry/wyo-ai.html"
+      },
+      {
+        "name": "School of Computing (SoC)",
+        "type": "office",
+        "scope": "Approved by the Board of Trustees in January 2022 and staffed through 2023; the institutional home for AI, data science, geospatial information science, and quantum information science. Director: Gabrielle Allen. Houses 54 Faculty Fellows, 7 Research Scientists, and the AI4WY NSF MRI GPU cluster; partners with ARCC and the NCAR-Wyoming Supercomputing Center.",
+        "url": "https://www.uwyo.edu/soc/index.html"
+      }
+    ],
+    "summary": "AI governance at UW is stratified across a president-level commission (brand-new, December 2025), a provost-level AI Committee that owns teaching and policy guidance, a School of Computing that owns research and infrastructure, and a library/faculty-development layer that owns user-facing guidance. The structure is matrixed and heavily faculty-driven; UW has no standalone Chief AI Officer, and the CIO (Amy McLaughlin, July 2025) sits on the AI Committee rather than leading strategy."
+  },
+  "initiatives": [
+    {
+      "title": "President's AI Across the University Commission",
+      "description": "On December 10, 2025 President Ed Seidel established a 12-member Commission chaired by Jeff Hamerlinck to coordinate AI integration across academics, research, and administration. The Commission has five thematic committees (Teaching and Learning with AI; Academic Hiring; R&D Opportunities; AI Services and Tools; External Collaborations) and is charged with delivering the 'UW and AI Today' strategic framework report by mid-June 2026.",
+      "significance": "A president-chartered, multi-stakeholder commission at a small public R1 signals an explicit institutional pivot toward coordinated AI strategy and is UW's most visible governance investment to date.",
+      "date_announced": "2025-12-10",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "institutional_restructuring",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UW operating budget",
+        "description": "No dedicated budget was disclosed at announcement; the Commission draws on existing School of Computing, Provost, and IT resources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Faculty Senate",
+            "Staff Senate",
+            "Associated Students of UW (ASUW)"
+          ],
+          "description": "Commission seats include faculty, staff, and student governance representation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes the planning vehicle for UW's first consolidated AI strategy and two-year investment plan; likely to set enterprise-tool procurement, syllabus standards, and ethics framework.",
+      "source_urls": [
+        "https://www.uwyo.edu/news/2025/12/uw-establishes-ai-across-the-university-commission.html",
+        "https://www.meritalkslg.com/articles/new-ai-commission-aims-to-shape-wyomings-tech-future/",
+        "https://www.wyomingpublicmedia.org/education/2026-02-06/a-new-ai-commission-at-uw-considers-research-and-learning-applications",
+        "https://svinews.com/2025/top-featured/114130/uw-establishes-ai-across-the-university-commission/"
+      ]
+    },
+    {
+      "title": "AI4WY NSF Major Research Infrastructure Grant ($3.9M NVIDIA Grace Hopper Testbed)",
+      "description": "In August 2024 UW won a three-year, $3.9 million NSF MRI Track 2 award to acquire a 24-node NVIDIA Grace Hopper Superchip cluster with 400 TB of storage — the first such testbed in the Rocky Mountain region. $3.25M covers hardware; $340K funds system support and student training. UW receives 75% of capacity, Colorado State 15%, and the Rocky Mountain Advanced Computing Consortium (33 institutions) 10%.",
+      "significance": "Locates cutting-edge AI-class compute at a mid-size public R1 and positions UW as the regional AI computing hub for environment, agriculture, energy, and societal research.",
+      "date_announced": "2024-08-28",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3900000,
+        "funding_source": "National Science Foundation (Major Research Infrastructure Track 2)",
+        "description": "$3.25M hardware + $340K training/support; remainder indirect costs. Three-year award."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Colorado State University",
+            "Rocky Mountain Advanced Computing Consortium (33 institutions)"
+          ],
+          "description": "Co-PI Michael Kirby (CSU); 10% allocation to RMACC-affiliated schools."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "Hardware platform built on NVIDIA Grace Hopper GH200 Superchips."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Grace Hopper Superchip (GH200) testbed (24 nodes)",
+          "vendor": "NVIDIA",
+          "role": "HPC platform for AI/ML research across environment, agriculture, energy, and society"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Creates the compute substrate on which UW can scale AI research without relying solely on NWSC atmospheric allocations.",
+      "source_urls": [
+        "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html",
+        "https://www.uwyo.edu/president/initiatives/ai4wy/index.html",
+        "https://arccwiki.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2027683973"
+      ]
+    },
+    {
+      "title": "UW AI Seed Funding Program — Twelve Projects ($337K)",
+      "description": "On January 28, 2025 UW announced $337,000 in seed grants (up to $30,000 each) funding twelve faculty-led AI projects across three colleges and two schools, drawing from the Research Excellence Reserve Account. Projects include rural resilience through neuro-symbolic AI (Shukla), statewide pronghorn monitoring (Koger), greenhouse microclimates (Majeed/Wang), telehealth speech-therapy facial tracking (Kriegel/Shukla), protein design for rare-earth extraction (Kapoor/Wawrousek), and graphitic covalent organic frameworks (de Sousa Oliveira/Hoberg).",
+      "significance": "Seed grants deliberately target state-priority industries (agriculture, wildlife, energy, rural healthcare) and are intended to seed federal and private follow-on proposals, binding AI research to Wyoming's economy.",
+      "date_announced": "2025-01-28",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 337000,
+        "funding_source": "UW Research Excellence Reserve Account (established by Board of Trustees, 2022)",
+        "description": "12 awards of up to $30,000 each; total ~$337K distributed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Agriculture, Life Sciences and Natural Resources",
+            "College of Arts and Sciences",
+            "College of Engineering and Physical Sciences",
+            "School of Computing",
+            "School of Energy Resources"
+          ],
+          "description": "Interdisciplinary awards spanning three colleges and two schools."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uwyo.edu/news/2025/01/new-funding-program-to-expand-uw-research-on-artificial-intelligence.html",
+        "https://uwagnews.com/2025/01/31/funding-program-research-artificial-intelligence/",
+        "https://www.uwyo.edu/president/initiatives/ai4wy/opportunities.html"
+      ]
+    },
+    {
+      "title": "M.S. in Artificial Intelligence",
+      "description": "A two-year M.S. in Artificial Intelligence jointly delivered by the School of Computing and the Department of Electrical Engineering & Computer Science, covering large language models, deep learning for computer vision and robotics, natural language processing, neural networks, and the mathematical foundations of deep learning. Students complete research, assistantships, and internships.",
+      "significance": "A dedicated AI masters at a small public R1 is a workforce-pipeline statement: UW is training AI practitioners for Wyoming's industries rather than ceding that talent to coastal systems.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_workforce_training",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UW operating budget (School of Computing / EECS)",
+        "description": "Standing graduate program; no separate investment figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internally delivered by School of Computing and EECS."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uwyo.edu/uw/degree-programs/artificial-intelligence-masters.html",
+        "https://acalogcatalog.uwyo.edu/preview_program.php?catoid=14&poid=17049"
+      ]
+    },
+    {
+      "title": "Cowboy Joe Admissions AI Chatbot (Mainstay)",
+      "description": "UW launched Cowboy Joe, a Mainstay-powered conversational AI chatbot, in Spring 2018 to reduce summer melt among admitted students; it scaled to roughly 30,000 prospective students and has a knowledge base of 1,200+ questions, with only 62 escalations to staff across 125,000 messages one summer. UW reports a 9.5% increase in incoming freshman class and 32% reduction in summer melt following deployment, and is pursuing expansion across the full recruitment-to-retention lifecycle.",
+      "significance": "Among the earliest and most data-supported student-services AI deployments at any public R1; measurable enrollment impact at a state flagship makes it a frequently cited sector case study.",
+      "date_announced": "2018-05-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_in_admissions_and_enrollment",
+        "predictive_analytics_retention",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UW Admissions / Enrollment Management",
+        "description": "Vendor-licensed chatbot; contract value not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Mainstay (formerly AdmitHub)"
+          ],
+          "description": "Vendor partner providing the conversational platform."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Cowboy Joe chatbot",
+          "vendor": "Mainstay",
+          "role": "Admissions and enrollment virtual assistant with proactive nudges and two-way messaging"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates operational comfort with vendor-hosted conversational AI touching prospective-student data; informs future retention-analytics rollouts.",
+      "source_urls": [
+        "https://mainstay.com/case-study/shattering-enrollment-records-university-of-wyoming-uses-ai-to-defeat-summer-melt/"
+      ]
+    },
+    {
+      "title": "REGLLM — UW Regulations AI Chatbot",
+      "description": "UW's Advanced Research Computing Center built a prototype LLM-based chatbot (REGLLM) to help faculty, staff, and students navigate UW regulations, providing answers with pointers to specific regulation text. The prototype is hosted on-campus at regllm.arcc.uwyo.edu and is currently listed as out of service while being refined.",
+      "significance": "An in-house RAG-style policy assistant built on ARCC infrastructure shows UW willing to self-host AI systems on sensitive regulatory content rather than rely exclusively on commercial chatbots.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_chatbot_or_virtual_assistant",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UW ARCC / School of Computing",
+        "description": "Internally built prototype; budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "In-house build on ARCC infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "REGLLM",
+          "vendor": "University of Wyoming (Advanced Research Computing Center)",
+          "role": "RAG chatbot over UW regulations"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Positions UW to offer AI-assisted policy search without exposing regulatory content to third-party LLM providers.",
+      "source_urls": [
+        "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html"
+      ]
+    },
+    {
+      "title": "Center of Excellence in Subsurface Energy and Digital Innovation (SEDI)",
+      "description": "Opened July 2024 through a partnership between the School of Energy Resources and the College of Engineering and Physical Sciences, SEDI integrates AI and big data analytics, scientific machine learning, digital twins (VR/AR), blockchain for sustainable energy, and novel fluids research. Energy sector leadership: Soheil Saraji (Petroleum Engineering) and SER leadership team.",
+      "significance": "Institutionalizes AI-for-energy as a first-class Wyoming research priority, matching the state's oil, gas, carbon-capture, and rare-earth industries.",
+      "date_announced": "2024-07-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UW School of Energy Resources and College of Engineering and Physical Sciences; industry partnerships",
+        "description": "Center-level commitment; specific appropriation not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Wyoming energy industry"
+          ],
+          "description": "Center designed to partner with Wyoming subsurface energy operators."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uwyo.edu/news/2024/07/new-center-of-excellence-in-subsurface-energy-and-digital-innovation-opens-at-uw.html",
+        "https://www.uwyo.edu/ser/research/centers-of-excellence/subsurface-energy-digital-innovation/index.html"
+      ]
+    },
+    {
+      "title": "Syllabus-Level AI Policy Template (August 2025)",
+      "description": "In August 2025 the UW Artificial Intelligence Committee updated the university's syllabus template to include AI-specific sections, and published sample syllabus language on a spectrum from full prohibition of generative AI chatbots to unrestricted AI use, plus intermediate options. Faculty are expected to disclose AI expectations in every syllabus.",
+      "significance": "Few small public R1s have formalized a syllabus-spectrum approach to AI policy; UW's model is explicit about faculty discretion and is one of the earliest comprehensive faculty-facing templates in the Mountain West.",
+      "date_announced": "2025-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of Academic Affairs",
+        "description": "Policy-level investment, no dedicated spend."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Developed internally by the AI Committee."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Codifies faculty-level discretion as UW's operative AI policy pending the Commission's June 2026 framework report.",
+      "source_urls": [
+        "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html",
+        "https://journals.uwyo.edu/index.php/jtilt/ai-policy"
+      ]
+    },
+    {
+      "title": "School of Computing Launch",
+      "description": "Approved by the UW Board of Trustees in January 2022 and fully staffed in 2023, the School of Computing (Director: Gabrielle Allen) consolidates AI, data science, geospatial information science, and quantum information science. It reports 54 Faculty Fellows, 7 Research Scientists, 142 enrolled students, $15.7M in research funding (NASA, NSF, USDA, DOE, USGS), and houses the Wyoming Geographic Information Science Center and Data Science Center.",
+      "significance": "The School of Computing is the institutional home for UW's AI pivot and the administrative hub that made AI4WY, the M.S. in AI, and the NSF MRI grant possible.",
+      "date_announced": "2022-01-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "ai_degree_program",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 15700000,
+        "funding_source": "NASA, NSF, USDA, U.S. Department of Energy, USGS",
+        "description": "Total research funding reported by the School as of 2024."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NASA",
+            "NSF",
+            "USDA",
+            "U.S. Department of Energy",
+            "USGS"
+          ],
+          "description": "Federal research partners funding SoC faculty."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uwyo.edu/soc/index.html",
+        "https://www.uwyo.edu/acadaffairs/_files/docs/soc_prelimiary_plan_05-2021.pdf"
+      ]
+    },
+    {
+      "title": "Wyoming Innovation Partnership (WIP) Digital Infrastructure Track",
+      "description": "WIP, a Governor-initiated 2021 partnership among UW, the seven Wyoming community colleges, the Wyoming Business Council, and the Department of Workforce Services, operates a Digital Infrastructure track and a K-12-to-workforce pipeline. UW's School of Computing contributes AI-focused curriculum, corporate-partners programs, and K-12 outreach, working with the Center for Entrepreneurship and Innovation.",
+      "significance": "Ties UW's AI workforce investments directly to statewide community-college and K-12 pipelines — a rare statewide stack for a small public R1.",
+      "date_announced": "2021-01-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "community_college_ai_program",
+        "regional_economic_impact",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Wyoming state appropriations, federal workforce funds, industry contributions",
+        "description": "Statewide multi-agency partnership; UW share not broken out publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Wyoming Community Colleges",
+            "Wyoming Business Council",
+            "Wyoming Department of Workforce Services",
+            "Governor's Office"
+          ],
+          "description": "Statewide workforce and innovation partnership established by Governor Gordon in 2021."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Aligns UW AI investments with Wyoming workforce and economic-development priorities.",
+      "source_urls": [
+        "https://www.uwyo.edu/soc/initiatives/wipdit.html",
+        "https://wip.wyo.gov/programs/digital-infrastructure"
+      ]
+    },
+    {
+      "title": "NCAR-Wyoming Supercomputing Center / Derecho Partnership",
+      "description": "Under a long-standing MOU with NCAR and NSF, UW Earth Science researchers receive a 20% allocation of NCAR-Wyoming Supercomputing Center (NWSC) resources for 16 years, backed by a $40M Wyoming legislative investment. The current Derecho supercomputer (inaugurated 2023, $35M NSF) includes 382 NVIDIA A100 GPUs providing ~20% of sustained capability for AI/ML workloads. NWSC's AI research includes LLMs for code optimization in climate and weather forecasting.",
+      "significance": "UW is one of very few public R1s with a standing 20% allocation on a national-scale atmospheric supercomputer — a rare infrastructure moat that directly supports AI-for-science research.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 40000000,
+        "funding_source": "Wyoming state appropriations ($40M) and NSF (Derecho $35M); NCAR as operator",
+        "description": "Wyoming legislative investment of $40M at NWSC secures 20% UW allocation; Derecho platform cost $35M (NSF-funded)."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NCAR (UCAR)",
+            "NSF"
+          ],
+          "description": "Tri-party MOU with NSF and NCAR."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Derecho supercomputer (382 NVIDIA A100 GPUs)",
+          "vendor": "HPE / NVIDIA",
+          "role": "HPC platform for atmospheric and AI/ML research"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uwyo.edu/nwsc/index.html",
+        "https://en.wikipedia.org/wiki/NCAR-Wyoming_Supercomputing_Center",
+        "https://news.ucar.edu/132774/new-ncar-wyoming-supercomputer-accelerate-scientific-discovery"
+      ]
+    },
+    {
+      "title": "UW Libraries AI Support & AI Summit 2026",
+      "description": "UW Libraries' AI Support LibGuide maintains faculty and student resources covering ChatGPT, Microsoft Copilot, Google Gemini, Meta Llama, and Anthropic Claude, with guidance on citing, evaluating, and using AI tools. UW Libraries also co-hosts the statewide AI Summit on May 29, 2026 at the UW Conference Center with the Wyoming State Archives and Wyoming State Library, keynoted by Joshua Sternfeld on AI and cultural institutions.",
+      "significance": "Libraries function as UW's frontline AI-literacy layer and convene a statewide summit that extends AI capacity-building beyond campus to all of Wyoming's memory institutions.",
+      "date_announced": "2026-05-29",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "disability_and_accessibility",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UW Libraries operating budget, Wyoming State Library, Wyoming State Archives",
+        "description": "Summit cost not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Wyoming State Archives",
+            "Wyoming State Library"
+          ],
+          "description": "Statewide library/archives co-sponsorship of AI Summit."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Covered in AI Support LibGuide"
+        },
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Covered in AI Support LibGuide"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Covered in AI Support LibGuide"
+        },
+        {
+          "name": "Llama 3",
+          "vendor": "Meta",
+          "role": "Covered in AI Support LibGuide"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "Covered in AI Support LibGuide"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Broadens AI literacy across campus and cultural institutions statewide; ties UW's teaching-and-learning practice to commercial AI tool landscape without endorsing any enterprise license.",
+      "source_urls": [
+        "https://uwyo.libguides.com/aisupport",
+        "https://uwyo.libguides.com/aisupport/faculty",
+        "https://uwyo.libguides.com/aisupport/student",
+        "https://www.uwyo.edu/libraries/ai-summit.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "School of Computing",
+      "focus": "AI, data science, geospatial information science, quantum information science",
+      "founded": "2022",
+      "url": "https://www.uwyo.edu/soc/index.html"
+    },
+    {
+      "name": "Center of Excellence in Subsurface Energy and Digital Innovation (SEDI)",
+      "focus": "AI/ML, scientific machine learning, digital twins, blockchain for energy, novel fluids",
+      "founded": "2024",
+      "url": "https://www.uwyo.edu/ser/research/centers-of-excellence/subsurface-energy-digital-innovation/index.html"
+    },
+    {
+      "name": "Advanced Research Computing Center (ARCC)",
+      "focus": "Research computing, GPU AI/ML testbeds (Grace Hopper), regulatory-chatbot prototyping",
+      "founded": null,
+      "url": "https://www.uwyo.edu/nwsc/research-computing/index.html"
+    },
+    {
+      "name": "NCAR-Wyoming Supercomputing Center (NWSC)",
+      "focus": "Atmospheric modeling, AI/ML for climate and weather, LLMs for code optimization",
+      "founded": "2012",
+      "url": "https://www.uwyo.edu/nwsc/index.html"
+    },
+    {
+      "name": "Wyoming Geographic Information Science Center (WYGISC)",
+      "focus": "GIScience, remote sensing, and AI-enabled geospatial analysis",
+      "founded": null,
+      "url": "https://www.uwyo.edu/soc/index.html"
+    },
+    {
+      "name": "Center for Blockchain and Digital Innovation (CBDI)",
+      "focus": "Blockchain, digital innovation, applied AI in finance and accounting",
+      "founded": null,
+      "url": "https://www.uwyo.edu/acct-fin/cbdi/index.html"
+    },
+    {
+      "name": "Wyoming AI (WyAI)",
+      "focus": "Ethics and applications of AI across disciplines",
+      "founded": null,
+      "url": "https://www.uwyo.edu/soc/engagement/community-industry/wyo-ai.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uwyo.edu/uw/degree-programs/artificial-intelligence-masters.html"
+    },
+    {
+      "type": "degree",
+      "name": "M.S./Ph.D. in Computer Science (AI/ML track)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uwyo.edu/uw/degree-programs/computer-science-ms-phd.html"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Quantum Information Science and Engineering (QISE)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uwyo.edu/soc/academics/academics.html"
+    },
+    {
+      "type": "course",
+      "name": "Introduction to Artificial Intelligence (Microsoft Professional Certificate)",
+      "level": "both",
+      "launched": null,
+      "url": "https://careers.uwyo.edu/classes/introduction-to-artificial-intelligence-2/"
+    },
+    {
+      "type": "course",
+      "name": "Artificial Intelligence Foundations: Machine Learning",
+      "level": "both",
+      "launched": null,
+      "url": "https://careers.uwyo.edu/classes/artificial-intelligence-foundations-machine-learning/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Mainstay",
+      "product": "Cowboy Joe admissions chatbot",
+      "scope": "campus-wide",
+      "user_count": 30000,
+      "deployed": "2018-05",
+      "url": "https://mainstay.com/case-study/shattering-enrollment-records-university-of-wyoming-uses-ai-to-defeat-summer-melt/"
+    },
+    {
+      "vendor": "University of Wyoming (ARCC)",
+      "product": "REGLLM regulations chatbot (prototype)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (covered in AI Support LibGuide; institution-wide enterprise license not publicly documented)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://uwyo.libguides.com/aisupport"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT (referenced in LibGuide; no public ChatGPT Edu agreement)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://uwyo.libguides.com/aisupport"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (referenced in LibGuide)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://uwyo.libguides.com/aisupport"
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude (referenced in LibGuide)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://uwyo.libguides.com/aisupport"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "AI4WY NSF MRI cluster (NVIDIA Grace Hopper); NCAR-Wyoming 'Derecho' (partner allocation)",
+    "gpu_count": 406,
+    "url": "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html",
+    "summary": "UW's AI compute posture rests on two pillars: the $3.9M NSF MRI AI4WY testbed (24 nodes of NVIDIA GH200 Grace Hopper Superchips with 400 TB storage, installed at ARCC, with 75% UW / 15% CSU / 10% RMACC allocation) and a 20% institutional allocation on the NCAR-Wyoming 'Derecho' supercomputer (382 NVIDIA A100 GPUs, inaugurated 2023). Derecho is co-located on the UW-operated NWSC campus in Cheyenne. Combined, UW has dedicated AI-class GPU capacity unusual for an R1 of its size."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF MRI Track 2 Award — AI4WY",
+      "amount_usd": 3900000,
+      "source": "National Science Foundation",
+      "purpose": "Acquire 24-node NVIDIA Grace Hopper AI testbed with 400 TB storage; fund system support and student training",
+      "date": "2024-08",
+      "url": "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html"
+    },
+    {
+      "title": "UW AI Seed Funding Program (12 projects)",
+      "amount_usd": 337000,
+      "source": "UW Research Excellence Reserve Account (Board of Trustees)",
+      "purpose": "Seed 12 AI research projects aimed at federal/private follow-on funding",
+      "date": "2025-01",
+      "url": "https://www.uwyo.edu/news/2025/01/new-funding-program-to-expand-uw-research-on-artificial-intelligence.html"
+    },
+    {
+      "title": "Wyoming state legislative investment in NCAR-Wyoming Supercomputing Center",
+      "amount_usd": 40000000,
+      "source": "Wyoming Legislature",
+      "purpose": "Secure 20% allocation on NWSC resources for UW researchers for 16 years",
+      "date": null,
+      "url": "https://www.uwyo.edu/nwsc/index.html"
+    },
+    {
+      "title": "School of Computing aggregated research funding (as of 2024)",
+      "amount_usd": 15700000,
+      "source": "NASA, NSF, USDA, DOE, USGS",
+      "purpose": "Research across AI, data science, geospatial, and quantum information",
+      "date": null,
+      "url": "https://www.uwyo.edu/soc/index.html"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "Grace Hopper GH200 AI testbed hardware platform (AI4WY)",
+      "date": "2024-08",
+      "url": "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Mainstay (formerly AdmitHub)",
+      "purpose": "Admissions/enrollment AI chatbot (Cowboy Joe)",
+      "date": "2018-05",
+      "url": "https://mainstay.com/case-study/shattering-enrollment-records-university-of-wyoming-uses-ai-to-defeat-summer-melt/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Colorado State University",
+      "purpose": "15% allocation on AI4WY cluster; Co-PI Michael Kirby",
+      "date": "2024-08",
+      "url": "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Rocky Mountain Advanced Computing Consortium (33 institutions)",
+      "purpose": "10% allocation on AI4WY cluster",
+      "date": "2024-08",
+      "url": "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NCAR / NSF",
+      "purpose": "NCAR-Wyoming Supercomputing Center MOU; 20% UW allocation for 16 years",
+      "date": null,
+      "url": "https://www.uwyo.edu/nwsc/index.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Wyoming Innovation Partnership (Wyoming Community Colleges, WBC, DWS)",
+      "purpose": "Digital infrastructure and K-12-to-workforce AI pipelines",
+      "date": "2021-01",
+      "url": "https://www.uwyo.edu/soc/initiatives/wipdit.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Wyoming energy sector (via SEDI)",
+      "purpose": "Subsurface energy AI, digital twins, and blockchain",
+      "date": "2024-07",
+      "url": "https://www.uwyo.edu/news/2024/07/new-center-of-excellence-in-subsurface-energy-and-digital-innovation-opens-at-uw.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Cowboy Joe",
+      "scope": "Admissions/enrollment chatbot for ~30,000 prospective students; documented 32% summer-melt reduction",
+      "url": "https://mainstay.com/case-study/shattering-enrollment-records-university-of-wyoming-uses-ai-to-defeat-summer-melt/"
+    },
+    {
+      "type": "chatbot",
+      "name": "REGLLM",
+      "scope": "Prototype regulations chatbot for UW community (campus only)",
+      "url": "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html"
+    },
+    {
+      "type": "other",
+      "name": "AI Support LibGuide",
+      "scope": "Library-curated student resources for ChatGPT, Copilot, Gemini, Llama, Claude with evaluation and citation guidance",
+      "url": "https://uwyo.libguides.com/aisupport/student"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI literacy in Wyoming K-12 schools (AI Initiative outcome)",
+      "description": "Expected outcome of the UW AI Initiative: enhanced AI literacy in Wyoming K-12 schools and AI assistance for Wyoming businesses, particularly outside the Laramie-Cheyenne corridor.",
+      "url": "https://www.uwyo.edu/president/initiatives/ai4wy/index.html"
+    },
+    {
+      "title": "Rural Resilience through Neuro-Symbolic AI (seed grant)",
+      "description": "Diksha Shukla-led seed project applying AI to rural-resilience challenges; reflects UW's deliberate focus on rural-serving AI applications.",
+      "url": "https://www.uwyo.edu/news/2025/01/new-funding-program-to-expand-uw-research-on-artificial-intelligence.html"
+    },
+    {
+      "title": "Wyoming Innovation Partnership (WIP) — community college pipeline",
+      "description": "Wyoming's seven community colleges participate alongside UW in AI workforce training, broadening access for students who start outside four-year institutions.",
+      "url": "https://www.uwyo.edu/soc/initiatives/wipdit.html"
+    },
+    {
+      "title": "AI Summit 2026 — Wyoming libraries and archives statewide",
+      "description": "Statewide summit designed to extend AI capacity-building to small libraries, archives, and cultural institutions across Wyoming — including those serving tribal and rural communities.",
+      "url": "https://www.uwyo.edu/libraries/ai-summit.html"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Wyoming",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Wyoming has no comprehensive state AI statute but is actively legislating in adjacent areas: the Wyoming Department of Education published 'Guidance for AI Policy Development' for K-12 districts (June 2024); the Select Committee on Blockchain, Financial Technology and Digital Innovation has advanced SF 51 on misleading synthetic media/deepfakes; and the Joint Labor, Health and Social Services Committee is examining AI in health-insurance prior-authorization. State employees are covered by Wyoming A&I policies and procedures. UW has no higher-education system to impose system-level policy — it is the sole R1 and the only four-year public university in Wyoming, so it sets its own AI direction in coordination with the Wyoming Innovation Partnership.",
+    "urls": [
+      "https://edu.wyoming.gov/wp-content/uploads/2024/06/Guidance-for-AI-Policy-Development.pdf",
+      "https://ai-law-center.orrick.com/wyoming/",
+      "https://ballotpedia.org/AI_deepfake_policy_in_Wyoming",
+      "https://ai.wyo.gov/for-state-employees/policies-procedures",
+      "https://www.wyomingpublicmedia.org/politics-government/2025-06-26/wyoming-lawmakers-discuss-how-to-prevent-ai-from-denying-insurance-claims"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Wyoming is pursuing a small-state, big-ambition AI posture: a single public R1 in a lightly regulated state, pivoting hard toward AI through a president-led initiative (AI4WY), a new School of Computing (Board approval 2022, staffed 2023), a $3.9M NSF Major Research Infrastructure grant to build the Rocky Mountain region's first 24-node NVIDIA Grace Hopper testbed, a 20% institutional allocation on the NCAR-Wyoming 'Derecho' supercomputer, and a December 2025 President's AI Across the University Commission chaired by Jeff Hamerlinck. President Ed Seidel, himself a physicist-turned-computer-scientist, has been the most visible voice — issuing a February 2023 statement that directly anchored UW's response to ChatGPT and since chartering the Commission, whose 'UW and AI Today' framework report is due by June 15, 2026. On the teaching side, UW's AI Committee (Chair: Interim Provost Anne Alexander) has built one of the more mature syllabus-spectrum policies in the Mountain West, publishing an updated August 2025 syllabus template that requires course-level AI policy statements and sample language ranging from full prohibition to unrestricted use. Student services feature Cowboy Joe, a 2018-vintage Mainstay chatbot whose documented 32% summer-melt reduction and 9.5% freshman-class growth remain a sector case study. Research is being directed deliberately at Wyoming-specific industries: twelve $30K seed grants awarded January 2025 cover pronghorn monitoring, greenhouse optimization, rural telehealth, and rare-earth protein design; the 2024-opened SEDI center embeds AI in Wyoming's subsurface-energy economy; the Wyoming Innovation Partnership ties UW AI investments to the state's seven community colleges and K-12 pipeline. Gaps are real: there is no Chief AI Officer, no publicly confirmed campus-wide Microsoft Copilot / ChatGPT Edu / Gemini license, no formal data-privacy or AI-specific UW Regulation issued yet, and the consolidated strategic framework itself is still in draft. The Commission is an explicit admission that UW must now catch up on governance after racing ahead on research infrastructure and faculty-led policy.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.uwyo.edu/president/initiatives/ai4wy/index.html",
+      "https://www.uwyo.edu/president/initiatives/ai4wy/about-us.html",
+      "https://www.uwyo.edu/president/initiatives/ai4wy/opportunities.html",
+      "https://www.uwyo.edu/news/2025/12/uw-establishes-ai-across-the-university-commission.html",
+      "https://www.uwyo.edu/news/2024/08/uw-wins-4m-to-install-state-of-the-art-research-computing-system.html",
+      "https://www.uwyo.edu/news/2025/01/new-funding-program-to-expand-uw-research-on-artificial-intelligence.html",
+      "https://www.uwyo.edu/news/2024/07/new-center-of-excellence-in-subsurface-energy-and-digital-innovation-opens-at-uw.html",
+      "https://www.uwyo.edu/news/2025/04/mclaughlin-selected-as-uw-vice-president-for-information-technology-and-chief-information-officer.html",
+      "https://www.uwyo.edu/news/2024/09/uw-provost-carman-submits-resignation.html",
+      "https://www.uwyo.edu/news/2025/09/uw-enrollment-grows-for-second-straight-semester.html",
+      "https://www.uwyo.edu/acadaffairs/resources/ai-committee.html",
+      "https://www.uwyo.edu/acadaffairs/_files/docs/ai-01-11-24-powerpoint-presentation.pdf",
+      "https://www.uwyo.edu/soc/index.html",
+      "https://www.uwyo.edu/soc/engagement/community-industry/wyo-ai.html",
+      "https://www.uwyo.edu/soc/initiatives/wipdit.html",
+      "https://www.uwyo.edu/ser/research/centers-of-excellence/subsurface-energy-digital-innovation/index.html",
+      "https://www.uwyo.edu/nwsc/index.html",
+      "https://www.uwyo.edu/nwsc/research-computing/index.html",
+      "https://www.uwyo.edu/libraries/ai-summit.html",
+      "https://www.uwyo.edu/uw/degree-programs/artificial-intelligence-masters.html",
+      "https://acalogcatalog.uwyo.edu/preview_program.php?catoid=14&poid=17049",
+      "https://www.uwyo.edu/uw/degree-programs/computer-science-ms-phd.html",
+      "https://uwyo.libguides.com/aisupport",
+      "https://uwyo.libguides.com/aisupport/faculty",
+      "https://uwyo.libguides.com/aisupport/student",
+      "https://journals.uwyo.edu/index.php/jtilt/ai-policy",
+      "https://www.uwbrandingiron.com/2023/02/28/seidel-addresses-ai-in-recent-statement/",
+      "https://www.wyomingpublicmedia.org/news/2023-03-09/uw-administration-is-considering-the-consequences-and-ethics-of-ai",
+      "https://www.wyomingpublicmedia.org/education/2026-02-06/a-new-ai-commission-at-uw-considers-research-and-learning-applications",
+      "https://www.meritalkslg.com/articles/new-ai-commission-aims-to-shape-wyomings-tech-future/",
+      "https://svinews.com/2025/top-featured/114130/uw-establishes-ai-across-the-university-commission/",
+      "https://markets.financialcontent.com/wral/article/tokenring-2025-12-11-universities-forge-future-of-ai-wyoming-pioneers-comprehensive-ethical-integration",
+      "https://mainstay.com/case-study/shattering-enrollment-records-university-of-wyoming-uses-ai-to-defeat-summer-melt/",
+      "https://arccwiki.atlassian.net/wiki/spaces/DOCUMENTAT/pages/2027683973",
+      "https://en.wikipedia.org/wiki/NCAR-Wyoming_Supercomputing_Center",
+      "https://news.ucar.edu/132774/new-ncar-wyoming-supercomputer-accelerate-scientific-discovery",
+      "https://wyoleg.gov/InterimCommittee/2024/02-20240108067-UW-149ArtificialIntelligence.pdf",
+      "https://edu.wyoming.gov/wp-content/uploads/2024/06/Guidance-for-AI-Policy-Development.pdf",
+      "https://ai-law-center.orrick.com/wyoming/",
+      "https://ai.wyo.gov/for-state-employees/policies-procedures",
+      "https://ballotpedia.org/AI_deepfake_policy_in_Wyoming",
+      "https://www.wyomingpublicmedia.org/politics-government/2025-06-26/wyoming-lawmakers-discuss-how-to-prevent-ai-from-denying-insurance-claims",
+      "https://wip.wyo.gov/programs/digital-infrastructure",
+      "https://wyomingtruth.org/university-of-wyoming-to-release-guidelines-on-student-and-faculty-use-of-artificial-intelligence-chatbots/",
+      "https://uwagnews.com/2025/01/31/funding-program-research-artificial-intelligence/",
+      "https://cowboystatedaily.com/2025/11/02/wyomings-ai-challenge-make-it-work-for-people-not-the-other-way-around/",
+      "https://cowboystatedaily.com/2025/11/28/wyomings-ai-push-could-turbocharge-energy-research-and-jobs/",
+      "https://www.uwyo.edu/acct-fin/cbdi/index.html"
+    ],
+    "search_queries": [
+      "\"University of Wyoming\" AI strategy artificial intelligence 2025 2026",
+      "\"University of Wyoming\" AI policy generative AI guidelines faculty students",
+      "\"University of Wyoming\" chief AI officer provost CIO leadership",
+      "\"University of Wyoming\" AI research center School of Computing artificial intelligence",
+      "\"University of Wyoming\" AI degree certificate program machine learning computer science",
+      "\"University of Wyoming\" NSF grant AI computing infrastructure HPC supercomputer",
+      "\"University of Wyoming\" Microsoft Copilot ChatGPT Google Gemini enterprise AI",
+      "\"University of Wyoming\" president Ed Seidel provost Alexander AI",
+      "\"University of Wyoming\" AI partnership Microsoft NVIDIA industry collaboration",
+      "\"University of Wyoming\" AI chatbot REGLLM student services retention analytics",
+      "\"University of Wyoming\" \"seed grants\" AI \"twelve\" projects January 2025",
+      "\"University of Wyoming\" Wyoming state AI policy executive order legislation",
+      "\"University of Wyoming\" enrollment fall 2025 total students",
+      "\"University of Wyoming\" provost Kevin Carman 2025 academic affairs",
+      "\"University of Wyoming\" Jeff Clune neural networks AI research",
+      "\"University of Wyoming\" AI controversy academic integrity cheating ChatGPT",
+      "\"University of Wyoming\" AI Center for Blockchain Digital Innovation SEDI Energy",
+      "\"University of Wyoming\" AI workforce training economic development K-12 partnerships",
+      "\"University of Wyoming\" ARCC research computing center GPU AI4WY NVIDIA Grace Hopper",
+      "\"University of Wyoming\" president Seidel AI statement February 2023 ChatGPT",
+      "\"University of Wyoming\" \"acceptable use\" policy regulation 2-1 UW Reg"
+    ],
+    "gaps_acknowledged": [
+      "No publicly documented campus-wide enterprise AI license (Microsoft Copilot, ChatGPT Edu, Gemini Enterprise, Claude for Education) — LibGuide references tools generally but no procurement announcement was found",
+      "No consolidated UW Regulation on AI acceptable use has been published; guidance is distributed across AI Committee pages, syllabus templates, and library LibGuides",
+      "Exact FTE, budget, and reporting line for the President's AI Across the University Commission were not publicly disclosed",
+      "Individual dollar amounts per seed-grant project and their current status are not itemized publicly",
+      "No documented AI-related controversies, FERPA incidents, or litigation involving UW were found as of April 2026",
+      "Specific enterprise rollout status for any predictive-analytics retention platform (beyond Mainstay/Cowboy Joe extension plans) is not publicly documented",
+      "UW's ChatGPT Edu / Copilot negotiations with state procurement (Wyoming A&I) are not publicly reported"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "workforce_regional_development",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 13,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 12,
+        "governance_led": 13,
+        "student_success_led": 8,
+        "workforce_regional_development": 20,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "AI4WY NSF MRI cluster (NVIDIA Grace Hopper); NCAR-Wyoming 'Derecho' (partner allocation)",
+        "gpu_count": 406,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 59937000,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "industry_vendor": 3,
+        "other_unclear": 2,
+        "institutional": 2
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": true,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Anthropic",
+          "mentions": 2,
+          "products": [
+            "Claude",
+            "Claude (referenced in LibGuide)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "Gemini (referenced in LibGuide)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Copilot",
+            "Microsoft Copilot (covered in AI Support LibGuide; institution-wide enterprise license not publicly documented)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "Derecho supercomputer (382 NVIDIA A100 GPUs)",
+            "Grace Hopper Superchip (GH200) testbed (24 nodes)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT",
+            "ChatGPT (referenced in LibGuide; no public ChatGPT Edu agreement)"
+          ]
+        },
+        {
+          "vendor": "Mainstay Cowboy Joe admissions chatbot",
+          "mentions": 1,
+          "products": [
+            "Cowboy Joe admissions chatbot"
+          ]
+        },
+        {
+          "vendor": "Mainstay Cowboy Joe chatbot",
+          "mentions": 1,
+          "products": [
+            "Cowboy Joe chatbot"
+          ]
+        },
+        {
+          "vendor": "Meta Llama 3",
+          "mentions": 1,
+          "products": [
+            "Llama 3"
+          ]
+        },
+        {
+          "vendor": "University of Wyoming (Advanced Research Computing Center) REGLLM",
+          "mentions": 1,
+          "products": [
+            "REGLLM"
+          ]
+        },
+        {
+          "vendor": "University of Wyoming (ARCC) REGLLM regulations chatbot (prototype)",
+          "mentions": 1,
+          "products": [
+            "REGLLM regulations chatbot (prototype)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Anthropic",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "M.S. in Artificial Intelligence",
+          "summary": "A dedicated AI masters at a small public R1 is a workforce-pipeline statement: UW is training AI practitioners for Wyoming's industries rather than ceding that talent to coastal systems.",
+          "source_url": "https://www.uwyo.edu/uw/degree-programs/artificial-intelligence-masters.html"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Cowboy Joe Admissions AI Chatbot (Mainstay)",
+          "summary": "Among the earliest and most data-supported student-services AI deployments at any public R1; measurable enrollment impact at a state flagship makes it a frequently cited sector case study.",
+          "source_url": "https://mainstay.com/case-study/shattering-enrollment-records-university-of-wyoming-uses-ai-to-defeat-summer-melt/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Wyoming Innovation Partnership (WIP) Digital Infrastructure Track",
+          "summary": "Ties UW's AI workforce investments directly to statewide community-college and K-12 pipelines — a rare statewide stack for a small public R1.",
+          "source_url": "https://www.uwyo.edu/soc/initiatives/wipdit.html"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 0,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No publicly documented campus-wide enterprise AI license (Microsoft Copilot, ChatGPT Edu, Gemini Enterprise, Claude for Education) — LibGuide references tools generally but no procurement announcement was found",
+        "No consolidated UW Regulation on AI acceptable use has been published; guidance is distributed across AI Committee pages, syllabus templates, and library LibGuides",
+        "Exact FTE, budget, and reporting line for the President's AI Across the University Commission were not publicly disclosed",
+        "Individual dollar amounts per seed-grant project and their current status are not itemized publicly",
+        "No documented AI-related controversies, FERPA incidents, or litigation involving UW were found as of April 2026",
+        "Specific enterprise rollout status for any predictive-analytics retention platform (beyond Mainstay/Cowboy Joe extension plans) is not publicly documented",
+        "UW's ChatGPT Edu / Copilot negotiations with state procurement (Wyoming A&I) are not publicly reported"
+      ]
+    }
+  }
+}

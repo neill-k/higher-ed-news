@@ -1,0 +1,1582 @@
+{
+  "institution": "University of Louisville",
+  "slug": "university-of-louisville",
+  "city_state": "Louisville, KY",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 25201,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Gerry Bradley",
+      "url": "https://louisville.edu/president/"
+    },
+    "provost": {
+      "name": "Kathryn (Katie) Cardarelli",
+      "url": "https://louisville.edu/provost/who-we-are"
+    },
+    "cio": {
+      "name": "Karlis Kaugars",
+      "url": "https://louisville.edu/provost/faculty-personnel/searches/uofl-cio/uofl-cio-search"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Sharon Kerrick",
+      "title": "Assistant Vice President; head of Digital Transformation Center (leads Microsoft MARC partnership); academic AI Committee co-chaired by Beth Boehm (Vice Provost for Graduate Affairs) and Jose Fernandez (Associate Professor of Economics)",
+      "url": "https://www.uoflnews.com/section/science-and-tech/uofl-teams-with-microsoft-to-explore-ai-in-research/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Igniting Potential, Shaping Tomorrow: The University of Louisville Strategic Plan 2026-2030",
+        "url": "https://louisville.edu/about/leadership/strategic-plan/strategic-plan-2026-30",
+        "year": 2026
+      },
+      {
+        "title": "Report of the Committee on Use of Generative Artificial Intelligence (UofL Faculty Senate)",
+        "url": "https://louisville.edu/facultysenate/meeting-information/copy_of_meeting-documents/2024/may/ai-committee-report-5-1.2024",
+        "year": 2024
+      }
+    ],
+    "summary": "UofL's 2026-2030 strategic plan 'Igniting Potential, Shaping Tomorrow' explicitly names AI adoption as a driver for economic growth and institutional excellence, calling for a 'comprehensive innovation and translation platform to drive economic growth and AI adoption' under the Discover pillar and for digitization of core administrative processes under the Work pillar. There is no stand-alone published AI strategy document; instead, AI direction is distributed across the strategic plan, the 2024 Faculty Senate AI Committee report on generative AI, and operational guidance from ITS, the Delphi Center, and the Digital Transformation Center. The Kentucky Center for Digital Innovation and a new state-funded cybersecurity center are positioned as institutional vehicles for AI-and-cyber research and workforce development."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": false,
+    "policy_urls": [
+      "https://delphi.louisville.edu/teaching-resources/generative-ai",
+      "https://louisville.edu/facultysenate/meeting-information/copy_of_meeting-documents/2024/may/ai-committee-report-5-1.2024",
+      "https://louisville.edu/its/services/ai",
+      "https://library.louisville.edu/kornhauser/generative-ai"
+    ],
+    "adopted_date": "2024-05",
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": false,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No university-wide policy for or against generative AI; faculty set syllabus-level policy",
+      "Default rule: absent syllabus guidance, AI use is prohibited and treated as unauthorized assistance or plagiarism",
+      "No institutional contract with any AI detection vendor; detection use is at individual instructor risk",
+      "ITS approves Microsoft Copilot (free, campus-wide via Office 365) and Microsoft 365 Copilot (paid add-on) as the sanctioned enterprise AI path",
+      "Delphi Center discourages AI detection tools citing false-positive harm to multilingual writers"
+    ],
+    "summary": "UofL has taken a decentralized, faculty-discretion approach to generative AI: the May 2024 Faculty Senate AI Committee report explicitly recommends that the university not adopt a single campus-wide rule and instead require instructors to include syllabus-level AI language, with a default-prohibit rule when the syllabus is silent. ITS designates Microsoft Copilot and M365 Copilot as the approved enterprise tools, and the Delphi Center provides faculty training and discourages AI detection. This places UofL's posture closer to permissive than comprehensive — clear enterprise guardrails but no unified risk/ethics framework document."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Provost's Committee on Use of Generative Artificial Intelligence",
+        "type": "committee",
+        "scope": "University-wide academic policy and practice on generative AI; co-chaired by Beth Boehm (Vice Provost, Graduate Affairs) and Jose Fernandez (Associate Professor of Economics). Produced the May 2024 UofL AI committee report.",
+        "url": "https://louisville.edu/facultysenate/meeting-information/copy_of_meeting-documents/2024/may/ai-committee-report-5-1.2024"
+      },
+      {
+        "name": "College of Business AI Forum",
+        "type": "council",
+        "scope": "~20 regional business leaders, faculty, staff and students advising on AI in curriculum and research; 2-year member terms, quarterly meetings.",
+        "url": "https://business.louisville.edu/about/leadership-admin/ai-forum/"
+      },
+      {
+        "name": "Digital Transformation Center (DTC)",
+        "type": "office",
+        "scope": "Houses the IBM Skills Academy and coordinates Microsoft MARC AI research partnership; led by Assistant VP Sharon Kerrick.",
+        "url": "https://louisville.edu/digital-transformation/"
+      },
+      {
+        "name": "Kentucky Center for Digital Innovation",
+        "type": "office",
+        "scope": "University-hosted center for cybersecurity and AI research, workforce development, and industry collaboration. Primary contact Will Metcalf.",
+        "url": "https://centers.louisville.edu/kentucky-center-digital-innovation"
+      }
+    ],
+    "summary": "UofL's AI governance is distributed rather than centralized. Academic policy flows through a Provost-convened AI committee formed in August 2023 and a May 2024 public report. Enterprise AI sits under the CIO (ITS) with Microsoft Copilot as the approved platform. Research and translation are organized through the Digital Transformation Center (IBM and Microsoft partnerships) and the Kentucky Center for Digital Innovation (cyber + AI). No chief AI officer role exists at the university (the city of Louisville has a separate municipal CAIO, which is distinct from UofL)."
+  },
+  "initiatives": [
+    {
+      "title": "UofL Faculty Senate AI Committee report establishes decentralized generative AI approach",
+      "description": "A Provost-convened committee co-chaired by Vice Provost Beth Boehm and economist Jose Fernandez issued its May 2024 Report of the Committee on Use of Generative Artificial Intelligence. The report recommends no single campus-wide rule and instead instructs students that absent explicit syllabus guidance, generative AI use is prohibited and treated as unauthorized assistance or plagiarism. It also declines to endorse AI detection tools at an institutional level.",
+      "significance": "Signals that a public R1 in the South can land on a faculty-discretion model with a default-prohibit backstop rather than committing to either a comprehensive framework or an outright ban.",
+      "date_announced": "2024-05-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Faculty committee work; no disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Provost-led committee."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Codifies instructor discretion as the primary policy lever; leaves compliance, FERPA handling of AI outputs, and detection-tool use unresolved at the institutional level.",
+      "source_urls": [
+        "https://louisville.edu/facultysenate/meeting-information/copy_of_meeting-documents/2024/may/ai-committee-report-5-1.2024",
+        "https://apps.legislature.ky.gov/CommitteeDocuments/28/30685/UofL%20AI%20report.pdf",
+        "https://www.louisvillecardinal.com/2026/02/opinion-u-of-ls-use-of-ai-educational-platforms-is-hypocritical/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot and Microsoft 365 Copilot designated as sanctioned enterprise AI",
+      "description": "UofL Information Technology Services (ITS) publishes a central AI services page naming Microsoft Copilot (free, campus-wide through Office 365) and Microsoft 365 Copilot (paid add-on via HelpDesk) as the only 'UofL-approved' enterprise AI tools. Other generative AI tools — including ChatGPT, Claude, Gemini, Perplexity, Midjourney, Sora — are listed for reference but flagged as not licensed, with users bearing personal responsibility for data security and cost.",
+      "significance": "Demonstrates the common R1 pattern of standardizing on Microsoft's enterprise stack for AI while deliberately avoiding commitment to a campus-wide ChatGPT Edu or Claude for Education deployment.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ITS / institutional Microsoft licensing",
+        "description": "Bundled within existing Office 365 enterprise agreement; M365 Copilot is a paid employee add-on with undisclosed contract value."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise license extension of UofL's existing Microsoft Office 365 agreement."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Free campus-wide generative AI assistant across Office, Windows, Edge"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Paid employee add-on integrating AI into Word, Excel, Outlook, Teams"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Creates a two-tier data posture: sanctioned Microsoft Copilot inside the M365 tenant vs unsanctioned public LLMs. Puts data-handling responsibility on end users for any non-approved tool.",
+      "source_urls": [
+        "https://louisville.edu/its/services/ai"
+      ]
+    },
+    {
+      "title": "Microsoft Academic Research Consultants (MARC) AI research partnership",
+      "description": "In May 2022 Microsoft selected UofL as one of seven Microsoft Academic Research Consultants (with Duke, Rochester, UCF, USF, Texas A&M, Oregon State, and Washington University-St. Louis). The partnership, led on campus by Sharon Kerrick (AVP and head of the Digital Transformation Center), studies how researchers can use AI to analyze large data sets, with initial UofL use cases in cancer drug screening, SARS-CoV-2 compound analysis, and medical imaging.",
+      "significance": "Places UofL in a small cohort of R1s shaping Microsoft's research tooling roadmap, and anchors AI-for-science practice at a mid-size public R1 alongside much larger peers.",
+      "date_announced": "2022-05-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Microsoft (in-kind technology access and tooling)",
+        "description": "Access to Microsoft AI research tools and engineering consultation; dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Microsoft",
+            "Duke University",
+            "University of Rochester",
+            "University of Central Florida",
+            "University of South Florida",
+            "Texas A&M University",
+            "Oregon State University",
+            "Washington University in St. Louis"
+          ],
+          "description": "Microsoft MARC cohort of seven universities liaising between Microsoft and researchers on AI for science."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Azure AI / Microsoft research tooling",
+          "vendor": "Microsoft",
+          "role": "AI analysis of large research data sets"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uoflnews.com/section/science-and-tech/uofl-teams-with-microsoft-to-explore-ai-in-research/",
+        "https://louisvillefoundation.org/uofl-teams-with-microsoft-to-explore-ai-in-research/",
+        "https://louisville.edu/medicine/cancer-research/news-1/uofl-works-with-microsoft-to-explore-artificial-intelligence-in-research"
+      ]
+    },
+    {
+      "title": "IBM Skills Academy at the Center for Digital Transformation",
+      "description": "UofL became the first higher-education institution to host an IBM Skills Academy, announced April 2019 and housed in the Center for Digital Transformation in the Miller IT Center on Belknap Campus. The academy delivers curriculum and IBM certifications across eight tech areas including artificial intelligence, data science, cloud, blockchain, quantum, and cybersecurity, with up to $5M/year in IBM software and cloud technology value.",
+      "significance": "Long-running industry-academic pipeline that gives UofL students and regional workers badged credentials in AI/data skills, pre-dating most peer R1 workforce AI programs.",
+      "date_announced": "2019-04-18",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "industry_certification_pathway",
+        "ai_workforce_training",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 5000000,
+        "funding_source": "IBM (annual software and cloud in-kind value)",
+        "description": "Up to $5 million per year in IBM software and cloud technology value through IBM's Academic Initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM"
+          ],
+          "description": "First higher-ed IBM Skills Academy; UofL delivers curriculum while IBM provides tooling, content and certifications."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "IBM Skills Academy / IBM Learning",
+          "vendor": "IBM",
+          "role": "Badged credential pathways in AI, data science, cloud, cybersecurity, quantum"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://louisville.edu/digital-transformation/docs/ibm-skills-academy-walkthrough/view",
+        "https://www.insidehighered.com/quicktakes/2019/04/18/u-louisville-and-ibm-open-%E2%80%98skills-academy%E2%80%99",
+        "https://www.uoflnews.com/section/science-and-tech/closing-the-tech-gap-uofl-ibm-partnership-aims-to-prepare-next-generation-workforce/",
+        "https://louisville.edu/communityengagement/news/closing-the-tech-gap-uofl-ibm-partnership-aims-to-prepare-next-generation-workforce"
+      ]
+    },
+    {
+      "title": "Master of Science and Graduate Certificate in Artificial Intelligence in Medicine",
+      "description": "UofL's J.B. Speed School of Engineering, Bioengineering Department, Computer Science and Engineering Department and School of Public Health jointly launched an MS in Artificial Intelligence in Medicine (approved for Summer 2025-Spring 2026 catalog) and a 15-credit graduate certificate, delivered in classroom or fully online. Curriculum emphasizes machine learning, deep learning, medical imaging, physiological modeling and clinical data analysis.",
+      "significance": "A discipline-specific AI master's anchored in healthcare — UofL's most developed AI degree program and a direct bridge to the UofL Health / Aidoc clinical AI work.",
+      "date_announced": "2025-06-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Speed School of Engineering / tuition-funded",
+        "description": "New interdisciplinary graduate program shared across Bioengineering, CSE and Public Health."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal multi-school collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://catalog.louisville.edu/graduate/programs-study/master-science-artificial-intelligence-in-medicine/",
+        "https://louisville.edu/online/programs/certificate-programs/certificate-in-artificial-intelligence-in-medicine",
+        "https://engineering.louisville.edu/academics/areasofstudy/ai-in-medicine/"
+      ]
+    },
+    {
+      "title": "AI track in Bachelor of Arts in Computer Science at Speed School",
+      "description": "The J.B. Speed School of Engineering launched an Artificial Intelligence track in its Bachelor of Arts in Computer Science (BACS) in Fall 2021, covering machine learning, deep learning, generative AI and AI security through courses such as CSE 545, CSE 547 and topics courses, plus two required internships and a capstone project.",
+      "significance": "Gives UofL undergraduates a named AI major pathway well before most regional public R1s, broadening the AI talent pipeline beyond graduate programs.",
+      "date_announced": "2021-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Speed School / institutional",
+        "description": "Curriculum development within existing BACS program."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.louisville.edu/academics/departments/computer/ba-computer-science/",
+        "https://engineering.louisville.edu/academics/areasofstudy/computer-science/"
+      ]
+    },
+    {
+      "title": "Center for AI in Radiological Sciences (CAIRS) and UofL Health Aidoc deployment",
+      "description": "The UofL School of Medicine launched the Center for AI in Radiological Sciences (CAIRS), funded by an endowment from the J.T. Ling family, to lead algorithm development, federated-learning collaborations, and clinical AI training. In parallel UofL Health became the first Kentucky academic health system to deploy Aidoc's AI Care Platform, integrating algorithms for intracranial hemorrhage, pulmonary embolism, cervical spine fracture, rib fracture and intra-abdominal free gas detection across the system's imaging workflow.",
+      "significance": "A pair of linked clinical-AI moves that move UofL from AI education into production diagnostic AI operating on real patients at scale.",
+      "date_announced": "2022-06-28",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "J.T. Ling family endowment (CAIRS); UofL Health operating budget (Aidoc)",
+        "description": "CAIRS endowed research center plus clinical AI platform deployment across UofL Health."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Aidoc",
+            "UofL Health"
+          ],
+          "description": "First Kentucky academic health system to deploy Aidoc's AI Care Platform in radiology workflow."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Aidoc AI Care Platform",
+          "vendor": "Aidoc",
+          "role": "Clinical AI algorithms for intracranial hemorrhage, PE, iPE, cervical spine fractures, rib fractures, intra-abdominal free gas"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Clinical AI use triggers HIPAA, FDA SaMD, and UofL Health clinical governance requirements distinct from the academic AI committee.",
+      "source_urls": [
+        "https://louisville.edu/medicine/departments/radiology/cairs",
+        "https://louisville.edu/medicine/departments/radiology/cairs/cairs-2013-center-for-ai-in-radiological-sciences",
+        "https://uoflhealth.org/news/uofl-health-partners-with-aidoc-to-upgrade-care-systems-and-deliver-impact-of-ai-to-physicians-and-patients/",
+        "https://www.aidoc.com/about/news/uofl-health-aidoc-ai-partnership/",
+        "https://louisville.edu/medicine/departments/radiology/cairs/projects"
+      ]
+    },
+    {
+      "title": "Zurada HPC system with NVIDIA H200/H100 GPUs for AI workloads",
+      "description": "UofL Information Technology Services operates a research computing portfolio anchored by Zurada, a flagship HPC system purpose-built for AI, distributed parallel and data-intensive workloads, featuring NVIDIA H200 and H100 GPUs, AMD CPUs and large-memory nodes (1.5, 3 and 6 TB). The portfolio also includes LARCC (high-throughput computing), the GPU-accelerated Big Data Analysis Platform (BDAP) and the ~5 PB CARDS research storage system.",
+      "significance": "H200-class GPU capacity at a regional public R1 is a material competitive signal for AI research recruiting and for NSF/NIH proposal competitiveness.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Institutional research computing / ITS budget",
+        "description": "Multi-cluster research computing environment including H200 and H100 GPUs, large-memory nodes, and ~5 PB CARDS storage."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "AMD"
+          ],
+          "description": "Hardware partners supplying H200/H100 GPUs and EPYC CPUs for Zurada."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Zurada HPC cluster",
+          "vendor": "UofL ITS (NVIDIA/AMD hardware)",
+          "role": "Primary AI / data-intensive compute cluster"
+        },
+        {
+          "name": "LARCC",
+          "vendor": "UofL ITS",
+          "role": "High-throughput computing for loosely coupled workloads"
+        },
+        {
+          "name": "CARDS",
+          "vendor": "UofL ITS",
+          "role": "~5 PB research data storage"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://louisville.edu/its/services/research-computing/computing-and-research",
+        "https://louisville.edu/its/services/research-computing",
+        "https://service.louisville.edu/TDClient/277/Portal/KB/ArticleDet?ID=20101"
+      ]
+    },
+    {
+      "title": "Kentucky Center for Digital Innovation as cyber+AI workforce hub",
+      "description": "UofL operates the Kentucky Center for Digital Innovation from the J.D. Nichols Campus for Innovation & Entrepreneurship in downtown Louisville, framed explicitly as advancing 'cybersecurity and artificial intelligence through cutting-edge research, workforce development and industry collaboration' across academia, industry and government.",
+      "significance": "Positions a dedicated university center at the cyber-AI intersection in a state without a stand-alone state higher-ed AI policy, filling a regional coordination gap.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University / mixed",
+        "description": "University-hosted center; specific funding not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Local industry",
+            "Kentucky state government"
+          ],
+          "description": "Convenes academia, industry and government on AI + cyber."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://centers.louisville.edu/kentucky-center-digital-innovation"
+      ]
+    },
+    {
+      "title": "$10M state-funded UofL Cybersecurity Center with SCIF and cyber range",
+      "description": "The Commonwealth of Kentucky's FY 2026 budget allocated $10 million to UofL to build a new cybersecurity center with a secure computing enclave, cyber range and Sensitive Compartmented Information Facility (SCIF). President Gerry Bradley announced the appropriation in a January 15, 2026 letter to the Board of Trustees. The center is developed with Murray State University and builds on UofL's existing NSA-designated cybersecurity work (including a $6.3M 2020 NSA healthcare cyber award) and on its 'AI and cybersecurity — partners or adversaries' research agenda led by Winnia Professor Adel Elmaghraby.",
+      "significance": "A state-of-Kentucky bet that pairs physical secure infrastructure (SCIF, cyber range) with UofL's AI+cyber research agenda, signaling how red-state legislatures are channeling AI-adjacent investment.",
+      "date_announced": "2026-01-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "cybersecurity_and_ai_risk",
+        "computing_infrastructure",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Commonwealth of Kentucky (one-time FY 2026 appropriation)",
+        "description": "Construction and operations for a cybersecurity hub expanding education, research, workforce training, and industry collaboration."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Murray State University"
+          ],
+          "description": "Joint development of the center with Murray State."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Kentucky"
+          ],
+          "description": "State appropriation of $10M in FY 2026 budget."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "SCIF operation and federal-grade data handling introduce compliance obligations (classification, ITAR/EAR-adjacent controls) the broader university does not currently have.",
+      "source_urls": [
+        "https://www.govtech.com/education/higher-ed/louisville-receives-10m-for-cybersecurity-center",
+        "https://engineering.louisville.edu/cybercenter/"
+      ]
+    },
+    {
+      "title": "Delphi Center generative AI faculty development program",
+      "description": "The Delphi Center for Teaching and Learning, overseen by Vice Provost for Online Strategy and Teaching Innovation Kelvin Thompson, runs a Generative AI and Teaching resource hub, an ongoing Gen AI Learning Circle, regular workshops, self-paced generative AI/ChatGPT trainings, a student-facing generative AI microcourse produced with Ekstrom Library, and consultations that pair AI assessment redesign with Disability Resource Center accessibility support.",
+      "significance": "A central faculty development engine that substitutes for a prescriptive campus policy — investing in teaching practice rather than compliance instruments.",
+      "date_announced": "2023-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy",
+        "disability_and_accessibility"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Provost / Delphi Center operating budget",
+        "description": "Workshops, learning circles, and student microcourses funded through existing Delphi operations."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Explicit institutional stance against AI detection tools on equity grounds (false positives disproportionately harm multilingual writers); no contract with detection vendors.",
+      "source_urls": [
+        "https://delphi.louisville.edu/teaching-resources/generative-ai",
+        "https://delphi.louisville.edu/workshops/self-paced",
+        "https://library.louisville.edu/ekstrom/genAI"
+      ]
+    },
+    {
+      "title": "Ekstrom Library generative AI literacy resources for students",
+      "description": "UofL Libraries maintains two public LibGuides — 'Generative AI for College Students' (Ekstrom) and 'Generative Artificial Intelligence (AI)' (Kornhauser Health Sciences Library) — covering tool landscape, citation practice, limitations, bias, and research-assistant use (NotebookLM, SciSpace, Consensus, Elicit, ResearchRabbit). The libraries also partner with the Delphi Center on a student-facing generative AI microcourse.",
+      "significance": "Library-led AI literacy is emerging as a mainstream R1 pattern; UofL's two-library coverage (general + health sciences) is a relatively mature example.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Library operating budget",
+        "description": "Library staff time; no dedicated budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "AI research assistant referenced in library guide"
+        },
+        {
+          "name": "SciSpace",
+          "vendor": "SciSpace",
+          "role": "Literature-review AI assistant referenced in library guide"
+        },
+        {
+          "name": "Consensus",
+          "vendor": "Consensus",
+          "role": "Evidence search AI assistant referenced in library guide"
+        },
+        {
+          "name": "Elicit",
+          "vendor": "Elicit",
+          "role": "Research AI assistant referenced in library guide"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://library.louisville.edu/ekstrom/genAI",
+        "https://library.louisville.edu/kornhauser/generative-ai",
+        "https://library.louisville.edu/kornhauser/generative-ai/limitations"
+      ]
+    },
+    {
+      "title": "Louisville Automation & Robotics Research Institute (LARRI) AI and robotics program",
+      "description": "LARRI, directed by Dr. Dan Popa inside Speed School of Engineering, focuses on human-robot interaction, industrial automation, networked and autonomous robots, and planning and control for mechatronic systems. In 2023 it reported 15 active funded projects, 77 publications and 5 new patents across a team of 12 faculty, 8 postdocs, 4 research staff and 30+ students. Notable work includes light-powered microrobots, neuroadaptive physical human-robot interaction, and wearable soft optical sensors; NSF EPSCoR funding supports Kampers program work.",
+      "significance": "UofL's physical-AI and robotics base — essential when the sector conversation broadens from generative AI into agentic and physical AI.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "agentic_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF EPSCoR (Kampers) and other federal/industry grants",
+        "description": "Multi-sponsor research program; total funding not consolidated."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "NSF EPSCoR Kampers program support."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.louisville.edu/research/centersinstitutes/larri/",
+        "https://engineering.louisville.edu/research/centersinstitutes/larri/larri-personnel/"
+      ]
+    },
+    {
+      "title": "College of Business AI Forum and MBA AI application courses",
+      "description": "The College of Business hosts a standing AI Forum of ~20 regional business leaders, faculty and students advising on AI curriculum and research with quarterly meetings (2 in-person, 2 virtual) and 2-year member terms. In parallel, Nat Irvin's 'Managing the Future' course integrates ChatGPT, and he designed an MBA 'Business Applications of AI' course. Featured public AI Forum programming has included sessions such as 'The Future of AI in K-12 Education: JCPS's Generative AI Task Force.'",
+      "significance": "Embeds employer voice in AI curriculum design — a replicable model for regional business schools under pressure to make AI learning outcomes job-aligned.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "industry_academic_partnership",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "College of Business operating budget",
+        "description": "Standing advisory forum; individual courses within existing MBA and undergraduate rotations."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Regional business community"
+          ],
+          "description": "20-person forum of industry practitioners and faculty."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Used in MBA 'Managing the Future' and 'Business Applications of AI' courses"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://business.louisville.edu/about/leadership-admin/ai-forum/",
+        "https://www.uoflnews.com/magazine/the-brave-new-world-of-chatgpt/",
+        "https://www.enrole.com/louisville/jsp/course.jsp?categoryId=ROOT&courseId=AIFORUM2026FEB"
+      ]
+    },
+    {
+      "title": "Delphi Center and DRC collaboration on accessible AI-era course design",
+      "description": "The Delphi Center collaborates with the Disability Resource Center and the Office of Access and Opportunity to support faculty making AI-era courses accessible. Students have access to assistive technologies including text-to-speech, speech-to-text, transcription, and Blackboard Ally. Federal ADA Title II updates taking effect April 2026 further raise the bar on accessible online AI-era content.",
+      "significance": "An explicit equity/AI coupling: rather than bolting on accessibility, UofL frames AI-era course redesign and accessibility as a single faculty-development workflow.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "ai_tool_equity",
+        "multilingual_and_culturally_responsive_ai"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Provost / Delphi / DRC operating budgets",
+        "description": "Existing staff time; no disclosed dedicated budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Blackboard Ally",
+          "vendor": "Anthology",
+          "role": "Automated accessibility checking and alternative format generation"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions UofL to meet the April 2026 ADA Title II updates for accessible online content in an AI-saturated course environment.",
+      "source_urls": [
+        "https://delphi.louisville.edu/teaching-resources/creating-accessible-courses",
+        "https://student.louisville.edu/disability-resource-center",
+        "https://louisville.edu/accessibility/resources"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Kentucky Center for Digital Innovation",
+      "focus": "Cybersecurity and artificial intelligence research, workforce development and industry collaboration",
+      "founded": null,
+      "url": "https://centers.louisville.edu/kentucky-center-digital-innovation"
+    },
+    {
+      "name": "Center for AI in Radiological Sciences (CAIRS)",
+      "focus": "Clinical AI algorithm development, federated-learning validation, medical imaging AI education",
+      "founded": null,
+      "url": "https://louisville.edu/medicine/departments/radiology/cairs/cairs-2013-center-for-ai-in-radiological-sciences"
+    },
+    {
+      "name": "Louisville Automation & Robotics Research Institute (LARRI)",
+      "focus": "Human-robot interaction, networked and autonomous robots, industrial automation, planning and control for mechatronic systems",
+      "founded": null,
+      "url": "https://engineering.louisville.edu/research/centersinstitutes/larri/"
+    },
+    {
+      "name": "Center for Digital Transformation (DTC)",
+      "focus": "AI, data science, cloud and cybersecurity skills academy and research (anchor of IBM Skills Academy and Microsoft MARC partnership)",
+      "founded": "2019",
+      "url": "https://louisville.edu/digital-transformation/"
+    },
+    {
+      "name": "UofL Cybersecurity Center",
+      "focus": "Cybersecurity + AI ('partners or adversaries') research, workforce certification, CyberCorps SFS program",
+      "founded": null,
+      "url": "https://engineering.louisville.edu/cybercenter/"
+    },
+    {
+      "name": "Center for Organizational Readiness toward Enterprise 4.0 (CORE4.0)",
+      "focus": "Helps companies adopt automation, AI and IoT (Industry 4.0)",
+      "founded": null,
+      "url": "https://news.louisville.edu/news/uofl-launches-center-focused-industry-40"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence in Medicine",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://catalog.louisville.edu/graduate/programs-study/master-science-artificial-intelligence-in-medicine/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence in Medicine",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.louisville.edu/graduate/programs-study/graduate-certificate-artifical-intelligence-medicine/"
+    },
+    {
+      "type": "concentration",
+      "name": "Artificial Intelligence Track, Bachelor of Arts in Computer Science",
+      "level": "undergrad",
+      "launched": "2021-08",
+      "url": "https://engineering.louisville.edu/academics/departments/computer/ba-computer-science/"
+    },
+    {
+      "type": "concentration",
+      "name": "Data Science Track, Bachelor of Arts in Computer Science",
+      "level": "undergrad",
+      "launched": "2021-08",
+      "url": "https://engineering.louisville.edu/academics/areasofstudy/computer-science/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Business Analytics (includes AI/ML content)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.louisville.edu/graduate/programs-study/master-science-business-analytics/"
+    },
+    {
+      "type": "course",
+      "name": "Generative AI student microcourse (Ekstrom Library + Delphi Center)",
+      "level": "both",
+      "launched": null,
+      "url": "https://library.louisville.edu/ekstrom/genAI"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://louisville.edu/its/services/ai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (paid employee add-on)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://louisville.edu/its/services/ai"
+    },
+    {
+      "vendor": "Anthology",
+      "product": "Blackboard Ally (AI accessibility)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://louisville.edu/accessibility/resources"
+    },
+    {
+      "vendor": "Aidoc",
+      "product": "Aidoc AI Care Platform (radiology AI)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2022-06",
+      "url": "https://uoflhealth.org/news/uofl-health-partners-with-aidoc-to-upgrade-care-systems-and-deliver-impact-of-ai-to-physicians-and-patients/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Zurada",
+    "gpu_count": null,
+    "url": "https://louisville.edu/its/services/research-computing/computing-and-research",
+    "summary": "UofL operates a research computing portfolio led by Zurada, a flagship HPC system purpose-built for AI and data-intensive workloads with NVIDIA H200 and H100 GPUs, AMD CPUs, and compute nodes at 1.5 TB, 3 TB and 6 TB RAM. The portfolio also includes LARCC (high-throughput computing), the GPU-accelerated Big Data Analysis Platform (BDAP), and the ~5 PB CARDS research data storage system."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "$10M Commonwealth of Kentucky appropriation for UofL Cybersecurity Center",
+      "amount_usd": 10000000,
+      "source": "Commonwealth of Kentucky (FY 2026 budget)",
+      "purpose": "Construction and operations of cybersecurity + AI center with SCIF, cyber range, secure computing enclave",
+      "date": "2026-01",
+      "url": "https://www.govtech.com/education/higher-ed/louisville-receives-10m-for-cybersecurity-center"
+    },
+    {
+      "title": "IBM Skills Academy in-kind AI/cloud/data investment",
+      "amount_usd": 5000000,
+      "source": "IBM (annual in-kind via IBM Academic Initiative)",
+      "purpose": "Software, cloud technology and certification content for AI, data science, cloud, blockchain, cybersecurity, quantum, IoT and design-thinking tracks",
+      "date": "2019-04",
+      "url": "https://www.insidehighered.com/quicktakes/2019/04/18/u-louisville-and-ibm-open-%E2%80%98skills-academy%E2%80%99"
+    },
+    {
+      "title": "J.T. Ling family endowment funding CAIRS",
+      "amount_usd": null,
+      "source": "J.T. Ling family",
+      "purpose": "Endowment supporting the Center for AI in Radiological Sciences",
+      "date": null,
+      "url": "https://louisville.edu/medicine/departments/radiology/cairs/cairs-2013-center-for-ai-in-radiological-sciences"
+    },
+    {
+      "title": "$6.3M NSA award for healthcare cybersecurity curriculum",
+      "amount_usd": 6300000,
+      "source": "National Security Agency",
+      "purpose": "Healthcare-focused cybersecurity curriculum with industry badges from Microsoft, IBM and Google",
+      "date": "2020-01",
+      "url": "https://engineering.louisville.edu/cybercenter/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft Academic Research Consultants (MARC) — AI for research",
+      "date": "2022-05",
+      "url": "https://www.uoflnews.com/section/science-and-tech/uofl-teams-with-microsoft-to-explore-ai-in-research/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM",
+      "purpose": "IBM Skills Academy at UofL Center for Digital Transformation",
+      "date": "2019-04",
+      "url": "https://www.insidehighered.com/quicktakes/2019/04/18/u-louisville-and-ibm-open-%E2%80%98skills-academy%E2%80%99"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Aidoc (via UofL Health)",
+      "purpose": "Clinical AI platform deployment across UofL Health radiology workflow",
+      "date": "2022-06",
+      "url": "https://www.aidoc.com/about/news/uofl-health-aidoc-ai-partnership/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Murray State University",
+      "purpose": "Joint development of $10M Commonwealth-funded cybersecurity + AI center",
+      "date": "2026-01",
+      "url": "https://www.govtech.com/education/higher-ed/louisville-receives-10m-for-cybersecurity-center"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Humana Foundation + Interapt",
+      "purpose": "Paid immersive IT skills training for underemployed/unemployed Louisville residents",
+      "date": null,
+      "url": "https://loutechworks.org/ai-in-louisville"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation (EPSCoR Kampers program)",
+      "purpose": "Robotics and automation research via LARRI",
+      "date": null,
+      "url": "https://engineering.louisville.edu/research/centersinstitutes/larri/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Security Agency",
+      "purpose": "$6.3M healthcare cybersecurity curriculum; NCAE-C designation since 2006",
+      "date": "2020-01",
+      "url": "https://engineering.louisville.edu/cybercenter/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft Copilot (Office 365)",
+      "scope": "Free, campus-wide generative AI for all students, faculty and staff",
+      "url": "https://louisville.edu/its/services/ai"
+    },
+    {
+      "type": "tutor",
+      "name": "Generative AI for College Students LibGuide + microcourse",
+      "scope": "AI literacy, research-assistant skills, citation practice (Ekstrom Library with Delphi Center)",
+      "url": "https://library.louisville.edu/ekstrom/genAI"
+    },
+    {
+      "type": "other",
+      "name": "Kornhauser Health Sciences Library Generative AI guide",
+      "scope": "Health-sciences-specific AI literacy, limitations, bias, research tools",
+      "url": "https://library.louisville.edu/kornhauser/generative-ai"
+    },
+    {
+      "type": "other",
+      "name": "Blackboard Ally accessibility AI",
+      "scope": "Automated accessibility remediation and alternative-format generation campus-wide",
+      "url": "https://louisville.edu/accessibility/resources"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Institutional stance against AI detection tools",
+      "description": "The Delphi Center explicitly discourages AI detection tools citing disproportionate false-positive harm to multilingual writers, and UofL holds no institutional contract with any AI detection provider.",
+      "url": "https://delphi.louisville.edu/teaching-resources/generative-ai"
+    },
+    {
+      "title": "Delphi Center + Disability Resource Center AI-era course design",
+      "description": "Joint faculty development integrating AI assessment redesign with accessibility (text-to-speech, speech-to-text, captioning, Blackboard Ally) in advance of April 2026 ADA Title II online-content updates.",
+      "url": "https://delphi.louisville.edu/teaching-resources/creating-accessible-courses"
+    },
+    {
+      "title": "Humana Foundation / Interapt / UofL immersive IT skills program",
+      "description": "Paid, immersive training in high-demand IT/AI skills for underemployed and unemployed Louisville residents.",
+      "url": "https://loutechworks.org/ai-in-louisville"
+    },
+    {
+      "title": "Office of Access and Opportunity oversight of DRC, Health Equity, Military-Connected Students",
+      "description": "Centralized administrative umbrella ensuring AI-era services account for students with disabilities, under-served communities and military-connected populations.",
+      "url": "https://louisville.edu/institutionalequity/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Kentucky",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Kentucky does not operate a unified higher-education system, and there is no statewide higher-ed AI policy. In March 2025 Governor Andy Beshear signed KRS 42.731 establishing an Artificial Intelligence Governance Committee under the Commonwealth Office of Technology to set transparency, ethics, privacy, human-override and disclosure standards for executive-branch generative AI use. The Special KY Legislative Committee AI Task Force was stood up on May 30, 2025. UofL also operates under the Kentucky Council on Postsecondary Education (CPE) framework, federal ADA Title II online-content updates effective April 2026, and 2026 federal AI executive actions preempting some state AI regulations. As a public R1, UofL AI deployments must also satisfy FERPA, HIPAA (through UofL Health), NSA NCAE-C cybersecurity standards and, for the new SCIF, federal classified-information handling rules.",
+    "urls": [
+      "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55895",
+      "https://www.whas11.com/article/news/local/kentucky-ai-state-government-use-beshear-law-signed/417-6a3d74ca-e290-4574-906b-c4909cf7a8c7",
+      "https://apps.legislature.ky.gov/lrc/publications/ResearchReports/RR491.pdf"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-02",
+      "summary": "Student-press op-ed in The Louisville Cardinal argued UofL's use of AI educational platforms is 'hypocritical' given the absence of a unified policy and the default-prohibit rule on student AI use — highlighting a student-side fairness concern rather than formal litigation.",
+      "status": "unknown",
+      "url": "https://www.louisvillecardinal.com/2026/02/opinion-u-of-ls-use-of-ai-educational-platforms-is-hypocritical/"
+    }
+  ],
+  "narrative_summary": "The University of Louisville sits in the middle of the R1 AI-posture distribution: visibly investing, visibly organized, but without a centralized chief AI officer or stand-alone AI strategy. Its 2026-2030 strategic plan 'Igniting Potential, Shaping Tomorrow' names AI adoption as a driver of economic growth and operational excellence, and the May 2024 Provost-level Faculty Senate AI Committee report (co-chaired by Vice Provost Beth Boehm and economist Jose Fernandez) codifies a faculty-discretion model with a default-prohibit rule — clearly permissive rather than comprehensive. On the enterprise side, ITS under CIO Karlis Kaugars has standardized on Microsoft Copilot (campus-wide, free via Office 365) and Microsoft 365 Copilot (paid employee add-on), with public, unsanctioned LLMs flagged as individual-risk tools. Research infrastructure is strong for a mid-size public R1: Zurada, a new flagship HPC system purpose-built for AI workloads with NVIDIA H200 and H100 GPUs, AMD CPUs and multi-terabyte memory nodes, plus LARCC, BDAP and the ~5 PB CARDS storage environment. Applied AI is concentrated in medicine and industry: the Center for AI in Radiological Sciences (endowed by the J.T. Ling family) pairs with UofL Health's Aidoc deployment — the first Kentucky academic health system on the Aidoc platform — to move clinical AI into production. LARRI (under Dan Popa) holds the physical-AI and robotics franchise. On workforce and economic development, the 2019 IBM Skills Academy at the Center for Digital Transformation (up to $5M/year in IBM in-kind value), the Microsoft MARC research partnership led by AVP Sharon Kerrick, the Kentucky Center for Digital Innovation, a $10M 2026 Commonwealth appropriation for a joint UofL-Murray State cybersecurity center with SCIF and cyber range, and the Humana/Interapt/UofL immersive training partnership form a dense regional ecosystem. Academic programs have matured from 2021 undergraduate AI and data-science tracks to a 2025 MS in Artificial Intelligence in Medicine and a graduate certificate. On equity and access, the Delphi Center's explicit stance against AI detection tools (citing false-positive harm to multilingual writers) and its joint work with the Disability Resource Center represent a values-first equity framing. Gaps: no published institution-wide AI strategy document, no CAIO, no disclosed enterprise AI spend, thin public evidence of AI in admissions/retention analytics, and student-press critique of the policy-vs-practice gap.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://louisville.edu/about/leadership/strategic-plan/strategic-plan-2026-30",
+      "https://louisville.edu/provost/who-we-are",
+      "https://louisville.edu/president/",
+      "https://louisville.edu/provost/faculty-personnel/searches/uofl-cio/uofl-cio-search",
+      "https://louisville.edu/its/services/ai",
+      "https://louisville.edu/its/services/research-computing",
+      "https://louisville.edu/its/services/research-computing/computing-and-research",
+      "https://service.louisville.edu/TDClient/277/Portal/KB/ArticleDet?ID=20101",
+      "https://delphi.louisville.edu/teaching-resources/generative-ai",
+      "https://delphi.louisville.edu/workshops/self-paced",
+      "https://delphi.louisville.edu/teaching-resources/creating-accessible-courses",
+      "https://library.louisville.edu/ekstrom/genAI",
+      "https://library.louisville.edu/kornhauser/generative-ai",
+      "https://library.louisville.edu/kornhauser/generative-ai/limitations",
+      "https://louisville.edu/facultysenate/meeting-information/copy_of_meeting-documents/2024/may/ai-committee-report-5-1.2024",
+      "https://apps.legislature.ky.gov/CommitteeDocuments/28/30685/UofL%20AI%20report.pdf",
+      "https://business.louisville.edu/about/leadership-admin/ai-forum/",
+      "https://business.louisville.edu/community/ai-forum/",
+      "https://centers.louisville.edu/kentucky-center-digital-innovation",
+      "https://engineering.louisville.edu/cybercenter/",
+      "https://engineering.louisville.edu/research/centersinstitutes/larri/",
+      "https://engineering.louisville.edu/research/centersinstitutes/larri/larri-personnel/",
+      "https://engineering.louisville.edu/research/researchareas/datascience/",
+      "https://engineering.louisville.edu/academics/departments/computer/ba-computer-science/",
+      "https://engineering.louisville.edu/academics/areasofstudy/computer-science/",
+      "https://engineering.louisville.edu/academics/areasofstudy/ai-in-medicine/",
+      "https://catalog.louisville.edu/graduate/programs-study/master-science-artificial-intelligence-in-medicine/",
+      "https://catalog.louisville.edu/graduate/programs-study/graduate-certificate-artifical-intelligence-medicine/",
+      "https://louisville.edu/online/programs/certificate-programs/certificate-in-artificial-intelligence-in-medicine",
+      "https://catalog.louisville.edu/graduate/programs-study/master-science-business-analytics/",
+      "https://louisville.edu/medicine/departments/radiology/cairs/cairs-2013-center-for-ai-in-radiological-sciences",
+      "https://louisville.edu/medicine/departments/radiology/cairs/projects",
+      "https://uoflhealth.org/news/uofl-health-partners-with-aidoc-to-upgrade-care-systems-and-deliver-impact-of-ai-to-physicians-and-patients/",
+      "https://www.aidoc.com/about/news/uofl-health-aidoc-ai-partnership/",
+      "https://axisimagingnews.com/imaging-news/facility-news/university-louisville-health-aidoc-ai",
+      "https://www.uoflnews.com/section/science-and-tech/uofl-teams-with-microsoft-to-explore-ai-in-research/",
+      "https://louisvillefoundation.org/uofl-teams-with-microsoft-to-explore-ai-in-research/",
+      "https://louisville.edu/medicine/cancer-research/news-1/uofl-works-with-microsoft-to-explore-artificial-intelligence-in-research",
+      "https://louisville.edu/digital-transformation/docs/ibm-skills-academy-walkthrough/view",
+      "https://louisville.edu/digital-transformation/",
+      "https://louisville.edu/communityengagement/news/closing-the-tech-gap-uofl-ibm-partnership-aims-to-prepare-next-generation-workforce",
+      "https://www.uoflnews.com/section/science-and-tech/closing-the-tech-gap-uofl-ibm-partnership-aims-to-prepare-next-generation-workforce/",
+      "https://www.insidehighered.com/quicktakes/2019/04/18/u-louisville-and-ibm-open-%E2%80%98skills-academy%E2%80%99",
+      "https://www.govtech.com/education/higher-ed/louisville-receives-10m-for-cybersecurity-center",
+      "https://loutechworks.org/ai-in-louisville",
+      "https://news.louisville.edu/news/uofl-launches-center-focused-industry-40",
+      "https://news.louisville.edu/news/uofl-proves-leading-higher-ed-choice-record-enrollment-and-retention",
+      "https://www.louisvillecardinal.com/2025/09/university-of-louisville-enrollment-figures-show-continued-growth/",
+      "https://www.uoflnews.com/magazine/the-brave-new-world-of-chatgpt/",
+      "https://www.louisvillecardinal.com/2026/02/opinion-u-of-ls-use-of-ai-educational-platforms-is-hypocritical/",
+      "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55895",
+      "https://www.whas11.com/article/news/local/kentucky-ai-state-government-use-beshear-law-signed/417-6a3d74ca-e290-4574-906b-c4909cf7a8c7",
+      "https://www.enrole.com/louisville/jsp/course.jsp?categoryId=ROOT&courseId=AIFORUM2026FEB",
+      "https://louisville.edu/institutionalequity/",
+      "https://student.louisville.edu/disability-resource-center",
+      "https://louisville.edu/accessibility/resources"
+    ],
+    "search_queries": [
+      "\"University of Louisville\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Louisville\" generative AI acceptable use policy faculty",
+      "\"University of Louisville\" chief AI officer OR AI committee OR AI task force",
+      "\"University of Louisville\" AI research center institute artificial intelligence",
+      "\"University of Louisville\" president provost CIO 2025 2026",
+      "\"University of Louisville\" Microsoft AI research partnership MARC",
+      "\"University of Louisville\" AI degree certificate program curriculum",
+      "\"University of Louisville\" AI enterprise Microsoft Copilot deployment students",
+      "\"University of Louisville\" supercomputer HPC GPU cluster research computing",
+      "\"University of Louisville\" AI gift donation NSF grant million",
+      "\"Kentucky Center for Digital Innovation\" University of Louisville AI cybersecurity",
+      "\"University of Louisville\" \"AI committee\" report legislature Kentucky generative",
+      "\"UofL\" artificial intelligence chatbot student advising services",
+      "\"University of Louisville\" IBM digital transformation skills academy",
+      "\"University of Louisville\" data privacy FERPA AI tools",
+      "\"University of Louisville\" AI workforce LouTechWorks training 2025",
+      "Kentucky state higher education AI policy 2025 2026 executive order",
+      "\"UofL\" AI mental health wellbeing student predictive",
+      "\"University of Louisville\" \"Center for AI in Radiological Sciences\" CAIRS medicine",
+      "\"UofL Health\" Aidoc AI radiology partnership",
+      "\"University of Louisville\" enrollment Fall 2025 students total",
+      "\"University of Louisville\" \"AI Week\" 2026 Louisville AI summit",
+      "\"University of Louisville\" AI accessibility disability students equity",
+      "\"University of Louisville\" Speed School AI engineering concentration data science"
+    ],
+    "gaps_acknowledged": [
+      "No published stand-alone AI strategy document — strategy direction is distributed across the 2026-2030 strategic plan, the 2024 Faculty Senate AI committee report, and operational pages (ITS, Delphi, DTC).",
+      "No disclosed dollar amounts for Microsoft Copilot / M365 Copilot contracts, Zurada HPC cost, or total CAIRS endowment.",
+      "Exact founding year for the Kentucky Center for Digital Innovation and CAIRS not surfaced on public pages.",
+      "No public evidence of an AI-specific student chatbot or AI-driven predictive retention analytics deployment (only general assistive tech and Blackboard Ally).",
+      "GPU count for Zurada not published, though H200/H100 and AMD CPU presence is confirmed.",
+      "Adoption metrics (Copilot active users, M365 Copilot licenses sold, IBM Skills Academy graduates) are not publicly disclosed.",
+      "No single named chief AI officer; academic AI leadership is distributed across the Provost's AI committee co-chairs, DTC leadership (Sharon Kerrick), and ITS (Karlis Kaugars).",
+      "Faculty Senate AI committee report PDF on legislature.ky.gov was binary-formatted and could not be fully parsed; relied on UofL News and secondary coverage for committee content."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "research_compute_powerhouse",
+        "curriculum_led",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 14,
+        "research_compute_powerhouse": 16,
+        "curriculum_led": 14,
+        "governance_led": 9,
+        "student_success_led": 6,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": false,
+      "addresses_ethics": true,
+      "adopted_date": "2024-05",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Zurada",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 21300000,
+      "funding_source_buckets": {
+        "other_unclear": 6,
+        "philanthropy_foundation": 2,
+        "industry_vendor": 4,
+        "public_federal_state": 3,
+        "institutional": 4
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "other": 3,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 5,
+          "products": [
+            "Azure AI / Microsoft research tooling",
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (paid employee add-on)",
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "Blackboard",
+          "mentions": 2,
+          "products": [
+            "Blackboard Ally",
+            "Blackboard Ally (AI accessibility)"
+          ]
+        },
+        {
+          "vendor": "Aidoc Aidoc AI Care Platform",
+          "mentions": 1,
+          "products": [
+            "Aidoc AI Care Platform"
+          ]
+        },
+        {
+          "vendor": "Aidoc Aidoc AI Care Platform (radiology AI)",
+          "mentions": 1,
+          "products": [
+            "Aidoc AI Care Platform (radiology AI)"
+          ]
+        },
+        {
+          "vendor": "Consensus Consensus",
+          "mentions": 1,
+          "products": [
+            "Consensus"
+          ]
+        },
+        {
+          "vendor": "Elicit Elicit",
+          "mentions": 1,
+          "products": [
+            "Elicit"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "IBM Skills Academy / IBM Learning"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Zurada HPC cluster"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        },
+        {
+          "vendor": "SciSpace SciSpace",
+          "mentions": 1,
+          "products": [
+            "SciSpace"
+          ]
+        },
+        {
+          "vendor": "UofL ITS CARDS",
+          "mentions": 1,
+          "products": [
+            "CARDS"
+          ]
+        },
+        {
+          "vendor": "UofL ITS LARCC",
+          "mentions": 1,
+          "products": [
+            "LARCC"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot and Microsoft 365 Copilot designated as sanctioned enterprise AI",
+          "summary": "Demonstrates the common R1 pattern of standardizing on Microsoft's enterprise stack for AI while deliberately avoiding commitment to a campus-wide ChatGPT Edu or Claude for Education deployment.",
+          "source_url": "https://louisville.edu/its/services/ai"
+        },
+        {
+          "claim_type": "career",
+          "title": "IBM Skills Academy at the Center for Digital Transformation",
+          "summary": "Long-running industry-academic pipeline that gives UofL students and regional workers badged credentials in AI/data skills, pre-dating most peer R1 workforce AI programs.",
+          "source_url": "https://louisville.edu/digital-transformation/docs/ibm-skills-academy-walkthrough/view"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Center for AI in Radiological Sciences (CAIRS) and UofL Health Aidoc deployment",
+          "summary": "A pair of linked clinical-AI moves that move UofL from AI education into production diagnostic AI operating on real patients at scale.",
+          "source_url": "https://louisville.edu/medicine/departments/radiology/cairs"
+        },
+        {
+          "claim_type": "career",
+          "title": "Kentucky Center for Digital Innovation as cyber+AI workforce hub",
+          "summary": "Positions a dedicated university center at the cyber-AI intersection in a state without a stand-alone state higher-ed AI policy, filling a regional coordination gap.",
+          "source_url": "https://centers.louisville.edu/kentucky-center-digital-innovation"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Delphi Center generative AI faculty development program",
+          "summary": "A central faculty development engine that substitutes for a prescriptive campus policy — investing in teaching practice rather than compliance instruments.",
+          "source_url": "https://delphi.louisville.edu/teaching-resources/generative-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Louisville Automation & Robotics Research Institute (LARRI) AI and robotics program",
+          "summary": "UofL's physical-AI and robotics base — essential when the sector conversation broadens from generative AI into agentic and physical AI.",
+          "source_url": "https://engineering.louisville.edu/research/centersinstitutes/larri/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "College of Business AI Forum and MBA AI application courses",
+          "summary": "Embeds employer voice in AI curriculum design — a replicable model for regional business schools under pressure to make AI learning outcomes job-aligned.",
+          "source_url": "https://business.louisville.edu/about/leadership-admin/ai-forum/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Delphi Center and DRC collaboration on accessible AI-era course design",
+          "summary": "An explicit equity/AI coupling: rather than bolting on accessibility, UofL frames AI-era course redesign and accessibility as a single faculty-development workflow.",
+          "source_url": "https://delphi.louisville.edu/teaching-resources/creating-accessible-courses"
+        }
+      ],
+      "public_claim_count": 8
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 8,
+      "control_signal_count": 8,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No published stand-alone AI strategy document — strategy direction is distributed across the 2026-2030 strategic plan, the 2024 Faculty Senate AI committee report, and operational pages (ITS, Delphi, DTC).",
+        "No disclosed dollar amounts for Microsoft Copilot / M365 Copilot contracts, Zurada HPC cost, or total CAIRS endowment.",
+        "Exact founding year for the Kentucky Center for Digital Innovation and CAIRS not surfaced on public pages.",
+        "No public evidence of an AI-specific student chatbot or AI-driven predictive retention analytics deployment (only general assistive tech and Blackboard Ally).",
+        "GPU count for Zurada not published, though H200/H100 and AMD CPU presence is confirmed.",
+        "Adoption metrics (Copilot active users, M365 Copilot licenses sold, IBM Skills Academy graduates) are not publicly disclosed.",
+        "No single named chief AI officer; academic AI leadership is distributed across the Provost's AI committee co-chairs, DTC leadership (Sharon Kerrick), and ITS (Karlis Kaugars).",
+        "Faculty Senate AI committee report PDF on legislature.ky.gov was binary-formatted and could not be fully parsed; relied on UofL News and secondary coverage for committee content."
+      ]
+    }
+  }
+}

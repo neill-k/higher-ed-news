@@ -1,0 +1,1344 @@
+{
+  "institution": "University of Rhode Island",
+  "slug": "university-of-rhode-island",
+  "city_state": "Kingston, RI",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 17210,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Marc B. Parlange",
+      "url": "https://www.uri.edu/about/leadership"
+    },
+    "provost": {
+      "name": "Barbara E. Wolfe",
+      "url": "https://web.uri.edu/provost/people/"
+    },
+    "cio": {
+      "name": "Gabriele Fariello",
+      "url": "https://www.uri.edu/news/2024/08/gabriele-fariello-appointed-chief-information-officer-at-uri/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Gaurav Khanna",
+      "title": "Assistant Vice President for Research Computing; Director, Institute for AI & Computational Research; Professor of Physics",
+      "url": "https://web.uri.edu/iacr/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Responsible Use of AI at URI (preliminary guidance)",
+        "url": "https://its.uri.edu/ai-at-uri/",
+        "year": 2025
+      },
+      {
+        "title": "AI at URI (Provost's Office initiatives page)",
+        "url": "https://web.uri.edu/provost/initiatives/ai-at-uri/",
+        "year": 2025
+      },
+      {
+        "title": "Rhode Island AI Task Force Report (URI faculty contributors)",
+        "url": "https://its.uri.edu/2026/02/05/rhode-islands-ai-task-force-report/",
+        "year": 2026
+      }
+    ],
+    "summary": "URI does not yet publish a single consolidated AI strategy document; direction is distributed across the Provost's AI-at-URI initiative page, the ITS Responsible Use of AI preliminary guidance, and the newly launched Institute for AI & Computational Research (IACR, September 2025). An August 2025 'Ideas to Impact' strategy session (co-hosted with AWS) began shaping a more formal approach, and in early 2026 URI leadership pointed to the forthcoming statewide Rhode Island AI Task Force report (released January 2026) as a framing document for URI's AI posture. URI positions itself as 'Rhode Island's flagship R1 research university' with a responsibility to lead AI development and thoughtful application across higher education."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://its.uri.edu/ai-at-uri/",
+      "https://its.uri.edu/2025/11/13/generative-ai/",
+      "https://web.uri.edu/provost/initiatives/ai-at-uri/",
+      "https://web.uri.edu/atl/syllabus-design-statements/",
+      "https://uri.libguides.com/ai/instructors"
+    ],
+    "adopted_date": "2025-11",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty and staff lead decision-making regarding AI deployment (people-first principle)",
+      "Clearly disclose when AI tools are used to create content or inform decisions (transparency)",
+      "Validate AI outputs and assume responsibility for their use (accountability)",
+      "Mitigate algorithmic bias and respect diversity (fairness and inclusivity)",
+      "Follow URI's Data Classification Guidelines; do not input PII, patient records, or restricted data into public AI platforms like ChatGPT",
+      "Disable history and logging features where available; avoid inputting confidential or licensed content",
+      "All AI tools must comply with WCAG and ADA accessibility requirements",
+      "Educators disclose AI use in course materials and communicate course-level AI policies to students",
+      "Students must attribute AI-generated content and follow instructor policies; misuse can breach the Student Code of Conduct"
+    ],
+    "summary": "URI's Responsible Use of AI page frames AI adoption around five core values (people, transparency, accountability, fairness/inclusivity, privacy/security) and is explicitly labeled 'preliminary guidance' rather than a ratified policy. There is no university-wide policy mandating generative-AI syllabus statements, but the Provost and ATL encourage faculty to set course-level expectations and provide syllabus-statement resources. Data-handling rules bar PII and restricted-tier data from public AI tools and require adherence to URI's Data Classification Schema."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Institute for AI & Computational Research (IACR)",
+        "type": "office",
+        "scope": "University-wide hub for AI, data science, HPC, and quantum computing research; manages research computing infrastructure and coordinates cross-disciplinary AI research. Reports to the CIO.",
+        "url": "https://web.uri.edu/iacr/"
+      },
+      {
+        "name": "IACR Advisory Committee",
+        "type": "committee",
+        "scope": "Interdisciplinary advisory group overseeing research, infrastructure, and outreach. Members include Drew Zhang (Business), Ying Zhang (Environment & Life Sciences), Jason Dwyer (Arts & Sciences), Chris Kincaid (Oceanography), and Chris Hemme (Pharmacy).",
+        "url": "https://web.uri.edu/iacr/"
+      },
+      {
+        "name": "AI Task Force (2023-2025)",
+        "type": "task_force",
+        "scope": "Examined AI impact across three domains: Teaching and Learning, Research, and University Functions. Concluded in 2025; findings feed the Provost's AI-at-URI initiative.",
+        "url": "https://web.uri.edu/provost/initiatives/ai-at-uri/"
+      },
+      {
+        "name": "URI AI Lab (Carothers Library)",
+        "type": "office",
+        "scope": "Faculty-run AI research collaboration, education, and outreach hub inside the university library; runs workshops each semester and mentors approximately 35 students/semester on applied AI projects.",
+        "url": "https://web.uri.edu/ai/"
+      }
+    ],
+    "summary": "Governance is multi-nodal: the CIO-reporting Institute for AI & Computational Research (launched September 2025) anchors research and infrastructure; a completed AI Task Force (2023-2025) supplied teaching/research/operations recommendations now owned by the Provost's AI-at-URI initiative; ITS publishes the Responsible Use of AI guidance; and the URI AI Lab (inside the Carothers Library since 2018) acts as a faculty-run outreach and training hub. URI does not yet have a dedicated Chief AI Officer."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of the Institute for AI & Computational Research (IACR)",
+      "description": "URI launched the Institute for AI & Computational Research on September 11, 2025 to position URI as a regional leader in AI, data science, HPC, and quantum computing. Directed by Gaurav Khanna (AVP Research Computing), the institute builds on the 2023 Center for Computational Research and supports 150+ faculty researchers across campuses.",
+      "significance": "Creates URI's first unified institutional hub for AI research, infrastructure, and outreach and formally ties AI capability to the CIO's portfolio.",
+      "date_announced": "2025-09-11",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "computing_infrastructure",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "quantum_and_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "URI central IT Services, Vice President for Research, and faculty research grants",
+        "description": "Co-funded by ITS, VPR, and faculty grants; absorbs the existing CCR and expands it into an institute with research, infrastructure, and outreach committees."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Massachusetts Green High Performance Computing Center (MGHPCC)",
+            "UMass",
+            "MIT",
+            "Harvard",
+            "Boston University",
+            "Yale",
+            "Northeastern"
+          ],
+          "description": "URI was the first non-Massachusetts member to join MGHPCC (2021); IACR extends this into shared AI/quantum compute access."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Massachusetts AI Hub"
+          ],
+          "description": "Participates in the Massachusetts AI Hub's AI Computational Resource project, expanding Mass. compute access into Rhode Island."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Centralizes AI research computing governance under the CIO and formalizes access, security, and research support workflows.",
+      "source_urls": [
+        "https://www.uri.edu/news/2025/09/uri-launches-new-institute-to-lead-in-ai-and-computational-research/",
+        "https://web.uri.edu/iacr/",
+        "https://its.uri.edu/center-for-computational-research/"
+      ]
+    },
+    {
+      "title": "Responsible Use of AI guidance and campus-wide principles",
+      "description": "ITS published a 'Responsible Use of AI at URI' page laying out five core principles (people, transparency, accountability, fairness/inclusivity, privacy/security), with explicit rules prohibiting PII, patient records, and restricted-tier data from being entered into public AI tools like ChatGPT, and requiring WCAG/ADA-compliant AI tools.",
+      "significance": "Establishes URI's first campus-wide responsible AI principles and data-handling rules, though explicitly labeled 'preliminary guidance.'",
+      "date_announced": "2025-11-13",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "disability_and_accessibility"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (ITS)",
+        "description": "Policy/guidance authoring effort led by ITS with Provost partnership; no separate capital outlay disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "URI Data Classification Schema",
+          "vendor": "University of Rhode Island",
+          "role": "Referenced by the AI guidance to determine which data types may be placed in AI tools."
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Sets expectations that all AI tools comply with accessibility law and data classification rules; binds faculty, staff, students, researchers, and admin users.",
+      "source_urls": [
+        "https://its.uri.edu/ai-at-uri/",
+        "https://its.uri.edu/2025/11/13/generative-ai/"
+      ]
+    },
+    {
+      "title": "URI AI Lab in the Carothers Library",
+      "description": "Since 2018, URI has operated an AI Lab inside the Robert L. Carothers Library and Learning Commons — reportedly the first university library AI lab — offering open workshops on Machine Learning, Deep Learning, Data Science, Generative AI, R, and Python, and mentoring roughly 35 students per semester on applied AI projects.",
+      "significance": "Provides a persistent, library-anchored AI training and outreach surface that is open to all students and faculty, lowering the barrier to AI literacy.",
+      "date_announced": "2018-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "URI central IT Services and Libraries",
+        "description": "Faculty-run lab jointly administered by ITS and the Libraries; each semester runs a published workshop series and mentors students on applied AI projects."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UMass Unity Research Cluster"
+          ],
+          "description": "Workshops cross-promoted with the UMass Unity documentation community, signaling regional shared practice."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Open workshop model signals URI encourages AI literacy across all disciplines.",
+      "source_urls": [
+        "https://www.uri.edu/news/2018/09/uri-opens-first-artificial-intelligence-lab-housed-in-a-university-library/",
+        "https://events.uri.edu/group/ai",
+        "https://web.uri.edu/ai/"
+      ]
+    },
+    {
+      "title": "Business Analytics and AI (B.A.I.) bachelor's major",
+      "description": "The URI College of Business offers a Bachelor of Science with a major in Business Analytics and AI (B.A.I.), focused on data-informed business decisions and applied AI. URI also offers a FinTech-B.A.I. double major and a Business Analytics minor.",
+      "significance": "Gives URI a named undergraduate credential tying business decision-making to AI and analytics, a differentiator for a regional flagship.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "URI College of Business",
+        "description": "Standing undergraduate major supported by the College of Business; endowed Alfred J. Verrecchia chair in AI and Business Analytics held by Drew Zhang."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://web.uri.edu/business/bai-business-analytics-and-ai/",
+        "https://web.uri.edu/advising/business-analytics-and-intelligence/"
+      ]
+    },
+    {
+      "title": "Computer Science track in AI and Engineering undergraduate AI certificate",
+      "description": "URI announced in March 2026 that a Computer Science track in AI is launching 'this year' and that the College of Engineering is developing an undergraduate certificate in AI, as part of the commitments made by URI's representatives to the Rhode Island AI Task Force.",
+      "significance": "Broadens AI credentialing beyond the College of Business and aligns URI's degree pipeline with the state task-force call for AI accreditation pathways.",
+      "date_announced": "2026-03-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "industry_certification_pathway",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "URI Colleges of Arts & Sciences and Engineering",
+        "description": "Internal academic program investment; specific budget not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uri.edu/news/2026/03/uri-professors-aiding-states-push-to-become-national-leader-in-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Massachusetts Green HPC Center (MGHPCC) partnership and GPU/HPC infrastructure",
+      "description": "URI joined MGHPCC in 2021 as its first non-Massachusetts member and operates a Tyler Hall data center (2,300 sq ft, 90 tons of cooling, 160 kVA UPS, 450 kW generator) hosting a cluster of ~500 nodes, 25,000 compute cores, and 1,500 AI GPUs across Intel, AMD, and Nvidia hardware.",
+      "significance": "Gives a mid-size flagship research university access to elite-tier shared HPC resources, materially lowering the AI compute cost curve for its 150+ computational researchers.",
+      "date_announced": "2021-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "URI capital + MGHPCC consortium + faculty grants",
+        "description": "Tyler Hall data center plus MGHPCC membership; exact capital outlay not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "MGHPCC",
+            "UMass",
+            "MIT",
+            "Harvard",
+            "Boston University",
+            "Northeastern"
+          ],
+          "description": "Shared research computing infrastructure with leading Northeast research universities."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Nvidia GPGPUs",
+          "vendor": "Nvidia",
+          "role": "Primary AI/ML compute acceleration across the URI cluster (~1,500 GPUs)."
+        },
+        {
+          "name": "Intel + AMD multi-core CPUs",
+          "vendor": "Intel / AMD",
+          "role": "General HPC compute nodes."
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://its.uri.edu/center-for-computational-research/",
+        "https://web.uri.edu/research-admin/uri-core-facility-equipment-resources-descriptions-for-grant-proposals/research-computing-resources/",
+        "https://sc23.mghpcc.org/project/uri-center-for-computational-research/"
+      ]
+    },
+    {
+      "title": "URI AI Chatbot proof of concept (with Infused Innovations)",
+      "description": "A joint student project guided by Professor Jim McGwin and developed with Infused Innovations created a proof-of-concept AI chatbot that surfaces URI resources and guides students through course selection, resources, and campus life. Early student feedback was positive.",
+      "significance": "Demonstrates URI's willingness to partner with a local tech vendor on a student-built AI assistant, a pattern of lightweight industry-academic AI co-development.",
+      "date_announced": "2023-07-19",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "URI + Infused Innovations (in-kind)",
+        "description": "Student-led proof-of-concept with vendor mentorship; no disclosed capital outlay."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Infused Innovations"
+          ],
+          "description": "Local technology consultancy mentored the student team that built the chatbot."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "URI AI Chatbot (POC)",
+          "vendor": "Infused Innovations / URI",
+          "role": "Student-facing virtual assistant surfacing campus resources."
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Governed under URI's responsible-AI principles and student-data protections.",
+      "source_urls": [
+        "https://its.uri.edu/2023/07/19/faculty-success-story-discover-uri-ai-chatbot/"
+      ]
+    },
+    {
+      "title": "URI representation on the Rhode Island AI Task Force (2024-2026 report)",
+      "description": "URI faculty — notably Gaurav Khanna (healthcare working group: diagnostics, radiology, precision medicine) and Drew Zhang (manufacturing and defense working group) — were among the ~70 members of the Rhode Island AI Task Force created by the Governor in 2024. The 75-page final report (January 2026) recommends an 'AI for Rhode Island' hub, AI accreditation programs, micro-credentialing, and registered AI apprenticeships.",
+      "significance": "Embeds URI faculty into state-level AI policy formation and connects URI's academic programs directly to Rhode Island workforce strategy.",
+      "date_announced": "2026-01-26",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "governance_and_policy",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "employers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "State of Rhode Island (Executive Office of Technology Services & Security)",
+        "description": "In-kind faculty time; state-led policy development."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Rhode Island",
+            "Rhode Island Executive Office of Technology Services & Security"
+          ],
+          "description": "URI faculty served on state AI task force working groups, shaping state strategy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Task force recommendations create state-level expectations for AI accreditation, micro-credentialing, and apprenticeships that URI will be expected to deliver against.",
+      "source_urls": [
+        "https://its.uri.edu/2026/02/05/rhode-islands-ai-task-force-report/",
+        "https://rhodeislandcurrent.com/2026/01/28/rhode-island-releases-its-roadmap-for-ai-some-boundaries-have-yet-to-be-drawn/",
+        "https://www.uri.edu/news/2026/03/uri-professors-aiding-states-push-to-become-national-leader-in-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "'From Ideas to Impact' collaborative AI strategy session with AWS",
+      "description": "URI convened an August 2025 strategy session titled 'From Ideas to Impact' that brought campus leaders together with a guest from Amazon Web Services to shape URI's emerging AI strategy.",
+      "significance": "Signals URI's industry engagement in setting its AI direction and frames AWS as a likely infrastructure partner for future cloud AI deployments.",
+      "date_announced": "2025-08-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_vendor_partnership",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (AWS in-kind expertise)",
+        "description": "Strategy session convened by URI leadership with AWS participation; no funding disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services (AWS)"
+          ],
+          "description": "AWS representative co-facilitated URI's internal AI strategy session."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AWS",
+          "vendor": "Amazon Web Services",
+          "role": "External strategic advisor on URI's AI roadmap."
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Sets the stage for more formal AWS-based AI services and potential cloud-AI vendor partnerships.",
+      "source_urls": [
+        "https://events.uri.edu/event/from-ideas-to-impact-a-collaborative-ai-strategy-session"
+      ]
+    },
+    {
+      "title": "Dialysis Chatbot research grant (Kunal Mankodiya)",
+      "description": "Professor Kunal Mankodiya received NSF pilot funding (announced December 2025) to design and test a 'Dialysis Chatbot' — an AI-driven conversational assistant to empower dialysis patients with accessible self-management support in Rhode Island.",
+      "significance": "Translates URI's AI capability into patient-facing digital-health tooling and models how AI can close care gaps for vulnerable populations.",
+      "date_announced": "2025-12-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "digital_divide_and_access",
+        "ai_chatbot_or_virtual_assistant"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "National Science Foundation",
+        "description": "NSF pilot grant (amount not disclosed in public announcement) as part of a broader $56M+ RI NSF package announced in 2025."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded pilot with community health application."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uri.edu/news/2025/12/uri-faculty-receive-funding-from-national-science-foundation-to-pilot-research-including-indigenous-agriculture-and-digital-health-tech/"
+      ]
+    },
+    {
+      "title": "NSF CAREER Award for assistive/rehabilitative AI robotics (Reza Abiri)",
+      "description": "Assistant Professor Reza Abiri received a $546,848 NSF CAREER Award (announced August 2025) to develop multimodal, human-centered AI enabling noninvasive dexterous manipulation for assistive and rehabilitative robotics; the work is tied to URI's Translational Neurorobotics Lab (TN Lab).",
+      "significance": "Flagship example of AI + robotics research at URI tied to federal career-development funding and a named research lab.",
+      "date_announced": "2025-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "disability_and_accessibility"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 546848,
+        "funding_source": "National Science Foundation (CAREER)",
+        "description": "$546,848 NSF CAREER Award over five years supporting multimodal AI-for-robotics research."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "CAREER program funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uri.edu/news/2025/08/uri-engineering-professor-recipient-of-nsf-career-award-for-assistive-and-rehabilitative-robotics-research/"
+      ]
+    },
+    {
+      "title": "Quantum Information Science workforce grant ($5M NSF ExpandQISE)",
+      "description": "URI received a $4,990,252 NSF ExpandQISE Track 2 award (announced October 2025) titled 'URI-PQI Collaboration: Application of Quantum Fundamentals to Advance Research and Workforce Development,' broadening participation in quantum information science — a pillar of the IACR's quantum-and-AI focus.",
+      "significance": "Anchors URI's quantum+AI ambition with a near-$5M federal award and ties the IACR directly to federal workforce-development priorities.",
+      "date_announced": "2025-10-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "ai_for_scientific_discovery",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "quantum_and_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4990252,
+        "funding_source": "National Science Foundation (ExpandQISE Track 2)",
+        "description": "$4,990,252 NSF award funding quantum workforce development and research."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "Partnership to Advance Quantum Information (PQI)"
+          ],
+          "description": "URI-PQI collaboration under NSF ExpandQISE."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uri.edu/news/2025/10/uri-receives-5-million-nsf-grant-aiming-to-broaden-participation-in-quantum-information-science/"
+      ]
+    },
+    {
+      "title": "'Discovering AI @ URI Day' campus showcase (December 2025)",
+      "description": "URI held a 'Discovering AI @ URI Day' in December 2025 showcasing cross-campus AI use in research, teaching, and innovation — a flagship internal marketing event profiled by the Provost's office.",
+      "significance": "Signals URI's push to normalize AI literacy across disciplines and surface faculty adopters to the broader campus community.",
+      "date_announced": "2025-12-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "URI Provost's Office",
+        "description": "Event-scale investment."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uri.edu/news/2025/12/uris-use-of-artificial-intelligence-in-research-teaching-and-innovation-on-display-at-discovering-ai-uri-day/"
+      ]
+    },
+    {
+      "title": "Syllabus-statement resources and ATL faculty guidance on AI",
+      "description": "The Office for the Advancement of Teaching and Learning (ATL) publishes syllabus-statement resources, a 'Teaching with ChatGPT and other AI' hub, and an AI LibGuide for instructors; as of July 2025 URI has no university-wide generative-AI coursework policy and expects faculty to set course-level AI expectations aligned with existing integrity policies.",
+      "significance": "Puts URI in the 'faculty-discretion with institutional support' model — cautious-permissive rather than prohibitive — for classroom generative-AI use.",
+      "date_announced": "2025-01-12",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "faculty_training_and_development",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (ATL)",
+        "description": "Faculty-development and advisory workload only."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Absence of a university-wide mandate preserves faculty discretion but raises consistency risk across the curriculum.",
+      "source_urls": [
+        "https://web.uri.edu/atl/syllabus-design-statements/",
+        "https://web.uri.edu/atl/teaching-with-chatgpt-other-ai/",
+        "https://uri.libguides.com/ai/instructors",
+        "https://web.uri.edu/provost/wp-content/uploads/sites/2152/2024-Spring-Updates-and-Syllabus-Policy-Memo-1-12-2024.pdf"
+      ]
+    },
+    {
+      "title": "Hack@URI 2026 student AI hackathon",
+      "description": "The Hack@URI student hackathon is scheduled for February 21-22, 2026 at the Fascitelli Center, with AI-focused projects featured on the Provost's AI-at-URI page as a flagship student AI experience.",
+      "significance": "Sustains a visible student-culture signal that URI supports hands-on AI building, complementing the library-based AI Lab mentorship track.",
+      "date_announced": "2026-02-21",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "career_and_workforce_readiness",
+        "ai_literacy_requirement",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "URI + sponsors",
+        "description": "Student-run hackathon with corporate sponsor support."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Corporate sponsors (unspecified)"
+          ],
+          "description": "Hackathon industry sponsorship typical for URI student hack events."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hackaturi.com/",
+        "https://web.uri.edu/provost/initiatives/ai-at-uri/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Institute for AI & Computational Research (IACR)",
+      "focus": "AI, data science, HPC, and quantum computing; manages URI research computing infrastructure and supports 150+ faculty researchers.",
+      "founded": "2025",
+      "url": "https://web.uri.edu/iacr/"
+    },
+    {
+      "name": "URI AI Lab (Carothers Library)",
+      "focus": "Faculty-run AI research collaboration, education, and outreach; workshops on ML, DL, generative AI, R, and Python.",
+      "founded": "2018",
+      "url": "https://web.uri.edu/ai/"
+    },
+    {
+      "name": "Translational Neurorobotics Laboratory (TN Lab)",
+      "focus": "AI-enabled biosignal control systems and medical robotic technologies for neurorehabilitation and motor control restoration.",
+      "founded": null,
+      "url": "https://web.uri.edu/provost/initiatives/ai-at-uri/research/"
+    },
+    {
+      "name": "Rhode Island INBRE Molecular Informatics Core",
+      "focus": "NIH-funded bioinformatics, molecular modeling, and VR/3D visualization services including ML methods for biomedical and environmental research.",
+      "founded": null,
+      "url": "https://web.uri.edu/provost/initiatives/ai-at-uri/research/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Business Analytics and AI (B.A.I.), B.S.",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://web.uri.edu/business/bai-business-analytics-and-ai/"
+    },
+    {
+      "type": "degree",
+      "name": "FinTech-B.A.I. Double Major",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://web.uri.edu/business/bai-business-analytics-and-ai/"
+    },
+    {
+      "type": "minor",
+      "name": "Business Analytics Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://web.uri.edu/business/bai-business-analytics-and-ai/"
+    },
+    {
+      "type": "concentration",
+      "name": "Computer Science AI Track (launching)",
+      "level": "undergrad",
+      "launched": "2026-08",
+      "url": "https://www.uri.edu/news/2026/03/uri-professors-aiding-states-push-to-become-national-leader-in-artificial-intelligence/"
+    },
+    {
+      "type": "certificate",
+      "name": "College of Engineering Undergraduate AI Certificate (in development)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.uri.edu/news/2026/03/uri-professors-aiding-states-push-to-become-national-leader-in-artificial-intelligence/"
+    },
+    {
+      "type": "course",
+      "name": "URI AI Lab workshops (ML, DL, Data Science, Generative AI, R, Python)",
+      "level": "both",
+      "launched": "2018-09",
+      "url": "https://events.uri.edu/group/ai"
+    }
+  ],
+  "enterprise_platforms": [],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "URI Research Computing Cluster (Tyler Hall) / IACR cluster with MGHPCC shared resources",
+    "gpu_count": 1500,
+    "url": "https://web.uri.edu/research-admin/uri-core-facility-equipment-resources-descriptions-for-grant-proposals/research-computing-resources/",
+    "summary": "URI runs a research computing cluster from a 2,300 sq ft climate-controlled data center in Tyler Hall (90 tons cooling, 160 kVA UPS, 450 kW generator). The cluster has approximately 500 nodes, 25,000 compute cores, and 1,500 AI GPUs (Nvidia GPGPUs) across Intel and AMD CPU hardware. Through its 2021 MGHPCC membership — URI is MGHPCC's first non-Massachusetts member — URI researchers also access shared HPC resources with UMass, MIT, Harvard, Boston University, and Northeastern, and participate in the Massachusetts AI Hub's AI Computational Resource project."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF ExpandQISE Track 2 quantum workforce award",
+      "amount_usd": 4990252,
+      "source": "National Science Foundation",
+      "purpose": "URI-PQI quantum information science workforce development and research",
+      "date": "2025-10",
+      "url": "https://www.uri.edu/news/2025/10/uri-receives-5-million-nsf-grant-aiming-to-broaden-participation-in-quantum-information-science/"
+    },
+    {
+      "title": "NSF CAREER Award (Reza Abiri, AI-driven assistive robotics)",
+      "amount_usd": 546848,
+      "source": "National Science Foundation",
+      "purpose": "Multimodal human-centered AI for noninvasive dexterous manipulation and neurorehabilitation",
+      "date": "2025-08",
+      "url": "https://www.uri.edu/news/2025/08/uri-engineering-professor-recipient-of-nsf-career-award-for-assistive-and-rehabilitative-robotics-research/"
+    },
+    {
+      "title": "NSF grant to support RI research ecosystem (EPSCoR-related)",
+      "amount_usd": 8000000,
+      "source": "National Science Foundation",
+      "purpose": "State research ecosystem support including AI-adjacent workforce and STEM pipeline",
+      "date": "2024-08",
+      "url": "https://www.uri.edu/news/2024/08/uri-awarded-8m-nsf-grant-to-support-state-research-ecosystem/"
+    },
+    {
+      "title": "Rhode Island congressional delegation $56M+ NSF package",
+      "amount_usd": 56000000,
+      "source": "National Science Foundation (multi-institution package)",
+      "purpose": "Ocean State research including AI, STEM pipeline development, mathematics",
+      "date": "2025-09",
+      "url": "https://amo.house.gov/press-release/rhode-island-congressional-delegation-welcomes-over-56-million-for-ocean-state-research"
+    },
+    {
+      "title": "Alfred J. Verrecchia Endowed Chair in AI and Business Analytics",
+      "amount_usd": null,
+      "source": "Alfred J. Verrecchia (endowment, College of Business)",
+      "purpose": "Endowed chair underwriting faculty leadership in AI and Business Analytics (held by Drew Zhang)",
+      "date": null,
+      "url": "https://www.uri.edu/news/2026/03/uri-professors-aiding-states-push-to-become-national-leader-in-artificial-intelligence/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Massachusetts Green High Performance Computing Center (MGHPCC)",
+      "purpose": "Shared HPC/AI research infrastructure; URI is MGHPCC's first non-Massachusetts member",
+      "date": "2021-01",
+      "url": "https://its.uri.edu/center-for-computational-research/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Massachusetts AI Hub (AI Computational Resource project)",
+      "purpose": "Expand Massachusetts AI compute access into Rhode Island via IACR",
+      "date": "2025-09",
+      "url": "https://www.uri.edu/news/2025/09/uri-launches-new-institute-to-lead-in-ai-and-computational-research/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "State of Rhode Island — Executive Office of Technology Services & Security",
+      "purpose": "Rhode Island AI Task Force membership and state AI roadmap contribution",
+      "date": "2024-01",
+      "url": "https://its.uri.edu/2026/02/05/rhode-islands-ai-task-force-report/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services (AWS)",
+      "purpose": "Co-facilitated 'From Ideas to Impact' AI strategy session (August 2025)",
+      "date": "2025-08",
+      "url": "https://events.uri.edu/event/from-ideas-to-impact-a-collaborative-ai-strategy-session"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Infused Innovations",
+      "purpose": "Co-developed URI student AI chatbot proof of concept",
+      "date": "2023-07",
+      "url": "https://its.uri.edu/2023/07/19/faculty-success-story-discover-uri-ai-chatbot/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Hasbro",
+      "purpose": "URI x Hasbro Supply Chain Panel featured on AI-at-URI initiative page",
+      "date": "2025-03",
+      "url": "https://web.uri.edu/provost/initiatives/ai-at-uri/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Rhode Island INBRE / NIH",
+      "purpose": "Molecular Informatics Core with ML/AI bioinformatics services",
+      "date": null,
+      "url": "https://web.uri.edu/provost/initiatives/ai-at-uri/research/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "URI AI Chatbot (POC with Infused Innovations)",
+      "scope": "Student-facing virtual assistant surfacing URI campus resources and guiding course/resource discovery; proof-of-concept.",
+      "url": "https://its.uri.edu/2023/07/19/faculty-success-story-discover-uri-ai-chatbot/"
+    },
+    {
+      "type": "other",
+      "name": "URI AI Lab workshops and 35-student/semester mentorship program",
+      "scope": "Open to students from all disciplines; covers ML, DL, Data Science, Generative AI, R, Python.",
+      "url": "https://events.uri.edu/group/ai"
+    },
+    {
+      "type": "other",
+      "name": "Hack@URI 2026 AI-focused hackathon",
+      "scope": "Student-run AI hackathon (Feb 21-22, 2026) at Fascitelli Center.",
+      "url": "https://hackaturi.com/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI tool accessibility requirement (WCAG/ADA)",
+      "description": "URI's Responsible Use of AI guidance requires all AI tools used at URI to comply with Web Content Accessibility Guidelines (WCAG) and the Americans with Disabilities Act (ADA).",
+      "url": "https://its.uri.edu/ai-at-uri/"
+    },
+    {
+      "title": "NSF ExpandQISE broadening-participation focus",
+      "description": "URI's $4.99M NSF ExpandQISE Track 2 award explicitly targets broadening participation in quantum information science.",
+      "url": "https://www.uri.edu/news/2025/10/uri-receives-5-million-nsf-grant-aiming-to-broaden-participation-in-quantum-information-science/"
+    },
+    {
+      "title": "Dialysis Chatbot digital-divide focus",
+      "description": "NSF-funded AI chatbot research aimed at bridging dialysis-care gaps for Rhode Island patients — an equity-oriented application of generative AI.",
+      "url": "https://www.uri.edu/news/2025/12/uri-faculty-receive-funding-from-national-science-foundation-to-pilot-research-including-indigenous-agriculture-and-digital-health-tech/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Rhode Island",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Rhode Island stood up a statewide AI Task Force in 2024; its 75-page final report (released January 2026 by the Rhode Island Executive Office of Technology Services & Security) lays out the state's AI roadmap and recommends creation of 'AI for Rhode Island' — a hub offering technical advisory, project management, and learning resources — plus AI accreditation programs, micro-credentialing, and registered AI apprenticeships. URI does not belong to a multi-institution public system, so there is no system-level AI policy above the institution.",
+    "urls": [
+      "https://its.uri.edu/2026/02/05/rhode-islands-ai-task-force-report/",
+      "https://rhodeislandcurrent.com/2026/01/28/rhode-island-releases-its-roadmap-for-ai-some-boundaries-have-yet-to-be-drawn/",
+      "https://www.bostonglobe.com/2026/01/29/metro/ai-rhode-island-plan-analysis/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Rhode Island — Rhode Island's sole public R1 research university, enrolling about 17,200 students in Kingston — is in a visible build-out phase on AI rather than a plateau. Leadership is distributed: President Marc Parlange and Provost Barbara Wolfe anchor the academic mission, CIO Gabriele Fariello (appointed August 2024) owns enterprise IT, and the newly launched Institute for AI & Computational Research (IACR, September 2025) — led by AVP for Research Computing Gaurav Khanna — reports up to the CIO and functions as URI's de facto AI strategy lead even though no Chief AI Officer has been named. Formal strategy is still gelling: URI hosted a 'From Ideas to Impact' AI strategy session with AWS in August 2025 and relies on a published-but-preliminary 'Responsible Use of AI at URI' guidance (ITS, 2025) organized around five principles (people, transparency, accountability, fairness/inclusivity, privacy/security). Policy stance is cautious-permissive: data-classification rules bar PII and restricted-tier data from public AI tools and all AI must be WCAG/ADA-compliant, but URI does not yet mandate generative-AI syllabus statements — faculty set course-level expectations with ATL support. Research infrastructure is the strongest dimension: the IACR absorbed the 2023 Center for Computational Research and runs a 500-node, 25,000-core, 1,500-GPU cluster out of Tyler Hall, with MGHPCC access (UMass, MIT, Harvard, BU, Yale, Northeastern) since URI became MGHPCC's first non-Massachusetts member in 2021. Federal investment is real: $4.99M NSF ExpandQISE for quantum workforce, $546K NSF CAREER for AI-driven assistive robotics, NSF-funded AI health chatbots, and an $8M NSF ecosystem grant. Academic credentials include a B.A.I. major in Business Analytics and AI, a FinTech-B.A.I. double major, a Business Analytics minor, a just-announced CS AI track, an in-development engineering AI certificate, and the library-housed URI AI Lab (2018), which mentors ~35 students/semester. URI faculty (Khanna, Drew Zhang, Indrani Mandal) sit on the Rhode Island AI Task Force whose January 2026 state roadmap will likely drive URI's next wave of workforce and credentialing investments.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.uri.edu/",
+      "https://www.uri.edu/about/leadership",
+      "https://www.uri.edu/news/2024/08/gabriele-fariello-appointed-chief-information-officer-at-uri/",
+      "https://web.uri.edu/president/leadership-council/",
+      "https://web.uri.edu/provost/people/",
+      "https://web.uri.edu/provost/initiatives/ai-at-uri/",
+      "https://web.uri.edu/provost/initiatives/ai-at-uri/research/",
+      "https://its.uri.edu/ai-at-uri/",
+      "https://its.uri.edu/2025/11/13/generative-ai/",
+      "https://its.uri.edu/2025/11/24/ai-lab-projects-fall-2025/",
+      "https://its.uri.edu/2023/07/19/faculty-success-story-discover-uri-ai-chatbot/",
+      "https://its.uri.edu/2026/02/05/rhode-islands-ai-task-force-report/",
+      "https://its.uri.edu/center-for-computational-research/",
+      "https://web.uri.edu/iacr/",
+      "https://web.uri.edu/ai/",
+      "https://web.uri.edu/ai/contact/",
+      "https://events.uri.edu/group/ai",
+      "https://events.uri.edu/group/center_for_computational_research",
+      "https://events.uri.edu/event/from-ideas-to-impact-a-collaborative-ai-strategy-session",
+      "https://web.uri.edu/business/bai-business-analytics-and-ai/",
+      "https://web.uri.edu/advising/business-analytics-and-intelligence/",
+      "https://web.uri.edu/atl/syllabus-design-statements/",
+      "https://web.uri.edu/atl/teaching-with-chatgpt-other-ai/",
+      "https://uri.libguides.com/ai",
+      "https://uri.libguides.com/ai/instructors",
+      "https://web.uri.edu/provost/wp-content/uploads/sites/2152/2024-Spring-Updates-and-Syllabus-Policy-Memo-1-12-2024.pdf",
+      "https://web.uri.edu/research-admin/uri-core-facility-equipment-resources-descriptions-for-grant-proposals/research-computing-resources/",
+      "https://sc23.mghpcc.org/project/uri-center-for-computational-research/",
+      "https://www.uri.edu/news/2025/09/uri-launches-new-institute-to-lead-in-ai-and-computational-research/",
+      "https://www.uri.edu/news/2025/12/uris-use-of-artificial-intelligence-in-research-teaching-and-innovation-on-display-at-discovering-ai-uri-day/",
+      "https://www.uri.edu/news/2025/10/uri-receives-5-million-nsf-grant-aiming-to-broaden-participation-in-quantum-information-science/",
+      "https://www.uri.edu/news/2025/08/uri-engineering-professor-recipient-of-nsf-career-award-for-assistive-and-rehabilitative-robotics-research/",
+      "https://www.uri.edu/news/2024/08/uri-awarded-8m-nsf-grant-to-support-state-research-ecosystem/",
+      "https://www.uri.edu/news/2025/12/uri-faculty-receive-funding-from-national-science-foundation-to-pilot-research-including-indigenous-agriculture-and-digital-health-tech/",
+      "https://www.uri.edu/news/2025/08/uri-prepares-to-welcome-more-than-17000-new-and-returning-students-to-its-campuses-3/",
+      "https://www.uri.edu/news/2018/09/uri-opens-first-artificial-intelligence-lab-housed-in-a-university-library/",
+      "https://www.uri.edu/news/2026/03/uri-professors-aiding-states-push-to-become-national-leader-in-artificial-intelligence/",
+      "https://www.uri.edu/news/2026/04/new-satellite-based-ai-approach-reveals-ocean-currents-in-unprecedented-detail/",
+      "https://rhodeislandcurrent.com/2026/01/28/rhode-island-releases-its-roadmap-for-ai-some-boundaries-have-yet-to-be-drawn/",
+      "https://rhodeislandcurrent.com/2025/11/10/uri-applications-break-a-record-gpas-of-incoming-first-year-students-are-rising-too/",
+      "https://www.bostonglobe.com/2026/01/29/metro/ai-rhode-island-plan-analysis/",
+      "https://amo.house.gov/press-release/rhode-island-congressional-delegation-welcomes-over-56-million-for-ocean-state-research",
+      "https://www.libraryjournal.com/story/180926URIlibraryAIlab",
+      "https://hackaturi.com/",
+      "https://en.wikipedia.org/wiki/University_of_Rhode_Island"
+    ],
+    "search_queries": [
+      "\"University of Rhode Island\" AI strategy 2025 2026",
+      "\"University of Rhode Island\" generative AI policy faculty students",
+      "\"University of Rhode Island\" AI research center institute 2025",
+      "\"University of Rhode Island\" AI degree certificate major minor",
+      "\"University of Rhode Island\" CIO Chief Information Officer president provost",
+      "\"University of Rhode Island\" Microsoft Copilot OR Gemini OR ChatGPT",
+      "\"University of Rhode Island\" NSF AI grant funding 2025",
+      "\"University of Rhode Island\" AI chatbot Siri assistant students",
+      "\"University of Rhode Island\" AI Lab Center for Computational Research GPU HPC",
+      "\"University of Rhode Island\" enrollment 2025 Kingston",
+      "\"University of Rhode Island\" academic integrity AI syllabus policy"
+    ],
+    "gaps_acknowledged": [
+      "URI has not published an enterprise-wide campus LLM rollout (no documented Microsoft Copilot, Google Gemini, or ChatGPT Edu license); enterprise_platforms left empty.",
+      "The Alfred J. Verrecchia endowed chair amount is not publicly disclosed.",
+      "The Tyler Hall data-center and IACR budgets are not publicly disclosed.",
+      "Several academic program launch dates (B.A.I. major, FinTech-B.A.I. double major, Business Analytics minor) are not published.",
+      "No public FERPA/AI litigation or major AI controversy was found for URI as of April 2026.",
+      "The CS AI track exact launch date is announced as 'this year' (2026) but not formally dated.",
+      "URI's Responsible Use of AI guidance is explicitly preliminary; a ratified university policy has not yet been released."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 3,
+        "research_compute_powerhouse": 18,
+        "curriculum_led": 16,
+        "governance_led": 11,
+        "student_success_led": 11,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-11",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "URI Research Computing Cluster (Tyler Hall) / IACR cluster with MGHPCC shared resources",
+        "gpu_count": 1500,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 69537100,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "philanthropy_foundation": 1,
+        "other_unclear": 3,
+        "institutional": 4,
+        "industry_vendor": 3
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "other": 2
+      },
+      "student_experience_signal_count": 4,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Amazon",
+          "mentions": 2,
+          "products": [
+            "AWS",
+            "URI AI Chatbot (POC)"
+          ]
+        },
+        {
+          "vendor": "Intel / AMD Intel + AMD multi-core CPUs",
+          "mentions": 1,
+          "products": [
+            "Intel + AMD multi-core CPUs"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Nvidia GPGPUs"
+          ]
+        },
+        {
+          "vendor": "University of Rhode Island URI Data Classification Schema",
+          "mentions": 1,
+          "products": [
+            "URI Data Classification Schema"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Amazon",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Responsible Use of AI guidance and campus-wide principles",
+          "summary": "Establishes URI's first campus-wide responsible AI principles and data-handling rules, though explicitly labeled 'preliminary guidance.'",
+          "source_url": "https://its.uri.edu/ai-at-uri/"
+        },
+        {
+          "claim_type": "career",
+          "title": "URI representation on the Rhode Island AI Task Force (2024-2026 report)",
+          "summary": "Embeds URI faculty into state-level AI policy formation and connects URI's academic programs directly to Rhode Island workforce strategy.",
+          "source_url": "https://its.uri.edu/2026/02/05/rhode-islands-ai-task-force-report/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Quantum Information Science workforce grant ($5M NSF ExpandQISE)",
+          "summary": "Anchors URI's quantum+AI ambition with a near-$5M federal award and ties the IACR directly to federal workforce-development priorities.",
+          "source_url": "https://www.uri.edu/news/2025/10/uri-receives-5-million-nsf-grant-aiming-to-broaden-participation-in-quantum-information-science/"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "URI has not published an enterprise-wide campus LLM rollout (no documented Microsoft Copilot, Google Gemini, or ChatGPT Edu license); enterprise_platforms left empty.",
+        "The Alfred J. Verrecchia endowed chair amount is not publicly disclosed.",
+        "The Tyler Hall data-center and IACR budgets are not publicly disclosed.",
+        "Several academic program launch dates (B.A.I. major, FinTech-B.A.I. double major, Business Analytics minor) are not published.",
+        "No public FERPA/AI litigation or major AI controversy was found for URI as of April 2026.",
+        "The CS AI track exact launch date is announced as 'this year' (2026) but not formally dated.",
+        "URI's Responsible Use of AI guidance is explicitly preliminary; a ratified university policy has not yet been released."
+      ]
+    }
+  }
+}

@@ -1,0 +1,1432 @@
+{
+  "institution": "University of Maine",
+  "slug": "university-of-maine",
+  "city_state": "Orono, ME",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Maine System",
+  "enrollment": 11989,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Joan Ferrini-Mundy",
+      "url": "https://umaine.edu/president/"
+    },
+    "provost": {
+      "name": "Gabriel Paquette",
+      "url": "https://umaine.edu/news/2026/03/gabriel-paquette-appointed-university-of-maine-and-umaine-machias-provost/"
+    },
+    "cio": {
+      "name": "Robert Placido (University of Maine System CIO)",
+      "url": "https://www.maine.edu/information-technology/about-us/it-organization/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Ali Abedi",
+      "title": "Associate Vice President for Research; Director, UMaine AI Initiative",
+      "url": "https://ai.umaine.edu/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "UMaine AI Initiative (Vision and Mission)",
+        "url": "https://ai.umaine.edu/",
+        "year": 2020
+      },
+      {
+        "title": "Generative AI Teaching and Learning Guidelines",
+        "url": "https://umaine.edu/communitystandards/resources-policies-and-forms/generative-ai-teaching-and-learning-guidelines/",
+        "year": 2023
+      },
+      {
+        "title": "UMS:IT Generative AI Guidance",
+        "url": "https://umaine.edu/research-compliance/2024/10/25/umsit-generative-ai-guidance-oct-2024/",
+        "year": 2024
+      }
+    ],
+    "summary": "UMaine does not have a single published institutional AI strategy document; instead, its posture is articulated through the UMaine AI Initiative (a 40+ faculty research venture launched in 2020), the Strategic Re-Envisioning (SRE) plan's commitment to 'responsibly integrate AI' into operations, and separate teaching/learning guidelines. President Ferrini-Mundy's 2026 State of the University Address highlighted AI-enabled research (e.g., the Factory of the Future/GEM facility) as a signature investment. A system-wide AI working group delivered a report to the Board of Trustees in September 2025, and strategy work continues alongside a pending RFP for enterprise AI tooling."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://umaine.edu/communitystandards/resources-policies-and-forms/generative-ai-teaching-and-learning-guidelines/",
+      "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889",
+      "https://umaine.edu/research-compliance/2024/10/25/umsit-generative-ai-guidance-oct-2024/"
+    ],
+    "adopted_date": "2024-10",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Syllabi must specify whether AI is required, expected, minimally permitted, or forbidden",
+      "Instructors must disclose tool types, costs, and data privacy concerns",
+      "Students must acknowledge and cite all AI-generated content; failure is plagiarism",
+      "Opt-out required if AI assesses student work",
+      "Prohibits entering FERPA-protected or Personal Information into unapproved AI tools",
+      "Prohibits submitting copyrighted materials into generative AI systems",
+      "Requires participant consent before AI use in video conferences",
+      "UMS accessibility policy applies to AI interfaces (disability-equal access)",
+      "University Teaching Council reviews guidelines annually"
+    ],
+    "summary": "UMaine operates under a layered, comprehensive framework: the UMaine Generative AI Teaching and Learning Guidelines (permissive with guardrails and mandatory syllabus-level disclosure) plus UMS:IT Generative AI Guidance (October 2024) covering data categorization, FERPA protection, copyright, and accessibility. The university explicitly states it is still developing a formal institutional AI policy; existing guidance supplements the UMS Acceptable Use Policy."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UMaine AI Initiative Steering Committee",
+        "type": "committee",
+        "scope": "Seven-member steering committee coordinating the 40+ faculty UMaine AI Initiative across research, education, and external partnerships",
+        "url": "https://umaine.edu/mieab/artificial-intelligence/"
+      },
+      {
+        "name": "University Teaching Council",
+        "type": "council",
+        "scope": "Annual review of UMaine Generative AI Teaching and Learning Guidelines; owns ongoing guideline evolution",
+        "url": "https://umaine.edu/communitystandards/resources-policies-and-forms/generative-ai-teaching-and-learning-guidelines/"
+      },
+      {
+        "name": "UMS System AI Working Group",
+        "type": "task_force",
+        "scope": "System-wide AI working group that delivered a public report to the Board of Trustees in September 2025; informs fee and tooling decisions across the seven campuses",
+        "url": "https://mainecampus.com/category/news/2026/04/umaine-system-reviews-proposals-ahead-of-potential-per-credit-ai-fee-as-faculty-senate-examines-ai-use/"
+      },
+      {
+        "name": "Faculty Senate (AI Resolutions)",
+        "type": "committee",
+        "scope": "Passed resolutions SM2605 and SM2606 (March 2026) evaluating a per-credit-hour AI fee model; prior resolutions adopted generative AI teaching guidelines",
+        "url": "https://umaine.edu/facultysenate/2026/04/10/administrations-response-to-motions-2605-through-2609/"
+      },
+      {
+        "name": "Maine Innovation Economy Advisory Board (MIEAB) – AI focus area",
+        "type": "other",
+        "scope": "Board-level advisory function highlighting AI as a priority innovation domain for the state, hosted at UMaine",
+        "url": "https://umaine.edu/mieab/artificial-intelligence/"
+      }
+    ],
+    "summary": "Governance is distributed: the UMaine AI Initiative and its steering committee run research/education coordination; the University Teaching Council owns pedagogical guidelines; a UMS-level AI Working Group and the Faculty Senate shape system-wide policy and pricing; the state-facing MIEAB links UMaine's AI work to Maine's innovation economy. There is no single Chief AI Officer."
+  },
+  "initiatives": [
+    {
+      "title": "UMaine AI Initiative launch (2020)",
+      "description": "University-wide initiative launched in 2020 to position Maine as a 'world-class hub for AI research, education, and applications,' coordinating 40+ affiliated faculty across computing, engineering, health, social sciences, and humanities. Directed by Ali Abedi.",
+      "significance": "Establishes a coherent cross-disciplinary AI research ecosystem for the only R1 in Maine, anchoring state-level AI economic-development strategy.",
+      "date_announced": "2020-02-19",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "regional_economic_impact",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMaine (internal seed grants) + NSF + state partners",
+        "description": "Seed grant rounds (2020 onward) totaling over $750K disclosed; broader operating support from UMaine and leveraged federal grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Southern Maine",
+            "University of Maine at Augusta",
+            "Roux Institute at Northeastern University",
+            "Husson University"
+          ],
+          "description": "Cross-campus and cross-institutional convenings via the annual Maine AI Conference."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Maine Office of Policy Innovation and the Future"
+          ],
+          "description": "Engagement with state AI Task Force processes."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates an institutional structure that can absorb future system-level AI policy mandates and guide faculty governance.",
+      "source_urls": [
+        "https://ai.umaine.edu/",
+        "https://umaine.edu/mieab/artificial-intelligence/",
+        "https://umaine.edu/news/blog/2020/02/19/umaine-ai-enhancing-human-life-and-societal-well-being-in-maine-and-beyond/"
+      ]
+    },
+    {
+      "title": "UMaine Generative AI Teaching and Learning Guidelines",
+      "description": "Comprehensive teaching/learning guidelines requiring syllabus-level disclosure of how AI may be used (required, expected, minimally, forbidden), mandatory student citation of AI output, instructor disclosure of tool costs and privacy risks, and opt-out when AI is used to assess student work. Reviewed annually by the University Teaching Council.",
+      "significance": "One of the more explicit syllabus-level policies in the sector; binds every course to a disclosed AI posture and normalizes AI literacy as a shared instructor-student obligation.",
+      "date_announced": "2023-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "ai_ethics_framework",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMaine Center for Innovation in Teaching and Learning (CITL)",
+        "description": "Staff effort through CITL and the University Teaching Council; recurring training and consultation resources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maine System"
+          ],
+          "description": "Aligned to UMS:IT Generative AI Guidance and UMS Acceptable Use Policy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes enforceable expectations for faculty and students; provides a template other UMS campuses can adopt.",
+      "source_urls": [
+        "https://umaine.edu/communitystandards/resources-policies-and-forms/generative-ai-teaching-and-learning-guidelines/"
+      ]
+    },
+    {
+      "title": "UMS:IT Generative AI Guidance (October 2024)",
+      "description": "System-level guidance for faculty, staff, and students covering prohibited uses (entering Protected/Personal Information, copyrighted materials), data categorization (Restricted/Confidential/Internal under APL VI-I), and disclosure requirements. Explicitly references ChatGPT, Microsoft Copilot, and Google Gemini.",
+      "significance": "Extends UMaine's campus-level teaching guidelines with privacy, FERPA, and data-classification guardrails that cover administrative and research use.",
+      "date_announced": "2024-10-25",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University of Maine System IT",
+        "description": "System IT staff time; integrates with existing APL and data classification framework."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "All seven UMS campuses"
+          ],
+          "description": "System-wide guidance covering UMaine, USM, UMA, UMM, UMF, UMFK, UMPI."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Referenced as example generative AI tool under guidance"
+        },
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Referenced as example generative AI tool under guidance"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Referenced as example generative AI tool under guidance"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Clarifies what data may not be processed through unapproved AI, shaping eventual campus-wide tool approvals.",
+      "source_urls": [
+        "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889",
+        "https://umaine.edu/research-compliance/2024/10/25/umsit-generative-ai-guidance-oct-2024/"
+      ]
+    },
+    {
+      "title": "UMS per-credit-hour AI fee RFP and Faculty Senate resolutions",
+      "description": "The UMaine System issued an RFP (closed March 27, 2026) to procure enterprise AI tooling for students; Fall 2025 cost modeling estimated up to $20/credit-hour but current proposals are expected to cost 'far less.' Faculty Senate passed resolutions SM2605 and SM2606 in March 2026 recommending evaluation criteria; any fee requires Board of Trustees approval. An opt-in 'Academic Materials Program' style model is under consideration.",
+      "significance": "First large-scale institutional push to standardize and fund student AI access across a state system; a bellwether for how regional public universities price AI for students.",
+      "date_announced": "2026-03-11",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "institutional_ai_strategy",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Potential student fee (under debate) and UMS operating funds",
+        "description": "Amount not disclosed; UMS signaled the approved cost will be far below the $20/credit hour Fall 2025 estimate."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "All UMS campuses"
+          ],
+          "description": "System-wide procurement via UMS Office of Strategic Procurement."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Sets precedent for fee-based AI access at a public system; raises equity and transparency questions being actively debated by faculty and students.",
+      "source_urls": [
+        "https://mainecampus.com/category/news/2026/04/umaine-system-reviews-proposals-ahead-of-potential-per-credit-ai-fee-as-faculty-senate-examines-ai-use/",
+        "https://umaine.edu/facultysenate/2026/04/10/administrations-response-to-motions-2605-through-2609/"
+      ]
+    },
+    {
+      "title": "NSF $6M AI-in-Advanced-Manufacturing Lab",
+      "description": "National Science Foundation awarded $6 million (August 2022) to establish a new UMaine-led lab studying how AI tools and techniques can bolster advanced manufacturing in northern New England. Investigators include Liping Yu, Vikas Dhiman, John Belding, Bruce Segee, Todd Gabe, Andrew Crawley, Rebecca Colannino, and Matthew Dube.",
+      "significance": "Anchor federal investment linking AI research to Maine's manufacturing base and rural economic development; multi-disciplinary (engineering, economics, education).",
+      "date_announced": "2022-08-05",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 6000000,
+        "funding_source": "National Science Foundation",
+        "description": "$6M over project period to launch AI-in-advanced-manufacturing lab."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF EPSCoR-adjacent award."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Northern New England manufacturers"
+          ],
+          "description": "Regional manufacturing partners engage with the lab."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://umaine.edu/news/2022/08/nsf-awards-6-million-for-umaine-led-effort-to-establish-new-lab-to-study-ai-in-advanced-manufacturing/",
+        "https://mcec.umaine.edu/2022/08/08/nsf-awards-6-million-for-umaine-led-effort-to-establish-new-lab-to-study-ai-in-advanced-manufacturing/"
+      ]
+    },
+    {
+      "title": "Green Engineering and Materials (GEM) Building / Factory of the Future",
+      "description": "$82M, 50,000-square-foot facility (groundbreaking October 2024; completion scheduled 2026) housing the Factory of the Future with AI-enabled 3D printers, digital twin technology, real-time monitoring, AR/VR, and HPC integration. Focus: affordable housing, marine vessels, renewable energy components using bio-based materials.",
+      "significance": "Flagship AI-plus-manufacturing capital investment; positions UMaine as a national hub for AI-driven sustainable additive manufacturing.",
+      "date_announced": "2024-10-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 82000000,
+        "funding_source": "Mix of federal, state, and UMaine funding",
+        "description": "~$82M capital investment in interdisciplinary research facility."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Advanced Structures and Composites Center partners",
+            "Maine housing sector",
+            "Marine and energy industries"
+          ],
+          "description": "Industrial partners for manufacturing, housing, marine vessels, renewable energy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.mainebiz.biz/article/umaine-breaks-ground-on-82m-factory-of-the-future",
+        "https://umaine.edu/news/2024/10/construction-begins-for-the-first-of-its-kind-cutting-edge-sustainable-manufacturing-research-facility-at-umaine/"
+      ]
+    },
+    {
+      "title": "Annual Maine AI Conference",
+      "description": "UMaine AI has convened the Maine AI Conference annually since 2024 at the Collins Center for the Arts in Orono. The 2nd Annual conference (June 13, 2025) used the theme 'Democratizing AI for Maine' and featured an 'unconference' format with attendee-driven topics. Panels drew from UMaine, USM, UMA, Roux Institute, Husson, Harvard, plus industry and policy experts.",
+      "significance": "Builds statewide AI community of practice across academia, industry, government; normalizes public dialogue on AI ethics, workforce, and access.",
+      "date_announced": "2025-06-13",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "regional_economic_impact",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMaine AI Initiative; event sponsors",
+        "description": "Annual recurring event funded through UMaine AI, sponsors, and registrations."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Southern Maine",
+            "University of Maine at Augusta",
+            "Roux Institute at Northeastern University",
+            "Husson University",
+            "Harvard University"
+          ],
+          "description": "Statewide and national partners co-present."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "State of Maine policymakers",
+            "Maine business community"
+          ],
+          "description": "Open public engagement on AI implications for Maine."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Agenda-setting forum; outputs feed Maine's state-level AI task force inputs.",
+      "source_urls": [
+        "https://ai.umaine.edu/ai-conference/",
+        "https://umaine.edu/research/2025/04/30/maine-ai-conference-to-explore-opportunities-risks-and-innovations/"
+      ]
+    },
+    {
+      "title": "Learning With AI Toolkit",
+      "description": "Crowdsourced online toolkit (launched 2023) of 300+ strategies and resources for educators and students navigating generative AI. Co-created by Jon Ippolito (Professor of New Media) with UMaine's New Media program and the Center for Innovation in Teaching and Learning (CITL). Functions as a sortable 'cookbook' of pedagogical tactics.",
+      "significance": "Internationally recognized faculty resource; illustrates how a humanities-forward R1 can lead in AI literacy and pedagogical critique.",
+      "date_announced": "2023-03-17",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMaine New Media program; CITL",
+        "description": "Staff time and volunteer contributions; crowdsourced community."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maine System",
+            "Global higher ed community"
+          ],
+          "description": "Contributions solicited across UMS and international academic community."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes UMaine's teaching/learning guidelines into concrete classroom recipes.",
+      "source_urls": [
+        "https://umaine.edu/news/blog/2023/03/17/learning-with-ai-a-new-online-resource/",
+        "https://umaine.edu/citl/homepage/instructional-resources/teaching-resources-2/learning-with-ai/"
+      ]
+    },
+    {
+      "title": "Engineering Applications of AI Graduate and Undergraduate Certificates",
+      "description": "Only college in Maine to offer a graduate certificate covering engineering applications of AI — 12 credits covering smart manufacturing, Industry 4.0, autonomous vehicles, smart grids, and IoT. Paired online undergraduate certificate provides foundational AI engineering skills. Delivered through UMaine Online.",
+      "significance": "Translates UMaine AI research strengths into workforce credentials; closes a state-level gap in AI-specific post-secondary programs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMaine Online; Maine College of Engineering and Computing",
+        "description": "Tuition-funded certificate programs with dedicated faculty."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Maine manufacturers",
+            "IoT and autonomous systems employers"
+          ],
+          "description": "Industry advisory input on curriculum."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://online.umaine.edu/online-undergraduate-certificate-in-engineering-applications-of-artificial-intelligence/",
+        "https://umaine.edu/graduate/program/engineering-applications-of-artificial-intelligence/",
+        "https://catalog.umaine.edu/preview_program.php?catoid=93&poid=14305&returnto=4316"
+      ]
+    },
+    {
+      "title": "ARCSIM Penobscot HPC cluster and AI compute",
+      "description": "Advanced Research Computing, Security & Information Management (ARCSIM) operates the Penobscot HPC cluster, which includes an NVIDIA DGX A100 (8 x 40GB), two 80GB A100s, three L40s, four A30s, and eight RTX 2080 Ti GPUs on 1TB-RAM nodes, plus 14 Dell AMD EPYC Milan nodes (96 cores/node). Open OnDemand web access; RStudio/Jupyter/Matlab support. ARCSIM partners with TACC, Ohio Supercomputer Center.",
+      "significance": "Provides dedicated, high-memory GPU infrastructure for AI and ML research that rural R1s often lack; underpins UMaine's AI research portfolio.",
+      "date_announced": "2024-10-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMaine Office of the Vice President for Research; federal/state supplements",
+        "description": "Operating budget plus capital for GPU refresh; specific expenditure not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Texas Advanced Computing Center (TACC)",
+            "Ohio Supercomputer Center (OSC)"
+          ],
+          "description": "Federated access to national supercomputing resources."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DGX A100",
+          "vendor": "NVIDIA",
+          "role": "Primary AI training node"
+        },
+        {
+          "name": "Open OnDemand",
+          "vendor": "Ohio Supercomputer Center",
+          "role": "Web-based HPC access layer"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://umaine.edu/arcsim/computing/",
+        "https://umaine.edu/ora/advanced-research-computing-arc/"
+      ]
+    },
+    {
+      "title": "Roux Institute / Northeastern University research partnership seed grants",
+      "description": "UMaine and Northeastern's Roux Institute (Portland, ME) signed a research agreement in 2020 and have since awarded multiple rounds of joint seed grants to collaborative research teams in AI, health, climate, manufacturing, and marine science.",
+      "significance": "Formalizes a private-public R1 alliance that strengthens Maine's AI research density; shares faculty, students, and infrastructure across two campuses.",
+      "date_announced": "2020-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMaine + Northeastern / Roux Institute matching seed funds",
+        "description": "Multiple rounds of joint seed funding for paired research teams."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Northeastern University",
+            "Roux Institute"
+          ],
+          "description": "Cross-institution partnership with joint solicitations and awarded teams."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://umaine.edu/medicine/map-point/northeasterns-roux-institute/",
+        "https://research.northeastern.edu/northeastern-university-our-roux-institute-and-university-of-maine-award-seed-funding-to-five-research-teams/",
+        "https://umaine.edu/news/2021/12/second-round-of-seed-grants-for-umaine-and-northeastern-university-shared-research-projects-announced/"
+      ]
+    },
+    {
+      "title": "NSF EPSCoR Maine-FOREST (AI for forest economy)",
+      "description": "NSF EPSCoR $7M Track-1 award (Maine-FOREST / Forest-based Opportunities for Resilient Economy, Sustainability and Technology) uses AI and informatics to model and sustain Maine's forest sector. Involves UMaine, USM, UMFK, UMPI, Colby, Bates, and the Maine Development Foundation. Supports 45+ faculty, 85 undergrads, 10 grad students, and 4 postdocs.",
+      "significance": "Applies AI to Maine's dominant rural industry; aligns with state Wabanaki resilience priorities.",
+      "date_announced": "2024-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "regional_economic_impact",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 7000000,
+        "funding_source": "National Science Foundation EPSCoR",
+        "description": "$7M over four years."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Southern Maine",
+            "University of Maine at Fort Kent",
+            "University of Maine at Presque Isle",
+            "Colby College",
+            "Bates College",
+            "Maine Development Foundation"
+          ],
+          "description": "Seven-institution statewide consortium."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Wabanaki tribal partners",
+            "Forest sector communities"
+          ],
+          "description": "Rural and Wabanaki resilience focus."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://crsf.umaine.edu/maine-forest/",
+        "https://forest.umaine.edu/nsf-grant/"
+      ]
+    },
+    {
+      "title": "AI and Digital Twin Internships for the Blue Economy",
+      "description": "Announced November 12, 2025: UMaine launched a three-year program to support 48 undergraduate and graduate students through eight-week summer and year-round internships building AI-powered digital twins of ocean structures for offshore aquaculture, autonomous shipping, and marine renewable energy. Students work with UMaine ocean test beds and faculty labs.",
+      "significance": "Directly pairs AI/ML skill-building with Maine's marine economy; a replicable model for aligning workforce pipelines with regional industry needs.",
+      "date_announced": "2025-11-12",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "career_and_workforce_readiness",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Federal and state support (not fully disclosed)",
+        "description": "Three-year funded program; dollar figure not publicly itemized."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Offshore aquaculture industry",
+            "Autonomous shipping sector",
+            "Marine renewable energy sector"
+          ],
+          "description": "Industry-facing internship partnerships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://umaine.edu/news/blog/2025/11/12/umaine-launches-internships-in-ai-digital-twins-for-the-blue-economy/",
+        "https://oceannews.com/news/science-technology/umaine-launches-internships-in-ai-and-digital-twins-for-the-blue-economy/"
+      ]
+    },
+    {
+      "title": "Sekeh Lab AI safety and adversarial robustness research",
+      "description": "Assistant Professor Salimeh Yasaei Sekeh leads the Sekeh Lab (2022 NSF CAREER Award; 2023 MCEC Early Career Research Award) researching reliable and safe AI, deep learning efficiency, adversarial attack detection, and model robustness. A funded project targets 'Improved Adversarial Attack Detection Toward Robustness of Deep Neural Networks.'",
+      "significance": "Brings AI safety and robustness research into UMaine's portfolio, relevant to sector-wide concerns about trustworthy AI.",
+      "date_announced": "2022-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF CAREER; UMaine MCEC",
+        "description": "NSF CAREER award (~$500K typical range) plus internal MCEC recognition."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF CAREER-funded PI."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://umaine.edu/arcsim/2023/09/13/research-computing-faculty-spotlight-salimeh-yasaei-sekeh/",
+        "https://www.salimeh.info"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "UMaine AI Initiative",
+      "focus": "Foundational AI, applied AI, AI education/workforce development, and AI ethics/policy across 40+ affiliated faculty",
+      "founded": "2020",
+      "url": "https://ai.umaine.edu/"
+    },
+    {
+      "name": "SKAI Lab (Spatial Knowledge and AI Lab)",
+      "focus": "Formal space representations, ontology modularization, spatial reasoning",
+      "founded": null,
+      "url": "https://umaine.edu/mieab/artificial-intelligence/"
+    },
+    {
+      "name": "MaineSAIL (Software Agents and AI Laboratory)",
+      "focus": "Multiagent systems and AI (ORCA, CODA, ACRO)",
+      "founded": null,
+      "url": "http://mainesail.umcs.maine.edu/"
+    },
+    {
+      "name": "Sekeh Lab",
+      "focus": "Reliable and safe AI, adversarial robustness, deep learning efficiency",
+      "founded": "2020",
+      "url": "https://www.salimeh.info"
+    },
+    {
+      "name": "WiSe Net Lab",
+      "focus": "Wireless sensor networks and AI for space applications",
+      "founded": "2005",
+      "url": "https://umaine.edu/wisenetlab/research/"
+    },
+    {
+      "name": "VEMI Lab (Virtual Environment and Multimodal Interaction Lab)",
+      "focus": "AI-enhanced human-computer interaction, AR/VR, accessibility for the blind",
+      "founded": null,
+      "url": "https://umaine.edu/mieab/artificial-intelligence/"
+    },
+    {
+      "name": "Advanced Structures and Composites Center (ASCC) – Factory of the Future",
+      "focus": "AI-driven additive/hybrid manufacturing, digital twins, cyber-physical systems",
+      "founded": null,
+      "url": "https://composites.umaine.edu/facilities/additive-manufacturing/"
+    },
+    {
+      "name": "Maine College of Engineering and Computing – AI research groups",
+      "focus": "Cross-cutting AI, ML, data science, computer vision, XAI",
+      "founded": null,
+      "url": "https://mcec.umaine.edu/research/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Engineering Applications of Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://umaine.edu/graduate/program/engineering-applications-of-artificial-intelligence/"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Engineering Applications of Artificial Intelligence (online)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://online.umaine.edu/online-undergraduate-certificate-in-engineering-applications-of-artificial-intelligence/"
+    },
+    {
+      "type": "course",
+      "name": "COS 470/570 – Introduction to Artificial Intelligence",
+      "level": "both",
+      "launched": null,
+      "url": "https://umaine.edu/cs/courses/"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. / Ph.D. in Computer Science (AI/ML concentration)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://umaine.edu/graduate/program/computer-science/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot (referenced in UMS guidance; not a confirmed enterprise deployment)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT (referenced in UMS guidance; not a confirmed enterprise deployment)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (referenced in UMS guidance; not a confirmed enterprise deployment)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Penobscot HPC (ARCSIM)",
+    "gpu_count": 25,
+    "url": "https://umaine.edu/arcsim/computing/",
+    "summary": "ARCSIM operates the Penobscot HPC cluster, the institution's primary AI/ML compute platform. GPU inventory includes a NVIDIA DGX A100 (8 x A100 40GB), 2 x A100 80GB, 3 x L40, 4 x A30, and 8 x RTX 2080 Ti — roughly 25 AI-capable GPUs. CPU side includes 14 Dell AMD EPYC Milan nodes (96 cores, 512GB RAM each) plus high-memory and Intel nodes. Infiniband HDR100 interconnect; Open OnDemand web access. Federated access to TACC and Ohio Supercomputer Center."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF Award – AI in Advanced Manufacturing Lab",
+      "amount_usd": 6000000,
+      "source": "National Science Foundation",
+      "purpose": "Establish UMaine-led lab studying AI for advanced manufacturing in northern New England",
+      "date": "2022-08",
+      "url": "https://umaine.edu/news/2022/08/nsf-awards-6-million-for-umaine-led-effort-to-establish-new-lab-to-study-ai-in-advanced-manufacturing/"
+    },
+    {
+      "title": "NSF EPSCoR Maine-FOREST",
+      "amount_usd": 7000000,
+      "source": "NSF EPSCoR Track-1",
+      "purpose": "AI and informatics for Maine forest economy resilience",
+      "date": "2024-08",
+      "url": "https://crsf.umaine.edu/maine-forest/"
+    },
+    {
+      "title": "Green Engineering and Materials Building / Factory of the Future",
+      "amount_usd": 82000000,
+      "source": "Federal, state, and UMaine capital funding",
+      "purpose": "AI-enabled additive manufacturing facility with digital twins and HPC integration",
+      "date": "2024-10",
+      "url": "https://www.mainebiz.biz/article/umaine-breaks-ground-on-82m-factory-of-the-future"
+    },
+    {
+      "title": "UMaine AI Seed Grants (cumulative)",
+      "amount_usd": 750000,
+      "source": "UMaine internal + matching",
+      "purpose": "Seed funding for AI research projects across disciplines",
+      "date": "2020-07",
+      "url": "https://umaine.edu/research/2020/07/17/ai-initiative-seed-grant-awards/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "Northeastern University / Roux Institute",
+      "purpose": "Joint AI, health, climate, manufacturing, and marine research via recurring seed grants",
+      "date": "2020-05",
+      "url": "https://umaine.edu/medicine/map-point/northeasterns-roux-institute/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Texas Advanced Computing Center; Ohio Supercomputer Center",
+      "purpose": "Federated HPC/AI compute access",
+      "date": null,
+      "url": "https://umaine.edu/arcsim/2020/08/04/advanced-research-computing-connects-umaine-artificial-intelligence-research-to-supercomputing-resources/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Multiple AI-related grants (Advanced Manufacturing Lab, EPSCoR Maine-FOREST, NSF CAREER awards)",
+      "date": null,
+      "url": "https://www.nsf.gov/news/artificial-intelligence-used-better-monitor-maines"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Southern Maine, UMA, UMFK, UMPI, Colby, Bates, Maine Development Foundation",
+      "purpose": "Statewide Maine-FOREST consortium (NSF EPSCoR)",
+      "date": "2024-08",
+      "url": "https://crsf.umaine.edu/maine-forest/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "State of Maine Office of Policy Innovation and the Future (AI Task Force)",
+      "purpose": "State AI policy coordination; UMaine faculty participate in task force work",
+      "date": "2024-12",
+      "url": "https://www.maine.gov/future/artificial-intelligence-task-force"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Learning With AI Toolkit",
+      "scope": "Crowdsourced resource portal for students and faculty navigating AI in coursework (300+ tactics)",
+      "url": "https://umaine.edu/citl/homepage/instructional-resources/teaching-resources-2/learning-with-ai/"
+    },
+    {
+      "type": "other",
+      "name": "UMaine AI monthly education webinars",
+      "scope": "Public-facing AI education series with 1,200+ participants",
+      "url": "https://ai.umaine.edu/webinars/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "UMS ICT Accessibility Policy applied to generative AI",
+      "description": "System-wide policy explicitly extends accessibility requirements to generative AI interfaces and outputs (disability-equal access).",
+      "url": "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889"
+    },
+    {
+      "title": "Democratizing AI for Maine (2025 Maine AI Conference theme)",
+      "description": "Statewide convening framed around equitable AI access across rural communities, Wabanaki partners, and small businesses.",
+      "url": "https://ai.umaine.edu/ai-conference/"
+    },
+    {
+      "title": "Maine-FOREST rural and Wabanaki resilience thread",
+      "description": "NSF EPSCoR project explicitly includes rural and Wabanaki resilience as a core focus, using AI to support underrepresented Maine communities.",
+      "url": "https://crsf.umaine.edu/maine-forest/"
+    },
+    {
+      "title": "UMS AI fee equity debate",
+      "description": "Faculty Senate resolutions SM2605/SM2606 raise explicit equity concerns about any per-credit-hour AI fee model and recommend opt-in structures.",
+      "url": "https://umaine.edu/facultysenate/2026/04/10/administrations-response-to-motions-2605-through-2609/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Maine",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Maine Governor Janet Mills signed Executive Order establishing the Maine Artificial Intelligence Task Force on December 20, 2024; the Task Force issued its public report in October/November 2025 covering economy, workforce, education, and consumer protection. Maine's state generative AI policy (Office of Information Technology) governs state agency use. The University of Maine System issued UMS:IT Generative AI Guidance (October 2024) with system-wide data-privacy requirements; the UMS Acceptable Use Policy applies to all AI use. State-level data center restrictions have been debated and may affect large-scale AI infrastructure siting in Maine. Maine enacted a law in 2024 requiring limited disclosures of AI technology in consumer interactions.",
+    "urls": [
+      "https://www.maine.gov/future/artificial-intelligence-task-force",
+      "https://www.maine.gov/governor/mills/news/task-force-releases-report-artificial-intelligence-maine-2025-11-10",
+      "https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/GenAIPolicy.pdf",
+      "https://www.maine.gov/governor/mills/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task",
+      "https://www.verrill-law.com/news/maine-law-now-requires-limited-disclosures-of-artificial-intelligence-technology/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-03",
+      "summary": "Faculty Senate (SM2605/SM2606) pushed back on UMS plans for a per-credit-hour AI fee; ongoing debate over cost, equity, and student opt-out.",
+      "status": "active",
+      "url": "https://mainecampus.com/category/news/2026/04/umaine-system-reviews-proposals-ahead-of-potential-per-credit-ai-fee-as-faculty-senate-examines-ai-use/"
+    }
+  ],
+  "narrative_summary": "The University of Maine is Maine's only R1 and anchors the state's AI posture. Its institutional strategy is not a single published document but a distributed architecture: the UMaine AI Initiative (launched 2020 under Associate VP for Research Ali Abedi; 40+ affiliated faculty across engineering, computing, health, humanities, and social sciences), the Strategic Re-Envisioning plan's 'responsibly integrate AI' commitment, and the forthcoming UMS system-wide AI tooling selection. President Joan Ferrini-Mundy and Provost Gabriel Paquette lead academic direction; the CIO role resides at the UMaine System level (Robert Placido). There is no named Chief AI Officer. On policy, UMaine operates a comprehensive two-layer framework: syllabus-level Generative AI Teaching and Learning Guidelines (annually reviewed by the University Teaching Council) and October 2024 UMS:IT Generative AI Guidance on data privacy, FERPA, copyright, and accessibility. Governance is shared among the UMaine AI Initiative Steering Committee, the University Teaching Council, the Faculty Senate, and the UMS AI Working Group. Research depth is evident: a $6M NSF lab in AI for advanced manufacturing, $7M NSF EPSCoR Maine-FOREST using AI for forest economy resilience, the $82M Green Engineering and Materials building housing the AI-enabled Factory of the Future (opening 2026), and named labs including SKAI, MaineSAIL, Sekeh Lab (AI safety), VEMI, and WiSe Net. ARCSIM's Penobscot HPC cluster (DGX A100 plus multiple A100/L40/A30 GPUs) provides meaningful AI compute for a rural R1. Statewide, UMaine convenes the annual Maine AI Conference and is formally partnered with Northeastern's Roux Institute; it participates in the state's AI Task Force process. Student-facing AI is modest: the Learning With AI toolkit (Jon Ippolito, CITL) and engineering AI certificates; no confirmed enterprise chatbot or campus-wide generative AI deployment yet. The biggest open question is the pending UMS per-credit-hour AI fee — an equity, access, and vendor-selection debate actively playing out in the Faculty Senate and Board of Trustees through early 2026. Gaps: no named CIO at the campus level, no public campus-level AI strategy document, and no confirmed enterprise Copilot/ChatGPT Edu/Gemini contract despite guidance referencing all three.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.umaine.edu/",
+      "https://ai.umaine.edu/ai-conference/",
+      "https://ai.umaine.edu/webinars/",
+      "https://umaine.edu/mieab/artificial-intelligence/",
+      "https://umaine.edu/cs/research/features/artificial-intelligence-at-umaine/",
+      "https://umaine.edu/news/2022/08/nsf-awards-6-million-for-umaine-led-effort-to-establish-new-lab-to-study-ai-in-advanced-manufacturing/",
+      "https://mcec.umaine.edu/2022/08/08/nsf-awards-6-million-for-umaine-led-effort-to-establish-new-lab-to-study-ai-in-advanced-manufacturing/",
+      "https://umaine.edu/news/2024/10/construction-begins-for-the-first-of-its-kind-cutting-edge-sustainable-manufacturing-research-facility-at-umaine/",
+      "https://www.mainebiz.biz/article/umaine-breaks-ground-on-82m-factory-of-the-future",
+      "https://umaine.edu/communitystandards/resources-policies-and-forms/generative-ai-teaching-and-learning-guidelines/",
+      "https://tdx.maine.edu/TDClient/2624/Portal/KB/ArticleDet?ID=172889",
+      "https://umaine.edu/research-compliance/2024/10/25/umsit-generative-ai-guidance-oct-2024/",
+      "https://umaine.edu/citl/homepage/instructional-resources/teaching-resources-2/learning-with-ai/",
+      "https://umaine.edu/news/blog/2023/03/17/learning-with-ai-a-new-online-resource/",
+      "https://online.umaine.edu/online-undergraduate-certificate-in-engineering-applications-of-artificial-intelligence/",
+      "https://umaine.edu/graduate/program/engineering-applications-of-artificial-intelligence/",
+      "https://catalog.umaine.edu/preview_program.php?catoid=93&poid=14305&returnto=4316",
+      "https://umaine.edu/arcsim/computing/",
+      "https://umaine.edu/ora/advanced-research-computing-arc/",
+      "https://umaine.edu/arcsim/2020/08/04/advanced-research-computing-connects-umaine-artificial-intelligence-research-to-supercomputing-resources/",
+      "https://umaine.edu/arcsim/2023/09/13/research-computing-faculty-spotlight-salimeh-yasaei-sekeh/",
+      "https://crsf.umaine.edu/maine-forest/",
+      "https://forest.umaine.edu/nsf-grant/",
+      "https://www.nsf.gov/news/artificial-intelligence-used-better-monitor-maines",
+      "https://umaine.edu/news/blog/2025/11/12/umaine-launches-internships-in-ai-digital-twins-for-the-blue-economy/",
+      "https://oceannews.com/news/science-technology/umaine-launches-internships-in-ai-and-digital-twins-for-the-blue-economy/",
+      "https://umaine.edu/medicine/map-point/northeasterns-roux-institute/",
+      "https://research.northeastern.edu/northeastern-university-our-roux-institute-and-university-of-maine-award-seed-funding-to-five-research-teams/",
+      "https://umaine.edu/news/2021/12/second-round-of-seed-grants-for-umaine-and-northeastern-university-shared-research-projects-announced/",
+      "https://umaine.edu/facultysenate/2026/04/10/administrations-response-to-motions-2605-through-2609/",
+      "https://mainecampus.com/category/news/2026/04/umaine-system-reviews-proposals-ahead-of-potential-per-credit-ai-fee-as-faculty-senate-examines-ai-use/",
+      "https://umaine.edu/about/leadership/",
+      "https://www.maine.edu/information-technology/about-us/it-organization/",
+      "https://umaine.edu/news/2026/03/gabriel-paquette-appointed-university-of-maine-and-umaine-machias-provost/",
+      "https://mainecampus.com/category/news/2026/03/university-of-maine-president-joan-ferrini-mundy-delivers-annual-2026-state-of-the-university-address/",
+      "https://www.maine.edu/blog/2025/08/28/university-of-maine-system-starts-fall-semester-with-25000-students/",
+      "https://www.maine.gov/future/artificial-intelligence-task-force",
+      "https://www.maine.gov/governor/mills/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task",
+      "https://www.maine.gov/governor/mills/news/task-force-releases-report-artificial-intelligence-maine-2025-11-10",
+      "https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/GenAIPolicy.pdf",
+      "https://www.verrill-law.com/news/maine-law-now-requires-limited-disclosures-of-artificial-intelligence-technology/",
+      "https://umaine.edu/research/2020/07/17/ai-initiative-seed-grant-awards/",
+      "https://umaine.edu/news/blog/2020/02/19/umaine-ai-enhancing-human-life-and-societal-well-being-in-maine-and-beyond/"
+    ],
+    "search_queries": [
+      "\"University of Maine\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Maine\" generative AI policy acceptable use guidelines",
+      "\"University of Maine\" UMaine AI institute research center",
+      "\"University of Maine\" CIO chief information officer provost",
+      "\"University of Maine\" AI degree program certificate artificial intelligence",
+      "\"University of Maine\" Microsoft Copilot Google Gemini ChatGPT deployment",
+      "\"University of Maine\" president Joan Ferrini-Mundy AI state of the university",
+      "\"UMaine\" \"2026\" AI partnership Google Amazon partnership",
+      "\"University of Maine\" AI Center Maine AI Hub innovation economy board",
+      "\"University of Maine\" enrollment 2025 student population",
+      "\"University of Maine\" AI Research Cluster Initiative College of Engineering Computing",
+      "\"University of Maine\" factory of the future $82 million additive manufacturing AI",
+      "\"University of Maine\" AI chatbot student services advising",
+      "Maine state government artificial intelligence policy executive order higher education",
+      "\"UMaine AI\" \"AI Institute\" \"Roxbury Project\" OR \"AI leadership\" initiative 2024 2025",
+      "\"University of Maine\" School of Computing Information Science AI curriculum",
+      "\"University of Maine\" NSF EPSCoR AI agriculture forestry grant",
+      "\"University of Maine\" AI conference Maine Artificial Intelligence annual 2025",
+      "UMaine Ali Abedi AI director \"Advanced Manufacturing\" NSF lab $6 million",
+      "\"University of Maine\" Jon Ippolito Learning with AI toolkit New Media",
+      "\"University of Maine\" digital twin blue economy internship 2025",
+      "\"University of Maine\" governance committee AI council academic senate",
+      "\"UMaine\" \"Learning Laboratory\" OR \"Learning Laboratory for AI\" OR \"Roux Institute\" Northeastern partnership AI",
+      "\"University of Maine\" AI seed grants research investment 2024 2025",
+      "UMaine artificial intelligence cybersecurity Sekeh research safety",
+      "\"University of Maine\" AI ethics equity diversity algorithmic bias accessibility",
+      "\"UMaine AI\" Abedi \"director\" founding \"2019\" OR \"2020\"",
+      "\"University of Maine\" Penobscot HPC GPU cluster ARCSIM 2024"
+    ],
+    "gaps_acknowledged": [
+      "No confirmed enterprise-scale AI tool deployment (Copilot/ChatGPT Edu/Gemini); UMS guidance references them but a campus-wide contract is not publicly announced.",
+      "No named campus-level CIO separate from the UMS CIO; unclear whether UMaine has a dedicated CIO or relies entirely on system IT leadership.",
+      "No published institutional AI strategy document distinct from the UMaine AI Initiative vision; references to 'responsibly integrate AI' in the Strategic Re-Envisioning plan not located as a standalone policy.",
+      "No confirmed student-facing AI chatbot or predictive-analytics retention product publicly documented at UMaine.",
+      "Specific dollar figures for several UMaine AI investments (seed grant totals beyond the $750K cumulative figure; Penobscot HPC capital outlay) are not publicly disclosed.",
+      "Founding year for Sekeh Lab listed as 2020 based on Sekeh's UMaine start; exact lab founding date not confirmed."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 10,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 9,
+        "governance_led": 13,
+        "student_success_led": 2,
+        "workforce_regional_development": 29,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-10",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Penobscot HPC (ARCSIM)",
+        "gpu_count": 25,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 95750000,
+      "funding_source_buckets": {
+        "public_federal_state": 10,
+        "institutional": 5,
+        "other_unclear": 3
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "other": 2
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "Gemini (referenced in UMS guidance; not a confirmed enterprise deployment)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Copilot",
+            "Copilot (referenced in UMS guidance; not a confirmed enterprise deployment)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT",
+            "ChatGPT (referenced in UMS guidance; not a confirmed enterprise deployment)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "DGX A100"
+          ]
+        },
+        {
+          "vendor": "Ohio Supercomputer Center Open OnDemand",
+          "mentions": 1,
+          "products": [
+            "Open OnDemand"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": false,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "student_success",
+          "title": "Green Engineering and Materials (GEM) Building / Factory of the Future",
+          "summary": "Flagship AI-plus-manufacturing capital investment; positions UMaine as a national hub for AI-driven sustainable additive manufacturing.",
+          "source_url": "https://www.mainebiz.biz/article/umaine-breaks-ground-on-82m-factory-of-the-future"
+        },
+        {
+          "claim_type": "career",
+          "title": "Annual Maine AI Conference",
+          "summary": "Builds statewide AI community of practice across academia, industry, government; normalizes public dialogue on AI ethics, workforce, and access.",
+          "source_url": "https://ai.umaine.edu/ai-conference/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Engineering Applications of AI Graduate and Undergraduate Certificates",
+          "summary": "Translates UMaine AI research strengths into workforce credentials; closes a state-level gap in AI-specific post-secondary programs.",
+          "source_url": "https://online.umaine.edu/online-undergraduate-certificate-in-engineering-applications-of-artificial-intelligence/"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI and Digital Twin Internships for the Blue Economy",
+          "summary": "Directly pairs AI/ML skill-building with Maine's marine economy; a replicable model for aligning workforce pipelines with regional industry needs.",
+          "source_url": "https://umaine.edu/news/blog/2025/11/12/umaine-launches-internships-in-ai-digital-twins-for-the-blue-economy/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Sekeh Lab AI safety and adversarial robustness research",
+          "summary": "Brings AI safety and robustness research into UMaine's portfolio, relevant to sector-wide concerns about trustworthy AI.",
+          "source_url": "https://umaine.edu/arcsim/2023/09/13/research-computing-faculty-spotlight-salimeh-yasaei-sekeh/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No confirmed enterprise-scale AI tool deployment (Copilot/ChatGPT Edu/Gemini); UMS guidance references them but a campus-wide contract is not publicly announced.",
+        "No named campus-level CIO separate from the UMS CIO; unclear whether UMaine has a dedicated CIO or relies entirely on system IT leadership.",
+        "No published institutional AI strategy document distinct from the UMaine AI Initiative vision; references to 'responsibly integrate AI' in the Strategic Re-Envisioning plan not located as a standalone policy.",
+        "No confirmed student-facing AI chatbot or predictive-analytics retention product publicly documented at UMaine.",
+        "Specific dollar figures for several UMaine AI investments (seed grant totals beyond the $750K cumulative figure; Penobscot HPC capital outlay) are not publicly disclosed.",
+        "Founding year for Sekeh Lab listed as 2020 based on Sekeh's UMaine start; exact lab founding date not confirmed."
+      ]
+    }
+  }
+}

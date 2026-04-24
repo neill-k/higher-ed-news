@@ -1,0 +1,1474 @@
+{
+  "institution": "West Virginia University",
+  "slug": "west-virginia-university",
+  "city_state": "Morgantown, WV",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "West Virginia University System",
+  "enrollment": 27045,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Michael T. Benson",
+      "url": "https://president.wvu.edu/"
+    },
+    "provost": {
+      "name": "Paul Kreider (Interim); Beverly Wendland (incoming, effective July 1, 2026)",
+      "url": "https://provost.wvu.edu/"
+    },
+    "cio": {
+      "name": "Phil Stasko (Interim CIO)",
+      "url": "https://it.wvu.edu/about/meet-our-teams/office-of-the-cio"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Aldo Romero",
+      "title": "Director of Research Computing; convener of WVU AI Discussion Group",
+      "url": "https://research.wvu.edu/initiatives/wvu-ai-discussion-group"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Use of Generative AI for Administrative Purposes at WVU",
+        "url": "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu",
+        "year": 2024
+      },
+      {
+        "title": "Artificial Intelligence FAQ (Office of Academic Integrity)",
+        "url": "https://academicintegrity.wvu.edu/student-resources/ai-faq",
+        "year": 2024
+      },
+      {
+        "title": "Today's AI Snapshot (WV Public Education Collaborative)",
+        "url": "https://wvpec.wvu.edu/events-and-initiatives/focus-forward-preparing-today-for-the-west-virginia-of-tomorrow/2026-focus-forward/today-s-ai-snapshot",
+        "year": 2026
+      }
+    ],
+    "summary": "WVU does not publish a single unified AI strategy document. Instead, AI direction is distributed across the Office of the Provost, General Counsel, Information Technology Services, the Faculty Senate, the Office of Academic Integrity, and research-side initiatives led by the Research Computing office. Public signals emphasize cautious, principles-based adoption (data privacy, transparency, accuracy, adaptability) combined with aggressive expansion of AI academic programs (MS in AI, BS in Applied AI & Data Analytics, new concentrations) and research infrastructure (Dolly Sods GPU cluster, WVU Cyber, Applied AI Lab, AI+HEC)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu",
+      "https://academicintegrity.wvu.edu/student-resources/ai-faq",
+      "https://facultysenate.wvu.edu/resources/syllabus-policies-and-statements"
+    ],
+    "adopted_date": "2024-06",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": false,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No PII, confidential, or sensitive data into generative AI tools without explicit IT Purchase Request approval",
+      "Four guiding principles: understand capabilities/limitations, trust and transparency, accuracy and inclusivity, data privacy and security",
+      "Only Blackboard/Anthology AI Design Assistant in eCampus Ultra and basic Microsoft Copilot (free via WVU M365) are authorized for the WVU environment",
+      "Student use of ChatGPT, Grammarly, Microsoft Copilot, Google Gemini, DALL-E is unauthorized unless the instructor explicitly permits it",
+      "Faculty Senate provides four optional syllabus statements (two permissive, two restrictive); syllabus-level policy is recommended but not mandated",
+      "Joint ownership: Office of the Provost + Office of the General Counsel + Information Technology Services"
+    ],
+    "summary": "WVU's stance is cautious: a default-deny posture for unapproved tools with a small authorized-tool allowlist (Blackboard/Anthology AI Design Assistant, basic Microsoft Copilot via WVU M365), anchored by four principles (limitations, transparency, accuracy, data privacy). Academic use is instructor-discretion, not a blanket ban, and the Faculty Senate offers optional syllabus statements ranging from permissive to restrictive. Administrative use guidance was jointly adopted by the Provost, General Counsel, and ITS in June 2024."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "WVU AI Discussion Group",
+        "type": "council",
+        "scope": "University-wide community of practice convened by the Research Office and Research Computing; nearly 200 faculty, researchers, and students; monthly talks, newsletter, and collaborative projects on research, teaching, and academic integrity implications of AI",
+        "url": "https://research.wvu.edu/initiatives/wvu-ai-discussion-group"
+      },
+      {
+        "name": "Office of Academic Integrity — AI Guidance Working Group",
+        "type": "office",
+        "scope": "Owns Academic Integrity AI FAQ and student-facing guidance on authorized/unauthorized use of generative AI in coursework",
+        "url": "https://academicintegrity.wvu.edu/student-resources/ai-faq"
+      },
+      {
+        "name": "Faculty Senate syllabus AI policy process",
+        "type": "committee",
+        "scope": "Faculty Senate governance process that publishes and updates the optional AI syllabus statements and reviews academic-integrity implications of AI",
+        "url": "https://facultysenate.wvu.edu/resources/syllabus-policies-and-statements"
+      },
+      {
+        "name": "Joint Provost / General Counsel / ITS administrative-AI governance",
+        "type": "other",
+        "scope": "Tri-office owner of the administrative generative-AI guidance (adopted June 2024; last updated May 2025) and the IT Purchase Request process that gates any tool handling sensitive data",
+        "url": "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu"
+      },
+      {
+        "name": "WVU Cyber",
+        "type": "office",
+        "scope": "Interdisciplinary initiative launched November 2025 uniting eight colleges to coordinate cybersecurity, AI, and workforce programs; executive director Bill Walker",
+        "url": "https://wvutoday.wvu.edu/stories/2025/11/12/wvu-cyber-launches-to-affirm-university-commitment-in-addressing-security-workforce-and-economic-challenges"
+      }
+    ],
+    "summary": "AI governance at WVU is distributed rather than centralized under a chief AI officer. Administrative-use policy is jointly owned by Provost, General Counsel, and ITS; academic-use policy sits in the Office of Academic Integrity with syllabus statements offered by Faculty Senate; research-side coordination is convened by the Research Computing office through the WVU AI Discussion Group (~200 members) and reinforced by WVU Cyber (launched November 2025)."
+  },
+  "initiatives": [
+    {
+      "title": "Online M.S. in Artificial Intelligence (Lane Department of CSEE)",
+      "description": "WVU Board of Governors approved a new fully online 30-credit-hour Master of Science in Artificial Intelligence housed in the Lane Department of Computer Science and Electrical Engineering in the Statler College. Curriculum covers machine learning, data science, intelligent systems, and ethical AI, with 1-3 year completion flexibility.",
+      "significance": "An R1 institution adding an online stand-alone AI master's through its Board of Governors signals that AI is now a degree-level, not just service-course, offering at WVU.",
+      "date_announced": "2025-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WVU Online tuition + Statler College",
+        "description": "Program development and online delivery investment; specific dollar amount not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal WVU program; no named external partner."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Shifts AI from elective content to credentialed pathway; applicants are expected to bring CS background.",
+      "source_urls": [
+        "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems",
+        "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms",
+        "http://catalog.wvu.edu/graduate/collegeofengineeringandmineralresources/thelanedepartmentofcomputerscienceandelectricalengineering/artificialintelligence/"
+      ]
+    },
+    {
+      "title": "B.S. in Applied AI and Data Analytics (Chambers College of Business)",
+      "description": "A Bachelor of Science in Applied AI and Data Analytics launched fall 2025 out of the John Chambers College of Business and Economics, built around small cohorts (25-40) in Reynolds Hall. Students work on real client projects from day one, building predictive systems and AI-enabled decision tools.",
+      "significance": "Moves AI curriculum out of CS and into the business college, signaling that WVU treats AI literacy as a general workforce skill, not only an engineering specialty.",
+      "date_announced": "2025-04-04",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Chambers College of Business and Economics",
+        "description": "Faculty, curriculum, and Reynolds Hall-based studio investment; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Real-world client companies for capstone projects"
+          ],
+          "description": "Applied AI consulting model: student teams work on live company problems throughout the degree."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Embeds AI fluency expectations into a professional undergraduate business credential.",
+      "source_urls": [
+        "https://www.wvu.edu/academics/programs/applied-ai-and-data-analytics-bs/",
+        "https://business.wvu.edu/academics/management-information-systems/applied-ai-and-data-analytics",
+        "https://wvutoday.wvu.edu/stories/2025/04/04/wvu-sets-student-retention-record-bog-approves-new-ai-focused-programs",
+        "http://catalog.wvu.edu/undergraduate/collegeofbusinessandeconomics/applied_ai_data_analytics/"
+      ]
+    },
+    {
+      "title": "Online M.S. in AI Marketing (Chambers College)",
+      "description": "A fully online Master of Science in AI Marketing, offered through WVU Online and Chambers College of Business and Economics, combining marketing strategy fundamentals with generative AI, data science, consumer behavior, and digital media automation.",
+      "significance": "One of the earliest AI-marketing-branded MS programs from an R1; targets mid-career marketers adapting to generative AI.",
+      "date_announced": "2025-09-17",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WVU Online",
+        "description": "Online program development and launch; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals that AI-adjacent degree branding is legitimate at the graduate level.",
+      "source_urls": [
+        "https://online.wvu.edu/programs/masters-degrees/ai-marketing-ms",
+        "https://online.wvu.edu/news-and-stories/2025/09/17/wvu-now-accepting-applications-for-2026-adds-new-online-programs-in-ai-education-and-sports",
+        "https://business.wvu.edu/news-and-events/news/2025/04/15/master-marketing-with-ai"
+      ]
+    },
+    {
+      "title": "Administrative Generative-AI Acceptable Use Guidance",
+      "description": "Formal guidance jointly adopted June 2024 by the Office of the Provost, Office of the General Counsel, and Information Technology Services governing faculty, staff, and student use of generative AI (ChatGPT, Bard, DALL-E, Otter.AI, etc.) in administrative activities. Built on four principles: understand limitations, trust and transparency, accuracy and inclusivity, data privacy and security.",
+      "significance": "Establishes WVU's institutional posture as cautious-with-guardrails rather than prohibitive, and creates the IT Purchase Request gate that any AI tool handling sensitive data must clear.",
+      "date_announced": "2024-06-18",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal operating budget",
+        "description": "Policy drafting and ongoing maintenance (last updated May 2025)."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal tri-office ownership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot (basic)",
+          "vendor": "Microsoft",
+          "role": "Authorized generative-AI tool via WVU M365"
+        },
+        {
+          "name": "Blackboard/Anthology AI Design Assistant",
+          "vendor": "Anthology",
+          "role": "Authorized AI tool inside eCampus Ultra LMS"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Default-deny for unapproved AI tools with sensitive data; narrow authorized-tool allowlist.",
+      "source_urls": [
+        "https://enews.wvu.edu/articles/2024/06/18/wvu-adopts-formal-guidance-around-responsible-use-of-ai-in-administrative-operations",
+        "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu",
+        "https://www.thedaonline.com/news/university/guidelines-for-administrative-use-for-ai-tools-now-available-for-students-staff/article_6b951ca2-37c2-11ef-b2dd-8fdbc0ada136.html"
+      ]
+    },
+    {
+      "title": "Faculty Senate Optional AI Syllabus Statements",
+      "description": "Faculty Senate publishes a base AI syllabus statement plus four optional alternatives (two permissive, two restrictive) that instructors may adopt exactly as written. Policy at the course level is instructor-discretion; Faculty Senate does not mandate a syllabus-level policy.",
+      "significance": "Provides a structured, menu-driven approach that many R1s are converging on — optional but pre-vetted language to reduce instructor-by-instructor confusion.",
+      "date_announced": "2023-03-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Faculty Senate",
+        "description": "Policy development, no dedicated budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal Faculty Senate process."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Formalizes that course-level AI policy is an instructor choice, backed by pre-approved language options.",
+      "source_urls": [
+        "https://facultysenate.wvu.edu/resources/syllabus-policies-and-statements",
+        "https://tlcommons.wvu.edu/syllabus-policies-and-statements/artificial-intelligence-syllabus-statements"
+      ]
+    },
+    {
+      "title": "Dolly Sods GPU Cluster for AI/ML Research",
+      "description": "NSF-funded GPU-accelerated HPC cluster dedicated to AI, machine learning, and data science research. 30 nodes with 4x A30 GPUs, 4 nodes with 4x A40 GPUs, and 2 nodes with 8x SXM A100 GPUs. Fully operational since August 2023, housed alongside Thorny Flat under WVU Research Computing.",
+      "significance": "Gives WVU dedicated campus-owned GPU capacity (A100/A40/A30) — a meaningful research-compute asset for a public flagship outside the top AI-compute tier.",
+      "date_announced": "2021-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1000000,
+        "funding_source": "NSF Major Research Instrumentation (Award #2117575)",
+        "description": "~$1M NSF MRI award for acquisition of Dolly Sods GPU cluster; university cost-share additional."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF MRI award #2117575 funded cluster acquisition."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA A100 / A40 / A30 GPUs",
+          "vendor": "NVIDIA",
+          "role": "AI/ML compute acceleration"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://docs.hpc.wvu.edu/",
+        "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117575",
+        "https://research.wvu.edu/tools/research-computing/high-performance-computing"
+      ]
+    },
+    {
+      "title": "'Ask Morgan' AI Chatbot for Student Services",
+      "description": "AI-powered chatbot deployed across WVU student-facing websites that answers advising, tutoring, financial aid, and registrar questions 24/7 and hands off to staff during business hours. Launched fall 2022 to address the 40% of student inquiries that happen after hours.",
+      "significance": "An operational, not pilot, AI chatbot at an R1 — early mover on conversational AI in student services, now several years in production.",
+      "date_announced": "2022-08-22",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "ai_search_and_retrieval",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Enrollment Management / Student Services",
+        "description": "Vendor SaaS; amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Chatbot vendor (Ivy.ai-class conversational-AI platform referenced by WVU)"
+          ],
+          "description": "SaaS chatbot licensed and skinned as WVU's Morgan."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Ask Morgan",
+          "vendor": "Third-party AI chatbot vendor",
+          "role": "24/7 student inquiry triage across WVU websites"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Represents an approved production deployment of conversational AI under the administrative AI guidance framework.",
+      "source_urls": [
+        "https://enews.wvu.edu/articles/2022/08/22/-ask-morgan-chatbot-available-to-answer-student-questions-24-7"
+      ]
+    },
+    {
+      "title": "WVU Cyber Interdisciplinary Initiative",
+      "description": "Launched November 12, 2025 during the inaugural Mountain State Cyber Summit, WVU Cyber unites eight colleges and federal partners (DoD, DHS, FBI, NSA, US Cyber Command) to coordinate cybersecurity, AI, data analytics, law, ethics, and healthcare-data programs. Over 1,000 students across 20+ undergraduate, 18 graduate, and 5 doctoral programs. Executive director: Bill Walker.",
+      "significance": "Creates a named institutional home where AI, cybersecurity, and national-security workforce programs are coordinated rather than siloed college-by-college.",
+      "date_announced": "2025-11-12",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_workforce_training",
+        "ai_research_center",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WVU + federal research awards (DoD, DHS, FBI, NSA, US Cyber Command)",
+        "description": "Multi-college operating investment plus federally funded research contracts; aggregate dollar figure not disclosed at launch."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Defense",
+            "Department of Homeland Security",
+            "FBI",
+            "National Security Agency",
+            "U.S. Cyber Command"
+          ],
+          "description": "Federal agency partnerships central to the cyber-AI workforce mission."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Statler College",
+            "Eberly College",
+            "Chambers College",
+            "WVU Law",
+            "WVU Health Sciences",
+            "WVU Tech",
+            "Potomac State College",
+            "College of Creative Arts and Media"
+          ],
+          "description": "Eight internal WVU colleges coordinating under WVU Cyber."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Brings AI risk and governance under a cyber framework; positions WVU for DoD/intelligence-community-aligned AI research.",
+      "source_urls": [
+        "https://wvutoday.wvu.edu/stories/2025/11/12/wvu-cyber-launches-to-affirm-university-commitment-in-addressing-security-workforce-and-economic-challenges",
+        "https://cyber.wvu.edu/labs-and-facilities"
+      ]
+    },
+    {
+      "title": "Beyond ChatGPT: NEH-Funded AI Ethics Across Disciplines",
+      "description": "National Endowment for the Humanities-funded interdisciplinary curriculum-development effort led by Erin Brock Carlson (English) and Scott Davidson (Philosophy) at Eberly College. Delivers a summer workshop training humanities faculty on AI and supports creation/redesign of ~10 courses with an AI component across disciplines.",
+      "significance": "Pushes AI literacy beyond STEM into humanities and philosophy — a category most R1s are still under-investing in.",
+      "date_announced": "2025-01-22",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_ethics_framework",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "National Endowment for the Humanities",
+        "description": "NEH grant; specific dollar amount not reported in the WVU announcement."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Endowment for the Humanities"
+          ],
+          "description": "Federal humanities agency funding cross-disciplinary AI curriculum."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Interdisciplinary humanities + data-science faculty network"
+          ],
+          "description": "Cross-disciplinary fellowship design across WVU and collaborating institutions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Models a humanities-anchored framework for teaching the ethics, limits, and civic implications of AI.",
+      "source_urls": [
+        "https://wvutoday.wvu.edu/stories/2025/01/22/beyond-chatgpt-wvu-researchers-to-study-use-and-ethics-of-artificial-intelligence-across-disciplines"
+      ]
+    },
+    {
+      "title": "Brain Health Collaboratory with Cognito Therapeutics (Rockefeller Neuroscience Institute)",
+      "description": "Partnership launched November 13, 2025 between WVU Rockefeller Neuroscience Institute and Cognito Therapeutics to create a Brain Health Collaboratory that fuses clinical care, AI-powered research, and continuous data generation into a learning-healthcare ecosystem for non-drug neurotherapies.",
+      "significance": "Showcases WVU's clinical-AI research posture — pairing a leading neuroscience institute with an industry partner around a learning-health-system model.",
+      "date_announced": "2025-11-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Cognito Therapeutics + WVU Rockefeller Neuroscience Institute",
+        "description": "Joint investment; specific dollar figure not disclosed at launch."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Cognito Therapeutics"
+          ],
+          "description": "Industry-academic partnership on AI-accelerated neurotherapy development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.businesswire.com/news/home/20251113711270/en/WVU-Rockefeller-Neuroscience-Institute-and-Cognito-Therapeutics-Launch-Brain-Health-Collaboratory-to-Accelerate-Neurotherapies-with-AI-powered-Research"
+      ]
+    },
+    {
+      "title": "Brain-Computer Interface Partnership with Precision Neuroscience",
+      "description": "Expanded WVU Rockefeller Neuroscience Institute partnership with Precision Neuroscience on the Layer 7 Cortical Interface (1,024 electrodes on ultra-thin flexible film). WVU RNI became the first U.S. site to record high-resolution neural activity from human speech areas with this technology, enabling AI-driven decoding of speech and language.",
+      "significance": "High-visibility physical-AI / neurotech work at the frontier of BCIs; ties WVU to a leading BCI commercial partner.",
+      "date_announced": "2024-04-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "disability_and_accessibility"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Precision Neuroscience + federal research funding",
+        "description": "Multi-year industry-academic clinical research collaboration; dollar figure not publicly consolidated."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Precision Neuroscience Corporation"
+          ],
+          "description": "Co-developed first-in-human AI-assisted cortical speech decoding."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Layer 7 Cortical Interface",
+          "vendor": "Precision Neuroscience",
+          "role": "1,024-electrode BCI for AI-driven neural decoding"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Raises clinical-AI governance and human-subjects considerations that WVU RNI addresses under its existing IRB processes.",
+      "source_urls": [
+        "https://wvumedicine.org/news-feed/news-article/WVU-Medicine/Front-Page/wvu-rockefeller-neuroscience-institute-first-in-u-s-to-successfully-test-innovative-brain-computer-interface-technology-to-decode-speech-and-language/",
+        "https://wvumedicine.org/news/article/WVU-Medicine/Front-Page/wvu-rockefeller-neuroscience-institute-precision-neuroscience-expand-partnership-on-next-generation-brain-computer-interface-technology",
+        "https://www.dominionpost.com/2024/04/20/wvu-rni-takes-part-in-groundbreaking-research-on-brain-computer-interface-device-for-people-with-neurological-disabilities/"
+      ]
+    },
+    {
+      "title": "WVU AI Discussion Group (Research Computing-Convened Community of Practice)",
+      "description": "Monthly talks, open conversations, and collaborative projects convened by Research Computing director Aldo Romero, with nearly 200 faculty, researchers, and students participating. Produces a campus AI newsletter (launched 2026) covering WVU initiatives and national debates (OpenAI/Anthropic, AI-and-defense).",
+      "significance": "Functions as WVU's distributed AI council in the absence of a named chief AI officer — a lightweight governance and sensemaking body.",
+      "date_announced": "2024-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "faculty_training_and_development",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Research Office / Research Computing",
+        "description": "Operating support for speaker series and newsletter; not a funded office."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "WVU colleges and research centers"
+          ],
+          "description": "Cross-college convening."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Functions as the de facto forum where cross-campus AI policy and practice is debated.",
+      "source_urls": [
+        "https://research.wvu.edu/initiatives/wvu-ai-discussion-group",
+        "https://enews.wvu.edu/articles/2026/03/10/ai-newsletter-available-to-campus-community"
+      ]
+    },
+    {
+      "title": "Faculty Learning Community: Teaching Writing and Research in the Age of AI",
+      "description": "Spring 2026 Faculty Learning Community launched February 13, 2026, focused on re-envisioning how writing and research are taught in the generative-AI era. Sponsored through the Teaching and Learning Commons.",
+      "significance": "Puts structured, cohort-based faculty development behind the pedagogical shift generative AI is forcing on composition and research instruction.",
+      "date_announced": "2026-01-30",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Teaching and Learning Commons",
+        "description": "Cohort-based FLC stipends/resources; no dollar figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty development program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals that WVU expects writing pedagogy to adapt to AI rather than be walled off from it.",
+      "source_urls": [
+        "https://enews.wvu.edu/articles/2026/01/30/faculty-learning-community-focused-on-generative-ai-begins-feb-13"
+      ]
+    },
+    {
+      "title": "AI in Marketing Conference and AI in HR Management Conference (Chambers College)",
+      "description": "Two recurring WVU-hosted conferences run by the John Chambers College of Business and Economics: AI in Marketing Conference (April 7, 2026) and the 2026 AI in Human Resource Management Conference (April 10, 2026), both convening practitioners, scholars, and technology vendors.",
+      "significance": "Establishes WVU as a regional convener on AI applications in professional disciplines.",
+      "date_announced": "2025-04-15",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "regional_economic_impact",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Chambers College / sponsors",
+        "description": "Conference registration + sponsorship."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Industry practitioners and AI vendors"
+          ],
+          "description": "Industry-academia convening."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://business.wvu.edu/2026-ai-in-human-resource-management-conference",
+        "https://business.wvu.edu/ai-in-marketing-conference",
+        "https://business.wvu.edu/news-and-events/news/2025/04/15/master-marketing-with-ai"
+      ]
+    },
+    {
+      "title": "NOAA Cloud Analytics Faculty Fellows Program",
+      "description": "2026 Cloud Analytics Faculty Fellows selected four WVU instructors — housed in the Office of the Provost and funded through the West Virginia High Technology Foundation — to integrate NOAA Open Data Dissemination climate and environmental datasets into courses using cloud-analytics and AI tooling.",
+      "significance": "Injects federal open climate data + cloud AI workflows directly into undergraduate and graduate curriculum.",
+      "date_announced": "2025-12-18",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "West Virginia High Technology Foundation + NOAA Open Data Dissemination",
+        "description": "Fellowship stipends and computing-credit support."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NOAA",
+            "West Virginia High Technology Foundation"
+          ],
+          "description": "Federal + state-nonprofit collaboration on classroom integration of open government data."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NOAA Open Data Dissemination (NODD)",
+          "vendor": "NOAA",
+          "role": "Cloud-hosted climate/environmental datasets for AI coursework"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://enews.wvu.edu/articles/2025/12/18/innovative-program-enters-second-year-expanding-noaa-data-integration-across-wvu-classrooms"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Applied AI Lab (RANIAlab)",
+      "focus": "Responsible, adaptive, human-centered AI: machine unlearning for privacy, cultural-heritage computer vision, knowledge-efficient learning, assistive technologies; led by PI Ramana Reddy; includes RANIA House sensor-equipped living lab and the International Collaboratory for GeronTechnology.",
+      "founded": null,
+      "url": "https://ailab.faculty.wvu.edu/"
+    },
+    {
+      "name": "AI + Health Engineering Center (ai+hec)",
+      "focus": "Interdisciplinary AI research focused on digital health applications",
+      "founded": null,
+      "url": "https://community.wvu.edu/~daadjeroh/projects/aihec/"
+    },
+    {
+      "name": "Vision and Learning Group",
+      "focus": "Computer vision and machine learning fundamentals and applications",
+      "founded": null,
+      "url": "https://vision.csee.wvu.edu/"
+    },
+    {
+      "name": "WVU Interactive Robotics Laboratory (IRL)",
+      "focus": "Robot/UAV navigation, filtering and estimation, autonomy, systems design and integration",
+      "founded": null,
+      "url": "https://yugu.faculty.wvu.edu/"
+    },
+    {
+      "name": "Machine Intelligence Group (under WVU Cyber)",
+      "focus": "Reliable and trustworthy AI systems for critical domains including healthcare",
+      "founded": null,
+      "url": "https://cyber.wvu.edu/labs-and-facilities"
+    },
+    {
+      "name": "Intelligent Cyber Physical Systems Lab (F1Tenth)",
+      "focus": "Machine learning, computer vision, and autonomous-systems security",
+      "founded": null,
+      "url": "https://cyber.wvu.edu/labs-and-facilities"
+    },
+    {
+      "name": "Media Innovation Center — AI pillar",
+      "focus": "Privacy and ethics of AI in media, journalism, and communications; named pillar since 2014",
+      "founded": "2014",
+      "url": "https://mediainnovation.wvu.edu/programs/artificial-intelligence"
+    },
+    {
+      "name": "WVU Rockefeller Neuroscience Institute — AI / BCI research",
+      "focus": "AI-assisted brain-computer interfaces, speech decoding, AI-powered neurotherapy (Brain Health Collaboratory with Cognito Therapeutics)",
+      "founded": null,
+      "url": "https://rni.wvumedicine.org/research/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence (online)",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms"
+    },
+    {
+      "type": "degree",
+      "name": "B.S. in Applied AI and Data Analytics",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://www.wvu.edu/academics/programs/applied-ai-and-data-analytics-bs/"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in AI Marketing (online)",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://online.wvu.edu/programs/masters-degrees/ai-marketing-ms"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Applied AI and Data Analytics (online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://online.wvu.edu/programs/masters-degrees/applied-ai-data-analytics-ms"
+    },
+    {
+      "type": "concentration",
+      "name": "Area of Emphasis: Artificial Intelligence (CSEE undergrad)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
+    },
+    {
+      "type": "concentration",
+      "name": "Graduate Area of Emphasis: AI and Computational Data Science",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Digital Health (AI/ML applications)",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (basic, via WVU M365)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-06",
+      "url": "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu"
+    },
+    {
+      "vendor": "Anthology",
+      "product": "Blackboard/Anthology AI Design Assistant (eCampus Ultra LMS)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-06",
+      "url": "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu"
+    },
+    {
+      "vendor": "Third-party chatbot vendor",
+      "product": "Ask Morgan",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2022-08",
+      "url": "https://enews.wvu.edu/articles/2022/08/22/-ask-morgan-chatbot-available-to-answer-student-questions-24-7"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Dolly Sods (AI/ML GPU cluster) and Thorny Flat (general HPC)",
+    "gpu_count": 175,
+    "url": "https://docs.hpc.wvu.edu/",
+    "summary": "WVU Research Computing operates two named HPC clusters. Dolly Sods (operational August 2023) is a GPU-accelerated AI/ML cluster with 30 nodes x 4 A30 GPUs, 4 nodes x 4 A40 GPUs, and 2 nodes x 8 SXM A100 GPUs (~136+ GPUs aggregated with Thorny Flat's 47 additional GPUs for a total around 175). Thorny Flat (deployed February 2019, hosted at Pittsburgh Supercomputing Center) adds 178 CPU nodes and 11 GPU nodes (47 GPU cards) for a combined ~115 TeraFLOPS Linpack. Both systems are NSF-funded and available to all WVU faculty and students."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF MRI: Acquisition of Dolly Sods GPU Cluster (Award #2117575)",
+      "amount_usd": 1000000,
+      "source": "National Science Foundation",
+      "purpose": "Acquire GPU-accelerated HPC cluster dedicated to AI, ML, and data-science research",
+      "date": "2021-09",
+      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117575"
+    },
+    {
+      "title": "NEH grant — Beyond ChatGPT AI Ethics Curriculum (Carlson/Davidson)",
+      "amount_usd": null,
+      "source": "National Endowment for the Humanities",
+      "purpose": "Faculty workshop + ~10 AI-integrated course redesigns across humanities",
+      "date": "2025-01",
+      "url": "https://wvutoday.wvu.edu/stories/2025/01/22/beyond-chatgpt-wvu-researchers-to-study-use-and-ethics-of-artificial-intelligence-across-disciplines"
+    },
+    {
+      "title": "FY2025 WVU Foundation alumni and friends contributions",
+      "amount_usd": 260000000,
+      "source": "Alumni and friends (WVU Foundation)",
+      "purpose": "University-wide priorities; a portion supports AI-adjacent programs though not earmarked solely to AI",
+      "date": "2025-07",
+      "url": "https://wvuf.org/news-and-publications/news/2025/07/28/wvu-alumni-and-friends-contribute-more-than-260m-to-university-in-2025-fiscal-year"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Precision Neuroscience Corporation",
+      "purpose": "Layer 7 Cortical Interface — AI-driven BCI for speech and motor neural decoding; WVU RNI is first-in-U.S. site",
+      "date": "2024-04",
+      "url": "https://wvumedicine.org/news/article/WVU-Medicine/Front-Page/wvu-rockefeller-neuroscience-institute-precision-neuroscience-expand-partnership-on-next-generation-brain-computer-interface-technology"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Cognito Therapeutics",
+      "purpose": "Brain Health Collaboratory — AI-powered neurotherapy learning-health-system",
+      "date": "2025-11",
+      "url": "https://www.businesswire.com/news/home/20251113711270/en/WVU-Rockefeller-Neuroscience-Institute-and-Cognito-Therapeutics-Launch-Brain-Health-Collaboratory-to-Accelerate-Neurotherapies-with-AI-powered-Research"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Defense / DHS / FBI / NSA / U.S. Cyber Command",
+      "purpose": "WVU Cyber federal partnerships spanning AI-enabled cybersecurity research and workforce pipelines",
+      "date": "2025-11",
+      "url": "https://wvutoday.wvu.edu/stories/2025/11/12/wvu-cyber-launches-to-affirm-university-commitment-in-addressing-security-workforce-and-economic-challenges"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NOAA + West Virginia High Technology Foundation",
+      "purpose": "Cloud Analytics Faculty Fellows integrating NOAA Open Data Dissemination into AI coursework",
+      "date": "2025-12",
+      "url": "https://enews.wvu.edu/articles/2025/12/18/innovative-program-enters-second-year-expanding-noaa-data-integration-across-wvu-classrooms"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Multiple AI and HPC awards including Dolly Sods GPU cluster and regional energy-AI innovation proposal",
+      "date": "2021-09",
+      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117575"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Ask Morgan",
+      "scope": "24/7 advising, tutoring, financial-aid, and registrar Q&A on WVU student websites",
+      "url": "https://enews.wvu.edu/articles/2022/08/22/-ask-morgan-chatbot-available-to-answer-student-questions-24-7"
+    },
+    {
+      "type": "tutor",
+      "name": "Blackboard/Anthology AI Design Assistant (in eCampus Ultra)",
+      "scope": "LMS-embedded AI for course design and instructional content support available to students through their courses",
+      "url": "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu"
+    },
+    {
+      "type": "other",
+      "name": "AIWVU student organization",
+      "scope": "University-wide student club on AI education, biweekly workshops, industry guest speakers, competition team (5th nationally in NASA Lunar Autonomy Challenge)",
+      "url": "https://aiwvu.orgs.wvu.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Applied AI Lab assistive-technology research (RANIA House living lab)",
+      "description": "Assistive AI research focused on independent living for older adults and people with disabilities, run out of the International Collaboratory for GeronTechnology",
+      "url": "https://ailab.faculty.wvu.edu/"
+    },
+    {
+      "title": "Precision Neuroscience BCI for neurological disability",
+      "description": "WVU RNI's BCI research targets restoration of speech and motor function for people with paralysis or neurological disease",
+      "url": "https://www.dominionpost.com/2024/04/20/wvu-rni-takes-part-in-groundbreaking-research-on-brain-computer-interface-device-for-people-with-neurological-disabilities/"
+    },
+    {
+      "title": "WVU Libraries AI literacy programming",
+      "description": "Libraries research guides, ULIB course content, and the 2025 'Impact of Artificial Intelligence on Your Education and Fields of Work' exhibit aim to raise AI literacy for the WVU community including first-generation and rural students",
+      "url": "https://library.wvu.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "West Virginia",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "West Virginia established an AI Task Force in 2024 (HB 5690, §5A-6-9), housed in the Office of Technology within the Governor's office, with ex-officio members from the legislature, the state CIO, the State Superintendent of Schools, and the Chancellor of the WV Higher Education Policy Commission. The Task Force was charged with delivering recommendations by July 2025. The state's Office of Technology maintains an approved-tools list for state agencies (approving Google Gemini for Workspace, Microsoft Copilot Chat, Grammarly, Gemini Apps) and prohibits ChatGPT, DeepSeek, and any AI transmitting data outside the U.S. or banned under the FCC Secure Networks Act. These state-agency rules do not directly bind higher-education institutions, but the presence of the Chancellor on the Task Force creates an indirect pull on WVU and other state institutions.",
+    "urls": [
+      "https://technology.wv.gov/policy-governance/artificial-intelligence",
+      "https://technology.wv.gov/policy-governance/artificial-intelligence/ai-task-force",
+      "https://code.wvlegislature.gov/5A-6-9/",
+      "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5690+org.htm&amp=&i=5690&amp=&sesstype=RS&amp=&yr=2024",
+      "https://scitechpolicy.wvu.edu/science-and-technology-notes-articles/2024/07/17/artificial-intelligence-government-services-and-west-virginia"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "West Virginia University's AI posture in 2026 is defined by rapid program-level expansion running ahead of a centralized institutional strategy. WVU has no named chief AI officer or single published AI strategy document; instead, AI direction is distributed across the Office of the Provost, Office of the General Counsel, and Information Technology Services (which jointly own the June-2024 administrative acceptable-use guidance), the Office of Academic Integrity (which owns the student-facing AI FAQ), Faculty Senate (which publishes optional syllabus statements), and the Research Office's WVU AI Discussion Group — a ~200-member community of practice convened by Research Computing director Aldo Romero. The policy stance is cautious-with-guardrails: a default-deny posture for tools handling sensitive data, with a small authorized-tool allowlist (basic Microsoft Copilot via M365, Blackboard/Anthology AI Design Assistant in eCampus Ultra) and instructor-discretion academic use backed by pre-vetted syllabus language.\n\nWhere WVU is moving aggressively is in programs, research infrastructure, and industry/federal partnerships. In 2025 the Board of Governors approved a new online M.S. in Artificial Intelligence (Statler/Lane Department), a B.S. in Applied AI and Data Analytics (Chambers College), an online M.S. in AI Marketing, and multiple new graduate concentrations. Research infrastructure is anchored by the NSF-funded Dolly Sods GPU cluster (A30/A40/A100 nodes operational since August 2023) and the Thorny Flat HPC system. WVU Cyber (launched November 2025) organizes eight colleges plus DoD/DHS/FBI/NSA/US Cyber Command partners around cyber-AI workforce development. The Rockefeller Neuroscience Institute's BCI work with Precision Neuroscience (first-in-U.S. speech decoding) and the November-2025 Brain Health Collaboratory with Cognito Therapeutics put WVU on the clinical-AI research map. Student-facing production AI is represented by the 'Ask Morgan' chatbot (operating since 2022). The main gaps relative to other flagship R1s are the absence of a named AI officer, an unpublished campus-wide AI strategy, no disclosed large (>$10M) AI gift, and no enterprise-wide LLM license beyond basic Microsoft Copilot.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://wvpec.wvu.edu/events-and-initiatives/focus-forward-preparing-today-for-the-west-virginia-of-tomorrow/2026-focus-forward/today-s-ai-snapshot",
+      "https://online.wvu.edu/news-and-stories/2025/09/17/wvu-now-accepting-applications-for-2026-adds-new-online-programs-in-ai-education-and-sports",
+      "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems",
+      "https://business.wvu.edu/2026-ai-in-human-resource-management-conference/2025-ai-in-human-resource-management-conference",
+      "https://enews.wvu.edu/articles/2025/12/18/innovative-program-enters-second-year-expanding-noaa-data-integration-across-wvu-classrooms",
+      "https://business.wvu.edu/news-and-events/news/2025/04/15/master-marketing-with-ai",
+      "https://research.wvu.edu/initiatives/wvu-ai-discussion-group",
+      "https://wvutoday.wvu.edu/stories/2025/01/22/beyond-chatgpt-wvu-researchers-to-study-use-and-ethics-of-artificial-intelligence-across-disciplines",
+      "https://generationwv.org/ai-ready-workforce/",
+      "https://enews.wvu.edu/articles/2024/06/18/wvu-adopts-formal-guidance-around-responsible-use-of-ai-in-administrative-operations",
+      "https://it.wvu.edu/defend-your-data/use-of-generative-ai-for-administrative-purposes-at-wvu",
+      "https://scitechpolicy.wvu.edu/science-and-technology-notes-articles/2024/07/17/artificial-intelligence-government-services-and-west-virginia",
+      "https://technology.wv.gov/policy-governance/artificial-intelligence",
+      "https://www.thedaonline.com/news/university/guidelines-for-administrative-use-for-ai-tools-now-available-for-students-staff/article_6b951ca2-37c2-11ef-b2dd-8fdbc0ada136.html",
+      "https://facultysenate.wvu.edu/resources/syllabus-policies-and-statements",
+      "https://academicintegrity.wvu.edu/student-resources/ai-faq",
+      "https://academicintegrity.wvu.edu/files/d/6f4a1587-ff74-4a15-a2b6-19abcd20c4cb/ai-student-faq.pdf",
+      "https://technology.wv.gov/policy-governance/artificial-intelligence/ai-task-force",
+      "https://code.wvlegislature.gov/5A-6-9/",
+      "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb5690+org.htm&amp=&i=5690&amp=&sesstype=RS&amp=&yr=2024",
+      "https://ailab.faculty.wvu.edu/",
+      "https://cyber.wvu.edu/labs-and-facilities",
+      "https://lcsee.statler.wvu.edu/research",
+      "https://community.wvu.edu/~daadjeroh/projects/aihec/",
+      "https://mediainnovation.wvu.edu/programs/artificial-intelligence",
+      "https://aiwvu.orgs.wvu.edu/",
+      "https://yugu.faculty.wvu.edu/",
+      "https://vision.csee.wvu.edu/",
+      "https://online.wvu.edu/programs/masters-degrees/artificial-intelligence-ms",
+      "https://online.wvu.edu/programs/masters-degrees/ai-marketing-ms",
+      "https://online.wvu.edu/programs/masters-degrees/applied-ai-data-analytics-ms",
+      "http://catalog.wvu.edu/graduate/collegeofengineeringandmineralresources/thelanedepartmentofcomputerscienceandelectricalengineering/artificialintelligence/",
+      "https://docs.hpc.wvu.edu/",
+      "https://docs.hpc.wvu.edu/text/83.ThornyFlat.html",
+      "https://research.wvu.edu/tools/research-computing/high-performance-computing",
+      "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117575",
+      "https://wvutoday.wvu.edu/stories/2025/08/26/wvu-president-solidifies-leadership-team-with-new-hires-proven-university-professionals",
+      "https://wvutoday.wvu.edu/stories/2026/01/08/wvu-hires-experienced-scientist-academic-leader-to-serve-as-provost-and-vice-president-for-academic-affairs",
+      "https://president.wvu.edu/",
+      "https://provost.wvu.edu/",
+      "https://it.wvu.edu/about/meet-our-teams",
+      "https://it.wvu.edu/about/meet-our-teams/office-of-the-cio",
+      "https://enews.wvu.edu/articles/2022/08/22/-ask-morgan-chatbot-available-to-answer-student-questions-24-7",
+      "https://business.wvu.edu/academics/management-information-systems/applied-ai-and-data-analytics",
+      "https://www.wvu.edu/academics/programs/applied-ai-and-data-analytics-bs/",
+      "https://wvutoday.wvu.edu/stories/2025/04/04/wvu-sets-student-retention-record-bog-approves-new-ai-focused-programs",
+      "https://dataoffice.wvu.edu/reports-analytics",
+      "https://wvutoday.wvu.edu/stories/2025/11/12/wvu-cyber-launches-to-affirm-university-commitment-in-addressing-security-workforce-and-economic-challenges",
+      "https://wvumedicine.org/news-feed/news-article/WVU-Medicine/Front-Page/wvu-rockefeller-neuroscience-institute-first-in-u-s-to-successfully-test-innovative-brain-computer-interface-technology-to-decode-speech-and-language/",
+      "https://wvumedicine.org/news/article/WVU-Medicine/Front-Page/wvu-rockefeller-neuroscience-institute-precision-neuroscience-expand-partnership-on-next-generation-brain-computer-interface-technology",
+      "https://www.businesswire.com/news/home/20251113711270/en/WVU-Rockefeller-Neuroscience-Institute-and-Cognito-Therapeutics-Launch-Brain-Health-Collaboratory-to-Accelerate-Neurotherapies-with-AI-powered-Research",
+      "https://enews.wvu.edu/articles/2026/03/10/ai-newsletter-available-to-campus-community",
+      "https://enews.wvu.edu/articles/2026/01/30/faculty-learning-community-focused-on-generative-ai-begins-feb-13",
+      "https://wvuf.org/news-and-publications/news/2025/07/28/wvu-alumni-and-friends-contribute-more-than-260m-to-university-in-2025-fiscal-year",
+      "https://business.wvu.edu/ai-in-marketing-conference"
+    ],
+    "search_queries": [
+      "\"West Virginia University\" AI strategy 2025 2026",
+      "\"West Virginia University\" artificial intelligence policy acceptable use",
+      "\"West Virginia University\" AI council committee task force governance",
+      "\"West Virginia University\" AI research center institute lab",
+      "\"West Virginia University\" AI degree program masters graduate certificate",
+      "\"West Virginia University\" Microsoft Copilot ChatGPT enterprise deployment",
+      "\"West Virginia University\" GPU supercomputer HPC computing AI",
+      "\"West Virginia University\" AI gift million donation NSF grant",
+      "\"West Virginia University\" president provost CIO 2025 2026 leadership",
+      "\"West Virginia University\" AI chatbot students advising predictive analytics",
+      "\"West Virginia University\" AI partnership workforce Generation West Virginia",
+      "\"West Virginia University\" academic integrity AI ChatGPT syllabus",
+      "\"West Virginia University\" ITS information technology services director leader",
+      "\"WVU\" Rockefeller Neuroscience AI brain interface neural",
+      "\"West Virginia University\" 2026 AI announcement generative",
+      "\"WVU\" ChatGPT ban prohibited Blackboard Copilot authorized",
+      "\"West Virginia University\" AI library research guide literacy",
+      "\"West Virginia University\" data analytics predictive retention AI enrollment"
+    ],
+    "gaps_acknowledged": [
+      "No named chief AI officer or AI strategy lead title; Aldo Romero identified as convener of WVU AI Discussion Group but does not hold a formal AI-strategy officer title",
+      "Permanent CIO unfilled as of April 2026; Phil Stasko serving as Interim CIO",
+      "No single published campus-wide AI strategy document; direction is distributed across Provost/General Counsel/ITS/Faculty Senate/Research Office",
+      "Dollar amounts for Brain Health Collaboratory, Precision Neuroscience partnership, NEH AI ethics grant, and most academic-program launches not publicly disclosed",
+      "Enterprise user counts and license counts for Microsoft Copilot and Blackboard/Anthology AI Design Assistant not disclosed",
+      "Specific Ask Morgan chatbot vendor not named in public WVU materials",
+      "No evidence of a campus-wide enterprise LLM license (ChatGPT Edu, Claude for Education, Google Gemini for Education) beyond basic Microsoft Copilot",
+      "Limited public information on AI-specific governance committees beyond the AI Discussion Group and Academic Integrity office",
+      "Incoming provost Beverly Wendland's AI priorities not yet announced"
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 7,
+        "research_compute_powerhouse": 22,
+        "curriculum_led": 17,
+        "governance_led": 12,
+        "student_success_led": 5,
+        "workforce_regional_development": 12,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": false,
+      "addresses_ethics": true,
+      "adopted_date": "2024-06",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 9,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 3,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Dolly Sods (AI/ML GPU cluster) and Thorny Flat (general HPC)",
+        "gpu_count": 175,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 261000000,
+      "funding_source_buckets": {
+        "public_federal_state": 6,
+        "philanthropy_foundation": 4,
+        "institutional": 4,
+        "industry_vendor": 1,
+        "other_unclear": 3
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Blackboard",
+          "mentions": 2,
+          "products": [
+            "Blackboard/Anthology AI Design Assistant",
+            "Blackboard/Anthology AI Design Assistant (eCampus Ultra LMS)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot (basic)",
+            "Microsoft Copilot (basic, via WVU M365)"
+          ]
+        },
+        {
+          "vendor": "NOAA NOAA Open Data Dissemination (NODD)",
+          "mentions": 1,
+          "products": [
+            "NOAA Open Data Dissemination (NODD)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA A100 / A40 / A30 GPUs"
+          ]
+        },
+        {
+          "vendor": "Precision Neuroscience Layer 7 Cortical Interface",
+          "mentions": 1,
+          "products": [
+            "Layer 7 Cortical Interface"
+          ]
+        },
+        {
+          "vendor": "Third-party AI chatbot vendor Ask Morgan",
+          "mentions": 1,
+          "products": [
+            "Ask Morgan"
+          ]
+        },
+        {
+          "vendor": "Third-party chatbot vendor Ask Morgan",
+          "mentions": 1,
+          "products": [
+            "Ask Morgan"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Blackboard",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "student_success",
+          "title": "Online M.S. in Artificial Intelligence (Lane Department of CSEE)",
+          "summary": "An R1 institution adding an online stand-alone AI master's through its Board of Governors signals that AI is now a degree-level, not just service-course, offering at WVU.",
+          "source_url": "https://media.statler.wvu.edu/news/2025/08/01/wvu-bog-approves-new-program-offerings-in-artificial-intelligence-smart-systems"
+        },
+        {
+          "claim_type": "career",
+          "title": "B.S. in Applied AI and Data Analytics (Chambers College of Business)",
+          "summary": "Moves AI curriculum out of CS and into the business college, signaling that WVU treats AI literacy as a general workforce skill, not only an engineering specialty.",
+          "source_url": "https://www.wvu.edu/academics/programs/applied-ai-and-data-analytics-bs/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Online M.S. in AI Marketing (Chambers College)",
+          "summary": "One of the earliest AI-marketing-branded MS programs from an R1; targets mid-career marketers adapting to generative AI.",
+          "source_url": "https://online.wvu.edu/programs/masters-degrees/ai-marketing-ms"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "'Ask Morgan' AI Chatbot for Student Services",
+          "summary": "An operational, not pilot, AI chatbot at an R1 — early mover on conversational AI in student services, now several years in production.",
+          "source_url": "https://enews.wvu.edu/articles/2022/08/22/-ask-morgan-chatbot-available-to-answer-student-questions-24-7"
+        },
+        {
+          "claim_type": "career",
+          "title": "WVU Cyber Interdisciplinary Initiative",
+          "summary": "Creates a named institutional home where AI, cybersecurity, and national-security workforce programs are coordinated rather than siloed college-by-college.",
+          "source_url": "https://wvutoday.wvu.edu/stories/2025/11/12/wvu-cyber-launches-to-affirm-university-commitment-in-addressing-security-workforce-and-economic-challenges"
+        },
+        {
+          "claim_type": "usage",
+          "title": "WVU AI Discussion Group (Research Computing-Convened Community of Practice)",
+          "summary": "Functions as WVU's distributed AI council in the absence of a named chief AI officer — a lightweight governance and sensemaking body.",
+          "source_url": "https://research.wvu.edu/initiatives/wvu-ai-discussion-group"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Faculty Learning Community: Teaching Writing and Research in the Age of AI",
+          "summary": "Puts structured, cohort-based faculty development behind the pedagogical shift generative AI is forcing on composition and research instruction.",
+          "source_url": "https://enews.wvu.edu/articles/2026/01/30/faculty-learning-community-focused-on-generative-ai-begins-feb-13"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 8,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No named chief AI officer or AI strategy lead title; Aldo Romero identified as convener of WVU AI Discussion Group but does not hold a formal AI-strategy officer title",
+        "Permanent CIO unfilled as of April 2026; Phil Stasko serving as Interim CIO",
+        "No single published campus-wide AI strategy document; direction is distributed across Provost/General Counsel/ITS/Faculty Senate/Research Office",
+        "Dollar amounts for Brain Health Collaboratory, Precision Neuroscience partnership, NEH AI ethics grant, and most academic-program launches not publicly disclosed",
+        "Enterprise user counts and license counts for Microsoft Copilot and Blackboard/Anthology AI Design Assistant not disclosed",
+        "Specific Ask Morgan chatbot vendor not named in public WVU materials",
+        "No evidence of a campus-wide enterprise LLM license (ChatGPT Edu, Claude for Education, Google Gemini for Education) beyond basic Microsoft Copilot",
+        "Limited public information on AI-specific governance committees beyond the AI Discussion Group and Academic Integrity office",
+        "Incoming provost Beverly Wendland's AI priorities not yet announced"
+      ]
+    }
+  }
+}

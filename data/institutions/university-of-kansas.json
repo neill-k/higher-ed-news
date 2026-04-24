@@ -1,0 +1,1642 @@
+{
+  "institution": "University of Kansas",
+  "slug": "university-of-kansas",
+  "city_state": "Lawrence, KS",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 31169,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Douglas A. Girod",
+      "url": "https://chancellor.ku.edu/"
+    },
+    "provost": {
+      "name": "Arash Mafi",
+      "url": "https://chancellor.ku.edu/people/arash-mafi"
+    },
+    "cio": {
+      "name": "Ed Hudson",
+      "url": "https://technology.ku.edu/it-leadership"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "KU AI Taskforce (co-chaired Lawrence + KUMC)",
+      "title": "AI Taskforce Co-Chairs",
+      "url": "https://ai.ku.edu/ai-taskforce-overview"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University AI Guidelines (ai.ku.edu)",
+        "url": "https://ai.ku.edu/",
+        "year": 2024
+      },
+      {
+        "title": "KU AI Taskforce Overview",
+        "url": "https://ai.ku.edu/ai-taskforce-overview",
+        "year": 2024
+      },
+      {
+        "title": "KU AI Taskforce Guiding Principles",
+        "url": "https://ai.ku.edu/",
+        "year": 2024
+      }
+    ],
+    "summary": "KU operates a system-wide AI strategy articulated through the cross-campus KU AI Taskforce (Lawrence + KUMC), which sets responsible-AI principles, approves approved-tool lists, and coordinates academic, research, and administrative guidance. The strategy centers on seven principles — Human Centeredness, Value Alignment, Equitability, Privacy/Security/Safety, Accountability, Transparency, and Validity — and aims to position KU as a national leader in ethical AI. Strategy execution leans on Microsoft Copilot as the default enterprise tool, FLITE and the Enhanced AI Center as research engines, and the Center for Teaching Excellence as the faculty-development arm."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.ku.edu/",
+      "https://ai.ku.edu/students",
+      "https://cte.ku.edu/maintaining-academic-integrity-ai-era",
+      "https://cte.ku.edu/building-ai-policies-your-syllabus",
+      "https://technology.ku.edu/approved-ai-tools"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Seven responsible-AI principles govern campus use",
+      "Non-public data must only be entered into approved enterprise tools (Microsoft Copilot with enterprise data protection, Adobe Firefly, Databricks at KUMC)",
+      "FERPA, HIPAA, and GDPR compliance mandatory",
+      "No specific university-wide syllabus policy — faculty set course-level AI rules",
+      "GenAI plagiarism detectors discouraged due to bias and false positives",
+      "Users remain accountable for GenAI outputs (hallucinations)",
+      "AI use in research must be disclosed and comply with funder requirements",
+      "Copilot may not be used with Controlled Unclassified Information (CUI)"
+    ],
+    "summary": "KU has a comprehensive, principle-based acceptable-use framework rather than a prescriptive syllabus mandate. Use of generative AI is permitted across faculty, students, staff, and research, but tools must be approved for any non-public data, and faculty set discipline-specific course policies. The framework explicitly addresses FERPA/HIPAA/GDPR compliance and flags bias, privacy, and accountability as primary risks."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "KU AI Taskforce",
+        "type": "task_force",
+        "scope": "Cross-campus (KU Lawrence + KUMC) strategic guidance, oversight, and policy for AI in academics, administration, and research; meets biweekly; two co-chairs, 17+ members spanning IT, Legal/Compliance, Libraries, KUMC, Research, Faculty Senate, Marketing, and Institutional Research.",
+        "url": "https://ai.ku.edu/ai-taskforce-overview"
+      },
+      {
+        "name": "Center for Teaching Excellence — KUCTE AI",
+        "type": "office",
+        "scope": "Faculty-facing AI-in-teaching guidance, syllabus templates, podcast series, and AI literacy professional development.",
+        "url": "https://cte.ku.edu/kucte-ai"
+      },
+      {
+        "name": "Enhanced Artificial Intelligence Center for Human-Focused Research (KUMC)",
+        "type": "office",
+        "scope": "KUMC-side governance of AI research infrastructure (Databricks, Azure, MLFlow) and HIPAA-compliant AI applications in health/education.",
+        "url": "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research.html"
+      }
+    ],
+    "summary": "KU's AI governance runs through a formal Taskforce co-chaired across KU Lawrence and the Medical Center, supported by subject-matter offices at the Center for Teaching Excellence (faculty development) and the Enhanced AI Center (research infrastructure). The Taskforce integrates the CIO, CISO, Chief Strategy & Data Officer, privacy officer, compliance officer, and faculty representatives, giving it unusually broad standing authority for an R1."
+  },
+  "initiatives": [
+    {
+      "title": "KU AI Taskforce and university AI guidelines",
+      "description": "KU established a cross-campus AI Taskforce (Lawrence + KUMC) that meets biweekly, with two co-chairs and 17+ members from IT, compliance, legal, libraries, research, and faculty. The taskforce published seven guiding principles (human centeredness, value alignment, equitability, privacy, accountability, transparency, validity) and a public AI guidelines site (ai.ku.edu).",
+      "significance": "An R1 adopting a standing, cross-campus governance body with published principles signals a shift from ad-hoc statements to institutional AI stewardship.",
+      "date_announced": "2024-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "acceptable_use_policy",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional — Office of the Provost / Chancellor",
+        "description": "Standing taskforce with diverse membership; budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "KU Lawrence",
+            "University of Kansas Medical Center"
+          ],
+          "description": "Dual-campus coordination with co-chairs from each."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates an enduring governance venue to keep policy aligned with state (Kansas HB2313, HB2592), federal, and accreditor expectations.",
+      "source_urls": [
+        "https://ai.ku.edu/",
+        "https://ai.ku.edu/ai-taskforce-overview",
+        "https://ai.ku.edu/taskforce-committee-members"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot campus-wide rollout",
+      "description": "KU has designated Microsoft 365 Copilot Chat as the approved enterprise GenAI tool for all students, faculty, staff, and researchers on the Lawrence campus. Copilot Chat with enterprise data protection is already available; Microsoft 365 Copilot Full License is rolling out winter 2025 at a projected ~$220/user/year, and Copilot Studio supports custom agents.",
+      "significance": "Represents one of the clearer public examples of an R1 selecting a single default enterprise LLM and exposing it to the whole campus while explicitly restricting higher-sensitivity data.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional IT budget; per-seat licensing",
+        "description": "Projected ~$220 per full-license user per year plus Copilot Studio pay-as-you-go; base Copilot Chat included in M365 license."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise license with data-protection terms; no training of Microsoft models on KU data."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Default campus GenAI chat assistant with enterprise data protection"
+        },
+        {
+          "name": "Microsoft 365 Copilot Full License",
+          "vendor": "Microsoft",
+          "role": "Embedded Copilot across Word/Excel/PowerPoint/Outlook for approved users"
+        },
+        {
+          "name": "Microsoft Copilot Studio",
+          "vendor": "Microsoft",
+          "role": "Custom agent and workflow builder"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Standardizing on one vendor reduces shadow-IT risk and gives the CISO a single place to enforce data classification boundaries, but concentrates vendor dependence on Microsoft.",
+      "source_urls": [
+        "https://technology.ku.edu/approved-ai-tools",
+        "https://howto.ku.edu/copilot-chat",
+        "https://ai.ku.edu/"
+      ]
+    },
+    {
+      "title": "Adobe Firefly and Adobe Express generative AI access",
+      "description": "KU makes Adobe Firefly (generative image AI) and Adobe Express available to all Lawrence students, faculty, staff, and researchers as approved creative-AI tools under the institutional Adobe license.",
+      "significance": "Extends universal GenAI access beyond text to image generation, improving tool equity for creative and visual disciplines.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_tool_equity",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional Adobe Creative Cloud license",
+        "description": "Bundled in KU's Adobe institutional subscription."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Adobe"
+          ],
+          "description": "Institution-wide licensing covering Creative Cloud, Express, and Firefly."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Adobe Firefly",
+          "vendor": "Adobe",
+          "role": "Generative image and text-to-image AI"
+        },
+        {
+          "name": "Adobe Express",
+          "vendor": "Adobe",
+          "role": "Creative suite with generative fill and text-to-image"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Pairs with Copilot to give a complete multimodal default-stack; sidesteps equity concerns from paid-only creative AI tools.",
+      "source_urls": [
+        "https://technology.ku.edu/approved-ai-tools"
+      ]
+    },
+    {
+      "title": "Falling Into AI campuswide summit with Google",
+      "description": "KU partnered with Google to host 'Falling Into AI,' its first campus-wide AI week (Sept 29 – Oct 3, 2025), featuring Google Cloud keynotes, research showcases from FLITE, CTE, CPPR, and I2S, and sessions on AI careers, research collaboration, and healthcare applications.",
+      "significance": "One of the first R1 'AI weeks' explicitly co-produced with Google for Education; Google publicly affirmed KU retained IP rights over innovations developed during the event.",
+      "date_announced": "2025-09-29",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "industry_academic_partnership",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "FLITE, KU IT, Google (in-kind keynotes)",
+        "description": "In-kind Google speaker support plus KU programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google",
+            "Google Cloud Education"
+          ],
+          "description": "Google Cloud education team delivered keynote and breakout sessions across the week."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Google Gemini",
+          "vendor": "Google",
+          "role": "Referenced in demonstrations and discussion (not the campus default)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals KU is willing to engage multiple vendor ecosystems for learning even while standardizing on Microsoft for enterprise use.",
+      "source_urls": [
+        "https://flite.ku.edu/falling-into-ai",
+        "https://www.govtech.com/education/higher-ed/university-of-kansas-google-to-host-first-campus-ai-week",
+        "https://www2.ljworld.com/news/2025/sep/29/amid-ai-revolution-weeklong-series-at-ku-includes-google-experts-on-how-ai-can-be-a-partner-for-improving-education/"
+      ]
+    },
+    {
+      "title": "Flexible Learning through Innovations in Technology & Education (FLITE) center",
+      "description": "Announced in September 2023 under the Achievement & Assessment Institute and led by Williamson Family Distinguished Professor Lisa Dieker, FLITE is a center for AI, XR, and emerging technologies aimed at students with disabilities and teacher preparation. It houses AI tutoring agents, VR/AI social-skills tools, and the AI-SCORE writing platform.",
+      "significance": "FLITE is emerging as the university's flagship AI-for-education center and its principal anchor for equity and disability-focused AI research.",
+      "date_announced": "2023-09-22",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "disability_and_accessibility",
+        "ai_tutoring_and_adaptive_learning",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "computer_vision",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Multiple federal (OSEP) grants; AAI institutional support",
+        "description": "Individual projects inside FLITE include two OSEP grants of $5M+ each (Maggie Mosher, PI); totals at least $10M across active awards."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Central Florida",
+            "National Humanities Center"
+          ],
+          "description": "Cross-university research on AI for students with disabilities."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Education — Office of Special Education Programs (OSEP)"
+          ],
+          "description": "Federal grants funding AI-for-disability research."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "VOISS / iKNOW",
+          "vendor": "KU (Amber Rowland lab)",
+          "role": "VR+AI social-skills training platform"
+        },
+        {
+          "name": "AI-SCORE",
+          "vendor": "KU FLITE",
+          "role": "AI-assisted writing competency tool for students with learning differences"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://flite.ku.edu/falling-into-ai",
+        "https://aai.ku.edu/news/article/2023/09/22/new-aai-center-focus-intersection-technology-education",
+        "https://aai.ku.edu/news/article/harnessing-ai-aai-and-ku-researchers-advance-innovation-and-critical-understanding-across-fields"
+      ]
+    },
+    {
+      "title": "Enhanced AI Center for Human-Focused Research (KUMC)",
+      "description": "The Enhanced Artificial Intelligence Center at the KU Medical Center provides a HIPAA-compliant Digital Research Platform (Azure + Databricks + Delta Lake + MLFlow) that supports AI model training on clinical data, biomedical discovery, and public-health analytics across medicine, nursing, public health, engineering, and informatics.",
+      "significance": "Combines governance, secure compute, and ML lifecycle tooling in a single medical-research platform — a template many R1 AMCs are aiming for.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "large_language_models",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "KUMC institutional + Microsoft Azure consumption",
+        "description": "Azure-based compute with on-demand GPU scaling and Databricks data lakehouse; exact recurring cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft Azure",
+            "Databricks"
+          ],
+          "description": "Platform partners underpinning the DRP."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Databricks Data Lakehouse",
+          "vendor": "Databricks",
+          "role": "HIPAA-compliant data engineering & ML environment"
+        },
+        {
+          "name": "Microsoft Azure",
+          "vendor": "Microsoft",
+          "role": "Cloud compute and GPU scaling"
+        },
+        {
+          "name": "MLFlow",
+          "vendor": "Databricks",
+          "role": "Machine learning lifecycle management"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Shows how an R1 academic medical center can align AI research enablement with HIPAA-grade data governance.",
+      "source_urls": [
+        "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research.html",
+        "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research/digital-research-platform.html",
+        "https://www.kumc.edu/artificial-intelligence-resource-center/ai-resources.html"
+      ]
+    },
+    {
+      "title": "Reliable Intelligence and Medical Innovation Lab (RIMI Lab)",
+      "description": "Led by Dr. Zhiguo Zhou in KUMC's Department of Biostatistics and Data Science, RIMI Lab develops reliable-AI theory (balance, safety, robustness, interpretability) and applies it to cancer imaging (lung cancer screening, triple-negative breast cancer, immunotherapy response) and Alzheimer's disease pathology.",
+      "significance": "RIMI is one of the few academic labs publicly framing research around 'reliable AI' as its core theoretical program rather than a task-specific application area.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Federal grants + KUMC",
+        "description": "Specific funding totals not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH-funded cancer programs"
+          ],
+          "description": "Translational cancer AI research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/research/reliable-intelligence-and-medical-innovation-lab.html",
+        "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/research/reliable-intelligence-and-medical-innovation-lab/projects.html"
+      ]
+    },
+    {
+      "title": "Center for Cyber-Social Dynamics (CCSD) — AI ethics and fairness research",
+      "description": "Housed in the Institute for Information Sciences and directed by Philosophy professor John Symons, CCSD studies AI ethics, fairness in ML, human-AI interaction, loneliness and AI, privacy, bias, and the politics of knowledge. Received two awards in early 2025 for research on human-AI interaction and LLM vulnerabilities.",
+      "significance": "Provides a humanities-and-philosophy counterweight to technical AI centers, explicitly framing research around epistemic injustice and ethical trust.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Multiple external research awards",
+        "description": "Two 2025 research awards focused on human-AI interaction and LLM vulnerabilities; exact totals not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Multiple academic partners"
+          ],
+          "description": "Interdisciplinary collaborations across philosophy, CS, law, and social sciences."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Generates scholarship that directly informs KU's AI ethics posture and national debates on algorithmic fairness.",
+      "source_urls": [
+        "https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd",
+        "https://i2s-research.ku.edu/news/article/ccds-research-awards-02-2025",
+        "https://i2s-research.ku.edu/news/article/2024/06/07/new-funding-announced-i2s-center-cyber-social-dynamics"
+      ]
+    },
+    {
+      "title": "AI Bill of Rights in Education — Kathryn Conrad",
+      "description": "KU English professor Kathryn Conrad authored 'A Blueprint for an AI Bill of Rights for Education' in the journal Critical AI (2024), articulating rights for educators and students including critical AI literacy, participation in tool procurement, protection of student privacy/creative control, and appeal structures for AI-driven decisions.",
+      "significance": "A KU-authored framework that has been cited in national higher-ed AI policy discourse and shapes KU's own ethics posture.",
+      "date_announced": "2023-08-31",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_literacy_requirement",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "accreditors",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Scholarly publication",
+        "description": "Peer-reviewed publication in Critical AI (Duke University Press)."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "National Humanities Center"
+          ],
+          "description": "Co-direction of the AI & Digital Literacy project."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes student- and educator-centric rights language that informs KU's seven guiding principles.",
+      "source_urls": [
+        "https://news.ku.edu/news/article/2023/08/31/author-outlines-ai-education-bill-rights",
+        "https://read.dukeupress.edu/critical-ai/article/doi/10.1215/2834703X-11205245/390864/A-Blueprint-for-an-AI-Bill-of-Rights-for-Education"
+      ]
+    },
+    {
+      "title": "CIDDL — National Center for AI in Special Education (Ed Tech)",
+      "description": "In February 2026, KU (James Basham, PI; Institute for Information Sciences) and the University of Central Florida received a five-year, $3.5M U.S. Department of Education OSEP grant to continue and expand the Center for Innovation, Design & Digital Learning as the National Center to Improve Faculty Capacity to Use Educational Technology in Special Education Personnel and Leadership Preparation Programs.",
+      "significance": "National-scope federal funding reinforces KU's leadership niche in AI for disability and special-education faculty development.",
+      "date_announced": "2026-02-12",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "disability_and_accessibility",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3500000,
+        "funding_source": "U.S. Department of Education — Office of Special Education Programs",
+        "description": "Five-year, $3.5M federal grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Central Florida — Toni Jennings Exceptional Education Institute"
+          ],
+          "description": "Joint center operations."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Education OSEP"
+          ],
+          "description": "Federal grant funder."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Reinforces a federal pipeline of AI-for-accessibility resources into teacher-prep programs nationally.",
+      "source_urls": [
+        "https://news.ku.edu/news/article/ku-lands-funding-to-expand-center-helping-educators-use-ai-create-more-ed-tech-leaders"
+      ]
+    },
+    {
+      "title": "AI and Digital Literacy Institute (AIDL 2025) — NEH-funded",
+      "description": "Hosted by the Hall Center for the Humanities (June 2–6, 2025), the AIDL Institute trained secondary, community-college, and college humanities educators in critical AI literacy. Funded by NEH, the Reiss-Clark Fund, the Gunn Center for Science Fiction, the KU Department of English, and the William T. Kemper Foundation; partnered with the National Humanities Center.",
+      "significance": "Applies humanities-led critical AI literacy as a sector-wide faculty-development model rather than a technologist-only training.",
+      "date_announced": "2025-06-02",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "continuing_and_executive_education",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 218732,
+        "funding_source": "National Endowment for the Humanities + donor funds",
+        "description": "NEH Institutes for Advanced Topics in the Digital Humanities award of $218,732 plus additional KU donor support."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "National Humanities Center"
+          ],
+          "description": "Program partnership."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Endowment for the Humanities"
+          ],
+          "description": "Federal grant funder."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Places a humanities frame — ethics, equity, labor, copyright — at the center of AI faculty development.",
+      "source_urls": [
+        "https://hallcenter.ku.edu/aidl",
+        "https://aai.ku.edu/news/article/harnessing-ai-aai-and-ku-researchers-advance-innovation-and-critical-understanding-across-fields"
+      ]
+    },
+    {
+      "title": "Center for Teaching Excellence — KUCTE AI program",
+      "description": "KU's Center for Teaching Excellence maintains a dedicated KUCTE AI resource hub covering syllabus policy templates, AI-and-assessment guidance, faculty tutorials on Copilot/ChatGPT/Claude/Gemini, podcasts with faculty fellows, and an academic-integrity framework that explicitly discourages biased AI plagiarism detectors.",
+      "significance": "A durable, well-resourced faculty-development program reduces the learning curve for instructors adopting AI at scale.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_resilient_assessment",
+        "syllabus_level_policy",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Provost's Office / CTE operating budget",
+        "description": "Ongoing institutional support for CTE AI programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Operationalizes 'faculty discretion' by giving instructors concrete tools and templates rather than a blanket university rule.",
+      "source_urls": [
+        "https://cte.ku.edu/kucte-ai",
+        "https://cte.ku.edu/maintaining-academic-integrity-ai-era",
+        "https://cte.ku.edu/building-ai-policies-your-syllabus"
+      ]
+    },
+    {
+      "title": "Graduate Certificate in Data Science (EECS) and undergraduate Data Science certificate",
+      "description": "KU's School of Engineering offers a Graduate Certificate in Data Science (4 courses / 11+ credit hours) and an online Applied Data Science graduate certificate (15 credit hours, 5 courses). The Psychology department launched an undergraduate Data Science certificate in Fall 2022; enrollment grew from 12 to 52 students by Fall 2024.",
+      "significance": "Steady growth of data-science credentials gives KU a foundation to launch dedicated AI programs; demand is visible in the 4x undergrad enrollment increase.",
+      "date_announced": "2022-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "industry_certification_pathway",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional",
+        "description": "Tuition-funded credential programs housed in EECS and Psychology."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic programs."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://catalog.ku.edu/engineering/electrical-engineering-computer-science/certificate-data-science/",
+        "https://eecs.ku.edu/data-science-graduate-certificate",
+        "https://data.ku.edu/certificate"
+      ]
+    },
+    {
+      "title": "BigJay HPC cluster and KU Community Cluster (NSF MRI)",
+      "description": "KU's Center for Research Computing operates BigJay — a mixed CPU/high-memory CPU/GPU cluster acquired with NSF MRI funding (award 2117449). Online since August 2022, BigJay provides ~42% of KU's HPC capacity, averaging 85% overall and 83% GPU utilization. Housed in the Advanced Computing Facility alongside ITTC servers.",
+      "significance": "Existing GPU capacity gives KU a local alternative to cloud-only AI research and anchors the Lawrence-side AI/ML workloads.",
+      "date_announced": "2022-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF Major Research Instrumentation (MRI) award",
+        "description": "NSF MRI funded acquisition of HPC cluster; exact award amount not stated in public pages referenced."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF MRI-funded cluster acquisition."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "BigJay",
+          "vendor": "KU Center for Research Computing",
+          "role": "Mixed CPU/GPU HPC cluster for research workloads"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://crc.ku.edu/",
+        "https://docs.crc.ku.edu/",
+        "https://technology.ku.edu/research/advanced-computing-facility",
+        "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117449&HistoricalAwards=false"
+      ]
+    },
+    {
+      "title": "KU Innovation Park AI-for-entrepreneurs programming",
+      "description": "KU Innovation Park — the largest business incubator in Kansas with a satellite at KUMC — runs educational sessions for AI-using startups (e.g., 'AI & IP: what entrepreneurs need to know') and supports commercialization via the Oread Angel Investors network and the KU Innovation Park Accelerator.",
+      "significance": "Connects the campus AI research base to regional economic development and startup formation.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "KU Innovation Park, Oread Angel Investors, KU Office of Research",
+        "description": "Ongoing incubator, accelerator, and angel-investment programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "KU-affiliated startups"
+          ],
+          "description": "Commercialization support."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Oread Angel Investors"
+          ],
+          "description": "Angel funding network."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://kuinnovationpark.com/ai-ip-what-entrepreneurs-need-to-know/",
+        "https://research.ku.edu/ku-innovation-park"
+      ]
+    },
+    {
+      "title": "Kansas state AI platform restrictions (HB 2313)",
+      "description": "Kansas enacted legislation in 2025 (Senate Substitute for HB 2313) prohibiting state-owned or issued devices from accessing 'AI platforms of concern' and requiring state agency networks to block such access, directly affecting KU's enterprise tool selection and network posture.",
+      "significance": "A concrete example of how state-level AI-restriction legislation is shaping R1 procurement and network controls.",
+      "date_announced": "2025-07-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "data_privacy_and_security",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "government_and_regulators",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "State compliance obligation",
+        "description": "Compliance costs absorbed by IT/CISO operations."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Kansas Legislature",
+            "Kansas Executive Branch"
+          ],
+          "description": "State-mandated compliance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "prohibitive",
+      "policy_implications": "Constrains which foreign or unvetted AI platforms can be used on state-funded devices; reinforces KU's Microsoft-first default.",
+      "source_urls": [
+        "https://www.kslegislature.gov/li/b2025_26/measures/hb2313/",
+        "https://sos.ks.gov/publications/sessionlaws/2025/Chapter-84-HB-2313.html",
+        "https://www.khi.org/articles/legislative-approaches-to-artificial-intelligence-advisory-bodies/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Flexible Learning through Innovations in Technology & Education (FLITE)",
+      "focus": "AI and XR for students with disabilities, teacher preparation, and K-20 inclusive learning",
+      "founded": "2023",
+      "url": "https://flite.ku.edu/"
+    },
+    {
+      "name": "Enhanced Artificial Intelligence Center for Human-Focused Research (KUMC)",
+      "focus": "Human-centered AI for health, education, and workforce; HIPAA-compliant AI research infrastructure",
+      "founded": null,
+      "url": "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research.html"
+    },
+    {
+      "name": "Reliable Intelligence and Medical Innovation Lab (RIMI Lab)",
+      "focus": "Reliable-AI theory applied to cancer imaging and Alzheimer's pathology",
+      "founded": null,
+      "url": "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/research/reliable-intelligence-and-medical-innovation-lab.html"
+    },
+    {
+      "name": "Center for Cyber-Social Dynamics (CCSD) — I2S",
+      "focus": "AI ethics, fairness in ML, human-AI interaction, privacy, bias, politics of knowledge",
+      "founded": null,
+      "url": "https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd"
+    },
+    {
+      "name": "Center for Innovation, Design & Digital Learning (CIDDL)",
+      "focus": "National Center for faculty capacity in educational technology and AI in special education",
+      "founded": null,
+      "url": "https://news.ku.edu/news/article/ku-lands-funding-to-expand-center-helping-educators-use-ai-create-more-ed-tech-leaders"
+    },
+    {
+      "name": "Information and Telecommunication Technology Center (ITTC)",
+      "focus": "Intelligent systems, bioinformatics, radar, information/ML research",
+      "founded": null,
+      "url": "https://www.ittc.ku.edu/"
+    },
+    {
+      "name": "Institute for Information Sciences (I2S)",
+      "focus": "Umbrella institute for information-sciences research including AI ethics and fairness",
+      "founded": null,
+      "url": "https://i2s-research.ku.edu/"
+    },
+    {
+      "name": "Center for Reimagining Education (CRE) — AAI",
+      "focus": "AI to transform K-12 teaching and learning",
+      "founded": null,
+      "url": "https://aai.ku.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Data Science (EECS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.ku.edu/engineering/electrical-engineering-computer-science/certificate-data-science/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Applied Data Science (online, 15 credit)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://eecs.ku.edu/data-science-graduate-certificate"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Data Science Certificate (Psychology-led, cross-college)",
+      "level": "undergrad",
+      "launched": "2022-08",
+      "url": "https://data.ku.edu/certificate"
+    },
+    {
+      "type": "concentration",
+      "name": "EECS Data Science and Engineering pathway",
+      "level": "both",
+      "launched": null,
+      "url": "https://eecs.ku.edu/data-science-and-engineering"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat (enterprise data protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://howto.ku.edu/copilot-chat"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Full License",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Studio",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Firefly",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Express",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Creative Cloud (with AI features)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "vendor": "Databricks",
+      "product": "Databricks Data Lakehouse (KUMC Digital Research Platform)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research/digital-research-platform.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "BigJay (KU Community Cluster)",
+    "gpu_count": null,
+    "url": "https://crc.ku.edu/",
+    "summary": "KU operates BigJay, a mixed CPU/high-memory CPU/GPU cluster funded by an NSF MRI award (NSF 2117449), online since August 2022 and providing roughly 42% of KU's HPC capacity (85% average, 83% GPU utilization). The Advanced Computing Facility also houses ITTC servers. On the KUMC side, the Enhanced AI Center provides a Databricks + Azure GPU environment with MLFlow for HIPAA-compliant ML research."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "OSEP grants to Maggie Mosher (FLITE/AAI) for AI-for-disability research",
+      "amount_usd": 10000000,
+      "source": "U.S. Department of Education — Office of Special Education Programs",
+      "purpose": "Using AI to individualize instruction for students with disabilities; XR social-skills training; teacher support",
+      "date": null,
+      "url": "https://aai.ku.edu/news/article/harnessing-ai-aai-and-ku-researchers-advance-innovation-and-critical-understanding-across-fields"
+    },
+    {
+      "title": "CIDDL 5-year expansion grant (KU + UCF)",
+      "amount_usd": 3500000,
+      "source": "U.S. Department of Education — OSEP",
+      "purpose": "National Center to Improve Faculty Capacity to Use Educational Technology in Special Education",
+      "date": "2026-02",
+      "url": "https://news.ku.edu/news/article/ku-lands-funding-to-expand-center-helping-educators-use-ai-create-more-ed-tech-leaders"
+    },
+    {
+      "title": "NEH Institutes for Advanced Topics in the Digital Humanities — AI & Digital Literacy",
+      "amount_usd": 218732,
+      "source": "National Endowment for the Humanities",
+      "purpose": "AI & Digital Literacy: Toward an Inclusive and Empowering Teaching Practice institute",
+      "date": "2025-06",
+      "url": "https://hallcenter.ku.edu/aidl"
+    },
+    {
+      "title": "NSF MRI — BigJay HPC cluster acquisition",
+      "amount_usd": null,
+      "source": "National Science Foundation",
+      "purpose": "Acquisition of a High-Performance Computing Cluster (NSF 2117449)",
+      "date": "2022-08",
+      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117449&HistoricalAwards=false"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot deployment (Copilot Chat, Full License, Copilot Studio) and Azure compute for KUMC research",
+      "date": "2025-01",
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google / Google Cloud Education",
+      "purpose": "Falling Into AI campuswide summit and AI-in-education programming",
+      "date": "2025-09",
+      "url": "https://www2.ljworld.com/news/2025/sep/29/amid-ai-revolution-weeklong-series-at-ku-includes-google-experts-on-how-ai-can-be-a-partner-for-improving-education/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Adobe",
+      "purpose": "Firefly and Express generative-AI access across the campus via institutional license",
+      "date": null,
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Databricks",
+      "purpose": "Data lakehouse and ML platform for KUMC Digital Research Platform",
+      "date": null,
+      "url": "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research/digital-research-platform.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Central Florida (Toni Jennings Exceptional Education Institute)",
+      "purpose": "CIDDL national center co-operation; Project RAISE autism research",
+      "date": "2026-02",
+      "url": "https://news.ku.edu/news/article/ku-lands-funding-to-expand-center-helping-educators-use-ai-create-more-ed-tech-leaders"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "National Humanities Center",
+      "purpose": "AI & Digital Literacy project partnership",
+      "date": "2025-06",
+      "url": "https://hallcenter.ku.edu/aidl"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Education — OSEP",
+      "purpose": "Federal AI-for-disability grants (FLITE, CIDDL)",
+      "date": null,
+      "url": "https://news.ku.edu/news/article/ku-lands-funding-to-expand-center-helping-educators-use-ai-create-more-ed-tech-leaders"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "NSF MRI funding for BigJay HPC cluster; prior ITTC ACE program",
+      "date": "2022-08",
+      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117449&HistoricalAwards=false"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Endowment for the Humanities",
+      "purpose": "NEH Institutes grant for AI & Digital Literacy Institute",
+      "date": "2025-06",
+      "url": "https://hallcenter.ku.edu/aidl"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "KU Innovation Park",
+      "purpose": "AI-focused entrepreneur education, Oread Angel Investors, and startup commercialization",
+      "date": null,
+      "url": "https://kuinnovationpark.com/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft 365 Copilot Chat (student access with KU ID)",
+      "scope": "All KU Lawrence students have access via their KU Microsoft account with enterprise data protection",
+      "url": "https://howto.ku.edu/copilot-chat"
+    },
+    {
+      "type": "tutor",
+      "name": "AI-SCORE (writing competency for students with learning differences)",
+      "scope": "FLITE pilot; used in research settings with participating students",
+      "url": "https://flite.ku.edu/falling-into-ai"
+    },
+    {
+      "type": "other",
+      "name": "VOISS / iKNOW (VR + AI social-skills platform)",
+      "scope": "Research deployment via AAI Life Span Institute for students with disabilities",
+      "url": "https://kuinnovationpark.com/ku-research-team-develops-virtual-reality-ai-boosted-system-to-help-students-with-autism-improve-social-skills/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Universal Copilot access via KU Online ID",
+      "description": "All KU students/faculty/staff have institutional access to Copilot Chat with enterprise data protection, explicitly so that free-tier inequities don't disadvantage students who can't pay for premium tools.",
+      "url": "https://technology.ku.edu/approved-ai-tools"
+    },
+    {
+      "title": "FLITE AI-for-disability research portfolio",
+      "description": "FLITE and the Life Span Institute develop AI/XR tools that specifically center students with disabilities, including AI-SCORE and VOISS/iKNOW.",
+      "url": "https://flite.ku.edu/"
+    },
+    {
+      "title": "KUCTE discouragement of biased AI detection tools",
+      "description": "CTE explicitly warns against AI plagiarism detectors because they introduce bias against non-native English speakers and students with disabilities.",
+      "url": "https://cte.ku.edu/maintaining-academic-integrity-ai-era"
+    },
+    {
+      "title": "CCSD fairness-in-ML research",
+      "description": "Center for Cyber-Social Dynamics runs programming on algorithmic fairness, epistemic injustice, and bias in machine learning.",
+      "url": "https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Kansas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Kansas enacted Senate Substitute for HB 2313 (2025) prohibiting state-owned/issued devices and agency networks from accessing 'AI platforms of concern,' which applies to KU as a state university. Kansas also considered HB 2592 to create an AI advisory task force spanning the legislature, executive branch, attorney general, higher education, and the private sector. The Kansas Board of Regents (KU's governing body) does not publish a system-wide AI policy beyond general academic-program oversight; each Regents institution sets its own AI framework.",
+    "urls": [
+      "https://www.kslegislature.gov/li/b2025_26/measures/hb2313/",
+      "https://sos.ks.gov/publications/sessionlaws/2025/Chapter-84-HB-2313.html",
+      "https://www.kslegislature.gov/li/b2025_26/measures/hb2592/",
+      "https://www.khi.org/articles/legislative-approaches-to-artificial-intelligence-advisory-bodies/",
+      "https://www.kansasregents.gov/academic_affairs"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Kansas has built one of the more mature AI postures among public R1s in the Midwest, organized around a cross-campus AI Taskforce that links KU Lawrence and the KU Medical Center under a single governance umbrella. The taskforce is unusually broad — spanning the CIO, CISO, Chief Strategy & Data Officer, privacy officer, compliance officer, Libraries, Faculty Senate, Marketing, and KUMC informatics — and publishes a principles-based framework grounded in human centeredness, equitability, privacy, accountability, transparency, and validity. KU has not adopted a blanket classroom policy; instead, faculty discretion is paired with a well-resourced Center for Teaching Excellence AI program that provides syllabus templates, academic-integrity guidance, and explicit warnings against biased AI detection tools. On enterprise tooling, KU has standardized on Microsoft 365 Copilot (with enterprise data protection) as the default campus-wide GenAI chat, with Copilot Full License and Copilot Studio rolling out during 2025–26 and Adobe Firefly/Express filling in the multimodal stack. Research strength is concentrated on the KUMC side (Enhanced AI Center, RIMI Lab, Databricks-on-Azure Digital Research Platform) and in AAI's FLITE center, which has emerged as a national hub for AI and XR for students with disabilities, anchored by multiple multi-million-dollar federal OSEP awards. The Institute for Information Sciences' Center for Cyber-Social Dynamics provides a humanities/ethics counterweight to the technical centers, focusing on algorithmic fairness, epistemic injustice, and human-AI interaction. Kansas Professor Kathryn Conrad's 'AI Bill of Rights in Education' has national visibility and informs the university's principles. On computing infrastructure, the BigJay NSF-MRI-funded cluster and the ITTC servers give Lawrence researchers local GPU capacity; KUMC augments this with scalable Azure/Databricks. Gaps include the absence of a dedicated Chief AI Officer, no discrete AI degree program, no publicly disclosed student-success chatbot or predictive-analytics retention platform, and a notable regulatory constraint from Kansas HB 2313 on state-device AI platform access. KU's 2025 'Falling Into AI' partnership with Google and ongoing Microsoft enterprise rollout suggest the next 12–18 months will be focused on scaling deployment and faculty adoption rather than new governance structures.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.ku.edu/",
+      "https://ai.ku.edu/ai-taskforce-overview",
+      "https://ai.ku.edu/taskforce-committee-members",
+      "https://ai.ku.edu/students",
+      "https://technology.ku.edu/approved-ai-tools",
+      "https://technology.ku.edu/it-leadership",
+      "https://technology.ku.edu/research/advanced-computing-facility",
+      "https://howto.ku.edu/copilot-chat",
+      "https://cte.ku.edu/kucte-ai",
+      "https://cte.ku.edu/maintaining-academic-integrity-ai-era",
+      "https://cte.ku.edu/building-ai-policies-your-syllabus",
+      "https://cte.ku.edu/faqs-about-ai-and-teaching",
+      "https://crc.ku.edu/",
+      "https://docs.crc.ku.edu/",
+      "https://chancellor.ku.edu/",
+      "https://chancellor.ku.edu/people/arash-mafi",
+      "https://provost.ku.edu/Leadership",
+      "https://data.ku.edu/certificate",
+      "https://catalog.ku.edu/engineering/electrical-engineering-computer-science/certificate-data-science/",
+      "https://eecs.ku.edu/data-science-graduate-certificate",
+      "https://eecs.ku.edu/data-science-and-engineering",
+      "https://aai.ku.edu/",
+      "https://aai.ku.edu/news/article/2023/09/22/new-aai-center-focus-intersection-technology-education",
+      "https://aai.ku.edu/news/article/harnessing-ai-aai-and-ku-researchers-advance-innovation-and-critical-understanding-across-fields",
+      "https://aai.ku.edu/ai-education",
+      "https://flite.ku.edu/",
+      "https://flite.ku.edu/falling-into-ai",
+      "https://hallcenter.ku.edu/aidl",
+      "https://i2s-research.ku.edu/",
+      "https://i2s-research.ku.edu/center-cyber-social-dynamics-ccsd",
+      "https://i2s-research.ku.edu/news/article/ccds-research-awards-02-2025",
+      "https://i2s-research.ku.edu/news/article/2024/06/07/new-funding-announced-i2s-center-cyber-social-dynamics",
+      "https://news.ku.edu/news/article/2023/08/31/author-outlines-ai-education-bill-rights",
+      "https://news.ku.edu/news/article/ku-lands-funding-to-expand-center-helping-educators-use-ai-create-more-ed-tech-leaders",
+      "https://news.ku.edu/news/article/ku-achieves-record-high-enrollment-for-second-straight-year",
+      "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research.html",
+      "https://www.kumc.edu/research/enhanced-artificial-intelligence-center-for-human-focused-research/digital-research-platform.html",
+      "https://www.kumc.edu/artificial-intelligence-resource-center/ai-resources.html",
+      "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/research/reliable-intelligence-and-medical-innovation-lab.html",
+      "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science/research/reliable-intelligence-and-medical-innovation-lab/projects.html",
+      "https://guides.library.kumc.edu/artificial-intelligence",
+      "https://www.ittc.ku.edu/",
+      "https://kuinnovationpark.com/",
+      "https://kuinnovationpark.com/ai-ip-what-entrepreneurs-need-to-know/",
+      "https://kuinnovationpark.com/ku-research-team-develops-virtual-reality-ai-boosted-system-to-help-students-with-autism-improve-social-skills/",
+      "https://research.ku.edu/ku-innovation-park",
+      "https://aire.ku.edu/enrollment",
+      "https://aire.ku.edu/sites/air/files/files/CDS/KUCDS_2024_2025.pdf",
+      "https://www.govtech.com/education/higher-ed/university-of-kansas-google-to-host-first-campus-ai-week",
+      "https://www2.ljworld.com/news/2025/sep/29/amid-ai-revolution-weeklong-series-at-ku-includes-google-experts-on-how-ai-can-be-a-partner-for-improving-education/",
+      "https://www.kslegislature.gov/li/b2025_26/measures/hb2313/",
+      "https://sos.ks.gov/publications/sessionlaws/2025/Chapter-84-HB-2313.html",
+      "https://www.kslegislature.gov/li/b2025_26/measures/hb2592/",
+      "https://www.khi.org/articles/legislative-approaches-to-artificial-intelligence-advisory-bodies/",
+      "https://www.kansasregents.gov/academic_affairs",
+      "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2117449&HistoricalAwards=false",
+      "https://read.dukeupress.edu/critical-ai/article/doi/10.1215/2834703X-11205245/390864/A-Blueprint-for-an-AI-Bill-of-Rights-for-Education"
+    ],
+    "search_queries": [
+      "\"University of Kansas\" AI strategy 2025 2026 artificial intelligence initiative",
+      "\"University of Kansas\" generative AI policy guidelines faculty students",
+      "\"University of Kansas\" AI council committee task force governance",
+      "\"University of Kansas\" AI research center institute lab launch",
+      "\"University of Kansas\" AI degree certificate minor graduate program data science",
+      "\"University of Kansas\" Microsoft Copilot ChatGPT enterprise AI deployment",
+      "\"University of Kansas\" Google AI Week partnership Gemini",
+      "\"University of Kansas\" president chancellor provost CIO 2025 2026",
+      "\"University of Kansas\" AI grant NSF funding million artificial intelligence research",
+      "\"KU\" \"University of Kansas\" GPU supercomputer HPC AI compute infrastructure",
+      "\"University of Kansas\" AI student chatbot advising retention predictive analytics",
+      "\"University of Kansas\" chief information officer 2025 technology services",
+      "\"University of Kansas\" AI gift donation endowment investment announce",
+      "\"KU\" \"Achievement Assessment Institute\" FLITE AI disabilities autism innovation",
+      "Kansas state legislature AI higher education policy executive order 2025",
+      "\"University of Kansas\" AI workforce training continuing education extension partnership",
+      "\"University of Kansas\" AI syllabus policy academic integrity misconduct 2025",
+      "\"KU\" \"University of Kansas\" AI ethics framework equity accessibility bias",
+      "\"University of Kansas\" AI Think Tank KUMC Databricks research computing",
+      "\"University of Kansas\" new AI program major minor concentration 2024 2025",
+      "\"University of Kansas\" \"AI bill of rights\" Kathryn Conrad AI education",
+      "\"University of Kansas\" AI medical imaging radiology cancer research RIMI",
+      "\"University of Kansas\" ITTC information telecommunications center AI NSF research center",
+      "\"University of Kansas\" AI accessibility disability Lisa Dieker assistive technology",
+      "\"University of Kansas\" \"center for cyber-social dynamics\" AI ethics",
+      "\"KU Innovation Park\" AI startups incubator artificial intelligence",
+      "\"University of Kansas\" Kansas Board of Regents AI policy system",
+      "\"University of Kansas\" enrollment fall 2024 2025 students",
+      "\"University of Kansas\" AI equity digital divide access tools free",
+      "\"University of Kansas\" AI controversy academic misconduct lawsuit FERPA"
+    ],
+    "gaps_acknowledged": [
+      "No publicly disclosed Chief AI Officer or dedicated AI executive role at KU; AI strategy flows through the Taskforce co-chairs (identities of current co-chairs not surfaced on public page).",
+      "No dedicated AI degree/minor/major found at KU — only data-science certificates and an EECS Data Science & Engineering pathway.",
+      "No public student-success AI chatbot or predictive-analytics retention product identified; research-based FLITE tools are not deployed university-wide.",
+      "Exact NSF MRI award amount for BigJay was not extracted from public text; only award ID 2117449 is confirmed.",
+      "Microsoft Copilot deployment date and current user-count not publicly disclosed beyond 'Copilot Chat already available' and Full License 'winter 2025'.",
+      "Adoption date of the campus-wide AI guidelines (ai.ku.edu) not explicitly stated on the guidelines site.",
+      "No publicly reported AI-related lawsuit, FERPA violation, or controversy surfaced; absence of reporting, not guaranteed absence.",
+      "Kansas Board of Regents does not publish a system-wide AI policy; assumption of institutional autonomy may miss internal guidance."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "governance_led",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 20,
+        "research_compute_powerhouse": 12,
+        "curriculum_led": 12,
+        "governance_led": 15,
+        "student_success_led": 3,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "rejects_or_limits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 9,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "BigJay (KU Community Cluster)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 13718732,
+      "funding_source_buckets": {
+        "public_federal_state": 8,
+        "philanthropy_foundation": 2,
+        "institutional": 5,
+        "industry_vendor": 3,
+        "other_unclear": 2
+      },
+      "partnership_count": 10
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Microsoft 365 Copilot Chat",
+            "Microsoft 365 Copilot Chat (enterprise data protection)",
+            "Microsoft 365 Copilot Full License",
+            "Microsoft Azure",
+            "Microsoft Copilot Studio"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 5,
+          "products": [
+            "Adobe Creative Cloud (with AI features)",
+            "Adobe Express",
+            "Adobe Firefly"
+          ]
+        },
+        {
+          "vendor": "Databricks Databricks Data Lakehouse",
+          "mentions": 1,
+          "products": [
+            "Databricks Data Lakehouse"
+          ]
+        },
+        {
+          "vendor": "Databricks Databricks Data Lakehouse (KUMC Digital Research Platform)",
+          "mentions": 1,
+          "products": [
+            "Databricks Data Lakehouse (KUMC Digital Research Platform)"
+          ]
+        },
+        {
+          "vendor": "Databricks MLFlow",
+          "mentions": 1,
+          "products": [
+            "MLFlow"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Google Gemini"
+          ]
+        },
+        {
+          "vendor": "KU (Amber Rowland lab) VOISS / iKNOW",
+          "mentions": 1,
+          "products": [
+            "VOISS / iKNOW"
+          ]
+        },
+        {
+          "vendor": "KU Center for Research Computing BigJay",
+          "mentions": 1,
+          "products": [
+            "BigJay"
+          ]
+        },
+        {
+          "vendor": "KU FLITE AI-SCORE",
+          "mentions": 1,
+          "products": [
+            "AI-SCORE"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft 365 Copilot campus-wide rollout",
+          "summary": "Represents one of the clearer public examples of an R1 selecting a single default enterprise LLM and exposing it to the whole campus while explicitly restricting higher-sensitivity data.",
+          "source_url": "https://technology.ku.edu/approved-ai-tools"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Flexible Learning through Innovations in Technology & Education (FLITE) center",
+          "summary": "FLITE is emerging as the university's flagship AI-for-education center and its principal anchor for equity and disability-focused AI research.",
+          "source_url": "https://flite.ku.edu/falling-into-ai"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Center for Teaching Excellence — KUCTE AI program",
+          "summary": "A durable, well-resourced faculty-development program reduces the learning curve for instructors adopting AI at scale.",
+          "source_url": "https://cte.ku.edu/kucte-ai"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 7,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No publicly disclosed Chief AI Officer or dedicated AI executive role at KU; AI strategy flows through the Taskforce co-chairs (identities of current co-chairs not surfaced on public page).",
+        "No dedicated AI degree/minor/major found at KU — only data-science certificates and an EECS Data Science & Engineering pathway.",
+        "No public student-success AI chatbot or predictive-analytics retention product identified; research-based FLITE tools are not deployed university-wide.",
+        "Exact NSF MRI award amount for BigJay was not extracted from public text; only award ID 2117449 is confirmed.",
+        "Microsoft Copilot deployment date and current user-count not publicly disclosed beyond 'Copilot Chat already available' and Full License 'winter 2025'.",
+        "Adoption date of the campus-wide AI guidelines (ai.ku.edu) not explicitly stated on the guidelines site.",
+        "No publicly reported AI-related lawsuit, FERPA violation, or controversy surfaced; absence of reporting, not guaranteed absence.",
+        "Kansas Board of Regents does not publish a system-wide AI policy; assumption of institutional autonomy may miss internal guidance."
+      ]
+    }
+  }
+}

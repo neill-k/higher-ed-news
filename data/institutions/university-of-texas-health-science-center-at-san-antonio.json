@@ -1,0 +1,1198 @@
+{
+  "institution": "University of Texas Health Science Center at San Antonio",
+  "slug": "university-of-texas-health-science-center-at-san-antonio",
+  "city_state": "San Antonio, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 3786,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Taylor Eighmy",
+      "url": "https://www.utsystem.edu/news/2025/08/20/taylor-eighmy-officially-named-president-of-ut-san-antonio-ahead-of-historic-merger-of-ut-systems-two-san-antonio-institutions"
+    },
+    "provost": {
+      "name": "Heather Shipley",
+      "url": "https://news.utsa.edu/2025/02/leadership-structure-established-for-unified-university/"
+    },
+    "cio": {
+      "name": "Michael Schnabel",
+      "url": "https://catalog.uthscsa.edu/generalinformation/uthealthsciencecenterexecutiveleadership/"
+    },
+    "chief_ai_officer": {
+      "name": "Edward Sankary",
+      "url": "https://www.linkedin.com/in/edward-sankary/"
+    },
+    "ai_strategy_lead": {
+      "name": "Edward Sankary",
+      "title": "Vice President, Chief Health Information Officer, Chief Value Officer, and Chair of AI in Healthcare",
+      "url": "https://www.linkedin.com/in/edward-sankary/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UT REAL Health AI — systemwide initiative",
+        "url": "https://www.utsystem.edu/sites/ut-real-health-ai",
+        "year": 2025
+      },
+      {
+        "title": "2025 UT System AI Symposium in Healthcare (hosted at UTHSCSA)",
+        "url": "https://events.uthscsa.edu/event/2025-ut-system-ai-symposium-in-healthcare",
+        "year": 2025
+      },
+      {
+        "title": "AI in Health Sciences & Academia LibGuide — AI in the Classroom",
+        "url": "https://libguides.uthscsa.edu/ai/class",
+        "year": 2025
+      }
+    ],
+    "summary": "UT Health San Antonio's AI posture is anchored in the UT System's UT REAL Health AI (Research, Engineering, and Application Laboratory for Healthcare AI) initiative, launched in 2025 with state legislative funding. The institution has pioneered clinical AI deployment alongside a formal governance role — Dr. Edward Sankary serves as Chair of AI in Healthcare and on the REAL Health AI steering committee. Its strategy pairs aggressive clinical deployment (Qualified Health enterprise AI, Abridge ambient scribe) with a first-of-its-kind MD/MSAI dual degree. As of September 1, 2025, UTHSCSA operationally merged with UTSA to form UT San Antonio, combining the health science enterprise with UTSA's MATRIX AI Consortium."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://libguides.uthscsa.edu/ai/class",
+      "https://wp.uthscsa.edu/compliance/privacy/"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Never share personal/private or PHI data with consumer generative AI tools",
+      "Never trust AI-generated citations (hallucination risk)",
+      "Faculty encouraged to draft syllabus-level policies; no institution-wide mandate",
+      "Disclosure/attribution requirements when using AI for scholarly output",
+      "Algorithm bias, privacy, and equitable access must be considered",
+      "HIPAA-compliant AI tools (e.g., Qualified Health platform) required for any patient data"
+    ],
+    "summary": "UTHSCSA publishes cautious guidance rather than a prohibitive policy, warning faculty and students about hallucinations, data privacy (especially PHI under HIPAA), and bias while leaving syllabus-level rules to individual instructors. Clinical AI use is gated by HIPAA-compliant enterprise platforms (Qualified Health), reflecting a medical center's risk posture. State-level compliance with Texas SB 1188 and TRAIGA (effective 2025–2026) is explicitly incorporated into governance."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UT REAL Health AI Steering Committee (systemwide)",
+        "type": "council",
+        "scope": "UT System health institution AI governance; UTHSCSA represented by Dr. Edward Sankary",
+        "url": "https://www.utsystem.edu/sites/ut-real-health-ai"
+      },
+      {
+        "name": "AI in Healthcare Leadership (Chair role held by VP/CHIO Sankary)",
+        "type": "office",
+        "scope": "Institutional AI strategy for clinical and operational AI at UT Health San Antonio",
+        "url": "https://www.linkedin.com/in/edward-sankary/"
+      },
+      {
+        "name": "Institutional Compliance and Privacy Office",
+        "type": "office",
+        "scope": "HIPAA/FERPA/TRAIGA compliance oversight, including AI tool review",
+        "url": "https://wp.uthscsa.edu/compliance/"
+      },
+      {
+        "name": "MATRIX AI Consortium (post-merger joint with UTSA)",
+        "type": "council",
+        "scope": "Research consortium spanning UTHSCSA and UTSA faculty; 87 scientists across four thrusts (ML and deployment, augmenting human capabilities, neuro-inspired AI, trustworthy AI)",
+        "url": "https://ai.utsa.edu/"
+      }
+    ],
+    "summary": "Governance is split between a dedicated institutional executive (Dr. Edward Sankary, VP/CHIO/Chair of AI in Healthcare) and UT System-level coordination through UT REAL Health AI. Post-merger with UTSA (September 2025), the MATRIX AI Consortium functions as the joint research governance body. Compliance review for HIPAA, FERPA, and Texas TRAIGA runs through the Institutional Compliance Office."
+  },
+  "initiatives": [
+    {
+      "title": "MD/MSAI Dual Degree — Nation's first Doctor of Medicine / Master of Science in AI",
+      "description": "UT Health San Antonio's Long School of Medicine partners with UTSA's College of AI, Cyber, and Computing to offer a five-year dual-degree program. Students complete the MD and a 30-credit MSAI with concentrations in Data Analytics, Computer Science, or Intelligent & Autonomous Systems, plus a capstone. Launched formally in 2024 following a 2023 announcement.",
+      "significance": "First U.S. medical school program awarding a combined MD + MS in AI, setting a sector benchmark for integrating AI competency into physician training.",
+      "date_announced": "2023-09-28",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "ai_workforce_training",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Health San Antonio and UTSA institutional funds",
+        "description": "New joint program infrastructure, curriculum development, internship and capstone support."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Texas at San Antonio (UTSA)"
+          ],
+          "description": "Joint Long School of Medicine (UTHSCSA) and College of AI, Cyber, and Computing (UTSA) program; both institutions merged September 2025."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a template for other R1 medical schools to formalize AI degree integration rather than bolting AI onto existing curricula.",
+      "source_urls": [
+        "https://uthscsa.edu/medicine/education/ume/mdmsai",
+        "https://news.uthscsa.edu/nations-first-dual-degree-in-medicine-and-ai-aims-to-prepare-the-next-generation-of-health-care-providers/",
+        "https://www.utsa.edu/today/2024/08/story/hand-in-hand-utsa-ut-health-sa-to-launch-nations-first-dual-degree-in-medicine-and-ai.html",
+        "https://www.hcinnovationgroup.com/analytics-ai/artifical-intelligence-machine-learning/article/55130170/why-ut-health-san-antonio-utsa-created-first-md-ms-program-in-ai"
+      ]
+    },
+    {
+      "title": "Qualified Health enterprise GenAI deployment (UT System + UTHSCSA pilot)",
+      "description": "UT Health San Antonio was one of two pilot sites (with UTMB) for Qualified Health's HIPAA-compliant generative AI platform — a clinician chat tool, purpose-built AI agents, and clinical quality registries. In January 2026, the UT System announced an expansion of the program into a systemwide deployment covering 2+ million patients annually.",
+      "significance": "One of the largest HIPAA-compliant GenAI deployments in U.S. academic health care; positions UTHSCSA as an early operational anchor for enterprise healthcare AI.",
+      "date_announced": "2026-01-06",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "regulatory_compliance",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "University of Texas System (Qualified Health contract; terms undisclosed)",
+        "description": "Multi-institution HIPAA-compliant GenAI platform with AI chat, clinical registries, and care-gap agents."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Qualified Health",
+            "UT System",
+            "UT Medical Branch (UTMB)"
+          ],
+          "description": "UTHSCSA pilot with Qualified Health validated clinical and financial impact; now scaling across UT System health institutions."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Qualified Health Enterprise AI Platform",
+          "vendor": "Qualified Health",
+          "role": "HIPAA-compliant AI chat, purpose-built agents, clinical quality registries"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates that academic medical centers can meet HIPAA and state AI governance requirements (Texas TRAIGA, SB 1188) at scale via vendor partnership.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/qualified-health-launches-massive-genai-deployment-at-university-of-texas-institutions-302654062.html",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ut-health-system-to-deploy-generative-ai-enterprisewide/",
+        "https://aijourn.com/qualified-health-launches-massive-genai-deployment-at-university-of-texas-institutions/"
+      ]
+    },
+    {
+      "title": "AI compliance agent saves $80K in Joint Commission certification labor",
+      "description": "UT Health San Antonio deployed a Qualified Health AI agent integrated with Microsoft SharePoint that allowed clinicians to query standing delegated orders in real time with continuous cross-checking and auditing. Developed to meet Joint Commission requirements during the late-2025 conversion of ambulatory clinics to hospital outpatient departments. Eliminated a full-time staff role reviewing orders, saving four to eight hours daily.",
+      "significance": "Concrete ROI case for agentic AI in academic-medical-center operations; one of the first public dollar-figure savings from a Joint Commission compliance AI deployment.",
+      "date_announced": "2025-12-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "regulatory_compliance",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 80000,
+        "funding_source": "UT Health San Antonio operational budget (savings)",
+        "description": "Documented annual savings of up to $80,000 in compliance labor from single AI agent."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Qualified Health",
+            "Microsoft (SharePoint integration)"
+          ],
+          "description": "Qualified Health agent layered onto Microsoft SharePoint workflow for delegated order management."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Qualified Health AI Agent",
+          "vendor": "Qualified Health",
+          "role": "Joint Commission compliance auditing"
+        },
+        {
+          "name": "SharePoint",
+          "vendor": "Microsoft",
+          "role": "Underlying document and workflow repository"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a reference architecture for accreditation-adjacent AI use where human oversight and audit trails are required.",
+      "source_urls": [
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ut-health-san-antonio-saves-80k-in-compliance-labor-with-ai/",
+        "https://news.uthscsa.edu/beckers-health-it-ut-health-san-antonio-saves-80k-in-compliance-labor-with-ai/"
+      ]
+    },
+    {
+      "title": "Abridge ambient AI scribe adoption at new $472M research hospital",
+      "description": "UT Health San Antonio's new $472 million Multispecialty and Research Hospital (opened late 2025) is equipped with Abridge's ambient AI documentation platform, Epic Monitor virtual nursing, and 144 rooms each with a 65-inch Epic Bedside TV for patient-facing care orchestration. Dr. Sankary indicated that in-room high-resolution cameras will eventually auto-launch ambient scribe sessions.",
+      "significance": "Demonstrates how a greenfield academic-medical-center build can physically design AI documentation and virtual care into the clinical environment rather than retrofitting.",
+      "date_announced": "2025-11-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "lms_embedded_ai",
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 472000000,
+        "funding_source": "UT Health San Antonio capital program",
+        "description": "$472M hospital facility incorporating Abridge ambient AI, Epic Monitor virtual nursing, and bedside Epic TVs in all 144 rooms."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Abridge",
+            "Epic Systems"
+          ],
+          "description": "Abridge ambient AI scribe combined with Epic Bedside TV and Epic Monitor virtual-care platform."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Abridge Ambient AI",
+          "vendor": "Abridge",
+          "role": "Ambient clinical documentation scribe"
+        },
+        {
+          "name": "Epic Monitor and Epic Bedside TV",
+          "vendor": "Epic Systems",
+          "role": "Virtual nursing and in-room patient information"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Embeds AI documentation into the physical design of a new academic medical center — a precedent for institutions with capital projects in flight.",
+      "source_urls": [
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-future-of-hospital-rooms-inside-ut-healths-new-472m-facility/",
+        "https://news.uthscsa.edu/ut-health-san-antonios-new-hospital-features-state-of-the-art-technology/"
+      ]
+    },
+    {
+      "title": "iRemedyACT — $1M AI-driven trauma care decision support",
+      "description": "A three-way research collaboration between UT Health San Antonio (Dr. Brian Eastridge), UTSA (MATRIX's Dr. Amina Qutub), and UT Tyler (Dr. Alan Cook) to develop AI/ML models for real-time trauma care decision-making. Funded by a $1 million grant from the UT System's Trauma Research and Combat Casualty Care Collaborative (TRC4). Related MATCH platform funded separately by the NIH AIM-AHEAD program.",
+      "significance": "Translates AI from research into high-stakes critical-care decision support and connects an R1 health science center with combat casualty care research.",
+      "date_announced": "2024-05-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "cross_border_research_alliance",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1000000,
+        "funding_source": "Trauma Research and Combat Casualty Care Collaborative (TRC4), UT System",
+        "description": "$1M TRC4 grant for trauma care AI; complemented by $500K NIH AIM-AHEAD MATCH platform grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UTSA MATRIX AI Consortium",
+            "University of Texas at Tyler",
+            "UT System TRC4"
+          ],
+          "description": "Three-institution trauma care AI collaboration; MATCH network ties in NIH AIM-AHEAD."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Early template for AI clinical decision support in trauma that respects Texas SB 1188 requirements for AI diagnostic disclosure.",
+      "source_urls": [
+        "https://news.uthscsa.edu/researchers-at-ut-health-san-antonio-utsa-ut-tyler-receive-1m-partner-in-improving-trauma-care-using-ai/",
+        "https://www.utsa.edu/today/2024/05/story/researchers-use-AI-to-improve-trauma-care.html",
+        "https://trc4.utsystem.edu/trc4-awards-18m-in-grants-for-trauma-care-research/"
+      ]
+    },
+    {
+      "title": "NIH AIM-AHEAD MATCH platform for health equity AI",
+      "description": "Dr. Mark P. Goldberg (UT Health San Antonio) serves as a Principal Investigator on a one-year, $500,000 NIH AIM-AHEAD grant to build MATCH — an AI-powered infrastructure connecting clinicians, biomedical engineers, and researchers with a focus on advancing health equity and increasing participation of underrepresented minorities in AI/ML model development.",
+      "significance": "Positions UTHSCSA inside the national NIH AIM-AHEAD consortium for health equity AI, addressing bias and representation in biomedical AI.",
+      "date_announced": "2025-02-15",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "algorithmic_bias",
+        "underrepresented_student_support",
+        "ai_for_scientific_discovery",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 500000,
+        "funding_source": "NIH AIM-AHEAD program",
+        "description": "One-year $500K grant to build MATCH AI infrastructure and health-equity training pipeline."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH AIM-AHEAD consortium",
+            "UTSA MATRIX",
+            "UT Tyler"
+          ],
+          "description": "National NIH consortium focused on AI/ML health equity and workforce diversity."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Contributes to federal infrastructure addressing algorithmic bias in biomedical AI; relevant to emerging federal and state AI fairness requirements.",
+      "source_urls": [
+        "https://www.utsa.edu/today/2025/02/story/AI-tools-to-advance-health.html",
+        "https://www.utsa.edu/today/2025/02/story/AI-tools-to-advance-health-equity.html",
+        "https://datascience.nih.gov/artificial-intelligence/aim-ahead"
+      ]
+    },
+    {
+      "title": "AI for real-time coronary artery plaque imaging",
+      "description": "UT Health San Antonio cardiologist Dr. Marc Feldman and UTSA School of Data Science's Dr. Paul Rad developed a generative AI model that enables clinicians to visualize coronary artery plaque buildup in real time using existing optical arterial scans. The tool aims to assess future heart-attack risk at the point of care.",
+      "significance": "Demonstrates the merged UTHSCSA-UTSA research model applying generative AI to cardiology imaging with direct clinical translation potential.",
+      "date_announced": "2024-01-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional research funds",
+        "description": "Early-stage research collaboration producing novel generative-AI imaging model."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UTSA School of Data Science"
+          ],
+          "description": "Clinical-data-science partnership predating the formal 2025 merger."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.uthscsa.edu/ut-health-san-antonio-researchers-partner-with-utsa-use-ai-to-improve-real-time-coronary-imaging/",
+        "https://www.utsa.edu/today/2024/01/story/utsa-ut-health-san-antonio-use-AI-for-coronary-heart-disease.html"
+      ]
+    },
+    {
+      "title": "AI-driven personalized dental composite design (School of Dentistry)",
+      "description": "UTHSCSA School of Dentistry and UTSA researchers trained machine-learning models on 240 commercially available dental composites to predict strength, viscosity, and shrinkage properties. The goal is an open-access platform that recommends composite formulations for individual patients, dramatically shortening time from innovation to chairside use.",
+      "significance": "One of the first applications of AI to dental materials design; reframes dentistry education around data-driven material selection.",
+      "date_announced": "2025-07-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional research funds",
+        "description": "Early-stage ML composite-design research aimed at an open-access recommendation platform."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UTSA"
+          ],
+          "description": "School of Dentistry collaboration with UTSA data scientists."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.uthscsa.edu/ut-health-san-antonio-utsa-scientists-use-ai-to-reimagine-personalized-dental-care/",
+        "https://www.utsa.edu/today/2025/07/story/utsa-ut-health-sa-use-AI-for-dental-care.html",
+        "https://decisionsindentistry.com/2025/07/ai-used-to-innovate-dental-composite-development/"
+      ]
+    },
+    {
+      "title": "Center for Precision Medicine + MATRIX — spatial omics and AI symposium",
+      "description": "The CPM (directed by Kumar Sharma, MD) leverages AI for spatial omics, multi-omics, and biomarker programs on cardio-metabolic, cancer, and neurodegenerative diseases. UTHSCSA co-hosted the 2025 AHHSA (Advances in Human Health through Spatial Omics and AI) symposium with UTSA on September 29–30, 2025.",
+      "significance": "Positions the merged UT San Antonio enterprise as a hub for AI-enhanced spatial omics research — a frontier field in precision medicine.",
+      "date_announced": "2025-09-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional + federal grants",
+        "description": "Center for Precision Medicine operational funding plus AHHSA symposium logistics."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UTSA MATRIX AI Consortium"
+          ],
+          "description": "CPM-MATRIX joint programming on AI-enhanced spatial omics."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://wp.uthscsa.edu/cpm/about-us/",
+        "https://news.utsa.edu/2025/09/ai-and-health-ut-san-antonio-to-host-symposium-life-saving-technologies/",
+        "https://events.uthscsa.edu/event/advances-in-human-health-through-spatial-omics-and-ai-9114",
+        "https://ai.utsa.edu/ahhsa2025/"
+      ]
+    },
+    {
+      "title": "UT REAL Health AI systemwide initiative (steering committee participation)",
+      "description": "UT Health San Antonio (via VP/CHIO Dr. Edward Sankary) participates in the UT System's UT REAL Health AI (Research, Engineering, and Application Laboratory for Healthcare AI) steering committee. The initiative launched in 2025 with Texas legislative approval and dedicated state funding; UTHSCSA helps set shared AI governance, pilot funding, and safety-tiering across UT health institutions.",
+      "significance": "Makes UTHSCSA a governance voice in one of the largest state-funded academic healthcare AI programs in the U.S.",
+      "date_announced": "2025-11-19",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "regulatory_compliance",
+        "ai_ethics_framework",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "government_and_regulators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Texas state legislative appropriation to UT System",
+        "description": "State-appropriated systemwide initiative; per-institution allocation not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "UT System",
+            "UT Southwestern Medical Center",
+            "UT MD Anderson Cancer Center",
+            "UT Health Houston",
+            "UT Medical Branch",
+            "Texas Legislature"
+          ],
+          "description": "Steering committee spanning all major UT health institutions with UT System Office of Health Affairs sponsorship."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a state-level model for how public health-science universities can jointly govern AI deployment under HIPAA, TRAIGA, and SB 1188.",
+      "source_urls": [
+        "https://www.utsystem.edu/sites/ut-real-health-ai",
+        "https://www.utsystem.edu/sites/health-intelligence-platform/blog/ut-real-health-ai-launch-2025-11-19",
+        "https://events.uthscsa.edu/event/information-session-ut-system-real-health-ai-pilot-program"
+      ]
+    },
+    {
+      "title": "UTHSCSA–UTSA integration into UT San Antonio (September 2025)",
+      "description": "Effective September 1, 2025, UTHSCSA and UTSA operationally merged to form UT San Antonio, creating the third-largest research university in Texas with 40,000+ students, 17,000 faculty/staff, and combined research expenditures exceeding $281M (UTHSCSA) plus UTSA's portfolio. Dr. Taylor Eighmy became inaugural president; Dr. Heather Shipley provost; Michael Schnabel CIO effective October 1, 2025.",
+      "significance": "Institutional restructuring that combines a health science R1 with a comprehensive R1, enabling joint AI-health programs (MD/MSAI, MATRIX collaboration, shared infrastructure) at unprecedented scale.",
+      "date_announced": "2025-09-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "business_model_disruption",
+        "faculty_role_evolution",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "transformative",
+      "technology_focus": [
+        "general_ai",
+        "unspecified"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UT System, Texas Legislature",
+        "description": "Merger creating merged university; individual integration costs not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Texas at San Antonio",
+            "UT System"
+          ],
+          "description": "Full institutional merger."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a new governance stack where a health-science center's AI program is embedded inside a comprehensive R1 university.",
+      "source_urls": [
+        "https://news.utsa.edu/2025/02/leadership-structure-established-for-unified-university/",
+        "https://www.utsystem.edu/news/2025/08/20/taylor-eighmy-officially-named-president-of-ut-san-antonio-ahead-of-historic-merger-of-ut-systems-two-san-antonio-institutions",
+        "https://news.utsa.edu/2025/10/presidents-cabinet-announces-updates-to-functional-integration-process-and-roles/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Precision Medicine (CPM)",
+      "focus": "AI-enhanced spatial omics, multi-omics, biomarker programs, and chronic disease (cardio-metabolic, cancer, neurodegenerative)",
+      "founded": null,
+      "url": "https://wp.uthscsa.edu/cpm/"
+    },
+    {
+      "name": "MATRIX: UTSA AI Consortium for Human Well-Being (joint post-merger)",
+      "focus": "Machine learning and deployment, augmenting human capabilities, neuro-inspired AI, trustworthy AI; 87 scientists spanning UTHSCSA, UTSA, Southwest Research Institute",
+      "founded": null,
+      "url": "https://ai.utsa.edu/"
+    },
+    {
+      "name": "Trauma Research and Combat Casualty Care Collaborative (TRC4) — UT System",
+      "focus": "AI for trauma care decision support; iRemedyACT-led research",
+      "founded": null,
+      "url": "https://trc4.utsystem.edu/"
+    },
+    {
+      "name": "Research Imaging Institute",
+      "focus": "AI-assisted medical and research imaging",
+      "founded": null,
+      "url": "https://scholars.uthscsa.edu/en/organisations/research-imaging-institute/"
+    },
+    {
+      "name": "Biggs Institute High Performance and Cloud Computing Research Facility",
+      "focus": "HPC/cloud for neurodegenerative and genomics AI research",
+      "founded": "2020",
+      "url": "https://biggsinstitute.org/research/hpcf/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "MD/MSAI Dual Degree (Doctor of Medicine + Master of Science in Artificial Intelligence)",
+      "level": "grad",
+      "launched": "2024-08",
+      "url": "https://uthscsa.edu/medicine/education/ume/mdmsai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Qualified Health",
+      "product": "Qualified Health Enterprise AI Platform (HIPAA-compliant chat + purpose-built agents + clinical quality registries)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://www.prnewswire.com/news-releases/qualified-health-launches-massive-genai-deployment-at-university-of-texas-institutions-302654062.html"
+    },
+    {
+      "vendor": "Abridge",
+      "product": "Abridge Ambient AI Clinical Scribe",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-future-of-hospital-rooms-inside-ut-healths-new-472m-facility/"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic Bedside TV and Epic Monitor (virtual nursing)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-11",
+      "url": "https://news.uthscsa.edu/ut-health-san-antonios-new-hospital-features-state-of-the-art-technology/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot / SharePoint (AI compliance workflow)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ut-health-san-antonio-saves-80k-in-compliance-labor-with-ai/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "UTHSCSA Biggs Institute / Greehey HPC Cluster",
+    "gpu_count": null,
+    "url": "https://biggsinstitute.org/research/hpcf/",
+    "summary": "UTHSCSA operates a university-wide 600-core HPC with GPUs and high-memory nodes for genome assembly, plus a separate Biggs Institute / Greehey Children's Cancer Research Institute HPC and cloud cluster. The Bioinformatics Core Facility adds a 230-processor supercomputer and 7x Linux servers with up to 96 cores and 512GB RAM. Post-merger, infrastructure is being integrated with UTSA's HPC resources."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "TRC4 trauma AI grant",
+      "amount_usd": 1000000,
+      "source": "UT System Trauma Research and Combat Casualty Care Collaborative",
+      "purpose": "Develop AI tools for trauma care decision-making (iRemedyACT)",
+      "date": "2024-05",
+      "url": "https://news.uthscsa.edu/researchers-at-ut-health-san-antonio-utsa-ut-tyler-receive-1m-partner-in-improving-trauma-care-using-ai/"
+    },
+    {
+      "title": "NIH AIM-AHEAD MATCH grant",
+      "amount_usd": 500000,
+      "source": "NIH AIM-AHEAD program",
+      "purpose": "Build AI-powered network to advance health equity and research",
+      "date": "2025-02",
+      "url": "https://www.utsa.edu/today/2025/02/story/AI-tools-to-advance-health.html"
+    },
+    {
+      "title": "UT Health San Antonio Multispecialty and Research Hospital (AI-enabled facility)",
+      "amount_usd": 472000000,
+      "source": "UT Health San Antonio / UT System capital program",
+      "purpose": "New $472M hospital embedding Abridge ambient AI, Epic Bedside TVs, and Epic Monitor virtual nursing",
+      "date": "2025-11",
+      "url": "https://news.uthscsa.edu/beckers-hospital-review-ut-health-san-antonio-opens-472m-research-facility/"
+    },
+    {
+      "title": "UT REAL Health AI state appropriation",
+      "amount_usd": null,
+      "source": "Texas Legislature / UT System Office of Health Affairs",
+      "purpose": "Systemwide healthcare AI initiative; per-institution share undisclosed",
+      "date": "2025-09",
+      "url": "https://www.utsystem.edu/sites/ut-real-health-ai"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Qualified Health",
+      "purpose": "Enterprise HIPAA-compliant GenAI platform pilot, now scaling systemwide",
+      "date": "2025-01",
+      "url": "https://www.prnewswire.com/news-releases/qualified-health-launches-massive-genai-deployment-at-university-of-texas-institutions-302654062.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Abridge",
+      "purpose": "Ambient AI clinical documentation in the new research hospital",
+      "date": "2025-11",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-future-of-hospital-rooms-inside-ut-healths-new-472m-facility/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Epic Systems + Microsoft",
+      "purpose": "Epic-integrated virtual nursing, bedside TVs, and SharePoint-integrated compliance AI",
+      "date": "2025-11",
+      "url": "https://news.uthscsa.edu/ut-health-san-antonios-new-hospital-features-state-of-the-art-technology/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Texas at San Antonio (MATRIX, College of AI, Cyber, and Computing)",
+      "purpose": "MD/MSAI dual degree, dental composite AI, coronary imaging AI, spatial omics symposium — pre- and post-merger collaboration",
+      "date": "2023-09",
+      "url": "https://uthscsa.edu/medicine/education/ume/mdmsai"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NIH AIM-AHEAD consortium",
+      "purpose": "AI/ML health equity training and MATCH network infrastructure",
+      "date": "2025-02",
+      "url": "https://datascience.nih.gov/artificial-intelligence/aim-ahead"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Texas at Tyler + UT System TRC4",
+      "purpose": "Three-institution trauma AI research (iRemedyACT)",
+      "date": "2024-05",
+      "url": "https://trc4.utsystem.edu/trc4-awards-18m-in-grants-for-trauma-care-research/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "wellness",
+      "name": "TimelyCare (AI-monitored peer support and Talk Now)",
+      "scope": "Student Counseling Center after-hours 24/7 mental health support; AI-monitored peer community plus clinician oversight",
+      "url": "https://news.uthscsa.edu/mental-health-services-grow-at-ut-health-san-antonio-with-new-partnership/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "NIH AIM-AHEAD MATCH network",
+      "description": "Participation as a PI site (Dr. Mark P. Goldberg) in the national NIH program advancing health equity and underrepresented-minority participation in AI/ML research.",
+      "url": "https://www.utsa.edu/today/2025/02/story/AI-tools-to-advance-health-equity.html"
+    },
+    {
+      "title": "South Texas community-engaged AI research",
+      "description": "Heart-health and Hispanic/Latino population AI research led by Drs. Vasan Ramachandran and Amelie Ramirez via the CONNECTOR community engagement center.",
+      "url": "https://news.uthscsa.edu/ut-health-san-antonio-led-initiative-receives-multimillion-dollar-support-to-improve-heart-health-in-south-texas-2/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas enacted two major AI statutes in 2025: (1) the Texas Responsible AI Governance Act (TRAIGA), effective January 1, 2026, imposing transparency, risk-management, and governance obligations; and (2) SB 1188, effective September 1, 2025, requiring healthcare providers using AI in diagnostic contexts to meet specific disclosure, oversight, and offshoring-prohibition requirements. At the system level, UT REAL Health AI (2025) centralizes healthcare AI governance across UT health institutions with UTHSCSA participating on the steering committee. UT Austin's system-level acceptable-use guidance for generative AI also informs UTHSCSA practice.",
+    "urls": [
+      "https://www.morganlewis.com/pubs/2025/07/texas-joins-the-emerging-landscape-of-state-level-ai-governance",
+      "https://www.hklaw.com/en/insights/publications/2025/06/texas-enacts-comprehensive-ai-governance-laws",
+      "https://www.utsystem.edu/sites/ut-real-health-ai",
+      "https://security.utexas.edu/ai-tools"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Texas Health Science Center at San Antonio (UTHSCSA) is a Carnegie R1 academic health science center — $281M in FY2023 research expenditures, 3,786 students, 136 research doctorates — that operationally merged with UTSA on September 1, 2025 to form UT San Antonio, Texas's third-largest research university. AI posture is unusually mature for a health-science-only R1, anchored by a dedicated executive role: Dr. Edward Sankary serves as Vice President, Chief Health Information Officer, Chief Value Officer, and Chair of AI in Healthcare, and represents UTHSCSA on the UT System's UT REAL Health AI steering committee launched in 2025 with Texas legislative funding. On the clinical side, UTHSCSA was one of two pilot sites (with UTMB) for Qualified Health's HIPAA-compliant enterprise GenAI platform, and the January 2026 announcement expanded the platform systemwide across UT health institutions serving 2M+ patients annually. A Qualified Health compliance agent delivered documented ~$80K annual savings during the late-2025 Joint Commission conversion of ambulatory clinics to hospital outpatient departments. The new $472M Multispecialty and Research Hospital (opened November 2025) integrates Abridge ambient AI, Epic Monitor virtual nursing, and 65-inch Epic Bedside TVs in all 144 rooms. On the academic side, UTHSCSA's Long School of Medicine launched the nation's first MD/MSAI dual degree with UTSA's College of AI, Cyber, and Computing. Research initiatives include the $1M TRC4 trauma AI collaboration (iRemedyACT), the NIH AIM-AHEAD MATCH health-equity platform ($500K), AI for coronary imaging, AI for dental composite design, and the CPM–MATRIX spatial omics symposium. Policy posture is cautious — the AI LibGuide warns against PHI exposure, hallucinations, and bias, but stops short of a prohibitive institutional mandate, relying on HIPAA-compliant enterprise tools for clinical use and syllabus-level discretion in education. Texas TRAIGA (effective 2026) and SB 1188 (effective September 2025) shape the regulatory envelope. Gaps: no separate institutional acceptable-use policy document distinct from UT System-wide guidance; enterprise-wide Abridge deployment metrics (user counts, sessions) not publicly disclosed.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://news.uthscsa.edu/ut-health-san-antonio-earns-top-carnegie-classification-for-research-doctorate-awards-2/",
+      "https://www.utsystem.edu/news/2025/08/20/taylor-eighmy-officially-named-president-of-ut-san-antonio-ahead-of-historic-merger-of-ut-systems-two-san-antonio-institutions",
+      "https://catalog.uthscsa.edu/generalinformation/uthealthsciencecenterexecutiveleadership/",
+      "https://news.utsa.edu/2025/02/leadership-structure-established-for-unified-university/",
+      "https://www.linkedin.com/in/edward-sankary/",
+      "https://uthscsa.edu/medicine/education/ume/mdmsai",
+      "https://news.uthscsa.edu/nations-first-dual-degree-in-medicine-and-ai-aims-to-prepare-the-next-generation-of-health-care-providers/",
+      "https://www.hcinnovationgroup.com/analytics-ai/artifical-intelligence-machine-learning/article/55130170/why-ut-health-san-antonio-utsa-created-first-md-ms-program-in-ai",
+      "https://www.prnewswire.com/news-releases/qualified-health-launches-massive-genai-deployment-at-university-of-texas-institutions-302654062.html",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ut-health-system-to-deploy-generative-ai-enterprisewide/",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ut-health-san-antonio-saves-80k-in-compliance-labor-with-ai/",
+      "https://news.uthscsa.edu/beckers-health-it-ut-health-san-antonio-saves-80k-in-compliance-labor-with-ai/",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-future-of-hospital-rooms-inside-ut-healths-new-472m-facility/",
+      "https://news.uthscsa.edu/ut-health-san-antonios-new-hospital-features-state-of-the-art-technology/",
+      "https://news.uthscsa.edu/researchers-at-ut-health-san-antonio-utsa-ut-tyler-receive-1m-partner-in-improving-trauma-care-using-ai/",
+      "https://www.utsa.edu/today/2024/05/story/researchers-use-AI-to-improve-trauma-care.html",
+      "https://www.utsa.edu/today/2025/02/story/AI-tools-to-advance-health.html",
+      "https://www.utsa.edu/today/2025/02/story/AI-tools-to-advance-health-equity.html",
+      "https://datascience.nih.gov/artificial-intelligence/aim-ahead",
+      "https://news.uthscsa.edu/ut-health-san-antonio-researchers-partner-with-utsa-use-ai-to-improve-real-time-coronary-imaging/",
+      "https://news.uthscsa.edu/ut-health-san-antonio-utsa-scientists-use-ai-to-reimagine-personalized-dental-care/",
+      "https://www.utsa.edu/today/2025/07/story/utsa-ut-health-sa-use-AI-for-dental-care.html",
+      "https://decisionsindentistry.com/2025/07/ai-used-to-innovate-dental-composite-development/",
+      "https://wp.uthscsa.edu/cpm/about-us/",
+      "https://news.utsa.edu/2025/09/ai-and-health-ut-san-antonio-to-host-symposium-life-saving-technologies/",
+      "https://events.uthscsa.edu/event/advances-in-human-health-through-spatial-omics-and-ai-9114",
+      "https://ai.utsa.edu/ahhsa2025/",
+      "https://www.utsystem.edu/sites/ut-real-health-ai",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/ut-real-health-ai-launch-2025-11-19",
+      "https://events.uthscsa.edu/event/information-session-ut-system-real-health-ai-pilot-program",
+      "https://libguides.uthscsa.edu/ai/class",
+      "https://wp.uthscsa.edu/compliance/privacy/",
+      "https://www.morganlewis.com/pubs/2025/07/texas-joins-the-emerging-landscape-of-state-level-ai-governance",
+      "https://www.hklaw.com/en/insights/publications/2025/06/texas-enacts-comprehensive-ai-governance-laws",
+      "https://biggsinstitute.org/research/hpcf/",
+      "https://uthscsa.edu/rdms/crid/systems",
+      "https://trc4.utsystem.edu/trc4-awards-18m-in-grants-for-trauma-care-research/",
+      "https://ai.utsa.edu/",
+      "https://news.uthscsa.edu/mental-health-services-grow-at-ut-health-san-antonio-with-new-partnership/",
+      "https://news.uthscsa.edu/ut-health-san-antonio-led-initiative-receives-multimillion-dollar-support-to-improve-heart-health-in-south-texas-2/"
+    ],
+    "search_queries": [
+      "\"UT Health San Antonio\" artificial intelligence strategy 2025",
+      "\"University of Texas Health Science Center at San Antonio\" AI policy generative",
+      "\"UT Health San Antonio\" AI research center institute",
+      "\"UT Health San Antonio\" president provost CIO 2025",
+      "\"UT Health San Antonio\" \"Qualified Health\" AI deployment generative",
+      "\"UT Health San Antonio\" MD MS artificial intelligence dual degree program",
+      "\"UT Health San Antonio\" NIH AIM AHEAD predictive analytics",
+      "\"UT Health San Antonio\" chief AI officer AI governance committee",
+      "\"UT Health San Antonio\" Epic EHR Microsoft Copilot generative AI clinicians",
+      "\"UT Health San Antonio\" iRemedyACT trauma AI grant MATCH NIH",
+      "\"UT Health San Antonio\" spatial omics dental AI coronary imaging research",
+      "\"UT Health San Antonio\" enrollment students faculty 2025 Carnegie R1",
+      "\"uthscsa.edu\" acceptable use policy AI generative technology",
+      "\"UT Health San Antonio\" HPC supercomputing cluster GPU computing",
+      "\"UT Health San Antonio\" Edward Sankary chief information health value officer",
+      "\"UT Health San Antonio\" $472M hospital AI digital transformation Cigarroa",
+      "\"UT Health San Antonio\" Texas state AI policy regulation compliance 2025",
+      "\"UT Health San Antonio\" NSF AI grant scientific discovery funding",
+      "\"UT Health San Antonio\" Abridge ambient AI scribe deployment clinicians",
+      "\"UT Health San Antonio\" Center Precision Medicine AI biomarker data",
+      "\"UT Health San Antonio\" chatbot student support mental health wellness AI",
+      "\"UT Health San Antonio\" FERPA HIPAA controversy AI cheating violation",
+      "\"UT Health San Antonio\" AI workforce training education continuing faculty",
+      "\"UT Health San Antonio\" health equity AIM-AHEAD MATCH underrepresented"
+    ],
+    "gaps_acknowledged": [
+      "No separate UTHSCSA-specific acceptable-use policy document found; institution relies on UT System-wide guidance and library-authored classroom guidance.",
+      "Provost role ambiguity pre-merger: the Executive Leadership catalog did not list a Provost specifically for UTHSCSA; Heather Shipley is Provost for the merged UT San Antonio entity.",
+      "Chief AI Officer title not formally established; Dr. Edward Sankary functions as the de-facto AI executive via Chair of AI in Healthcare role.",
+      "MD/MSAI enrollment figures (students admitted, graduated) not publicly disclosed.",
+      "Qualified Health deployment dollar value and per-institution Abridge user counts not publicly disclosed.",
+      "UTHSCSA HPC GPU counts not publicly itemized.",
+      "No public evidence of litigation or AI-specific controversies."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "platform_first",
+        "governance_led",
+        "student_success_led"
+      ],
+      "scores": {
+        "platform_first": 15,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 4,
+        "governance_led": 12,
+        "student_success_led": 5,
+        "workforce_regional_development": 2,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 5,
+      "computing_infrastructure_signal_count": 0,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "UTHSCSA Biggs Institute / Greehey HPC Cluster",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 473580000,
+      "funding_source_buckets": {
+        "other_unclear": 4,
+        "public_federal_state": 6,
+        "institutional": 5
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "wellness": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 0
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft 365 Copilot / SharePoint (AI compliance workflow)",
+            "SharePoint"
+          ]
+        },
+        {
+          "vendor": "Abridge Abridge Ambient AI",
+          "mentions": 1,
+          "products": [
+            "Abridge Ambient AI"
+          ]
+        },
+        {
+          "vendor": "Abridge Abridge Ambient AI Clinical Scribe",
+          "mentions": 1,
+          "products": [
+            "Abridge Ambient AI Clinical Scribe"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic Bedside TV and Epic Monitor (virtual nursing)",
+          "mentions": 1,
+          "products": [
+            "Epic Bedside TV and Epic Monitor (virtual nursing)"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic Monitor and Epic Bedside TV",
+          "mentions": 1,
+          "products": [
+            "Epic Monitor and Epic Bedside TV"
+          ]
+        },
+        {
+          "vendor": "Qualified Health Qualified Health AI Agent",
+          "mentions": 1,
+          "products": [
+            "Qualified Health AI Agent"
+          ]
+        },
+        {
+          "vendor": "Qualified Health Qualified Health Enterprise AI Platform",
+          "mentions": 1,
+          "products": [
+            "Qualified Health Enterprise AI Platform"
+          ]
+        },
+        {
+          "vendor": "Qualified Health Qualified Health Enterprise AI Platform (HIPAA-compliant chat + purpose-built agents + clinical quality registries)",
+          "mentions": 1,
+          "products": [
+            "Qualified Health Enterprise AI Platform (HIPAA-compliant chat + purpose-built agents + clinical quality registries)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "cost_or_revenue",
+          "title": "AI compliance agent saves $80K in Joint Commission certification labor",
+          "summary": "Concrete ROI case for agentic AI in academic-medical-center operations; one of the first public dollar-figure savings from a Joint Commission compliance AI deployment.",
+          "source_url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ut-health-san-antonio-saves-80k-in-compliance-labor-with-ai/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Abridge ambient AI scribe adoption at new $472M research hospital",
+          "summary": "Demonstrates how a greenfield academic-medical-center build can physically design AI documentation and virtual care into the clinical environment rather than retrofitting.",
+          "source_url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/the-future-of-hospital-rooms-inside-ut-healths-new-472m-facility/"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No separate UTHSCSA-specific acceptable-use policy document found; institution relies on UT System-wide guidance and library-authored classroom guidance.",
+        "Provost role ambiguity pre-merger: the Executive Leadership catalog did not list a Provost specifically for UTHSCSA; Heather Shipley is Provost for the merged UT San Antonio entity.",
+        "Chief AI Officer title not formally established; Dr. Edward Sankary functions as the de-facto AI executive via Chair of AI in Healthcare role.",
+        "MD/MSAI enrollment figures (students admitted, graduated) not publicly disclosed.",
+        "Qualified Health deployment dollar value and per-institution Abridge user counts not publicly disclosed.",
+        "UTHSCSA HPC GPU counts not publicly itemized.",
+        "No public evidence of litigation or AI-specific controversies."
+      ]
+    }
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "institution": "University of Colorado Boulder",
+  "slug": "university-of-colorado-boulder",
+  "city_state": "Boulder, CO",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Colorado",
+  "enrollment": null,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "AI at CU Boulder",
+      "url": "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI Guidance at CU Boulder",
+        "url": "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance",
+        "year": 2025
+      },
+      {
+        "title": "AI Data Security Guidelines",
+        "url": "https://oit.colorado.edu/services/it-security/artificial-intelligence-ai-data-security-guidelines",
+        "year": 2025
+      }
+    ],
+    "summary": "CU Boulder has public AI guidance through OIT, data-security guidelines, communications guidance, teaching-and-learning discussions, and strong AI research activity in computer science and environmental data science. The posture is cautious and risk-aware, emphasizing approved tools, public-data-only use, syllabus clarity, sustainability, privacy, and security."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance",
+      "https://oit.colorado.edu/services/it-security/artificial-intelligence-ai-data-security-guidelines",
+      "https://www.colorado.edu/imc/resources/generative-ai-guiding-principles"
+    ],
+    "adopted_date": "2025",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "University of Colorado Boulder's AI policy posture is best characterized as cautious: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Office of Information Technology",
+        "type": "office",
+        "scope": "AI tools, resources, data security, and campus guidance.",
+        "url": "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance"
+      },
+      {
+        "name": "Strategic Relations and Communications",
+        "type": "office",
+        "scope": "Guiding principles for generative AI in communications.",
+        "url": "https://www.colorado.edu/imc/resources/generative-ai-guiding-principles"
+      }
+    ],
+    "summary": "University of Colorado Boulder's public AI governance is organized through Office of Information Technology, Strategic Relations and Communications."
+  },
+  "initiatives": [
+    {
+      "title": "AI Guidance at CU Boulder",
+      "description": "CU Boulder OIT guidance addresses AI limitations, hallucinations, bias, academic policy considerations, sustainability, approved tools, and AI-powered browser risks.",
+      "significance": "University of Colorado Boulder's ai guidance at cu boulder is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "algorithmic_bias",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance"
+      ]
+    },
+    {
+      "title": "AI Data Security Guidelines",
+      "description": "CU Boulder security guidance says AI implementation is subject to applicable policies and that AI tool use is only approved for Public data unless otherwise cleared.",
+      "significance": "University of Colorado Boulder's ai data security guidelines is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "cybersecurity_and_ai_risk",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://oit.colorado.edu/services/it-security/artificial-intelligence-ai-data-security-guidelines"
+      ]
+    },
+    {
+      "title": "Campus LLM Gateway initiative",
+      "description": "CMCI technology planning references the campus LLM Gateway initiative and recommends helping instructors incorporate CU Boulder-wide materials into teaching.",
+      "significance": "University of Colorado Boulder's campus llm gateway initiative is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Campus LLM Gateway",
+          "vendor": "CU Boulder",
+          "role": "Campus LLM access initiative"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.colorado.edu/cmditechexperience/spring-2025-generative-ai-cmci-contextual-empowerment-over-policy-mandates"
+      ]
+    },
+    {
+      "title": "Systemwide ChatGPT Edu agreement",
+      "description": "The University of Colorado entered a three-year agreement with OpenAI to provide ChatGPT Edu across the system, with each campus standing up its own secure environment for eligible students, faculty, and staff. The CU system FAQ says the current contract includes $2 million in annual licensing costs supporting 100,000 users.",
+      "significance": "This closes a common public-data gap by disclosing both broad AI platform scope and annual licensing scale for a major public university system.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "University of Colorado System Office",
+        "description": "The CU system states the first-year ChatGPT Edu contract is paid from the System Office and includes $2 million in annual licensing costs supporting 100,000 users."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Three-year renewable agreement for systemwide ChatGPT Edu environments."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Secure generative AI environment for eligible CU students, faculty, and staff"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "CU requires training, says ordinary university policies still apply, and says OpenAI will not use CU environments to train models.",
+      "source_urls": [
+        "https://www.cu.edu/gen-ai"
+      ]
+    },
+    {
+      "title": "CU Boulder AI research",
+      "description": "CU Boulder Computer Science describes campus AI research spanning environmental data science, linguistics, anthropology, and core CS AI work.",
+      "significance": "University of Colorado Boulder's cu boulder ai research is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "nlp_for_assessment",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.colorado.edu/cs/research/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Generative AI guiding principles for communicators",
+      "description": "CU Boulder communications guidance approved in 2025 encourages human review, copyright respect, attribution, privacy, and cautious use in marketing and communications.",
+      "significance": "University of Colorado Boulder's generative ai guiding principles for communicators is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.colorado.edu/imc/resources/generative-ai-guiding-principles"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Computer Science Artificial Intelligence research",
+      "focus": "AI research across environmental data science, linguistics, anthropology, and CS.",
+      "founded": null,
+      "url": "https://www.colorado.edu/cs/research/artificial-intelligence"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "Teaching and Learning in the Age of AI resources",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "CU Boulder",
+      "product": "Campus LLM Gateway initiative",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.colorado.edu/cmditechexperience/spring-2025-generative-ai-cmci-contextual-empowerment-over-policy-mandates"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": 100000,
+      "deployed": null,
+      "url": "https://www.cu.edu/gen-ai"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Alpine",
+    "gpu_count": 65,
+    "url": "https://curc.readthedocs.io/en/latest/clusters/alpine/alpine-hardware.html",
+    "summary": "CU Boulder's Alpine hardware documentation lists GPU-enabled partitions with 21 AMD MI100 GPUs, 33 NVIDIA A100 GPUs, 9 NVIDIA L40 GPUs, and 2 NVIDIA Grace-Hopper GPUs, for 65 listed GPUs across the regular GPU partitions. Alpine is jointly funded by CU Boulder, CU Anschutz, Colorado State University, and NSF."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "ChatGPT Edu annual licensing",
+      "amount_usd": 2000000,
+      "source": "University of Colorado System Office",
+      "purpose": "Systemwide ChatGPT Edu licensing for eligible students, faculty, and staff across CU campuses.",
+      "date": null,
+      "url": "https://www.cu.edu/gen-ai"
+    }
+  ],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Course-specific AI syllabus policies",
+      "scope": "Students governed by instructor/course policies.",
+      "url": "https://www.colorado.edu/cmditechexperience/spring-2025-generative-ai-cmci-contextual-empowerment-over-policy-mandates"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI and sustainability guidance",
+      "description": "CU Boulder guidance explicitly asks users to consider environmental impacts of generative AI and to use lower-impact alternatives when appropriate.",
+      "url": "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Colorado",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "University of Colorado Boulder operates in Colorado and within University of Colorado; public AI guidance should be read alongside applicable state, federal, and system privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance",
+      "https://oit.colorado.edu/services/it-security/artificial-intelligence-ai-data-security-guidelines"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "University of Colorado Boulder (Boulder, CO) is an R1 institution whose public AI posture shows activity across governance, teaching, research, enterprise tooling, workforce readiness, and access. CU Boulder has public AI guidance through OIT, data-security guidelines, communications guidance, teaching-and-learning discussions, and strong AI research activity in computer science and environmental data science. The posture is cautious and risk-aware, emphasizing approved tools, public-data-only use, syllabus clarity, sustainability, privacy, and security. The most concrete public initiatives captured here are AI Guidance at CU Boulder; AI Data Security Guidelines; Campus LLM Gateway initiative; CU Boulder AI research; Generative AI guiding principles for communicators. Across the profile, the strongest evidence comes from official university AI hubs, policy pages, teaching resources, research-center pages, and program pages rather than secondary reporting. The institution_type is set to r1_research from the canonical Carnegie R1 list. Known gaps are intentionally explicit: leadership names, user counts, detailed budgets, and compute counts are only included when they surfaced in public sources. Overall, the profile supports at least five AI initiatives and evidences strategy/leadership, governance, teaching/curriculum, research infrastructure, student services or enterprise tooling, workforce/community, partnerships, and equity dimensions where public sources permit.",
+  "research_quality": {
+    "compiled_at": "2026-04-23",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance",
+      "https://oit.colorado.edu/services/it-security/artificial-intelligence-ai-data-security-guidelines",
+      "https://www.colorado.edu/imc/resources/generative-ai-guiding-principles",
+      "https://www.colorado.edu/cs/research/artificial-intelligence",
+      "https://www.colorado.edu/cmditechexperience/spring-2025-generative-ai-cmci-contextual-empowerment-over-policy-mandates",
+      "https://www.cu.edu/gen-ai",
+      "https://curc.readthedocs.io/en/latest/clusters/alpine/alpine-hardware.html"
+    ],
+    "search_queries": [
+      "University of Colorado Boulder AI strategy 2025 2026",
+      "University of Colorado Boulder generative AI policy guidelines",
+      "University of Colorado Boulder AI research center institute",
+      "University of Colorado Boulder Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "University of Colorado Boulder AI degree certificate workforce training",
+      "Colorado higher education AI policy",
+      "University of Colorado ChatGPT Edu 100000 users 2 million",
+      "CU Boulder Alpine GPU count A100 MI100 GH200"
+    ],
+    "gaps_acknowledged": [
+      "No central chief AI officer surfaced in reviewed public sources.",
+      "ChatGPT Edu annual licensing cost and user capacity are public at the CU system level, but CU Boulder-specific active-user adoption metrics remain undisclosed.",
+      "Alpine GPU partition counts are public; no separate AI-only GPU allocation or utilization metric was found.",
+      "Enrollment was left null rather than relying on non-source local data."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "platform_first",
+        "research_compute_powerhouse",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 10,
+        "research_compute_powerhouse": 8,
+        "curriculum_led": 3,
+        "governance_led": 11,
+        "student_success_led": 1,
+        "workforce_regional_development": 6,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Alpine",
+        "gpu_count": 65,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 2000000,
+      "funding_source_buckets": {
+        "institutional": 2,
+        "other_unclear": 4,
+        "public_federal_state": 1
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "CU Boulder Campus LLM Gateway",
+          "mentions": 1,
+          "products": [
+            "Campus LLM Gateway"
+          ]
+        },
+        {
+          "vendor": "CU Boulder Campus LLM Gateway initiative",
+          "mentions": 1,
+          "products": [
+            "Campus LLM Gateway initiative"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "OpenAI",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "AI Guidance at CU Boulder",
+          "summary": "University of Colorado Boulder's ai guidance at cu boulder is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.colorado.edu/information-technology/ai-cu-boulder/resources-guidance"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Data Security Guidelines",
+          "summary": "University of Colorado Boulder's ai data security guidelines is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://oit.colorado.edu/services/it-security/artificial-intelligence-ai-data-security-guidelines"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Campus LLM Gateway initiative",
+          "summary": "University of Colorado Boulder's campus llm gateway initiative is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.colorado.edu/cmditechexperience/spring-2025-generative-ai-cmci-contextual-empowerment-over-policy-mandates"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Systemwide ChatGPT Edu agreement",
+          "summary": "This closes a common public-data gap by disclosing both broad AI platform scope and annual licensing scale for a major public university system.",
+          "source_url": "https://www.cu.edu/gen-ai"
+        },
+        {
+          "claim_type": "career",
+          "title": "CU Boulder AI research",
+          "summary": "University of Colorado Boulder's cu boulder ai research is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.colorado.edu/cs/research/artificial-intelligence"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Generative AI guiding principles for communicators",
+          "summary": "University of Colorado Boulder's generative ai guiding principles for communicators is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.colorado.edu/imc/resources/generative-ai-guiding-principles"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 4,
+      "notes": [
+        "No central chief AI officer surfaced in reviewed public sources.",
+        "ChatGPT Edu annual licensing cost and user capacity are public at the CU system level, but CU Boulder-specific active-user adoption metrics remain undisclosed.",
+        "Alpine GPU partition counts are public; no separate AI-only GPU allocation or utilization metric was found.",
+        "Enrollment was left null rather than relying on non-source local data."
+      ]
+    }
+  }
+}

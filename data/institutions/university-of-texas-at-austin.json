@@ -1,0 +1,1631 @@
+{
+  "institution": "University of Texas at Austin",
+  "slug": "university-of-texas-at-austin",
+  "city_state": "Austin, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 55000,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "James E. Davis",
+      "url": "https://president.utexas.edu/"
+    },
+    "provost": {
+      "name": "William Inboden",
+      "url": "https://provost.utexas.edu/leadership/"
+    },
+    "cio": {
+      "name": "Cole W. Camplese",
+      "url": "https://tech.utexas.edu/about/leadership/cole-camplese"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Mario Guerra Jr.",
+      "title": "Associate Vice President for AI Platforms & Innovation (leads UT.AI Studio)",
+      "url": "https://tech.utexas.edu/initiatives/artificial-intelligence"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UT Austin 2025-2026 AI Roadmap (Enterprise Technology)",
+        "url": "https://tech.utexas.edu/initiatives/artificial-intelligence",
+        "year": 2025
+      },
+      {
+        "title": "UT Designates 2024 'The Year of AI' (strategic announcement)",
+        "url": "https://news.utexas.edu/2024/01/23/ut-designates-2024-the-year-of-ai/",
+        "year": 2024
+      },
+      {
+        "title": "Responsible Adoption of AI Tools for Teaching and Learning (8 guiding principles)",
+        "url": "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/responsible-adoption-of-ai-tools/",
+        "year": 2025
+      },
+      {
+        "title": "Texas AI - Research Portfolio (ai.utexas.edu)",
+        "url": "https://ai.utexas.edu/",
+        "year": 2024
+      }
+    ],
+    "summary": "UT Austin's AI strategy is anchored by President Jay Hartzell's January 2024 designation of 2024 as 'The Year of AI' and a subsequent AI Roadmap for 2025-2026 coordinated through Enterprise Technology's AI Studio. The strategy unifies four pillars: (1) the nation's largest academic AI compute footprint at TACC (5,000+ GPUs plus the $457M NSF-funded Horizon supercomputer), (2) a campus-wide UT.AI platform suite (UT Spark, UT Sage, licensed ChatGPT Enterprise / Claude / Copilot), (3) a multimillion-dollar faculty cluster-hire program across six research themes, and (4) a provost-led Responsible Adoption framework with eight guiding principles. The $750M Michael and Susan Dell gift (April 2026) to build an 'AI-native' medical center through 2030 cements AI as central to UT Austin's 10-year, $10B campaign."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://security.utexas.edu/ai-tools",
+      "https://tech.utexas.edu/governance/guidance-for-ai",
+      "https://ctl.utexas.edu/generative-ai-teaching-and-learning-policies",
+      "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/responsible-adoption-of-ai-tools/",
+      "https://provost.utexas.edu/the-office/faculty-affairs/office-of-academic-technology/ai-detection-software-guidance/"
+    ],
+    "adopted_date": "2023-07",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Public / Published data may be used freely with any AI tool; Controlled or Confidential university data may only be used with university-managed AI tools covered by a Data Protection Addendum",
+      "Free/consumer ChatGPT and Copilot are explicitly NOT approved for FERPA, HIPAA, HR, or research-subject data",
+      "Prohibits using AI to generate non-public outputs including unpublished research, legal analysis, recruitment or personnel decisions, or grading",
+      "IRUSP Standard 22 governs vendor compliance; a Local and Cloud Services Decision Matrix lists authorized tools by data classification",
+      "Eight-principle Responsible Adoption framework (literacy, ethics, intention, balance, agency, relationships, academic integrity, stewardship) guides teaching and learning",
+      "Policy jointly maintained by Information Security Office, Legal Affairs, Compliance Services, and Business Contracts Office",
+      "Policy updated most recently October 29, 2025"
+    ],
+    "summary": "UT Austin operates a comprehensive, multi-document AI policy framework first adopted July 2023 and most recently updated October 2025. The stance is permissive-comprehensive: faculty and students are encouraged to use AI, with a strong emphasis on university-managed tools (UT Spark, UT Sage, licensed Copilot/ChatGPT Enterprise/Claude) over consumer services. Data-classification rules, the IRUSP Standard 22 vendor framework, and an eight-principle Responsible Adoption rubric from the Office of Academic Technology form the operational backbone."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UT.AI Studio (Enterprise Technology)",
+        "type": "office",
+        "scope": "Central operational unit for responsible, scalable AI deployment across campus; builds and runs UT Spark, UT Sage, and the enterprise AI tool marketplace; led by Associate VP Mario Guerra Jr.",
+        "url": "https://tech.utexas.edu/initiatives/artificial-intelligence"
+      },
+      {
+        "name": "Office of Academic Technology (Office of the Executive Vice President and Provost)",
+        "type": "office",
+        "scope": "Owns teaching-and-learning AI policy, Responsible Adoption framework, and faculty guidance on generative AI in classrooms",
+        "url": "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/responsible-adoption-of-ai-tools/"
+      },
+      {
+        "name": "Good Systems Grand Challenge",
+        "type": "council",
+        "scope": "UT-funded research grand challenge convening faculty from 24+ schools and units on ethical AI design, policy, and societal impact; led by S. Craig Watkins and Sharon Strover",
+        "url": "https://bridgingbarriers.utexas.edu/good-systems"
+      },
+      {
+        "name": "Texas AI (ai.utexas.edu) initiative",
+        "type": "office",
+        "scope": "Campus-wide research umbrella coordinating AI work across Machine Learning Laboratory, Texas Robotics, and Good Systems, plus seven academic colleges",
+        "url": "https://ai.utexas.edu/"
+      },
+      {
+        "name": "Information Security Office AI governance working group",
+        "type": "committee",
+        "scope": "Cross-functional group (ISO, Legal Affairs, Compliance Services, Business Contracts) that maintains the Acceptable Use of Generative AI Tools policy",
+        "url": "https://security.utexas.edu/ai-tools"
+      },
+      {
+        "name": "UT System AI community of practice (cross-institution)",
+        "type": "other",
+        "scope": "Nine-institution UT System community of practice on generative AI in teaching and learning; ~1,000 attendees across 2024-2025 webinar series",
+        "url": "https://provost.utsa.edu/academicinnovation/news/2025/04/story/18-ut-system-ai-series.html"
+      }
+    ],
+    "summary": "UT Austin operates a distributed governance model: Enterprise Technology's UT.AI Studio runs the enterprise AI platform stack, the provost's Office of Academic Technology governs teaching and learning policy, the Information Security Office owns data-handling rules, and the Good Systems Grand Challenge anchors ethics research. There is no single chief AI officer, but an Associate VP for AI Platforms & Innovation leads operational deployment."
+  },
+  "initiatives": [
+    {
+      "title": "UT Spark campus-wide generative AI platform launch",
+      "description": "UT Spark is UT Austin's in-house, free, secure generative AI platform for all 55,000+ students, faculty, and staff. Built on secure Azure infrastructure, Spark provides a conversational interface to advanced OpenAI models (GPT-4.1, GPT-4o), custom agent creation, brainstorming/summarizing/writing tools, and data isolation so inputs are not used to train third-party models. Rolled out officially in fall 2025 as the UT.AI Studio's flagship product.",
+      "significance": "Positions UT Austin among the handful of R1s (with Michigan, ASU, Cal State) operating a fully managed, FERPA-compliant campus GenAI service rather than forcing users onto consumer tools.",
+      "date_announced": "2025-08-21",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_enhanced_pedagogy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Austin Enterprise Technology",
+        "description": "Funded out of Enterprise Technology's AI Studio operating budget; specific total not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "OpenAI",
+            "Azure"
+          ],
+          "description": "Built on Azure OpenAI Service; Microsoft provides enterprise-grade infrastructure under a Data Protection Addendum"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UT Spark",
+          "vendor": "UT Austin (built in-house on Azure OpenAI)",
+          "role": "Campus-wide conversational AI + custom agent builder"
+        },
+        {
+          "name": "Azure OpenAI Service",
+          "vendor": "Microsoft",
+          "role": "Cloud LLM infrastructure provider"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes a sanctioned default channel so users can work with sensitive and research data under enterprise agreements, reducing risk of FERPA/HIPAA exposure on consumer tools.",
+      "source_urls": [
+        "https://tech.utexas.edu/initiatives/artificial-intelligence/ut-spark",
+        "https://tech.utexas.edu/news/ut-spark-officially-here",
+        "https://thedailytexan.com/2025/08/21/university-launches-official-ai-platform-for-students-faculty-free-of-cost/",
+        "https://tech.utexas.edu/services-tools/ai"
+      ]
+    },
+    {
+      "title": "UT Sage AI tutor platform (built with AWS) launch",
+      "description": "UT Sage is a faculty-guided, homegrown generative AI tutor platform developed with the AWS Generative AI Innovation Center. Instructors design custom Socratic-style tutors aligned with course content; students access them through Canvas. Officially launched July 30, 2025 in advance of fall 2025 semester for all 52,000+ students across 19 colleges and schools.",
+      "significance": "A faculty-customizable, Canvas-integrated AI tutor at R1 scale — a model other universities are now studying as an alternative to off-the-shelf chatbots for course-aligned learning.",
+      "date_announced": "2025-07-30",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_enhanced_pedagogy",
+        "lms_embedded_ai",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Enterprise Technology + AWS partnership",
+        "description": "Amount not publicly disclosed; built with AWS Generative AI Innovation Center as co-development partner"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services (AWS)",
+            "AWS Generative AI Innovation Center"
+          ],
+          "description": "Co-developed with AWS for scalability, security, FERPA compliance, and pedagogical design"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UT Sage",
+          "vendor": "UT Austin (co-built with AWS)",
+          "role": "Canvas-integrated Socratic tutor creation platform"
+        },
+        {
+          "name": "AWS Bedrock / SageMaker",
+          "vendor": "Amazon Web Services",
+          "role": "Underlying GenAI infrastructure"
+        },
+        {
+          "name": "Canvas LMS",
+          "vendor": "Instructure",
+          "role": "LMS integration target"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates responsible, evidence-based pedagogical integration; faculty control tutor scope so AI supports rather than replaces instruction, aligning with the provost's 8 guiding principles.",
+      "source_urls": [
+        "https://tech.utexas.edu/news/ut-austin-and-aws-launch-ut-sage-ut-austins-homegrown-ai-tutor-platform",
+        "https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/",
+        "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/ut-sage/"
+      ]
+    },
+    {
+      "title": "Horizon supercomputer and 5,000+ GPU academic AI compute",
+      "description": "UT Austin's Texas Advanced Computing Center (TACC) is building Horizon, a Leadership Class Computing Facility with 4,000+ NVIDIA Blackwell GB200 GPUs funded by a $457M NSF award announced July 2024. Combined with the Vista/Center for Generative AI cluster (now 1,000+ H100/Blackwell GPUs after a November 2025 doubling) and $20M in Texas Legislature appropriations, UT now operates 5,000+ advanced NVIDIA GPUs — the nation's largest academic AI compute footprint for open-source AI.",
+      "significance": "Cements UT Austin as the national anchor for public, open-source AI research at a time when compute access is the defining constraint on university AI research.",
+      "date_announced": "2024-07-11",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "transformative",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 477000000,
+        "funding_source": "NSF Leadership Class Computing Facility program ($457M) + Texas Legislature ($20M)",
+        "description": "$457M NSF award for Horizon construction plus $20M state appropriation for Center for Generative AI expansion"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Dell Technologies",
+            "Sabey Data Centers"
+          ],
+          "description": "NVIDIA supplies GB200 GPUs; Dell supplies AI infrastructure; Sabey hosts in Round Rock, TX"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Primary federal sponsor under Leadership Class Computing Facility program"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Horizon (Leadership Class Computing Facility)",
+          "vendor": "TACC / NVIDIA / Dell",
+          "role": "Next-generation academic supercomputer, 10x Frontera"
+        },
+        {
+          "name": "Vista (Center for Generative AI cluster)",
+          "vendor": "TACC / NVIDIA",
+          "role": "Dedicated GenAI research cluster, 1,000+ GPUs"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Makes UT a go-to academic partner for federal agencies and industry on foundation-model research and scientific AI.",
+      "source_urls": [
+        "https://news.utexas.edu/2025/11/17/ut-eclipses-5000-gpus-to-increase-dominance-in-open-source-ai-strengthen-nations-computing-power/",
+        "https://news.utexas.edu/2025/11/10/ut-doubles-size-of-one-of-worlds-most-powerful-ai-computing-hubs/",
+        "https://news.utexas.edu/2024/07/11/texas-advanced-computing-center-to-lead-groundbreaking-nsf-computing-facility/",
+        "https://news.utexas.edu/2024/01/25/new-texas-center-will-create-generative-ai-computing-cluster-among-largest-of-its-kind/"
+      ]
+    },
+    {
+      "title": "$750M Michael & Susan Dell gift for AI-native UT Dell Medical Center",
+      "description": "Announced April 22, 2026, Michael and Susan Dell committed $750M to UT Austin to fund a new UT Dell Medical Center and research campus on a 300+ acre site, engineered 'for the AI era' to connect prevention, diagnosis, treatment, and discovery through AI and advanced computing. The gift supports a 300-500 bed hospital, outpatient facilities, undergraduate scholarships, student housing, and expansion of TACC. It pushes total Dell family giving past $1B and opens a 10-year, $10B UT campaign.",
+      "significance": "One of the largest gifts ever to a public U.S. university and the single largest philanthropic commitment to an explicitly AI-native academic medical center nationwide.",
+      "date_announced": "2026-04-22",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "ai_in_specific_disciplines",
+        "computing_infrastructure",
+        "business_model_disruption"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 750000000,
+        "funding_source": "Michael & Susan Dell personal philanthropy",
+        "description": "$750M gift opening a broader 10-year, $10B UT fundraising campaign"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Dell Technologies",
+            "Michael & Susan Dell Foundation"
+          ],
+          "description": "Gift paired with Dell Technologies supplying AI infrastructure for TACC"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UT Dell Medical Center (AI-native)",
+          "vendor": "UT Austin",
+          "role": "Planned academic medical center opening 2030"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Will require new AI-in-healthcare governance, IRB, and data-sharing frameworks as the campus comes online through 2030.",
+      "source_urls": [
+        "https://fortune.com/2026/04/22/michael-dell-ut-austin-750-million-donation-billionaire-philanthropy/",
+        "https://www.kut.org/health/2026-04-21/ut-austin-dell-medical-center-hospital-michael-susan-dell-foundation-donation",
+        "https://www.kten.com/michael-and-susan-dell-fund-ai-native-medical-center-with-750-million-gift-to-university/article_f2923a16-13cc-576d-9089-abbfb54ceb6c.html"
+      ]
+    },
+    {
+      "title": "Online Master of Science in Artificial Intelligence (MSAI) with edX",
+      "description": "UT Austin launched a 100% online, affordable Master of Science in Artificial Intelligence in partnership with edX (2023). The 30-credit-hour program requires Deep Learning, Machine Learning, Reinforcement Learning, and Logic and Reasoning as core, with electives including Optimization, NLP, Case Studies in ML, and Ethics in AI. By 2024 the program had enrolled its inaugural 'hundreds' cohort, with thousands expressing interest — the first R1 online AI master's priced as mass-access.",
+      "significance": "A high-volume, low-cost credential pipeline that scales AI education far beyond traditional CS enrollment and is studied widely as a workforce model.",
+      "date_announced": "2023-02-07",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_workforce_training",
+        "ai_literacy_requirement",
+        "continuing_and_executive_education",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Tuition revenue + edX revenue share",
+        "description": "Self-sustaining online program; pricing reported as among the most affordable online AI master's in U.S."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "edX (2U)"
+          ],
+          "description": "Platform and marketing partner"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "edX platform",
+          "vendor": "edX / 2U",
+          "role": "Online course delivery and enrollment management"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Sets a national benchmark for broadly accessible AI graduate credentials.",
+      "source_urls": [
+        "https://cdso.utexas.edu/msai",
+        "https://press.edx.org/the-university-of-texas-at-austin-launches-online-master-of-science-in-artificial-intelligence-with-edx",
+        "https://fortune.com/education/articles/ut-austin-is-launching-a-new-online-masters-degree-program-in-a-i/",
+        "https://extendedcampus.utexas.edu/master-science-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Good Systems Grand Challenge on ethical AI",
+      "description": "Good Systems is UT Austin's university-funded research Grand Challenge (now in year 6+), convening faculty and student researchers from 24+ schools and units — communications, planning, engineering, informatics, liberal arts, public affairs, robotics — to design, evaluate, and build ethical human-AI systems. Projects span digital twins for the City of Austin, AI in healthcare equity, algorithmic fairness, smart-cities and homelessness, AI governance design, and AI-enhanced robotics. Executive leadership includes S. Craig Watkins (IC2 Institute) and Sharon Strover.",
+      "significance": "One of the earliest sustained R1 research programs anchoring AI ethics as a cross-disciplinary grand challenge, routinely cited in federal and municipal AI policy.",
+      "date_announced": "2019-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Austin Bridging Barriers Grand Challenge + external grants",
+        "description": "Internally funded through Bridging Barriers plus federal/foundation research awards"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "City of Austin",
+            "Austin City Council"
+          ],
+          "description": "Advised City of Austin AI governance resolution; digital twin project for city planning"
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Texas Robotics",
+            "Machine Learning Laboratory"
+          ],
+          "description": "Cross-unit UT Austin collaboration"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides institutional ethics review and policy input used across UT Austin's governance bodies and by external municipal partners.",
+      "source_urls": [
+        "https://bridgingbarriers.utexas.edu/good-systems",
+        "https://bridgingbarriers.utexas.edu/news/good-systems-great-policy",
+        "https://bridgingbarriers.utexas.edu/projects/inclusive-and-trustworthy-ai-governance-and-design",
+        "https://ml.utexas.edu/good-systems"
+      ]
+    },
+    {
+      "title": "NSF-Simons AI Institute for Cosmic Origins (CosmicAI)",
+      "description": "Announced September 2024 and housed at the Oden Institute, CosmicAI is a $20M ($10M NSF + $10M Simons Foundation) five-year institute that applies AI to astronomy — dark matter, galaxies, star formation, search for life — and is building an AI 'co-pilot' for astronomers. Inaugural conference held May 2025 at UT Austin. One of only ~30 NSF National AI Research Institutes nationally.",
+      "significance": "Gives UT two of the ~30 NSF National AI Institutes (along with IFML), one of the highest concentrations nationally.",
+      "date_announced": "2024-09-18",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "NSF ($10M) + Simons Foundation ($10M)",
+        "description": "$20M over 5 years"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federal sponsor"
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Simons Foundation"
+          ],
+          "description": "Private foundation co-sponsor"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utexas.edu/2024/09/18/new-ai-institute-led-by-ut-researchers-will-accelerate-cosmic-discovery/",
+        "https://cosmicai.org/",
+        "https://oden.utexas.edu/news-and-events/news/New-CosmicAI-Institute-led-by-University-of-Texas-Researchers-cosmic-discovery/"
+      ]
+    },
+    {
+      "title": "NSF AI Institute for Foundations of Machine Learning (IFML) renewal",
+      "description": "The NSF AI Institute for Foundations of Machine Learning (IFML) at UT Austin received a second round of NSF funding in 2025, making it one of only five NSF AI Institutes to earn renewed investment. IFML researches foundations of ML (diffusion models, MRI algorithms, biotech) and is partnered with the Machine Learning Laboratory.",
+      "significance": "Signals sustained federal confidence in UT Austin's foundational AI research and extends the institute's impact into drug development and clinical diagnostics.",
+      "date_announced": "2025-07-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "NSF National AI Research Institutes program (renewal)",
+        "description": "~$20M+ renewed multi-year funding; IFML has received $20M+ historically"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federal primary sponsor"
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Washington",
+            "Wichita State",
+            "Microsoft Research"
+          ],
+          "description": "Multi-institution AI institute collaborators"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utexas.edu/2025/07/29/ut-expands-research-on-ai-accuracy-and-reliability-to-support-breakthroughs-in-science-technology-and-the-workforce/",
+        "https://ifml.institute/",
+        "https://cns.utexas.edu/news/announcements/ut-expands-research-ai-support-breakthroughs-science-technology-and-workforce"
+      ]
+    },
+    {
+      "title": "Multi-theme AI faculty cluster hire (Year of AI recruitment)",
+      "description": "Launched January 31, 2024 under the Year of AI banner, UT Austin committed a multimillion-dollar effort to hire dozens of new AI faculty across six research themes (scientific discovery, materials, environmental, universe, cancer, life/medical sciences). Includes dedicated cluster searches: AI for Materials (4 tenure-track), AI Business of Health (McCombs + Dell Medical), Foundational AI/ML (CS), Astronomy-AI, and Statistics and Data Sciences. Harrington Faculty Fellows added >$1M to visiting AI faculty in 2025-26 cohort.",
+      "significance": "One of the largest coordinated single-year AI faculty build-outs at any R1 in recent years.",
+      "date_announced": "2024-01-31",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Office of the Executive Vice President and Provost + Harrington Faculty Fellows",
+        "description": "Multimillion-dollar recruitment commitment; Harrington cohort alone is >$1M for 2025-26"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Austin College of Natural Sciences",
+            "Cockrell School of Engineering",
+            "McCombs",
+            "Dell Medical School",
+            "Jackson School of Geosciences"
+          ],
+          "description": "Cross-college cluster hires coordinated centrally"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals long-term reallocation of faculty lines toward AI research capacity.",
+      "source_urls": [
+        "https://news.utexas.edu/2024/01/31/year-of-ai-faculty-recruitment-initiative-aims-to-bring-more-world-class-professors-to-ut/",
+        "https://news.utexas.edu/2024/11/11/uts-premier-faculty-fellowship-launches-new-ai-initiative/",
+        "https://tmi.utexas.edu/news-events/337-ai-faculty-cluster-hire-apply-here",
+        "https://www.jsg.utexas.edu/news/2026/03/dapeng-feng-joins-jackson-school-faculty-in-ai-cluster-hire/"
+      ]
+    },
+    {
+      "title": "Responsible Adoption of AI Tools for Teaching and Learning (8 principles)",
+      "description": "In May 2025, the Office of Academic Technology (Provost's Office) published UT Austin's Responsible Adoption of AI Tools framework, developed by a six-month faculty-and-staff working group with pedagogy, AI, data privacy, and ethics experts. The framework anchors AI in teaching and learning through eight guiding principles: literacy, ethics, intention, balance, agency, relationships, academic integrity, and stewardship. Revisited annually.",
+      "significance": "Establishes an institutional ethics/pedagogy rubric that moves beyond acceptable-use mechanics into curricular and learning-design philosophy.",
+      "date_announced": "2025-05-20",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Executive Vice President and Provost",
+        "description": "Staff time across six-month working group; no external funding disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal UT Austin effort"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the baseline expectations for all course-level AI policies and for faculty development programming.",
+      "source_urls": [
+        "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/responsible-adoption-of-ai-tools/",
+        "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/",
+        "https://ctl.utexas.edu/generative-ai-teaching-and-learning-policies"
+      ]
+    },
+    {
+      "title": "Enterprise licensing of ChatGPT Enterprise, Claude, and Microsoft 365 Copilot",
+      "description": "Through the UT.AI Studio, UT Austin offers enterprise-grade, data-isolated access to ChatGPT Enterprise (OpenAI), Anthropic Claude (with enhanced privacy and data isolation), and Microsoft 365 Copilot ($30/mo premium with full Word/Excel/Teams/Outlook integration) alongside free tools (Copilot Chat, UT Spark, UT Sage, Gemini for non-sensitive data). The 2025-2026 AI Roadmap specifies ChatGPT 5 and Claude models for production.",
+      "significance": "One of the most comprehensive multi-vendor enterprise AI procurement stacks among R1s; shows a deliberate vendor-plural strategy rather than lock-in.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout",
+        "cybersecurity_and_ai_risk",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Enterprise Technology licensing; individual paid licenses at $30/user/month for premium Copilot",
+        "description": "Mix of site licenses and request-based enterprise seats"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Anthropic",
+            "OpenAI",
+            "Microsoft",
+            "Google"
+          ],
+          "description": "Multi-vendor enterprise agreements covering frontier LLM and productivity tools"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Enterprise",
+          "vendor": "OpenAI",
+          "role": "Enterprise LLM with data isolation"
+        },
+        {
+          "name": "Claude (enterprise)",
+          "vendor": "Anthropic",
+          "role": "Enterprise LLM with enhanced privacy"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity-integrated AI assistant"
+        },
+        {
+          "name": "Copilot Chat (free)",
+          "vendor": "Microsoft",
+          "role": "Free chatbot for students/faculty/staff"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Approved for published/non-sensitive data only"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Gives employees a sanctioned path for sensitive work and avoids shadow-IT consumer tool use.",
+      "source_urls": [
+        "https://tech.utexas.edu/services-tools/ai",
+        "https://tech.utexas.edu/services-tools/ai/ai-tools-matrix",
+        "https://tech.utexas.edu/initiatives/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "UT System REAL Health AI and UT System AI community of practice",
+      "description": "In 2025 the UT System received state legislative funding to launch UT REAL Health AI, a systemwide initiative accelerating AI in health across UT institutions to improve patient care, clinician efficiency, research, and workforce readiness. Separately, throughout 2024-2025, UT Austin faculty development staff co-led 'Innovating with AI Across the UT System' — a nine-institution webinar series with ~1,000 attendees that seeded a standing community of practice on generative AI in teaching and learning.",
+      "significance": "Moves AI governance and practice beyond one campus into statewide coordination across nine UT institutions.",
+      "date_announced": "2025-06-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "faculty_training_and_development",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "employers",
+        "government_and_regulators",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Texas Legislature appropriation to UT System",
+        "description": "Dedicated state funding for UT REAL Health AI; webinar series cost absorbed by institutional faculty development budgets"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Austin",
+            "UT Dallas",
+            "UT Arlington",
+            "UT San Antonio",
+            "UT El Paso",
+            "UT Rio Grande Valley",
+            "UTHealth Houston",
+            "UTMB",
+            "UT Southwestern"
+          ],
+          "description": "Nine-institution UT System collaboration"
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Texas Legislature"
+          ],
+          "description": "Direct state appropriation"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Scales governance patterns and faculty development approaches across the full UT System.",
+      "source_urls": [
+        "https://www.utsystem.edu/sites/ut-real-health-ai",
+        "https://provost.utsa.edu/academicinnovation/news/2025/04/story/18-ut-system-ai-series.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Machine Learning Laboratory",
+      "focus": "Core ML algorithms, deep learning, optimization, fairness, scalability",
+      "founded": 2020,
+      "url": "https://ml.utexas.edu/"
+    },
+    {
+      "name": "Center for Generative AI",
+      "focus": "Generative AI research, biosciences, NLP, computer vision; 1,000+ GPU Vista cluster at TACC",
+      "founded": 2024,
+      "url": "https://ml.utexas.edu/center-for-generative-ai"
+    },
+    {
+      "name": "NSF-Simons AI Institute for Cosmic Origins (CosmicAI)",
+      "focus": "AI for astronomy, dark matter, galaxy formation; hosted at Oden Institute",
+      "founded": 2024,
+      "url": "https://cosmicai.org/"
+    },
+    {
+      "name": "NSF AI Institute for Foundations of Machine Learning (IFML)",
+      "focus": "Foundational ML research: diffusion models, MRI, biotech",
+      "founded": 2020,
+      "url": "https://ifml.institute/"
+    },
+    {
+      "name": "Good Systems Grand Challenge",
+      "focus": "Ethical human-AI systems; AI equity, governance, policy",
+      "founded": 2019,
+      "url": "https://bridgingbarriers.utexas.edu/good-systems"
+    },
+    {
+      "name": "Texas Robotics",
+      "focus": "Surgical robots, autonomous vehicles, rehabilitation, manufacturing automation",
+      "founded": 2020,
+      "url": "https://robotics.utexas.edu/"
+    },
+    {
+      "name": "Oden Institute for Computational Engineering and Sciences",
+      "focus": "Computational science, modeling, digital twins, AI for science (hosts CosmicAI & DOE digital twins center)",
+      "founded": 2003,
+      "url": "https://oden.utexas.edu/"
+    },
+    {
+      "name": "Texas Advanced Computing Center (TACC)",
+      "focus": "Academic supercomputing; Horizon, Vista, Frontera systems",
+      "founded": 2001,
+      "url": "https://tacc.utexas.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence (online, via edX)",
+      "level": "grad",
+      "launched": "2023-05",
+      "url": "https://cdso.utexas.edu/msai"
+    },
+    {
+      "type": "degree",
+      "name": "Artificial Intelligence graduate area of study (Computer Science)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.utexas.edu/graduate/areas-of-study/natural-sciences/artificial-intelligence/"
+    },
+    {
+      "type": "course",
+      "name": "Essentials of AI (open to all students)",
+      "level": "both",
+      "launched": "2024-08",
+      "url": "https://ai.utexas.edu/academics"
+    },
+    {
+      "type": "concentration",
+      "name": "Undergraduate robotics honors program (Texas Robotics)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://robotics.utexas.edu/"
+    },
+    {
+      "type": "certificate",
+      "name": "AI for Business Leaders and Managers (McCombs Executive Ed)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://onlineexeced.mccombs.utexas.edu/ai-for-business-leaders-course"
+    },
+    {
+      "type": "course",
+      "name": "Freshman AI Ethics Signature Course",
+      "level": "undergrad",
+      "launched": "2024-08",
+      "url": "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/"
+    },
+    {
+      "type": "course",
+      "name": "AI Innovation, Law, and Policy (Texas Law, Spring 2026)",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://law.utexas.edu/courses/class-details/20262/29934/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "UT Austin (Azure OpenAI)",
+      "product": "UT Spark",
+      "scope": "campus-wide",
+      "user_count": 55000,
+      "deployed": "2025-08",
+      "url": "https://tech.utexas.edu/initiatives/artificial-intelligence/ut-spark"
+    },
+    {
+      "vendor": "UT Austin / AWS",
+      "product": "UT Sage (AI tutor platform)",
+      "scope": "campus-wide",
+      "user_count": 52000,
+      "deployed": "2025-07",
+      "url": "https://tech.utexas.edu/news/ut-austin-and-aws-launch-ut-sage-ut-austins-homegrown-ai-tutor-platform"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat (free)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (premium, $30/user/month)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": "2024-06",
+      "url": "https://tech.utexas.edu/services-tools/ai/ai-tools-matrix"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Enterprise (via AI Studio)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude (enterprise)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (for published/non-sensitive data)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Horizon (Leadership Class Computing Facility) + Vista + Frontera",
+    "gpu_count": 5000,
+    "url": "https://tacc.utexas.edu/",
+    "summary": "UT Austin's TACC operates the nation's largest academic AI compute footprint: 5,000+ NVIDIA GPUs including 4,000+ Blackwell GB200 GPUs in the Horizon supercomputer (under construction with a $457M NSF Leadership Class Computing Facility award) and 1,000+ GPUs in the Center for Generative AI's Vista cluster (expanded November 2025). Frontera remains operational. Hosted at Sabey Data Center, Round Rock, TX; infrastructure supplied by Dell Technologies and NVIDIA."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Michael & Susan Dell gift for AI-native UT Dell Medical Center",
+      "amount_usd": 750000000,
+      "source": "Michael & Susan Dell",
+      "purpose": "Build AI-native academic medical center, 300+ acre research campus, TACC support, undergraduate scholarships; opens 2030",
+      "date": "2026-04",
+      "url": "https://fortune.com/2026/04/22/michael-dell-ut-austin-750-million-donation-billionaire-philanthropy/"
+    },
+    {
+      "title": "NSF Leadership Class Computing Facility (Horizon)",
+      "amount_usd": 457000000,
+      "source": "National Science Foundation",
+      "purpose": "Construction of next-generation Leadership Class academic supercomputer at TACC",
+      "date": "2024-07",
+      "url": "https://news.utexas.edu/2024/07/11/texas-advanced-computing-center-to-lead-groundbreaking-nsf-computing-facility/"
+    },
+    {
+      "title": "NSF-Simons AI Institute for Cosmic Origins (CosmicAI)",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation ($10M) + Simons Foundation ($10M)",
+      "purpose": "AI institute for astronomy and cosmic origins research",
+      "date": "2024-09",
+      "url": "https://news.utexas.edu/2024/09/18/new-ai-institute-led-by-ut-researchers-will-accelerate-cosmic-discovery/"
+    },
+    {
+      "title": "NSF AI Institute for Foundations of Machine Learning (IFML) renewal",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation",
+      "purpose": "Renewed foundational ML research funding (one of five NSF AI Institutes renewed)",
+      "date": "2025-07",
+      "url": "https://news.utexas.edu/2025/07/29/ut-expands-research-on-ai-accuracy-and-reliability-to-support-breakthroughs-in-science-technology-and-the-workforce/"
+    },
+    {
+      "title": "Texas Legislature AI infrastructure appropriation",
+      "amount_usd": 20000000,
+      "source": "Texas Legislature",
+      "purpose": "Center for Generative AI GPU cluster expansion and AI compute infrastructure",
+      "date": "2025-06",
+      "url": "https://news.utexas.edu/2025/11/10/ut-doubles-size-of-one-of-worlds-most-powerful-ai-computing-hubs/"
+    },
+    {
+      "title": "Dheeraj and Swapna Pandey gift",
+      "amount_usd": 10000000,
+      "source": "Dheeraj & Swapna Pandey",
+      "purpose": "Computational oncology and machine learning partnership",
+      "date": "2024-01",
+      "url": "https://news.utexas.edu/2024/01/25/new-texas-center-will-create-generative-ai-computing-cluster-among-largest-of-its-kind/"
+    },
+    {
+      "title": "Amir and Zaib Husain gift (Machine Learning Laboratory)",
+      "amount_usd": 5000000,
+      "source": "Amir & Zaib Husain",
+      "purpose": "Founding gift establishing the Machine Learning Laboratory",
+      "date": "2020-01",
+      "url": "https://ml.utexas.edu/"
+    },
+    {
+      "title": "Harrington Faculty Fellows AI cohort",
+      "amount_usd": 1000000,
+      "source": "Donald D. Harrington Faculty Fellows Program endowment",
+      "purpose": "2025-26 visiting AI faculty fellowships",
+      "date": "2024-11",
+      "url": "https://news.utexas.edu/2024/11/11/uts-premier-faculty-fellowship-launches-new-ai-initiative/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services (AWS Generative AI Innovation Center)",
+      "purpose": "Co-development of UT Sage AI tutor platform and supporting infrastructure",
+      "date": "2025-07",
+      "url": "https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft / Azure OpenAI",
+      "purpose": "UT Spark platform, Copilot campus rollout, Azure OpenAI enterprise",
+      "date": "2024-01",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "GB200 GPU supply for Horizon, Vista, and Center for Generative AI",
+      "date": "2024-01",
+      "url": "https://news.utexas.edu/2025/11/17/ut-eclipses-5000-gpus-to-increase-dominance-in-open-source-ai-strengthen-nations-computing-power/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Dell Technologies",
+      "purpose": "AI infrastructure and server systems for TACC; AI-native medical center",
+      "date": "2025-11",
+      "url": "https://fortune.com/2026/04/22/michael-dell-ut-austin-750-million-donation-billionaire-philanthropy/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Enterprise licensing through UT.AI Studio",
+      "date": "2025-01",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Anthropic",
+      "purpose": "Claude enterprise licensing with enhanced privacy and data isolation",
+      "date": "2025-01",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "edX (2U)",
+      "purpose": "Online Master of Science in AI delivery platform",
+      "date": "2023-02",
+      "url": "https://press.edx.org/the-university-of-texas-at-austin-launches-online-master-of-science-in-artificial-intelligence-with-edx"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Horizon supercomputer, CosmicAI, IFML institute funding",
+      "date": "2024-07",
+      "url": "https://news.utexas.edu/2024/07/11/texas-advanced-computing-center-to-lead-groundbreaking-nsf-computing-facility/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Simons Foundation",
+      "purpose": "Co-funding CosmicAI institute ($10M over five years)",
+      "date": "2024-09",
+      "url": "https://news.utexas.edu/2024/09/18/new-ai-institute-led-by-ut-researchers-will-accelerate-cosmic-discovery/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "City of Austin",
+      "purpose": "AI governance resolution advising and municipal digital-twin research via Good Systems",
+      "date": "2023-01",
+      "url": "https://bridgingbarriers.utexas.edu/news/good-systems-great-policy"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Defense",
+      "purpose": "AI-related consultation and professional development",
+      "date": "2024-06",
+      "url": "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "UT Sage",
+      "scope": "AI tutor platform integrated with Canvas LMS, available to all 52,000+ students across 19 colleges",
+      "url": "https://tech.utexas.edu/news/ut-austin-and-aws-launch-ut-sage-ut-austins-homegrown-ai-tutor-platform"
+    },
+    {
+      "type": "chatbot",
+      "name": "UT Spark",
+      "scope": "Free campus-wide GenAI chatbot + agent builder for all students, faculty, staff",
+      "url": "https://tech.utexas.edu/initiatives/artificial-intelligence/ut-spark"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft 365 Copilot Chat (free)",
+      "scope": "Free chatbot approved for all students, faculty, staff",
+      "url": "https://tech.utexas.edu/services-tools/ai"
+    },
+    {
+      "type": "other",
+      "name": "CosmicAI astronomy co-pilot",
+      "scope": "AI research co-pilot under development for astronomy students and scholars via CosmicAI institute",
+      "url": "https://cosmicai.org/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Designing AI to Advance Racial Equity (Good Systems)",
+      "description": "Good Systems project on equity-centered AI design, including healthcare bias analysis and chatbots for under-resourced mental health access",
+      "url": "https://bridgingbarriers.utexas.edu/good-systems/projects/designing-ai-to-advance-racial-equity"
+    },
+    {
+      "title": "Smart Cities Should be Good Cities: AI, Equity, and Homelessness",
+      "description": "Good Systems project using AI and community-centered design to inform municipal services for homelessness",
+      "url": "https://bridgingbarriers.utexas.edu/projects/smart-cities-should-be-good-cities-ai-equity-and-homelessness"
+    },
+    {
+      "title": "Inclusive and Trustworthy AI Governance and Design",
+      "description": "Good Systems project focused on inclusive AI governance, transportation, health, and public-sector contexts for marginalized communities",
+      "url": "https://bridgingbarriers.utexas.edu/projects/inclusive-and-trustworthy-ai-governance-and-design"
+    },
+    {
+      "title": "Digital Accessibility Center office hours (Enterprise Technology)",
+      "description": "Regular accessibility guidance and support for AI tool adoption, ensuring alignment with digital accessibility standards",
+      "url": "https://tech.utexas.edu/initiatives/artificial-intelligence"
+    },
+    {
+      "title": "Low-cost online Master of Science in AI with edX",
+      "description": "Affordable, 100% online AI master's opens AI graduate credentials to thousands who could not attend residential programs",
+      "url": "https://cdso.utexas.edu/msai"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas enacted the Texas Responsible Artificial Intelligence Governance Act (TRAIGA, HB 149), signed by Governor Greg Abbott on June 22, 2025 and effective January 1, 2026. TRAIGA imposes prohibitions on AI uses involving behavioral manipulation, discrimination, unlawful deepfakes, and constitutional rights infringement, creates a regulatory sandbox, and establishes the Texas AI Advisory Council. Higher education institutions are exempt from certain government-entity disclosure requirements but remain subject to general prohibitions. Additionally, HB 2060 (2025) requires state employees (including higher-ed staff) to complete DIR-certified AI training by August 31, 2026. The UT System operates UT REAL Health AI (systemwide health-AI initiative funded by the 2025 legislature) and a nine-institution community of practice for generative AI in teaching and learning.",
+    "urls": [
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+      "https://evolveaiinstitute.com/texas-training/blog/texas-government-code-2054-5193-ai-training-compliance-guide.php",
+      "https://www.utsystem.edu/sites/ut-real-health-ai",
+      "https://provost.utsa.edu/academicinnovation/news/2025/04/story/18-ut-system-ai-series.html"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Texas at Austin has executed one of the most aggressive, well-funded, and multidimensional AI postures in U.S. higher education. President Jay Hartzell declared 2024 'The Year of AI,' and incoming President James E. Davis has inherited a strategy with four mutually reinforcing pillars: (1) the nation's largest academic AI compute footprint, now exceeding 5,000 NVIDIA GPUs anchored by the $457M NSF-funded Horizon supercomputer at TACC and a doubled 1,000-GPU Vista cluster at the Center for Generative AI; (2) a campus-wide UT.AI platform stack built and operated by Enterprise Technology's AI Studio, including the in-house UT Spark (Azure OpenAI-based) general platform and UT Sage (AWS co-built) Canvas-integrated tutor, layered with enterprise ChatGPT, Claude, and Microsoft Copilot licenses; (3) a multi-theme faculty cluster-hire program with McCombs-Dell Medical AI-in-Health, AI-for-Materials, foundational AI/ML, and astronomy-AI searches, boosted by more than $1M in Harrington Faculty Fellows for visiting AI scholars; and (4) a provost-led Responsible Adoption framework built on eight guiding principles (literacy, ethics, intention, balance, agency, relationships, academic integrity, stewardship) complementing the ISO's comprehensive Acceptable Use policy. Research is anchored by two of ~30 NSF National AI Research Institutes (CosmicAI and IFML), the long-running Good Systems Grand Challenge on ethical AI led by S. Craig Watkins and Sharon Strover, Texas Robotics, and the Oden Institute. Investment momentum is extraordinary: the April 2026 Michael & Susan Dell $750M gift launches an 'AI-native' UT Dell Medical Center opening in 2030 and opens a 10-year, $10B campaign. Texas's new TRAIGA law (effective January 2026) and UT System's REAL Health AI initiative further shape the regulatory and multi-institution context. Principal gaps: no single chief AI officer, no public disclosure of total AI spend, limited visibility into predictive-analytics use in student success, and no notable AI-related litigation on record.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.utexas.edu/",
+      "https://tech.utexas.edu/initiatives/artificial-intelligence",
+      "https://tech.utexas.edu/services-tools/ai",
+      "https://tech.utexas.edu/services-tools/ai/ai-tools-matrix",
+      "https://tech.utexas.edu/news/ut-austin-and-aws-launch-ut-sage-ut-austins-homegrown-ai-tutor-platform",
+      "https://tech.utexas.edu/news/ut-spark-officially-here",
+      "https://tech.utexas.edu/about/leadership/cole-camplese",
+      "https://tech.utexas.edu/governance/guidance-for-ai",
+      "https://tech.utexas.edu/initiatives/artificial-intelligence/ut-spark",
+      "https://security.utexas.edu/ai-tools",
+      "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/responsible-adoption-of-ai-tools/",
+      "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/ut-sage/",
+      "https://provost.utexas.edu/the-office/faculty-affairs/office-of-academic-technology/ai-detection-software-guidance/",
+      "https://provost.utexas.edu/leadership/",
+      "https://ctl.utexas.edu/generative-ai-teaching-and-learning-policies",
+      "https://news.utexas.edu/2024/01/23/ut-designates-2024-the-year-of-ai/",
+      "https://news.utexas.edu/2024/01/25/new-texas-center-will-create-generative-ai-computing-cluster-among-largest-of-its-kind/",
+      "https://news.utexas.edu/2024/01/31/year-of-ai-faculty-recruitment-initiative-aims-to-bring-more-world-class-professors-to-ut/",
+      "https://news.utexas.edu/2024/07/11/texas-advanced-computing-center-to-lead-groundbreaking-nsf-computing-facility/",
+      "https://news.utexas.edu/2024/09/18/new-ai-institute-led-by-ut-researchers-will-accelerate-cosmic-discovery/",
+      "https://news.utexas.edu/2024/11/11/uts-premier-faculty-fellowship-launches-new-ai-initiative/",
+      "https://news.utexas.edu/2024/12/18/ut-saw-huge-research-gains-launched-education-initiatives-during-its-year-of-ai/",
+      "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/",
+      "https://news.utexas.edu/2025/07/29/ut-expands-research-on-ai-accuracy-and-reliability-to-support-breakthroughs-in-science-technology-and-the-workforce/",
+      "https://news.utexas.edu/2025/09/18/ut-sets-all-time-highs-for-enrollment-and-student-performance/",
+      "https://news.utexas.edu/2025/11/10/ut-doubles-size-of-one-of-worlds-most-powerful-ai-computing-hubs/",
+      "https://news.utexas.edu/2025/11/17/ut-eclipses-5000-gpus-to-increase-dominance-in-open-source-ai-strengthen-nations-computing-power/",
+      "https://news.utexas.edu/2026/03/20/leaders-in-ai-robotics-and-ethical-innovation-come-together-at-ut-austin/",
+      "https://cdso.utexas.edu/msai",
+      "https://extendedcampus.utexas.edu/master-science-artificial-intelligence",
+      "https://extendedcampus.utexas.edu/ut-austin-year-ai",
+      "https://press.edx.org/the-university-of-texas-at-austin-launches-online-master-of-science-in-artificial-intelligence-with-edx",
+      "https://catalog.utexas.edu/graduate/areas-of-study/natural-sciences/artificial-intelligence/",
+      "https://ml.utexas.edu/",
+      "https://ml.utexas.edu/good-systems",
+      "https://ml.utexas.edu/center-for-generative-ai",
+      "https://ifml.institute/",
+      "https://cosmicai.org/",
+      "https://oden.utexas.edu/",
+      "https://robotics.utexas.edu/",
+      "https://bridgingbarriers.utexas.edu/good-systems",
+      "https://bridgingbarriers.utexas.edu/news/good-systems-great-policy",
+      "https://bridgingbarriers.utexas.edu/projects/inclusive-and-trustworthy-ai-governance-and-design",
+      "https://bridgingbarriers.utexas.edu/good-systems/projects/designing-ai-to-advance-racial-equity",
+      "https://bridgingbarriers.utexas.edu/projects/smart-cities-should-be-good-cities-ai-equity-and-homelessness",
+      "https://president.utexas.edu/",
+      "https://www.utsystem.edu/sites/ut-real-health-ai",
+      "https://provost.utsa.edu/academicinnovation/news/2025/04/story/18-ut-system-ai-series.html",
+      "https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/",
+      "https://onlineexeced.mccombs.utexas.edu/ai-for-business-leaders-course",
+      "https://fortune.com/2026/04/22/michael-dell-ut-austin-750-million-donation-billionaire-philanthropy/",
+      "https://www.kut.org/health/2026-04-21/ut-austin-dell-medical-center-hospital-michael-susan-dell-foundation-donation",
+      "https://www.kten.com/michael-and-susan-dell-fund-ai-native-medical-center-with-750-million-gift-to-university/article_f2923a16-13cc-576d-9089-abbfb54ceb6c.html",
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://capitol.texas.gov/tlodocs/89R/billtext/pdf/HB00149I.pdf",
+      "https://evolveaiinstitute.com/texas-training/blog/texas-government-code-2054-5193-ai-training-compliance-guide.php",
+      "https://law.utexas.edu/courses/class-details/20262/29934/",
+      "https://tmi.utexas.edu/news-events/337-ai-faculty-cluster-hire-apply-here",
+      "https://www.jsg.utexas.edu/news/2026/03/dapeng-feng-joins-jackson-school-faculty-in-ai-cluster-hire/",
+      "https://www.texastribune.org/2026/04/21/texas-computer-science-college-degree-ai/",
+      "https://www.utexas.edu/about/facts-and-figures",
+      "https://guides.lib.utexas.edu/AI/academic_integrity"
+    ],
+    "search_queries": [
+      "\"University of Texas at Austin\" AI strategy 2025 2026 generative AI",
+      "\"University of Texas at Austin\" AI acceptable use policy generative AI guidelines",
+      "\"University of Texas at Austin\" chief AI officer AI governance council committee",
+      "\"UT Austin\" Good Systems Machine Learning Laboratory AI research center",
+      "\"UT Austin\" AI degree program artificial intelligence major minor online masters",
+      "\"UT Austin\" president Jay Hartzell provost 2026 leadership",
+      "\"UT Austin\" CIO \"Chief Information Officer\" \"Cole Camplese\" enterprise technology",
+      "\"UT Austin\" \"UT Sage\" AI tutor Canvas launch",
+      "\"UT Austin\" \"Year of AI\" 2024 Hartzell initiatives",
+      "\"UT Austin\" \"Center for Generative AI\" launch funding",
+      "\"UT Austin\" AI gift donation endowment million 2024 2025",
+      "\"UT Austin\" NSF AI Institute IFML CosmicAI 2024 2025",
+      "\"UT Austin\" Good Systems ethics AI Watkins research",
+      "\"UT Austin\" AI workforce training Texas Legislature state policy 2025 2026",
+      "\"UT Austin\" AI student chatbot predictive analytics advising retention",
+      "\"UT Austin\" AI faculty hire \"cluster hire\" 2024 2025 professor",
+      "\"University of Texas\" system UT AI policy governance multi-institution",
+      "\"UT Austin\" enrollment 2025 total students fall",
+      "\"UT Austin\" AI controversy lawsuit academic integrity cheating 2024 2025",
+      "\"UT Austin\" AI equity accessibility inclusive bridging barriers",
+      "\"UT Austin\" \"AI Studio\" Enterprise Technology platform access",
+      "\"UT Austin\" Oden Institute Texas Robotics Bureau Economic Geology AI",
+      "\"Texas Responsible AI Governance Act\" TRAIGA 2026 higher education universities"
+    ],
+    "gaps_acknowledged": [
+      "No single published institutional 'AI strategy' document; the strategy is assembled across multiple Enterprise Technology, Provost, and Research Office sites",
+      "UT Austin does not have a titled Chief AI Officer; AI leadership is distributed across VPIT/CIO (Camplese), AVP for AI Platforms & Innovation (Mario Guerra Jr.), and the Office of Academic Technology",
+      "Total dollar spend on AI (operating + capital) is not publicly aggregated",
+      "No publicly documented predictive-analytics-for-retention deployment (e.g., Civitas, EAB) was located; may exist but not surfaced in AI-branded coverage",
+      "No public disclosure of specific user adoption metrics for UT Spark or enterprise Claude/ChatGPT seats",
+      "No notable public AI-related litigation or formal controversy located for UT Austin in 2024-2026",
+      "Exact date the Acceptable Use of GenAI Tools policy was first adopted is reported as July 20, 2023 but the original first-adoption date prior to revisions is not specified by UT",
+      "Staff and enrollment counts for the MSAI program are reported directionally ('hundreds') rather than precisely"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "platform_first",
+        "workforce_regional_development",
+        "balanced_enterprise"
+      ],
+      "scores": {
+        "platform_first": 21,
+        "research_compute_powerhouse": 24,
+        "curriculum_led": 14,
+        "governance_led": 13,
+        "student_success_led": 6,
+        "workforce_regional_development": 19,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-07",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Horizon (Leadership Class Computing Facility) + Vista + Frontera",
+        "gpu_count": 5000,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 1283000000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 5,
+        "public_federal_state": 8,
+        "other_unclear": 4,
+        "institutional": 1,
+        "industry_vendor": 2
+      },
+      "partnership_count": 11
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "tutor": 1,
+        "chatbot": 2,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Azure OpenAI Service",
+            "Copilot Chat (free)",
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (premium, $30/user/month)",
+            "Microsoft 365 Copilot Chat (free)",
+            "UT Spark"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 3,
+          "products": [
+            "AWS Bedrock / SageMaker",
+            "UT Sage",
+            "UT Sage (AI tutor platform)"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 2,
+          "products": [
+            "Claude (enterprise)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "Gemini (for published/non-sensitive data)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "Horizon (Leadership Class Computing Facility)",
+            "Vista (Center for Generative AI cluster)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Enterprise",
+            "ChatGPT Enterprise (via AI Studio)"
+          ]
+        },
+        {
+          "vendor": "edX / 2U edX platform",
+          "mentions": 1,
+          "products": [
+            "edX platform"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas LMS"
+          ]
+        },
+        {
+          "vendor": "UT Austin UT Dell Medical Center (AI-native)",
+          "mentions": 1,
+          "products": [
+            "UT Dell Medical Center (AI-native)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": true,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "UT Spark campus-wide generative AI platform launch",
+          "summary": "Positions UT Austin among the handful of R1s (with Michigan, ASU, Cal State) operating a fully managed, FERPA-compliant campus GenAI service rather than forcing users onto consumer tools.",
+          "source_url": "https://tech.utexas.edu/initiatives/artificial-intelligence/ut-spark"
+        },
+        {
+          "claim_type": "career",
+          "title": "Online Master of Science in Artificial Intelligence (MSAI) with edX",
+          "summary": "A high-volume, low-cost credential pipeline that scales AI education far beyond traditional CS enrollment and is studied widely as a workforce model.",
+          "source_url": "https://cdso.utexas.edu/msai"
+        },
+        {
+          "claim_type": "research_output",
+          "title": "Multi-theme AI faculty cluster hire (Year of AI recruitment)",
+          "summary": "One of the largest coordinated single-year AI faculty build-outs at any R1 in recent years.",
+          "source_url": "https://news.utexas.edu/2024/01/31/year-of-ai-faculty-recruitment-initiative-aims-to-bring-more-world-class-professors-to-ut/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Responsible Adoption of AI Tools for Teaching and Learning (8 principles)",
+          "summary": "Establishes an institutional ethics/pedagogy rubric that moves beyond acceptable-use mechanics into curricular and learning-design philosophy.",
+          "source_url": "https://provost.utexas.edu/the-office/academic-affairs/office-of-academic-technology/responsible-adoption-of-ai-tools/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "UT System REAL Health AI and UT System AI community of practice",
+          "summary": "Moves AI governance and practice beyond one campus into statewide coordination across nine UT institutions.",
+          "source_url": "https://www.utsystem.edu/sites/ut-real-health-ai"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No single published institutional 'AI strategy' document; the strategy is assembled across multiple Enterprise Technology, Provost, and Research Office sites",
+        "UT Austin does not have a titled Chief AI Officer; AI leadership is distributed across VPIT/CIO (Camplese), AVP for AI Platforms & Innovation (Mario Guerra Jr.), and the Office of Academic Technology",
+        "Total dollar spend on AI (operating + capital) is not publicly aggregated",
+        "No publicly documented predictive-analytics-for-retention deployment (e.g., Civitas, EAB) was located; may exist but not surfaced in AI-branded coverage",
+        "No public disclosure of specific user adoption metrics for UT Spark or enterprise Claude/ChatGPT seats",
+        "No notable public AI-related litigation or formal controversy located for UT Austin in 2024-2026",
+        "Exact date the Acceptable Use of GenAI Tools policy was first adopted is reported as July 20, 2023 but the original first-adoption date prior to revisions is not specified by UT",
+        "Staff and enrollment counts for the MSAI program are reported directionally ('hundreds') rather than precisely"
+      ]
+    }
+  }
+}

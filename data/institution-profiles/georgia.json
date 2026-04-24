@@ -1,0 +1,226 @@
+{
+  "institution": "University of Georgia",
+  "slug": "georgia",
+  "city_state": "Athens, GA",
+  "carnegie": "R1",
+  "aau_member": true,
+  "enrollment": 43888,
+  "system_leadership": {
+    "president_name": "Jere W. Morehead",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": true
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://aihub.uga.edu/ai-guidance/",
+      "https://research.uga.edu/integrity/ai/",
+      "https://ctl.uga.edu/teaching-resources/digital-learning-tools/generative-ai-for-instructors/",
+      "https://www.usg.edu/policymanual/section6/C2896/"
+    ],
+    "adopted_date": "2025-04",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "key_provisions": [
+      "Governed by USG Board of Regents Policy 6.28 on AI in Academic Contexts (effective April 2025)",
+      "USG AI Guidelines v1.1 (June 2024) as IT Handbook Companion Guide",
+      "UGA Office of Research Integrity and Safety (ORIS) guidance requires transparency and disclosure for GenAI use in research",
+      "Approved tools (Microsoft Copilot, Google Gemini, NotebookLM) route through institutional accounts; no training on UGA data",
+      "Faculty set course-level AI policies; Center for Teaching and Learning provides model syllabus language",
+      "Researchers must check federal sponsor (NIH, NSF, USDA, DOE, etc.) and publisher policies before using GenAI"
+    ],
+    "summary": "UGA operates under USG Board of Regents Policy 6.28 (Artificial Intelligence in Academic Contexts, effective April 2025) and USG AI Guidelines v1.1 (June 2024), supplemented by UGA-specific research-integrity guidance from ORIS and teaching guidance from the Center for Teaching and Learning. The university centralizes published guidance on its AI Hub (aihub.uga.edu), which covers teaching, research, and administrative use of approved enterprise AI tools."
+  },
+  "governance_structure": {
+    "committee_name": "Leadership Council on Artificial Intelligence",
+    "committee_url": "https://aihub.uga.edu/about/leadership-council-on-ai/",
+    "committee_members_public": true,
+    "notes": "Chaired by Elizabeth Weeks, Vice Provost for Academic Affairs. 13 named members spanning Franklin College, Terry College, Warnell, Pharmacy, Libraries, School of Computing, Institute for AI, and Center for Teaching and Learning. Standing representatives from the Offices of Research, Instruction, and others. Council guides AI research leadership, teaching/learning policy, and tenure-track AI faculty hiring. The Institute for Artificial Intelligence (IAI), under inaugural Executive Director Prashant Doshi (2025), is the academic/research anchor. technology leader Tim Chester leads EITS but UGA does not list a dedicated dedicated AI leader title."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Microsoft Copilot",
+      "product": "Microsoft 365 Copilot Chat (with commercial data protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": [
+        "https://eits.uga.edu/hardware_and_software/software/microsoft/microsoft_copilot/",
+        "https://instruction.uga.edu/latest-news/arch-news-january-6-2026/"
+      ],
+      "notes": "Available to all students, faculty, and staff via UGA accounts. Data processed in UGA's secure Microsoft 365 tenant; not used to train public models."
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini and NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": "https://instruction.uga.edu/latest-news/arch-news-january-6-2026/",
+      "notes": "Available to all students, faculty, and staff through UGA Google accounts with enterprise-level data protections."
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "pilot",
+      "user_count": null,
+      "announced_date": "2026-02",
+      "evidence_urls": [
+        "https://www.fox5atlanta.com/news/uga-invests-800k-ai-advances-medical-school-plans",
+        "https://insightintoacademia.com/uga-ai-literacy/",
+        "https://instruction.uga.edu/latest-news/arch-news-january-6-2026/"
+      ],
+      "notes": "$800K student-license pilot announced in President Morehead's Feb. 3, 2026 State of the University Address; expanding 'discovery pilot' with additional ChatGPT Edu student licenses while UGA negotiates broader access with OpenAI, targeted for fall 2026."
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini Pro (premium student licenses)",
+      "scope": "pilot",
+      "user_count": null,
+      "announced_date": "2026-02",
+      "evidence_urls": [
+        "https://www.fox5atlanta.com/news/uga-invests-800k-ai-advances-medical-school-plans",
+        "https://insightintoacademia.com/uga-ai-literacy/"
+      ],
+      "notes": "Part of the $800K student-license pilot announced by President Morehead for 'thousands' of students; extends premium tier beyond the faculty/staff access that already existed."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "M.S. in Artificial Intelligence",
+      "level": "grad",
+      "announced_or_launched": "1987-01",
+      "evidence_url": "https://www.ai.uga.edu/ms-artificial-intelligence"
+    },
+    {
+      "program_type": "degree",
+      "name": "Ph.D. in Artificial Intelligence",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.ai.uga.edu/academics"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence (16 credit hours)",
+      "level": "undergrad",
+      "announced_or_launched": "2025-08",
+      "evidence_url": "https://www.ai.uga.edu/academics"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence for Business",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.terry.uga.edu/certificates/artificial-intelligence/"
+    },
+    {
+      "program_type": "degree",
+      "name": "Cognitive Science (AB) - only Cognitive Science undergraduate degree in USG",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.ai.uga.edu/academics"
+    },
+    {
+      "program_type": "concentration",
+      "name": "Double Dawg: Computer Science BS + AI MS; Cognitive Science AB + AI MS",
+      "level": "both",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.ai.uga.edu/academics"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "UGA $800K AI student-license pilot (ChatGPT Edu + Gemini Pro)",
+      "amount_usd": 800000,
+      "counterparty": "OpenAI / Google",
+      "date": "2026-02",
+      "evidence_url": "https://www.fox5atlanta.com/news/uga-invests-800k-ai-advances-medical-school-plans",
+      "summary": "Announced during the 2026 State of the University Address, the $800K pilot delivers 'thousands' of premium AI licenses to UGA students across ChatGPT Edu and Gemini Pro, with plans to broaden the pilot in subsequent months."
+    },
+    {
+      "title": "Inaugural Executive Director appointment for Institute for Artificial Intelligence (IAI)",
+      "amount_usd": null,
+      "counterparty": "UGA / Franklin College of Arts and Sciences",
+      "date": "2025-01",
+      "evidence_url": "https://franklin.uga.edu/news/stories/2025/prashant-doshi-appointed-institute-artificial-intelligence-director",
+      "summary": "Dr. Prashant Doshi, School of Computing professor and former interim associate director, named first Executive Director of IAI (the UGA institute housing the long-running MSAI and PhD in AI since 1987)."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Jere W. Morehead",
+      "role": "President, University of Georgia",
+      "date": "2026-02",
+      "context": "2026 State of the University Address (Feb. 3, 2026)",
+      "quote_or_summary": "Announced $800,000 investment in a pilot program providing thousands of students with licenses for premium AI tools (ChatGPT Edu and Gemini Pro); framed as preparing graduates to use AI 'thoughtfully and effectively' and contribute 'on day one.' Indicated plans to 'broaden this student pilot in the months ahead.'",
+      "evidence_url": "https://news.uga.edu/columns-exclusives/view-the-2026-state-of-the-university-address/"
+    },
+    {
+      "speaker": "Jere W. Morehead",
+      "role": "President, University of Georgia",
+      "date": "2025-01",
+      "context": "2025 State of the University Address",
+      "quote_or_summary": "Highlighted Presidential Hiring Initiatives bringing scholars in 'fields of strategic emphasis such as brain and behavioral health, data science and artificial intelligence, electric mobility, and integrative precision agriculture.'",
+      "evidence_url": "https://president.uga.edu/statement_remark/2025-state-of-the-university-address/"
+    },
+    {
+      "speaker": "Prashant Doshi",
+      "role": "Executive Director, Institute for Artificial Intelligence",
+      "date": "2025-01",
+      "context": "Appointment announcement",
+      "quote_or_summary": "Named inaugural Executive Director of IAI; known for multi-agent systems and human-robot collaboration research, and founder of InversAI, commercializing AI cobots for agricultural processing.",
+      "evidence_url": "https://news.uga.edu/doshi-to-lead-ugas-institute-for-artificial-intelligence/"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Georgia",
+    "has_state_ai_executive_order": false,
+    "has_higher_ed_system_ai_policy": true,
+    "summary": "Georgia has no standalone gubernatorial AI executive order for state government as of April 2026, but the Georgia Senate Study Committee on Artificial Intelligence issued 22 recommendations in a 185-page report (Dec. 2024), and bills such as SB 455 (Georgia AI Commission) and HB 487/SB 249 (AI in CS graduation requirements) are active. For higher education, USG Board of Regents Policy 6.28 'Artificial Intelligence in Academic Contexts' took effect in April 2025, requiring all 26 USG institutions (including UGA) to develop procedures governing ethical, responsible, and secure AI use. USG also publishes AI Guidelines v1.1 (June 2024) as a companion to the IT Handbook.",
+    "evidence_urls": [
+      "https://www.usg.edu/policymanual/section6/C2896/",
+      "https://www.usg.edu/academic_innovation/artificial_intelligence",
+      "https://frontpage.gcsu.edu/sites/default/files/uploadedfiles/Supplement_PresidentsReport_BORPolicy6.28.pdf",
+      "https://www.ajc.com/politics/2025/12/trump-wants-states-to-back-down-on-ai-laws-will-georgia-follow-along/"
+    ]
+  },
+  "litigation_or_controversy": null,
+  "narrative_summary": "UGA is an AAU, sector, R1 land-grant peer executing a layered AI strategy that the institution should study closely. Governance is anchored by the Leadership Council on AI (13 named members chaired by Vice Provost Elizabeth Weeks), the Institute for Artificial Intelligence under new inaugural Executive Director Prashant Doshi (appointed 2025), and technology leader Tim Chester's EITS organization. UGA has notably not created a 'dedicated AI leader' title; instead the provost-side council plus IAI shoulder strategic direction. On vendors, UGA offers Microsoft Copilot (M365), Google Gemini, and NotebookLM campus-wide to all faculty, staff, and students with enterprise data protections, and in Feb. 2026 President Morehead announced an $800K pilot pushing ChatGPT Edu and Gemini Pro premium licenses out to 'thousands' of students - an unusually aggressive, multi-vendor student-facing deployment. Academically, UGA's MSAI (est. 1987) is among the oldest in the country; a new 16-credit undergraduate AI certificate launched fall 2025, and Terry College runs a separate AI for Business certificate. Policy-wise, UGA operates under USG Board of Regents Policy 6.28 (effective April 2025), which mandates institution-level AI procedures across the 26-school system, plus USG AI Guidelines v1.1 (June 2024). Georgia lacks a gubernatorial AI EO but a Senate study committee produced 22 recommendations in Dec. 2024 and SB 455 would establish a Georgia AI Commission.",
+  "confidence_notes": "HIGH confidence on: Leadership Council composition, IAI director, Copilot/Gemini campus-wide deployments, $800K pilot announcement, USG Policy 6.28 existence and effective date, academic programs, enrollment. MEDIUM: Exact deployment dates for Copilot/Gemini campus-wide rollout not surfaced in searches (pre-2026 but unclear month/year); user-count figures for enterprise AI deployments are not publicly disclosed. LOW/UNKNOWN: Whether UGA has named a dedicated AI leader (none surfaced; the Leadership Council chair Weeks and IAI director Doshi appear to be the de facto AI leads under technology leader Chester). No formal dedicated AI leader title confirmed. Policy 6.28 full text could not be fetched directly due to PolicyStat redirect. No known AI-related litigation surfaced.",
+  "sources": [
+    "https://aihub.uga.edu/",
+    "https://aihub.uga.edu/about/leadership-council-on-ai/",
+    "https://aihub.uga.edu/ai-guidance/",
+    "https://ai.uga.edu/",
+    "https://www.ai.uga.edu/academics",
+    "https://www.ai.uga.edu/ms-artificial-intelligence",
+    "https://www.ai.uga.edu/news/stories/2025/dr-prashant-doshi-appointed-inaugural-executive-director-ugas-institute",
+    "https://franklin.uga.edu/news/stories/2025/prashant-doshi-appointed-institute-artificial-intelligence-director",
+    "https://news.uga.edu/doshi-to-lead-ugas-institute-for-artificial-intelligence/",
+    "https://eits.uga.edu/hardware_and_software/software/microsoft/microsoft_copilot/",
+    "https://eits.uga.edu/about/2025_priorities/",
+    "https://news.uga.edu/pepperdine-administrator-named-chief-information-officer-at-uga/",
+    "https://instruction.uga.edu/latest-news/arch-news-january-6-2026/",
+    "https://research.uga.edu/integrity/ai/",
+    "https://ctl.uga.edu/teaching-resources/digital-learning-tools/generative-ai-for-instructors/",
+    "https://president.uga.edu/statement_remark/2025-state-of-the-university-address/",
+    "https://news.uga.edu/columns-exclusives/view-the-2026-state-of-the-university-address/",
+    "https://www.fox5atlanta.com/news/uga-invests-800k-ai-advances-medical-school-plans",
+    "https://insightintoacademia.com/uga-ai-literacy/",
+    "https://www.redandblack.com/uganews/uga-launches-ai-pilot-program-for-students/article_046695e5-cf29-4bc0-b4e7-625e5d617efb.html",
+    "https://www.terry.uga.edu/certificates/artificial-intelligence/",
+    "https://www.usg.edu/policymanual/section6/C2896/",
+    "https://www.usg.edu/academic_innovation/artificial_intelligence",
+    "https://frontpage.gcsu.edu/sites/default/files/uploadedfiles/Supplement_PresidentsReport_BORPolicy6.28.pdf",
+    "https://libguides.daltonstate.edu/c.php?g=1347745&p=11147544",
+    "https://www.ajc.com/politics/2025/12/trump-wants-states-to-back-down-on-ai-laws-will-georgia-follow-along/",
+    "https://news.uga.edu/uga-enrolls-record-number-of-georgians/"
+  ],
+  "researched_on": "2026-04-16"
+}

@@ -1,0 +1,306 @@
+{
+  "_comment": "Schema template for an institution AI profile. The `collect-institution` skill drives an agent to research one institution from public web sources and produce a JSON file conforming to this shape, saved at `data/institutions/<slug>.json`. Validate with `npm run validate:institution -- <slug>`.",
+  "_enums_reference": "Enum values for primary_category, subcategories, technology_focus, stakeholder_impact, investment scale, collaboration pattern, etc. are defined in research/insight-schema.ts. The `collect-institution` skill enumerates them. Do not invent new values.",
+
+  "institution": "string (canonical name, e.g., 'Yale University')",
+  "slug": "string (lowercase-hyphenated, e.g., 'yale-university')",
+  "city_state": "string (e.g., 'New Haven, CT')",
+  "carnegie": "R1 | R2 | other",
+  "institution_type": "r1_research | r2_research | comprehensive_regional | liberal_arts | community_college | online_for_profit | professional_school | minority_serving | international | system_or_consortium | unknown",
+  "system": "string | null (e.g., 'University of California')",
+  "enrollment": "number | null",
+  "control": "public | private_nonprofit | private_for_profit",
+
+  "leadership": {
+    "president": { "name": "string | null", "url": "string | null" },
+    "provost": { "name": "string | null", "url": "string | null" },
+    "cio": { "name": "string | null", "url": "string | null" },
+    "chief_ai_officer": { "name": "string | null", "url": "string | null" },
+    "ai_strategy_lead": { "name": "string | null", "title": "string | null", "url": "string | null" },
+    "has_dedicated_ai_role": "boolean"
+  },
+
+  "ai_strategy": {
+    "has_published_strategy": "boolean",
+    "documents": [{ "title": "string", "url": "string", "year": "number | null" }],
+    "summary": "string (2-4 sentences)"
+  },
+
+  "ai_policy": {
+    "has_acceptable_use_policy": "boolean",
+    "policy_urls": ["array of URLs"],
+    "adopted_date": "YYYY-MM | null",
+    "stance": "prohibitive | cautious | permissive | comprehensive | not_applicable",
+    "scope": ["array including any of: faculty, students, staff, research, admin"],
+    "syllabus_level_required": "boolean",
+    "addresses_data_privacy": "boolean",
+    "addresses_regulatory_compliance": "boolean",
+    "addresses_ethics": "boolean",
+    "key_provisions": ["array of short strings"],
+    "summary": "string (2-3 sentences)"
+  },
+
+  "governance_structure": {
+    "has_governance_body": "boolean",
+    "bodies": [
+      {
+        "name": "string",
+        "type": "council | committee | task_force | office | other",
+        "scope": "string",
+        "url": "string | null"
+      }
+    ],
+    "summary": "string"
+  },
+
+  "initiatives": [
+    {
+      "title": "string",
+      "description": "string (1-3 sentences)",
+      "significance": "string (1 sentence on why it matters for the sector)",
+      "date_announced": "YYYY-MM-DD | null",
+      "primary_category": "one of: governance_and_policy | teaching_and_learning | research_and_innovation | student_experience_and_services | enterprise_tools_and_infrastructure | workforce_and_economic_development | equity_access_and_inclusion | institutional_transformation",
+      "secondary_categories": ["array of category values"],
+      "subcategories": ["array — must come from the 49 subcategory values for the chosen primary/secondary categories"],
+      "maturity_signal": "emerging | growing | mainstream | declining",
+      "adoption_stage": "announcement | pilot | scaling | operational | transformative",
+      "technology_focus": ["array of: large_language_models | generative_ai_multimodal | predictive_analytics_ml | agentic_ai | ai_search_and_retrieval | computer_vision | nlp_for_assessment | robotics_and_physical_ai | quantum_and_ai | general_ai | unspecified"],
+      "stakeholder_impact": ["array of: students | faculty | administrators | researchers | board_and_trustees | accreditors | government_and_regulators | employers | community"],
+      "investment": {
+        "scale": "major | significant | moderate | exploratory | unknown",
+        "amount_usd": "number | null",
+        "funding_source": "string | null",
+        "description": "string"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic | cross_institution | international | government_academic | community_academic | startup_academic | none",
+          "partners": ["array"],
+          "description": "string"
+        }
+      ],
+      "tools_and_vendors": [
+        { "name": "string", "vendor": "string", "role": "string" }
+      ],
+      "policy_stance": "prohibitive | cautious | permissive | comprehensive | not_applicable",
+      "policy_implications": "string | null",
+      "source_urls": ["array of URLs"]
+    }
+  ],
+
+  "research_centers": [
+    { "name": "string", "focus": "string", "founded": "YYYY | null", "url": "string" }
+  ],
+
+  "ai_academic_programs": [
+    {
+      "type": "degree | certificate | minor | concentration | course",
+      "name": "string",
+      "level": "undergrad | grad | both",
+      "launched": "YYYY-MM | null",
+      "url": "string"
+    }
+  ],
+
+  "enterprise_platforms": [
+    {
+      "vendor": "string",
+      "product": "string",
+      "scope": "campus-wide | pilot | college-specific | undisclosed",
+      "user_count": "number | null",
+      "deployed": "YYYY-MM | null",
+      "url": "string"
+    }
+  ],
+
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": "boolean",
+    "supercomputer_name": "string | null",
+    "gpu_count": "number | null",
+    "url": "string | null",
+    "summary": "string"
+  },
+
+  "investments_and_gifts": [
+    {
+      "title": "string",
+      "amount_usd": "number | null",
+      "source": "string (donor, agency, etc.)",
+      "purpose": "string",
+      "date": "YYYY-MM | null",
+      "url": "string"
+    }
+  ],
+
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic | cross_institution | international | government_academic | community_academic | startup_academic",
+      "partner": "string",
+      "purpose": "string",
+      "date": "YYYY-MM | null",
+      "url": "string"
+    }
+  ],
+
+  "student_facing_ai": [
+    {
+      "type": "chatbot | tutor | predictive_analytics | advisor | wellness | other",
+      "name": "string",
+      "scope": "string",
+      "url": "string"
+    }
+  ],
+
+  "equity_and_access_initiatives": [
+    { "title": "string", "description": "string", "url": "string" }
+  ],
+
+  "analytics_signals": {
+    "schema_version": "YYYY-MM-DD",
+    "strategic_archetype": {
+      "primary": "platform_first | research_compute_powerhouse | curriculum_led | governance_led | student_success_led | workforce_regional_development | balanced_enterprise | public_signal_thin",
+      "secondary": ["array of additional archetype values"],
+      "scores": {
+        "platform_first": "number",
+        "research_compute_powerhouse": "number",
+        "curriculum_led": "number",
+        "governance_led": "number",
+        "student_success_led": "number",
+        "workforce_regional_development": "number",
+        "balanced_enterprise": "number",
+        "public_signal_thin": "number"
+      },
+      "rationale": "string explaining the public evidence behind the selected archetype"
+    },
+    "policy_quality": {
+      "score_0_5": "number from 0 to 5",
+      "has_syllabus_guidance": "boolean",
+      "addresses_privacy": "boolean",
+      "addresses_regulatory_compliance": "boolean",
+      "addresses_ethics": "boolean",
+      "adopted_date": "YYYY-MM | null",
+      "classroom_authority_model": "faculty_discretion | centralized_rules | mixed | unclear",
+      "ai_detection_stance": "rejects_or_limits_detection | permits_detection | requires_detection | unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": "number",
+      "ai_program_count": "number",
+      "has_ai_literacy_requirement": "boolean",
+      "has_assessment_redesign": "boolean",
+      "has_faculty_development": "boolean",
+      "has_ai_degree_or_certificate": "boolean",
+      "subcategory_counts": {
+        "ai_literacy_requirement": "number",
+        "ai_resilient_assessment": "number",
+        "faculty_training_and_development": "number",
+        "ai_tutoring_and_adaptive_learning": "number",
+        "lms_embedded_ai": "number",
+        "ai_degree_program": "number",
+        "syllabus_level_policy": "number"
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": "number",
+      "scientific_discovery_signal_count": "number",
+      "computing_infrastructure_signal_count": "number",
+      "compute": {
+        "has_dedicated_ai_compute": "boolean",
+        "supercomputer_name": "string | null",
+        "gpu_count": "number | null",
+        "capacity_tier": "none | named_system_capacity_unknown | dedicated_compute_capacity_unknown | modest_gpu_disclosed | gpu_cluster_disclosed | advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": "number",
+      "funding_source_buckets": {
+        "public_federal_state": "number",
+        "philanthropy_foundation": "number",
+        "industry_vendor": "number",
+        "institutional": "number",
+        "other_unclear": "number"
+      },
+      "partnership_count": "number"
+    },
+    "student_impact": {
+      "student_facing_tool_count": "number",
+      "service_type_counts": {
+        "chatbot": "number",
+        "tutor": "number",
+        "predictive_analytics": "number",
+        "advisor": "number",
+        "wellness": "number",
+        "other": "number"
+      },
+      "student_experience_signal_count": "number",
+      "has_advising_ai": "boolean",
+      "has_retention_analytics": "boolean",
+      "has_enrollment_admissions_ai": "boolean",
+      "has_career_readiness_ai": "boolean",
+      "has_mental_health_wellbeing_ai": "boolean",
+      "has_accessibility_or_equity_signal": "boolean",
+      "public_student_outcome_claim_count": "number"
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "string",
+          "mentions": "number",
+          "products": ["array of product names"]
+        }
+      ],
+      "concentration": "none | low | moderate | high",
+      "top_vendor": "string | null",
+      "single_vendor_dependency_risk": "boolean"
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": "boolean",
+      "has_cost_or_productivity_claim": "boolean",
+      "has_learning_outcome_claim": "boolean",
+      "has_student_success_outcome_claim": "boolean",
+      "has_research_output_claim": "boolean",
+      "public_claims": [
+        {
+          "claim_type": "usage | student_success | learning | productivity | research_output | career | cost_or_revenue",
+          "title": "string",
+          "summary": "string",
+          "source_url": "string | null"
+        }
+      ],
+      "public_claim_count": "number"
+    },
+    "risk_readiness": {
+      "high_impact_student_use": "boolean",
+      "sensitive_data_risk_signal": "boolean",
+      "risk_signal_count": "number",
+      "control_signal_count": "number",
+      "risk_level": "low_public_signal | managed | medium | high",
+      "rationale": "string"
+    },
+    "data_gaps": {
+      "gap_types": ["outcomes_or_usage | platform_usage_or_contracts | cost_or_funding | compute_capacity | assessment_redesign | student_subgroup_impact"],
+      "explicit_gap_count": "number",
+      "notes": ["array of explicit gaps from research_quality.gaps_acknowledged"]
+    }
+  },
+
+  "regulatory_context": {
+    "state": "string",
+    "has_state_ai_policy": "boolean",
+    "has_system_ai_policy": "boolean",
+    "summary": "string",
+    "urls": ["array"]
+  },
+
+  "controversies_and_litigation": [
+    { "date": "YYYY-MM | null", "summary": "string", "status": "active | resolved | unknown", "url": "string" }
+  ],
+
+  "narrative_summary": "string (200-400 words; the institution's full AI posture across leadership, strategy, policy, deployments, investments, and gaps)",
+
+  "research_quality": {
+    "compiled_at": "YYYY-MM-DD",
+    "compiled_by": "string (e.g., 'claude / collect-institution skill')",
+    "sources": ["array of all URLs consulted"],
+    "search_queries": ["array of search queries used"],
+    "gaps_acknowledged": ["array of explicit data gaps the agent could not fill"],
+    "confidence": "high | medium | low"
+  }
+}

@@ -1,0 +1,776 @@
+{
+  "institution": "Dartmouth College",
+  "slug": "dartmouth-college",
+  "city_state": "Hanover, NH",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 6700,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Sian Leah Beilock",
+      "url": null
+    },
+    "provost": {
+      "name": "Santiago Schnell",
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Dartmouth College public AI posture sources",
+        "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy",
+        "year": 2026
+      }
+    ],
+    "summary": "Dartmouth is expanding AI coursework, grants, a faculty leadership group, Thayer policy guidance, and an institutional AWS/Anthropic rollout while emphasizing human judgment and ethics."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy",
+      "https://home.dartmouth.edu/news/2026/03/dartmouth-launches-new-courses-artificial-intelligence",
+      "https://provost.dartmouth.edu/news/2025/02/meeting-moment-artificial-intelligence"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use institutionally reviewed AI tools for sensitive university work.",
+      "Protect restricted, confidential, student, personnel, and research data when using AI tools.",
+      "Verify AI output and keep humans accountable for academic, administrative, and research decisions."
+    ],
+    "summary": "Dartmouth College's public AI policy posture is cautious and emphasizes responsible use, privacy, and human accountability based on reviewed sources."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Dartmouth College AI governance and support functions",
+        "type": "committee",
+        "scope": "Dartmouth is expanding AI coursework, grants, a faculty leadership group, Thayer policy guidance, and an institutional AWS/Anthropic rollout while emphasizing human judgment and ethics.",
+        "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+      }
+    ],
+    "summary": "Governance appears distributed across AI-facing offices, centers, technology units, teaching units, or committees; no standalone chief AI officer was confirmed unless named in leadership."
+  },
+  "initiatives": [
+    {
+      "title": "Responsible AI guidance and governance",
+      "description": "Dartmouth College has public AI guidance, governance, or strategy resources that frame responsible adoption, privacy, academic integrity, and human oversight.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Anthropic",
+          "name": "Claude via AWS",
+          "role": "campus-wide AI access or support"
+        },
+        {
+          "vendor": "Amazon Web Services",
+          "name": "AWS AI services",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_implications": "Requires privacy, academic-integrity, and human-oversight controls as AI use scales.",
+      "source_urls": [
+        "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy",
+        "https://home.dartmouth.edu/news/2026/03/dartmouth-launches-new-courses-artificial-intelligence"
+      ],
+      "policy_stance": "cautious"
+    },
+    {
+      "title": "AI tools and campus enablement",
+      "description": "Dartmouth College provides or pilots institutionally supported AI tools, including Claude via AWS (Anthropic), AWS AI services (Amazon Web Services).",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Anthropic",
+          "name": "Claude via AWS",
+          "role": "campus-wide AI access or support"
+        },
+        {
+          "vendor": "Amazon Web Services",
+          "name": "AWS AI services",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy",
+        "https://provost.dartmouth.edu/news/2025/02/meeting-moment-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Thayer AI degree track and concentration",
+      "description": "Dartmouth College offers AI-related coursework, certificates, minors, degrees, or faculty-development resources that build AI literacy and discipline-specific AI capability.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+      ]
+    },
+    {
+      "title": "AI research portfolio",
+      "description": "Dartmouth College has visible AI research activity through centers, institutes, labs, or funded projects spanning machine learning, data science, domain applications, or responsible AI.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://provost.dartmouth.edu/news/2025/11/meet-faculty-leadership-group-ai"
+      ]
+    },
+    {
+      "title": "Student AI literacy and support",
+      "description": "Dartmouth College points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "career_and_workforce_readiness",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Anthropic",
+          "name": "Claude via AWS",
+          "role": "campus-wide AI access or support"
+        },
+        {
+          "vendor": "Amazon Web Services",
+          "name": "AWS AI services",
+          "role": "campus-wide AI access or support"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy",
+        "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+      ]
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Dartmouth College connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "significance": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in reviewed sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "See cited source"
+          ],
+          "description": "Collaboration pattern inferred from the cited initiative scope when a named partner is not listed separately."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://provost.dartmouth.edu/sites/provost/files/2025-12/Report%20on%20Artificial%20Intelligence%20at%20Dartmouth%20%28Dobson%2C%202025.06.30%29.pdf",
+        "https://www.intelligentcio.com/north-america/2026/01/06/dartmouth-becomes-first-ivy-league-institution-to-launch-ai-at-institutional-scale-with-aws-and-anthropic/"
+      ]
+    },
+    {
+      "title": "Lifetime career center with AI-enabled tools and outcome metrics",
+      "description": "Dartmouth's Center for Professional Development is being rebuilt as a lifetime career center with AI-enabled tools that students will be able to access via a Dartmouth login. The public announcement discloses a $94 million commitment and reports recent outcomes including increased coaching demand, a 337% rise in employer recruiting events, 82% internship and job application success among students who used center resources, and a 96.1% six-month career outcome rate for the Class of 2024.",
+      "significance": "The initiative provides unusually explicit public usage and outcome signals for an AI-adjacent student-success service.",
+      "date_announced": "2026-04-23",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "career_and_workforce_readiness",
+        "personalized_student_support",
+        "underrepresented_student_support",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 94000000,
+        "funding_source": "Dartmouth institutional and philanthropic career-center commitment",
+        "description": "Dartmouth publicly describes a $94 million commitment for the lifetime career center; the announcement includes AI tools but does not itemize the AI portion separately."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Employers recruiting at Dartmouth"
+          ],
+          "description": "The career center expansion includes employer recruiting growth and AI-enabled student career tooling."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Dartmouth Career Network",
+          "vendor": "Dartmouth College",
+          "role": "Student and alumni career platform with planned AI-enabled tools"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://home.dartmouth.edu/news/2026/04/career-center-built-lifetime-fulfilling-work"
+      ]
+    }
+  ],
+  "research_centers": [],
+  "ai_academic_programs": [
+    {
+      "type": "concentration",
+      "name": "Thayer AI degree track and concentration",
+      "level": "both",
+      "launched": null,
+      "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Anthropic",
+      "product": "Claude via AWS",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "product": "AWS AI services",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Discovery Cluster",
+    "gpu_count": null,
+    "url": "https://rc.dartmouth.edu/index.php/discovery-overview/",
+    "summary": "Dartmouth Research Computing's Discovery Cluster is a named campus HPC environment with NVIDIA V100 and A100 GPU nodes, but the reviewed public page does not disclose a total GPU count."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Lifetime career center commitment with AI-enabled tools",
+      "amount_usd": 94000000,
+      "source": "Dartmouth institutional and philanthropic career-center commitment",
+      "purpose": "Build a lifetime career center and Dartmouth Career Network that includes AI-enabled tools for students and alumni.",
+      "date": "2026-04",
+      "url": "https://home.dartmouth.edu/news/2026/04/career-center-built-lifetime-fulfilling-work"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "AI research portfolio",
+      "date": null,
+      "url": "https://provost.dartmouth.edu/news/2025/11/meet-faculty-leadership-group-ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "See initiative source",
+      "purpose": "AI workforce, partnership, and public-impact activity",
+      "date": null,
+      "url": "https://provost.dartmouth.edu/sites/provost/files/2025-12/Report%20on%20Artificial%20Intelligence%20at%20Dartmouth%20%28Dobson%2C%202025.06.30%29.pdf"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Dartmouth Career Network AI-enabled tools",
+      "scope": "Students and alumni career readiness; public source reports 82% application success among students using center resources and a 96.1% six-month outcome rate for the Class of 2024.",
+      "url": "https://home.dartmouth.edu/news/2026/04/career-center-built-lifetime-fulfilling-work"
+    },
+    {
+      "type": "other",
+      "name": "AI tools and campus enablement",
+      "scope": "students",
+      "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+    },
+    {
+      "type": "other",
+      "name": "Thayer AI degree track and concentration",
+      "scope": "students",
+      "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Student AI literacy and support",
+      "description": "Dartmouth College points students toward AI literacy, AI-related coursework, supported tools, or learning resources so adoption reaches student experience rather than staying only in research offices.",
+      "url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+    },
+    {
+      "title": "Career-center support for international students, varsity athletes, and first-generation students",
+      "description": "Dartmouth's career-center announcement describes specialized support for international students, varsity athletes, and first-generation students as part of the expanded career model that includes AI-enabled tools.",
+      "url": "https://home.dartmouth.edu/news/2026/04/career-center-built-lifetime-fulfilling-work"
+    },
+    {
+      "title": "AI workforce, partnership, and public-impact activity",
+      "description": "Dartmouth College connects AI work to workforce preparation, industry or government partnerships, public-service research, or community-facing education.",
+      "url": "https://provost.dartmouth.edu/sites/provost/files/2025-12/Report%20on%20Artificial%20Intelligence%20at%20Dartmouth%20%28Dobson%2C%202025.06.30%29.pdf"
+    }
+  ],
+  "regulatory_context": {
+    "state": "NH",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "State/system context was checked for NH. Relevant public AI or system governance links are included where found.",
+    "urls": [
+      "https://www.doit.nh.gov/cybersecurity/artificial-intelligence"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Dartmouth College is an R1 institution whose public AI posture is best understood as follows: Dartmouth is expanding AI coursework, grants, a faculty leadership group, Thayer policy guidance, and an institutional AWS/Anthropic rollout while emphasizing human judgment and ethics. The evidence touches governance and policy, teaching and learning, research and innovation, enterprise enablement, student experience, workforce development, and equity or public-impact dimensions. The strongest public sources are first-party AI hubs, guidance pages, research center pages, academic-program materials, and state or system policy resources. Compared with the most centralized AI adopters, several details remain opaque, including named executive AI ownership, exact enterprise user counts, and total AI spending. Even so, the reviewed public record supports a medium-confidence assessment that AI is moving into curriculum, research infrastructure, technology governance, and student or workforce-facing programs rather than remaining purely ad hoc.",
+  "research_quality": {
+    "compiled_at": "2026-04-23",
+    "compiled_by": "codex / collect-institution skill / Worker 2",
+    "sources": [
+      "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy",
+      "https://home.dartmouth.edu/news/2026/03/dartmouth-launches-new-courses-artificial-intelligence",
+      "https://provost.dartmouth.edu/news/2025/02/meeting-moment-artificial-intelligence",
+      "https://provost.dartmouth.edu/news/2025/11/meet-faculty-leadership-group-ai",
+      "https://provost.dartmouth.edu/sites/provost/files/2025-12/Report%20on%20Artificial%20Intelligence%20at%20Dartmouth%20%28Dobson%2C%202025.06.30%29.pdf",
+      "https://www.intelligentcio.com/north-america/2026/01/06/dartmouth-becomes-first-ivy-league-institution-to-launch-ai-at-institutional-scale-with-aws-and-anthropic/",
+      "https://www.doit.nh.gov/cybersecurity/artificial-intelligence",
+      "https://home.dartmouth.edu/news/2026/04/career-center-built-lifetime-fulfilling-work",
+      "https://rc.dartmouth.edu/index.php/discovery-overview/"
+    ],
+    "search_queries": [
+      "Dartmouth College artificial intelligence strategy guidance",
+      "Dartmouth College generative AI policy faculty students",
+      "Dartmouth College AI research center program",
+      "Dartmouth College AI computing infrastructure partnership",
+      "Dartmouth AI research computing GPU cluster supercomputer official",
+      "Dartmouth artificial intelligence funding gift million center official"
+    ],
+    "gaps_acknowledged": [
+      "No public chief AI officer was confirmed in reviewed sources.",
+      "The lifetime career center's $94 million commitment and outcomes are public, but the AI-tool portion is not itemized separately.",
+      "Discovery Cluster GPU types are public, but Dartmouth does not publish a total GPU count in the reviewed source.",
+      "Exact enterprise AI user counts or contract values were not public for the AWS/Anthropic institutional rollout."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "governance_led",
+        "platform_first",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 8,
+        "research_compute_powerhouse": 4,
+        "curriculum_led": 2,
+        "governance_led": 9,
+        "student_success_led": 7,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 0,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Discovery Cluster",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 94000000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 1,
+        "other_unclear": 5,
+        "institutional": 1,
+        "public_federal_state": 1
+      },
+      "partnership_count": 2
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Amazon",
+          "mentions": 4,
+          "products": [
+            "AWS AI services"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 4,
+          "products": [
+            "Claude via AWS"
+          ]
+        },
+        {
+          "vendor": "Dartmouth College Dartmouth Career Network",
+          "mentions": 1,
+          "products": [
+            "Dartmouth Career Network"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Amazon",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Responsible AI guidance and governance",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI tools and campus enablement",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Thayer AI degree track and concentration",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI research portfolio",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://provost.dartmouth.edu/news/2025/11/meet-faculty-leadership-group-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Student AI literacy and support",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://engineering.dartmouth.edu/about/policies/student-policies/ai-policy"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI workforce, partnership, and public-impact activity",
+          "summary": "This is a concrete R1 signal of AI moving from isolated experimentation toward governed, mission-linked adoption.",
+          "source_url": "https://provost.dartmouth.edu/sites/provost/files/2025-12/Report%20on%20Artificial%20Intelligence%20at%20Dartmouth%20%28Dobson%2C%202025.06.30%29.pdf"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Lifetime career center with AI-enabled tools and outcome metrics",
+          "summary": "The initiative provides unusually explicit public usage and outcome signals for an AI-adjacent student-success service.",
+          "source_url": "https://home.dartmouth.edu/news/2026/04/career-center-built-lifetime-fulfilling-work"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 5,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 4,
+      "notes": [
+        "No public chief AI officer was confirmed in reviewed sources.",
+        "The lifetime career center's $94 million commitment and outcomes are public, but the AI-tool portion is not itemized separately.",
+        "Discovery Cluster GPU types are public, but Dartmouth does not publish a total GPU count in the reviewed source.",
+        "Exact enterprise AI user counts or contract values were not public for the AWS/Anthropic institutional rollout."
+      ]
+    }
+  }
+}

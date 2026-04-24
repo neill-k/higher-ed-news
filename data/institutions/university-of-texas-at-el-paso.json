@@ -1,0 +1,1181 @@
+{
+  "institution": "University of Texas at El Paso",
+  "slug": "university-of-texas-at-el-paso",
+  "city_state": "El Paso, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 26297,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Heather Wilson",
+      "url": "https://www.utep.edu/about/presidents-bio.html"
+    },
+    "provost": {
+      "name": "John Wiebe",
+      "url": "https://www.utep.edu/provost/about/meet-the-provost.html"
+    },
+    "cio": {
+      "name": "Luis Hernandez",
+      "url": "https://www.utep.edu/information-resources/people/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Salamah I. Salamah",
+      "title": "Associate Vice President for Scientific Computing and Artificial Intelligence",
+      "url": "https://www.utep.edu/research/ai-research/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UTEP Guidance for Teaching with AI Technologies",
+        "url": "https://www.utep.edu/provost/_files/docs/instruction/utep-guidance-for-teaching-with-ai-technologies.pdf",
+        "year": 2023
+      },
+      {
+        "title": "Teaching With Artificial Intelligence (Faculty Handbook)",
+        "url": "https://www.utep.edu/extendeduniversity/online-faculty-resources/faculty-handbook/teaching-with-artificial-intelligence.html",
+        "year": 2024
+      },
+      {
+        "title": "Leveraging AI for Research and Innovation",
+        "url": "https://www.utep.edu/research/ai-research/",
+        "year": 2025
+      }
+    ],
+    "summary": "UTEP has built its AI strategy around two new institutes (AI-ICER and AAII), a dedicated AVP for Scientific Computing and AI, and a three-pillar agenda: efficient and responsible AI, AI for community impact, and AI education. The strategy is explicitly framed around the border region, Hispanic-serving mission, and community-engaged research. Enterprise deployment standardizes on Microsoft Copilot with a tenant-protected configuration for all students, faculty, and staff."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.utep.edu/extendeduniversity/online-faculty-resources/faculty-handbook/teaching-with-artificial-intelligence.html",
+      "https://www.utep.edu/provost/_files/docs/instruction/utep-guidance-for-teaching-with-ai-technologies.pdf",
+      "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html"
+    ],
+    "adopted_date": "2023-12",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty discretion over classroom AI use, with explicit syllabus statements required",
+      "Microsoft Copilot designated as UTEP's sole authorized AI tool for confidential/institutional data",
+      "AI misuse is treated under existing Academic Dishonesty and Student Conduct policies",
+      "Faculty must communicate expectations for AI use in the syllabus and each assignment",
+      "Guidance document drafted December 2023 by the Office of the Provost"
+    ],
+    "summary": "UTEP's posture is cautious and faculty-led: instructors decide whether and how AI can be used, but must declare it at the syllabus and assignment level. Enterprise Technology restricts sanctioned institutional use to Microsoft Copilot in its tenant-protected configuration, citing data protection and FERPA-adjacent concerns."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI-ICER Leadership Team",
+        "type": "office",
+        "scope": "Strategic direction of UTEP's AI Institute for Community-Engaged Research (three thrusts: responsible AI, community impact, AI education)",
+        "url": "https://aiicer.utep.edu/leadership.php"
+      },
+      {
+        "name": "AAII Steering Committee",
+        "type": "committee",
+        "scope": "Co-led by AVP for Scientific Computation and AI and AVP for Interdisciplinary Research; includes deans and senior administrators overseeing the Applied AI Innovation Institute",
+        "url": "https://www.utep.edu/aaii/"
+      },
+      {
+        "name": "AAII Board of Advisors",
+        "type": "council",
+        "scope": "External advisory body with representatives from industry, national laboratories, education, and public/private sectors",
+        "url": "https://www.utep.edu/aaii/"
+      },
+      {
+        "name": "AI Task Force (UTEP)",
+        "type": "task_force",
+        "scope": "Campus task force established to survey how peer institutions implement AI, informing UTEP's strategy",
+        "url": "https://www.the74million.org/article/utep-to-use-faculty-survey-results-to-enhance-campus-ai-strategy/"
+      },
+      {
+        "name": "Office of the AVP for Scientific Computing and AI",
+        "type": "office",
+        "scope": "Executive-level office under the VP for Research leading HPC/AI infrastructure and responsible AI programs",
+        "url": "https://www.utep.edu/research/ai-research/"
+      }
+    ],
+    "summary": "Governance is distributed across two 2025 research institutes (AI-ICER and AAII), a standing AI task force, and the AVP for Scientific Computing and AI role in the research office. There is no single Chief AI Officer, but Salamah I. Salamah functions as the de facto campus AI strategy lead."
+  },
+  "initiatives": [
+    {
+      "title": "AI Institute for Community-Engaged Research (AI-ICER)",
+      "description": "UTEP launched AI-ICER in April 2025 as an interdisciplinary think tank bringing together ~30 faculty across every college to apply AI to regional challenges such as water security and Hispanic health disparities. Led by Ann Gates with co-leads including Salamah Salamah, Thenral Mangadu, Amar Gupta, Natalia Villanueva Rosales, and Olac Fuentes.",
+      "significance": "A Hispanic-serving R1 standing up a community-engaged AI institute is a distinctive model for sector-wide AI research that is explicitly place-based and equity-focused.",
+      "date_announced": "2025-04-23",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "multilingual_and_culturally_responsive_ai",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT System Regents' Research Excellence Program",
+        "description": "Seed funding from the UT System Regents' Research Excellence Program; specific amount not disclosed in public announcements."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System",
+            "community organizations",
+            "industry partners"
+          ],
+          "description": "Cross-college UTEP institute with UT System Regents' sponsorship and community/industry partnerships."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds responsible AI and community impact as first-order institutional priorities alongside research.",
+      "source_urls": [
+        "https://www.utep.edu/newsfeed/2025/april/utep-launches-artificial-intelligence-think-tank-to-address-regional-challenges.html",
+        "https://aiicer.utep.edu/",
+        "https://www.eurekalert.org/news-releases/1081533",
+        "https://hoodline.com/2025/04/utep-establishes-ai-institute-to-address-local-challenges-in-el-paso-with-community-engaged-research/"
+      ]
+    },
+    {
+      "title": "Institute for Applied AI Innovation (AAII)",
+      "description": "UTEP established AAII in 2025 with UT Regents' Research Excellence Program backing. AAII focuses on deploying AI in complex, culturally rich settings with research thrusts in AI-for-transportation, cybersecurity for nuclear plants, HPC applications, water sustainability, and digital earth. Governed by a Steering Committee and external Board of Advisors.",
+      "significance": "Pairs UTEP's responsible-AI research (AI-ICER) with a translation/deployment institute — an emerging R1 model of twin institutes covering basic and applied AI.",
+      "date_announced": "2025-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Regents' Research Excellence Program; external grants",
+        "description": "Stood up with Regents' Research Excellence Program funds; secured additional $500K NRC nuclear cybersecurity grant in October 2025."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google Cloud",
+            "Microsoft",
+            "Texas Advanced Computing Center (TACC)"
+          ],
+          "description": "Industry and compute-provider partnerships to deliver applied AI research at scale."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Google Cloud",
+          "vendor": "Google",
+          "role": "Cloud compute partner"
+        },
+        {
+          "name": "TACC supercomputing resources",
+          "vendor": "Texas Advanced Computing Center",
+          "role": "HPC partner"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a translational arm for AI research that couples industry engagement with regional workforce goals.",
+      "source_urls": [
+        "https://www.utep.edu/aaii/",
+        "https://expertise.utep.edu/communities/appliedartificialintelligenceaai"
+      ]
+    },
+    {
+      "title": "B.S. in Artificial Intelligence",
+      "description": "UTEP's Department of Computer Science launched a Bachelor of Science in Artificial Intelligence in spring 2025 — one of the first three AI bachelor's programs in Texas. The degree covers machine learning, deep learning, computer vision, NLP, robotics, predictive analytics, and AI ethics.",
+      "significance": "Expands undergraduate AI degree availability at a Hispanic-serving R1, materially widening the pipeline of AI-trained graduates on the US–Mexico border.",
+      "date_announced": "2024-12-13",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_workforce_training",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "computer_vision",
+        "nlp_for_assessment",
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "State funding; College of Engineering",
+        "description": "New degree program in the Department of Computer Science, College of Engineering."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Formally signals AI as a core undergraduate credential, not an elective concentration.",
+      "source_urls": [
+        "https://www.utep.edu/newsfeed/2024/december/utep-launches-bachelors-in-artificial-intelligence.html",
+        "https://www.utep.edu/cs/undergraduate/bsai.html",
+        "https://catalog.utep.edu/undergrad/college-of-engineering/computer-science/artificial-intelligence-bs/",
+        "https://www.elpasoinc.com/news/local_news/utep-to-launch-one-of-the-state-s-first-bachelor-s-degrees-in-ai/article_5e451fca-b74c-11ef-8613-ef57ab5121cb.html"
+      ]
+    },
+    {
+      "title": "M.A. in Education with Artificial Intelligence Concentration",
+      "description": "Launched for Fall 2025 through the College of Education's STEM Education Division, UTEP's 16-month online M.A. is marketed as the first AI-focused master's degree for educators in the U.S. Coursework includes Foundations of Generative AI, Ethics/Culture/Society in the Age of AI, and Data Science for Educational Professionals.",
+      "significance": "One of the first master's programs in the country explicitly training K-12 and higher-ed educators on generative AI — a direct response to the pedagogy gap many institutions are flagging.",
+      "date_announced": "2025-06-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "faculty_training_and_development",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Education",
+        "description": "New online master's program; no GRE required; open to any bachelor's holder."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Treats AI literacy as a professional credential for educators, not just a skills module.",
+      "source_urls": [
+        "https://www.utep.edu/newsfeed/2025/june/utep-launches-masters-in-education-with-artificial-intelligence-focus.html",
+        "https://kfoxtv.com/news/local/utep-launches-nations-first-ai-focused-masters-degree-for-educators"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot as UTEP's Sole Authorized AI Tool",
+      "description": "UTEP Enterprise Technology designated Microsoft Copilot Chat and Microsoft 365 Copilot as the institution's only approved AI assistant for working with UTEP information, citing Microsoft's data protection standards and the requirement that UTEP data not be used for AI training. Copilot Chat is free to all students, faculty, and staff; M365 Copilot is a paid add-on for faculty/staff.",
+      "significance": "An R1 deliberately narrowing the sanctioned-AI surface to a single enterprise tool illustrates a risk-managed alternative to the multi-vendor rollouts seen at many peers.",
+      "date_announced": "2024-09-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Enterprise Technology operating budget",
+        "description": "M365 Copilot licenses for faculty/staff, Copilot Chat free tier across the campus tenant."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Tenant-protected Copilot deployment leveraging Microsoft's data-protection commitments."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Campus-wide AI assistant (paid tier)"
+        },
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Free protected-chat tier for all users"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Sets a clear default — sanctioned AI = Copilot; other tools are not approved for UTEP-confidential data.",
+      "source_urls": [
+        "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html",
+        "https://www.utep.edu/technologysupport/_files/docs/utep-training-copilot-chat.pdf"
+      ]
+    },
+    {
+      "title": "UTEP Guidance for Teaching with AI Technologies",
+      "description": "Drafted December 2023 by the Office of the Provost, UTEP's guidance document asks faculty to set explicit AI policies at the syllabus and assignment level, aligns AI misuse with existing Academic Dishonesty policy, and points faculty to the 'Teaching with AI Technologies' resource hub including FAQs.",
+      "significance": "A representative 'faculty discretion + syllabus transparency' policy — a pattern now common across R1 cautious adopters.",
+      "date_announced": "2023-12-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Policy guidance; no direct funding attached."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Anchors syllabus-level disclosure as the default control surface for classroom AI.",
+      "source_urls": [
+        "https://www.utep.edu/extendeduniversity/online-faculty-resources/faculty-handbook/teaching-with-artificial-intelligence.html",
+        "https://www.utep.edu/provost/_files/docs/instruction/utep-guidance-for-teaching-with-ai-technologies.pdf"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Design Academy (AIDA) for Faculty and Staff",
+      "description": "Delivered by UTEP's Center for Instructional Design, AIDA is a 100% online, self-paced Blackboard course that trains faculty and staff to integrate AI into syllabi, course design, and assessment. Completers earn a UTEP Microcredential Badge and AIDA certificate.",
+      "significance": "Turns AI teaching competency into a trackable microcredential — a lightweight faculty-development pattern other R1s are starting to copy.",
+      "date_announced": "2024-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Center for Instructional Design / Extended University",
+        "description": "Self-paced internal microcredential program."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Blackboard",
+          "vendor": "Anthology",
+          "role": "LMS hosting the academy"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Pairs the cautious classroom policy with a scalable training path so faculty can operationalize the policy.",
+      "source_urls": [
+        "https://www.utep.edu/extendeduniversity/cid/faculty-training/toa.html",
+        "https://www.utep.edu/extendeduniversity/online-faculty-resources/faculty-handbook/teaching-with-artificial-intelligence.html"
+      ]
+    },
+    {
+      "title": "$500K NRC Grant for AI-Driven Nuclear Cybersecurity",
+      "description": "UTEP Computer Science (Sajedul Talukder, co-PI) won a 3-year, $500,000 U.S. Nuclear Regulatory Commission grant in October 2025 to build layered network defenses, real-time AI threat monitoring, and a digital twin for nuclear-plant attack simulation — in partnership with the University of Illinois Urbana-Champaign.",
+      "significance": "Demonstrates UTEP leveraging AI for critical-infrastructure cybersecurity and reinforcing the AAII thrust on cybersecurity for nuclear plants.",
+      "date_announced": "2025-10-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cybersecurity_and_ai_risk",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 500000,
+        "funding_source": "U.S. Nuclear Regulatory Commission (NRC)",
+        "description": "Three-year grant; UTEP co-PI with UIUC."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Illinois Urbana-Champaign",
+            "U.S. Nuclear Regulatory Commission"
+          ],
+          "description": "Multi-institution NRC-funded cybersecurity project."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a vehicle for translating responsible-AI research into national-security-critical applications.",
+      "source_urls": [
+        "https://www.utep.edu/newsfeed/2025/october/utep-awarded-500,000-grant-to-protect-nuclear-plants-with-ai-driven-cybersecurity.html"
+      ]
+    },
+    {
+      "title": "AI Institute for Exceptional Education (partner site)",
+      "description": "UTEP is a partner institution in the NSF AI Institute for Exceptional Education (AI4ExceptionalEd), a $20M NSF-funded consortium led by the University at Buffalo focused on AI for speech and language development in children ages 3–10. UTEP Computer Science received ~$475,000 of the award.",
+      "significance": "Positions UTEP inside a flagship NSF AI Institute focused on equity in early-childhood education — a federal anchor partnership.",
+      "date_announced": "2023-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_tutoring_and_adaptive_learning",
+        "disability_and_accessibility"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 475000,
+        "funding_source": "NSF (via University at Buffalo-led AI Institute)",
+        "description": "UTEP share of the $20M NSF AI Institute award."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University at Buffalo",
+            "NSF",
+            "consortium universities"
+          ],
+          "description": "Multi-university NSF AI Institute partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Ties UTEP research to federal AI Institute governance expectations.",
+      "source_urls": [
+        "https://www.utep.edu/newsfeed/2023/utep-receives-nsf-grant-to-research-speech-language-pathology-ai.html",
+        "https://www.elpasoinc.com/news/business_announcements/utep-receives-grant-to-research-speech-language-pathology-ai/article_e95eb13a-ad7f-11ed-8504-1b2a06731034.html"
+      ]
+    },
+    {
+      "title": "AI4ALL Summer Program for Borderland High-School Students",
+      "description": "UTEP's AI4ALL summer program, run through the College of Engineering's ExciTES team, introduces El Paso-region high-school students to AI fundamentals, research mentorship, and an applied AI project focused on community impact in the Borderland.",
+      "significance": "A pipeline initiative aimed at underrepresented and Hispanic students well before they arrive on campus — directly tied to UTEP's HSI identity.",
+      "date_announced": "2021-01-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "underrepresented_student_support",
+        "ai_workforce_training",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "College of Engineering (ExciTES)",
+        "description": "Recurring summer program through ExciTES."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Borderland K-12 schools",
+            "AI4ALL national network"
+          ],
+          "description": "Community pipeline program tied into the AI4ALL national education initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Codifies AI pipeline outreach as part of UTEP's equity mission.",
+      "source_urls": [
+        "https://www.utep.edu/ai4all/",
+        "https://medium.com/ai4allorg/new-university-of-texas-ai4all-program-will-reach-high-school-students-in-el-paso-c62808003af2"
+      ]
+    },
+    {
+      "title": "Region-Wide K-12 AI Learning Incubator",
+      "description": "UTEP hosts a Region-Wide K-12 AI Learning Incubator — a workshop series for district leaders covering AI literacy, ethics, data security, and the differences between AI models. Positioned as a regional capacity-builder for school districts in the El Paso metro.",
+      "significance": "Extends UTEP's AI influence beyond campus into regional K-12 policy, a role well-suited to a Hispanic-serving R1 land-grant peer.",
+      "date_announced": "2025-01-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "community_college_ai_program",
+        "digital_divide_and_access",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UTEP College of Education / UT System",
+        "description": "Region-wide convening series; exact funding not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "El Paso-area school districts"
+          ],
+          "description": "District leader workshop series."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Extends UTEP's AI-literacy model to the surrounding K-12 ecosystem.",
+      "source_urls": [
+        "https://elpasomatters.org/2026/04/13/ai-artificial-intelligence-in-el-paso-texas-schools-chatgpt-gemini-ai-literacy/",
+        "https://www.utep.edu/newsfeed/2025/june/utep-launches-masters-in-education-with-artificial-intelligence-focus.html"
+      ]
+    },
+    {
+      "title": "Accelerating Research with HPC & AI Program",
+      "description": "Beginning February 2026, UTEP's Office of Research & Innovation is running a college-by-college hands-on HPC/AI training program. Each of the six college-aligned sessions enrolls up to 25 faculty and runs through May 2026, with three hours of structured instruction plus biweekly office hours.",
+      "significance": "Couples infrastructure (TACC access, HPC, visualization labs) with a structured faculty on-ramp — the kind of scaffolded uptake many peer R1s are still missing.",
+      "date_announced": "2026-02-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "faculty_training_and_development",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of Research & Innovation",
+        "description": "Faculty upskilling program paired with TACC HPC access."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Texas Advanced Computing Center (TACC)"
+          ],
+          "description": "TACC HPC access underpins hands-on training."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TACC HPC resources",
+          "vendor": "Texas Advanced Computing Center",
+          "role": "Compute partner"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Wraps HPC access in a responsible-AI framework with ethics and compliance standards.",
+      "source_urls": [
+        "https://www.utep.edu/research/ai-research/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI Institute for Community-Engaged Research (AI-ICER)",
+      "focus": "Responsible AI, AI for community impact, AI education (water security, Hispanic health)",
+      "founded": "2025",
+      "url": "https://aiicer.utep.edu/"
+    },
+    {
+      "name": "Institute for Applied AI Innovation (AAII)",
+      "focus": "Applied AI: transportation, cybersecurity for nuclear plants, HPC, water, digital earth",
+      "founded": "2025",
+      "url": "https://www.utep.edu/aaii/"
+    },
+    {
+      "name": "Computing Alliance of Hispanic-Serving Institutions (CAHSI)",
+      "focus": "National alliance led by UTEP for computing-workforce development at HSIs (includes AI)",
+      "founded": "2006",
+      "url": "https://cahsi.utep.edu/"
+    },
+    {
+      "name": "VizInC Lab (Visualization and Interactive Collaboration)",
+      "focus": "Immersive visualization and AI-supported data exploration",
+      "founded": null,
+      "url": "https://aiicer.utep.edu/infrastructure.php"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "B.S. in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": "2025-01",
+      "url": "https://www.utep.edu/cs/undergraduate/bsai.html"
+    },
+    {
+      "type": "degree",
+      "name": "M.A. in Education with Concentration in Artificial Intelligence",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://www.utep.edu/newsfeed/2025/june/utep-launches-masters-in-education-with-artificial-intelligence-focus.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Design Academy (AIDA) Microcredential",
+      "level": "both",
+      "launched": "2024-08",
+      "url": "https://www.utep.edu/extendeduniversity/cid/faculty-training/toa.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat (protected tenant)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html"
+    },
+    {
+      "vendor": "Anthology",
+      "product": "Blackboard (hosts AIDA microcredential)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.utep.edu/extendeduniversity/cid/faculty-training/toa.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Hopper / PUNAKHA / PARO",
+    "gpu_count": 12,
+    "url": "https://radcdocs.utep.edu/landing_page/high-performance-computing/",
+    "summary": "UTEP operates the Hopper HPC cluster and GPU-accelerated systems including PUNAKHA (12 GPUs for AI/ML/simulation) and PARO (913 cores, 11.5 TB RAM). AI-ICER layers on access to Texas Advanced Computing Center (TACC) resources, NSF ACCESS, NAIRR Pilot, and the VizInC visualization lab. Infrastructure is actively being expanded with GPU-accelerated additions."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "UT System Regents' Research Excellence Program (AI-ICER + AAII)",
+      "amount_usd": null,
+      "source": "University of Texas System",
+      "purpose": "Seed funding for both AI-ICER and AAII institutes",
+      "date": "2025-04",
+      "url": "https://www.utep.edu/newsfeed/2025/april/utep-launches-artificial-intelligence-think-tank-to-address-regional-challenges.html"
+    },
+    {
+      "title": "NRC Grant for AI-Driven Nuclear Cybersecurity",
+      "amount_usd": 500000,
+      "source": "U.S. Nuclear Regulatory Commission",
+      "purpose": "3-year AI cybersecurity research for nuclear power plants",
+      "date": "2025-10",
+      "url": "https://www.utep.edu/newsfeed/2025/october/utep-awarded-500,000-grant-to-protect-nuclear-plants-with-ai-driven-cybersecurity.html"
+    },
+    {
+      "title": "NSF AI Institute for Exceptional Education (UTEP share)",
+      "amount_usd": 475000,
+      "source": "NSF (via University at Buffalo)",
+      "purpose": "Speech-language AI for children ages 3-10",
+      "date": "2023-01",
+      "url": "https://www.utep.edu/newsfeed/2023/utep-receives-nsf-grant-to-research-speech-language-pathology-ai.html"
+    },
+    {
+      "title": "CyberCorps Scholarship for Service",
+      "amount_usd": 4000000,
+      "source": "NSF / DHS",
+      "purpose": "Cybersecurity (including AI-adjacent) workforce development",
+      "date": "2021-12",
+      "url": "https://www.utep.edu/newsfeed/campus/utep-to-advance-cybersecurity-talent-pipeline-with-4m-grant.html"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Campus-wide Copilot deployment with tenant-protected configuration",
+      "date": "2024-09",
+      "url": "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google Cloud",
+      "purpose": "Cloud compute for AAII applied AI research",
+      "date": "2025-01",
+      "url": "https://www.utep.edu/aaii/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Texas Advanced Computing Center (TACC)",
+      "purpose": "HPC access for researchers and the Accelerating Research with HPC & AI program",
+      "date": "2026-02",
+      "url": "https://www.utep.edu/research/ai-research/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University at Buffalo (NSF AI Institute for Exceptional Education)",
+      "purpose": "Consortium partner for NSF-funded AI speech-language research",
+      "date": "2023-01",
+      "url": "https://www.utep.edu/newsfeed/2023/utep-receives-nsf-grant-to-research-speech-language-pathology-ai.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Illinois Urbana-Champaign",
+      "purpose": "NRC AI nuclear cybersecurity project",
+      "date": "2025-10",
+      "url": "https://www.utep.edu/newsfeed/2025/october/utep-awarded-500,000-grant-to-protect-nuclear-plants-with-ai-driven-cybersecurity.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Nuclear Regulatory Commission",
+      "purpose": "AI cybersecurity research funding",
+      "date": "2025-10",
+      "url": "https://www.utep.edu/newsfeed/2025/october/utep-awarded-500,000-grant-to-protect-nuclear-plants-with-ai-driven-cybersecurity.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot (student access)",
+      "scope": "All UTEP students have free access to Copilot Chat in the protected tenant",
+      "url": "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI4ALL Summer Program",
+      "description": "Borderland high-school AI pipeline program run by UTEP's College of Engineering",
+      "url": "https://www.utep.edu/ai4all/"
+    },
+    {
+      "title": "CAHSI (Computing Alliance of Hispanic-Serving Institutions)",
+      "description": "UTEP-led national HSI alliance advancing underrepresented students in computing/AI",
+      "url": "https://cahsi.utep.edu/"
+    },
+    {
+      "title": "AI-ICER Responsible AI thrust",
+      "description": "Explicit focus on Hispanic health disparities, border-region challenges, and equity in AI",
+      "url": "https://aiicer.utep.edu/"
+    },
+    {
+      "title": "Region-Wide K-12 AI Learning Incubator",
+      "description": "Workshop series for K-12 district leaders on AI literacy, ethics, and data security",
+      "url": "https://elpasomatters.org/2026/04/13/ai-artificial-intelligence-in-el-paso-texas-schools-chatgpt-gemini-ai-literacy/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "TX",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas enacted SB1964 (the Texas Responsible AI Governance Act / TRAIGA), effective September 1, 2025, establishing an NIST-aligned framework for AI use by governmental entities; however, institutions of higher education are explicitly exempted from many TRAIGA requirements. The UT System guides AI use across its 14 institutions, and UT Austin has published the 'Responsible Adoption of AI Tools for Teaching and Learning' framework that effectively sets a peer benchmark within the system.",
+    "urls": [
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB01964I.htm",
+      "https://legiscan.com/TX/text/SB1964/id/3156295",
+      "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+      "https://tech.utexas.edu/governance/guidance-for-ai"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2024-05",
+      "summary": "UTEP's NSF-funded aerospace grant (up to $160M regional impact) was suspended amid alleged grant falsehoods; the PI was later cleared by NSF but the award was ultimately terminated in August 2025. Adjacent to — but not itself — an AI-specific controversy; relevant context for UTEP's research-integrity posture which governs AI research conduct.",
+      "status": "resolved",
+      "url": "https://elpasomatters.org/2025/08/13/utep-nsf-suspended-grant-terminated-ahsan-choudhuri-aerospace-center/"
+    }
+  ],
+  "narrative_summary": "The University of Texas at El Paso, an R1 Hispanic-serving institution (~26,300 students, 84% Hispanic) on the US–Mexico border, is positioning itself as a distinctively community-engaged AI R1. In 2025 it stood up two UT System-funded institutes — the AI Institute for Community-Engaged Research (AI-ICER) and the Institute for Applied AI Innovation (AAII) — with complementary missions: AI-ICER focuses on responsible AI, community impact (water security, Hispanic health), and education pathways, while AAII translates AI into applied domains like transportation, nuclear cybersecurity, and digital earth. Leadership-wise, President Heather Wilson and Provost John Wiebe oversee an academic apparatus in which Salamah I. Salamah (AVP for Scientific Computing and AI) and Ann Gates (Senior Advisor to the Provost for Strategic STEM Initiatives) serve as the de facto AI strategy leads; UTEP has not named a Chief AI Officer. The teaching side pairs a new B.S. in Artificial Intelligence (launched spring 2025, one of the first in Texas) with a first-of-its-kind M.A. in Education with an AI concentration (fall 2025) and the AIDA faculty microcredential. Classroom policy is cautious and faculty-led: the Provost's December 2023 guidance requires syllabus-level AI statements and treats misuse under the existing Academic Dishonesty policy, while Enterprise Technology has standardized on Microsoft Copilot as UTEP's sole approved AI tool. Infrastructure includes the Hopper HPC cluster, GPU-accelerated PUNAKHA and PARO systems, and layered access to TACC, NSF ACCESS, and the NAIRR Pilot. Notable funding includes a $500K NRC grant for AI-driven nuclear cybersecurity (2025), a $475K share of the $20M NSF AI Institute for Exceptional Education, and prior CyberCorps awards. Equity work is strong and distinctive: AI4ALL summer camps for Borderland high schoolers, CAHSI's national HSI network, a Region-Wide K-12 AI Learning Incubator, and explicit AI-ICER thrusts on Hispanic health and multilingual communities. Gaps remain on published strategy documents (most material is on institute and provost pages rather than a single strategy document), on quantitative enrollment/user metrics for enterprise tools, and on a formal Chief AI Officer role.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.utep.edu/newsfeed/2025/april/utep-launches-artificial-intelligence-think-tank-to-address-regional-challenges.html",
+      "https://aiicer.utep.edu/",
+      "https://aiicer.utep.edu/leadership.php",
+      "https://aiicer.utep.edu/infrastructure.php",
+      "https://www.utep.edu/aaii/",
+      "https://expertise.utep.edu/communities/appliedartificialintelligenceaai",
+      "https://www.utep.edu/newsfeed/2024/december/utep-launches-bachelors-in-artificial-intelligence.html",
+      "https://www.utep.edu/cs/undergraduate/bsai.html",
+      "https://catalog.utep.edu/undergrad/college-of-engineering/computer-science/artificial-intelligence-bs/",
+      "https://www.utep.edu/newsfeed/2025/june/utep-launches-masters-in-education-with-artificial-intelligence-focus.html",
+      "https://kfoxtv.com/news/local/utep-launches-nations-first-ai-focused-masters-degree-for-educators",
+      "https://www.utep.edu/technologysupport/servicecatalog/app_copilot.html",
+      "https://www.utep.edu/technologysupport/_files/docs/utep-training-copilot-chat.pdf",
+      "https://www.utep.edu/extendeduniversity/online-faculty-resources/faculty-handbook/teaching-with-artificial-intelligence.html",
+      "https://www.utep.edu/provost/_files/docs/instruction/utep-guidance-for-teaching-with-ai-technologies.pdf",
+      "https://www.utep.edu/extendeduniversity/cid/faculty-training/toa.html",
+      "https://www.utep.edu/about/leadership.html",
+      "https://www.utep.edu/about/presidents-bio.html",
+      "https://www.utep.edu/provost/about/meet-the-provost.html",
+      "https://www.utep.edu/information-resources/people/",
+      "https://www.utep.edu/research/ai-research/",
+      "https://www.utep.edu/ai4all/",
+      "https://cahsi.utep.edu/",
+      "https://radcdocs.utep.edu/landing_page/high-performance-computing/",
+      "https://www.utep.edu/newsfeed/2025/october/utep-awarded-500,000-grant-to-protect-nuclear-plants-with-ai-driven-cybersecurity.html",
+      "https://www.utep.edu/newsfeed/2023/utep-receives-nsf-grant-to-research-speech-language-pathology-ai.html",
+      "https://www.utep.edu/newsfeed/campus/utep-to-advance-cybersecurity-talent-pipeline-with-4m-grant.html",
+      "https://www.utep.edu/newsfeed/2025/february/utep-reasserts-prestigious-r1-research-status-under-new-carnegie-classification-criteria.html",
+      "https://www.utep.edu/r1/",
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB01964I.htm",
+      "https://legiscan.com/TX/text/SB1964/id/3156295",
+      "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+      "https://tech.utexas.edu/governance/guidance-for-ai",
+      "https://elpasomatters.org/2026/04/13/ai-artificial-intelligence-in-el-paso-texas-schools-chatgpt-gemini-ai-literacy/",
+      "https://www.eurekalert.org/news-releases/1081533",
+      "https://hoodline.com/2025/04/utep-establishes-ai-institute-to-address-local-challenges-in-el-paso-with-community-engaged-research/",
+      "https://medium.com/ai4allorg/new-university-of-texas-ai4all-program-will-reach-high-school-students-in-el-paso-c62808003af2",
+      "https://www.the74million.org/article/utep-to-use-faculty-survey-results-to-enhance-campus-ai-strategy/"
+    ],
+    "search_queries": [
+      "\"University of Texas at El Paso\" AI strategy 2025 2026",
+      "\"UTEP\" artificial intelligence policy acceptable use",
+      "\"UTEP\" AI governance committee task force chief AI officer",
+      "\"University of Texas at El Paso\" AI research center institute",
+      "\"UTEP\" CIO provost president 2025 leadership",
+      "\"UTEP\" Microsoft Copilot OR ChatGPT OR Gemini OR Claude for Education deployment",
+      "\"UTEP\" AI chatbot student services retention analytics",
+      "\"UTEP\" HPC GPU supercomputer AI computing infrastructure",
+      "\"UTEP\" AI faculty training AIDA Design Academy",
+      "Texas AI higher education policy SB SB1964 executive order universities",
+      "\"UTEP\" NSF grant AI institute funding million",
+      "\"UTEP\" ai4all program institute",
+      "\"UTEP\" Hispanic-serving AI equity border workforce development",
+      "\"UTEP\" \"Applied AI Innovation\" Ann Gates Salamah director",
+      "\"UTEP\" AI cybersecurity Navy research grant million",
+      "\"UTEP\" \"Heather Wilson\" OR president 2026",
+      "\"UTEP\" enrollment 2025 R1 Carnegie classification",
+      "\"UTEP\" faculty survey AI enterprise technology Copilot rollout"
+    ],
+    "gaps_acknowledged": [
+      "No single consolidated 'AI strategy' PDF published by the President/Provost; strategy is distributed across AI-ICER, AAII, provost, and enterprise tech pages.",
+      "No disclosed Copilot adoption figures (user counts, weekly active).",
+      "Exact dollar amount of the UT Regents' Research Excellence Program seed for AI-ICER and AAII not publicly disclosed.",
+      "No named Chief AI Officer; the role is distributed across AVP-level positions.",
+      "No evidence of a campus-wide AI chatbot for student services (predictive retention analytics appears limited or not publicly documented).",
+      "No disclosed UTEP-specific syllabus-level AI mandate language beyond the 2023 provost guidance.",
+      "Unable to extract the full text of the December 2023 provost guidance PDF via WebFetch (binary)."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "workforce_regional_development",
+        "curriculum_led",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 10,
+        "research_compute_powerhouse": 10,
+        "curriculum_led": 13,
+        "governance_led": 11,
+        "student_success_led": 1,
+        "workforce_regional_development": 16,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-12",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 3,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Hopper / PUNAKHA / PARO",
+        "gpu_count": 12,
+        "capacity_tier": "modest_gpu_disclosed"
+      },
+      "disclosed_funding_usd": 4975000,
+      "funding_source_buckets": {
+        "institutional": 5,
+        "other_unclear": 6,
+        "public_federal_state": 4,
+        "industry_vendor": 1
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 0
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Copilot Chat",
+            "Copilot Chat (protected tenant)",
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "Blackboard",
+          "mentions": 2,
+          "products": [
+            "Blackboard",
+            "Blackboard (hosts AIDA microcredential)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Google Cloud"
+          ]
+        },
+        {
+          "vendor": "Texas Advanced Computing Center TACC HPC resources",
+          "mentions": 1,
+          "products": [
+            "TACC HPC resources"
+          ]
+        },
+        {
+          "vendor": "Texas Advanced Computing Center TACC supercomputing resources",
+          "mentions": 1,
+          "products": [
+            "TACC supercomputing resources"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": false,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Institute for Applied AI Innovation (AAII)",
+          "summary": "Pairs UTEP's responsible-AI research (AI-ICER) with a translation/deployment institute — an emerging R1 model of twin institutes covering basic and applied AI.",
+          "source_url": "https://www.utep.edu/aaii/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Artificial Intelligence Design Academy (AIDA) for Faculty and Staff",
+          "summary": "Turns AI teaching competency into a trackable microcredential — a lightweight faculty-development pattern other R1s are starting to copy.",
+          "source_url": "https://www.utep.edu/extendeduniversity/cid/faculty-training/toa.html"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 13,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No single consolidated 'AI strategy' PDF published by the President/Provost; strategy is distributed across AI-ICER, AAII, provost, and enterprise tech pages.",
+        "No disclosed Copilot adoption figures (user counts, weekly active).",
+        "Exact dollar amount of the UT Regents' Research Excellence Program seed for AI-ICER and AAII not publicly disclosed.",
+        "No named Chief AI Officer; the role is distributed across AVP-level positions.",
+        "No evidence of a campus-wide AI chatbot for student services (predictive retention analytics appears limited or not publicly documented).",
+        "No disclosed UTEP-specific syllabus-level AI mandate language beyond the 2023 provost guidance.",
+        "Unable to extract the full text of the December 2023 provost guidance PDF via WebFetch (binary)."
+      ]
+    }
+  }
+}

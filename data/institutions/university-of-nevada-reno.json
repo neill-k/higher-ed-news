@@ -1,0 +1,1469 @@
+{
+  "institution": "University of Nevada-Reno",
+  "slug": "university-of-nevada-reno",
+  "city_state": "Reno, NV",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "Nevada System of Higher Education",
+  "enrollment": 24061,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Brian Sandoval",
+      "url": "https://www.unr.edu/president"
+    },
+    "provost": {
+      "name": "Jeff Thompson",
+      "url": "https://www.unr.edu/provost"
+    },
+    "cio": {
+      "name": "Sasi Pillay",
+      "url": "https://www.unr.edu/oit"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Carly Ries",
+      "title": "Vice Provost of Online Learning (Nevada Online); key PACK AI academic lead for AI certificate and online curriculum",
+      "url": "https://nevadaonline.unr.edu/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "PACK AI - Pioneering Artificial Intelligence in Higher Education (institutional AI hub)",
+        "url": "https://www.unr.edu/ai",
+        "year": 2025
+      },
+      {
+        "title": "University of Nevada, Reno launches artificial intelligence initiative, PACK AI (announcement)",
+        "url": "https://www.unr.edu/nevada-today/news/2025/pack-ai-launch",
+        "year": 2025
+      },
+      {
+        "title": "Artificial Intelligence Usage Policy (OIT)",
+        "url": "https://www.unr.edu/oit/policies/artificial-intelligence-policy",
+        "year": 2025
+      },
+      {
+        "title": "AI Technology Usage Guidelines and Procedures (PACK AI)",
+        "url": "https://www.unr.edu/ai/technology-usage",
+        "year": 2025
+      }
+    ],
+    "summary": "University of Nevada-Reno's AI strategy is anchored by PACK AI, a president-sponsored institutional initiative launched August 13, 2025 that integrates AI into teaching, research, and business operations under a coordinated hub at unr.edu/ai. President Brian Sandoval frames PACK AI as 'our next institutional imperative,' and the strategy combines a required AI learning module for new students, Microsoft Copilot and Apple Intelligence access through the Digital Wolf Pack device program, a three-course Nevada Online generative AI certificate, faculty workshops through the Advancements in Teaching Excellence Program, and a campus-wide AI working group setting governance and policy. At the system level, the Nevada System of Higher Education (NSHE) Emerging Technology Advisory Group (ETAG) shapes cross-institution best practices."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.unr.edu/oit/policies/artificial-intelligence-policy",
+      "https://www.unr.edu/ai/technology-usage",
+      "https://www.unr.edu/ai/students/guidelines",
+      "https://www.unr.edu/ai/teaching-with-ai/academic-integrity",
+      "https://www.unr.edu/ai/teaching-with-ai/syllabus"
+    ],
+    "adopted_date": "2025-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Users must not share sensitive, confidential, or regulated data (FERPA, GLBA, HIPAA, PCI) with AI tools",
+      "All AI-generated content requires human review for accuracy, bias, and copyright",
+      "Any new AI tool requires a vendor risk management assessment through OIT Compliance",
+      "Microsoft Copilot is the officially licensed/recommended enterprise AI tool",
+      "Faculty must include an AI statement in the syllabus (permitted/selective/prohibited options) and discuss it day one",
+      "Adherence to UAM 6,502 Academic Integrity and disclosure of AI use in academic settings",
+      "New students must complete a required introduction-to-AI module during NevadaFIT covering use, ethics, and integrity",
+      "Policy is periodically reviewed with stakeholder feedback and regulatory updates"
+    ],
+    "summary": "University of Nevada-Reno operates a comprehensive, documented AI policy stack combining an OIT Artificial Intelligence Usage Policy that governs all AI use on university-owned resources with PACK AI-authored technology usage procedures, student guidelines, academic integrity guidance, and faculty syllabus statement templates. The stance is permissive with significant guardrails: AI is encouraged where it serves learning and research, Microsoft Copilot is the endorsed enterprise tool, but data classification, vendor vetting through OIT Compliance, and mandatory syllabus-level disclosure are required. All incoming students complete a mandatory AI literacy module via NevadaFIT."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "PACK AI Working Group",
+        "type": "committee",
+        "scope": "Campus-wide faculty/staff group studying AI policies, identifying best practices, recommending adoption strategies, and developing university-wide governance structures for academic, administrative, and research uses",
+        "url": "https://www.unr.edu/ai"
+      },
+      {
+        "name": "Office of Information Technology (OIT) Compliance",
+        "type": "office",
+        "scope": "Administers vendor risk management assessments for proposed AI tools; oversees implementation and enforcement of AI Usage Policy; maintains data classification and FERPA/HIPAA/PCI compliance guardrails",
+        "url": "https://www.unr.edu/oit/policies/artificial-intelligence-policy"
+      },
+      {
+        "name": "Advancements in Teaching Excellence Program",
+        "type": "office",
+        "scope": "Faculty development arm delivering generative AI workshops (assignments, tutoring, ethics) and syllabus guidance under the PACK AI umbrella",
+        "url": "https://www.unr.edu/teaching-excellence"
+      },
+      {
+        "name": "Nevada System of Higher Education Emerging Technology Advisory Group (ETAG)",
+        "type": "council",
+        "scope": "System-level body (chartered August 2025) providing cross-NSHE recommendations on emerging technology best practices for teaching, research, workforce development, and operational efficiency; UNR participates",
+        "url": "https://nshe.nevada.edu/ai/"
+      }
+    ],
+    "summary": "Governance is distributed but coherent: the PACK AI working group functions as UNR's de facto AI council, working alongside OIT (policy and compliance), the Advancements in Teaching Excellence Program (faculty development), Nevada Online (credential programs), and University Libraries. At the system level, NSHE's ETAG provides cross-institution alignment. UNR has not named a dedicated chief AI officer but has coalesced responsibility under the president's office with the working group and VP for IT Sasi Pillay."
+  },
+  "initiatives": [
+    {
+      "title": "PACK AI institutional AI initiative launch",
+      "description": "President Sandoval launched PACK AI on August 13, 2025 as UNR's signature campus-wide AI initiative, integrating teaching, faculty development, research support, and AI-enabled business processes under a single hub at unr.edu/ai. The initiative was kicked off at a September 4-5, 2025 event featuring faculty showcases of AI in instruction.",
+      "significance": "PACK AI marks one of the most complete, presidentially sponsored AI operating systems among R1 publics: it folds policy, student tools, curriculum, faculty training, and governance into a single institutional brand.",
+      "date_announced": "2025-08-13",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "institutional_ai_strategy",
+        "ai_literacy_requirement",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional (President's office) with partner units OIT, University Libraries, Office of Research and Innovation, Advancements in Teaching Excellence",
+        "description": "No dollar amount disclosed; resources are operational rather than one-time capital"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Apple"
+          ],
+          "description": "Student-facing tool access via Microsoft Copilot and Apple Intelligence delivered through Digital Wolf Pack devices"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Campus-endorsed generative AI chat and productivity assistant for students and staff"
+        },
+        {
+          "name": "Apple Intelligence",
+          "vendor": "Apple",
+          "role": "On-device generative AI features on university-issued iPads"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes institution-wide baseline that AI is an expected literacy and productivity layer while requiring compliance with data-classification, vendor-vetting, and academic-integrity guardrails",
+      "source_urls": [
+        "https://www.unr.edu/ai",
+        "https://www.unr.edu/nevada-today/news/2025/pack-ai-launch",
+        "https://www.govtech.com/education/higher-ed/university-of-nevada-initiative-brings-ai-to-freshmen-faculty",
+        "https://www.carsonnow.org/08/13/2025/unr-announces-new-pack-ai-curriculum-requirement-for-students-educators",
+        "https://www.2news.com/news/local/unr-launches-pack-ai-to-prepare-students-for-ai-driven-workforce/article_a134a69b-18ff-4f3f-b6f5-1b441b38a2c5.html"
+      ]
+    },
+    {
+      "title": "Required AI literacy module in NevadaFIT first-year experience",
+      "description": "Beginning Fall 2025, all new students must complete an introduction-to-AI module as part of the NevadaFIT Freshman Intensive Transition Program covering AI use, ethics, academic integrity, and UNR's AI policy.",
+      "significance": "Converts AI literacy from elective enrichment into a universal first-year graduation prerequisite, a governance pattern few R1s have operationalized at this scale.",
+      "date_announced": "2025-08-13",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "syllabus_level_policy",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "PACK AI / institutional",
+        "description": "Operational investment in curriculum module development and NevadaFIT integration"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal to UNR"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Makes baseline AI literacy a shared floor for all matriculants and links curriculum to UAM 6,502 academic integrity",
+      "source_urls": [
+        "https://www.unr.edu/nevada-today/news/2025/pack-ai-launch",
+        "https://www.unr.edu/ai/students/guidelines",
+        "https://www.unr.edu/nevadafit"
+      ]
+    },
+    {
+      "title": "Three-course Nevada Online generative AI certificate",
+      "description": "Nevada Online, led by Vice Provost Carly Ries, is developing a three-course online certificate covering introduction to AI, AI ethics (taught by philosophy professor Jason Fisette), and AI applications, open to all UNR students and modeled on the University of Florida's nationally known certificate.",
+      "significance": "Extends AI literacy beyond the freshman module into a credentialed pathway and mirrors top-of-field peer programs, signaling UNR is investing in scalable workforce credentials rather than one-off courses.",
+      "date_announced": "2025-08-13",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Nevada Online / institutional",
+        "description": "Curriculum development investment; no dollar figure disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Florida (curriculum model)"
+          ],
+          "description": "Certificate intentionally mirrors the University of Florida's successful AI certificate program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Normalizes ethics as a required element of credentialed AI learning at UNR",
+      "source_urls": [
+        "https://nevadasagebrush.com/2025/09/25/a-peek-into-pack-ai-and-its-implications/",
+        "https://www.govtech.com/education/higher-ed/university-of-nevada-initiative-brings-ai-to-freshmen-faculty",
+        "https://nevadaonline.unr.edu/"
+      ]
+    },
+    {
+      "title": "OIT Artificial Intelligence Usage Policy",
+      "description": "The Office of Information Technology's AI Usage Policy sets enforceable guardrails for all AI use on university-owned or managed computing resources, covering data classification (FERPA/GLBA/HIPAA/PCI), vendor risk management, academic integrity (UAM 6,502), human review of AI outputs, and periodic policy review.",
+      "significance": "One of the more operationally detailed public-university AI usage policies, binding employees, students, contractors, vendors, third parties, and guests to a single framework.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "OIT operating",
+        "description": "Policy development and enforcement cost only"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Only officially licensed enterprise AI tool at UNR"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets baseline enforceable expectations for vendor assessment and data privacy across all AI use",
+      "source_urls": [
+        "https://www.unr.edu/oit/policies/artificial-intelligence-policy",
+        "https://www.unr.edu/ai/technology-usage"
+      ]
+    },
+    {
+      "title": "Digital Wolf Pack Initiative with AI-capable devices",
+      "description": "All incoming full-time freshmen and transfer students receive an Apple iPad Air or Microsoft Surface Pro preloaded with Microsoft Copilot and Apple Intelligence via the Digital Wolf Pack Initiative, closing the AI-tool access gap across the incoming cohort.",
+      "significance": "Goes beyond licensing to physical hardware equity, ensuring every first-year student has identical AI tool access regardless of income - a distinctive equity move among R1s.",
+      "date_announced": "2025-08-13",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_tool_equity",
+        "digital_divide_and_access",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Institutional (Digital Wolf Pack Initiative)",
+        "description": "Multi-million-dollar device program with Copilot and Apple Intelligence added in 2025; exact AI uplift not itemized"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Apple",
+            "Microsoft"
+          ],
+          "description": "Device and licensed AI feature delivery"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "iPad Air",
+          "vendor": "Apple",
+          "role": "Student device platform with Apple Intelligence AI features"
+        },
+        {
+          "name": "Surface Pro",
+          "vendor": "Microsoft",
+          "role": "Alternative student device platform with Copilot"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Equity-first AI access aligned with university acceptable use policy",
+      "source_urls": [
+        "https://www.unr.edu/device",
+        "https://www.unr.edu/nevada-today/news/2025/pack-ai-launch"
+      ]
+    },
+    {
+      "title": "NSF AI Institute for Dynamic Systems (partnership)",
+      "description": "UNR Mechanical Engineering professors Aditya Nair and Floris van Breugel are founding members of the NSF-funded $20 million AI Institute for Dynamic Systems, led by the University of Washington with partners including Columbia, Harvard, UH-Manoa, Montana State, Boise State, UA-Anchorage, and Portland State. The institute focuses on physics-informed AI for dynamic systems.",
+      "significance": "Embeds UNR in a top-tier NSF AI Institute, placing the university in a national consortium on physics-informed machine learning.",
+      "date_announced": "2021-07-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "National Science Foundation (institute total; UNR receives sub-award)",
+        "description": "Five-year $20M NSF AI Institute program; UNR is one of 9 partner institutions"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Washington (lead)",
+            "Columbia University",
+            "Harvard University",
+            "University of Hawaii at Manoa",
+            "Montana State University",
+            "Boise State University",
+            "University of Alaska Anchorage",
+            "Portland State University"
+          ],
+          "description": "Multi-institution NSF AI Institute consortium"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/nevada-today/news/2021/ai-for-dynamic-systems",
+        "https://dynamicsai.org/page-2/reno/",
+        "https://aiinstitutes.org/institute-dynamics-ai/"
+      ]
+    },
+    {
+      "title": "IFML / UT-Austin medical AI partnership and $1M sub-award",
+      "description": "Assistant Professor Ankita Shukla and Foundation Professor George Bebis received a $1 million sub-award (announced March 6, 2026) from the NSF-funded Institute for Foundations of Machine Learning (IFML) at UT-Austin to develop robust, reliable medical AI in three domains: breast cancer imaging, clinical text, and sleep-disorder diagnosis, with K-12 teacher outreach.",
+      "significance": "Expands UNR's AI research portfolio into safety-critical medical AI and connects the institution to one of the major NSF ML institutes at UT-Austin.",
+      "date_announced": "2026-03-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "algorithmic_bias",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 1000000,
+        "funding_source": "NSF via IFML at UT-Austin (sub-award to UNR)",
+        "description": "Five-year sub-award supporting medical AI robustness and fairness research with middle/high school outreach"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Texas at Austin / Institute for Foundations of Machine Learning (IFML)",
+            "local breast radiologists",
+            "regional middle and high schools"
+          ],
+          "description": "UT-Austin IFML is the NSF parent institute; UNR leads medical AI subprojects with clinical and K-12 partners"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/nevada-today/news/2026/medical-ai-research-project"
+      ]
+    },
+    {
+      "title": "Bridge to Research in AI and Neurocomputing (BRAIN) Core",
+      "description": "A University Core Facility within the Center for Integrative Neuroscience providing training, technical support, and equipment in machine learning/AI, statistical analysis, and virtual/augmented reality for UNR researchers across disciplines.",
+      "significance": "Lowers the barrier for non-CS faculty to incorporate ML/AI methods into their research, signaling AI becoming a shared scientific infrastructure rather than a CS-only specialty.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional / NIH-supported center infrastructure",
+        "description": "Core facility fees and institutional contribution"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Center for Integrative Neuroscience (UNR)"
+          ],
+          "description": "Internal cross-department facility"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/neuroscience/center/core-facilities/brain-core"
+      ]
+    },
+    {
+      "title": "Pronghorn HPC cluster expansion with NSF CC* NvBAISEC award",
+      "description": "UNR expanded its Pronghorn high-performance computing cluster with a 10-node NVIDIA A100 GPU partition via the NSF CC* 'Nevada Bridge to AI-enabled Scientific & Engineering Computing' (NvBAISEC) award (#2201599), creating a central AI/ML compute facility for campus researchers. Pronghorn is hosted at the Switch Citadel data center via a $3.4M Switch services donation.",
+      "significance": "Provides the GPU backbone for Reno's growing AI research portfolio and illustrates a public-private infrastructure model tying university HPC to Nevada's commercial data-center ecosystem.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 3400000,
+        "funding_source": "Switch (in-kind data-center donation) plus NSF CC* program (A100 GPU cluster)",
+        "description": "$3.4M in Switch data-center services for Pronghorn hosting; NSF CC* award funding for A100 GPU expansion"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Switch (data center)",
+            "NVIDIA (GPUs)",
+            "National Science Foundation"
+          ],
+          "description": "Industry hosting and federal research infrastructure funding"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "A100 GPUs",
+          "vendor": "NVIDIA",
+          "role": "GPU compute nodes for AI/ML workloads"
+        },
+        {
+          "name": "Citadel Data Center",
+          "vendor": "Switch",
+          "role": "Hosting and power for Pronghorn cluster"
+        },
+        {
+          "name": "Spectrum Scale",
+          "vendor": "IBM",
+          "role": "High-performance storage file system"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/cyberinfrastructure/high-performance-computing",
+        "https://www.unr.edu/ncar/infrastructure/hpcp",
+        "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2201599",
+        "https://www.datacenterknowledge.com/colocation/switch-donates-34m-data-center-services-renos-new-supercomputer"
+      ]
+    },
+    {
+      "title": "Intelligent Mobility Initiative and Nevada Autonomous Living Labs",
+      "description": "Led by Civil & Environmental Engineering Professor Hao Xu through the Nevada Center for Applied Research, the Intelligent Mobility Initiative is a multi-year connected-and-autonomous-vehicle Living Lab spanning Reno, Sparks, and Carson City, using an autonomous Lincoln MKZ testbed, LiDAR, DSRC, traffic signals, and blockchain/IoT (Filament partnership) for real-world AV research.",
+      "significance": "A rare state-and-city-scale autonomous vehicle Living Lab anchored at an R1; it demonstrates how regional transportation infrastructure can become applied AI research infrastructure.",
+      "date_announced": "2017-01-18",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Nevada Governor's Office of Economic Development, industry partners, federal grants",
+        "description": "Coalition-funded initiative via Nevada Center for Applied Research"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Nevada Governor's Office of Economic Development (GOED)",
+            "Regional Transportation Commission (RTC)",
+            "City of Reno",
+            "City of Sparks",
+            "Carson City",
+            "Filament (IoT/blockchain)"
+          ],
+          "description": "Regional public-private-academic coalition"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Lincoln MKZ autonomous testbed",
+          "vendor": "Ford/Lincoln",
+          "role": "Hybrid-autonomous test vehicle"
+        },
+        {
+          "name": "Blockchain IoT platform",
+          "vendor": "Filament",
+          "role": "Autonomous vehicle smart-city data exchange"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Informs Nevada state transportation AI regulation through academic and judicial research partners",
+      "source_urls": [
+        "https://www.unr.edu/ncar/programs/intelligent-mobility",
+        "https://www.unr.edu/ncar/programs/nevada-autonomous",
+        "https://www.unr.edu/nevada-today/news/2023/intelligent-mobility",
+        "https://www.globenewswire.com/en/news-release/2019/04/23/1807985/0/en/University-of-Nevada-Reno-s-Intelligent-Mobility-Initiative-Selects-Filament-s-Blockchain-IoT-Technology-for-Autonomous-Vehicle-Smart-City-Project.html"
+      ]
+    },
+    {
+      "title": "Faculty development workshops in generative AI teaching",
+      "description": "The Advancements in Teaching Excellence Program, directed by Dr. Sarah Cummings, delivers workshops to UNR faculty on incorporating generative AI into courses, assignments, tutoring, and ethics, with experienced faculty peers leading the sessions and sharing best practices.",
+      "significance": "Institutionalizes faculty AI upskilling rather than leaving it to individual colleges or departments; critical enabler of the required student AI literacy module.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional / Teaching Excellence budget",
+        "description": "Operating-cost investment in faculty workshops and digital learning resources"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports the university's syllabus-level AI policy by training faculty to author credible AI statements",
+      "source_urls": [
+        "https://www.unr.edu/teaching-excellence",
+        "https://www.unr.edu/ai/teaching-with-ai",
+        "https://www.unr.edu/digital-learning/instructional-strategies/understanding-and-integrating-generative-ai-in-teaching"
+      ]
+    },
+    {
+      "title": "Robotics M.S. degree program",
+      "description": "UNR's College of Engineering launched a multidisciplinary Master's of Science in Robotics with thesis and courses-only options, covering kinematics, dynamics, sensing, actuation, computation, human-robot interaction, and autonomous systems.",
+      "significance": "Adds a graduate credential pathway into applied AI / robotics, complementing the existing CSE M.S./Ph.D. and robotics minor; important for workforce pipeline with regional autonomous vehicle and aerospace industries.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Engineering",
+        "description": "Academic program investment"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal interdisciplinary program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/engineering/academics/robotics-ms-degree",
+        "https://www.unr.edu/engineering/nevada-engineering/robotics-masters-program-debuts",
+        "https://catalog.unr.edu/preview_program.php?catoid=58&poid=245326"
+      ]
+    },
+    {
+      "title": "CREDIT+ center for AI-enabled mission-critical data analysis",
+      "description": "Electrical Engineering Associate Professor Hao Xu secured a $1 million Department of Defense grant in Fall 2024 to establish the CREDIT+ center (Advancing Data Analysis for Mission-Critical Applications in the era of Artificial Intelligence).",
+      "significance": "Deepens UNR's federal AI research portfolio into defense-relevant data analysis and mission-critical reliability.",
+      "date_announced": "2024-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 1000000,
+        "funding_source": "U.S. Department of Defense",
+        "description": "DoD grant to establish CREDIT+ center"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Defense"
+          ],
+          "description": "DoD-funded center at UNR"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/nevada-today/news/2025/hoeper-professor"
+      ]
+    },
+    {
+      "title": "NSF CAREER award: Physics-Informed Machine Learning for Geostructural Systems",
+      "description": "Civil Engineering Assistant Professor Elnaz Seylabi won a 5-year, $608,000 NSF CAREER award for 'A Physics-Informed Machine Learning (PIML) Framework for Surrogate Modeling of Geostructural Systems.'",
+      "significance": "Illustrates how UNR faculty are winning competitive NSF AI/ML awards outside the traditional CS disciplines and applying ML to infrastructure resilience.",
+      "date_announced": "2025-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 608000,
+        "funding_source": "National Science Foundation (CAREER)",
+        "description": "5-year Faculty Early Career Development Program award"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF CAREER award"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.unr.edu/nevada-today/news/2025/career-award-elnaz-seylabi"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Bridge to Research in AI and Neurocomputing (BRAIN) Core",
+      "focus": "ML/AI, statistical analysis, VR/AR shared core for cross-disciplinary research through the Center for Integrative Neuroscience",
+      "founded": null,
+      "url": "https://www.unr.edu/neuroscience/center/core-facilities/brain-core"
+    },
+    {
+      "name": "Nevada Center for Applied Research (NCAR)",
+      "focus": "Applied research and technology development; host of Intelligent Mobility and Nevada Autonomous programs; Pronghorn HPC administration",
+      "founded": null,
+      "url": "https://www.unr.edu/ncar"
+    },
+    {
+      "name": "Advanced Robotics and Automation Laboratory (ARA)",
+      "focus": "Mobile robotics, multi-robot coordination, AI-driven bridge and infrastructure inspection (Dr. Hung La)",
+      "founded": null,
+      "url": "https://www.unr.edu/cse/research/intelligent-systems"
+    },
+    {
+      "name": "Autonomous Robots Laboratory",
+      "focus": "Long-term autonomous operation in complex environments (Dr. Parikshit Maini)",
+      "founded": null,
+      "url": "https://www.unr.edu/cse/research/intelligent-systems"
+    },
+    {
+      "name": "Computer Vision Laboratory",
+      "focus": "Object recognition, 3D reconstruction, human activity analysis, biometrics (George Bebis, Mircea Nicolescu)",
+      "founded": null,
+      "url": "https://www.unr.edu/cse/research/intelligent-systems"
+    },
+    {
+      "name": "Evolutionary Computing Systems Laboratory",
+      "focus": "Evolutionary machine learning for game AI and optimization (Dr. Sushil Louis)",
+      "founded": null,
+      "url": "https://www.unr.edu/cse/research/intelligent-systems"
+    },
+    {
+      "name": "Robotics Research Laboratory",
+      "focus": "Biologically inspired robotics and human-robot interaction (Monica Nicolescu, David Feil-Seifer)",
+      "founded": null,
+      "url": "https://www.unr.edu/cse/research/intelligent-systems"
+    },
+    {
+      "name": "CREDIT+ (Center for Data Analysis in Mission-Critical AI)",
+      "focus": "DoD-funded center on AI-enabled data analysis for mission-critical applications (Hao Xu)",
+      "founded": "2024",
+      "url": "https://www.unr.edu/nevada-today/news/2025/hoeper-professor"
+    },
+    {
+      "name": "Intelligent Mobility / Nevada Autonomous",
+      "focus": "Connected and autonomous vehicle research Living Labs spanning Reno-Sparks-Carson City",
+      "founded": "2017",
+      "url": "https://www.unr.edu/ncar/programs/intelligent-mobility"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Nevada Online Generative AI Certificate (3 courses: intro, ethics, applications)",
+      "level": "both",
+      "launched": "2025-08",
+      "url": "https://nevadaonline.unr.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Robotics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.unr.edu/engineering/academics/robotics-ms-degree"
+    },
+    {
+      "type": "minor",
+      "name": "Robotics Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.unr.edu/degrees/minors/robotics-minor"
+    },
+    {
+      "type": "minor",
+      "name": "Unmanned Autonomous Systems Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.unr.edu/content.php?navoid=118766"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. / Ph.D. in Computer Science & Engineering (Intelligent & Autonomous Systems track)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.unr.edu/cse/graduate-program"
+    },
+    {
+      "type": "course",
+      "name": "One-credit Introduction to AI (Lake Tahoe campus)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://www.unr.edu/ai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-08",
+      "url": "https://www.unr.edu/ai/technology-usage"
+    },
+    {
+      "vendor": "Apple",
+      "product": "Apple Intelligence (on iPads issued through Digital Wolf Pack)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-08",
+      "url": "https://www.unr.edu/device"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Pronghorn",
+    "gpu_count": 57,
+    "url": "https://www.unr.edu/cyberinfrastructure/high-performance-computing",
+    "summary": "Pronghorn is UNR's primary HPC cluster, hosted at Switch's Citadel Campus under a $3.4M in-kind Switch donation. The base configuration provides 108 CPU nodes with 3,456 cores and 24.8 TiB RAM, a GPU partition with 44 NVIDIA Tesla P100 GPUs, and a visualization partition with 3 NVIDIA Tesla V100 GPUs, plus 2 PiB IBM Spectrum Scale storage, all interconnected over 100 Gb/s Intel Omni-Path. An NSF CC* award (NvBAISEC, #2201599) added a 10-node NVIDIA A100 GPU cluster expressly to support campus AI/ML workloads. The BRAIN Core provides additional ML/AI services for researchers."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF AI Institute for Dynamic Systems (UNR as partner institution)",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation",
+      "purpose": "Five-year funding for multi-university NSF AI Institute on physics-informed AI for dynamic systems; UNR is one of 9 partner universities",
+      "date": "2021-07",
+      "url": "https://www.unr.edu/nevada-today/news/2021/ai-for-dynamic-systems"
+    },
+    {
+      "title": "IFML / UT-Austin medical AI sub-award to UNR",
+      "amount_usd": 1000000,
+      "source": "NSF via IFML (UT-Austin)",
+      "purpose": "Robust/reliable medical AI research in breast cancer imaging, clinical text, and sleep disorders, with regional K-12 outreach",
+      "date": "2026-03",
+      "url": "https://www.unr.edu/nevada-today/news/2026/medical-ai-research-project"
+    },
+    {
+      "title": "CREDIT+ center establishment grant",
+      "amount_usd": 1000000,
+      "source": "U.S. Department of Defense",
+      "purpose": "Establish the CREDIT+ center for advancing data analysis for mission-critical AI applications",
+      "date": "2024-09",
+      "url": "https://www.unr.edu/nevada-today/news/2025/hoeper-professor"
+    },
+    {
+      "title": "NSF CAREER award - Physics-Informed ML for Geostructural Systems (Elnaz Seylabi)",
+      "amount_usd": 608000,
+      "source": "National Science Foundation (CAREER program)",
+      "purpose": "5-year faculty early-career grant on physics-informed ML for geostructural surrogate modeling",
+      "date": "2025-01",
+      "url": "https://www.unr.edu/nevada-today/news/2025/career-award-elnaz-seylabi"
+    },
+    {
+      "title": "Switch data-center donation for Pronghorn HPC hosting",
+      "amount_usd": 3400000,
+      "source": "Switch Inc. (in-kind)",
+      "purpose": "Donated data-center services (power, space, cooling, network) for Pronghorn HPC cluster at Switch Citadel Campus",
+      "date": "2017-11",
+      "url": "https://www.datacenterknowledge.com/colocation/switch-donates-34m-data-center-services-renos-new-supercomputer"
+    },
+    {
+      "title": "NSF CC* NvBAISEC (Nevada Bridge to AI-enabled Scientific & Engineering Computing)",
+      "amount_usd": null,
+      "source": "National Science Foundation (CC* program, Award #2201599)",
+      "purpose": "Added a 10-node NVIDIA A100 GPU cluster to Pronghorn for AI/ML workloads and broadened campus AI compute access",
+      "date": "2022-08",
+      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2201599"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Copilot Chat licensing and Surface Pro devices for students; endorsed enterprise AI tool",
+      "date": "2025-08",
+      "url": "https://www.unr.edu/ai/technology-usage"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Apple",
+      "purpose": "iPad Air devices with Apple Intelligence for incoming students via Digital Wolf Pack Initiative",
+      "date": "2025-08",
+      "url": "https://www.unr.edu/device"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Switch Inc.",
+      "purpose": "Data-center hosting for Pronghorn HPC; in-kind $3.4M services",
+      "date": "2017-11",
+      "url": "https://www.datacenterknowledge.com/colocation/switch-donates-34m-data-center-services-renos-new-supercomputer"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Filament",
+      "purpose": "Blockchain / IoT infrastructure for Intelligent Mobility autonomous vehicle smart-city project",
+      "date": "2019-04",
+      "url": "https://www.globenewswire.com/en/news-release/2019/04/23/1807985/0/en/University-of-Nevada-Reno-s-Intelligent-Mobility-Initiative-Selects-Filament-s-Blockchain-IoT-Technology-for-Autonomous-Vehicle-Smart-City-Project.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Washington (AI Institute for Dynamic Systems lead)",
+      "purpose": "NSF AI Institute partnership on physics-informed ML",
+      "date": "2021-07",
+      "url": "https://dynamicsai.org/page-2/reno/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Texas at Austin - Institute for Foundations of Machine Learning (IFML)",
+      "purpose": "Medical AI research sub-award on breast cancer imaging, clinical text, sleep disorders",
+      "date": "2026-03",
+      "url": "https://www.unr.edu/nevada-today/news/2026/medical-ai-research-project"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Nevada Governor's Office of Economic Development (GOED)",
+      "purpose": "Co-funding and coordination for Nevada Center for Applied Research programs including Intelligent Mobility",
+      "date": null,
+      "url": "https://www.unr.edu/ncar"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Regional Transportation Commission (RTC) of Washoe County",
+      "purpose": "Intelligent Mobility public bus AI-based signal/sign damage detection and reporting",
+      "date": "2023-01",
+      "url": "https://www.unr.edu/nevada-today/news/2023/intelligent-mobility"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft Copilot Chat (student access via Digital Wolf Pack)",
+      "scope": "All incoming freshmen and transfer students on university-issued Surface or iPad devices",
+      "url": "https://www.unr.edu/ai/students"
+    },
+    {
+      "type": "other",
+      "name": "Apple Intelligence on iPad Air",
+      "scope": "All incoming freshmen and transfer students who choose Apple devices through Digital Wolf Pack",
+      "url": "https://www.unr.edu/device"
+    },
+    {
+      "type": "other",
+      "name": "NevadaFIT required AI literacy module",
+      "scope": "All new students during Freshman Intensive Transition Program; covers ethics, academic integrity, and policy",
+      "url": "https://www.unr.edu/ai/students/guidelines"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Digital Wolf Pack Initiative AI tool access",
+      "description": "Every incoming full-time freshman and transfer student receives a university-issued iPad Air or Surface Pro preloaded with Microsoft Copilot Chat and Apple Intelligence, closing the AI tool access gap across income levels.",
+      "url": "https://www.unr.edu/device"
+    },
+    {
+      "title": "K-12 AI education outreach via IFML medical AI partnership",
+      "description": "The UT-Austin IFML sub-award includes partnering with regional middle and high school teachers to integrate AI education into K-12 curricula, extending UNR's AI mission into underserved community schools.",
+      "url": "https://www.unr.edu/nevada-today/news/2026/medical-ai-research-project"
+    },
+    {
+      "title": "UNR Digital Accessibility (WCAG 2.1 AA) policy",
+      "description": "UNR's ICT accessibility policy holds AI-infused digital content to WCAG 2.1 Level AA and requires equivalent alternatives when technical infeasibility applies.",
+      "url": "https://www.unr.edu/accessibility/policy-and-procedures/policy"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Nevada",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Nevada enacted AB 406 in the 2025 legislative session, prohibiting AI use by K-12 counselors, psychologists, and social workers (except administrative tasks) and directing the Nevada Department of Education to guide responsible AI use in student mental health services. The Nevada Department of Education also published 'Nevada's STELLAR Pathway to AI Teaching and Learning' in April 2025. At the higher-ed system level, NSHE established the Emerging Technology Advisory Group (ETAG) under a charter dated August 24, 2025 to align AI best practices across its institutions; UNR actively participates and contributed to the system-wide 'Artificial Intelligence at NSHE August 2025' document. There is no Nevada executive order specifically governing higher-education AI use.",
+    "urls": [
+      "https://doe.nv.gov/news-media/2025-press-releases/nevada-department-of-education-announces-release-of-ai-ethics-document",
+      "https://nshe.nevada.edu/ai/",
+      "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Nevada-Reno has become one of the more strategically coherent R1 AI adopters in the Mountain West. Under President Brian Sandoval, the August 2025 launch of PACK AI - branded as the university's 'next institutional imperative' - coordinates previously distributed efforts into a single campus-wide operating system spanning policy, curriculum, infrastructure, and faculty development. On the student-facing side, PACK AI mandates an AI literacy module in the NevadaFIT freshman orientation, delivers Microsoft Copilot Chat and Apple Intelligence to every incoming freshman and transfer student through the Digital Wolf Pack device program, and is spinning up a three-course Nevada Online generative AI certificate modeled on the University of Florida. Governance is anchored by a campus-wide PACK AI working group, the Office of Information Technology's AI Usage Policy (which requires vendor risk assessments, data-classification compliance, and human review of AI outputs), faculty syllabus statement templates, and alignment with NSHE's Emerging Technology Advisory Group. On the research side, UNR is a founding partner in the NSF AI Institute for Dynamic Systems ($20M), has a new $1M sub-award from UT-Austin's IFML for robust medical AI, a $1M DoD-funded CREDIT+ center, and a $608K NSF CAREER award on physics-informed ML. The Pronghorn HPC cluster, hosted at Switch's Citadel data center, runs the NSF CC*-funded NvBAISEC A100 GPU partition and is complemented by the BRAIN Core ML/AI shared facility. The Nevada Center for Applied Research's Intelligent Mobility and Nevada Autonomous programs make Reno-Sparks-Carson City a Living Lab for connected and autonomous vehicles in partnership with Filament, RTC, and GOED. Equity is built into device distribution rather than grafted on, and the university aligns with state-level AI education guidance (STELLAR, AB 406) even where those laws target K-12. Gaps include no named chief AI officer, no dedicated AI ethics center, and no publicly disclosed totals for PACK AI funding.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.unr.edu/ai",
+      "https://www.unr.edu/nevada-today/news/2025/pack-ai-launch",
+      "https://www.unr.edu/oit/policies/artificial-intelligence-policy",
+      "https://www.unr.edu/ai/technology-usage",
+      "https://www.unr.edu/ai/students/guidelines",
+      "https://www.unr.edu/ai/teaching-with-ai/academic-integrity",
+      "https://www.unr.edu/ai/teaching-with-ai/syllabus",
+      "https://www.unr.edu/teaching-excellence",
+      "https://www.unr.edu/digital-learning/instructional-strategies/understanding-and-integrating-generative-ai-in-teaching",
+      "https://nevadasagebrush.com/2025/09/25/a-peek-into-pack-ai-and-its-implications/",
+      "https://www.govtech.com/education/higher-ed/university-of-nevada-initiative-brings-ai-to-freshmen-faculty",
+      "https://www.carsonnow.org/08/13/2025/unr-announces-new-pack-ai-curriculum-requirement-for-students-educators",
+      "https://www.2news.com/news/local/unr-launches-pack-ai-to-prepare-students-for-ai-driven-workforce/article_a134a69b-18ff-4f3f-b6f5-1b441b38a2c5.html",
+      "https://www.kolotv.com/2025/08/13/unr-launches-new-ai-initiative/",
+      "https://www.unr.edu/device",
+      "https://nevadaonline.unr.edu/",
+      "https://www.unr.edu/nevadafit",
+      "https://www.unr.edu/president",
+      "https://www.unr.edu/about/leadership",
+      "https://www.unr.edu/provost",
+      "https://www.unr.edu/oit",
+      "https://www.unr.edu/cse/research/intelligent-systems",
+      "https://www.unr.edu/cse/graduate-program",
+      "https://www.unr.edu/ncar",
+      "https://www.unr.edu/ncar/programs/intelligent-mobility",
+      "https://www.unr.edu/ncar/programs/nevada-autonomous",
+      "https://www.unr.edu/ncar/infrastructure/hpcp",
+      "https://www.unr.edu/cyberinfrastructure/high-performance-computing",
+      "https://www.unr.edu/neuroscience/center/core-facilities/brain-core",
+      "https://www.unr.edu/engineering/academics/robotics-ms-degree",
+      "https://www.unr.edu/engineering/nevada-engineering/robotics-masters-program-debuts",
+      "https://catalog.unr.edu/preview_program.php?catoid=58&poid=245326",
+      "https://catalog.unr.edu/content.php?navoid=118766",
+      "https://www.unr.edu/degrees/minors/robotics-minor",
+      "https://www.unr.edu/nevada-today/news/2026/medical-ai-research-project",
+      "https://www.unr.edu/nevada-today/news/2025/hoeper-professor",
+      "https://www.unr.edu/nevada-today/news/2025/career-award-elnaz-seylabi",
+      "https://www.unr.edu/nevada-today/news/2021/ai-for-dynamic-systems",
+      "https://www.unr.edu/nevada-today/news/2023/intelligent-mobility",
+      "https://www.unr.edu/accessibility/policy-and-procedures/policy",
+      "https://dynamicsai.org/page-2/reno/",
+      "https://aiinstitutes.org/institute-dynamics-ai/",
+      "https://nshe.nevada.edu/ai/",
+      "https://doe.nv.gov/news-media/2025-press-releases/nevada-department-of-education-announces-release-of-ai-ethics-document",
+      "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/",
+      "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2201599",
+      "https://www.datacenterknowledge.com/colocation/switch-donates-34m-data-center-services-renos-new-supercomputer",
+      "https://www.globenewswire.com/en/news-release/2019/04/23/1807985/0/en/University-of-Nevada-Reno-s-Intelligent-Mobility-Initiative-Selects-Filament-s-Blockchain-IoT-Technology-for-Autonomous-Vehicle-Smart-City-Project.html"
+    ],
+    "search_queries": [
+      "University of Nevada, Reno AI strategy artificial intelligence 2025 2026",
+      "University of Nevada, Reno AI policy acceptable use generative AI guidelines",
+      "University of Nevada, Reno president CIO provost 2025",
+      "University of Nevada, Reno AI research center institute lab",
+      "University of Nevada, Reno AI degree program certificate minor",
+      "University of Nevada, Reno Digital Wolf Pack Initiative Apple Intelligence Microsoft Copilot",
+      "University of Nevada, Reno AI grant NSF funding machine learning research",
+      "Nevada state AI policy executive order higher education universities 2025",
+      "University of Nevada, Reno NevadaFIT AI module introduction first-year",
+      "University of Nevada, Reno AI chatbot student virtual assistant predictive analytics",
+      "University of Nevada, Reno AI working group governance committee",
+      "University of Nevada, Reno Intelligent Mobility Initiative autonomous vehicles",
+      "University of Nevada, Reno HPC supercomputer Pronghorn GPU cluster computing",
+      "University of Nevada, Reno AI ethics accessibility equity digital divide",
+      "University of Nevada, Reno AI gift donation million endowment",
+      "University of Nevada, Reno AI faculty training workshop teaching excellence",
+      "University of Nevada, Reno robotics MS master degree program 2024 2025",
+      "University of Nevada, Reno AI Institute Dynamic Systems NSF 20 million",
+      "University of Nevada, Reno AI generative AI certificate Nevada Online three-course",
+      "University of Nevada, Reno enrollment 2025 total students"
+    ],
+    "gaps_acknowledged": [
+      "No named chief AI officer or dedicated chief AI strategist; leadership distributed across President's office, OIT (VP Sasi Pillay), Nevada Online (Carly Ries), and the Advancements in Teaching Excellence Program",
+      "Dollar figures for PACK AI as a program are not disclosed publicly",
+      "No dedicated campus-wide AI chatbot or predictive-analytics retention product publicly identified; student-facing AI is primarily Microsoft Copilot and Apple Intelligence on issued devices",
+      "Exact AI Usage Policy adoption date not stated on the OIT policy page; 2025 inferred from context",
+      "Enrollment figure (24,061) combines undergraduate and graduate totals drawn from DataDen; fall-term-specific numbers for 2025-2026 not verified",
+      "No published controversies or AI-specific litigation located"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "workforce_regional_development",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 9,
+        "research_compute_powerhouse": 28,
+        "curriculum_led": 14,
+        "governance_led": 14,
+        "student_success_led": 5,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 9,
+      "scientific_discovery_signal_count": 7,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Pronghorn",
+        "gpu_count": 57,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 26008000,
+      "funding_source_buckets": {
+        "public_federal_state": 12,
+        "institutional": 7,
+        "other_unclear": 1
+      },
+      "partnership_count": 8
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Copilot",
+            "Copilot Chat",
+            "Surface Pro"
+          ]
+        },
+        {
+          "vendor": "Apple Apple Intelligence",
+          "mentions": 1,
+          "products": [
+            "Apple Intelligence"
+          ]
+        },
+        {
+          "vendor": "Apple Apple Intelligence (on iPads issued through Digital Wolf Pack)",
+          "mentions": 1,
+          "products": [
+            "Apple Intelligence (on iPads issued through Digital Wolf Pack)"
+          ]
+        },
+        {
+          "vendor": "Apple iPad Air",
+          "mentions": 1,
+          "products": [
+            "iPad Air"
+          ]
+        },
+        {
+          "vendor": "Filament Blockchain IoT platform",
+          "mentions": 1,
+          "products": [
+            "Blockchain IoT platform"
+          ]
+        },
+        {
+          "vendor": "Ford/Lincoln Lincoln MKZ autonomous testbed",
+          "mentions": 1,
+          "products": [
+            "Lincoln MKZ autonomous testbed"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "Spectrum Scale"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "A100 GPUs"
+          ]
+        },
+        {
+          "vendor": "Switch Citadel Data Center",
+          "mentions": 1,
+          "products": [
+            "Citadel Data Center"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "productivity",
+          "title": "PACK AI institutional AI initiative launch",
+          "summary": "PACK AI marks one of the most complete, presidentially sponsored AI operating systems among R1 publics: it folds policy, student tools, curriculum, faculty training, and governance into a single institutional brand.",
+          "source_url": "https://www.unr.edu/ai"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Required AI literacy module in NevadaFIT first-year experience",
+          "summary": "Converts AI literacy from elective enrichment into a universal first-year graduation prerequisite, a governance pattern few R1s have operationalized at this scale.",
+          "source_url": "https://www.unr.edu/nevada-today/news/2025/pack-ai-launch"
+        },
+        {
+          "claim_type": "career",
+          "title": "Three-course Nevada Online generative AI certificate",
+          "summary": "Extends AI literacy beyond the freshman module into a credentialed pathway and mirrors top-of-field peer programs, signaling UNR is investing in scalable workforce credentials rather than one-off courses.",
+          "source_url": "https://nevadasagebrush.com/2025/09/25/a-peek-into-pack-ai-and-its-implications/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "OIT Artificial Intelligence Usage Policy",
+          "summary": "One of the more operationally detailed public-university AI usage policies, binding employees, students, contractors, vendors, third parties, and guests to a single framework.",
+          "source_url": "https://www.unr.edu/oit/policies/artificial-intelligence-policy"
+        },
+        {
+          "claim_type": "career",
+          "title": "Robotics M.S. degree program",
+          "summary": "Adds a graduate credential pathway into applied AI / robotics, complementing the existing CSE M.S./Ph.D. and robotics minor; important for workforce pipeline with regional autonomous vehicle and aerospace industries.",
+          "source_url": "https://www.unr.edu/engineering/academics/robotics-ms-degree"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No named chief AI officer or dedicated chief AI strategist; leadership distributed across President's office, OIT (VP Sasi Pillay), Nevada Online (Carly Ries), and the Advancements in Teaching Excellence Program",
+        "Dollar figures for PACK AI as a program are not disclosed publicly",
+        "No dedicated campus-wide AI chatbot or predictive-analytics retention product publicly identified; student-facing AI is primarily Microsoft Copilot and Apple Intelligence on issued devices",
+        "Exact AI Usage Policy adoption date not stated on the OIT policy page; 2025 inferred from context",
+        "Enrollment figure (24,061) combines undergraduate and graduate totals drawn from DataDen; fall-term-specific numbers for 2025-2026 not verified",
+        "No published controversies or AI-specific litigation located"
+      ]
+    }
+  }
+}

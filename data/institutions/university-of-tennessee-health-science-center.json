@@ -1,0 +1,1155 @@
+{
+  "institution": "University of Tennessee Health Science Center",
+  "slug": "university-of-tennessee-health-science-center",
+  "city_state": "Memphis, TN",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Tennessee System",
+  "enrollment": 3181,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Peter Buckley, MD (Chancellor)",
+      "url": "https://uthsc.edu/chancellor/about.php"
+    },
+    "provost": {
+      "name": "Cindy Russell",
+      "url": "https://www.uthsc.edu/chancellor/chancellor-cabinet.php"
+    },
+    "cio": {
+      "name": "Vikki Massey (Interim Vice Chancellor for Information Technology and CIO)",
+      "url": "https://www.uthsc.edu/chancellor/chancellor-cabinet.php"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "ITS AI Strategy Team",
+      "title": "Information Technology Services AI Strategy Team (UT Health Sciences ITS, in partnership with UT System Department of Technology Solutions)",
+      "url": "https://www.uthsc.edu/its/ai/index.php"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UTHSC Institutional AI Standard (IT0002-HSC-D)",
+        "url": "https://www.uthsc.edu/its/ai/index.php",
+        "year": 2024
+      },
+      {
+        "title": "UT System Board of Trustees Policy BT0035 - Policy on Artificial Intelligence",
+        "url": "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+        "year": 2025
+      },
+      {
+        "title": "UTHSC Acceptable Use of Generative AI (IT0002-HSC-A.02 / GP-004-02)",
+        "url": "https://policy.tennessee.edu/procedure/gp-004-02-acceptable-use-of-generative-ai/",
+        "year": 2023
+      }
+    ],
+    "summary": "UTHSC's AI posture combines UT-system-level policy (BT0035, effective February 28, 2025) with a campus-specific Institutional AI Standard and Acceptable Use Procedure managed by the Office of Cybersecurity and Information Technology Services. The campus aligns approved tooling (UT Verse, Microsoft Copilot, and the new UT AI Hub) to a three-tier data classification model and pairs that infrastructure with faculty development through the Teaching and Learning Center and AI-enabled research programs in the Center for Biomedical Informatics. In April 2026 UTHSC also co-founded the Mid-South AI Research Consortium with the University of Memphis, University of Arkansas, and University of Mississippi to pool regional AI research and workforce capacity."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://policy.tennessee.edu/procedure/gp-004-02-acceptable-use-of-generative-ai/",
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+      "https://www.uthsc.edu/its/ai/index.php"
+    ],
+    "adopted_date": "2023-10",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Three-tier course AI use categories: Unrestricted, Mixed, Total Prohibition (BT0035)",
+      "Faculty must specify permitted AI use in every syllabus or LMS course shell",
+      "No Level 1/2/3 data (PII, FERPA, HIPAA, research data, IP) may be entered into non-approved AI tools",
+      "Unclassified data defaults to Level 2 (high-risk)",
+      "CIO maintains the approved AI technology list and procurement matrix",
+      "Users must independently verify AI outputs and disclose AI use to publishers/recipients",
+      "Office of Institutional Compliance monitors implementation and reports to the Audit and Compliance Committee"
+    ],
+    "summary": "UTHSC operates under the UT System's BT0035 AI policy (effective 2025-02-28) and its own Acceptable Use of Generative AI procedure first adopted October 26, 2023 (version 2 issued March 1, 2025). The stance is comprehensive rather than restrictive: AI is embraced as a learning and research tool but governed by a three-tier course-use framework, a data classification policy that prohibits confidential/HIPAA data in unapproved tools, mandatory syllabus-level disclosure by faculty, and CIO-maintained approved-technology lists."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UTHSC Office of Cybersecurity",
+        "type": "office",
+        "scope": "Owns the Acceptable Use of Generative AI procedure and enforces data classification and security controls on AI tools.",
+        "url": "https://policy.tennessee.edu/procedure/gp-004-02-acceptable-use-of-generative-ai/"
+      },
+      {
+        "name": "UTHSC ITS AI Strategy Team",
+        "type": "office",
+        "scope": "Runs the UT AI Hub rollout, manages approved AI tools (UT Verse, Copilot), and triages AI tool review requests for the campus.",
+        "url": "https://www.uthsc.edu/its/ai/index.php"
+      },
+      {
+        "name": "UT System Office of Institutional Compliance (AI oversight under BT0035)",
+        "type": "office",
+        "scope": "Monitors implementation of BT0035 across UT campuses including UTHSC and reports to the Board of Trustees Audit and Compliance Committee.",
+        "url": "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/"
+      },
+      {
+        "name": "UTHSC Teaching and Learning Center (TLC) - AI Resources program",
+        "type": "office",
+        "scope": "Delivers faculty development, the AI in 30 webinar series, syllabus statement templates, and DOME seminars on UT Verse/Copilot.",
+        "url": "https://uthsc.edu/tlc/ai-resources.php"
+      }
+    ],
+    "summary": "UTHSC does not have a single standalone AI governance council or Chief AI Officer. Instead governance is distributed: the Office of Cybersecurity owns the acceptable-use procedure, an ITS AI Strategy Team runs approved tooling and procurement review, the UT System Office of Institutional Compliance handles BT0035 oversight, and the Teaching and Learning Center handles faculty-facing guidance and syllabus-policy support."
+  },
+  "initiatives": [
+    {
+      "title": "UT AI Hub launched as centralized multi-model AI platform",
+      "description": "In April 2026 UTHSC ITS, in partnership with the UT System Department of Technology Solutions and UT Knoxville's Office of Innovative Technologies, launched the UT AI Hub (aihub.tennessee.edu) - a centralized secure platform giving UTHSC faculty, staff and students free access to multiple frontier models including ChatGPT, Claude, and Grok, alongside UT Verse and Microsoft Copilot. The hub enforces institutional data protections so prompts are not exposed to public vendor endpoints.",
+      "significance": "Positions UTHSC as one of the first academic health centers to offer multi-vendor frontier-model access through a single institution-controlled gateway, rather than licensing one enterprise AI tool.",
+      "date_announced": "2026-04-22",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT System Department of Technology Solutions and UTHSC ITS",
+        "description": "Cost is absorbed centrally; hub access is free to all UTHSC students, faculty, and staff."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System Department of Technology Solutions",
+            "UT Knoxville Office of Innovative Technologies"
+          ],
+          "description": "Multi-campus system partnership to deliver a unified AI gateway."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Anthropic",
+            "xAI",
+            "Microsoft"
+          ],
+          "description": "Aggregated vendor access to GPT, Claude, Grok, and Copilot under institutional agreements."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UT AI Hub",
+          "vendor": "University of Tennessee System (internally operated)",
+          "role": "Gateway/platform"
+        },
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Available frontier LLM"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "Available frontier LLM"
+        },
+        {
+          "name": "Grok",
+          "vendor": "xAI",
+          "role": "Available frontier LLM"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Hub-based access lets the university extend data controls and BT0035 compliance to multiple commercial models rather than individually licensing each.",
+      "source_urls": [
+        "https://news.uthsc.edu/announcements/meet-the-ut-ai-hub-one-secure-place-for-powerful-ai-tools/",
+        "https://www.uthsc.edu/its/ai/index.php"
+      ]
+    },
+    {
+      "title": "UT Verse campus-wide generative AI assistant",
+      "description": "UT Verse is the UT System's homegrown generative AI assistant (built on GPT-4) made available to all UTHSC faculty, staff, and students via UT Microsoft 365 login. It supports chat, document analysis, translation, custom AI Assistant creation, 300+ programming languages, and a TwinWave Studio module for AI podcast/text-to-speech generation. Data is excluded from public model training.",
+      "significance": "Demonstrates the system-built-versus-vendor-buy pattern: UT operates UT Verse in-house to preserve institutional data boundaries instead of defaulting to ChatGPT Edu or Gemini Education.",
+      "date_announced": "2025-09-10",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT System",
+        "description": "Built by the UT System; provided to UTHSC users at no individual cost."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System"
+          ],
+          "description": "System-wide platform serving UTHSC, UT Knoxville, UT Chattanooga, UT Martin, UT Southern."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UT Verse",
+          "vendor": "University of Tennessee System",
+          "role": "Primary approved generative AI assistant"
+        },
+        {
+          "name": "UT Verse TwinWave Studio",
+          "vendor": "University of Tennessee System",
+          "role": "AI podcast and text-to-speech module"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Its in-house operation lets UT enforce no-training-on-chat-data and institutional access controls that commercial consumer AI cannot.",
+      "source_urls": [
+        "https://news.uthsc.edu/announcements/ai-pro-tip-ut-verse-ai-assistant-features/",
+        "https://uthsc.edu/its/ai/login.php",
+        "https://libguides.uthsc.edu/ai"
+      ]
+    },
+    {
+      "title": "UT System BT0035 AI Policy adoption",
+      "description": "On February 28, 2025 the UT Board of Trustees adopted BT0035, a system-wide AI policy covering all students, faculty, and staff across UTHSC and the other four UT campuses. It mandates a three-tier course framework (Unrestricted / Mixed / Total Prohibition), prohibits protected data in unapproved AI systems, assigns CIO responsibility for the approved AI list, and places oversight with Institutional Compliance reporting to the Board's Audit and Compliance Committee.",
+      "significance": "Fulfills Tennessee Public Chapter 550 (2024) and Tenn. Code 49-7-185 requiring public universities to adopt governing AI policies by July 1, 2025 - effectively converting state statute into campus-level syllabus practice.",
+      "date_announced": "2025-02-28",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UT System",
+        "description": "Governance-level policy; no direct dollar outlay disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Tennessee",
+            "UT System Board of Trustees"
+          ],
+          "description": "Implementation of 2024 state law (Tennessee Public Chapter 550 / T.C.A. 49-7-185)."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Faculty at every UT campus must now declare AI use level per course, creating consistent cross-campus practice and a compliance audit trail.",
+      "source_urls": [
+        "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+        "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/"
+      ]
+    },
+    {
+      "title": "Acceptable Use of Generative AI procedure (IT0002-HSC-A.02)",
+      "description": "UTHSC's campus-level AI acceptable use procedure, first adopted October 26, 2023 and reissued March 1, 2025 (v2) under the GP-004-02 naming convention. It ties AI use to a 0-3 data classification: Level 0 public data is permitted, Levels 1-3 (PII, FERPA, HIPAA, research data, IP) may not be entered into unapproved generative AI. Owned by the Office of Cybersecurity, it predates BT0035 and serves as UTHSC's operational implementation of the system policy.",
+      "significance": "Rare example of an academic health center with a data-classification-driven AI policy in effect before the broader system-wide policy - reflecting the HIPAA-weight of clinical and research environments.",
+      "date_announced": "2023-10-26",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UTHSC Office of Cybersecurity",
+        "description": "Policy/administrative work, no disclosed dollar amount."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Campus-internal policy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes HIPAA and FERPA constraints for AI use at an academic health center - a pattern that other AHCs will need to mirror.",
+      "source_urls": [
+        "https://policy.tennessee.edu/procedure/gp-004-02-acceptable-use-of-generative-ai/"
+      ]
+    },
+    {
+      "title": "Mid-South AI Research Consortium founding",
+      "description": "On April 20, 2026, UTHSC joined the University of Memphis, University of Arkansas, and University of Mississippi to sign founding documents for the Mid-South AI Research Consortium, announced in Memphis. The consortium unites more than 300 AI researchers across the four R1 institutions, shares HPC and test-bed resources, and positions the region as a 'living laboratory' for AI research, workforce development, and industrial engagement.",
+      "significance": "Major regional cross-institution alliance giving UTHSC access to shared compute and interdisciplinary AI researchers that its size (roughly 3,200 students) would not otherwise support.",
+      "date_announced": "2026-04-20",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "cross_border_research_alliance",
+        "computing_infrastructure",
+        "ai_research_center",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Four founding universities (initial funding), federal/industry targets",
+        "description": "Dollar commitments not disclosed; consortium targets joint federal and industry funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Memphis",
+            "University of Arkansas",
+            "University of Mississippi"
+          ],
+          "description": "Four R1 universities founded the consortium."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Creates a new cross-state governance layer for AI research priorities in the Memphis metro and Mid-South region.",
+      "source_urls": [
+        "https://news.uthsc.edu/mid-south-ai-research-consortium-to-fuel-innovation/",
+        "https://news.uark.edu/articles/81155/mid-south-ai-research-consortium-to-fuel-innovation",
+        "https://olemiss.edu/news/2026/04/um-joins-regional-universities-to-create-mid-south-ai-consortium/index.html"
+      ]
+    },
+    {
+      "title": "ENRICH AI-enabled radiotherapy interruption program",
+      "description": "UTHSC researchers launched the ENRICH (Equitable Needs-based Radiotherapy Interruption Care for Health) platform, combining AI-driven EHR analytics, large language models, and explainable machine learning with Community Health Support Specialists to predict treatment interruption risk and reduce unplanned radiotherapy interruptions (which affect ~25% of Tennessee radiotherapy patients). As of December 2025 the program had enrolled 200 Memphis patients.",
+      "significance": "Operational example of deploying AI beyond a research paper - embedded in clinical workflow with community health workers and patient recruitment, with published outcomes.",
+      "date_announced": "2025-12-12",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "underrepresented_student_support",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tennessee Department of Health Practice Transformation and Enhancement grant",
+        "description": "State-funded research and clinical deployment grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Tennessee Department of Health"
+          ],
+          "description": "Practice Transformation and Enhancement grant funding."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Community Health Support Specialists (Memphis)"
+          ],
+          "description": "Community-engaged care navigation in Memphis."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Validates the use of explainable ML in clinical decision support within HIPAA boundaries.",
+      "source_urls": [
+        "https://news.uthsc.edu/ut-health-sciences-researchers-demonstrate-breakthroughs-in-cancer-treatment-quality-through-ai-enhanced-data-analytics/"
+      ]
+    },
+    {
+      "title": "Center for Biomedical Informatics AI research portfolio",
+      "description": "UTHSC's Center for Biomedical Informatics (CBMI), in the Department of Pediatrics, runs a broad AI research portfolio under faculty including Robert Davis, Akram Mohammed, and Arash Shaban-Nejad. Active projects include AI models for predicting decompensation (sepsis, ICU deterioration, sickle cell organ failure, intracranial hypertension in pediatrics), Parkinson's early-detection from ECG features, semantic-web disease surveillance (SIEMA malaria, SPACES ACEs, SODHS social determinants, UPHO urban health observatory), and HPV vaccination improvements with Emory and Johns Hopkins.",
+      "significance": "Gives UTHSC a long-running, funded biomedical-AI research program - a foundation many comparably sized academic health centers lack.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "nlp_for_assessment",
+        "ai_search_and_retrieval",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Gates Foundation, Microsoft Research, National Cancer Institute, Memphis Research Consortium, Children's Foundation Research Institute",
+        "description": "Mixed external funding across foundation, industry research, and federal NIH awards."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Emory University",
+            "Johns Hopkins University"
+          ],
+          "description": "TweenVax HPV vaccination collaboration."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft Research",
+            "Gates Foundation"
+          ],
+          "description": "Non-governmental research funding partners."
+        },
+        {
+          "pattern": "international",
+          "partners": [
+            "Sub-Saharan Africa public health authorities"
+          ],
+          "description": "SIEMA malaria surveillance framework."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://uthsc.edu/cbmi/research/index.php",
+        "https://www.uthsc.edu/faculty/profile/?netid=ashabann"
+      ]
+    },
+    {
+      "title": "Teaching and Learning Center AI faculty-development program (AI in 30 + DOME)",
+      "description": "The UTHSC Teaching and Learning Center runs AI in 30 (a rolling micro-webinar series on using UT Verse, Copilot, Adobe Firefly, and other tools for teaching and scholarship), DOME seminar series sessions on Everyday AI, syllabus statement templates covering the BT0035 three-tier framework, and instructor playbooks for case-based scenarios, patient simulations, debate framing, rubrics, and academic-honesty mitigation.",
+      "significance": "Provides the faculty-facing on-ramp that converts top-down AI policy into actual classroom practice - the main lever for AI adoption at a health-sciences campus.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UTHSC Academic, Faculty, and Student Affairs",
+        "description": "Internally funded faculty-development program."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal program."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UT Verse",
+          "vendor": "University of Tennessee System",
+          "role": "Primary training tool"
+        },
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Secondary training tool"
+        },
+        {
+          "name": "Adobe Firefly",
+          "vendor": "Adobe",
+          "role": "Image-generation tool covered in training"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes BT0035 syllabus requirements for health-professions faculty.",
+      "source_urls": [
+        "https://uthsc.edu/tlc/ai-resources.php",
+        "https://news.uthsc.edu/announcements/dome-seminar-series-everyday-ai-leveraging-ut-verse-and-copilot-at-ut-health-science-center/"
+      ]
+    },
+    {
+      "title": "Master of Health Informatics and Information Management (MHIIM) AI workforce program",
+      "description": "UTHSC's College of Health Professions offers entry-level MHIIM, post-graduate MHIIM, PhD concentration, and stand-alone certificates in health informatics/information management - fully online and accredited through 2030. UTHSC was the first U.S. program to offer the entry-level MHIIM master's. Programs include AI and health-data curricula to meet growing workforce demand for health informatics professionals.",
+      "significance": "One of the few established graduate health-informatics pipelines in the Mid-South, positioning UTHSC to absorb regional AI workforce demand.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UTHSC College of Health Professions",
+        "description": "Tuition-funded academic program."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal degree program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/index.php",
+        "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/entry-level.php",
+        "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/doctoral.php"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Biomedical Informatics (CBMI)",
+      "focus": "AI, machine learning, semantic web, and population/precision health in biomedical informatics. Projects span predictive analytics (sepsis, ICU decompensation, pediatric conditions, Parkinson's), semantic-web disease surveillance, and social-determinants-of-health integration.",
+      "founded": null,
+      "url": "https://uthsc.edu/cbmi/"
+    },
+    {
+      "name": "Population Health Intelligence (PopHI) Lab",
+      "focus": "Explainable AI, digital epidemiology, Software as Medical Device (SaMD), and precision public health. Led by Arash Shaban-Nejad (Director of Population and Precision Health).",
+      "founded": null,
+      "url": "https://www.pophi-lab.com/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Health Informatics and Information Management (MHIIM) - Entry-Level",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/entry-level.php"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Health Informatics and Information Management (MHIIM) - Post-Graduate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/post-grad.php"
+    },
+    {
+      "type": "concentration",
+      "name": "Health Informatics and Information Management doctoral concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/doctoral.php"
+    },
+    {
+      "type": "certificate",
+      "name": "HIIM Certificate Options (College of Health Professions)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/certificate.php"
+    },
+    {
+      "type": "concentration",
+      "name": "PharmD / Health Informatics and Information Management dual pathway",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uthsc.edu/pharmacy/current-students/academic-affairs/hiim.php"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "University of Tennessee System (internal)",
+      "product": "UT AI Hub (multi-model gateway)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-04",
+      "url": "https://news.uthsc.edu/announcements/meet-the-ut-ai-hub-one-secure-place-for-powerful-ai-tools/"
+    },
+    {
+      "vendor": "University of Tennessee System (internal, GPT-4 backbone)",
+      "product": "UT Verse AI Assistant (incl. TwinWave Studio module)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-09",
+      "url": "https://uthsc.edu/its/ai/login.php"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (protected UTHSC-login version)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.uthsc.edu/its/ai/index.php"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Firefly (Creative Cloud image generation)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://uthsc.edu/tlc/ai-resources.php"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": false,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://news.uthsc.edu/mid-south-ai-research-consortium-to-fuel-innovation/",
+    "summary": "UTHSC does not publicly document a dedicated on-campus GPU cluster or named supercomputer. Heavy AI compute for UTHSC researchers is sourced through (a) the UT System (notably UT Knoxville/Oak Ridge adjacency via AI Tennessee Initiative), (b) the newly signed Mid-South AI Research Consortium's shared HPC resources, and (c) cloud infrastructure associated with UT Verse/UT AI Hub operations."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NIH grants to UTHSC announced by Rep. Steve Cohen (2024)",
+      "amount_usd": 2525665,
+      "source": "National Institutes of Health",
+      "purpose": "Four NIH research grants to UTHSC and St. Jude covering biomedical research including AI-adjacent health-data projects.",
+      "date": null,
+      "url": "https://cohen.house.gov/media-center/press-releases/congressman-cohen-announces-25-million-nih-grants-uthsc-and-st-jude"
+    },
+    {
+      "title": "Additional NIH grants to UTHSC announced by Rep. Steve Cohen",
+      "amount_usd": 996893,
+      "source": "National Institutes of Health",
+      "purpose": "Two additional NIH grants supporting UTHSC biomedical research.",
+      "date": null,
+      "url": "https://cohen.house.gov/media-center/press-releases/congressman-cohen-announces-996893-nih-grants-uthsc"
+    },
+    {
+      "title": "ENRICH radiotherapy interruption platform funding (Tennessee Department of Health)",
+      "amount_usd": null,
+      "source": "Tennessee Department of Health Practice Transformation and Enhancement grant",
+      "purpose": "AI-driven EHR analytics plus community health navigation to reduce radiotherapy interruptions in Tennessee; enrolling 200 Memphis patients as of Dec 2025.",
+      "date": "2025-12",
+      "url": "https://news.uthsc.edu/ut-health-sciences-researchers-demonstrate-breakthroughs-in-cancer-treatment-quality-through-ai-enhanced-data-analytics/"
+    },
+    {
+      "title": "FY2025 Office of Research grants and contracts (institutional total)",
+      "amount_usd": 84000000,
+      "source": "Federal, foundation, industry",
+      "purpose": "Total UTHSC research grant and contract awards in FY2025, inclusive of AI-adjacent biomedical informatics work.",
+      "date": null,
+      "url": "https://uthsc.edu/research/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Memphis, University of Arkansas, University of Mississippi",
+      "purpose": "Founding members of the Mid-South AI Research Consortium (signed April 20, 2026).",
+      "date": "2026-04",
+      "url": "https://news.uthsc.edu/mid-south-ai-research-consortium-to-fuel-innovation/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft Research",
+      "purpose": "Research funding for Center for Biomedical Informatics AI projects.",
+      "date": null,
+      "url": "https://uthsc.edu/cbmi/research/index.php"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Gates Foundation",
+      "purpose": "Research funding for CBMI public-health AI projects (e.g., malaria surveillance SIEMA).",
+      "date": null,
+      "url": "https://uthsc.edu/cbmi/research/index.php"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Emory University, Johns Hopkins University",
+      "purpose": "TweenVax HPV vaccination improvement research.",
+      "date": null,
+      "url": "https://uthsc.edu/cbmi/research/index.php"
+    },
+    {
+      "pattern": "international",
+      "partner": "Sub-Saharan African public health agencies",
+      "purpose": "SIEMA malaria decision-support analytics framework.",
+      "date": null,
+      "url": "https://uthsc.edu/cbmi/research/index.php"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UT System (UT Knoxville OIT, Department of Technology Solutions)",
+      "purpose": "Joint operation of UT Verse and the UT AI Hub.",
+      "date": "2026-04",
+      "url": "https://www.uthsc.edu/its/ai/index.php"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "UT Verse AI Assistant (student access)",
+      "scope": "All UTHSC students - generative AI chat, document analysis, translation, programming help.",
+      "url": "https://uthsc.edu/its/ai/login.php"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot (protected UTHSC-login)",
+      "scope": "All UTHSC students via UT Microsoft 365 login.",
+      "url": "https://www.uthsc.edu/its/ai/index.php"
+    },
+    {
+      "type": "other",
+      "name": "UT AI Hub (Claude, ChatGPT, Grok access for students)",
+      "scope": "All UTHSC students at no cost.",
+      "url": "https://news.uthsc.edu/announcements/meet-the-ut-ai-hub-one-secure-place-for-powerful-ai-tools/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "ENRICH community-engaged AI cancer care",
+      "description": "Combines AI-driven EHR analytics and ML with Community Health Support Specialists in Memphis to reduce treatment interruptions for underserved radiotherapy patients; explicitly frames equity as the motivating outcome.",
+      "url": "https://news.uthsc.edu/ut-health-sciences-researchers-demonstrate-breakthroughs-in-cancer-treatment-quality-through-ai-enhanced-data-analytics/"
+    },
+    {
+      "title": "Social Determinants of Health Surveillance (SODHS) / Urban Public Health Observatory (UPHO)",
+      "description": "CBMI projects integrating social, economic, and environmental determinants of health with multiple health datasets to make population-level predictions actionable in underserved Mid-South communities.",
+      "url": "https://uthsc.edu/cbmi/research/index.php"
+    },
+    {
+      "title": "Free institution-funded AI tool access",
+      "description": "UT Verse, Copilot, and the UT AI Hub are provided at no cost to all UTHSC students, reducing the consumer-AI paywall gap that often disadvantages lower-income students.",
+      "url": "https://news.uthsc.edu/announcements/meet-the-ut-ai-hub-one-secure-place-for-powerful-ai-tools/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Tennessee",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Tennessee Public Chapter 550 (2024), codified at Tenn. Code 49-7-185, required each public university governing board (including UT Board of Trustees) to adopt an AI policy for instructional use by July 1, 2025. UT fulfilled this with BT0035 effective Feb 28, 2025, and each UT campus (including UTHSC) operationalizes it campus-level. The Tennessee AI Advisory Council issued its first statutory report in November/December 2025 setting statewide direction.",
+    "urls": [
+      "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+      "https://www.tn.gov/content/dam/tn/finance/aicouncil/documents/TN%20AI%20Advisory%20Council%20Action%20Plan%20-%20November%202025.pdf"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Tennessee Health Science Center is a small (approximately 3,200 students), public R1 academic health center in Memphis and the medical-education hub of the University of Tennessee System. Its AI posture is shaped heavily by its dual identity: a HIPAA- and FERPA-bound clinical enterprise, and one of five UT System campuses governed by BT0035, the system-wide AI policy adopted by the Board of Trustees on February 28, 2025 to satisfy Tennessee Public Chapter 550. UTHSC's own Office of Cybersecurity issued one of the earliest academic-health-center acceptable-use-of-generative-AI procedures in October 2023, tying AI tool use to a 0-3 data classification model that explicitly prohibits PII, FERPA, HIPAA and research data in unapproved tools. On the tooling side UTHSC participates in the UT System's home-grown UT Verse assistant (built on GPT-4 with a TwinWave AI-audio module), the UT-wide Microsoft Copilot entitlement, and the April 2026 launch of the UT AI Hub - a centralized, free gateway giving all students, faculty and staff access to ChatGPT, Claude, Grok, Copilot, and UT Verse through a single institutional front door. Faculty adoption is supported by the Teaching and Learning Center's AI in 30 webinar series, DOME seminars, and syllabus-statement templates aligned to BT0035's three-tier course framework. Research capacity is concentrated in the Center for Biomedical Informatics and the Population Health Intelligence Lab under Arash Shaban-Nejad, producing clinical-AI work from sepsis prediction and pediatric decompensation to semantic-web disease surveillance in the US and Sub-Saharan Africa; the ENRICH platform demonstrates AI-plus-community-health-worker deployment for radiotherapy equity. In April 2026 UTHSC further signed on as a founding member of the Mid-South AI Research Consortium alongside the University of Memphis, University of Arkansas, and University of Mississippi, gaining access to 300+ regional AI researchers and shared HPC resources that a single academic health center could not assemble alone. Gaps include the absence of a dedicated chief AI officer or standalone AI council, no publicly disclosed on-campus GPU cluster, and limited disclosure of enterprise AI spend.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://libguides.uthsc.edu/ai",
+      "https://www.uthsc.edu/its/ai/index.php",
+      "https://uthsc.edu/tlc/ai-resources.php",
+      "https://policy.tennessee.edu/procedure/gp-004-02-acceptable-use-of-generative-ai/",
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+      "https://news.uthsc.edu/announcements/meet-the-ut-ai-hub-one-secure-place-for-powerful-ai-tools/",
+      "https://news.uthsc.edu/announcements/ai-pro-tip-ut-verse-ai-assistant-features/",
+      "https://news.uthsc.edu/announcements/dome-seminar-series-everyday-ai-leveraging-ut-verse-and-copilot-at-ut-health-science-center/",
+      "https://news.uthsc.edu/ut-health-sciences-researchers-demonstrate-breakthroughs-in-cancer-treatment-quality-through-ai-enhanced-data-analytics/",
+      "https://news.uthsc.edu/mid-south-ai-research-consortium-to-fuel-innovation/",
+      "https://news.uthsc.edu/in-the-media/u-of-m-ole-miss-and-others-team-up-for-new-ai-consortium/",
+      "https://news.uthsc.edu/in-the-media/mid-south-universities-launch-ai-research-consortium-in-memphis/",
+      "https://news.uark.edu/articles/81155/mid-south-ai-research-consortium-to-fuel-innovation",
+      "https://olemiss.edu/news/2026/04/um-joins-regional-universities-to-create-mid-south-ai-consortium/index.html",
+      "https://uthsc.edu/cbmi/",
+      "https://uthsc.edu/cbmi/research/index.php",
+      "https://www.uthsc.edu/faculty/profile/?netid=ashabann",
+      "https://www.pophi-lab.com/",
+      "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/index.php",
+      "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/entry-level.php",
+      "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/post-grad.php",
+      "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/doctoral.php",
+      "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/certificate.php",
+      "https://www.uthsc.edu/pharmacy/current-students/academic-affairs/hiim.php",
+      "https://www.uthsc.edu/chancellor/chancellor-cabinet.php",
+      "https://uthsc.edu/chancellor/about.php",
+      "https://uthsc.edu/research/",
+      "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+      "https://cohen.house.gov/media-center/press-releases/congressman-cohen-announces-25-million-nih-grants-uthsc-and-st-jude",
+      "https://cohen.house.gov/media-center/press-releases/congressman-cohen-announces-996893-nih-grants-uthsc"
+    ],
+    "search_queries": [
+      "\"University of Tennessee Health Science Center\" AI artificial intelligence strategy 2025 2026",
+      "\"UTHSC\" generative AI policy guidelines faculty staff",
+      "\"University of Tennessee Health Science Center\" chancellor CIO provost 2026",
+      "\"UTHSC\" AI research center institute lab",
+      "\"UTHSC\" AI degree program certificate biomedical informatics",
+      "\"UTHSC\" \"UT Verse\" deployment campus-wide generative AI",
+      "\"University of Tennessee Health Science Center\" grant AI million NIH NSF 2025",
+      "\"UTHSC\" Memphis AI medical education clinical",
+      "\"Mid-South AI Research Consortium\" Memphis Arkansas Ole Miss UTHSC 2026",
+      "\"UTHSC\" enrollment students 2025 total",
+      "\"UTHSC\" \"Arash Shaban-Nejad\" AI research population precision health",
+      "\"UTHSC\" College of Health Professions health informatics HIIM artificial intelligence",
+      "\"UTHSC\" clinical AI radiology pathology electronic health records",
+      "\"UTHSC\" supercomputer GPU HPC compute infrastructure AI",
+      "\"UTHSC\" AI governance committee council task force",
+      "Tennessee state higher education AI policy executive order 2025 2026"
+    ],
+    "gaps_acknowledged": [
+      "Exact Chancellor's Cabinet page does not explicitly list a 'Chancellor' line item (Peter Buckley confirmed via About page); cabinet page lists Vikki Massey as Interim/Associate Vice Chancellor for IT rather than confirming the permanent CIO title - confirmed interim status.",
+      "No publicly disclosed on-campus GPU cluster, supercomputer name, or GPU count for UTHSC; campus relies on UT System and consortium-shared compute.",
+      "Total enterprise AI spend (UT Verse + Copilot + UT AI Hub licensing at UTHSC) is not publicly disclosed.",
+      "No standalone UTHSC AI governance council or Chief AI Officer is publicly documented as of April 2026.",
+      "Mid-South AI Research Consortium dollar commitments and governance structure are not yet published in detail.",
+      "Specific NIH/NSF grant titles tagged as 'AI' to UTHSC are not individually itemized in public disclosures; the $2.5M and $996K figures are aggregate Cohen announcements."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "platform_first",
+        "workforce_regional_development",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 14,
+        "research_compute_powerhouse": 6,
+        "curriculum_led": 6,
+        "governance_led": 14,
+        "student_success_led": 5,
+        "workforce_regional_development": 7,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-10",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 2,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": false,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "none"
+      },
+      "disclosed_funding_usd": 87522558,
+      "funding_source_buckets": {
+        "public_federal_state": 8,
+        "institutional": 3,
+        "other_unclear": 2
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Adobe",
+          "mentions": 2,
+          "products": [
+            "Adobe Firefly",
+            "Adobe Firefly (Creative Cloud image generation)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Copilot",
+            "Microsoft Copilot (protected UTHSC-login version)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT",
+            "UT Verse AI Assistant (incl. TwinWave Studio module)"
+          ]
+        },
+        {
+          "vendor": "University of Tennessee System UT Verse",
+          "mentions": 2,
+          "products": [
+            "UT Verse"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude"
+          ]
+        },
+        {
+          "vendor": "University of Tennessee System (internal) UT AI Hub (multi-model gateway)",
+          "mentions": 1,
+          "products": [
+            "UT AI Hub (multi-model gateway)"
+          ]
+        },
+        {
+          "vendor": "University of Tennessee System (internally operated) UT AI Hub",
+          "mentions": 1,
+          "products": [
+            "UT AI Hub"
+          ]
+        },
+        {
+          "vendor": "University of Tennessee System UT Verse TwinWave Studio",
+          "mentions": 1,
+          "products": [
+            "UT Verse TwinWave Studio"
+          ]
+        },
+        {
+          "vendor": "xAI Grok",
+          "mentions": 1,
+          "products": [
+            "Grok"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Adobe",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "UT System BT0035 AI Policy adoption",
+          "summary": "Fulfills Tennessee Public Chapter 550 (2024) and Tenn. Code 49-7-185 requiring public universities to adopt governing AI policies by July 1, 2025 - effectively converting state statute into campus-level syllabus practice.",
+          "source_url": "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Mid-South AI Research Consortium founding",
+          "summary": "Major regional cross-institution alliance giving UTHSC access to shared compute and interdisciplinary AI researchers that its size (roughly 3,200 students) would not otherwise support.",
+          "source_url": "https://news.uthsc.edu/mid-south-ai-research-consortium-to-fuel-innovation/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "ENRICH AI-enabled radiotherapy interruption program",
+          "summary": "Operational example of deploying AI beyond a research paper - embedded in clinical workflow with community health workers and patient recruitment, with published outcomes.",
+          "source_url": "https://news.uthsc.edu/ut-health-sciences-researchers-demonstrate-breakthroughs-in-cancer-treatment-quality-through-ai-enhanced-data-analytics/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Center for Biomedical Informatics AI research portfolio",
+          "summary": "Gives UTHSC a long-running, funded biomedical-AI research program - a foundation many comparably sized academic health centers lack.",
+          "source_url": "https://uthsc.edu/cbmi/research/index.php"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Teaching and Learning Center AI faculty-development program (AI in 30 + DOME)",
+          "summary": "Provides the faculty-facing on-ramp that converts top-down AI policy into actual classroom practice - the main lever for AI adoption at a health-sciences campus.",
+          "source_url": "https://uthsc.edu/tlc/ai-resources.php"
+        },
+        {
+          "claim_type": "career",
+          "title": "Master of Health Informatics and Information Management (MHIIM) AI workforce program",
+          "summary": "One of the few established graduate health-informatics pipelines in the Mid-South, positioning UTHSC to absorb regional AI workforce demand.",
+          "source_url": "https://www.uthsc.edu/health-professions/diagnostic-health-sciences/hiim/index.php"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "Exact Chancellor's Cabinet page does not explicitly list a 'Chancellor' line item (Peter Buckley confirmed via About page); cabinet page lists Vikki Massey as Interim/Associate Vice Chancellor for IT rather than confirming the permanent CIO title - confirmed interim status.",
+        "No publicly disclosed on-campus GPU cluster, supercomputer name, or GPU count for UTHSC; campus relies on UT System and consortium-shared compute.",
+        "Total enterprise AI spend (UT Verse + Copilot + UT AI Hub licensing at UTHSC) is not publicly disclosed.",
+        "No standalone UTHSC AI governance council or Chief AI Officer is publicly documented as of April 2026.",
+        "Mid-South AI Research Consortium dollar commitments and governance structure are not yet published in detail.",
+        "Specific NIH/NSF grant titles tagged as 'AI' to UTHSC are not individually itemized in public disclosures; the $2.5M and $996K figures are aggregate Cohen announcements."
+      ]
+    }
+  }
+}

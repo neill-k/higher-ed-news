@@ -1,0 +1,1772 @@
+{
+  "institution": "University of Iowa",
+  "slug": "university-of-iowa",
+  "city_state": "Iowa City, IA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 31563,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Barbara J. Wilson",
+      "url": "https://president.uiowa.edu/about-president"
+    },
+    "provost": {
+      "name": "Kevin Kregel",
+      "url": "https://provost.uiowa.edu/about-office-provost"
+    },
+    "cio": {
+      "name": "Brad Rohrer (incoming 2026; succeeding Steve Fleagle)",
+      "url": "https://oneit.uiowa.edu/news/2026/01/brad-rohrer-named-uis-next-chief-information-officer"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Milan Sonka",
+      "title": "Director, Iowa Initiative for Artificial Intelligence (IIAI); Professor of Electrical and Computer Engineering",
+      "url": "https://iiai.uiowa.edu/people"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University of Iowa Artificial Intelligence Strategy and Guiding Principles",
+        "url": "https://its.uiowa.edu/university-iowa-artificial-intelligence-strategy-and-guiding-principles",
+        "year": 2024
+      },
+      {
+        "title": "University of Iowa Artificial Intelligence Action Plan",
+        "url": "https://its.uiowa.edu/university-iowa-artificial-intelligence-action-plan",
+        "year": 2024
+      },
+      {
+        "title": "AI Guidelines and Use Cases (ITS)",
+        "url": "https://its.uiowa.edu/ai-guidelines-and-use-cases",
+        "year": 2024
+      },
+      {
+        "title": "AI in the Classroom (Office of the Executive Vice President and Provost)",
+        "url": "https://provost.uiowa.edu/ai-classroom",
+        "year": 2024
+      }
+    ],
+    "summary": "The University of Iowa has published a formal AI Strategy and Guiding Principles plus an AI Action Plan aligned with its 2022-2027 Strategic Plan. The strategy is built on five principles: amplify human potential, collaboration and engagement, excellence, digital and information literacy, and responsibility and integrity. An AI Steering Committee and an AI SPARC (Strategic Plan Action and Resource Committee) recommend actions for implementation across teaching, research, patient care, and operations. President Barbara Wilson has publicly framed AI as a tool the entire campus must learn to use and critique, and the university is simultaneously rolling out enterprise AI (Microsoft 365 Copilot, ChatGPT Edu, an Iowa AI Gateway) and building academic programming (an undergraduate AI Certificate launching fall 2026, HawkAI proficiency courses)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://its.uiowa.edu/ai-guidelines-and-use-cases",
+      "https://itsecurity.uiowa.edu/guidelines-secure-and-ethical-use-artificial-intelligence",
+      "https://its.uiowa.edu/using-ai-securely",
+      "https://its.uiowa.edu/using-ai-academics-and-research",
+      "https://teach.its.uiowa.edu/artificial-intelligence-tools-and-teaching"
+    ],
+    "adopted_date": "2024-01",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "AI tools without a UI contract may only be used with data classified as PUBLIC (Low Sensitivity) under the UI Data Classification standard",
+      "ChatGPT Edu may be used with Public or University-Internal data; Restricted-Critical data requires consultation with Research Services or ITS-ISPO; ChatGPT Edu is not HIPAA compliant and cannot be used with patient data",
+      "Microsoft 365 Copilot and Copilot Chat are the preferred enterprise AI tools for faculty/staff, offered with enterprise data protection and SSO via HawkID",
+      "Instructors must set course-level expectations for AI use in the syllabus; Center for Teaching and OTLT publish model language and an AI Assessment Scale",
+      "Users (including faculty/staff) are responsible for verifying accuracy and appropriateness of AI outputs before use; outputs must be treated as draft subject to human review",
+      "AI-generated code may not be used in institutional IT systems/services unless human-reviewed",
+      "ChatGPT Edu purchases require IT Director or designee approval and are provisioned through the UI workspace so data is not used for model training",
+      "Clinical AI tools at UI Health Care must be reviewed by the Digital Health and AI-Based Tool Governance committee before deployment"
+    ],
+    "summary": "Iowa's policy posture is comprehensive across faculty, students, staff, research, and clinical use. Published ITS, IT Security, OTLT, Center for Teaching, and UI Health Care guidance collectively define data-classification limits, preferred tools (Copilot Chat, Microsoft 365 Copilot, ChatGPT Edu), syllabus-level requirements, and a separate clinical AI governance pathway. The stance is cautious-comprehensive rather than prohibitive: the university pushes people to approved tools with data protection while allowing experimentation within documented guardrails."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Steering Committee",
+        "type": "committee",
+        "scope": "Develops recommendations and action plans implementing the UI AI Strategy; reports into executive leadership",
+        "url": "https://its.uiowa.edu/university-iowa-artificial-intelligence-strategy-and-guiding-principles"
+      },
+      {
+        "name": "Artificial Intelligence SPARC (Strategic Plan Action and Resource Committee)",
+        "type": "committee",
+        "scope": "Tied to the 2022-2027 Strategic Plan; pursues AI-related strategic initiatives; 13 members including ITS, Provost, Engineering, Libraries, Graduate College, and Research leadership (e.g., Steve Fleagle, James Blum, Paul Dilley, Carl Follmer, Tyler Bell)",
+        "url": "https://its.uiowa.edu/ai-committees"
+      },
+      {
+        "name": "Digital Health and AI-Based Tool Governance Committee (UI Health Care)",
+        "type": "committee",
+        "scope": "Clinical-facing AI governance; clinicians, IT specialists, genomics expert, and health-system application leads evaluate AI tools on training data, operations, privacy/security, and patient risk before adoption",
+        "url": "https://uihc.org/digital-health-and-ai-based-tool-governance"
+      },
+      {
+        "name": "Iowa Initiative for Artificial Intelligence (IIAI)",
+        "type": "office",
+        "scope": "Research-focused interdisciplinary AI initiative founded in 2018 within the College of Engineering; led by Director Milan Sonka; funds pilots, runs HawkAI training, and operates the AI/GPU Development Lab in Seamans Center 4622",
+        "url": "https://iiai.uiowa.edu/"
+      },
+      {
+        "name": "AI-Pedagogy faculty team (AAC&U Institute on AI, Pedagogy, and the Curriculum)",
+        "type": "task_force",
+        "scope": "Six-member faculty/staff team led by Stephanie Preschel developing a campus AI-in-teaching framework through the yearlong AAC&U national institute (2025-26)",
+        "url": "https://strategicplan.uiowa.edu/news/2025/10/ui-selected-national-institute-ai-and-future-teaching"
+      },
+      {
+        "name": "Accessible Iowa Initiative / Accessibility Task Force",
+        "type": "task_force",
+        "scope": "Cross-campus initiative bringing UI digital content into Title II ADA compliance by the April 2026 deadline; intersects with AI via automated captioning, Anthology Ally in ICON, and Siteimprove scoring",
+        "url": "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility"
+      }
+    ],
+    "summary": "UI operates a layered governance model: an AI Steering Committee and AI SPARC set enterprise strategy, a separate Digital Health and AI-Based Tool Governance committee reviews clinical AI at UI Health Care, and the Iowa Initiative for Artificial Intelligence (IIAI, est. 2018) drives research collaboration. Pedagogy governance runs through the Provost, OTLT, and Center for Teaching in coordination with an AAC&U-institute faculty team."
+  },
+  "initiatives": [
+    {
+      "title": "University of Iowa AI Strategy and Guiding Principles + Action Plan",
+      "description": "Published institutional AI strategy built on five guiding principles (amplify human potential, collaboration, excellence, digital/information literacy, responsibility/integrity) with a companion Action Plan covering teaching, research, and operations. The AI Steering Committee and AI SPARC are responsible for implementation and tie AI work to the 2022-2027 Strategic Plan.",
+      "significance": "Formal, publicly posted institution-wide AI strategy with active implementation committees puts UI in a minority of R1 publics that have moved beyond ad-hoc guidance.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Strategic Plan / internal reallocation",
+        "description": "Implementation funded through P3 (President's Priorities Program) awards and internal resources; no consolidated dollar figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Engineering",
+            "Information Technology Services",
+            "Office of the Executive Vice President and Provost"
+          ],
+          "description": "Strategy is authored jointly across ITS, the Provost, and the College of Engineering."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates institutional cover for enterprise AI rollouts and syllabus-level expectations.",
+      "source_urls": [
+        "https://its.uiowa.edu/university-iowa-artificial-intelligence-strategy-and-guiding-principles",
+        "https://its.uiowa.edu/university-iowa-artificial-intelligence-action-plan",
+        "https://its.uiowa.edu/ai-committees"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot and Copilot Chat campus rollout",
+      "description": "Microsoft Copilot Chat (free tier) is available to all UI faculty, staff, and students via HawkID SSO with enterprise data protection; Microsoft 365 Copilot (premium, $276/user/year) is available to faculty/staff for in-app use across Word, Excel, Outlook, and Teams. ITS moved Microsoft 365 Copilot from pilot to full production in 2025 and added Copilot Chat Agents builder.",
+      "significance": "Campus-wide GenAI access with vendor-backed enterprise data protection establishes Microsoft as the default UI AI layer and demonstrates that large R1 publics can scale AI access without a bespoke platform.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Department/unit budgets (per-seat licensing)",
+        "description": "Microsoft 365 Copilot carries a $276 per-user annual license billed beginning September 1; Copilot Chat is free. Aggregate campus spend not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise agreement with Microsoft for Copilot services."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "In-app AI assistant across Word, Excel, Outlook, Teams"
+        },
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Free generative chat with enterprise data protection"
+        },
+        {
+          "name": "Copilot Chat Agents",
+          "vendor": "Microsoft",
+          "role": "Custom task-specific agents built on Copilot"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a 'preferred tool' pathway that implicitly discourages use of unmanaged free AI tools for non-public data.",
+      "source_urls": [
+        "https://its.uiowa.edu/services/microsoft-365-copilot",
+        "https://its.uiowa.edu/services/copilot-chat",
+        "https://its.uiowa.edu/news/2024/01/microsoft-copilot-now-available-faculty-and-staff",
+        "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change",
+        "https://its.uiowa.edu/services/copilot-chat/how-build-and-use-copilot-chat-agents"
+      ]
+    },
+    {
+      "title": "ChatGPT Edu available to UI faculty and staff",
+      "description": "On December 7, 2025, ITS announced ChatGPT Edu availability for UI faculty and staff, provisioned through a UI workspace with HawkID SSO. Data is isolated and not used for OpenAI model training. Purchases require IT Director approval; use is limited to Public and University-Internal data.",
+      "significance": "Second enterprise GenAI platform alongside Copilot signals a multi-vendor posture and formally licenses OpenAI's flagship product for institutional use.",
+      "date_announced": "2025-12-07",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Unit-level budgets via IT Director approval",
+        "description": "Purchase cost per license not publicly disclosed; billed to requesting units."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "ChatGPT Edu agreement with OpenAI for institutional use."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise GenAI workspace with data isolation and custom GPT creation"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Explicitly excludes patient data (not HIPAA compliant) and Restricted-Critical data without ITS-ISPO review.",
+      "source_urls": [
+        "https://its.uiowa.edu/news/2025/12/chatgpt-edu-now-available-university-iowa-faculty-and-staff"
+      ]
+    },
+    {
+      "title": "Iowa AI Gateway (multi-model AI platform)",
+      "description": "Planned 2026 pilot of an 'Iowa AI Gateway,' a multi-model AI tool intended to give campus users brokered access to multiple foundation-model backends through a single UI-managed front door.",
+      "significance": "Early signal of the 'AI gateway' pattern increasingly adopted by R1s to avoid vendor lock-in and to centralize guardrails; one of the first publicly named gateway efforts in the Big Ten.",
+      "date_announced": "2025-12-09",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "ITS operating / P3",
+        "description": "Budget not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Iowa AI Gateway",
+          "vendor": "University of Iowa (in-house)",
+          "role": "Multi-model AI access layer for campus"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Will likely become the enforcement point for data-classification guardrails.",
+      "source_urls": [
+        "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change"
+      ]
+    },
+    {
+      "title": "Undergraduate Certificate in Artificial Intelligence (launching fall 2026)",
+      "description": "Interdisciplinary undergraduate certificate launching in fall 2026 with an introductory AI Fundamentals pilot course in spring 2026. Requires one core course plus four to six electives drawn from 10 funded courses across Computer Science, Philosophy, Political Science, Sociology, History, Art, Journalism, Classics/Religious Studies, Communication Sciences and Disorders, and Languages/Literatures. Supported by a $195,000, three-year P3 award; core course taught by Tyler Bell (ECE) and Ali Hasan (Philosophy).",
+      "significance": "Open-to-all-majors AI certificate deliberately designed around human-centered and ethical applications, not just CS; one of the more curricularly ambitious R1 AI certificates of 2025-26.",
+      "date_announced": "2025-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 195000,
+        "funding_source": "UI P3 'AI in Undergraduate Education' award (3 years)",
+        "description": "$195,000 over three years; generated 30+ course proposals with 11 funded (1 core + 10 electives)."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Liberal Arts and Sciences",
+            "College of Engineering",
+            "Tippie College of Business"
+          ],
+          "description": "Cross-college faculty consortium (10 Provost AI Fellows)"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Embeds AI literacy into general-education pathways for non-CS students.",
+      "source_urls": [
+        "https://provost.uiowa.edu/news/2025/09/ui-launch-new-ai-certificate-2026"
+      ]
+    },
+    {
+      "title": "HawkAI proficiency courses and certificates",
+      "description": "Joint program of IIAI and ITS offering introductory and advanced AI/ML short courses open to any UI student or employee. Learners can take courses individually or in sequences to earn HawkAI Certificates of Proficiency in AI/ML at Levels 1, 2, and 3, funded via P3 and the College of Engineering.",
+      "significance": "Provides the on-ramp for faculty and staff AI literacy outside of formal degree programs and anchors Iowa's response to the sector-wide 'AI literacy for workforce' imperative.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "P3 funds + College of Engineering",
+        "description": "Specific dollar amount not disclosed; delivered through IIAI in Seamans Center."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Engineering",
+            "ITS",
+            "IIAI"
+          ],
+          "description": "Joint IIAI/ITS delivery."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://iiai.uiowa.edu/hawkai",
+        "https://its.uiowa.edu/news/2024/09/build-foundational-ai-skills-hawkai-certification",
+        "https://its.uiowa.edu/news/2025/01/build-ai-skills-and-earn-hawkai-certification"
+      ]
+    },
+    {
+      "title": "AAC&U Institute on AI, Pedagogy, and the Curriculum participation",
+      "description": "Selected as one of 175+ institutions in the AAC&U Institute on AI, Pedagogy, and the Curriculum. Six-member UI team (Stephanie Preschel, Allie Brandriet, Justin Cosner, Elizabeth Crawford, Deirdre Egan, Victoria Maloy) is piloting AI-in-rhetoric strategies in spring 2026 and scaling campus-wide in fall 2026.",
+      "significance": "Anchors Iowa into a national faculty-development cohort and gives its teaching-with-AI framework external benchmarking.",
+      "date_announced": "2025-09-11",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional (participation fees / AAC&U)",
+        "description": "Yearlong national cohort commitment."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "AAC&U",
+            "175+ peer institutions"
+          ],
+          "description": "Monthly sessions, mentoring, and workshops with peer teams."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Likely to influence syllabus and assessment guidance pushed to all faculty.",
+      "source_urls": [
+        "https://strategicplan.uiowa.edu/news/2025/10/ui-selected-national-institute-ai-and-future-teaching"
+      ]
+    },
+    {
+      "title": "Iowa Initiative for Artificial Intelligence (IIAI) research hub and pilot program",
+      "description": "Founded in 2018 within the College of Engineering, IIAI is a cross-college research and training initiative led by Director Milan Sonka. It runs competitive AI pilot projects (with support from P3, SPARC, ITS, and the Department of Electrical and Computer Engineering), data-scientist consulting (Kang Pyo Lee, Yanan Liu), and the AI/GPU Development Lab in Seamans Center 4622. Associated faculty number 80+.",
+      "significance": "One of the earliest university AI initiatives in the U.S. and the backbone of cross-disciplinary AI research on campus, spanning health, engineering, physical sciences, and humanities.",
+      "date_announced": "2018-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "College of Engineering + P3 + SPARC + ITS",
+        "description": "Operating budget and pilot project funding not publicly itemized."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Engineering",
+            "Tippie College of Business",
+            "Carver College of Medicine",
+            "ITS-Research Services"
+          ],
+          "description": "Executive Committee members span ECE, Computer Science, Management Sciences, Psychiatry, Biochemistry, and ITS."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Argon HPC / GPU resources",
+          "vendor": "University of Iowa",
+          "role": "GPU compute platform for IIAI-backed research"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://iiai.uiowa.edu/",
+        "https://iiai.uiowa.edu/people",
+        "https://iiai.uiowa.edu/about-us",
+        "https://iiai.uiowa.edu/aigpu-development-labs"
+      ]
+    },
+    {
+      "title": "NSF-funded ImagiQ federated-learning platform for medical AI",
+      "description": "University of Iowa-led $1 million NSF Convergence Accelerator phase-one grant (PI Stephen Baek, with Xiaodong Wu and Nick Street) to develop ImagiQ, an asynchronous decentralized federated-learning platform for training medical AI models on globally distributed patient data. Phase-two potential up to $5 million over 24 months.",
+      "significance": "Places UI at the center of a high-profile national effort on federated learning for healthcare AI and demonstrates Iowa's ability to convene elite peers (Stanford, Harvard, Yale, Chicago, Seoul National) and industry (NVIDIA, Lunit, Digital Diagnostics, Imagoworks, inSEER).",
+      "date_announced": "2020-10-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1000000,
+        "funding_source": "NSF Convergence Accelerator (phase-one)",
+        "description": "$1M phase-one; potential $5M phase-two."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Stanford University",
+            "Harvard University",
+            "Yale University",
+            "University of Chicago",
+            "Seoul National University",
+            "NVIDIA",
+            "Lunit",
+            "Digital Diagnostics",
+            "Imagoworks",
+            "inSEER"
+          ],
+          "description": "Academic-industry consortium with international partner."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ImagiQ",
+          "vendor": "University of Iowa (lead)",
+          "role": "Federated-learning platform for medical AI"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Advances federated methods that reduce patient-data sharing risk.",
+      "source_urls": [
+        "https://www.engineering.uiowa.edu/news/university-iowa-team-wins-1m-nsf-grant-lead-multi-university-consortium-advance-medical-ai",
+        "https://iti.uiowa.edu/articles/2020/09/national-science-foundation-awards-baek-team-1m-grant-advance-medical-imaging"
+      ]
+    },
+    {
+      "title": "Argon HPC cluster and AI/GPU Development Lab",
+      "description": "The Argon high-performance computing cluster (deployed February 2017) provides ~23,000 CPU cores and 350+ GPU accelerators and is free at the point of use to UI faculty, staff, and students. Engineering Computing Services and IIAI operate an AI/GPU Development Lab in Seamans Center 4622 for AI method development before production runs on Argon.",
+      "significance": "Provides the compute substrate that makes IIAI's pilot program and ImagiQ research possible; one of the larger GPU footprints among Big Ten non-flagship (non-Michigan/Illinois) publics.",
+      "date_announced": "2017-02-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "ITS-Research Services + faculty condo model",
+        "description": "Free central allocation plus condo-model purchased/rented nodes."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "ITS-Research Services",
+            "College of Engineering",
+            "IIAI",
+            "Engineering Computing Services"
+          ],
+          "description": "Joint operations model between ITS and Engineering."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Argon HPC",
+          "vendor": "University of Iowa (in-house)",
+          "role": "HPC/GPU cluster"
+        },
+        {
+          "name": "NVIDIA GPUs (1080 Ti, Titan V, and successors)",
+          "vendor": "NVIDIA",
+          "role": "Accelerators used in AI training/inference"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.its.uiowa.edu/our-services/computing-services/argon-high-performance-computing-hpc",
+        "https://iiai.uiowa.edu/argon-gpu-resources",
+        "https://iiai.uiowa.edu/aigpu-development-labs"
+      ]
+    },
+    {
+      "title": "UI Health Care clinical AI deployments: Evidently and Nabla",
+      "description": "UI Health Care deployed Evidently, an AI chart-review application within Epic that summarizes patient history for providers, and Nabla, an ambient clinical scribing tool that generates draft notes during patient visits. Evidently hit 2,000+ clinician accesses on day one after piloting with 20 providers; Nabla's five-week pilot produced a 4.3/5 clinician rating and reported a 26% reduction in burnout symptoms.",
+      "significance": "Rare example of a university health system moving multiple GenAI tools into full clinician deployment simultaneously, with a disclosed (if informal) outcomes-monitoring approach.",
+      "date_announced": "2024-09-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "lms_embedded_ai"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UI Health Care operating",
+        "description": "License cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Evidently (vendor)",
+            "Nabla (vendor)",
+            "Epic Systems"
+          ],
+          "description": "Vendor partnerships integrated into Epic EHR."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Evidently",
+          "vendor": "Evidently",
+          "role": "AI chart-review / patient-data summarization inside Epic"
+        },
+        {
+          "name": "Nabla",
+          "vendor": "Nabla",
+          "role": "Ambient clinical scribing"
+        },
+        {
+          "name": "Epic",
+          "vendor": "Epic Systems",
+          "role": "EHR platform hosting AI tools"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Reviewed and approved by UI Health Care's Digital Health and AI-Based Tool Governance committee before deployment.",
+      "source_urls": [
+        "https://medicine.uiowa.edu/news/2024/09/new-ai-tools-improve-patient-care-and-clinician-well-being",
+        "https://uihc.org/digital-health-and-ai-based-tool-governance",
+        "https://www.healthcare-brew.com/stories/2024/10/07/how-the-university-of-iowa-health-care-implemented-ai-into-its-health-system",
+        "https://epicsupport.sites.uiowa.edu/epic-resources/evidently"
+      ]
+    },
+    {
+      "title": "Operational AI chatbot pilots (HR, OneIT, Enrollment Management)",
+      "description": "ITS is running chatbot pilots in HR, OneIT (central IT), and Enrollment Management. The chatbots are built on Microsoft Copilot Agents and deployed behind HawkID SSO for employees/students.",
+      "significance": "Demonstrates that UI is operationalizing AI for day-to-day administrative self-service rather than only for research or classroom experimentation.",
+      "date_announced": "2025-12-09",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_in_admissions_and_enrollment",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Unit budgets + Microsoft license",
+        "description": "No separate budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Built on Copilot Agents."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot Agents",
+          "vendor": "Microsoft",
+          "role": "Chatbot framework"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Pilots operate under existing Copilot data-protection terms.",
+      "source_urls": [
+        "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change",
+        "https://its.uiowa.edu/services/copilot-chat/how-build-and-use-copilot-chat-agents"
+      ]
+    },
+    {
+      "title": "Tippie College of Business AI and analytics program suite",
+      "description": "Tippie operates a cluster of AI-focused academic programs: a graduate Certificate in Artificial Intelligence and Machine Learning, a Certificate in Artificial Intelligence and Technology Management, an MBA concentration in AI and Technology Management, a Master of Science in Business Analytics (on-campus and part-time/online), and stand-alone courses such as BAIS:6240 Value Creation Using AI and BAIS:6250 Applied Deep Learning. A Tippie AI lab sits alongside an Engineering AI lab on campus.",
+      "significance": "Positions a non-engineering college as an AI talent-development engine, matching the broader sector trend of business schools formalizing AI pathways.",
+      "date_announced": "2024-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tippie College of Business",
+        "description": "Operating investment not broken out publicly."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://tippie.uiowa.edu/masters-business-analytics",
+        "https://catalog.registrar.uiowa.edu/tippie-business/business-analytics/artificial-intelligence-machine-learning-certificate/",
+        "https://catalog.registrar.uiowa.edu/tippie-business/master-of-business-administration/artificial-intelligence-technology-management-certificate/",
+        "https://tippie.uiowa.edu/iowa-mba/concentrations/ai-tech-management",
+        "https://tippie.uiowa.edu/lifelong-learning/certificates/ai-and-machine-learning",
+        "https://tippie.uiowa.edu/lifelong-learning/certificates/ai-tech-management"
+      ]
+    },
+    {
+      "title": "Center for Teaching / OTLT syllabus-language and AI Assessment Scale",
+      "description": "The Center for Teaching and Office of Teaching, Learning, and Technology jointly publish syllabus-language templates, assignment examples, and the AI Assessment Scale (a rubric for instructors to decide how much AI use is appropriate in each assignment). Spring 2025 CLAS-specific guidance pushes these resources to liberal-arts instructors.",
+      "significance": "Codifies syllabus-level AI expectations as a normative faculty practice, with UI tooling that other institutions borrow.",
+      "date_announced": "2025-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Provost / Center for Teaching operating",
+        "description": null
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Center for Teaching",
+            "Office of Teaching, Learning, and Technology",
+            "CLAS"
+          ],
+          "description": "Cross-unit coordination."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Assessment Scale",
+          "vendor": "Center for Teaching / OTLT",
+          "role": "Rubric framework for AI in assignment design"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Backs up the syllabus-level requirement for AI policy statements.",
+      "source_urls": [
+        "https://teaching.center.uiowa.edu/teaching-resources/artificial-intelligence",
+        "https://teach.its.uiowa.edu/artificial-intelligence-tools-and-teaching",
+        "https://teach.its.uiowa.edu/news/2025/08/teaching-ai-setting-expectations-your-syllabus",
+        "https://teaching.center.uiowa.edu/ai-assessment-scale-reflecting-ai-assignment-design",
+        "https://provost.uiowa.edu/ai-classroom"
+      ]
+    },
+    {
+      "title": "Accessible Iowa: ADA Title II digital-accessibility initiative",
+      "description": "Campus-wide initiative launched in 2025 to bring all UI digital content into compliance with the April 24, 2026 ADA Title II deadline. Specific AI-adjacent workstreams include making all UI ICON (Canvas) courses fully accessible via Anthology Ally (which uses AI to generate alt text and automated captions) and targeting a Siteimprove accessibility score of 94 across UI websites.",
+      "significance": "Ties AI-enabled accessibility tooling directly to a compliance deadline, illustrating how R1s are using AI to close equity gaps for disabled students and staff.",
+      "date_announced": "2025-05-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "ai_tool_equity",
+        "lms_embedded_ai"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ITS / Provost / Accessibility Task Force",
+        "description": "Budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Anthology (Ally)",
+            "Siteimprove"
+          ],
+          "description": "Vendor-backed accessibility scanning and AI remediation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Anthology Ally",
+          "vendor": "Anthology",
+          "role": "AI-driven accessibility and alternative-format generation in ICON (Canvas)"
+        },
+        {
+          "name": "Siteimprove",
+          "vendor": "Siteimprove",
+          "role": "Website accessibility monitoring and scoring"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Moves accessibility from aspiration to enforceable target with a hard deadline.",
+      "source_urls": [
+        "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility",
+        "https://itaccessibility.uiowa.edu/policy",
+        "https://itaccessibility.uiowa.edu/about-it-accessibility"
+      ]
+    },
+    {
+      "title": "IIHR Flood AI and hydroinformatics research",
+      "description": "IIHR-Hydroscience & Engineering operates the Flood AI system (a 24/7 AI-driven flood forecasting platform) initially seeded by a Microsoft AI for Earth grant (2017) and ongoing climate-AI research led by Gabriele Villarini, Wei Zhang, and Ibrahim Demir. The Hydroinformatics Lab maintains online data systems for water quality, flood projects, and well-driller information.",
+      "significance": "Canonical example of applied AI-for-science at Iowa, tying a legacy research strength (hydroscience) to modern machine-learning methods and to public-benefit services for Iowans.",
+      "date_announced": "2017-12-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Microsoft AI for Earth + federal/state grants",
+        "description": "Specific dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft (AI for Earth)",
+            "Iowa Flood Center",
+            "Iowa Nutrient Research Center"
+          ],
+          "description": "Industry + state partners for public-benefit research."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Flood AI",
+          "vendor": "University of Iowa IIHR",
+          "role": "AI flood forecasting for Iowa"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://iihr.uiowa.edu/",
+        "https://www.iihr.uiowa.edu/2017/12/11/demir-wins-microsofts-ai-for-earth-grant/",
+        "http://www2.iihr.uiowa.edu/blog/2021/03/01/new-research-links-climate-change-to-flooding-in-iowa/",
+        "https://hydroinformatics.uiowa.edu/research.php"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Iowa Initiative for Artificial Intelligence (IIAI)",
+      "focus": "Cross-college AI research, pilot projects, HawkAI training, AI/GPU Development Lab",
+      "founded": "2018",
+      "url": "https://iiai.uiowa.edu/"
+    },
+    {
+      "name": "IIHR-Hydroscience & Engineering (Flood AI, Hydroinformatics Lab)",
+      "focus": "AI for hydroscience, flood forecasting, climate-water research",
+      "founded": "1920",
+      "url": "https://iihr.uiowa.edu/"
+    },
+    {
+      "name": "Iowa Technology Institute (formerly CCAD)",
+      "focus": "Applied research in computer science, imaging, and AI methods (Baek lab)",
+      "founded": "1986",
+      "url": "https://iti.uiowa.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence (launching fall 2026)",
+      "level": "undergrad",
+      "launched": "2026-08",
+      "url": "https://provost.uiowa.edu/news/2025/09/ui-launch-new-ai-certificate-2026"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence and Machine Learning (Tippie)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.registrar.uiowa.edu/tippie-business/business-analytics/artificial-intelligence-machine-learning-certificate/"
+    },
+    {
+      "type": "certificate",
+      "name": "Professional Certificate in Artificial Intelligence and Technology Management (Tippie)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.registrar.uiowa.edu/tippie-business/master-of-business-administration/artificial-intelligence-technology-management-certificate/"
+    },
+    {
+      "type": "concentration",
+      "name": "MBA Concentration in AI and Technology Management (Tippie)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://tippie.uiowa.edu/iowa-mba/concentrations/ai-tech-management"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Data Science (Statistics & Computer Science)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://stat.uiowa.edu/graduate/ms-data-science"
+    },
+    {
+      "type": "degree",
+      "name": "Bachelor of Science / Bachelor of Arts in Data Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://admissions.uiowa.edu/academics/data-science"
+    },
+    {
+      "type": "concentration",
+      "name": "Artificial Intelligence, Modeling and Simulation in Engineering (College of Engineering)",
+      "level": "both",
+      "launched": null,
+      "url": "https://catalog.registrar.uiowa.edu/engineering/artificial-intelligence-modeling-simulation-engineering/"
+    },
+    {
+      "type": "course",
+      "name": "HawkAI Level 1/2/3 Certificates of Proficiency in AI/ML (non-credit)",
+      "level": "both",
+      "launched": "2024-09",
+      "url": "https://iiai.uiowa.edu/hawkai"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://its.uiowa.edu/services/copilot-chat"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://its.uiowa.edu/services/microsoft-365-copilot"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat Agents",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://its.uiowa.edu/services/copilot-chat/how-build-and-use-copilot-chat-agents"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://its.uiowa.edu/news/2025/12/chatgpt-edu-now-available-university-iowa-faculty-and-staff"
+    },
+    {
+      "vendor": "University of Iowa (in-house)",
+      "product": "Iowa AI Gateway (planned 2026 pilot)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-01",
+      "url": "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change"
+    },
+    {
+      "vendor": "Evidently",
+      "product": "Evidently (AI chart review in Epic)",
+      "scope": "campus-wide",
+      "user_count": 2000,
+      "deployed": "2024-09",
+      "url": "https://epicsupport.sites.uiowa.edu/epic-resources/evidently"
+    },
+    {
+      "vendor": "Nabla",
+      "product": "Nabla (ambient clinical scribing)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://medicine.uiowa.edu/news/2024/09/new-ai-tools-improve-patient-care-and-clinician-well-being"
+    },
+    {
+      "vendor": "Anthology",
+      "product": "Ally (AI accessibility remediation) in ICON (Canvas)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Argon",
+    "gpu_count": 350,
+    "url": "https://research.its.uiowa.edu/our-services/computing-services/argon-high-performance-computing-hpc",
+    "summary": "Argon HPC (deployed February 2017) offers ~23,000 CPU cores and 350+ GPU accelerators (NVIDIA 1080 Ti, Titan V, and successors) on a mixed Infiniband/Omnipath fabric. Accounts are free to UI faculty, staff, and students; condo-model node purchases are available. IIAI operates an AI/GPU Development Lab in Seamans Center 4622 specifically for AI model development before production runs."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF Convergence Accelerator phase-one grant for ImagiQ medical AI platform",
+      "amount_usd": 1000000,
+      "source": "National Science Foundation",
+      "purpose": "Develop decentralized federated-learning platform for medical AI (Stephen Baek, lead)",
+      "date": "2020-10",
+      "url": "https://www.engineering.uiowa.edu/news/university-iowa-team-wins-1m-nsf-grant-lead-multi-university-consortium-advance-medical-ai"
+    },
+    {
+      "title": "UI P3 'AI in Undergraduate Education' award for AI Certificate",
+      "amount_usd": 195000,
+      "source": "University of Iowa (P3 President's Priorities Program)",
+      "purpose": "Funding 11 courses (1 core + 10 electives) for the undergraduate AI Certificate over three years",
+      "date": "2025-09",
+      "url": "https://provost.uiowa.edu/news/2025/09/ui-launch-new-ai-certificate-2026"
+    },
+    {
+      "title": "$9.8M project to leverage health team data with AI (College of Nursing)",
+      "amount_usd": 9800000,
+      "source": "Federal (multi-agency)",
+      "purpose": "Enrich health data with input from nurses, therapists (AI / informatics)",
+      "date": "2024-10",
+      "url": "https://nursing.uiowa.edu/news/2024/10/leveraging-health-team-data-with-AI"
+    },
+    {
+      "title": "Microsoft AI for Earth grant (IIHR Flood AI)",
+      "amount_usd": null,
+      "source": "Microsoft",
+      "purpose": "Seed funding for Flood AI forecasting platform",
+      "date": "2017-12",
+      "url": "https://www.iihr.uiowa.edu/2017/12/11/demir-wins-microsofts-ai-for-earth-grant/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot Chat, Microsoft 365 Copilot, Copilot Agents campus deployment + AI for Earth (IIHR Flood AI)",
+      "date": "2017-12",
+      "url": "https://its.uiowa.edu/services/microsoft-365-copilot"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Edu for faculty/staff",
+      "date": "2025-12",
+      "url": "https://its.uiowa.edu/news/2025/12/chatgpt-edu-now-available-university-iowa-faculty-and-staff"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Epic Systems",
+      "purpose": "EHR host for AI tools at UI Health Care (Evidently embedded)",
+      "date": "2024-09",
+      "url": "https://epicsupport.sites.uiowa.edu/epic-resources/evidently"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Evidently",
+      "purpose": "AI chart review in Epic at UI Health Care",
+      "date": "2024-09",
+      "url": "https://medicine.uiowa.edu/news/2024/09/new-ai-tools-improve-patient-care-and-clinician-well-being"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Nabla",
+      "purpose": "Ambient AI scribing for clinicians",
+      "date": "2024-09",
+      "url": "https://medicine.uiowa.edu/news/2024/09/new-ai-tools-improve-patient-care-and-clinician-well-being"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA, Lunit, Digital Diagnostics, Imagoworks, inSEER",
+      "purpose": "Industry partners on ImagiQ medical AI consortium",
+      "date": "2020-10",
+      "url": "https://www.engineering.uiowa.edu/news/university-iowa-team-wins-1m-nsf-grant-lead-multi-university-consortium-advance-medical-ai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Stanford, Harvard, Yale, University of Chicago",
+      "purpose": "Co-leads on ImagiQ federated learning consortium",
+      "date": "2020-10",
+      "url": "https://www.engineering.uiowa.edu/news/university-iowa-team-wins-1m-nsf-grant-lead-multi-university-consortium-advance-medical-ai"
+    },
+    {
+      "pattern": "international",
+      "partner": "Seoul National University",
+      "purpose": "International member of ImagiQ consortium",
+      "date": "2020-10",
+      "url": "https://www.engineering.uiowa.edu/news/university-iowa-team-wins-1m-nsf-grant-lead-multi-university-consortium-advance-medical-ai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "AAC&U + 175+ peer institutions",
+      "purpose": "AI, Pedagogy, and the Curriculum institute (2025-26)",
+      "date": "2025-09",
+      "url": "https://strategicplan.uiowa.edu/news/2025/10/ui-selected-national-institute-ai-and-future-teaching"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Anthology",
+      "purpose": "Ally AI-driven accessibility in ICON (Canvas)",
+      "date": "2025-05",
+      "url": "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot Chat for students (via HawkID SSO)",
+      "scope": "All UI students receive enterprise-protected GenAI chat free of charge",
+      "url": "https://its.uiowa.edu/services/copilot-chat"
+    },
+    {
+      "type": "chatbot",
+      "name": "Enrollment Management chatbot pilot (Copilot Agent)",
+      "scope": "Pilot for prospective/current student enrollment questions",
+      "url": "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change"
+    },
+    {
+      "type": "other",
+      "name": "OneIT chatbot pilot",
+      "scope": "Central IT self-service chatbot for students/staff",
+      "url": "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change"
+    },
+    {
+      "type": "other",
+      "name": "HR chatbot pilot",
+      "scope": "Employee-facing self-service assistant",
+      "url": "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change"
+    },
+    {
+      "type": "other",
+      "name": "Anthology Ally in ICON",
+      "scope": "AI accessibility / alternative-format generation inside Canvas for all UI courses",
+      "url": "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Accessible Iowa: The Countdown to Digital Accessibility",
+      "description": "Campus-wide initiative driving ADA Title II compliance by April 24, 2026, with AI-enabled tools (Anthology Ally, Siteimprove) applied across ICON courses and UI websites; target Siteimprove score of 94 across all UI sites.",
+      "url": "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility"
+    },
+    {
+      "title": "Universal free Copilot Chat access for students",
+      "description": "By distributing Microsoft Copilot Chat free to all students via HawkID, UI reduces the 'frontier-model access' equity gap between students who can and can't afford paid GenAI tools.",
+      "url": "https://its.uiowa.edu/services/copilot-chat"
+    },
+    {
+      "title": "HawkAI proficiency courses open to all UI employees and students",
+      "description": "Free or low-cost AI/ML micro-credential track accessible regardless of college or program, lowering the barrier to AI literacy for non-STEM staff and students.",
+      "url": "https://iiai.uiowa.edu/hawkai"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Iowa",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "The State of Iowa has an Enterprise Generative Artificial Intelligence Policy (PY-AI) via the Iowa Department of Management that restricts unapproved free AI tools within state government and requires human review of AI outputs. The Iowa Board of Regents does not (as of April 2026) publish a single system-wide AI policy binding all three Regent universities; each campus has its own. Iowa lawmakers have been active on AI regulation, considering bills on minor protection, health-care AI, and general AI oversight. Iowa State operates the separately chartered Translational AI Research and Education Center (TrAC), and University of Northern Iowa maintains its own AI guidelines — collectively, Iowa's higher-ed AI context is coordinated at the state policy level but decentralized at the system level.",
+    "urls": [
+      "https://dom.iowa.gov/media/785/download?inline=",
+      "https://dxsandbox.iowa.gov/state-iowa-generative-artificial-intelligence-ai-policy",
+      "https://www.thegazette.com/news/politics/iowa-lawmakers-consider-artificial-intelligence-regulation-while-encouraging-innovation/article_9c9a0149-18c4-5953-98db-566d6283a7e1.html",
+      "https://research.iastate.edu/2022/04/08/board-of-regents-approves-new-translational-ai-research-and-education-center-at-iowa-state-university/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-02",
+      "summary": "UI requested closure of six undergraduate majors and a master's in African American World Studies as part of a low-enrollment program review; critics framed the move as an attack on intellectual freedom. While not strictly an AI story, it intersects with the national debate over institutional restructuring in the AI era and UI's own framing of AI as a workforce-readiness priority.",
+      "status": "active",
+      "url": "https://www.kcrg.com/2026/02/26/univ-iowa-requests-closure-six-undergraduate-majors/"
+    },
+    {
+      "date": "2025-02",
+      "summary": "UI briefly paused new research activity during NIH administrative chaos in early 2025, affecting AI-adjacent biomedical research pipelines.",
+      "status": "resolved",
+      "url": "https://www.insidehighered.com/news/quick-takes/2025/02/12/u-iowa-briefly-halts-new-research-amid-nih-chaos"
+    }
+  ],
+  "narrative_summary": "The University of Iowa enters 2026 with a notably deliberate AI posture for a Big Ten public R1. It has a published AI Strategy and Action Plan built on five guiding principles, a layered governance model (AI Steering Committee, AI SPARC, and a separate Digital Health and AI-Based Tool Governance committee at UI Health Care), and a clear set of implementation committees tied to its 2022-2027 Strategic Plan. Enterprise tooling is multi-vendor: Microsoft Copilot Chat is free to all ~31,500 students, faculty, and staff via HawkID SSO; Microsoft 365 Copilot is available as a $276/user/year paid tier; ChatGPT Edu was added December 2025; and an in-house Iowa AI Gateway is planned as a multi-model broker for 2026. Clinical AI is the most operationally mature surface: UI Health Care rolled out Evidently (AI chart review in Epic) and Nabla (ambient scribing) with a formal governance committee, and early data show 2,000+ clinician accesses on day one of Evidently and a 26% reduction in burnout symptoms from Nabla.\n\nOn the academic side, the Iowa Initiative for Artificial Intelligence (IIAI, founded 2018) remains the research center of gravity under Director Milan Sonka, operating pilot research funding, the HawkAI Level 1/2/3 proficiency certificates, and an AI/GPU Development Lab that feeds into the Argon HPC cluster (23,000+ CPU cores, 350+ GPUs). A new undergraduate Certificate in Artificial Intelligence launches fall 2026 with a deliberately cross-disciplinary curriculum (Computer Science, Philosophy, Art, Journalism, Languages, etc.), funded by a $195,000 P3 award. Tippie College of Business has one of the deeper business-school AI program suites in the Big Ten (graduate certificates, MBA concentration, Master's in Business Analytics).\n\nMaturity dimensions where Iowa is weakest: there is no chief AI officer, no dedicated 'chief AI strategy' role outside IIAI, and AI-specific equity initiatives are still embedded inside general digital-accessibility compliance rather than standing on their own. Student-facing chatbots are still in pilot (HR, OneIT, Enrollment Management). Leadership transition is also in motion: longtime CIO Steve Fleagle retires spring 2026 and Brad Rohrer (University of Miami) begins as the next CIO in 2026 - his priorities will shape whether Iowa's careful, governance-first AI posture accelerates into a more ambitious 'AI-native' footing.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://its.uiowa.edu/university-iowa-artificial-intelligence-strategy-and-guiding-principles",
+      "https://its.uiowa.edu/university-iowa-artificial-intelligence-action-plan",
+      "https://its.uiowa.edu/ai-guidelines-and-use-cases",
+      "https://its.uiowa.edu/ai-committees",
+      "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change",
+      "https://its.uiowa.edu/news/2025/12/chatgpt-edu-now-available-university-iowa-faculty-and-staff",
+      "https://its.uiowa.edu/services/microsoft-365-copilot",
+      "https://its.uiowa.edu/services/copilot-chat",
+      "https://its.uiowa.edu/services/copilot-chat/how-build-and-use-copilot-chat-agents",
+      "https://its.uiowa.edu/news/2024/01/microsoft-copilot-now-available-faculty-and-staff",
+      "https://its.uiowa.edu/using-ai-securely",
+      "https://its.uiowa.edu/using-ai-academics-and-research",
+      "https://itsecurity.uiowa.edu/guidelines-secure-and-ethical-use-artificial-intelligence",
+      "https://iiai.uiowa.edu/",
+      "https://iiai.uiowa.edu/about-us",
+      "https://iiai.uiowa.edu/people",
+      "https://iiai.uiowa.edu/hawkai",
+      "https://iiai.uiowa.edu/argon-gpu-resources",
+      "https://iiai.uiowa.edu/aigpu-development-labs",
+      "https://research.its.uiowa.edu/our-services/computing-services/argon-high-performance-computing-hpc",
+      "https://provost.uiowa.edu/news/2025/09/ui-launch-new-ai-certificate-2026",
+      "https://provost.uiowa.edu/ai-classroom",
+      "https://strategicplan.uiowa.edu/news/2025/10/ui-selected-national-institute-ai-and-future-teaching",
+      "https://teach.its.uiowa.edu/artificial-intelligence-tools-and-teaching",
+      "https://teach.its.uiowa.edu/news/2025/08/teaching-ai-setting-expectations-your-syllabus",
+      "https://teaching.center.uiowa.edu/teaching-resources/artificial-intelligence",
+      "https://teaching.center.uiowa.edu/ai-assessment-scale-reflecting-ai-assignment-design",
+      "https://medicine.uiowa.edu/news/2024/09/new-ai-tools-improve-patient-care-and-clinician-well-being",
+      "https://uihc.org/digital-health-and-ai-based-tool-governance",
+      "https://epicsupport.sites.uiowa.edu/epic-resources/evidently",
+      "https://www.healthcare-brew.com/stories/2024/10/07/how-the-university-of-iowa-health-care-implemented-ai-into-its-health-system",
+      "https://www.engineering.uiowa.edu/news/university-iowa-team-wins-1m-nsf-grant-lead-multi-university-consortium-advance-medical-ai",
+      "https://iti.uiowa.edu/articles/2020/09/national-science-foundation-awards-baek-team-1m-grant-advance-medical-imaging",
+      "https://iihr.uiowa.edu/",
+      "https://www.iihr.uiowa.edu/2017/12/11/demir-wins-microsofts-ai-for-earth-grant/",
+      "https://hydroinformatics.uiowa.edu/research.php",
+      "https://tippie.uiowa.edu/masters-business-analytics",
+      "https://tippie.uiowa.edu/iowa-mba/concentrations/ai-tech-management",
+      "https://tippie.uiowa.edu/lifelong-learning/certificates/ai-and-machine-learning",
+      "https://tippie.uiowa.edu/lifelong-learning/certificates/ai-tech-management",
+      "https://catalog.registrar.uiowa.edu/tippie-business/business-analytics/artificial-intelligence-machine-learning-certificate/",
+      "https://catalog.registrar.uiowa.edu/tippie-business/master-of-business-administration/artificial-intelligence-technology-management-certificate/",
+      "https://catalog.registrar.uiowa.edu/engineering/artificial-intelligence-modeling-simulation-engineering/",
+      "https://stat.uiowa.edu/graduate/ms-data-science",
+      "https://admissions.uiowa.edu/academics/data-science",
+      "https://now.uiowa.edu/news/2025/05/accessible-iowa-initiative-sets-campus-standards-next-steps-digital-accessibility",
+      "https://itaccessibility.uiowa.edu/policy",
+      "https://itaccessibility.uiowa.edu/about-it-accessibility",
+      "https://president.uiowa.edu/about-president",
+      "https://provost.uiowa.edu/about-office-provost",
+      "https://oneit.uiowa.edu/news/2026/01/brad-rohrer-named-uis-next-chief-information-officer",
+      "https://its.uiowa.edu/news/2025/07/steve-fleagle-longtime-chief-information-officer-retire-university-iowa",
+      "https://dailyiowan.com/2025/11/20/qa-ui-president-barbara-wilson-discusses-center-for-intellectual-freedom-federal-changes/",
+      "https://stories.uiowa.edu/2025-incoming-class-infographic",
+      "https://dom.iowa.gov/media/785/download?inline=",
+      "https://dxsandbox.iowa.gov/state-iowa-generative-artificial-intelligence-ai-policy",
+      "https://www.thegazette.com/news/politics/iowa-lawmakers-consider-artificial-intelligence-regulation-while-encouraging-innovation/article_9c9a0149-18c4-5953-98db-566d6283a7e1.html",
+      "https://nursing.uiowa.edu/news/2024/10/leveraging-health-team-data-with-AI",
+      "https://www.insidehighered.com/news/quick-takes/2025/02/12/u-iowa-briefly-halts-new-research-amid-nih-chaos",
+      "https://www.kcrg.com/2026/02/26/univ-iowa-requests-closure-six-undergraduate-majors/"
+    ],
+    "search_queries": [
+      "\"University of Iowa\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Iowa\" generative AI policy acceptable use faculty staff",
+      "\"University of Iowa\" AI governance committee task force council",
+      "\"University of Iowa\" chief AI officer CIO provost 2025",
+      "\"University of Iowa\" new CIO 2025 2026 replacing Fleagle",
+      "\"University of Iowa\" president Barbara Wilson AI statement",
+      "\"University of Iowa\" NSF AI grant research million healthcare",
+      "\"University of Iowa\" Microsoft Copilot enterprise AI deployment campus",
+      "\"University of Iowa\" Iowa Initiative Artificial Intelligence director healthcare AI research center",
+      "\"University of Iowa\" HawkAI chatbot student services predictive analytics",
+      "\"University of Iowa\" AI degree program computer science data science master",
+      "\"University of Iowa\" Hawkeye AI supercomputer GPU HPC Argon computing",
+      "\"University of Iowa Health Care\" AI governance clinical tools Epic",
+      "\"University of Iowa\" AI in teaching Center for Teaching syllabus 2025",
+      "Iowa Board of Regents AI policy artificial intelligence state",
+      "\"University of Iowa\" AI accessibility disability equity digital divide",
+      "\"University of Iowa\" Tippie business analytics AI MBA program",
+      "\"University of Iowa\" president provost 2026 Wilson Kregel enrollment",
+      "\"University of Iowa\" AI ethics framework IRB research review",
+      "\"University of Iowa\" flood AI climate IIHR hydroscience research",
+      "\"University of Iowa\" enrollment 2025 total undergraduate graduate students",
+      "\"University of Iowa\" artificial intelligence minor certificate Tippie computer science",
+      "\"University of Iowa\" AI research funding million 2024 2025 grants NIH"
+    ],
+    "gaps_acknowledged": [
+      "Total dollar spend on AI tooling and personnel is not disclosed publicly and can only be estimated from per-seat Copilot licensing ($276/user/year) and individual grants.",
+      "No public user-count figures for Copilot, Copilot Chat, or ChatGPT Edu at UI.",
+      "Identity of AI Steering Committee chair and full member roster is not public on the ITS site (the SPARC member roster is public but chair is not explicitly named).",
+      "No dedicated chief AI officer role exists; 'ai_strategy_lead' is inferred to be IIAI Director Milan Sonka based on public documentation.",
+      "No state/Regents-level AI policy specifically binding the three Regent universities was found; each campus has its own guidance.",
+      "Phase-two funding status of the NSF ImagiQ grant (post-phase-one) was not confirmed in this pass.",
+      "Controversies section is limited; no AI-specific lawsuits, FERPA incidents, or cheating-policy scandals were surfaced in the research window."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 26,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 17,
+        "governance_led": 14,
+        "student_success_led": 9,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 2,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 2,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 3,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Argon",
+        "gpu_count": 350,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 10995000,
+      "funding_source_buckets": {
+        "public_federal_state": 4,
+        "institutional": 6,
+        "industry_vendor": 3,
+        "other_unclear": 7
+      },
+      "partnership_count": 10
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 3
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Copilot Agents",
+            "Copilot Chat",
+            "Copilot Chat Agents",
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "Anthology Anthology Ally",
+          "mentions": 1,
+          "products": [
+            "Anthology Ally"
+          ]
+        },
+        {
+          "vendor": "Center for Teaching / OTLT AI Assessment Scale",
+          "mentions": 1,
+          "products": [
+            "AI Assessment Scale"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic",
+          "mentions": 1,
+          "products": [
+            "Epic"
+          ]
+        },
+        {
+          "vendor": "Evidently Evidently",
+          "mentions": 1,
+          "products": [
+            "Evidently"
+          ]
+        },
+        {
+          "vendor": "Evidently Evidently (AI chart review in Epic)",
+          "mentions": 1,
+          "products": [
+            "Evidently (AI chart review in Epic)"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Ally (AI accessibility remediation) in ICON (Canvas)"
+          ]
+        },
+        {
+          "vendor": "Nabla Nabla",
+          "mentions": 1,
+          "products": [
+            "Nabla"
+          ]
+        },
+        {
+          "vendor": "Nabla Nabla (ambient clinical scribing)",
+          "mentions": 1,
+          "products": [
+            "Nabla (ambient clinical scribing)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA GPUs (1080 Ti, Titan V, and successors)"
+          ]
+        },
+        {
+          "vendor": "Siteimprove Siteimprove",
+          "mentions": 1,
+          "products": [
+            "Siteimprove"
+          ]
+        },
+        {
+          "vendor": "University of Iowa (in-house) Argon HPC",
+          "mentions": 1,
+          "products": [
+            "Argon HPC"
+          ]
+        },
+        {
+          "vendor": "University of Iowa (in-house) Iowa AI Gateway",
+          "mentions": 1,
+          "products": [
+            "Iowa AI Gateway"
+          ]
+        },
+        {
+          "vendor": "University of Iowa (in-house) Iowa AI Gateway (planned 2026 pilot)",
+          "mentions": 1,
+          "products": [
+            "Iowa AI Gateway (planned 2026 pilot)"
+          ]
+        },
+        {
+          "vendor": "University of Iowa (lead) ImagiQ",
+          "mentions": 1,
+          "products": [
+            "ImagiQ"
+          ]
+        },
+        {
+          "vendor": "University of Iowa Argon HPC / GPU resources",
+          "mentions": 1,
+          "products": [
+            "Argon HPC / GPU resources"
+          ]
+        },
+        {
+          "vendor": "University of Iowa IIHR Flood AI",
+          "mentions": 1,
+          "products": [
+            "Flood AI"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "University of Iowa AI Strategy and Guiding Principles + Action Plan",
+          "summary": "Formal, publicly posted institution-wide AI strategy with active implementation committees puts UI in a minority of R1 publics that have moved beyond ad-hoc guidance.",
+          "source_url": "https://its.uiowa.edu/university-iowa-artificial-intelligence-strategy-and-guiding-principles"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft 365 Copilot and Copilot Chat campus rollout",
+          "summary": "Campus-wide GenAI access with vendor-backed enterprise data protection establishes Microsoft as the default UI AI layer and demonstrates that large R1 publics can scale AI access without a bespoke platform.",
+          "source_url": "https://its.uiowa.edu/services/microsoft-365-copilot"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Iowa AI Gateway (multi-model AI platform)",
+          "summary": "Early signal of the 'AI gateway' pattern increasingly adopted by R1s to avoid vendor lock-in and to centralize guardrails; one of the first publicly named gateway efforts in the Big Ten.",
+          "source_url": "https://its.uiowa.edu/news/2025/12/reflecting-our-ai-journey-supporting-campus-through-year-change"
+        },
+        {
+          "claim_type": "career",
+          "title": "HawkAI proficiency courses and certificates",
+          "summary": "Provides the on-ramp for faculty and staff AI literacy outside of formal degree programs and anchors Iowa's response to the sector-wide 'AI literacy for workforce' imperative.",
+          "source_url": "https://iiai.uiowa.edu/hawkai"
+        },
+        {
+          "claim_type": "learning",
+          "title": "AAC&U Institute on AI, Pedagogy, and the Curriculum participation",
+          "summary": "Anchors Iowa into a national faculty-development cohort and gives its teaching-with-AI framework external benchmarking.",
+          "source_url": "https://strategicplan.uiowa.edu/news/2025/10/ui-selected-national-institute-ai-and-future-teaching"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Center for Teaching / OTLT syllabus-language and AI Assessment Scale",
+          "summary": "Codifies syllabus-level AI expectations as a normative faculty practice, with UI tooling that other institutions borrow.",
+          "source_url": "https://teaching.center.uiowa.edu/teaching-resources/artificial-intelligence"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "Total dollar spend on AI tooling and personnel is not disclosed publicly and can only be estimated from per-seat Copilot licensing ($276/user/year) and individual grants.",
+        "No public user-count figures for Copilot, Copilot Chat, or ChatGPT Edu at UI.",
+        "Identity of AI Steering Committee chair and full member roster is not public on the ITS site (the SPARC member roster is public but chair is not explicitly named).",
+        "No dedicated chief AI officer role exists; 'ai_strategy_lead' is inferred to be IIAI Director Milan Sonka based on public documentation.",
+        "No state/Regents-level AI policy specifically binding the three Regent universities was found; each campus has its own guidance.",
+        "Phase-two funding status of the NSF ImagiQ grant (post-phase-one) was not confirmed in this pass.",
+        "Controversies section is limited; no AI-specific lawsuits, FERPA incidents, or cheating-policy scandals were surfaced in the research window."
+      ]
+    }
+  }
+}

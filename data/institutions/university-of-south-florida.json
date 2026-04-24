@@ -1,0 +1,1527 @@
+{
+  "institution": "University of South Florida",
+  "slug": "university-of-south-florida",
+  "city_state": "Tampa, FL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "State University System of Florida",
+  "enrollment": 49622,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Moez Limayem",
+      "url": "https://www.usf.edu/president/"
+    },
+    "provost": {
+      "name": "Prasant Mohapatra",
+      "url": "https://www.usf.edu/provost/"
+    },
+    "cio": {
+      "name": "Sidney Fernandes",
+      "url": "https://www.linkedin.com/in/sidney-fernandes-6305b71/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Sudeep Sarkar",
+      "title": "Launch (Interim) Dean, Bellini College of Artificial Intelligence, Cybersecurity and Computing; Co-Director, Institute for Artificial Intelligence + X",
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/sarkar-sudeep.aspx"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Bellini College of Artificial Intelligence, Cybersecurity and Computing launch",
+        "url": "https://www.usf.edu/ai-cybersecurity-computing/",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI at USF (genai.usf.edu) - central AI hub",
+        "url": "https://genai.usf.edu/at-usf/overview",
+        "year": 2024
+      },
+      {
+        "title": "USF plans to launch college focused on AI, cybersecurity and computing",
+        "url": "https://www.usf.edu/news/2024/usf-plans-to-launch-college-focused-on-artificial-intelligence-cybersecurity-and-computing.aspx",
+        "year": 2024
+      },
+      {
+        "title": "Institute for Artificial Intelligence + X (AI+X)",
+        "url": "https://aix.eng.usf.edu/",
+        "year": 2019
+      }
+    ],
+    "summary": "USF's AI strategy centers on two complementary structures: the Bellini College of Artificial Intelligence, Cybersecurity and Computing, launched August 25, 2025 with a historic $40 million gift from Arnie and Lauren Bellini (the first U.S. college named for the convergence of AI and cybersecurity), and the university-wide Institute for Artificial Intelligence + X (AI+X) founded in 2019 to advance transdisciplinary AI research across healthcare, finance, biology, manufacturing, and transportation. These anchor a workforce-oriented agenda voiced by President Moez Limayem that positions USF as Tampa Bay's AI and cybersecurity engine ('Cyber Bay') and embeds AI into teaching, research, and administration. A centralized genAI portal (genai.usf.edu) coordinates guidance, tools (Microsoft Copilot, Google Gemini), training, and task-force governance."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://genai.usf.edu/at-usf/university-guidance",
+      "https://www.usf.edu/provost/faculty-success/teaching-learning/guidance-generative-ai.aspx",
+      "https://www.usf.edu/provost/faculty-success/teaching-learning/syllabus-course-guidance.aspx"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Human-centered approach: AI augments rather than replaces human intelligence, judgment, and critical thinking",
+      "Individual responsibility for validity, correctness, and usefulness of AI-generated content",
+      "Transparency: users must disclose AI-generated content in published works, official communications, and student submissions where permitted",
+      "Data protection: prohibits sharing student, employment, or protected information with public AI tools; must comply with FERPA and HIPAA",
+      "Prohibits uploading copyrighted/course materials (articles, books, lecture notes, images, videos, software, code) to publicly accessible chatbots for training",
+      "Microsoft Copilot Chat (via USF login) is the sanctioned, data-protected enterprise AI tool",
+      "Course-level use is at instructor discretion; syllabus guidance templates provided by the Provost"
+    ],
+    "summary": "USF operates under comprehensive university-level generative AI guidance coordinated through genai.usf.edu and the Office of the Provost. The guidance is permissive-with-guardrails: it encourages AI adoption across teaching, research and operations while enforcing FERPA/HIPAA compliance, data protection, transparency, and copyright respect. Classroom policy is delegated to instructors, supported by a Provost-provided syllabus template. Microsoft Copilot Chat is the sanctioned data-protected enterprise alternative to public tools like ChatGPT."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "USF GenAI Task Force",
+        "type": "task_force",
+        "scope": "Interdisciplinary body appointed by the Provost and VP of IT to build AI governance, recommend best practices, anticipate workforce needs, and communicate AI initiatives to USF stakeholders",
+        "url": "https://genai.usf.edu/at-usf/genai-task-force"
+      },
+      {
+        "name": "Bellini College of Artificial Intelligence, Cybersecurity and Computing",
+        "type": "office",
+        "scope": "University college unifying AI, cybersecurity and computing; houses academic programs, research centers, and industry engagement with an Academic Advisory Board and Corporate Advisory Board",
+        "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+      },
+      {
+        "name": "Institute for Artificial Intelligence + X (AI+X)",
+        "type": "office",
+        "scope": "University-wide R&D institute coordinating externally-funded AI research across engineering, medicine, arts and sciences, business, and public health",
+        "url": "https://aix.eng.usf.edu/"
+      },
+      {
+        "name": "Bellini College Academic Advisory Board",
+        "type": "committee",
+        "scope": "Industry and academic advisors guiding program content and accreditation; members include CIO Sidney Fernandes, Microsoft's Bradley Lawrence, ReliaQuest's Kim Hill, and others",
+        "url": "https://www.usf.edu/ai-cybersecurity-computing/about/advisory-board.aspx"
+      },
+      {
+        "name": "AI College Task Force (2024)",
+        "type": "task_force",
+        "scope": "Faculty-inclusive body convened to steer the academic plan for the new AI and cybersecurity college prior to its 2025 launch",
+        "url": "https://www.usf.edu/news/2024/usf-plans-to-launch-college-focused-on-artificial-intelligence-cybersecurity-and-computing.aspx"
+      }
+    ],
+    "summary": "USF's AI governance is anchored by the GenAI Task Force (policy/guidance), the Bellini College (academic programs and research), and the AI+X Institute (university-wide research). A Bellini College Academic Advisory Board adds industry voice from Microsoft, ReliaQuest, PGIM, and USF IT leadership. The structure is multi-nodal rather than a single Chief AI Officer role."
+  },
+  "initiatives": [
+    {
+      "title": "Bellini College of Artificial Intelligence, Cybersecurity and Computing",
+      "description": "USF launched the Bellini College on August 25, 2025 with a $40 million founding gift from Arnie and Lauren Bellini - the largest gift in USF's 70-year history and the first U.S. college named for the convergence of AI and cybersecurity. First-semester enrollment exceeded 3,000 students across undergraduate and graduate programs, with plans to reach 5,000 students and 100 faculty by 2028.",
+      "significance": "Establishes a named-college organizational form for AI + cybersecurity + computing - a structural bet few R1 peers have made, and a signal of state-level prioritization of AI workforce pipelines.",
+      "date_announced": "2024-03-21",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "ai_degree_program",
+        "ai_workforce_training",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 40000000,
+        "funding_source": "Arnie and Lauren Bellini (Bellini Capital); matching commitment up to $5M to raise additional $10M",
+        "description": "$40M naming gift plus a $5M 1:1 match to raise an additional $10M for the college"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Bellini Capital",
+            "ReliaQuest",
+            "Rapid7",
+            "KnowBe4",
+            "ConnectSecure",
+            "Microsoft"
+          ],
+          "description": "Industry advisory board and embedded cyber labs (ReliaQuest Labs, Rapid7 Cyber Threat Intelligence Lab) with Tampa-area cyber firms"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a durable academic unit that will set programmatic, research and hiring benchmarks for AI education across Florida's SUS.",
+      "source_urls": [
+        "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx",
+        "https://www.usf.edu/ai-cybersecurity-computing/",
+        "https://www.fox13news.com/news/new-usf-college-cybersecurity-ai-draws-thousands-students",
+        "https://www.usf.edu/news/2024/usf-plans-to-launch-college-focused-on-artificial-intelligence-cybersecurity-and-computing.aspx",
+        "https://www.businesswire.com/news/home/20250311072358/en/Historic-$40M-Gift-Establishes-Bellini-College-of-Artificial-Intelligence-Cybersecurity-and-Computing-at-USF-Solidifying-Tampa-Bay-as-Cyber-Bay"
+      ]
+    },
+    {
+      "title": "Institute for Artificial Intelligence + X (AI+X)",
+      "description": "USF's university-wide R&D institute founded in July 2019 with a $120,000 Strategic Investment Pool allocation. By 2020 it grew to over 110 affiliated faculty from engineering, arts and sciences, medicine, and business, and attracted more than $1.7M in external research awards from NSF, DoD, and NIH. It hosts the annual AI+X Symposium and co-directs are Sudeep Sarkar and Lawrence Hall.",
+      "significance": "Demonstrates a transdisciplinary research-center model that pre-dates and now complements the Bellini College, with substantial federal grant capture.",
+      "date_announced": "2019-07-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1700000,
+        "funding_source": "NSF, DoD, NIH, DoE, state, industry; initial $120K from USF Strategic Investment Pool",
+        "description": "Founding seed of $120K USF internal; >$1.7M in sponsored research by 2020; CSE department executing $12M in active external AI-related grants"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NSF",
+            "DoD",
+            "NIH",
+            "Florida Board of Governors"
+          ],
+          "description": "Federal agency funding and state-level research alignment"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors USF's externally-funded AI research portfolio; coordinates with Bellini College for talent and infrastructure.",
+      "source_urls": [
+        "https://aix.eng.usf.edu/",
+        "https://www.usf.edu/engineering/news-room/03-15-2022-aiplusx-institute.aspx",
+        "https://www.usf.edu/education/news/2026/usf-education-drives-impact-at-2026-ai-x-symposium.aspx"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot for Microsoft 365 campus rollout",
+      "description": "USF is a Microsoft reference customer for Copilot in higher education, beginning with a 150-license pilot call in early 2024 that received 500 requests within three days. Microsoft Copilot Chat is now available to all USF students and employees via USF login in a secure, encrypted environment where tenant data is not used to train models. Use cases span document drafting, meeting summarization, Help Desk ticket triage (via Azure OpenAI Service), and research assistance.",
+      "significance": "One of the higher-ed sector's most-cited Microsoft Copilot deployments, with measurable productivity and student-service impact.",
+      "date_announced": "2024-04-25",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USF IT, Microsoft partnership",
+        "description": "Licensing and integration costs not disclosed publicly; phased expansion from 150-seat pilot toward broader employee deployment"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Reference customer relationship with Microsoft; co-hosted Copilot webinars for USF faculty and staff"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Enterprise AI productivity suite across Outlook, Teams, Word, Excel, PowerPoint, OneDrive"
+        },
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Data-protected chat interface for students and employees"
+        },
+        {
+          "name": "Azure OpenAI Service",
+          "vendor": "Microsoft / OpenAI",
+          "role": "Powers USF Help Desk automation and chatbot classification"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the enterprise default for sanctioned AI use and defines data-protection posture for FERPA/HIPAA-sensitive workflows.",
+      "source_urls": [
+        "https://www.microsoft.com/en/customers/story/1761232956003920370-usf-microsoft-copilot-higher-education-en-united-states",
+        "https://www.microsoft.com/en-us/education/blog/2024/06/the-university-of-south-florida-implements-microsoft-copilot-to-streamline-workflows-and-unleash-campus-wide-innovation/",
+        "https://software.usf.edu/copilot-for-microsoft-365",
+        "https://www.usf.edu/it-updates/2025/copilot-webinar.aspx"
+      ]
+    },
+    {
+      "title": "Bachelor of Science in Artificial Intelligence (BSAI) and MS in AI",
+      "description": "USF offers an undergraduate BSAI and a graduate MSAI through the Bellini College, covering machine learning, NLP, computer vision, robotics, and AI ethics. A Graduate Certificate in Artificial Intelligence and an 'AI and Everyday Impact: Applied Practices' graduate certificate round out the portfolio. A Computer Science + Business interdisciplinary track plus CS + Criminology and CS + Interdisciplinary Social Sciences provide AI in applied contexts, with CS + Economics and CS + Anthropology launching Fall 2027.",
+      "significance": "Full-stack AI degree portfolio from microcredential to PhD, combining pure AI and cross-disciplinary tracks - differentiating USF from peers who offer only certificates or concentrations.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "nlp_for_assessment",
+        "generative_ai_multimodal",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Bellini College and State University System of Florida",
+        "description": "Program development and faculty hiring within Bellini College; 14 new faculty joined Fall 2025"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Tampa Bay tech employers",
+            "Center for Career and Professional Development"
+          ],
+          "description": "Co-op and early internship pipeline beginning sophomore year"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Expands Florida's AI talent pipeline; explicit coverage of AI ethics curriculum ties to Responsible AI positioning.",
+      "source_urls": [
+        "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bsai.aspx",
+        "https://catalog.usf.edu/preview_program.php?catoid=23&poid=13993",
+        "https://www.usf.edu/ai-cybersecurity-computing/academics/",
+        "https://www.usf.edu/ai-cybersecurity-computing/news/2025/fall_new_faculty.aspx"
+      ]
+    },
+    {
+      "title": "MS in Artificial Intelligence and Business Analytics (Muma College of Business)",
+      "description": "USF's Muma College of Business offers an on-campus STEM-designated MS in AI and Business Analytics plus a Global Executive online variant. Curriculum blends seven data-focused courses with a 6-credit project; graduates are placed at Microsoft, IBM, Deloitte, Apple, JPMorgan Chase, and others. The program exemplifies AI-in-disciplines deployment outside the Bellini College.",
+      "significance": "Extends AI beyond a dedicated AI college into the business school, a pattern of 'AI everywhere' that competing R1s are adopting for their professional schools.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Muma College of Business",
+        "description": "Tuition-funded master's program operated by the business school"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "IBM",
+            "Deloitte",
+            "Capital One",
+            "JPMorgan Chase"
+          ],
+          "description": "Employer pipelines for STEM OPT-eligible graduates"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Diffuses AI skills into business curricula; complements the technical BSAI and MSAI from Bellini.",
+      "source_urls": [
+        "https://www.usf.edu/business/graduate/ms-ai-business-analytics/",
+        "https://www.usf.edu/business/graduate/ms-ai-business-analytics-global/"
+      ]
+    },
+    {
+      "title": "Course Enhancement with Generative AI microcredential & faculty FLC",
+      "description": "USF Innovative Education runs a free, self-paced 'Course Enhancement with Generative AI' microcredential that launched March 15, 2024, an 'AI Teaching Transformations' customized department-level training program, and a monthly Faculty Learning Community (InEd AI FLC) held the last Friday of each month. Additional workshops, 'GenAI in Action' and 'AI Whisperer' microcredentials round out the faculty development portfolio.",
+      "significance": "Structured, recurring faculty development is a differentiator; most peer R1s run ad-hoc workshops rather than a named microcredential pathway.",
+      "date_announced": "2024-03-15",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "lms_embedded_ai"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USF Innovative Education, Provost",
+        "description": "Staffing and platform costs not publicly disclosed; microcredentials are free to USF instructors"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal USF faculty development"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Primary sanctioned AI tool covered in training"
+        },
+        {
+          "name": "Google Gemini",
+          "vendor": "Google",
+          "role": "Alternative data-protected AI tool available via USF Google Apps"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes the university's permissive-with-guardrails posture through mass faculty upskilling.",
+      "source_urls": [
+        "https://www.usf.edu/innovative-education/usf-microcredentials/course-enhancement-with-generative-ai.aspx",
+        "https://www.usf.edu/innovative-education/news/2024/in-ed-leads-way-with-generative-ai-education-workshop.aspx",
+        "https://genai.usf.edu/genai-resources/workshops-and-training"
+      ]
+    },
+    {
+      "title": "USF GenAI Task Force and genai.usf.edu central hub",
+      "description": "A provost-and-CIO-appointed interdisciplinary GenAI Task Force provides university-wide AI governance, drafts AI guidance, anticipates workforce needs, and communicates AI initiatives. The task force operates the genai.usf.edu hub, which centralizes policy, approved tools (Copilot, Gemini), training resources, events, and a story submission channel.",
+      "significance": "Centralized AI governance and communications hub - a pattern several Florida SUS peers are beginning to replicate as the state Task Force on AI and Cybersecurity issues recommendations.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost and VP Information Technology",
+        "description": "Operating budget not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Florida Board of Governors Task Force on AI and Cybersecurity"
+          ],
+          "description": "USF's approach aligns with state-level SUS task force deliberations chaired by Edward Haddock"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a durable, visible governance surface that can be evolved as state or federal AI policy matures.",
+      "source_urls": [
+        "https://genai.usf.edu/at-usf/genai-task-force",
+        "https://genai.usf.edu/at-usf/overview",
+        "https://genai.usf.edu/at-usf/university-guidance"
+      ]
+    },
+    {
+      "title": "USF Health Aimee AI voice agent and clinical AI deployments",
+      "description": "USF Health's Morsani College of Medicine operates 'Aimee,' an AI voice agent that has handled over 600,000 patient calls, reducing call abandonment by 56% and increasing scheduled visits by 21% - productivity equivalent to 40 additional staff. USF Health additionally uses Nuance DAX Ambient AI for clinical note drafting and Epic's AI tools for message triage and chart summarization.",
+      "significance": "A concrete enterprise-scale AI deployment in an academic medical center with measurable operational impact; exemplifies AI in healthcare administration distinct from research AI.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "students",
+        "faculty",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USF Health operating budget",
+        "description": "Licensing and integration costs not disclosed; estimated savings equivalent to ~40 FTEs"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft/Nuance (DAX)",
+            "Epic Systems"
+          ],
+          "description": "Clinical AI vendor integrations"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Aimee",
+          "vendor": "USF Health (vendor undisclosed)",
+          "role": "AI voice agent for patient call handling"
+        },
+        {
+          "name": "DAX Ambient AI",
+          "vendor": "Microsoft/Nuance",
+          "role": "Clinical documentation assistant"
+        },
+        {
+          "name": "Epic AI tools",
+          "vendor": "Epic Systems",
+          "role": "Message triage and chart summarization"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "HIPAA-compliant AI use in a large academic medical enterprise; sets operational precedents for clinical-AI governance.",
+      "source_urls": [
+        "https://www.usf.edu/health/delivering-health-excellence/2026/ai-future-medicine.aspx"
+      ]
+    },
+    {
+      "title": "Tampa Bay Cyber Labs: ReliaQuest Labs and Rapid7 Cyber Threat Intelligence Lab",
+      "description": "Bellini College students gain hands-on industry training through the ReliaQuest Labs program (more than 300 USF students hired by ReliaQuest since 2017-18) and the Rapid7 Cyber Threat Intelligence Lab on campus. The partnerships combine curriculum, internships, and simulation-based research in AI-adjacent cybersecurity.",
+      "significance": "Deep industry-academic workforce pipelines are a signature differentiator for USF and a model for regional cyber-tech clusters.",
+      "date_announced": "2017-01-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_workforce_training",
+        "regional_economic_impact",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "ReliaQuest, Rapid7, USF",
+        "description": "Sponsored lab facilities and cohort-based internships"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "ReliaQuest",
+            "Rapid7",
+            "KnowBe4",
+            "ConnectSecure"
+          ],
+          "description": "Embedded co-op labs with Tampa cybersecurity employers"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces Tampa as 'Cyber Bay' and demonstrates how AI-adjacent talent development can scale through company-hosted labs.",
+      "source_urls": [
+        "https://www.usf.edu/news/2025/usf-bellini-college-to-ignite-tampa-bays-tech-talent.aspx",
+        "https://www.usf.edu/ai-cybersecurity-computing/"
+      ]
+    },
+    {
+      "title": "NSF Southeast I-Corps Hub participation",
+      "description": "The Bellini College is a partner in the NSF Southeast I-Corps Hub, a multi-institution effort to accelerate university research into commercial products. USF's share of the award is approximately $1.6 million supporting innovation and entrepreneurship tied to AI, cybersecurity and computing research.",
+      "significance": "Connects USF's AI research output to a federal translation-and-commercialization pipeline - a vector for startup-academic and industry impact.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_incubator_or_startup_support",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1600000,
+        "funding_source": "NSF",
+        "description": "Federal award for I-Corps regional innovation hub activity"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "Southeast I-Corps Hub institutions"
+          ],
+          "description": "Multi-institutional federally funded entrepreneurship hub"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports translation of AI research into ventures aligned with regional cyber-tech cluster.",
+      "source_urls": [
+        "https://www.usf.edu/ai-cybersecurity-computing/"
+      ]
+    },
+    {
+      "title": "Bellini Center for Talent Development in Muma College of Business",
+      "description": "The Bellinis' prior $11 million gift established the Bellini Center for Talent Development in USF's Muma College of Business, which supports career readiness and AI-adjacent skills programming. It preceded and complements the larger 2025 AI/cyber college gift.",
+      "significance": "A philanthropic through-line from career-readiness to AI-specific investment signals sustained donor strategy, not a one-off gift.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "career_and_workforce_readiness",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 11000000,
+        "funding_source": "Arnie and Lauren Bellini",
+        "description": "$11M naming gift to the Muma College of Business"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Bellini Capital",
+            "employer network"
+          ],
+          "description": "Talent-pipeline partnerships with Tampa Bay employers"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes donor precedent for USF's broader AI investment strategy.",
+      "source_urls": [
+        "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx"
+      ]
+    },
+    {
+      "title": "USF arts and sciences AI-era literacy faculty hire and curriculum reframing",
+      "description": "The USF College of Arts and Sciences hired an assistant professor dedicated to reframing literacy for the age of generative AI, supporting student writers navigating ChatGPT, Copilot, and Gemini. The hire signals AI's diffusion into humanities instruction and equity-of-access concerns around AI tool literacy.",
+      "significance": "Demonstrates that AI strategy at USF extends beyond CS/engineering into the humanities - a structural answer to 'liberal arts in the AI era'.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_tool_equity",
+        "liberal_arts_in_ai_era",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "USF College of Arts and Sciences",
+        "description": "Faculty line allocation"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal college hire"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Models how a humanities college can integrate AI without surrendering disciplinary identity.",
+      "source_urls": [
+        "https://www.usf.edu/arts-sciences/chronicles/2025/literacy-for-age-of-artificial-intelligence.aspx"
+      ]
+    },
+    {
+      "date_announced": null,
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "Dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external partner disclosed."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "title": "Innovative Education GenAI course-redesign support",
+      "description": "USF Innovative Education publishes GenAI teaching resources, faculty use cases, course-design support, and a microcredential that includes assessment, content, and feedback planning.",
+      "significance": "USF documents practical assessment and course redesign support rather than only high-level AI principles.",
+      "primary_category": "teaching_and_learning",
+      "subcategories": [
+        "ai_resilient_assessment",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "source_urls": [
+        "https://www.usf.edu/innovative-education/digital-learning/generative-ai/",
+        "https://www.usf.edu/news/2024/innovative-education-helping-revolutionize-courses-through-generative-ai.aspx"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Institute for Artificial Intelligence + X (AI+X)",
+      "focus": "Transdisciplinary AI research across healthcare, medicine, biology, cybersecurity, finance, business, manufacturing, and transportation",
+      "founded": "2019",
+      "url": "https://aix.eng.usf.edu/"
+    },
+    {
+      "name": "Bellini College of Artificial Intelligence, Cybersecurity and Computing",
+      "focus": "AI, cybersecurity, and computing - foundational AI, trustworthy AI, cybersecurity, hardware systems, biomedical AI",
+      "founded": "2025",
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+    },
+    {
+      "name": "ReliaQuest Labs at USF",
+      "focus": "Cybersecurity training and internships in an industry-embedded lab",
+      "founded": "2017",
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+    },
+    {
+      "name": "Rapid7 Cyber Threat Intelligence Lab at USF",
+      "focus": "Simulation-based research and student training in cyber threat intelligence",
+      "founded": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in Artificial Intelligence (BSAI)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bsai.aspx"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence (MSAI)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in AI and Business Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usf.edu/business/graduate/ms-ai-business-analytics/"
+    },
+    {
+      "type": "degree",
+      "name": "Global Executive MS in AI and Business Analytics (online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usf.edu/business/graduate/ms-ai-business-analytics-global/"
+    },
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in AI and Business Analytics",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usf.edu/business/undergraduate/artificial-intelligence-business-analytics/index.aspx"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Big Data Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Graduate Certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    },
+    {
+      "type": "certificate",
+      "name": "AI and Everyday Impact: Applied Practices Graduate Certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    },
+    {
+      "type": "certificate",
+      "name": "Course Enhancement with Generative AI (microcredential)",
+      "level": "both",
+      "launched": "2024-03",
+      "url": "https://www.usf.edu/innovative-education/usf-microcredentials/course-enhancement-with-generative-ai.aspx"
+    },
+    {
+      "type": "certificate",
+      "name": "GenAI in Action: Impact and Possibilities (microcredential)",
+      "level": "both",
+      "launched": null,
+      "url": "https://genai.usf.edu/genai-resources/workshops-and-training"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Whisperer: Crafting Prompts for Generative AI (microcredential)",
+      "level": "both",
+      "launched": null,
+      "url": "https://genai.usf.edu/genai-resources/workshops-and-training"
+    },
+    {
+      "type": "concentration",
+      "name": "Computer Science + Business (interdisciplinary)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    },
+    {
+      "type": "concentration",
+      "name": "Computer Science + Criminology (interdisciplinary)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    },
+    {
+      "type": "concentration",
+      "name": "Computer Science + Interdisciplinary Social Sciences",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/academics/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-04",
+      "url": "https://www.microsoft.com/en/customers/story/1761232956003920370-usf-microsoft-copilot-higher-education-en-united-states"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://genai.usf.edu/genai-resources/tools"
+    },
+    {
+      "vendor": "Microsoft/OpenAI",
+      "product": "Azure OpenAI Service (USF IT Help Desk chatbot)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.microsoft.com/en-us/education/blog/2024/06/the-university-of-south-florida-implements-microsoft-copilot-to-streamline-workflows-and-unleash-campus-wide-innovation/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (via Google Workspace for USF)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://genai.usf.edu/genai-resources/tools"
+    },
+    {
+      "vendor": "Microsoft/Nuance",
+      "product": "DAX Ambient AI (USF Health)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usf.edu/health/delivering-health-excellence/2026/ai-future-medicine.aspx"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic AI tools (message triage, chart summarization)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.usf.edu/health/delivering-health-excellence/2026/ai-future-medicine.aspx"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": null,
+    "gpu_count": 170,
+    "url": "https://www.usf.edu/ai-cybersecurity-computing/centers/cita/resources/",
+    "summary": "USF Research Computing operates a 1,000-core HIPAA-compliant cluster, a 7,700-core general computation cluster, 2.1 PB GPFS plus 300 TB BeeGFS storage, and close to 100 GPU-outfitted nodes totaling 170 production NVIDIA GPUs; the public source still does not name a flagship supercomputer."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "$40M Bellini naming gift for AI, Cybersecurity and Computing college",
+      "amount_usd": 40000000,
+      "source": "Arnie and Lauren Bellini (Bellini Capital)",
+      "purpose": "Establish the Bellini College of AI, Cybersecurity and Computing",
+      "date": "2025-03",
+      "url": "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx"
+    },
+    {
+      "title": "$5M match commitment for additional $10M capital raise",
+      "amount_usd": 5000000,
+      "source": "Arnie Bellini",
+      "purpose": "1:1 match to raise an additional $10M for the Bellini College",
+      "date": "2025-03",
+      "url": "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx"
+    },
+    {
+      "title": "$11M Bellini gift for Center for Talent Development",
+      "amount_usd": 11000000,
+      "source": "Arnie and Lauren Bellini",
+      "purpose": "Career readiness and talent development at USF Muma College of Business",
+      "date": null,
+      "url": "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx"
+    },
+    {
+      "title": "NSF Southeast I-Corps Hub share",
+      "amount_usd": 1600000,
+      "source": "National Science Foundation",
+      "purpose": "Regional innovation and entrepreneurship hub activities",
+      "date": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+    },
+    {
+      "title": "AI+X Institute founding allocation (USF Strategic Investment Pool)",
+      "amount_usd": 120000,
+      "source": "USF / Florida Board of Governors",
+      "purpose": "Establish AI+X Institute and attract external research",
+      "date": "2019-07",
+      "url": "https://www.usf.edu/engineering/news-room/03-15-2022-aiplusx-institute.aspx"
+    },
+    {
+      "title": "AI+X Institute first-year sponsored research",
+      "amount_usd": 1700000,
+      "source": "NSF, DoD, NIH, industry",
+      "purpose": "Externally-funded AI research awards",
+      "date": "2020-01",
+      "url": "https://www.usf.edu/engineering/news-room/03-15-2022-aiplusx-institute.aspx"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Copilot for Microsoft 365 enterprise rollout, webinars, and Azure OpenAI Help Desk integration",
+      "date": "2024-04",
+      "url": "https://www.microsoft.com/en/customers/story/1761232956003920370-usf-microsoft-copilot-higher-education-en-united-states"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "ReliaQuest",
+      "purpose": "ReliaQuest Labs co-op program; 300+ USF graduates hired since 2017-18",
+      "date": "2017-01",
+      "url": "https://www.usf.edu/news/2025/usf-bellini-college-to-ignite-tampa-bays-tech-talent.aspx"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Rapid7",
+      "purpose": "Rapid7 Cyber Threat Intelligence Lab at USF",
+      "date": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "KnowBe4",
+      "purpose": "Tampa Bay cyber-tech cluster workforce engagement",
+      "date": null,
+      "url": "https://www.usf.edu/news/2025/usf-bellini-college-to-ignite-tampa-bays-tech-talent.aspx"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "ConnectSecure",
+      "purpose": "Cybersecurity industry engagement and hiring pipeline",
+      "date": null,
+      "url": "https://www.usf.edu/news/2025/usf-bellini-college-to-ignite-tampa-bays-tech-talent.aspx"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NSF Southeast I-Corps Hub",
+      "purpose": "Translation of AI and computing research into commercial ventures",
+      "date": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Defense",
+      "purpose": "AI+X Institute research funding; proximity to CENTCOM at MacDill AFB",
+      "date": null,
+      "url": "https://www.usf.edu/engineering/news-room/03-15-2022-aiplusx-institute.aspx"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Institutes of Health",
+      "purpose": "AI+X health-related research",
+      "date": null,
+      "url": "https://www.usf.edu/engineering/news-room/03-15-2022-aiplusx-institute.aspx"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "PGIM (Prudential)",
+      "purpose": "Academic Advisory Board representation on Bellini College",
+      "date": null,
+      "url": "https://www.usf.edu/ai-cybersecurity-computing/about/advisory-board.aspx"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "USF IT Chat Support",
+      "scope": "Student and employee IT support, available 7:30am-5pm weekdays",
+      "url": "https://itchatbot.usf.edu/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot Chat",
+      "scope": "Campus-wide data-protected generative AI assistant for all USF students and employees",
+      "url": "https://genai.usf.edu/genai-resources/tools"
+    },
+    {
+      "type": "chatbot",
+      "name": "Google Gemini (via USF Google Workspace)",
+      "scope": "Campus-wide data-protected generative AI assistant",
+      "url": "https://genai.usf.edu/genai-resources/tools"
+    },
+    {
+      "type": "other",
+      "name": "Aimee (USF Health patient voice agent)",
+      "scope": "USF Health patient call handling - 600,000+ calls, 56% lower abandonment, 21% more scheduled visits",
+      "url": "https://www.usf.edu/health/delivering-health-excellence/2026/ai-future-medicine.aspx"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "USF Arts and Sciences AI literacy faculty hire",
+      "description": "Assistant professor hired to reframe literacy education for the generative AI era, focused on helping student writers succeed with tools like ChatGPT, Copilot, and Gemini.",
+      "url": "https://www.usf.edu/arts-sciences/chronicles/2025/literacy-for-age-of-artificial-intelligence.aspx"
+    },
+    {
+      "title": "Campus-wide data-protected AI tools (Copilot, Gemini)",
+      "description": "USF provides free data-protected enterprise AI tools to all students and employees, closing the access gap that free-tier public tools can create.",
+      "url": "https://genai.usf.edu/genai-resources/tools"
+    },
+    {
+      "title": "Free self-paced genAI microcredentials",
+      "description": "Course Enhancement with Generative AI and related microcredentials are offered free to USF instructors and students, lowering the barrier to AI skill development.",
+      "url": "https://www.usf.edu/innovative-education/usf-microcredentials/course-enhancement-with-generative-ai.aspx"
+    }
+  ],
+  "regulatory_context": {
+    "state": "FL",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Florida's State University System Board of Governors established a Task Force on Artificial Intelligence and Cybersecurity chaired by Edward Haddock, which is expected to issue recommendations on AI use across the 12 public universities. The task force is active but has not produced a uniform system-wide AI policy; individual SUS institutions (including USF) set their own guidance. At the state level, Governor Ron DeSantis proposed a Citizen Bill of Rights for Artificial Intelligence, and a K-12 AI task force operates under fl-aitaskforce.org. USF's work is aligned with but not dictated by these state efforts.",
+    "urls": [
+      "https://floridaphoenix.com/2026/03/26/university-leaders-grapple-with-the-upside-and-downside-of-ai/",
+      "https://www.floridatrend.com/articles/2026/03/26/florida-university-leaders-grapple-with-upside-downside-ai/",
+      "https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-proposal-citizen-bill-rights-artificial"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of South Florida has built one of the most structurally ambitious AI postures in U.S. higher education. Its centerpiece is the Bellini College of Artificial Intelligence, Cybersecurity and Computing - launched August 25, 2025 with a $40 million gift from Arnie and Lauren Bellini, the first named college in the nation dedicated to the convergence of AI and cybersecurity. First-semester enrollment exceeded 3,000 students, with a stated goal of 5,000 students and 100 faculty by 2028. Fourteen new faculty joined the college at launch under Interim Dean Sudeep Sarkar. The Bellini College rests on two decades of AI research leadership rooted in Kevin Bowyer's pioneering computer-vision work (1984-era) and sustained by Lawrence Hall and Sarkar, and it is complemented by the university-wide Institute for Artificial Intelligence + X (AI+X), founded in 2019 and now coordinating faculty across engineering, medicine, business, and the social sciences. Enterprise AI is led by CIO Sidney Fernandes, whose team partnered with Microsoft on a widely-cited Copilot for Microsoft 365 rollout (150-license pilot saturated within three days by 500 requests), campus-wide Copilot Chat and Gemini, and an Azure OpenAI Help Desk bot. USF Health's Aimee voice agent has handled 600,000 patient calls with measurable productivity wins. Governance is multi-nodal: a Provost-and-CIO-appointed GenAI Task Force runs the genai.usf.edu hub, publishes FERPA/HIPAA-aware guidance, and coordinates with the Florida Board of Governors' Task Force on AI and Cybersecurity. Faculty development runs through a Course Enhancement with Generative AI microcredential, AI Teaching Transformations, and a monthly InEd AI Faculty Learning Community. Weaknesses include the absence of a named Chief AI Officer (authority is distributed between the provost, CIO, and Bellini dean), no public flagship GPU supercomputer comparable to UF's HiPerGator, and only emerging literature on AI equity and digital divide. Under new president Moez Limayem (confirmed December 2025, began February 2026), the trajectory is toward 'Cyber Bay' workforce prominence, deeper CENTCOM-adjacent defense ties, and continued scaling of the Bellini College.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 5 missing-gap pass",
+    "sources": [
+      "https://www.usf.edu/news/2024/usf-plans-to-launch-college-focused-on-artificial-intelligence-cybersecurity-and-computing.aspx",
+      "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx",
+      "https://www.usf.edu/ai-cybersecurity-computing/",
+      "https://www.usf.edu/ai-cybersecurity-computing/academics/",
+      "https://www.usf.edu/ai-cybersecurity-computing/academics/undergraduate/bsai.aspx",
+      "https://www.usf.edu/ai-cybersecurity-computing/news/2025/fall_new_faculty.aspx",
+      "https://www.usf.edu/ai-cybersecurity-computing/about/advisory-board.aspx",
+      "https://www.usf.edu/ai-cybersecurity-computing/people/faculty/sarkar-sudeep.aspx",
+      "https://aix.eng.usf.edu/",
+      "https://www.usf.edu/engineering/news-room/03-15-2022-aiplusx-institute.aspx",
+      "https://genai.usf.edu/at-usf/overview",
+      "https://genai.usf.edu/at-usf/university-guidance",
+      "https://genai.usf.edu/at-usf/genai-task-force",
+      "https://genai.usf.edu/genai-resources/tools",
+      "https://genai.usf.edu/genai-resources/workshops-and-training",
+      "https://www.usf.edu/provost/faculty-success/teaching-learning/guidance-generative-ai.aspx",
+      "https://www.usf.edu/provost/faculty-success/teaching-learning/syllabus-course-guidance.aspx",
+      "https://www.microsoft.com/en/customers/story/1761232956003920370-usf-microsoft-copilot-higher-education-en-united-states",
+      "https://www.microsoft.com/en-us/education/blog/2024/06/the-university-of-south-florida-implements-microsoft-copilot-to-streamline-workflows-and-unleash-campus-wide-innovation/",
+      "https://software.usf.edu/copilot-for-microsoft-365",
+      "https://www.usf.edu/it-updates/2025/copilot-webinar.aspx",
+      "https://www.usf.edu/innovative-education/usf-microcredentials/course-enhancement-with-generative-ai.aspx",
+      "https://www.usf.edu/innovative-education/news/2024/in-ed-leads-way-with-generative-ai-education-workshop.aspx",
+      "https://www.usf.edu/business/graduate/ms-ai-business-analytics/",
+      "https://www.usf.edu/business/graduate/ms-ai-business-analytics-global/",
+      "https://www.usf.edu/business/undergraduate/artificial-intelligence-business-analytics/index.aspx",
+      "https://www.usf.edu/arts-sciences/chronicles/2025/literacy-for-age-of-artificial-intelligence.aspx",
+      "https://www.usf.edu/news/2025/usf-bellini-college-to-ignite-tampa-bays-tech-talent.aspx",
+      "https://www.usf.edu/news/2025/how-a-simple-chair-in-the-1980s-led-to-usfs-global-leadership-in-ai.aspx",
+      "https://www.usf.edu/news/2024/usf-an-industry-leader-in-generative-ai.aspx",
+      "https://www.usf.edu/health/delivering-health-excellence/2026/ai-future-medicine.aspx",
+      "https://www.usf.edu/about-usf/leadership.aspx",
+      "https://www.usf.edu/president/",
+      "https://www.usf.edu/provost/",
+      "https://www.usf.edu/news/2025/florida-board-of-governors-confirms-moez-limayem-as-usfs-next-president.aspx",
+      "https://www.usf.edu/news/2025/a-message-from-usfs-ninth-president-moez-limayem.aspx",
+      "https://www.usf.edu/about-usf/facts-statistics.aspx",
+      "https://floridaphoenix.com/2026/03/26/university-leaders-grapple-with-the-upside-and-downside-of-ai/",
+      "https://www.floridatrend.com/articles/2026/03/26/florida-university-leaders-grapple-with-upside-downside-ai/",
+      "https://www.flgov.com/eog/news/press/2025/governor-ron-desantis-announces-proposal-citizen-bill-rights-artificial",
+      "https://itchatbot.usf.edu/",
+      "https://usfjira.atlassian.net/wiki/spaces/UHID/pages/20395983116/Research+Computing",
+      "https://www.fox13news.com/news/new-usf-college-cybersecurity-ai-draws-thousands-students",
+      "https://edscoop.com/university-south-florida-announces-ai-college/",
+      "https://www.insidehighered.com/news/quick-takes/2024/03/22/university-south-florida-launching-college-ai",
+      "https://www.businesswire.com/news/home/20250311072358/en/Historic-$40M-Gift-Establishes-Bellini-College-of-Artificial-Intelligence-Cybersecurity-and-Computing-at-USF-Solidifying-Tampa-Bay-as-Cyber-Bay",
+      "https://tbbwmag.com/2026/03/02/moez-limayem-usf-open-for-business-internships-ai/",
+      "https://www.usf.edu/ai-cybersecurity-computing/centers/cita/resources/",
+      "https://www.usf.edu/innovative-education/digital-learning/generative-ai/",
+      "https://www.usf.edu/news/2024/innovative-education-helping-revolutionize-courses-through-generative-ai.aspx"
+    ],
+    "search_queries": [
+      "\"University of South Florida\" AI strategy 2025 2026",
+      "\"University of South Florida\" artificial intelligence policy acceptable use",
+      "\"University of South Florida\" AI college school artificial intelligence launch",
+      "\"University of South Florida\" CIO provost president 2025 2026",
+      "\"USF\" \"AI+X\" Institute artificial intelligence research center",
+      "\"University of South Florida\" generative AI ChatGPT Microsoft Copilot faculty",
+      "\"University of South Florida\" Bellini College AI $40 million gift Arnie Bellini",
+      "\"USF\" Bellini College dean artificial intelligence cybersecurity",
+      "\"University of South Florida\" AI degree bachelor BSAI curriculum",
+      "\"University of South Florida\" president Rhea Law Dwayne Ian",
+      "\"University of South Florida\" AI governance committee task force steering",
+      "\"USF\" AI research grants NSF DoD DARPA artificial intelligence funding 2025",
+      "\"USF\" \"Sudeep Sarkar\" launch dean Bellini College AI hire 2025",
+      "\"University of South Florida\" GPU supercomputer HPC research computing",
+      "\"USF\" \"Muma College\" AI business analytics master's Microsoft",
+      "\"University of South Florida\" AI minor certificate engineering computer science",
+      "\"USF\" \"Bellini College\" advisory board CENTCOM Tampa tech partnerships",
+      "\"University of South Florida\" AI faculty training workshop teaching excellence",
+      "\"University of South Florida\" enrollment 2025 total students Tampa",
+      "\"USF\" \"Moez Limayem\" president AI announcement",
+      "\"Florida\" state AI policy higher education State University System",
+      "Florida Board of Governors AI policy universities 2024 2025 cybersecurity",
+      "\"University of South Florida\" AI FERPA HIPAA student data privacy policy",
+      "\"USF\" AI research center Lawrence Hall Carnegie genai",
+      "\"University of South Florida\" AI healthcare medical Morsani medicine",
+      "\"USF\" \"ChatGPT\" student support chatbot Archie virtual assistant advising",
+      "\"USF\" artificial intelligence workforce Tampa Bay community colleges economic",
+      "\"University of South Florida\" 5000 student AI expand Bellini enrollment plan",
+      "\"University of South Florida\" AI controversy academic integrity cheating student",
+      "\"USF\" CIO Sidney Fernandes artificial intelligence strategy AI",
+      "site:usf.edu USF Research Computing GPU cluster AI",
+      "site:usf.edu generative AI assessment redesign teaching USF"
+    ],
+    "gaps_acknowledged": [
+      "No named Chief AI Officer at USF; AI strategy leadership is distributed across the provost, CIO, and Bellini College dean",
+      "USF GenAI Task Force member names, chair identity, and formation date are not publicly listed",
+      "Exact date of adoption for USF's university-wide generative AI guidance was not found",
+      "No disclosed per-seat licensing cost or final user count for the Microsoft Copilot deployment beyond the initial 150-license pilot",
+      "No direct NVIDIA or major hyperscaler naming partnership comparable to UF-NVIDIA was found",
+      "No active public litigation or major academic integrity scandal specifically tied to USF's AI policy was found in this research round",
+      "USF now discloses aggregate Research Computing GPU capacity, but GAIVI-specific configuration, enterprise AI user counts, and platform contract costs remain nonpublic."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "curriculum_led",
+      "secondary": [
+        "balanced_enterprise",
+        "workforce_regional_development",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 17,
+        "research_compute_powerhouse": 14,
+        "curriculum_led": 24,
+        "governance_led": 9,
+        "student_success_led": 8,
+        "workforce_regional_development": 18,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: curriculum led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 11,
+      "ai_program_count": 14,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 3,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 0,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": null,
+        "gpu_count": 170,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 59420000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 4,
+        "institutional": 3,
+        "public_federal_state": 5,
+        "other_unclear": 6,
+        "industry_vendor": 1
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 3,
+        "other": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 10
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 9,
+          "products": [
+            "Azure OpenAI Service",
+            "Azure OpenAI Service (USF IT Help Desk chatbot)",
+            "DAX Ambient AI",
+            "DAX Ambient AI (USF Health)",
+            "Microsoft 365 Copilot",
+            "Microsoft Copilot",
+            "Microsoft Copilot Chat"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini (via Google Workspace for USF)",
+            "Google Gemini"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic AI tools",
+          "mentions": 1,
+          "products": [
+            "Epic AI tools"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic AI tools (message triage, chart summarization)",
+          "mentions": 1,
+          "products": [
+            "Epic AI tools (message triage, chart summarization)"
+          ]
+        },
+        {
+          "vendor": "USF Health (vendor undisclosed) Aimee",
+          "mentions": 1,
+          "products": [
+            "Aimee"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": true,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Bellini College of Artificial Intelligence, Cybersecurity and Computing",
+          "summary": "Establishes a named-college organizational form for AI + cybersecurity + computing - a structural bet few R1 peers have made, and a signal of state-level prioritization of AI workforce pipelines.",
+          "source_url": "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx"
+        },
+        {
+          "claim_type": "research_output",
+          "title": "Institute for Artificial Intelligence + X (AI+X)",
+          "summary": "Demonstrates a transdisciplinary research-center model that pre-dates and now complements the Bellini College, with substantial federal grant capture.",
+          "source_url": "https://aix.eng.usf.edu/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Microsoft Copilot for Microsoft 365 campus rollout",
+          "summary": "One of the higher-ed sector's most-cited Microsoft Copilot deployments, with measurable productivity and student-service impact.",
+          "source_url": "https://www.microsoft.com/en/customers/story/1761232956003920370-usf-microsoft-copilot-higher-education-en-united-states"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Course Enhancement with Generative AI microcredential & faculty FLC",
+          "summary": "Structured, recurring faculty development is a differentiator; most peer R1s run ad-hoc workshops rather than a named microcredential pathway.",
+          "source_url": "https://www.usf.edu/innovative-education/usf-microcredentials/course-enhancement-with-generative-ai.aspx"
+        },
+        {
+          "claim_type": "career",
+          "title": "USF GenAI Task Force and genai.usf.edu central hub",
+          "summary": "Centralized AI governance and communications hub - a pattern several Florida SUS peers are beginning to replicate as the state Task Force on AI and Cybersecurity issues recommendations.",
+          "source_url": "https://genai.usf.edu/at-usf/genai-task-force"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "USF Health Aimee AI voice agent and clinical AI deployments",
+          "summary": "A concrete enterprise-scale AI deployment in an academic medical center with measurable operational impact; exemplifies AI in healthcare administration distinct from research AI.",
+          "source_url": "https://www.usf.edu/health/delivering-health-excellence/2026/ai-future-medicine.aspx"
+        },
+        {
+          "claim_type": "career",
+          "title": "Tampa Bay Cyber Labs: ReliaQuest Labs and Rapid7 Cyber Threat Intelligence Lab",
+          "summary": "Deep industry-academic workforce pipelines are a signature differentiator for USF and a model for regional cyber-tech clusters.",
+          "source_url": "https://www.usf.edu/news/2025/usf-bellini-college-to-ignite-tampa-bays-tech-talent.aspx"
+        },
+        {
+          "claim_type": "research_output",
+          "title": "NSF Southeast I-Corps Hub participation",
+          "summary": "Connects USF's AI research output to a federal translation-and-commercialization pipeline - a vector for startup-academic and industry impact.",
+          "source_url": "https://www.usf.edu/ai-cybersecurity-computing/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Bellini Center for Talent Development in Muma College of Business",
+          "summary": "A philanthropic through-line from career-readiness to AI-specific investment signals sustained donor strategy, not a one-off gift.",
+          "source_url": "https://www.usf.edu/news/2025/historic-40-gift-establishes-bellini-college-of-artificial-intelligence-cybersecurity.aspx"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Innovative Education GenAI course-redesign support",
+          "summary": "USF documents practical assessment and course redesign support rather than only high-level AI principles.",
+          "source_url": "https://www.usf.edu/innovative-education/digital-learning/generative-ai/"
+        }
+      ],
+      "public_claim_count": 10
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No named Chief AI Officer at USF; AI strategy leadership is distributed across the provost, CIO, and Bellini College dean",
+        "USF GenAI Task Force member names, chair identity, and formation date are not publicly listed",
+        "Exact date of adoption for USF's university-wide generative AI guidance was not found",
+        "No disclosed per-seat licensing cost or final user count for the Microsoft Copilot deployment beyond the initial 150-license pilot",
+        "No direct NVIDIA or major hyperscaler naming partnership comparable to UF-NVIDIA was found",
+        "No active public litigation or major academic integrity scandal specifically tied to USF's AI policy was found in this research round",
+        "USF now discloses aggregate Research Computing GPU capacity, but GAIVI-specific configuration, enterprise AI user counts, and platform contract costs remain nonpublic."
+      ]
+    }
+  }
+}

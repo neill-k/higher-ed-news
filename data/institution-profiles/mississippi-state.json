@@ -1,0 +1,214 @@
+{
+  "institution": "Mississippi State University",
+  "slug": "mississippi-state",
+  "city_state": "Starkville, MS",
+  "carnegie": "R1",
+  "aau_member": false,
+  "enrollment": 23150,
+  "system_leadership": {
+    "president_name": "Mark E. Keenum",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://www.infosecurity.msstate.edu/ai",
+      "https://servicedesk.its.msstate.edu/TDClient/45/Portal/KB/ArticleDet?ID=2168"
+    ],
+    "adopted_date": null,
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "key_provisions": [
+      "Only publicly available (non-confidential) data may be entered into generative AI tools",
+      "Use of MSU proprietary/confidential data requires CISO security risk review and a university contract addressing training/data use",
+      "AI use must align with MSU policy OP 01.12 and the campus information security program",
+      "Academic integrity: students may only use GenAI when explicitly authorized by the instructor",
+      "Microsoft Copilot Chat access when signed in with MSU credentials is covered under enterprise terms (prompts not used for training)"
+    ],
+    "summary": "MSU has published Generative AI Guidelines via the Office of Information Security rather than a single comprehensive university-wide policy. The guidelines treat AI inputs as equivalent to public posting, restrict confidential data to vetted/contracted tools, and defer classroom use decisions to individual instructors under standing academic integrity policies."
+  },
+  "governance_structure": {
+    "committee_name": "Information Technology Council",
+    "committee_url": "https://www.cio.msstate.edu/itc",
+    "committee_members_public": false,
+    "notes": "The ITC, chaired by the technology leader and reporting to the Provost/EVP, advises on IT strategy, security and data protection but has no publicly documented AI-specific governance charge. The CISO owns vetting of AI tools that handle institutional data. No standing university-wide AI governance committee or dedicated AI leader is publicly named as of April 2026."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat (M365) and Microsoft 365 Copilot (paid license)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": "https://servicedesk.its.msstate.edu/TDClient/45/Portal/KB/ArticleDet?ID=2153",
+      "notes": "All M365 account holders (faculty, staff, students) have free enterprise-protected Copilot Chat. M365 Copilot available via departmental purchase at ~$216/user/yr. Enterprise terms block training on MSU prompts."
+    },
+    {
+      "vendor": "Amazon Web Services / Quintilian",
+      "product": "Quintilian Higher Education AI platform on AWS",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-07",
+      "evidence_urls": "https://www.msstate.edu/newsroom/article/2025/07/msu-launch-ai-initiative-powered-amazon-web-services",
+      "notes": "MSU announced itself as the first sector institution and only Mississippi university deploying AWS AI services via Quintilian to personalize prospective student recruitment, alumni engagement, and university operations."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "Bachelor of Science in Artificial Intelligence",
+      "level": "undergrad",
+      "announced_or_launched": "2024-05",
+      "evidence_url": "https://www.bagley.msstate.edu/news/msu-bagley-college-of-engineering-announces-new-undergraduate-degree-in-artificial-intelligence/"
+    },
+    {
+      "program_type": "degree",
+      "name": "Master of Science in Artificial Intelligence (MSAI)",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.online.msstate.edu/msai"
+    },
+    {
+      "program_type": "minor",
+      "name": "Minor in Artificial Intelligence",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.cse.msstate.edu/artificial-intelligence/"
+    },
+    {
+      "program_type": "concentration",
+      "name": "AI concentration within Computer Science",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://www.cse.msstate.edu/artificial-intelligence/"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Graduate certificate in Data Center Construction Management (MAI-TAP funded)",
+      "level": "grad",
+      "announced_or_launched": "2025-06",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2025/06/governor-reeves-announces-launch-mississippi-ai-talent-accelerator-program"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "Mississippi AI Talent Accelerator Program (MAI-TAP) grant",
+      "amount_usd": 2200000,
+      "counterparty": "State of Mississippi / AccelerateMS / MDA / AWS",
+      "date": "2025-06",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2025/06/governor-reeves-announces-launch-mississippi-ai-talent-accelerator-program",
+      "summary": "$2.2M state grant (part of $9.1M statewide MAI-TAP) to establish an AI/ML endowment, seed two faculty lines, and launch a graduate certificate in Data Center Construction Management."
+    },
+    {
+      "title": "NSF grant for AI competency in high school CS education",
+      "amount_usd": 1200000,
+      "counterparty": "National Science Foundation",
+      "date": "2024-11",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2024/11/msu-receives-12-million-nsf-grant-promote-ai-competency-among-high-school",
+      "summary": "Three-year NSF award to the MSU College of Education to provide hands-on ML training to high school CS teachers/students, targeting rural and underrepresented populations."
+    },
+    {
+      "title": "AWS / Quintilian campus-wide AI initiative",
+      "amount_usd": null,
+      "counterparty": "Amazon Web Services / Quintilian, Inc.",
+      "date": "2025-07",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2025/07/msu-launch-ai-initiative-powered-amazon-web-services",
+      "summary": "First sector institution to deploy AWS-powered Quintilian Higher Education AI for recruitment, alumni relations, and operations."
+    },
+    {
+      "title": "NSF AI-enhanced engineering learning system (AlZoubi)",
+      "amount_usd": 203900,
+      "counterparty": "National Science Foundation",
+      "date": "2024-11",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2024/11/alzoubi-garners-nsf-grant-pioneer-ai-enhanced-learning-system-msu",
+      "summary": "MSU share of a $900K collaborative NSF project with Stevens Institute and Utah to build an AI-enhanced engineering learning system."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Mark E. Keenum",
+      "role": "President, Mississippi State University",
+      "date": "2025-04",
+      "context": "4th Annual AI in Agriculture and Natural Resources Conference opening, hosted by MSU's Agricultural Autonomy Institute",
+      "quote_or_summary": "Keenum framed AI as essential to feeding, clothing and sheltering a growing world and positioned land-grant research universities like MSU as central to deploying it responsibly in agriculture.",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2025/04/mississippi-state-hosts-national-ai-agriculture-and-natural-resources"
+    },
+    {
+      "speaker": "Mark E. Keenum",
+      "role": "President, Mississippi State University",
+      "date": "2025-07",
+      "context": "Announcement of AWS/Quintilian AI initiative",
+      "quote_or_summary": "\"This exciting partnership with a world-class organization like AWS is a great fit for the MSU community.\"",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2025/07/msu-launch-ai-initiative-powered-amazon-web-services"
+    },
+    {
+      "speaker": "Mark E. Keenum",
+      "role": "President, Mississippi State University",
+      "date": "2026-02",
+      "context": "Spring 2026 general faculty meeting",
+      "quote_or_summary": "Keenum highlighted MSU's role helping manufacturers lead the next generation of technology including AI and cybersecurity.",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2026/02/keenum-lauds-msus-far-reaching-economic-research-service-impacts-during"
+    },
+    {
+      "speaker": "Alex Thomasson",
+      "role": "Director, MSU Agricultural Autonomy Institute",
+      "date": "2025-04",
+      "context": "AI in Agriculture Conference",
+      "quote_or_summary": "\"AI has the potential to revolutionize the way we feed the world, improve livelihoods, and protect our environment.\"",
+      "evidence_url": "https://www.msstate.edu/newsroom/article/2025/04/mississippi-state-hosts-national-ai-agriculture-and-natural-resources"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Mississippi",
+    "has_state_ai_executive_order": true,
+    "has_higher_ed_system_ai_policy": false,
+    "summary": "Gov. Tate Reeves signed Executive Order 1584 in January 2025 directing the MS Department of ITS to inventory state AI usage and draft responsible-use policy. The legislature passed SB 2426 (2025) creating an AI Regulation Task Force (report delivered Jan 2026). Mississippi signed an MOU with NVIDIA (June 2025) and launched the $9.1M MAI-TAP program awarding MSU $2.2M. IHL Board has approved individual AI/data-science institutes but has not published a system-wide higher education AI policy.",
+    "evidence_urls": [
+      "https://governorreeves.ms.gov/governor-reeves-issues-executive-order-to-foster-stakeholder-collaboration-and-harness-artificial-intelligence-ai/",
+      "https://statescoop.com/mississippi-governor-tate-reeves-ai-executive-order/",
+      "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm",
+      "https://www.peer.ms.gov/sites/default/files/2026-01/AIRTF_FInal_011326.pdf",
+      "https://governorreeves.ms.gov/state-of-mississippi-to-advance-artificial-intelligence-education-innovation-and-workforce-development-with-nvidia/",
+      "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/"
+    ]
+  },
+  "litigation_or_controversy": null,
+  "narrative_summary": "Mississippi State leads the sector in bundling AI academic capacity with research infrastructure: it launched the sector's first Bachelor of Science in Artificial Intelligence (Fall 2024), offers an online MSAI, a minor and a CS concentration, and operates the HPC2 Collaboratory whose Hercules system (3.01 PF, Intel Xeon Platinum 8380) supports AI/ML workloads alongside DoD and NOAA partnerships. Administratively, MSU has not appointed a dedicated AI leader and has not chartered a standing university-wide AI governance body; AI oversight is distributed across the technology leader (Trey Breckenridge), the CISO-driven Generative AI Guidelines, and the Information Technology Council. Vendor posture is pragmatic: Microsoft Copilot Chat is free campus-wide under enterprise terms, paid M365 Copilot is available departmentally, and in July 2025 MSU became the first sector and only Mississippi institution to stand up an AWS/Quintilian-powered AI platform for recruitment and operations. State context is favorable: Gov. Reeves' Jan 2025 EO 1584, the 2025 AI Regulation Task Force, an NVIDIA MOU, and $2.2M to MSU from the $9.1M MAI-TAP program. Presidential messaging from Mark Keenum frames AI primarily through the land-grant/agricultural lens (Agricultural Autonomy Institute, FAO partnership). For the institution, the key comparison is that MSU has richer AI academic offerings and state funding momentum, but roughly equivalent (light) formal AI governance maturity.",
+  "confidence_notes": "HIGH confidence on academic programs, MAI-TAP grant ($2.2M), AWS/Quintilian deployment, state EO, and technology leader identity. MEDIUM on Copilot deployment scope and date (no press release located; inferred from ITS KB article). LOW/unknown on: exact adoption date of MSU's GenAI Guidelines, user counts for Copilot, membership of the ITC, and whether any AI-specific standing committee exists beneath the ITC. No dedicated AI leader role identified. No IHL system-wide AI policy document located.",
+  "sources": [
+    "https://www.infosecurity.msstate.edu/ai",
+    "https://servicedesk.its.msstate.edu/TDClient/45/Portal/KB/ArticleDet?ID=2168",
+    "https://servicedesk.its.msstate.edu/TDClient/45/Portal/KB/ArticleDet?ID=2153",
+    "https://www.cio.msstate.edu/",
+    "https://www.cio.msstate.edu/directory",
+    "https://www.cio.msstate.edu/itc",
+    "https://www.hpc.msstate.edu/",
+    "https://www.hpc.msstate.edu/computing/hpc.php",
+    "https://www.cse.msstate.edu/artificial-intelligence/",
+    "https://www.online.msstate.edu/msai",
+    "https://www.bagley.msstate.edu/news/msu-bagley-college-of-engineering-announces-new-undergraduate-degree-in-artificial-intelligence/",
+    "https://www.datascience.msstate.edu/",
+    "https://www.msstate.edu/newsroom/article/2025/07/msu-launch-ai-initiative-powered-amazon-web-services",
+    "https://www.msstate.edu/newsroom/article/2025/06/governor-reeves-announces-launch-mississippi-ai-talent-accelerator-program",
+    "https://www.msstate.edu/newsroom/article/2025/04/mississippi-state-hosts-national-ai-agriculture-and-natural-resources",
+    "https://www.msstate.edu/newsroom/article/2024/11/msu-receives-12-million-nsf-grant-promote-ai-competency-among-high-school",
+    "https://www.msstate.edu/newsroom/article/2024/11/alzoubi-garners-nsf-grant-pioneer-ai-enhanced-learning-system-msu",
+    "https://www.msstate.edu/newsroom/article/2025/11/msu-achieves-another-enrollment-record-states-only-public-university",
+    "https://www.msstate.edu/newsroom/article/2026/02/keenum-lauds-msus-far-reaching-economic-research-service-impacts-during",
+    "https://governorreeves.ms.gov/governor-reeves-issues-executive-order-to-foster-stakeholder-collaboration-and-harness-artificial-intelligence-ai/",
+    "https://governorreeves.ms.gov/governor-reeves-announces-launch-of-mississippi-ai-talent-accelerator-program-9-1-million-in-grants/",
+    "https://governorreeves.ms.gov/state-of-mississippi-to-advance-artificial-intelligence-education-innovation-and-workforce-development-with-nvidia/",
+    "https://statescoop.com/mississippi-governor-tate-reeves-ai-executive-order/",
+    "https://billstatus.ls.state.ms.us/documents/2025/html/SB/2400-2499/SB2426SG.htm",
+    "https://www.peer.ms.gov/sites/default/files/2026-01/AIRTF_FInal_011326.pdf",
+    "https://www.mississippiai.org/",
+    "https://www.govtech.com/education/mississippi-state-university-launches-ai-masters-degree"
+  ],
+  "researched_on": "2026-04-16"
+}

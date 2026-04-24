@@ -1,0 +1,620 @@
+{
+  "institution": "University of Chicago",
+  "slug": "university-of-chicago",
+  "city_state": "Chicago, IL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": null,
+      "url": null
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI strategy source",
+        "url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf",
+        "year": null
+      },
+      {
+        "title": "AI guidance source",
+        "url": "https://academictech.uchicago.edu/generative-ai/",
+        "year": null
+      }
+    ],
+    "summary": "University of Chicago has public AI evidence across 4 trend categories, including governance, teaching, research, tools, or workforce activity."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf",
+      "https://academictech.uchicago.edu/generative-ai/",
+      "https://carnegieclassifications.acenet.edu/news/carnegie-classifications-release-2025-research-activity-designations-debut-updated-methodology/"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": false,
+    "addresses_regulatory_compliance": false,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use reviewed tools for sensitive data.",
+      "Follow instructor or unit AI expectations.",
+      "Keep human accountability for consequential decisions."
+    ],
+    "summary": "Public sources support a comprehensive AI posture."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Public AI governance or coordination structure",
+        "type": "other",
+        "scope": "Institution-level AI coordination evidenced by cited sources.",
+        "url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+      }
+    ],
+    "summary": "A public AI governance, task force, or coordination structure was found."
+  },
+  "initiatives": [
+    {
+      "title": "Advancing Computing and AI committee",
+      "description": "UChicago's president and provost convened a committee to create a plan for computing and artificial intelligence for the future.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "institutional_restructuring",
+        "business_model_disruption"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+      ]
+    },
+    {
+      "title": "AI and Education Working Group",
+      "description": "UChicago convened an AI and Education Working Group to support faculty navigating AI in teaching and pedagogy.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "syllabus_level_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates or relies on guardrails for privacy, academic integrity, or responsible use.",
+      "source_urls": [
+        "https://academictech.uchicago.edu/generative-ai/"
+      ]
+    },
+    {
+      "title": "PhoenixAI secure generative AI platform",
+      "description": "UChicago offers PhoenixAI, a private generative AI chat service using OpenAI large language models in a custom application for the university community. A Microsoft partner case study says the Azure-powered platform served more than 35,000 users within six months, with 25% active engagement and a 95% AI usage cost reduction compared with commercial SaaS alternatives.",
+      "significance": "PhoenixAI is a rare public example of an R1 institution disclosing both enterprise GenAI scale and usage outcomes.",
+      "date_announced": "2025-11-18",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "personalized_student_support",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "University of Chicago",
+        "description": "Public sources disclose deployment scale and relative cost reduction, but not the total platform spend."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Royal Cyber",
+            "Microsoft"
+          ],
+          "description": "Royal Cyber and Microsoft worked with UChicago IT Services on the Azure-based PhoenixAI deployment."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "PhoenixAI",
+          "vendor": "University of Chicago / Microsoft Azure",
+          "role": "Secure university generative AI assistant"
+        },
+        {
+          "name": "Azure OpenAI Service",
+          "vendor": "Microsoft",
+          "role": "Underlying LLM service for PhoenixAI"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "PhoenixAI keeps data within the UChicago environment and gives IT centralized logging, usage monitoring, and policy enforcement.",
+      "source_urls": [
+        "https://academictech.uchicago.edu/generative-ai/",
+        "https://partner.microsoft.com/en-us/case-studies/royal-cyber"
+      ]
+    },
+    {
+      "title": "Generative AI Landscape course",
+      "description": "Academic Technology Solutions, CCTL, and the Library created a Canvas course for instructors on generative AI teaching implications.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://academictech.uchicago.edu/generative-ai/"
+      ]
+    },
+    {
+      "title": "Computing and AI infrastructure planning",
+      "description": "The Advancing Computing and AI report addresses future needs for computing, AI, and research capacity across the university.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+      ]
+    },
+    {
+      "title": "Faculty-facing GenAI guidance",
+      "description": "UChicago academic technology guidance helps faculty adapt assignments and pedagogy in the context of large language models and generative AI.",
+      "significance": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_resilient_assessment",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://academictech.uchicago.edu/generative-ai/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI research or coordination activity",
+      "focus": "Public AI research, teaching, or tool coordination evidenced in cited sources.",
+      "founded": null,
+      "url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "AI learning pathway or resources",
+      "level": "both",
+      "launched": null,
+      "url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "University of Chicago / Microsoft Azure",
+      "product": "PhoenixAI",
+      "scope": "campus-wide",
+      "user_count": 35000,
+      "deployed": null,
+      "url": "https://academictech.uchicago.edu/generative-ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://academictech.uchicago.edu/generative-ai/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini and NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://academictech.uchicago.edu/generative-ai/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Midway3",
+    "gpu_count": 44,
+    "url": "https://docs.rcc.uchicago.edu/clusters/",
+    "summary": "UChicago's RCC hardware guide lists 11 Midway3 communal GPU nodes: five nodes with four NVIDIA V100 GPUs, five nodes with four NVIDIA Quadro RTX 6000 GPUs, and one node with four NVIDIA A100 GPUs, for 44 communal Midway3 GPUs."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Advancing Computing and AI committee",
+      "scope": "UChicago's president and provost convened a committee to create a plan for computing and artificial intelligence for the future.",
+      "url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+    },
+    {
+      "type": "chatbot",
+      "name": "AI and Education Working Group",
+      "scope": "UChicago convened an AI and Education Working Group to support faculty navigating AI in teaching and pedagogy.",
+      "url": "https://academictech.uchicago.edu/generative-ai/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Generative AI Landscape course",
+      "scope": "Academic Technology Solutions, CCTL, and the Library created a Canvas course for instructors on generative AI teaching implications.",
+      "url": "https://academictech.uchicago.edu/generative-ai/"
+    }
+  ],
+  "equity_and_access_initiatives": [],
+  "regulatory_context": {
+    "state": "IL",
+    "has_state_ai_policy": false,
+    "has_system_ai_policy": false,
+    "summary": "State and system AI context checked only at high level; institution-level sources carry the profile.",
+    "urls": []
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "University of Chicago shows an AI posture with five documented initiatives across 4 categories. The evidence emphasizes Advancing Computing and AI committee, AI and Education Working Group, and Generative AI Landscape course. Policy maturity is coded as comprehensive based on public guidance, privacy language, governance, or tool controls. The profile also records teaching, research, workforce, equity, or enterprise-tool activity where sources support it. Leadership names, enrollment, GPU counts, and contract values are left null when not found in the cited public sources.",
+  "research_quality": {
+    "compiled_at": "2026-04-23",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf",
+      "https://academictech.uchicago.edu/generative-ai/",
+      "https://partner.microsoft.com/en-us/case-studies/royal-cyber",
+      "https://docs.rcc.uchicago.edu/clusters/",
+      "https://carnegieclassifications.acenet.edu/news/carnegie-classifications-release-2025-research-activity-designations-debut-updated-methodology/"
+    ],
+    "search_queries": [
+      "\"University of Chicago\" AI strategy",
+      "\"University of Chicago\" generative AI guidelines",
+      "\"University of Chicago\" AI research center",
+      "\"University of Chicago\" AI degree program",
+      "\"University of Chicago\" PhoenixAI Azure 35000 users",
+      "\"University of Chicago\" Midway3 GPU nodes"
+    ],
+    "gaps_acknowledged": [
+      "Leadership names and enrollment were not populated in this missing-only sweep.",
+      "PhoenixAI platform scale and Midway3 communal GPU counts are public, but total PhoenixAI spend and contract values are not disclosed.",
+      "Microsoft Copilot, Google Gemini, and NotebookLM are publicly listed as enterprise-level platforms, but their user counts are not public.",
+      "No controversy record was added without a reliable institution-specific source."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "governance_led",
+        "research_compute_powerhouse",
+        "student_success_led"
+      ],
+      "scores": {
+        "platform_first": 10,
+        "research_compute_powerhouse": 8,
+        "curriculum_led": 4,
+        "governance_led": 9,
+        "student_success_led": 5,
+        "workforce_regional_development": 0,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": false,
+      "addresses_regulatory_compliance": false,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "mixed",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 3,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 2,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Midway3",
+        "gpu_count": 44,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 5,
+        "institutional": 1
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 1,
+        "chatbot": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": false,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Azure OpenAI Service",
+            "Copilot",
+            "PhoenixAI"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini and NotebookLM"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Advancing Computing and AI committee",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI and Education Working Group",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://academictech.uchicago.edu/generative-ai/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "PhoenixAI secure generative AI platform",
+          "summary": "PhoenixAI is a rare public example of an R1 institution disclosing both enterprise GenAI scale and usage outcomes.",
+          "source_url": "https://academictech.uchicago.edu/generative-ai/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Generative AI Landscape course",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://academictech.uchicago.edu/generative-ai/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Computing and AI infrastructure planning",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://provost.uchicago.edu/sites/default/files/2024-10/AdvancingComputingandAIReport.pdf"
+        },
+        {
+          "claim_type": "career",
+          "title": "Faculty-facing GenAI guidance",
+          "summary": "Shows an R1 institution moving AI into governed practice, research capacity, teaching, or workforce preparation.",
+          "source_url": "https://academictech.uchicago.edu/generative-ai/"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 4,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 4,
+      "notes": [
+        "Leadership names and enrollment were not populated in this missing-only sweep.",
+        "PhoenixAI platform scale and Midway3 communal GPU counts are public, but total PhoenixAI spend and contract values are not disclosed.",
+        "Microsoft Copilot, Google Gemini, and NotebookLM are publicly listed as enterprise-level platforms, but their user counts are not public.",
+        "No controversy record was added without a reliable institution-specific source."
+      ]
+    }
+  }
+}

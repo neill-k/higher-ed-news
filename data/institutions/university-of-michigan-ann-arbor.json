@@ -1,0 +1,1477 @@
+{
+  "institution": "University of Michigan-Ann Arbor",
+  "slug": "university-of-michigan-ann-arbor",
+  "city_state": "Ann Arbor, MI",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Michigan",
+  "enrollment": 53488,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Domenico Grasso (interim)",
+      "url": "https://president.umich.edu/"
+    },
+    "provost": {
+      "name": "Laurie K. McCauley",
+      "url": "https://provost.umich.edu/about-the-office/laurie-mccauley/"
+    },
+    "cio": {
+      "name": "Ravi Pendse",
+      "url": "https://it.umich.edu/vpit-cio"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Karthik Duraisamy",
+      "title": "Chair, Generative AI Advisory (GAIA) Committee; Director, Michigan Institute for Computational Discovery and Engineering",
+      "url": "https://it.umich.edu/strategy-planning/gaia"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Vision 2034 / Look to Michigan Strategic Plan",
+        "url": "https://vision2034.umich.edu/",
+        "year": 2024
+      },
+      {
+        "title": "GAIA Committee Report on Generative AI",
+        "url": "https://genai.umich.edu/committee-report",
+        "year": 2023
+      },
+      {
+        "title": "AI Institutes at Michigan (AIIM) launch announcement",
+        "url": "https://record.umich.edu/articles/u-m-launches-effort-to-advance-ai-research-collaboration/",
+        "year": 2025
+      }
+    ],
+    "summary": "U-M's AI strategy is anchored in Vision 2034 (renamed 'Look to Michigan'), a 10-year plan launched in 2024 with a $1 billion commitment and renewable $100M/year investment. A specific commitment is to 'expand the development and deployment of artificial intelligence and data science.' The 2023 GAIA Committee report set the foundation for campus-wide generative AI tooling and guidance, and the 2025 launch of AI Institutes at Michigan (AIIM) unified seven AI-focused centers under a single umbrella to coordinate research, education, and public-mission work."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://genai.umich.edu/guidance",
+      "https://genai.umich.edu/resources/faculty",
+      "https://genai.umich.edu/resources/students",
+      "https://safecomputing.umich.edu/protect-the-u/safely-use-sensitive-data/AI-and-UM-Data",
+      "https://spg.umich.edu/policy/601.12",
+      "https://its.umich.edu/computing/ai/privacy-notice"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "AI tools may be used only with data classified as Low (public) unless an approved U-M service is used",
+      "Sensitive data (FERPA, HIPAA, HR, research subject data) prohibited from third-party consumer AI tools",
+      "U-M-provided AI services (U-M GPT, Maizey, MiMaizey) do not retain user inputs for model training",
+      "Faculty must publish course-specific GenAI policy in syllabi; discretion preserved",
+      "Institutional Data Stewardship Policy (SPG 601.12) revised August 2025 to govern AI data use",
+      "Ethical principles of fairness, privacy, transparency, and accountability embedded in data lifecycle"
+    ],
+    "summary": "U-M operates a comprehensive, multi-document GenAI policy framework built on its SPG 601-series policies (Responsible Use, Privacy, Data Stewardship). The stance is permissive-comprehensive: faculty and students are encouraged to use AI, with a strong emphasis on the university's own closed, privacy-preserving tools over third-party consumer services. Data-classification-based restrictions and instructor-set syllabus policies form the operational backbone."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Generative AI Advisory (GAIA) Committee",
+        "type": "committee",
+        "scope": "Campus-wide generative AI strategy, guidance, and implementation; 18-member body chartered by the Office of the VPIT-CIO",
+        "url": "https://it.umich.edu/strategy-planning/gaia"
+      },
+      {
+        "name": "AI Institutes at Michigan (AIIM)",
+        "type": "office",
+        "scope": "Umbrella organization unifying seven AI-focused institutes across U-M to coordinate research, collaboration, and public-mission AI work aligned with Vision 2034",
+        "url": "https://aiim.umich.edu/"
+      },
+      {
+        "name": "Michigan Law School AI Advisory Council",
+        "type": "council",
+        "scope": "24-member council of alumni, legal, tech, and academic leaders shaping AI in legal education at Michigan Law",
+        "url": "https://michigan.law.umich.edu/news/michigan-law-launches-ai-advisory-council-convenes-inaugural-meeting"
+      },
+      {
+        "name": "ITS Emerging Technology Team",
+        "type": "office",
+        "scope": "First-of-its-kind ITS unit (est. 2023) that built and operates U-M's closed generative AI services platform",
+        "url": "https://its.umich.edu/accomplishments/emerging-technology/detail"
+      },
+      {
+        "name": "IT Council",
+        "type": "council",
+        "scope": "University-wide IT governance body under VPIT-CIO, covers AI-related infrastructure decisions",
+        "url": "https://it.umich.edu/governance/it-council"
+      }
+    ],
+    "summary": "U-M operates a multi-tier AI governance model: the GAIA Committee handles institution-wide GenAI strategy and guidance, AIIM coordinates federated research institutes, and school-level bodies like the Michigan Law AI Advisory Council localize governance. ITS's Emerging Technology team serves as the operational engine for campus AI services."
+  },
+  "initiatives": [
+    {
+      "title": "U-M GPT, Maizey, and U-M GPT Toolkit campus-wide launch",
+      "description": "In August 2023, U-M became the first major university to launch its own closed, privacy-preserving generative AI platform at genai.umich.edu. U-M GPT provides chat access to Azure OpenAI, GPT-Image-1, and hosted open-source LLMs; Maizey lets users build custom retrieval-augmented chatbots over their own datasets; the GPT Toolkit offers developer APIs. Free and available to all faculty, staff, and students on Ann Arbor, Flint, Dearborn, and Michigan Medicine campuses.",
+      "significance": "First-of-its-kind closed-loop university GenAI platform that became a widely cited model for other R1s looking to balance access with data sovereignty.",
+      "date_announced": "2023-08-21",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal ITS budget",
+        "description": "Ongoing operational investment by ITS Emerging Technology team to build and run the closed GenAI platform"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft Azure OpenAI Service",
+            "OpenAI",
+            "Meta (Llama)",
+            "Anthropic"
+          ],
+          "description": "Uses Microsoft Azure as its cloud infrastructure plus routed access to multiple frontier LLMs (GPT-4o, DALL-E 3, Llama 3, Claude 3.5 Haiku)"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "U-M GPT",
+          "vendor": "University of Michigan (built on Azure OpenAI)",
+          "role": "Campus chat interface"
+        },
+        {
+          "name": "U-M Maizey",
+          "vendor": "University of Michigan",
+          "role": "No-code custom RAG chatbot builder"
+        },
+        {
+          "name": "MiMaizey",
+          "vendor": "University of Michigan",
+          "role": "Personal AI assistant for every student"
+        },
+        {
+          "name": "Azure OpenAI Service",
+          "vendor": "Microsoft",
+          "role": "Underlying LLM inference"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a national benchmark for R1s seeking private, data-sovereign GenAI access rather than relying on consumer ChatGPT",
+      "source_urls": [
+        "https://genai.umich.edu/",
+        "https://its.umich.edu/computing/ai",
+        "https://er.educause.edu/articles/2024/2/how-and-why-the-university-of-michigan-built-its-own-closed-generative-ai-tools",
+        "https://news.umich.edu/u-m-debuts-generative-ai-services-for-campus/",
+        "https://michigan.it.umich.edu/news/2025/11/17/a-fresh-look-feel-for-u-m-ai-services-november-2025-updates/"
+      ]
+    },
+    {
+      "title": "MiMaizey: Personal AI assistant for every U-M student",
+      "description": "In fall 2024, U-M launched MiMaizey beta, giving each of its 52,000+ students a personalized AI assistant with knowledge of campus life (dining, class materials, student orgs, transportation) and integration with Canvas-based Maizey course tutors. Continues expanding in 2025 with updated UI and feedback loops.",
+      "significance": "First university worldwide to provide every enrolled student with a personal AI assistant, demonstrating the scale U-M's closed platform enables.",
+      "date_announced": "2024-09",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "campus_wide_platform_rollout",
+        "lms_embedded_ai"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal ITS budget",
+        "description": "Ongoing build and operations cost carried by ITS"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Built on top of Azure OpenAI infrastructure"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "MiMaizey",
+          "vendor": "University of Michigan",
+          "role": "Student-facing personalized chatbot"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Raises questions about AI dependency and environmental footprint that have drawn public commentary",
+      "source_urls": [
+        "https://its.umich.edu/computing/ai/mimaizey-in-depth",
+        "https://michigan.it.umich.edu/news/2024/10/24/new-enhancements-for-mimaizey-personal-ai-assistant-for-u-m-students/",
+        "https://www.bestcolleges.com/news/university-of-michigan-to-introduce-two-new-ai-assistants-this-fall/",
+        "https://bridgemi.com/michigan-environment-watch/u-m-gives-ai-assistant-every-student-environmental-worries-follow/"
+      ]
+    },
+    {
+      "title": "U-M / OpenAI NextGenAI research partnership",
+      "description": "U-M joined OpenAI's $50M NextGenAI consortium of 15 universities and research institutions in March 2025. Includes research grants ($50K small / $100K medium projects), HPC computing credits, OpenAI model credits, and joint research projects on societally beneficial AI. MIDAS administers the internal grant process.",
+      "significance": "Signals U-M's seat at the table in frontier-lab research partnerships alongside Harvard, MIT, Caltech, Duke, and Oxford.",
+      "date_announced": "2025-03-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_vendor_partnership",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 50000000,
+        "funding_source": "OpenAI (portion allocated across 15-institution consortium)",
+        "description": "$50M consortium-wide OpenAI commitment; U-M share covers research grants, HPC credits, and model/API credits"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Caltech",
+            "CSU system",
+            "Duke",
+            "University of Georgia",
+            "Harvard",
+            "Howard",
+            "MIT",
+            "University of Mississippi",
+            "Ohio State",
+            "Oxford",
+            "Sciences Po",
+            "Texas A&M",
+            "Boston Children's Hospital",
+            "Boston Public Library"
+          ],
+          "description": "15-institution NextGenAI consortium"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "OpenAI frontier models",
+          "vendor": "OpenAI",
+          "role": "Research tooling and model API access"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://record.umich.edu/articles/u-m-openai-launch-partnership-to-expand-ai-research/",
+        "https://news.umich.edu/u-m-openai-launch-partnership-to-expand-ai-research/",
+        "https://midas.umich.edu/university-of-michigan-openai-research-grants/",
+        "https://www.crainsdetroit.com/technology/openais-50m-research-consortium-adds-university-michigan",
+        "https://cse.engin.umich.edu/stories/u-m-openai-launch-partnership-to-expand-ai-research"
+      ]
+    },
+    {
+      "title": "U-M / Los Alamos National Laboratory AI research complex",
+      "description": "Announced February 2025: a $1.25 billion Washtenaw County AI and HPC research complex jointly developed with Los Alamos National Laboratory. LANL contributes $300M directly; U-M contributes $220M and facilitates financing for the remaining $630M; the State of Michigan added a $100M Strategic Site Readiness grant. Houses two adjacent centers — one national-security-focused for LANL, one academic for U-M faculty and partners. Construction begins 2026; full operation expected 2030.",
+      "significance": "Among the largest single university-national lab AI infrastructure commitments announced, rivaling Department of Energy leadership computing investments.",
+      "date_announced": "2025-02",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 1250000000,
+        "funding_source": "Los Alamos National Lab ($300M), U-M ($220M direct + $630M financed), State of Michigan ($100M)",
+        "description": "Total capital commitment to build a dual-mission HPC/AI research campus in Washtenaw County"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Los Alamos National Laboratory",
+            "State of Michigan",
+            "Washtenaw County"
+          ],
+          "description": "University / national lab / state government joint venture"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Raises local community questions about land use, energy consumption, and national-security research; some community pushback reported",
+      "source_urls": [
+        "https://news.engin.umich.edu/2025/02/u-michigan-announces-most-advanced-ai-research-complex-with-historic-los-alamos-alliance/",
+        "https://news.umich.edu/u-m-los-alamos-national-laboratory-to-jointly-develop-michigan-based-ai-research-center/",
+        "https://research.umich.edu/research-at-michigan/lanl-faq/",
+        "https://record.umich.edu/articles/legislative-support-bolsters-u-m-los-alamos-computing-facility/",
+        "https://www.detroitnews.com/story/news/local/michigan/2024/12/10/state-panel-agrees-to-kick-in-100m-for-university-of-michigan-supercomputing-ai-lab/76884735007/"
+      ]
+    },
+    {
+      "title": "AI Institutes at Michigan (AIIM) launch",
+      "description": "Launched April 2025, AIIM is an umbrella that unifies seven AI-focused institutes — Michigan Institute for Data & AI in Society (MIDAS), AI Laboratory, e-HAIL (E-Health & AI), Michigan Institute for Computational Discovery & Engineering (MICDE), Quantum Research Institute, AI & Digital Health Innovation, and the Statistics Online Computational Resource. Coordinates research incentives, interdisciplinary collaboration, and external engagement aligned with Vision 2034.",
+      "significance": "Attempts the difficult feat of coordinating a federated AI research portfolio at R1 scale under a single branded umbrella without collapsing the underlying centers.",
+      "date_announced": "2025-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "institutional_restructuring",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Vision 2034 allocation ($1B commitment / $100M annual renewable)",
+        "description": "Funded via Vision 2034 strategic investment pool; no discrete AIIM amount disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "MIDAS",
+            "AI Laboratory",
+            "e-HAIL",
+            "MICDE",
+            "Quantum Research Institute",
+            "AI & Digital Health Innovation",
+            "Statistics Online Computational Resource"
+          ],
+          "description": "Internal federation of seven existing AI-focused institutes"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://aiim.umich.edu/",
+        "https://record.umich.edu/articles/u-m-launches-effort-to-advance-ai-research-collaboration/"
+      ]
+    },
+    {
+      "title": "$25M Omenn-Darling gift creates first named U-M department, focused on AI-driven biomedicine",
+      "description": "October 2024: Gilbert S. Omenn and Martha A. Darling gifted $25M to rename and endow the Department of Computational Medicine and Bioinformatics, including the Michael A. Savageau Department Chair and up to five endowed professorships ($5M slice). Mission is to deepen AI-driven translational research, especially with Internal Medicine.",
+      "significance": "First named department at U-M and one of the first named medical school basic science departments nationally; signals philanthropy-led AI capacity building in health care.",
+      "date_announced": "2024-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 25000000,
+        "funding_source": "Gilbert S. Omenn, M.D., Ph.D. and Martha A. Darling (private gift)",
+        "description": "Endows named department, named chair, and 5 research professorships"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal endowment gift"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://record.umich.edu/articles/25m-gift-builds-u-ms-leadership-in-health-care-ai/",
+        "https://www.michiganmedicine.org/news-release/25m-gift-builds-u-ms-leadership-health-care-ai",
+        "https://giving.umich.edu/um/w/omenn-med-gift",
+        "https://www.crainsdetroit.com/nonprofits-philanthropy/gilbert-omenn-martha-darling-give-university-michigan-25m"
+      ]
+    },
+    {
+      "title": "U-M / Google partnership for free Career Certificates and AI training",
+      "description": "May 2025: U-M Center for Academic Innovation partnered with Google to make Google Career Certificates and AI & Prompting Essentials courses free to all 66,500+ students across Ann Arbor, Flint, and Dearborn campuses. Later expanded to alumni. Delivered via Michigan Online.",
+      "significance": "One of the largest single-institution expansions of stackable AI/workforce credentials; strongly ties AI literacy to employability.",
+      "date_announced": "2025-05",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "faculty_training_and_development",
+        "ai_tool_equity",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Google (in-kind access); U-M Center for Academic Innovation administers",
+        "description": "Free enrollment for all enrolled students and alumni"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Corporate/university partnership to distribute certificates"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Google Career Certificates",
+          "vendor": "Google",
+          "role": "Stackable credentials"
+        },
+        {
+          "name": "Google AI & Prompting Essentials",
+          "vendor": "Google",
+          "role": "Introductory AI literacy courses"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/",
+        "https://record.umich.edu/articles/u-m-partners-with-google-to-provide-students-free-course-access/",
+        "https://ai.umich.edu/blog-posts/google-career-certificates-no-cost-university-of-michigan-community/",
+        "https://www.edtechinnovationhub.com/news/university-of-michigan-expands-free-google-career-certificates-to-alumni"
+      ]
+    },
+    {
+      "title": "GAIA Committee report establishes U-M's GenAI guiding framework",
+      "description": "The 18-member Generative AI Advisory Committee, chaired by Professor Karthik Duraisamy, delivered its report on June 30, 2023 — before ChatGPT reached its one-year anniversary. Report established principles of privacy, accessibility, affordability, and equity; catalyzed the closed U-M GPT/Maizey platform and ongoing guidance pages at genai.umich.edu.",
+      "significance": "One of the earliest and most widely referenced R1 GenAI governance frameworks, cited by peers and by Duraisamy at the 2024 World Economic Forum.",
+      "date_announced": "2023-06-30",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "acceptable_use_policy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (Office of the VPIT-CIO)",
+        "description": "Committee work and report writing"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal advisory committee"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets principles that later govern U-M GPT launch and guidance pages; cited widely as a peer reference model",
+      "source_urls": [
+        "https://genai.umich.edu/committee-report",
+        "https://it.umich.edu/strategy-planning/gaia",
+        "https://record.umich.edu/articles/advisory-report-begins-integration-of-generative-ai-at-u-m/",
+        "https://academictechnology.umich.edu/instructional-resources/generative-ai/gaia-committee"
+      ]
+    },
+    {
+      "title": "Human-Centered AI Minor (School of Information)",
+      "description": "School of Information launched a new undergraduate minor in Human-Centered AI for fall 2025, open to undergrads across U-M. Requires two core courses: 'Understanding AI' (AI literacy + societal impact) and 'AI in Practice' (responsible application). Complements the Computer Science and Engineering AI Minor (15-credit, cross-college).",
+      "significance": "Shows U-M building AI literacy pathways for students outside Engineering/CS, addressing the full-campus AI skill gap.",
+      "date_announced": "2025-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "School of Information operating budget",
+        "description": "New course development and delivery"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "School of Information",
+            "Computer Science and Engineering",
+            "College of Engineering",
+            "Ross School of Business",
+            "Public Health",
+            "Nursing",
+            "Pharmacy",
+            "Architecture & Urban Planning",
+            "Education"
+          ],
+          "description": "Cross-college undergraduate enrollment"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.si.umich.edu/about-umsi/news/u-m-school-information-launches-minor-human-centered-ai",
+        "https://www.michigandaily.com/news/academics/umich-engineering-school-of-information-offers-ai-minors/",
+        "https://cse.engin.umich.edu/academics/undergraduate/minors/artificial-intelligence-minor/",
+        "https://cse.engin.umich.edu/stories/ai-minor-at-michigan-opens-pathways-across-disciplines"
+      ]
+    },
+    {
+      "title": "Michigan Law School AI Advisory Council",
+      "description": "April 2026: Michigan Law launched a 24-member AI Advisory Council of distinguished alumni, legal-profession, technology, and academic leaders to shape AI in legal education. Inaugural meeting convened at the Law School.",
+      "significance": "One of the earliest U.S. law school AI advisory boards, positioning Michigan Law as a leader on AI's intersection with legal practice and pedagogy.",
+      "date_announced": "2026-04-13",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_in_specific_disciplines",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Michigan Law School",
+        "description": "Advisory council operating costs"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Michigan Law alumni network",
+            "Law firms",
+            "Technology companies",
+            "Academic peers"
+          ],
+          "description": "24-member mixed-industry advisory council"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://michigan.law.umich.edu/news/michigan-law-launches-ai-advisory-council-convenes-inaugural-meeting",
+        "https://legalnewsfeed.com/2026/04/13/university-of-michigan-law-school-launches-ai-advisory-council-to-shape-the-future-of-legal-education/"
+      ]
+    },
+    {
+      "title": "Canvas-embedded Maizey AI course tutors",
+      "description": "Fall 2024: U-M integrated Maizey into Canvas so instructors can configure a course-specific AI tutor in under 10 minutes. As of 2025 there are 750+ deployments across campus. In a 1,000-student Operations Management 313 class, students using Maizey saw grade improvements of 5–9% and instructors saved 5–12 hours of Q&A per week.",
+      "significance": "One of the best-documented AI-in-the-classroom evidence sets in R1 higher ed, quantifying both learning and instructor-time impact.",
+      "date_announced": "2024-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "lms_embedded_ai",
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal ITS and Academic Innovation",
+        "description": "Development, training, and support"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal deployment"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Maizey (Canvas-integrated)",
+          "vendor": "University of Michigan",
+          "role": "Course-specific AI tutor"
+        },
+        {
+          "name": "Canvas",
+          "vendor": "Instructure",
+          "role": "Host LMS"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Normalizes AI tutoring in the LMS, which in turn raises questions about equitable access and assessment redesign",
+      "source_urls": [
+        "https://michiganross.umich.edu/news/u-m-gpt-s-maizey-tool-guides-students-success",
+        "https://michigan.it.umich.edu/news/2024/09/30/fall-2024-enhancements-to-maizey-ai/",
+        "https://provost.umich.edu/how-u-ms-ai-services-are-making-a-difference-in-the-classroom/"
+      ]
+    },
+    {
+      "title": "MIDAS 10-year anniversary and federated AI-for-society hub",
+      "description": "In 2025, MIDAS (Michigan Institute for Data and AI in Society) marked its 10-year anniversary, highlighting its growth to nearly 700 affiliated faculty across every U-M Ann Arbor school and college. Leads NSF-funded Center for Data-Driven Drug Development and Treatment Assessment, runs the AI Sandbox and Generative AI Hub, and partners with the City of Detroit and Michigan's Native American tribal nations on data-driven community work.",
+      "significance": "One of the nation's largest data science / AI institutes by affiliated faculty count; anchor of U-M's public-mission AI work.",
+      "date_announced": "2025-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "underrepresented_student_support",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal + NSF funding",
+        "description": "Sustained institutional + federal support"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "City of Detroit",
+            "Michigan Native American tribal nations",
+            "NSF"
+          ],
+          "description": "Community-embedded research and policy work"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://midas.umich.edu/",
+        "https://midas.umich.edu/about/",
+        "https://midas.umich.edu/research/research-resources/generative-ai-hub/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Michigan Institute for Data and AI in Society (MIDAS)",
+      "focus": "Data science and AI across disciplines; AI policy, ethics, societal impact; nearly 700 affiliated faculty",
+      "founded": "2015",
+      "url": "https://midas.umich.edu/"
+    },
+    {
+      "name": "AI Laboratory (Computer Science and Engineering)",
+      "focus": "Machine learning, deep learning, robotics, NLP, reasoning, trustworthy AI",
+      "founded": null,
+      "url": "https://ai.engin.umich.edu/"
+    },
+    {
+      "name": "AI Institutes at Michigan (AIIM)",
+      "focus": "Umbrella coordinating seven U-M AI institutes; research, collaboration, public mission",
+      "founded": "2025",
+      "url": "https://aiim.umich.edu/"
+    },
+    {
+      "name": "e-Health and AI Program (e-HAIL) / AI & Digital Health Innovation (AI&DHI)",
+      "focus": "AI-driven health research, grant support, clinical data access",
+      "founded": "2021",
+      "url": "https://aidhi.umich.edu/"
+    },
+    {
+      "name": "Michigan Institute for Computational Discovery and Engineering (MICDE)",
+      "focus": "Computational science, AI for scientific discovery",
+      "founded": null,
+      "url": "https://micde.umich.edu/"
+    },
+    {
+      "name": "Quantum Research Institute",
+      "focus": "Quantum computing and AI research",
+      "founded": null,
+      "url": "https://aiim.umich.edu/"
+    },
+    {
+      "name": "Gilbert S. Omenn Department of Computational Medicine and Bioinformatics",
+      "focus": "AI-driven biomedical research; first named department at U-M",
+      "founded": "2024",
+      "url": "https://medschool.umich.edu/departments/computational-medicine-bioinformatics"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "minor",
+      "name": "Artificial Intelligence Minor (CSE)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://cse.engin.umich.edu/academics/undergraduate/minors/artificial-intelligence-minor/"
+    },
+    {
+      "type": "minor",
+      "name": "Human-Centered AI Minor (School of Information)",
+      "level": "undergrad",
+      "launched": "2025-09",
+      "url": "https://www.si.umich.edu/about-umsi/news/u-m-school-information-launches-minor-human-centered-ai"
+    },
+    {
+      "type": "certificate",
+      "name": "Applied GenAI Specialization (Nexus Tech Bootcamps)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.engin.umich.edu/certifications/applied-gen-ai-course"
+    },
+    {
+      "type": "certificate",
+      "name": "AI and Machine Learning Course (Nexus Tech Bootcamps)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.engin.umich.edu/certifications/ai-and-machine-learning-course"
+    },
+    {
+      "type": "certificate",
+      "name": "Google Career Certificates + AI & Prompting Essentials (via Michigan Online)",
+      "level": "both",
+      "launched": "2025-05",
+      "url": "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/"
+    },
+    {
+      "type": "certificate",
+      "name": "Chief Data and AI Officer Program (Ross Executive Education + Michigan Engineering)",
+      "level": "grad",
+      "launched": "2025",
+      "url": "https://em.engin.umich.edu/chief-data-and-ai-officer-program"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "University of Michigan (ITS)",
+      "product": "U-M GPT (Azure OpenAI + multi-model)",
+      "scope": "campus-wide",
+      "user_count": 53488,
+      "deployed": "2023-08",
+      "url": "https://its.umich.edu/computing/ai"
+    },
+    {
+      "vendor": "University of Michigan (ITS)",
+      "product": "U-M Maizey (no-code RAG builder)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2023-08",
+      "url": "https://its.umich.edu/computing/ai"
+    },
+    {
+      "vendor": "University of Michigan (ITS)",
+      "product": "MiMaizey (student personal assistant)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://its.umich.edu/computing/ai/mimaizey-in-depth"
+    },
+    {
+      "vendor": "University of Michigan (ITS)",
+      "product": "U-M GPT Toolkit (developer APIs)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2023-08",
+      "url": "https://its.umich.edu/computing/ai"
+    },
+    {
+      "vendor": "Instructure / U-M",
+      "product": "Canvas + Maizey integration (course tutors)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://michigan.it.umich.edu/news/2024/09/30/fall-2024-enhancements-to-maizey-ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Azure OpenAI Service (underlying infrastructure)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2023-08",
+      "url": "https://er.educause.edu/articles/2024/2/how-and-why-the-university-of-michigan-built-its-own-closed-generative-ai-tools"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Career Certificates + AI & Prompting Essentials (via Michigan Online)",
+      "scope": "campus-wide",
+      "user_count": 66500,
+      "deployed": "2025-05",
+      "url": "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Great Lakes HPC Cluster",
+    "gpu_count": 48,
+    "url": "https://arc.umich.edu/greatlakes/",
+    "summary": "Great Lakes is U-M's flagship HPC cluster (~13,000 cores) with GPU partitions including 20 nodes with 2 NVIDIA V100s each and 2 nodes with 4 A100 (80GB HBM) GPUs each; networked via Mellanox HDR InfiniBand at 200 Gbps. The jointly developed U-M / Los Alamos AI research complex in Washtenaw County (announced 2025, operational 2030) will dramatically expand this capacity with a $1.25B investment."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "U-M / Los Alamos AI research complex",
+      "amount_usd": 1250000000,
+      "source": "LANL ($300M), U-M ($220M direct + $630M financed), State of Michigan ($100M)",
+      "purpose": "Dual-mission HPC/AI research campus in Washtenaw County",
+      "date": "2025-02",
+      "url": "https://news.engin.umich.edu/2025/02/u-michigan-announces-most-advanced-ai-research-complex-with-historic-los-alamos-alliance/"
+    },
+    {
+      "title": "Vision 2034 / Look to Michigan strategic plan (AI is one of seven priority areas)",
+      "amount_usd": 1000000000,
+      "source": "U-M internal commitment ($100M/year renewable)",
+      "purpose": "10-year strategic plan investment pool; AI & data science one of seven commitment areas",
+      "date": "2024-04",
+      "url": "https://vision2034.umich.edu/"
+    },
+    {
+      "title": "Omenn-Darling gift renames Dept. of Computational Medicine and Bioinformatics",
+      "amount_usd": 25000000,
+      "source": "Gilbert S. Omenn, M.D., Ph.D. and Martha A. Darling",
+      "purpose": "AI-driven biomedicine; named department, chair, and 5 endowed research professorships",
+      "date": "2024-10",
+      "url": "https://record.umich.edu/articles/25m-gift-builds-u-ms-leadership-in-health-care-ai/"
+    },
+    {
+      "title": "OpenAI NextGenAI consortium membership",
+      "amount_usd": 50000000,
+      "source": "OpenAI (consortium-wide, 15 institutions)",
+      "purpose": "Research grants, HPC credits, model credits, joint projects",
+      "date": "2025-03",
+      "url": "https://record.umich.edu/articles/u-m-openai-launch-partnership-to-expand-ai-research/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "NextGenAI consortium: research grants, compute, and joint projects",
+      "date": "2025-03",
+      "url": "https://news.umich.edu/u-m-openai-launch-partnership-to-expand-ai-research/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Los Alamos National Laboratory / U.S. DOE",
+      "purpose": "Joint AI research complex and national security R&D",
+      "date": "2025-02",
+      "url": "https://news.umich.edu/u-m-los-alamos-national-laboratory-to-jointly-develop-michigan-based-ai-research-center/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Azure OpenAI as backbone of U-M GPT, Maizey, and MiMaizey",
+      "date": "2023-08",
+      "url": "https://er.educause.edu/articles/2024/2/how-and-why-the-university-of-michigan-built-its-own-closed-generative-ai-tools"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Free Career Certificates and AI training for all students and alumni",
+      "date": "2025-05",
+      "url": "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "City of Detroit and Michigan tribal nations",
+      "purpose": "MIDAS community data-science partnerships",
+      "date": null,
+      "url": "https://midas.umich.edu/about/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "State of Michigan (MEDC)",
+      "purpose": "$100M Strategic Site Readiness Program grant for LANL/U-M AI facility",
+      "date": "2024-12",
+      "url": "https://www.detroitnews.com/story/news/local/michigan/2024/12/10/state-panel-agrees-to-kick-in-100m-for-university-of-michigan-supercomputing-ai-lab/76884735007/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "MiMaizey",
+      "scope": "Personal AI assistant for every U-M student across Ann Arbor, Flint, Dearborn",
+      "url": "https://its.umich.edu/computing/ai/mimaizey-in-depth"
+    },
+    {
+      "type": "chatbot",
+      "name": "U-M GPT",
+      "scope": "General-purpose chat with multi-model access, 75 prompts/hour",
+      "url": "https://its.umich.edu/computing/ai"
+    },
+    {
+      "type": "tutor",
+      "name": "Maizey Canvas Course Tutors",
+      "scope": "750+ course-specific deployments across campus; documented grade lift of 5-9% in Operations Management 313",
+      "url": "https://michiganross.umich.edu/news/u-m-gpt-s-maizey-tool-guides-students-success"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Digital Accessibility Strategic Initiative",
+      "description": "Large-scale program to embed digital accessibility across all U-M digital content ahead of April 24, 2026 ADA Title II deadline; explicitly addresses AI service accessibility",
+      "url": "https://accessibility.umich.edu/strategy-policy/strategic-initiative"
+    },
+    {
+      "title": "Free GenAI access as equity anchor",
+      "description": "U-M GPT, Maizey, MiMaizey offered free to all faculty, staff, and students on Ann Arbor, Flint, Dearborn, and Michigan Medicine campuses; designed to eliminate paid-tier access disparities",
+      "url": "https://its.umich.edu/computing/ai"
+    },
+    {
+      "title": "Google Career Certificates at no cost to all students and alumni",
+      "description": "66,500+ students and alumni get free access to stackable AI and career credentials; ties AI literacy to employability",
+      "url": "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/"
+    },
+    {
+      "title": "MIDAS community data work with Detroit and tribal nations",
+      "description": "Faculty and students partner with the City of Detroit and Michigan Native American tribal nations on data-driven decision-making",
+      "url": "https://midas.umich.edu/about/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Michigan",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Michigan has enacted AI-related statutes focused on election integrity (2023 deepfake political-ad package), nonconsensual intimate deepfakes (HB 4047/4048 signed August 2025), and an LEO/MiLEAP AI & Workforce Plan (May 2025) emphasizing postsecondary AI skills pathways. No comprehensive state-level AI governance law for higher education has passed; punitive regulatory bills are pending in the Michigan House (2025). U-M operates its own AI governance independently; the U-M system does not have a unified AI policy separate from each campus's own framework.",
+    "urls": [
+      "https://www.michigan.gov/leo/news/2025/05/29/ai-and-the-workforce-plan-will-create-jobs-invest-in-workforce-and-enhance-economic-growth",
+      "https://www.nascio.org/wp-content/uploads/2025/09/MI_Artificial-Intelligence.pdf",
+      "https://www.mackinac.org/blog/2025/ai-bills-in-michigan-house-follow-heavy-handed-and-punitive-regulatory-approach"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-02",
+      "summary": "Undergraduate 'Jane Doe' filed a federal disability-discrimination lawsuit after a Great Books 191 instructor repeatedly accused her of AI-generated writing. The complaint alleges the instructor used 'AI-generated comparison outputs' as circular evidence; Doe argues her OCD and anxiety diagnoses explain the writing traits flagged. Office of Student Academic Affairs (OSAA) imposed sanctions December 10, 2025. Case raises significant questions about AI-detection methodology, due process, and disability accommodation.",
+      "status": "active",
+      "url": "https://edscoop.com/u-michigan-student-accused-of-ai-cheating-sues-for-discrimination/"
+    },
+    {
+      "date": "2025",
+      "summary": "Community pushback reported in Washtenaw County over the U-M / Los Alamos AI research complex, with concerns about land use, environmental footprint, and national-security research integration.",
+      "status": "active",
+      "url": "https://www.santafenewmexican.com/news/local_news/michigan-community-pushes-back-on-computing-campus-with-new-mexico-ties/article_ab677d91-7134-43b0-a31e-38bd05286fb4.html"
+    },
+    {
+      "date": "2024",
+      "summary": "Public commentary (Bridge Michigan) raised environmental concerns about U-M giving every student a personal AI assistant (MiMaizey), highlighting energy and water demands of LLM inference at scale.",
+      "status": "unknown",
+      "url": "https://bridgemi.com/michigan-environment-watch/u-m-gives-ai-assistant-every-student-environmental-worries-follow/"
+    }
+  ],
+  "narrative_summary": "The University of Michigan-Ann Arbor is among the most mature R1 deployers of AI in U.S. higher education. It combines genuine institutional strategy (Vision 2034 with a $1B commitment and $100M/year renewable, with AI named as one of seven priority areas), sector-leading infrastructure (the closed U-M GPT / Maizey / MiMaizey platform, launched in August 2023 as the first of its kind), and marquee external investments (the $1.25B U-M / Los Alamos AI research complex announced February 2025, and membership in OpenAI's 15-institution NextGenAI consortium announced March 2025). Governance rests on the 18-member Generative AI Advisory (GAIA) Committee chaired by Prof. Karthik Duraisamy and the new umbrella AI Institutes at Michigan (AIIM), which federates seven AI-focused institutes including the 700-faculty Michigan Institute for Data and AI in Society (MIDAS). Policy is comprehensive rather than prohibitive: data-classification-based restrictions, mandatory syllabus statements with faculty discretion, and a heavy preference for U-M's own privacy-preserving tools over third-party consumer services, backed by Institutional Data Stewardship Policy SPG 601.12 (revised August 2025). On the academic side, U-M has stood up a cross-college AI Minor (CSE) and a new Human-Centered AI Minor (School of Information, fall 2025), made Google Career Certificates and AI Essentials free to all 66,500+ students via Michigan Online, and integrated Maizey into Canvas as a course-tutor platform (750+ deployments with documented 5–9% grade lift). Student-facing AI is unusually ambitious: every student received a personal MiMaizey assistant in fall 2024. Risks are visible: a February 2026 federal lawsuit over AI-detection-based academic-integrity findings alleges disability discrimination and circular evidence methodology, community pushback exists around the LANL computing complex, and environmental concerns have been raised about giving an LLM assistant to every student. Leadership is in transition (interim president Domenico Grasso following Santa Ono's May 2025 departure; provost Laurie McCauley and VPIT-CIO Ravi Pendse continuing). U-M does not yet have a formally named 'Chief AI Officer,' but the GAIA Committee chair and VPIT-CIO together function as the de facto AI executive team.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://its.umich.edu/computing/ai",
+      "https://its.umich.edu/computing/ai/privacy-notice",
+      "https://its.umich.edu/computing/ai/mimaizey-in-depth",
+      "https://genai.umich.edu/",
+      "https://genai.umich.edu/guidance",
+      "https://genai.umich.edu/committee-report",
+      "https://genai.umich.edu/resources/faculty",
+      "https://genai.umich.edu/resources/students",
+      "https://safecomputing.umich.edu/protect-the-u/safely-use-sensitive-data/AI-and-UM-Data",
+      "https://spg.umich.edu/policy/601.12",
+      "https://it.umich.edu/strategy-planning/gaia",
+      "https://it.umich.edu/governance/it-council",
+      "https://it.umich.edu/vpit-cio",
+      "https://aiim.umich.edu/",
+      "https://midas.umich.edu/",
+      "https://midas.umich.edu/about/",
+      "https://midas.umich.edu/university-of-michigan-openai-research-grants/",
+      "https://ai.engin.umich.edu/",
+      "https://aidhi.umich.edu/",
+      "https://e-hail.umich.edu/",
+      "https://arc.umich.edu/greatlakes/",
+      "https://vision2034.umich.edu/",
+      "https://president.umich.edu/",
+      "https://provost.umich.edu/about-the-office/laurie-mccauley/",
+      "https://cse.engin.umich.edu/academics/undergraduate/minors/artificial-intelligence-minor/",
+      "https://cse.engin.umich.edu/stories/ai-minor-at-michigan-opens-pathways-across-disciplines",
+      "https://cse.engin.umich.edu/stories/u-m-openai-launch-partnership-to-expand-ai-research",
+      "https://www.si.umich.edu/about-umsi/news/u-m-school-information-launches-minor-human-centered-ai",
+      "https://ai.umich.edu/",
+      "https://ai.umich.edu/blog-posts/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/",
+      "https://ai.umich.edu/blog-posts/google-career-certificates-no-cost-university-of-michigan-community/",
+      "https://michigan.law.umich.edu/news/michigan-law-launches-ai-advisory-council-convenes-inaugural-meeting",
+      "https://record.umich.edu/articles/u-m-launches-effort-to-advance-ai-research-collaboration/",
+      "https://record.umich.edu/articles/u-m-openai-launch-partnership-to-expand-ai-research/",
+      "https://record.umich.edu/articles/u-m-breaks-enrollment-record-welcomes-53000-students-for-fall-term/",
+      "https://record.umich.edu/articles/25m-gift-builds-u-ms-leadership-in-health-care-ai/",
+      "https://record.umich.edu/articles/advisory-report-begins-integration-of-generative-ai-at-u-m/",
+      "https://record.umich.edu/articles/u-m-partners-with-google-to-provide-students-free-course-access/",
+      "https://record.umich.edu/articles/legislative-support-bolsters-u-m-los-alamos-computing-facility/",
+      "https://news.umich.edu/u-m-debuts-generative-ai-services-for-campus/",
+      "https://news.umich.edu/u-m-openai-launch-partnership-to-expand-ai-research/",
+      "https://news.umich.edu/u-m-los-alamos-national-laboratory-to-jointly-develop-michigan-based-ai-research-center/",
+      "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/",
+      "https://news.engin.umich.edu/2025/02/u-michigan-announces-most-advanced-ai-research-complex-with-historic-los-alamos-alliance/",
+      "https://michigan.it.umich.edu/news/2025/11/17/a-fresh-look-feel-for-u-m-ai-services-november-2025-updates/",
+      "https://michigan.it.umich.edu/news/2024/09/30/fall-2024-enhancements-to-maizey-ai/",
+      "https://michigan.it.umich.edu/news/2024/10/24/new-enhancements-for-mimaizey-personal-ai-assistant-for-u-m-students/",
+      "https://michiganross.umich.edu/news/u-m-gpt-s-maizey-tool-guides-students-success",
+      "https://er.educause.edu/articles/2024/2/how-and-why-the-university-of-michigan-built-its-own-closed-generative-ai-tools",
+      "https://www.govtech.com/education/higher-ed/educause-24-university-of-michigans-journey-with-generative-ai",
+      "https://www.michiganmedicine.org/news-release/25m-gift-builds-u-ms-leadership-health-care-ai",
+      "https://www.crainsdetroit.com/technology/openais-50m-research-consortium-adds-university-michigan",
+      "https://www.detroitnews.com/story/news/local/michigan/2024/12/10/state-panel-agrees-to-kick-in-100m-for-university-of-michigan-supercomputing-ai-lab/76884735007/",
+      "https://www.michigandaily.com/news/academics/umich-engineering-school-of-information-offers-ai-minors/",
+      "https://www.michigandaily.com/news/administration/umich-becomes-first-major-university-to-develop-its-own-generative-ai/",
+      "https://edscoop.com/u-michigan-student-accused-of-ai-cheating-sues-for-discrimination/",
+      "https://www.govtech.com/education/higher-ed/student-sues-university-of-michigan-over-ai-misconduct-accusation",
+      "https://bridgemi.com/michigan-environment-watch/u-m-gives-ai-assistant-every-student-environmental-worries-follow/",
+      "https://www.santafenewmexican.com/news/local_news/michigan-community-pushes-back-on-computing-campus-with-new-mexico-ties/article_ab677d91-7134-43b0-a31e-38bd05286fb4.html",
+      "https://accessibility.umich.edu/strategy-policy/strategic-initiative",
+      "https://www.michigan.gov/leo/news/2025/05/29/ai-and-the-workforce-plan-will-create-jobs-invest-in-workforce-and-enhance-economic-growth",
+      "https://www.nascio.org/wp-content/uploads/2025/09/MI_Artificial-Intelligence.pdf",
+      "https://bootcamp.engin.umich.edu/certifications/applied-gen-ai-course",
+      "https://em.engin.umich.edu/chief-data-and-ai-officer-program",
+      "https://legalnewsfeed.com/2026/04/13/university-of-michigan-law-school-launches-ai-advisory-council-to-shape-the-future-of-legal-education/"
+    ],
+    "search_queries": [
+      "\"University of Michigan\" U-M GPT Maizey generative AI services 2025",
+      "\"University of Michigan\" AI strategy 2025 2026 roadmap",
+      "\"University of Michigan\" chief AI officer OR AI governance council",
+      "\"University of Michigan\" Michigan Institute for Data and AI in Society MIDAS",
+      "\"University of Michigan\" OpenAI partnership announcement research funding",
+      "\"University of Michigan\" generative AI guidelines faculty staff acceptable use",
+      "\"University of Michigan\" president provost CIO 2025 Ono",
+      "\"University of Michigan\" Great Lakes HPC GPU AI supercomputer",
+      "\"University of Michigan\" VPIT-CIO Ravi Pendse technology vice president",
+      "\"University of Michigan\" provost Laurie McCauley 2025",
+      "\"University of Michigan\" genai.umich.edu launch date ITS August 2023",
+      "\"University of Michigan\" AI research institute gift donation 2025 million",
+      "\"University of Michigan\" AI degree program undergraduate certificate Computer Science",
+      "\"University of Michigan\" AI equity accessibility student support digital divide",
+      "\"University of Michigan\" Los Alamos AI research complex $300 million partnership 2025",
+      "\"University of Michigan\" Center for Academic Innovation AI Maizey course assistants",
+      "\"University of Michigan\" Ann Arbor enrollment 2025 total students fall",
+      "\"University of Michigan\" AI controversy FERPA lawsuit cheating",
+      "\"University of Michigan\" Google partnership Career Certificates AI students",
+      "\"University of Michigan\" AI policy data privacy SPG standard practice guide",
+      "\"University of Michigan\" Vision 2034 AI data science strategic plan",
+      "Michigan state government AI executive order higher education policy 2025",
+      "\"University of Michigan\" Omenn computational medicine bioinformatics 25 million gift",
+      "\"University of Michigan\" e-HAIL AI Digital Health Innovation center",
+      "\"University of Michigan\" Nexus AI literacy minor undergraduate",
+      "\"University of Michigan\" predictive analytics retention early warning student success",
+      "\"University of Michigan\" GAIA committee generative AI advisory Karthik Duraisamy",
+      "\"University of Michigan\" MiMaizey personal AI assistant students launch",
+      "\"University of Michigan\" AI usage statistics 100,000 users 2025 adoption"
+    ],
+    "gaps_acknowledged": [
+      "No formally named Chief AI Officer; role is de facto shared between VPIT-CIO Ravi Pendse and GAIA Chair Karthik Duraisamy",
+      "Did not find specific U-M user-count metrics for U-M GPT/Maizey/MiMaizey beyond enrollment totals",
+      "Did not find a dedicated U-M enterprise predictive-analytics retention platform in public sources; student success analytics appear to be integrated into broader data work via MIDAS rather than a named campus system",
+      "Great Lakes GPU count is approximate (~48 modern GPUs across V100 and A100 partitions) and ARC offers other clusters (e.g., Armis2, Lighthouse) not fully inventoried here",
+      "AIIM funding specifics not publicly disclosed beyond Vision 2034 umbrella",
+      "Presidential transition still active at time of compilation; interim status may change"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 21,
+        "research_compute_powerhouse": 20,
+        "curriculum_led": 11,
+        "governance_led": 11,
+        "student_success_led": 5,
+        "workforce_regional_development": 11,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 2,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Great Lakes HPC Cluster",
+        "gpu_count": 48,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 2325000000,
+      "funding_source_buckets": {
+        "public_federal_state": 3,
+        "institutional": 7,
+        "philanthropy_foundation": 3,
+        "industry_vendor": 2,
+        "other_unclear": 1
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 2,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Azure OpenAI Service",
+            "Azure OpenAI Service (underlying infrastructure)",
+            "U-M GPT",
+            "U-M GPT (Azure OpenAI + multi-model)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 3,
+          "products": [
+            "Google AI & Prompting Essentials",
+            "Google Career Certificates",
+            "Google Career Certificates + AI & Prompting Essentials (via Michigan Online)"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 3,
+          "products": [
+            "Canvas",
+            "Canvas + Maizey integration (course tutors)",
+            "Maizey (Canvas-integrated)"
+          ]
+        },
+        {
+          "vendor": "University of Michigan MiMaizey",
+          "mentions": 2,
+          "products": [
+            "MiMaizey"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "OpenAI frontier models"
+          ]
+        },
+        {
+          "vendor": "University of Michigan (ITS) MiMaizey (student personal assistant)",
+          "mentions": 1,
+          "products": [
+            "MiMaizey (student personal assistant)"
+          ]
+        },
+        {
+          "vendor": "University of Michigan (ITS) U-M GPT Toolkit (developer APIs)",
+          "mentions": 1,
+          "products": [
+            "U-M GPT Toolkit (developer APIs)"
+          ]
+        },
+        {
+          "vendor": "University of Michigan (ITS) U-M Maizey (no-code RAG builder)",
+          "mentions": 1,
+          "products": [
+            "U-M Maizey (no-code RAG builder)"
+          ]
+        },
+        {
+          "vendor": "University of Michigan U-M Maizey",
+          "mentions": 1,
+          "products": [
+            "U-M Maizey"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "U-M GPT, Maizey, and U-M GPT Toolkit campus-wide launch",
+          "summary": "First-of-its-kind closed-loop university GenAI platform that became a widely cited model for other R1s looking to balance access with data sovereignty.",
+          "source_url": "https://genai.umich.edu/"
+        },
+        {
+          "claim_type": "career",
+          "title": "U-M / Google partnership for free Career Certificates and AI training",
+          "summary": "One of the largest single-institution expansions of stackable AI/workforce credentials; strongly ties AI literacy to employability.",
+          "source_url": "https://news.umich.edu/u-m-partners-with-google-to-provide-all-students-free-access-to-google-career-certificates-and-ai-training/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Canvas-embedded Maizey AI course tutors",
+          "summary": "One of the best-documented AI-in-the-classroom evidence sets in R1 higher ed, quantifying both learning and instructor-time impact.",
+          "source_url": "https://michiganross.umich.edu/news/u-m-gpt-s-maizey-tool-guides-students-success"
+        },
+        {
+          "claim_type": "learning",
+          "title": "MIDAS 10-year anniversary and federated AI-for-society hub",
+          "summary": "One of the nation's largest data science / AI institutes by affiliated faculty count; anchor of U-M's public-mission AI work.",
+          "source_url": "https://midas.umich.edu/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No formally named Chief AI Officer; role is de facto shared between VPIT-CIO Ravi Pendse and GAIA Chair Karthik Duraisamy",
+        "Did not find specific U-M user-count metrics for U-M GPT/Maizey/MiMaizey beyond enrollment totals",
+        "Did not find a dedicated U-M enterprise predictive-analytics retention platform in public sources; student success analytics appear to be integrated into broader data work via MIDAS rather than a named campus system",
+        "Great Lakes GPU count is approximate (~48 modern GPUs across V100 and A100 partitions) and ARC offers other clusters (e.g., Armis2, Lighthouse) not fully inventoried here",
+        "AIIM funding specifics not publicly disclosed beyond Vision 2034 umbrella",
+        "Presidential transition still active at time of compilation; interim status may change"
+      ]
+    }
+  }
+}

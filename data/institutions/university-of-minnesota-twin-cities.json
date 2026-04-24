@@ -1,0 +1,1412 @@
+{
+  "institution": "University of Minnesota-Twin Cities",
+  "slug": "university-of-minnesota-twin-cities",
+  "city_state": "Minneapolis-Saint Paul, MN",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Minnesota System",
+  "enrollment": 56666,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Rebecca Cunningham",
+      "url": "https://president.umn.edu/about/about-president-cunningham"
+    },
+    "provost": {
+      "name": "Gretchen Ritter",
+      "url": "https://brief.umn.edu/feature/meet-executive-vice-president-and-provost-gretchen-ritter"
+    },
+    "cio": {
+      "name": "Brian Dahlin (interim)",
+      "url": "https://brief.umn.edu/awards-recognition/brian-dahlin-serve-interim-chief-information-officer"
+    },
+    "chief_ai_officer": {
+      "name": "Galin Jones",
+      "url": "https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/shill/"
+    },
+    "ai_strategy_lead": {
+      "name": "Galin Jones",
+      "title": "Inaugural Vice Provost for Artificial Intelligence",
+      "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Presidential AI Task Force Working Group Reports (Education, Research, Administrative Operations)",
+        "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force",
+        "year": 2025
+      },
+      {
+        "title": "AI at the University of Minnesota (Provost statement)",
+        "url": "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota",
+        "year": 2026
+      },
+      {
+        "title": "University of Minnesota AI Hub launch announcement",
+        "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public",
+        "year": 2026
+      }
+    ],
+    "summary": "UMN's AI strategy sits under its Elevate Extraordinary 2030 roadmap and is operationalized through the AI Hub (launched March 4, 2026), a systemwide initiative led by the inaugural Vice Provost for AI, Galin Jones. The strategy built on the Presidential AI Task Force's working group reports (education, research, administrative operations) and pursues three pillars: accelerating AI literacy, advancing discovery, and building governance frameworks. It explicitly connects the Twin Cities flagship to the four other system campuses, K-12 learning statewide, and Minnesota's medtech, agriculture, and workforce sectors."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use",
+      "https://umarcomm.umn.edu/resources/guidance-use-generative-artificial-intelligence-ai",
+      "https://provost.umn.edu/academic-oversight/genai-syllabus-statements",
+      "https://provost.umn.edu/use-ai-your-classes",
+      "https://grad.umn.edu/guidance-generative-ai-graduate-education"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Data classification rules tied to UMN Public / Private-Restricted / Private-Highly Restricted tiers",
+      "Only UMN-licensed tools (Gemini, Microsoft Copilot, NotebookLM, Zoom AI Companion) may receive restricted data",
+      "FERPA and copyright consent required before inputting student work or third-party content",
+      "AI-generated code cannot be deployed in institutional IT systems without technologist review",
+      "Faculty must comply with funding-agency AI policies in research; staff need manager approval for confidentiality-sensitive use",
+      "Instructors must set course-level AI expectations; provost provides syllabus statement templates",
+      "Office of General Counsel must review AI software agreements before acceptance",
+      "Graduate School issues parallel guidance for graduate research and writing"
+    ],
+    "summary": "UMN has a layered, comprehensive AI policy framework: an IT appropriate-use policy gated on data classification tiers, provost-level syllabus statement guidance for courses, a Graduate School guidance document, and a marketing communications guidance document. The stance is permissive within licensed tools and restrictive for unlicensed tools, with strong data privacy, copyright, and FERPA provisions."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Presidential Artificial Intelligence Task Force",
+        "type": "task_force",
+        "scope": "University-wide; produced working group reports on AI in education, research, and administrative operations that seeded the AI Hub",
+        "url": "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force"
+      },
+      {
+        "name": "Office of the Vice Provost for Artificial Intelligence / AI Hub",
+        "type": "office",
+        "scope": "Systemwide central engine for AI leadership, coordinating education, research, operations, and external partnerships across all five UMN campuses",
+        "url": "https://dsai-hub.umn.edu/"
+      },
+      {
+        "name": "Artificial Intelligence Community of Practice (AI-COP)",
+        "type": "council",
+        "scope": "Systemwide monthly community bringing together faculty, staff, and students from all five UMN campuses to discuss GenAI policy, research, ethics, teaching, and innovation",
+        "url": "https://dsai-hub.umn.edu/aicop"
+      },
+      {
+        "name": "Emerging Technologies Faculty Fellows Program (ET-FFP)",
+        "type": "committee",
+        "scope": "15-person multidisciplinary fellowship exploring how AI tools can enhance teaching, inclusive pedagogy, and academic excellence; 18-month cohort (2026-2027)",
+        "url": "https://brief.umn.edu/feature/building-research-backed-roadmap-future-teaching-and-learning-ai"
+      }
+    ],
+    "summary": "UMN's AI governance is anchored by the Presidential AI Task Force (which produced three working group reports in 2025), now operationalized through the newly created Office of the Vice Provost for AI and its AI Hub. A systemwide AI Community of Practice connects faculty and staff across all five campuses, and the Emerging Technologies Faculty Fellows Program drives teaching and learning recommendations."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of the AI Hub and Vice Provost for AI",
+      "description": "On March 4, 2026, UMN launched a University-wide AI Hub as its central engine for AI leadership across all five campuses and named Galin Jones, Lynn Y.S. Lin Professor of Statistics, as inaugural Vice Provost for AI. The Hub aligns education, research, operations, and external partnerships under a unified strategy.",
+      "significance": "Creates a cabinet-level AI role at a top public research university and positions UMN as a statewide hub connecting higher ed, K-12, medtech, agriculture, and workforce initiatives.",
+      "date_announced": "2026-03-04",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_research_center",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "University operating budget; Elevate Extraordinary 2030 strategic roadmap",
+        "description": "New vice provost line plus consolidated unit absorbing the prior DSAI Hub; specific hub budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Minnesota",
+            "Minnesota Department of Education",
+            "Minnesota MedTech 3.0 Tech Hub"
+          ],
+          "description": "Coordinates with state government and federal Tech Hub designation for medtech."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Formalizes the task force's recommendation for a university-wide steering role and centralizes previously fragmented AI governance.",
+      "source_urls": [
+        "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public",
+        "https://brief.umn.edu/feature/university-minnesota-launches-ai-hub-strengthening-reputation-ai-leader-and-furthering",
+        "https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/shill/",
+        "https://edscoop.com/university-of-minnesota-launches-ai-workforce-and-innovation-hub/"
+      ]
+    },
+    {
+      "title": "Systemwide rollout of Google Gemini with enterprise-grade data protection",
+      "description": "As of July 15, 2025, all UMN students, faculty, and staff systemwide can opt in to Google Gemini as part of their University Google account, with Workspace side-panel integration in Docs, Slides, and Forms for faculty and staff. By the time of reporting, nearly 5,000 users had opted in.",
+      "significance": "One of the larger Gemini-for-Education deployments in the Big Ten; OIT cited it as a direct response to ~13,000 umn.edu accounts previously using the free ChatGPT, addressing an acute shadow-IT data-security risk.",
+      "date_announced": "2025-07-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "OIT / enterprise licensing",
+        "description": "Enterprise license as extension of Google Workspace contract; dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Google Workspace Gemini with enterprise data protections."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Systemwide generative AI assistant with enterprise data protection"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a defensible licensed alternative to shadow-IT ChatGPT use and anchors the data-classification policy.",
+      "source_urls": [
+        "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection",
+        "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/",
+        "https://brief.umn.edu/feature/gemini-powerful-ai-partner",
+        "https://it.umn.edu/news-alerts/news/new-generative-ai-available-gemini"
+      ]
+    },
+    {
+      "title": "AI-LEAF / AI-CLIMATE National AI Research Institute",
+      "description": "UMN Twin Cities leads the $20M NSF/USDA-funded National AI Research Institute for Climate-Land Interactions, Mitigation, Adaptation, Tradeoffs and Economy (AI-CLIMATE / AI-LEAF), one of seven national AI research institutes announced May 4, 2023. The institute partners with Colorado State, Cornell, Delaware State, NC State, Purdue, and ISRIC to advance foundational AI for agriculture and forestry, with an emphasis on carbon accounting and rural workforce diversification.",
+      "significance": "Flagship AI-for-science award and UMN's largest single AI investment; connects a flagship R1 to sustainable agriculture, an anchor of Minnesota's economy.",
+      "date_announced": "2023-05-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "USDA NIFA award #2023-67021-39829 in collaboration with NSF",
+        "description": "5-year AI Institute award to develop AI methods for climate-smart agriculture and forestry."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Colorado State University",
+            "Cornell University",
+            "Delaware State University",
+            "North Carolina State University",
+            "Purdue University",
+            "ISRIC - World Soil Information"
+          ],
+          "description": "Multi-university AI institute including an international soils partner and an HBCU."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://cse.umn.edu/aileaf",
+        "https://cse.umn.edu/college/news/university-minnesota-lead-new-20m-ai-institute-focusing-climate-smart-agriculture-and",
+        "https://forestry.umn.edu/news/national-artificial-intelligence-research-institute"
+      ]
+    },
+    {
+      "title": "AI Makerspace and 'AI for All' curriculum in the College of Science and Engineering",
+      "description": "CSE opened an AI Makerspace in 125 Walter Library in Fall 2025 with GPU workstations, edge devices, cloud services, and sensors open to all UMN students. Two new 'AI for All' courses ('Thinking with Machines: The Art, Science, and Ethics of AI' and 'GenAI for Software Engineering') launch Fall 2026, with an AI minor slated for Fall 2027 pending approval.",
+      "significance": "Pairs a no-prerequisite physical lab with general-education AI courses, a model for scaling AI literacy beyond STEM majors at a large public flagship.",
+      "date_announced": "2025-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_degree_program",
+        "faculty_training_and_development",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Science and Engineering",
+        "description": "New courses, new minor, and maker lab equipment; dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal CSE initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions AI literacy as accessible to non-CS majors and embeds ethics portfolio work into the foundational course.",
+      "source_urls": [
+        "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor",
+        "https://it.umn.edu/navigating-ai-umn"
+      ]
+    },
+    {
+      "title": "Medtronic strategic research collaboration",
+      "description": "On December 5, 2024, UMN and Medtronic signed a multi-year strategic collaboration agreement targeting medical robotics, AI, and sustainability in medtech. The agreement creates a framework for joint research on difficult healthcare challenges.",
+      "significance": "Locks in a decade-plus R&D partnership with one of Minnesota's largest employers and the anchor of the federally designated Minnesota MedTech 3.0 Tech Hub.",
+      "date_announced": "2024-12-05",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Medtronic corporate research funds",
+        "description": "Multi-year strategic collaboration agreement; dollar value not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Medtronic"
+          ],
+          "description": "Strategic medical technology / AI research partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.umn.edu/news/collaboration-medtronic-tackle-difficult-healthcare-challenges",
+        "https://cse.umn.edu/college/news/new-medtronic-partnership-help-tackle-difficult-healthcare-challenges",
+        "https://www.medicaldesignandoutsourcing.com/medtronic-research-deal-university-of-minnesota/"
+      ]
+    },
+    {
+      "title": "Minnesota Supercomputing Institute Agate cluster",
+      "description": "MSI's Agate cluster (in service April 2022) provides 109 GPU nodes with NVIDIA V100, A100, and H100 accelerators, ~7 petaflops peak performance, and more than 85,000 x86 cores across the institute. MSI serves as the primary AI compute resource for UMN researchers and partner institutions in Minnesota.",
+      "significance": "Provides the heavy compute that underpins AI-LEAF, Carlson business analytics, medtech research, and cross-campus generative AI workloads.",
+      "date_announced": "2022-04-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "University of Minnesota operating budget and research overhead",
+        "description": "Sustained institutional investment in centralized research computing."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Minnesota higher education institutions"
+          ],
+          "description": "MSI provides compute access to other Minnesota colleges and universities."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Agate",
+          "vendor": "NVIDIA / AMD (integrator not specified)",
+          "role": "Primary HPC/GPU cluster for AI research"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://msi.umn.edu/",
+        "https://msi.umn.edu/about-msi-services/high-performance-computing/agate",
+        "https://en.wikipedia.org/wiki/University_of_Minnesota_Supercomputing_Institute"
+      ]
+    },
+    {
+      "title": "Carlson School MSBA with AI for Business track",
+      "description": "The Carlson School of Management's Master of Science in Business Analytics is a 12-month full-time program that integrates AI into core courses and offers a dedicated 'AI for Business' specialization track. Per QS, it is ranked #5 among US public MSBAs, with graduates hired by Amazon, Google, Capital One, and Target.",
+      "significance": "A revenue-anchor graduate program that has shifted explicitly from analytics to AI, signaling how professional master's programs are rebranding around generative AI.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Carlson School tuition revenue",
+        "description": "Fee-supported professional master's with curriculum refresh."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon",
+            "Google",
+            "Capital One",
+            "Target"
+          ],
+          "description": "Industry placement and project partners."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://carlsonschool.umn.edu/graduate/masters/business-analytics",
+        "https://carlsonschool.umn.edu/graduate/masters/business-analytics/curriculum/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Human-centered AI for news recommender systems NSF project",
+      "description": "A UMN-led team won a $2M NSF grant to build a system helping researchers study AI-powered news recommender systems, focused on human-centered evaluation methods and transparency in algorithmic media.",
+      "significance": "Positions UMN in the emerging 'trustworthy AI in media' research area and aligns with the institution's stated ethical-AI commitments.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "National Science Foundation",
+        "description": "Federal research grant, UMN Twin Cities lead."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Federal research funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://cse.umn.edu/college/news/university-minnesota-lead-2-million-federal-grant-study-human-centered-ai-news"
+      ]
+    },
+    {
+      "title": "Emerging Technologies Faculty Fellows Program (ET-FFP) 2026-2027 cohort",
+      "description": "An 18-month, three-campus fellowship convening 15 multidisciplinary educators to explore how AI tools can enhance student engagement, inclusive pedagogy, and academic excellence. Led through the provost's teaching-and-learning roadmap.",
+      "significance": "Builds a research-backed roadmap for AI-assisted teaching across the system rather than one-off course experiments.",
+      "date_announced": "2025-11-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "multilingual_and_culturally_responsive_ai"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Executive Vice President and Provost; AI Hub",
+        "description": "Multi-campus faculty fellowship stipends and programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UMN Twin Cities",
+            "UMN Duluth",
+            "UMN Morris"
+          ],
+          "description": "Systemwide faculty fellowship spanning multiple campuses."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Frames AI in teaching as a research-informed practice rather than a top-down mandate.",
+      "source_urls": [
+        "https://brief.umn.edu/feature/building-research-backed-roadmap-future-teaching-and-learning-ai"
+      ]
+    },
+    {
+      "title": "Tiered appropriate-use policy on generative AI",
+      "description": "UMN's Office of Information Technology maintains an appropriate-use policy that maps the University's Public, Private-Restricted, and Private-Highly Restricted data classifications to specific licensed AI tools (Gemini, Microsoft Copilot, NotebookLM, Zoom AI Companion). Students must follow instructor expectations, staff require manager approval for confidential data, faculty must comply with funding-agency AI policies, and all software agreements route through the Office of General Counsel.",
+      "significance": "An unusually explicit mapping of data-classification tiers to individual licensed AI products; a template other AAU publics are likely to emulate.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "OIT operations",
+        "description": "Policy and governance rather than direct program spend."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Licensed for all classified data with guidance"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Licensed for Public and Private-Restricted data"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Licensed for Public and Private-Restricted data"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Licensed for Public and limited Private-Restricted data"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Ties every generative-AI decision to the UMN data classification, FERPA, and copyright regimes.",
+      "source_urls": [
+        "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use",
+        "https://it.umn.edu/navigating-ai-umn"
+      ]
+    },
+    {
+      "title": "Syllabus-level GenAI statement guidance",
+      "description": "The Executive Vice President and Provost publishes model syllabus statements that instructors can adapt, ranging from prohibitive ('ChatGPT and other AI tools may not be used under any circumstances') to permissive uses under specific conditions. Student Conduct Code treats unauthorized AI use as academic dishonesty at the instructor's discretion.",
+      "significance": "Normalizes course-level AI policy across a 50,000+-student flagship rather than leaving it to individual departments.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Provost's office operations",
+        "description": "Templated guidance and resources rather than a funded program."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal provost guidance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Anchors classroom AI policy in the Student Conduct Code and gives instructors a clear template, while leaving adoption voluntary.",
+      "source_urls": [
+        "https://provost.umn.edu/academic-oversight/genai-syllabus-statements",
+        "https://provost.umn.edu/use-ai-your-classes",
+        "https://provost.umn.edu/ai-and-your-classroom"
+      ]
+    },
+    {
+      "title": "Minnesota MedTech 3.0 federal Tech Hub designation",
+      "description": "The Minneapolis-Saint Paul Economic Development Partnership-led MedTech 3.0 consortium, with UMN as a core partner, was designated a federal Tech Hub to make Minnesota a global center for 'Smart MedTech' by integrating AI, machine learning, and data science into medical technology.",
+      "significance": "Anchors UMN's AI-in-medtech research in a federally supported regional economic development cluster with Medtronic, Mayo, 3M, Honeywell, and Cargill.",
+      "date_announced": "2024-07-02",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "US Economic Development Administration / state and regional match",
+        "description": "Federal Tech Hub designation enables access to implementation funding; exact UMN share not separately disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Medtronic",
+            "Mayo Clinic",
+            "3M",
+            "Honeywell",
+            "Cargill",
+            "Minneapolis Saint Paul Economic Development Partnership"
+          ],
+          "description": "Regional consortium with federal Tech Hub status."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://twin-cities.umn.edu/news-events/u-m-celebrates-selection-minnesota-medtech-30-federal-tech-hub",
+        "https://cse.umn.edu/college/news/u-m-celebrates-selection-minnesota-medtech-30-federal-tech-hub",
+        "https://www.mnmedtech.co/"
+      ]
+    },
+    {
+      "title": "Student expulsion for AI exam use (Haishan Yang v. UMN)",
+      "description": "UMN expelled doctoral student Haishan Yang from a health economics program after graders flagged his August 2024 preliminary exam as likely AI-generated. Yang denies the charge, sued in 2025 for over $1M, and the Minnesota Court of Appeals upheld the expulsion in February 2026.",
+      "significance": "A precedent-setting US AI academic-integrity case that has been cited as both vindication of faculty judgment and a cautionary tale about unreliable AI-detection methods.",
+      "date_announced": "2024-11-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "Litigation and disciplinary costs."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal disciplinary action; subsequent civil litigation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Alleged unauthorized use on a preliminary exam"
+        }
+      ],
+      "policy_stance": "prohibitive",
+      "policy_implications": "Affirms at the Minnesota Court of Appeals level that universities may expel for unauthorized AI use on exams, even absent a conclusive AI-detector result.",
+      "source_urls": [
+        "https://edscoop.com/university-minnesota-student-ai-expelled-lawsuit/",
+        "https://www.kare11.com/article/news/local/kare11-extras/student-expelled-university-of-minnesota-allegedly-using-ai/89-b14225e2-6f29-49fe-9dee-1feaf3e9c068",
+        "https://minnlawyer.com/2026/02/13/u-of-m-ai-cheating-expulsion-upheld-appeal/"
+      ]
+    },
+    {
+      "title": "Faculty concerns over AI in promotion and tenure reviews",
+      "description": "In April 2026, senior UMN faculty publicly raised concerns that AI tools were being used in faculty review processes without clear disclosure, arguing this erodes transparency. Michael Gallope, chair of Cultural Studies and Comparative Literature, warned that AI should not be used to review faculty.",
+      "significance": "An early signal in the 'AI-in-HR' debate inside elite public universities and a stress test for UMN's AI ethics framework and governance structures.",
+      "date_announced": "2026-04-08",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "faculty_role_evolution",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No disclosed program spend; the dispute concerns process transparency."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal UMN faculty governance discussion."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Adds pressure on the Vice Provost for AI to issue explicit governance on AI use in personnel decisions.",
+      "source_urls": [
+        "https://mndaily.com/campus/umn-professors-concerned-about-ai-faculty-reviews/04/08/2026/eicmndaily-com/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI-LEAF / AI-CLIMATE National AI Research Institute",
+      "focus": "Foundational AI for land, economy, agriculture, and forestry; carbon accounting and rural workforce",
+      "founded": "2023",
+      "url": "https://cse.umn.edu/aileaf"
+    },
+    {
+      "name": "Minnesota Supercomputing Institute (MSI)",
+      "focus": "HPC and GPU computing infrastructure for AI and computational science",
+      "founded": "1984",
+      "url": "https://msi.umn.edu/"
+    },
+    {
+      "name": "Data Science and AI Hub (now AI Hub)",
+      "focus": "Systemwide coordination of AI education, research, and community of practice",
+      "founded": "2026",
+      "url": "https://dsai-hub.umn.edu/"
+    },
+    {
+      "name": "Minnesota Robotics Institute (MnRI)",
+      "focus": "Interdisciplinary robotics and AI research, part of the MnDRIVE initiative",
+      "founded": null,
+      "url": "https://cse.umn.edu/mnri"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "Thinking with Machines: The Art, Science, and Ethics of AI (AI for All)",
+      "level": "undergrad",
+      "launched": "2026-09",
+      "url": "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor"
+    },
+    {
+      "type": "course",
+      "name": "GenAI for Software Engineering (AI for All)",
+      "level": "undergrad",
+      "launched": "2026-09",
+      "url": "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor"
+    },
+    {
+      "type": "minor",
+      "name": "AI minor (pending final approval)",
+      "level": "undergrad",
+      "launched": "2027-09",
+      "url": "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor"
+    },
+    {
+      "type": "concentration",
+      "name": "AI for Business track within MS Business Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://carlsonschool.umn.edu/graduate/masters/business-analytics/curriculum/artificial-intelligence"
+    },
+    {
+      "type": "concentration",
+      "name": "Data Science and Machine Learning area (CS&E)",
+      "level": "both",
+      "launched": null,
+      "url": "https://cse.umn.edu/cs/data-science-and-machine-learning"
+    },
+    {
+      "type": "concentration",
+      "name": "Robotics and Artificial Intelligence area (CS&E)",
+      "level": "both",
+      "launched": null,
+      "url": "https://cse.umn.edu/cs/robotics-and-artificial-intelligence"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Google",
+      "product": "Gemini (Enterprise-Grade Data Protection)",
+      "scope": "campus-wide",
+      "user_count": 5000,
+      "deployed": "2025-07",
+      "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat (Enterprise Data Protection)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Agate (Minnesota Supercomputing Institute)",
+    "gpu_count": 109,
+    "url": "https://msi.umn.edu/about-msi-services/high-performance-computing/agate",
+    "summary": "MSI's Agate cluster provides 109 GPU nodes (NVIDIA V100/A100/H100), ~7 petaflops peak, 85,000+ x86 cores, and 520TB RAM. In service since April 2022, Agate serves as the primary AI compute platform for UMN researchers and partner institutions in Minnesota."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "AI-LEAF / AI-CLIMATE National AI Research Institute award",
+      "amount_usd": 20000000,
+      "source": "USDA NIFA and NSF",
+      "purpose": "5-year AI institute for climate-smart agriculture and forestry led by UMN",
+      "date": "2023-05",
+      "url": "https://cse.umn.edu/college/news/university-minnesota-lead-new-20m-ai-institute-focusing-climate-smart-agriculture-and"
+    },
+    {
+      "title": "Human-centered AI for news recommender systems",
+      "amount_usd": 2000000,
+      "source": "National Science Foundation",
+      "purpose": "Research platform for studying AI-powered news recommender systems",
+      "date": null,
+      "url": "https://cse.umn.edu/college/news/university-minnesota-lead-2-million-federal-grant-study-human-centered-ai-news"
+    },
+    {
+      "title": "AI for energy-efficient semiconductor / computing research",
+      "amount_usd": 1200000,
+      "source": "NSF Future of Semiconductors (FuSe2)",
+      "purpose": "Improve energy efficiency of computer systems that use AI",
+      "date": null,
+      "url": "https://cse.umn.edu/college/news/u-m-awarded-12m-help-improve-energy-efficiency-computer-systems-using-ai"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Medtronic",
+      "purpose": "Strategic R&D collaboration on medical robotics, AI, and sustainability",
+      "date": "2024-12",
+      "url": "https://research.umn.edu/news/collaboration-medtronic-tackle-difficult-healthcare-challenges"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Systemwide Gemini enterprise deployment for students, faculty, and staff",
+      "date": "2025-07",
+      "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "US Economic Development Administration / Minnesota MedTech 3.0 consortium",
+      "purpose": "Federal Tech Hub designation for Smart MedTech with AI / ML at its core",
+      "date": "2024-07",
+      "url": "https://twin-cities.umn.edu/news-events/u-m-celebrates-selection-minnesota-medtech-30-federal-tech-hub"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Colorado State / Cornell / Delaware State / NC State / Purdue / ISRIC",
+      "purpose": "AI-LEAF / AI-CLIMATE multi-institution research institute for agriculture and forestry",
+      "date": "2023-05",
+      "url": "https://cse.umn.edu/aileaf"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "M Health Fairview",
+      "purpose": "Sepsis detection research using AI",
+      "date": null,
+      "url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Goldy (Technology Help chatbot)",
+      "scope": "UMN IT support virtual assistant",
+      "url": "https://it.umn.edu/"
+    },
+    {
+      "type": "tutor",
+      "name": "Microsoft Copilot Chat for students",
+      "scope": "Enterprise GenAI available to all UMN students with university login",
+      "url": "https://it.umn.edu/navigating-ai-umn"
+    },
+    {
+      "type": "tutor",
+      "name": "Google Gemini for students",
+      "scope": "Systemwide generative AI assistant for all UMN students",
+      "url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"
+    },
+    {
+      "type": "other",
+      "name": "AI Makerspace (125 Walter Library)",
+      "scope": "GPU workstations, edge computing, cloud services, sensors, workshops, and certifications for all UMN students regardless of major",
+      "url": "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor"
+    },
+    {
+      "type": "other",
+      "name": "Virtual veterinary client chatbot (pilot)",
+      "scope": "AI chatbot acting as a virtual client for veterinary medicine students; evaluates student performance and provides feedback",
+      "url": "https://brief.umn.edu/feature/building-research-backed-roadmap-future-teaching-and-learning-ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI Makerspace open to all students",
+      "description": "The CSE AI Makerspace in Walter Library is open to all UMN students regardless of major or prior AI/coding experience, providing GPU workstations, cloud services, edge devices, and workshops at no cost.",
+      "url": "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor"
+    },
+    {
+      "title": "Licensed AI tools at no cost to students",
+      "description": "All UMN students can access Gemini, Microsoft Copilot, NotebookLM, and Zoom AI Companion through their university login at no cost, mitigating the access gap that exists with paid ChatGPT/Claude tiers.",
+      "url": "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use"
+    },
+    {
+      "title": "Office for Digital Accessibility AI guidance",
+      "description": "UMN's Office for Digital Accessibility sets standards for accessible digital content, including AI-assisted captioning and accessibility of AI-driven interfaces, with a compliance deadline of April 26, 2027.",
+      "url": "https://accessibility.umn.edu/"
+    },
+    {
+      "title": "PK-12 AI programming and AI Explorers Summer Camp",
+      "description": "AI Hub coordinates pre-K through high school AI programming, summer camps, and educator professional development in partnership with Minnesota state organizations and service cooperatives.",
+      "url": "https://dsai-hub.umn.edu/"
+    },
+    {
+      "title": "Delaware State University partnership within AI-LEAF",
+      "description": "AI-LEAF includes Delaware State (an HBCU) as a core partner, with an explicit institute goal of expanding and diversifying rural and urban AI workforces.",
+      "url": "https://cse.umn.edu/aileaf"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Minnesota",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Minnesota has no single AI executive order, but the Minnesota Consumer Data Privacy Act (effective July 31, 2025) gives consumers the right to an explanation when automated decision-making produces legally significant effects. The Minnesota Department of Education publishes AI guidance for K-12. The separate Minnesota State colleges and universities system (not UMN) published 'Generative Artificial Intelligence: Policy Intersections, Considerations and Recommendations' in March 2024 as reference guidance. The UMN system itself operates under the Board of Regents and has developed its own AI Hub-led framework rather than relying on state system mandates.",
+    "urls": [
+      "https://mnbars.org/?pg=BenchBarofMinnesota&pubAction=viewIssue&pubIssueID=52616&pubIssueItemID=332272",
+      "https://education.mn.gov/MDE/dse/tech/AI/",
+      "https://www.minnstate.edu/system/asa/innovations/docs/minnesota-state-generative-ai-guidance.pdf"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2024-11",
+      "summary": "Haishan Yang, a health economics doctoral student, was expelled for alleged unauthorized use of ChatGPT on a preliminary exam. Yang sued for over $1M; the Minnesota Court of Appeals upheld the expulsion in February 2026.",
+      "status": "resolved",
+      "url": "https://minnlawyer.com/2026/02/13/u-of-m-ai-cheating-expulsion-upheld-appeal/"
+    },
+    {
+      "date": "2026-04",
+      "summary": "Senior faculty including Professor Michael Gallope publicly questioned the use of AI tools in faculty promotion and tenure reviews, arguing the practice lacks transparency and due process.",
+      "status": "active",
+      "url": "https://mndaily.com/campus/umn-professors-concerned-about-ai-faculty-reviews/04/08/2026/eicmndaily-com/"
+    },
+    {
+      "date": "2025-07",
+      "summary": "Local reporting flagged equity and data-privacy questions around free Gemini access for ~56,000 students, particularly whether students fully understand enterprise data protections versus consumer Gemini.",
+      "status": "resolved",
+      "url": "https://www.kare11.com/article/news/local/breaking-the-news/university-of-minnesota-google-gemini-ai/89-492e975e-9e6c-4e56-9e69-3385376060cf"
+    }
+  ],
+  "narrative_summary": "The University of Minnesota-Twin Cities, a 56,666-student land-grant flagship and AAU member, has moved in 2024-2026 from a fragmented set of AI efforts to an institutionally coherent posture. Under President Rebecca Cunningham and Executive Vice President and Provost Gretchen Ritter, the university stood up an AI Hub on March 4, 2026 and named statistics professor Galin Jones as its inaugural Vice Provost for AI, absorbing the prior Data Science and AI Hub and consolidating what had been task-force recommendations into a line organization with its own cabinet-level leader. On the research side, UMN leads the $20M NSF/USDA AI-LEAF / AI-CLIMATE national institute on climate-smart agriculture, operates the Agate supercomputer through the Minnesota Supercomputing Institute (109 GPU nodes spanning V100/A100/H100), and anchors the federally designated Minnesota MedTech 3.0 Tech Hub alongside Medtronic, Mayo, 3M, Honeywell, and Cargill; its December 2024 strategic agreement with Medtronic is a notable AI-in-medtech commitment. On the enterprise side, UMN rolled out Google Gemini systemwide on July 15, 2025, directly displacing roughly 13,000 shadow-IT ChatGPT accounts, and maintains a tiered appropriate-use policy that binds licensed AI tools (Gemini, Microsoft Copilot, NotebookLM, Zoom AI Companion) to specific data-classification levels. In teaching and learning, the College of Science and Engineering opened an AI Makerspace in Fall 2025, will launch two 'AI for All' courses in Fall 2026, and plans an undergraduate AI minor in Fall 2027; the Carlson School's MSBA already has a fully AI-integrated curriculum and ranks #5 among US public MSBAs per QS. Governance tensions are visible: the Minnesota Court of Appeals upheld the February 2026 expulsion of doctoral student Haishan Yang for AI use on exams, and senior faculty publicly questioned AI's use in promotion reviews in April 2026, suggesting the new Vice Provost for AI's near-term agenda will be dominated by personnel, ethics, and due-process questions as much as by technology deployment. UMN's posture is best described as comprehensive but still maturing: strong infrastructure, an unusually explicit data-tiered policy, serious federal research dollars, and a newly appointed executive owner, paired with live controversies and a state system partner (Minnesota State) that has been comparatively more cautious.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public",
+      "https://brief.umn.edu/feature/university-minnesota-launches-ai-hub-strengthening-reputation-ai-leader-and-furthering",
+      "https://mndaily.com/campus/umn-announces-inaugural-vice-provost-for-ai/03/05/2026/shill/",
+      "https://edscoop.com/university-of-minnesota-launches-ai-workforce-and-innovation-hub/",
+      "https://president.umn.edu/presidential-task-forces/artificial-intelligence-task-force",
+      "https://provost.umn.edu/about-evpp/communications/ai-university-minnesota",
+      "https://provost.umn.edu/academic-oversight/genai-syllabus-statements",
+      "https://provost.umn.edu/use-ai-your-classes",
+      "https://provost.umn.edu/ai-and-your-classroom",
+      "https://grad.umn.edu/guidance-generative-ai-graduate-education",
+      "https://it.umn.edu/services-technologies/resources/artificial-intelligence-appropriate-use",
+      "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection",
+      "https://it.umn.edu/navigating-ai-umn",
+      "https://it.umn.edu/news-alerts/news/new-generative-ai-available-gemini",
+      "https://umarcomm.umn.edu/resources/guidance-use-generative-artificial-intelligence-ai",
+      "https://dsai-hub.umn.edu/",
+      "https://dsai-hub.umn.edu/aicop",
+      "https://cse.umn.edu/aileaf",
+      "https://cse.umn.edu/college/news/university-minnesota-lead-new-20m-ai-institute-focusing-climate-smart-agriculture-and",
+      "https://cse.umn.edu/college/news/university-minnesota-boost-ai-literacy-new-classes-and-minor",
+      "https://cse.umn.edu/college/news/university-minnesota-lead-2-million-federal-grant-study-human-centered-ai-news",
+      "https://cse.umn.edu/college/news/u-m-awarded-12m-help-improve-energy-efficiency-computer-systems-using-ai",
+      "https://cse.umn.edu/cs/robotics-and-artificial-intelligence",
+      "https://cse.umn.edu/cs/data-science-and-machine-learning",
+      "https://cse.umn.edu/mnri",
+      "https://forestry.umn.edu/news/national-artificial-intelligence-research-institute",
+      "https://msi.umn.edu/",
+      "https://msi.umn.edu/about-msi-services/high-performance-computing/agate",
+      "https://en.wikipedia.org/wiki/University_of_Minnesota_Supercomputing_Institute",
+      "https://research.umn.edu/news/collaboration-medtronic-tackle-difficult-healthcare-challenges",
+      "https://cse.umn.edu/college/news/new-medtronic-partnership-help-tackle-difficult-healthcare-challenges",
+      "https://www.medicaldesignandoutsourcing.com/medtronic-research-deal-university-of-minnesota/",
+      "https://twin-cities.umn.edu/news-events/u-m-celebrates-selection-minnesota-medtech-30-federal-tech-hub",
+      "https://cse.umn.edu/college/news/u-m-celebrates-selection-minnesota-medtech-30-federal-tech-hub",
+      "https://www.mnmedtech.co/",
+      "https://carlsonschool.umn.edu/graduate/masters/business-analytics",
+      "https://carlsonschool.umn.edu/graduate/masters/business-analytics/curriculum/artificial-intelligence",
+      "https://mndaily.com/294954/campus/googles-generative-ai-tool-now-available-for-umn-systemwide-use/",
+      "https://brief.umn.edu/feature/gemini-powerful-ai-partner",
+      "https://brief.umn.edu/feature/building-research-backed-roadmap-future-teaching-and-learning-ai",
+      "https://brief.umn.edu/awards-recognition/brian-dahlin-serve-interim-chief-information-officer",
+      "https://brief.umn.edu/feature/meet-executive-vice-president-and-provost-gretchen-ritter",
+      "https://president.umn.edu/about/about-president-cunningham",
+      "https://twin-cities.umn.edu/news-events/gretchen-ritter-named-executive-vice-president-and-provost",
+      "https://twin-cities.umn.edu/news-events/bernard-gulachek-named-u-m-vp-information-technology-and-cio",
+      "https://idr.umn.edu/sites/idr.umn.edu/files/cds_2024_2025_tc_1.pdf",
+      "https://edscoop.com/university-minnesota-student-ai-expelled-lawsuit/",
+      "https://www.kare11.com/article/news/local/kare11-extras/student-expelled-university-of-minnesota-allegedly-using-ai/89-b14225e2-6f29-49fe-9dee-1feaf3e9c068",
+      "https://minnlawyer.com/2026/02/13/u-of-m-ai-cheating-expulsion-upheld-appeal/",
+      "https://mndaily.com/campus/umn-professors-concerned-about-ai-faculty-reviews/04/08/2026/eicmndaily-com/",
+      "https://www.kare11.com/article/news/local/breaking-the-news/university-of-minnesota-google-gemini-ai/89-492e975e-9e6c-4e56-9e69-3385376060cf",
+      "https://www.minnstate.edu/system/asa/innovations/docs/minnesota-state-generative-ai-guidance.pdf",
+      "https://mnbars.org/?pg=BenchBarofMinnesota&pubAction=viewIssue&pubIssueID=52616&pubIssueItemID=332272",
+      "https://education.mn.gov/MDE/dse/tech/AI/",
+      "https://accessibility.umn.edu/"
+    ],
+    "search_queries": [
+      "\"University of Minnesota\" AI strategy 2025 generative artificial intelligence",
+      "\"University of Minnesota\" generative AI policy acceptable use guidelines faculty staff",
+      "\"University of Minnesota\" AI governance council committee task force",
+      "\"University of Minnesota\" chief AI officer CIO provost 2025",
+      "\"University of Minnesota\" \"Galin Jones\" vice provost AI announcement 2026",
+      "\"University of Minnesota\" AI research center institute artificial intelligence lab",
+      "\"University of Minnesota\" AI degree major minor artificial intelligence program",
+      "\"University of Minnesota\" Gemini Google Workspace generative AI systemwide deployment 2025",
+      "\"University of Minnesota\" GPU cluster HPC Minnesota Supercomputing Institute",
+      "\"University of Minnesota\" NSF AI grant funding gift million",
+      "\"University of Minnesota\" AI chatbot student virtual assistant advising",
+      "\"University of Minnesota\" AI faculty reviews concern controversy 2026",
+      "\"University of Minnesota\" AI syllabus policy classroom academic integrity",
+      "\"University of Minnesota\" president Rebecca Cunningham provost Ritter 2025 2026",
+      "\"University of Minnesota\" enrollment total students Twin Cities 2024 2025",
+      "\"University of Minnesota\" AI industry partnership Medtronic 3M Cargill collaboration",
+      "\"University of Minnesota\" AI literacy K-12 workforce training statewide",
+      "\"University of Minnesota\" AI equity accessibility digital divide inclusion",
+      "\"Minnesota\" state AI policy executive order 2025 government",
+      "\"Minnesota State\" system AI policy guidance higher education colleges",
+      "\"University of Minnesota\" Carlson AI business analytics Master degree 2025"
+    ],
+    "gaps_acknowledged": [
+      "Exact dollar figures for the AI Hub and the Medtronic strategic agreement are not publicly disclosed.",
+      "Presidential AI Task Force working-group reports are hosted on Google Drive and could not be fetched inline; only the summary page was accessed.",
+      "Launch date for the Carlson MSBA AI for Business track is not publicly listed.",
+      "User counts for Microsoft Copilot, NotebookLM, and Zoom AI Companion deployments are not published.",
+      "Exact launch date for the OIT appropriate-use policy is not stated.",
+      "Named PI(s) for AI-LEAF at UMN Twin Cities not disclosed on the public summary pages consulted."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "governance_led",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 12,
+        "research_compute_powerhouse": 18,
+        "curriculum_led": 13,
+        "governance_led": 15,
+        "student_success_led": 5,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Agate (Minnesota Supercomputing Institute)",
+        "gpu_count": 109,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 23200000,
+      "funding_source_buckets": {
+        "public_federal_state": 7,
+        "institutional": 5,
+        "industry_vendor": 2,
+        "other_unclear": 3
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 2,
+        "other": 2
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 5,
+          "products": [
+            "Gemini",
+            "Gemini (Enterprise-Grade Data Protection)",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Copilot Chat (Enterprise Data Protection)",
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "AI Companion",
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Agate"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Launch of the AI Hub and Vice Provost for AI",
+          "summary": "Creates a cabinet-level AI role at a top public research university and positions UMN as a statewide hub connecting higher ed, K-12, medtech, agriculture, and workforce initiatives.",
+          "source_url": "https://twin-cities.umn.edu/news-events/university-minnesota-launches-ai-hub-drive-statewide-innovation-education-and-public"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Systemwide rollout of Google Gemini with enterprise-grade data protection",
+          "summary": "One of the larger Gemini-for-Education deployments in the Big Ten; OIT cited it as a direct response to ~13,000 umn.edu accounts previously using the free ChatGPT, addressing an acute shadow-IT data-security risk.",
+          "source_url": "https://it.umn.edu/services-technologies/gemini-enterprise-grade-data-protection"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI-LEAF / AI-CLIMATE National AI Research Institute",
+          "summary": "Flagship AI-for-science award and UMN's largest single AI investment; connects a flagship R1 to sustainable agriculture, an anchor of Minnesota's economy.",
+          "source_url": "https://cse.umn.edu/aileaf"
+        },
+        {
+          "claim_type": "cost_or_revenue",
+          "title": "Carlson School MSBA with AI for Business track",
+          "summary": "A revenue-anchor graduate program that has shifted explicitly from analytics to AI, signaling how professional master's programs are rebranding around generative AI.",
+          "source_url": "https://carlsonschool.umn.edu/graduate/masters/business-analytics"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Syllabus-level GenAI statement guidance",
+          "summary": "Normalizes course-level AI policy across a 50,000+-student flagship rather than leaving it to individual departments.",
+          "source_url": "https://provost.umn.edu/academic-oversight/genai-syllabus-statements"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "Exact dollar figures for the AI Hub and the Medtronic strategic agreement are not publicly disclosed.",
+        "Presidential AI Task Force working-group reports are hosted on Google Drive and could not be fetched inline; only the summary page was accessed.",
+        "Launch date for the Carlson MSBA AI for Business track is not publicly listed.",
+        "User counts for Microsoft Copilot, NotebookLM, and Zoom AI Companion deployments are not published.",
+        "Exact launch date for the OIT appropriate-use policy is not stated.",
+        "Named PI(s) for AI-LEAF at UMN Twin Cities not disclosed on the public summary pages consulted."
+      ]
+    }
+  }
+}

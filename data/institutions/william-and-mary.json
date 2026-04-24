@@ -1,0 +1,1613 @@
+{
+  "institution": "William & Mary",
+  "slug": "william-and-mary",
+  "city_state": "Williamsburg, VA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 9658,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Katherine A. Rowe",
+      "url": "https://www.wm.edu/about/administration/president/"
+    },
+    "provost": {
+      "name": "Peggy Agouris",
+      "url": "https://www.wm.edu/about/administration/provost/"
+    },
+    "cio": {
+      "name": "Edward 'Ed' Aractingi",
+      "url": "https://www.wm.edu/offices/it/about/staff/aractingi_e.php"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "David Yalof and Pamela Eddy",
+      "title": "Co-Chairs, University-Wide AI Policy Initiative (Senior Vice Provost for Academic Affairs; Associate Provost for Faculty Affairs & Development)",
+      "url": "https://www.wm.edu/offices/academicaffairs/ai-policy-initiative/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University-Wide AI Policy Initiative (AIPI) Final Report",
+        "url": "https://www.wm.edu/offices/academicaffairs/_documents/initiatives-documents/aipi_final_report.pdf",
+        "year": 2025
+      },
+      {
+        "title": "AI at W&M Hub",
+        "url": "https://www.wm.edu/sites/ai/",
+        "year": 2025
+      },
+      {
+        "title": "Vision 2026 Strategic Plan",
+        "url": "https://www.wm.edu/about/administration/strategicplanning/vision2026/",
+        "year": 2022
+      },
+      {
+        "title": "GenAI Guidelines for Use",
+        "url": "https://www.wm.edu/sites/ai/guidelines/",
+        "year": 2025
+      }
+    ],
+    "summary": "William & Mary's AI strategy couples a human-centered, ethics-first framing with concrete infrastructure. The University-Wide AI Policy Initiative (AIPI), co-chaired by Senior Vice Provost David Yalof and Associate Provost Pamela Eddy, was established in fall 2024 and submitted final policy recommendations by July 1, 2025. Strategy pillars include a centralized AI hub (wm.edu/sites/ai), enterprise tool standardization across Microsoft Copilot, ChatGPT Edu, Google Gemini and Adobe Firefly, new degree and minor programs housed in the School of Computing, Data Sciences & Physics (CDSP), and career-readiness integration via the Mason School of Business — all connected to W&M's Vision 2026 strategic plan, which names careers as one of four cornerstone initiatives."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.wm.edu/sites/ai/guidelines/",
+      "https://www.wm.edu/offices/it/services/ai/guidelines/",
+      "https://law.wm.edu/policies/ai-policy.pdf",
+      "https://www.wm.edu/as/wcc/aistatement/",
+      "https://www.wm.edu/offices/academicaffairs/ai-policy-initiative/"
+    ],
+    "adopted_date": "2025-07",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Require W&M Single Sign-On for all approved university GenAI tools",
+      "Prohibit input of W&M intellectual property, sensitive data, or PII into non-approved tools",
+      "Mandate attribution of GenAI-generated outputs used for work purposes",
+      "Require review of outputs for plagiarism, accuracy, bias and equity alignment",
+      "Explicit FERPA, HIPAA and university policy compliance clause",
+      "Prohibit discriminatory outputs against protected characteristics",
+      "Require all new AI tools to pass an IT tool review process before use",
+      "Ban DeepSeek AI from the W&M wireless network"
+    ],
+    "summary": "W&M adopted comprehensive GenAI guidelines covering the full community (faculty, staff, students, research, admin) through its AI Policy Initiative, which delivered recommendations by July 2025. The guidelines combine enterprise-grade security requirements (SSO, approved-tool list), ethical provisions (attribution, anti-discrimination), and explicit regulatory guardrails (FERPA, HIPAA), with a tiered tool-approval process published publicly."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "University-Wide AI Policy Initiative (AIPI)",
+        "type": "committee",
+        "scope": "Cross-institution committee chartered in fall 2024 to recommend comprehensive AI policies across academic, research, and operational domains; submitted final recommendations by July 1, 2025; reports to Office of the Provost and Faculty Assembly.",
+        "url": "https://www.wm.edu/offices/academicaffairs/ai-policy-initiative/"
+      },
+      {
+        "name": "Mason School of Business AI Integration Team / Steering Committee",
+        "type": "committee",
+        "scope": "School-level AI steering committee chaired by Clinical Professor Dawn Edmiston and Karen Conner, Director of Academic Innovation; embeds AI into Mason School curriculum and research agenda.",
+        "url": "https://mason.wm.edu/news/2025/shaping-the-future-of-business-education-ai-integration-at-william-and-mary.php"
+      },
+      {
+        "name": "Office of Innovation & AI Applications (IT)",
+        "type": "office",
+        "scope": "IT-based office led by Louis Hubert, Manager of Innovation & AI Applications, coordinating pilots, the GenAI tool review pipeline, and administrative AI adoption.",
+        "url": "https://www.wm.edu/offices/it/about/staff/hubert_l.php"
+      },
+      {
+        "name": "Studio for Teaching & Learning Innovation (STLI)",
+        "type": "office",
+        "scope": "Faculty development unit established 2019, running GenAI in Teaching courses, the SKEPTICS reflection framework, and the STLI Academy micro-credentialing platform.",
+        "url": "https://stli.wm.edu/"
+      }
+    ],
+    "summary": "Governance is structured around a provost-level policy committee (AIPI), an IT-based innovation office, and two school-level bodies (Mason School AI Integration Team, STLI faculty development). There is no dedicated chief AI officer role; strategic coordination runs through the Office of the Provost and CIO Ed Aractingi."
+  },
+  "initiatives": [
+    {
+      "title": "University-Wide AI Policy Initiative (AIPI)",
+      "description": "Provost-chartered committee launched fall 2024 to design comprehensive AI policies across academic, research, and operational domains. Co-chaired by Senior Vice Provost David Yalof and Associate Provost Pamela Eddy, with members drawn from CDSP, Philosophy, Business, Law, Education, Computer Science and the CIO office. Submitted final policy recommendations by July 1, 2025.",
+      "significance": "Demonstrates a small public R1's ability to stand up cross-school AI governance in under a year and produce shippable policy rather than aspirational principles.",
+      "date_announced": "2024-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost (internal)",
+        "description": "Internally funded faculty/staff committee with administrative support; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CDSP",
+            "Mason School of Business",
+            "William & Mary Law School",
+            "School of Education",
+            "Office of the Provost",
+            "Information Technology"
+          ],
+          "description": "Internal cross-school committee spanning every W&M school."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Outputs the AIPI Final Report, which is now the core W&M institutional reference for downstream AI policies.",
+      "source_urls": [
+        "https://www.wm.edu/offices/academicaffairs/ai-policy-initiative/",
+        "https://www.wm.edu/offices/academicaffairs/_documents/initiatives-documents/aipi_final_report.pdf"
+      ]
+    },
+    {
+      "title": "GenAI Guidelines for Use and Approved Tool List",
+      "description": "Published community-wide GenAI guidelines covering scope (faculty, staff, students; W&M and personal devices used for W&M work), security (mandatory SSO), privacy (PII/IP prohibitions), ethics (anti-discrimination, attribution) and compliance (FERPA, HIPAA). Paired with an openly published approved-tool list that ranks tools as approved-without-restrictions, approved-non-sensitive-only, and prohibited (DeepSeek banned from the W&M wireless network).",
+      "significance": "One of the most explicit tiered public tool-approval lists among R1 publics and a model for compliance-forward AI governance.",
+      "date_announced": "2025-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Information Technology (internal)",
+        "description": "Ongoing IT governance capacity; cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy effort coordinated by IT and the Provost."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Approved without restrictions"
+        },
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Approved without restrictions (licensed)"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Approved without restrictions"
+        },
+        {
+          "name": "Firefly",
+          "vendor": "Adobe",
+          "role": "Approved without restrictions"
+        },
+        {
+          "name": "Workday Assistant",
+          "vendor": "Workday",
+          "role": "Approved without restrictions"
+        },
+        {
+          "name": "Blackboard Learn AI Design Assistant",
+          "vendor": "Blackboard / Anthology",
+          "role": "Approved without restrictions"
+        },
+        {
+          "name": "Grammarly AI",
+          "vendor": "Grammarly",
+          "role": "Approved without restrictions"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "Approved non-sensitive data only"
+        },
+        {
+          "name": "Perplexity",
+          "vendor": "Perplexity AI",
+          "role": "Approved non-sensitive data only"
+        },
+        {
+          "name": "DeepSeek",
+          "vendor": "DeepSeek",
+          "role": "Prohibited / banned from wireless network"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a publicly visible tool taxonomy, which other Virginia public institutions can mirror under Executive Order 30.",
+      "source_urls": [
+        "https://www.wm.edu/sites/ai/guidelines/",
+        "https://www.wm.edu/sites/ai/tools/",
+        "https://www.wm.edu/offices/it/services/ai/guidelines/"
+      ]
+    },
+    {
+      "title": "ChatGPT Edu Pilot",
+      "description": "Fall 2025 pilot of OpenAI's ChatGPT Edu for select W&M faculty and staff, co-led by CDSP, Information Technology, W&M Libraries and the Mason School of Business. Provides enterprise-grade SSO, institutional data protection, and a non-training clause on institutional data.",
+      "significance": "Multi-school ChatGPT Edu pilots at a public R1 remain uncommon; W&M's cross-school sponsorship model is notable.",
+      "date_announced": "2025-10-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (CDSP, IT, Libraries, Mason School)",
+        "description": "Enterprise license and pilot staffing; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Enterprise license via OpenAI's ChatGPT Edu product."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise GenAI for faculty, staff and select research use"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Tests whether enterprise GenAI can satisfy the comprehensive AIPI data-protection stance in practice.",
+      "source_urls": [
+        "https://news.wm.edu/2025/10/01/william-mary-launches-chatgpt-edu-pilot/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Pilot and Chat Rollout",
+      "description": "Copilot Chat made available at no cost to all W&M Office 365 subscribers 18+ via SSO, with a paid Copilot for Microsoft 365 tier available to faculty/staff through department-level purchasing. Employee pilot began March 2024.",
+      "significance": "Two-tier Copilot model shows the standard enterprise GenAI staging pattern now taking hold at R1 publics.",
+      "date_announced": "2024-03-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Department-level budgets for paid Copilot licenses; Chat tier bundled with existing M365",
+        "description": "Paid Copilot for M365 licenses funded by individual departments."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Microsoft M365 enterprise relationship."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Free-tier GenAI chat for M365 subscribers"
+        },
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "Paid in-app AI for Word, Excel, PowerPoint, Outlook, Teams, OneNote, Loop"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Validates SSO-plus-enterprise-DLP as W&M's default GenAI delivery model.",
+      "source_urls": [
+        "https://www.wm.edu/offices/it/services/microsoftoffice365/webapps/copilot/"
+      ]
+    },
+    {
+      "title": "AI Minor for All Undergraduates",
+      "description": "New university-wide AI minor launched September 2025 through the School of Computing, Data Sciences & Physics. Open to all undergraduate majors and explicitly designed to combine technical and ethical content (privacy, equity, broader impact) across every course, positioned as a precursor to future bachelor's and graduate programs.",
+      "significance": "Adopts an ethics-integrated, discipline-agnostic AI minor at a liberal-arts-identified R1 — a model that avoids siloing AI inside computer science.",
+      "date_announced": "2025-09-12",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal (CDSP and College of Arts & Sciences)",
+        "description": "New curriculum and faculty time; budget figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CDSP",
+            "College of Arts & Sciences"
+          ],
+          "description": "Internal cross-school curriculum collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Links ethics framework directly to credit-bearing AI education for undergraduates.",
+      "source_urls": [
+        "https://news.wm.edu/2025/09/12/new-minor-in-artificial-intelligence-available-for-all-wm-undergraduates/",
+        "https://catalog.wm.edu/preview_program.php?catoid=34&poid=7275&returnto=5205",
+        "https://cdsp.wm.edu/about/ai/"
+      ]
+    },
+    {
+      "title": "Applied Artificial Intelligence Bachelor's Degree",
+      "description": "Board of Visitors approved a new B.A./B.S. in applied artificial intelligence (alongside bioengineering) at its November 2025 meeting, building on the existing AI minor and AI concentrations in CS and data science majors. Program is housed within W&M's Bachelor of Arts in Interdisciplinary Studies framework and the CDSP school.",
+      "significance": "Board-level degree approval turns an emerging minor into a durable, applied AI major at a selective liberal-arts R1.",
+      "date_announced": "2025-11-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "career_and_workforce_readiness",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Internal (CDSP); Board of Visitors approval",
+        "description": "New degree program; budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CDSP",
+            "Board of Visitors"
+          ],
+          "description": "Internal approval process culminating in BoV sign-off."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions applied AI as a named degree outcome, tied to the Vision 2026 careers initiative.",
+      "source_urls": [
+        "https://flathatnews.com/2025/12/02/board-of-visitors-approves-degree-programs-in-artificial-intelligence-bioengineering/"
+      ]
+    },
+    {
+      "title": "Mason School of Business AI Integration Program",
+      "description": "Full Mason School AI integration program chaired by Clinical Professor Dawn Edmiston and Karen Conner (Director of Academic Innovation). Includes the BUAD 200 foundational AI course for all undergrads, use of Microsoft Copilot and Perplexity Pro in marketing strategy classes, a Teaching and Research with Generative AI Sprint, and the AI in the Workplace community in W&M OneNetwork.",
+      "significance": "A top-10 public business school treating generative AI as a required, cross-curricular competency rather than an elective.",
+      "date_announced": "2025-02-26",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Mason School of Business",
+        "description": "Faculty, curriculum development and Copilot/Perplexity licenses; budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Perplexity AI",
+            "CAA Academic Alliance"
+          ],
+          "description": "Uses Copilot and Perplexity Pro with students; CAA AI Technologies Champion Network participation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "In-class AI for students"
+        },
+        {
+          "name": "Perplexity Pro",
+          "vendor": "Perplexity AI",
+          "role": "AI search and citation for student work"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Creates a school-level template for AI literacy that other W&M schools can emulate.",
+      "source_urls": [
+        "https://mason.wm.edu/news/2025/shaping-the-future-of-business-education-ai-integration-at-william-and-mary.php",
+        "https://mason.wm.edu/news/2025/a-transformative-approach-to-generative-ai-in-business-education.php",
+        "https://poetsandquants.com/2025/02/26/ai-integration-at-william-mary/"
+      ]
+    },
+    {
+      "title": "CAA AI Technologies Champion Network Membership",
+      "description": "W&M selected for the inaugural cohort of the Council of Affiliated Associations (CAA) Academic Alliance AI Technologies Champion Network, announced October 2025 with meetings from February 2026. Dawn Edmiston (Mason School of Business) and Daniel Runfola (CDSP Chair) represent W&M among 22 faculty chosen from ~400 applicants.",
+      "significance": "Places W&M in a national peer network benchmarking responsible AI integration across institutions.",
+      "date_announced": "2025-10-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "faculty_role_evolution",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "CAA Academic Alliance and W&M internal",
+        "description": "Faculty travel and time for an in-person June 2-4 gathering at UNC-Wilmington."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CAA Academic Alliance",
+            "University of North Carolina Wilmington"
+          ],
+          "description": "National multi-institution AI faculty network."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Surfaces national peer practice back into W&M governance loops.",
+      "source_urls": [
+        "https://news.wm.edu/2026/04/17/wm-faculty-join-innovative-artificial-intelligence-network/"
+      ]
+    },
+    {
+      "title": "Wren Virtual Engagement Officer (Givzey / Version2.ai)",
+      "description": "W&M University Advancement deployed Wren, an autonomous AI fundraiser from Givzey's Version2.ai Innovation Partnership Program, to a portfolio of ~500 potential donors via text and email. W&M is one of 13 pilot institutions; aggregated program raised $2M across 50 institutions between October 2024 and July 2025.",
+      "significance": "One of the earliest live deployments of a fully autonomous AI fundraiser at a public R1 — a high-visibility test of agentic AI in non-academic operations.",
+      "date_announced": "2024-11-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "W&M University Advancement",
+        "description": "Pilot program subscription; specific amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Givzey",
+            "Version2.ai"
+          ],
+          "description": "Startup research partnership testing an autonomous fundraising agent."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Wren Virtual Engagement Officer",
+          "vendor": "Version2.ai (Givzey)",
+          "role": "Autonomous AI fundraiser covering ~500-donor portfolio"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Tests governance for agentic AI touching donor data and donor relationships.",
+      "source_urls": [
+        "https://www.insidehighered.com/news/business/fundraising/2024/12/11/interview-ai-higher-ed-fundraiser",
+        "https://advancement.wm.edu/news/2024/version2-ai-givzey-pilot.php",
+        "https://www.philanthropy.com/article/can-ai-raise-money-and-not-replace-humans-8-lessons-so-far"
+      ]
+    },
+    {
+      "title": "DisinfoLab AI-Powered Manipulated-Media Detector",
+      "description": "DisinfoLab, the country's first undergraduate-led mis/disinformation think tank at W&M's Global Research Institute, received grants to build an AI platform that detects whether uploaded photos or videos have been edited or artificially generated, and a machine learning model predicting the virality of mis/disinformation tweets.",
+      "significance": "Applied AI-for-public-interest work run by undergraduates — an unusual model for a student-led AI research project at an R1.",
+      "date_announced": "2023-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "External grants (sources not publicly disclosed in aggregate)",
+        "description": "Project-level grant support for manipulated-media detection research."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Global Research Institute",
+            "external grant funders"
+          ],
+          "description": "Grant-funded applied research on disinformation detection."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Produces tools relevant to election integrity and platform trust and safety policy.",
+      "source_urls": [
+        "https://disinfolab.wm.edu/",
+        "https://www.wm.edu/offices/global-research/for-students/student-projects/disinfolab/"
+      ]
+    },
+    {
+      "title": "AidData AI/ML Development Research",
+      "description": "AidData, W&M's international development research lab, uses AI and machine learning to build next-generation development outcome measures — crop productivity, food security and local resilience to climate change — plus tracking underreported international financial flows.",
+      "significance": "Long-standing, grant-funded applied AI program at W&M with global policy reach; a signature research asset distinguishing W&M from peer R1s.",
+      "date_announced": "2020-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Federal grants, foundations, international donors",
+        "description": "Multi-million-dollar grant-funded research program (specific totals vary year over year)."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "USAID (historical)",
+            "World Bank",
+            "foreign governments",
+            "global foundations"
+          ],
+          "description": "Major international development research partnerships applying AI/ML to aid data."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Produces publicly usable AI-derived development datasets used by governments and NGOs.",
+      "source_urls": [
+        "https://www.wm.edu/sites/aiddata/",
+        "https://www.aiddata.org/"
+      ]
+    },
+    {
+      "title": "Global Research Institute Research Incubator (AI-Adjacent)",
+      "description": "Following W&M's R1 designation (February 2025), the Global Research Institute announced October 2025 that it will operate as a research incubator with four tiers (Engage, Exploration, Incubation, Transition), targeting $20M+ in external funding over five years and 500+ students engaged. AI is named as a particular strength of GRI's AidData program.",
+      "significance": "Links the R1 jump to an explicit, funded incubator pipeline that AI-heavy programs like AidData can use to scale.",
+      "date_announced": "2025-10-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "Philanthropy + external grants (5-year target)",
+        "description": "Target of $20M+ in philanthropic and grant funding over five years."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "W&M schools and College of Arts & Sciences"
+          ],
+          "description": "Internal incubator partnering with all five W&M schools plus A&S."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Creates structured path for faculty AI research from concept to sustainable funded program.",
+      "source_urls": [
+        "https://news.wm.edu/2025/10/13/william-mary-launches-dynamic-research-incubator-model-following-r1-university-designation/",
+        "https://news.wm.edu/2026/04/08/gri-announces-significant-investments-in-applied-research-at-william-mary/"
+      ]
+    },
+    {
+      "title": "W&M Law School AI Casebook and Center for Legal & Court Technology",
+      "description": "Professor Margaret Hu (Davison M. Douglas Professor of Law) published the first-edition AI Law and Policy casebook (Aspen Publishing, 2025), directs the Digital Democracy Lab, and has testified before the U.S. Senate on AI regulation. The affiliated Center for Legal & Court Technology (CLCT) is a partner in the six-year Autonomy Through Cyberjustice Technologies (ACT) Project studying AI decision-support in legal/adjudication systems.",
+      "significance": "Gives W&M Law a national platform on AI law and policy that shapes external regulatory debate.",
+      "date_announced": "2025-09-02",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "students",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Grants (ACT Project), publisher royalties, law school",
+        "description": "Multi-year grant participation; specific W&M share not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "National Center for State Courts",
+            "Autonomy Through Cyberjustice Technologies (ACT) Project"
+          ],
+          "description": "CLCT is a long-standing partnership with the National Center for State Courts and the multi-year ACT Project."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Margaret Hu's casebook is shaping law-school AI curricula nationally; CLCT informs court-system AI policy.",
+      "source_urls": [
+        "https://law.wm.edu/academics/intellectuallife/researchcenters/clct/",
+        "https://news.wm.edu/2025/09/02/margaret-hu-releases-leading-casebook-on-ai-and-law/",
+        "https://aspenpublishing.com/products/hu-ailawandpolicy"
+      ]
+    },
+    {
+      "title": "STLI Faculty AI Development Program",
+      "description": "The Studio for Teaching & Learning Innovation (STLI) runs W&M's faculty AI-in-teaching work: the 'GenAI in Teaching' course, 'Approaches to Teaching with GenAI' resources, the SKEPTICS reflection framework, and the STLI Academy micro-credentialing platform.",
+      "significance": "Operationalizes faculty AI literacy through an existing, credentialed faculty development unit rather than a one-off initiative.",
+      "date_announced": "2024-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (STLI operating budget)",
+        "description": "Ongoing faculty development capacity; cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal unit."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "STLI Academy",
+          "vendor": "William & Mary (internal)",
+          "role": "Micro-credentialing platform for faculty AI learning"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors the community-facing side of the AIPI policy recommendations.",
+      "source_urls": [
+        "https://stli.wm.edu/",
+        "https://stli.wm.edu/academy/"
+      ]
+    },
+    {
+      "title": "W&M Digital Accessibility Program",
+      "description": "W&M hired Filza Khan as its inaugural digital accessibility specialist in January (within Information Technology) and launched a centralized Digital Accessibility website that provides guides on creating accessible digital content — with explicit alignment to Vision 2026 equity goals and intersecting with GenAI tool review (e.g., accessibility review of AI outputs).",
+      "significance": "Creates a dedicated accessibility function that filters the growing AI tool catalog through a disability-access lens.",
+      "date_announced": "2025-01-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (IT)",
+        "description": "New full-time specialist plus program resources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal IT program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Ensures W&M's AI adoption does not accelerate an accessibility gap.",
+      "source_urls": [
+        "https://www.wm.edu/sites/digitalaccessibility/",
+        "https://www.wm.edu/offices/it/news/william-marys-commitment-to-digital-accessibility.php"
+      ]
+    },
+    {
+      "title": "DIGLab AI-in-Digital-Learning Research",
+      "description": "The Digital Inclusion and Governance Lab (DIGLab) at W&M's Global Research Institute runs experiments with Makerere University Business School-ICT Centre (Uganda) to measure the impact of AI tools on self-directed digital learning, entrepreneurship and sociocultural norms — an international AI-equity research agenda.",
+      "significance": "Cross-border experimental research on AI's impact on learning in under-resourced settings; unusually explicit focus on AI equity as a research question rather than just a values statement.",
+      "date_announced": "2024-01-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "multilingual_and_culturally_responsive_ai",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Grants (specific amounts not disclosed)",
+        "description": "Research grant-funded collaboration."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "Makerere University Business School-ICT Centre (Uganda)"
+          ],
+          "description": "International research partnership on AI-in-learning impact."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Feeds empirical AI-equity evidence into governance and curriculum decisions.",
+      "source_urls": [
+        "https://www.wm.edu/offices/global-research/research/diglab/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AidData",
+      "focus": "AI/ML for international development outcomes (climate, food security, financial flows)",
+      "founded": "2009",
+      "url": "https://www.aiddata.org/"
+    },
+    {
+      "name": "DisinfoLab",
+      "focus": "Student-led AI research on disinformation detection and media manipulation",
+      "founded": "2020",
+      "url": "https://disinfolab.wm.edu/"
+    },
+    {
+      "name": "Digital Inclusion and Governance Lab (DIGLab)",
+      "focus": "AI's impact on digital inclusion, entrepreneurship and governance in low-resource settings",
+      "founded": "2022",
+      "url": "https://www.wm.edu/offices/global-research/research/diglab/"
+    },
+    {
+      "name": "Center for Legal & Court Technology (CLCT)",
+      "focus": "AI, courtroom technology and AI decision-support for legal/adjudication systems",
+      "founded": "1993",
+      "url": "https://law.wm.edu/academics/intellectuallife/researchcenters/clct/"
+    },
+    {
+      "name": "Digital Democracy Lab",
+      "focus": "Research on AI, surveillance and democracy (Margaret Hu)",
+      "founded": null,
+      "url": "https://law.wm.edu/"
+    },
+    {
+      "name": "Global Research Institute",
+      "focus": "Applied research incubator housing AidData, DisinfoLab, DIGLab and other AI-adjacent labs",
+      "founded": "2017",
+      "url": "https://www.wm.edu/offices/global-research/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "minor",
+      "name": "Artificial Intelligence Minor",
+      "level": "undergrad",
+      "launched": "2025-09",
+      "url": "https://catalog.wm.edu/preview_program.php?catoid=34&poid=7275&returnto=5205"
+    },
+    {
+      "type": "concentration",
+      "name": "Computer Science Major, AI Concentration",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://cdsp.wm.edu/about/ai/"
+    },
+    {
+      "type": "concentration",
+      "name": "Data Science Major, AI Specialization",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://cdsp.wm.edu/about/ai/"
+    },
+    {
+      "type": "degree",
+      "name": "B.A./B.S. in Applied Artificial Intelligence (approved November 2025)",
+      "level": "undergrad",
+      "launched": "2025-11",
+      "url": "https://flathatnews.com/2025/12/02/board-of-visitors-approves-degree-programs-in-artificial-intelligence-bioengineering/"
+    },
+    {
+      "type": "course",
+      "name": "BUAD 200 (Mason School foundational AI course)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://mason.wm.edu/undergraduate/academics/"
+    },
+    {
+      "type": "course",
+      "name": "AI & More: Legal Issues Likely to Arise from AI & Related Emerging Technologies (Law School)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://law.wm.edu/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-03",
+      "url": "https://www.wm.edu/offices/it/services/microsoftoffice365/webapps/copilot/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot for Microsoft 365",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2024-03",
+      "url": "https://www.wm.edu/offices/it/services/microsoftoffice365/webapps/copilot/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-10",
+      "url": "https://news.wm.edu/2025/10/01/william-mary-launches-chatgpt-edu-pilot/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.wm.edu/sites/ai/tools/"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Firefly",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.wm.edu/sites/ai/tools/"
+    },
+    {
+      "vendor": "Blackboard / Anthology",
+      "product": "Learn Ultra with AI Design Assistant and AI Conversations",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://www.wm.edu/offices/it/services/blackboard/"
+    },
+    {
+      "vendor": "Workday",
+      "product": "Workday Assistant",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.wm.edu/sites/ai/tools/"
+    },
+    {
+      "vendor": "Grammarly",
+      "product": "Grammarly AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.wm.edu/sites/ai/tools/"
+    },
+    {
+      "vendor": "Version2.ai (Givzey)",
+      "product": "Wren Virtual Engagement Officer",
+      "scope": "college-specific",
+      "user_count": 500,
+      "deployed": "2024-11",
+      "url": "https://advancement.wm.edu/news/2024/version2-ai-givzey-pilot.php"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "SciClone and Chesapeake clusters",
+    "gpu_count": null,
+    "url": "https://www.wm.edu/offices/it/services/researchcomputing/atwm/",
+    "summary": "W&M Research Computing operates three clusters — SciClone (main-campus Slurm/batch), a Kubernetes cluster, and Chesapeake at the VIMS Gloucester campus — supported by a 1.5 PB Lustre parallel filesystem. An NSF MRI proposal was submitted for a dedicated GPU cluster in collaboration with high-energy physics. Director of Research Computing: Eric Walter."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "GRI Research Incubator 5-year Funding Target",
+      "amount_usd": 20000000,
+      "source": "Philanthropy + external grants (target)",
+      "purpose": "Incubate faculty research — AI research (AidData, DIGLab, DisinfoLab) explicitly named as strength area",
+      "date": "2025-10",
+      "url": "https://news.wm.edu/2025/10/13/william-mary-launches-dynamic-research-incubator-model-following-r1-university-designation/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Copilot enterprise deployment (Chat + M365 Copilot)",
+      "date": "2024-03",
+      "url": "https://www.wm.edu/offices/it/services/microsoftoffice365/webapps/copilot/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Edu pilot for faculty/staff/research",
+      "date": "2025-10",
+      "url": "https://news.wm.edu/2025/10/01/william-mary-launches-chatgpt-edu-pilot/"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Givzey / Version2.ai",
+      "purpose": "Autonomous AI fundraiser (Wren) pilot",
+      "date": "2024-11",
+      "url": "https://advancement.wm.edu/news/2024/version2-ai-givzey-pilot.php"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "CAA Academic Alliance",
+      "purpose": "CAA AI Technologies Champion Network — multi-institution AI integration peer group",
+      "date": "2025-10",
+      "url": "https://news.wm.edu/2026/04/17/wm-faculty-join-innovative-artificial-intelligence-network/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "National Center for State Courts",
+      "purpose": "Center for Legal & Court Technology (CLCT) research partnership including AI decision-support",
+      "date": null,
+      "url": "https://law.wm.edu/academics/intellectuallife/researchcenters/clct/"
+    },
+    {
+      "pattern": "international",
+      "partner": "Makerere University Business School-ICT Centre",
+      "purpose": "DIGLab research on AI's impact on digital learning and entrepreneurship in Uganda",
+      "date": "2024-01",
+      "url": "https://www.wm.edu/offices/global-research/research/diglab/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Autonomy Through Cyberjustice Technologies (ACT) Project",
+      "purpose": "Six-year research initiative on AI decision-support in legal systems",
+      "date": "2018-01",
+      "url": "https://law.wm.edu/academics/intellectuallife/researchcenters/clct/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Copilot Chat",
+      "scope": "All W&M M365 subscribers 18+",
+      "url": "https://www.wm.edu/offices/it/services/microsoftoffice365/webapps/copilot/"
+    },
+    {
+      "type": "tutor",
+      "name": "Blackboard AI Conversations",
+      "scope": "Students enrolled in Blackboard Ultra courses",
+      "url": "https://www.wm.edu/offices/it/services/blackboard/"
+    },
+    {
+      "type": "other",
+      "name": "Adobe Firefly",
+      "scope": "Licensed to all faculty/staff/students",
+      "url": "https://www.wm.edu/sites/ai/tools/"
+    },
+    {
+      "type": "advisor",
+      "name": "Wren Virtual Engagement Officer (alumni/donor facing)",
+      "scope": "~500-donor portfolio via text/email (community/alumni, not current students)",
+      "url": "https://advancement.wm.edu/news/2024/version2-ai-givzey-pilot.php"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Digital Accessibility Program",
+      "description": "Inaugural digital accessibility specialist (Filza Khan, IT, January 2025) plus a central Digital Accessibility website providing guides for creating accessible digital content — applies to AI tools via the approved-tools review process.",
+      "url": "https://www.wm.edu/sites/digitalaccessibility/"
+    },
+    {
+      "title": "DIGLab AI-in-Learning Research",
+      "description": "International research on AI's impact on digital learning and entrepreneurship in under-resourced settings (Uganda partnership).",
+      "url": "https://www.wm.edu/offices/global-research/research/diglab/"
+    },
+    {
+      "title": "Approved Tool Tiering for Equity",
+      "description": "Publicly published approved-tool list includes free-tier options (Copilot Chat via M365, Gemini, Firefly) so that basic AI access does not require personal licensing.",
+      "url": "https://www.wm.edu/sites/ai/tools/"
+    },
+    {
+      "title": "Writing and Communication Center Statement on GenAI",
+      "description": "College of Arts & Sciences Writing Center statement supporting equitable access to GenAI tutoring while aligning with instructor expectations.",
+      "url": "https://www.wm.edu/as/wcc/aistatement/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "VA",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Virginia Executive Order 30 (January 2024, Gov. Glenn Youngkin) establishes AI Policy Standards, IT Standards, Education Guidelines (applying to K-12 and higher ed) and the Virginia AI Task Force. VITA (Virginia Information Technologies Agency) operates a Higher Education AI Registration Process. The State Council of Higher Education for Virginia (SCHEV) released a Reference Guide on Integrating AI into Virginia Education in 2025 (authored by George Mason University faculty). W&M is not part of a state university system but operates within this Virginia regulatory framework.",
+    "urls": [
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://www.vita.virginia.gov/policy--governance/governance/artificial-intelligence/higher-education-ai-registration-process/",
+      "https://www.schev.edu/Home/Components/News/News/688/263",
+      "https://www.woodsrogers.com/insights/publications/overview-of-virginias-ai-executive-order"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "William & Mary, a public R1 of about 9,600 students in Williamsburg, Virginia, has developed an AI posture that punches above its weight for an institution without a medical school. Strategic direction runs through three coordinated tracks: a provost-level University-Wide AI Policy Initiative (AIPI), co-chaired by Senior Vice Provost David Yalof and Associate Provost Pamela Eddy, which delivered comprehensive policy recommendations by July 2025; an IT-led tool operationalization effort under CIO Ed Aractingi and Manager of Innovation & AI Applications Louis Hubert; and a curriculum transformation anchored in the School of Computing, Data Sciences & Physics under Dean Doug Schmidt and Chair Daniel Runfola. Policy is distinctively comprehensive: a publicly tiered approved-tools list (Copilot, ChatGPT Edu, Gemini, Firefly, Workday Assistant, Grammarly, Blackboard AI fully approved; Claude and Perplexity allowed on non-sensitive data; DeepSeek banned from the campus wireless network). Enterprise platforms are broad and include a multi-school ChatGPT Edu pilot launched October 2025 alongside existing Microsoft Copilot and Google Gemini deployments. On the academic side, a new university-wide AI minor (September 2025) and a Board-approved Applied AI bachelor's degree (November 2025) are explicitly ethics-integrated and discipline-agnostic, complementing the Mason School of Business's AI Integration Team (Dawn Edmiston / Karen Conner), the Law School's national AI-law footprint (Margaret Hu's casebook, CLCT's ACT Project participation), and STLI's faculty development program including the SKEPTICS framework. Research strengths cluster in applied AI at Global Research Institute units — AidData (AI/ML for development outcomes), DisinfoLab (AI manipulated-media detection), and DIGLab (AI-in-learning in Uganda). Notable agentic AI experiment: Wren, an autonomous Givzey/Version2.ai fundraiser handling a ~500-donor portfolio. Gaps include no dedicated chief AI officer, no publicly disclosed dollar figures for AI infrastructure investment, no syllabus-level AI policy mandate, and limited public detail on GPU infrastructure (an NSF MRI proposal is outstanding).",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.wm.edu/sites/ai/",
+      "https://www.wm.edu/sites/ai/guidelines/",
+      "https://www.wm.edu/sites/ai/tools/",
+      "https://www.wm.edu/offices/it/services/ai/guidelines/",
+      "https://www.wm.edu/offices/academicaffairs/ai-policy-initiative/",
+      "https://www.wm.edu/offices/academicaffairs/_documents/initiatives-documents/aipi_final_report.pdf",
+      "https://news.wm.edu/2025/09/12/new-minor-in-artificial-intelligence-available-for-all-wm-undergraduates/",
+      "https://catalog.wm.edu/preview_program.php?catoid=34&poid=7275&returnto=5205",
+      "https://cdsp.wm.edu/about/ai/",
+      "https://flathatnews.com/2025/12/02/board-of-visitors-approves-degree-programs-in-artificial-intelligence-bioengineering/",
+      "https://news.wm.edu/2025/10/01/william-mary-launches-chatgpt-edu-pilot/",
+      "https://www.wm.edu/offices/it/services/microsoftoffice365/webapps/copilot/",
+      "https://mason.wm.edu/news/2025/shaping-the-future-of-business-education-ai-integration-at-william-and-mary.php",
+      "https://mason.wm.edu/news/2025/a-transformative-approach-to-generative-ai-in-business-education.php",
+      "https://poetsandquants.com/2025/02/26/ai-integration-at-william-mary/",
+      "https://mason.wm.edu/faculty/directory/edmiston-d.php",
+      "https://news.wm.edu/2026/04/17/wm-faculty-join-innovative-artificial-intelligence-network/",
+      "https://news.wm.edu/2025/09/02/margaret-hu-releases-leading-casebook-on-ai-and-law/",
+      "https://law.wm.edu/academics/intellectuallife/researchcenters/clct/",
+      "https://law.wm.edu/policies/ai-policy.pdf",
+      "https://www.wm.edu/as/wcc/aistatement/",
+      "https://news.wm.edu/2025/10/13/william-mary-launches-dynamic-research-incubator-model-following-r1-university-designation/",
+      "https://news.wm.edu/2026/04/08/gri-announces-significant-investments-in-applied-research-at-william-mary/",
+      "https://www.wm.edu/offices/global-research/research/diglab/",
+      "https://www.wm.edu/sites/aiddata/",
+      "https://www.aiddata.org/",
+      "https://disinfolab.wm.edu/",
+      "https://www.wm.edu/offices/global-research/for-students/student-projects/disinfolab/",
+      "https://www.insidehighered.com/news/business/fundraising/2024/12/11/interview-ai-higher-ed-fundraiser",
+      "https://advancement.wm.edu/news/2024/version2-ai-givzey-pilot.php",
+      "https://www.philanthropy.com/article/can-ai-raise-money-and-not-replace-humans-8-lessons-so-far",
+      "https://stli.wm.edu/",
+      "https://stli.wm.edu/academy/",
+      "https://www.wm.edu/sites/digitalaccessibility/",
+      "https://www.wm.edu/offices/it/news/william-marys-commitment-to-digital-accessibility.php",
+      "https://www.wm.edu/offices/it/about/staff/aractingi_e.php",
+      "https://www.wm.edu/offices/it/about/staff/hubert_l.php",
+      "https://www.wm.edu/about/administration/president/",
+      "https://www.wm.edu/about/administration/provost/",
+      "https://www.wm.edu/about/administration/strategicplanning/vision2026/",
+      "https://www.wm.edu/offices/it/services/researchcomputing/atwm/",
+      "https://www.wm.edu/offices/it/about/year-in-review/research-computing/",
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://www.schev.edu/Home/Components/News/News/688/263",
+      "https://www.woodsrogers.com/insights/publications/overview-of-virginias-ai-executive-order",
+      "https://news.wm.edu/2025/02/13/william-mary-classified-as-one-of-the-nations-top-research-institutions/",
+      "https://virginiabusiness.com/william-mary-r1-research-designation/"
+    ],
+    "search_queries": [
+      "\"William & Mary\" AI strategy 2025 2026 artificial intelligence",
+      "\"William & Mary\" generative AI policy guidelines faculty students",
+      "\"William & Mary\" AI council committee task force governance",
+      "\"William & Mary\" president provost CIO chief information officer 2026",
+      "\"William & Mary\" AI research center institute lab",
+      "\"William & Mary\" Microsoft Copilot ChatGPT enterprise deployment",
+      "\"William & Mary\" AI investment gift donor million funding grant",
+      "\"William & Mary\" HPC GPU cluster high performance computing AI research",
+      "Virginia state AI executive order higher education 2024 2025 university policy",
+      "\"William & Mary\" Mason School of Business AI curriculum Edmiston",
+      "\"William & Mary\" AI chatbot Wren fundraising Givzey",
+      "\"William & Mary\" Law School AI policy Hu Center for Legal Courts Technology",
+      "\"William & Mary\" STLI Studio for Teaching Learning Innovation faculty AI",
+      "\"William & Mary\" Vision 2026 strategic plan AI career preparation",
+      "\"William & Mary\" AidData DisinfoLab artificial intelligence research",
+      "\"William & Mary\" R1 research designation 2025 investment research incubator",
+      "\"William & Mary\" AI accessibility digital divide equity access initiative",
+      "\"William & Mary\" Louis Hubert Innovation AI Applications director IT"
+    ],
+    "gaps_acknowledged": [
+      "AIPI Final Report PDF could not be parsed directly (binary); report body relies on the public summary on the AIPI page.",
+      "Law School AI Policy PDF could not be parsed directly (binary); included as a source URL but key provisions were not extracted verbatim.",
+      "Specific dollar amounts for ChatGPT Edu, Copilot, Blackboard AI, and Adobe Firefly licenses are not publicly disclosed.",
+      "GPU count for dedicated AI compute is not publicly reported (NSF MRI grant for a GPU cluster is pending).",
+      "No explicit institution-wide chief AI officer role; AI leadership is distributed across Provost, IT, CDSP, STLI and individual schools.",
+      "No publicly documented syllabus-level AI policy mandate across the university — policy sits at the community-wide guideline level with school-level variation."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "curriculum_led",
+        "balanced_enterprise",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 26,
+        "research_compute_powerhouse": 14,
+        "curriculum_led": 17,
+        "governance_led": 12,
+        "student_success_led": 6,
+        "workforce_regional_development": 6,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-07",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 0,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "SciClone and Chesapeake clusters",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 20000000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 2,
+        "institutional": 11,
+        "industry_vendor": 1,
+        "other_unclear": 2,
+        "public_federal_state": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "other": 1,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 1
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Copilot",
+            "Copilot Chat",
+            "Copilot for Microsoft 365"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 2,
+          "products": [
+            "Firefly"
+          ]
+        },
+        {
+          "vendor": "Blackboard",
+          "mentions": 2,
+          "products": [
+            "Blackboard Learn AI Design Assistant",
+            "Learn Ultra with AI Design Assistant and AI Conversations"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini"
+          ]
+        },
+        {
+          "vendor": "Grammarly",
+          "mentions": 2,
+          "products": [
+            "Grammarly AI"
+          ]
+        },
+        {
+          "vendor": "Version2.ai (Givzey) Wren Virtual Engagement Officer",
+          "mentions": 2,
+          "products": [
+            "Wren Virtual Engagement Officer"
+          ]
+        },
+        {
+          "vendor": "Workday",
+          "mentions": 2,
+          "products": [
+            "Workday Assistant"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude"
+          ]
+        },
+        {
+          "vendor": "DeepSeek DeepSeek",
+          "mentions": 1,
+          "products": [
+            "DeepSeek"
+          ]
+        },
+        {
+          "vendor": "Perplexity AI Perplexity",
+          "mentions": 1,
+          "products": [
+            "Perplexity"
+          ]
+        },
+        {
+          "vendor": "Perplexity AI Perplexity Pro",
+          "mentions": 1,
+          "products": [
+            "Perplexity Pro"
+          ]
+        },
+        {
+          "vendor": "William & Mary (internal) STLI Academy",
+          "mentions": 1,
+          "products": [
+            "STLI Academy"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "productivity",
+          "title": "AidData AI/ML Development Research",
+          "summary": "Long-standing, grant-funded applied AI program at W&M with global policy reach; a signature research asset distinguishing W&M from peer R1s.",
+          "source_url": "https://www.wm.edu/sites/aiddata/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "W&M Digital Accessibility Program",
+          "summary": "Creates a dedicated accessibility function that filters the growing AI tool catalog through a disability-access lens.",
+          "source_url": "https://www.wm.edu/sites/digitalaccessibility/"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 14,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "AIPI Final Report PDF could not be parsed directly (binary); report body relies on the public summary on the AIPI page.",
+        "Law School AI Policy PDF could not be parsed directly (binary); included as a source URL but key provisions were not extracted verbatim.",
+        "Specific dollar amounts for ChatGPT Edu, Copilot, Blackboard AI, and Adobe Firefly licenses are not publicly disclosed.",
+        "GPU count for dedicated AI compute is not publicly reported (NSF MRI grant for a GPU cluster is pending).",
+        "No explicit institution-wide chief AI officer role; AI leadership is distributed across Provost, IT, CDSP, STLI and individual schools.",
+        "No publicly documented syllabus-level AI policy mandate across the university — policy sits at the community-wide guideline level with school-level variation."
+      ]
+    }
+  }
+}

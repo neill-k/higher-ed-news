@@ -1,0 +1,1823 @@
+{
+  "institution": "University of Missouri-Columbia",
+  "slug": "university-of-missouri-columbia",
+  "city_state": "Columbia, MO",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Missouri System",
+  "enrollment": 31300,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Mun Y. Choi (UM System President and MU Chancellor)",
+      "url": "https://president.missouri.edu/"
+    },
+    "provost": {
+      "name": "Matthew P. Martens",
+      "url": "https://provost.missouri.edu/directory/matthew-martens/"
+    },
+    "cio": {
+      "name": "Ben Canlas (UM System Vice President for IT and MU CIO)",
+      "url": "https://showme.missouri.edu/2024/ben-canlas-named-um-system-vice-president-for-it-and-mu-cio/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Kevin Brown",
+      "title": "Associate Professor of Digital Media and Performance Studies; inaugural Chair, MU Artificial Intelligence Committee",
+      "url": "https://committees.missouri.edu/artificial-intelligence-committee/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence at Mizzou (Office of the Provost Priority)",
+        "url": "https://provost.missouri.edu/provost-priorities/artificial-intelligence/",
+        "year": 2025
+      },
+      {
+        "title": "Task Force on Artificial Intelligence in the Learning Environment Report",
+        "url": "https://provost.missouri.edu/wp-content/uploads/2024/08/TF-Report-AI-in-the-Learning-Environment.pdf",
+        "year": 2024
+      },
+      {
+        "title": "AI Update Fall 2024",
+        "url": "https://provost.missouri.edu/ai-update-fall-2024/",
+        "year": 2024
+      },
+      {
+        "title": "AI Update Spring 2025",
+        "url": "https://provost.missouri.edu/ai-update-spring-2025/",
+        "year": 2025
+      },
+      {
+        "title": "Division of IT AI Strategy and Innovation",
+        "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/",
+        "year": 2025
+      }
+    ],
+    "summary": "Mizzou has adopted 'Artificial Intelligence' as an explicit Provost priority under Provost Matthew Martens, framed as 'Embracing the innovation and opportunity of AI in a socially responsible manner that aligns with the values of our institution.' The strategy is operationalized through a June 2024 AI in the Learning Environment Task Force report (pedagogy, learning, ethics recommendations), a standing AI Committee established in Spring 2025, a campus AI Teaching Fellows network (one per college), and a coordinated enterprise AI portfolio (ChatGPT Enterprise, Microsoft 365 Copilot, Google Gemini, NotebookLM, Grammarly, plus the Mizzou-built Show-Me AI walled-garden platform). Provost AI priorities include embedding AI syllabus statements, launching AI-specific degree programs, and publishing data-classification-aware guidance for all generative AI use."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://doit.missouri.edu/about/strategy-and-innovation/ai/",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-tools",
+      "https://oai.missouri.edu/chatgpt-artificial-intelligence-and-academic-integrity/",
+      "https://provost.missouri.edu/wp-content/uploads/2024/08/AI-Syllabus-Statements-1.pdf",
+      "https://tlc.missouri.edu/syllabi-policies-for-ai-generative-tools/"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Default rule: if an instructor does not clearly allow generative AI, it is forbidden in coursework",
+      "Faculty must include an AI syllabus statement in every course beginning Summer 2025 (endorsed by Faculty Council)",
+      "April 2026 Faculty Council approved an AI use scale policy: assignments must be labeled Level 0 (no AI), Level 1, Level 2, or Level 3 (AI permitted on larger tasks)",
+      "UM System Education versions of ChatGPT and Microsoft Copilot approved for DCL1 through DCL3 data; DCL4 (Restricted) not permitted in generative AI tools",
+      "Student records (FERPA), health data, and personal information must not be entered into unapproved AI systems",
+      "Show-Me AI walled-garden platform maintains DCL3-secure status and FERPA compliance for faculty/student use",
+      "AI-generated code should not be deployed in institutional IT systems without approval (UM Policy BPM 12004 governs IT product evaluation, including AI)",
+      "Academic integrity policy (since Aug 2023) explicitly prohibits 'unauthorized use of artificially generated content' in assessments"
+    ],
+    "summary": "Missouri's posture is comprehensive: a default-off academic policy layered with syllabus-level disclosure, a formally adopted AI use scale (Level 0-3), a tiered enterprise tool portfolio keyed to the university's four data classification levels, and a walled-garden platform (Show-Me AI) that meets DCL3 and FERPA. The stance is permissive at the tool layer (many approved platforms for faculty/staff productivity and research) and cautious at the instructional layer (instructor must affirmatively allow AI)."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "MU Artificial Intelligence Committee",
+        "type": "committee",
+        "scope": "Campus standing committee established Spring 2025 by Faculty Council, Provost, and President to advise leadership on AI policies, use, and study across teaching, learning, research, and business practices. Chaired by Kevin Brown; 8 faculty members (including AI Fellow), 1 staff, 4 students, and 9 administrative designees from DoIT, Provost, Chief Privacy Officer, HR, Writing Center, and others.",
+        "url": "https://committees.missouri.edu/artificial-intelligence-committee/"
+      },
+      {
+        "name": "AI and the Learning Environment Task Force",
+        "type": "task_force",
+        "scope": "Provost-commissioned task force (spring 2024) with tri-chairs Enid Schatz (Graduate School), Tori Mondelli (Teaching for Learning Center), and Ben Trachtenberg (Office of Academic Integrity). Submitted June 2024 report with pedagogy, learning, and ethics recommendations to guide MU toward becoming an 'AI forward' institution.",
+        "url": "https://provost.missouri.edu/development/ai-and-the-learning-environment/"
+      },
+      {
+        "name": "AI and Information Technology Task Force",
+        "type": "task_force",
+        "scope": "Provost Martens-established group reviewing AI platforms and policies to align technical and policy infrastructure with student, faculty, and staff needs.",
+        "url": "https://provost.missouri.edu/provost-priorities/artificial-intelligence/"
+      },
+      {
+        "name": "AI Teaching Fellows Network",
+        "type": "other",
+        "scope": "14 faculty members (one per college/school) appointed for 2025-2026 academic year as AI teaching coordinators, experts, and advocates supporting AI implementation in teaching and learning; funded by Office of the Provost.",
+        "url": "https://provost.missouri.edu/development/ai-and-the-learning-environment/"
+      }
+    ],
+    "summary": "Governance at Mizzou combines a time-bounded Provost task force (2024, yielding the AI in the Learning Environment report) with a permanent Faculty Council / Provost / President-chartered AI Committee (2025) that sets policy across teaching, learning, research, and business practices. Distributed coverage runs through the 14-member AI Teaching Fellows network that embeds an AI point person in every college and school. DoIT, HR, and Finance operate a parallel AI and IT Task Force for enterprise tool selection and compliance."
+  },
+  "initiatives": [
+    {
+      "title": "Show-Me AI Walled-Garden Generative AI Platform",
+      "description": "Mizzou-built generative AI portal that aggregates multiple models (three Claude models, two Gemini models, three ChatGPT models, and Llama 4 Maverick 17B Instruct) behind single sign-on. Hosted entirely within Mizzou's secure infrastructure, FERPA-compliant, DCL3-secure, with user-encrypted storage, custom AI assistants, file uploads for course materials, and analytics on student prompt histories.",
+      "significance": "One of the few public R1 universities to run its own walled-garden multi-model AI platform rather than only reselling vendor enterprise SKUs, giving Mizzou an AI deployment template that separates institutional data from third-party training pipelines.",
+      "date_announced": "2025-09",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "MU Division of IT and Office of the Provost",
+        "description": "One-year proof-of-concept pilot launched with ~55 faculty in September 2025; students added January 2026. Dedicated Mizzou infrastructure, walled-garden architecture."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI (ChatGPT)",
+            "Anthropic (Claude)",
+            "Google (Gemini)",
+            "Meta (Llama 4 Maverick)"
+          ],
+          "description": "Multi-vendor model aggregation behind Mizzou-controlled walled garden; vendor models are accessed via APIs without user data being used for training."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Show-Me AI",
+          "vendor": "University of Missouri (in-house)",
+          "role": "Walled-garden portal and orchestration"
+        },
+        {
+          "name": "Claude (3 models)",
+          "vendor": "Anthropic",
+          "role": "LLM backend"
+        },
+        {
+          "name": "Gemini (2 models)",
+          "vendor": "Google",
+          "role": "LLM backend"
+        },
+        {
+          "name": "ChatGPT (3 models)",
+          "vendor": "OpenAI",
+          "role": "LLM backend"
+        },
+        {
+          "name": "Llama 4 Maverick 17B Instruct",
+          "vendor": "Meta",
+          "role": "Open-weight LLM backend"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a Mizzou-controlled data boundary for AI use, shifting compliance burden from vendor contract language to in-house infrastructure controls; creates a reference architecture for higher-ed institutions weighing vendor AI SKUs versus self-hosted orchestration.",
+      "source_urls": [
+        "https://teaching.missouri.edu/show-me-ai",
+        "https://doit.missouri.edu/help-shape-the-future-of-ai-at-mizzou-with-show-me-ai/",
+        "https://www.kbia.org/kbia-news/2026-02-02/the-university-of-missouri-prepares-to-launch-show-me-ai-program",
+        "https://themaneater.com/133393/news/the-university-of-missouri-is-testing-show-me-ai-and-other-artificial-intelligence-initiatives/"
+      ]
+    },
+    {
+      "title": "Roary AI Texting Assistant for Undergraduates",
+      "description": "Text-based AI chatbot launched January 22, 2025 via a partnership with EdSights. Checks in weekly with undergraduate students, provides advising, student-organization, and mental-health referrals, and surfaces belonging/self-efficacy signals to student success staff. FERPA-compliant closed system; MU spends less than $5 per undergraduate annually.",
+      "significance": "Sector-relevant case of a low-unit-cost retention chatbot operating at R1 scale (~30k+ students), built on a commercial framework (EdSights) grounded in Vincent Tinto's student-integration theory.",
+      "date_announced": "2025-01-22",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "mental_health_and_wellbeing",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 150000,
+        "funding_source": "MU Student Success",
+        "description": "Estimated at less than $5 per undergraduate annually; ~30,000 undergraduates places recurring cost in the low six figures."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "EdSights"
+          ],
+          "description": "Customized version of EdSights' chatbot, which is deployed at 150+ universities; grounded in Vincent Tinto's student integration research."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Roary",
+          "vendor": "EdSights",
+          "role": "Student success AI texting platform"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Uses a closed system with FERPA compliance; conversations are not used to train other AI models but staff can receive segmented conversation data, raising transparency considerations.",
+      "source_urls": [
+        "https://success.missouri.edu/meet-roary-mizzous-ai-texting-tool/",
+        "https://www.columbiamissourian.com/news/higher_education/mu-launches-ai-chatbot-for-undergraduate-students/article_75f607e0-e016-11ef-93f6-cf1078f8e703.html",
+        "https://themaneater.com/123897/news/university-of-missouri-implements-ai-chatbot-to-aid-students/",
+        "https://doit.missouri.edu/services/software-directory/roary/"
+      ]
+    },
+    {
+      "title": "MS and PhD in Artificial Intelligence",
+      "description": "UM System Board of Curators approved new Master of Science and PhD programs in Artificial Intelligence at MU (plus an MS at UMKC) in 2025-2026. The MS is a 30-credit program aimed at industry and applied research careers; the PhD is research-focused. Programs routed to Missouri Department of Higher Education and Workforce Development for state approval after Board approval.",
+      "significance": "Part of the growing wave of R1 institutions elevating AI from a CS track to a standalone degree discipline; creates a named PhD pipeline rather than just certificates or minors.",
+      "date_announced": "2026-02",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UM System operating budget; program fees",
+        "description": "Curators-approved new degree programs; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Missouri-Kansas City"
+          ],
+          "description": "Coordinated MS launches across the UM System; MU adds a PhD beyond the shared MS curriculum."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html",
+        "https://gradschool.missouri.edu/degreecategory/ai-and-machine-learning/"
+      ]
+    },
+    {
+      "title": "Undergraduate AI Certificate (Spring 2026)",
+      "description": "University-wide undergraduate AI certificate launched in Spring 2026 semester, open to students of any major. Four-course structure: AI Essentials, Writing with AI, AI Design Studio, plus one elective AI course. Facilitated by the College of Engineering and the College of Arts and Science.",
+      "significance": "An R1 example of a cross-college, major-agnostic AI literacy credential aimed squarely at workforce readiness across disciplines rather than only technical tracks.",
+      "date_announced": "2026-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "career_and_workforce_readiness",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Colleges of Engineering and Arts and Science",
+        "description": "Cross-college instructional capacity; specific investment not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "MU College of Engineering",
+            "MU College of Arts and Science"
+          ],
+          "description": "Cross-college co-delivered AI credential open to all undergraduates."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://themaneater.com/133393/news/the-university-of-missouri-is-testing-show-me-ai-and-other-artificial-intelligence-initiatives/",
+        "https://catalog.missouri.edu/collegeofengineering/additionalcertificatesminors/grad-cert-ai-machine-learning/"
+      ]
+    },
+    {
+      "title": "AI Use Scale Policy (Level 0-3) and Mandatory Syllabus Statements",
+      "description": "In April 2026, Faculty Council approved an AI Use Scale policy requiring every graded assignment to be labeled Level 0 (no AI), Level 1, Level 2, or Level 3 (AI permitted on larger tasks). This builds on the Summer 2025 Faculty Council endorsement requiring every syllabus to include an AI statement defining whether AI use is fully integrated, limited, or prohibited.",
+      "significance": "One of the more mechanically specific syllabus-level AI policies in the R1 cohort; moves beyond 'set expectations on the syllabus' to assignment-level disclosure with a shared four-level scale.",
+      "date_announced": "2026-04-02",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Academic governance (no direct spend)",
+        "description": "Policy instrument; cost absorbed in existing governance and faculty development channels."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy adopted by MU Faculty Council, Provost, and Office of Academic Integrity."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Normalizes per-assignment AI permissions as a campus standard; establishes a shared vocabulary (Level 0-3) that simplifies cross-course expectations for students and faculty.",
+      "source_urls": [
+        "https://abc17news.com/news/education/university-of-missouri/2026/04/02/mu-faculty-council-approves-ai-use-scale-policy/",
+        "https://abc17news.com/news/education/university-of-missouri/2026/03/18/mu-faculty-council-to-vote-on-ai-use-scale-policy/",
+        "https://provost.missouri.edu/wp-content/uploads/2024/08/AI-Syllabus-Statements-1.pdf"
+      ]
+    },
+    {
+      "title": "MU Artificial Intelligence Committee (Spring 2025)",
+      "description": "Permanent, jointly chartered AI committee established in Spring 2025 by Faculty Council, the Provost, and the President. Chaired by Kevin Brown. Advises leadership on AI policies across teaching, learning, research, and business practices; composition includes 8 faculty, 1 staff, 4 students, and 9 administrative designees from DoIT, the Chief Privacy Officer, HR, Provost, Writing Center, Mizzou Online, and VCR&ED.",
+      "significance": "Unusual tri-sponsored (Faculty Council + Provost + President) standing AI committee, giving AI governance structural continuity rather than leaving it as a Provost task force.",
+      "date_announced": "2025-03",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost and Office of the VP for IT",
+        "description": "Staffed through existing offices; admin support from VP for IT."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-unit committee."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides ongoing, faculty-backed governance channel for policy, literacy, and platform decisions.",
+      "source_urls": [
+        "https://committees.missouri.edu/artificial-intelligence-committee/",
+        "https://provost.missouri.edu/ai-update-spring-2025/"
+      ]
+    },
+    {
+      "title": "AI Teaching Fellows Network",
+      "description": "Provost-funded network of 14 AI Teaching Fellows (one per college/school) appointed for 2025-2026 to serve as AI integration coordinators, experts, and advocates within their units while contributing to campus-wide AI teaching activities.",
+      "significance": "Scales AI faculty development through distributed per-college champions rather than a single centralized team; a model several R1s are converging on.",
+      "date_announced": "2025-08",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "14 fellows with Provost-funded course releases/stipends (amount not disclosed)."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal network."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://provost.missouri.edu/provost-priorities/artificial-intelligence/",
+        "https://provost.missouri.edu/development/ai-and-the-learning-environment/"
+      ]
+    },
+    {
+      "title": "Energy Innovation Center ($120M) with AI Sustainability Research Pillar",
+      "description": "UM System Board of Curators approved $120M to build a 116,000-square-foot Energy Innovation Center near Lafferre Hall at Mizzou, scheduled to open in 2028. Explicitly includes AI sustainability and energy efficiency for AI compute among its research pillars, alongside nuclear, materials, storage, and cybersecurity research.",
+      "significance": "Large capital bet on AI-era energy infrastructure at a public R1; institutionalizes 'AI sustainability' as a research domain with dedicated facilities rather than a topical research line.",
+      "date_announced": "2025-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 120000000,
+        "funding_source": "UM System Board of Curators",
+        "description": "$120M approved for 116,000 sq ft facility opening 2028."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UM System"
+          ],
+          "description": "UM System-funded facility."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.missouri.edu/2025/mizzou-launches-energy-innovation-center-to-help-power-tomorrow/",
+        "https://www.umsystem.edu/ums/news/news_releases/202506251273018708_news",
+        "https://www.columbiamissourian.com/news/higher_education/a-new-mu-research-center-on-campus-will-address-ai-sustainability-and-improvement/article_1e07f3ce-f3b0-11ef-8d99-fbc35bf3f98a.html"
+      ]
+    },
+    {
+      "title": "Grace Hopper GH200 Superchip on NSF Nautilus / National Research Platform",
+      "description": "MU hosts the first and only publicly available NVIDIA GH200 Grace Hopper AI Superchip on the NSF-funded Nautilus hyper-converged cluster (National Research Platform), plus six A100 nodes, contributing over 1 TB of GPU memory and 5 TB of CPU RAM to the NRP community.",
+      "significance": "Positions MU as a public-research GPU access point for the nation's AI-capable academic computing fabric, not just its own faculty, strengthening its role in the National AI Research Resource (NAIRR) ecosystem.",
+      "date_announced": "2024-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF (Nautilus/NRP); NVIDIA (hardware); MU",
+        "description": "Hardware and hosting contributed to the National Research Platform."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "National Research Platform",
+            "NVIDIA"
+          ],
+          "description": "MU contributes AI accelerator capacity to the NRP Nautilus cluster; NVIDIA provides GH200 hardware."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Grace Hopper GH200 Superchip",
+          "vendor": "NVIDIA",
+          "role": "AI accelerator"
+        },
+        {
+          "name": "A100 GPU nodes",
+          "vendor": "NVIDIA",
+          "role": "AI accelerator"
+        },
+        {
+          "name": "Nautilus",
+          "vendor": "National Research Platform",
+          "role": "Hyper-converged distributed cluster"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://muidsi.missouri.edu/",
+        "https://arxiv.org/html/2410.16487"
+      ]
+    },
+    {
+      "title": "Hellbender HPC Environment",
+      "description": "University-wide HPC environment that replaces the Lewis cluster and doubles CPU capacity from 7,000 to 14,000 cores. Forms a core element of Mizzou's Research Data Ecosystem supporting AI/ML, data science, and high-performance analytics.",
+      "significance": "Baseline AI/ML compute capacity for a public R1; important datapoint for peer benchmarking on research-grade GPU/CPU scale.",
+      "date_announced": "2023-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "MU Research / UM System",
+        "description": "Campus HPC modernization."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "In-house research computing."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Hellbender",
+          "vendor": "University of Missouri (in-house)",
+          "role": "HPC environment"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.missouri.edu/news/go-further-faster-hellbender",
+        "https://docs.itrss.umsystem.edu/pub/hpc/start"
+      ]
+    },
+    {
+      "title": "$2.5M NSF Neuroadaptive Learning Ecosystems Grant",
+      "description": "Mizzou Engineering received a $2.5M, five-year NSF grant for 'Cultivating Neuroadaptive Learning Ecosystems through AI-Powered Personalized Learning,' pairing AI tutors and neuroadaptive signals with personalized learning research.",
+      "significance": "Positions Missouri in the federal AI-for-education research portfolio with a multi-year NSF program.",
+      "date_announced": "2025-05",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_tutoring_and_adaptive_learning",
+        "ai_research_center"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2500000,
+        "funding_source": "NSF",
+        "description": "Five-year NSF grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Federally funded research program on AI-powered personalized learning."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.missouri.edu/2025/mizzou-engineering-researcher-aims-to-level-the-ai-playing-field/",
+        "https://engineering.missouri.edu/2025/leveraging-technology-to-transform-engineering-education/"
+      ]
+    },
+    {
+      "title": "NVIDIA AI Enterprise and DGX Cloud Access via NAIRR Pilot",
+      "description": "Mizzou researchers received NVIDIA DGX Cloud and AI Enterprise access via the National AI Research Resource (NAIRR) Pilot to advance protein-structure and other AI research; NVIDIA contributed engineering guidance and mentorship.",
+      "significance": "Concrete public-R1 example of how NAIRR is routing industry compute into academic AI research, with visible downstream outputs (protein geometry work).",
+      "date_announced": "2025-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF NAIRR Pilot and NVIDIA (in-kind)",
+        "description": "Credits and engineering support contributed through NAIRR."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "NSF NAIRR Pilot"
+          ],
+          "description": "Federal compute pilot with NVIDIA-provided enterprise AI stack and DGX Cloud."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA AI Enterprise Software Platform",
+          "vendor": "NVIDIA",
+          "role": "AI stack"
+        },
+        {
+          "name": "NVIDIA DGX Cloud",
+          "vendor": "NVIDIA",
+          "role": "Managed AI compute"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.missouri.edu/2026/mizzou-researchers-crack-the-code-of-protein-geometry/"
+      ]
+    },
+    {
+      "title": "Enterprise AI Tool Portfolio (ChatGPT Enterprise, M365 Copilot, Gemini, NotebookLM)",
+      "description": "DoIT maintains a catalog of enterprise AI tools approved for DCL1-DCL3 data, accessed via single sign-on: ChatGPT Enterprise, Google Gemini, Google NotebookLM, Grammarly for Education, Microsoft M365 Copilot (Premium and Basic), Microsoft Teams Premium, Zoom AI Companion, TeamDynamix Conversational AI, and Apple Intelligence at the device level.",
+      "significance": "Illustrates the 'multi-vendor, tiered-by-data-classification' enterprise AI procurement pattern now standard among R1s, with clear DCL mappings to governance.",
+      "date_announced": "2025-06",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UM System and MU Division of IT",
+        "description": "Multi-vendor enterprise AI procurement with per-tool pilots and rollouts."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "OpenAI",
+            "Grammarly",
+            "Zoom",
+            "TeamDynamix",
+            "Apple"
+          ],
+          "description": "Vendor agreements for enterprise-grade AI tooling with data-protection terms."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI"
+        },
+        {
+          "name": "ChatGPT Enterprise (Edu)",
+          "vendor": "OpenAI",
+          "role": "General-purpose AI"
+        },
+        {
+          "name": "Google Gemini Pro",
+          "vendor": "Google",
+          "role": "General-purpose AI"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "AI research assistant"
+        },
+        {
+          "name": "Grammarly for Education",
+          "vendor": "Grammarly",
+          "role": "Writing assistant"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting AI"
+        },
+        {
+          "name": "TeamDynamix Conversational AI",
+          "vendor": "TeamDynamix",
+          "role": "IT service management AI"
+        },
+        {
+          "name": "Apple Intelligence",
+          "vendor": "Apple",
+          "role": "Device-level AI"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Codifies which tools are acceptable at which data sensitivity tier; creates a durable governance interface between procurement and privacy.",
+      "source_urls": [
+        "https://doit.missouri.edu/about/strategy-and-innovation/ai/",
+        "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-tools",
+        "https://doit.missouri.edu/services/software-directory/microsoft-copilot/",
+        "https://doit.missouri.edu/services/software-directory/google-gemini/"
+      ]
+    },
+    {
+      "title": "AI Ethics Canvas Module and AI Critical Literacy Podcast",
+      "description": "Mizzou's Teaching for Learning Center (TLC) published a 'Students' Guide to Ethical Use of AI' Canvas module and hosts the AI Critical Literacy Podcast, featuring Missouri School of Journalism professor Jared Schroeder in conversation with campus and external voices. Mizzou Libraries also maintains an AI research guide covering tools, prompt engineering, and ethical use.",
+      "significance": "Concrete AI-literacy artifacts aimed at students (not only policy documents), including a replicable Canvas module and a podcast format that reaches non-classroom audiences.",
+      "date_announced": "2024-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_ethics_framework",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Teaching for Learning Center; Mizzou Libraries",
+        "description": "Developed via existing TLC and Libraries capacity."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal TLC and Libraries product."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Canvas",
+          "vendor": "Instructure",
+          "role": "LMS hosting for Ethical Use of AI module"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://tlc.missouri.edu/resource/new-ai-ethics-module/",
+        "https://libraryguides.missouri.edu/ai/tools"
+      ]
+    },
+    {
+      "title": "AI-Empowered Spatial Computing Center of Excellence",
+      "description": "Tri-institution Center of Excellence in AI-empowered spatial computing joining University of Missouri-Kansas City, University of Missouri-Columbia, and Harris-Stowe State University (St. Louis), focusing on the intersection of AI, spatial data, and computing.",
+      "significance": "Cross-institution Center of Excellence that includes an HBCU (Harris-Stowe) alongside two public R1s/R2s, addressing equity of access while advancing spatial AI research.",
+      "date_announced": "2024-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "cross_border_research_alliance",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Not disclosed",
+        "description": "Tri-institution partnership."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Missouri-Kansas City",
+            "Harris-Stowe State University"
+          ],
+          "description": "Public R1 + public R2 + HBCU Center of Excellence."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://muidsi.missouri.edu/"
+      ]
+    },
+    {
+      "title": "Center for AI Research and Spatio-Temporal Statistics",
+      "description": "MU Statistics and Data Science-based research center at the intersection of spatio-temporal modeling, statistics, and AI.",
+      "significance": "Discipline-specific AI research hub outside of CS/engineering, illustrating the migration of AI research into statistics departments.",
+      "date_announced": "2024-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Department of Statistics and Data Science",
+        "description": "Departmental research center."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal research center."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://stat.missouri.edu/center-ai-research-and-spatio-temporal-statistics"
+      ]
+    },
+    {
+      "title": "NSF I-Corps / Technology Commercialization Hub ($5.5M)",
+      "description": "Four-year, $5.5M NSF cooperative agreement funds a Technology, Entrepreneurship and Commercialization Hub at Mizzou, connecting AI research to startup formation and regional economic development.",
+      "significance": "Example of federal investment linking campus AI research to regional innovation pipelines, an increasingly common R1 posture.",
+      "date_announced": "2024-09",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 5500000,
+        "funding_source": "NSF (cooperative agreement)",
+        "description": "Four-year $5.5M NSF cooperative agreement."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "NSF-funded commercialization hub."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.missouri.edu/2024/mizzou-establishes-commercialization-hub-with-nsf-award-5-5-million-agreement/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "MU Institute for Data Science and Informatics (MUIDSI)",
+      "focus": "AI, big data analytics, bioinformatics, biomedical informatics, geospatial informatics; hosts graduate/PhD programs and GH200 access",
+      "founded": "2008",
+      "url": "https://muidsi.missouri.edu/"
+    },
+    {
+      "name": "NextGen Precision Health Institute (Roy Blunt Building)",
+      "focus": "Precision health using deep learning on radiological and microscopy images, protein structure prediction, cancer and neurological disease modeling",
+      "founded": "2021",
+      "url": "https://precisionhealth.missouri.edu/"
+    },
+    {
+      "name": "Center for AI Research and Spatio-Temporal Statistics",
+      "focus": "Intersection of spatio-temporal modeling, statistics, data science, and AI",
+      "founded": "2024",
+      "url": "https://stat.missouri.edu/center-ai-research-and-spatio-temporal-statistics"
+    },
+    {
+      "name": "AI-Empowered Spatial Computing Center of Excellence",
+      "focus": "Spatial computing and AI (partnership with UMKC and Harris-Stowe)",
+      "founded": "2024",
+      "url": "https://muidsi.missouri.edu/"
+    },
+    {
+      "name": "Energy Innovation Center (opening 2028)",
+      "focus": "Energy production, storage, distribution; AI sustainability; nuclear and materials; cybersecurity",
+      "founded": "2028",
+      "url": "https://engineering.missouri.edu/2025/mizzou-launches-energy-innovation-center-to-help-power-tomorrow/"
+    },
+    {
+      "name": "Mizzou Quantum Innovation Center",
+      "focus": "IBM Quantum Systems access and Qiskit beta access; ties to bioinformatics, geospatial, and AI research",
+      "founded": null,
+      "url": "https://muidsi.missouri.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Artificial Intelligence",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in AI and Machine Learning",
+      "level": "grad",
+      "launched": null,
+      "url": "https://gradschool.missouri.edu/degree-program/ai-and-machine-learning-graduate-certificate/"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate AI Certificate (AI Essentials, Writing with AI, AI Design Studio, + elective)",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://themaneater.com/133393/news/the-university-of-missouri-is-testing-show-me-ai-and-other-artificial-intelligence-initiatives/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Data Science and Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://muidsi.missouri.edu/academic-programs/m-s-data-science-and-analytics-program/masters/"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Informatics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.missouri.edu/graduateschool/informatics/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificates in Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://muidsi.missouri.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in High Performance Computing",
+      "level": "grad",
+      "launched": null,
+      "url": "https://online.missouri.edu/degrees-programs/mu/graduate-school/high-performance-computing/ms"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "University of Missouri (in-house)",
+      "product": "Show-Me AI (walled-garden multi-model generative AI platform)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-09",
+      "url": "https://teaching.missouri.edu/show-me-ai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (Premium and Basic)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-09",
+      "url": "https://doit.missouri.edu/services/software-directory/microsoft-copilot/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Enterprise / Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-tools"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini Pro",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://doit.missouri.edu/services/software-directory/google-gemini/"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/"
+    },
+    {
+      "vendor": "Grammarly",
+      "product": "Grammarly for Education",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Teams Premium (AI features)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/"
+    },
+    {
+      "vendor": "TeamDynamix",
+      "product": "Conversational AI (IT service management)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/"
+    },
+    {
+      "vendor": "EdSights",
+      "product": "Roary AI texting chatbot",
+      "scope": "campus-wide",
+      "user_count": 30000,
+      "deployed": "2025-01",
+      "url": "https://success.missouri.edu/meet-roary-mizzous-ai-texting-tool/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Hellbender (primary HPC) and Nautilus (NSF National Research Platform node hosted at MU)",
+    "gpu_count": 24,
+    "url": "https://research.missouri.edu/news/go-further-faster-hellbender",
+    "summary": "Hellbender is MU's main HPC environment with ~14,000 CPU cores, doubling the prior Lewis cluster. MU additionally hosts six A100 nodes (24 NVIDIA A100 GPUs, >1 TB GPU memory, >5 TB CPU RAM, 1,280 CPU cores) and the first publicly available NVIDIA GH200 Grace Hopper AI Superchip on the NSF-funded Nautilus / National Research Platform. Researchers also access NVIDIA DGX Cloud and AI Enterprise via the NAIRR Pilot, and IBM Quantum Systems through the Mizzou Quantum Innovation Center."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Energy Innovation Center (AI sustainability research pillar)",
+      "amount_usd": 120000000,
+      "source": "UM System Board of Curators",
+      "purpose": "116,000 sq ft research facility for energy and AI sustainability, opening 2028",
+      "date": "2025-06",
+      "url": "https://www.umsystem.edu/ums/news/news_releases/202506251273018708_news"
+    },
+    {
+      "title": "NSF I-Corps / Technology Commercialization Hub",
+      "amount_usd": 5500000,
+      "source": "NSF (four-year cooperative agreement)",
+      "purpose": "AI and engineering commercialization hub",
+      "date": "2024-09",
+      "url": "https://engineering.missouri.edu/2024/mizzou-establishes-commercialization-hub-with-nsf-award-5-5-million-agreement/"
+    },
+    {
+      "title": "NSF Neuroadaptive Learning Ecosystems",
+      "amount_usd": 2500000,
+      "source": "NSF",
+      "purpose": "AI-powered personalized learning research (5 years)",
+      "date": "2025-05",
+      "url": "https://engineering.missouri.edu/2025/mizzou-engineering-researcher-aims-to-level-the-ai-playing-field/"
+    },
+    {
+      "title": "FABRIC Language Model Training Access",
+      "amount_usd": 500000,
+      "source": "NSF",
+      "purpose": "Grant for researcher access to FABRIC infrastructure to train large language models",
+      "date": "2025-03",
+      "url": "https://engineering.missouri.edu/tag/artificial-intelligence/"
+    },
+    {
+      "title": "NextGen Precision Health building",
+      "amount_usd": 221000000,
+      "source": "UM System, state of Missouri, private partners",
+      "purpose": "Research facility supporting AI/ML-enabled precision health",
+      "date": "2021-10",
+      "url": "https://precisionhealth.missouri.edu/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "Hardware (GH200, A100s), AI Enterprise stack, DGX Cloud via NAIRR Pilot, engineering mentorship",
+      "date": "2024-10",
+      "url": "https://engineering.missouri.edu/2026/mizzou-researchers-crack-the-code-of-protein-geometry/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NSF (NAIRR Pilot, Nautilus, FABRIC, I-Corps, Neuroadaptive Learning grant)",
+      "purpose": "AI research compute and grants",
+      "date": "2024-09",
+      "url": "https://engineering.missouri.edu/2024/mizzou-establishes-commercialization-hub-with-nsf-award-5-5-million-agreement/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "EdSights",
+      "purpose": "Roary AI texting chatbot for student success (Vincent Tinto-based retention model)",
+      "date": "2025-01",
+      "url": "https://success.missouri.edu/meet-roary-mizzous-ai-texting-tool/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft 365 Copilot enterprise deployment",
+      "date": "2025-09",
+      "url": "https://doit.missouri.edu/faculty-and-staff-help-test-microsoft-365-copilot/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Enterprise/Edu for UM System",
+      "date": null,
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-tools"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini and NotebookLM enterprise access",
+      "date": null,
+      "url": "https://doit.missouri.edu/services/software-directory/google-gemini/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM Quantum",
+      "purpose": "IBM Quantum Systems and Qiskit beta access via Mizzou Quantum Innovation Center",
+      "date": null,
+      "url": "https://muidsi.missouri.edu/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UMKC and Harris-Stowe State University",
+      "purpose": "AI-Empowered Spatial Computing Center of Excellence",
+      "date": "2024-06",
+      "url": "https://muidsi.missouri.edu/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Roary",
+      "scope": "Weekly text check-ins with ~30,000 undergraduates; advising, student organizations, mental health referrals",
+      "url": "https://success.missouri.edu/meet-roary-mizzous-ai-texting-tool/"
+    },
+    {
+      "type": "tutor",
+      "name": "Show-Me AI (student pilot)",
+      "scope": "Walled-garden multi-model AI portal; faculty-created custom assistants, 24/7 learning support; students added January 2026",
+      "url": "https://teaching.missouri.edu/show-me-ai"
+    },
+    {
+      "type": "other",
+      "name": "AI-Powered Personalized Learning (NSF Neuroadaptive research project)",
+      "scope": "Research prototype tutors for AI-driven personalized learning",
+      "url": "https://engineering.missouri.edu/2025/mizzou-engineering-researcher-aims-to-level-the-ai-playing-field/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Walled-garden AI access (Show-Me AI) for equitable AI tool access",
+      "description": "Task Force report explicitly names AI access as a digital-divide concern in Missouri's mixed urban/rural context and positions the Show-Me AI walled garden as a mechanism to provide equal and affordable AI access",
+      "url": "https://teaching.missouri.edu/show-me-ai"
+    },
+    {
+      "title": "AI-Empowered Spatial Computing Center of Excellence with Harris-Stowe",
+      "description": "Tri-institution center including Harris-Stowe State University (HBCU) alongside UMKC and MU, supporting underrepresented student participation in AI research",
+      "url": "https://muidsi.missouri.edu/"
+    },
+    {
+      "title": "AI Ethics Canvas module and AI Critical Literacy Podcast",
+      "description": "TLC-produced student-facing resources covering privacy, bias, hallucinations, and responsible AI use",
+      "url": "https://tlc.missouri.edu/resource/new-ai-ethics-module/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Missouri",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Missouri Governor Mike Kehoe issued a 2025 executive order directing creation of a state AI strategic framework, policy recommendations, and AI training-program best practices. Missouri's Department of Elementary and Secondary Education published AI Guidance for Local Education Agencies (v1.0) for the 2025-26 school year, focused on K-12. At the UM System level, AI procurement falls under BPM 12004 (IT product evaluation), ChatGPT/Copilot Education are approved system-wide for DCL1-DCL3 data, and the UM Academic Technology group publishes system-wide AI guidance for faculty, including syllabus templates. Missouri HB 3139 proposed adding AI to computer science graduation requirements beginning 2027-28.",
+    "urls": [
+      "https://www.govtech.com/artificial-intelligence/missouri-executive-order-seeks-to-advance-ai-strategy-use",
+      "https://dese.mo.gov/media/pdf/artificial-intelligence-guidance-local-education-agencies",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-tools"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-02",
+      "summary": "Student petition on Change.org started by junior Drew Bufalo calling on UM System President Mun Choi to halt or regulate Show-Me AI. Concerns raised include lack of student consultation before institution-wide rollout, environmental/energy cost of large models, accuracy/hallucination risk, and erosion of faculty feedback quality. Mizzou continued the pilot.",
+      "status": "active",
+      "url": "https://themaneater.com/133510/news/student-petition-calls-on-university-to-halt-show-me-ai-development/"
+    }
+  ],
+  "narrative_summary": "The University of Missouri-Columbia (Mizzou) has moved from cautious observer to one of the more structurally ambitious public R1s in higher-ed AI, operating an unusual combination of locally built and multi-vendor AI infrastructure under a formal governance stack. Provost Matthew Martens (appointed June 2024) has elevated AI to a named Provost priority; UM System President and MU Chancellor Mun Choi and UM System VP for IT / MU CIO Ben Canlas run the enterprise side. The policy posture is comprehensive: a 2023 academic-integrity baseline, a 2024 Provost-commissioned AI in the Learning Environment Task Force, Summer 2025 mandatory AI syllabus statements, an April 2026 Faculty Council-approved AI Use Scale (Level 0-3) for every graded assignment, and a Spring 2025 standing AI Committee jointly chartered by Faculty Council, the Provost, and the President (chaired by Kevin Brown). A 14-person AI Teaching Fellows network places an AI point person in every college. On infrastructure, Mizzou runs Hellbender (~14k CPU cores), hosts the NSF-funded Nautilus cluster with the first publicly available NVIDIA GH200 Grace Hopper superchip, accesses NVIDIA DGX Cloud via the NAIRR Pilot, and operates Show-Me AI, a DCL3-secure walled-garden that aggregates three Claude, two Gemini, three ChatGPT, and Llama 4 Maverick models behind SSO. Enterprise procurement tiers ChatGPT Enterprise, M365 Copilot, Gemini, NotebookLM, Grammarly, Zoom AI Companion, and TeamDynamix AI to data-classification levels. On the academic side, the UM Board of Curators approved new MS and PhD programs in AI (2026) and a cross-college undergraduate AI certificate launched Spring 2026. Investments include a $120M Energy Innovation Center with an AI-sustainability pillar (opening 2028), a $5.5M NSF commercialization hub, a $2.5M NSF Neuroadaptive Learning grant, and a $500k FABRIC LLM-training grant. Student-facing AI is anchored by Roary (an EdSights-based FERPA-compliant texting chatbot launched January 2025 at less than $5 per undergraduate per year) plus the Show-Me AI student pilot that opened in January 2026. Gaps and frictions are real: there is no chief AI officer; the major gift / endowment picture for AI is modest relative to peer R1s; and a student-led Change.org petition has challenged Show-Me AI over consultation, environmental cost, and pedagogical impact. Overall, Mizzou's posture is 'comprehensive-cautious': permissive toolkit, prescriptive instructional rules, and a clear institutional bet on running its own AI platform rather than outsourcing the data plane.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://provost.missouri.edu/provost-priorities/artificial-intelligence/",
+      "https://doit.missouri.edu/about/strategy-and-innovation/ai/",
+      "https://committees.missouri.edu/artificial-intelligence-committee/",
+      "https://provost.missouri.edu/development/ai-and-the-learning-environment/",
+      "https://provost.missouri.edu/wp-content/uploads/2024/08/TF-Report-AI-in-the-Learning-Environment.pdf",
+      "https://provost.missouri.edu/ai-update-fall-2024/",
+      "https://provost.missouri.edu/ai-update-spring-2025/",
+      "https://teaching.missouri.edu/show-me-ai",
+      "https://doit.missouri.edu/help-shape-the-future-of-ai-at-mizzou-with-show-me-ai/",
+      "https://www.kbia.org/kbia-news/2026-02-02/the-university-of-missouri-prepares-to-launch-show-me-ai-program",
+      "https://themaneater.com/133393/news/the-university-of-missouri-is-testing-show-me-ai-and-other-artificial-intelligence-initiatives/",
+      "https://themaneater.com/133510/news/student-petition-calls-on-university-to-halt-show-me-ai-development/",
+      "https://www.columbiamissourian.com/news/higher_education/mu-embraces-ai-use-with-show-me-ai/article_7272b58f-55fe-40db-b839-e3c6f69c529e.html",
+      "https://www.columbiamissourian.com/innovations/science_and_technology/students-push-back-as-mizzou-pilots-show-me-ai-initiative/article_23cf1b89-bd2d-4bca-abef-7ebb83da5891.html",
+      "https://success.missouri.edu/meet-roary-mizzous-ai-texting-tool/",
+      "https://success.missouri.edu/more-about-roary-for-faculty-staff-and-families/",
+      "https://doit.missouri.edu/services/software-directory/roary/",
+      "https://www.columbiamissourian.com/news/higher_education/mu-launches-ai-chatbot-for-undergraduate-students/article_75f607e0-e016-11ef-93f6-cf1078f8e703.html",
+      "https://themaneater.com/123897/news/university-of-missouri-implements-ai-chatbot-to-aid-students/",
+      "https://www.komu.com/news/midmissourinews/mu-launches-ai-help-bot-roary-to-support-student-success/article_d921375a-d8d6-11ef-aab2-b39529505a02.html",
+      "https://abc17news.com/news/education/university-of-missouri/2026/03/18/mu-faculty-council-to-vote-on-ai-use-scale-policy/",
+      "https://abc17news.com/news/education/university-of-missouri/2026/04/02/mu-faculty-council-approves-ai-use-scale-policy/",
+      "https://provost.missouri.edu/wp-content/uploads/2024/08/AI-Syllabus-Statements-1.pdf",
+      "https://tlc.missouri.edu/syllabi-policies-for-ai-generative-tools/",
+      "https://tlc.missouri.edu/resource/new-ai-ethics-module/",
+      "https://oai.missouri.edu/chatgpt-artificial-intelligence-and-academic-integrity/",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-tools",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/mizzou",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-faculty/how-do-i-set-and-communicate-ai-policy",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/generative-ai-faculty/ai-syllabus-information",
+      "https://doit.missouri.edu/services/software-directory/microsoft-copilot/",
+      "https://doit.missouri.edu/services/software-directory/google-gemini/",
+      "https://doit.missouri.edu/faculty-and-staff-help-test-microsoft-365-copilot/",
+      "https://muidsi.missouri.edu/",
+      "https://stat.missouri.edu/center-ai-research-and-spatio-temporal-statistics",
+      "https://gradschool.missouri.edu/degreecategory/ai-and-machine-learning/",
+      "https://catalog.missouri.edu/graduateschool/datascienceanalytics/",
+      "https://catalog.missouri.edu/graduateschool/informatics/",
+      "https://engineering.missouri.edu/degree/graduate-certificate-in-ai-and-machine-learning/",
+      "https://catalog.missouri.edu/collegeofengineering/additionalcertificatesminors/grad-cert-ai-machine-learning/",
+      "https://online.missouri.edu/degrees-programs/mu/graduate-school/high-performance-computing/ms",
+      "https://engineering.missouri.edu/2025/mizzou-engineering-researcher-aims-to-level-the-ai-playing-field/",
+      "https://engineering.missouri.edu/2025/leveraging-technology-to-transform-engineering-education/",
+      "https://engineering.missouri.edu/2024/mizzou-establishes-commercialization-hub-with-nsf-award-5-5-million-agreement/",
+      "https://engineering.missouri.edu/2026/mizzou-researchers-crack-the-code-of-protein-geometry/",
+      "https://engineering.missouri.edu/tag/artificial-intelligence/",
+      "https://engineering.missouri.edu/2025/mizzou-launches-energy-innovation-center-to-help-power-tomorrow/",
+      "https://www.umsystem.edu/ums/news/news_releases/202506251273018708_news",
+      "https://www.columbiamissourian.com/news/higher_education/a-new-mu-research-center-on-campus-will-address-ai-sustainability-and-improvement/article_1e07f3ce-f3b0-11ef-8d99-fbc35bf3f98a.html",
+      "https://research.missouri.edu/news/go-further-faster-hellbender",
+      "https://research.missouri.edu/centers",
+      "https://docs.itrss.umsystem.edu/pub/hpc/start",
+      "https://arxiv.org/html/2410.16487",
+      "https://precisionhealth.missouri.edu/",
+      "https://precisionhealth.missouri.edu/research",
+      "https://showme.missouri.edu/2022/mizzou-engineers-to-help-nextgen-precision-health-professionals-process-analyze-protect-big-data/",
+      "https://showme.missouri.edu/2025/mizzou-using-ai-to-improve-energy-efficiency-for-campuses-nationwide/",
+      "https://showme.missouri.edu/2025/preliminary-enrollment-numbers-show-uptick-in-first-time-students-at-mizzou/",
+      "https://showme.missouri.edu/2024/ben-canlas-named-um-system-vice-president-for-it-and-mu-cio/",
+      "https://president.missouri.edu/",
+      "https://president.missouri.edu/leadership/",
+      "https://provost.missouri.edu/directory/matthew-martens/",
+      "https://libraryguides.missouri.edu/ai/tools",
+      "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html",
+      "https://www.govtech.com/artificial-intelligence/missouri-executive-order-seeks-to-advance-ai-strategy-use",
+      "https://dese.mo.gov/media/pdf/artificial-intelligence-guidance-local-education-agencies"
+    ],
+    "search_queries": [
+      "\"University of Missouri\" Columbia AI strategy 2025 2026 artificial intelligence",
+      "\"University of Missouri\" Columbia acceptable use policy generative AI faculty students",
+      "\"University of Missouri\" Mizzou AI task force committee council governance",
+      "Mizzou NextGen Precision Health AI research center artificial intelligence institute",
+      "\"University of Missouri\" Mizzou AI degree MS PhD artificial intelligence program 2025 2026",
+      "\"University of Missouri\" Mizzou CIO chief information officer provost president 2026",
+      "\"Show-Me AI\" Mizzou Missouri walled garden ChatGPT pilot",
+      "\"University of Missouri\" Mizzou Microsoft Copilot Google Gemini ChatGPT Edu enterprise deployment",
+      "\"University of Missouri\" Mizzou AI research center institute data science institute",
+      "\"University of Missouri\" Mizzou NSF AI grant million dollar investment 2025",
+      "\"University of Missouri\" Mizzou supercomputer HPC GPU cluster artificial intelligence",
+      "Missouri state AI executive order higher education policy 2025 2026",
+      "\"University of Missouri\" Mizzou AI partnership industry Google Microsoft NVIDIA",
+      "\"University of Missouri\" Mizzou AI chatbot student services advising predictive analytics",
+      "\"University of Missouri\" Mun Choi provost Martens Latha Ramchand",
+      "\"University of Missouri\" Mizzou enrollment 2025 R1 students",
+      "\"Mizzou\" \"Energy Innovation Center\" AI sustainability $120 million",
+      "\"University of Missouri\" AI syllabus statement faculty council April 2026 use scale",
+      "\"Mizzou\" student petition Show-Me AI opposition concerns faculty",
+      "\"University of Missouri\" Grace Hopper Superchip Nautilus GH200 AI research",
+      "\"University of Missouri\" Columbia provost Matt Martens AI Teaching Fellow",
+      "\"Mizzou\" AI ethics framework literacy bias accessibility equity",
+      "\"University of Missouri\" Mizzou AI certificate spring 2026 undergraduate degree launch",
+      "\"Mizzou\" \"Roary\" chatbot EdSights launch 2025 texting undergraduate"
+    ],
+    "gaps_acknowledged": [
+      "No named chief AI officer; AI strategy leadership split between Provost, DoIT, and the standing AI Committee chair",
+      "Major named gift / endowment for AI specifically is not publicly documented at a level comparable to some R1 peers",
+      "Show-Me AI user counts (beyond initial ~55 faculty in Sept 2025) and usage telemetry not disclosed",
+      "Specific number of faculty/students on Microsoft 365 Copilot and ChatGPT Enterprise not disclosed",
+      "Adoption date for ChatGPT Enterprise deployment at UM System level not precisely dated in public sources",
+      "Clinical / UM Health Care-specific AI governance details less visible than at some comparable R1s with academic medical centers",
+      "Explicit cybersecurity-and-AI-risk initiative not separately documented beyond BPM 12004 product-evaluation policy"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 28,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 17,
+        "governance_led": 15,
+        "student_success_led": 5,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 5,
+      "computing_infrastructure_signal_count": 4,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Hellbender (primary HPC) and Nautilus (NSF National Research Platform node hosted at MU)",
+        "gpu_count": 24,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 349500000,
+      "funding_source_buckets": {
+        "other_unclear": 8,
+        "public_federal_state": 10,
+        "institutional": 3,
+        "industry_vendor": 1
+      },
+      "partnership_count": 8
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": true,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 6
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 5,
+          "products": [
+            "Gemini (2 models)",
+            "Gemini Pro",
+            "Google Gemini Pro",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 4,
+          "products": [
+            "A100 GPU nodes",
+            "Grace Hopper GH200 Superchip",
+            "NVIDIA AI Enterprise Software Platform",
+            "NVIDIA DGX Cloud"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (Premium and Basic)",
+            "Teams Premium (AI features)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT (3 models)",
+            "ChatGPT Enterprise (Edu)",
+            "ChatGPT Enterprise / Edu"
+          ]
+        },
+        {
+          "vendor": "Grammarly",
+          "mentions": 2,
+          "products": [
+            "Grammarly for Education"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude (3 models)"
+          ]
+        },
+        {
+          "vendor": "Apple Apple Intelligence",
+          "mentions": 1,
+          "products": [
+            "Apple Intelligence"
+          ]
+        },
+        {
+          "vendor": "EdSights Roary",
+          "mentions": 1,
+          "products": [
+            "Roary"
+          ]
+        },
+        {
+          "vendor": "EdSights Roary AI texting chatbot",
+          "mentions": 1,
+          "products": [
+            "Roary AI texting chatbot"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas"
+          ]
+        },
+        {
+          "vendor": "Meta Llama 4 Maverick 17B Instruct",
+          "mentions": 1,
+          "products": [
+            "Llama 4 Maverick 17B Instruct"
+          ]
+        },
+        {
+          "vendor": "National Research Platform Nautilus",
+          "mentions": 1,
+          "products": [
+            "Nautilus"
+          ]
+        },
+        {
+          "vendor": "TeamDynamix Conversational AI (IT service management)",
+          "mentions": 1,
+          "products": [
+            "Conversational AI (IT service management)"
+          ]
+        },
+        {
+          "vendor": "TeamDynamix TeamDynamix Conversational AI",
+          "mentions": 1,
+          "products": [
+            "TeamDynamix Conversational AI"
+          ]
+        },
+        {
+          "vendor": "University of Missouri (in-house) Hellbender",
+          "mentions": 1,
+          "products": [
+            "Hellbender"
+          ]
+        },
+        {
+          "vendor": "University of Missouri (in-house) Show-Me AI",
+          "mentions": 1,
+          "products": [
+            "Show-Me AI"
+          ]
+        },
+        {
+          "vendor": "University of Missouri (in-house) Show-Me AI (walled-garden multi-model generative AI platform)",
+          "mentions": 1,
+          "products": [
+            "Show-Me AI (walled-garden multi-model generative AI platform)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Show-Me AI Walled-Garden Generative AI Platform",
+          "summary": "One of the few public R1 universities to run its own walled-garden multi-model AI platform rather than only reselling vendor enterprise SKUs, giving Mizzou an AI deployment template that separates institutional data from third-party training pipelines.",
+          "source_url": "https://teaching.missouri.edu/show-me-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Roary AI Texting Assistant for Undergraduates",
+          "summary": "Sector-relevant case of a low-unit-cost retention chatbot operating at R1 scale (~30k+ students), built on a commercial framework (EdSights) grounded in Vincent Tinto's student-integration theory.",
+          "source_url": "https://success.missouri.edu/meet-roary-mizzous-ai-texting-tool/"
+        },
+        {
+          "claim_type": "career",
+          "title": "MS and PhD in Artificial Intelligence",
+          "summary": "Part of the growing wave of R1 institutions elevating AI from a CS track to a standalone degree discipline; creates a named PhD pipeline rather than just certificates or minors.",
+          "source_url": "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Undergraduate AI Certificate (Spring 2026)",
+          "summary": "An R1 example of a cross-college, major-agnostic AI literacy credential aimed squarely at workforce readiness across disciplines rather than only technical tracks.",
+          "source_url": "https://themaneater.com/133393/news/the-university-of-missouri-is-testing-show-me-ai-and-other-artificial-intelligence-initiatives/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "MU Artificial Intelligence Committee (Spring 2025)",
+          "summary": "Unusual tri-sponsored (Faculty Council + Provost + President) standing AI committee, giving AI governance structural continuity rather than leaving it as a Provost task force.",
+          "source_url": "https://committees.missouri.edu/artificial-intelligence-committee/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Energy Innovation Center ($120M) with AI Sustainability Research Pillar",
+          "summary": "Large capital bet on AI-era energy infrastructure at a public R1; institutionalizes 'AI sustainability' as a research domain with dedicated facilities rather than a topical research line.",
+          "source_url": "https://engineering.missouri.edu/2025/mizzou-launches-energy-innovation-center-to-help-power-tomorrow/"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No named chief AI officer; AI strategy leadership split between Provost, DoIT, and the standing AI Committee chair",
+        "Major named gift / endowment for AI specifically is not publicly documented at a level comparable to some R1 peers",
+        "Show-Me AI user counts (beyond initial ~55 faculty in Sept 2025) and usage telemetry not disclosed",
+        "Specific number of faculty/students on Microsoft 365 Copilot and ChatGPT Enterprise not disclosed",
+        "Adoption date for ChatGPT Enterprise deployment at UM System level not precisely dated in public sources",
+        "Clinical / UM Health Care-specific AI governance details less visible than at some comparable R1s with academic medical centers",
+        "Explicit cybersecurity-and-AI-risk initiative not separately documented beyond BPM 12004 product-evaluation policy"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1486 @@
+{
+  "institution": "University of Wisconsin-Madison",
+  "slug": "university-of-wisconsin-madison",
+  "city_state": "Madison, WI",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Wisconsin",
+  "enrollment": 51550,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Jennifer L. Mnookin",
+      "url": "https://chancellor.wisc.edu/"
+    },
+    "provost": {
+      "name": "John Zumbrunnen (Interim Provost, search for permanent provost underway as of early 2026)",
+      "url": "https://provost.wisc.edu/leadership-and-executive-staff/"
+    },
+    "cio": {
+      "name": "Didier Contis",
+      "url": "https://it.wisc.edu/about/meet-the-chief-information-officer/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Kyle Cranmer",
+      "title": "David R. Anderson Director, Data Science Institute; RISE-AI Collaboration Headquarters lead",
+      "url": "https://rise.wisc.edu/rise-ai/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Wisconsin RISE Initiative (RISE-AI)",
+        "url": "https://rise.wisc.edu/rise-ai/",
+        "year": 2024
+      },
+      {
+        "title": "UW Board of Regents approves College of Computing and Artificial Intelligence",
+        "url": "https://news.wisc.edu/uw-board-of-regents-approves-uw-madison-proposal-to-create-college-of-computing-and-artificial-intelligence/",
+        "year": 2025
+      },
+      {
+        "title": "Generative AI @ UW-Madison: use & policies",
+        "url": "https://it.wisc.edu/generative-ai-services-uw-madison/generative-ai-uw-madison-use-policies/",
+        "year": 2024
+      }
+    ],
+    "summary": "UW-Madison's AI strategy is anchored by two flagship efforts. The Wisconsin RISE Initiative (launched February 2024) designates AI as its first focus area (RISE-AI), aiming to hire up to 50 new faculty over three to five years and backed by a $15 million commitment from the Wisconsin Alumni Research Foundation. In December 2025, the Board of Regents approved creation of the standalone College of Computing and Artificial Intelligence (CAI) - UW-Madison's first new academic college since 1983 - to launch July 1, 2026. Chancellor Jennifer Mnookin frames AI as 'the next great challenge' for the university and positions UW-Madison as a 'trusted partner' on both the technical and ethical dimensions of AI."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://it.wisc.edu/generative-ai-services-uw-madison/generative-ai-uw-madison-use-policies/",
+      "https://it.wisc.edu/generative-ai-services-uw-madison/statement-on-use-of-generative-ai/",
+      "https://ctlm.wisc.edu/uw-madison-guiding-principles-for-generative-ai-in-teaching/",
+      "https://registrar.wisc.edu/ferpa-and-artificial-intelligence-ai/",
+      "https://conduct.students.wisc.edu/artificial-intelligence/"
+    ],
+    "adopted_date": "2024-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Public/low-risk data may be entered into generative AI tools; sensitive, restricted, or FERPA-protected data is prohibited unless the tool has undergone internal review and residual risk has been accepted by the Risk Executive",
+      "Data classification rules anchored in UW-504 and SYS1031 policies",
+      "Mandatory human review of AI-generated code before institutional deployment",
+      "Explicit prohibition on using AI to facilitate harassment, stalking, exploitation, threats, defamation, or discrimination (ties to UW-146)",
+      "Recommended adoption of NIST trustworthy AI characteristics for vetting tools",
+      "Incident reporting required for AI-related data breaches",
+      "Policy applies to faculty, staff, students, and affiliates; includes provisions for UW System and Board of Regents alignment",
+      "Instructor discretion on AI use in courses; students must cite AI output per instructor expectations and academic integrity rules"
+    ],
+    "summary": "UW-Madison operates a comprehensive generative AI acceptable-use framework (Version 3, August 2024) that ties directly into established data classification and information security policies (UW-504, SYS1031, UW-146). The framework permits use of approved enterprise tools (Microsoft Copilot, Google Gemini) for public/internal data while prohibiting sensitive, restricted, or FERPA-protected data entry unless tools have completed risk review. Separate guiding principles for teaching give instructors discretion on AI use in courses."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Division of Information Technology (DoIT) AI Services Team",
+        "type": "office",
+        "scope": "University-wide oversight of enterprise AI tool approvals, cybersecurity review, and the Generative AI Services site",
+        "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+      },
+      {
+        "name": "Center for Teaching, Learning & Mentoring (CTLM)",
+        "type": "office",
+        "scope": "Faculty development, teaching-focused AI guidance, and the UW-Madison guiding principles for generative AI in teaching",
+        "url": "https://ctlm.wisc.edu/uw-madison-guiding-principles-for-generative-ai-in-teaching/"
+      },
+      {
+        "name": "Data Governance Council",
+        "type": "council",
+        "scope": "Data classification, policy recommendations, and standards that underpin AI data-handling rules",
+        "url": "https://data.wisc.edu/data-governance/data-governance-council/"
+      },
+      {
+        "name": "RISE-AI Collaboration Headquarters",
+        "type": "office",
+        "scope": "Coordinates the AI focus area of the Wisconsin RISE Initiative, including faculty hiring, research infrastructure, and interdisciplinary programs. Housed within the Data Science Institute.",
+        "url": "https://rise.wisc.edu/rise-ai/"
+      },
+      {
+        "name": "College of Computing and Artificial Intelligence (effective July 1, 2026)",
+        "type": "other",
+        "scope": "New standalone college housing Computer Sciences, Statistics, and the Information School - will serve as the university's primary AI academic hub",
+        "url": "https://cai.wisc.edu/"
+      }
+    ],
+    "summary": "UW-Madison does not have a named chief AI officer or a single enterprise AI governance council. Responsibility is distributed: DoIT handles enterprise tool vetting and policy publication, CTLM owns teaching guidance, the Data Governance Council handles data classification, and the RISE-AI Collaboration HQ drives the research agenda. From July 2026, the new College of Computing and Artificial Intelligence will serve as the academic center of gravity for AI at the university."
+  },
+  "initiatives": [
+    {
+      "title": "College of Computing and Artificial Intelligence (CAI)",
+      "description": "UW Board of Regents voted December 4, 2025 to approve creation of a new standalone College of Computing and Artificial Intelligence by reorganizing the School of Computer, Data & Information Sciences. The college will house Computer Sciences, Statistics, and the Information School (moving out of the College of Letters & Science), and will open July 1, 2026 as UW-Madison's first new college since 1983.",
+      "significance": "One of the most structurally significant AI-related reorganizations at any R1 in 2025 - a dedicated college for computing and AI, not a nested school, signaling long-term commitment to AI as a discipline and interdisciplinary hub.",
+      "date_announced": "2025-12-04",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "ai_degree_program"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "CDIS existing budget plus private corporate and philanthropic gifts (announcement expected early 2026); local reporting cited an approximately $80 million anticipated scale",
+        "description": "Lean start-up approach using existing CDIS budget; significant philanthropic and corporate support anticipated in early 2026"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UW Board of Regents",
+            "Universities of Wisconsin system"
+          ],
+          "description": "Required Board of Regents approval; first new college at UW-Madison since 1983 (School of Veterinary Medicine)"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a durable institutional structure and a named dean accountable for AI strategy, closing the gap left by the absence of a chief AI officer.",
+      "source_urls": [
+        "https://news.wisc.edu/uw-board-of-regents-approves-uw-madison-proposal-to-create-college-of-computing-and-artificial-intelligence/",
+        "https://cai.wisc.edu/",
+        "https://www.dailycardinal.com/article/2025/12/uw-receives-approval-to-move-l-ss-largest-majors-to-new-ai-focused-school",
+        "https://www.wpr.org/news/uw-madison-chancellor-mnookin-college-ai-artificial-intelligence",
+        "https://www.wmtv15news.com/2025/12/06/next-step-uw-madison-details-80-million-college-focused-ai/"
+      ]
+    },
+    {
+      "title": "Wisconsin RISE Initiative - AI Focus Area (RISE-AI)",
+      "description": "Chancellor Mnookin launched the Wisconsin Research, Innovation and Scholarly Excellence (RISE) Initiative in early 2024 with AI as the first focus area. RISE-AI targets up to 50 new faculty hires across engineering, computer science, social sciences, humanities, and human ecology over three to five years, plus investments in research infrastructure and interdisciplinary collaboration.",
+      "significance": "Represents one of the largest coordinated AI faculty-hiring pushes in the Big Ten; intentionally spans humanities, social sciences, and technical fields rather than concentrating in computer science alone.",
+      "date_announced": "2024-02-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "faculty_training_and_development",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 15000000,
+        "funding_source": "Wisconsin Alumni Research Foundation (WARF) - $15M over three years, plus internal UW-Madison investment",
+        "description": "WARF committed $15M over three years (announced October 2024) to extend RISE-AI; targets 50 new faculty hires across disciplines"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Wisconsin Alumni Research Foundation",
+            "Data Science Institute"
+          ],
+          "description": "WARF is the principal external funder; the Data Science Institute hosts the RISE-AI Collaboration Headquarters"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions AI expertise as a cross-disciplinary hiring priority; integrates ethics, policy, and humanities scholars alongside technical AI researchers.",
+      "source_urls": [
+        "https://rise.wisc.edu/rise-ai/",
+        "https://www.wpr.org/news/uw-madison-launches-rise-with-plans-to-hire-faculty-focused-on-ai",
+        "https://uwclinicaltrials.org/2024/10/24/rise-ai-gets-15-million-boost-from-the-wisconsin-alumni-research-foundation/",
+        "https://cdis.wisc.edu/rise-initiative-to-focus-on-strategic-faculty-hiring-in-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Generative AI Acceptable Use Policy Framework (v3)",
+      "description": "UW-Madison published Version 3 of its Generative AI @ UW-Madison use and policies on August 23, 2024, tying AI use to existing data classification (UW-504), information security (SYS1031), and non-discrimination (UW-146) frameworks. Policy applies to all faculty, staff, students, and affiliates and establishes when data can and cannot be entered into AI tools.",
+      "significance": "Illustrates the 'comprehensive but cautious' model for AI policy at large public R1s: extend existing data governance frameworks rather than write net-new AI statutes.",
+      "date_announced": "2024-08-23",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (DoIT, Office of the CIO)",
+        "description": "Policy framework maintained by DoIT with cross-campus stakeholder input"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UW System"
+          ],
+          "description": "Aligned with UW System Administration and Board of Regents information security policies"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the rules for data entry into AI tools and for procurement; makes FERPA and HIPAA compliance a first-order constraint on AI adoption.",
+      "source_urls": [
+        "https://it.wisc.edu/generative-ai-services-uw-madison/generative-ai-uw-madison-use-policies/",
+        "https://it.wisc.edu/generative-ai-services-uw-madison/statement-on-use-of-generative-ai/",
+        "https://registrar.wisc.edu/ferpa-and-artificial-intelligence-ai/",
+        "https://conduct.students.wisc.edu/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot and Google Gemini campus-wide enterprise AI deployment",
+      "description": "UW-Madison has deployed Microsoft 365 Copilot Chat and Google Gemini as free, enterprise-protected AI chatbots for all students, faculty, staff, and affiliates authenticating with a NetID. Copilot is embedded in Word, Outlook, Excel, and Teams; Gemini is included with UW-Madison Google accounts. Both run with data-protection terms that prevent training on prompt data.",
+      "significance": "Makes UW-Madison one of the larger R1s in the Big Ten offering free, data-protected enterprise AI chatbots at the campus scale (~51,500 students plus employees), explicitly framed as 'equitable access' so students do not need paid subscriptions.",
+      "date_announced": "2024-09-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Enterprise licensing through UW System and UW-Madison agreements",
+        "description": "Provided at no cost to end users via institutional licenses"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google"
+          ],
+          "description": "Vendor partnerships with enterprise data-handling terms"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Enterprise generative AI chatbot integrated with Office apps"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Enterprise generative AI chatbot for Workspace users"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Document-grounded AI research assistant included with UW Google accounts"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summarization and action items (secure tier available for HIPAA data)"
+        },
+        {
+          "name": "Webex AI Assistant",
+          "vendor": "Cisco",
+          "role": "Real-time translation, transcription, and meeting summaries"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes the 'default' enterprise AI tools campus members should use; shifts the access-equity question away from paid subscriptions toward workflow integration and literacy.",
+      "source_urls": [
+        "https://it.wisc.edu/generative-ai-services-uw-madison/",
+        "https://it.wisc.edu/services/m365-copilot-chat/",
+        "https://kb.wisc.edu/aisolutions/154501",
+        "https://it.wisc.edu/news/smart-choices-why-uw-madisons-enterprise-ai-tools-should-be-your-go-to/",
+        "https://working.wisc.edu/why-uw-madisons-enterprise-ai-tools-are-the-smart-choice/"
+      ]
+    },
+    {
+      "title": "Microsoft Discovery and TitletownTech partnership for AI-driven scientific research",
+      "description": "Announced October 30, 2025, UW-Madison became one of two institutions nationwide (with Princeton) selected by Microsoft to participate in the Microsoft Discovery platform for AI-accelerated scientific research. TitletownTech - a Green Bay Packers/Microsoft venture capital firm - oversees operations and industry engagement from Madison. Research areas span life sciences, manufacturing, materials science, biotechnology, healthcare, and food and agriculture.",
+      "significance": "Places UW-Madison among the first two U.S. universities with dedicated access to Microsoft Discovery; leverages TitletownTech's venture capital and industry-engagement capacity as a regional AI commercialization engine.",
+      "date_announced": "2025-10-30",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_incubator_or_startup_support",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Microsoft; TitletownTech; industry partners",
+        "description": "Specific financial terms were not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "TitletownTech",
+            "Green Bay Packers"
+          ],
+          "description": "UW-Madison is one of two universities nationwide (with Princeton's New Jersey AI Hub) selected for the initial Microsoft Discovery research partnership"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Discovery",
+          "vendor": "Microsoft",
+          "role": "AI-driven scientific discovery and simulation platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Deepens institutional dependence on a single cloud/AI vendor for strategic research while coupling the partnership to regional economic development.",
+      "source_urls": [
+        "https://news.wisc.edu/uw-madison-partners-with-microsoft-and-titletowntech-to-accelerate-ai-driven-scientific-discovery/",
+        "https://www.dailycardinal.com/article/2025/11/uw-madison-selected-for-new-ai-research-partnership-with-microsoft",
+        "https://news.wisc.edu/how-uw-madison-and-industry-are-working-together-to-shape-wisconsins-ai-future/"
+      ]
+    },
+    {
+      "title": "Center for High Throughput Computing (CHTC) GPU Lab and DSI GPU clusters",
+      "description": "UW-Madison's Center for High Throughput Computing manages more than 20,000 CPU cores and dozens of GPUs as a free, shared campus resource. The CHTC GPU Lab and the Data Science Institute's clusters (including 'Olvi' with 16 NVIDIA A100 GPUs across two 8-GPU servers and an L40 cluster with 24 L40 GPUs) provide dedicated training and inference capacity for AI research.",
+      "significance": "Provides meaningful on-premise GPU capacity outside cloud contracts, important for research groups handling sensitive data that cannot go to commercial AI clouds.",
+      "date_announced": "2020-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF, internal UW2020 initiative, research grants",
+        "description": "Funded through a combination of federal grants (including NSF), internal UW2020 investments, and research group contributions; free at the point of use"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "Open Science Grid"
+          ],
+          "description": "CHTC is a long-standing NSF-funded high-throughput computing partner"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA A100 (Olvi cluster)",
+          "vendor": "NVIDIA",
+          "role": "GPU training/inference"
+        },
+        {
+          "name": "NVIDIA L40 (L40 cluster)",
+          "vendor": "NVIDIA",
+          "role": "GPU training/inference"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://chtc.cs.wisc.edu/",
+        "https://chtc.cs.wisc.edu/uw-research-computing/gpu-lab",
+        "https://dsi.wisc.edu/services/gpu/",
+        "https://dsi.wisc.edu/services/gpu/l40/",
+        "https://research.wisc.edu/processing/"
+      ]
+    },
+    {
+      "title": "Machine Learning for Medical Imaging (ML4MI) Initiative and UW Health AI deployments",
+      "description": "The ML4MI initiative fosters collaboration between machine-learning researchers and clinical imaging teams. In parallel, UW Health became one of the earliest health systems to deploy Microsoft AI to draft patient message replies inside Epic and is a named partner in Microsoft's medical-imaging AI collaboration with the School of Medicine and Public Health.",
+      "significance": "Demonstrates clinical-grade AI deployment under HIPAA constraints alongside academic ML research - one of the most operational ambient and decision-support AI footprints among R1 health systems.",
+      "date_announced": "2023-07-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "ai_in_specific_disciplines",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NIH, Microsoft, UW Health operating budget",
+        "description": "Combination of federal research grants and UW Health clinical-system investments"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Epic Systems",
+            "UW Health"
+          ],
+          "description": "Clinical AI deployments and imaging-AI research"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Epic with Microsoft AI draft replies",
+          "vendor": "Epic / Microsoft",
+          "role": "Ambient AI to draft patient message responses in the EHR"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Shows how HIPAA-grade AI gets deployed within R1 health systems; UW Health has publicly emphasized ethical deployment of AI.",
+      "source_urls": [
+        "https://ml4mi.wisc.edu/",
+        "https://radiology.wisc.edu/news/microsoft-announces-collaboration-with-uw-madison-to-advance-ai-in-medical-imaging/",
+        "https://madison.com/news/local/health-med-fit/uw-health-using-microsoft-ai-in-epic-systems-medical-records/article_adf0b772-7b01-52ad-b6d6-8a707ef4b561.html",
+        "https://uwclinicaltrials.org/2024/08/08/health-systems-are-using-ai-uw-health-wants-to-help-them-do-it-ethically/",
+        "https://www.hcinnovationgroup.com/analytics-ai/artifical-intelligence-machine-learning/article/21263543/at-uw-health-steady-progress-in-advancing-ai-to-support-patient-care-delivery"
+      ]
+    },
+    {
+      "title": "AI Hub for Business at the Wisconsin School of Business",
+      "description": "The Wisconsin School of Business launched an AI Hub for Business that convenes 23 CEOs, vice presidents, and directors from companies including Google, Walmart, Reddit, Medtronic, Kimberly-Clark, Bain, and Accenture. The hub's Introduction to Artificial Intelligence course is open to all UW-Madison undergraduates with no programming prerequisites.",
+      "significance": "Signals that AI education is moving out of computer science and into professional schools, with direct pipelines from industry advisors back into curriculum.",
+      "date_announced": "2025-04-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "industry_certification_pathway",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wisconsin School of Business",
+        "description": "School-level investment plus corporate advisory board engagement"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google",
+            "Walmart",
+            "Reddit",
+            "Medtronic",
+            "Kimberly-Clark",
+            "Bain",
+            "Accenture"
+          ],
+          "description": "23-member executive advisory board across Fortune 500 firms"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates the B-school model of AI literacy: industry-partner-led with professional-certification-style outcomes rather than a required university-wide credential.",
+      "source_urls": [
+        "https://business.wisc.edu/ai/"
+      ]
+    },
+    {
+      "title": "AI Civil Discourse Chatbot (Wisconsin Exchange: Pluralism in Practice)",
+      "description": "UW-Madison is piloting a student-facing AI chatbot that lets students practice civil discourse by engaging in short simulated conversations with AI that takes opposing viewpoints on topics the student selects. Launched in partnership with the Institute for Citizens & Scholars as part of the Wisconsin Exchange: Pluralism in Practice initiative.",
+      "significance": "Novel use of AI for democratic-skills development; a distinct category from the more common chatbot deployments for administrative Q&A or tutoring.",
+      "date_announced": "2025-11-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_enhanced_pedagogy",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institute for Citizens & Scholars partnership; internal UW-Madison support",
+        "description": "Pilot scale; specific dollars not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Institute for Citizens & Scholars"
+          ],
+          "description": "Pluralism in Practice external partner"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Tests whether universities can leverage AI for civic education without crossing into political influence; likely to be watched as a model.",
+      "source_urls": [
+        "https://www.dailycardinal.com/article/2025/11/have-a-hot-take-test-out-uw-madisons-new-ai-civil-discourse-chatbot",
+        "https://news.wisc.edu/uw-regents-meeting-covers-mnookin-farewell-ai-efforts-pluralism-business-partnerships/"
+      ]
+    },
+    {
+      "title": "Fundamentals of AI online continuing education course",
+      "description": "UW-Madison Continuing Studies offers a self-paced 'Fundamentals of AI' course ($50, 3-4 hours, digital badge) covering large language models, AI tools, applications, and limitations. Offering period runs July 1, 2025 through June 30, 2026.",
+      "significance": "Low-cost, accessible AI literacy pathway extending beyond degree students to Wisconsin residents and workforce learners.",
+      "date_announced": "2025-07-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "ai_literacy_requirement",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UW-Madison Continuing Education operating revenue",
+        "description": "Self-sustaining course fee model"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Delivered internally by Continuing Studies"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces UW-Madison's Wisconsin Idea land-grant public-service posture through workforce AI literacy.",
+      "source_urls": [
+        "https://continuingeducation.wisc.edu/courses/fundamentals-of-ai/",
+        "https://continuingstudies.wisc.edu/courses/fundamentals-of-ai/"
+      ]
+    },
+    {
+      "title": "AI for Engineering Data Analytics Capstone Certificate",
+      "description": "College of Engineering launched a capstone certificate in Artificial Intelligence for Engineering Data Analytics (April 2025) as part of the Master of Engineering in Data Analytics (MEDA) program pathway. Students gain hands-on experience with generative AI tools and study security, privacy, and memory models.",
+      "significance": "First dedicated AI graduate-level credential at UW-Madison; signals engineering-specific AI specialization ahead of the new College of Computing and AI.",
+      "date_announced": "2025-04-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Engineering; tuition",
+        "description": "Delivered via the Interdisciplinary Professional Programs unit"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal to College of Engineering"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Creates a formal graduate-level AI credential that sits alongside rather than replaces traditional engineering credentials.",
+      "source_urls": [
+        "https://online.wisconsin.edu/degrees-programs/uw-madison-artificial-intelligence-for-engineering-data-analytics/",
+        "https://interpro.wisc.edu/courses/foundations-of-artificial-intelligence-and-machine-learning/"
+      ]
+    },
+    {
+      "title": "UW Tech Exploration Lab",
+      "description": "Launched February 2025 as a collaboration between the Wisconsin School of Business and the Wisconsin Institute for Discovery, the UW Tech Exploration Lab provides any UW-Madison student hands-on access to emerging tech including AI, blockchain, and virtual reality, with real-world problem prompts.",
+      "significance": "Accessible cross-school space for AI exploration that does not require a computer science major.",
+      "date_announced": "2025-02-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wisconsin School of Business; Wisconsin Institute for Discovery",
+        "description": "Joint operating model"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Wisconsin School of Business",
+            "Wisconsin Institute for Discovery"
+          ],
+          "description": "Internal cross-unit partnership"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Serves as a testbed for AI literacy beyond credit-bearing courses.",
+      "source_urls": [
+        "https://news.wisc.edu/uw-madisons-tech-exploration-lab-where-the-classroom-meets-the-real-world/",
+        "https://techexplorationlab.wisc.edu/media/",
+        "https://captimes.com/news/education/this-growing-uw-madison-lab-helps-students-create-using-ai-other-tech/article_ee754799-bed5-495f-a896-3b989b32fb87.html"
+      ]
+    },
+    {
+      "title": "MADLab (Machines, Algorithms and Data Lab) Air Force Center of Excellence",
+      "description": "The Air Force Office of Scientific Research and Air Force Research Laboratory awarded $5 million to UW-Madison to establish a university center of excellence devoted to efficient and robust machine learning. MADLab conducts foundational ML research with military-applicable reliability and efficiency goals.",
+      "significance": "Illustrates the defense-research pipeline into academic AI; a $5M center-of-excellence award is a meaningful federal commitment.",
+      "date_announced": "2022-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 5000000,
+        "funding_source": "U.S. Air Force Office of Scientific Research; Air Force Research Laboratory",
+        "description": "Center-of-excellence award for efficient and robust machine learning"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Air Force Office of Scientific Research",
+            "Air Force Research Laboratory"
+          ],
+          "description": "Federal defense-research partnership"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://madlab.ml.wisc.edu/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Data Science Institute (DSI)",
+      "focus": "Cross-disciplinary data science and AI research; home of RISE-AI Collaboration HQ and GPU clusters",
+      "founded": "2021",
+      "url": "https://dsi.wisc.edu/"
+    },
+    {
+      "name": "Data Science Hub (Wisconsin Institute for Discovery)",
+      "focus": "Data science training and research integration",
+      "founded": null,
+      "url": "https://hub.datascience.wisc.edu/"
+    },
+    {
+      "name": "MADLab - Machines, Algorithms and Data Lab",
+      "focus": "Air Force Center of Excellence for efficient and robust machine learning",
+      "founded": "2022",
+      "url": "https://madlab.ml.wisc.edu/"
+    },
+    {
+      "name": "Machine Learning @ UW-Madison",
+      "focus": "Cross-departmental ML research community",
+      "founded": null,
+      "url": "https://machinelearning.wisc.edu/"
+    },
+    {
+      "name": "ML4MI - Machine Learning for Medical Imaging",
+      "focus": "AI for medical imaging (collaboration with Radiology, BME, Medical Physics)",
+      "founded": null,
+      "url": "https://ml4mi.wisc.edu/"
+    },
+    {
+      "name": "College of Computing and Artificial Intelligence (effective July 1, 2026)",
+      "focus": "Future home for Computer Sciences, Statistics, Information School; campus hub for AI and computing",
+      "founded": "2026",
+      "url": "https://cai.wisc.edu/"
+    },
+    {
+      "name": "AI Hub for Business (Wisconsin School of Business)",
+      "focus": "Business-school AI education and industry engagement",
+      "founded": "2025",
+      "url": "https://business.wisc.edu/ai/"
+    },
+    {
+      "name": "UW Tech Exploration Lab",
+      "focus": "Cross-school hands-on access to AI, blockchain, and VR for UW-Madison students",
+      "founded": "2025",
+      "url": "https://techexplorationlab.wisc.edu/media/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence for Engineering Data Analytics Capstone Certificate",
+      "level": "grad",
+      "launched": "2025-04",
+      "url": "https://online.wisconsin.edu/degrees-programs/uw-madison-artificial-intelligence-for-engineering-data-analytics/"
+    },
+    {
+      "type": "course",
+      "name": "Fundamentals of AI (Continuing Studies, self-paced, digital badge)",
+      "level": "both",
+      "launched": "2025-07",
+      "url": "https://continuingstudies.wisc.edu/courses/fundamentals-of-ai/"
+    },
+    {
+      "type": "course",
+      "name": "Foundations of Artificial Intelligence and Machine Learning (Interdisciplinary Professional Programs)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://interpro.wisc.edu/courses/foundations-of-artificial-intelligence-and-machine-learning/"
+    },
+    {
+      "type": "course",
+      "name": "Introduction to Artificial Intelligence (Wisconsin School of Business, open to all undergraduates)",
+      "level": "undergrad",
+      "launched": "2025",
+      "url": "https://business.wisc.edu/ai/"
+    },
+    {
+      "type": "concentration",
+      "name": "Artificial Intelligence qualifying area within the Computer Sciences PhD",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.cs.wisc.edu/artificial-intelligence-quals/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://it.wisc.edu/services/m365-copilot-chat/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (in Workspace)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://kb.wisc.edu/aisolutions/154501"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion (standard and secure tiers)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://kb.wisc.edu/aisolutions/154501"
+    },
+    {
+      "vendor": "Cisco",
+      "product": "Webex AI Assistant",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://kb.wisc.edu/aisolutions/154501"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Azure AI Services (OpenAI API access)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "product": "AWS Bedrock (pay-as-you-go)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Cloud Platform AI Services (90+ foundation models)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+    },
+    {
+      "vendor": "Microsoft / Epic",
+      "product": "Epic in-basket draft replies (UW Health)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2023-07",
+      "url": "https://madison.com/news/local/health-med-fit/uw-health-using-microsoft-ai-in-epic-systems-medical-records/article_adf0b772-7b01-52ad-b6d6-8a707ef4b561.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Center for High Throughput Computing (CHTC) + DSI GPU clusters (Olvi, L40)",
+    "gpu_count": 40,
+    "url": "https://chtc.cs.wisc.edu/uw-research-computing/gpu-lab",
+    "summary": "CHTC manages more than 20,000 CPU cores and dozens of GPUs shared free to UW-Madison researchers. The Data Science Institute operates additional GPU clusters: 'Olvi' with 16 NVIDIA A100 GPUs across two 8-GPU servers, and an L40 cluster with 24 48GB NVIDIA L40 GPUs across three servers. Exact total GPU count is not publicly disclosed; the 40 figure aggregates the named A100 and L40 assets only."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "WARF $15M commitment to RISE-AI",
+      "amount_usd": 15000000,
+      "source": "Wisconsin Alumni Research Foundation",
+      "purpose": "Three-year investment in RISE-AI faculty, infrastructure, and interdisciplinary research",
+      "date": "2024-10",
+      "url": "https://uwclinicaltrials.org/2024/10/24/rise-ai-gets-15-million-boost-from-the-wisconsin-alumni-research-foundation/"
+    },
+    {
+      "title": "Air Force MADLab Center of Excellence",
+      "amount_usd": 5000000,
+      "source": "Air Force Office of Scientific Research / Air Force Research Laboratory",
+      "purpose": "Center of excellence in efficient and robust machine learning",
+      "date": "2022-09",
+      "url": "https://madlab.ml.wisc.edu/"
+    },
+    {
+      "title": "College of Computing and AI (private philanthropy expected)",
+      "amount_usd": null,
+      "source": "Private corporate and individual donors (to be announced)",
+      "purpose": "Launch and endowment support for the new College; local reporting referenced ~$80M scale",
+      "date": "2026-01",
+      "url": "https://www.wmtv15news.com/2025/12/06/next-step-uw-madison-details-80-million-college-focused-ai/"
+    },
+    {
+      "title": "Data Science Institute (American Family Insurance gift)",
+      "amount_usd": null,
+      "source": "American Family Insurance",
+      "purpose": "Founding gift to establish the Data Science Institute",
+      "date": null,
+      "url": "https://dsi.wisc.edu/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft (Microsoft Discovery platform)",
+      "purpose": "AI-accelerated scientific research across life sciences, manufacturing, materials, healthcare, food and agriculture",
+      "date": "2025-10",
+      "url": "https://news.wisc.edu/uw-madison-partners-with-microsoft-and-titletowntech-to-accelerate-ai-driven-scientific-discovery/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "TitletownTech (Green Bay Packers / Microsoft venture firm)",
+      "purpose": "Industry engagement, venture capital, and commercialization of AI research",
+      "date": "2025-10",
+      "url": "https://news.wisc.edu/uw-madison-partners-with-microsoft-and-titletowntech-to-accelerate-ai-driven-scientific-discovery/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft + Epic (UW Health)",
+      "purpose": "Clinical AI for drafting patient messages and medical imaging AI research",
+      "date": "2023-07",
+      "url": "https://radiology.wisc.edu/news/microsoft-announces-collaboration-with-uw-madison-to-advance-ai-in-medical-imaging/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Air Force (AFOSR/AFRL)",
+      "purpose": "MADLab Center of Excellence in robust machine learning",
+      "date": "2022-09",
+      "url": "https://madlab.ml.wisc.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Wisconsin Alumni Research Foundation (WARF)",
+      "purpose": "$15M three-year commitment to RISE-AI",
+      "date": "2024-10",
+      "url": "https://uwclinicaltrials.org/2024/10/24/rise-ai-gets-15-million-boost-from-the-wisconsin-alumni-research-foundation/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Institute for Citizens & Scholars",
+      "purpose": "Wisconsin Exchange: Pluralism in Practice civil discourse AI chatbot pilot",
+      "date": "2025-11",
+      "url": "https://www.dailycardinal.com/article/2025/11/have-a-hot-take-test-out-uw-madisons-new-ai-civil-discourse-chatbot"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "AI Hub for Business advisory board (Google, Walmart, Reddit, Medtronic, Kimberly-Clark, Bain, Accenture, and others)",
+      "purpose": "Executive advisory for AI curriculum at Wisconsin School of Business",
+      "date": "2025-04",
+      "url": "https://business.wisc.edu/ai/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Microsoft 365 Copilot Chat (NetID)",
+      "scope": "Available to all enrolled students; enterprise data protection under the UW M365 tenant",
+      "url": "https://it.wisc.edu/services/m365-copilot-chat/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Google Gemini (Workspace)",
+      "scope": "Available to all students through UW Google accounts",
+      "url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+    },
+    {
+      "type": "other",
+      "name": "Wisconsin Exchange: Pluralism in Practice civil discourse chatbot (pilot)",
+      "scope": "Student pilot in partnership with the Institute for Citizens & Scholars",
+      "url": "https://www.dailycardinal.com/article/2025/11/have-a-hot-take-test-out-uw-madisons-new-ai-civil-discourse-chatbot"
+    },
+    {
+      "type": "other",
+      "name": "NotebookLM",
+      "scope": "Research/study assistant included in UW-Madison Google accounts",
+      "url": "https://kb.wisc.edu/aisolutions/154501"
+    },
+    {
+      "type": "other",
+      "name": "UW Tech Exploration Lab",
+      "scope": "Cross-school space where students experiment with AI, blockchain, and VR",
+      "url": "https://techexplorationlab.wisc.edu/media/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Microsoft Copilot as equitable-access AI",
+      "description": "UW-Madison explicitly frames Microsoft Copilot as the 'equitable access tool' for question-and-answer generative AI so that cost is not a barrier for students.",
+      "url": "https://it.wisc.edu/news/smart-choices-why-uw-madisons-enterprise-ai-tools-should-be-your-go-to/"
+    },
+    {
+      "title": "Digital Accessibility @ UW-Madison (UW-519)",
+      "description": "University-wide digital accessibility policy (UW-519) requires AI-enabled tools and content to be usable by people with disabilities.",
+      "url": "https://policy.wisc.edu/library/UW-519"
+    },
+    {
+      "title": "Center for User Experience digital accessibility services",
+      "description": "Central accessibility consulting for schools, departments, colleges, and units - includes AI-related accessibility support.",
+      "url": "https://digitalaccessibility.wisc.edu/"
+    },
+    {
+      "title": "Fundamentals of AI ($50, self-paced, Continuing Studies)",
+      "description": "Low-cost, open-enrollment AI literacy pathway for Wisconsin residents and workforce learners.",
+      "url": "https://continuingstudies.wisc.edu/courses/fundamentals-of-ai/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Wisconsin",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Wisconsin Governor Tony Evers issued Executive Order #211 in August 2023 creating the Governor's Task Force on Workforce and Artificial Intelligence, which published its advisory action plan in July 2024 covering education, workforce, and economic development. The Wisconsin Department of Public Instruction released K-12 AI guidance ('Empowering Lifelong Learning') in June 2024. The Universities of Wisconsin system maintains its own AI news and policy site covering enterprise tools (including Microsoft Copilot) and data security. As of early 2026, Wisconsin has no binding statewide AI statute for higher education; policy is task-force guidance plus UW System and campus-level implementation.",
+    "urls": [
+      "https://dwd.wisconsin.gov/ai-taskforce/",
+      "https://content.govdelivery.com/accounts/WIGOV/bulletins/36b5a34",
+      "https://www.wisconsin.edu/systemwide-it/universities-of-wisconsin-ai-news-and-initiatives/",
+      "https://www.wisconsin.edu/uwsa/ots-helpdesk/information-security/generative-ai/",
+      "https://dpi.wi.gov/imt/ai-guidance/administrators/policy"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Wisconsin-Madison is in the middle of one of the most structurally consequential AI pivots in U.S. higher education. In December 2025 the UW Board of Regents approved creation of a standalone College of Computing and Artificial Intelligence - UW-Madison's first new academic college since 1983 - absorbing Computer Sciences, Statistics, and the Information School from the College of Letters & Science and opening July 1, 2026. Running in parallel, the Wisconsin RISE Initiative designated AI as its inaugural focus area (RISE-AI) in early 2024, targeting up to 50 new faculty hires across technical and humanistic fields over three to five years, anchored by a $15M commitment from the Wisconsin Alumni Research Foundation. The Data Science Institute, led by Kyle Cranmer, hosts the RISE-AI Collaboration HQ and the university's GPU clusters alongside the free campus-wide CHTC GPU Lab. Policy-wise, UW-Madison operates a comprehensive generative AI acceptable-use framework (Version 3, August 2024) that plugs AI use into existing data-classification (UW-504) and information-security (SYS1031) rules, with FERPA and HIPAA hard boundaries. Enterprise AI access is notably broad and explicitly equity-framed: Microsoft 365 Copilot Chat and Google Gemini are free and NetID-authenticated for every student, staff member, and faculty member, positioned as the 'equitable access' baseline. Industry partnerships are significant - UW-Madison is one of only two U.S. universities (with Princeton) tapped for the Microsoft Discovery AI research platform, with operations run out of Madison via TitletownTech, and UW Health was an early clinical deployer of Microsoft-drafted in-basket replies in Epic. Gaps remain: there is no named chief AI officer, the new college's inaugural dean has not been announced, philanthropic figures for the College are still pending, and Chancellor Mnookin departs in May 2026 for Columbia, creating transition risk. The posture is permissive-comprehensive - plenty of enterprise tooling, generous research infrastructure, a deliberately interdisciplinary faculty hiring model, and policies that lean on classification and approved-vendor lists rather than outright restrictions.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://news.wisc.edu/uw-board-of-regents-approves-uw-madison-proposal-to-create-college-of-computing-and-artificial-intelligence/",
+      "https://cai.wisc.edu/",
+      "https://rise.wisc.edu/rise-ai/",
+      "https://rise.wisc.edu/",
+      "https://www.dailycardinal.com/article/2025/12/uw-receives-approval-to-move-l-ss-largest-majors-to-new-ai-focused-school",
+      "https://www.wpr.org/news/uw-madison-chancellor-mnookin-college-ai-artificial-intelligence",
+      "https://www.wmtv15news.com/2025/12/06/next-step-uw-madison-details-80-million-college-focused-ai/",
+      "https://it.wisc.edu/generative-ai-services-uw-madison/generative-ai-uw-madison-use-policies/",
+      "https://it.wisc.edu/generative-ai-services-uw-madison/statement-on-use-of-generative-ai/",
+      "https://it.wisc.edu/generative-ai-services-uw-madison/",
+      "https://it.wisc.edu/services/m365-copilot-chat/",
+      "https://it.wisc.edu/news/smart-choices-why-uw-madisons-enterprise-ai-tools-should-be-your-go-to/",
+      "https://working.wisc.edu/why-uw-madisons-enterprise-ai-tools-are-the-smart-choice/",
+      "https://kb.wisc.edu/aisolutions/154501",
+      "https://it.wisc.edu/about/meet-the-chief-information-officer/",
+      "https://news.wisc.edu/didier-contis-named-uw-madison-chief-information-officer/",
+      "https://provost.wisc.edu/leadership-and-executive-staff/",
+      "https://ctlm.wisc.edu/uw-madison-guiding-principles-for-generative-ai-in-teaching/",
+      "https://ctlm.wisc.edu/self-serve-resources/generativeai/",
+      "https://ctlm.wisc.edu/introduction-to-generative-ai-in-teaching/",
+      "https://registrar.wisc.edu/ferpa-and-artificial-intelligence-ai/",
+      "https://conduct.students.wisc.edu/artificial-intelligence/",
+      "https://data.wisc.edu/data-governance/data-governance-council/",
+      "https://dsi.wisc.edu/",
+      "https://dsi.wisc.edu/services/gpu/",
+      "https://dsi.wisc.edu/services/gpu/l40/",
+      "https://datascience.wisc.edu/",
+      "https://hub.datascience.wisc.edu/",
+      "https://chtc.cs.wisc.edu/",
+      "https://chtc.cs.wisc.edu/uw-research-computing/gpu-lab",
+      "https://research.wisc.edu/processing/",
+      "https://machinelearning.wisc.edu/",
+      "https://madlab.ml.wisc.edu/",
+      "https://ml4mi.wisc.edu/",
+      "https://ai.cs.wisc.edu/",
+      "https://business.wisc.edu/ai/",
+      "https://online.wisconsin.edu/degrees-programs/uw-madison-artificial-intelligence-for-engineering-data-analytics/",
+      "https://interpro.wisc.edu/courses/foundations-of-artificial-intelligence-and-machine-learning/",
+      "https://continuingstudies.wisc.edu/courses/fundamentals-of-ai/",
+      "https://continuingeducation.wisc.edu/courses/fundamentals-of-ai/",
+      "https://www.cs.wisc.edu/artificial-intelligence-quals/",
+      "https://news.wisc.edu/uw-madison-partners-with-microsoft-and-titletowntech-to-accelerate-ai-driven-scientific-discovery/",
+      "https://news.wisc.edu/how-uw-madison-and-industry-are-working-together-to-shape-wisconsins-ai-future/",
+      "https://www.dailycardinal.com/article/2025/11/uw-madison-selected-for-new-ai-research-partnership-with-microsoft",
+      "https://radiology.wisc.edu/news/microsoft-announces-collaboration-with-uw-madison-to-advance-ai-in-medical-imaging/",
+      "https://madison.com/news/local/health-med-fit/uw-health-using-microsoft-ai-in-epic-systems-medical-records/article_adf0b772-7b01-52ad-b6d6-8a707ef4b561.html",
+      "https://uwclinicaltrials.org/2024/08/08/health-systems-are-using-ai-uw-health-wants-to-help-them-do-it-ethically/",
+      "https://uwclinicaltrials.org/2024/10/24/rise-ai-gets-15-million-boost-from-the-wisconsin-alumni-research-foundation/",
+      "https://cdis.wisc.edu/rise-initiative-to-focus-on-strategic-faculty-hiring-in-artificial-intelligence/",
+      "https://www.wpr.org/news/uw-madison-launches-rise-with-plans-to-hire-faculty-focused-on-ai",
+      "https://www.dailycardinal.com/article/2025/11/have-a-hot-take-test-out-uw-madisons-new-ai-civil-discourse-chatbot",
+      "https://news.wisc.edu/uw-madisons-tech-exploration-lab-where-the-classroom-meets-the-real-world/",
+      "https://techexplorationlab.wisc.edu/media/",
+      "https://captimes.com/news/education/this-growing-uw-madison-lab-helps-students-create-using-ai-other-tech/article_ee754799-bed5-495f-a896-3b989b32fb87.html",
+      "https://news.wisc.edu/uw-regents-meeting-covers-mnookin-farewell-ai-efforts-pluralism-business-partnerships/",
+      "https://onwisconsin.uwalumni.com/quantum-leaps-in-education/",
+      "https://www.wisc.edu/about/facts/",
+      "https://www.dailycardinal.com/article/2025/09/uw-system-total-enrollment-holds-steady-while-international-numbers-drop",
+      "https://dwd.wisconsin.gov/ai-taskforce/",
+      "https://content.govdelivery.com/accounts/WIGOV/bulletins/36b5a34",
+      "https://www.wisconsin.edu/systemwide-it/universities-of-wisconsin-ai-news-and-initiatives/",
+      "https://www.wisconsin.edu/uwsa/ots-helpdesk/information-security/generative-ai/",
+      "https://dpi.wi.gov/imt/ai-guidance/administrators/policy",
+      "https://policy.wisc.edu/library/UW-519",
+      "https://digitalaccessibility.wisc.edu/"
+    ],
+    "search_queries": [
+      "\"University of Wisconsin-Madison\" AI strategy 2025 2026",
+      "\"University of Wisconsin-Madison\" generative AI guidelines policy",
+      "\"UW-Madison\" AI governance council committee chief AI officer",
+      "UW-Madison RISE AI initiative faculty hiring research",
+      "UW-Madison Microsoft Copilot Google Gemini enterprise deployment",
+      "UW-Madison CIO president provost 2026",
+      "\"UW-Madison\" AI degree program major minor certificate",
+      "\"UW-Madison\" AI research center institute data science",
+      "UW-Madison HPC GPU cluster supercomputer AI research",
+      "\"UW-Madison\" AI chatbot student services virtual assistant",
+      "Wisconsin state AI policy higher education executive order",
+      "\"UW-Madison\" AI partnership industry NVIDIA Google OpenAI",
+      "\"UW-Madison\" AI faculty training teaching center generative AI",
+      "\"UW-Madison\" NSF AI grant million investment 2025 2026",
+      "\"UW-Madison\" AI accessibility equity digital divide",
+      "\"UW-Madison\" AI medical health research school medicine",
+      "UW-Madison Wisconsin School of Business AI Hub Business School",
+      "\"UW-Madison\" enrollment total students 2025",
+      "\"UW-Madison\" Chancellor Mnookin AI speech announce 2025",
+      "\"UW-Madison\" AI workforce continuing education certificate program 2025"
+    ],
+    "gaps_acknowledged": [
+      "No named chief AI officer; accountability is distributed across DoIT, CTLM, the Data Governance Council, and the RISE-AI HQ",
+      "Inaugural Dean of the College of Computing and AI not yet announced; search in progress as of early 2026",
+      "Exact dollar figure for private philanthropy backing the new College of Computing and AI is unconfirmed; local reporting referenced an ~$80M anticipated total but no official number has been published",
+      "Exact institutional GPU count at the university level is not publicly disclosed; only DSI cluster-level GPU counts are known",
+      "Adoption dates for Webex AI Assistant, Zoom AI Companion, and NotebookLM are not precisely documented publicly",
+      "No major public controversies or AI-related litigation found during research; absence recorded as a true null rather than a gap",
+      "Chancellor Mnookin is departing in May 2026 for Columbia University, and transition implications for AI strategy continuity are not yet documented"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 22,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 13,
+        "governance_led": 9,
+        "student_success_led": 11,
+        "workforce_regional_development": 14,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Center for High Throughput Computing (CHTC) + DSI GPU clusters (Olvi, L40)",
+        "gpu_count": 40,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 20000000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 5,
+        "other_unclear": 3,
+        "institutional": 4,
+        "industry_vendor": 3,
+        "public_federal_state": 2
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 3
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Epic in-basket draft replies (UW Health)",
+            "Epic with Microsoft AI draft replies",
+            "Microsoft 365 Copilot Chat",
+            "Microsoft Azure AI Services (OpenAI API access)",
+            "Microsoft Discovery"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 5,
+          "products": [
+            "Gemini",
+            "Gemini (in Workspace)",
+            "Google Cloud Platform AI Services (90+ foundation models)",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Cisco Webex AI Assistant",
+          "mentions": 2,
+          "products": [
+            "Webex AI Assistant"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 2,
+          "products": [
+            "NVIDIA A100 (Olvi cluster)",
+            "NVIDIA L40 (L40 cluster)"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion",
+            "Zoom AI Companion (standard and secure tiers)"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "AWS Bedrock (pay-as-you-go)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Generative AI Acceptable Use Policy Framework (v3)",
+          "summary": "Illustrates the 'comprehensive but cautious' model for AI policy at large public R1s: extend existing data governance frameworks rather than write net-new AI statutes.",
+          "source_url": "https://it.wisc.edu/generative-ai-services-uw-madison/generative-ai-uw-madison-use-policies/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Microsoft Copilot and Google Gemini campus-wide enterprise AI deployment",
+          "summary": "Makes UW-Madison one of the larger R1s in the Big Ten offering free, data-protected enterprise AI chatbots at the campus scale (~51,500 students plus employees), explicitly framed as 'equitable access' so students do not need paid subscriptions.",
+          "source_url": "https://it.wisc.edu/generative-ai-services-uw-madison/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Fundamentals of AI online continuing education course",
+          "summary": "Low-cost, accessible AI literacy pathway extending beyond degree students to Wisconsin residents and workforce learners.",
+          "source_url": "https://continuingeducation.wisc.edu/courses/fundamentals-of-ai/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "MADLab (Machines, Algorithms and Data Lab) Air Force Center of Excellence",
+          "summary": "Illustrates the defense-research pipeline into academic AI; a $5M center-of-excellence award is a meaningful federal commitment.",
+          "source_url": "https://madlab.ml.wisc.edu/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No named chief AI officer; accountability is distributed across DoIT, CTLM, the Data Governance Council, and the RISE-AI HQ",
+        "Inaugural Dean of the College of Computing and AI not yet announced; search in progress as of early 2026",
+        "Exact dollar figure for private philanthropy backing the new College of Computing and AI is unconfirmed; local reporting referenced an ~$80M anticipated total but no official number has been published",
+        "Exact institutional GPU count at the university level is not publicly disclosed; only DSI cluster-level GPU counts are known",
+        "Adoption dates for Webex AI Assistant, Zoom AI Companion, and NotebookLM are not precisely documented publicly",
+        "No major public controversies or AI-related litigation found during research; absence recorded as a true null rather than a gap",
+        "Chancellor Mnookin is departing in May 2026 for Columbia University, and transition implications for AI strategy continuity are not yet documented"
+      ]
+    }
+  }
+}

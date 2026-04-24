@@ -1,0 +1,1583 @@
+{
+  "institution": "University of Texas Health Science Center at Houston",
+  "slug": "university-of-texas-health-science-center-at-houston",
+  "city_state": "Houston, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 4929,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Melina R. Kibbe, MD (began September 2025)",
+      "url": "https://www.uth.edu/president/"
+    },
+    "provost": {
+      "name": "LaTanya J. Love, MD (Executive Vice President, Student and University Affairs; Dean of McGovern Medical School, eff. September 10, 2025)",
+      "url": "https://www.uth.edu/news/story/uthealth-houston-leadership-updates"
+    },
+    "cio": {
+      "name": "Amar Yousif, MBA (Vice President and Chief Information Officer)",
+      "url": "https://www.uth.edu/councils/leadership/executive-leadership/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Xiaoqian Jiang, PhD",
+      "title": "Chair, Department of Health Data Science and Artificial Intelligence; Director, SAFE Center, McWilliams School of Biomedical Informatics",
+      "url": "https://sbmi.uth.edu/departments/dsai.htm"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UTHealth Houston AI Hub",
+        "url": "https://aihub.uth.edu/",
+        "year": 2025
+      },
+      {
+        "title": "AI Task Force — Strategic and Tactical Recommendations, Governance and Operating Structure",
+        "url": "https://aihub.uth.edu/task-force/",
+        "year": 2025
+      },
+      {
+        "title": "AI Advisory Subcommittee (IT Governance Council) — charter and provisions",
+        "url": "https://www.uth.edu/councils/topical/itgc/ai-advisory/",
+        "year": 2024
+      }
+    ],
+    "summary": "UTHealth Houston's AI posture is consolidated under the public-facing AI Hub (launched 2025) and anchored by an institutional AI Task Force charged with defining an enterprise-wide strategic roadmap across education, research, clinical care, technology, and operations. Strategy builds on more than a decade of AI investment in the McWilliams School of Biomedical Informatics (the nation's only free-standing informatics school and Texas' only health-AI doctoral program) and plugs into the UT System's $25M UT REAL Health AI initiative and Health Intelligence Platform (UT-HIP). A 2024 first-of-its-kind OpenAI collaboration — deploying HIPAA- and FERPA-compliant ChatGPT Edu to all students, faculty, and staff — is the flagship illustration of UTHealth's permissive-but-governed stance."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.uth.edu/councils/topical/itgc/ai-advisory/",
+      "https://aihub.uth.edu/",
+      "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution"
+    ],
+    "adopted_date": "2023-01",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "HIPAA- and FERPA-compliant ChatGPT Edu and Microsoft Copilot are the approved generative-AI tools for the university community",
+      "Boilerplate contract language limits data sharing for training external AI models across all UTHealth Houston agreements",
+      "AI Advisory Subcommittee of the IT Governance Council provides enterprise guidance on safe AI use and alignment with state/federal law",
+      "Generative AI toolkit and AI Hub provide vetted models (Llama 4, MedGemma, Mistral Small 3.2-24B, Whisper Large-v3-Turbo) and usage guardrails",
+      "NotebookLM is limited to non-PHI UTH-Share accounts; users must purge PHI and attest before access",
+      "ChatGPT Edu and Copilot usage must comply with Texas Responsible AI Governance Act (TRAIGA) effective 2026"
+    ],
+    "summary": "UTHealth Houston operates a comprehensive, layered AI governance model: an AI Advisory Subcommittee under the IT Governance Council sets enterprise policy and approves tools; the AI Hub (launched 2025) operationalizes vetted tools including HIPAA-compliant ChatGPT Edu, Microsoft Copilot, and NotebookLM; and standardized contract language blocks external vendors from training models on UTHealth data. Posture is permissive for approved tools but strongly regulated around PHI, FERPA, and the forthcoming Texas Responsible AI Governance Act."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Task Force",
+        "type": "task_force",
+        "scope": "Enterprise-wide strategic roadmap for AI integration across education, research, clinical care, technology, and operations. Reports deliverables include Townhall slides, a Governance and Operating Structure document, and Strategic/Tactical Recommendations.",
+        "url": "https://aihub.uth.edu/task-force/"
+      },
+      {
+        "name": "AI Advisory Subcommittee (IT Governance Council)",
+        "type": "committee",
+        "scope": "Provides enterprise guidance on safe utilization of AI; drafted boilerplate AI data-sharing clause for all institutional contracts; coordinates development of the GenAI toolkit and AI Hub.",
+        "url": "https://www.uth.edu/councils/topical/itgc/ai-advisory/"
+      },
+      {
+        "name": "IT Governance Council",
+        "type": "council",
+        "scope": "Parent body overseeing technology governance, under which AI advisory activity sits.",
+        "url": "https://www.uth.edu/councils/topical/itgc/"
+      },
+      {
+        "name": "Office of Data Science",
+        "type": "office",
+        "scope": "Institution-wide data science support, reporting, and analytics; coordinates enterprise data strategy underpinning AI.",
+        "url": "https://www.uth.edu/data/"
+      },
+      {
+        "name": "Center for Digital Healthcare Innovation (CDHI)",
+        "type": "office",
+        "scope": "Builds and operationalizes institutional AI solutions (iDFax, AI Translator) across UTHealth's seven schools and two hospitals.",
+        "url": "https://www.uth.edu/center-for-digital-healthcare-innovation/"
+      }
+    ],
+    "summary": "UTHealth Houston's AI governance is multi-layered: an AI Task Force sets enterprise strategy; an AI Advisory Subcommittee under the IT Governance Council issues policy guidance and contract controls; the AI Hub, Office of Data Science, and Center for Digital Healthcare Innovation operationalize tools and applications. No single chief AI officer has been named, but chairmanship of the Department of Health Data Science and AI (Xiaoqian Jiang) and CDHI leadership functionally distribute AI strategy across academic, operational, and IT governance domains."
+  },
+  "initiatives": [
+    {
+      "title": "First-of-its-kind OpenAI / ChatGPT Edu collaboration",
+      "description": "In September 2024 UTHealth Houston announced a collaboration with OpenAI to deploy a HIPAA- and FERPA-compliant configuration of ChatGPT Edu to all students, faculty, staff, and clinicians — the first U.S. academic medical center to do so. The platform enables custom LLMs, higher message limits, enhanced security, and healthcare-specific use cases including patient-experience tools, research acceleration, and clinical workflow automation.",
+      "significance": "Established a template for HIPAA/FERPA-compliant generative-AI rollout at academic health centers and signaled an institution-wide permissive-but-governed stance on enterprise AI.",
+      "date_announced": "2024-09-05",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Institutional funds; OpenAI partnership terms undisclosed",
+        "description": "Campus-wide enterprise licensing of ChatGPT Edu with HIPAA/FERPA guardrails."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "First U.S. academic medical center partnership with OpenAI."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise generative-AI platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a precedent for HIPAA/FERPA-compliant generative-AI procurement at academic medical centers; creates national benchmark for compliant enterprise LLM rollouts.",
+      "source_urls": [
+        "https://www.uth.edu/news/story/uthealth-houston-and-openai-announce-groundbreaking-collaboration",
+        "https://med.uth.edu/blog/2024/09/05/uthealth-houston-and-openai-announce-collaboration/",
+        "https://www.newswise.com/articles/uthealth-houston-and-openai-announce-groundbreaking-privacy-protecting-collaboration",
+        "https://www.fiercehealthcare.com/ai-and-machine-learning/students-faculty-clinicians-uthealth-houston-can-now-use-hipaa-compliant"
+      ]
+    },
+    {
+      "title": "UTHealth Houston AI Hub",
+      "description": "Launched in 2025, the AI Hub is the institution's public front door to vetted generative-AI models (Llama 4, MedGemma, Mistral Small 3.2-24B, Whisper Large-v3-Turbo), external tools (ChatGPT Edu, NotebookLM), faculty training, custom-model services, research/project catalogs, and AI Task Force governance outputs.",
+      "significance": "Consolidates previously fragmented departmental AI activity into a single enterprise storefront — a governance-plus-enablement pattern being adopted across academic medical centers.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "institutional_ai_strategy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional funds",
+        "description": "Operational budget for the AI Hub; includes infrastructure for hosting vetted LLMs and faculty enablement."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Google",
+            "Microsoft"
+          ],
+          "description": "Aggregates commercial LLM partnerships under a single governed storefront."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Hub",
+          "vendor": "UTHealth Houston",
+          "role": "Enterprise AI portal"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Non-PHI research assistant"
+        },
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise generative-AI platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates a pattern of centralizing AI model access behind institutional guardrails rather than letting shadow-AI proliferate.",
+      "source_urls": [
+        "https://aihub.uth.edu/",
+        "https://aihub.uth.edu/task-force/"
+      ]
+    },
+    {
+      "title": "AI Task Force and AI Advisory Subcommittee",
+      "description": "The AI Task Force, chartered to define UTHealth Houston's enterprise AI roadmap, produced governance/operating structure documents and strategic/tactical recommendations across education, research, clinical care, technology, and operations. The AI Advisory Subcommittee of the IT Governance Council operationalizes policy, including a boilerplate AI data-sharing clause added to all institutional contracts and coordination of the GenAI toolkit and AI Hub launch.",
+      "significance": "One of the more mature governance architectures at an academic medical center: pairs strategic roadmap work with enforceable procurement controls.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional funds",
+        "description": "Administrative investment in governance staffing, policy development, and contract negotiation support."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal governance body."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Boilerplate data-sharing clause is a replicable procurement lever for academic medical centers wary of vendor model training on institutional data.",
+      "source_urls": [
+        "https://www.uth.edu/councils/topical/itgc/ai-advisory/",
+        "https://aihub.uth.edu/task-force/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot as approved AI chat solution",
+      "description": "In April 2024 UTHealth Houston's IT Department designated Microsoft Copilot as the university's approved AI chat tool for safer handling of institutional data, available at no cost to the UTHealth community with an optional $360/user/year Copilot for Microsoft 365 upgrade. A Copilot Launch Day training event was held September 13, 2024.",
+      "significance": "Illustrates the 'approved tool' pattern academic medical centers are using to push users away from consumer ChatGPT toward contracted, compliant equivalents.",
+      "date_announced": "2024-04-11",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional EA; paid upgrades user-funded at $360/user/year",
+        "description": "Free baseline Copilot access; paid M365 Copilot integration available."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Microsoft agreement."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Approved enterprise AI chat tool"
+        },
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "Optional paid productivity integration"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Designating an approved tool and discouraging consumer ChatGPT is a replicable shadow-AI mitigation pattern.",
+      "source_urls": [
+        "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution",
+        "https://med.uth.edu/blog/2024/04/11/get-to-know-copilot-uthealth-houstons-approved-ai-solution/"
+      ]
+    },
+    {
+      "title": "Google NotebookLM via UTH-Share",
+      "description": "In December 2025 UTHealth Houston gave faculty, staff, and students access to Google's NotebookLM through UTH-Share for accounts designated non-PHI. The tool combines note-taking with LLM capabilities — document upload, summarization, citation-grounded responses, study guides, FAQs. PHI-configured accounts must purge PHI and attest before accessing the tool.",
+      "significance": "Demonstrates a pragmatic tiered-account model for making citation-grounded research AI available without risking PHI exposure.",
+      "date_announced": "2025-12-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Existing Google Workspace for Education agreement (UTH-Share)",
+        "description": "Included with UTHealth's G Suite for Education implementation."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Google Workspace for Education partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Citation-grounded research and study assistant"
+        },
+        {
+          "name": "UTH-Share",
+          "vendor": "Google (G Suite for Education)",
+          "role": "Delivery platform with PHI / non-PHI account tiering"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "PHI-attestation gate is a practical template for layering consumer AI features on top of HIPAA-regulated identity stores.",
+      "source_urls": [
+        "https://aihub.uth.edu/"
+      ]
+    },
+    {
+      "title": "McWilliams School of Biomedical Informatics — $31M NIH/NSF AI portfolio",
+      "description": "In November 2023 researchers at the McWilliams School were awarded over $31 million across 16 AI-focused projects from NIA, NLM, NHGRI, other NIH institutes, and NSF — including a $6.4M AIM-AI genetic catalog for Alzheimer's, Alzheimer's trial simulation platforms led by Cui Tao, PhD, computational phenotyping, EHR harmonization, clinical foundation models, and health equity projects. Subsequent January 2026 awards added $5M+ (including a $2.2M NHLBI perioperative organ-injury grant and a $1M NSF Smart Health/AI grant) and a $27.2M 2025 NIA grant to lead a national Alzheimer's real-world data network.",
+      "significance": "Positions UTHealth Houston among the top U.S. academic medical centers for federally funded applied health-AI research.",
+      "date_announced": "2023-11-20",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 63200000,
+        "funding_source": "NIH (NIA, NLM, NHGRI, NHLBI), NSF",
+        "description": "Combined ~$31M (Nov 2023) + $27.2M (2025 NIA Alzheimer's) + $5M+ (2026 NIH/NSF) in AI-focused federal awards to McWilliams School."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH (NIA, NLM, NHGRI, NHLBI)",
+            "NSF"
+          ],
+          "description": "Federal research funding partnerships."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Tuskegee University"
+          ],
+          "description": "Data governance and health-equity AI collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.techtarget.com/healthtechanalytics/news/366590046/31M-Awards-to-Support-Medical-AI-Innovation-at-UTHealth-Houston",
+        "https://sbmi.uth.edu/news/story/uthealth-houston-awarded-more-than-5-million-in-federal-funding-to-realize-full-potential-of-health-data",
+        "https://www.newswise.com/articles/researchers-at-uthealth-houston-awarded-27-million-to-lead-national-alzheimer-s-data-network-using-real-world-data"
+      ]
+    },
+    {
+      "title": "SAFE Center (Secure AI For Healthcare)",
+      "description": "SAFE, directed by Xiaoqian Jiang within the McWilliams School, develops privacy-preserving machine learning, homomorphic encryption, federated analytics, and secure health data sharing. Signature work includes Miran Kim's homomorphic encryption for secure neural networks and genomic imputation, Yejin Kim's federated computational phenotyping, and Shayan Shams' edge-device privacy-preserving video analytics.",
+      "significance": "One of few U.S. academic labs integrating homomorphic encryption with clinical-grade ML — a differentiated capability as federated learning enters production.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "data_privacy_and_security",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NIH, NSF, institutional",
+        "description": "Federally funded privacy-preserving ML research center."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH",
+            "NSF"
+          ],
+          "description": "Federal research funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Homomorphic-encryption research directly informs HIPAA-compliant federated AI pathways.",
+      "source_urls": [
+        "https://sbmi.uth.edu/safe/",
+        "https://sbmi.uth.edu/departments/dsai.htm"
+      ]
+    },
+    {
+      "title": "TEAM-AI Center (Translational AI Excellence and Applications in Medicine)",
+      "description": "TEAM-AI within the McWilliams School advances AI methods designed for real-world healthcare deployment: open health NLP (OHNLP), cohort identification/phenotyping, EHR-based predictive modeling, real-world data analytics, and learning healthcare systems for rare disease, mental health, and cancer precision medicine.",
+      "significance": "Translational focus bridges methodological innovation with deployable clinical tools — a key maturity signal distinguishing research-only centers from application-ready ones.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NIH, institutional",
+        "description": "Federally funded translational AI research center."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System health institutions",
+            "Tuskegee University"
+          ],
+          "description": "Cross-institution real-world data analytics and health equity work."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "OHNLP",
+          "vendor": "TEAM-AI / Open Source",
+          "role": "Open-source clinical NLP toolkit"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://sbmi.uth.edu/center-translational-ai/",
+        "https://aihub.uth.edu/"
+      ]
+    },
+    {
+      "title": "Center for AI and Genome Informatics (AIGI)",
+      "description": "AIGI within the McWilliams School develops methodological and applied informatics research modeling structural connections among modern biomedical data modalities — integrating genomics, imaging, clinical, and environmental data for translational discovery.",
+      "significance": "Adds multi-modal genomic AI capability that complements SAFE's privacy focus and TEAM-AI's clinical translation.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NIH, institutional",
+        "description": "Research center budget within McWilliams School."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH"
+          ],
+          "description": "Federal research funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://sbmi.uth.edu/aigi/"
+      ]
+    },
+    {
+      "title": "UT REAL Health AI (system-wide)",
+      "description": "In June 2025 the UT System launched the UT Research, Engineering, and Application Laboratory for Healthcare AI with $25M in combined funding ($15M Texas Legislature + $10M UT System Board of Regents). UT REAL Health AI creates a statewide AI model inventory, a HIPAA-compliant generative AI testing platform, secure data-sharing laboratories, and cloud resources. UTHealth Houston is one of four participating UT health institutions (with UT Southwestern, UTMB Galveston, and MD Anderson).",
+      "significance": "Rare example of a state-funded, multi-institution HIPAA-compliant AI sandbox for evaluating clinical AI tools.",
+      "date_announced": "2025-06-24",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "administrators",
+        "government_and_regulators",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 25000000,
+        "funding_source": "Texas Legislature ($15M) and UT System Board of Regents ($10M)",
+        "description": "$25M systemwide launch funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Southwestern Medical Center",
+            "UTMB Galveston",
+            "UT MD Anderson Cancer Center"
+          ],
+          "description": "Four-institution UT System healthcare AI consortium."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Texas Legislature",
+            "UT System Board of Regents"
+          ],
+          "description": "State legislative funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a template for state-funded multi-institution HIPAA-compliant AI evaluation sandboxes.",
+      "source_urls": [
+        "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24",
+        "https://www.utsystem.edu/sites/ut-real-health-ai",
+        "https://www.utsystem.edu/sites/health-intelligence-platform/blog/ut-real-health-ai-launch-2025-11-19"
+      ]
+    },
+    {
+      "title": "iDFax — generative AI for medical fax management",
+      "description": "Deployed in June 2023 by the Center for Digital Healthcare Innovation, iDFax uses a foundation model from Amazon Bedrock plus OCR with handwriting recognition (>95% accuracy) to automate medical-fax processing, categorization, splitting, de-duplication, and Epic EHR integration. Has processed 220,000+ faxes across pilot sites, with expansion projected to handle 1M+ faxes/year and save $2M+ annually. Built on HIPAA-eligible AWS services (S3, EC2, SQS, DynamoDB).",
+      "significance": "Illustrates production-grade generative-AI operationalization on HIPAA-eligible cloud — cited by AWS as a flagship academic-medical-center Bedrock deployment.",
+      "date_announced": "2023-06-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional / CDHI",
+        "description": "Projected $2M+/year operational savings; development cost undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services (Amazon Bedrock)"
+          ],
+          "description": "AWS partnership for HIPAA-eligible generative-AI infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "iDFax",
+          "vendor": "UTHealth Houston / CDHI",
+          "role": "AI-powered fax automation"
+        },
+        {
+          "name": "Amazon Bedrock",
+          "vendor": "AWS",
+          "role": "Foundation model layer"
+        },
+        {
+          "name": "Epic EHR",
+          "vendor": "Epic Systems",
+          "role": "Integration target"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Concrete example of HIPAA-eligible foundation-model operationalization and EHR integration.",
+      "source_urls": [
+        "https://aws.amazon.com/blogs/publicsector/uthealth-houstons-idfax-revolutionizes-medical-fax-management-with-amazon-bedrock/",
+        "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/idfax"
+      ]
+    },
+    {
+      "title": "AI Translator — speech-to-text translation for clinical care",
+      "description": "CDHI's AI Translator is a real-time speech-to-text transcription and translation tool for healthcare settings, bridging communication gaps between clinicians and patients with limited English proficiency.",
+      "significance": "Directly addresses healthcare language equity — an underdeveloped AI-for-access use case across most academic medical centers.",
+      "date_announced": null,
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "multilingual_and_culturally_responsive_ai",
+        "disability_and_accessibility",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional / CDHI",
+        "description": "Operational funding from CDHI."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal CDHI build."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Translator",
+          "vendor": "UTHealth Houston / CDHI",
+          "role": "Real-time speech transcription and translation"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Multilingual AI tools must navigate both HIPAA and language-access obligations under Title VI.",
+      "source_urls": [
+        "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/ai-translator",
+        "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/"
+      ]
+    },
+    {
+      "title": "Spanish-language AI medical-lecture translator (McWilliams School)",
+      "description": "In August 2025 McWilliams School researchers released an AI system that automatically translates Dr. James Grotta's IV-thrombolysis stroke-treatment lecture into Spanish, distributing life-saving medical knowledge to Spanish-speaking clinicians and communities.",
+      "significance": "Tangible demonstration of AI lowering the cost of multilingual medical continuing education — a scalable equity lever.",
+      "date_announced": "2025-08-01",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "multilingual_and_culturally_responsive_ai",
+        "faculty_training_and_development",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional / research",
+        "description": "Pilot AI translation project."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal research project."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Translation of medical education broadens the discoverability of academic IP and raises new attribution/credit questions.",
+      "source_urls": [
+        "https://sbmi.uth.edu/news/story/mcwilliams-school-of-biomedical-informatics-takes-center-stage-at-2025-ut-system-ai-symposium",
+        "https://aihub.uth.edu/"
+      ]
+    },
+    {
+      "title": "$1.3M conversational-AI platform for older-adult patient care",
+      "description": "In 2025 researchers at the UTHealth Houston School of Public Health received an 18-month, $1.3M grant from the John A. Hartford Foundation Board of Trustees to develop a conversational AI platform to improve care for older adults.",
+      "significance": "Philanthropically-funded applied-AI work on geriatric care — a niche underserved by mainstream academic AI labs.",
+      "date_announced": "2025-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "personalized_student_support",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1300000,
+        "funding_source": "John A. Hartford Foundation",
+        "description": "18-month grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "John A. Hartford Foundation"
+          ],
+          "description": "Philanthropic funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://sph.uth.edu/news/story/researchers-awarded-13m-to-develop-a-conversational-ai-platform-for-patient-care",
+        "https://www.newswise.com/articles/uthealth-houston-researchers-awarded-1-3m-to-develop-a-conversational-ai-platform-for-patient-care",
+        "https://www.mlo-online.com/information-technology/artificial-intelligence/news/55371879/enhancing-patient-care-with-ai-uthealth-houston-to-develop-clinical-conversation-aid"
+      ]
+    },
+    {
+      "title": "Bioinformatics & HPC Service Center — institutional AI compute",
+      "description": "The Bioinformatics and High-Performance Computing Service Center (Center for Clinical and Translational Sciences) provides GPU servers for AI training, large-memory servers for high-throughput analysis, a 36-node Hadoop cluster, and 3+ petabytes of storage. Investigators have used AlphaFold to predict 10,000+ protein structures and are scaling to AlphaFold 3 and RFDiffusion. UTHealth researchers also access TACC (including Frontera) via Internet2.",
+      "significance": "Provides a baseline institutional GPU capability for AI research, layered with UT System access to TACC-class supercomputing.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional, CCTS, UT System",
+        "description": "Institutional compute service center."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Texas Advanced Computing Center (TACC)",
+            "UT Austin"
+          ],
+          "description": "Shared access to TACC systems via Internet2."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AlphaFold / AlphaFold 3",
+          "vendor": "DeepMind",
+          "role": "Protein structure prediction"
+        },
+        {
+          "name": "RFDiffusion",
+          "vendor": "Open source (Baker Lab)",
+          "role": "De novo protein design"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uth.edu/bioinformatics/",
+        "https://sbmi.uth.edu/dsiccr/resources"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Translational AI Excellence and Applications in Medicine (TEAM-AI)",
+      "focus": "Translational AI for biomedical discovery and healthcare delivery; open health NLP, EHR predictive modeling, learning healthcare systems.",
+      "founded": null,
+      "url": "https://sbmi.uth.edu/center-translational-ai/"
+    },
+    {
+      "name": "Center for Secure AI For Healthcare (SAFE)",
+      "focus": "Privacy-preserving ML, homomorphic encryption, federated analytics, secure health data sharing.",
+      "founded": null,
+      "url": "https://sbmi.uth.edu/safe/"
+    },
+    {
+      "name": "Center for AI and Genome Informatics (AIGI)",
+      "focus": "Multi-modal biomedical data integration for genomic and translational research.",
+      "founded": null,
+      "url": "https://sbmi.uth.edu/aigi/"
+    },
+    {
+      "name": "Center for Digital Healthcare Innovation (CDHI)",
+      "focus": "Builds and operationalizes institutional AI solutions (iDFax, AI Translator) across UTHealth Houston's seven schools and two hospitals.",
+      "founded": null,
+      "url": "https://www.uth.edu/center-for-digital-healthcare-innovation/"
+    },
+    {
+      "name": "Department of Health Data Science and Artificial Intelligence (DSAI)",
+      "focus": "Machine learning, NLP, imaging informatics, privacy-preserving computation, clinical informatics, computational pathology.",
+      "founded": null,
+      "url": "https://sbmi.uth.edu/departments/dsai.htm"
+    },
+    {
+      "name": "Bioinformatics & High Performance Computing Service Center",
+      "focus": "Institutional GPU/HPC compute, 3+ PB storage, AlphaFold/protein prediction, bioinformatics pipeline support.",
+      "founded": null,
+      "url": "https://www.uth.edu/bioinformatics/"
+    },
+    {
+      "name": "AI-Powered Stroke Rehabilitation Program",
+      "focus": "AI applied to stroke recovery and rehabilitation.",
+      "founded": null,
+      "url": "https://www.uth.edu/stroke-institute/programs/ai-stroke"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "PhD in Biomedical Informatics (with Data Science / AI concentration)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://sbmi.uth.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Biomedical Informatics (Data Science & AI track)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://sbmi.uth.edu/departments/dsai.htm"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Biomedical Informatics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://sbmi.uth.edu/"
+    },
+    {
+      "type": "course",
+      "name": "AI Hub Faculty Training & Fundamentals courses",
+      "level": "both",
+      "launched": "2025-01",
+      "url": "https://aihub.uth.edu/education/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu (HIPAA/FERPA-compliant configuration)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://www.uth.edu/news/story/uthealth-houston-and-openai-announce-groundbreaking-collaboration"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (approved enterprise AI chat)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-04",
+      "url": "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM via UTH-Share (non-PHI accounts)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://aihub.uth.edu/"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "product": "Amazon Bedrock (powering iDFax)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2023-06",
+      "url": "https://aws.amazon.com/blogs/publicsector/uthealth-houstons-idfax-revolutionizes-medical-fax-management-with-amazon-bedrock/"
+    },
+    {
+      "vendor": "UTHealth Houston",
+      "product": "AI Hub (institutional portal with Llama 4, MedGemma, Mistral, Whisper)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://aihub.uth.edu/"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic EHR (integration target for AI tools including iDFax)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/idfax"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Bioinformatics & HPC Service Center (GPU cluster + 36-node Hadoop); TACC access via UT System",
+    "gpu_count": null,
+    "url": "https://www.uth.edu/bioinformatics/",
+    "summary": "UTHealth Houston operates its own GPU servers, large-memory servers, a 36-node Hadoop cluster, and 3+ PB of storage through the Bioinformatics & HPC Service Center, with researchers accessing TACC (including Frontera) via Internet2. AI compute demand is reinforced at the UT System level via UT REAL Health AI's $25M HIPAA-compliant generative-AI testing platform."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "McWilliams School $31M NIH/NSF AI portfolio (16 projects)",
+      "amount_usd": 31000000,
+      "source": "NIH (NIA, NLM, NHGRI, NHLBI, etc.) and NSF",
+      "purpose": "Applied health AI: Alzheimer's, EHR foundation models, health equity, genomic informatics, rare disease.",
+      "date": "2023-11",
+      "url": "https://www.techtarget.com/healthtechanalytics/news/366590046/31M-Awards-to-Support-Medical-AI-Innovation-at-UTHealth-Houston"
+    },
+    {
+      "title": "$27.2M national Alzheimer's real-world data network grant",
+      "amount_usd": 27200000,
+      "source": "NIH National Institute on Aging",
+      "purpose": "Lead a national Alzheimer's and related dementias real-world data initiative.",
+      "date": "2025-09",
+      "url": "https://www.newswise.com/articles/researchers-at-uthealth-houston-awarded-27-million-to-lead-national-alzheimer-s-data-network-using-real-world-data"
+    },
+    {
+      "title": "$5M+ NIH/NSF federal health-data infrastructure awards",
+      "amount_usd": 5000000,
+      "source": "NIH NHLBI ($2.2M), NSF ($1M Smart Health/AI), other",
+      "purpose": "Perioperative organ-injury knowledge base; Smart Health AI-era methods.",
+      "date": "2026-01",
+      "url": "https://sbmi.uth.edu/news/story/uthealth-houston-awarded-more-than-5-million-in-federal-funding-to-realize-full-potential-of-health-data"
+    },
+    {
+      "title": "UT REAL Health AI ($25M systemwide, UTHealth Houston is a participating institution)",
+      "amount_usd": 25000000,
+      "source": "Texas Legislature ($15M) and UT System Board of Regents ($10M)",
+      "purpose": "Statewide AI model inventory, HIPAA-compliant generative-AI testing platform, secure data-sharing laboratories.",
+      "date": "2025-06",
+      "url": "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24"
+    },
+    {
+      "title": "$1.3M conversational AI platform for older-adult patient care",
+      "amount_usd": 1300000,
+      "source": "John A. Hartford Foundation",
+      "purpose": "18-month conversational AI for geriatric care.",
+      "date": "2025-01",
+      "url": "https://sph.uth.edu/news/story/researchers-awarded-13m-to-develop-a-conversational-ai-platform-for-patient-care"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "First-of-its-kind HIPAA/FERPA-compliant ChatGPT Edu deployment for an academic medical center.",
+      "date": "2024-09",
+      "url": "https://www.uth.edu/news/story/uthealth-houston-and-openai-announce-groundbreaking-collaboration"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Institutional Microsoft Copilot deployment as approved AI chat tool.",
+      "date": "2024-04",
+      "url": "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "NotebookLM via UTH-Share Google Workspace for Education.",
+      "date": "2025-12",
+      "url": "https://aihub.uth.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services (Amazon Bedrock)",
+      "purpose": "HIPAA-eligible foundation-model layer for iDFax medical fax automation.",
+      "date": "2023-06",
+      "url": "https://aws.amazon.com/blogs/publicsector/uthealth-houstons-idfax-revolutionizes-medical-fax-management-with-amazon-bedrock/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UT Southwestern Medical Center, UTMB Galveston, UT MD Anderson Cancer Center",
+      "purpose": "UT REAL Health AI consortium ($25M) for statewide HIPAA-compliant AI testing.",
+      "date": "2025-06",
+      "url": "https://www.utsystem.edu/sites/ut-real-health-ai"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Tuskegee University",
+      "purpose": "Health AI data governance and health-equity collaboration for minoritized populations.",
+      "date": null,
+      "url": "https://www.uth.edu/news/story/uthealth-houston-pioneering-generative-ai-in-health-care"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NIH (NIA, NLM, NHGRI, NHLBI)",
+      "purpose": "Multi-project health AI research portfolio.",
+      "date": "2023-11",
+      "url": "https://www.techtarget.com/healthtechanalytics/news/366590046/31M-Awards-to-Support-Medical-AI-Innovation-at-UTHealth-Houston"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "ChatGPT Edu (OpenAI)",
+      "scope": "Campus-wide student/faculty/staff access; supports medical study materials, quiz generation, research assistance.",
+      "url": "https://www.uth.edu/news/story/uthealth-houston-and-openai-announce-groundbreaking-collaboration"
+    },
+    {
+      "type": "tutor",
+      "name": "NotebookLM (Google)",
+      "scope": "Citation-grounded research assistant available via UTH-Share for non-PHI student/faculty/staff accounts.",
+      "url": "https://aihub.uth.edu/"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot",
+      "scope": "Free to all UTHealth community; $360/year M365 Copilot upgrade available.",
+      "url": "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution"
+    },
+    {
+      "type": "other",
+      "name": "AI Hub education resources",
+      "scope": "Training courses, model comparison, research-assistant capabilities for students and faculty.",
+      "url": "https://aihub.uth.edu/education/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI Translator (CDHI)",
+      "description": "Real-time speech-to-text transcription and translation to bridge clinician-patient language gaps.",
+      "url": "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/ai-translator"
+    },
+    {
+      "title": "Spanish AI translation of medical lectures",
+      "description": "McWilliams School AI that translates medical lectures (e.g., James Grotta stroke lecture) into Spanish to broaden access for Spanish-speaking clinicians and communities.",
+      "url": "https://sbmi.uth.edu/news/story/mcwilliams-school-of-biomedical-informatics-takes-center-stage-at-2025-ut-system-ai-symposium"
+    },
+    {
+      "title": "Tuskegee University health-equity AI collaboration",
+      "description": "Data governance and adoption of health AI that promotes health equity for minoritized populations.",
+      "url": "https://www.uth.edu/news/story/uthealth-houston-pioneering-generative-ai-in-health-care"
+    },
+    {
+      "title": "UT REAL Health AI equity provision",
+      "description": "UT System AI initiative explicitly designed to prevent AI from amplifying existing care disparities, with equitable-access requirements.",
+      "url": "https://www.utsystem.edu/sites/ut-real-health-ai"
+    },
+    {
+      "title": "Conversational AI for older-adult patient care",
+      "description": "$1.3M Hartford Foundation grant targeting an underserved geriatric population with AI-enabled conversational care.",
+      "url": "https://sph.uth.edu/news/story/researchers-awarded-13m-to-develop-a-conversational-ai-platform-for-patient-care"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas enacted the Responsible Artificial Intelligence Governance Act (TRAIGA, HB 149) on June 22, 2025, effective January 1, 2026. TRAIGA imposes prohibitions on AI used for unconstitutional discrimination, manipulation, harm, or certain explicit content, with Texas Attorney General as sole enforcer and penalties up to $200K per violation (higher per-day for continued violations). TRAIGA's 'governmental entity' definition excludes institutions of higher education, easing some obligations on universities — but UTHealth Houston remains subject to TRAIGA's substantive AI-use prohibitions and to its healthcare-specific provisions. At the system level, the UT System operates UT-HIP (Health Intelligence Platform, 2016) and the new UT REAL Health AI initiative ($25M, 2025), which together set system-wide AI governance, testing infrastructure, and equity expectations.",
+    "urls": [
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/HB00149S.htm",
+      "https://www.utsystem.edu/sites/health-intelligence-platform",
+      "https://www.utsystem.edu/sites/ut-real-health-ai",
+      "https://www.klgates.com/Pared-Back-Version-of-the-Texas-Responsible-Artificial-Intelligence-Governance-Act-Signed-Into-Law-6-24-2025"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Texas Health Science Center at Houston (UTHealth Houston) is an R1 public academic health system with ~4,900 students across seven schools, part of the University of Texas System. Its AI posture is one of the most mature among U.S. academic medical centers: a decade-plus investment in the McWilliams School of Biomedical Informatics — the nation's only free-standing informatics school and Texas' only doctoral-level health-AI training program — now sits alongside an enterprise AI Hub (2025), an AI Task Force with a published strategic roadmap, and an AI Advisory Subcommittee of the IT Governance Council. Policy stance is comprehensive: HIPAA/FERPA-compliant ChatGPT Edu (first-of-its-kind U.S. OpenAI collaboration, September 2024), Microsoft Copilot as the approved enterprise chat tool (April 2024), and NotebookLM for non-PHI accounts (December 2025) form a vetted toolkit, backed by boilerplate contract language that blocks vendors from training on UTHealth data and by a tiered PHI/non-PHI account model. Research maturity is high: the McWilliams School's SAFE (privacy-preserving ML, homomorphic encryption), TEAM-AI (translational clinical AI), and AIGI (multi-modal genomic AI) centers anchor a $63M+ federally funded health-AI portfolio including a 2023 $31M NIH/NSF award cluster, a 2025 $27.2M NIA national Alzheimer's data network, and 2026 NIH/NSF awards exceeding $5M. Operational deployments include iDFax (Amazon Bedrock-powered medical fax automation projecting $2M+/year savings), CDHI's AI Translator, and a Spanish medical-lecture translator; enterprise platform investments are complemented by an institutional GPU/HPC center (3+ PB storage, AlphaFold-scale protein prediction) and TACC access via UT System. At the state level, UTHealth operates under the emerging TRAIGA regime (effective January 2026) and is a participating institution in the UT System's $25M UT REAL Health AI initiative (2025) — a statewide HIPAA-compliant AI testing sandbox. Leadership gaps: no chief AI officer has been named; enrollment of AI-specific undergraduate programming is limited (consistent with an academic health center's graduate-only profile). Overall the institution combines a strong translational AI research footprint, mature enterprise AI governance, and an equity-aware deployment portfolio targeting language access and geriatric care.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://aihub.uth.edu/",
+      "https://aihub.uth.edu/task-force/",
+      "https://aihub.uth.edu/education/",
+      "https://www.uth.edu/councils/topical/itgc/ai-advisory/",
+      "https://www.uth.edu/councils/leadership/executive-leadership/",
+      "https://www.uth.edu/president/",
+      "https://www.uth.edu/about/",
+      "https://www.uth.edu/news/story/uthealth-houston-and-openai-announce-groundbreaking-collaboration",
+      "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution",
+      "https://www.uth.edu/news/story/uthealth-houston-leadership-updates",
+      "https://www.uth.edu/news/story/uthealth-houston-pioneering-generative-ai-in-health-care",
+      "https://www.uth.edu/news/story/continued-growth-in-nih-funding",
+      "https://www.uth.edu/bioinformatics/",
+      "https://www.uth.edu/center-for-digital-healthcare-innovation/",
+      "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/idfax",
+      "https://www.uth.edu/center-for-digital-healthcare-innovation/solutions/ai-translator",
+      "https://www.uth.edu/data/",
+      "https://www.uth.edu/stroke-institute/programs/ai-stroke",
+      "https://sbmi.uth.edu/",
+      "https://sbmi.uth.edu/departments/dsai.htm",
+      "https://sbmi.uth.edu/safe/",
+      "https://sbmi.uth.edu/center-translational-ai/",
+      "https://sbmi.uth.edu/aigi/",
+      "https://sbmi.uth.edu/healthcareai/",
+      "https://sbmi.uth.edu/news/story/mcwilliams-school-of-biomedical-informatics-takes-center-stage-at-2025-ut-system-ai-symposium",
+      "https://sbmi.uth.edu/news/story/uthealth-houston-awarded-more-than-5-million-in-federal-funding-to-realize-full-potential-of-health-data",
+      "https://sph.uth.edu/news/story/researchers-awarded-13m-to-develop-a-conversational-ai-platform-for-patient-care",
+      "https://med.uth.edu/blog/2024/04/11/get-to-know-copilot-uthealth-houstons-approved-ai-solution/",
+      "https://med.uth.edu/blog/2024/09/05/uthealth-houston-and-openai-announce-collaboration/",
+      "https://med.uth.edu/blog/2025/08/27/uthealth-houston-leadership-updates/",
+      "https://med.uth.edu/blog/2026/01/20/uthealth-houston-awarded-more-than-5-million-in-federal-funding-to-realize-full-potential-of-health-data/",
+      "https://med.uth.edu/blog/2026/02/18/uthealth-houston-ranks-among-nations-best-in-nih-funding/",
+      "https://www.utsystem.edu/sites/health-intelligence-platform",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/ut-real-health-ai-launch-2025-11-19",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/2025-ut-system-artificial-intelligence-ai-symposium-health-care-recap-2025-06-24",
+      "https://www.utsystem.edu/sites/ut-real-health-ai",
+      "https://www.utsystem.edu/ai-symposium",
+      "https://utsystem.edu/news/2025/02/14/ut-system-chancellor-names-interim-president-ut-health-science-center-at-houston",
+      "https://www.techtarget.com/healthtechanalytics/news/366590046/31M-Awards-to-Support-Medical-AI-Innovation-at-UTHealth-Houston",
+      "https://www.newswise.com/articles/uthealth-houston-and-openai-announce-groundbreaking-privacy-protecting-collaboration",
+      "https://www.newswise.com/articles/uthealth-houston-researchers-awarded-1-3m-to-develop-a-conversational-ai-platform-for-patient-care",
+      "https://www.newswise.com/articles/researchers-at-uthealth-houston-awarded-27-million-to-lead-national-alzheimer-s-data-network-using-real-world-data",
+      "https://www.fiercehealthcare.com/ai-and-machine-learning/students-faculty-clinicians-uthealth-houston-can-now-use-hipaa-compliant",
+      "https://aws.amazon.com/blogs/publicsector/uthealth-houstons-idfax-revolutionizes-medical-fax-management-with-amazon-bedrock/",
+      "https://www.hpnonline.com/healthcare-it/news/55140230/uthealth-houston-and-openai-collaborate-to-develop-ai-solutions-for-healthcare-and-education",
+      "https://www.mlo-online.com/information-technology/artificial-intelligence/news/55371879/enhancing-patient-care-with-ai-uthealth-houston-to-develop-clinical-conversation-aid",
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/HB00149S.htm",
+      "https://www.klgates.com/Pared-Back-Version-of-the-Texas-Responsible-Artificial-Intelligence-Governance-Act-Signed-Into-Law-6-24-2025",
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+      "https://www.uth.edu/academic-administration/fact-book/documents/fact-book-2025_FINAL.pdf"
+    ],
+    "search_queries": [
+      "\"UTHealth Houston\" AI strategy artificial intelligence 2025",
+      "\"University of Texas Health Science Center at Houston\" artificial intelligence policy",
+      "\"UTHealth Houston\" McWilliams School Biomedical Informatics AI",
+      "\"UTHealth Houston\" president CIO provost 2025",
+      "\"UTHealth Houston\" enrollment students faculty staff size 2024 2025",
+      "\"UTHealth Houston\" NotebookLM UTH-Share AI tools December 2025",
+      "Texas TRAIGA AI Governance Act universities 2025 2026",
+      "\"UT System\" Health Intelligence Platform AI healthcare 2025",
+      "\"UTHealth Houston\" OpenAI ChatGPT Edu announcement September 2024 HIPAA FERPA details",
+      "\"UTHealth Houston\" Microsoft Copilot deployment IT governance",
+      "\"UTHealth Houston\" HPC supercomputer GPU compute AI research infrastructure",
+      "\"UTHealth Houston\" Center for Digital Healthcare Innovation AI",
+      "\"UTHealth Houston\" AI ethics equity accessibility disparity",
+      "\"UTHealth Houston\" AI grant NIH NSF million 2024 2025",
+      "\"UTHealth Houston\" chatbot student virtual assistant tutoring",
+      "\"UTHealth Houston\" AI degree certificate masters PhD artificial intelligence programs"
+    ],
+    "gaps_acknowledged": [
+      "AI Task Force membership roster, subcommittee structure, and formal launch date not publicly disclosed",
+      "Exact founding dates for SAFE, TEAM-AI, AIGI, CDHI, and the Department of Health Data Science and AI not available in open sources",
+      "Precise GPU count and specific HPC system name not published",
+      "No controversy or litigation specifically tied to UTHealth Houston AI use was identified",
+      "OpenAI ChatGPT Edu contract size, Microsoft Copilot EA spend, and AWS Bedrock spend not disclosed",
+      "Detailed enrollment within the AI/informatics programs vs. total institutional enrollment not separately broken out",
+      "Provost role: UTHealth Houston does not have a traditional provost; academic leadership is held by the Executive Vice President, Student and University Affairs (LaTanya Love, MD) plus the Senior VP for Research Strategy and Innovation (John Hancock)"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 23,
+        "research_compute_powerhouse": 21,
+        "curriculum_led": 8,
+        "governance_led": 15,
+        "student_success_led": 8,
+        "workforce_regional_development": 2,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-01",
+      "classroom_authority_model": "mixed",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 6,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Bioinformatics & HPC Service Center (GPU cluster + 36-node Hadoop); TACC access via UT System",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 89500000,
+      "funding_source_buckets": {
+        "public_federal_state": 8,
+        "philanthropy_foundation": 2,
+        "industry_vendor": 3,
+        "institutional": 6,
+        "other_unclear": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "other": 3,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "NotebookLM",
+            "NotebookLM via UTH-Share (non-PHI accounts)",
+            "UTH-Share"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Copilot for Microsoft 365",
+            "Microsoft Copilot",
+            "Microsoft Copilot (approved enterprise AI chat)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT Edu",
+            "ChatGPT Edu (HIPAA/FERPA-compliant configuration)"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 2,
+          "products": [
+            "Amazon Bedrock",
+            "Amazon Bedrock (powering iDFax)"
+          ]
+        },
+        {
+          "vendor": "DeepMind AlphaFold / AlphaFold 3",
+          "mentions": 1,
+          "products": [
+            "AlphaFold / AlphaFold 3"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR",
+          "mentions": 1,
+          "products": [
+            "Epic EHR"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR (integration target for AI tools including iDFax)",
+          "mentions": 1,
+          "products": [
+            "Epic EHR (integration target for AI tools including iDFax)"
+          ]
+        },
+        {
+          "vendor": "Open source (Baker Lab) RFDiffusion",
+          "mentions": 1,
+          "products": [
+            "RFDiffusion"
+          ]
+        },
+        {
+          "vendor": "TEAM-AI / Open Source OHNLP",
+          "mentions": 1,
+          "products": [
+            "OHNLP"
+          ]
+        },
+        {
+          "vendor": "UTHealth Houston / CDHI AI Translator",
+          "mentions": 1,
+          "products": [
+            "AI Translator"
+          ]
+        },
+        {
+          "vendor": "UTHealth Houston / CDHI iDFax",
+          "mentions": 1,
+          "products": [
+            "iDFax"
+          ]
+        },
+        {
+          "vendor": "UTHealth Houston AI Hub",
+          "mentions": 1,
+          "products": [
+            "AI Hub"
+          ]
+        },
+        {
+          "vendor": "UTHealth Houston AI Hub (institutional portal with Llama 4, MedGemma, Mistral, Whisper)",
+          "mentions": 1,
+          "products": [
+            "AI Hub (institutional portal with Llama 4, MedGemma, Mistral, Whisper)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "productivity",
+          "title": "First-of-its-kind OpenAI / ChatGPT Edu collaboration",
+          "summary": "Established a template for HIPAA/FERPA-compliant generative-AI rollout at academic health centers and signaled an institution-wide permissive-but-governed stance on enterprise AI.",
+          "source_url": "https://www.uth.edu/news/story/uthealth-houston-and-openai-announce-groundbreaking-collaboration"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot as approved AI chat solution",
+          "summary": "Illustrates the 'approved tool' pattern academic medical centers are using to push users away from consumer ChatGPT toward contracted, compliant equivalents.",
+          "source_url": "https://www.uth.edu/news/story/microsoft-copilot-uthealth-houstons-approved-ai-solution"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 6,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "AI Task Force membership roster, subcommittee structure, and formal launch date not publicly disclosed",
+        "Exact founding dates for SAFE, TEAM-AI, AIGI, CDHI, and the Department of Health Data Science and AI not available in open sources",
+        "Precise GPU count and specific HPC system name not published",
+        "No controversy or litigation specifically tied to UTHealth Houston AI use was identified",
+        "OpenAI ChatGPT Edu contract size, Microsoft Copilot EA spend, and AWS Bedrock spend not disclosed",
+        "Detailed enrollment within the AI/informatics programs vs. total institutional enrollment not separately broken out",
+        "Provost role: UTHealth Houston does not have a traditional provost; academic leadership is held by the Executive Vice President, Student and University Affairs (LaTanya Love, MD) plus the Senior VP for Research Strategy and Innovation (John Hancock)"
+      ]
+    }
+  }
+}

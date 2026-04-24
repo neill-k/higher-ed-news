@@ -1,0 +1,1907 @@
+{
+  "institution": "University of Notre Dame",
+  "slug": "university-of-notre-dame",
+  "city_state": "Notre Dame, IN",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 13042,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Rev. Robert A. Dowd, C.S.C.",
+      "url": "https://president.nd.edu/"
+    },
+    "provost": {
+      "name": "John T. McGreevy",
+      "url": "https://provost.nd.edu/people/john-mcgreevy/"
+    },
+    "cio": {
+      "name": "Jane Livingston",
+      "url": "https://oit.nd.edu/people/jane-livingston/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Nitesh Chawla",
+      "title": "Lucy Family Director for Data and AI Academic Strategy; Director, Data, AI, and Computing Initiative; Founding Director, Lucy Family Institute for Data & Society",
+      "url": "https://niteshchawla.nd.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Data, AI, and Computing Initiative (Notre Dame 2033 Strategic Framework)",
+        "url": "https://strategicframework.nd.edu/initiatives/data-ai-computing/",
+        "year": 2025
+      },
+      {
+        "title": "AI@ND — Institutional AI portal",
+        "url": "https://ai.nd.edu/",
+        "year": 2024
+      },
+      {
+        "title": "Generative AI Task Force (GAIT) Report and Recommendations",
+        "url": "https://ai.nd.edu/assets/566975/gait_report_and_recommendations.pdf",
+        "year": 2024
+      },
+      {
+        "title": "Spring 2025 AI at the University of Notre Dame Update",
+        "url": "https://ai.nd.edu/news/spring-2025-ai-update/",
+        "year": 2025
+      }
+    ],
+    "summary": "Notre Dame's AI posture is framed by its 'Notre Dame 2033' Strategic Framework, within which the Data, AI, and Computing Initiative (launched fall 2025) is one of five priority areas. Led by Nitesh Chawla as founding director with managing director Michele Martin, the initiative funded 19 faculty-led working groups (announced February 2026) across five priority tracks: AI-enabled science and engineering, foundational AI and next-gen computing, Responsible/Inclusive/Safe/Empowering (RISE) AI, computational social science, and digital humanities. The strategy is distinct in pairing foundational and applied research with an explicit Catholic, faith-informed ethics overlay via the $50.8M Lilly Endowment-funded DELTA Network at the Institute for Ethics and the Common Good. Operational execution is organized through AI@ND (portal), the Generative AI Task Force (GAIT), and a 20-member AI Innovation Council, with the Lucy Family Institute serving as the interdisciplinary research hub and the Center for Research Computing as the compute backbone."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/",
+      "https://honorcode.nd.edu/official-statement-regarding-generative-ai-may-2023/",
+      "https://honorcode.nd.edu/ai-recommendations-for-instructors/",
+      "https://ai.nd.edu/ai-in-action/policies-and-guidelines/",
+      "https://ai.nd.edu/ai-in-action/approved-ai-tools/",
+      "https://learning.nd.edu/resource-library/writing-ai-syllabus-policies-a-practical-guide-for-notre-dame-faculty/",
+      "https://onmessage.nd.edu/policies-and-guidelines/ai-guidelines/"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Generative AI use governed by the Undergraduate Academic Code of Honor — using AI in violation of an instructor's articulated policy is an Honor Code violation",
+      "Faculty hold authority to define acceptable AI use in their courses; policy explicitly requires syllabus-level articulation",
+      "Five-level Generative AI Acceptable Use Scale (Prohibited, Limited Use, Moderate Use, Full Use with Documentation, Full Use with Human Oversight) provided as syllabus-writing framework",
+      "Approved/licensed AI tools require SSO authentication and are routed through contractually protected vendor instances (Google Gemini/NotebookLM under existing Google EDU licenses, pursuing ChatGPT Edu contract, GitHub Copilot centrally managed via OIT)",
+      "Data governance review (led by CIO Livingston) is simplifying Notre Dame's four-tier data classification (public/internal/sensitive/highly sensitive) with an AI lens",
+      "Campus communicators governed by separate On Message generative AI guidelines for institutional content",
+      "Guidance distinguishes permitted educational uses (idea generation, study guides, concept clarification) from prohibited unattributed authorship"
+    ],
+    "summary": "Notre Dame operates a comprehensive, layered policy: a university-wide student generative AI policy anchored in the Honor Code (effective August 2023, updated Fall 2024), a 5-level 'Generative AI Acceptable Use Scale' for syllabi, faculty authority to set course-level rules, approved/vetted tools tied to SSO and contractually protected enterprise instances, and campus-communicator guidelines for institutional messaging. A parallel data-governance review (led by CIO Jane Livingston) is modernizing Notre Dame's long-standing four-tier data classification scheme through an AI lens, working through the information governance committee, information security team, and Office of General Counsel."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Generative AI Task Force (GAIT)",
+        "type": "task_force",
+        "scope": "Interdisciplinary working group co-chaired by the CIO and VP for Research that assesses generative AI benefits and risks, guides community use, and recommends policy and governance. Produced initial report and recommendations.",
+        "url": "https://ai.nd.edu/about/generative-ai-task-force-gait/"
+      },
+      {
+        "name": "AI Innovation Council",
+        "type": "council",
+        "scope": "Cross-disciplinary 20-member body chaired by the VP for IT and the Director of AI Enablement. Meets monthly to advise the AI Enablement Team on implementing GAIT recommendations. Members span OIT, Hesburgh Libraries, Mendoza, Research, Learning, Lucy Family Institute, and the Institute for Ethics and the Common Good.",
+        "url": "https://ai.nd.edu/about/ai-innovation-council/"
+      },
+      {
+        "name": "Data, AI, and Computing Initiative Executive Committee",
+        "type": "committee",
+        "scope": "Executive committee of 11 academic leaders (including deans of Engineering, Science, Arts and Letters, and Mendoza) chaired by Nitesh Chawla to implement Notre Dame's university-wide Data, AI, and Computing Initiative.",
+        "url": "https://strategicframework.nd.edu/initiatives/data-ai-computing/"
+      },
+      {
+        "name": "Task Force on Data, AI and Computing Integration in and for Curriculum and Learning",
+        "type": "task_force",
+        "scope": "Task force established under the Data, AI, and Computing Initiative to integrate data and AI into Notre Dame's curriculum and learning enterprise.",
+        "url": "https://strategicframework.nd.edu/initiatives/data-ai-computing/"
+      },
+      {
+        "name": "Information Governance Committee",
+        "type": "committee",
+        "scope": "OIT-led body overseeing data stewardship and classification; actively revising Notre Dame's four-tier data classification framework through an AI lens alongside the Office of General Counsel.",
+        "url": "https://oit.nd.edu/about/nd-it-stewardship/information-governance/"
+      },
+      {
+        "name": "AI Enablement Team",
+        "type": "office",
+        "scope": "Operational team within OIT, directed by Brandon Rich (Director of AI Enablement), that delivers the institution's AI tool portfolio, pilots, and the AI Development Platform.",
+        "url": "https://ai.nd.edu/"
+      },
+      {
+        "name": "Lab for AI in Teaching and Learning (LAITL)",
+        "type": "office",
+        "scope": "Faculty-facing teaching-and-learning lab (founded 2025, directed by Alex Ambrose at the Kaneb Center) that convenes faculty, postdocs, and undergraduate AI coaches to advance AI literacy, run the Teaching Well with AI Academy, and administer AI mini-grants.",
+        "url": "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/"
+      }
+    ],
+    "summary": "Notre Dame runs a multi-body governance stack: a CIO/VP-Research-co-chaired Generative AI Task Force that produced foundational recommendations; a 20-member AI Innovation Council that meets monthly to advise on implementation; a strategic-framework-level Data, AI, and Computing Initiative with its own executive committee and curriculum task force; an OIT Information Governance Committee overseeing data classification; and a dedicated Lab for AI in Teaching and Learning inside Notre Dame Learning. The Tech Ethics Lab (Notre Dame-IBM) adds an external-facing research-ethics layer."
+  },
+  "initiatives": [
+    {
+      "title": "Data, AI, and Computing Initiative (Notre Dame 2033 Strategic Framework)",
+      "description": "University-wide strategic initiative launched fall 2025 as one of five priority areas in the Notre Dame 2033 Strategic Framework. Led by Nitesh Chawla as founding director and Michele Martin as managing director; funded 19 faculty-led working groups announced February 2026 across five priority tracks: AI-enabled science and engineering; foundational AI and next-gen computing; Responsible, Inclusive, Safe, and Empowering (RISE) AI; computational social science; and digital humanities.",
+      "significance": "Establishes a durable, provost-level strategic home for AI with five-year leadership terms and a permanent cross-college executive committee, embedding AI as a pillar of Notre Dame's institutional identity rather than a transient initiative.",
+      "date_announced": "2025-09-03",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional (Office of the Provost; University Strategic Framework)",
+        "description": "Five-year leadership terms for faculty directors; university-wide call funded 19 faculty-led working groups."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Lucy Family Institute for Data & Society",
+            "Notre Dame Research",
+            "Office of the Provost"
+          ],
+          "description": "Cross-campus alignment spanning colleges, institutes, and research administration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Formalizes AI as a top-level institutional priority with dedicated governance and resource allocation.",
+      "source_urls": [
+        "https://strategicframework.nd.edu/initiatives/data-ai-computing/",
+        "https://strategicframework.nd.edu/news/faculty-directors-appointed-to-lead-strategic-initiatives-on-data-ai-and-computing-and-global-catholic-research-initiative/",
+        "https://lucyinstitute.nd.edu/news-events/2026/02/13/data-ai-and-computing-initiative-launches-19-faculty-led-working-groups/"
+      ]
+    },
+    {
+      "title": "DELTA Network — Faith-Based Ethical Formation for a World of Powerful AI",
+      "description": "Notre Dame's Institute for Ethics and the Common Good (ECG), directed by philosophy professor Meghan Sullivan, received a $50.8 million grant from Lilly Endowment Inc. on December 19, 2025 to develop and scale the DELTA Network — a Christian-inspired, five-pillar ethical framework (Dignity, Embodiment, Love, Transcendence, Agency) intended to be accessible across faith perspectives. Plans include young-adult programs, Silicon Valley and Northeast hubs, and resources for scholars, religious leaders, tech professionals, educators, and journalists.",
+      "significance": "Largest grant from a private foundation in Notre Dame's history and the most ambitious faith-based AI ethics program in U.S. higher education, positioning Notre Dame as the national anchor for religious-tradition-grounded AI ethics discourse.",
+      "date_announced": "2025-12-19",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "institutional_ai_strategy",
+        "ai_research_center"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "community",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 50800000,
+        "funding_source": "Lilly Endowment Inc.",
+        "description": "Largest private-foundation grant in Notre Dame's history, following an October 2024 $539,000 planning grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM (via Notre Dame-IBM Technology Ethics Lab)"
+          ],
+          "description": "DELTA leverages Notre Dame's existing 10-year Tech Ethics Lab partnership with IBM Research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Introduces a values-based framework (DELTA) intended to inform syllabi, corporate ethics boards, and public policy; complements the Honor Code policy with a deeper ethical scaffolding.",
+      "source_urls": [
+        "https://news.nd.edu/news/notre-dame-receives-50-million-grant-from-lilly-endowment-for-the-delta-network-a-faith-based-approach-to-ai-ethics/",
+        "https://ethics.nd.edu/programs/faith-based-frameworks-for-ai-ethics/delta/",
+        "https://dailynous.com/2025/12/24/notre-dame-ai-ethics-project-wins-50-8-million-grant/"
+      ]
+    },
+    {
+      "title": "Generative AI Task Force (GAIT) and AI Innovation Council",
+      "description": "GAIT is an interdisciplinary task force co-chaired by Jane Livingston (VP-IT/CIO) and Jeffrey Rhoads (VP for Research) that produced Notre Dame's foundational generative AI recommendations. The 20-member AI Innovation Council — co-chaired by the CIO and Director of AI Enablement Brandon Rich — meets monthly to implement those recommendations and drive the AI tool portfolio.",
+      "significance": "Demonstrates bi-cameral governance (research + IT) combined with monthly operational cadence, a replicable model for mid-size private R1s.",
+      "date_announced": "2024-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT, Notre Dame Research)",
+        "description": "Staff time, facilitation, and report production; published GAIT Report and Recommendations."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Office of Information Technology",
+            "Notre Dame Research",
+            "Hesburgh Libraries",
+            "Mendoza College of Business",
+            "Institute for Ethics and the Common Good"
+          ],
+          "description": "Cross-campus representation across schools, research, libraries, and ethics."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates the mechanism through which all acceptable-use policies, approved-tool lists, and vendor contracts are vetted.",
+      "source_urls": [
+        "https://ai.nd.edu/about/generative-ai-task-force-gait/",
+        "https://ai.nd.edu/about/ai-innovation-council/",
+        "https://ai.nd.edu/assets/566975/gait_report_and_recommendations.pdf"
+      ]
+    },
+    {
+      "title": "Enterprise Google Gemini and NotebookLM Rollout",
+      "description": "Notre Dame rolled out Google Gemini and NotebookLM to staff and faculty in January 2025 and extended access to students in March 2025 (announced by OIT on March 18, 2025). Tools are included in existing Google EDU licenses with contractually extended data-privacy protections; faculty and staff users get Gmail/Calendar/Drive integration.",
+      "significance": "Campus-wide deployment of enterprise generative AI at zero incremental license cost, reached through contractual data-protection terms — a template many private institutions are emulating.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (existing Google EDU license)",
+        "description": "No incremental license cost; negotiated contractual data-privacy extension for education users."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Existing Google Workspace for Education contract extended to cover Gemini and NotebookLM."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Campus-wide generative AI assistant with Workspace integration"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Document-grounded AI research assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "All campus users have a vetted, SSO-protected AI option with institutional data protections; reduces shadow-AI usage.",
+      "source_urls": [
+        "https://ai.nd.edu/news/spring-2025-ai-update/",
+        "https://www.ndsmcobserver.com/article/2025/04/notre-dame-gives-students-access-to-google-ai-tools-gemini-and-notebooklm",
+        "https://ai.nd.edu/ai-in-action/approved-ai-tools/"
+      ]
+    },
+    {
+      "title": "ChatGPT Team/Edu Pilot and Enterprise Contract",
+      "description": "Summer 2024 through January 2025 ChatGPT Team pilot involved 250+ faculty and staff exploring campus use cases with institutional data. OIT subsequently pursued an OpenAI ChatGPT Edu contract for centralized, managed ChatGPT accounts with contractual data protection and SSO.",
+      "significance": "Concrete transition from a bounded pilot to a long-term managed enterprise contract is the standard maturity path many R1s are on; Notre Dame has sequenced it cleanly.",
+      "date_announced": "2024-06-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT)",
+        "description": "Paid Team pilot transitioning to Edu enterprise contract."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Vendor pilot with data-protection and SSO terms moving to ChatGPT Edu contract."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT (Team/Edu)",
+          "vendor": "OpenAI",
+          "role": "Enterprise generative AI assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a managed, FERPA-aware alternative to consumer ChatGPT for campus use.",
+      "source_urls": [
+        "https://ai.nd.edu/news/spring-2025-ai-update/",
+        "https://ai.nd.edu/ai-in-action/approved-ai-tools/"
+      ]
+    },
+    {
+      "title": "GitHub Copilot Centrally Managed Developer Rollout",
+      "description": "Following evaluation by campus developers in Hesburgh Libraries, OIT, and the Mendoza College of Business, Notre Dame centralized GitHub Copilot subscriptions via OIT, making AI-assisted code generation available to faculty and staff developers.",
+      "significance": "Extends enterprise AI governance into the developer toolchain, an often-overlooked shadow-AI vector.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT)",
+        "description": "Centrally funded and managed developer licenses."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "GitHub (Microsoft)"
+          ],
+          "description": "Enterprise agreement for Copilot developer seats."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "GitHub Copilot",
+          "vendor": "GitHub / Microsoft",
+          "role": "AI pair-programming assistant for developers"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Brings developer AI use under institutional license and acceptable-use policy.",
+      "source_urls": [
+        "https://ai.nd.edu/news/spring-2025-ai-update/",
+        "https://ai.nd.edu/ai-in-action/approved-ai-tools/"
+      ]
+    },
+    {
+      "title": "Notre Dame Teaching Well with AI Academy (NDTWAA) and Lab for AI in Teaching and Learning (LAITL)",
+      "description": "LAITL, founded 2025 within Notre Dame Learning's Kaneb Center and directed by Alex Ambrose, runs the Teaching Well with AI Academy (NDTWAA) — a faculty development program that trained 25+ faculty from across colleges in its first cohort (spring 2025). LAITL also offers AI coaching (delivered by trained undergraduate coaches), an AI Mini-Grant Program, and a faculty-assignment repository.",
+      "significance": "A fully staffed, named faculty development program for AI pedagogy is rare at mid-size private R1s; LAITL's use of undergraduate AI coaches is a distinctive peer-learning model.",
+      "date_announced": "2025-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (Notre Dame Learning / Kaneb Center)",
+        "description": "Dedicated lab staffing, undergraduate coach program, and AI mini-grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Notre Dame Learning",
+            "Kaneb Center for Teaching Excellence"
+          ],
+          "description": "Cross-unit partnership inside Notre Dame Learning."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes the five-level Acceptable Use Scale through faculty training and syllabus design support.",
+      "source_urls": [
+        "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/",
+        "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/ai-academy/",
+        "https://learning.nd.edu/news/nd-learning-expands-ai-offerings-with-faculty-academy-new-lab/"
+      ]
+    },
+    {
+      "title": "AI Alliance Founding Membership (IBM, Meta, and 50+ Partners)",
+      "description": "On December 5, 2023 Notre Dame joined IBM, Meta, and a global coalition of technology developers, researchers, and universities (including Cornell, Dartmouth, UC Berkeley, Yale, Illinois, IIT Bombay, Imperial College London, Tokyo, and others) to launch the AI Alliance, focused on open, safe, responsible AI development, benchmarks, and education.",
+      "significance": "One of a handful of U.S. universities to be a founding member of the Alliance, giving Notre Dame a seat at open-source AI standard-setting alongside frontier-lab stakeholders.",
+      "date_announced": "2023-12-05",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "cross_border_research_alliance",
+        "open_source_contribution",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Alliance members (IBM, Meta, partners)",
+        "description": "In-kind research collaboration; Alliance working groups on benchmarks, tools, safety, and education."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "IBM",
+            "Meta",
+            "AMD",
+            "Cornell University",
+            "Dartmouth College",
+            "UC Berkeley",
+            "Yale University",
+            "University of Illinois",
+            "Imperial College London",
+            "IIT Bombay",
+            "Technical University of Munich",
+            "University of Tokyo"
+          ],
+          "description": "Global consortium advancing open, responsible AI."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Aligns Notre Dame with open-model advocacy and responsible-AI benchmarks used across the field.",
+      "source_urls": [
+        "https://news.nd.edu/news/notre-dame-joins-ibm-meta-other-partners-in-founding-new-ai-alliance/",
+        "https://newsroom.ibm.com/AI-Alliance-Launches-as-an-International-Community-of-Leading-Technology-Developers,-Researchers,-and-Adopters-Collaborating-Together-to-Advance-Open,-Safe,-Responsible-AI",
+        "https://thealliance.ai/blog/our-first-year"
+      ]
+    },
+    {
+      "title": "Notre Dame-IBM Technology Ethics Lab (10-year, $20M)",
+      "description": "Launched in 2020 with a 10-year, $20 million IBM commitment, the Notre Dame-IBM Tech Ethics Lab produces applied, interdisciplinary research on ethical AI. In 2025 it published the BenchmarkCards framework — a catalog of datasets, benchmarks, and mitigations now incorporated into IBM's Risk Atlas Nexus — and it convened a Responsible AI in Finance event in 2025.",
+      "significance": "One of the largest sustained industry-academic commitments to tech ethics; produced infrastructure (BenchmarkCards) adopted into IBM's production governance tooling.",
+      "date_announced": "2020-10-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_ethics_framework",
+        "open_source_contribution"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "IBM (10-year industry gift)",
+        "description": "IBM 10-year, $20M commitment; annual CFP supports external researchers."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "IBM",
+            "IBM Research"
+          ],
+          "description": "Joint research lab with open research-grant process."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "BenchmarkCards",
+          "vendor": "Notre Dame / IBM",
+          "role": "AI governance benchmarking framework adopted into IBM's Risk Atlas Nexus"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Produces reusable governance artifacts (BenchmarkCards, Risk Atlas entries) that shape industry AI risk management.",
+      "source_urls": [
+        "https://ethics.nd.edu/labs-and-centers/notre-dame-ibm-technology-ethics-lab/",
+        "https://techethicslab.nd.edu/",
+        "https://graduateschool.nd.edu/news/university-of-notre-dame-and-ibm-research-build-tools-for-ai-governance/"
+      ]
+    },
+    {
+      "title": "Lucy Family Institute for Data & Society (Founded with $25M Lumpkins Gift)",
+      "description": "Founded in December 2019 with a $25 million gift from alumnus Robert Lumpkins and wife Sara, the Lucy Family Institute advances data-driven and AI convergence research, translational solutions, and education. It houses eight labs including the AI Trust and Reliability (AITAR) Lab, Foundation Models and Applications Lab, and Human-Centered Responsible AI (HRAI) Lab, plus the integrated Center for Network and Data Science and Center for Social Science Research.",
+      "significance": "Serves as the university's translational AI hub, pairing foundational research with applied social-impact work; the AITAR and HRAI labs give Notre Dame dedicated investment in responsible AI methodology.",
+      "date_announced": "2019-12-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 25000000,
+        "funding_source": "Robert and Sara Lumpkins (alumni gift)",
+        "description": "$25M founding gift plus subsequent programmatic funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Center for Network and Data Science",
+            "Center for Social Science Research",
+            "eight affiliated labs"
+          ],
+          "description": "Integrated multi-lab research institute."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides the organizational home for responsible AI and AI-for-social-good research under Notre Dame's Catholic mission.",
+      "source_urls": [
+        "https://lucyinstitute.nd.edu/",
+        "https://lucyinstitute.nd.edu/about-the-lucy-institute/",
+        "https://strategicframework.nd.edu/college-school-division-plans/institute-center-plans/lucy-family-institute-for-data-society/"
+      ]
+    },
+    {
+      "title": "Scientific AI (SAI) Initiative",
+      "description": "Interdisciplinary research initiative focused on AI-enabled science and engineering — integrating AI with partial differential equations, laboratory automation and robotic experimentation, and polymer-data research. Runs a Spring 2026 graduate fellowship program for PhD students integrating AI with domain research, and partners with Pontificia Universidad Católica de Chile and the University of Puerto Rico on a winter school.",
+      "significance": "A domain-specific AI-for-science initiative with international collaboration and a funded graduate fellowship — the seed of a broader AI-for-discovery research cluster.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional (Notre Dame Research)",
+        "description": "Funded graduate fellowships and international workshops."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "Pontificia Universidad Católica de Chile",
+            "University of Puerto Rico"
+          ],
+          "description": "Joint winter school on scientific AI."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://sai.nd.edu/",
+        "https://sai.nd.edu/events/2025/12/07/scientific-artificial-intelligence-graduate-fellowship-deadline/"
+      ]
+    },
+    {
+      "title": "RISE AI Conference (Inaugural 2025)",
+      "description": "The inaugural RISE (Responsible, Inclusive, Safe, Empowering) AI Conference, hosted October 6-8, 2025 by the Lucy Family Institute, drew 330+ participants from 16+ countries, 55 companies, and 38 universities. Six research tracks; selected global researchers from 170+ submitted abstracts; co-located Health AI Forum on rural health.",
+      "significance": "Establishes Notre Dame as a convener of the human-centered AI research community and gives its RISE framework a dedicated annual venue.",
+      "date_announced": "2025-10-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "cross_border_research_alliance",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Lucy Family Institute + sponsors",
+        "description": "Conference programming and speaker honoraria."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "Lucy Family Institute",
+            "16+ countries",
+            "55 companies",
+            "38 universities"
+          ],
+          "description": "Global convening on responsible AI."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Informs Notre Dame's RISE framework and contributes to broader public-sector AI policy discourse.",
+      "source_urls": [
+        "https://lucyinstitute.nd.edu/news-events/rise-ai-society-conference/",
+        "https://lucyinstitute.nd.edu/news-events/2025/10/01/notre-dames-r-i-s-e-ai-conference-builds-interdisciplinary-collaboration-to-inform-human-centered-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "AWS/NEON Responsible and Ethical AI Course for Title I High Schools (Arnie Chatbot)",
+      "description": "AWS-funded grant (AWS credits) supporting Notre Dame's pilot Responsible and Ethical AI course delivered through the National Education Opportunity Network (NEON) to approximately 190 scholars in Title I and Title I-eligible high schools starting fall 2025. Students earn college credit from Notre Dame; the course uses 'Arnie,' a custom chatbot built by Notre Dame OIT and powered by Amazon Nova Lite on Amazon Bedrock in a secure sandbox.",
+      "significance": "One of the most concrete R1 commitments to AI access equity — pairing dual-enrollment credit with a university-built, cloud-secured chatbot deployed to low-income high schools.",
+      "date_announced": "2025-12-03",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "ai_tool_equity",
+        "underrepresented_student_support",
+        "ai_literacy_requirement",
+        "community_college_ai_program"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "AWS (in-kind credits grant)",
+        "description": "AWS credits underwrite compute for the Arnie chatbot; Notre Dame provides course tuition credit."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon Web Services (AWS)",
+            "National Education Opportunity Network (NEON)",
+            "King College Prep (Chicago)"
+          ],
+          "description": "Corporate, nonprofit, and K-12 partnership delivering college-credit AI education to Title I students."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Arnie Chatbot",
+          "vendor": "Notre Dame OIT / AWS Nova Lite on Bedrock",
+          "role": "Custom course chatbot in secure sandbox environment"
+        },
+        {
+          "name": "Amazon Nova Lite",
+          "vendor": "Amazon Web Services",
+          "role": "Foundation model powering Arnie"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Extends Notre Dame's data-privacy and secure-sandbox posture into K-12 dual enrollment and sets a model for equitable AI pre-college access.",
+      "source_urls": [
+        "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/",
+        "https://lucyinstitute.nd.edu/news-events/2025/12/05/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+      ]
+    },
+    {
+      "title": "Student Advising AI Chatbot Pilot",
+      "description": "Notre Dame is developing an AI-powered chatbot — in partnership with student government, the Center for University Advising, and the Registrar's Office — to answer student questions about undergraduate degree opportunities, grounded in authoritative university data.",
+      "significance": "Classic enterprise-AI-for-student-services deployment built from validated data rather than public-web scraping.",
+      "date_announced": "2025-01-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT, Center for University Advising)",
+        "description": "Pilot build with internal resources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Notre Dame Student Government",
+            "Center for University Advising",
+            "Registrar's Office",
+            "OIT"
+          ],
+          "description": "Multi-unit partnership grounding the bot in university data."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Advising-grade accuracy requirements drive data-governance investment.",
+      "source_urls": [
+        "https://ai.nd.edu/news/spring-2025-ai-update/"
+      ]
+    },
+    {
+      "title": "Praxis AI Classroom Pilot",
+      "description": "25 instructors and 31 classes participated in a Praxis AI classroom pilot, generating 10,000+ prompts for evaluation; pilot extended into spring 2025.",
+      "significance": "Evidence Notre Dame is willing to test classroom-specific AI tutoring platforms at scale rather than relying solely on horizontal chat tools.",
+      "date_announced": "2024-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT / AI Enablement)",
+        "description": "Licensing and evaluation costs for a multi-section pilot."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Praxis AI"
+          ],
+          "description": "Vendor pilot across 31 sections."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Praxis AI",
+          "vendor": "Praxis AI",
+          "role": "Classroom-embedded AI tutoring platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.nd.edu/news/spring-2025-ai-update/"
+      ]
+    },
+    {
+      "title": "AI Development Platform (Internal Secure Sandbox)",
+      "description": "OIT-built internal AI Development Platform launched January 2025 and targeted for completion in spring 2025 — a secure sandbox for campus developers to build AI applications with contractually protected data.",
+      "significance": "Gives Notre Dame application developers a first-party platform rather than forcing them onto consumer APIs that can't hold institutional data.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "data_infrastructure_and_unification",
+        "data_privacy_and_security",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT)",
+        "description": "Platform engineering staffing and cloud infrastructure."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "AWS",
+            "Google",
+            "OpenAI"
+          ],
+          "description": "Integrates multiple vetted model providers behind institutional controls."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Reduces shadow-AI risk by providing a compliant internal build target.",
+      "source_urls": [
+        "https://ai.nd.edu/news/spring-2025-ai-update/"
+      ]
+    },
+    {
+      "title": "Data Governance and Classification Modernization",
+      "description": "CIO Jane Livingston is leading a consulting-supported review of Notre Dame's four-tier data classification (public, internal, sensitive, highly sensitive) dating to 2013, working with the Information Governance Committee, information security team, and Office of General Counsel to simplify and modernize the framework through an AI lens.",
+      "significance": "Real example of institutional data-governance modernization explicitly driven by generative AI — a necessary prerequisite for defensible enterprise AI use.",
+      "date_announced": "2025-05-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (OIT, General Counsel)",
+        "description": "Consulting spend plus internal cross-functional review."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Undisclosed consulting firm"
+          ],
+          "description": "External advisory partner supporting the review."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Will reshape data handling, vendor contracting, and AI tool approval processes.",
+      "source_urls": [
+        "https://edtechmagazine.com/higher/article/2025/05/university-notre-dame-reviews-data-governance-ai",
+        "https://oit.nd.edu/about/nd-it-stewardship/information-governance/"
+      ]
+    },
+    {
+      "title": "Privacy Sandbox (GPT-4 Persona-Based Consumer Research Tool)",
+      "description": "Notre Dame researchers developed a Chrome browser plug-in that replaces real participant data with GPT-4-generated personas so consumers can understand online data exploitation, contributing open research to the consumer-privacy toolkit.",
+      "significance": "A public-good AI research artifact aimed at non-academic end users, shipped as an open plugin.",
+      "date_announced": "2024-06-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "open_source_contribution",
+        "ai_tool_equity",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Notre Dame faculty research funds",
+        "description": "Faculty-led research plug-in."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Consumer privacy advocacy community"
+          ],
+          "description": "Public-facing research output."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Privacy Sandbox",
+          "vendor": "Notre Dame",
+          "role": "GPT-4-powered persona generation for consumer privacy research"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": null,
+      "source_urls": [
+        "https://m.nd.edu/graduate_student/news/detail?feed=nd_newswire&id=bd7e0852-3d2a-59c1-8612-42f776a96f27"
+      ]
+    },
+    {
+      "title": "AI Distortion of Historical Information Policy Brief",
+      "description": "The Lucy Family Institute released a January 2026 policy brief warning that AI systems systematically distort historical information, posing threats to democratic discourse and participation nationally and internationally, and calling for mitigation action.",
+      "significance": "Public-policy contribution from the Lucy Family Institute operationalizing Notre Dame's responsible-AI voice into concrete regulatory recommendations.",
+      "date_announced": "2026-01-14",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Lucy Family Institute",
+        "description": "Research and publication cost."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Institute-internal policy output."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Advocates for regulatory and design-level intervention to prevent AI historical distortion.",
+      "source_urls": [
+        "https://lucyinstitute.nd.edu/news-events/2026/01/14/lucy-family-institute-releases-policy-brief-urging-action-on-ai-distortion-of-historical-information/"
+      ]
+    },
+    {
+      "title": "MS in Business Analytics (Mendoza, STEM-designated) and AI Coursework Portfolio",
+      "description": "Mendoza College of Business offers a STEM-designated one-year MS in Business Analytics (31 credit hours, locations in South Bend and Chicago) covering data management, predictive analytics, machine learning, and emerging AI issues; complemented by undergraduate offerings including a data science minor, the Idzik Computing & Digital Technologies (CDT) minor, and dedicated AI courses (Language Processing in Practice, CSE 40171 AI and Society).",
+      "significance": "Provides the workforce-development layer of Notre Dame's AI strategy — a professional master's plus liberal-arts-friendly minors.",
+      "date_announced": "2018-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Mendoza College of Business",
+        "description": "Dedicated degree program, faculty, and two-city delivery model."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Chicago-area employers"
+          ],
+          "description": "Industry engagement via Chicago cohort."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://mendoza.nd.edu/research-faculty/academic-departments/information-technology-analytics-operations/",
+        "https://altech.nd.edu/artificial-intelligence/course/",
+        "https://datascience.nd.edu/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Lucy Family Institute for Data & Society",
+      "focus": "Interdisciplinary AI and data-science research applied to human development, healthcare, peace, ethics, and global development",
+      "founded": "2019",
+      "url": "https://lucyinstitute.nd.edu/"
+    },
+    {
+      "name": "Notre Dame-IBM Technology Ethics Lab",
+      "focus": "Applied, interdisciplinary research on ethical AI and emerging technology governance (BenchmarkCards, Responsible AI in Finance)",
+      "founded": "2020",
+      "url": "https://techethicslab.nd.edu/"
+    },
+    {
+      "name": "Institute for Ethics and the Common Good (ECG)",
+      "focus": "Faith-based AI ethics; home of the DELTA Network and Notre Dame Summit on AI, Faith and Human Flourishing",
+      "founded": null,
+      "url": "https://ethics.nd.edu/"
+    },
+    {
+      "name": "Center for Research Computing (CRC)",
+      "focus": "Multidisciplinary research computing, HPC, AI infrastructure, software engineering support",
+      "founded": null,
+      "url": "https://crc.nd.edu/"
+    },
+    {
+      "name": "Scientific AI (SAI) Initiative",
+      "focus": "AI-enabled science and engineering; PDE/AI integration, laboratory automation, polymer data",
+      "founded": null,
+      "url": "https://sai.nd.edu/"
+    },
+    {
+      "name": "AI Trust and Reliability (AITAR) Lab",
+      "focus": "Methods for trustworthy and reliable AI systems (within Lucy Family Institute)",
+      "founded": null,
+      "url": "https://lucyinstitute.nd.edu/"
+    },
+    {
+      "name": "Human-Centered Responsible AI (HRAI) Lab",
+      "focus": "Human-centered, responsible AI design (within Lucy Family Institute)",
+      "founded": null,
+      "url": "https://lucyinstitute.nd.edu/"
+    },
+    {
+      "name": "Foundation Models and Applications Lab (FMAL)",
+      "focus": "Foundation model research and applications (within Lucy Family Institute)",
+      "founded": null,
+      "url": "https://lucyinstitute.nd.edu/"
+    },
+    {
+      "name": "Lab for AI in Teaching and Learning (LAITL)",
+      "focus": "AI literacy, pedagogy, and faculty development (within Notre Dame Learning / Kaneb Center)",
+      "founded": "2025",
+      "url": "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "MS in Business Analytics (MSBA) — STEM-designated",
+      "level": "grad",
+      "launched": "2018-08",
+      "url": "https://mendoza.nd.edu/graduate-programs/business-analytics-chicago-msba/"
+    },
+    {
+      "type": "minor",
+      "name": "Data Science Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://datascience.nd.edu/"
+    },
+    {
+      "type": "minor",
+      "name": "Idzik Computing and Digital Technologies (CDT) Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://altech.nd.edu/programs/"
+    },
+    {
+      "type": "minor",
+      "name": "Computational Science and Engineering (Graduate Minor)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://graduateschool.nd.edu/degree-programs/computational-science-and-engineering-minor---current-students-only/"
+    },
+    {
+      "type": "course",
+      "name": "Language Processing in Practice (NLP / LLMs)",
+      "level": "both",
+      "launched": null,
+      "url": "https://altech.nd.edu/artificial-intelligence/course/"
+    },
+    {
+      "type": "course",
+      "name": "CSE 40171 — AI and Society",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.coursicle.com/nd/courses/CSE/40171/"
+    },
+    {
+      "type": "course",
+      "name": "Responsible and Ethical AI (dual-enrollment for Title I high schools via NEON)",
+      "level": "undergrad",
+      "launched": "2025-08",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Google",
+      "product": "Gemini",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://ai.nd.edu/ai-in-action/approved-ai-tools/"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://ai.nd.edu/ai-in-action/approved-ai-tools/"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Team / ChatGPT Edu (pilot to enterprise)",
+      "scope": "pilot",
+      "user_count": 250,
+      "deployed": "2024-06",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "vendor": "GitHub / Microsoft",
+      "product": "GitHub Copilot",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "vendor": "Praxis AI",
+      "product": "Praxis AI (classroom tutoring pilot)",
+      "scope": "pilot",
+      "user_count": 25,
+      "deployed": "2024-08",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "product": "Amazon Bedrock / Nova Lite (Arnie chatbot)",
+      "scope": "pilot",
+      "user_count": 190,
+      "deployed": "2025-08",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    },
+    {
+      "vendor": "Notre Dame OIT (internal)",
+      "product": "AI Development Platform (secure sandbox)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://crc.nd.edu/services/computing-data/",
+    "summary": "The Center for Research Computing (CRC) operates Notre Dame's research supercomputing infrastructure, providing HPC clusters, GPU resources, grid networks, and storage, with dedicated HPC staff support including GPU-accelerated molecular dynamics expertise. CRC supports AI workloads for faculty, researchers, and external organizations. Specific node counts and GPU totals are not publicly enumerated."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Lilly Endowment grant for DELTA Network (faith-based AI ethics)",
+      "amount_usd": 50800000,
+      "source": "Lilly Endowment Inc.",
+      "purpose": "Launch and scale DELTA Network — Faith-Based Ethical Formation for a World of Powerful AI at the Institute for Ethics and the Common Good",
+      "date": "2025-12",
+      "url": "https://news.nd.edu/news/notre-dame-receives-50-million-grant-from-lilly-endowment-for-the-delta-network-a-faith-based-approach-to-ai-ethics/"
+    },
+    {
+      "title": "Robert and Sara Lumpkins founding gift for Lucy Family Institute",
+      "amount_usd": 25000000,
+      "source": "Robert Lumpkins and Sara Lumpkins (alumni)",
+      "purpose": "Found the Lucy Family Institute for Data & Society",
+      "date": "2019-12",
+      "url": "https://lucyinstitute.nd.edu/about-the-lucy-institute/"
+    },
+    {
+      "title": "IBM 10-year commitment to Notre Dame-IBM Technology Ethics Lab",
+      "amount_usd": 20000000,
+      "source": "IBM",
+      "purpose": "10-year industry-academic research commitment on tech ethics",
+      "date": "2020-10",
+      "url": "https://techethicslab.nd.edu/"
+    },
+    {
+      "title": "DELTA Network planning grant",
+      "amount_usd": 539000,
+      "source": "Lilly Endowment Inc.",
+      "purpose": "Planning grant preceding the $50.8M DELTA Network award",
+      "date": "2024-10",
+      "url": "https://news.nd.edu/news/notre-dame-receives-50-million-grant-from-lilly-endowment-for-the-delta-network-a-faith-based-approach-to-ai-ethics/"
+    },
+    {
+      "title": "AWS grant for Responsible and Ethical AI course (NEON partnership)",
+      "amount_usd": null,
+      "source": "Amazon Web Services (AWS)",
+      "purpose": "AWS credits underwriting the Arnie chatbot and secure sandbox for Title I high school dual-enrollment AI course",
+      "date": "2025-12",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "IBM",
+      "purpose": "Notre Dame-IBM Technology Ethics Lab (10-year, $20M) and AI Alliance co-founding membership; AI governance tooling (BenchmarkCards / Risk Atlas Nexus)",
+      "date": "2020-10",
+      "url": "https://techethicslab.nd.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Meta",
+      "purpose": "AI Alliance co-founding member for open, responsible AI",
+      "date": "2023-12",
+      "url": "https://news.nd.edu/news/notre-dame-joins-ibm-meta-other-partners-in-founding-new-ai-alliance/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Enterprise Gemini and NotebookLM deployment with contractual EDU data-protection terms",
+      "date": "2025-01",
+      "url": "https://ai.nd.edu/ai-in-action/approved-ai-tools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Team pilot and pursuit of ChatGPT Edu enterprise contract",
+      "date": "2024-06",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services",
+      "purpose": "Arnie chatbot on Nova Lite / Bedrock and AWS grant for NEON Title I AI course",
+      "date": "2025-12",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "GitHub / Microsoft",
+      "purpose": "Centrally managed GitHub Copilot for developers",
+      "date": "2025-01",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "National Education Opportunity Network (NEON)",
+      "purpose": "Dual-enrollment Responsible and Ethical AI course for Title I high school students",
+      "date": "2025-08",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    },
+    {
+      "pattern": "international",
+      "partner": "Pontificia Universidad Católica de Chile and University of Puerto Rico",
+      "purpose": "SAI Initiative winter school on scientific AI",
+      "date": "2024-12",
+      "url": "https://sai.nd.edu/"
+    },
+    {
+      "pattern": "international",
+      "partner": "AI Alliance (50+ members incl. Cornell, Dartmouth, UC Berkeley, Yale, Illinois, IIT Bombay, Imperial, TUM, Tokyo)",
+      "purpose": "Global coalition for open, safe, responsible AI research, benchmarks, and education",
+      "date": "2023-12",
+      "url": "https://thealliance.ai/blog/our-first-year"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Student Advising Chatbot (pilot with Center for University Advising)",
+      "scope": "Undergraduate advising questions about degree opportunities",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Arnie (AWS Nova Lite on Bedrock)",
+      "scope": "Title I high school students enrolled in Responsible and Ethical AI dual-enrollment course",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    },
+    {
+      "type": "other",
+      "name": "Google Gemini and NotebookLM (student access)",
+      "scope": "All enrolled students (announced March 18, 2025)",
+      "url": "https://www.ndsmcobserver.com/article/2025/04/notre-dame-gives-students-access-to-google-ai-tools-gemini-and-notebooklm"
+    },
+    {
+      "type": "tutor",
+      "name": "Praxis AI classroom tutor (pilot)",
+      "scope": "31 course sections, 25 instructors (extended into spring 2025)",
+      "url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+    },
+    {
+      "type": "other",
+      "name": "LAITL Undergraduate AI Coaching",
+      "scope": "Peer coaching for AI literacy, tool exploration, and prompting strategy across campus",
+      "url": "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/ai-coaching/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AWS/NEON Responsible and Ethical AI Course for Title I High Schools",
+      "description": "190-student pilot giving Title I and Title I-eligible high schoolers free Notre Dame college credit for a Responsible and Ethical AI course delivered via the Arnie chatbot in an AWS-secured sandbox.",
+      "url": "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/"
+    },
+    {
+      "title": "Campus-wide Google AI access (zero incremental cost)",
+      "description": "Rolling Gemini and NotebookLM under existing Google EDU licenses so every student, faculty, and staff member has a vetted AI option regardless of ability to pay.",
+      "url": "https://www.ndsmcobserver.com/article/2025/04/notre-dame-gives-students-access-to-google-ai-tools-gemini-and-notebooklm"
+    },
+    {
+      "title": "Sara Bea Accessibility Services AI and Digital Accessibility Resources",
+      "description": "Sara Bea Accessibility Services maintains a library of accessible technology resources and collaborates with faculty on Universal Design for Learning; Hesburgh Libraries circulates assistive technology devices.",
+      "url": "https://supportandcare.nd.edu/for-students/current-students/accessibility-support/"
+    },
+    {
+      "title": "National Education Equity Lab collaboration",
+      "description": "Separate pathway collaboration with the National Education Equity Lab creating dual-enrollment pipelines to Notre Dame for underrepresented students.",
+      "url": "https://news.nd.edu/news/collaboration-with-national-education-equity-lab-to-create-pathways-to-notre-dame/"
+    },
+    {
+      "title": "LAITL undergraduate AI coaching program",
+      "description": "Peer-led AI literacy coaching accessible to students, faculty, and staff — lowers the barrier to AI fluency regardless of background.",
+      "url": "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/ai-coaching/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Indiana",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Indiana has published a State of Indiana Policy: Artificial Intelligence (v1.1, December 2024) governing state agency use and established an AI Task Force running through 2027. Legislative activity in 2025 (HB 1296) focused on K-12 AI policy guidelines and AI-detector protections but did not directly regulate private higher education. Notre Dame is a private, non-system institution and is not covered by a system-level AI policy. Federal Executive Order 14365 (2026) signals federal preemption trends that may shape future institutional policy.",
+    "urls": [
+      "https://www.in.gov/mph/AI/",
+      "https://www.in.gov/mph/cdo/files/State-of-Indiana-Artificial-Intelligence-Policy.pdf",
+      "https://cdt.org/insights/states-focused-on-responsible-use-of-ai-in-education-during-the-2025-legislative-session/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Notre Dame has moved in roughly two years from scattered AI exploration to one of the most structurally developed AI postures in Catholic higher education. Its strategy is anchored by three architectural pieces: (1) the university-wide Data, AI, and Computing Initiative — one of five priorities in the Notre Dame 2033 Strategic Framework, launched fall 2025 under founding director Nitesh Chawla, now driving 19 faculty-led working groups across foundational AI, AI-for-science, RISE (Responsible, Inclusive, Safe, Empowering) AI, computational social science, and digital humanities; (2) a mature, bi-cameral governance stack — the Generative AI Task Force co-chaired by the CIO and VP for Research, a 20-member AI Innovation Council meeting monthly, plus the Information Governance Committee and the Lab for AI in Teaching and Learning (LAITL); and (3) a distinctive faith-based ethics layer led by the Institute for Ethics and the Common Good, which received the largest private-foundation grant in Notre Dame's history — $50.8 million from Lilly Endowment in December 2025 — to scale the DELTA (Dignity, Embodiment, Love, Transcendence, Agency) framework.\n\nOperationally, Notre Dame has executed a disciplined enterprise AI rollout: Google Gemini and NotebookLM campus-wide under existing EDU licenses with contractually extended data protection, a 250-person ChatGPT Team pilot transitioning to ChatGPT Edu, centrally managed GitHub Copilot for developers, an internal AI Development Platform sandbox, and a Praxis AI classroom tutoring pilot across 31 sections. Research output is channeled through the Lucy Family Institute (founded 2019 on a $25M Lumpkins gift, housing 8 AI-focused labs including AITAR, HRAI, and FMAL), the Notre Dame-IBM Technology Ethics Lab (10-year, $20M), the Scientific AI Initiative, and founding membership in the global AI Alliance with IBM, Meta, and 50+ partners. Equity work centers on the AWS-funded NEON Responsible and Ethical AI course delivering college-credit AI education to ~190 Title I high school students through the custom Arnie chatbot on Amazon Nova Lite / Bedrock. Policy is comprehensive — Honor Code-grounded for students, a five-level syllabus Acceptable Use Scale for faculty, an ongoing data-classification modernization, and dedicated campus-communicator guidance. Remaining gaps: no explicit chief AI officer role, no public GPU/node inventory, and no disclosed total AI investment envelope.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.nd.edu/",
+      "https://ai.nd.edu/news/spring-2025-ai-update/",
+      "https://ai.nd.edu/about/generative-ai-task-force-gait/",
+      "https://ai.nd.edu/about/ai-innovation-council/",
+      "https://ai.nd.edu/ai-in-action/approved-ai-tools/",
+      "https://ai.nd.edu/ai-in-action/policies-and-guidelines/",
+      "https://ai.nd.edu/assets/566975/gait_report_and_recommendations.pdf",
+      "https://strategicframework.nd.edu/initiatives/data-ai-computing/",
+      "https://strategicframework.nd.edu/news/faculty-directors-appointed-to-lead-strategic-initiatives-on-data-ai-and-computing-and-global-catholic-research-initiative/",
+      "https://lucyinstitute.nd.edu/",
+      "https://lucyinstitute.nd.edu/about-the-lucy-institute/",
+      "https://lucyinstitute.nd.edu/news-events/rise-ai-society-conference/",
+      "https://lucyinstitute.nd.edu/news-events/2025/10/01/notre-dames-r-i-s-e-ai-conference-builds-interdisciplinary-collaboration-to-inform-human-centered-artificial-intelligence/",
+      "https://lucyinstitute.nd.edu/news-events/2025/12/05/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/",
+      "https://lucyinstitute.nd.edu/news-events/2026/01/14/lucy-family-institute-releases-policy-brief-urging-action-on-ai-distortion-of-historical-information/",
+      "https://lucyinstitute.nd.edu/news-events/2026/02/13/data-ai-and-computing-initiative-launches-19-faculty-led-working-groups/",
+      "https://sai.nd.edu/",
+      "https://sai.nd.edu/events/2025/12/07/scientific-artificial-intelligence-graduate-fellowship-deadline/",
+      "https://ethics.nd.edu/",
+      "https://ethics.nd.edu/programs/faith-based-frameworks-for-ai-ethics/delta/",
+      "https://ethics.nd.edu/labs-and-centers/notre-dame-ibm-technology-ethics-lab/",
+      "https://techethicslab.nd.edu/",
+      "https://techethics.nd.edu/about/notre-dame-ibm-tech-ethics-lab/",
+      "https://news.nd.edu/news/notre-dame-receives-50-million-grant-from-lilly-endowment-for-the-delta-network-a-faith-based-approach-to-ai-ethics/",
+      "https://news.nd.edu/news/notre-dame-joins-ibm-meta-other-partners-in-founding-new-ai-alliance/",
+      "https://news.nd.edu/news/jane-livingston-appointed-vice-president-chief-information-officer-at-notre-dame/",
+      "https://news.nd.edu/news/historic-three-day-celebration-culminates-in-inauguration-of-notre-dames-18th-president-rev-robert-a-dowd-c-s-c/",
+      "https://news.nd.edu/news/collaboration-with-national-education-equity-lab-to-create-pathways-to-notre-dame/",
+      "https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/",
+      "https://honorcode.nd.edu/official-statement-regarding-generative-ai-may-2023/",
+      "https://honorcode.nd.edu/ai-recommendations-for-instructors/",
+      "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/",
+      "https://learning.nd.edu/learning-technology/lab-for-ai-in-teaching-and-learning-laitl/ai-academy/",
+      "https://learning.nd.edu/news/nd-learning-expands-ai-offerings-with-faculty-academy-new-lab/",
+      "https://learning.nd.edu/news/notre-dame-receives-aws-grant-to-enhance-ai-access-in-neon-partner-high-schools/",
+      "https://learning.nd.edu/resource-library/writing-ai-syllabus-policies-a-practical-guide-for-notre-dame-faculty/",
+      "https://onmessage.nd.edu/policies-and-guidelines/ai-guidelines/",
+      "https://edtechmagazine.com/higher/article/2025/05/university-notre-dame-reviews-data-governance-ai",
+      "https://crc.nd.edu/",
+      "https://crc.nd.edu/services/computing-data/",
+      "https://oit.nd.edu/about/nd-it-stewardship/information-governance/",
+      "https://oit.nd.edu/people/jane-livingston/",
+      "https://provost.nd.edu/people/john-mcgreevy/",
+      "https://president.nd.edu/",
+      "https://mendoza.nd.edu/research-faculty/academic-departments/information-technology-analytics-operations/",
+      "https://datascience.nd.edu/",
+      "https://altech.nd.edu/programs/",
+      "https://altech.nd.edu/artificial-intelligence/course/",
+      "https://niteshchawla.nd.edu/",
+      "https://www.ndsmcobserver.com/article/2025/04/notre-dame-gives-students-access-to-google-ai-tools-gemini-and-notebooklm",
+      "https://dailynous.com/2025/12/24/notre-dame-ai-ethics-project-wins-50-8-million-grant/",
+      "https://graduateschool.nd.edu/news/university-of-notre-dame-and-ibm-research-build-tools-for-ai-governance/",
+      "https://www3.nd.edu/~instres/CDS/2024-2025/CDS_2024-2025.pdf",
+      "https://www.in.gov/mph/AI/",
+      "https://thealliance.ai/blog/our-first-year",
+      "https://newsroom.ibm.com/AI-Alliance-Launches-as-an-International-Community-of-Leading-Technology-Developers,-Researchers,-and-Adopters-Collaborating-Together-to-Advance-Open,-Safe,-Responsible-AI"
+    ],
+    "search_queries": [
+      "\"University of Notre Dame\" AI strategy 2025 2026 artificial intelligence institute",
+      "\"University of Notre Dame\" generative AI policy acceptable use faculty students",
+      "\"University of Notre Dame\" AI governance committee task force chief AI officer",
+      "\"University of Notre Dame\" Lucy Family Institute Data Society AI research",
+      "\"Notre Dame\" Nitesh Chawla Data AI Computing initiative strategic framework",
+      "\"University of Notre Dame\" AI degree minor certificate curriculum academic program",
+      "\"Notre Dame\" Microsoft Copilot OR ChatGPT Edu OR Google Gemini campus deployment AI tools",
+      "\"University of Notre Dame\" Center for Research Computing HPC GPU supercomputer AI",
+      "\"Notre Dame\" ethics common good $50 million grant Meghan Sullivan AI ethics",
+      "\"Notre Dame\" IBM AI Alliance Meta partnership research collaboration",
+      "\"Notre Dame\" president Father Dowd provost CIO Jane Livingston",
+      "\"Notre Dame\" AI chatbot student services predictive analytics admissions",
+      "\"Notre Dame\" AWS grant NEON AI access high schools 2025",
+      "\"University of Notre Dame\" enrollment 2025 2026 students total Carnegie",
+      "\"Notre Dame\" provost John McGreevy 2025 2026",
+      "\"Notre Dame\" AI literacy teaching learning LAITL academy faculty training",
+      "\"Notre Dame\" Robert Dowd president C.S.C. 2025 inauguration",
+      "\"Indiana\" state AI higher education policy executive order 2025 2026",
+      "\"Notre Dame\" Technology Ethics Lab IBM AI governance tools research",
+      "\"Notre Dame\" R.I.S.E AI conference responsible 2025 human-centered",
+      "\"Notre Dame\" AI development platform secure sandbox enterprise data privacy",
+      "\"Notre Dame\" Mendoza College of Business AI technology analytics masters",
+      "\"Notre Dame\" disability accessibility AI assistive technology"
+    ],
+    "gaps_acknowledged": [
+      "No published Chief AI Officer role; Nitesh Chawla serves as AI strategy lead with dedicated title, but Notre Dame has not named a CAO.",
+      "Specific GPU count, node count, or named supercomputer for the Center for Research Computing were not publicly disclosed.",
+      "AWS grant dollar amount (credits) was not published; only in-kind credits are referenced.",
+      "No disclosed total investment envelope for the Data, AI, and Computing Initiative.",
+      "No evidence of active AI-related controversies or litigation as of April 2026 (controversies_and_litigation intentionally empty).",
+      "Precise launch dates for the SAI Initiative, AI Development Platform, and some Lucy Family Institute labs were not published.",
+      "Predictive-analytics-for-retention specific platforms at Notre Dame were not surfaced in public sources.",
+      "No specific published system-level AI policy applies (Notre Dame is private and non-system)."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "governance_led",
+        "balanced_enterprise",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 22,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 12,
+        "governance_led": 19,
+        "student_success_led": 11,
+        "workforce_regional_development": 10,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 9,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "dedicated_compute_capacity_unknown"
+      },
+      "disclosed_funding_usd": 96339000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 6,
+        "industry_vendor": 4,
+        "institutional": 11,
+        "other_unclear": 4
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 2,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 3,
+          "products": [
+            "Amazon Bedrock / Nova Lite (Arnie chatbot)",
+            "Amazon Nova Lite",
+            "Arnie Chatbot"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "GitHub Copilot"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT (Team/Edu)",
+            "ChatGPT Team / ChatGPT Edu (pilot to enterprise)"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "BenchmarkCards"
+          ]
+        },
+        {
+          "vendor": "Notre Dame OIT (internal) AI Development Platform (secure sandbox)",
+          "mentions": 1,
+          "products": [
+            "AI Development Platform (secure sandbox)"
+          ]
+        },
+        {
+          "vendor": "Notre Dame Privacy Sandbox",
+          "mentions": 1,
+          "products": [
+            "Privacy Sandbox"
+          ]
+        },
+        {
+          "vendor": "Praxis AI Praxis AI",
+          "mentions": 1,
+          "products": [
+            "Praxis AI"
+          ]
+        },
+        {
+          "vendor": "Praxis AI Praxis AI (classroom tutoring pilot)",
+          "mentions": 1,
+          "products": [
+            "Praxis AI (classroom tutoring pilot)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Generative AI Task Force (GAIT) and AI Innovation Council",
+          "summary": "Demonstrates bi-cameral governance (research + IT) combined with monthly operational cadence, a replicable model for mid-size private R1s.",
+          "source_url": "https://ai.nd.edu/about/generative-ai-task-force-gait/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Enterprise Google Gemini and NotebookLM Rollout",
+          "summary": "Campus-wide deployment of enterprise generative AI at zero incremental license cost, reached through contractual data-protection terms — a template many private institutions are emulating.",
+          "source_url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Scientific AI (SAI) Initiative",
+          "summary": "A domain-specific AI-for-science initiative with international collaboration and a funded graduate fellowship — the seed of a broader AI-for-discovery research cluster.",
+          "source_url": "https://sai.nd.edu/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Student Advising AI Chatbot Pilot",
+          "summary": "Classic enterprise-AI-for-student-services deployment built from validated data rather than public-web scraping.",
+          "source_url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "AI Development Platform (Internal Secure Sandbox)",
+          "summary": "Gives Notre Dame application developers a first-party platform rather than forcing them onto consumer APIs that can't hold institutional data.",
+          "source_url": "https://ai.nd.edu/news/spring-2025-ai-update/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Privacy Sandbox (GPT-4 Persona-Based Consumer Research Tool)",
+          "summary": "A public-good AI research artifact aimed at non-academic end users, shipped as an open plugin.",
+          "source_url": "https://m.nd.edu/graduate_student/news/detail?feed=nd_newswire&id=bd7e0852-3d2a-59c1-8612-42f776a96f27"
+        },
+        {
+          "claim_type": "career",
+          "title": "MS in Business Analytics (Mendoza, STEM-designated) and AI Coursework Portfolio",
+          "summary": "Provides the workforce-development layer of Notre Dame's AI strategy — a professional master's plus liberal-arts-friendly minors.",
+          "source_url": "https://mendoza.nd.edu/research-faculty/academic-departments/information-technology-analytics-operations/"
+        }
+      ],
+      "public_claim_count": 7
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 7,
+      "control_signal_count": 17,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No published Chief AI Officer role; Nitesh Chawla serves as AI strategy lead with dedicated title, but Notre Dame has not named a CAO.",
+        "Specific GPU count, node count, or named supercomputer for the Center for Research Computing were not publicly disclosed.",
+        "AWS grant dollar amount (credits) was not published; only in-kind credits are referenced.",
+        "No disclosed total investment envelope for the Data, AI, and Computing Initiative.",
+        "No evidence of active AI-related controversies or litigation as of April 2026 (controversies_and_litigation intentionally empty).",
+        "Precise launch dates for the SAI Initiative, AI Development Platform, and some Lucy Family Institute labs were not published.",
+        "Predictive-analytics-for-retention specific platforms at Notre Dame were not surfaced in public sources.",
+        "No specific published system-level AI policy applies (Notre Dame is private and non-system)."
+      ]
+    }
+  }
+}

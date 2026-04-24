@@ -1,0 +1,1322 @@
+{
+  "institution": "University of New Hampshire",
+  "slug": "university-of-new-hampshire",
+  "city_state": "Durham, NH",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University System of New Hampshire",
+  "enrollment": 13554,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Elizabeth S. Chilton",
+      "url": "https://www.unh.edu/leadership/"
+    },
+    "provost": {
+      "name": "Jeannette E. (Jen) Riley",
+      "url": "https://www.unh.edu/unhtoday/2025/04/unh-names-jeannette-e-riley-provost-and-executive-vice-president-academic-affairs"
+    },
+    "cio": {
+      "name": "Bill Poirier",
+      "url": "https://www.unh.edu/unhtoday/2019/08/new-cio-named-unh-and-usnh"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Maeve Dion",
+      "title": "Chair, Faculty Senate Special Committee for Artificial Intelligence (College of Professional Studies)",
+      "url": "https://www.unh.edu/fac-senate/committees/ad-hoc-committees/special-committee-artificial-intelligence"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Spring 2025 Report of the Faculty Senate Special Committee for Artificial Intelligence",
+        "url": "https://www.unh.edu/fac-senate/sites/default/files/media/2025-05/AI%20Committee%20Report%20-%20Spring%202025.pdf",
+        "year": 2025
+      },
+      {
+        "title": "USNH Artificial Intelligence Standard (system-level)",
+        "url": "https://www.usnh.edu/it/departments/cybersecurity/cybersecurity-policies-standards/artificial-intelligence-standard",
+        "year": 2023
+      }
+    ],
+    "summary": "UNH does not have a single published campus-wide AI strategy document; instead, AI direction is distributed across the USNH Artificial Intelligence Standard (system-level, 2023), the Provost's syllabus guidance, an Educational Excellence and Effectiveness (E3) faculty-development track, and a Faculty Senate Special Committee for AI that delivered its first report in Spring 2025. The Spring 2025 report explicitly flagged confusion across campus about tool availability and policy awareness, and recommended continued Faculty Senate oversight and a consolidated, clearer campus-wide approach going forward."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.usnh.edu/it/departments/cybersecurity/cybersecurity-policies-standards/artificial-intelligence-standard",
+      "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence",
+      "https://www.unh.edu/provost/sites/default/files/media/2023-01/whats-new-notes-syllabus-guidance-spring-2023.pdf"
+    ],
+    "adopted_date": "2023-07",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Prohibits entry of Tier 2+ non-public data (including PII and non-public research data) into AI tools",
+      "Requires human oversight and fail-safe mechanisms for deployed AI systems",
+      "Requires transparency about AI capabilities, limitations, and decision-making",
+      "Requires security review before deploying AI systems",
+      "Instructors must include explicit syllabus-level statement on permissible AI use",
+      "For research integrity, RCR Committee guidance on generative AI writing tools"
+    ],
+    "summary": "The USNH Artificial Intelligence Standard (effective July 31, 2023; reformatted May 2025) governs all USNH institutions, including UNH. It is a cautious, ethics-and-risk-forward standard that prohibits entering non-public data into AI tools, requires human oversight, mandates pre-deployment security review, and emphasizes transparency and bias mitigation. At the course level, the Provost requires syllabus statements on AI, and by default AI use is considered a violation of academic integrity unless the instructor explicitly permits it."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Faculty Senate Special Committee for Artificial Intelligence",
+        "type": "committee",
+        "scope": "Campus-wide. Chartered by Senate motion #XXIX-M5 to compile existing AI policies/initiatives, identify gaps, recommend campus-wide policy, and plan continuing Senate oversight. Chaired by Maeve Dion with members from CPS, CEPS, COLSA, COLA, Paul College, and Library. Delivered Spring 2025 report.",
+        "url": "https://www.unh.edu/fac-senate/committees/ad-hoc-committees/special-committee-artificial-intelligence"
+      },
+      {
+        "name": "Responsible Conduct of Research and Scholarly Activity Committee (RCR)",
+        "type": "committee",
+        "scope": "Research ethics body with 14 members across all UNH colleges; co-authored 'Simple Guide to Using Generative Artificial Intelligence Writing Tools in Research and Scholarship at UNH'. Administered by Julie Simpson, Director of Research Integrity Services.",
+        "url": "https://libraryguides.unh.edu/c.php?g=464201&p=10049703"
+      },
+      {
+        "name": "Educational Excellence and Effectiveness (E3) Team",
+        "type": "office",
+        "scope": "UNH faculty-development office that runs AI literacy workshops, the Auburn-based 'Teaching with AI' course cohort, book clubs, AI-resilient assessment resources, and the campus Teaching & Learning Resource Hub. Led by Executive Director Jennifer Lehmann.",
+        "url": "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence"
+      },
+      {
+        "name": "USNH Cybersecurity GRC (AI Standard stewards)",
+        "type": "office",
+        "scope": "System-level body that owns the USNH AI Standard, performs security reviews of AI deployments, and fields AI governance inquiries (cybersecurity.grc@usnh.edu).",
+        "url": "https://www.usnh.edu/it/departments/cybersecurity/cybersecurity-policies-standards/artificial-intelligence-standard"
+      },
+      {
+        "name": "USNH Research Computing Center (RCC)",
+        "type": "office",
+        "scope": "Operates DeepThought AI platform and high-performance computing infrastructure for AI research; approves premium-model credits and custom chatbot builds. Deputy Director: Anthony Westbrook.",
+        "url": "https://www.unh.edu/research/research-computing-center"
+      }
+    ],
+    "summary": "AI governance at UNH is multi-body and distributed rather than consolidated under a single Chief AI Officer. The Faculty Senate Special Committee for AI (2024-25) provides academic oversight, the RCR Committee handles research integrity, USNH Cybersecurity GRC owns the system-wide AI Standard, the E3 office drives faculty development, and the Research Computing Center runs the DeepThought platform. The Spring 2025 Senate report explicitly called out the need for tighter coordination."
+  },
+  "initiatives": [
+    {
+      "title": "USNH Artificial Intelligence Standard",
+      "description": "System-level AI acceptable-use standard effective July 31, 2023 covering all administrative, academic, and business units at USNH institutions including UNH. Prohibits entering non-public (Tier 2+) data into AI tools, requires human oversight, mandates security review before AI deployment, and requires transparency about model capabilities, limitations, bias, and decision-making.",
+      "significance": "Sets the default guardrails under which every AI deployment at UNH operates, including what data can touch commercial LLMs and what must stay on USNH-managed infrastructure.",
+      "date_announced": "2023-07-31",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "USNH operating",
+        "description": "Internal policy-drafting and stewardship by USNH Cybersecurity GRC; no disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Plymouth State University",
+            "Keene State College",
+            "Granite State College"
+          ],
+          "description": "Applies across all USNH component institutions, not just UNH."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Caps the range of data that can be fed into commercial LLMs and forces any AI deployment through a security-review gate.",
+      "source_urls": [
+        "https://www.usnh.edu/it/departments/cybersecurity/cybersecurity-policies-standards/artificial-intelligence-standard"
+      ]
+    },
+    {
+      "title": "DeepThought AI — USNH on-prem LLM platform",
+      "description": "USNH-developed AI platform hosted at deepthought.usnh.edu on an onsite HPC cluster managed by the Research Computing Center. Delivers free open-source local LLMs that keep prompts and data inside the USNH network, plus brokered access to premium commercial models (ChatGPT, Claude, Gemini) with Claude approved for Tier 3 data including FERPA. Faculty and staff can build custom chatbots (e.g., USNH Technology KB, UNH Housing website) grounded in uploaded documents, scraped sites, and institutional data.",
+      "significance": "Gives UNH a sovereign AI substrate where sensitive institutional and research data can be used with LLMs without leaving the network — a structural alternative to buying ChatGPT Edu or Copilot Enterprise at scale.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "ai_vendor_partnership",
+        "computing_infrastructure",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USNH (Research Computing Center / Enterprise Technology & Services)",
+        "description": "Funded internally by USNH; no public dollar figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI (ChatGPT brokered)",
+            "Anthropic (Claude brokered, Tier 3 approved)",
+            "Google (Gemini brokered)"
+          ],
+          "description": "Premium commercial models brokered through DeepThought credits; local models run on USNH hardware."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DeepThought",
+          "vendor": "University System of New Hampshire (RCC)",
+          "role": "On-prem multi-LLM platform with custom chatbot builder"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "Tier 3 / FERPA-approved brokered model"
+        },
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Brokered premium model for public data"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Brokered premium model for public data"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operationalizes the USNH AI Standard by giving users a compliant path to use AI on sensitive data without sending it off-network.",
+      "source_urls": [
+        "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322",
+        "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence",
+        "https://www.tnhdigital.com/article/2025/05/examining-the-intersection-of-artificial-intelligence-and-research-at-unh"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot campus-wide access (free tier) + Copilot Pro",
+      "description": "Free Microsoft Copilot is available to all USNH employees and students via institutional single sign-on, with Copilot Pro ($30/month) available where deeper Microsoft 365 / Power BI integration is needed. Microsoft contractually keeps UNH prompts out of third-party model training.",
+      "significance": "Establishes a commercial LLM as the default generative-AI tool for the entire UNH/USNH community without per-seat licensing friction, the most common enterprise pattern at R1s.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USNH / UNH IT",
+        "description": "Free tier included with Microsoft agreements; Pro is individually licensed at $30/month."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise data protection via existing USNH Microsoft relationship."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Campus-wide generative AI assistant"
+        },
+        {
+          "name": "Microsoft Copilot Pro",
+          "vendor": "Microsoft",
+          "role": "Paid tier with Office/Power BI integration"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Approved for general-purpose non-sensitive work under the USNH AI Standard; sensitive data must move to DeepThought.",
+      "source_urls": [
+        "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Faculty Senate Special Committee for AI — Spring 2025 report",
+      "description": "Ad-hoc Senate committee chartered under motion #XXIX-M5 and chaired by Maeve Dion (CPS) with members from six colleges plus the Library. Mandate: inventory existing UNH/USNH AI policies, suggest where campus-wide policy is needed, and design continuing Senate oversight. Report delivered May 2, 2025 and presented to Senate May 5, 2025.",
+      "significance": "First Senate-level attempt to bring faculty governance into UNH's AI stack; flagged widespread confusion about tools and policy awareness and documented pushback where faculty tried to ban AI in their courses.",
+      "date_announced": "2025-05-02",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "faculty_role_evolution",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Faculty Senate / UNH",
+        "description": "Service work by committee members; no separate budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal UNH faculty governance body."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Recommends continuing Senate oversight of LLM/AI policy — a structural step toward shared-governance accountability for AI.",
+      "source_urls": [
+        "https://www.unh.edu/fac-senate/committees/ad-hoc-committees/special-committee-artificial-intelligence",
+        "https://www.unh.edu/fac-senate/sites/default/files/media/2025-05/AI%20Committee%20Report%20-%20Spring%202025.pdf",
+        "https://scholars.unh.edu/faculty_senate_motions/466/"
+      ]
+    },
+    {
+      "title": "E3 faculty development track on teaching with AI",
+      "description": "Educational Excellence and Effectiveness office runs a multi-semester faculty track: four-part 'Creating Efficiencies in Teaching using AI' series, 'AI Basics for Instructors', 'Academic Honesty and AI Policy', a 'Teaching with AI' book club, a September 25, 2025 'DeepThought AI for Researchers' workshop, a March 24 'Generative AI in Research' faculty panel, and a January 14, 2026 'Innovating with AI' intermediate/advanced workshop.",
+      "significance": "UNH's primary mechanism for translating the USNH AI Standard into pedagogy practice — the only workstream putting AI literacy in front of faculty at scale.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_resilient_assessment",
+        "ai_enhanced_pedagogy",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNH Provost / E3",
+        "description": "Operational funding for E3 programming; no disclosed dollar amount."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Auburn University Biggio Center"
+          ],
+          "description": "UNH participates in the 2025-2026 Auburn 'Teaching with AI' course cohort, with faculty completing the 10-hour self-paced course plus synchronous UNH workshops between August 2025 and August 2026."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Teaching with AI (Canvas course)",
+          "vendor": "Auburn University (Biggio Center)",
+          "role": "Self-paced AI pedagogy course"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Recommended classroom-safe tool"
+        },
+        {
+          "name": "DeepThought",
+          "vendor": "USNH",
+          "role": "Recommended tool for sensitive content"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Pushes syllabus-level AI policy discipline (AIAS framework) and ethical-use literacy as faculty norms.",
+      "source_urls": [
+        "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence",
+        "https://www.tnhdigital.com/article/2025/12/how-unh-is-adapting-to-ai"
+      ]
+    },
+    {
+      "title": "OMAI — UNH co-PI role in NSF/NVIDIA $152M open AI for science project",
+      "description": "Assistant professor Samuel Carton (CS) is co-PI on the Open Multimodal AI Infrastructure to Accelerate Science (OMAI) project, led by the Allen Institute for AI. UNH's sub-award is over $500,000. Carton will manage a scientist-user community shaping interface design and will run his own research on using AI to accelerate materials discovery. Announced August 2025.",
+      "significance": "Plugs UNH into a national-scale, fully open AI-for-science infrastructure alongside Ai2, NSF, NVIDIA, UW, UNM, and UH Hilo — a rare federal AI research anchor for a mid-sized R1.",
+      "date_announced": "2025-08-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "open_source_contribution",
+        "cross_border_research_alliance",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 500000,
+        "funding_source": "NSF + NVIDIA (sub-award from $152M prime award to Ai2)",
+        "description": "UNH sub-award 'more than $500,000' on Ai2-led $152M NSF Mid-Scale Research Infrastructure award (NSF $75M + NVIDIA $77M)."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Allen Institute for AI (Ai2)"
+          ],
+          "description": "Industry partners providing compute and prime award."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF Mid-Scale Research Infrastructure funding."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Washington",
+            "University of New Mexico",
+            "University of Hawai'i at Hilo"
+          ],
+          "description": "Multi-institution consortium under OMAI."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "OMAI open multimodal AI infrastructure",
+          "vendor": "Ai2 consortium",
+          "role": "Open-source AI foundation models for science"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions UNH on the open-model side of the open-vs-proprietary debate in federal AI research funding.",
+      "source_urls": [
+        "https://www.unh.edu/unhtoday/2025/08/unh-researcher-joins-152m-project-advance-ai-scientific-research",
+        "https://allenai.org/blog/nsf-nvidia"
+      ]
+    },
+    {
+      "title": "AI-generated commencement name announcer (Tassel)",
+      "description": "UNH is using AI-generated voice recordings from the Tassel platform to announce graduates' names at its May commencement ceremony — the second consecutive year (2025 and 2026). Students phonetically spell their names and can preview and opt out of the AI read.",
+      "significance": "One of the most visible front-of-house deployments of consumer-grade generative voice AI at a public R1 — and a live test of student consent and ceremonial personalization.",
+      "date_announced": "2025-05",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "business_model_disruption"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UNH",
+        "description": "Vendor subscription; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Tassel"
+          ],
+          "description": "AI voice vendor specialized in commencement name pronunciation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Tassel Name Announcements",
+          "vendor": "Tassel",
+          "role": "AI voice synthesis for graduate names"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Introduces consent and opt-out considerations for voice-cloning at a ceremonial event; has drawn pushback over personalization and environmental cost.",
+      "source_urls": [
+        "https://www.bostonglobe.com/2026/04/17/metro/unh-ai-name-reader-grad-walk-nh/",
+        "https://edscoop.com/ai-voice-graduation-university-new-hampshire/",
+        "https://hot969boston.com/2026/04/22/university-of-new-hampshire-to-use-ai-generated-recordings-to-announce-names-at-commencement/"
+      ]
+    },
+    {
+      "title": "AI academic-program portfolio (B.A., Minor, Options, Graduate Certificate)",
+      "description": "UNH offers an undergraduate Computer Science: Artificial Intelligence B.A. (CEPS, 128 credits); an Artificial Intelligence Minor (CEPS, 20 credits) covering ML, neural networks, NLP, CV, and RL; a Business Management B.S. Artificial Intelligence and Machine Learning Option (CPS online); a Computer Information Technology B.S. AI/ML Option (CPS online); and a Graduate Certificate in Artificial Intelligence through CEPS.",
+      "significance": "Full vertical of AI credentials — undergraduate degree, minor, applied-business option, online CIT option, and grad certificate — instead of a single AI degree, giving AI literacy pathways across colleges.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNH CEPS, CPS, Paul College",
+        "description": "Curricular programming funded through standard academic budgets."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal UNH programs."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals that UNH treats AI as a distributed workforce-relevant capability, not a monolithic 'AI degree' play.",
+      "source_urls": [
+        "https://www.unh.edu/program/bachelor-arts/computer-science-artificial-intelligence",
+        "https://www.unh.edu/program/minor/artificial-intelligence",
+        "https://catalog.unh.edu/undergraduate/professional-studies/online/programs-study/business/business-management-major-artificial-intelligence-machine-learning-option-bs/",
+        "https://www.unh.edu/program/bachelor-science/computer-information-technology-artificial-intelligence-machine-learning-option"
+      ]
+    },
+    {
+      "title": "AI Essentials Certificate and AI Prompting Certificate (Professional Development)",
+      "description": "UNH Professional Development & Training offers a stackable AI Essentials Certificate (six elective workshops covering AI-driven marketing, decision-making, customer experience, automation, ethics and compliance; $50 enrollment fee), plus an online AI Prompting Certificate. Targeted at SMB owners, non-profit leaders, government professionals, and career-advancing individuals.",
+      "significance": "Non-credit revenue-generating AI skilling for the New Hampshire economy — a workforce-development layer distinct from the degree portfolio.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "regional_economic_impact",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UNH Professional Development & Training (self-supporting)",
+        "description": "Tuition/fee-funded; revenue figures not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "NH Small Business Development Center"
+          ],
+          "description": "AI-focused workshops for NH SBDC audiences."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Extends UNH's AI reach to non-matriculated New Hampshire workforce segments.",
+      "source_urls": [
+        "https://training.unh.edu/certificates/ai-essentials-certificate-program",
+        "https://digitalskills.unh.edu/ai-prompting",
+        "https://training.unh.edu/programs/business-industry-training/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "RCR Committee guidance on generative AI in research",
+      "description": "The Responsible Conduct of Research and Scholarly Activity Committee (14 members across all UNH colleges, administered by Director of Research Integrity Services Julie Simpson, in partnership with USNH Research Computing Deputy Director Anthony Westbrook) published a 'Simple Guide to Using Generative Artificial Intelligence Writing Tools in Research and Scholarship at UNH' and ran an October 2024 virtual workshop 'Balancing Innovation & Integrity: Exploring the Ethics of Using Generative AI in Research.'",
+      "significance": "Research-integrity guardrails — particularly on AI in manuscripts and scholarly writing — operationalized through a standing committee rather than left to PI discretion.",
+      "date_announced": "2024-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UNH Research Integrity Services",
+        "description": "Committee service and publication; no standalone budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal UNH research integrity body."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "DeepThought",
+          "vendor": "USNH",
+          "role": "Recommended for AI use on non-public research data"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Frames AI in scholarly writing as requiring disclosure, verification, and attention to privacy rather than blanket approval or prohibition.",
+      "source_urls": [
+        "https://libraryguides.unh.edu/c.php?g=464201&p=10049703",
+        "https://www.tnhdigital.com/article/2025/05/examining-the-intersection-of-artificial-intelligence-and-research-at-unh"
+      ]
+    },
+    {
+      "title": "Intelligent Systems / AI & Robotics cluster (CS Department)",
+      "description": "Active research cluster at the Kingsbury Hall-based Computer Science department including the Cognitive Assistive Robotics Lab (CARL, Momotaz Begum), heuristic-search work (Wheeler Ruml, including the 'Bugsy' and 'Optimistic Search' algorithms), information retrieval and ML (Laura Dietz), and ML/planning/optimization (Marek Petrik). Physical robotics equipped with SICK lidars, RGBD cameras, and 7-DOF arms.",
+      "significance": "Traditional academic AI research base at UNH — smaller than peer R1 AI institutes but with distinctive depth in heuristic search, planning, and assistive robotics.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF, other federal grants (not disclosed in aggregate)",
+        "description": "Ongoing federally funded research; individual grants not aggregated here."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "CS-department-level research; specific industry partners not disclosed in public pages."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ceps.unh.edu/computer-science/research/intelligent-systems-university-new-hampshire",
+        "https://www.cs.unh.edu/ai"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Cognitive Assistive Robotics Lab (CARL)",
+      "focus": "Assistive robotics, human-robot interaction, learning from demonstration (Momotaz Begum, director)",
+      "founded": null,
+      "url": "https://ceps.unh.edu/computer-science/research/intelligent-systems-university-new-hampshire"
+    },
+    {
+      "name": "Intelligent Systems @ UNH (AI & Robotics cluster)",
+      "focus": "Heuristic search, planning, ML, information retrieval, robotics (Ruml, Petrik, Dietz, Begum)",
+      "founded": null,
+      "url": "https://ceps.unh.edu/computer-science/research/intelligent-systems-university-new-hampshire"
+    },
+    {
+      "name": "Research Computing Center (RCC)",
+      "focus": "HPC and AI infrastructure for sponsored research; operates DeepThought AI",
+      "founded": null,
+      "url": "https://www.unh.edu/research/research-computing-center"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Computer Science: Artificial Intelligence, B.A.",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.unh.edu/program/bachelor-arts/computer-science-artificial-intelligence"
+    },
+    {
+      "type": "minor",
+      "name": "Artificial Intelligence Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.unh.edu/program/minor/artificial-intelligence"
+    },
+    {
+      "type": "concentration",
+      "name": "Business Management Major: Artificial Intelligence and Machine Learning Option, B.S. (online)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.unh.edu/undergraduate/professional-studies/online/programs-study/business/business-management-major-artificial-intelligence-machine-learning-option-bs/"
+    },
+    {
+      "type": "concentration",
+      "name": "Computer Information Technology: Artificial Intelligence and Machine Learning Option, B.S.",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.unh.edu/program/bachelor-science/computer-information-technology-artificial-intelligence-machine-learning-option"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Graduate Certificate (CEPS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ceps.unh.edu/computer-science"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Essentials Certificate (Professional Development & Training, non-credit)",
+      "level": "both",
+      "launched": null,
+      "url": "https://training.unh.edu/certificates/ai-essentials-certificate-program"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Prompting Certificate (Digital Skills, non-credit)",
+      "level": "both",
+      "launched": null,
+      "url": "https://digitalskills.unh.edu/ai-prompting"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "University System of New Hampshire (RCC)",
+      "product": "DeepThought AI (multi-LLM platform with custom chatbot builder)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (free institutional tier + Copilot Pro)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence"
+    },
+    {
+      "vendor": "Anthropic (via DeepThought)",
+      "product": "Claude (Tier 3 / FERPA-approved)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "vendor": "OpenAI (via DeepThought)",
+      "product": "ChatGPT (brokered premium)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "vendor": "Google (via DeepThought)",
+      "product": "Gemini (brokered premium)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "vendor": "Tassel",
+      "product": "AI commencement name-pronunciation voice synthesis",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://edscoop.com/ai-voice-graduation-university-new-hampshire/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "DeepThought HPC cluster (USNH RCC)",
+    "gpu_count": null,
+    "url": "https://www.unh.edu/research/research-computing-center",
+    "summary": "USNH Research Computing Center operates an onsite HPC cluster that powers the DeepThought AI platform, hosting open-source LLMs with prompts and data kept inside the USNH network. Specific GPU counts are not publicly disclosed. RCC additionally provides HPC support for the broader sponsored-research community."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "OMAI sub-award to UNH (via Ai2-led $152M NSF/NVIDIA award)",
+      "amount_usd": 500000,
+      "source": "NSF + NVIDIA (Ai2 prime, UNH sub-award)",
+      "purpose": "AI-for-science user-community management and AI-assisted materials-discovery research (PI: Samuel Carton, CS)",
+      "date": "2025-08",
+      "url": "https://www.unh.edu/unhtoday/2025/08/unh-researcher-joins-152m-project-advance-ai-scientific-research"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Allen Institute for AI (Ai2)",
+      "purpose": "OMAI open multimodal AI infrastructure for scientific research (UNH co-PI: Samuel Carton)",
+      "date": "2025-08",
+      "url": "https://www.unh.edu/unhtoday/2025/08/unh-researcher-joins-152m-project-advance-ai-scientific-research"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "Compute and model-development partner on OMAI project",
+      "date": "2025-08",
+      "url": "https://allenai.org/blog/nsf-nvidia"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Prime funder of OMAI ($75M NSF share of $152M total)",
+      "date": "2025-08",
+      "url": "https://www.nsf.gov/news/nsf-nvidia-partnership-enables-ai2-develop-fully-open-ai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Campus-wide Copilot access for faculty, staff, students",
+      "date": null,
+      "url": "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Anthropic",
+      "purpose": "Claude brokered through DeepThought, approved for Tier 3/FERPA data",
+      "date": null,
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Auburn University (Biggio Center)",
+      "purpose": "2025-26 'Teaching with AI' course cohort for UNH faculty",
+      "date": "2025-08",
+      "url": "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Tassel",
+      "purpose": "AI-generated commencement name pronunciation at UNH",
+      "date": "2025-05",
+      "url": "https://edscoop.com/ai-voice-graduation-university-new-hampshire/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "NH Small Business Development Center",
+      "purpose": "AI-focused marketing workshops and Voice Z Digital collaboration",
+      "date": "2025-05",
+      "url": "https://www.unh.edu/unhtoday/2025/04/nh-sbdc-puts-unh-students-work-supporting-small-businesses"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "UNH Housing DeepThought chatbot",
+      "scope": "UNH Housing website — question-answering chatbot for residential life information",
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "type": "chatbot",
+      "name": "USNH Technology Knowledge Base DeepThought chatbot",
+      "scope": "USNH IT help — question-answering for technology support",
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    },
+    {
+      "type": "other",
+      "name": "Tassel AI commencement name announcer",
+      "scope": "Student-facing ceremonial AI — announces graduate names at UNH commencement with student-previewed phonetic spellings and opt-out",
+      "url": "https://edscoop.com/ai-voice-graduation-university-new-hampshire/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Tassel commencement opt-out for students",
+      "description": "Students uncomfortable with the AI voice can opt out of having their name read by the AI system, a consent-first design at a high-visibility ceremonial event.",
+      "url": "https://edscoop.com/ai-voice-graduation-university-new-hampshire/"
+    },
+    {
+      "title": "DeepThought free on-network LLMs",
+      "description": "Local open-source LLMs on the USNH HPC cluster are free to faculty/staff (SSO access), reducing dependence on paid subscriptions and bringing a sovereign AI option to researchers who cannot put data into commercial tools.",
+      "url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+    }
+  ],
+  "regulatory_context": {
+    "state": "New Hampshire",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "New Hampshire enacted HB1688 (effective July 1, 2024) prohibiting state agencies from using AI to manipulate, discriminate, or surveil the public, but exempts AI systems used in research by state-funded institutions of higher learning. RSA 507:8-j and RSA 638:26-a (effective January 1, 2025) address deepfake-related civil actions and identity theft. The state has a Code of Ethics for the Use and Development of Generative AI for state employees. At the system level, USNH's Artificial Intelligence Standard (effective July 31, 2023; reformatted May 2025) applies to all USNH institutions including UNH.",
+    "urls": [
+      "https://legiscan.com/NH/text/HB1688/id/3013035",
+      "https://mm.nh.gov/files/uploads/doit/documents/sonh-use-of-artificial-intelligence-technologies-policy.pdf",
+      "https://www.usnh.edu/it/departments/cybersecurity/cybersecurity-policies-standards/artificial-intelligence-standard"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-04",
+      "summary": "Student pushback against UNH's use of Tassel AI voices at commencement, citing loss of personalization and environmental concerns (water/electricity consumption). First-generation student Madison Wilson publicly called the practice 'impersonal.' No litigation; reputational/student-experience controversy.",
+      "status": "active",
+      "url": "https://www.bostonglobe.com/2026/04/17/metro/unh-ai-name-reader-grad-walk-nh/"
+    },
+    {
+      "date": "2025-05",
+      "summary": "Faculty Senate AI committee's Spring 2025 report documented that faculty who banned AI in course syllabi reported pushback from leadership on enforcing such restrictions — a surfacing tension between faculty autonomy and administrative AI encouragement.",
+      "status": "active",
+      "url": "https://www.unh.edu/fac-senate/sites/default/files/media/2025-05/AI%20Committee%20Report%20-%20Spring%202025.pdf"
+    }
+  ],
+  "narrative_summary": "The University of New Hampshire is New Hampshire's public land-grant, sea-grant, and space-grant flagship, R1-designated again in the 2025 Carnegie reclassification, with roughly 13,554 students and $252M in FY24 external research funding. Its AI posture is distributed rather than consolidated — there is no Chief AI Officer and no single published AI strategy — but the pieces add up to a surprisingly comprehensive footprint for a mid-sized R1. Governance operates on four tracks simultaneously: the system-level USNH Artificial Intelligence Standard (effective July 31, 2023) that prohibits non-public data in AI tools and forces security review; the Faculty Senate Special Committee for AI (2024-25) chaired by Maeve Dion, which delivered its first Spring 2025 report documenting campus confusion and faculty-leadership tensions over AI enforcement; the Responsible Conduct of Research Committee under Director Julie Simpson that guides AI in scholarly work; and the Provost's syllabus-statement requirement making course-level AI policy mandatory.\n\nEnterprise infrastructure is the most distinctive element: USNH's Research Computing Center, with Deputy Director Anthony Westbrook, runs DeepThought AI — an on-prem multi-LLM platform on a USNH HPC cluster that hosts free open-source local models (keeping data inside the network) plus brokered access to ChatGPT, Claude (approved for Tier 3/FERPA data), and Gemini for non-sensitive work, with custom chatbot-building for offices like UNH Housing and the USNH Technology KB. Microsoft Copilot is available campus-wide via SSO. On research, CS assistant professor Samuel Carton is co-PI on the $152M NSF/NVIDIA Ai2-led OMAI open-multimodal-AI-for-science consortium (UNH sub-award $500K+, announced August 2025) alongside UW, UNM, and UH Hilo. The CS department's Intelligent Systems cluster — Ruml, Petrik, Dietz, Begum's CARL lab — adds long-standing depth in heuristic search, planning, ML, and assistive robotics.\n\nAcademically, UNH offers a vertical AI credential stack: a CS:AI B.A., an AI Minor, AI/ML Options in Business Management and Computer Information Technology, a Graduate Certificate, and non-credit AI Essentials and AI Prompting certificates through Professional Development & Training. Student-facing AI is modest — chatbots built on DeepThought for housing/IT — but visible, including the second year (2025, 2026) of Tassel AI-voice commencement name-readings with student opt-out, which has drawn student pushback. Gaps: no single campus AI strategy document, no named Chief AI Officer, unclear adoption metrics for Copilot/DeepThought, and no disclosed GPU counts or aggregate AI research spend.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.unh.edu/teaching-learning-resource-hub/delivery/generative-artificial-intelligence",
+      "https://www.unh.edu/fac-senate/sites/default/files/media/2025-05/AI%20Committee%20Report%20-%20Spring%202025.pdf",
+      "https://www.unh.edu/fac-senate/committees/ad-hoc-committees/special-committee-artificial-intelligence",
+      "https://scholars.unh.edu/faculty_senate_motions/466/",
+      "https://www.usnh.edu/it/artificial-intelligence",
+      "https://www.usnh.edu/it/departments/cybersecurity/cybersecurity-policies-standards/artificial-intelligence-standard",
+      "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322",
+      "https://www.unh.edu/leadership/",
+      "https://www.unh.edu/unhtoday/2025/04/unh-names-jeannette-e-riley-provost-and-executive-vice-president-academic-affairs",
+      "https://www.unh.edu/unhtoday/2019/08/new-cio-named-unh-and-usnh",
+      "https://www.unh.edu/unhtoday/2025/02/unh-retains-carnegie-r1-classification",
+      "https://www.unh.edu/unhtoday/2025/08/unh-researcher-joins-152m-project-advance-ai-scientific-research",
+      "https://allenai.org/blog/nsf-nvidia",
+      "https://www.nsf.gov/news/nsf-nvidia-partnership-enables-ai2-develop-fully-open-ai",
+      "https://ceps.unh.edu/computer-science/research/intelligent-systems-university-new-hampshire",
+      "https://www.cs.unh.edu/ai",
+      "https://www.unh.edu/research/research-computing-center",
+      "https://www.unh.edu/program/bachelor-arts/computer-science-artificial-intelligence",
+      "https://www.unh.edu/program/minor/artificial-intelligence",
+      "https://catalog.unh.edu/undergraduate/professional-studies/online/programs-study/business/business-management-major-artificial-intelligence-machine-learning-option-bs/",
+      "https://www.unh.edu/program/bachelor-science/computer-information-technology-artificial-intelligence-machine-learning-option",
+      "https://training.unh.edu/certificates/ai-essentials-certificate-program",
+      "https://digitalskills.unh.edu/ai-prompting",
+      "https://training.unh.edu/programs/business-industry-training/artificial-intelligence",
+      "https://libraryguides.unh.edu/c.php?g=464201&p=10049703",
+      "https://www.tnhdigital.com/article/2025/05/examining-the-intersection-of-artificial-intelligence-and-research-at-unh",
+      "https://www.tnhdigital.com/article/2025/12/how-unh-is-adapting-to-ai",
+      "https://www.bostonglobe.com/2026/04/17/metro/unh-ai-name-reader-grad-walk-nh/",
+      "https://edscoop.com/ai-voice-graduation-university-new-hampshire/",
+      "https://hot969boston.com/2026/04/22/university-of-new-hampshire-to-use-ai-generated-recordings-to-announce-names-at-commencement/",
+      "https://legiscan.com/NH/text/HB1688/id/3013035",
+      "https://www.collegetuitioncompare.com/edu/183044/university-of-new-hampshire-main-campus/enrollment/",
+      "https://en.wikipedia.org/wiki/University_of_New_Hampshire"
+    ],
+    "search_queries": [
+      "University of New Hampshire AI strategy 2025 2026 artificial intelligence initiative",
+      "University of New Hampshire generative AI policy acceptable use faculty students",
+      "University of New Hampshire CIO president provost 2025 2026 leadership",
+      "University of New Hampshire AI research center lab Kingsbury Computer Science",
+      "University of New Hampshire DeepThought AI platform Research Computing Center",
+      "University of New Hampshire commencement AI-generated voice name reader 2026",
+      "UNH Stan Waddell chief information officer 2024 2025 IT leadership",
+      "University of New Hampshire NSF AI grant million funding 2024 2025",
+      "UNH AI committee Special Committee for Artificial Intelligence faculty senate report",
+      "University of New Hampshire Samuel Carton NSF NVIDIA open AI ecosystem Ai2",
+      "University of New Hampshire artificial intelligence minor graduate certificate programs undergraduate",
+      "UNH AI essentials certificate professional development training program launched",
+      "University of New Hampshire AI ethics academic integrity chatbot advising student",
+      "UNH Manchester Paul College business AI entrepreneurship initiative launch 2025",
+      "University of New Hampshire Carnegie classification R1 doctoral very high research 2025",
+      "University of New Hampshire enrollment students 2024 2025 total students undergraduate graduate",
+      "University of New Hampshire Microsoft Copilot campus-wide deployment students faculty",
+      "New Hampshire state AI policy higher education executive order 2024 2025",
+      "University of New Hampshire Durham public flagship land-grant research university"
+    ],
+    "gaps_acknowledged": [
+      "No single published UNH AI strategy document; Spring 2025 Senate report recommended but did not produce a consolidated strategy.",
+      "No named Chief AI Officer; the Faculty Senate committee chair (Maeve Dion) is the closest proxy for an AI strategy lead but is not a formal administrative role.",
+      "GPU count and specific hardware specs of the DeepThought HPC cluster are not publicly disclosed.",
+      "Launch dates for DeepThought, the AI Minor, the CS:AI B.A., and the AI Graduate Certificate are not in public sources.",
+      "User-count / adoption metrics for Microsoft Copilot and DeepThought not publicly disclosed.",
+      "PDF of the Spring 2025 Senate AI Committee report could not be parsed (binary); summary draws from the committee charge page and secondary reporting.",
+      "No publicly identified predictive-analytics/retention AI system like EAB Navigate or Civitas (gap in student_experience_and_services coverage beyond chatbots).",
+      "No disclosed named donor gift or endowed AI chair.",
+      "Specific adoption dates and monetary values for Tassel commencement contract not disclosed."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "governance_led",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 20,
+        "research_compute_powerhouse": 9,
+        "curriculum_led": 11,
+        "governance_led": 14,
+        "student_success_led": 5,
+        "workforce_regional_development": 9,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-07",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 3,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "DeepThought HPC cluster (USNH RCC)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 500000,
+      "funding_source_buckets": {
+        "public_federal_state": 3,
+        "institutional": 3,
+        "industry_vendor": 2,
+        "other_unclear": 4
+      },
+      "partnership_count": 8
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Microsoft Copilot",
+            "Microsoft Copilot (free institutional tier + Copilot Pro)",
+            "Microsoft Copilot Pro"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 2,
+          "products": [
+            "Claude",
+            "Claude (Tier 3 / FERPA-approved)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "Gemini (brokered premium)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT",
+            "ChatGPT (brokered premium)"
+          ]
+        },
+        {
+          "vendor": "USNH DeepThought",
+          "mentions": 2,
+          "products": [
+            "DeepThought"
+          ]
+        },
+        {
+          "vendor": "Ai2 consortium OMAI open multimodal AI infrastructure",
+          "mentions": 1,
+          "products": [
+            "OMAI open multimodal AI infrastructure"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Teaching with AI (Canvas course)"
+          ]
+        },
+        {
+          "vendor": "Tassel AI commencement name-pronunciation voice synthesis",
+          "mentions": 1,
+          "products": [
+            "AI commencement name-pronunciation voice synthesis"
+          ]
+        },
+        {
+          "vendor": "Tassel Tassel Name Announcements",
+          "mentions": 1,
+          "products": [
+            "Tassel Name Announcements"
+          ]
+        },
+        {
+          "vendor": "University System of New Hampshire (RCC) DeepThought",
+          "mentions": 1,
+          "products": [
+            "DeepThought"
+          ]
+        },
+        {
+          "vendor": "University System of New Hampshire (RCC) DeepThought AI (multi-LLM platform with custom chatbot builder)",
+          "mentions": 1,
+          "products": [
+            "DeepThought AI (multi-LLM platform with custom chatbot builder)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "DeepThought AI — USNH on-prem LLM platform",
+          "summary": "Gives UNH a sovereign AI substrate where sensitive institutional and research data can be used with LLMs without leaving the network — a structural alternative to buying ChatGPT Edu or Copilot Enterprise at scale.",
+          "source_url": "https://td.usnh.edu/TDClient/60/Portal/KB/ArticleDet?ID=5322"
+        },
+        {
+          "claim_type": "usage",
+          "title": "OMAI — UNH co-PI role in NSF/NVIDIA $152M open AI for science project",
+          "summary": "Plugs UNH into a national-scale, fully open AI-for-science infrastructure alongside Ai2, NSF, NVIDIA, UW, UNM, and UH Hilo — a rare federal AI research anchor for a mid-sized R1.",
+          "source_url": "https://www.unh.edu/unhtoday/2025/08/unh-researcher-joins-152m-project-advance-ai-scientific-research"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI academic-program portfolio (B.A., Minor, Options, Graduate Certificate)",
+          "summary": "Full vertical of AI credentials — undergraduate degree, minor, applied-business option, online CIT option, and grad certificate — instead of a single AI degree, giving AI literacy pathways across colleges.",
+          "source_url": "https://www.unh.edu/program/bachelor-arts/computer-science-artificial-intelligence"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "AI Essentials Certificate and AI Prompting Certificate (Professional Development)",
+          "summary": "Non-credit revenue-generating AI skilling for the New Hampshire economy — a workforce-development layer distinct from the degree portfolio.",
+          "source_url": "https://training.unh.edu/certificates/ai-essentials-certificate-program"
+        },
+        {
+          "claim_type": "learning",
+          "title": "RCR Committee guidance on generative AI in research",
+          "summary": "Research-integrity guardrails — particularly on AI in manuscripts and scholarly writing — operationalized through a standing committee rather than left to PI discretion.",
+          "source_url": "https://libraryguides.unh.edu/c.php?g=464201&p=10049703"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Intelligent Systems / AI & Robotics cluster (CS Department)",
+          "summary": "Traditional academic AI research base at UNH — smaller than peer R1 AI institutes but with distinctive depth in heuristic search, planning, and assistive robotics.",
+          "source_url": "https://ceps.unh.edu/computer-science/research/intelligent-systems-university-new-hampshire"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No single published UNH AI strategy document; Spring 2025 Senate report recommended but did not produce a consolidated strategy.",
+        "No named Chief AI Officer; the Faculty Senate committee chair (Maeve Dion) is the closest proxy for an AI strategy lead but is not a formal administrative role.",
+        "GPU count and specific hardware specs of the DeepThought HPC cluster are not publicly disclosed.",
+        "Launch dates for DeepThought, the AI Minor, the CS:AI B.A., and the AI Graduate Certificate are not in public sources.",
+        "User-count / adoption metrics for Microsoft Copilot and DeepThought not publicly disclosed.",
+        "PDF of the Spring 2025 Senate AI Committee report could not be parsed (binary); summary draws from the committee charge page and secondary reporting.",
+        "No publicly identified predictive-analytics/retention AI system like EAB Navigate or Civitas (gap in student_experience_and_services coverage beyond chatbots).",
+        "No disclosed named donor gift or endowed AI chair.",
+        "Specific adoption dates and monetary values for Tassel commencement contract not disclosed."
+      ]
+    }
+  }
+}

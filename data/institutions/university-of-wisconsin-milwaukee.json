@@ -1,0 +1,1267 @@
+{
+  "institution": "University of Wisconsin-Milwaukee",
+  "slug": "university-of-wisconsin-milwaukee",
+  "city_state": "Milwaukee, WI",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Wisconsin",
+  "enrollment": 23104,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Thomas Gibson (Chancellor)",
+      "url": "https://uwm.edu/chancellor/about/"
+    },
+    "provost": {
+      "name": "Andrew P. Daire (through May 1, 2026); Tina L. Freiburger (Interim, effective May 2026)",
+      "url": "https://uwm.edu/academicaffairs/about/provosts-biography/"
+    },
+    "cio": {
+      "name": "Scott Genung",
+      "url": "https://uwm.edu/information-technology/uits/chief-information-officer/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Scott Genung and Purush Papatla",
+      "title": "Co-leads, UWM AI Taskforce (CIO; Northwestern Mutual Data Science Institute co-director)",
+      "url": "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "AI at UWM (central hub for strategy, policy, services)",
+        "url": "https://uwm.edu/ai/",
+        "year": 2024
+      },
+      {
+        "title": "UWM AI Policies & Guidance (policy analysis of applicable UW System and UWM rules)",
+        "url": "https://uwm.edu/ai/policy-analysis/",
+        "year": 2024
+      },
+      {
+        "title": "GenAI Advisory Group objectives",
+        "url": "https://uwm.edu/ai/genai-advisory-group/",
+        "year": 2024
+      }
+    ],
+    "summary": "UWM has not published a single named AI strategy document, but has stood up a formal posture through its AI Taskforce (formed spring 2024, ~50 stakeholders in six work groups), GenAI Advisory Group (chaired by CIO Scott Genung with the Provost, SVC Finance and VC Student Affairs as executive sponsors), a central uwm.edu/ai hub, and an Applied AI program anchored by the Connected Systems Institute and the Northwestern Mutual Data Science Institute. The UWM approach emphasizes responsible-use guardrails mapped to UW System information security and data classification policies, a three-tier tool portfolio (Equitable/Targeted/Special) featuring Microsoft Copilot as the default enterprise tool, and heavy alignment with the systemwide AI strategy articulated by UW System President Jay Rothman. UWM participates in a February 2026 five-university Milwaukee AI pact hosted by Northwestern Mutual."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://uwm.edu/ai/policy-analysis/",
+      "https://uwm.edu/ai/guidance/",
+      "https://uwm.edu/graduate-assistants/handbook/teaching-assistants/academic-misconduct/",
+      "https://uwm.edu/information-technology/copilot-chat-at-uwm/"
+    ],
+    "adopted_date": "2024-09",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use of generative AI must comply with UW System Regent Policy Document 25-3 (Acceptable Use), 25-5 (Information Security), UWSA Policy 1031 (Data Classification), 1039 (Risk Management), and 1040 (Privacy)",
+      "Confidential/restricted data (student records, research, financial info) forbidden from public AI platforms; Low Risk data approved for on-prem, private-cloud, and public-cloud; Medium Risk requires review by infosec and research computing; High Risk requires additional PII review; research data requires IRB plus security review",
+      "Microsoft 365 Copilot Chat (enterprise) is the only version approved for use with University data, protected by the UWM-Microsoft enterprise data protection agreement and identifiable by the green shield indicator",
+      "Faculty strongly encouraged (not required) to include a stated AI-use policy in course syllabi; CASL (formerly CETL) publishes sample language",
+      "AI detection software discouraged; use of third-party AI detectors may violate FERPA when student work is uploaded to external services",
+      "Unauthorized or uncited use of AI tools like ChatGPT is academic misconduct under Wisconsin Administrative Code Chapter UWS 14, investigated through the Dean of Students office",
+      "Developers must disclose AI components and explain decisions; users must review outputs for accuracy, bias, and ethical concerns before relying on them"
+    ],
+    "summary": "UWM's AI policy posture is cautious and layered, relying primarily on adopted UW System Board of Regents and UWSA policies (1031, 1039, 1040, RPD 25-3, RPD 25-5) rather than a standalone UWM policy. The AI Taskforce and GenAI Advisory Group produced a data risk classification framework (low/moderate/high) tied to permitted AI tools, with Microsoft Copilot Chat as the approved enterprise channel for University data. Syllabus-level AI policy is strongly encouraged but not mandated."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UWM AI Taskforce",
+        "type": "task_force",
+        "scope": "~50 campus stakeholders in six work groups: Education & Curriculum (Sarah Riforgiate), Student Experience (Dave Clark), Research (Kris O'Connor), Business Processes (Amanda Obermeyer), Infrastructure and Data (Beth Schaefer), Responsible AI (Thomas Malaby). Identified ~60 current/proposed GenAI applications, designed a three-tier tool portfolio, and recommended pilot tools (Microsoft Copilot for Enterprises, Ida, ChatGPT for EDU, Maizy, Azure AI/OpenAI).",
+        "url": "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/"
+      },
+      {
+        "name": "GenAI Advisory Group",
+        "type": "council",
+        "scope": "Chaired by CIO Scott Genung; executive sponsors Provost Andrew Daire, SVC Finance and Administration Robin Van Harpen, and VC Student Affairs Kelly Haag. 13 members spanning IT, learning technology, faculty, enrollment, HR, business services, data science, infosec, research computing, CETL/CASL, and innovation partnerships. Charged with mapping use cases, establishing governance, communicating risks, and potentially forming a UWM Center of Excellence for GenAI.",
+        "url": "https://uwm.edu/ai/genai-advisory-group/"
+      },
+      {
+        "name": "Information Security Office (UWM IT)",
+        "type": "office",
+        "scope": "Reviews Medium/High Risk AI use cases per UW System data classification; gates research-computing AI integrations; operates infosec@uwm.edu review channel.",
+        "url": "https://uwm.edu/ai/guidance/"
+      },
+      {
+        "name": "Dean of Students Office",
+        "type": "office",
+        "scope": "Investigates AI-related academic misconduct under UWS 14; publishes instructor guidance discouraging AI detectors.",
+        "url": "https://uwm.edu/graduate-assistants/handbook/teaching-assistants/academic-misconduct/"
+      }
+    ],
+    "summary": "UWM's AI governance is a two-body structure: a broad cross-campus AI Taskforce (spring 2024, six work groups, ~50 members) that produced the initial use-case inventory and tool portfolio, and a smaller executive GenAI Advisory Group chaired by the CIO with Provost/SVC-Finance/VC-Student-Affairs sponsorship that is now operationalizing policy, risk, and tool adoption. The Information Security Office and Dean of Students provide functional governance on data risk review and academic misconduct."
+  },
+  "initiatives": [
+    {
+      "title": "Microsoft AI Co-Innovation Lab at UWM (manufacturing focus)",
+      "description": "Microsoft's first AI Co-Innovation Lab dedicated to manufacturing, and its first co-innovation lab based at a university, housed within the UWM Connected Systems Institute. Partners Microsoft, UWM, Wisconsin Economic Development Corporation, and TitletownTech; companies participate for free, retain IP, and work with small teams to build custom AI solutions (real-time fault detection, multilingual voice assistants). Roughly 10 companies completed the initial cohort.",
+      "significance": "A flagship industry-academic lab for applied AI in manufacturing that gives UWM a national role in Industry 4.0 and embeds undergraduates/graduates and faculty in live AI deployments.",
+      "date_announced": "2025-06-25",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "regional_economic_impact",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 3300000000,
+        "funding_source": "Microsoft Corporation (broader southeastern Wisconsin AI infrastructure investment encompassing the lab)",
+        "description": "Part of Microsoft's $3.3B AI infrastructure and digital transformation investment in Wisconsin. The Co-Innovation Lab specifically is an operational commitment rather than a fixed-dollar grant to UWM."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Wisconsin Economic Development Corporation",
+            "TitletownTech",
+            "UWM Connected Systems Institute"
+          ],
+          "description": "Four-way partnership with Microsoft AI Co-Innovation Labs leadership (Ricardo Villarreal, Julianna Javor) and UWM (Chancellor Mark Mone at launch, Chief Innovation and Partnership Officer Brian Thompson, CSI Director Joe Hamann)."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Azure AI / Azure OpenAI",
+          "vendor": "Microsoft",
+          "role": "Underlying AI platform for lab engagements"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes UWM as a national anchor for manufacturing AI and creates a repeatable industry-academic model for R1s in non-coastal innovation regions.",
+      "source_urls": [
+        "https://uwm.edu/news/uwm-and-microsoft-unveil-ai-co-innovation-lab-to-drive-manufacturing-innovation/",
+        "https://uwm.edu/news/microsoft-plans-to-spend-80bn-in-2025-to-develop-ai-enabled-data-centers-starting-with-ai-co-innovation-lab-at-uwm/",
+        "https://urbanmilwaukee.com/2025/06/26/microsoft-uwm-unveil-new-ai-lab/"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot Chat campus-wide rollout",
+      "description": "Microsoft 365 Copilot Chat is available to all UWM students, faculty, and staff through their UWM Microsoft 365 account with enterprise data protection (encryption, regular safety checks, contractually restricted from model training). UWM designates Copilot Chat as the only AI chatbot approved for use with University data, identifiable by the green-shield indicator in the UI.",
+      "significance": "Puts an enterprise-grade generative AI assistant in every UWM account with data-protection terms above the free tier, setting a campus-wide baseline for safe AI use.",
+      "date_announced": "2026-04-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UWM Microsoft 365 enterprise licensing",
+        "description": "Included in UWM's Microsoft 365 enterprise agreement with additional legal and technical protections negotiated by UWM."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise data protection agreement between UWM and Microsoft governs prompts/responses."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Enterprise-grade generative AI assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Channels generative AI demand into a tool where data handling is auditable and contractually constrained, while shifting the institutional message from prohibition to approved-use.",
+      "source_urls": [
+        "https://uwm.edu/news/copilot-chat-now-available-to-uwm-students-faculty-and-staff/",
+        "https://uwm.edu/information-technology/copilot-chat-at-uwm/",
+        "https://uwm.edu/information-technology/using-microsoft-copilot-chat/"
+      ]
+    },
+    {
+      "title": "UWM AI Taskforce and GenAI Advisory Group",
+      "description": "Spring-2024 AI Taskforce co-led by CIO Scott Genung and Prof. Purush Papatla, comprising six work groups (Education & Curriculum, Student Experience, Research, Business Processes, Infrastructure and Data, Responsible AI) and ~50 stakeholders. Followed by an executive GenAI Advisory Group chaired by the CIO with Provost, SVC-Finance, and VC-Student-Affairs sponsorship. Deliverables include ~60 documented GenAI use cases, a three-tier tool portfolio (Equitable/Targeted/Special), a low/moderate/high data-risk framework, and pilot tool recommendations (Microsoft Copilot, ChatGPT for EDU, Ida, Maizy, Azure OpenAI).",
+      "significance": "A transparent, faculty-inclusive governance structure that produced usable artifacts (use-case inventory, data-risk framework, tool portfolio) rather than a vague policy statement.",
+      "date_announced": "2024-04-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal UWM IT and Academic Affairs",
+        "description": "Staff time and internal IT resources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Universities of Wisconsin (system policy alignment)"
+          ],
+          "description": "Aligns with UW System Regent and UWSA policies; feeds systemwide AI news and initiatives hub."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates an operating cadence that converts policy abstractions into working tool portfolios and risk gates.",
+      "source_urls": [
+        "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/",
+        "https://uwm.edu/ai/genai-advisory-group/",
+        "https://uwm.edu/ai/"
+      ]
+    },
+    {
+      "title": "CSI Factory GPT manufacturing chatbot",
+      "description": "A factory-specific generative pretrained transformer built on Microsoft Azure Machine Learning that lets shop-floor workers use natural language to query the UWM Connected Systems Institute testbed's operations and maintenance manuals for safety, quality, and troubleshooting. Co-created by UWM CS graduate student Shamar Webster with Microsoft CTO/AI leadership.",
+      "significance": "A concrete, student-built industrial AI deployment that shows how UWM's manufacturing AI research translates to tools usable by SMB manufacturers.",
+      "date_announced": "2024-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "ai_chatbot_or_virtual_assistant"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 1200000,
+        "funding_source": "Microsoft gift to UWM Foundation for CSI (2024)",
+        "description": "Microsoft $1.2M gift to UWM Connected Systems Institute supported Factory GPT and related work, on top of prior Microsoft gifts totaling $2.7M."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "UWM Connected Systems Institute",
+            "Rockwell Automation"
+          ],
+          "description": "CSI industry consortium with Microsoft and Rockwell supporting student-led AI development."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Azure Machine Learning",
+          "vendor": "Microsoft",
+          "role": "Underlying ML platform for Factory GPT"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Exemplar of how R1 institutes can deliver production-adjacent AI prototypes through student-industry collaboration.",
+      "source_urls": [
+        "https://uwm.edu/news/uwms-connected-systems-institute-develops-a-manufacturing-chatbot-for-workers/",
+        "https://uwm.foundation/microsoft-gives-uwm-1-2-million-for-connected-systems-institute-at-uwm/",
+        "https://uwm.edu/engineering/computer-science-student-develops-a-manufacturing-chatbot-with-microsoft-support/"
+      ]
+    },
+    {
+      "title": "Northwestern Mutual Data Science Institute (NMDSI) expansion and AI focus",
+      "description": "The NMDSI, co-founded in 2018 by Northwestern Mutual, Marquette University, and UWM, expanded in 2023 with a new $35M commitment (on top of nearly $40M prior), bringing cumulative commitments near $75M. In 2024 it added the Medical College of Wisconsin, Milwaukee School of Engineering, and Waukesha County Technical College, and focuses its next five years on AI; AI/data bias and ethics; behavioral economics; financial literacy; and health/wealth inequities. Funds endowed professorships, faculty grants, scholarships, curriculum, K-12 STEM/pre-college programs.",
+      "significance": "One of the largest corporate-academic AI partnerships in the Upper Midwest and UWM's deepest ongoing source of AI research, talent, and curriculum funding.",
+      "date_announced": "2023-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "regional_economic_impact",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 75000000,
+        "funding_source": "Northwestern Mutual plus partner universities",
+        "description": "Nearly $75M committed cumulatively since 2018, including a 2023 $35M renewal. Funds endowed professorships at each partner university, research grants, scholarships, curriculum, and pre-college programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Northwestern Mutual",
+            "Marquette University",
+            "Medical College of Wisconsin",
+            "Milwaukee School of Engineering",
+            "Waukesha County Technical College"
+          ],
+          "description": "Six-institution consortium; recruits ~25% of Northwestern Mutual's employees and ~60% of its data workers."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Models how a single corporate donor can scale data-science and AI capacity across a metropolitan higher-ed cluster; includes explicit ethics/bias and equity research lines.",
+      "source_urls": [
+        "https://uwm.foundation/northwestern-mutual-data-science-institute-extended-through-2028/",
+        "https://today.marquette.edu/2023/08/northwestern-mutual-renews-partnership-with-marquette-and-university-of-wisconsin-milwaukee-with-new-35-million-investment/",
+        "https://uwm.edu/news/northwestern-mutual-data-science-institute-welcomes-three-new-academic-institutions-medical-college-of-wisconsin-milwaukee-school-of-engineering-and-waukesha-county-technical-college/"
+      ]
+    },
+    {
+      "title": "Milwaukee Five-University AI Pact",
+      "description": "On February 12, 2026 the chancellors and presidents of UWM, Marquette University, Medical College of Wisconsin, Milwaukee School of Engineering, and Waukesha County Technical College met at Northwestern Mutual's Milwaukee HQ to expand the existing NMDSI partnership and position Milwaukee as a national AI and data-science hub. Northwestern Mutual CEO Timothy Gerend announced the expansion; UWM Chancellor Thomas Gibson represented UWM.",
+      "significance": "Elevates AI positioning for the Milwaukee metro beyond a single institution into a cross-sector pact, with UWM as the regional R1 anchor.",
+      "date_announced": "2026-02-12",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "community_college_ai_program"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "students",
+        "community",
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "Northwestern Mutual (annual research support) plus partner institutions",
+        "description": "The existing initiative raises ~$2M annually in university research funding, has collaborated with 160 faculty, launched 11 academic programs, and awarded $275K+ supporting 90 semester-long projects."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Northwestern Mutual",
+            "Marquette University",
+            "Medical College of Wisconsin",
+            "Milwaukee School of Engineering",
+            "Waukesha County Technical College"
+          ],
+          "description": "Five higher-ed institutions plus Northwestern Mutual."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Shows how a regional R1 can pool AI capacity with a research medical school, an engineering school, a private Catholic R1, and a technical college to cover the full workforce pipeline.",
+      "source_urls": [
+        "https://urbanmilwaukee.com/2026/02/13/five-milwaukee-higher-education-leaders-team-up-on-ai/",
+        "https://www.wpr.org/news/milwaukee-higher-education-leaders-ai"
+      ]
+    },
+    {
+      "title": "Graduate Certificate in Artificial Intelligence and Machine Learning",
+      "description": "A 15-credit, five-course graduate certificate offered by UWM's Department of Computer Science (College of Engineering & Applied Science) and also through the Department of Electrical Engineering, with overlapping offerings via Universities of Wisconsin Online. Industry-advisory-shaped curriculum covers data science, AI, statistics, programming, plus electives in NLP, computer vision, and software engineering for AI/ML. Completable in one year, priced at roughly $14,000 online.",
+      "significance": "Provides a scalable, industry-aligned re-skill pathway for working professionals alongside UWM's traditional degree programs.",
+      "date_announced": "2023-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "continuing_and_executive_education",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "computer_vision",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Program tuition; industry advisory input",
+        "description": "Self-supporting certificate program with industry advisory board."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Program Industry Advisory Board"
+          ],
+          "description": "Curriculum reviewed by industry partners to reflect employer demand."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "A template for R1 short-form AI credentials that preserve rigor while lowering the barrier for adult learners.",
+      "source_urls": [
+        "https://catalog.uwm.edu/engineering-applied-science/computer-science/artificial-intelligence-machine-learning-graduate-certificate/",
+        "https://uwm.edu/engineering/academics/artificial-intelligence-and-machine-learning/",
+        "https://online.wisconsin.edu/degrees-programs/uw-milwaukee-artificial-intelligence-and-machine-learning/"
+      ]
+    },
+    {
+      "title": "MS in Data Science and Applied Artificial Intelligence",
+      "description": "UWM's interdisciplinary MS in Data Science and Applied Artificial Intelligence (offered through the Graduate School) is designed so graduates can practice analytics in any domain (healthcare, education, business, etc.). Coupled with a Data Science and Applied AI graduate certificate, a Lubar College MS in IT Management with an AI and Data Analytics concentration, and a Lubar business analytics certificate.",
+      "significance": "Broadest graduate-level AI pipeline in metro Milwaukee, explicitly designed to place data scientists into domain-specific roles.",
+      "date_announced": "2019-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tuition plus NMDSI professorship support",
+        "description": "NMDSI funds an endowed professorship and curriculum expansion that feeds this program."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Northwestern Mutual Data Science Institute"
+          ],
+          "description": "NMDSI supports curriculum development and faculty hires for data science programming."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Domain-embedded data science degree model as an alternative to a stand-alone AI degree.",
+      "source_urls": [
+        "https://catalog.uwm.edu/graduate-school/data-science-applied-artificial-intelligence-ms/",
+        "https://uwm.edu/data-science/academics/data-science-ms/",
+        "https://catalog.uwm.edu/business/information-technology-management-ai-data-analytics-ms/"
+      ]
+    },
+    {
+      "title": "School of Continuing Education AI courses",
+      "description": "UWM's School of Continuing Education offers online AI courses for working professionals covering prompt engineering, ethical AI, deep learning fundamentals, and integrating AI in the workplace. Positioned as a non-degree upskilling track complementing the graduate certificates and degree programs.",
+      "significance": "Extends UWM's AI learning pipeline into continuing-education adults and employer-sponsored cohorts, critical for regional workforce readiness.",
+      "date_announced": "2024-09-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UWM SCE tuition and employer-sponsored enrollment",
+        "description": "Self-funded continuing education tuition model."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Regional employers"
+          ],
+          "description": "Courses designed for professional upskilling in Wisconsin employers."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Companion pathway that operationalizes the AI Taskforce's call for broad AI literacy beyond matriculated students.",
+      "source_urls": [
+        "https://uwm.edu/sce/program_area/artificial-intelligence-courses/",
+        "https://www.wispolitics.com/2025/uw-milwaukee-school-of-continuing-education-professionals-gain-future-ready-skills-through-new-ai-course-offerings-at-uw-milwaukee/"
+      ]
+    },
+    {
+      "title": "CASL (formerly CETL) AI and Teaching support",
+      "description": "UWM's Center for Advancing Student Learning (CASL), formerly the Center for Excellence in Teaching and Learning (CETL), is the primary faculty-development hub for AI. Maintains an 'AI and Teaching' knowledge base, sample syllabus language, assignment-design checklists, FERPA-aware tool advisories, and monthly Active Teaching Labs. Hosts AI town halls and workshops tied to the AI Taskforce deliverables.",
+      "significance": "Moves faculty AI preparedness from ad hoc department guidance to a coordinated institution-level support channel.",
+      "date_announced": "2023-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Academic Affairs / CASL operating budget",
+        "description": "Internally funded."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Universities of Wisconsin CETL peers"
+          ],
+          "description": "Shares AI-in-teaching practice across UW System teaching centers."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Mature model for R1s whose policy is 'encouraged' rather than 'required': central T&L unit absorbs the coordination load.",
+      "source_urls": [
+        "https://uwm.edu/advancing-learning/resources/artificial-intelligence-teaching/",
+        "https://kb.uwm.edu/cetl/page.php?id=123513",
+        "https://uwm.edu/ai/teaching-and-learning/"
+      ]
+    },
+    {
+      "title": "Pounce student-services chatbot",
+      "description": "'Ask Pounce!' is an AI chatbot embedded in the OneStop website that provides 24/7 responses on enrollment, academic records, billing, and financial aid questions for UWM students. Branded with UWM's panther mascot.",
+      "significance": "Represents the baseline of AI-driven student support automation at a public R1 -- always-on answers for transactional student questions.",
+      "date_announced": "2023-01-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_powered_admin_tools",
+        "ai_in_admissions_and_enrollment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UWM Student Financial Services / OneStop operating budget",
+        "description": "Vendor-hosted chatbot; specific vendor not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Undisclosed chatbot vendor"
+          ],
+          "description": "Vendor-delivered service in the OneStop web surface."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Ask Pounce!",
+          "vendor": "Undisclosed",
+          "role": "Student-services conversational agent"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Illustrates typical public-R1 deployment of chatbots for financial aid and enrollment questions.",
+      "source_urls": [
+        "https://uwm.edu/finances/finances/ask-pounce/"
+      ]
+    },
+    {
+      "title": "NSF Campus Cyberinfrastructure grant for Mortimer HPC cluster upgrade",
+      "description": "$400,000 NSF Campus Cyberinfrastructure award (2021) led by Prof. Philip Chang (Physics) with 12 co-PIs across physics, engineering, and freshwater sciences, used to upgrade UWM's aging supercomputing cluster and expand participation in the Open Science Grid. The cluster (now branded 'Mortimer') processes 600,000+ jobs/year and supports seven of UWM's top 10 research projects. Current hardware: 3,632 CPU cores, 4 NVIDIA A100 GPUs, plus high-memory AMD nodes up to 1TB RAM.",
+      "significance": "Represents UWM's pre-existing computational foundation that underpins AI research, but is modest compared to AI-era R1 GPU investments.",
+      "date_announced": "2021-08-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 400000,
+        "funding_source": "National Science Foundation, Campus Cyberinfrastructure program",
+        "description": "$400K NSF CC* award plus internal matching."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation",
+            "Open Science Grid"
+          ],
+          "description": "NSF-funded upgrade tied to participation in distributed national computing consortium."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA A100",
+          "vendor": "NVIDIA",
+          "role": "GPU accelerators for HPC"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Highlights the constrained GPU footprint available at regional R1s relative to top-tier AI-era computing investments; further expansion likely required as AI workloads grow.",
+      "source_urls": [
+        "https://uwm.edu/news/uwm-awarded-grant-to-upgrade-its-campus-supercomputing-cluster-2/",
+        "https://uwm.edu/information-technology/hpc/about/hardware-specifications/",
+        "https://uwm.edu/hpc/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Connected Systems Institute (CSI)",
+      "focus": "Industry 4.0, smart manufacturing, applied AI, IoT. Hosts Microsoft's first manufacturing-focused AI Co-Innovation Lab and developed Factory GPT.",
+      "founded": "2017",
+      "url": "https://uwm.edu/csi/"
+    },
+    {
+      "name": "Northwestern Mutual Data Science Institute (NMDSI)",
+      "focus": "Data science, AI, AI/data bias and ethics, behavioral economics, financial literacy, and health/wealth inequities. Six-institution consortium anchored at UWM and Marquette.",
+      "founded": "2018",
+      "url": "https://uwm.edu/academicaffairs/overview-of-the-northwestern-mutual-data-science-institute-nmdsi/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence and Machine Learning (Computer Science)",
+      "level": "grad",
+      "launched": "2023-01",
+      "url": "https://catalog.uwm.edu/engineering-applied-science/computer-science/artificial-intelligence-machine-learning-graduate-certificate/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence and Machine Learning (Electrical Engineering)",
+      "level": "grad",
+      "launched": "2023-01",
+      "url": "https://catalog.uwm.edu/engineering-applied-science/electrical-engineering/artificial-intelligence-machine-learning-graduate-certificate/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Data Science and Applied Artificial Intelligence",
+      "level": "grad",
+      "launched": "2020-09",
+      "url": "https://catalog.uwm.edu/graduate-school/data-science-applied-artificial-intelligence-graduate-certificate/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Data Science and Applied Artificial Intelligence",
+      "level": "grad",
+      "launched": "2019-09",
+      "url": "https://catalog.uwm.edu/graduate-school/data-science-applied-artificial-intelligence-ms/"
+    },
+    {
+      "type": "concentration",
+      "name": "MS Information Technology Management: AI and Data Analytics concentration",
+      "level": "grad",
+      "launched": "2021-09",
+      "url": "https://catalog.uwm.edu/business/information-technology-management-ai-data-analytics-ms/"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence & Analytics for Business",
+      "level": "undergrad",
+      "launched": "2023-09",
+      "url": "https://uwm.edu/secu/ai-analytics-for-business-certificate/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Business Analytics (Lubar College)",
+      "level": "grad",
+      "launched": "2019-09",
+      "url": "https://catalog.uwm.edu/business/business-analytics-graduate-certificate/"
+    },
+    {
+      "type": "course",
+      "name": "School of Continuing Education Artificial Intelligence courses (prompt engineering, ethical AI, deep learning, AI in the workplace)",
+      "level": "both",
+      "launched": "2024-09",
+      "url": "https://uwm.edu/sce/program_area/artificial-intelligence-courses/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot Chat (enterprise)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-04",
+      "url": "https://uwm.edu/information-technology/copilot-chat-at-uwm/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Azure AI / Azure OpenAI (pilot tool portfolio)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/"
+    },
+    {
+      "vendor": "OpenAI (via Microsoft)",
+      "product": "ChatGPT for EDU (pilot)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Mortimer (Faculty Research Cluster)",
+    "gpu_count": 4,
+    "url": "https://uwm.edu/information-technology/hpc/about/hardware-specifications/",
+    "summary": "UWM operates the Mortimer Faculty Research Cluster (3,632 CPU cores, 4 NVIDIA A100 GPUs, AMD nodes up to 1TB RAM) and the Peregrine educational cluster (232 cores). The cluster processes ~600,000 jobs/year and participates in the Open Science Grid. Expanded via a 2021 $400K NSF Campus Cyberinfrastructure award led by Philip Chang. GPU capacity is modest relative to leading AI-era R1s."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Microsoft AI infrastructure and Co-Innovation Lab commitment (Wisconsin)",
+      "amount_usd": 3300000000,
+      "source": "Microsoft",
+      "purpose": "Southeastern Wisconsin AI infrastructure and digital transformation, which includes the Microsoft AI Co-Innovation Lab at UWM CSI.",
+      "date": "2025-06",
+      "url": "https://uwm.edu/news/uwm-and-microsoft-unveil-ai-co-innovation-lab-to-drive-manufacturing-innovation/"
+    },
+    {
+      "title": "Northwestern Mutual Data Science Institute renewal",
+      "amount_usd": 35000000,
+      "source": "Northwestern Mutual",
+      "purpose": "Five-year renewal of NMDSI with Marquette and UWM, extending funding for AI, ethics, health/wealth equity research through 2028.",
+      "date": "2023-08",
+      "url": "https://today.marquette.edu/2023/08/northwestern-mutual-renews-partnership-with-marquette-and-university-of-wisconsin-milwaukee-with-new-35-million-investment/"
+    },
+    {
+      "title": "Microsoft gift to UWM Connected Systems Institute",
+      "amount_usd": 1200000,
+      "source": "Microsoft",
+      "purpose": "Supports CSI research, Factory GPT, and manufacturing AI workforce development (third Microsoft gift to CSI, bringing total to roughly $2.7M).",
+      "date": "2024-01",
+      "url": "https://uwm.foundation/microsoft-gives-uwm-1-2-million-for-connected-systems-institute-at-uwm/"
+    },
+    {
+      "title": "NSF Campus Cyberinfrastructure grant for HPC upgrade",
+      "amount_usd": 400000,
+      "source": "National Science Foundation",
+      "purpose": "Expand UWM supercomputing cluster and Open Science Grid participation to support AI, physics, astrophysics, molecular modeling research.",
+      "date": "2021-08",
+      "url": "https://uwm.edu/news/uwm-awarded-grant-to-upgrade-its-campus-supercomputing-cluster-2/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "AI Co-Innovation Lab, Copilot enterprise deployment, CSI Factory GPT, and broader AI infrastructure partnership.",
+      "date": "2025-06",
+      "url": "https://uwm.edu/news/uwm-and-microsoft-unveil-ai-co-innovation-lab-to-drive-manufacturing-innovation/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Northwestern Mutual",
+      "purpose": "NMDSI partnership covering AI, data science, ethics, behavioral economics, and workforce talent.",
+      "date": "2018-01",
+      "url": "https://uwm.edu/academicaffairs/overview-of-the-northwestern-mutual-data-science-institute-nmdsi/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Marquette University; Medical College of Wisconsin; Milwaukee School of Engineering; Waukesha County Technical College",
+      "purpose": "NMDSI six-institution consortium and February 2026 Milwaukee AI pact.",
+      "date": "2024-01",
+      "url": "https://uwm.edu/news/northwestern-mutual-data-science-institute-welcomes-three-new-academic-institutions-medical-college-of-wisconsin-milwaukee-school-of-engineering-and-waukesha-county-technical-college/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Rockwell Automation",
+      "purpose": "Industrial automation partner supporting CSI manufacturing AI testbed.",
+      "date": "2017-01",
+      "url": "https://uwm.edu/csi/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "TitletownTech and Wisconsin Economic Development Corporation",
+      "purpose": "Co-anchors for the Microsoft AI Co-Innovation Lab at UWM CSI.",
+      "date": "2025-06",
+      "url": "https://wedc.org/lab-helps-state-firms-unlock-the-power-of-ai-to-solve-business-challenges/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "HPC upgrade grant and Open Science Grid participation.",
+      "date": "2021-08",
+      "url": "https://uwm.edu/engineering/nsf-supports-creation-of-science-and-engineering-high-performance-scientific-computing-cluster-at-uwm/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Ask Pounce!",
+      "scope": "24/7 student-services chatbot on UWM OneStop site; covers enrollment, academic records, billing, and financial aid.",
+      "url": "https://uwm.edu/finances/finances/ask-pounce/"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot Chat (student access)",
+      "scope": "Available to all enrolled UWM students via their Microsoft 365 account with enterprise data protection.",
+      "url": "https://uwm.edu/information-technology/copilot-chat-at-uwm/"
+    },
+    {
+      "type": "other",
+      "name": "UWM Libraries Generative AI and Research guide",
+      "scope": "Libraries-curated guide on using generative AI for research assignments, citation, and integrity.",
+      "url": "https://guides.library.uwm.edu/ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "NMDSI research lines on AI/data bias and ethics and on health/wealth inequities",
+      "description": "Two of the five focus areas for the 2023-2028 NMDSI renewal explicitly target AI and data bias and ethics and health/wealth inequities, with funding for research grants, faculty, and K-12 pre-college programming aimed at underrepresented students.",
+      "url": "https://uwm.edu/news/northwestern-mutual-data-science-institute-welcomes-three-new-academic-institutions-medical-college-of-wisconsin-milwaukee-school-of-engineering-and-waukesha-county-technical-college/"
+    },
+    {
+      "title": "Three-tier AI tool portfolio (Equitable/Targeted/Special)",
+      "description": "AI Taskforce recommended stratifying AI tooling so all students/faculty/staff have access to a baseline enterprise tool (Copilot Chat) regardless of college or role, reducing the intra-campus AI access gap.",
+      "url": "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/"
+    },
+    {
+      "title": "AI detector discouragement policy to protect FERPA and reduce bias impacts on students",
+      "description": "UWM explicitly discourages AI-detection tools because of FERPA risks and documented false-positive bias against non-native English speakers and students from underrepresented groups.",
+      "url": "https://uwm.edu/graduate-assistants/handbook/teaching-assistants/academic-misconduct/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Wisconsin",
+    "has_state_ai_policy": false,
+    "has_system_ai_policy": true,
+    "summary": "Wisconsin has no comprehensive statewide AI higher-education policy. Governor Evers created a Governor's Task Force on Workforce and AI via Executive Order #211 (August 2023) and signed 2025 Wisconsin Act 34 criminalizing coercive deepfakes, but classroom/AI policy is largely set at the system and institutional level. UWM operates under the Universities of Wisconsin (UW System) policy stack: Regent Policy Documents 25-3 (Acceptable Use) and 25-5 (Information Security), plus UWSA policies 1031 (Data Classification), 1039 (Risk Management), and 1040 (Privacy). UW System President Jay Rothman has articulated a systemwide AI strategy treating the 13 universities as a single 'AI-enabled ecosystem,' with notable peer activity including UW-Madison's new College of Computing and AI (approved December 2025, operational July 2026), UW-Eau Claire's 2025 AI majors, and UW-Stout's 360-degree AI-in-curriculum approach.",
+    "urls": [
+      "https://www.wisconsin.edu/systemwide-it/universities-of-wisconsin-ai-news-and-initiatives/",
+      "https://www.wisconsin.edu/news/archive/artificial-intelligence-preparing-wisconsin-for-the-future/",
+      "https://dwd.wisconsin.gov/ai-taskforce/",
+      "https://uwm.edu/ai/policy-analysis/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "UWM's AI posture is pragmatic and partnership-driven rather than flagship-strategy-driven. Under new Chancellor Thomas Gibson (July 2025) and CIO Scott Genung (since 2023), the university has not published a single named 'UWM AI Strategy' document, but has stood up a robust two-body governance model: a broad spring-2024 AI Taskforce of ~50 stakeholders across six work groups that delivered an inventory of ~60 use cases, a three-tier tool portfolio, and a low/moderate/high data-risk framework; and a smaller executive GenAI Advisory Group chaired by the CIO with Provost, SVC-Finance, and VC-Student-Affairs sponsorship. Policy is layered on top of UW System Regent and UWSA rules (RPD 25-3, 25-5; UWSA 1031, 1039, 1040) rather than a bespoke UWM policy -- a cautious stance that encourages (but does not require) syllabus-level AI statements, discourages AI detection tools on FERPA grounds, and routes all University-data AI use through Microsoft 365 Copilot Chat enterprise, which rolled out campus-wide to all students, faculty, and staff in April 2026. UWM's distinctive strengths are in applied AI research and workforce: the Connected Systems Institute anchors Microsoft's first manufacturing-focused AI Co-Innovation Lab (launched June 2025 as part of Microsoft's $3.3B Wisconsin investment), hosts the student-built Factory GPT manufacturing chatbot, and has attracted cumulative Microsoft gifts of ~$2.7M. The Northwestern Mutual Data Science Institute, co-founded with Marquette in 2018 and expanded in 2023 with a $35M renewal (~$75M cumulative) and again in 2024 to include MCW, MSOE, and WCTC, funds endowed professorships, AI/ethics research, and curriculum across six institutions. This fed directly into a February 2026 five-university Milwaukee AI pact at Northwestern Mutual HQ pushing the region as a national AI hub. Academic offerings include graduate certificates in AI/ML from both CS and Electrical Engineering, an MS in Data Science and Applied AI, a Lubar ITM concentration in AI and Data Analytics, an undergraduate AI & Analytics for Business certificate, and a growing School of Continuing Education AI catalog. Known gaps: UWM has a modest GPU footprint (4 NVIDIA A100s on the Mortimer cluster), no named Chief AI Officer, no required AI literacy general education requirement, and no large public-facing AI-strategy document, leaving the institution reliant on taskforce artifacts and UW System policy scaffolding. Its CASL (formerly CETL) teaching center provides the main faculty-development surface for AI pedagogy and assessment design.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill (Opus 4.7)",
+    "sources": [
+      "https://uwm.edu/ai/",
+      "https://uwm.edu/ai/policy-analysis/",
+      "https://uwm.edu/ai/guidance/",
+      "https://uwm.edu/ai/teaching-and-learning/",
+      "https://uwm.edu/ai/applied-ai/",
+      "https://uwm.edu/ai/genai-advisory-group/",
+      "https://uwm.edu/news/task-force-works-to-prepare-and-guide-ai-tools-across-campus/",
+      "https://uwm.edu/news/uwm-and-microsoft-unveil-ai-co-innovation-lab-to-drive-manufacturing-innovation/",
+      "https://uwm.edu/news/microsoft-plans-to-spend-80bn-in-2025-to-develop-ai-enabled-data-centers-starting-with-ai-co-innovation-lab-at-uwm/",
+      "https://uwm.edu/news/uwms-connected-systems-institute-develops-a-manufacturing-chatbot-for-workers/",
+      "https://uwm.foundation/microsoft-gives-uwm-1-2-million-for-connected-systems-institute-at-uwm/",
+      "https://uwm.edu/news/northwestern-mutual-data-science-institute-welcomes-three-new-academic-institutions-medical-college-of-wisconsin-milwaukee-school-of-engineering-and-waukesha-county-technical-college/",
+      "https://uwm.foundation/northwestern-mutual-data-science-institute-extended-through-2028/",
+      "https://today.marquette.edu/2023/08/northwestern-mutual-renews-partnership-with-marquette-and-university-of-wisconsin-milwaukee-with-new-35-million-investment/",
+      "https://uwm.edu/academicaffairs/overview-of-the-northwestern-mutual-data-science-institute-nmdsi/",
+      "https://urbanmilwaukee.com/2026/02/13/five-milwaukee-higher-education-leaders-team-up-on-ai/",
+      "https://www.wpr.org/news/milwaukee-higher-education-leaders-ai",
+      "https://uwm.edu/chancellor/about/",
+      "https://uwm.edu/academicaffairs/about/provosts-biography/",
+      "https://uwm.edu/chancellor/tina-freiburger-named-interim-provost-and-vice-chancellor-for-academic-affairs/",
+      "https://uwm.edu/information-technology/uits/chief-information-officer/",
+      "https://uwm.edu/news/uwm-welcomes-new-chief-information-officer/",
+      "https://uwm.edu/news/copilot-chat-now-available-to-uwm-students-faculty-and-staff/",
+      "https://uwm.edu/information-technology/copilot-chat-at-uwm/",
+      "https://uwm.edu/information-technology/using-microsoft-copilot-chat/",
+      "https://catalog.uwm.edu/engineering-applied-science/computer-science/artificial-intelligence-machine-learning-graduate-certificate/",
+      "https://catalog.uwm.edu/engineering-applied-science/electrical-engineering/artificial-intelligence-machine-learning-graduate-certificate/",
+      "https://catalog.uwm.edu/graduate-school/data-science-applied-artificial-intelligence-graduate-certificate/",
+      "https://catalog.uwm.edu/graduate-school/data-science-applied-artificial-intelligence-ms/",
+      "https://catalog.uwm.edu/business/information-technology-management-ai-data-analytics-ms/",
+      "https://catalog.uwm.edu/business/business-analytics-graduate-certificate/",
+      "https://uwm.edu/secu/ai-analytics-for-business-certificate/",
+      "https://uwm.edu/engineering/academics/artificial-intelligence-and-machine-learning/",
+      "https://online.wisconsin.edu/degrees-programs/uw-milwaukee-artificial-intelligence-and-machine-learning/",
+      "https://uwm.edu/sce/program_area/artificial-intelligence-courses/",
+      "https://uwm.edu/advancing-learning/resources/artificial-intelligence-teaching/",
+      "https://kb.uwm.edu/cetl/page.php?id=123513",
+      "https://uwm.edu/graduate-assistants/handbook/teaching-assistants/academic-misconduct/",
+      "https://uwm.edu/finances/finances/ask-pounce/",
+      "https://guides.library.uwm.edu/ai",
+      "https://uwm.edu/csi/",
+      "https://uwm.edu/information-technology/hpc/about/hardware-specifications/",
+      "https://uwm.edu/news/uwm-awarded-grant-to-upgrade-its-campus-supercomputing-cluster-2/",
+      "https://uwm.edu/hpc/",
+      "https://uwm.edu/facts-figures/",
+      "https://www.wisconsin.edu/systemwide-it/universities-of-wisconsin-ai-news-and-initiatives/",
+      "https://www.wisconsin.edu/news/archive/artificial-intelligence-preparing-wisconsin-for-the-future/",
+      "https://dwd.wisconsin.gov/ai-taskforce/",
+      "https://workingeducators.org/ai-education-policy",
+      "https://uwm.edu/news/uw-milwaukee-welcomes-largest-freshman-class-in-over-a-decade/"
+    ],
+    "search_queries": [
+      "\"University of Wisconsin-Milwaukee\" AI strategy 2025 2026",
+      "\"University of Wisconsin-Milwaukee\" artificial intelligence policy guidelines",
+      "\"UW-Milwaukee\" CIO Scott Genung chief information officer",
+      "\"University of Wisconsin-Milwaukee\" AI degree certificate program curriculum",
+      "\"UWM\" AI research center Connected Systems Institute",
+      "\"University of Wisconsin-Milwaukee\" chancellor Mark Mone provost",
+      "\"UWM\" Microsoft Copilot enterprise rollout students faculty",
+      "\"UW-Milwaukee\" AI literacy course general education requirement",
+      "\"UWM\" OR \"University of Wisconsin-Milwaukee\" HPC supercomputer GPU cluster research computing",
+      "\"UWM\" Northwestern Mutual Data Science Institute investment AI gift",
+      "\"Wisconsin\" state AI policy higher education 2025 2026 executive order",
+      "\"UWM\" chatbot student services admissions AI assistant",
+      "\"UWM\" provost academic affairs Andrew Daire",
+      "\"Milwaukee higher education\" five universities AI pact 2026 Johnson Controls",
+      "\"UWM\" Connected Systems Institute Factory GPT AI chatbot manufacturing",
+      "\"UW-Milwaukee\" AI ethics faculty training CETL workshop 2025",
+      "\"UWM\" AI town hall GenAI advisory group 2025",
+      "\"University of Wisconsin-Milwaukee\" leadership chancellor Thomas Gibson 2025",
+      "\"University of Wisconsin-Milwaukee\" AI academic misconduct FERPA controversy",
+      "\"UW-Milwaukee\" AI Lubar business analytics MS data science",
+      "\"UWM\" NSF grant AI research center 2025 funding",
+      "\"UW System\" OR \"Universities of Wisconsin\" AI systemwide initiative strategy policy"
+    ],
+    "gaps_acknowledged": [
+      "UWM does not publish a single named 'UWM AI Strategy' document; strategy is inferred from Taskforce artifacts, AI hub, and GenAI Advisory Group objectives.",
+      "Exact user counts for Microsoft 365 Copilot Chat, Pounce chatbot vendor identity, and user adoption metrics are not publicly disclosed.",
+      "No named Chief AI Officer or dedicated AI role at UWM; AI leadership is distributed across CIO (Genung), NMDSI co-director (Papatla), Provost, and various work-group leads.",
+      "Pounce chatbot launch date and vendor not disclosed on public pages.",
+      "No identified public AI-related litigation or formal controversy specific to UWM; absence of search results treated as absence of public record rather than absolute confirmation.",
+      "AI general-education or AI literacy graduation requirement could not be confirmed in general-education documents; appears not to exist as of April 2026.",
+      "Detailed UWM-only dollar figures (as opposed to the broader $3.3B Microsoft regional commitment) for the AI Co-Innovation Lab not publicly disclosed."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 11,
+        "research_compute_powerhouse": 8,
+        "curriculum_led": 14,
+        "governance_led": 11,
+        "student_success_led": 7,
+        "workforce_regional_development": 21,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "requires_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 2,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Mortimer (Faculty Research Cluster)",
+        "gpu_count": 4,
+        "capacity_tier": "modest_gpu_disclosed"
+      },
+      "disclosed_funding_usd": 3378600000,
+      "funding_source_buckets": {
+        "public_federal_state": 4,
+        "other_unclear": 2,
+        "philanthropy_foundation": 2,
+        "industry_vendor": 3,
+        "institutional": 5
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "other": 2
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Azure AI / Azure OpenAI",
+            "Azure AI / Azure OpenAI (pilot tool portfolio)",
+            "Azure Machine Learning",
+            "ChatGPT for EDU (pilot)",
+            "Microsoft 365 Copilot Chat",
+            "Microsoft 365 Copilot Chat (enterprise)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA A100"
+          ]
+        },
+        {
+          "vendor": "Undisclosed Ask Pounce!",
+          "mentions": 1,
+          "products": [
+            "Ask Pounce!"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Milwaukee Five-University AI Pact",
+          "summary": "Elevates AI positioning for the Milwaukee metro beyond a single institution into a cross-sector pact, with UWM as the regional R1 anchor.",
+          "source_url": "https://urbanmilwaukee.com/2026/02/13/five-milwaukee-higher-education-leaders-team-up-on-ai/"
+        },
+        {
+          "claim_type": "career",
+          "title": "School of Continuing Education AI courses",
+          "summary": "Extends UWM's AI learning pipeline into continuing-education adults and employer-sponsored cohorts, critical for regional workforce readiness.",
+          "source_url": "https://uwm.edu/sce/program_area/artificial-intelligence-courses/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "CASL (formerly CETL) AI and Teaching support",
+          "summary": "Moves faculty AI preparedness from ad hoc department guidance to a coordinated institution-level support channel.",
+          "source_url": "https://uwm.edu/advancing-learning/resources/artificial-intelligence-teaching/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Pounce student-services chatbot",
+          "summary": "Represents the baseline of AI-driven student support automation at a public R1 -- always-on answers for transactional student questions.",
+          "source_url": "https://uwm.edu/finances/finances/ask-pounce/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "UWM does not publish a single named 'UWM AI Strategy' document; strategy is inferred from Taskforce artifacts, AI hub, and GenAI Advisory Group objectives.",
+        "Exact user counts for Microsoft 365 Copilot Chat, Pounce chatbot vendor identity, and user adoption metrics are not publicly disclosed.",
+        "No named Chief AI Officer or dedicated AI role at UWM; AI leadership is distributed across CIO (Genung), NMDSI co-director (Papatla), Provost, and various work-group leads.",
+        "Pounce chatbot launch date and vendor not disclosed on public pages.",
+        "No identified public AI-related litigation or formal controversy specific to UWM; absence of search results treated as absence of public record rather than absolute confirmation.",
+        "AI general-education or AI literacy graduation requirement could not be confirmed in general-education documents; appears not to exist as of April 2026.",
+        "Detailed UWM-only dollar figures (as opposed to the broader $3.3B Microsoft regional commitment) for the AI Co-Innovation Lab not publicly disclosed."
+      ]
+    }
+  }
+}

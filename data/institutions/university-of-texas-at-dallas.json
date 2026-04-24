@@ -1,0 +1,1332 @@
+{
+  "institution": "University of Texas at Dallas",
+  "slug": "university-of-texas-at-dallas",
+  "city_state": "Richardson, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 26790,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Prabhas V. Moghe",
+      "url": "https://president.utdallas.edu/"
+    },
+    "provost": {
+      "name": "Inga Musselman (interim; national search underway)",
+      "url": "https://provost.utdallas.edu/"
+    },
+    "cio": {
+      "name": "Frank Feagans",
+      "url": "https://oit.utdallas.edu/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Sarah Moore and JD Thomas (co-leads)",
+      "title": "Co-leads, AI Working Group",
+      "url": "https://genai.utdallas.edu/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Generative AI at UT Dallas (central strategy portal)",
+        "url": "https://genai.utdallas.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Initial Guidelines for Gen AI (OIT)",
+        "url": "https://oit.utdallas.edu/about/gen-ai/initial-guidelines/",
+        "year": 2024
+      },
+      {
+        "title": "Roadmap 2030 (President Moghe inaugural strategic plan — includes AI convergence pillar)",
+        "url": "https://inauguration.utdallas.edu/inaugural-address/",
+        "year": 2026
+      }
+    ],
+    "summary": "UT Dallas positions generative AI as a transformative force reshaping education, research and university operations, coordinated through a central 'Generative AI at UT Dallas' portal. The AI Working Group (co-led by Sarah Moore and Assistant Dean JD Thomas) partners with Academic Affairs and the Academic Senate to break silos across colleges, while OIT runs 'FERPA-compliant, enterprise-level AI access' through the CometAI platform. President Prabhas V. Moghe's Roadmap 2030, unveiled at his April 2026 investiture, names AI convergence — from AI infrastructure to physical AI — as a core institutional priority."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://policy.utdallas.edu/utdsp5017",
+      "https://infosecurity.utdallas.edu/information-hub/artificial-intelligence-ai-usage-guidelines/",
+      "https://oit.utdallas.edu/about/gen-ai/initial-guidelines/"
+    ],
+    "adopted_date": "2025-03",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty discretion to permit, prohibit, or partially allow generative AI in academic work",
+      "Syllabus and assignment-level statements required before academic work begins",
+      "Students must cite AI usage in specified academic styles (APA, MLA, Chicago)",
+      "Students must validate/verify AI output before submission",
+      "Confidential and regulated data (FERPA, HIPAA) prohibited from non-approved AI tools",
+      "Only UT Dallas-approved tools (CometAI, Microsoft Copilot, Amazon Bedrock) for institutional use",
+      "University Attorney reviews/approves scenarios for regulated data in AI tools",
+      "Alignment with Texas Responsible AI Governance Act (TRAIGA) effective January 1, 2026"
+    ],
+    "summary": "UT Dallas's formal academic policy UTDSP5017 ('Generative AI Use in Academic Work'), effective March 24, 2025, pairs faculty discretion with mandatory syllabus-level disclosure, citation, and verification requirements. Information Security's AI Usage Guidelines layer a data-classification regime on top: public data is OK, but confidential, controlled, and regulated (FERPA/HIPAA) data may only be processed in UT Dallas-approved tools, and the University Attorney must sign off on regulated-data scenarios. The combined framework is explicitly aligned with the Texas Responsible AI Governance Act taking effect January 1, 2026."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Working Group",
+        "type": "committee",
+        "scope": "Institution-wide AI strategy, coordination with Academic Affairs and Academic Senate, cross-college initiatives (co-leads: Sarah Moore, JD Thomas)",
+        "url": "https://genai.utdallas.edu/"
+      },
+      {
+        "name": "Office of Information Technology — Gen AI program",
+        "type": "office",
+        "scope": "Enterprise AI platforms (CometAI, Copilot), data-classification governance, AI Champions program, Gen AI consultations",
+        "url": "https://oit.utdallas.edu/about/gen-ai/"
+      },
+      {
+        "name": "Information Security Office — AI Usage Guidelines",
+        "type": "office",
+        "scope": "Data-classification rules for AI, approved-tool review, coordination with Office of Contracts Administration and University Attorney",
+        "url": "https://infosecurity.utdallas.edu/information-hub/artificial-intelligence-ai-usage-guidelines/"
+      },
+      {
+        "name": "Center for Teaching and Learning — AI programming",
+        "type": "office",
+        "scope": "Faculty AI workshops, peer-led communities, syllabus policy guidance",
+        "url": "https://ctl.utdallas.edu/"
+      },
+      {
+        "name": "Academic Senate",
+        "type": "council",
+        "scope": "Faculty governance partner on AI academic policy",
+        "url": "https://senate.utdallas.edu/"
+      }
+    ],
+    "summary": "AI governance at UT Dallas is a distributed, committee-plus-office model rather than a single Chief AI Officer. The AI Working Group, co-led by Sarah Moore and JD Thomas, sits at the center and coordinates with Academic Affairs and the Academic Senate. OIT owns enterprise platform deployment and vendor contracts, Information Security owns data-classification rules, and the Center for Teaching and Learning owns faculty development."
+  },
+  "initiatives": [
+    {
+      "title": "CometAI campus-wide generative AI platform launch",
+      "description": "UT Dallas launched CometAI, a secure, campus-focused generative AI platform at cometai.utdallas.edu offering 15 advanced AI models, document upload, document generation, and custom assistant/prompt templates for faculty and staff. The platform is positioned as the FERPA-compliant, enterprise-level alternative to consumer AI tools.",
+      "significance": "Puts UT Dallas in a growing cohort of R1s that have built a campus-branded AI front end to steer users away from consumer tools and toward policy-approved workflows.",
+      "date_announced": "2025-12-16",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Dallas institutional funds",
+        "description": "Campus-wide platform build and ongoing operations; dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft (Azure OpenAI)",
+            "AWS (Bedrock)"
+          ],
+          "description": "Underlying infrastructure leverages enterprise cloud AI services approved for institutional use."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CometAI",
+          "vendor": "UT Dallas Office of Information Technology",
+          "role": "Campus-branded multi-model AI front end"
+        },
+        {
+          "name": "Azure OpenAI Service",
+          "vendor": "Microsoft",
+          "role": "Backing model access"
+        },
+        {
+          "name": "Amazon Bedrock",
+          "vendor": "Amazon Web Services",
+          "role": "Backing model access"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Channels AI use into a governed platform with data-handling controls; non-approved tools cannot receive confidential or regulated data.",
+      "source_urls": [
+        "https://oit.utdallas.edu/news/welcome-to-comet-ai/",
+        "https://genai.utdallas.edu/",
+        "https://oit.utdallas.edu/about/gen-ai/"
+      ]
+    },
+    {
+      "title": "UTDSP5017 — Generative AI Use in Academic Work policy",
+      "description": "UT Dallas adopted a university-wide academic AI policy (effective March 24, 2025) granting faculty discretion to permit, prohibit, or partially allow generative AI, while requiring syllabus-level disclosure, citation of AI output, and student verification of AI-generated content.",
+      "significance": "One of the more structured 'faculty-discretion-plus-required-disclosure' policies among R1 universities, bridging permissive and comprehensive stances.",
+      "date_announced": "2025-03-24",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional",
+        "description": "Policy development and faculty training rollout through Center for Teaching and Learning."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy; partners with Academic Senate."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Binds all courses to a syllabus-level AI disclosure expectation and creates a single referenceable policy across the campus.",
+      "source_urls": [
+        "https://policy.utdallas.edu/utdsp5017",
+        "https://ctl.utdallas.edu/2024/08/28/grab-and-go-tips-setting-ai-policies-for-your-courses/"
+      ]
+    },
+    {
+      "title": "AI Usage Guidelines with data-classification regime",
+      "description": "UT Dallas Information Security published Artificial Intelligence Usage Guidelines that map data sensitivity (public / confidential / controlled / regulated) to approved vs. prohibited AI tools. Only CometAI, Microsoft Copilot, and Amazon Bedrock are approved; University Attorney must sign off on regulated-data scenarios. Explicitly aligned with the Texas Responsible AI Governance Act (TRAIGA).",
+      "significance": "Codifies the 'data class drives tool choice' pattern that higher-ed CISOs are converging on, ahead of Texas state-level AI law taking effect January 1, 2026.",
+      "date_announced": "2025-06",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional",
+        "description": "Information Security Office staff time plus coordination with Office of Contracts Administration and University Attorney."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Texas (TRAIGA)"
+          ],
+          "description": "Policy explicitly references compliance with the Texas Responsible AI Governance Act."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CometAI",
+          "vendor": "UT Dallas",
+          "role": "Approved AI tool"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Approved AI tool"
+        },
+        {
+          "name": "Amazon Bedrock",
+          "vendor": "Amazon Web Services",
+          "role": "Approved AI tool"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Prohibits confidential and regulated data from consumer AI tools; routes procurement through OIT and Office of Contracts.",
+      "source_urls": [
+        "https://infosecurity.utdallas.edu/information-hub/artificial-intelligence-ai-usage-guidelines/",
+        "https://intercom.utdallas.edu/announcements/new-artificial-intelligence-guidelines-aim-for-safer-smarter-campus-use/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot rolled out to all faculty, staff, and students",
+      "description": "UT Dallas made Microsoft Copilot available at no additional charge to all students, faculty, and staff, leveraging GPT-4 and DALL-E 3 under a commercial data-protection agreement that blocks use of UTD inputs for model training. Copilot is not approved for processing confidential university data.",
+      "significance": "Among the earliest broad Copilot deployments at a Texas R1, broadening baseline AI literacy across the campus community.",
+      "date_announced": "2024-03-05",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional licensing",
+        "description": "Bundled with existing Microsoft 365 agreement; M365 Copilot add-on is paid."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise licensing with commercial data protection terms."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Browser-based chat for all campus users"
+        },
+        {
+          "name": "M365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Paid add-on integrated with Word/Excel/PowerPoint/Outlook/Teams"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Available but not for confidential data; reinforces data-classification regime.",
+      "source_urls": [
+        "https://ctl.utdallas.edu/2024/03/05/microsoft-copilot-now-available-to-faculty-and-staff/",
+        "https://oit.utdallas.edu/news/microsoft-copilot-available-to-campus/",
+        "https://atlas.utdallas.edu/TDClient/30/Portal/Requests/ServiceDet?ID=432"
+      ]
+    },
+    {
+      "title": "Texas Artificial Intelligence Research Institute (TAIRI) founded",
+      "description": "UT Dallas stood up the Texas Artificial Intelligence Research Institute in 2025 as an interdisciplinary institute pursuing foundational AI theory and applications across scientific fields. Affiliated with the School of Natural Sciences and Mathematics; includes an AI and Statistical Consulting Lab.",
+      "significance": "Positions UT Dallas as a statewide AI research hub alongside Texas peer institutions, signaling deeper basic-AI research alongside applied work at CAIML and HLTRI.",
+      "date_announced": "2025-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Dallas institutional plus external grants (amounts undisclosed)",
+        "description": "Standup of new research institute; specific budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System peer institutions"
+          ],
+          "description": "Framed as a Texas-scoped institute; cross-campus collaboration implied."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://tairi.utdallas.edu/",
+        "https://genai.utdallas.edu/"
+      ]
+    },
+    {
+      "title": "Tech Mahindra strategic AI partnership (MOU)",
+      "description": "UT Dallas and Tech Mahindra signed an MOU on December 9, 2025 to collaborate on AI innovation, skill development, and research in data science, quantum computing, cybersecurity, and cognitive networks. Includes 3-6 month student internships, IP co-development for commercialization, and the first U.S. Tech Mahindra Makers Lab in Dallas.",
+      "significance": "Represents a growing R1 playbook: bundling student internships, applied research, and IP co-development with a global systems integrator into a single multi-year partnership.",
+      "date_announced": "2025-12-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_workforce_training",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Tech Mahindra plus UT Dallas",
+        "description": "Multi-year MOU including Makers Lab buildout; specific dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Tech Mahindra"
+          ],
+          "description": "Dean Stephanie G. Adams and Prof. Bhavani Thuraisingham lead for UT Dallas; Manish Mangal (Tech Mahindra Americas Communications president) signed for the company."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utdallas.edu/campus-community/tech-mahindra-ai-partnership-2025/"
+      ]
+    },
+    {
+      "title": "MS in AI for Biomedical Sciences + graduate certificate",
+      "description": "UT Dallas launched a Master of Science in Artificial Intelligence for Biomedical Sciences and a related graduate certificate in fall 2025, approved by the Texas Higher Education Coordinating Board in April 2025. The program, housed in the School of Natural Sciences and Mathematics, targets graduates heading into biotech, bioengineering, health informatics, and pharmaceuticals.",
+      "significance": "Among the first AI degree programs in Texas focused specifically on biomedical applications, at the intersection of two of the fastest-growing R1 investment areas.",
+      "date_announced": "2025-04",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional; program fees",
+        "description": "New curriculum, four core courses plus four electives; minimal prerequisites lower the barrier for science/engineering undergrads."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-department program (Mathematical Sciences + Biological Sciences)."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utdallas.edu/students-teaching/new-masters-degree-ai-biomedical-sciences-2025/"
+      ]
+    },
+    {
+      "title": "Future Ready AI Collaborative (UTD/Uplift) — $4M federal grant",
+      "description": "UT Dallas, with charter-school partner Uplift Education, won a $4 million, four-year U.S. Department of Education grant (announced February 11, 2026) to build AI curriculum, train teachers, and scale AI literacy across 23,000 K-12 students on Uplift's 20 campuses plus UTD undergraduates. One of 18 institutions funded from a $51M pool.",
+      "significance": "A rare federally-funded K-16 AI literacy pipeline that ties an R1 directly to a regional charter network, and directly addresses advising and retention applications.",
+      "date_announced": "2026-02-11",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "community_college_ai_program",
+        "ai_literacy_requirement",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4000000,
+        "funding_source": "U.S. Department of Education, Office of Postsecondary Education",
+        "description": "$4M over four years; grant also funds computing infrastructure enhancements."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Uplift Education (North Texas charter network)"
+          ],
+          "description": "PI Gaurav Shekhar (JSOM Associate Dean); Dean Hasan Pirkul; Uplift CEO Remy L. Washington."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utdallas.edu/students-teaching/education-uplift-ai-grant-2026/"
+      ]
+    },
+    {
+      "title": "Inaugural Week of AI 2025",
+      "description": "UT Dallas's Office of Information Technology hosted the institution's first Week of AI on March 31 – April 4, 2025, with AI in Education, AI Research, AI in Industry, and AI Ethics tracks, plus an AI Hackathon and AI Art Display. Open campus-wide and free, with a digital-badge program for attendees.",
+      "significance": "Part of a broader R1 pattern of turning AI strategy into annual campus ritual with community engagement, not just policy documents.",
+      "date_announced": "2025-03-31",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "OIT",
+        "description": "Event programming across the campus; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Industry leaders (unspecified)"
+          ],
+          "description": "Coordinators: Sarah Moore and Kishore Thakur."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://weekofai.utdallas.edu/"
+      ]
+    },
+    {
+      "title": "JSOM AI Day 2025 + AI & Analytics Lab",
+      "description": "The Naveen Jindal School of Management held its 2025 AI Day on October 28, 2025, featuring Amazon's head of engineering and the U.S. Air Force CIO as keynotes, plus a Responsible AI panel with Wells Fargo, Capital One, and Texas Blockchain Council. Paired with a new AI & Analytics Lab seeded by a $100,000 gift from Credit Union of Texas (CUTX) with 10 GPU workstations, managed by the FD-Tech Center.",
+      "significance": "Shows the business-school model of AI engagement: industry convening plus a dedicated student-facing GPU lab, not just classroom curriculum.",
+      "date_announced": "2025-01-22",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 115000,
+        "funding_source": "Credit Union of Texas",
+        "description": "$100K lab gift plus $15K for Lean Six Sigma projects and workstations."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Credit Union of Texas",
+            "Amazon",
+            "Microsoft",
+            "Salesforce",
+            "Capital One",
+            "Wells Fargo"
+          ],
+          "description": "Dean Hasan Pirkul, FD-Tech Center director Vijay Mookerjee, associate director Eric Zheng lead for UTD."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utdallas.edu/philanthropy/jindal-ai-lab-2025/",
+        "https://jindal.utdallas.edu/ai-day/",
+        "https://dallasinnovates.com/utds-new-ai-and-analytics-lab-gets-100k-donation-from-credit-union-of-texas/"
+      ]
+    },
+    {
+      "title": "A11yShape — accessible AI for sight-impaired programmers",
+      "description": "Dr. Liang He (UT Dallas Computer Science) led a multi-institution team to develop A11yShape, an AI-assisted platform enabling visually impaired programmers to create, edit, and verify 3D models by pairing GPT-4o with OpenSCAD. Presented at ASSETS 2025 in October 2025.",
+      "significance": "Concrete example of UT Dallas translating R1 AI research into accessibility outcomes, with an industry consortium including Nvidia and MIT.",
+      "date_announced": "2025-10",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "disability_and_accessibility",
+        "ai_tool_equity",
+        "ai_research_center"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Research grants (specific source undisclosed)",
+        "description": "Peer-reviewed research output; specific funding not disclosed in source."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Washington",
+            "Purdue",
+            "Stanford",
+            "University of Michigan",
+            "MIT",
+            "Hong Kong University of Science and Technology",
+            "Nvidia"
+          ],
+          "description": "Cross-institution research consortium."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "GPT-4o",
+          "vendor": "OpenAI",
+          "role": "Model backing the A11yShape prototype"
+        },
+        {
+          "name": "OpenSCAD",
+          "vendor": "OpenSCAD project",
+          "role": "3D modeling editor integrated with the prototype"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utdallas.edu/science-technology/ai-tool-sight-impaired-programmers-2025/"
+      ]
+    },
+    {
+      "title": "HPC refresh: Juno cluster for AI/ML workloads",
+      "description": "UT Dallas brought the Juno HPC cluster online in spring 2025 (5,184 CPU cores, 32.25 TB memory, 12 GPUs) alongside existing Ganymede and Ganymede2 systems (with A100 and RTX 3090 GPUs across 22 GPU nodes). Natural Sciences and Mathematics plus UTD are 'investing heavily into a Ganymede refresh that will bring GPGPU and machine learning/AI systems to campus.'",
+      "significance": "Signals R1-tier compute commitment: a dedicated AI-ready refresh path rather than outsourcing to TACC or cloud-only.",
+      "date_announced": "2025-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UT Dallas plus condo-model faculty buy-ins ($10K–$92K per node)",
+        "description": "Multi-cluster HPC environment with dedicated AI workloads."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Texas Advanced Computing Center (TACC)"
+          ],
+          "description": "UT Dallas inherited components from the retired Stampede1 supercomputer ('Europa' cluster) and accesses national NSF-funded TACC systems."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Ganymede / Ganymede2 / Juno / Europa / Titan",
+          "vendor": "UT Dallas OIT",
+          "role": "Institutional HPC"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hpc.utdallas.edu/",
+        "https://hpc.utdallas.edu/systems-resources/",
+        "https://oit.utdallas.edu/about/cyberinfrastructure-research-services/"
+      ]
+    },
+    {
+      "title": "Roadmap 2030 strategic plan emphasizing AI convergence",
+      "description": "President Prabhas V. Moghe's April 2026 inaugural address unveiled Roadmap 2030, organized around three pillars: student success, academic/research convergence, and external impact. Moghe publicly frames UT Dallas as innovating 'from AI infrastructure to physical AI,' tying AI to cross-disciplinary research and industry partnerships.",
+      "significance": "Elevates AI from a tactical OIT program to a presidential strategic priority, connecting it to the university's long-run institutional identity.",
+      "date_announced": "2026-04-02",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_and_degree_value",
+        "business_model_disruption"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "robotics_and_physical_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "board_and_trustees",
+        "faculty",
+        "administrators",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Institutional; to be determined as plan operationalizes",
+        "description": "Strategic framing plan; specific allocations not yet disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Industry partners (broad)"
+          ],
+          "description": "Explicitly positioned as 'premier partner for industry.'"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals continued investment in enterprise AI platforms and AI-aligned programs.",
+      "source_urls": [
+        "https://news.utdallas.edu/campus-community/moghe-investiture-2026/",
+        "https://inauguration.utdallas.edu/inaugural-address/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Texas Artificial Intelligence Research Institute (TAIRI)",
+      "focus": "Foundational AI and applications across scientific fields; affiliated with School of Natural Sciences and Mathematics",
+      "founded": "2025",
+      "url": "https://tairi.utdallas.edu/"
+    },
+    {
+      "name": "Center for Applied AI & Machine Learning (CAIML)",
+      "focus": "Applied AI/ML R&D with industry partners — NLP, deep learning, explainable AI, health informatics, computer vision (Dir. Doug DeGroot; Co-Dir. Gopal Gupta)",
+      "founded": null,
+      "url": "https://caiml.utdallas.edu/"
+    },
+    {
+      "name": "Human Language Technology Research Institute (HLTRI)",
+      "focus": "NLP, speech recognition, text mining, question answering; includes six sub-centers spanning foundational NLP through applied conversational AI",
+      "founded": "2002",
+      "url": "https://www.hlt.utdallas.edu/"
+    },
+    {
+      "name": "Center for the Management of Financial and Digital Asset Technologies (FD-Tech Center) — AI & Analytics Laboratory",
+      "focus": "AI for financial technology; houses Jindal School AI & Analytics Lab",
+      "founded": null,
+      "url": "https://jindal.utdallas.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "BS in Business Analytics and Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/programs/jsom/business-analytics"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Artificial Intelligence for Biomedical Sciences",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://news.utdallas.edu/students-teaching/new-masters-degree-ai-biomedical-sciences-2025/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Biomedical Artificial Intelligence",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://news.utdallas.edu/students-teaching/new-masters-degree-ai-biomedical-sciences-2025/"
+    },
+    {
+      "type": "concentration",
+      "name": "MS in Computer Science — AI/ML specialization",
+      "level": "grad",
+      "launched": null,
+      "url": "https://cs.utdallas.edu/"
+    },
+    {
+      "type": "certificate",
+      "name": "UT Dallas AI & Machine Learning Bootcamp (26-week part-time)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.utdallas.edu/programs/ai-machine-learning"
+    },
+    {
+      "type": "course",
+      "name": "Applied Artificial Intelligence/Machine Learning (ITSS 4382)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.utdallas.edu/2025/undergraduate/courses/itss4382"
+    },
+    {
+      "type": "course",
+      "name": "AI in Business (MIS 6399)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.utdallas.edu/2025/graduate/courses/mis6399"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "UT Dallas OIT (backed by Microsoft Azure OpenAI / AWS Bedrock)",
+      "product": "CometAI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-12",
+      "url": "https://oit.utdallas.edu/news/welcome-to-comet-ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (Copilot Chat + M365 Copilot)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-03",
+      "url": "https://ctl.utdallas.edu/2024/03/05/microsoft-copilot-now-available-to-faculty-and-staff/"
+    },
+    {
+      "vendor": "Amazon Web Services",
+      "product": "Amazon Bedrock / AWS Gen AI services",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://oit.utdallas.edu/about/gen-ai/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Azure OpenAI Service / Azure AI Foundry",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://oit.utdallas.edu/about/gen-ai/artificial-intelligence/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Ganymede / Ganymede2 / Juno / Europa / Titan (HPC cluster family)",
+    "gpu_count": 118,
+    "url": "https://hpc.utdallas.edu/systems-resources/",
+    "summary": "UT Dallas runs a multi-cluster HPC environment (Ganymede, Ganymede2, Juno, Europa, Titan) with roughly 17,000+ CPU cores and at least 118 GPUs across nodes ranging from RTX 3090 to A100 SXM4. Juno came online in spring 2025 with dedicated AI workloads. Access is free to UT Dallas faculty, staff, and students, with a condo-model for faculty buy-ins, and national NSF TACC resources (Lonestar6, Stampede3, Frontera) available through partnership."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Future Ready AI Collaborative federal grant",
+      "amount_usd": 4000000,
+      "source": "U.S. Department of Education, Office of Postsecondary Education",
+      "purpose": "4-year K-16 AI literacy, curriculum, teacher training, and computing infrastructure with Uplift Education",
+      "date": "2026-02",
+      "url": "https://news.utdallas.edu/students-teaching/education-uplift-ai-grant-2026/"
+    },
+    {
+      "title": "JSOM AI & Analytics Lab gift",
+      "amount_usd": 115000,
+      "source": "Credit Union of Texas (CUTX)",
+      "purpose": "10 GPU workstations + Lean Six Sigma projects; AI & Analytics Lab in FD-Tech Center",
+      "date": "2025-01",
+      "url": "https://dallasinnovates.com/utds-new-ai-and-analytics-lab-gets-100k-donation-from-credit-union-of-texas/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Tech Mahindra",
+      "purpose": "AI innovation, skill development, research; student internships; IP co-development; first U.S. Makers Lab in Dallas",
+      "date": "2025-12",
+      "url": "https://news.utdallas.edu/campus-community/tech-mahindra-ai-partnership-2025/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Copilot deployment and Azure OpenAI services under commercial data-protection terms",
+      "date": "2024-03",
+      "url": "https://ctl.utdallas.edu/2024/03/05/microsoft-copilot-now-available-to-faculty-and-staff/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon Web Services",
+      "purpose": "Bedrock, Gen AI services, AWS Gen AI Roadshow participation",
+      "date": null,
+      "url": "https://oit.utdallas.edu/about/gen-ai/"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Uplift Education (charter school network)",
+      "purpose": "K-12 AI literacy across 20 campuses, 23,000 students",
+      "date": "2026-02",
+      "url": "https://news.utdallas.edu/students-teaching/education-uplift-ai-grant-2026/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Nvidia, MIT, Stanford, University of Washington, Purdue, University of Michigan, HKUST",
+      "purpose": "A11yShape accessible AI research consortium",
+      "date": "2025-10",
+      "url": "https://news.utdallas.edu/science-technology/ai-tool-sight-impaired-programmers-2025/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "CometAI",
+      "scope": "Faculty/staff campus-wide platform with 15 models, document upload/generation, custom assistants",
+      "url": "https://oit.utdallas.edu/news/welcome-to-comet-ai/"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot Chat (student-available)",
+      "scope": "Browser-based AI chat available to all students, faculty, and staff",
+      "url": "https://atlas.utdallas.edu/TDClient/30/Portal/Requests/ServiceDet?ID=432"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "A11yShape accessibility research",
+      "description": "AI-assisted 3D modeling platform for visually impaired programmers, developed with cross-institution consortium",
+      "url": "https://news.utdallas.edu/science-technology/ai-tool-sight-impaired-programmers-2025/"
+    },
+    {
+      "title": "Future Ready AI Collaborative — Uplift Education partnership",
+      "description": "AI literacy reaching 23,000 K-12 students in a charter network serving underrepresented communities in North Texas",
+      "url": "https://news.utdallas.edu/students-teaching/education-uplift-ai-grant-2026/"
+    },
+    {
+      "title": "Microsoft Copilot free for all students",
+      "description": "Zero-cost Copilot access for every enrolled student lowers the commercial AI paywall for students who might otherwise lack access",
+      "url": "https://oit.utdallas.edu/news/microsoft-copilot-available-to-campus/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "The Texas Responsible Artificial Intelligence Governance Act (TRAIGA) was signed June 22, 2025 and takes effect January 1, 2026. It restricts government use of AI for social scoring, prohibits AI tools inciting self-harm, violence, or criminal behavior, and constrains AI that limits political content access. UT Dallas's AI Usage Guidelines reference TRAIGA directly and align institutional data-handling with the statute. At the system level, UT System Administration policies apply to AI use, with UT Austin's Responsible Adoption of AI Tools for Teaching and Learning framework announced May 2025 serving as a reference point across UT System institutions.",
+    "urls": [
+      "https://infosecurity.utdallas.edu/information-hub/artificial-intelligence-ai-usage-guidelines/",
+      "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+      "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Texas at Dallas — a Richardson-based R1 that enrolls ~26,790 students within the University of Texas System — has assembled one of the more methodical mid-sized R1 AI postures in the Southwest. Its strategy is published centrally at genai.utdallas.edu and is coordinated by an AI Working Group co-led by Sarah Moore and Assistant Dean JD Thomas in partnership with Academic Affairs and the Academic Senate, rather than a single Chief AI Officer. President Prabhas V. Moghe, inaugurated April 2, 2026, has now elevated AI to a presidential priority via Roadmap 2030 and the phrase 'from AI infrastructure to physical AI.'\n\nOn policy, UT Dallas pairs UTDSP5017 ('Generative AI Use in Academic Work,' effective March 24, 2025) — which requires syllabus-level disclosure, citation, and verification — with an Information Security Office AI Usage Guidelines regime that maps data classes (public / confidential / controlled / regulated) to approved tools (CometAI, Microsoft Copilot, Amazon Bedrock) and routes regulated-data scenarios through the University Attorney. The framework is explicitly aligned with the Texas Responsible AI Governance Act (TRAIGA), which takes effect January 1, 2026.\n\nEnterprise rollouts are significant: Microsoft Copilot has been free to all students, faculty, and staff since March 2024, and CometAI — a campus-branded multi-model platform offering 15 AI models with document upload, generation, and custom assistants — went live December 16, 2025 for faculty and staff. Research infrastructure includes the Texas Artificial Intelligence Research Institute (founded 2025), the long-standing Human Language Technology Research Institute (founded 2002), the Center for Applied AI & Machine Learning, and a multi-cluster HPC environment (Ganymede, Ganymede2, Juno, Europa, Titan) with GPU capacity ranging from RTX 3090 to A100.\n\nAcademic programs include a new MS in AI for Biomedical Sciences and graduate certificate (fall 2025), a BS in Business Analytics & AI, and an AI/ML bootcamp. A $4M federal Future Ready AI Collaborative grant with Uplift Education (February 2026) extends UT Dallas's AI-literacy reach into 23,000 K-12 students. A new Tech Mahindra MOU (December 2025), a Credit Union of Texas-seeded JSOM AI lab, and the Jindal AI Day convening round out the industry-facing surface. Gaps: no dedicated Chief AI Officer, no disclosed student-advising chatbot or retention analytics deployment, and limited public disclosure of enterprise AI investment dollar figures.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://genai.utdallas.edu/",
+      "https://policy.utdallas.edu/utdsp5017",
+      "https://infosecurity.utdallas.edu/information-hub/artificial-intelligence-ai-usage-guidelines/",
+      "https://oit.utdallas.edu/about/gen-ai/",
+      "https://oit.utdallas.edu/about/gen-ai/initial-guidelines/",
+      "https://oit.utdallas.edu/about/gen-ai/artificial-intelligence/",
+      "https://oit.utdallas.edu/news/welcome-to-comet-ai/",
+      "https://oit.utdallas.edu/news/microsoft-copilot-available-to-campus/",
+      "https://oit.utdallas.edu/about/cyberinfrastructure-research-services/",
+      "https://ctl.utdallas.edu/2024/03/05/microsoft-copilot-now-available-to-faculty-and-staff/",
+      "https://ctl.utdallas.edu/2024/01/23/crafting-effective-policies-and-syllabi-in-the-ai-era/",
+      "https://ctl.utdallas.edu/2024/08/28/grab-and-go-tips-setting-ai-policies-for-your-courses/",
+      "https://atlas.utdallas.edu/TDClient/30/Portal/Requests/ServiceDet?ID=432",
+      "https://atlas.utdallas.edu/TDClient/30/Portal/KB/ArticleDet?ID=1384",
+      "https://atlas.utdallas.edu/TDClient/30/Portal/KB/ArticleDet?ID=1385",
+      "https://tairi.utdallas.edu/",
+      "https://caiml.utdallas.edu/",
+      "https://www.hlt.utdallas.edu/",
+      "https://hpc.utdallas.edu/",
+      "https://hpc.utdallas.edu/systems-resources/",
+      "https://weekofai.utdallas.edu/",
+      "https://jindal.utdallas.edu/ai-day/",
+      "https://news.utdallas.edu/campus-community/tech-mahindra-ai-partnership-2025/",
+      "https://news.utdallas.edu/students-teaching/new-masters-degree-ai-biomedical-sciences-2025/",
+      "https://news.utdallas.edu/students-teaching/education-uplift-ai-grant-2026/",
+      "https://news.utdallas.edu/science-technology/ai-tool-sight-impaired-programmers-2025/",
+      "https://news.utdallas.edu/philanthropy/jindal-ai-lab-2025/",
+      "https://news.utdallas.edu/campus-community/moghe-investiture-2026/",
+      "https://news.utdallas.edu/faculty-staff/university-it-leader-selected-vice-president-chief/",
+      "https://inauguration.utdallas.edu/inaugural-address/",
+      "https://president.utdallas.edu/",
+      "https://provost.utdallas.edu/",
+      "https://catalog.utdallas.edu/2025/undergraduate/courses/itss4382",
+      "https://catalog.utdallas.edu/2025/graduate/courses/mis6399",
+      "https://catalog.utdallas.edu/2025/undergraduate/programs/jsom/business-analytics",
+      "https://bootcamp.utdallas.edu/programs/ai-machine-learning",
+      "https://dallasinnovates.com/utds-new-ai-and-analytics-lab-gets-100k-donation-from-credit-union-of-texas/",
+      "https://www.nortonrosefulbright.com/en/knowledge/publications/c6c60e0c/the-texas-responsible-ai-governance-act",
+      "https://news.utexas.edu/2025/05/20/ut-unveils-proposed-guidelines-for-responsible-use-of-ai-in-teaching-and-learning/",
+      "https://intercom.utdallas.edu/announcements/new-artificial-intelligence-guidelines-aim-for-safer-smarter-campus-use/",
+      "https://carnegieclassifications.acenet.edu/institution/the-university-of-texas-at-dallas/"
+    ],
+    "search_queries": [
+      "\"University of Texas at Dallas\" AI strategy 2025 2026",
+      "\"UT Dallas\" artificial intelligence initiative 2025",
+      "\"University of Texas at Dallas\" acceptable use policy generative AI",
+      "\"UT Dallas\" chief AI officer OR \"AI task force\" OR \"AI council\"",
+      "\"UT Dallas\" president OR provost OR CIO 2026 leadership",
+      "\"UT Dallas\" HPC supercomputer GPU cluster AI computing infrastructure",
+      "\"UT Dallas\" AI donor gift million research",
+      "Texas state AI executive order higher education university policy 2025",
+      "\"UT Dallas\" AI chatbot student advising OR retention predictive analytics",
+      "\"UT Dallas\" Microsoft Copilot OR ChatGPT Edu OR Gemini deployment",
+      "\"UT Dallas\" enrollment 2025 R1 Carnegie classification",
+      "\"UT Dallas\" president Moghe 2026 AI vision",
+      "\"UT Dallas\" HLTRI Human Language Technology Research Institute",
+      "\"UT Dallas\" \"Responsible Artificial Intelligence\" Texas RAIGA compliance 2025"
+    ],
+    "gaps_acknowledged": [
+      "No dedicated Chief AI Officer title disclosed publicly; ai_strategy_lead captured via AI Working Group co-leads",
+      "CometAI vendor stack confirmed at a high level (Azure OpenAI, Bedrock) but per-model licensing terms not public",
+      "Specific dollar-value enterprise investments (Copilot, CometAI platform) are not publicly disclosed",
+      "No evidence found of a deployed student-advising AI chatbot or a named predictive-analytics retention platform — the DOE grant suggests forthcoming work here",
+      "TAIRI director name and founding charter details not publicly listed on the institute's website as of research date",
+      "Controversies/litigation: none identified through public web research"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "research_compute_powerhouse",
+        "governance_led",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 15,
+        "research_compute_powerhouse": 16,
+        "curriculum_led": 14,
+        "governance_led": 15,
+        "student_success_led": 2,
+        "workforce_regional_development": 10,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-03",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 3,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Ganymede / Ganymede2 / Juno / Europa / Titan (HPC cluster family)",
+        "gpu_count": 118,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 4115000,
+      "funding_source_buckets": {
+        "public_federal_state": 2,
+        "philanthropy_foundation": 2,
+        "institutional": 7,
+        "industry_vendor": 1,
+        "other_unclear": 3
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "other": 1,
+        "chatbot": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Azure OpenAI Service",
+            "Azure OpenAI Service / Azure AI Foundry",
+            "CometAI",
+            "M365 Copilot",
+            "Microsoft Copilot",
+            "Microsoft Copilot (Copilot Chat + M365 Copilot)",
+            "Microsoft Copilot Chat"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 3,
+          "products": [
+            "Amazon Bedrock",
+            "Amazon Bedrock / AWS Gen AI services"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "GPT-4o"
+          ]
+        },
+        {
+          "vendor": "OpenSCAD project OpenSCAD",
+          "mentions": 1,
+          "products": [
+            "OpenSCAD"
+          ]
+        },
+        {
+          "vendor": "UT Dallas CometAI",
+          "mentions": 1,
+          "products": [
+            "CometAI"
+          ]
+        },
+        {
+          "vendor": "UT Dallas Office of Information Technology CometAI",
+          "mentions": 1,
+          "products": [
+            "CometAI"
+          ]
+        },
+        {
+          "vendor": "UT Dallas OIT Ganymede / Ganymede2 / Juno / Europa / Titan",
+          "mentions": 1,
+          "products": [
+            "Ganymede / Ganymede2 / Juno / Europa / Titan"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "CometAI campus-wide generative AI platform launch",
+          "summary": "Puts UT Dallas in a growing cohort of R1s that have built a campus-branded AI front end to steer users away from consumer tools and toward policy-approved workflows.",
+          "source_url": "https://oit.utdallas.edu/news/welcome-to-comet-ai/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Usage Guidelines with data-classification regime",
+          "summary": "Codifies the 'data class drives tool choice' pattern that higher-ed CISOs are converging on, ahead of Texas state-level AI law taking effect January 1, 2026.",
+          "source_url": "https://infosecurity.utdallas.edu/information-hub/artificial-intelligence-ai-usage-guidelines/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Future Ready AI Collaborative (UTD/Uplift) — $4M federal grant",
+          "summary": "A rare federally-funded K-16 AI literacy pipeline that ties an R1 directly to a regional charter network, and directly addresses advising and retention applications.",
+          "source_url": "https://news.utdallas.edu/students-teaching/education-uplift-ai-grant-2026/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Roadmap 2030 strategic plan emphasizing AI convergence",
+          "summary": "Elevates AI from a tactical OIT program to a presidential strategic priority, connecting it to the university's long-run institutional identity.",
+          "source_url": "https://news.utdallas.edu/campus-community/moghe-investiture-2026/"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No dedicated Chief AI Officer title disclosed publicly; ai_strategy_lead captured via AI Working Group co-leads",
+        "CometAI vendor stack confirmed at a high level (Azure OpenAI, Bedrock) but per-model licensing terms not public",
+        "Specific dollar-value enterprise investments (Copilot, CometAI platform) are not publicly disclosed",
+        "No evidence found of a deployed student-advising AI chatbot or a named predictive-analytics retention platform — the DOE grant suggests forthcoming work here",
+        "TAIRI director name and founding charter details not publicly listed on the institute's website as of research date",
+        "Controversies/litigation: none identified through public web research"
+      ]
+    }
+  }
+}

@@ -11,7 +11,10 @@
     "pipeline:ingest": "tsx scripts/pipeline.ts --ingest-only",
     "pipeline:extract": "tsx scripts/pipeline.ts --extract-only",
     "pipeline:synthesize": "tsx scripts/pipeline.ts --synthesize-only",
-    "pipeline:report": "tsx scripts/pipeline.ts --report-only"
+    "pipeline:report": "tsx scripts/pipeline.ts --report-only",
+    "analytics:institutions": "tsx scripts/institution-analytics.ts",
+    "analytics:enrich": "tsx scripts/enrich-institution-analytics.ts",
+    "validate:institution": "tsx scripts/validate-institution.ts"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.2.110",

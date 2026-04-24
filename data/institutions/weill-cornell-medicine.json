@@ -1,0 +1,1590 @@
+{
+  "institution": "Weill Cornell Medicine",
+  "slug": "weill-cornell-medicine",
+  "city_state": "New York, NY",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "Cornell University",
+  "enrollment": 532,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Robert A. Harrington, MD (Stephen and Suzanne Weiss Dean; Provost for Medical Affairs, Cornell University)",
+      "url": "https://weill.cornell.edu/our-story/leadership/robert-harrington"
+    },
+    "provost": {
+      "name": "Robert A. Harrington, MD (Provost for Medical Affairs at Cornell University; Dean of WCM)",
+      "url": "https://weill.cornell.edu/our-story/leadership/robert-harrington"
+    },
+    "cio": {
+      "name": "Vinay Varughese (CIO, WCM) reporting to Curtis Cole, MD (Cornell VP and Chief Global Information Officer)",
+      "url": "https://its.weill.cornell.edu/teams/leadership"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Fei Wang, PhD",
+      "title": "Associate Dean for Artificial Intelligence and Data Science; Chief, Division of Health Informatics and AI; Founding Director, Institute of AI for Digital Health; Frances and John L. Loeb Professor of Medical Informatics",
+      "url": "https://gradschool.weill.cornell.edu/faculty/fei-wang"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "CARE Strategic Plan (Clinical care; AI and data science; Research; Education) — institutional plan guiding priorities through 2029",
+        "url": "https://weill.cornell.edu/careplan",
+        "year": 2025
+      },
+      {
+        "title": "AI to Advance Medicine (AIM) Program portal — unifying institutional AI infrastructure, Dean's Lecture Series, Dean's Grant Program",
+        "url": "https://ai.weill.cornell.edu/",
+        "year": 2026
+      }
+    ],
+    "summary": "Weill Cornell Medicine's AI strategy is anchored in the CARE strategic plan, unveiled in 2025 under Dean Robert Harrington, where the 'A' tenet explicitly names 'AI and data science driven across missions' alongside clinical care, research and education. In February 2026 WCM operationalized this by launching the AI to Advance Medicine (AIM) program — a unified institutional umbrella (dedicated website, Dean's Lecture Series, Dean's Grant Program) led by Associate Dean for AI and Data Science Fei Wang and CIO Vinay Varughese. The posture is explicitly cross-mission (research, education, clinical care, administration) and emphasizes ethical, equitable, human-centered AI in a HIPAA-regulated academic medical center."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://its.weill.cornell.edu/news/cornell-guidelines-for-artificial-intelligence",
+      "https://med.cornell.libguides.com/ai/ethics",
+      "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat",
+      "https://its.weill.cornell.edu/news/71-enhancing-data-privacy-in-microsoft-copilot"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No confidential, proprietary, regulated, sensitive or restricted WCM or Cornell information may be entered into public generative AI tools",
+      "No PHI, student records, or PII may be submitted to any AI system; HIPAA, FERPA, and PII regulations bind all AI use",
+      "Microsoft Copilot Chat (Enterprise) is the designated approved tool for work use — chats are not stored or used for model training",
+      "Copilot Enterprise cannot be used with any WCM 'High' or 'Moderate' risk data class",
+      "Web Search in Microsoft 365 Copilot was disabled effective July 1, 2025 to tighten the safe-use boundary",
+      "AI may not be used for clinical decision-making; outputs must be verified against peer-reviewed sources",
+      "AI cannot be designated as an author; users must cite substantive AI use in publications",
+      "Five-principle ethics framework: transparency, accountability, fairness/bias awareness, privacy/security, educational integrity"
+    ],
+    "summary": "WCM follows Cornell University's AI Guidelines layered with its own ITS guidance and medical-college-specific library guide. The stance is cautious: broad staff/student/faculty access is allowed through Microsoft Copilot Chat (Enterprise) while clinical decision-making and any regulated data are firmly off-limits. PHI, FERPA-protected records, and WCM moderate/high risk data are prohibited from AI systems, and ITS tightened safeguards (disabling Copilot Web Search on 7/1/2025) as enterprise use scaled."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Office of the Associate Dean for Artificial Intelligence and Data Science (Fei Wang, PhD; Edward Schenck, MD, Assistant Dean)",
+        "type": "office",
+        "scope": "Institution-wide AI and data science strategy across research, education, clinical care, and administration; leads the AI to Advance Medicine program.",
+        "url": "https://research.weill.cornell.edu/about-us/news-updates/weill-cornell-launches-ai-advance-medicine-program"
+      },
+      {
+        "name": "Information Technologies & Services (ITS) — Office of the CIO",
+        "type": "office",
+        "scope": "Enterprise AI tool approval, deployment, and acceptable use; owns Microsoft Copilot Enterprise rollout and data-privacy configuration.",
+        "url": "https://its.weill.cornell.edu/ai"
+      },
+      {
+        "name": "Weill Cornell Medicine Data Privacy Committee",
+        "type": "committee",
+        "scope": "Institution-wide oversight of data-privacy practices, including AI/LLM use with protected data; coordinates with the Office of Compliance.",
+        "url": "https://weill.cornell.edu/dpc"
+      },
+      {
+        "name": "Office of Compliance / Compliance and Privacy Office",
+        "type": "office",
+        "scope": "HIPAA, FERPA, and institutional compliance oversight covering AI-touched workflows.",
+        "url": "https://weill.cornell.edu/units/office-compliance"
+      },
+      {
+        "name": "Division of Medical Ethics (Weill Department of Medicine)",
+        "type": "office",
+        "scope": "Teaches the longitudinal medical ethics curriculum and anchors AI ethics scholarship; hosts 'Implementation Science and AI Ethics' course.",
+        "url": "https://medicine.weill.cornell.edu/divisions-programs/medical-ethics"
+      },
+      {
+        "name": "Cornell AI Initiative (university-level, binding WCM to Ithaca and Cornell Tech)",
+        "type": "council",
+        "scope": "University-wide AI coordination including Empire AI compute allocations for WCM, Cornell, and Cornell Tech PIs; led by Director Thorsten Joachims.",
+        "url": "https://ai.cornell.edu/"
+      }
+    ],
+    "summary": "Governance is distributed but actively coordinated. The Associate Dean for AI and Data Science (Fei Wang) and Assistant Dean (Edward Schenck) provide strategic leadership, the CIO's office runs enterprise rollouts, and a Data Privacy Committee plus the Office of Compliance enforce HIPAA/FERPA guardrails. There is no standalone 'AI Council' or named Chief AI Officer; coordination with Cornell University's AI Initiative and Cornell Tech ties WCM to the broader Empire AI consortium."
+  },
+  "initiatives": [
+    {
+      "title": "AI to Advance Medicine (AIM) institutional program",
+      "description": "Institution-wide AI program launched February 19, 2026 by Dean Robert Harrington, Associate Dean Fei Wang, and CIO Vinay Varughese. Provides the unifying infrastructure for AI across research, education, clinical care, and administration via a dedicated portal (ai.weill.cornell.edu), a bimonthly Dean's Lecture Series (inaugural lecture by Vanderbilt's Peter Embi on Feb 23, 2026), and a Dean's Grant Program offering seed funding and technical support (servers, cloud, expertise) for AI-driven research, with emphasis on lowering barriers for junior investigators.",
+      "significance": "Few U.S. academic medical centers have launched a single, cross-mission AI umbrella of this scope; AIM operationalizes the CARE strategic plan's 'A' tenet and sets a sector template for governance-forward AI adoption in HIPAA-regulated environments.",
+      "date_announced": "2026-02-19",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "ai_research_center",
+        "faculty_training_and_development",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WCM institutional (Dean's Office)",
+        "description": "Seed funding through Dean's Grant Program for AI-driven research; no aggregate dollar figure disclosed in launch materials."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cornell University (Ithaca)",
+            "Cornell Tech",
+            "NewYork-Presbyterian Hospital"
+          ],
+          "description": "AIM explicitly builds on broader Cornell AI efforts and aligns with NYP clinical operations via the joint Epic EHR."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates the institutional scaffolding for governance-aligned AI adoption and establishes Dean-level accountability for ethics, equity, and human-centered deployment.",
+      "source_urls": [
+        "https://news.weill.cornell.edu/news/2026/02/weill-cornell-launches-ai-to-advance-medicine-program",
+        "https://research.weill.cornell.edu/about-us/news-updates/weill-cornell-launches-ai-advance-medicine-program",
+        "https://ai.weill.cornell.edu/"
+      ]
+    },
+    {
+      "title": "CARE Strategic Plan — AI and data science as a core institutional tenet",
+      "description": "WCM's CARE strategic plan guides institutional priorities through 2029 and explicitly names 'A' = AI and data science driven across missions, alongside clinical care, research, and education. Authored by Dean Robert Harrington, the plan aligns with the $1.5B 'We're Changing Medicine' campaign (exceeded target one year early) and upcoming clinical expansions at 575 Lexington Ave and 1334 York Ave.",
+      "significance": "Elevates AI from a departmental activity to one of four top-level institutional pillars, committing WCM to sustained AI investment through 2029.",
+      "date_announced": "2025-12-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "'We're Changing Medicine' campaign ($1.5B+ raised); WCM operating and endowment funds",
+        "description": "AI is a named pillar in a >$1.5B strategic plan; no AI-specific carve-out disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cornell University"
+          ],
+          "description": "Plan is authored by the Dean in his dual role as Cornell Provost for Medical Affairs, anchoring WCM to Cornell-wide strategy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Gives AI board-level visibility and long-horizon funding discipline through 2029.",
+      "source_urls": [
+        "https://weill.cornell.edu/careplan",
+        "https://news.weill.cornell.edu/news/2025/12/state-of-weill-cornell-medicine-a-bright-future"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Chat (Enterprise) campus-wide deployment",
+      "description": "WCM ITS has adopted Microsoft Copilot Chat Enterprise as the designated approved generative AI tool for work use (accessed via copilot.microsoft.com with CWID login). It runs on OpenAI's ChatGPT engine but does not train the model on WCM data; chats are not stored. Restrictions: cannot be used with HIPAA, FERPA, or PII-regulated data, or any WCM 'High'/'Moderate' risk data. Web Search in Microsoft 365 Copilot was disabled effective July 1, 2025 to tighten safeguards as usage scaled.",
+      "significance": "Represents the primary enterprise AI surface for faculty, students, and staff at a major academic medical center, with HIPAA-conscious guardrails that illustrate how AMCs are carrying consumer-grade LLMs into regulated environments.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WCM ITS operating budget (Microsoft enterprise licensing)",
+        "description": "Enterprise licensing via Microsoft; specific contract value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "OpenAI (engine)"
+          ],
+          "description": "WCM licenses Microsoft 365 Copilot Enterprise, which wraps OpenAI models with enterprise privacy boundaries."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot Chat (Enterprise)",
+          "vendor": "Microsoft",
+          "role": "Primary approved generative AI assistant for faculty/staff/students"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity suite integration"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summarization and action-item capture"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Establishes default safe-use boundary and hardens it over time (e.g., disabling Copilot Web Search in July 2025) — a template for regulated-data AMCs.",
+      "source_urls": [
+        "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat",
+        "https://its.weill.cornell.edu/news/introducing-microsoft-copilot-enterprise-%E2%80%93-your-ai-companion",
+        "https://its.weill.cornell.edu/news/71-enhancing-data-privacy-in-microsoft-copilot",
+        "https://its.weill.cornell.edu/ai"
+      ]
+    },
+    {
+      "title": "Institute of Artificial Intelligence for Digital Health (AIDH)",
+      "description": "Research institute within the Department of Population Health Sciences, founded by Fei Wang, advancing individualized health and healthcare with data-driven insights from AI. Serves as a community hub across computational science and clinical medicine, coordinating multi-disciplinary research and commercialization pathways. Collaborates with Cornell Tech and Cornell Ann S. Bowers College of Computing and Information Science.",
+      "significance": "One of the flagship institution-level AI research centers focused specifically on individualized/digital health at an Ivy League academic medical center.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WCM institutional and grant-funded",
+        "description": "Funded through combined institutional investment, NIH grants, and philanthropic support; no aggregate figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cornell Tech",
+            "Cornell Ann S. Bowers College of Computing and Information Science"
+          ],
+          "description": "Multi-campus Cornell collaboration spanning clinical, technical, and computing domains."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://weill.cornell.edu/units/institute-artificial-intelligence-digital-health",
+        "https://phs.weill.cornell.edu/research-collaboration/our-divisions/institute-artificial-intelligence-digital-health",
+        "https://phs.weill.cornell.edu/news/announcing-institute-artificial-intelligence-digital-health"
+      ]
+    },
+    {
+      "title": "Caryl and Israel Englander Institute for Precision Medicine (EIPM) AI programs, including AI-XR Lab and PMKB Bot",
+      "description": "EIPM is a large multi-disciplinary precision medicine institute whose AI portfolio includes: the AI-XR Lab (joint with WCM's Institute for Computational Biomedicine) leveraging AR/VR/MR + AI for medical data visualization; PMKB Bot (Precision Medicine Knowledgebase chatbot co-developed with Microsoft for clinical cancer variants); and a recurring 'EIPM AI Clinic' where AI-fluent investigators train colleagues. Olivier Elemento directs much of EIPM's AI research.",
+      "significance": "Demonstrates operational AI integration in precision oncology and clinical decision support at a scale few institutions have reached.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Caryl and Israel Englander philanthropic endowment; NIH; WCM",
+        "description": "Endowed institute with sustained philanthropic backing; specific AI line-item funding not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "PMKB Bot co-developed with Microsoft engineers for clinical variant interpretation support."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "PMKB Bot",
+          "vendor": "WCM EIPM / Microsoft",
+          "role": "Chatbot for clinical cancer variants and interpretations"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://eipm.weill.cornell.edu/",
+        "https://eipm.weill.cornell.edu/research/ai-xr-lab",
+        "https://weill.cornell.edu/units/caryl-and-israel-englander-institute-precision-medicine",
+        "https://news.weill.cornell.edu/news/2026/04/wcm-investigators-empowering-cancer-researchers-with-ai"
+      ]
+    },
+    {
+      "title": "AI for Medical Imaging (AI4MI) Research Initiative — Department of Radiology + Cornell Tech",
+      "description": "First-of-its-kind cross-campus initiative uniting WCM Department of Radiology with Cornell Tech to transform medical imaging via AI. Advances the university's 'One Cornell' priority by pairing clinicians at WCM with engineers and CS researchers at Cornell Tech. Includes a three-year AI4MI postdoctoral fellowship program designed as a tenure-track launching pad, and supports cutting-edge AI algorithms for a range of medical imaging problems.",
+      "significance": "Demonstrates a cross-campus model (clinical medical school + engineering/tech campus) that other Big Ten / Ivy medical schools are now trying to replicate.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WCM Radiology + Cornell Tech",
+        "description": "Cross-campus investment plus endowed/operating support for the fellowship; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cornell Tech",
+            "WCM Department of Radiology"
+          ],
+          "description": "'One Cornell' cross-campus model."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://tech.cornell.edu/research/ai4mi/",
+        "https://ai.cornell.edu/institutes-and-initiatives/"
+      ]
+    },
+    {
+      "title": "Empire AI compute access for WCM PIs (Alpha+ H100 cluster; Beta B200 cluster)",
+      "description": "As a participating member of the Cornell AI Initiative, WCM faculty with PI status can apply for Empire AI compute allocations on the Alpha+ cluster (144 NVIDIA H100 GPUs, operational) and Beta cluster (288 NVIDIA B200 GPUs, launched December 2025). Cornell's share is Provost-funded through November 2026; after that allocations shift to $0.50/SU. Named WCM projects using Empire AI include Ekta Khurana's prostate-cancer diagnosis/treatment work and Fei Wang's dietary-guidelines and health-policy work.",
+      "significance": "Gives WCM researchers access to frontier-scale GPU capacity via a New York state–funded ($250M capital + $150M operating) consortium that is among the most ambitious public-interest AI-compute efforts in U.S. higher ed.",
+      "date_announced": "2024-04-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 400000000,
+        "funding_source": "New York State ($250M capital + $150M operating via consortium institutions; pending +$90M for expansion)",
+        "description": "Consortium-level investment; Cornell/WCM share not separately disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cornell University",
+            "CUNY",
+            "Columbia",
+            "NYU",
+            "RPI",
+            "SUNY",
+            "Simons Foundation"
+          ],
+          "description": "Empire AI consortium members."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "New York State"
+          ],
+          "description": "State-funded public-interest AI compute."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Alpha+",
+          "vendor": "NVIDIA / Empire AI",
+          "role": "144 H100 GPUs for academic research"
+        },
+        {
+          "name": "Beta",
+          "vendor": "NVIDIA / Empire AI",
+          "role": "288 B200 GPUs with Grace CPU nodes"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.cornell.edu/empire-ai-cornell-call-for-compute-resource-proposals/",
+        "https://news.cornell.edu/stories/2024/04/empire-ai-dawns-cornell-lays-groundwork-public-good",
+        "https://ai.cornell.edu/"
+      ]
+    },
+    {
+      "title": "Bridge2AI 'Voice as a Biomarker' consortium (USF co-lead with WCM)",
+      "description": "NIH Bridge2AI–funded consortium co-led by USF Health and Weill Cornell Medicine to develop machine-learning models that detect diseases through voice analysis across five disease categories (voice, neurological, psychiatric, respiratory, pediatric speech). First-year NIH funding of $3.8 million with potential three-year total up to $14 million. Co-PIs from WCM: Olivier Elemento (co-PI), Alexandros Sigaras, and Anaïs Rameau. Includes 10+ U.S./Canadian institutions and Owkin (federated learning).",
+      "significance": "Among the first cohort of NIH Bridge2AI flagship data-generation projects, giving WCM a leadership role in a national 'AI-ready' datasets program.",
+      "date_announced": "2022-09-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 14000000,
+        "funding_source": "NIH Bridge2AI",
+        "description": "$3.8M first-year; up to $14M over three years contingent on congressional appropriations."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "USF Health",
+            "Vanderbilt",
+            "Washington University in St. Louis",
+            "MIT",
+            "Boston Children's Hospital",
+            "University of Toronto"
+          ],
+          "description": "Multi-institution data-generation consortium."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Owkin"
+          ],
+          "description": "French-American AI biotech startup providing federated learning."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH"
+          ],
+          "description": "NIH Bridge2AI funder."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "Informs federal AI-ready dataset standards for health research.",
+      "source_urls": [
+        "https://www.eurekalert.org/news-releases/964534"
+      ]
+    },
+    {
+      "title": "TRACE — NIDDK-funded AI imaging tool for polycystic kidney disease",
+      "description": "Five-year NIDDK grant (announced October 2025) to Drs. Martin Prince and Mert Sabuncu to build TRACE (Tool for Reproducible, Accurate Contour Estimation), an AI system that measures organ volumes from MRI/CT of patients with autosomal dominant polycystic kidney disease. Creates the PKD Image Phenotyping Repository Core — an anonymized database of images, organ volume measurements, skeletal muscle indices, and cyst documentation.",
+      "significance": "A federally funded AI reference-tool for a specific clinical condition; demonstrates WCM's translational AI pipeline from research to standardized clinical-trial infrastructure.",
+      "date_announced": "2025-10-20",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NIH / National Institute of Diabetes and Digestive and Kidney Diseases",
+        "description": "Five-year NIDDK grant; specific amount not stated in announcement."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIDDK"
+          ],
+          "description": "Federal research funding."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NewYork-Presbyterian/Weill Cornell Medical Center"
+          ],
+          "description": "Clinical partner for trial participants."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TRACE (Tool for Reproducible, Accurate Contour Estimation)",
+          "vendor": "WCM Radiology",
+          "role": "AI-driven organ-volume measurement from MRI/CT"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.weill.cornell.edu/news/2025/10/grant-to-build-ai-imaging-database-for-polycystic-kidney-disease"
+      ]
+    },
+    {
+      "title": "Hyro conversational AI patient-facing virtual assistant",
+      "description": "WCM deployed Hyro's HIPAA-compliant conversational AI on weillcornell.org to let patients find physicians by location, specialty, accepted insurance, and availability, and book appointments end-to-end via text or voice. Deployed in 14 days with no coding or model training required. Results: booked appointments up 47%, pages-per-session up 350%, bounce rate down 31%. WCM was Hyro's first investor and first client after the startup was selected from Cornell Tech; Hyro later raised $45M to scale voice AI in healthcare.",
+      "significance": "One of the earliest and best-documented patient-facing conversational AI deployments in U.S. academic medicine, and an example of the Cornell-Tech-startup-to-WCM-deployment pipeline.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_vendor_partnership",
+        "ai_incubator_or_startup_support",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WCM (also first investor in Hyro)",
+        "description": "WCM became Hyro's first investor and first client; specific deal size not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Hyro",
+            "Cornell Tech"
+          ],
+          "description": "Hyro emerged from Cornell Tech; WCM was founding customer and investor."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Hyro Conversational AI",
+          "vendor": "Hyro",
+          "role": "Patient-facing virtual assistant on weillcornell.org for physician search and appointment booking"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.hyro.ai/case-study/wcm/",
+        "https://tech.cornell.edu/news/hyro-cornell-tech/",
+        "https://weillcornell.org/digital-health-services"
+      ]
+    },
+    {
+      "title": "Joint Epic EHR with Columbia and NewYork-Presbyterian (and $15M NYP cardiovascular AI fund)",
+      "description": "Columbia, WCM, and NewYork-Presbyterian share a single Epic electronic health record (went live February 1, 2020) and are rolling out AI surfaces on top of it including an ambient-scribe tool for outpatient visits and Epic's in-basket AI for patient messaging. NewYork-Presbyterian has committed $15 million over three years to a cardiovascular AI initiative with Cornell Tech, Columbia, and WCM physicians to predict, prevent, and treat heart failure using multi-modal data.",
+      "significance": "One of the largest tri-institution EHR footprints in the U.S. and a showcase of Epic-embedded clinical AI at scale; the $15M NYP fund is a concrete health-system commitment to AI-enabled care.",
+      "date_announced": "2020-02-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "lms_embedded_ai",
+        "ai_vendor_partnership",
+        "data_infrastructure_and_unification",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "community",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 15000000,
+        "funding_source": "NewYork-Presbyterian (cardiovascular AI initiative)",
+        "description": "$15M over three years for cardiovascular AI; joint Epic rollout costs across the three institutions are much larger but not broken out publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Columbia University Irving Medical Center",
+            "NewYork-Presbyterian Hospital",
+            "Cornell Tech"
+          ],
+          "description": "Tri-institution Epic EHR and clinical AI partnership."
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Epic Systems",
+            "Microsoft",
+            "Azure OpenAI"
+          ],
+          "description": "Epic's generative AI tooling (ambient scribe, in-basket AI) is built on Azure OpenAI."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Epic EHR",
+          "vendor": "Epic Systems",
+          "role": "Shared clinical system across Columbia, WCM, and NYP"
+        },
+        {
+          "name": "Epic ambient scribe",
+          "vendor": "Epic Systems / Microsoft",
+          "role": "AI-generated draft clinical notes"
+        },
+        {
+          "name": "Epic in-basket AI",
+          "vendor": "Epic Systems",
+          "role": "AI-drafted responses to patient in-basket messages"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Clinical AI integration depends on the shared Epic/NYP governance and HIPAA-compliant handling of PHI.",
+      "source_urls": [
+        "https://its.weill.cornell.edu/services/clinical-systems/epic-emr",
+        "https://mdtopline.nyp.org/Pages/News-3809.aspx",
+        "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/columbia-u-newyork-presbyterian-and-weill-cornell-deploy-joint-epic-ehr/",
+        "https://www.healthleadersmedia.com/cmo/mastermind-newyork-presbyterian-developing-innovative-ai-tool"
+      ]
+    },
+    {
+      "title": "WCM High Performance Computing (HPC) and Scientific Computing Unit (SCU) AI infrastructure",
+      "description": "WCM's Scientific Computing Unit operates a highly scalable HPC platform including GPU clusters (NVIDIA P100, V100, RTX6000), plus the Institute for Computational Biomedicine's 70+ NVIDIA server-class GPUs (K40, M2050), 50+ high-memory nodes (128GB, 384GB, 1.5TB RAM), two multi-petabyte DDN storage systems (Lustre and GPFS), and Mellanox EDR InfiniBand networking with 100Gb uplinks. Used for cryo-EM, molecular dynamics, image processing, and ML.",
+      "significance": "A mature, research-grade AI/ML infrastructure stack on par with national leaders in biomedical computing, supporting hundreds of PIs without relying solely on Empire AI.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "WCM + NIH S10 instrumentation grants (e.g., Banfelder)",
+        "description": "Multi-generation investment including NIH shared-instrumentation grants; aggregate value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cornell Center for Advanced Computing (Ithaca)"
+          ],
+          "description": "WCM researchers also access CAC resources via Cornell CyberCommons."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA H100/V100/RTX6000/P100 GPU clusters",
+          "vendor": "NVIDIA",
+          "role": "AI/ML compute"
+        },
+        {
+          "name": "DDN Lustre + GPFS",
+          "vendor": "DataDirect Networks",
+          "role": "Multi-petabyte research storage"
+        },
+        {
+          "name": "Mellanox EDR InfiniBand",
+          "vendor": "NVIDIA/Mellanox",
+          "role": "100Gb research networking"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://its.weill.cornell.edu/services/research-informatics/high-performance-computing",
+        "http://hpc.weill.cornell.edu/",
+        "https://icb.med.cornell.edu/research/computional-resources/index.html",
+        "https://scu.med.cornell.edu/"
+      ]
+    },
+    {
+      "title": "AI in Medicine curriculum and Implementation Science and AI Ethics course",
+      "description": "WCM graduate programs now include 'Artificial Intelligence in Medicine I' (introducing students to analytic methods for health data — data mining, machine learning, classification, clustering, prediction) and 'Implementation Science and AI Ethics' (covering safe and effective implementation of predictive models, LLMs, and generative AI in healthcare). The Division of Medical Ethics runs the longitudinal medical-ethics curriculum required of all WCM students, now explicitly incorporating AI ethics, and the institution has developed Contemporary Practice Competencies for AI.",
+      "significance": "Formalizes AI literacy as part of medical training rather than an elective bolt-on; a pattern peer medical schools are now following.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WCM Graduate School / Population Health Sciences",
+        "description": "Curricular investment; funded through operating budgets."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "WCM-led curriculum."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Shapes how future physicians reason about AI in clinical decision-making and ethics.",
+      "source_urls": [
+        "https://phs.weill.cornell.edu/graduate-education-clinical-training/course-catalog/artificial-intelligence-medicine-i",
+        "https://medicine.weill.cornell.edu/divisions-programs/medical-ethics/education",
+        "https://mededu.jmir.org/2026/1/e90637"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot Web Search disable — regulated-data hardening",
+      "description": "Effective July 1, 2025, WCM ITS disabled Web Search in Microsoft 365 Copilot Chat to prevent external-web content from mixing with enterprise chats that may touch moderate- or high-risk WCM data. This was a proactive HIPAA/FERPA hardening step as Copilot Chat usage scaled across the institution.",
+      "significance": "An example of iterative AI policy-tuning post-deployment — adjusting vendor-provided features to maintain regulatory compliance.",
+      "date_announced": "2025-07-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "WCM ITS",
+        "description": "Configuration/governance action; no discrete funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Vendor-feature configuration negotiated with Microsoft."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Enterprise assistant — web search disabled"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Illustrates how universities adjust vendor configurations to maintain HIPAA/FERPA compliance.",
+      "source_urls": [
+        "https://its.weill.cornell.edu/news/71-enhancing-data-privacy-in-microsoft-copilot"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Institute of Artificial Intelligence for Digital Health (AIDH)",
+      "focus": "Data-driven individualized health and healthcare AI; multi-disciplinary community across computational science and clinical medicine.",
+      "founded": null,
+      "url": "https://weill.cornell.edu/units/institute-artificial-intelligence-digital-health"
+    },
+    {
+      "name": "Division of Health Informatics and Artificial Intelligence (Population Health Sciences)",
+      "focus": "Health IT adoption, machine learning, analytics; 40+ faculty/postdocs. Led by Fei Wang.",
+      "founded": null,
+      "url": "https://phs.weill.cornell.edu/research-collaboration/our-divisions/health-informatics-and-artificial-intelligence"
+    },
+    {
+      "name": "Caryl and Israel Englander Institute for Precision Medicine (EIPM) — AI programs",
+      "focus": "Precision medicine + AI, including the AI-XR Lab and PMKB Bot.",
+      "founded": null,
+      "url": "https://eipm.weill.cornell.edu/"
+    },
+    {
+      "name": "AI for Medical Imaging (AI4MI) Research Initiative",
+      "focus": "Medical imaging AI across radiology and Cornell Tech.",
+      "founded": null,
+      "url": "https://tech.cornell.edu/research/ai4mi/"
+    },
+    {
+      "name": "Institute for Computational Biomedicine",
+      "focus": "Computational biology, molecular dynamics, and imaging with 70+ NVIDIA GPUs; partners with EIPM on the AI-XR Lab.",
+      "founded": null,
+      "url": "https://icb.med.cornell.edu/"
+    },
+    {
+      "name": "Center for Virtual Care",
+      "focus": "Telemedicine and digital health including conversational AI deployments.",
+      "founded": null,
+      "url": "https://virtualcare.weill.cornell.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "MS in Health Informatics (with AI Pathway)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://phs.weill.cornell.edu/research-collaboration/our-divisions/health-informatics-and-artificial-intelligence"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Biostatistics and Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Health Tech (dual degree)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Computational Biology",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "Tri-Institutional PhD in Computational Biology and Medicine (Cornell / WCM / Memorial Sloan Kettering)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Physiology, Biophysics and Systems",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Population Health Sciences",
+      "level": "grad",
+      "launched": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "type": "course",
+      "name": "Artificial Intelligence in Medicine I",
+      "level": "grad",
+      "launched": null,
+      "url": "https://phs.weill.cornell.edu/graduate-education-clinical-training/course-catalog/artificial-intelligence-medicine-i"
+    },
+    {
+      "type": "course",
+      "name": "Implementation Science and AI Ethics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://phs.weill.cornell.edu/graduate-education-clinical-training/course-catalog"
+    },
+    {
+      "type": "certificate",
+      "name": "CUNY-WCM Big Data Training Program in Biomedical Informatics (BD2BMI)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://phs.weill.cornell.edu/research-collaboration/our-divisions/health-informatics-and-artificial-intelligence"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat (Enterprise)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://its.weill.cornell.edu/ai"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic EHR (shared with Columbia and NYP) with ambient scribe and in-basket AI (Azure OpenAI backed)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2020-02",
+      "url": "https://its.weill.cornell.edu/services/clinical-systems/epic-emr"
+    },
+    {
+      "vendor": "Hyro",
+      "product": "Hyro Conversational AI (patient-facing virtual assistant)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.hyro.ai/case-study/wcm/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "WCM HPC / Scientific Computing Unit (plus Empire AI Alpha+ and Beta via Cornell)",
+    "gpu_count": null,
+    "url": "https://its.weill.cornell.edu/services/research-informatics/high-performance-computing",
+    "summary": "WCM operates a scalable HPC platform via its Scientific Computing Unit, with NVIDIA GPU clusters (H100, V100, RTX6000, P100) plus 70+ legacy server-class GPUs at the Institute for Computational Biomedicine, 50+ high-memory nodes, two multi-petabyte DDN Lustre/GPFS stores, and 100Gb Mellanox EDR InfiniBand. Faculty also access Empire AI via the Cornell AI Initiative — Alpha+ (144 H100 GPUs, operational) and Beta (288 B200 GPUs, launched December 2025) — and Cornell Center for Advanced Computing resources via CyberCommons."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Empire AI consortium (Cornell's allocation benefits WCM)",
+      "amount_usd": 400000000,
+      "source": "New York State (capital + operating, plus consortium contributions)",
+      "purpose": "Public-interest AI compute for CUNY, Columbia, Cornell, NYU, RPI, SUNY, and WCM researchers.",
+      "date": "2024-04",
+      "url": "https://news.cornell.edu/stories/2024/04/empire-ai-dawns-cornell-lays-groundwork-public-good"
+    },
+    {
+      "title": "NewYork-Presbyterian cardiovascular AI initiative (Cornell Tech + Columbia + WCM)",
+      "amount_usd": 15000000,
+      "source": "NewYork-Presbyterian Hospital",
+      "purpose": "Three-year initiative to predict, prevent, and treat heart failure using multi-modal AI/ML.",
+      "date": null,
+      "url": "https://tech.cornell.edu/news/new-collaboration-with-newyork-presbyterian-aims-to-transform-healthcare-delivery/"
+    },
+    {
+      "title": "Bridge2AI 'Voice as a Biomarker' (USF + WCM co-lead)",
+      "amount_usd": 14000000,
+      "source": "NIH Bridge2AI (first year $3.8M; potential three-year total up to $14M)",
+      "purpose": "Developing ML models that detect disease through voice analysis across five disease categories.",
+      "date": "2022-09",
+      "url": "https://www.eurekalert.org/news-releases/964534"
+    },
+    {
+      "title": "TRACE — AI for polycystic kidney disease imaging",
+      "amount_usd": null,
+      "source": "NIH/NIDDK",
+      "purpose": "Five-year grant to build an AI tool and imaging repository for ADPKD.",
+      "date": "2025-10",
+      "url": "https://news.weill.cornell.edu/news/2025/10/grant-to-build-ai-imaging-database-for-polycystic-kidney-disease"
+    },
+    {
+      "title": "We're Changing Medicine campaign (AI as CARE-plan pillar)",
+      "amount_usd": 1500000000,
+      "source": "Philanthropic (1,000+ donors)",
+      "purpose": "Institutional transformation including AI/data science investment under the CARE plan; surpassed $1.5B one year ahead of schedule.",
+      "date": null,
+      "url": "https://news.weill.cornell.edu/news/2021/06/weill-cornell-medicine-launches-15-billion-we%E2%80%99re-changing-medicine-campaign-with-more"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Microsoft 365 Copilot Enterprise deployment; PMKB Bot co-development; Azure OpenAI for Epic AI tools.",
+      "date": null,
+      "url": "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Epic Systems",
+      "purpose": "Shared EHR and clinical-AI tooling (ambient scribe, in-basket AI) with Columbia and NYP.",
+      "date": "2020-02",
+      "url": "https://its.weill.cornell.edu/services/clinical-systems/epic-emr"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Hyro",
+      "purpose": "Founding customer and first investor in Hyro's HIPAA-compliant conversational AI platform.",
+      "date": null,
+      "url": "https://www.hyro.ai/case-study/wcm/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Cornell Tech",
+      "purpose": "AI4MI medical imaging initiative; EIPM AI collaborations; Hyro pipeline; tri-campus 'One Cornell' strategy.",
+      "date": null,
+      "url": "https://tech.cornell.edu/research/ai4mi/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Columbia University Irving Medical Center",
+      "purpose": "Joint Epic EHR and cardiovascular AI initiative with NYP.",
+      "date": "2020-02",
+      "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/columbia-u-newyork-presbyterian-and-weill-cornell-deploy-joint-epic-ehr/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Memorial Sloan Kettering Cancer Center",
+      "purpose": "Tri-Institutional PhD in Computational Biology and Medicine.",
+      "date": null,
+      "url": "https://ai.weill.cornell.edu/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Empire AI consortium (Cornell, CUNY, Columbia, NYU, RPI, SUNY, Simons Foundation)",
+      "purpose": "Shared public-interest AI compute.",
+      "date": "2024-04",
+      "url": "https://ai.cornell.edu/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NIH (NIDDK, Bridge2AI, others)",
+      "purpose": "Federally funded AI research including TRACE and voice-as-biomarker.",
+      "date": null,
+      "url": "https://www.eurekalert.org/news-releases/964534"
+    },
+    {
+      "pattern": "international",
+      "partner": "Owkin (France/U.S.)",
+      "purpose": "Federated learning for Bridge2AI consortium.",
+      "date": "2022-09",
+      "url": "https://www.eurekalert.org/news-releases/964534"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Hyro patient-facing virtual assistant on weillcornell.org",
+      "scope": "Public-facing (used by patients and prospective patients — not student-facing in the strict academic sense, but the institution's primary consumer-grade AI surface)",
+      "url": "https://weillcornell.org/digital-health-services"
+    },
+    {
+      "type": "chatbot",
+      "name": "PMKB Bot (Precision Medicine Knowledgebase)",
+      "scope": "Students, residents, and clinicians exploring cancer variants via text or voice",
+      "url": "https://eipm.weill.cornell.edu/"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot Chat (Enterprise) — student access via CWID",
+      "scope": "Students across WCM for approved work/study use",
+      "url": "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI to Advance Medicine — lowering barriers for junior investigators",
+      "description": "Dean's Grant Program explicitly designed to 'lower barriers for investigators — especially junior researchers' by covering servers, cloud resources, and technical expertise. Part of an ethics-forward 'equitable and human-centered' framing.",
+      "url": "https://research.weill.cornell.edu/about-us/news-updates/weill-cornell-launches-ai-advance-medicine-program"
+    },
+    {
+      "title": "Debt-free scholarship program for medical students with financial need",
+      "description": "Launched under 'We're Changing Medicine'; reduces the economic barrier to pursuing medical training (including AI-centric specialties) at WCM.",
+      "url": "https://news.weill.cornell.edu/news/2021/06/weill-cornell-medicine-launches-15-billion-we%E2%80%99re-changing-medicine-campaign-with-more"
+    }
+  ],
+  "regulatory_context": {
+    "state": "NY",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "New York enacted the Responsible AI Safety and Education (RAISE) Act on December 19, 2025, imposing transparency, safety-review, and 72-hour incident-reporting requirements on frontier AI model developers (effective March 19, 2026 with full implementation by January 1, 2027). While the RAISE Act targets frontier-model developers rather than universities directly, New York State also funds Empire AI ($250M capital + $150M operating) through a consortium including Cornell. Cornell University maintains Guidelines for Artificial Intelligence that apply across all Cornell campuses (Ithaca, Cornell Tech, WCM in NYC and Qatar). WCM also operates under HIPAA, FERPA, and New York Department of Health regulations for clinical AI.",
+    "urls": [
+      "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-require-ai-frameworks-ai-frontier-models",
+      "https://it.cornell.edu/ai/ai-guidelines",
+      "https://ai.cornell.edu/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Weill Cornell Medicine (WCM) is a top-tier R1 academic medical center — the medical college of Cornell University, located on New York City's Upper East Side — that has moved, in 2025–2026, from a distributed and research-led AI posture to an explicit institution-wide program. Under Dean Robert A. Harrington (appointed 2023), WCM unveiled its CARE strategic plan in 2025 which names 'A' = AI and data science as one of four core tenets through 2029. In February 2026 it operationalized that commitment by launching the 'AI to Advance Medicine' (AIM) program, unified at ai.weill.cornell.edu and led by Associate Dean for AI and Data Science Fei Wang, Assistant Dean Edward Schenck, and CIO Vinay Varughese. AIM bundles a bimonthly Dean's Lecture Series (inaugural speaker: Vanderbilt's Peter Embi), a Dean's Grant Program lowering barriers for junior investigators, and a cross-mission mandate covering research, education, clinical care, and administration. Research strength is deep and long-standing: the Institute of AI for Digital Health, the Division of Health Informatics and AI (40+ faculty), the Englander Institute for Precision Medicine (with the AI-XR Lab and PMKB Bot), the AI4MI cross-campus partnership with Cornell Tech, and national roles in NIH Bridge2AI (Voice as a Biomarker, up to $14M) and NIDDK's TRACE imaging project for polycystic kidney disease. Compute is robust — WCM HPC and the Scientific Computing Unit run NVIDIA H100/V100/RTX6000 clusters with multi-petabyte DDN storage — and is augmented by the Empire AI consortium ($400M from New York State), giving faculty access to 144 H100s (Alpha+) and 288 B200s (Beta). On the enterprise side, Microsoft Copilot Chat Enterprise is the designated campus-wide LLM (with Web Search disabled July 1, 2025 for HIPAA/FERPA hardening); Zoom AI Companion is approved for meetings; Hyro's patient-facing virtual assistant increased booked appointments 47%; and a joint Epic EHR with Columbia and NYP now carries ambient-scribe and in-basket AI backed by Azure OpenAI, including a $15M NYP cardiovascular AI initiative. Policy posture is cautious-moving-toward-comprehensive: WCM follows Cornell-wide AI guidelines, with clear prohibitions on PHI/FERPA-protected data in any AI system and a five-principle ethics framework (transparency, accountability, fairness, privacy, educational integrity). Gaps: no standalone Chief AI Officer role yet, no published AI governance white paper beyond ITS guidance, and no disclosed aggregate AI investment figure.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://news.weill.cornell.edu/news/2025/06/using-data-and-ai-to-create-better-health-care-systems",
+      "https://weill.cornell.edu/units/institute-artificial-intelligence-digital-health",
+      "https://www.healthcareitnews.com/news/weill-cornell-intros-new-system-wide-ai-education-effort",
+      "https://news.weill.cornell.edu/news/2026/02/weill-cornell-launches-ai-to-advance-medicine-program",
+      "https://research.weill.cornell.edu/about-us/news-updates/weill-cornell-launches-ai-advance-medicine-program",
+      "https://phs.weill.cornell.edu/research-collaboration/our-divisions/institute-artificial-intelligence-digital-health",
+      "https://phs.weill.cornell.edu/research-collaboration/our-divisions/health-informatics-and-artificial-intelligence",
+      "https://phs.weill.cornell.edu/news/announcing-institute-artificial-intelligence-digital-health",
+      "https://ai.weill.cornell.edu/",
+      "https://weill.cornell.edu/our-story/leadership/information-technology-leadership",
+      "https://its.weill.cornell.edu/teams/leadership",
+      "https://weill.cornell.edu/our-story/leadership/senior-leadership",
+      "https://weill.cornell.edu/our-story/leadership",
+      "https://news.weill.cornell.edu/news/2022/12/curtis-cole-is-named-inaugural-chief-global-information-officer",
+      "https://its.weill.cornell.edu/ai",
+      "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat",
+      "https://its.weill.cornell.edu/news/introducing-microsoft-copilot-enterprise-%E2%80%93-your-ai-companion",
+      "https://its.weill.cornell.edu/news/71-enhancing-data-privacy-in-microsoft-copilot",
+      "https://its.weill.cornell.edu/news/cornell-guidelines-for-artificial-intelligence",
+      "https://med.cornell.libguides.com/ai/ethics",
+      "https://med.cornell.libguides.com/ai/copilot",
+      "https://its.weill.cornell.edu/services/research-informatics/high-performance-computing",
+      "http://hpc.weill.cornell.edu/",
+      "https://icb.med.cornell.edu/research/computional-resources/index.html",
+      "https://scu.med.cornell.edu/",
+      "https://ai.cornell.edu/",
+      "https://ai.cornell.edu/empire-ai-cornell-call-for-compute-resource-proposals/",
+      "https://ai.cornell.edu/institutes-and-initiatives/",
+      "https://news.cornell.edu/stories/2024/04/empire-ai-dawns-cornell-lays-groundwork-public-good",
+      "https://www.eurekalert.org/news-releases/964534",
+      "https://news.weill.cornell.edu/news/2025/10/grant-to-build-ai-imaging-database-for-polycystic-kidney-disease",
+      "https://weill.cornell.edu/careplan",
+      "https://news.weill.cornell.edu/news/2025/12/state-of-weill-cornell-medicine-a-bright-future",
+      "https://news.weill.cornell.edu/news/2021/06/weill-cornell-medicine-launches-15-billion-we%E2%80%99re-changing-medicine-campaign-with-more",
+      "https://eipm.weill.cornell.edu/",
+      "https://eipm.weill.cornell.edu/research/ai-xr-lab",
+      "https://weill.cornell.edu/units/caryl-and-israel-englander-institute-precision-medicine",
+      "https://tech.cornell.edu/research/ai4mi/",
+      "https://tech.cornell.edu/news/hyro-cornell-tech/",
+      "https://tech.cornell.edu/news/new-collaboration-with-newyork-presbyterian-aims-to-transform-healthcare-delivery/",
+      "https://www.hyro.ai/case-study/wcm/",
+      "https://weillcornell.org/digital-health-services",
+      "https://its.weill.cornell.edu/services/clinical-systems/epic-emr",
+      "https://mdtopline.nyp.org/Pages/News-3809.aspx",
+      "https://www.beckershospitalreview.com/healthcare-information-technology/ehrs/columbia-u-newyork-presbyterian-and-weill-cornell-deploy-joint-epic-ehr/",
+      "https://www.healthleadersmedia.com/cmo/mastermind-newyork-presbyterian-developing-innovative-ai-tool",
+      "https://phs.weill.cornell.edu/graduate-education-clinical-training/course-catalog/artificial-intelligence-medicine-i",
+      "https://medicine.weill.cornell.edu/divisions-programs/medical-ethics/education",
+      "https://mededu.jmir.org/2026/1/e90637",
+      "https://weill.cornell.edu/our-story/leadership/robert-harrington",
+      "https://news.weill.cornell.edu/news/2023/06/dr-robert-harrington-named-dean-of-weill-cornell-medicine",
+      "https://www.governor.ny.gov/news/governor-hochul-signs-nation-leading-legislation-require-ai-frameworks-ai-frontier-models",
+      "https://it.cornell.edu/ai/ai-guidelines",
+      "https://weill.cornell.edu/dpc",
+      "https://weill.cornell.edu/units/office-compliance",
+      "https://medicine.weill.cornell.edu/divisions-programs/medical-ethics",
+      "https://gradschool.weill.cornell.edu/faculty/fei-wang",
+      "https://www.collegetuitioncompare.com/medical-schools/weill-cornell-medical-college/"
+    ],
+    "search_queries": [
+      "\"Weill Cornell Medicine\" AI strategy artificial intelligence 2025",
+      "\"Weill Cornell Medicine\" Dean CIO chief information officer AI leadership",
+      "\"Weill Cornell Medicine\" CARE strategic plan 2025",
+      "\"Weill Cornell Medicine\" acceptable use policy generative AI ChatGPT",
+      "\"Weill Cornell Medicine\" Hyro chatbot virtual assistant patient",
+      "\"Weill Cornell Medicine\" GPU HPC compute cluster AI research infrastructure",
+      "\"Weill Cornell Medicine\" NIH AI grant 2025 artificial intelligence funding",
+      "\"Weill Cornell Medicine\" Microsoft Copilot Epic AI OpenAI Azure",
+      "\"Weill Cornell Medicine\" AI governance committee oversight clinical",
+      "\"Weill Cornell Medicine\" enrollment students 2025 medical college",
+      "\"New York\" state AI policy higher education 2025 executive order",
+      "\"Weill Cornell Medicine\" Empire AI Cornell initiative funding",
+      "\"Weill Cornell Medicine\" AI ethics integrity cheating syllabus student policy",
+      "\"Weill Cornell Medicine\" Englander Institute Precision Medicine AI",
+      "\"Weill Cornell Medicine\" \"Fei Wang\" AI publications learning health system 2025",
+      "\"Weill Cornell Medicine\" NewYork-Presbyterian EHR Epic AI clinical deployment",
+      "\"Weill Cornell Medicine\" medical education AI curriculum 2025 course",
+      "\"Weill Cornell Medicine\" AI controversy lawsuit FERPA HIPAA 2025",
+      "\"Robert Harrington\" Weill Cornell Dean provost medical affairs",
+      "\"Weill Cornell Medicine\" AI gift donation endowment million 2025",
+      "\"Weill Cornell Medicine\" AI4MI Cornell Tech medical imaging initiative"
+    ],
+    "gaps_acknowledged": [
+      "No named Chief AI Officer — role does not exist; AI strategy is led by the Associate Dean for AI and Data Science.",
+      "Institute of AI for Digital Health's formal founding date and specific funding totals not publicly disclosed.",
+      "Dollar amount for the NIDDK TRACE grant not stated in the public announcement.",
+      "Aggregate WCM AI spending (campus-wide) not broken out in public materials.",
+      "No published standalone AI governance white paper beyond ITS guidance and Cornell-wide AI Guidelines.",
+      "No public record of AI-specific syllabus-level policy requirements for faculty.",
+      "Specific Microsoft Copilot Enterprise user count at WCM not published.",
+      "Cornell-WCM allocation share of the $400M Empire AI consortium not broken out.",
+      "No AI-specific lawsuit or controversy surfaced in research; absence of evidence, not proof of none."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "curriculum_led",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 14,
+        "research_compute_powerhouse": 18,
+        "curriculum_led": 14,
+        "governance_led": 14,
+        "student_success_led": 9,
+        "workforce_regional_development": 4,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 3,
+      "ai_program_count": 10,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 5,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "WCM HPC / Scientific Computing Unit (plus Empire AI Alpha+ and Beta via Cornell)",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 1929000000,
+      "funding_source_buckets": {
+        "public_federal_state": 11,
+        "other_unclear": 2,
+        "institutional": 3,
+        "philanthropy_foundation": 1,
+        "industry_vendor": 2
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 2,
+        "other": 1
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Epic EHR (shared with Columbia and NYP) with ambient scribe and in-basket AI (Azure OpenAI backed)",
+            "Epic ambient scribe",
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot Chat",
+            "Microsoft Copilot Chat (Enterprise)",
+            "PMKB Bot"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 4,
+          "products": [
+            "Alpha+",
+            "Beta",
+            "Mellanox EDR InfiniBand",
+            "NVIDIA H100/V100/RTX6000/P100 GPU clusters"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "DataDirect Networks DDN Lustre + GPFS",
+          "mentions": 1,
+          "products": [
+            "DDN Lustre + GPFS"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR",
+          "mentions": 1,
+          "products": [
+            "Epic EHR"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic in-basket AI",
+          "mentions": 1,
+          "products": [
+            "Epic in-basket AI"
+          ]
+        },
+        {
+          "vendor": "Hyro Hyro Conversational AI",
+          "mentions": 1,
+          "products": [
+            "Hyro Conversational AI"
+          ]
+        },
+        {
+          "vendor": "Hyro Hyro Conversational AI (patient-facing virtual assistant)",
+          "mentions": 1,
+          "products": [
+            "Hyro Conversational AI (patient-facing virtual assistant)"
+          ]
+        },
+        {
+          "vendor": "WCM Radiology TRACE (Tool for Reproducible, Accurate Contour Estimation)",
+          "mentions": 1,
+          "products": [
+            "TRACE (Tool for Reproducible, Accurate Contour Estimation)"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "AI to Advance Medicine (AIM) institutional program",
+          "summary": "Few U.S. academic medical centers have launched a single, cross-mission AI umbrella of this scope; AIM operationalizes the CARE strategic plan's 'A' tenet and sets a sector template for governance-forward AI adoption in HIPAA-regulated environments.",
+          "source_url": "https://news.weill.cornell.edu/news/2026/02/weill-cornell-launches-ai-to-advance-medicine-program"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Chat (Enterprise) campus-wide deployment",
+          "summary": "Represents the primary enterprise AI surface for faculty, students, and staff at a major academic medical center, with HIPAA-conscious guardrails that illustrate how AMCs are carrying consumer-grade LLMs into regulated environments.",
+          "source_url": "https://its.weill.cornell.edu/services/business-applications/microsoft-copilot-chat"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft 365 Copilot Web Search disable — regulated-data hardening",
+          "summary": "An example of iterative AI policy-tuning post-deployment — adjusting vendor-provided features to maintain regulatory compliance.",
+          "source_url": "https://its.weill.cornell.edu/news/71-enhancing-data-privacy-in-microsoft-copilot"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No named Chief AI Officer — role does not exist; AI strategy is led by the Associate Dean for AI and Data Science.",
+        "Institute of AI for Digital Health's formal founding date and specific funding totals not publicly disclosed.",
+        "Dollar amount for the NIDDK TRACE grant not stated in the public announcement.",
+        "Aggregate WCM AI spending (campus-wide) not broken out in public materials.",
+        "No published standalone AI governance white paper beyond ITS guidance and Cornell-wide AI Guidelines.",
+        "No public record of AI-specific syllabus-level policy requirements for faculty.",
+        "Specific Microsoft Copilot Enterprise user count at WCM not published.",
+        "Cornell-WCM allocation share of the $400M Empire AI consortium not broken out.",
+        "No AI-specific lawsuit or controversy surfaced in research; absence of evidence, not proof of none."
+      ]
+    }
+  }
+}

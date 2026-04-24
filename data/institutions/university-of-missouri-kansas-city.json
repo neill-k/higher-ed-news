@@ -1,0 +1,1299 @@
+{
+  "institution": "University of Missouri-Kansas City",
+  "slug": "university-of-missouri-kansas-city",
+  "city_state": "Kansas City, MO",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Missouri System",
+  "enrollment": 14904,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "C. Mauli Agrawal (Chancellor)",
+      "url": "https://www.umkc.edu/chancellor/"
+    },
+    "provost": {
+      "name": "Jennifer Lundgren",
+      "url": "https://www.umkc.edu/provost/"
+    },
+    "cio": {
+      "name": "Andy Goodenow",
+      "url": "https://www.umkc.edu/is/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Travis Fields",
+      "title": "Interim Director, Missouri Institute for Defense and Energy (MIDE)",
+      "url": "https://www.umkc.edu/mide/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "UM System ChatGPT Edu service guidance (system-wide)",
+        "url": "https://doit.missouri.edu/services/software/software-sales/chatgpt/",
+        "year": 2024
+      },
+      {
+        "title": "UMKC AI resources (UM Academic Technology campus-specific page)",
+        "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc",
+        "year": 2024
+      }
+    ],
+    "summary": "UMKC has no single published AI strategy document, but Chancellor Mauli Agrawal used his October 2025 State of the University address to frame AI as a strategic priority, announcing plans for new BS and MS degrees in Artificial Intelligence. The university's AI posture is operationalized through the UM System's centralized ChatGPT Edu/Copilot licensing, the Missouri Institute for Defense and Energy (MIDE), the DOE-affiliated Center of Excellence in AI-Empowered Spatial Computing, and the dSAIC data science innovation center. Focus areas are healthcare, cybersecurity/defense, and intelligent systems."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc",
+      "https://doit.missouri.edu/services/software/software-sales/chatgpt/",
+      "https://libguides.library.umkc.edu/c.php?g=1350546&p=9966777"
+    ],
+    "adopted_date": "2023-09",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Data classification limits: ChatGPT Edu permits Sensitive (DCL-2) + FERPA; DCL-4 protected health information (PHI) prohibited",
+      "MU Health Care personnel prohibited from using ChatGPT entirely",
+      "Faculty set class-level AI rules; Provost provides sample syllabus statements",
+      "ChatGPT Edu and Microsoft 365 Copilot are the centrally licensed tools with added data protections",
+      "UMKC Libraries publishes citation/ethics guidance for students using ChatGPT"
+    ],
+    "summary": "UMKC follows the University of Missouri System's tiered approach: centrally procured ChatGPT Edu and Microsoft 365 Copilot for data-protected use, explicit data-classification rules, and faculty discretion at the syllabus level. Generative AI is permitted with guardrails rather than prohibited, but PHI and MU Health Care scenarios are carved out with strict prohibitions."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Office of the Provost — Generative AI Tools and Sample Syllabus Policy Statements guidance",
+        "type": "office",
+        "scope": "Instructional AI policy guidance for faculty; curates sample syllabus language and learning-AI resources",
+        "url": "https://www.umkc.edu/provost/"
+      },
+      {
+        "name": "UMKC Information Services (IS)",
+        "type": "office",
+        "scope": "Licensing, access, data-classification enforcement for ChatGPT Edu, Microsoft 365 Copilot, and related AI tools",
+        "url": "https://www.umkc.edu/is/"
+      },
+      {
+        "name": "Missouri Institute for Defense and Energy (MIDE)",
+        "type": "office",
+        "scope": "AI/cybersecurity research institute; DoD and federal partnerships; houses the USCYBERCOM CRADA activities",
+        "url": "https://www.umkc.edu/mide/"
+      },
+      {
+        "name": "UM System Division of IT (system-level)",
+        "type": "office",
+        "scope": "System-wide AI tool evaluation under UM policy BPM 12004 and coordinated ChatGPT Edu procurement",
+        "url": "https://doit.missouri.edu/about/strategy-and-innovation/ai/"
+      },
+      {
+        "name": "Henry W. Bloch School AI Fellows cohort",
+        "type": "committee",
+        "scope": "Faculty cohort leading AI curriculum redesign across Bloch School programs",
+        "url": "https://umkc.foleon.com/bloch/summer-2025/from-the-dean"
+      }
+    ],
+    "summary": "UMKC does not have a single named 'AI council' or 'chief AI officer' but distributes AI governance across the Provost's office (teaching guidance), Information Services (tool licensing and data-classification enforcement), MIDE (defense/research), the Bloch School AI Fellows (curriculum), and the UM System Division of IT (system-wide policy via BPM 12004)."
+  },
+  "initiatives": [
+    {
+      "title": "Master of Science in Artificial Intelligence (30-credit)",
+      "description": "UM System Board of Curators approved a new 30-credit MS in Artificial Intelligence at UMKC on February 5, 2026, housed in the School of Science and Engineering, with target launch Fall 2026 pending Higher Learning Commission approval. Focus areas are healthcare, cybersecurity, and intelligent systems. A companion BS in AI and a system PhD in AI are in planning.",
+      "significance": "Signals UMKC upgrading from AI-emphasis CS tracks to a dedicated AI credential, aligning an R1 with regional industry demand for applied AI workforce.",
+      "date_announced": "2026-02-05",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UM System / UMKC School of Science and Engineering",
+        "description": "New degree program approved by Board of Curators; specific budget not disclosed publicly."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Missouri-Columbia",
+            "UM System"
+          ],
+          "description": "Parallel MS AI approved at Mizzou alongside UMKC; PhD in AI approved at the system level."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Adds a degree-level AI credential to the state's public R1 footprint.",
+      "source_urls": [
+        "https://www.kctv5.com/2026/02/05/umkc-launches-artificial-intelligence-degree/",
+        "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html",
+        "https://fox4kc.com/news/umkc-announces-new-masters-degree-in-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Cooperative Research and Development Agreement with U.S. Cyber Command",
+      "description": "On May 16, 2024, UMKC became the first university in the U.S. to sign a Cooperative Research and Development Agreement (CRADA) with U.S. Cyber Command, coupled with an Educational Partnership Agreement that gives students access to internships, guest lectures, and USCYBERCOM research facilities. Research focus is AI and cybersecurity, run through the Missouri Institute for Defense and Energy (MIDE).",
+      "significance": "One of the most significant federal-defense AI partnerships held by any regional R1; positions UMKC as a national reference point for university-DoD AI collaboration.",
+      "date_announced": "2024-05-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "cybersecurity_and_ai_risk",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "U.S. Department of Defense / USCYBERCOM; UMKC MIDE",
+        "description": "Exact dollar amount not publicly disclosed; MIDE reports 80+ staff/faculty/students and $60M+ in total research funding across its portfolio."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Cyber Command",
+            "U.S. Department of Defense"
+          ],
+          "description": "First university CRADA with USCYBERCOM, plus EPA for students."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes precedent for DoD-R1 AI research pipelines and cleared-researcher education.",
+      "source_urls": [
+        "https://ingrams.com/article/umkc-enters-partnership-with-u-s-cyber-command/",
+        "https://edscoop.com/university-missouri-kansas-city-united-state-cyber-command-research-2024/",
+        "https://www.kshb.com/news/local-news/university-of-missouri-kansas-city-inks-partnership-with-us-cyber-command-to-research-ai-cyber-security",
+        "https://umkc.foleon.com/perspectives-magazine/2025/mide-and-tech-hubs"
+      ]
+    },
+    {
+      "title": "Center of Excellence in AI-Empowered Spatial Computing (COESC)",
+      "description": "UMKC research center converging AI with spatial computing (AR/VR/MR/IoT) housed in Flarsheim Hall. Delivers a micro-credential pathway with paid industry internships focused on underrepresented STEM students. Faculty leadership includes NSF IUCRC CBL co-director Yugyung Lee and NSF CAREER awardee Chi-Ren Shyu; Shu-Ching Chen is the inaugural executive director of the affiliated dSAIC.",
+      "significance": "Pairs a research center with an explicit equity-of-access workforce pipeline, aligning AI R&D with underrepresented-student advancement.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "underrepresented_student_support",
+        "ai_workforce_training",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "computer_vision",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "U.S. Department of Energy; NSF; industry consortium",
+        "description": "Federal (DOE) and industry consortium backing; specific total not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "COESC industry consortium partners"
+          ],
+          "description": "Paid-internship pipeline with consortium of regional AI/spatial-computing employers."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Department of Energy",
+            "National Science Foundation"
+          ],
+          "description": "Federal research backing via DOE (center affiliation) and NSF-funded faculty (IUCRC Center for Big Learning, NSF CAREER)."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Model for federal-funded AI equity-pipeline centers at urban R1s.",
+      "source_urls": [
+        "https://research.umkc.edu/coesc",
+        "https://research.umkc.edu/coesc/team/shu-ching-chen",
+        "https://research.umkc.edu/coesc/team/yugyung-lee",
+        "https://research.umkc.edu/coesc/team/chi-ren-shyu"
+      ]
+    },
+    {
+      "title": "Data Science and Analytics Innovation Center (dSAIC) / NextGen dSAIC",
+      "description": "UMKC-led data science and analytics center supporting high-performance computing, data storage, multimodal big-data analytics, and workforce development across the UM System. Focus areas include medical-records security, DNA sequencing, and automated medical imagery diagnosis, tied to the NextGen Precision Health initiative. A $2M gift from former UM System President Gary Forsee anchored the NextGen dSAIC.",
+      "significance": "System-level AI research infrastructure anchored at UMKC, coupling HPC with precision-health and data-analytics applications.",
+      "date_announced": "2020-11-19",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "Gary Forsee gift + UM System co-investment",
+        "description": "$2M cornerstone gift (2020) from former UM System president Gary Forsee."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Missouri System",
+            "MU NextGen Precision Health"
+          ],
+          "description": "System-wide data-science capability anchored at UMKC, linked to Mizzou NextGen Precision Health."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates a system-anchored model for AI/HPC infrastructure shared across campuses.",
+      "source_urls": [
+        "https://www.umsystem.edu/ums/news/news_releases/202011191051404073_news",
+        "https://umkcinnovates.com/tech-commercialization/"
+      ]
+    },
+    {
+      "title": "UM System ChatGPT Edu and Microsoft 365 Copilot campus deployment",
+      "description": "UMKC students, faculty, and staff access enterprise-grade ChatGPT Edu and Microsoft 365 Copilot through the UM System license. The deployment includes added data protections, weekly credit allocations for higher-tier models, and strict data-classification rules (DCL-2 + FERPA permitted; DCL-4 PHI and MU Health Care use prohibited).",
+      "significance": "Codifies the system-wide enterprise AI stack and the data-classification guardrails that define how UMKC's AI tools are used day-to-day.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UM System IT budget",
+        "description": "Enterprise agreements executed at the UM System level; per-campus cost not separately disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft"
+          ],
+          "description": "System-wide ChatGPT Edu license via OpenAI and Microsoft 365 Copilot via Microsoft."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Enterprise generative-AI chat with added data protection"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Office productivity generative-AI assistant"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Establishes the default enterprise AI surface for all three UM research campuses.",
+      "source_urls": [
+        "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc",
+        "https://doit.missouri.edu/services/software/software-sales/chatgpt/"
+      ]
+    },
+    {
+      "title": "Bloch School AI Fellows and MBA in Business Analytics",
+      "description": "The Henry W. Bloch School of Management launched a new MBA in Business Analytics (Fall 2025) that explicitly integrates large language models and AI tools, redesigned existing courses to embed AI/automation, and established a faculty AI Fellows cohort to lead the curriculum rewrite. A 'Supply Chain and Operations Management in the Era of AI' track trains graduate students on AI-driven decision tools.",
+      "significance": "One of the earliest examples of a regional R1 business school treating AI fluency as a core MBA competency and backing it with a dedicated faculty fellowship.",
+      "date_announced": "2025-02-26",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_in_specific_disciplines",
+        "ai_literacy_requirement",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Bloch School / UMKC",
+        "description": "Program and fellowship funded internally; dollar amount not disclosed."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Teaching tool for analytics coursework"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Teaching tool for analytics coursework"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Raises the bar for AI-literacy expectations in regional MBA programs.",
+      "source_urls": [
+        "https://www.globenewswire.com/news-release/2025/02/26/3033154/0/en/UMKC-Bloch-School-Meets-Rising-Demand-for-Data-Driven-Leaders-with-New-Degree-Program.html",
+        "https://umkc.foleon.com/bloch/summer-2025/from-the-dean",
+        "https://bloch.umkc.edu/graduate/mba-business-analytics.html"
+      ]
+    },
+    {
+      "title": "School of Law Legal Technology Competency and GenAI curriculum",
+      "description": "UMKC School of Law operates a Legal Technology Competency Training course covering AI-adjacent skills (document automation, analytics, cloud), and faculty publications (Serra's MootMentorAI on generative-AI lawyering skills trainers; Callister on legal research with GenAI; Krase et al. on RAG-powered access-to-justice chatbots) anchor a growing AI-in-law research cluster.",
+      "significance": "Illustrates AI literacy and applied GenAI research migrating into professional-school curricula at a regional R1.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_enhanced_pedagogy",
+        "faculty_training_and_development",
+        "multilingual_and_culturally_responsive_ai"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UMKC School of Law",
+        "description": "Internal course and faculty-publication support."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "MootMentorAI",
+          "vendor": "UMKC faculty (Serra)",
+          "role": "GenAI-based legal skills trainer (research prototype)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports the broader trend of law schools integrating GenAI into competency training.",
+      "source_urls": [
+        "https://irlaw.umkc.edu/faculty_works/1010/",
+        "https://irlaw.umkc.edu/faculty_works/949/",
+        "https://irlaw.umkc.edu/faculty_works/911/"
+      ]
+    },
+    {
+      "title": "School of Dentistry AI-based early oral-cancer detection research",
+      "description": "UMKC School of Dentistry researcher Dr. Rose Wang received a $430,000 NIH developmental research grant (2023) to build an AI-plus-infrared imaging system that detects high-risk precancers before they progress to oral cancer. Team spans UMKC Dentistry, UMKC School of Science and Engineering, and the University of Kansas Medical Center.",
+      "significance": "Concrete example of NIH-backed AI-for-health research at UMKC, linking dentistry, engineering, and KU Med.",
+      "date_announced": "2023-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 430000,
+        "funding_source": "National Institutes of Health",
+        "description": "NIH developmental research grant of $430,000."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Kansas Medical Center",
+            "UMKC School of Science and Engineering"
+          ],
+          "description": "Multi-institution AI-for-health team spanning dentistry, engineering, and KU Med."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Institutes of Health"
+          ],
+          "description": "NIH funding for applied AI-in-dentistry research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Illustrates federal-funded AI-for-health cross-institution work at UMKC.",
+      "source_urls": [
+        "https://www.umkc.edu/news/posts/2023/march/umkc-dentistry-researcher-using-artificial-intelligence-for-early-cancer-detection-increased-survival-rates.html"
+      ]
+    },
+    {
+      "title": "Critical Materials Crossroads NSF Regional Innovation Engines finalist",
+      "description": "UMKC, collaborating with the University of Kansas, is a finalist for an NSF Regional Innovation Engines award (Type-2) for the Critical Materials Crossroads, which could bring up to $160M over 10 years for critical-materials R&D, workforce training, and AI-enabled process optimization. A $1M, 24-month NSF cooperative agreement (May 2023) funded the planning phase.",
+      "significance": "Positions UMKC in the federal innovation-engine tier and, if awarded, would be the largest AI-adjacent research infusion in the region.",
+      "date_announced": "2023-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 1000000,
+        "funding_source": "National Science Foundation (Type-1 cooperative agreement)",
+        "description": "$1M, 24-month Type-1 NSF cooperative agreement; potential $160M over 10 years if selected as Type-2 Engine."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Kansas",
+            "regional industry partners"
+          ],
+          "description": "Cross-state KS/MO partnership anchored at UMKC."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF Engines program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Cross-state innovation-engine template for AI-adjacent materials workforce.",
+      "source_urls": [
+        "https://ori.umkc.edu/about/funding_for_excellence_2025.html",
+        "https://news.ku.edu/news/article/critical-materials-crossroads-team-advances-as-finalist-for-nsf-award-of-up-to-160m-over-a-decade"
+      ]
+    },
+    {
+      "title": "KC Inclusive Biologics and Biomanufacturing Tech Hub (UMKC co-applicant)",
+      "description": "UMKC was part of the 60+ organization coalition (led by BioNexus KC) that secured the EDA Tech Hub designation for the Kansas City Inclusive Biologics and Biomanufacturing Tech Hub in October 2023. UMKC contributes workforce development, data science, and AI-for-biomanufacturing research. Separate Critical Minerals and Materials Tech Hub designation also involves UMKC via the UM System.",
+      "significance": "Positions UMKC in one of the 31 federal Tech Hubs, with an AI/data lane into biomanufacturing workforce and research.",
+      "date_announced": "2023-10-23",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "community",
+        "students",
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "U.S. Economic Development Administration (EDA) / CHIPS and Science Act",
+        "description": "EDA Tech Hub designation; Phase 2 implementation awards range $19M-$51M per hub."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "BioNexus KC",
+            "60+ KC regional partners"
+          ],
+          "description": "Multi-sector KC biomanufacturing coalition."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Economic Development Administration"
+          ],
+          "description": "Federal Tech Hub program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Federal regional-innovation template tying AI workforce to biomanufacturing.",
+      "source_urls": [
+        "https://www.eda.gov/news/press-release/2023/10/23/Kansas-City-Inclusive-Biologics-and-Biomanufacturing-Tech-Hub",
+        "https://umkc.foleon.com/perspectives-magazine/2025/mide-and-tech-hubs"
+      ]
+    },
+    {
+      "title": "UMKC Libraries Student Guide to ChatGPT (ethical AI use)",
+      "description": "UMKC University Libraries publishes a Student Guide to ChatGPT addressing ethical use, citation practices (MLA/APA for GenAI sources), and verification of generative AI output. This functions as the campus's student-facing AI literacy artifact.",
+      "significance": "Shows how libraries are stepping in to fill AI-literacy and source-evaluation gaps at the student level.",
+      "date_announced": "2023-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UMKC University Libraries",
+        "description": "Library-maintained research guide."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Subject of ethics and citation guidance"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Library-led AI literacy is a reproducible, low-cost model for campuses without a formal AI policy.",
+      "source_urls": [
+        "https://libguides.library.umkc.edu/c.php?g=1350546&p=9966777"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Missouri Institute for Defense and Energy (MIDE)",
+      "focus": "Defense/DoD AI, cybersecurity, energy research; home of USCYBERCOM CRADA",
+      "founded": null,
+      "url": "https://www.umkc.edu/mide/"
+    },
+    {
+      "name": "Center of Excellence in AI-Empowered Spatial Computing (COESC)",
+      "focus": "AI + spatial computing (AR/VR/MR/IoT), industry micro-credential pipeline for underrepresented students",
+      "founded": null,
+      "url": "https://research.umkc.edu/coesc"
+    },
+    {
+      "name": "Data Science and Analytics Innovation Center (dSAIC / NextGen dSAIC)",
+      "focus": "HPC, multimodal big-data analytics, AI for precision health and cybersecurity",
+      "founded": 2020,
+      "url": "https://umkcinnovates.com/tech-commercialization/"
+    },
+    {
+      "name": "Institute for Data Education, Analytics and Science (IDEAS)",
+      "focus": "Interdisciplinary data science education, research, and community engagement",
+      "founded": 2019,
+      "url": "https://www.umkc.edu/chancellor/initiatives/ideas.html"
+    },
+    {
+      "name": "Biomedical and Health Informatics (School of Medicine)",
+      "focus": "Health informatics and AI-adjacent clinical research",
+      "founded": null,
+      "url": "https://med.umkc.edu/departments/academic-clinical/biomedical-health-informatics/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence (30-credit, approved Feb 2026; target launch Fall 2026)",
+      "level": "grad",
+      "launched": "2026-08",
+      "url": "https://www.kctv5.com/2026/02/05/umkc-launches-artificial-intelligence-degree/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence (School of Science and Engineering, launched Spring 2026)",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://catalog.umkc.edu/course-offerings/graduate/comp-sci/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Computer Science (AI emphasis)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.umkc.edu/colleges-schools/science-engineering/computer-science/master-of-science-computer-science/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Data Science and Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.umkc.edu/colleges-schools/science-engineering/computer-science/master-of-science-data-science-analytics/"
+    },
+    {
+      "type": "degree",
+      "name": "BS-MS: Data Science",
+      "level": "both",
+      "launched": null,
+      "url": "https://catalog.umkc.edu/colleges-schools/science-engineering/computer-science/bs-ms-data-science/"
+    },
+    {
+      "type": "degree",
+      "name": "MBA in Business Analytics (AI- and LLM-integrated curriculum)",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://bloch.umkc.edu/graduate/mba-business-analytics.html"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Computer Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://sse.umkc.edu/academics/programs/computer-science-phd.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu (UM System enterprise license)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://doit.missouri.edu/services/software/software-sales/chatgpt/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc"
+    },
+    {
+      "vendor": "Instructure",
+      "product": "Canvas LMS (principal LMS; integration host for AI tools)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://myroo.umkc.edu/task/all/canvas"
+    },
+    {
+      "vendor": "Turnitin",
+      "product": "Turnitin with AI writing detection (via Canvas)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://idt.umkc.edu/support/external-tools/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://docs.itrss.umsystem.edu/pub/hpc/start",
+    "summary": "UMKC does not operate a named flagship HPC cluster; researchers primarily access the UM System's shared HPC resources (e.g., Hellbender at Mizzou, The Mill at Missouri S&T) via the IT Research Support Solutions group. UMKC contributes HPC/data-storage capacity through the dSAIC. No public GPU count is disclosed."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Gary Forsee gift to NextGen Data Science and Analytics Innovation Center",
+      "amount_usd": 2000000,
+      "source": "Gary Forsee (former UM System president)",
+      "purpose": "Anchor gift for NextGen dSAIC at UMKC",
+      "date": "2020-11",
+      "url": "https://www.umsystem.edu/ums/news/news_releases/202011191051404073_news"
+    },
+    {
+      "title": "NIH developmental research grant - AI oral-cancer detection (Dr. Rose Wang)",
+      "amount_usd": 430000,
+      "source": "National Institutes of Health",
+      "purpose": "AI + infrared spectroscopy for early oral-cancer detection",
+      "date": "2023-01",
+      "url": "https://www.umkc.edu/news/posts/2023/march/umkc-dentistry-researcher-using-artificial-intelligence-for-early-cancer-detection-increased-survival-rates.html"
+    },
+    {
+      "title": "NSF Regional Innovation Engines Type-1 cooperative agreement (Critical Materials Crossroads)",
+      "amount_usd": 1000000,
+      "source": "National Science Foundation",
+      "purpose": "Planning-phase development for a Critical Materials Crossroads Type-2 Engine proposal",
+      "date": "2023-05",
+      "url": "https://ori.umkc.edu/about/funding_for_excellence_2025.html"
+    },
+    {
+      "title": "USDA From Seed to Table grant (MIDE)",
+      "amount_usd": 600000,
+      "source": "U.S. Department of Agriculture",
+      "purpose": "Three-year USDA grant + $63K Kauffman Foundation match for MIDE From Seed to Table program",
+      "date": null,
+      "url": "https://umkc.foleon.com/perspectives-magazine/2025/mide-and-tech-hubs"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Cyber Command (USCYBERCOM)",
+      "purpose": "CRADA + Educational Partnership Agreement for AI and cybersecurity R&D",
+      "date": "2024-05",
+      "url": "https://ingrams.com/article/umkc-enters-partnership-with-u-s-cyber-command/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Defense / Office of Naval Research",
+      "purpose": "MIDE defense-research portfolio",
+      "date": null,
+      "url": "https://umkc.foleon.com/perspectives-magazine/2025/mide-and-tech-hubs"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Energy",
+      "purpose": "Center of Excellence in AI-Empowered Spatial Computing affiliation",
+      "date": null,
+      "url": "https://research.umkc.edu/coesc"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "NSF CAREER (Chi-Ren Shyu), IUCRC Center for Big Learning (Yugyung Lee), Regional Innovation Engines",
+      "date": null,
+      "url": "https://research.umkc.edu/coesc/team/chi-ren-shyu"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "BioNexus KC + 60 KC partners (Kansas City Inclusive Biologics Tech Hub)",
+      "purpose": "EDA Tech Hub biomanufacturing workforce and AI-adjacent research",
+      "date": "2023-10",
+      "url": "https://www.eda.gov/news/press-release/2023/10/23/Kansas-City-Inclusive-Biologics-and-Biomanufacturing-Tech-Hub"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Kansas",
+      "purpose": "Critical Materials Crossroads NSF Engines finalist",
+      "date": "2023-05",
+      "url": "https://news.ku.edu/news/article/critical-materials-crossroads-team-advances-as-finalist-for-nsf-award-of-up-to-160m-over-a-decade"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "KC Digital Drive / KC AI Club",
+      "purpose": "Regional AI community-building, small-business AI workshops, UMKC TalentLink collaboration",
+      "date": null,
+      "url": "https://www.umkctalentlink.com/ai-for-small-businesess-insights-from-kc-digital-drive-jim-starcev/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI (via UM System)",
+      "purpose": "ChatGPT Edu campus-wide license",
+      "date": "2024-01",
+      "url": "https://doit.missouri.edu/services/software/software-sales/chatgpt/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft (via UM System)",
+      "purpose": "Microsoft 365 Copilot campus-wide license",
+      "date": null,
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "ChatGPT Edu (student access via UM System license)",
+      "scope": "All UMKC students with data-classification guardrails",
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot (student access via UM System license)",
+      "scope": "All UMKC students",
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc"
+    },
+    {
+      "type": "advisor",
+      "name": "UMKC Libraries Student Guide to ChatGPT",
+      "scope": "Campus-wide student AI-literacy and citation guidance",
+      "url": "https://libguides.library.umkc.edu/c.php?g=1350546&p=9966777"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "COESC AI-Empowered Spatial Computing micro-credential + paid internships for underrepresented STEM students",
+      "description": "Second-level spatial-computing courses leading to a micro-credential and a paid internship with consortium industry partners; explicit focus on underrepresented minority students in the Midwest AI workforce pipeline.",
+      "url": "https://research.umkc.edu/coesc/prospective-students"
+    },
+    {
+      "title": "UMKC Libraries Student Guide to ChatGPT",
+      "description": "Open-access student guidance on ethical GenAI use and citation, reducing access/competency gaps across disciplines.",
+      "url": "https://libguides.library.umkc.edu/c.php?g=1350546&p=9966777"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Missouri",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Missouri Governor Mike Kehoe signed Executive Order 26-02 (January 2026) directing a state AI strategic framework, plus Executive Order 25-16 (Workforce of the Future Challenge) coordinating K-12, higher education, and industry on technology/AI workforce. The AI Non-Sentience and Responsibility Act applies to AI systems developed or operated in Missouri from August 28, 2025. At the system level, UM System policy BPM 12004 governs evaluation of AI and IT-related products; the UM System separately operates the ChatGPT Edu enterprise license with defined data classifications. UMKC implements all of the above campus-side.",
+    "urls": [
+      "https://www.govtech.com/artificial-intelligence/missouri-executive-order-seeks-to-advance-ai-strategy-use",
+      "https://dese.mo.gov/college-career-readiness/career-education/governors-workforce-future-challenge-executive-order-25-16",
+      "https://www.sos.mo.gov/library/reference/orders/2025",
+      "https://missouriindependent.com/2026/04/07/missouri-ai-regulations-stall-as-lawmakers-fear-loss-of-rural-broadband-funds/",
+      "https://www.umsystem.edu/ums/rules/collected_rules"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-09",
+      "summary": "UMKC issued guidance about 'Chrome Homework Help' regarding academic integrity and student data-privacy concerns; not a formal lawsuit but a noted campus-level AI alert.",
+      "status": "resolved",
+      "url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc"
+    }
+  ],
+  "narrative_summary": "The University of Missouri-Kansas City is an R1 urban public institution (~14,900 students) in the three-campus University of Missouri System, and its AI posture is best described as distributed, partnership-heavy, and pragmatic rather than strategy-driven from the top. There is no chief AI officer or single published AI strategy document, but Chancellor Mauli Agrawal used his October 2025 State of the University address to frame AI as central, announcing new BS and MS degrees in Artificial Intelligence; the UM System Board of Curators approved the UMKC MS in AI on February 5, 2026 (pending Higher Learning Commission approval, target launch Fall 2026). A Graduate Certificate in AI launched Spring 2026. The most distinctive UMKC asset is the May 2024 Cooperative Research and Development Agreement with U.S. Cyber Command - the first such agreement with any university - anchored at the Missouri Institute for Defense and Energy (MIDE). UMKC also runs the DOE-affiliated Center of Excellence in AI-Empowered Spatial Computing (COESC), which couples industry micro-credentials with paid internships for underrepresented STEM students, and the NextGen Data Science and Analytics Innovation Center (dSAIC), seeded by a $2M Gary Forsee gift. The Henry W. Bloch School launched a LLM-integrated MBA in Business Analytics in Fall 2025 and stood up a faculty AI Fellows cohort. On the enterprise side, UMKC uses the UM System's OpenAI ChatGPT Edu and Microsoft 365 Copilot licenses, with data-classification rules (DCL-2 + FERPA permitted; DCL-4 PHI and MU Health Care use prohibited) serving as the de facto acceptable-use policy. Governance is federated across the Provost's office (syllabus guidance), Information Services (tool licensing), MIDE (research), Bloch AI Fellows (curriculum), and UM System DoIT (system policy BPM 12004). Missouri's state AI posture is permissive-to-developing (EO 26-02, EO 25-16, AI Non-Sentience Act effective August 28, 2025) and UMKC inherits it. Gaps include the absence of a consolidated AI strategy document, no named chief AI officer, and no disclosed GPU or HPC footprint specific to UMKC (researchers rely on system-shared Hellbender/The Mill plus dSAIC capacity).",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.kctv5.com/2026/02/05/umkc-launches-artificial-intelligence-degree/",
+      "https://www.komu.com/news/midmissourinews/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc/article_f6b73590-3a8c-4d8b-93d1-480d64bf4c76.html",
+      "https://fox4kc.com/news/umkc-announces-new-masters-degree-in-artificial-intelligence/",
+      "https://www.kbia.org/missouri-news-network/2026-02-07/um-system-board-of-curators-approves-ai-degrees-for-mu-umkc",
+      "https://ingrams.com/article/umkc-enters-partnership-with-u-s-cyber-command/",
+      "https://edscoop.com/university-missouri-kansas-city-united-state-cyber-command-research-2024/",
+      "https://www.kshb.com/news/local-news/university-of-missouri-kansas-city-inks-partnership-with-us-cyber-command-to-research-ai-cyber-security",
+      "https://umkc.foleon.com/perspectives-magazine/2025/mide-and-tech-hubs",
+      "https://research.umkc.edu/coesc",
+      "https://research.umkc.edu/coesc/team/shu-ching-chen",
+      "https://research.umkc.edu/coesc/team/yugyung-lee",
+      "https://research.umkc.edu/coesc/team/chi-ren-shyu",
+      "https://www.umsystem.edu/ums/news/news_releases/202011191051404073_news",
+      "https://umkcinnovates.com/tech-commercialization/",
+      "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc",
+      "https://doit.missouri.edu/services/software/software-sales/chatgpt/",
+      "https://doit.missouri.edu/about/strategy-and-innovation/ai/",
+      "https://libguides.library.umkc.edu/c.php?g=1350546&p=9966777",
+      "https://umkc.foleon.com/bloch/summer-2025/from-the-dean",
+      "https://www.globenewswire.com/news-release/2025/02/26/3033154/0/en/UMKC-Bloch-School-Meets-Rising-Demand-for-Data-Driven-Leaders-with-New-Degree-Program.html",
+      "https://bloch.umkc.edu/graduate/mba-business-analytics.html",
+      "https://irlaw.umkc.edu/faculty_works/1010/",
+      "https://irlaw.umkc.edu/faculty_works/949/",
+      "https://irlaw.umkc.edu/faculty_works/911/",
+      "https://www.umkc.edu/news/posts/2023/march/umkc-dentistry-researcher-using-artificial-intelligence-for-early-cancer-detection-increased-survival-rates.html",
+      "https://news.ku.edu/news/article/critical-materials-crossroads-team-advances-as-finalist-for-nsf-award-of-up-to-160m-over-a-decade",
+      "https://ori.umkc.edu/about/funding_for_excellence_2025.html",
+      "https://www.eda.gov/news/press-release/2023/10/23/Kansas-City-Inclusive-Biologics-and-Biomanufacturing-Tech-Hub",
+      "https://www.umkctalentlink.com/ai-for-small-businesess-insights-from-kc-digital-drive-jim-starcev/",
+      "https://www.umkc.edu/chancellor/",
+      "https://www.umkc.edu/provost/",
+      "https://www.umsystem.edu/stories/bichelmeyer_named_new_umkc_provost",
+      "https://www.umkc.edu/mide/",
+      "https://www.umkc.edu/is/",
+      "https://www.umkc.edu/data/docs/cds_2024-2025.pdf",
+      "https://www.globenewswire.com/news-release/2025/10/09/3164655/0/en/The-University-of-Missouri-Kansas-City-Welcomes-Record-Breaking-Class.html",
+      "https://docs.itrss.umsystem.edu/pub/hpc/start",
+      "https://en.wikipedia.org/wiki/University_of_Missouri%E2%80%93Kansas_City",
+      "https://www.umkc.edu/chancellor/initiatives/ideas.html",
+      "https://med.umkc.edu/departments/academic-clinical/biomedical-health-informatics/",
+      "https://www.govtech.com/artificial-intelligence/missouri-executive-order-seeks-to-advance-ai-strategy-use",
+      "https://dese.mo.gov/college-career-readiness/career-education/governors-workforce-future-challenge-executive-order-25-16",
+      "https://missouriindependent.com/2026/04/07/missouri-ai-regulations-stall-as-lawmakers-fear-loss-of-rural-broadband-funds/"
+    ],
+    "search_queries": [
+      "\"University of Missouri-Kansas City\" AI strategy 2025 2026 artificial intelligence",
+      "\"UMKC\" artificial intelligence policy faculty staff",
+      "UMKC \"Master of Science in Artificial Intelligence\" 2026 launch school of science engineering",
+      "\"UMKC\" \"AI powered spatial computing\" center excellence NSF",
+      "UMKC president chancellor 2025 Mauli Agrawal OR Kristen Temple",
+      "UMKC CIO \"information services\" chief information officer 2025",
+      "UMKC \"U.S. Cyber Command\" cooperative research development agreement CRADA 2024",
+      "UMKC \"Bloch School\" AI artificial intelligence Henry W. Bloch 2025",
+      "UMKC \"School of Medicine\" AI research clinical healthcare",
+      "UMKC HPC supercomputer \"research computing\" GPU cluster",
+      "UMKC \"Data Science and Analytics Innovation Center\" research",
+      "UMKC KC Digital Drive \"Kansas City Tech Hub\" AI economic development",
+      "Missouri state AI policy executive order higher education 2025 Governor Kehoe",
+      "UMKC Institute for data education analytics research IDEA-R",
+      "UMKC enrollment 2024 2025 total students fall",
+      "UMKC \"Bachelor of Science in Artificial Intelligence\" undergraduate program 2026",
+      "UMKC MIDE \"Missouri Institute for Defense\" cybersecurity Kansas City tech hub",
+      "UMKC \"Roo\" chatbot student services virtual assistant",
+      "UMKC AI governance committee council task force \"generative AI\"",
+      "UMKC certificate \"artificial intelligence\" graduate 2026 spring launch",
+      "\"University of Missouri System\" AI policy \"acceptable use\" board of curators 2024",
+      "UMKC ChatGPT Edu Claude for Education deployment students 2025",
+      "UMKC \"equity\" AI accessibility disabled students \"underrepresented\" spatial computing",
+      "UMKC NSF grant AI machine learning 2024 2025 research funding",
+      "UMKC \"Bloch\" analytics Executive MBA business \"generative AI\" degree 2025",
+      "UMKC \"AI Fellows\" faculty Bloch school innovation 2025",
+      "UMKC dentistry AI cancer detection Thyvalikakath 2023",
+      "UMKC \"Show-Me AI\" LLM generative assistant",
+      "UMKC Kansas City CHIPS Act EDA tech hub semiconductor 2024",
+      "UMKC \"School of Law\" AI legal tech artificial intelligence 2025",
+      "UMKC \"Canvas\" learning management AI tutoring Acrobatiq Cengage"
+    ],
+    "gaps_acknowledged": [
+      "No consolidated, publicly published UMKC-specific AI strategy document; relying on state-of-university address, system policy, and campus resource pages",
+      "No named chief AI officer; ai_strategy_lead set to MIDE interim director as closest proxy",
+      "UMKC-specific GPU count and any named supercomputer not disclosed; researchers use UM-System shared HPC (Hellbender, The Mill) plus dSAIC",
+      "Total MIDE portfolio funding ($60M+) not attributable to AI-only scope; exact AI-CRADA investment amount not disclosed",
+      "Enterprise-platform user counts for ChatGPT Edu and Copilot not published at the UMKC campus level",
+      "No named AI-specific governance council (task-force/committee) separate from the distributed offices listed",
+      "Provost identity: most recent public UMKC Provost is Jennifer Lundgren per secondary reports; a fresh direct confirmation from umkc.edu/provost would strengthen this"
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "workforce_regional_development",
+        "curriculum_led",
+        "platform_first"
+      ],
+      "scores": {
+        "platform_first": 12,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 13,
+        "governance_led": 9,
+        "student_success_led": 7,
+        "workforce_regional_development": 17,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "dedicated_compute_capacity_unknown"
+      },
+      "disclosed_funding_usd": 4030000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 2,
+        "public_federal_state": 7,
+        "institutional": 4,
+        "industry_vendor": 1,
+        "other_unclear": 1
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 2,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 8
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "OpenAI",
+          "mentions": 4,
+          "products": [
+            "ChatGPT",
+            "ChatGPT Edu",
+            "ChatGPT Edu (UM System enterprise license)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 2,
+          "products": [
+            "Canvas LMS (principal LMS; integration host for AI tools)",
+            "Turnitin with AI writing detection (via Canvas)"
+          ]
+        },
+        {
+          "vendor": "UMKC faculty (Serra) MootMentorAI",
+          "mentions": 1,
+          "products": [
+            "MootMentorAI"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "OpenAI",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Master of Science in Artificial Intelligence (30-credit)",
+          "summary": "Signals UMKC upgrading from AI-emphasis CS tracks to a dedicated AI credential, aligning an R1 with regional industry demand for applied AI workforce.",
+          "source_url": "https://www.kctv5.com/2026/02/05/umkc-launches-artificial-intelligence-degree/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Center of Excellence in AI-Empowered Spatial Computing (COESC)",
+          "summary": "Pairs a research center with an explicit equity-of-access workforce pipeline, aligning AI R&D with underrepresented-student advancement.",
+          "source_url": "https://research.umkc.edu/coesc"
+        },
+        {
+          "claim_type": "career",
+          "title": "Data Science and Analytics Innovation Center (dSAIC) / NextGen dSAIC",
+          "summary": "System-level AI research infrastructure anchored at UMKC, coupling HPC with precision-health and data-analytics applications.",
+          "source_url": "https://www.umsystem.edu/ums/news/news_releases/202011191051404073_news"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UM System ChatGPT Edu and Microsoft 365 Copilot campus deployment",
+          "summary": "Codifies the system-wide enterprise AI stack and the data-classification guardrails that define how UMKC's AI tools are used day-to-day.",
+          "source_url": "https://at.umsystem.edu/resources/artificial-intelligence-ai/campus-specific-ai-resources/umkc"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Bloch School AI Fellows and MBA in Business Analytics",
+          "summary": "One of the earliest examples of a regional R1 business school treating AI fluency as a core MBA competency and backing it with a dedicated faculty fellowship.",
+          "source_url": "https://www.globenewswire.com/news-release/2025/02/26/3033154/0/en/UMKC-Bloch-School-Meets-Rising-Demand-for-Data-Driven-Leaders-with-New-Degree-Program.html"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "School of Law Legal Technology Competency and GenAI curriculum",
+          "summary": "Illustrates AI literacy and applied GenAI research migrating into professional-school curricula at a regional R1.",
+          "source_url": "https://irlaw.umkc.edu/faculty_works/1010/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Critical Materials Crossroads NSF Regional Innovation Engines finalist",
+          "summary": "Positions UMKC in the federal innovation-engine tier and, if awarded, would be the largest AI-adjacent research infusion in the region.",
+          "source_url": "https://ori.umkc.edu/about/funding_for_excellence_2025.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "KC Inclusive Biologics and Biomanufacturing Tech Hub (UMKC co-applicant)",
+          "summary": "Positions UMKC in one of the 31 federal Tech Hubs, with an AI/data lane into biomanufacturing workforce and research.",
+          "source_url": "https://www.eda.gov/news/press-release/2023/10/23/Kansas-City-Inclusive-Biologics-and-Biomanufacturing-Tech-Hub"
+        }
+      ],
+      "public_claim_count": 8
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No consolidated, publicly published UMKC-specific AI strategy document; relying on state-of-university address, system policy, and campus resource pages",
+        "No named chief AI officer; ai_strategy_lead set to MIDE interim director as closest proxy",
+        "UMKC-specific GPU count and any named supercomputer not disclosed; researchers use UM-System shared HPC (Hellbender, The Mill) plus dSAIC",
+        "Total MIDE portfolio funding ($60M+) not attributable to AI-only scope; exact AI-CRADA investment amount not disclosed",
+        "Enterprise-platform user counts for ChatGPT Edu and Copilot not published at the UMKC campus level",
+        "No named AI-specific governance council (task-force/committee) separate from the distributed offices listed",
+        "Provost identity: most recent public UMKC Provost is Jennifer Lundgren per secondary reports; a fresh direct confirmation from umkc.edu/provost would strengthen this"
+      ]
+    }
+  }
+}

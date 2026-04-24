@@ -1,0 +1,1689 @@
+{
+  "institution": "Case Western Reserve University",
+  "slug": "case-western-reserve-university",
+  "city_state": "Cleveland, OH",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 12266,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Eric W. Kaler",
+      "url": "https://case.edu/president/meet-president"
+    },
+    "provost": {
+      "name": "Joy K. Ward",
+      "url": "https://case.edu/provost/about/people"
+    },
+    "cio": {
+      "name": "Miroslav Humer",
+      "url": "https://case.edu/utech/about/about-cio"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Joy K. Ward",
+      "title": "Provost and Executive Vice President (leads AI in Education initiative)",
+      "url": "https://case.edu/provost/initiatives/innovation/ai-education"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI in Education initiative (Office of the Provost)",
+        "url": "https://case.edu/provost/initiatives/innovation/ai-education",
+        "year": 2024
+      },
+      {
+        "title": "AI Tools & Resources hub",
+        "url": "https://case.edu/provost/initiatives/innovation/ai-education/ai-tools-resources",
+        "year": 2024
+      }
+    ],
+    "summary": "CWRU's AI posture is coordinated through the Office of the Provost's AI in Education initiative, led by Provost Joy K. Ward, with strategic pillars covering AI Skills Building, AI Tools & Resources, and AI Policies. An AI Task Force promotes equitable and ethical access to AI training and tools across the university. The strategy emphasizes preparing students to ethically apply and develop AI across disciplines, anchored by enterprise partnerships with Google (Gemini for Education) and Microsoft (Copilot, Azure) plus CWRU's own secure AI portal."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://case.edu/provost/initiatives/innovation/ai-education/ai-policies",
+      "https://case.edu/provost/guidance-integrating-ai-artificial-intelligence-cwru-classroom",
+      "https://case.edu/provost/example-ai-policies-suitable-course-syllabi",
+      "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence",
+      "https://bulletin.case.edu/undergraduate-academics/academic-integrity/"
+    ],
+    "adopted_date": null,
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Submitting AI-generated text as one's own violates academic integrity",
+      "Use of generative AI without instructor permission violates academic integrity",
+      "Do not enter confidential or sensitive data into public AI tools without CWRU contract",
+      "Faculty should specify acceptable AI use in each syllabus (example policies provided)",
+      "Use CWRU-contracted tools (CWRU AI, Google Gemini, Microsoft Copilot) for any sensitive work",
+      "AI outputs may be inaccurate; human judgment is required",
+      "Copyright and IP awareness required when using AI-generated content"
+    ],
+    "summary": "CWRU operates a comprehensive AI policy framework with enterprise-secured tools (CWRU AI, Google Gemini, Microsoft Copilot) plus provost-issued guidance for classroom integration, a library of example syllabus policies, and an explicit stance that unauthorized AI use violates the Academic Integrity Policy. Data privacy is enforced by restricting sensitive data to vendor-contracted tools."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Task Force",
+        "type": "task_force",
+        "scope": "Promotes equitable and ethical access to AI training and tools; guides university strategy for AI in education.",
+        "url": "https://case.edu/provost/initiatives/innovation/ai-education"
+      },
+      {
+        "name": "Faculty Senate Ad Hoc Committee to Review and Update University Copyright Policy in Response to AI Developments",
+        "type": "committee",
+        "scope": "Reviews and updates the university copyright policy in response to AI developments; established December 2025.",
+        "url": "https://case.edu/facultysenate/about/committees-and-panels"
+      },
+      {
+        "name": "Data Governance Committee",
+        "type": "committee",
+        "scope": "Oversees institutional data governance practices inside [U]Tech, relevant to AI tool vetting and privacy.",
+        "url": "https://case.edu/utech/departments/client-experience/data-management-analytics-and-visualization/data-governance-committee"
+      },
+      {
+        "name": "[U]Tech AI Services group",
+        "type": "office",
+        "scope": "Operates CWRU's AI services (CWRU AI, Copilot, Gemini), AI Help Desk, training, micro-grants, and departmental chatbot deployments.",
+        "url": "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence"
+      }
+    ],
+    "summary": "Governance runs on two tracks: academic AI policy and strategy via the Provost's AI Task Force (plus a Faculty Senate ad hoc copyright committee established in Dec 2025), and enterprise AI operations via [U]Tech's AI services team and Data Governance Committee. No chief AI officer role exists; the provost is the de facto strategy lead."
+  },
+  "initiatives": [
+    {
+      "title": "Google Gemini for Education campus-wide deployment",
+      "description": "CWRU introduced Google Gemini to faculty, staff, and students in April 2025 with enterprise data protections (no training on user data), later expanding to Gemini for Education for the entire campus community.",
+      "significance": "Demonstrates a dual-vendor enterprise AI strategy at an R1 alongside Microsoft Copilot, expanding frontier LLM access without relinquishing data rights.",
+      "date_announced": "2025-04-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional (CWRU) + Google partnership",
+        "description": "Campus-wide enterprise licensing with enterprise data protection terms; specific contract value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "CWRU deployed Gemini with vendor enterprise agreement and co-hosted a half-day AI conference with Google in December 2025."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Gemini for Education",
+          "vendor": "Google",
+          "role": "Primary enterprise generative AI chat/productivity assistant for all faculty/staff/students"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Reinforces CWRU's 'use contracted tools for sensitive data' posture and is governed under the Provost's AI policies.",
+      "source_urls": [
+        "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini",
+        "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot campus-wide deployment",
+      "description": "CWRU offers Microsoft Copilot with enterprise data protections to all faculty, staff, and students via institutional credentials, with data never used to train OpenAI models. The service has been upgraded to newer GPT-class models.",
+      "significance": "Puts a secure, enterprise-grade frontier LLM into the hands of the entire campus community, enabling productivity and curricular experimentation at scale.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Institutional (via M365 agreement)",
+        "description": "Bundled with Microsoft 365; enterprise tier for whole campus."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "OpenAI (via Copilot)"
+          ],
+          "description": "Extension of long-standing CWRU-Microsoft partnership including a 2024 MOU on AI curriculum."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Enterprise GenAI chat/productivity assistant"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Operates under CWRU AI policy; approved for sensitive data because of contracted enterprise protections.",
+      "source_urls": [
+        "https://case.edu/utech/about/utech-news/secure-microsoft-copilot-ai-now-available-students",
+        "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "CWRU AI internal secure portal",
+      "description": "CWRU AI (ai.case.edu) is the university's internal, secure, general-purpose AI portal that supports custom department/group chatbots using additional data sources, documents, websites, and APIs.",
+      "significance": "Provides an institution-governed 'walled garden' alternative to public LLMs, enabling domain-specific retrieval-augmented assistants without leaking data to third parties.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "data_infrastructure_and_unification",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional ([U]Tech)",
+        "description": "Operated by [U]Tech; supports custom departmental chatbots with RAG over university data sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internally built and operated; vendor-agnostic model routing."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CWRU AI",
+          "vendor": "Case Western Reserve University ([U]Tech)",
+          "role": "Internal secure AI portal and agent/chatbot platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Primary sanctioned channel for work involving confidential or regulated data.",
+      "source_urls": [
+        "https://case.edu/news/university-launches-cwru-ai-portal",
+        "https://case.edu/utech/ai/guide-cwru-ai"
+      ]
+    },
+    {
+      "title": "Spartan Answers student-facing chatbot",
+      "description": "Spartan Answers is a Copilot-powered chatbot integrated into the My CWRU student portal that pulls content from case.edu sites to deliver answers with footnoted source links.",
+      "significance": "Shows an R1 using a branded LLM 'front door' for student services rather than a traditional helpdesk, with citation-anchored responses to mitigate hallucination.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional ([U]Tech)",
+        "description": "Built on Microsoft Copilot over case.edu content."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Leverages Microsoft Copilot platform."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Spartan Answers",
+          "vendor": "Case Western Reserve University (built on Microsoft Copilot)",
+          "role": "Student-facing RAG chatbot for university info"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Citation-anchored answers reduce misinformation risk and align with CWRU's responsible-use posture.",
+      "source_urls": [
+        "https://case.edu/news/ai-we-can-share-tools-community",
+        "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Law School mandatory 1L AI certification",
+      "description": "Case Western Reserve University School of Law became the first US law school to require all first-year law students to earn a legal AI certification through the 'Introduction to AI and the Law' program, co-built with Wickard.ai and launched February 2025.",
+      "significance": "Sets a national precedent for required professional-school AI literacy and couples it with a vendor-based credentialing pathway.",
+      "date_announced": "2025-02-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "School of Law + Wickard.ai partnership",
+        "description": "In-kind curriculum development with Wickard.ai; dollar value undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Wickard.ai",
+            "Relativity (later partner for broader law school expansion)"
+          ],
+          "description": "Built with Wickard.ai, which subsequently partnered with Relativity to extend AI training to more US law schools."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Introduction to AI and the Law",
+          "vendor": "Wickard.ai",
+          "role": "Mandatory 1L AI curriculum and certification"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Integrates AI ethics, ABA guidance, and data-management practices into required legal education.",
+      "source_urls": [
+        "https://case.edu/news/case-western-reserve-school-law-becomes-first-law-school-us-require-legal-ai-education-certification-all-first-year-law-students",
+        "https://natlawreview.com/article/case-western-reserve-university-becomes-first-law-school-require-every-1l-student",
+        "https://case.edu/think/spring2025/future-lawyers-are-ai-ready.html"
+      ]
+    },
+    {
+      "title": "Law School 1L Vibe Coding Competition (build-a-legaltech requirement)",
+      "description": "Expanding on the 1L certification, CWRU Law made every first-year student design and prototype an AI-assisted legaltech tool through the CWRU-Wickard 1L Vibe Coding Competition.",
+      "significance": "First-in-nation mandate that law students ship an AI-built product in their first year moves AI literacy from conceptual to applied.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "ai_enhanced_pedagogy",
+        "ai_and_degree_value"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "agentic_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "School of Law + Wickard.ai",
+        "description": "Extension of Wickard partnership; dollar value undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Wickard.ai"
+          ],
+          "description": "Co-designed and co-delivered competition."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "1L Vibe Coding Competition",
+          "vendor": "CWRU Law + Wickard.ai",
+          "role": "Required AI-assisted legaltech prototyping competition"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Signals institutional acceptance of AI-assisted code authorship in graded work.",
+      "source_urls": [
+        "https://natlawreview.com/article/case-western-reserve-university-becomes-first-law-school-require-every-1l-student",
+        "https://case.edu/news/setting-bar-cwru-leads-way-ai-education-future-lawyers"
+      ]
+    },
+    {
+      "title": "AI Supercomputer (AISC) research cluster",
+      "description": "CWRU operates a roughly $1M Artificial Intelligence SuperComputer cluster serving 250+ researchers across ~24 groups, with expected 10x acceleration over legacy systems. The broader HPC footprint includes the Pioneer cluster for research and Markov cluster for coursework, 250+ compute servers, 60+ GPU nodes, and 7,000+ processors. Recent additions include NSF-funded DGX A100 nodes and an HGX H200 cluster.",
+      "significance": "Demonstrates on-prem GPU capacity sufficient for training/fine-tuning modern frontier-class models at a private R1 scale.",
+      "date_announced": "2021-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1000000,
+        "funding_source": "NSF + Ohio Department of Education Action Fund + institutional",
+        "description": "Initial AISC purchase ~$1M (2021); later augmented by NSF-funded A100/H200 clusters."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "Ohio Department of Education"
+          ],
+          "description": "NSF and state co-funded the AI supercomputer and subsequent expansions."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AISC + Pioneer + Markov",
+          "vendor": "NVIDIA (DGX A100, HGX H200)",
+          "role": "Research GPU compute and coursework HPC"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.case.edu/news/artificial-intelligence-supercomputer-%E2%80%98accelerate-research-case-western-reserve-university",
+        "https://case.edu/news/accelerating-ai-machine-learning-research",
+        "https://thedaily.case.edu/artificial-intelligence-supercomputer-to-accelerate-research-at-case-western-reserve-university/"
+      ]
+    },
+    {
+      "title": "Ohio AI/ML acceleration consortium (NSF $5.1M)",
+      "description": "CWRU partners with the University of Cincinnati and the Ohio Supercomputer Center on an NSF-funded effort to make trained AI/ML experts and HPC resources available to researchers statewide.",
+      "significance": "Multi-institution state-scale capacity-building is a model for democratizing AI research infrastructure beyond a single R1.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance",
+        "regional_economic_impact",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 5100000,
+        "funding_source": "National Science Foundation",
+        "description": "$5.1M NSF grant (multi-institution)."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Cincinnati",
+            "Ohio Supercomputer Center",
+            "NSF"
+          ],
+          "description": "Statewide AI/ML expertise and infrastructure sharing."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.osc.edu/press/national_science_foundation_awards_51_million_to_help_ohio_institutions_accelerate_ai_machine",
+        "https://www.uc.edu/news/articles/2023/07/uc-partners-on-nsf-grant-to-share-experts-in-artificial-intelligence-with-ohio-higher-ed.html"
+      ]
+    },
+    {
+      "title": "Center for AI Enabling Discovery in Disease Biology",
+      "description": "Launched May 2024, this CWRU-based center partners with Cleveland Clinic and University Hospitals to apply AI to disease biology, including improving treatment of rectal cancer.",
+      "significance": "Anchors a Cleveland-wide AI-for-biomedicine hub tying a top-tier academic medical complex to AI-driven discovery.",
+      "date_announced": "2024-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Federal + institutional + hospital partners",
+        "description": "Multi-institution center; specific dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Cleveland Clinic",
+            "University Hospitals"
+          ],
+          "description": "Tri-institutional AI-for-biomedicine research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.ideastream.org/health/2024-07-08/a-new-cleveland-research-center-is-using-ai-to-improve-cancer-treatment",
+        "https://case.edu/bme/research/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Medical-imaging AI: NSF $1.125M virtual contrast-enhanced imaging",
+      "description": "CWRU researchers won a 4-year, $1.125M NSF grant to develop AI that generates virtual contrast-enhanced images, offering a safer/faster/less-expensive alternative to traditional contrast-based imaging.",
+      "significance": "Demonstrates research translation in AI-for-scientific-discovery with near-term clinical and equity implications (contrast dye is both costly and medically risky for some patients).",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1125000,
+        "funding_source": "National Science Foundation",
+        "description": "Four-year NSF grant."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Federally funded medical-imaging research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.case.edu/news/case-western-reserve-researchers-land-11m-national-science-foundation-grant-advance-safer",
+        "https://www.eurekalert.org/news-releases/1029683"
+      ]
+    },
+    {
+      "title": "CWRU-Microsoft MOU on AI curriculum",
+      "description": "CWRU signed a memorandum of understanding with Microsoft to use Microsoft programs to develop AI curriculum across the university.",
+      "significance": "Formalizes a vendor-academic curriculum pipeline that is otherwise rare at R1s at the institutional (vs. single-college) level.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Industry partnership",
+        "description": "Memorandum of Understanding; monetary value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Curriculum development partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft training and AI curriculum programs",
+          "vendor": "Microsoft",
+          "role": "Curriculum content and tooling source"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://case.edu/provost/cwru-collaborate-microsoft-ai-education-research",
+        "https://www.crainscleveland.com/education/case-western-reserve-university-microsoft-partner-explore-ai-uses/"
+      ]
+    },
+    {
+      "title": "AI Minor, forthcoming AI Major, and Applied AI Minor",
+      "description": "The Department of Computer and Data Sciences offers an Artificial Intelligence Minor (six courses) and is developing a full AI Major. An Applied AI Minor aimed at non-engineering majors is planned.",
+      "significance": "Adds formal AI credentials across technical and non-technical pathways at an R1, broadening workforce readiness.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional (Case School of Engineering)",
+        "description": "Curriculum build-out in CSDS department."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://bulletin.case.edu/engineering/computer-data-sciences/artificial-intelligence-minor/",
+        "https://case.edu/news/ai-we-can-prepare-students-fast-growing-jobs",
+        "https://case.edu/provost/initiatives/innovation/ai-education/ai-skills-building"
+      ]
+    },
+    {
+      "title": "Humanity and Technology (HAT) interdisciplinary BA",
+      "description": "An interdisciplinary BA in the College of Arts and Sciences integrating humanities and STEM (including AI/ML, data visualization, mixed reality, gaming), with a year-long senior capstone building applied technology. Established via Experimental Humanities program, funded by a $2M Mandel Foundation commitment in 2023.",
+      "significance": "Embodies a 'liberal arts in the AI era' model by making AI and adjacent tech a required integration axis for humanities majors.",
+      "date_announced": "2023-01-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "liberal_arts_in_ai_era",
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "Jack, Joseph and Morton Mandel Foundation",
+        "description": "$2M gift to establish Experimental Humanities."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Jack, Joseph and Morton Mandel Foundation"
+          ],
+          "description": "Philanthropic support."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://case.edu/artsci/experimental-humanities/academics/humanity-and-technology-major",
+        "https://bulletin.case.edu/arts-sciences/programs/humanity-technology-ba/"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence Certificate (Case School of Engineering)",
+      "description": "A graduate-level certificate requiring five courses from a slate of 16 AI offerings, plus executive education AI programs through Case Western Reserve's continuing education arm.",
+      "significance": "Short-form credential pipeline for professional upskilling in a market where executive AI literacy is in high demand.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "industry_certification_pathway",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Institutional",
+        "description": "Internal academic program."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal certificate program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://case.edu/programs/ai-certificate",
+        "https://execed.case.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=3523325&certificateName=artificial-intelligence-certificate&selectedProgramAreaId=1011310&selectedProgramStreamId=3051810"
+      ]
+    },
+    {
+      "title": "Kranzusch $10M gift catalyzing Department of Computer and Data Sciences",
+      "description": "Alumnus Kevin J. Kranzusch made a $5M commitment in 2019, catalyzing the creation of the Department of Computer and Data Sciences (established 2020), then doubled the commitment with a second $5M gift in fall 2021. The department is chaired by Vipin Chaudhary as the Kranzusch Professor.",
+      "significance": "Donor-driven founding of a dedicated CS/Data Sciences department is a direct precursor to CWRU's current AI faculty and curriculum capacity.",
+      "date_announced": "2019-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "institutional_restructuring",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Kevin J. Kranzusch (alumnus)",
+        "description": "Two gifts totaling $10M (2019 + 2021)."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Kevin J. Kranzusch"
+          ],
+          "description": "Alumnus philanthropy."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.case.edu/news/artificial-intelligence-supercomputer-%E2%80%98accelerate-research-case-western-reserve-university",
+        "https://engineering.case.edu/computer-and-data-sciences/research/artificial-intelligence-and-machine-learning"
+      ]
+    },
+    {
+      "title": "AI Task Force (Office of the Provost)",
+      "description": "A provost-level task force promoting equitable and ethical access to AI training and tools while guiding the university's strategy for AI in education; coordinates KSL (libraries), [U]Tech, Teaching and Learning Technologies (TLT), UCITE, and the Writing Program.",
+      "significance": "Shows a coordinated R1 governance pattern that places AI strategy under academic leadership rather than IT-only, and pulls in teaching/learning, library, and writing groups.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional (Provost)",
+        "description": "Administrative body; no separate budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-unit task force."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Policies and tool adoption flow through this body.",
+      "source_urls": [
+        "https://case.edu/provost/initiatives/innovation/ai-education"
+      ]
+    },
+    {
+      "title": "Faculty Senate AI Copyright Review Committee",
+      "description": "In December 2025, the Faculty Senate established an ad hoc committee to review and update the university's copyright policy in response to AI developments.",
+      "significance": "Addresses one of the thorniest governance gaps at R1s: IP ownership of AI-generated or AI-assisted scholarly/creative work.",
+      "date_announced": "2025-12-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional (Faculty Senate)",
+        "description": "Ad hoc committee."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty governance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Anticipated output: updated copyright policy with explicit AI clauses.",
+      "source_urls": [
+        "https://case.edu/facultysenate/about/committees-and-panels"
+      ]
+    },
+    {
+      "title": "[U]Tech AI Micro-Grant Program",
+      "description": "[U]Tech operates an AI Micro-Grant Program to seed faculty/staff experimentation with AI in teaching, administration, and research.",
+      "significance": "Small, distributed seed funding is a scalable pattern for surfacing grassroots AI use-cases in a research-heavy R1.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "faculty_role_evolution",
+        "faculty_training_and_development",
+        "ai_native_institution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional ([U]Tech)",
+        "description": "Micro-grants; amounts undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal grant program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://case.edu/utech/resources/ai-micro-grant-program"
+      ]
+    },
+    {
+      "title": "Campus AI Conference (with Google, Dec 2025)",
+      "description": "CWRU hosted a half-day campus-wide AI conference in December 2025 in conjunction with Google, with sessions on NotebookLM and Gemini.",
+      "significance": "Vendor-co-hosted conferences are an emerging enablement pattern to scale AI literacy quickly across an R1.",
+      "date_announced": "2025-12-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Institutional + Google",
+        "description": "Co-hosted event."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google"
+          ],
+          "description": "Joint training event."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "Research/teaching AI notebook tool featured at conference"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Featured enterprise AI assistant"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for AI Enabling Discovery in Disease Biology",
+      "focus": "AI applied to disease biology (incl. rectal cancer treatment); joint with Cleveland Clinic and University Hospitals",
+      "founded": "2024",
+      "url": "https://case.edu/bme/research/artificial-intelligence"
+    },
+    {
+      "name": "Department of Computer and Data Sciences (AI/ML research area)",
+      "focus": "Fundamental AI and applied ML, including smart cities, smart manufacturing, smart health",
+      "founded": "2020",
+      "url": "https://engineering.case.edu/computer-and-data-sciences/research/artificial-intelligence-and-machine-learning"
+    },
+    {
+      "name": "BME Artificial Intelligence and Health Informatics focus",
+      "focus": "AI for imaging, digital pathology, genomics, proteomics, electrophysiology",
+      "founded": null,
+      "url": "https://case.edu/bme/research/artificial-intelligence"
+    },
+    {
+      "name": "ECSE AI, Machine Learning and Robotics research area",
+      "focus": "AI/ML and robotics for smart cities, manufacturing, homes, transportation, healthcare",
+      "founded": null,
+      "url": "https://engineering.case.edu/electrical-computer-and-systems-engineering/research/artificial-intelligence-machine-learning-and"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "minor",
+      "name": "Artificial Intelligence Minor (CSDS)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://bulletin.case.edu/engineering/computer-data-sciences/artificial-intelligence-minor/"
+    },
+    {
+      "type": "degree",
+      "name": "Artificial Intelligence Major (in approval / development)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://case.edu/news/ai-we-can-prepare-students-fast-growing-jobs"
+    },
+    {
+      "type": "minor",
+      "name": "Applied AI Minor (planned, for non-engineering majors)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://case.edu/news/ai-we-can-prepare-students-fast-growing-jobs"
+    },
+    {
+      "type": "degree",
+      "name": "Humanity and Technology (HAT) BA",
+      "level": "undergrad",
+      "launched": "2023-01",
+      "url": "https://bulletin.case.edu/arts-sciences/programs/humanity-technology-ba/"
+    },
+    {
+      "type": "concentration",
+      "name": "Online MS in Computer Science, AI specialization",
+      "level": "grad",
+      "launched": null,
+      "url": "https://onlineprograms.case.edu/mscs/blog/ai-courses-in-cwru-mscs-curriculum/"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence Certificate (Case School of Engineering)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://case.edu/programs/ai-certificate"
+    },
+    {
+      "type": "certificate",
+      "name": "Introduction to AI and the Law (required 1L certification)",
+      "level": "grad",
+      "launched": "2025-02",
+      "url": "https://case.edu/news/case-western-reserve-school-law-becomes-first-law-school-us-require-legal-ai-education-certification-all-first-year-law-students"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Google",
+      "product": "Gemini for Education",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-04",
+      "url": "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot (Microsoft 365)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://case.edu/utech/about/utech-news/secure-microsoft-copilot-ai-now-available-students"
+    },
+    {
+      "vendor": "Case Western Reserve University ([U]Tech)",
+      "product": "CWRU AI (ai.case.edu)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://case.edu/utech/ai/guide-cwru-ai"
+    },
+    {
+      "vendor": "Microsoft (via Copilot)",
+      "product": "Spartan Answers (My CWRU)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://case.edu/news/ai-we-can-share-tools-community"
+    },
+    {
+      "vendor": "GitHub",
+      "product": "GitHub Enterprise (Copilot-enabled)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Artificial Intelligence SuperComputer (AISC) plus Pioneer and Markov clusters",
+    "gpu_count": null,
+    "url": "https://engineering.case.edu/news/artificial-intelligence-supercomputer-%E2%80%98accelerate-research-case-western-reserve-university",
+    "summary": "CWRU runs the AISC (initial purchase ~$1M in 2021, ~10x acceleration over legacy systems) plus a broader HPC footprint with Pioneer (research) and Markov (coursework) clusters, 250+ compute servers, 60+ GPU nodes, and 7,000+ processors. Recent additions include NSF-funded DGX A100 nodes and CSDS's HGX H200 cluster. Exact aggregate GPU count is not publicly disclosed."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "AI Supercomputer purchase",
+      "amount_usd": 1000000,
+      "source": "NSF + Ohio Department of Education Action Fund + institutional",
+      "purpose": "Purchase ~$1M AI SuperComputer to accelerate research",
+      "date": "2021-01",
+      "url": "https://engineering.case.edu/news/artificial-intelligence-supercomputer-%E2%80%98accelerate-research-case-western-reserve-university"
+    },
+    {
+      "title": "NSF Ohio AI/ML Acceleration grant",
+      "amount_usd": 5100000,
+      "source": "National Science Foundation",
+      "purpose": "Optimize AI/ML across CWRU, UC, and OSC for statewide researchers",
+      "date": null,
+      "url": "https://www.osc.edu/press/national_science_foundation_awards_51_million_to_help_ohio_institutions_accelerate_ai_machine"
+    },
+    {
+      "title": "NSF medical-imaging AI grant",
+      "amount_usd": 1125000,
+      "source": "National Science Foundation",
+      "purpose": "Develop AI-generated virtual contrast-enhanced imaging",
+      "date": null,
+      "url": "https://engineering.case.edu/news/case-western-reserve-researchers-land-11m-national-science-foundation-grant-advance-safer"
+    },
+    {
+      "title": "Kranzusch $5M (2019) + $5M (2021) gifts",
+      "amount_usd": 10000000,
+      "source": "Kevin J. Kranzusch (alumnus)",
+      "purpose": "Catalyzed creation and growth of Department of Computer and Data Sciences (home of CWRU's AI research)",
+      "date": "2021-09",
+      "url": "https://engineering.case.edu/computer-and-data-sciences/research/artificial-intelligence-and-machine-learning"
+    },
+    {
+      "title": "Mandel Foundation $2M gift (Experimental Humanities / HAT)",
+      "amount_usd": 2000000,
+      "source": "Jack, Joseph and Morton Mandel Foundation",
+      "purpose": "Establish Experimental Humanities program including the Humanity and Technology major",
+      "date": "2023-01",
+      "url": "https://case.edu/artsci/experimental-humanities/about"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini for Education campus-wide deployment and joint AI training (Dec 2025 conference)",
+      "date": "2025-04",
+      "url": "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Copilot deployment + MOU on AI curriculum development + long-running reality-technology partnership with Cleveland Clinic",
+      "date": null,
+      "url": "https://case.edu/provost/cwru-collaborate-microsoft-ai-education-research"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Cleveland Clinic + University Hospitals",
+      "purpose": "Center for AI Enabling Discovery in Disease Biology and broader AI-for-biomedicine collaborations",
+      "date": "2024-05",
+      "url": "https://www.ideastream.org/health/2024-07-08/a-new-cleveland-research-center-is-using-ai-to-improve-cancer-treatment"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Cincinnati + Ohio Supercomputer Center",
+      "purpose": "NSF $5.1M statewide AI/ML acceleration consortium",
+      "date": null,
+      "url": "https://www.uc.edu/news/articles/2023/07/uc-partners-on-nsf-grant-to-share-experts-in-artificial-intelligence-with-ohio-higher-ed.html"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Wickard.ai",
+      "purpose": "Law School required 1L AI certification and 1L Vibe Coding Competition",
+      "date": "2025-02",
+      "url": "https://case.edu/news/case-western-reserve-school-law-becomes-first-law-school-us-require-legal-ai-education-certification-all-first-year-law-students"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Spartan Answers",
+      "scope": "All My CWRU portal users (students first, expanding)",
+      "url": "https://case.edu/news/ai-we-can-share-tools-community"
+    },
+    {
+      "type": "other",
+      "name": "CWRU AI portal (general-purpose AI with departmental sub-bots)",
+      "scope": "All faculty, staff, students",
+      "url": "https://case.edu/utech/ai/guide-cwru-ai"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot (secure student access)",
+      "scope": "All students, faculty, staff with CWRU credentials",
+      "url": "https://case.edu/utech/about/utech-news/secure-microsoft-copilot-ai-now-available-students"
+    },
+    {
+      "type": "other",
+      "name": "Google Gemini for Education",
+      "scope": "All students, faculty, staff",
+      "url": "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI Task Force equitable access mandate",
+      "description": "Provost task force charged with promoting equitable and ethical access to AI training and tools across all roles.",
+      "url": "https://case.edu/provost/initiatives/innovation/ai-education"
+    },
+    {
+      "title": "Free enterprise AI for every student",
+      "description": "Three enterprise-secured AI services (CWRU AI, Gemini, Copilot) are free to every student, faculty, and staff member, reducing personal-cost barriers to frontier AI.",
+      "url": "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence/ai-free-services"
+    },
+    {
+      "title": "Applied AI Minor for non-engineering students",
+      "description": "Planned less-technical AI minor aimed at students outside engineering to broaden AI literacy across the undergraduate body.",
+      "url": "https://case.edu/news/ai-we-can-prepare-students-fast-growing-jobs"
+    },
+    {
+      "title": "Statewide AI/ML expertise sharing (NSF consortium)",
+      "description": "CWRU's partnership with UC and OSC shares trained AI/ML experts across Ohio institutions, including ones with less research capacity.",
+      "url": "https://www.osc.edu/press/national_science_foundation_awards_51_million_to_help_ohio_institutions_accelerate_ai_machine"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Ohio",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Ohio's House Bill 96 (2025) established a state-mandated AI model policy framework focused on K-12 but includes the AI Integration in Community Colleges Pilot Program. The Ohio Department of Education and Workforce published the model AI policy on Dec 30, 2025 with a July 2026 adoption deadline for K-12 districts. No formal Ohio higher-education-wide AI policy exists, and CWRU is not part of a public system; policy direction is internal plus informed by federal guidance.",
+    "urls": [
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education",
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education/Model-Policy",
+      "https://www.lsc.ohio.gov/assets/legislation/136/hb96/ph/files/hb96-bor-bill-analysis-as-passed-by-the-house-136th-general-assembly.pdf"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Case Western Reserve University (R1 private; Cleveland, OH; ~12,266 students) has built a deliberately coordinated AI posture led from the Office of the Provost rather than the CIO, with Provost Joy K. Ward owning the AI in Education initiative and the AI Task Force that governs strategy, policy, and enablement across academic units. There is no chief AI officer; CIO Miroslav Humer's [U]Tech organization runs enterprise platforms and a dedicated AI services/help-desk team. Enterprise AI is a three-legged stool: Google Gemini for Education (campus-wide, April 2025), Microsoft Copilot (campus-wide), and the institution's own CWRU AI portal for sensitive-data use and departmental chatbots. A student-facing chatbot called Spartan Answers surfaces case.edu content with cited answers through My CWRU. Academic investments are broad and multi-modal: a Department of Computer and Data Sciences founded in 2020 (seeded by $10M from alumnus Kranzusch), an AI Minor, a forthcoming AI Major and Applied AI Minor, an interdisciplinary Humanity and Technology BA backed by a $2M Mandel gift, online MS CS AI specializations, an AI Certificate, and a first-in-the-nation required legal-AI certification at the School of Law (partnered with Wickard.ai, launched Feb 2025), since extended to a required 1L 'Vibe Coding' build requirement. Research capacity rests on the Artificial Intelligence SuperComputer (AISC, ~$1M, ~10x faster than legacy), plus Pioneer/Markov clusters, NSF-funded DGX A100 and HGX H200 additions, and the Center for AI Enabling Discovery in Disease Biology with Cleveland Clinic and University Hospitals. Federal and private funding anchors the strategy: a $5.1M NSF statewide AI/ML acceleration consortium with UC and OSC, a $1.125M NSF medical-imaging grant, $10M from Kranzusch, and $2M from the Mandel Foundation. Policy is comprehensive (not merely cautious): an explicit academic-integrity stance on unauthorized AI use, mandatory use of contracted tools for sensitive data, syllabus-level example policies, classroom integration guidance, and a newly chartered Faculty Senate ad hoc committee (Dec 2025) updating copyright policy for AI. Notable gaps: no formal chief AI officer; no public syllabus-level AI disclosure mandate; no disclosed total GPU counts or named predictive-analytics retention platform.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://case.edu/provost/initiatives/innovation/ai-education",
+      "https://case.edu/provost/initiatives/innovation/ai-education/ai-tools-resources",
+      "https://case.edu/provost/initiatives/innovation/ai-education/ai-policies",
+      "https://case.edu/provost/initiatives/innovation/ai-education/ai-skills-building",
+      "https://case.edu/provost/example-ai-policies-suitable-course-syllabi",
+      "https://case.edu/provost/guidance-integrating-ai-artificial-intelligence-cwru-classroom",
+      "https://case.edu/provost/provost-and-executive-vice-president-joy-k-ward-named-leadership-cleveland-class-2025",
+      "https://case.edu/provost/cwru-collaborate-microsoft-ai-education-research",
+      "https://case.edu/provost/about/people",
+      "https://case.edu/president/meet-president",
+      "https://case.edu/president/university-leadership",
+      "https://case.edu/utech/about/about-cio",
+      "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence",
+      "https://case.edu/utech/help/knowledge-base/ai-artificial-intelligence/ai-free-services",
+      "https://case.edu/utech/about/utech-news/check-out-updates-cwrus-ai-services",
+      "https://case.edu/utech/about/utech-news/secure-microsoft-copilot-ai-now-available-students",
+      "https://case.edu/utech/about/utech-news/university-launches-cwru-ai-portal",
+      "https://case.edu/utech/resources/ai-micro-grant-program",
+      "https://case.edu/utech/ai/guide-cwru-ai",
+      "https://case.edu/utech/departments/client-experience/data-management-analytics-and-visualization/data-governance-committee",
+      "https://case.edu/facultysenate/about/committees-and-panels",
+      "https://case.edu/news/case-western-reserve-school-law-becomes-first-law-school-us-require-legal-ai-education-certification-all-first-year-law-students",
+      "https://case.edu/news/case-western-reserve-university-school-law-becomes-first-law-school-us-require-legal-ai-education-certification-all-first-year-law-students",
+      "https://case.edu/news/setting-bar-cwru-leads-way-ai-education-future-lawyers",
+      "https://case.edu/news/ai-we-can-prepare-students-fast-growing-jobs",
+      "https://case.edu/news/ai-we-can-share-tools-community",
+      "https://case.edu/news/university-launches-cwru-ai-portal",
+      "https://case.edu/news/accelerating-ai-machine-learning-research",
+      "https://case.edu/news/applying-ai-prevent-next-pandemic",
+      "https://case.edu/news/case-western-reserve-university-awarded-6-2m-to-identify-new-targets-to-treat-alzheimer-s-disease",
+      "https://case.edu/news/case-western-reserve-university-led-group-wins-federal-grant-accelerate-sustainable-manufacturing-region-and-beyond",
+      "https://case.edu/think/spring2025/future-lawyers-are-ai-ready.html",
+      "https://case.edu/law/our-school/news/law-school-forefront-program-artificial-intelligence",
+      "https://case.edu/bme/research/artificial-intelligence",
+      "https://case.edu/artsci/hlab/hat",
+      "https://case.edu/artsci/experimental-humanities/academics/humanity-and-technology-major",
+      "https://case.edu/artsci/experimental-humanities/about",
+      "https://case.edu/writing/resources/ai-academic-writing",
+      "https://case.edu/programs/ai-certificate",
+      "https://case.edu/ir/cwru-facts/cwru-glance",
+      "https://bulletin.case.edu/engineering/computer-data-sciences/",
+      "https://bulletin.case.edu/engineering/computer-data-sciences/artificial-intelligence-minor/",
+      "https://bulletin.case.edu/arts-sciences/programs/humanity-technology-ba/",
+      "https://bulletin.case.edu/course-descriptions/csds/",
+      "https://bulletin.case.edu/undergraduate-academics/academic-integrity/",
+      "https://bulletin.case.edu/about-university/university-leadership/",
+      "https://engineering.case.edu/computer-and-data-sciences/research/artificial-intelligence-and-machine-learning",
+      "https://engineering.case.edu/electrical-computer-and-systems-engineering/research/artificial-intelligence-machine-learning-and",
+      "https://engineering.case.edu/news/artificial-intelligence-supercomputer-%E2%80%98accelerate-research-case-western-reserve-university",
+      "https://engineering.case.edu/news/accelerating-ai-machine-learning-research-0",
+      "https://engineering.case.edu/news/case-western-reserve-researchers-land-11m-national-science-foundation-grant-advance-safer",
+      "https://onlineprograms.case.edu/mscs/blog/ai-courses-in-cwru-mscs-curriculum/",
+      "https://execed.case.edu/public/category/programStream.do?method=load&selectedProgramAreaId=1011310&selectedProgramStreamId=3051810",
+      "https://execed.case.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=3523325&certificateName=artificial-intelligence-certificate&selectedProgramAreaId=1011310&selectedProgramStreamId=3051810",
+      "https://researchguides.case.edu/artificialintelligence/ai-resources",
+      "https://researchguides.case.edu/artificialintelligence/ai-for-students",
+      "https://thedaily.case.edu/artificial-intelligence-supercomputer-to-accelerate-research-at-case-western-reserve-university/",
+      "https://thedaily.case.edu/case-western-reserve-researchers-land-1-125m-national-science-foundation-grant-to-advance-safer-faster-and-less-expensive-medical-imaging-technology/",
+      "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini",
+      "https://www.crainscleveland.com/education/case-western-reserve-university-microsoft-partner-explore-ai-uses/",
+      "https://www.crainscleveland.com/article/20180518/news/162246/case-western-reserve-announces-new-partnership-microsoft",
+      "https://www.eurekalert.org/news-releases/1029683",
+      "https://www.eurekalert.org/news-releases/906228",
+      "https://www.itnonline.com/content/case-western-reserve-researchers-land-1125-million-national-science-foundation-grant",
+      "https://www.ideastream.org/health/2024-07-08/a-new-cleveland-research-center-is-using-ai-to-improve-cancer-treatment",
+      "https://natlawreview.com/article/case-western-reserve-university-becomes-first-law-school-require-every-1l-student",
+      "https://www.abajournal.com/news/article/relativity-wickard-ai-join-forces-to-offer-ai-training-to-law-schools",
+      "https://www.prnewswire.com/news-releases/relativity-and-wickardai-partner-to-bring-hands-on-legal-ai-training-to-us-law-schools-302740789.html",
+      "https://www.wickard.ai/",
+      "https://www.osc.edu/press/national_science_foundation_awards_51_million_to_help_ohio_institutions_accelerate_ai_machine",
+      "https://www.uc.edu/news/articles/2023/07/uc-partners-on-nsf-grant-to-share-experts-in-artificial-intelligence-with-ohio-higher-ed.html",
+      "https://www.wkyc.com/article/news/education/case-western-reserve-university-artificial-intelligence-supercomputer/95-e78224da-2a2f-46ab-8af6-7901e289b3d7",
+      "https://spectrumnews1.com/oh/columbus/news/2023/08/10/case-western-reserve-ai",
+      "https://www.firstignite.com/ai-transformation-with-case-western-reserve-university/",
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education",
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education/Model-Policy",
+      "https://www.lsc.ohio.gov/assets/legislation/136/hb96/ph/files/hb96-bor-bill-analysis-as-passed-by-the-house-136th-general-assembly.pdf"
+    ],
+    "search_queries": [
+      "\"Case Western Reserve University\" AI strategy 2025 2026",
+      "\"Case Western Reserve University\" generative AI policy acceptable use",
+      "\"Case Western Reserve University\" chief AI officer governance committee",
+      "\"Case Western Reserve\" AI research center institute computing",
+      "\"Case Western Reserve\" AI degree program curriculum artificial intelligence major",
+      "\"Case Western Reserve\" Microsoft Copilot Google Gemini deployment campus",
+      "\"Case Western Reserve\" president provost CIO 2025 leadership",
+      "\"Case Western Reserve\" AI NSF grant funding gift million",
+      "\"Case Western Reserve\" AI partnership industry Microsoft Cleveland Clinic 2025",
+      "\"Case Western Reserve\" law school AI Wickard Kaplan agents",
+      "Ohio higher education AI policy state regulation 2025",
+      "\"Case Western Reserve\" \"Humanity and Technology\" major HAT College of Arts and Sciences",
+      "\"Case Western Reserve\" AI chatbot student services advising retention",
+      "\"Case Western Reserve\" AI supercomputer Markov Pioneer research 2023 2024",
+      "\"Case Western Reserve\" enrollment Carnegie R1 facts 2025"
+    ],
+    "gaps_acknowledged": [
+      "No chief AI officer title or dedicated AI-only executive role was found; CIO and Provost share effective leadership.",
+      "Aggregate GPU count across AISC/Pioneer/Markov clusters not publicly disclosed; partial inventory only (DGX A100 nodes, HGX H200 cluster).",
+      "Exact deployment date for Microsoft Copilot campus-wide access not disclosed publicly.",
+      "No named predictive-analytics retention platform was identified; Spartan Answers is a helpdesk-style chatbot, not a retention predictor.",
+      "No public AI-specific controversies or litigation were identified as of April 2026.",
+      "AI Task Force roster/members not publicly listed; only sponsoring units disclosed (KSL, [U]Tech, TLT, UCITE, Writing).",
+      "Specific dollar value of CWRU-Microsoft MOU and Wickard.ai legaltech partnership not disclosed.",
+      "Dates for AI Policy 'adopted_date' not specified on the provost's public policy page."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "workforce_regional_development",
+        "curriculum_led",
+        "balanced_enterprise"
+      ],
+      "scores": {
+        "platform_first": 21,
+        "research_compute_powerhouse": 12,
+        "curriculum_led": 19,
+        "governance_led": 13,
+        "student_success_led": 8,
+        "workforce_regional_development": 20,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 11,
+      "ai_program_count": 7,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 5,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 5,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Artificial Intelligence SuperComputer (AISC) plus Pioneer and Markov clusters",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 19225000,
+      "funding_source_buckets": {
+        "public_federal_state": 9,
+        "philanthropy_foundation": 2,
+        "industry_vendor": 5,
+        "institutional": 8
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 1,
+        "other": 3
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Copilot (Microsoft 365)",
+            "GitHub Enterprise (Copilot-enabled)",
+            "Microsoft Copilot",
+            "Microsoft training and AI curriculum programs",
+            "Spartan Answers",
+            "Spartan Answers (My CWRU)"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini",
+            "Gemini for Education",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Case Western Reserve University ([U]Tech) CWRU AI",
+          "mentions": 1,
+          "products": [
+            "CWRU AI"
+          ]
+        },
+        {
+          "vendor": "Case Western Reserve University ([U]Tech) CWRU AI (ai.case.edu)",
+          "mentions": 1,
+          "products": [
+            "CWRU AI (ai.case.edu)"
+          ]
+        },
+        {
+          "vendor": "CWRU Law + Wickard.ai 1L Vibe Coding Competition",
+          "mentions": 1,
+          "products": [
+            "1L Vibe Coding Competition"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "AISC + Pioneer + Markov"
+          ]
+        },
+        {
+          "vendor": "Wickard.ai Introduction to AI and the Law",
+          "mentions": 1,
+          "products": [
+            "Introduction to AI and the Law"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Google Gemini for Education campus-wide deployment",
+          "summary": "Demonstrates a dual-vendor enterprise AI strategy at an R1 alongside Microsoft Copilot, expanding frontier LLM access without relinquishing data rights.",
+          "source_url": "https://edtechmagazine.com/higher/article/2026/04/case-western-reserve-university-deploys-google-gemini"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Microsoft Copilot campus-wide deployment",
+          "summary": "Puts a secure, enterprise-grade frontier LLM into the hands of the entire campus community, enabling productivity and curricular experimentation at scale.",
+          "source_url": "https://case.edu/utech/about/utech-news/secure-microsoft-copilot-ai-now-available-students"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI Minor, forthcoming AI Major, and Applied AI Minor",
+          "summary": "Adds formal AI credentials across technical and non-technical pathways at an R1, broadening workforce readiness.",
+          "source_url": "https://bulletin.case.edu/engineering/computer-data-sciences/artificial-intelligence-minor/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Task Force (Office of the Provost)",
+          "summary": "Shows a coordinated R1 governance pattern that places AI strategy under academic leadership rather than IT-only, and pulls in teaching/learning, library, and writing groups.",
+          "source_url": "https://case.edu/provost/initiatives/innovation/ai-education"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No chief AI officer title or dedicated AI-only executive role was found; CIO and Provost share effective leadership.",
+        "Aggregate GPU count across AISC/Pioneer/Markov clusters not publicly disclosed; partial inventory only (DGX A100 nodes, HGX H200 cluster).",
+        "Exact deployment date for Microsoft Copilot campus-wide access not disclosed publicly.",
+        "No named predictive-analytics retention platform was identified; Spartan Answers is a helpdesk-style chatbot, not a retention predictor.",
+        "No public AI-specific controversies or litigation were identified as of April 2026.",
+        "AI Task Force roster/members not publicly listed; only sponsoring units disclosed (KSL, [U]Tech, TLT, UCITE, Writing).",
+        "Specific dollar value of CWRU-Microsoft MOU and Wickard.ai legaltech partnership not disclosed.",
+        "Dates for AI Policy 'adopted_date' not specified on the provost's public policy page."
+      ]
+    }
+  }
+}

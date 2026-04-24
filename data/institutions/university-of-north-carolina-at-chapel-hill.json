@@ -1,0 +1,1608 @@
+{
+  "institution": "University of North Carolina at Chapel Hill",
+  "slug": "university-of-north-carolina-at-chapel-hill",
+  "city_state": "Chapel Hill, NC",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of North Carolina",
+  "enrollment": 32438,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Lee H. Roberts",
+      "url": "https://www.unc.edu/about/leadership/"
+    },
+    "provost": {
+      "name": "Magnus Egerstedt",
+      "url": "https://www.unc.edu/posts/2025/11/12/magnus-egerstedt-named-executive-vice-chancellor-and-provost/"
+    },
+    "cio": {
+      "name": "J. Michael Barker",
+      "url": "https://its.unc.edu/"
+    },
+    "chief_ai_officer": {
+      "name": "Interim (search in progress; Jeffrey Bardzell departing for WPI, May 2026)",
+      "url": "https://chapelboro.com/news/unc/uncs-announces-departure-of-chief-artificial-intelligence-officer-seeks-replacement"
+    },
+    "ai_strategy_lead": {
+      "name": "Penny Gordon-Larsen",
+      "title": "Vice Chancellor for Research (AI research roadmap lead)",
+      "url": "https://research.unc.edu/ai/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI Research Roadmap at Carolina",
+        "url": "https://research.unc.edu/ai/",
+        "year": 2026
+      },
+      {
+        "title": "Generative AI at UNC (ai.unc.edu hub)",
+        "url": "https://ai.unc.edu/",
+        "year": 2024
+      },
+      {
+        "title": "Research is at the heart of Carolina's AI work (strategy announcement)",
+        "url": "https://www.unc.edu/posts/2026/03/05/research-is-at-the-heart-of-carolinas-ai-work/",
+        "year": 2026
+      }
+    ],
+    "summary": "Chancellor Lee Roberts has made AI one of his top priorities, publicly framing Carolina's ambition to become an 'AI university.' The strategy is executed across three tracks: a Research Roadmap led by Vice Chancellor for Research Penny Gordon-Larsen; an operations/IT track led by CIO Mike Barker; and a teaching/learning track led through the Provost and deans. A major structural move is the planned July 2026 merger of the School of Data Science and Society with the School of Information and Library Science to form a new AI-focused school, with Stan Ahalt as inaugural dean."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.unc.edu/",
+      "https://handbook.unc.edu/generativeai.html",
+      "https://provost.unc.edu/discover-ai-carolina/staff-generative-ai-usage-guide/",
+      "https://ai.unc.edu/research-generative-ai-usage-guidance/",
+      "https://operationalexcellence.unc.edu/generative-ai-guidelines/"
+    ],
+    "adopted_date": "2023-09",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "No sensitive or Tier 2/3 data into generative AI without prior ISO risk assessment and Data Governance Oversight Group approval",
+      "Enterprise Microsoft Copilot with Data Protection is the default sanctioned tool for all Onyen users",
+      "Research use requires disclosure statements and compliance with journal/IP rules",
+      "Graduate students must follow UNC Honor Code; 'AI should help you think, not think for you'",
+      "Each school sets its own class-level policy; no university-wide mandate on syllabi"
+    ],
+    "summary": "UNC-Chapel Hill publishes guidance via a central ai.unc.edu hub covering teaching, research, operations, and assessment, rather than a single binding acceptable-use policy. The UNC Generative AI Committee (est. fall 2023) is explicitly not charged with setting a campus-wide policy — instead, individual schools and units own their policies. The stance is cautious-permissive: enterprise tools with data protection are sanctioned and encouraged, but sensitive data handling and disclosure requirements are enforced centrally."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UNC-Chapel Hill Generative AI Committee",
+        "type": "committee",
+        "scope": "Cross-functional committee (faculty, staff, students) drafting campus guidance; does not set binding university-wide policy. Chaired by Kim Abels (Writing and Learning Center).",
+        "url": "https://www.unc.edu/posts/2023/09/12/committee-guides-use-of-generative-ai/"
+      },
+      {
+        "name": "Office of the Vice Provost for AI / Chief AI Officer",
+        "type": "office",
+        "scope": "Established October 2025 under the Provost. First holder Jeffrey Bardzell departing May 2026; interim search underway. Oversees campus AI strategy, deployments, and the planned AI school.",
+        "url": "https://www.theeduledger.com/institutions/article/15769166/unc-merges-information-and-data-science-schools-names-new-ai-vice-provost"
+      },
+      {
+        "name": "AI Acceleration Program (Provost's Office)",
+        "type": "office",
+        "scope": "Provost-led funding and mentorship program supporting GenAI prototypes across teaching, research, and operations. Administered with ITS and Microsoft Azure.",
+        "url": "https://aiacceleration.unc.edu/"
+      },
+      {
+        "name": "Data Governance Oversight Group",
+        "type": "committee",
+        "scope": "Reviews and approves use of sensitive institutional data with AI tools.",
+        "url": "https://ai.unc.edu/"
+      },
+      {
+        "name": "NC AI Leadership Council (external, 4 Carolina members)",
+        "type": "council",
+        "scope": "State-level council created by NC Executive Order 24 (Sep 2025). UNC-Chapel Hill members: Stan Ahalt, Angel Hsu, David Yokum, Rep. Zack Hawkins.",
+        "url": "https://www.unc.edu/posts/2025/09/11/4-carolina-faculty-staff-named-to-nc-ai-leadership-council/"
+      }
+    ],
+    "summary": "Governance is distributed. A 2023 Generative AI Committee writes cross-campus guidance; a 2025-created Vice Provost for AI / Chief AI Officer sits inside the Provost's office (currently in interim status pending replacement of Jeffrey Bardzell); the Provost also runs the AI Acceleration Program; and ITS + the Data Governance Oversight Group gatekeep sensitive-data AI use. External representation on Gov. Stein's NC AI Leadership Council amplifies Carolina's voice in state policy."
+  },
+  "initiatives": [
+    {
+      "title": "Creation of a new School of AI (merger of SDSS + SILS)",
+      "description": "UNC announced on October 9, 2025 that the School of Data Science and Society (SDSS) and the School of Information and Library Science (SILS) will merge into a new, yet-to-be-named AI-focused school, targeted to be operational by July 1, 2026. Stan Ahalt named inaugural dean; Jeffrey Bardzell concurrently elevated to Vice Provost for AI / Chief AI Officer.",
+      "significance": "Rare structural move — consolidating two existing schools into a school explicitly organized around AI — signaling that AI is being treated as a new academic discipline rather than a tool overlay.",
+      "date_announced": "2025-10-09",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_native_institution",
+        "ai_degree_program",
+        "ai_research_center"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Internal reallocation / state appropriation (amount undisclosed)",
+        "description": "Combines existing SDSS and SILS budgets, faculty, and students under a unified school identity."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNC System"
+          ],
+          "description": "Approved in coordination with UNC System governance."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a permanent home for AI governance and curriculum inside academic affairs rather than only in IT or philosophy/CS.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/10/09/development-of-a-new-school-at-carolina/",
+        "https://edscoop.com/unc-to-consolidate-colleges-to-create-ai-school/",
+        "https://dailytarheel.com/article/university-breaking-school-of-ai-20251009",
+        "https://www.theassemblync.com/news/education/higher-education/unc-chapel-hill-merge-library-data-science-ai/"
+      ]
+    },
+    {
+      "title": "AI Acceleration Program (campus-wide GenAI funding)",
+      "description": "Provost-run program launched in early 2025 offering six funding streams for faculty, staff, and students to prototype generative AI use cases: cloud-resource grants ($5K–$100K), research CI matching ($10K–$50K), major unit projects ($5K–$100K), strategic projects ($5K–$100K), and AI cyberinfrastructure startup funds ($25K–$250K over 3 years). Uses Microsoft Azure. Includes an AI Faculty Fellows program training 10–20 faculty leaders per year.",
+      "significance": "Operationalizes the chancellor's AI priority with a concrete budget-backed mechanism, not just a strategy document.",
+      "date_announced": "2025-01-17",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "computing_infrastructure",
+        "faculty_training_and_development",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Provost's Office + Microsoft Azure cloud credits",
+        "description": "Multi-stream program; individual awards up to $250K over 3 years, but aggregate institutional commitment not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Azure cloud resources back the compute for funded projects."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Azure",
+          "vendor": "Microsoft",
+          "role": "Cloud compute for funded GenAI prototypes"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Gatekeeps compute access with responsible-use expectations and tiered data governance.",
+      "source_urls": [
+        "https://aiacceleration.unc.edu/",
+        "https://www.unc.edu/posts/2025/01/17/join-carolinas-new-ai-community/",
+        "https://www.unc.edu/posts/2025/09/16/ai-acceleration-program-helps-student-design-proteins/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot with Data Protection campus-wide rollout",
+      "description": "Microsoft Copilot with Data Protection (formerly Bing Chat Enterprise) enabled for all faculty/staff in November 2023 and for all students in February 2024, delivered through existing M365 licenses at no additional cost. Microsoft does not store chats or train on UNC data. Premium Copilot for Microsoft 365 also available with additional licensing.",
+      "significance": "Made Carolina one of the earlier R1s to give the full student/faculty/staff community a free, enterprise-grade generative AI tool with data protection.",
+      "date_announced": "2024-02-22",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Existing Microsoft 365 licensing (no incremental cost disclosed)",
+        "description": "Delivered under existing campus M365 agreement; premium tier available at add-on cost."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Copilot licensing for full campus."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot with Data Protection",
+          "vendor": "Microsoft",
+          "role": "Enterprise GenAI chat with encryption and no training on UNC data"
+        },
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "Premium integrated Office assistant for licensed users"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes a sanctioned default for GenAI that sidesteps the sensitive-data risks of consumer ChatGPT.",
+      "source_urls": [
+        "https://its.unc.edu/ai/",
+        "https://its.unc.edu/ai/copilot/",
+        "https://its.unc.edu/2024/02/22/expanded-access-to-copilot/"
+      ]
+    },
+    {
+      "title": "PromptLab multi-model AI platform (Library)",
+      "description": "University Library launched PromptLab in January 2026 as a free multi-model GenAI platform for all UNC affiliates. Lets users chat with and compare top models (ChatGPT, Claude, Gemini, others) side-by-side, build custom agents via an Agent Marketplace, and access pre-built agents like Study Partner and Course Material Summarizer. Onyen-authenticated.",
+      "significance": "Gives campus a vendor-neutral way to access frontier models beyond what Microsoft Copilot offers, inside university-controlled infrastructure.",
+      "date_announced": "2026-01-29",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_tutoring_and_adaptive_learning",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University Library",
+        "description": "Library-funded platform, no cost to end users."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Anthropic",
+            "Google"
+          ],
+          "description": "API integrations with the major frontier-model providers."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "PromptLab",
+          "vendor": "UNC University Library",
+          "role": "Internally-hosted multi-model chat and agent platform"
+        },
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Available model"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "Available model"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Available model"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Equalizes access to expensive frontier models for students who otherwise couldn't afford subscriptions.",
+      "source_urls": [
+        "https://library.unc.edu/ai/library-ai-studio/promptlab/",
+        "https://www.unc.edu/posts/2026/02/04/university-library-unveils-generative-ai-tool-customized-for-tar-heels/",
+        "https://library.unc.edu/news/promptlab-gives-tar-heels-a-way-to-explore-top-generative-ai-models/"
+      ]
+    },
+    {
+      "title": "Library AI Studio (Davis Library)",
+      "description": "Opened fall 2025 in Davis Library's 2nd floor as a dedicated AI literacy space. Staffed drop-in hours Mon–Fri 12–5 PM. Equipped with computers running the latest AI models beyond ChatGPT (Claude, Gemini) and hosts Library AI Fellows.",
+      "significance": "Physical hub signals that AI literacy is being treated as an information-literacy discipline like database searching historically was.",
+      "date_announced": "2025-06-12",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_tool_equity",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University Library",
+        "description": "Dedicated space, hardware, and staffing; amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal library initiative."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Frames AI as a literacy skill embedded in the library mission.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/06/12/welcome-to-the-library-ai-studio/",
+        "https://library.unc.edu/ai/library-ai-studio/",
+        "https://dailytarheel.com/article/university-libraries-ai-center-20250828"
+      ]
+    },
+    {
+      "title": "Carolina AI Literacy Initiative (first-year students)",
+      "description": "First-year student program funded by a School of Data Science and Society grant. Delivers videos and modules covering effective prompt composition, bias recognition, fact-checking AI output, and plagiarism avoidance.",
+      "significance": "One of the clearest examples of AI literacy being pushed to the first-year curriculum as a gen-ed skill.",
+      "date_announced": "2025-11-13",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "School of Data Science and Society grant",
+        "description": "Internal grant-funded literacy initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [
+            "UNC School of Data Science and Society",
+            "UNC University Library"
+          ],
+          "description": "Cross-unit (library + SDSS) collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Places the burden of responsible AI use on educated student choice rather than prohibition.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/11/13/librarian-and-english-professor-build-ai-literacy/"
+      ]
+    },
+    {
+      "title": "BlueChipAI (Kenan-Flagler Business School)",
+      "description": "Business school-specific GenAI platform launched September 2025. Built with Microsoft and Cloudforce (nebulaONE). Supports writing, brainstorming, summarization, translation, and user-built private agents without external model training on faculty IP. Applications include executive program feedback analysis, finance/HR question agents, and job interview simulations.",
+      "significance": "Domain-specific AI platform model — illustrates how professional schools are building their own GenAI environments in addition to the campus-wide default.",
+      "date_announced": "2025-09-15",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Donor contributions + Provost's AI Acceleration Program",
+        "description": "Donor-backed business school initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Cloudforce"
+          ],
+          "description": "Platform built on Azure infrastructure using Cloudforce's nebulaONE architecture."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "BlueChipAI (powered by nebulaONE)",
+          "vendor": "Cloudforce / Microsoft",
+          "role": "Business-school GenAI workspace with private agents"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Keeps faculty IP off of vendor training data while allowing rich customization.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/"
+      ]
+    },
+    {
+      "title": "UNC Gillings Center for Artificial Intelligence and Public Health (CAIPH)",
+      "description": "Launched in late 2024 within the Gillings School of Global Public Health. Develops AI tools for climate/environmental health, health behavior, health policy/economics, and precision health. Director: Dr. Michael Kosorok (W.R. Kenan Distinguished Professor of Biostatistics). Hosts a Showcase and Datathon.",
+      "significance": "Concentrates AI applied-research capacity inside a top-ranked public health school, channeling AI investment into population-scale health outcomes.",
+      "date_announced": "2024-10-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Gillings School + grants",
+        "description": "Standing center with permanent staffing and physical location."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Open to academic and industry collaborations."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Emphasizes ethical integrity and equity alongside analytic methods.",
+      "source_urls": [
+        "https://sph.unc.edu/resource-pages/caiph/",
+        "https://gillings-projects.unc.edu/cph-articles/new-gillings-school-center-will-leverage-ai-for-improved-public-health"
+      ]
+    },
+    {
+      "title": "NCShare GPU-as-a-Service partnership",
+      "description": "UNC-Chapel Hill joined the NCShare (North Carolina Shared Research and Education) partnership in June 2025. The NSF-funded 'NC Share Accelerating Impact – GPU-as-a-Service (AI-GaaS)' program gives Carolina researchers Science DMZ high-speed networking, Compute-as-a-Service, and virtualized GPUs. CIO Mike Barker is a co-PI.",
+      "significance": "Pools scarce GPU capacity across NC institutions (Duke, Davidson, NC State, UNC Charlotte, NC A&T, and more), a model for regional AI compute equity.",
+      "date_announced": "2025-06-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "cross_border_research_alliance",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "National Science Foundation (multiple grants)",
+        "description": "Federally funded shared infrastructure; specific award amount to UNC not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Duke University",
+            "Davidson College",
+            "MCNC",
+            "NC State",
+            "UNC Charlotte",
+            "NC A&T",
+            "NC Central",
+            "Fayetteville State",
+            "Winston-Salem State"
+          ],
+          "description": "Multi-institution GPU and network sharing consortium."
+        },
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded AI-GaaS program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Reduces the 'GPU gap' between flagship and smaller NC institutions.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/06/13/ncshare-partnership-to-bolster-carolinas-ai-research-capacity/"
+      ]
+    },
+    {
+      "title": "Slate AI / PEG essay scoring in undergraduate admissions",
+      "description": "Undergraduate Admissions has used AI-driven essay scoring since at least 2020. Slate AI (by Technolutions) scores applicants 1–4 across performance, program, extracurriculars, and personal qualities; the Durham-based Project Essay Grade (PEG) tool scores grammar and style. Applied at scale to 105,000+ applicants per cycle.",
+      "significance": "One of the most visible examples of AI in high-stakes admissions at a public flagship, and a focal point of campus controversy.",
+      "date_announced": "2020-01-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_in_admissions_and_enrollment",
+        "algorithmic_bias",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators",
+        "accreditors",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Admissions operating budget",
+        "description": "Vendor licensing; cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Technolutions (Slate)",
+            "Measurement Incorporated (PEG)"
+          ],
+          "description": "Commercial admissions-tech vendors."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Slate AI",
+          "vendor": "Technolutions",
+          "role": "Holistic applicant scoring"
+        },
+        {
+          "name": "Project Essay Grade (PEG)",
+          "vendor": "Measurement Incorporated",
+          "role": "Automated essay style/grammar scoring"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "UNC's Honor Code prohibits AI-generated essays from applicants while UNC itself scores the essays with AI — a tension the student paper has highlighted.",
+      "source_urls": [
+        "https://edscoop.com/unc-uses-ai-to-auto-score-enrollment-application-essays/",
+        "https://admissions.unc.edu/faqs/does-undergraduate-admissions-use-ai-and-why/",
+        "https://www.dailytarheel.com/article/2025/01/university-ai-followup"
+      ]
+    },
+    {
+      "title": "University Policy Code Project (AI-enhanced policy search)",
+      "description": "Project to centralize UNC's policies and codes in an online database and use AI to make the University Code searchable and accessible.",
+      "significance": "Operational AI applied to governance transparency — not glamorous, but a clear 'AI for admin' use case.",
+      "date_announced": "2025-10-27",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "ai_search_and_retrieval",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "University Policy Office",
+        "description": "Internal ITS + Policy Office project."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Improves transparency and accessibility of institutional policy.",
+      "source_urls": [
+        "https://dailytarheel.com/article/university-bot-governance-advisory-committee-oct-27-20251030"
+      ]
+    },
+    {
+      "title": "Carolina AI Community",
+      "description": "Registration-based community for faculty, staff, and students launched January 2025 to keep campus informed about AI events, training, and developments via newsletters and events.",
+      "significance": "Institutional mechanism for building AI-literate culture at scale rather than through one-off training.",
+      "date_announced": "2025-01-17",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Provost's Office",
+        "description": "Low-cost community-building initiative."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Normalizes AI literacy as an ongoing professional development expectation.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/01/17/join-carolinas-new-ai-community/",
+        "https://ai.unc.edu/"
+      ]
+    },
+    {
+      "title": "AI for Public Good Conference (inaugural, April 2026)",
+      "description": "Inaugural campus conference bringing together researchers, industry, and policymakers to examine responsible AI design and deployment. Framed around public-interest AI.",
+      "significance": "Positions UNC as a convenor of the responsible-AI conversation in the Southeast.",
+      "date_announced": "2026-04-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UNC Research + sponsors",
+        "description": "Conference-scale commitment."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Industry and policymaker participation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals AI ethics is a core part of Carolina's AI brand.",
+      "source_urls": [
+        "https://www.wral.com/news/local/unc-ai-public-good-conference-health-medical-april-2026/",
+        "https://ai.unc.edu/"
+      ]
+    },
+    {
+      "title": "Carolina representation on NC AI Leadership Council",
+      "description": "Four UNC-Chapel Hill affiliates were named September 2025 to Gov. Josh Stein's NC AI Leadership Council (est. Executive Order 24): Stan Ahalt (SDSS dean), Angel Hsu (Public Policy / Environment), David Yokum (SDSS Professor of Practice), and state Rep. Zack Hawkins.",
+      "significance": "Shapes statewide AI policy through Carolina scholars; positions the university as the dominant voice in NC's formal AI governance.",
+      "date_announced": "2025-09-11",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "faculty",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "State of North Carolina",
+        "description": "Advisory service — no direct UNC funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of North Carolina",
+            "Office of the Governor"
+          ],
+          "description": "State-level policy advisory body."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Carolina faculty help author the NC AI strategic roadmap due June 30, 2026.",
+      "source_urls": [
+        "https://www.unc.edu/posts/2025/09/11/4-carolina-faculty-staff-named-to-nc-ai-leadership-council/",
+        "https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians",
+        "https://dailytarheel.com/article/city-nc-artificial-intelligence-council-20251008"
+      ]
+    },
+    {
+      "title": "The AI Project (Philosophy / Parr Center for Ethics)",
+      "description": "Housed in the Department of Philosophy since Spring 2023; advances research on philosophical foundations and societal significance of AI and virtual worlds. Collaborates with Computer Science, Linguistics, and the Parr Center for Ethics.",
+      "significance": "Maintains humanistic/ethics grounding in Carolina's AI portfolio even as technical AI consolidates into a new school.",
+      "date_announced": "2023-01-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "liberal_arts_in_ai_era",
+        "ai_research_center"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Department of Philosophy + collaborators",
+        "description": "Small research cluster."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UNC Computer Science",
+            "UNC Linguistics",
+            "Parr Center for Ethics"
+          ],
+          "description": "Internal cross-department philosophy/CS/ethics collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Feeds into ethics framing of institutional AI policy.",
+      "source_urls": [
+        "https://aip.unc.edu/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Renaissance Computing Institute (RENCI)",
+      "focus": "Data science, secure cloud platforms for cross-disciplinary AI research, FAIR data principles",
+      "founded": "2004",
+      "url": "https://renci.org/"
+    },
+    {
+      "name": "UNC Gillings Center for Artificial Intelligence and Public Health (CAIPH)",
+      "focus": "AI tools for global public health (climate/environmental health, health behavior, health policy, precision health)",
+      "founded": "2024",
+      "url": "https://sph.unc.edu/resource-pages/caiph/"
+    },
+    {
+      "name": "The AI Project (Philosophy)",
+      "focus": "Philosophical foundations and societal significance of AI; ethics collaboration with Parr Center, CS, Linguistics",
+      "founded": "2023",
+      "url": "https://aip.unc.edu/"
+    },
+    {
+      "name": "Odum Institute for Research in Social Science",
+      "focus": "Applied data and AI methods in social science research",
+      "founded": "1924",
+      "url": "https://research.unc.edu/ai/"
+    },
+    {
+      "name": "Sheps Center for Health Services Research",
+      "focus": "Health services data analytics including Medicare data and AI-driven analysis",
+      "founded": "1968",
+      "url": "https://research.unc.edu/ai/"
+    },
+    {
+      "name": "Microsoft Azure AI Developer Lab",
+      "focus": "Applied GenAI prototyping environment for UNC researchers backed by Azure",
+      "founded": "2025",
+      "url": "https://research.unc.edu/ai/"
+    },
+    {
+      "name": "Biomedical Research Imaging Center",
+      "focus": "AI-enhanced medical imaging and biomedical research",
+      "founded": null,
+      "url": "https://research.unc.edu/ai/"
+    },
+    {
+      "name": "Institute for Risk Management and Insurance Innovation",
+      "focus": "AI and data science applied to risk and insurance modeling",
+      "founded": null,
+      "url": "https://research.unc.edu/ai/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in Data Science (includes AI/ML coursework)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.unc.edu/undergraduate/programs-study/data-science-major-bs/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Applied Data Science (online; includes ML/AI core)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://datascience.unc.edu/mads/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Data Science",
+      "level": "grad",
+      "launched": "2025-11",
+      "url": "https://www.unc.edu/posts/2025/11/20/school-of-data-science-and-society-announces-new-professional-degree-programs/"
+    },
+    {
+      "type": "degree",
+      "name": "Doctorate in Data Science",
+      "level": "grad",
+      "launched": "2025-11",
+      "url": "https://www.unc.edu/posts/2025/11/20/school-of-data-science-and-society-announces-new-professional-degree-programs/"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Boot Camp at UNC-Chapel Hill (continuing education)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.unc.edu/artificial-intelligence/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot Chat with Data Protection (free tier)",
+      "scope": "campus-wide",
+      "user_count": 45000,
+      "deployed": "2024-02",
+      "url": "https://its.unc.edu/ai/copilot/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot for Microsoft 365 (premium)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://its.unc.edu/ai/copilot-for-microsoft-365/"
+    },
+    {
+      "vendor": "UNC University Library",
+      "product": "PromptLab (multi-model ChatGPT/Claude/Gemini platform)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-01",
+      "url": "https://library.unc.edu/ai/library-ai-studio/promptlab/"
+    },
+    {
+      "vendor": "Cloudforce / Microsoft",
+      "product": "BlueChipAI (nebulaONE)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-09",
+      "url": "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Firefly / Sensei (Creative Cloud AI)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://its.unc.edu/ai/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://its.unc.edu/ai/"
+    },
+    {
+      "vendor": "Technolutions",
+      "product": "Slate AI (admissions holistic scoring)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2020-01",
+      "url": "https://admissions.unc.edu/faqs/does-undergraduate-admissions-use-ai-and-why/"
+    },
+    {
+      "vendor": "Measurement Incorporated",
+      "product": "Project Essay Grade (PEG)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://edscoop.com/unc-uses-ai-to-auto-score-enrollment-application-essays/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Longleaf",
+    "gpu_count": 256,
+    "url": "https://help.rc.unc.edu/longleaf-cluster/",
+    "summary": "Longleaf is UNC's high-throughput cluster with 300+ nodes, ~6,500 conventional cores, 124 TB RAM, and 40+ GPU nodes. GPU inventory includes roughly 130 Nvidia L40S, 30 A100, 64 Volta, and 32 Nvidia 1080 GPUs (count reflects reported totals; 256 is approximate). Free for all UNC researchers. Complemented by Microsoft Azure via the AI Acceleration Program and GPU-as-a-Service via the NSF-funded NCShare consortium."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "BlueChipAI donor support",
+      "amount_usd": null,
+      "source": "Kenan-Flagler donor contributions",
+      "purpose": "Build and deploy BlueChipAI business-school GenAI platform",
+      "date": "2025-09",
+      "url": "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/"
+    },
+    {
+      "title": "NSF NCShare AI-GaaS grant (Carolina as partner)",
+      "amount_usd": null,
+      "source": "National Science Foundation",
+      "purpose": "Shared GPU-as-a-service computing across NC institutions",
+      "date": "2025-06",
+      "url": "https://www.unc.edu/posts/2025/06/13/ncshare-partnership-to-bolster-carolinas-ai-research-capacity/"
+    },
+    {
+      "title": "Google Ph.D. Fellowship in NLP (David Wan)",
+      "amount_usd": null,
+      "source": "Google",
+      "purpose": "Cover remainder of doctoral NLP research on AI hallucinations",
+      "date": "2025-04",
+      "url": "https://www.unc.edu/posts/2025/04/09/google-backs-tar-heels-ai-research/"
+    },
+    {
+      "title": "AI Acceleration Program total award pool (multiple tiers)",
+      "amount_usd": null,
+      "source": "Provost's Office / Microsoft Azure",
+      "purpose": "Fund faculty/student/unit prototypes up to $250K over 3 years",
+      "date": "2025-01",
+      "url": "https://aiacceleration.unc.edu/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft (Azure)",
+      "purpose": "Cloud infrastructure backing AI Acceleration Program, BlueChipAI, and AI Developer Lab",
+      "date": "2025-01",
+      "url": "https://aiacceleration.unc.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Ph.D. fellowship and UNC System career certificate partnership",
+      "date": "2025-04",
+      "url": "https://www.unc.edu/posts/2025/04/09/google-backs-tar-heels-ai-research/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Cloudforce",
+      "purpose": "BlueChipAI nebulaONE platform for Kenan-Flagler Business School",
+      "date": "2025-09",
+      "url": "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "NCShare (Duke, Davidson, MCNC, NC State, NC A&T, NC Central, UNC Charlotte, Fayetteville State, Winston-Salem State)",
+      "purpose": "Shared NSF-funded GPU/network cyberinfrastructure for AI research",
+      "date": "2025-06",
+      "url": "https://www.unc.edu/posts/2025/06/13/ncshare-partnership-to-bolster-carolinas-ai-research-capacity/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "State of North Carolina (NC AI Leadership Council via EO 24)",
+      "purpose": "Advise governor and state agencies on AI strategy, policy, and training",
+      "date": "2025-09",
+      "url": "https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Technolutions (Slate AI)",
+      "purpose": "AI-assisted holistic admissions scoring",
+      "date": "2020-01",
+      "url": "https://edscoop.com/unc-uses-ai-to-auto-score-enrollment-application-essays/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "PromptLab (Study Partner, Course Material Summarizer, Image Transcriber, Image Creator agents)",
+      "scope": "All UNC students via Onyen login; library-operated multi-model chat and custom agents",
+      "url": "https://library.unc.edu/ai/library-ai-studio/promptlab/"
+    },
+    {
+      "type": "tutor",
+      "name": "Carolina AI Literacy Initiative modules",
+      "scope": "First-year students; prompt design, bias recognition, fact-checking, plagiarism avoidance",
+      "url": "https://www.unc.edu/posts/2025/11/13/librarian-and-english-professor-build-ai-literacy/"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot Chat with Data Protection",
+      "scope": "All students; general-purpose GenAI assistant",
+      "url": "https://its.unc.edu/ai/copilot/"
+    },
+    {
+      "type": "other",
+      "name": "Library AI Studio (Davis Library)",
+      "scope": "In-person AI literacy space with staffed drop-in hours; Claude, Gemini, ChatGPT access",
+      "url": "https://library.unc.edu/ai/library-ai-studio/"
+    },
+    {
+      "type": "other",
+      "name": "BlueChipAI (Kenan-Flagler students)",
+      "scope": "Business school students; domain-specific agents including job-interview simulation",
+      "url": "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Library AI Studio free access",
+      "description": "Democratizes access to frontier AI models (Claude, Gemini) for students who cannot afford consumer subscriptions.",
+      "url": "https://library.unc.edu/ai/library-ai-studio/"
+    },
+    {
+      "title": "PromptLab free multi-model access",
+      "description": "No-cost student/faculty/staff access to ChatGPT, Claude, Gemini via library-hosted platform.",
+      "url": "https://library.unc.edu/ai/library-ai-studio/promptlab/"
+    },
+    {
+      "title": "NCShare AI-GaaS for smaller NC institutions",
+      "description": "Shares Carolina's scale with NC Central, Fayetteville State, Winston-Salem State, and others, narrowing the regional GPU gap.",
+      "url": "https://www.unc.edu/posts/2025/06/13/ncshare-partnership-to-bolster-carolinas-ai-research-capacity/"
+    },
+    {
+      "title": "Digital Accessibility Office (WCAG 2.2 AA mandate for AI-generated content)",
+      "description": "DAO applies accessibility standards to AI-generated digital content produced after April 24, 2026; over 850 staff/faculty trained.",
+      "url": "https://digitalaccessibility.unc.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "North Carolina",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "North Carolina Executive Order 24 (signed Sept 2, 2025) established the NC AI Leadership Council and the NC AI Accelerator within NC DIT. The order's operational mandate applies only to state agencies under G.S. 143B-1320(a)(17) and does not legally bind UNC System universities. The UNC System itself has no system-wide AI policy — each institution sets its own. UNC-Chapel Hill is a dominant voice on the state council (4 of its affiliates named, including SDSS Dean Stan Ahalt).",
+    "urls": [
+      "https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians",
+      "https://myapps.northcarolina.edu/learningtech/",
+      "https://canons.sog.unc.edu/blog/2025/10/13/artificial-intelligence-government-and-the-law-updates-from-a-year-of-rapid-change/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-01",
+      "summary": "Student paper and national press coverage questioned the ethics of UNC using AI (Slate AI, PEG) to score admissions essays while its Honor Code prohibits applicants from using AI to generate essays. No formal litigation filed.",
+      "status": "active",
+      "url": "https://www.dailytarheel.com/article/2025/01/university-ai-followup"
+    },
+    {
+      "date": "2025-09",
+      "summary": "Daily Tar Heel investigation documented UNC's lack of a standardized, university-wide AI policy, arguing faculty discretion creates inconsistent student expectations across courses.",
+      "status": "unknown",
+      "url": "https://dailytarheel.com/article/investigations-ai-changing-education-landscape-20250928"
+    },
+    {
+      "date": "2026-04",
+      "summary": "Chief AI Officer Jeffrey Bardzell announced departure for Worcester Polytechnic Institute after only ~6 months in the role; UNC must run an interim search while still building the new AI school.",
+      "status": "active",
+      "url": "https://chapelboro.com/news/unc/uncs-announces-departure-of-chief-artificial-intelligence-officer-seeks-replacement"
+    }
+  ],
+  "narrative_summary": "UNC-Chapel Hill has moved aggressively from individual-unit experimentation to institution-wide AI posture between 2023 and 2026. Chancellor Lee Roberts, installed in 2024, made AI a top priority and frames Carolina's ambition as becoming an 'AI university.' The strategy is structured around three tracks: research (led by Vice Chancellor Penny Gordon-Larsen and a March 2026 AI Research Roadmap), operations (CIO Mike Barker with Microsoft Copilot rollout, policy-code search, and NCShare GPU-as-a-service), and teaching (via the Provost, including the AI Acceleration Program's cloud-credit grants up to $250K over 3 years). The most consequential structural move is the October 2025 decision to merge the School of Data Science and Society with the School of Information and Library Science into a new AI-focused school operational by July 2026, led by Stan Ahalt as inaugural dean. A Vice Provost for AI / Chief AI Officer role was created in the same move, though its first holder (Jeffrey Bardzell) announced a departure to WPI in spring 2026, leaving the role in interim status. On the ground, Microsoft Copilot with Data Protection is deployed to all 30,000+ students and faculty/staff; the library-run PromptLab gives the campus a multi-model (ChatGPT/Claude/Gemini) alternative; the Kenan-Flagler Business School runs its own BlueChipAI platform via Cloudforce; and a Library AI Studio in Davis Library plus a first-year Carolina AI Literacy Initiative push AI fluency into the student experience. Research centers include the 2024-launched Gillings Center for AI and Public Health, the Philosophy Department's AI Project (2023), RENCI, the Odum Institute, and the Microsoft Azure AI Developer Lab. On policy, UNC has deliberately chosen distributed guidance over a single binding AUP: a Generative AI Committee (est. 2023) produces guidance by audience (faculty, students, staff, researchers, graders), each school owns its class-level policy, and a Data Governance Oversight Group gates sensitive-data AI use. Controversies cluster around the long-running use of Slate AI and PEG to score admissions essays while UNC's own Honor Code forbids applicants from using AI — a tension the student press has flagged. External influence is outsized: four Carolina affiliates sit on Gov. Stein's NC AI Leadership Council, giving UNC a lead role in shaping North Carolina's forthcoming AI strategic roadmap.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill (Opus 4.7 1M)",
+    "sources": [
+      "https://www.unc.edu/story/ai-research-at-carolina/",
+      "https://www.unc.edu/posts/2026/03/05/research-is-at-the-heart-of-carolinas-ai-work/",
+      "https://aip.unc.edu/",
+      "https://www.avantgardenews.com/news/unc-chapel-hill-unveils-ai-strategic-research-roadmap-20260307",
+      "https://dailytarheel.com/article/university-breaking-school-of-ai-20251009",
+      "https://www.unc.edu/posts/2025/09/11/4-carolina-faculty-staff-named-to-nc-ai-leadership-council/",
+      "https://edscoop.com/unc-to-consolidate-colleges-to-create-ai-school/",
+      "https://dailytarheel.com/article/university-ai-becoming-integral-to-unc-year-in-review-2025-20251201",
+      "https://handbook.unc.edu/generativeai.html",
+      "https://ai.unc.edu/research-generative-ai-usage-guidance/",
+      "https://provost.unc.edu/discover-ai-carolina/staff-generative-ai-usage-guide/",
+      "https://dailytarheel.com/article/investigations-ai-changing-education-landscape-20250928",
+      "https://operationalexcellence.unc.edu/generative-ai-guidelines/",
+      "https://www.unc.edu/posts/2023/09/12/committee-guides-use-of-generative-ai/",
+      "https://dailytarheel.com/article/university-bot-governance-advisory-committee-oct-27-20251030",
+      "https://dailytarheel.com/article/city-nc-artificial-intelligence-council-20251008",
+      "https://www.unc.edu/posts/2025/10/09/development-of-a-new-school-at-carolina/",
+      "https://www.theassemblync.com/news/education/higher-education/unc-chapel-hill-chancellor-ai-priority/",
+      "https://chapelboro.com/news/unc/uncs-announces-departure-of-chief-artificial-intelligence-officer-seeks-replacement",
+      "https://catalog.unc.edu/about/administrative-officers/",
+      "https://www.theeduledger.com/institutions/article/15769166/unc-merges-information-and-data-science-schools-names-new-ai-vice-provost",
+      "https://www.theassemblync.com/news/education/higher-education/unc-chapel-hill-merge-library-data-science-ai/",
+      "https://careers.ncsea.com/jobs/21626904/chief-ai-officer",
+      "https://www.edtechinnovationhub.com/news/university-of-north-carolina-to-appoint-first-chief-artificial-intelligence-officer-as-sector-formalizes-ai-leadership",
+      "https://its.unc.edu/2024/02/22/expanded-access-to-copilot/",
+      "https://its.unc.edu/ai/copilot-for-microsoft-365/",
+      "https://its.unc.edu/ai/",
+      "https://its.unc.edu/ai/copilot/",
+      "https://x.com/UNCTarHeelTech/status/1762841380383052283",
+      "https://its.unc.edu/2023/12/01/copilot-questions/",
+      "https://guides.lib.unc.edu/GenAI/copilot",
+      "https://learningcenter.unc.edu/tips-and-tools/generative-ai-for-academic-study/",
+      "https://its.unc.edu/2024/05/08/boosting-productivity-with-copilot-ai/",
+      "https://www.unc.edu/school/school-of-data-science-and-society/",
+      "https://catalog.unc.edu/graduate/schools-departments/data-science-society/",
+      "https://datascience.unc.edu/mads/",
+      "https://www.unc.edu/posts/2025/11/20/school-of-data-science-and-society-announces-new-professional-degree-programs/",
+      "https://catalog.unc.edu/undergraduate/programs-study/data-science-major-bs/",
+      "https://www.edx.org/masters/online-masters-in-data-science/unc-master-of-applied-data-science",
+      "https://research.unc.edu/ai/",
+      "https://images.businessnc.com/wp-content/uploads/2025/06/UNC-RESEARCH_Research_NC_July2025_web.pdf",
+      "https://aiacceleration.unc.edu/",
+      "https://www.unc.edu/posts/2025/01/17/join-carolinas-new-ai-community/",
+      "https://campaign.unc.edu/story/analyzing-artificial-intelligence/",
+      "https://help.rc.unc.edu/longleaf-cluster/",
+      "https://help.rc.unc.edu/gpu/",
+      "https://its.unc.edu/research-computing/",
+      "https://give.unc.edu/",
+      "https://giving.unc.edu/2025/03/what-is-carolinas-endowment/",
+      "https://admissions.unc.edu/faqs/does-undergraduate-admissions-use-ai-and-why/",
+      "https://edscoop.com/unc-uses-ai-to-auto-score-enrollment-application-essays/",
+      "https://www.dailytarheel.com/article/2025/01/university-ai-followup",
+      "https://bootcamp.unc.edu/artificial-intelligence/",
+      "https://www.unc.edu/posts/2024/10/09/lee-h-roberts-aims-to-keep-pace-with-an-evolving-future/",
+      "https://www.unc.edu/posts/2025/10/14/three-with-lee-3/",
+      "https://cs.unc.edu/news-article/unc-cs-showcases-foundational-ai-research-powering-discoveries-across-carolina/",
+      "https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians",
+      "https://canons.sog.unc.edu/blog/2025/10/13/artificial-intelligence-government-and-the-law-updates-from-a-year-of-rapid-change/",
+      "https://www.nasbe.org/opportunities-and-challenges-insights-from-north-carolinas-ai-guidelines/",
+      "https://myapps.northcarolina.edu/learningtech/",
+      "https://www.unc.edu/posts/2025/06/12/welcome-to-the-library-ai-studio/",
+      "https://www.unc.edu/posts/2026/02/04/university-library-unveils-generative-ai-tool-customized-for-tar-heels/",
+      "https://library.unc.edu/ai/library-ai-studio/promptlab/",
+      "https://library.unc.edu/ai/",
+      "https://dailytarheel.com/article/university-libraries-ai-center-20250828",
+      "https://library.unc.edu/news/welcome-to-the-ai-studio/",
+      "https://library.unc.edu/ai/library-ai-studio/",
+      "https://library.unc.edu/news/promptlab-gives-tar-heels-a-way-to-explore-top-generative-ai-models/",
+      "https://www.unc.edu/posts/2025/11/13/librarian-and-english-professor-build-ai-literacy/",
+      "https://www.unc.edu/posts/2025/04/09/google-backs-tar-heels-ai-research/",
+      "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/",
+      "https://www.unc.edu/posts/2025/06/13/ncshare-partnership-to-bolster-carolinas-ai-research-capacity/",
+      "https://www.unc.edu/posts/2025/09/16/ai-acceleration-program-helps-student-design-proteins/",
+      "https://www.unc.edu/posts/2025/11/12/magnus-egerstedt-named-executive-vice-chancellor-and-provost/",
+      "https://www.unc.edu/about/leadership/",
+      "https://www.unc.edu/about/by-the-numbers/",
+      "https://sph.unc.edu/resource-pages/caiph/",
+      "https://gillings-projects.unc.edu/cph-articles/new-gillings-school-center-will-leverage-ai-for-improved-public-health",
+      "https://renci.org/",
+      "https://ai.unc.edu/school/renci-renaissance-computing-institute/",
+      "https://uncnews.unc.edu/2025/03/26/ai-experts-available-for-interviews/",
+      "https://global.unc.edu/news-story/unc-chapel-hill-drives-global-conversations-about-ai-in-education-and-society/",
+      "https://digitalaccessibility.unc.edu/",
+      "https://www.unc.edu/about/accessibility/",
+      "https://www.wral.com/news/local/unc-ai-public-good-conference-health-medical-april-2026/"
+    ],
+    "search_queries": [
+      "\"UNC Chapel Hill\" AI strategy 2025 2026 artificial intelligence",
+      "\"UNC Chapel Hill\" generative AI policy guidelines faculty staff",
+      "\"UNC Chapel Hill\" AI committee OR council OR task force governance",
+      "\"UNC Chapel Hill\" chief AI officer OR chief information officer 2025",
+      "\"UNC Chapel Hill\" Microsoft Copilot OR ChatGPT Edu OR Claude for Education deployment",
+      "\"UNC Chapel Hill\" School of Data Science Society AI degree certificate",
+      "\"UNC Chapel Hill\" AI research center OR institute launch funding 2025",
+      "\"UNC Chapel Hill\" GPU supercomputer HPC Longleaf",
+      "\"UNC Chapel Hill\" AI gift OR donation OR endowment million NSF grant",
+      "\"UNC Chapel Hill\" AI chatbot students predictive analytics retention admissions",
+      "\"UNC Chapel Hill\" Lee Roberts chancellor AI university vision",
+      "\"UNC system\" AI policy \"North Carolina\" higher education executive order",
+      "\"UNC Chapel Hill\" AI literacy library PromptLab AI Studio Davis Library",
+      "\"UNC Chapel Hill\" AI partnership industry Microsoft Google announcement 2025",
+      "\"UNC Chapel Hill\" enrollment total undergraduate graduate 2025",
+      "\"UNC Chapel Hill\" Kevin Guskiewicz OR Chris Clemens provost",
+      "\"UNC Chapel Hill\" provost 2025 2026 interim executive vice chancellor",
+      "\"UNC Chapel Hill\" Gillings AI Public Health center funding director",
+      "\"UNC Chapel Hill\" AI ethics RENCI Renaissance Computing Institute",
+      "\"UNC Chapel Hill\" AI cheating FERPA academic integrity controversy lawsuit",
+      "\"UNC Chapel Hill\" AI accessibility digital equity underrepresented"
+    ],
+    "gaps_acknowledged": [
+      "Specific dollar amounts for internal AI Acceleration Program aggregate award pool, BlueChipAI donor gifts, and the new AI school's budget are not publicly disclosed.",
+      "PromptLab and Microsoft Copilot user counts are not publicly reported; enrollment total used as a proxy ceiling.",
+      "No evidence of a predictive-analytics retention chatbot or mental-health AI service deployed at campus scale was found.",
+      "Exact Longleaf GPU totals vary by source; stated count (~256) is an approximate sum of reported L40S/A100/Volta/1080 inventories.",
+      "Slate AI and PEG adoption dates are described as 'at least 2020' — exact go-live not published.",
+      "Interim Chief AI Officer name (post-May 2026) not publicly named as of Apr 22, 2026.",
+      "Data Governance Oversight Group membership and meeting cadence not public.",
+      "Master of Applied Data Science original launch date not found on program page; newer MS/PhD approved Nov 2025."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "research_compute_powerhouse",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 23,
+        "research_compute_powerhouse": 18,
+        "curriculum_led": 13,
+        "governance_led": 14,
+        "student_success_led": 9,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-09",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Longleaf",
+        "gpu_count": 256,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 2,
+        "public_federal_state": 5,
+        "industry_vendor": 5,
+        "institutional": 5,
+        "other_unclear": 2
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 5,
+      "service_type_counts": {
+        "other": 4,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 7,
+          "products": [
+            "Azure",
+            "BlueChipAI (nebulaONE)",
+            "BlueChipAI (powered by nebulaONE)",
+            "Copilot Chat with Data Protection (free tier)",
+            "Copilot for Microsoft 365",
+            "Copilot for Microsoft 365 (premium)",
+            "Copilot with Data Protection"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "PromptLab (multi-model ChatGPT/Claude/Gemini platform)"
+          ]
+        },
+        {
+          "vendor": "Measurement Incorporated Project Essay Grade (PEG)",
+          "mentions": 2,
+          "products": [
+            "Project Essay Grade (PEG)"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 1,
+          "products": [
+            "Firefly / Sensei (Creative Cloud AI)"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        },
+        {
+          "vendor": "Technolutions Slate AI",
+          "mentions": 1,
+          "products": [
+            "Slate AI"
+          ]
+        },
+        {
+          "vendor": "Technolutions Slate AI (admissions holistic scoring)",
+          "mentions": 1,
+          "products": [
+            "Slate AI (admissions holistic scoring)"
+          ]
+        },
+        {
+          "vendor": "UNC University Library PromptLab",
+          "mentions": 1,
+          "products": [
+            "PromptLab"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 1,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "PromptLab multi-model AI platform (Library)",
+          "summary": "Gives campus a vendor-neutral way to access frontier models beyond what Microsoft Copilot offers, inside university-controlled infrastructure.",
+          "source_url": "https://library.unc.edu/ai/library-ai-studio/promptlab/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "BlueChipAI (Kenan-Flagler Business School)",
+          "summary": "Domain-specific AI platform model — illustrates how professional schools are building their own GenAI environments in addition to the campus-wide default.",
+          "source_url": "https://www.unc.edu/posts/2025/09/15/bluechipai-platform-launched-at-business-school/"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 11,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "Specific dollar amounts for internal AI Acceleration Program aggregate award pool, BlueChipAI donor gifts, and the new AI school's budget are not publicly disclosed.",
+        "PromptLab and Microsoft Copilot user counts are not publicly reported; enrollment total used as a proxy ceiling.",
+        "No evidence of a predictive-analytics retention chatbot or mental-health AI service deployed at campus scale was found.",
+        "Exact Longleaf GPU totals vary by source; stated count (~256) is an approximate sum of reported L40S/A100/Volta/1080 inventories.",
+        "Slate AI and PEG adoption dates are described as 'at least 2020' — exact go-live not published.",
+        "Interim Chief AI Officer name (post-May 2026) not publicly named as of Apr 22, 2026.",
+        "Data Governance Oversight Group membership and meeting cadence not public.",
+        "Master of Applied Data Science original launch date not found on program page; newer MS/PhD approved Nov 2025."
+      ]
+    }
+  }
+}

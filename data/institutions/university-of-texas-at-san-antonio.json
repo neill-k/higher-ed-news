@@ -1,0 +1,1385 @@
+{
+  "institution": "University of Texas at San Antonio",
+  "slug": "university-of-texas-at-san-antonio",
+  "city_state": "San Antonio, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 40000,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Taylor Eighmy",
+      "url": "https://www.utsa.edu/president/biography/"
+    },
+    "provost": {
+      "name": "Heather Shipley",
+      "url": "https://provost.utsa.edu/about/personnel.html"
+    },
+    "cio": {
+      "name": "Michael Schnabel",
+      "url": "https://news.utsa.edu/2025/10/presidents-cabinet-announces-updates-to-functional-integration-process-and-roles/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Steve Wilkerson",
+      "title": "Senior Vice Provost for Strategic Analytics and Integrated Systems (Co-chair, AI Initiative Task Force)",
+      "url": "https://provost.utsa.edu/initiatives/artificial-intelligence/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence Initiative (Provost's Task Force)",
+        "url": "https://provost.utsa.edu/initiatives/artificial-intelligence/",
+        "year": 2025
+      },
+      {
+        "title": "Shaping the Future of AI, Cyber, Computing, and Data Science at UTSA — Strategic Plan Initiative",
+        "url": "https://www.utsa.edu/strategicplan/initiatives/academic/ai-cyber-computing-data-science/",
+        "year": 2024
+      },
+      {
+        "title": "Using Generative AI in Teaching, Learning and Research — UTSA Faculty Guidelines",
+        "url": "https://provost.utsa.edu/academicinnovation/docs/genai_faculty_guide/utsa-faculty_generativeai_guidelines.pdf",
+        "year": 2024
+      }
+    ],
+    "summary": "UT San Antonio pursues a coordinated, institution-wide AI posture anchored in its strategic plan and operationalized through a Provost's AI Initiative Task Force (launched October 2025, recommendations due March 2026). The strategy pairs a new College of AI, Cyber and Computing (launched September 1, 2025) with academic-innovation guidelines that emphasize adoption, experimentation, and faculty discretion over restrictive policy. Post-merger with UT Health San Antonio (also September 1, 2025), AI is positioned as a lever for the enterprise's research excellence, student success, and San Antonio regional workforce destinations."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://provost.utsa.edu/academicinnovation/docs/genai_faculty_guide/utsa-faculty_generativeai_guidelines.pdf",
+      "https://provost.utsa.edu/academicinnovation/artificial-intelligence/faculty-guide.html",
+      "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html",
+      "https://odl.utsa.edu/suggested-syllabus-statements/"
+    ],
+    "adopted_date": "2024-09",
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Guidelines over rigid policy, developed with IDC, Gartner, legal, and cybersecurity input",
+      "Microsoft 365 Copilot is the only UTSA-approved enterprise AI tool (commercial data protection)",
+      "Faculty choose syllabus-level stance via provided sample statements",
+      "Data privacy — use generic or fictional data; review tool privacy agreements",
+      "AI Essentials student module and faculty GenAI hub",
+      "GenAI Peer Learning Network (faculty-led, founded January 2023)"
+    ],
+    "summary": "UTSA chose adoption guidelines rather than restrictive policy, explicitly framed by VP Academic Innovation Melissa Vito and then-VP IM&T Kendra Ketchum as a learning-first posture because 'we have all the policies we need.' Microsoft 365 Copilot with commercial data protection is the sole approved enterprise tool, and faculty set syllabus-level expectations from UTSA-supplied templates that span permissive, restrictive, and hybrid stances."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Provost's Artificial Intelligence Initiative Task Force",
+        "type": "task_force",
+        "scope": "25 voting members across faculty, staff, students, and administration; co-chaired by SVP Steve Wilkerson and Dean Glenn Martinez; integrates AI into academic and administrative workplans; recommendations due March 2026",
+        "url": "https://provost.utsa.edu/initiatives/artificial-intelligence/"
+      },
+      {
+        "name": "GenAI Peer Learning Network",
+        "type": "committee",
+        "scope": "Faculty + Academic Innovation staff community of practice examining generative AI teaching and learning strategies",
+        "url": "https://provost.utsa.edu/academicinnovation/artificial-intelligence/faculty-guide.html"
+      },
+      {
+        "name": "Office of Academic Innovation (AI leadership unit)",
+        "type": "office",
+        "scope": "Leads GenAI faculty/student guidance, AI Essentials, Student AI Partner internship, and microcredential programs; led by VP Melissa Vito",
+        "url": "https://innovation.utsa.edu/strategic-initiatives/"
+      },
+      {
+        "name": "College of AI, Cyber and Computing",
+        "type": "office",
+        "scope": "Academic college housing Computer Science, Computer Engineering, Information Systems & Cybersecurity, Statistics & Data Science; interim dean Fred Martin",
+        "url": "https://caicc.utsa.edu/"
+      },
+      {
+        "name": "MATRIX: UTSA AI Consortium for Human Well-Being",
+        "type": "council",
+        "scope": "Cross-college research consortium of 70+ (reported up to 87) faculty across augmenting human capabilities, machine learning deployment, neuro-inspired AI, and trustworthy AI",
+        "url": "https://ai.utsa.edu/"
+      }
+    ],
+    "summary": "UTSA's AI governance is distributed across Academic Affairs (AI Initiative Task Force, Academic Innovation), the new College of AI, Cyber and Computing, and the MATRIX AI research consortium. The task force formally integrates academic and administrative AI adoption beginning October 2025, with CIO Michael Schnabel overseeing the merged enterprise's technology environment."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of the College of AI, Cyber and Computing",
+      "description": "UT San Antonio launched Texas's first College of AI, Cyber and Computing on September 1, 2025, integrating Computer Science, Computer Engineering, Information Systems & Cybersecurity, and Statistics & Data Science into a single college serving 5,300+ students at the downtown San Pedro I campus, with San Pedro II opening in spring 2026.",
+      "significance": "A sector-first institutional restructuring that consolidates AI, cyber, computing, and data science into one college — a model several R1 peers are watching for how to operationalize AI as a core academic identity rather than a cross-cutting theme.",
+      "date_announced": "2024-12-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_native_institution",
+        "ai_degree_program",
+        "ai_research_center",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 2000000,
+        "funding_source": "USAA gift for scholarships, student success center, research infrastructure",
+        "description": "Named gift of $2M from USAA launched the college's student success center and scholarship pipeline; college expected to enroll 5,000+ undergrad/grad students."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "USAA"
+          ],
+          "description": "USAA $2M philanthropic gift underwrites the USAA Student Success Center and scholarships."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "City of San Antonio",
+            "San Antonio tech ecosystem"
+          ],
+          "description": "Downtown San Pedro I/II campuses anchor the college in the city's urban core, reinforcing San Antonio as the largest cybersecurity hub outside Washington, D.C."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Signals that institutions can treat AI/cyber/computing as a single strategic academic unit rather than distributing it across Engineering, Business, and Arts & Sciences.",
+      "source_urls": [
+        "https://news.utsa.edu/2025/09/new-college-of-ai-cyber-and-computing-launched-at-ut-san-antonio/",
+        "https://caicc.utsa.edu/",
+        "https://www.utsa.edu/today/2024/12/story/utsa-announces-college-of-ai-cyber-and-computing.html",
+        "https://www.govtech.com/education/higher-ed/utsa-gives-details-on-college-of-ai-cyber-and-computing"
+      ]
+    },
+    {
+      "title": "Provost's AI Initiative Task Force",
+      "description": "The Provost launched a 25-voting-member AI Initiative Task Force in October 2025, co-chaired by SVP Steve Wilkerson and Dean Glenn Martinez, to integrate AI into faculty, staff, and college workplans and streamline guidance across academic and administrative settings. Recommendations are due to the Provost in March 2026.",
+      "significance": "Formalizes campus-wide AI adoption governance immediately after the UTSA/UT Health merger, giving the newly combined enterprise a single cross-functional body to align AI policy, tooling, and workforce readiness.",
+      "date_announced": "2025-10-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost operating funds",
+        "description": "Internal task force; budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal UTSA task force with 25 voting members and 3 Academic Affairs resource members."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a formal process for UTSA to move from guidance to institutional strategy and potentially enterprise-wide policy in 2026.",
+      "source_urls": [
+        "https://provost.utsa.edu/initiatives/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "AI Essentials student guide and Faculty GenAI resource hub",
+      "description": "Academic Innovation launched 'AI Essentials: Guidelines & Approaches' as an interactive learning module for all UTSA students (September 2024) alongside 'Using Generative AI in Teaching, Learning and Research' — a full faculty hub of guidelines, sample syllabus statements, and ethical-use guidance. UTSA also operates a GenAI Peer Learning Network convening faculty since January 2023.",
+      "significance": "One of the earliest large-R1 launches of a campus-wide student-facing GenAI literacy module with faculty-parallel resources; a reference model for institutions choosing guidance over policy.",
+      "date_announced": "2024-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "syllabus_level_policy",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of Academic Innovation",
+        "description": "Developed in-house by Academic Innovation, Student Success, and the Student Government Association."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT System institutions"
+          ],
+          "description": "Content informed by the UT System Conference on Innovating Teaching & Learning (March 2024)."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Essentials Module",
+          "vendor": "UTSA Academic Innovation",
+          "role": "Interactive student GenAI literacy module"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Sets a campus precedent that GenAI literacy is a shared responsibility, not a classroom-specific policy question.",
+      "source_urls": [
+        "https://news.utsa.edu/2024/09/utsa-launches-ai-essentials-guide-to-equip-students-for-genai/",
+        "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html",
+        "https://provost.utsa.edu/academicinnovation/artificial-intelligence/faculty-guide.html"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot as sole approved enterprise AI tool",
+      "description": "UTSA chose Microsoft 365 Copilot — leveraging existing Microsoft 365 licensing — as the only UTSA-approved generative AI tool, citing commercial data protection that prevents UTSA information from being used to train third-party models. Rollout was informed by IDC, Gartner, legal, and cybersecurity consultation and made available to all faculty, staff, and students.",
+      "significance": "Demonstrates a pragmatic 'start with what you own' vendor strategy that many R1s are replicating, using Microsoft licensing as the on-ramp for enterprise GenAI rather than stand-alone ChatGPT Edu or Claude for Education contracts.",
+      "date_announced": "2024-10-25",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Existing Microsoft 365 licensing agreement",
+        "description": "Leveraged existing UTSA Microsoft 365 enterprise agreement; Copilot license available to all users."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise Microsoft 365 Copilot deployment with commercial data protection."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Sole approved enterprise GenAI assistant"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Standardizes a single vetted vendor for sensitive data workflows while still allowing faculty discretion on pedagogical tools.",
+      "source_urls": [
+        "https://www.cio.com/article/3568106/guidelines-not-policies-the-university-of-texas-at-san-antonios-approach-to-gen-ai.html",
+        "https://www.utsa.edu/techsolutions/FacAndStaff/AvailableSoftware/Microsoft%20Copilot.html",
+        "https://www.utsa.edu/techsolutions/_files/pdf/MS%20Copilot%20Intro%20Packet.pdf"
+      ]
+    },
+    {
+      "title": "MATRIX AI Consortium for Human Well-Being",
+      "description": "MATRIX is UTSA's cross-disciplinary AI research consortium with 70+ (up to 87 reported) faculty across four pillars: augmenting human capabilities, machine learning deployment, neuro-inspired AI, and trustworthy AI. It has anchored multiple multi-million-dollar NSF and DoD research awards.",
+      "significance": "A template for how an emerging R1 can build AI research mass without a Stanford-scale dedicated institute by federating existing faculty around shared strategic themes and external grants.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 9800000,
+        "funding_source": "NSF (THOR $4M + EFRI $2M + Partner Institute $2.8M) + TRC4 trauma AI $1M",
+        "description": "Combined NSF and DoD awards totaling ~$9.8M across THOR neuromorphic commons, neuro-inspired AI partner institute, EFRI lifelong learning, and trauma-care AI."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF awards including THOR ($4M), EFRI ($2M), and partner institute ($2.8M)."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Health San Antonio",
+            "UT Tyler"
+          ],
+          "description": "Collaborative $1M TRC4 trauma-care AI project across three Texas institutions."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Positions UTSA/UT San Antonio as a federal-priority hub for neuromorphic and trustworthy AI research.",
+      "source_urls": [
+        "https://ai.utsa.edu/",
+        "https://ai.utsa.edu/the-university-of-texas-at-san-antonio-receives-4-million-grant-to-set-up-a-national-hub-for-large-scale-neuromorphic-computing-from-the-national-science-foundation/",
+        "https://news.utsa.edu/2023/10/matrix-ai-receives-2-8m-nsf-grant-to-establish-neuro-inspired-ai-institute/",
+        "https://www.utsa.edu/today/2024/02/story/matrix-consortium-to-establish-new-center-for-AI-research.html",
+        "https://www.utsa.edu/today/2024/05/story/researchers-use-AI-to-improve-trauma-care.html"
+      ]
+    },
+    {
+      "title": "UTSA Center for Data Science",
+      "description": "The UTSA School of Data Science transitioned into the Center for Data Science as an organized research unit effective September 1, 2025, approved by the Deans Research Council in June 2025. It includes 50+ affiliated faculty from seven colleges under founding director Anthony Rios, with focus areas in generative AI, quantum computing, and healthcare analytics.",
+      "significance": "Demonstrates a deliberate pivot from a teaching-first 'school' structure to a research-first 'center' model as the new College of AI, Cyber and Computing absorbs the academic programs.",
+      "date_announced": "2025-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "institutional_restructuring",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "quantum_and_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UTSA Deans Research Council / Office of Research",
+        "description": "Internally funded as an organized research unit spanning seven colleges."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Seven UTSA colleges"
+          ],
+          "description": "Cross-college center with 50+ affiliated faculty."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Clarifies that AI/data research at UTSA now lives in a research unit while academic programs consolidate into the new college.",
+      "source_urls": [
+        "https://news.utsa.edu/2025/08/utsa-school-of-data-science-to-transition-into-new-research-center/",
+        "https://caicc.utsa.edu/research/centers/data-science-center.html"
+      ]
+    },
+    {
+      "title": "UTSA x Tec de Monterrey dual master's in AI",
+      "description": "On March 11, 2025, UTSA President Taylor Eighmy and Tecnológico de Monterrey Executive President David Garza signed an agreement establishing a binational dual master's degree program in AI. Graduates earn both a UTSA Master of Science in Artificial Intelligence and a Tec de Monterrey Master in Applied Artificial Intelligence.",
+      "significance": "One of the first binational dual-degree AI programs at the graduate level between a U.S. R1 and a top Mexican research university, creating an immediate North American AI talent pipeline.",
+      "date_announced": "2025-03-11",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_workforce_training",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UTSA and Tec de Monterrey institutional funds",
+        "description": "Joint MOU-based dual-degree; financial details not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "Tecnológico de Monterrey"
+          ],
+          "description": "Binational dual-degree program between UTSA and Tec de Monterrey."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a model for cross-border AI graduate pipelines under USMCA-era workforce alignment.",
+      "source_urls": [
+        "https://news.utsa.edu/2025/03/utsa-and-tec-de-monterrey-launch-dual-masters-program-in-ai/",
+        "https://future.utsa.edu/programs/master/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Student AI Partner Internship",
+      "description": "In April 2025 UTSA launched a paid Student AI Partner Internship engaging 12 undergraduates as campus trailblazers — testing GenAI tools, supporting peers and faculty, piloting classroom and operations projects, and serving as AI ambassadors. Interns earn AI and communication microcredentials during the program.",
+      "significance": "A rare student-employee model for AI adoption that treats students as co-designers of campus AI rather than end users or test subjects.",
+      "date_announced": "2025-04-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "ai_literacy_requirement",
+        "career_and_workforce_readiness",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Academic Innovation + Student Success",
+        "description": "Paid internship for 12 undergrad students with microcredential training."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [
+            "UTSA Academic Innovation",
+            "UTSA Student Success"
+          ],
+          "description": "Internal cross-unit partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Primary enterprise GenAI tool interns test and support"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Provides a low-cost staffing model other R1s can replicate to scale AI adoption support.",
+      "source_urls": [
+        "https://news.utsa.edu/2025/04/new-utsa-internship-empowers-students-to-lead-in-ai-innovation/",
+        "https://provost.utsa.edu/academicinnovation/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "UTSA/UT Health San Antonio merger — research-enterprise AI scale-up",
+      "description": "Effective September 1, 2025, UTSA and UT Health San Antonio merged to become The University of Texas at San Antonio — 40,000 students, 17,000 employees, $486M annual research, and the largest U.S. university integration by research dollars and endowment since 2013. CIO Michael Schnabel became the merged enterprise's VP/CIO effective October 1, 2025, overseeing AI-relevant IT enablement.",
+      "significance": "The largest U.S. R1 + AHC integration in over a decade, creating a combined AI research and healthcare analytics footprint across 15 colleges and 6 campuses — a structural change many state systems are evaluating.",
+      "date_announced": "2025-09-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "business_model_disruption",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "transformative",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "researchers",
+        "faculty",
+        "students",
+        "board_and_trustees",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 486000000,
+        "funding_source": "Combined UT System enterprise",
+        "description": "Merged enterprise reports $486M in annual research expenditures and ranks as the third-largest public research university in Texas."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Health San Antonio",
+            "University of Texas System"
+          ],
+          "description": "UT System-sanctioned institutional merger approved by SACSCOC."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Forces the rapid consolidation of IT, data, and AI governance across previously distinct research and clinical enterprises.",
+      "source_urls": [
+        "https://news.utsa.edu/2025/09/utsa-and-ut-health-san-antonio-complete-merger-to-become-the-university-of-texas-at-san-antonio/",
+        "https://news.utsa.edu/2025/06/sacscoc-approves-merger-of-utsa-and-ut-health-san-antonio/",
+        "https://utsanantoniotogether.org/"
+      ]
+    },
+    {
+      "title": "MD/MSAI dual degree — first in the nation",
+      "description": "UTSA offers an MD/MSAI dual degree described as the first of its kind in the country, integrating the medical program (post-merger with UT Health San Antonio) with the Master of Science in Artificial Intelligence from the College of AI, Cyber and Computing.",
+      "significance": "Signals a new class of clinician-AI practitioners trained at the intersection of medicine and AI engineering — a model other AHC-R1 mergers will watch closely.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (College of AI, Cyber and Computing + Long School of Medicine)",
+        "description": "Dual-degree structure reuses existing MD and MSAI programs."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Health San Antonio Long School of Medicine"
+          ],
+          "description": "Dual-degree across the newly merged UT San Antonio."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Expands the AI-educated clinical workforce and explicitly invites discussion of AI-in-healthcare ethics at program design.",
+      "source_urls": [
+        "https://future.utsa.edu/programs/master/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Arc HPC cluster with NVIDIA GPU nodes for AI research",
+      "description": "UTSA Research Computing operates Arc, a 156-node Dell EMC PowerEdge HPC cluster delivering 353 teraflops — a nearly 200 TF uplift over the legacy Shamu cluster. Arc includes 30 V100-equipped nodes, 5 dual-V100 nodes, and 2 A100 80GB nodes with 1TB RAM each, available free to UTSA researchers.",
+      "significance": "Provides a mid-tier university a credible on-prem AI training environment — cheaper and faster to schedule than cloud GPU hours for many federally funded projects.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UTSA operating budget + Dell grant (partial)",
+        "description": "Dell EMC hardware partially funded by a Dell grant; detailed dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Dell Technologies",
+            "NVIDIA"
+          ],
+          "description": "Dell PowerEdge + NVIDIA V100/A100 GPU infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Arc HPC cluster",
+          "vendor": "Dell / NVIDIA",
+          "role": "On-prem GPU/CPU compute for AI research"
+        },
+        {
+          "name": "Shamu (legacy)",
+          "vendor": "UTSA Research Computing",
+          "role": "Legacy HPC cluster (still referenced)"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Lowers the cost-to-entry for UTSA researchers seeking GPU-backed AI pipelines.",
+      "source_urls": [
+        "https://www.utsa.edu/techsolutions/ResearchSupport/hpc.html",
+        "https://hpcsupport.utsa.edu/foswiki/bin/view/ARC/WebHome",
+        "https://www.hpcwire.com/off-the-wire/ut-san-antonio-receives-dell-grant-to-support-hpc-new-research-infrastructure/"
+      ]
+    },
+    {
+      "title": "Data Science & AI Bootcamp with Institute of Data",
+      "description": "UTSA partners with the Institute of Data on a continuing-education Data Science & AI bootcamp aimed at working professionals and career switchers, delivered through UTSA's PaCE unit.",
+      "significance": "Adds a non-credit workforce-training layer on top of the new College of AI, Cyber and Computing's credit programs, broadening the regional talent pipeline.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded continuing education",
+        "description": "Non-credit bootcamp delivered via UTSA PaCE + Institute of Data."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Institute of Data"
+          ],
+          "description": "External industry partner for curriculum delivery."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Data Science & AI Bootcamp",
+          "vendor": "Institute of Data",
+          "role": "Continuing-education AI training partner"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Formalizes a non-credit AI upskilling pathway aligned with regional workforce demand.",
+      "source_urls": [
+        "https://techbootcamp.utsa.edu/datascienceai",
+        "https://www.utsa.edu/pace/artificial-intelligence-certificates.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "MATRIX: UTSA AI Consortium for Human Well-Being",
+      "focus": "Augmenting human capabilities; machine learning deployment; neuro-inspired AI; trustworthy AI; health disparities; neuromorphic computing",
+      "founded": "2019",
+      "url": "https://ai.utsa.edu/"
+    },
+    {
+      "name": "UTSA Center for Data Science",
+      "focus": "Generative AI, quantum computing, healthcare analytics; 50+ affiliated faculty across seven colleges; director Anthony Rios",
+      "founded": "2025",
+      "url": "https://caicc.utsa.edu/research/centers/data-science-center.html"
+    },
+    {
+      "name": "The Neuromorphic Commons (THOR)",
+      "focus": "NSF-funded national hub for large-scale neuromorphic computing research (energy-efficient AI)",
+      "founded": "2024",
+      "url": "https://www.aiwire.net/2024/10/31/ut-san-antonio-secures-4-million-nsf-grant-for-neuromorphic-computing-project/"
+    },
+    {
+      "name": "Institute for Cyber Security (ICS) / Center for Security and Privacy Enhanced Cloud Computing (C-SPECC)",
+      "focus": "Cybersecurity and AI risk research aligned with the College of AI, Cyber and Computing",
+      "founded": null,
+      "url": "https://caicc.utsa.edu/research/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Master of Science in Artificial Intelligence (concentrations: Analytics, Computer Science, Intelligent and Autonomous Systems)",
+      "level": "grad",
+      "launched": "2022-09",
+      "url": "https://future.utsa.edu/programs/master/artificial-intelligence/"
+    },
+    {
+      "type": "degree",
+      "name": "UTSA / Tec de Monterrey Binational Dual Master's in AI",
+      "level": "grad",
+      "launched": "2025-03",
+      "url": "https://news.utsa.edu/2025/03/utsa-and-tec-de-monterrey-launch-dual-masters-program-in-ai/"
+    },
+    {
+      "type": "degree",
+      "name": "MD / MSAI Dual Degree (first in the U.S.)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://future.utsa.edu/programs/master/artificial-intelligence/"
+    },
+    {
+      "type": "degree",
+      "name": "B.S. Multidisciplinary Studies — Artificial Intelligence track",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.utsa.edu/uc/mdst/bs-mdai.html"
+    },
+    {
+      "type": "certificate",
+      "name": "Predictive Analytics and Modeling graduate certificate",
+      "level": "grad",
+      "launched": null,
+      "url": "https://catalog.utsa.edu/graduate/aicybercomputing/"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Certificates (PaCE, non-credit)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.utsa.edu/pace/artificial-intelligence-certificates.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-10",
+      "url": "https://www.utsa.edu/techsolutions/FacAndStaff/AvailableSoftware/Microsoft%20Copilot.html"
+    },
+    {
+      "vendor": "Coursera",
+      "product": "Coursera Career Academy",
+      "scope": "campus-wide",
+      "user_count": 8992,
+      "deployed": null,
+      "url": "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html"
+    },
+    {
+      "vendor": "Adobe",
+      "product": "Adobe Creative Cloud / Adobe microcredentials",
+      "scope": "campus-wide",
+      "user_count": 23000,
+      "deployed": null,
+      "url": "https://blog.adobe.com/en/publish/2025/04/15/utsa-helps-students-gain-career-ready-skills-adobe-micro-credentials"
+    },
+    {
+      "vendor": "LinkedIn",
+      "product": "LinkedIn Learning",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Arc (primary) / Shamu (legacy)",
+    "gpu_count": 37,
+    "url": "https://hpcsupport.utsa.edu/foswiki/bin/view/ARC/WebHome",
+    "summary": "UTSA Research Computing operates Arc, a 156-node Dell EMC PowerEdge cluster with 353 TF peak, including 30 NVIDIA V100 GPU nodes, 5 dual-V100 nodes, and 2 A100 80GB GPU nodes with 1TB RAM each. The legacy Shamu cluster is still referenced. Free access for UTSA researchers; supports NSF-funded neuromorphic and machine-learning research."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "USAA gift to the College of AI, Cyber and Computing",
+      "amount_usd": 2000000,
+      "source": "USAA (corporate philanthropy)",
+      "purpose": "Scholarships, USAA Student Success Center, and research infrastructure",
+      "date": "2025-09",
+      "url": "https://news.utsa.edu/2025/09/new-college-of-ai-cyber-and-computing-launched-at-ut-san-antonio/"
+    },
+    {
+      "title": "NSF The Neuromorphic Commons (THOR)",
+      "amount_usd": 4000000,
+      "source": "National Science Foundation",
+      "purpose": "National hub for large-scale neuromorphic / energy-efficient AI computing",
+      "date": "2024-10",
+      "url": "https://www.aiwire.net/2024/10/31/ut-san-antonio-secures-4-million-nsf-grant-for-neuromorphic-computing-project/"
+    },
+    {
+      "title": "NSF Partner Institute for Neuro-Inspired AI",
+      "amount_usd": 2800000,
+      "source": "National Science Foundation",
+      "purpose": "Research capacity building in neuro-inspired AI",
+      "date": "2023-10",
+      "url": "https://news.utsa.edu/2023/10/matrix-ai-receives-2-8m-nsf-grant-to-establish-neuro-inspired-ai-institute/"
+    },
+    {
+      "title": "NSF EFRI — Lifelong Learning AI",
+      "amount_usd": 2000000,
+      "source": "National Science Foundation (Emerging Frontiers in Research and Innovation)",
+      "purpose": "Bridging human-brain efficiency and AI model limits",
+      "date": "2023-11",
+      "url": "https://www.utsa.edu/today/2023/11/story/matrix-ai-awarded-nsf-grant-to-study-lifelong-learning-ai.html"
+    },
+    {
+      "title": "TRC4 Trauma Care AI",
+      "amount_usd": 1000000,
+      "source": "Trauma Research and Combat Casualty Care Collaborative (DoD-adjacent)",
+      "purpose": "AI/ML tools for trauma care; UTSA + UT Health San Antonio + UT Tyler",
+      "date": "2024-05",
+      "url": "https://www.utsa.edu/today/2024/05/story/researchers-use-AI-to-improve-trauma-care.html"
+    },
+    {
+      "title": "MATRIX Health Disparities AI center seed",
+      "amount_usd": 500000,
+      "source": "Internal UTSA / TRC4 seed",
+      "purpose": "AI/ML tools to address health disparities",
+      "date": "2024-02",
+      "url": "https://www.utsa.edu/today/2024/02/story/matrix-consortium-to-establish-new-center-for-AI-research.html"
+    },
+    {
+      "title": "Dell HPC grant (partial funding for Arc)",
+      "amount_usd": null,
+      "source": "Dell Technologies",
+      "purpose": "HPC hardware for research infrastructure",
+      "date": null,
+      "url": "https://www.hpcwire.com/off-the-wire/ut-san-antonio-receives-dell-grant-to-support-hpc-new-research-infrastructure/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "USAA",
+      "purpose": "$2M gift for College of AI, Cyber and Computing scholarships, Student Success Center, and research infrastructure",
+      "date": "2025-09",
+      "url": "https://news.utsa.edu/2025/09/new-college-of-ai-cyber-and-computing-launched-at-ut-san-antonio/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Microsoft 365 Copilot deployment with commercial data protection",
+      "date": "2024-10",
+      "url": "https://www.utsa.edu/techsolutions/FacAndStaff/AvailableSoftware/Microsoft%20Copilot.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Dell Technologies",
+      "purpose": "Arc HPC cluster hardware and research infrastructure grant",
+      "date": null,
+      "url": "https://www.hpcwire.com/off-the-wire/ut-san-antonio-receives-dell-grant-to-support-hpc-new-research-infrastructure/"
+    },
+    {
+      "pattern": "international",
+      "partner": "Tecnológico de Monterrey (Mexico)",
+      "purpose": "Binational dual master's degree in AI",
+      "date": "2025-03",
+      "url": "https://news.utsa.edu/2025/03/utsa-and-tec-de-monterrey-launch-dual-masters-program-in-ai/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Multiple AI research awards — THOR ($4M), partner institute ($2.8M), EFRI ($2M)",
+      "date": "2023-10",
+      "url": "https://ai.utsa.edu/the-university-of-texas-at-san-antonio-receives-4-million-grant-to-set-up-a-national-hub-for-large-scale-neuromorphic-computing-from-the-national-science-foundation/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UT Tyler + UT Health San Antonio",
+      "purpose": "TRC4 $1M collaborative AI for trauma care",
+      "date": "2024-05",
+      "url": "https://www.utsa.edu/today/2024/05/story/researchers-use-AI-to-improve-trauma-care.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Institute of Data",
+      "purpose": "Data Science & AI bootcamp partnership for continuing education",
+      "date": null,
+      "url": "https://techbootcamp.utsa.edu/datascienceai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Adobe",
+      "purpose": "Adobe Creative Campus with microcredentials for 23,000+ users",
+      "date": "2025-04",
+      "url": "https://blog.adobe.com/en/publish/2025/04/15/utsa-helps-students-gain-career-ready-skills-adobe-micro-credentials"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Coursera",
+      "purpose": "Coursera Career Academy and microcredentials integrated into 40+ courses",
+      "date": null,
+      "url": "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "AI Essentials: Guidelines & Approaches (interactive learning module)",
+      "scope": "All UTSA students; released Sept 2024 by Academic Innovation",
+      "url": "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft 365 Copilot (student access)",
+      "scope": "All UTSA students via UTSA SSO; commercial data protection",
+      "url": "https://www.utsa.edu/techsolutions/FacAndStaff/AvailableSoftware/Microsoft%20Copilot.html"
+    },
+    {
+      "type": "advisor",
+      "name": "Student AI Partner Interns (peer AI ambassadors)",
+      "scope": "12 undergraduate interns supporting peers, faculty, staff",
+      "url": "https://news.utsa.edu/2025/04/new-utsa-internship-empowers-students-to-lead-in-ai-innovation/"
+    },
+    {
+      "type": "other",
+      "name": "AI for Everyone! (middle-school summer camp pipeline)",
+      "scope": "Pre-college summer camp June 2026; K-12 pipeline",
+      "url": "https://caicc.utsa.edu/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Hispanic-Serving R1 institutional status",
+      "description": "UTSA is one of roughly 20 U.S. institutions that are both Carnegie R1 and Hispanic-Serving Institutions, embedding AI programs in a majority-minority enrollment context.",
+      "url": "https://www.utsa.edu/today/2022/02/story/R1-affirmation-elevates-university-san-antonio.html"
+    },
+    {
+      "title": "MATRIX Health Disparities AI Center",
+      "description": "MATRIX-led center using AI and machine learning to address health disparities in the San Antonio region.",
+      "url": "https://www.utsa.edu/today/2024/02/story/matrix-consortium-to-establish-new-center-for-AI-research.html"
+    },
+    {
+      "title": "Coursera + Adobe + LinkedIn Learning free access",
+      "description": "Campus-wide free access to Coursera Career Academy, Adobe Creative Cloud, and LinkedIn Learning ensures AI-credential access regardless of program or major.",
+      "url": "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html"
+    },
+    {
+      "title": "Middle-school AI for Everyone! camp",
+      "description": "Pipeline program introducing San Antonio middle-school students to AI concepts; June 2026.",
+      "url": "https://caicc.utsa.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas enacted HB 149 (Texas Responsible AI Governance Act, TRAIGA 2.0), signed June 22, 2025 and effective January 1, 2026, establishing consumer rights, procedural safeguards, and AI-system governance. SB 1964, signed June 20, 2025 and effective September 1, 2025, requires the Department of Information Resources to inventory state-agency AI systems and publish an AI code of ethics for state and local governments — a framework that reaches UT System universities. The UT System has institution-level AI guidance (e.g., UT Austin 'Guidance for Using Artificial Intelligence') that UTSA policies align with post-merger. Texas has also directed A&M and other systems to use AI tooling for course/syllabus audits.",
+    "urls": [
+      "https://www.littler.com/news-analysis/asap/texas-joins-fray-and-enacts-ai-legislation",
+      "https://www.jw.com/news/insights-texas-89th-legislature-ai/",
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB01964I.htm",
+      "https://tech.utexas.edu/governance/guidance-for-ai"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "University of Texas at San Antonio (UT San Antonio post-merger) is one of the most structurally aggressive AI-posture movers among public R1s. Under President Taylor Eighmy, the institution combined three simultaneous transformations in 2024–2025: (1) a formal merger with UT Health San Antonio on September 1, 2025 creating a 40,000-student, $486M-research enterprise; (2) the September 1, 2025 launch of Texas's first College of AI, Cyber and Computing — integrating four departments, 5,300+ students, anchored by a $2M USAA gift — and (3) the transition of the School of Data Science into a cross-college Center for Data Science organized research unit the same day. Provost Heather Shipley convened the Provost's AI Initiative Task Force in October 2025, co-chaired by Steve Wilkerson and Dean Glenn Martinez, with 25 voting members and recommendations due March 2026. On policy, VP Academic Innovation Melissa Vito and then-VP IM&T Kendra Ketchum set a deliberately permissive direction: UTSA uses adoption guidelines rather than restrictive policy, standardizes on Microsoft 365 Copilot as the sole approved enterprise AI tool (for its commercial data protection), and equips faculty via a full GenAI faculty hub, sample syllabus statements, and the GenAI Peer Learning Network. Students get AI Essentials, a campus-wide interactive module, a Student AI Partner paid internship, and microcredential pipelines through Coursera, Adobe, and LinkedIn Learning. Research is anchored by the MATRIX AI Consortium (70–87 faculty, ~$9.8M in recent NSF/DoD awards including the $4M NSF-funded THOR neuromorphic commons) and supported by the Arc HPC cluster (Dell + NVIDIA V100/A100 GPUs). International reach is anchored by a March 2025 binational dual master's in AI with Tecnológico de Monterrey, and an MD/MSAI dual degree is reported as the first of its kind in the nation. Gaps remain around a published enterprise-wide AI strategy document (pending the March 2026 task-force report), formal chief AI officer appointment, disclosed AI cybersecurity incident posture, and quantitative student-facing chatbot metrics. Texas's new TRAIGA 2.0 (effective January 2026) and SB 1964 will impose new transparency and ethics requirements that UTSA's next policy iteration must absorb.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://future.utsa.edu/programs/master/artificial-intelligence/",
+      "https://provost.utsa.edu/initiatives/artificial-intelligence/",
+      "https://www.cio.com/article/3568106/guidelines-not-policies-the-university-of-texas-at-san-antonios-approach-to-gen-ai.html",
+      "https://provost.utsa.edu/ai-cyber-computing/",
+      "https://news.utsa.edu/2025/09/new-college-of-ai-cyber-and-computing-launched-at-ut-san-antonio/",
+      "https://news.utsa.edu/2025/08/utsa-school-of-data-science-to-transition-into-new-research-center/",
+      "https://www.utsa.edu/strategicplan/initiatives/academic/ai-cyber-computing-data-science/",
+      "https://caicc.utsa.edu/",
+      "https://caicc.utsa.edu/research/centers/data-science-center.html",
+      "https://www.utsa.edu/today/2024/12/story/utsa-announces-college-of-ai-cyber-and-computing.html",
+      "https://www.tpr.org/education/2024-12-26/utsas-new-college-of-ai-cyber-and-computing-coming-to-san-antonio-in-fall-of-2025",
+      "https://sombrilla.utsa.edu/new-college-for-new-age/",
+      "https://provost.utsa.edu/academicinnovation/docs/genai_faculty_guide/utsa-faculty_generativeai_guidelines.pdf",
+      "https://utsa.screenstepslive.com/a/1904327-sample-syllabus-statements-for-student-use-of-generative-ai-in-coursework",
+      "https://provost.utsa.edu/academicinnovation/artificial-intelligence/student-guide.html",
+      "https://ctl.utexas.edu/generative-ai-teaching-and-learning-policies",
+      "https://news.utsa.edu/2024/09/utsa-launches-ai-essentials-guide-to-equip-students-for-genai/",
+      "https://tech.utexas.edu/governance/guidance-for-ai",
+      "https://odl.utsa.edu/suggested-syllabus-statements/",
+      "https://provost.utsa.edu/academicinnovation/artificial-intelligence/faculty-guide.html",
+      "https://www.utsa.edu/president/2025/",
+      "https://provost.utsa.edu/about/personnel.html",
+      "https://news.utsa.edu/2025/10/presidents-cabinet-announces-updates-to-functional-integration-process-and-roles/",
+      "https://www.utsa.edu/president/biography/",
+      "https://www.utsystem.edu/news/2025/08/20/taylor-eighmy-officially-named-president-of-ut-san-antonio-ahead-of-historic-merger-of-ut-systems-two-san-antonio-institutions",
+      "https://www.utsa.edu/today/2022/02/story/R1-affirmation-elevates-university-san-antonio.html",
+      "https://ai.utsa.edu/",
+      "https://ai.utsa.edu/the-university-of-texas-at-san-antonio-receives-4-million-grant-to-set-up-a-national-hub-for-large-scale-neuromorphic-computing-from-the-national-science-foundation/",
+      "https://news.utsa.edu/2023/10/matrix-ai-receives-2-8m-nsf-grant-to-establish-neuro-inspired-ai-institute/",
+      "https://www.utsa.edu/today/2023/11/story/matrix-ai-awarded-nsf-grant-to-study-lifelong-learning-ai.html",
+      "https://www.govtech.com/education/higher-ed/usta-gets-4m-to-research-energy-efficient-ai",
+      "https://www.utsa.edu/today/2024/02/story/matrix-consortium-to-establish-new-center-for-AI-research.html",
+      "https://www.utsa.edu/today/2024/05/story/researchers-use-AI-to-improve-trauma-care.html",
+      "https://www.aiwire.net/2024/10/31/ut-san-antonio-secures-4-million-nsf-grant-for-neuromorphic-computing-project/",
+      "https://news.utsa.edu/2025/03/utsa-and-tec-de-monterrey-launch-dual-masters-program-in-ai/",
+      "https://www.utsa.edu/today/2025/03/story/utsa-tec-de-monterrey-dual-masters-ai.html",
+      "https://catalog.utsa.edu/graduate/aicybercomputing/",
+      "https://www.utsa.edu/uc/mdst/bs-mdai.html",
+      "https://caicc.utsa.edu/programs/",
+      "https://www.utsa.edu/techsolutions/FacAndStaff/AvailableSoftware/Microsoft%20Copilot.html",
+      "https://www.utsa.edu/techsolutions/_files/pdf/MS%20Copilot%20Intro%20Packet.pdf",
+      "https://news.utsa.edu/2025/04/new-utsa-internship-empowers-students-to-lead-in-ai-innovation/",
+      "https://provost.utsa.edu/academicinnovation/artificial-intelligence/",
+      "https://blog.adobe.com/en/publish/2025/04/15/utsa-helps-students-gain-career-ready-skills-adobe-micro-credentials",
+      "https://innovation.utsa.edu/strategic-initiatives/",
+      "https://techbootcamp.utsa.edu/datascienceai",
+      "https://www.utsa.edu/pace/artificial-intelligence-certificates.html",
+      "https://libguides.utsa.edu/AI",
+      "https://www.utsa.edu/techsolutions/ResearchSupport/hpc.html",
+      "https://hpcsupport.utsa.edu/foswiki/bin/view/ARC/WebHome",
+      "https://www.hpcwire.com/off-the-wire/ut-san-antonio-receives-dell-grant-to-support-hpc-new-research-infrastructure/",
+      "https://utsanantoniotogether.org/",
+      "https://news.utsa.edu/2025/09/utsa-and-ut-health-san-antonio-complete-merger-to-become-the-university-of-texas-at-san-antonio/",
+      "https://news.utsa.edu/2025/06/sacscoc-approves-merger-of-utsa-and-ut-health-san-antonio/",
+      "https://www.littler.com/news-analysis/asap/texas-joins-fray-and-enacts-ai-legislation",
+      "https://www.jw.com/news/insights-texas-89th-legislature-ai/",
+      "https://capitol.texas.gov/tlodocs/89R/analysis/html/SB01964I.htm",
+      "https://www.texastribune.org/2025/12/15/texas-universities-ai-course-audits/",
+      "https://comptroller.texas.gov/economy/economic-data/cybersecurity/utsa.php"
+    ],
+    "search_queries": [
+      "\"University of Texas at San Antonio\" AI strategy 2025 2026 artificial intelligence",
+      "UTSA \"School of Data Science\" AI center launch",
+      "\"UTSA\" generative AI policy faculty guidelines acceptable use",
+      "\"UTSA\" president provost CIO 2025",
+      "UTSA MATRIX AI Consortium research funding grants",
+      "UTSA artificial intelligence degree master's program launch",
+      "UTSA AI chatbot student services predictive analytics",
+      "UTSA HPC Shamu supercomputer GPU research computing",
+      "UTSA UT Health San Antonio merger integration 2025",
+      "UTSA Taylor Eighmy president AI Carnegie R1 enrollment",
+      "Texas SB state AI policy higher education universities 2025",
+      "UTSA \"Student AI Partner\" internship Coursera Adobe",
+      "UTSA Microsoft Copilot campus-wide deployment faculty",
+      "UTSA AI cybersecurity workforce development regional economic San Antonio"
+    ],
+    "gaps_acknowledged": [
+      "No formally published enterprise-wide AI strategy document yet; the Provost's AI Initiative Task Force is scheduled to deliver recommendations in March 2026",
+      "No dedicated Chief AI Officer role has been publicly announced for the merged UT San Antonio enterprise",
+      "No disclosed user-count or session metrics for Microsoft 365 Copilot usage on campus",
+      "No publicly reported AI-related controversies, FERPA cases, or lawsuits identified for UTSA",
+      "No confirmed predictive-analytics retention platform or named student chatbot beyond Copilot",
+      "Specific integration plans for AI governance between UTSA and UT Health San Antonio post-merger are not yet public",
+      "GPU count is approximate (Arc: 30 V100 + 5 dual-V100 + 2 A100 nodes ≈ 37 GPU nodes; total GPU count may be higher)"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "curriculum_led",
+        "research_compute_powerhouse",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 12,
+        "research_compute_powerhouse": 13,
+        "curriculum_led": 15,
+        "governance_led": 11,
+        "student_success_led": 8,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 6,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 3,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Arc (primary) / Shamu (legacy)",
+        "gpu_count": 37,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 497800000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 2,
+        "public_federal_state": 6,
+        "institutional": 6,
+        "other_unclear": 3,
+        "industry_vendor": 2
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "other": 2,
+        "chatbot": 1,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "Adobe",
+          "mentions": 1,
+          "products": [
+            "Adobe Creative Cloud / Adobe microcredentials"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "AI Essentials Module"
+          ]
+        },
+        {
+          "vendor": "Coursera",
+          "mentions": 1,
+          "products": [
+            "Coursera Career Academy"
+          ]
+        },
+        {
+          "vendor": "Institute of Data Data Science & AI Bootcamp",
+          "mentions": 1,
+          "products": [
+            "Data Science & AI Bootcamp"
+          ]
+        },
+        {
+          "vendor": "LinkedIn LinkedIn Learning",
+          "mentions": 1,
+          "products": [
+            "LinkedIn Learning"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Arc HPC cluster"
+          ]
+        },
+        {
+          "vendor": "UTSA Research Computing Shamu (legacy)",
+          "mentions": 1,
+          "products": [
+            "Shamu (legacy)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Provost's AI Initiative Task Force",
+          "summary": "Formalizes campus-wide AI adoption governance immediately after the UTSA/UT Health merger, giving the newly combined enterprise a single cross-functional body to align AI policy, tooling, and workforce readiness.",
+          "source_url": "https://provost.utsa.edu/initiatives/artificial-intelligence/"
+        },
+        {
+          "claim_type": "career",
+          "title": "UTSA x Tec de Monterrey dual master's in AI",
+          "summary": "One of the first binational dual-degree AI programs at the graduate level between a U.S. R1 and a top Mexican research university, creating an immediate North American AI talent pipeline.",
+          "source_url": "https://news.utsa.edu/2025/03/utsa-and-tec-de-monterrey-launch-dual-masters-program-in-ai/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Student AI Partner Internship",
+          "summary": "A rare student-employee model for AI adoption that treats students as co-designers of campus AI rather than end users or test subjects.",
+          "source_url": "https://news.utsa.edu/2025/04/new-utsa-internship-empowers-students-to-lead-in-ai-innovation/"
+        },
+        {
+          "claim_type": "career",
+          "title": "MD/MSAI dual degree — first in the nation",
+          "summary": "Signals a new class of clinician-AI practitioners trained at the intersection of medicine and AI engineering — a model other AHC-R1 mergers will watch closely.",
+          "source_url": "https://future.utsa.edu/programs/master/artificial-intelligence/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Data Science & AI Bootcamp with Institute of Data",
+          "summary": "Adds a non-credit workforce-training layer on top of the new College of AI, Cyber and Computing's credit programs, broadening the regional talent pipeline.",
+          "source_url": "https://techbootcamp.utsa.edu/datascienceai"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No formally published enterprise-wide AI strategy document yet; the Provost's AI Initiative Task Force is scheduled to deliver recommendations in March 2026",
+        "No dedicated Chief AI Officer role has been publicly announced for the merged UT San Antonio enterprise",
+        "No disclosed user-count or session metrics for Microsoft 365 Copilot usage on campus",
+        "No publicly reported AI-related controversies, FERPA cases, or lawsuits identified for UTSA",
+        "No confirmed predictive-analytics retention platform or named student chatbot beyond Copilot",
+        "Specific integration plans for AI governance between UTSA and UT Health San Antonio post-merger are not yet public",
+        "GPU count is approximate (Arc: 30 V100 + 5 dual-V100 + 2 A100 nodes ≈ 37 GPU nodes; total GPU count may be higher)"
+      ]
+    }
+  }
+}

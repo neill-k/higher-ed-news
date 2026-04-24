@@ -5,11 +5,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 const NAV_ITEMS = [
-  { label: "Briefing", href: "/", icon: "grid" },
-  { label: "Peer Profiles", href: "/peers", icon: "users" },
-  { label: "Adoption & Trends", href: "/adoption", icon: "trending-up" },
-  { label: "Vendors & Capital", href: "/investment", icon: "dollar-sign" },
-  { label: "Risk & Governance", href: "/governance", icon: "shield" },
+  { label: "R1 AI Market Deck", href: "/new", icon: "bar-chart" },
 ];
 
 const ICONS: Record<string, ReactNode> = {
@@ -38,6 +34,13 @@ const ICONS: Record<string, ReactNode> = {
       <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
     </svg>
   ),
+  "bar-chart": (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <line x1="12" y1="20" x2="12" y2="10" />
+      <line x1="18" y1="20" x2="18" y2="4" />
+      <line x1="6" y1="20" x2="6" y2="16" />
+    </svg>
+  ),
 };
 
 export function Sidebar() {
@@ -45,15 +48,15 @@ export function Sidebar() {
 
   return (
     <aside className="relative shrink-0 overflow-hidden border-b border-[var(--sidebar-border)] bg-[var(--sidebar-bg)] text-[var(--sidebar-foreground)] md:flex md:min-h-screen md:w-[272px] md:flex-col md:border-b-0">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.06),transparent_34%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(168,85,247,0.14),transparent_36%)]" />
 
       <div className="relative flex items-center gap-3 px-5 py-5 md:px-6 md:py-7">
-        <div className="flex h-10 w-10 items-center justify-center rounded-[14px] border border-white/10 bg-white/6 text-xs font-semibold tracking-[0.18em] text-[var(--sidebar-active)]">
+        <div className="flex h-10 w-10 items-center justify-center rounded-[12px] border border-white/10 bg-white/6 text-xs font-semibold tracking-[0.18em] text-[var(--sidebar-active)]">
           AI
         </div>
         <div className="min-w-0">
-          <div className="text-[10px] font-medium uppercase tracking-[0.26em] text-white/40">
-            LSU Desk
+          <div className="font-caption text-[10px] font-medium uppercase tracking-[0.26em] text-white/40">
+            Sector Desk
           </div>
           <div className="truncate text-[18px] font-semibold text-[var(--sidebar-active)]">
             AI in HE
@@ -62,7 +65,7 @@ export function Sidebar() {
       </div>
 
       <div className="relative hidden px-6 pb-4 text-[12px] leading-[1.65] text-white/60 md:block">
-        Benchmarking LSU against SEC peers on policy, vendors, governance, and institutional AI posture.
+        Industry-wide tracking of higher-ed AI policy, vendors, governance, and institutional posture.
       </div>
 
       <div className="relative hidden px-6 pb-3 text-[10px] font-medium uppercase tracking-[0.24em] text-white/36 md:block">
@@ -71,7 +74,7 @@ export function Sidebar() {
 
       <nav className="relative flex gap-1 overflow-x-auto px-3 pb-4 md:flex-col md:gap-1 md:px-4 md:pb-0">
         {NAV_ITEMS.map((item) => {
-          const active = pathname === item.href;
+          const active = pathname === item.href || (item.href === "/new" && pathname === "/");
           return (
             <Link
               key={item.href}
@@ -95,7 +98,7 @@ export function Sidebar() {
               <span
                 aria-hidden
                 className={`h-1.5 w-1.5 rounded-full transition-colors ${
-                  active ? "bg-[#d8b27a]" : "bg-transparent group-hover:bg-white/25"
+                  active ? "bg-[#a855f7]" : "bg-transparent group-hover:bg-white/25"
                 }`}
               />
             </Link>
@@ -110,7 +113,7 @@ export function Sidebar() {
           Cadence
         </div>
         <div className="mt-2 text-[13px] leading-[1.65] text-white/70">
-          Updated nightly with extraction, synthesis, and report refresh.
+          Public-source evidence refreshed as the sector changes.
         </div>
       </div>
     </aside>

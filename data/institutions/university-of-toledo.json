@@ -1,0 +1,1262 @@
+{
+  "institution": "University of Toledo",
+  "slug": "university-of-toledo",
+  "city_state": "Toledo, OH",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 14358,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "James Paul Holloway",
+      "url": "https://www.utoledo.edu/offices/president/"
+    },
+    "provost": {
+      "name": "Mitchell S. McKinney",
+      "url": "https://www.utoledo.edu/offices/president/cabinet/mckinney/"
+    },
+    "cio": {
+      "name": "Bill McCreary",
+      "url": "https://www.utoledo.edu/offices/president/cabinet/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Mitchell S. McKinney",
+      "title": "Provost and Executive Vice President for Academic Affairs (convener of AI Task Force)",
+      "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/artificial-intelligence-task-force.html"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence (AI) at UToledo — strategic framework (Office of the Provost)",
+        "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/",
+        "year": 2025
+      },
+      {
+        "title": "AI Initiatives at UToledo",
+        "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html",
+        "year": 2025
+      }
+    ],
+    "summary": "UToledo's provost-led AI strategy organizes work around three pillars: teaching and learning (discipline-specific AI skills for every student, plus faculty/staff professional development), research and innovation (establishing AI research hubs and interdisciplinary collaboration), and campus operations (AI for admissions, advising, IT, and smart facilities). Implementation is staged — identify early adopters, pilot at small scale, assess, then scale university-wide. The strategy is executed through an AI Task Force convened by the Provost with six subcommittees (arts/humanities, curriculum/instruction, healthcare, instructional development, policy, research)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-policies.html",
+      "https://www.utoledo.edu/law/studentlife/resources/generative-ai-policy.html",
+      "https://libguides.utoledo.edu/ai-home/ai-submission-policy"
+    ],
+    "adopted_date": null,
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Optional syllabus language provided to instructors; faculty set course-level permissibility",
+      "Assignment descriptions must contain explicit AI usage instructions",
+      "College of Law: generative AI cannot compose submitted work and is barred from exam use; research and grammar uses allowed",
+      "Library video series covers responsible use, evaluation of AI output, privacy/ethics/copyright"
+    ],
+    "summary": "UToledo takes a permissive-with-guidance approach: institution-wide guidance directs faculty to set AI rules at the course and assignment level with optional syllabus language, while specific units (notably the College of Law) publish stricter default rules against plagiaristic uses and exam use. The Policy subcommittee of the AI Task Force, chaired by Mark Halsey, examines legal and ethical issues. There is no single campus-wide prohibitive ban."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "University of Toledo Artificial Intelligence Task Force",
+        "type": "task_force",
+        "scope": "Campus-wide AI governance convened by the Provost; six subcommittees on arts/humanities, curriculum and instruction, healthcare, instructional development, policy, and research",
+        "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/artificial-intelligence-task-force.html"
+      },
+      {
+        "name": "AI Steering Committee",
+        "type": "committee",
+        "scope": "Examines AI-based tools and resources to enhance faculty, student and research staff capabilities",
+        "url": "https://www.utoledo.edu/offices/provost/ai-steering-committee.html"
+      }
+    ],
+    "summary": "Governance is centered on the Provost-convened AI Task Force (co-chaired by Gerald Natal and Arjun Sabharwal of University Libraries) with core members from the Division of Technology and Advanced Solutions (CIO Bill McCreary), Provost's office (Scott Molitor, Angela Paprocki), and Legal Affairs (Janelle Schaller). Six subcommittees cover arts/humanities (Olman Piedra), curriculum and instruction (Liang Cheng), healthcare, instructional development (Kimberly Fahey), policy (Mark Halsey), and research (Rick Francis). A separate AI Steering Committee examines tools and resources."
+  },
+  "initiatives": [
+    {
+      "title": "AI Task Force with six specialized subcommittees",
+      "description": "Provost-convened task force establishing institution-wide AI governance across six domains: arts and humanities, curriculum and instruction, healthcare, instructional development, policy (legal/ethical), and research. Co-chaired by Provost Faculty Fellows Gerald Natal and Arjun Sabharwal.",
+      "significance": "Illustrates a distributed, domain-specific governance model being adopted by emerging R1s: rather than a single AI council, Toledo assigns sub-domains to faculty leads to produce practice-specific norms.",
+      "date_announced": "2025-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Internal faculty/administrative time; no disclosed dollar amount"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal university governance"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a permanent governance structure with named subcommittee chairs for each major AI policy domain.",
+      "source_urls": [
+        "https://www.utoledo.edu/offices/provost/artificial-intelligence/artificial-intelligence-task-force.html",
+        "https://www.utoledo.edu/offices/provost/artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "Campus-wide Microsoft Copilot deployment for all employees",
+      "description": "UToledo has made Microsoft Copilot available to all university employees as part of a campus-wide culture of innovation. Faculty, staff, and administrators can use the integrated Windows 11 / Edge generative AI assistant for productivity, communication and content creation.",
+      "significance": "Places Toledo among the cohort of mid-sized R1 publics that have moved from ChatGPT-free-tier ambiguity to a licensed, enterprise-grade generative AI platform for workforce.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Division of Technology and Advanced Solutions",
+        "description": "Enterprise Microsoft 365 Copilot licensing (specific cost not disclosed)"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise M365 Copilot deployment"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI assistant available to all employees"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Provides a sanctioned enterprise LLM path, reducing reliance on personal-account ChatGPT/Claude usage.",
+      "source_urls": [
+        "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html",
+        "https://www.utoledo.edu/centers/family-business-center/copilot-for-microsoft-365-certificate-program.html"
+      ]
+    },
+    {
+      "title": "Nabla ambient AI clinical documentation scaled across UToledo Health",
+      "description": "UToledo Health, the academic health system serving northwest Ohio, selected Nabla after evaluating multiple ambient AI documentation assistants and scaled deployment to hundreds of physicians and advanced practice providers across primary care, surgery and other specialties. During an 8-week evaluation, clinicians cut time-to-chart-closure by 29% and reduced departmental backlogs from 400+ open charts to under 30.",
+      "significance": "Demonstrates an R1 academic health system moving from ambient-AI pilot to at-scale Epic-integrated deployment with measurable revenue-cycle outcomes — a reference point for peer AMCs.",
+      "date_announced": "2026-03-31",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UToledo Health operating budget",
+        "description": "Commercial SaaS license scaled from 8-week evaluation to hundreds of providers"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Nabla",
+            "Epic Systems"
+          ],
+          "description": "Ambient AI vendor deployed inside the Epic EHR"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Nabla",
+          "vendor": "Nabla",
+          "role": "Ambient AI clinical scribe"
+        },
+        {
+          "name": "Epic",
+          "vendor": "Epic Systems",
+          "role": "EHR into which Nabla integrates"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Requires HIPAA-compliant handling of clinical encounters and integration with health-system documentation policy.",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/university-of-toledo-health-scales-nablas-ambient-ai-after-unlocking-better-documentation-precision-and-revenue-cycle-performance-302729048.html"
+      ]
+    },
+    {
+      "title": "Doug Reynolds — first AI virtual engagement officer at the UToledo Foundation",
+      "description": "UToledo Foundation partnered with Boston-based Givzey (Version2.ai) to deploy Doug Reynolds, an autonomous AI virtual engagement officer that interacts with alumni, donors, and community members about events, engagement opportunities and giving. The deployment subsequently became the first time autonomous fundraising technology secured multi-year gift commitments from donors.",
+      "significance": "An early example of AI moving into the advancement office at a US R1 — autonomous rather than assistive AI in donor relations.",
+      "date_announced": "2025-05-06",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "business_model_disruption"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UToledo Foundation",
+        "description": "Undisclosed subscription/partnership with Givzey/Version2.ai"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Givzey",
+            "Version2.ai"
+          ],
+          "description": "Boston-based fundraising technology vendor"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Doug Reynolds (virtual engagement officer)",
+          "vendor": "Givzey / Version2.ai",
+          "role": "Autonomous donor engagement agent"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Raises disclosure questions about AI-mediated donor communications; the Foundation offers opt-in access.",
+      "source_urls": [
+        "https://news.utoledo.edu/index.php/05_06_2025/utoledo-foundation-embraces-innovation-with-ai-engagement-officer",
+        "https://www.version2.ai/post/a-first-in-fundraising-virtual-engagement-officers-secure-multi-year-gifts-with-autonomous-ai"
+      ]
+    },
+    {
+      "title": "Toledo Athletics mandates AI training for entire department",
+      "description": "Toledo Athletics announced a first-in-the-nation requirement that all coaches, staff, and administrators complete artificial intelligence training as part of its Rise Together strategic vision. The program covers responsible AI use across athletic operations, performance, and business functions.",
+      "significance": "Positions an FBS athletic department as an early adopter of mandatory AI literacy — an unusual signal for a non-academic unit at an R1.",
+      "date_announced": "2025-06-04",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "governance_and_policy",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "faculty_training_and_development",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UToledo Athletics / Rise Together initiative",
+        "description": "Mandatory training curriculum; cost not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal athletics initiative"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a de facto AI AUP for an entire operational unit, tied to job expectations.",
+      "source_urls": [
+        "https://utrockets.com/news/2025/6/4/toledo-athletics-becomes-first-in-nation-to-require-artificial-intelligence-training-for-entire-department"
+      ]
+    },
+    {
+      "title": "School of Interdisciplinary Data Science established",
+      "description": "In spring 2025, UToledo launched the School of Interdisciplinary Data Science in the College of Natural Sciences and Mathematics, directed by Dr. Bill Kalies. The school brings together faculty from five colleges (Arts and Letters, Engineering, Health and Human Services, Natural Sciences and Mathematics, Education) and houses a BS in Data Science, a BA in Data Analytics, minors, graduate certificates, and an in-development online MS in Data Science.",
+      "significance": "Represents the kind of interdisciplinary restructuring R1s are using to concentrate AI/ML talent without creating a standalone AI school — leveraging existing strengths across colleges.",
+      "date_announced": "2025-02-12",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UToledo / College of Natural Sciences and Mathematics",
+        "description": "New academic unit with cross-college joint appointments"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Toledo Athletics (internal partner)"
+          ],
+          "description": "Data Science Internship Program with Toledo Athletics for real-world applications"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utoledo.edu/index.php/02_12_2025/new-data-science-school-invites-collaboration-innovation-in-rapidly-growing-field",
+        "https://www.utoledo.edu/nsm/school-of-interdisciplinary-data-science/"
+      ]
+    },
+    {
+      "title": "AAC&U Institute on AI in Pedagogy and Curriculum (IAIPC) participation",
+      "description": "Five UToledo faculty (Leon Cheng, Jeanne Kusina, Jerry Natal, Arjun Sabharwal, Scott Molitor) represent UToledo in a year-long AAC&U Institute cohort aimed at improving faculty and staff professional development on AI and ensuring students meet discipline-specific AI learning outcomes.",
+      "significance": "Cross-institution faculty development cohort model — UToledo plugs into the AAC&U national network rather than building its own standalone AI pedagogy institute.",
+      "date_announced": "2025-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Office of the Provost",
+        "description": "Institute participation fees and faculty time"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "American Association of Colleges & Universities (AAC&U)"
+          ],
+          "description": "National AAC&U cohort on AI in pedagogy and curriculum"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Produces local AI pedagogy guidance derived from AAC&U framework.",
+      "source_urls": [
+        "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html"
+      ]
+    },
+    {
+      "title": "Great Lakes AI Week sponsorship and host campus (Nov 4-7, 2025)",
+      "description": "UToledo was a sponsor and host of Great Lakes AI Week 2025, running JobsOhio-sponsored workshops (AI-Empowered Professional; AI Strategy & Governance), a sports & AI panel with Cleveland Cavaliers AI architect Ben Levicki, and an AI in Healthcare Symposium featuring senior health-system leadership (Charles Callahan, Scott Molitor, Imran Ali) and distinguished professor Bina Joe.",
+      "significance": "Anchors UToledo as the regional hub for AI ecosystem development in northwest Ohio — connects university to JobsOhio and regional industry.",
+      "date_announced": "2025-10-28",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "JobsOhio; UToledo; Enterprise Technology Association",
+        "description": "Multi-event regional AI week; specific sponsorship level not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "JobsOhio",
+            "Enterprise Technology Association",
+            "Bowling Green State University"
+          ],
+          "description": "Regional state-economic-development partner plus industry association plus neighboring R2"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utoledo.edu/index.php/10_28_2025/utoledo-to-lend-experts-insights-to-great-lakes-ai-week",
+        "https://news.utoledo.edu/index.php/11_10_2025/artificial-intelligence-in-healthcare-symposium"
+      ]
+    },
+    {
+      "title": "AI in Healthcare Symposium — AI/ML microbiome research",
+      "description": "Dr. Bina Joe, Distinguished University Professor, presented 'Leveraging AI/Machine Learning to Access Microbiomes as Risk Factors for Disease' at the Nov 7, 2025 symposium co-hosted by the College of Medicine and Life Sciences, UToledo Health, and the Office of Continuing Medical Education.",
+      "significance": "Showcases how an R1 academic medical center is blending wet-lab biomedical research with ML-based pattern discovery — a key vector for NIH/NSF AI-for-science funding.",
+      "date_announced": "2025-11-07",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Medicine and Life Sciences / UToledo Health",
+        "description": "Faculty research program, exact funding not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal research; specific external partners not disclosed"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.utoledo.edu/index.php/11_10_2025/artificial-intelligence-in-healthcare-symposium"
+      ]
+    },
+    {
+      "title": "TechCred-funded AI certificate programs (business, marketers, ChatGPT, Copilot)",
+      "description": "Through UToledo's Family Business Center, the university offers state-funded (Ohio TechCred) continuing-education certificates in AI for Business, AI for Marketers, ChatGPT, and Microsoft 365 Copilot — targeting regional workforce upskilling.",
+      "significance": "Illustrates a regional R1 leveraging state workforce funding to deliver short-cycle AI upskilling to working adults, independent of degree programs.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "industry_certification_pathway",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Ohio TechCred (state); employer reimbursement",
+        "description": "State-reimbursed continuing-education programs"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Ohio TechCred",
+            "Microsoft"
+          ],
+          "description": "State-funded certificate pathway using vendor platforms"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Subject of dedicated certificate program"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Subject of dedicated certificate program"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.utoledo.edu/centers/family-business-center/copilot-for-microsoft-365-certificate-program.html",
+        "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-teaching-learning.html"
+      ]
+    },
+    {
+      "title": "AI specialization in graduate Electrical Engineering & Computer Science",
+      "description": "The EECS graduate program offers an Artificial Intelligence specialization covering machine learning, data mining, fuzzy logic and reasoning, heuristic search, optimization, adaptation and automation, and probabilistic modeling.",
+      "significance": "Long-standing academic AI track feeding graduate-level AI workforce and research — a stable spine for the university's newer AI initiatives.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Engineering",
+        "description": "Ongoing graduate program"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Standing academic program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.utoledo.edu/engineering/electrical-engineering-computer-science/graduate/specialization-areas/artificial-intelligence.html"
+      ]
+    },
+    {
+      "title": "Ohio Supercomputer Center partnership for AI/ML research",
+      "description": "UToledo researchers use the statewide Ohio Supercomputer Center (OSC) for AI/ML research (e.g., Dr. Anju R. Gupta's lab applies ML and statistical forecasting to predict desalination-membrane lifespans). Historically, OSC awarded a dedicated cluster to UToledo's Department of Physics and Astronomy.",
+      "significance": "Toledo, like many state-system R1s, leans on a shared state HPC asset rather than building its own AI supercomputer — a model for cost-efficient AI compute access.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "State of Ohio / Ohio Supercomputer Center",
+        "description": "State-provided HPC access"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Ohio Supercomputer Center",
+            "State of Ohio"
+          ],
+          "description": "Statewide shared HPC resource"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.osc.edu/press/ohio_supercomputer_center_awards_cluster_to_university_of_toledo"
+      ]
+    },
+    {
+      "title": "AI LibGuide and video literacy series from University Libraries",
+      "description": "UToledo Libraries publishes a comprehensive AI LibGuide plus a six-video literacy series covering responsible use, evaluation of AI output, privacy/ethics/copyright, research writing, and prompting, supporting students and faculty across disciplines.",
+      "significance": "Library-led AI literacy is a common early-maturity pattern — important baseline for compliance with course-level AI disclosure expectations.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "University Libraries",
+        "description": "Library-produced guides and video content"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal library initiative"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds responsible-use expectations at the student research level.",
+      "source_urls": [
+        "https://libguides.utoledo.edu/ai-home/ai-submission-policy",
+        "https://libguides.utoledo.edu/ai-home/ai-education",
+        "https://libguides.utoledo.edu/ai-home/ai-technology"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "School of Interdisciplinary Data Science",
+      "focus": "Interdisciplinary data science research, education and innovation; ML/AI applications across five colleges",
+      "founded": "2025",
+      "url": "https://www.utoledo.edu/nsm/school-of-interdisciplinary-data-science/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "concentration",
+      "name": "Artificial Intelligence specialization (graduate EECS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.utoledo.edu/engineering/electrical-engineering-computer-science/graduate/specialization-areas/artificial-intelligence.html"
+    },
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in Data Science",
+      "level": "undergrad",
+      "launched": "2020-01",
+      "url": "https://www.utoledo.edu/nsm/bs-data-science/"
+    },
+    {
+      "type": "degree",
+      "name": "Master of Science in Data Science (in development)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.utoledo.edu/nsm/school-of-interdisciplinary-data-science/"
+    },
+    {
+      "type": "minor",
+      "name": "Data Science minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.utoledo.edu/nsm/school-of-interdisciplinary-data-science/"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence for Business (TechCred)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.utoledo.edu/centers/family-business-center/"
+    },
+    {
+      "type": "certificate",
+      "name": "Artificial Intelligence for Marketers (TechCred)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.utoledo.edu/centers/family-business-center/"
+    },
+    {
+      "type": "certificate",
+      "name": "Copilot for Microsoft 365 Certificate Program",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.utoledo.edu/centers/family-business-center/copilot-for-microsoft-365-certificate-program.html"
+    },
+    {
+      "type": "concentration",
+      "name": "Cyber Security and Trust graduate specialization (includes AI-for-cybersecurity)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.utoledo.edu/engineering/electrical-engineering-computer-science/graduate/specialization-areas/Cyber-Security-and-Trust.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html"
+    },
+    {
+      "vendor": "Nabla",
+      "product": "Nabla ambient AI clinical documentation",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2026-03",
+      "url": "https://www.prnewswire.com/news-releases/university-of-toledo-health-scales-nablas-ambient-ai-after-unlocking-better-documentation-precision-and-revenue-cycle-performance-302729048.html"
+    },
+    {
+      "vendor": "Epic Systems",
+      "product": "Epic EHR (Nabla integration target)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.prnewswire.com/news-releases/university-of-toledo-health-scales-nablas-ambient-ai-after-unlocking-better-documentation-precision-and-revenue-cycle-performance-302729048.html"
+    },
+    {
+      "vendor": "Givzey / Version2.ai",
+      "product": "Virtual Engagement Officer (Doug Reynolds)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://news.utoledo.edu/index.php/05_06_2025/utoledo-foundation-embraces-innovation-with-ai-engagement-officer"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": false,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://www.osc.edu/press/ohio_supercomputer_center_awards_cluster_to_university_of_toledo",
+    "summary": "UToledo does not operate a dedicated central AI supercomputer; instead, researchers access the state-shared Ohio Supercomputer Center (OSC) for large-scale AI/ML workloads. Historically OSC awarded a Cluster Ohio node to UToledo's Department of Physics and Astronomy."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Research funding (FY2024 external awards)",
+      "amount_usd": 72200000,
+      "source": "Competitive external grants (federal, industry, philanthropy combined)",
+      "purpose": "All research (AI activity funded within this envelope)",
+      "date": "2024-06",
+      "url": "https://news.utoledo.edu/index.php/02_13_2025/utoledo-recognized-among-the-nations-leading-research-institutions-with-carnegie-r1-classification"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Microsoft 365 Copilot deployment and TechCred Copilot certificate",
+      "date": null,
+      "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Nabla",
+      "purpose": "Ambient AI clinical documentation at UToledo Health",
+      "date": "2026-03",
+      "url": "https://www.prnewswire.com/news-releases/university-of-toledo-health-scales-nablas-ambient-ai-after-unlocking-better-documentation-precision-and-revenue-cycle-performance-302729048.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Givzey / Version2.ai",
+      "purpose": "Autonomous AI fundraising/engagement (Doug Reynolds)",
+      "date": "2025-05",
+      "url": "https://news.utoledo.edu/index.php/05_06_2025/utoledo-foundation-embraces-innovation-with-ai-engagement-officer"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "JobsOhio",
+      "purpose": "Great Lakes AI Week workshops (AI-Empowered Professional; AI Strategy & Governance)",
+      "date": "2025-11",
+      "url": "https://news.utoledo.edu/index.php/10_28_2025/utoledo-to-lend-experts-insights-to-great-lakes-ai-week"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Bowling Green State University",
+      "purpose": "Great Lakes AI Week regional programming (Nov 5-6, 2025)",
+      "date": "2025-11",
+      "url": "https://news.utoledo.edu/index.php/10_28_2025/utoledo-to-lend-experts-insights-to-great-lakes-ai-week"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "AAC&U (Association of American Colleges & Universities)",
+      "purpose": "Institute on AI in Pedagogy and Curriculum cohort",
+      "date": "2025-01",
+      "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Ohio Supercomputer Center",
+      "purpose": "State-shared HPC access for AI/ML research",
+      "date": null,
+      "url": "https://www.osc.edu/press/ohio_supercomputer_center_awards_cluster_to_university_of_toledo"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "ProMedica Health System",
+      "purpose": "Academic Affiliation Agreement for medical education and clinical research (context for health-system AI deployments)",
+      "date": null,
+      "url": "https://www.utoledo.edu/med/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft 365 Copilot for students/staff",
+      "scope": "Campus-wide employee access; students access via M365 licenses",
+      "url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html"
+    },
+    {
+      "type": "advisor",
+      "name": "Doug Reynolds (alumni/donor engagement)",
+      "scope": "Alumni, donors, community — not current-student facing, but campus-community facing",
+      "url": "https://news.utoledo.edu/index.php/05_06_2025/utoledo-foundation-embraces-innovation-with-ai-engagement-officer"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Library AI literacy video series (free, open)",
+      "description": "Free, short-form videos from UToledo Libraries on responsible AI use, aimed at closing AI-literacy gaps for students, faculty, and community members regardless of technical background.",
+      "url": "https://libguides.utoledo.edu/ai-home/ai-education"
+    },
+    {
+      "title": "Ohio TechCred-funded AI certificates",
+      "description": "State-subsidized AI certificate programs (AI for Business, AI for Marketers, ChatGPT, Copilot) available at low or no cost to employed learners in Ohio through the Ohio TechCred reimbursement program.",
+      "url": "https://www.utoledo.edu/centers/family-business-center/copilot-for-microsoft-365-certificate-program.html"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Ohio",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Ohio enacted HB 96, which required the Ohio Department of Education and Workforce to publish a model AI policy for K-12 by Dec 31, 2025 (published Dec 30, 2025) and all traditional districts / community schools / STEM schools to adopt formal AI policies by July 1, 2026. HB 96 also authorizes an AI Integration in Community Colleges Grant Program (five $100,000 annual awards to community colleges, technical colleges and state institutions). No single statewide AUP governs Ohio R1 universities; UToledo is not a member of a university system and sets its own campus AI policy. Ohio higher-ed governance is advised by the Inter-University Council of Ohio (CIOs committee).",
+    "urls": [
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education",
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education/Model-Policy",
+      "https://www.lsc.ohio.gov/assets/legislation/136/hb96/ph/files/hb96-bor-bill-analysis-as-passed-by-the-house-136th-general-assembly.pdf",
+      "https://iuc-ohio.org/committee-list/chief-information-officers/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Toledo — a public R1 (Carnegie 2025) serving ~14,400 students in northwest Ohio and unaffiliated with a larger state system — is operating a maturing, provost-led AI posture under recently arrived President James Paul Holloway (July 2025) and Provost Mitchell S. McKinney (July 2025). Governance runs through an Artificial Intelligence Task Force convened by the Provost, co-chaired by library Provost Faculty Fellows Gerald Natal and Arjun Sabharwal, with a core team that explicitly pulls in the CIO (Bill McCreary), Legal Affairs, and the Office of the Provost. Six named subcommittees (arts/humanities, curriculum/instruction, healthcare, instructional development, policy, research) distribute domain-specific work. Policy is permissive-with-guidance at the institution level — optional syllabus language, course-level faculty discretion — with stricter carve-outs such as the College of Law's generative-AI rule and the first-in-the-nation mandatory AI training rolled out to Toledo Athletics in June 2025. Enterprise deployments are where Toledo stands out: Microsoft 365 Copilot is live for all employees, UToledo Health has scaled Nabla ambient AI to hundreds of clinicians on Epic (29% reduction in time-to-chart-closure), and the UToledo Foundation deployed Givzey's Doug Reynolds, an autonomous AI virtual engagement officer, in May 2025. Academically, the School of Interdisciplinary Data Science (spring 2025) pulls together faculty across five colleges with an existing BS and an in-development online MS; AI specializations sit inside graduate EECS, and Ohio TechCred funds a portfolio of continuing-ed AI certificates. Research compute is outsourced to the statewide Ohio Supercomputer Center, and the university sponsored Great Lakes AI Week (Nov 2025) with JobsOhio and Bowling Green State. Principal gaps: no chief AI officer, no disclosed AI-specific investment total, no named AI research institute, and the statewide higher-ed regulatory framework is still forming (HB 96's higher-ed provisions target community colleges). Overall posture is growing, operationally credible, and distinctly shaped by a health-system and regional-workforce agenda more than by a flagship research-AI brand.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.utoledo.edu/offices/provost/artificial-intelligence/",
+      "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html",
+      "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-policies.html",
+      "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-teaching-learning.html",
+      "https://www.utoledo.edu/offices/provost/artificial-intelligence/artificial-intelligence-task-force.html",
+      "https://www.utoledo.edu/offices/provost/ai-steering-committee.html",
+      "https://www.utoledo.edu/law/studentlife/resources/generative-ai-policy.html",
+      "https://libguides.utoledo.edu/ai-home/ai-submission-policy",
+      "https://libguides.utoledo.edu/ai-home/ai-education",
+      "https://libguides.utoledo.edu/ai-home/ai-technology",
+      "https://www.utoledo.edu/engineering/electrical-engineering-computer-science/graduate/specialization-areas/artificial-intelligence.html",
+      "https://www.utoledo.edu/engineering/electrical-engineering-computer-science/graduate/specialization-areas/Cyber-Security-and-Trust.html",
+      "https://www.utoledo.edu/nsm/school-of-interdisciplinary-data-science/",
+      "https://www.utoledo.edu/nsm/bs-data-science/",
+      "https://www.utoledo.edu/centers/family-business-center/copilot-for-microsoft-365-certificate-program.html",
+      "https://www.utoledo.edu/offices/president/",
+      "https://www.utoledo.edu/offices/president/cabinet/",
+      "https://www.utoledo.edu/offices/president/cabinet/mckinney/",
+      "https://www.utoledo.edu/offices/provost/search/mckinney/",
+      "https://news.utoledo.edu/index.php/05_22_2025/university-of-toledo-board-of-trustees-selects-dr-james-holloway-as-19th-president",
+      "https://news.utoledo.edu/index.php/05_29_2025/university-of-akron-dean-named-utoledo-provost",
+      "https://news.utoledo.edu/index.php/07_15_2025/provosts-first-day",
+      "https://news.utoledo.edu/index.php/02_12_2025/new-data-science-school-invites-collaboration-innovation-in-rapidly-growing-field",
+      "https://news.utoledo.edu/index.php/02_13_2025/utoledo-recognized-among-the-nations-leading-research-institutions-with-carnegie-r1-classification",
+      "https://news.utoledo.edu/index.php/04_03_2025/utoledo-celebrates-r1-classification",
+      "https://news.utoledo.edu/index.php/05_06_2025/utoledo-foundation-embraces-innovation-with-ai-engagement-officer",
+      "https://news.utoledo.edu/index.php/10_28_2025/utoledo-to-lend-experts-insights-to-great-lakes-ai-week",
+      "https://news.utoledo.edu/index.php/11_10_2025/artificial-intelligence-in-healthcare-symposium",
+      "https://news.utoledo.edu/index.php/01_28_2025/spring-2025-enrollment-numbers-announced",
+      "https://utrockets.com/news/2025/6/4/toledo-athletics-becomes-first-in-nation-to-require-artificial-intelligence-training-for-entire-department",
+      "https://utrockets.com/news/2025/8/27/university-of-toledo-athletics-ushers-in-a-new-era-of-data-driven-excellence",
+      "https://www.prnewswire.com/news-releases/university-of-toledo-health-scales-nablas-ambient-ai-after-unlocking-better-documentation-precision-and-revenue-cycle-performance-302729048.html",
+      "https://www.version2.ai/post/a-first-in-fundraising-virtual-engagement-officers-secure-multi-year-gifts-with-autonomous-ai",
+      "https://www.osc.edu/press/ohio_supercomputer_center_awards_cluster_to_university_of_toledo",
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education",
+      "https://education.ohio.gov/Topics/AI-in-Ohio-s-Education/Model-Policy",
+      "https://www.lsc.ohio.gov/assets/legislation/136/hb96/ph/files/hb96-bor-bill-analysis-as-passed-by-the-house-136th-general-assembly.pdf",
+      "https://iuc-ohio.org/committee-list/chief-information-officers/"
+    ],
+    "search_queries": [
+      "\"University of Toledo\" AI strategy 2025 artificial intelligence",
+      "\"University of Toledo\" AI policy acceptable use generative AI guidelines",
+      "\"University of Toledo\" AI research center institute",
+      "\"University of Toledo\" CIO president provost 2025",
+      "\"University of Toledo\" \"AI steering committee\" chair members",
+      "\"University of Toledo\" data science school 2025 launch",
+      "\"University of Toledo\" Copilot Microsoft AI campus deployment",
+      "\"University of Toledo\" AI degree certificate artificial intelligence major",
+      "\"University of Toledo\" AI healthcare medicine hospital research funding",
+      "\"University of Toledo\" Ohio AI grant NSF funding investment",
+      "Ohio state higher education AI policy executive order 2024 2025",
+      "\"University of Toledo\" enrollment R1 Carnegie classification 2025",
+      "\"University of Toledo\" enrollment students 2024 2025 total",
+      "\"University of Toledo\" provost Mitchell McKinney 2025",
+      "\"University of Toledo\" \"Doug Reynolds\" AI virtual engagement officer foundation",
+      "\"University of Toledo\" AI cybersecurity research FBI Ohio initiative",
+      "\"University of Toledo\" AI supercomputer HPC GPU cluster research computing",
+      "\"University of Toledo\" AI adaptive learning CELT faculty development workshop"
+    ],
+    "gaps_acknowledged": [
+      "No chief AI officer or named AI Strategy Lead beyond the Provost-as-convener; profile role is effectively shared between Provost McKinney and task-force co-chairs Natal/Sabharwal.",
+      "No disclosed total dollar investment specifically earmarked for AI (separate from the $72.2M FY2024 total research awards).",
+      "Policy adoption_date not publicly stated on the Provost AI policies page.",
+      "AI Steering Committee page returned only a directory listing to WebFetch — member list not fully captured; Task Force page provided the concrete membership data.",
+      "No evidence of a standalone AI research center with a dedicated institute name; data science school is the closest analogue.",
+      "No public AI-specific controversies or litigation located — may reflect genuine absence or limited public reporting.",
+      "Dedicated on-campus GPU cluster count not published; compute is primarily via Ohio Supercomputer Center."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "curriculum_led",
+      "secondary": [
+        "balanced_enterprise",
+        "platform_first",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 16,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 17,
+        "governance_led": 12,
+        "student_success_led": 6,
+        "workforce_regional_development": 13,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: curriculum led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": false,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "none"
+      },
+      "disclosed_funding_usd": 72200000,
+      "funding_source_buckets": {
+        "public_federal_state": 3,
+        "institutional": 6,
+        "industry_vendor": 1,
+        "other_unclear": 3,
+        "philanthropy_foundation": 1
+      },
+      "partnership_count": 8
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "other": 1,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic",
+          "mentions": 1,
+          "products": [
+            "Epic"
+          ]
+        },
+        {
+          "vendor": "Epic Systems Epic EHR (Nabla integration target)",
+          "mentions": 1,
+          "products": [
+            "Epic EHR (Nabla integration target)"
+          ]
+        },
+        {
+          "vendor": "Givzey / Version2.ai Doug Reynolds (virtual engagement officer)",
+          "mentions": 1,
+          "products": [
+            "Doug Reynolds (virtual engagement officer)"
+          ]
+        },
+        {
+          "vendor": "Givzey / Version2.ai Virtual Engagement Officer (Doug Reynolds)",
+          "mentions": 1,
+          "products": [
+            "Virtual Engagement Officer (Doug Reynolds)"
+          ]
+        },
+        {
+          "vendor": "Nabla Nabla",
+          "mentions": 1,
+          "products": [
+            "Nabla"
+          ]
+        },
+        {
+          "vendor": "Nabla Nabla ambient AI clinical documentation",
+          "mentions": 1,
+          "products": [
+            "Nabla ambient AI clinical documentation"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Campus-wide Microsoft Copilot deployment for all employees",
+          "summary": "Places Toledo among the cohort of mid-sized R1 publics that have moved from ChatGPT-free-tier ambiguity to a licensed, enterprise-grade generative AI platform for workforce.",
+          "source_url": "https://www.utoledo.edu/offices/provost/artificial-intelligence/ai-initiatives.html"
+        },
+        {
+          "claim_type": "cost_or_revenue",
+          "title": "Nabla ambient AI clinical documentation scaled across UToledo Health",
+          "summary": "Demonstrates an R1 academic health system moving from ambient-AI pilot to at-scale Epic-integrated deployment with measurable revenue-cycle outcomes — a reference point for peer AMCs.",
+          "source_url": "https://www.prnewswire.com/news-releases/university-of-toledo-health-scales-nablas-ambient-ai-after-unlocking-better-documentation-precision-and-revenue-cycle-performance-302729048.html"
+        },
+        {
+          "claim_type": "career",
+          "title": "TechCred-funded AI certificate programs (business, marketers, ChatGPT, Copilot)",
+          "summary": "Illustrates a regional R1 leveraging state workforce funding to deliver short-cycle AI upskilling to working adults, independent of degree programs.",
+          "source_url": "https://www.utoledo.edu/centers/family-business-center/copilot-for-microsoft-365-certificate-program.html"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "AI specialization in graduate Electrical Engineering & Computer Science",
+          "summary": "Long-standing academic AI track feeding graduate-level AI workforce and research — a stable spine for the university's newer AI initiatives.",
+          "source_url": "https://www.utoledo.edu/engineering/electrical-engineering-computer-science/graduate/specialization-areas/artificial-intelligence.html"
+        },
+        {
+          "claim_type": "learning",
+          "title": "AI LibGuide and video literacy series from University Libraries",
+          "summary": "Library-led AI literacy is a common early-maturity pattern — important baseline for compliance with course-level AI disclosure expectations.",
+          "source_url": "https://libguides.utoledo.edu/ai-home/ai-submission-policy"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 8,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "No chief AI officer or named AI Strategy Lead beyond the Provost-as-convener; profile role is effectively shared between Provost McKinney and task-force co-chairs Natal/Sabharwal.",
+        "No disclosed total dollar investment specifically earmarked for AI (separate from the $72.2M FY2024 total research awards).",
+        "Policy adoption_date not publicly stated on the Provost AI policies page.",
+        "AI Steering Committee page returned only a directory listing to WebFetch — member list not fully captured; Task Force page provided the concrete membership data.",
+        "No evidence of a standalone AI research center with a dedicated institute name; data science school is the closest analogue.",
+        "No public AI-specific controversies or litigation located — may reflect genuine absence or limited public reporting.",
+        "Dedicated on-campus GPU cluster count not published; compute is primarily via Ohio Supercomputer Center."
+      ]
+    }
+  }
+}

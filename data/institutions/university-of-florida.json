@@ -1,0 +1,722 @@
+{
+  "institution": "University of Florida",
+  "slug": "university-of-florida",
+  "city_state": "Gainesville, FL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "State University System of Florida",
+  "enrollment": null,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "AI at UF",
+      "url": "https://ai.ufl.edu/guidelines/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Guidelines for Use of AI at UF",
+        "url": "https://ai.ufl.edu/guidelines/",
+        "year": 2026
+      },
+      {
+        "title": "Responsible Use of Artificial Intelligence policy",
+        "url": "https://policy.ufl.edu/policy/responsible-use-of-artificial-intelligence/",
+        "year": 2026
+      },
+      {
+        "title": "Building an AI University",
+        "url": "https://www.ai.ufl.edu/about/building-an-ai-university/",
+        "year": 2026
+      }
+    ],
+    "summary": "UF is a national benchmark for institution-wide AI transformation. Since 2020, it has pursued AI Across the Curriculum, 100+ AI faculty hires, HiPerGator/NVIDIA infrastructure, NaviGator AI, AI Fundamentals and discipline certificates, guidelines for AI use, and formal responsible-use policy."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.ufl.edu/guidelines/",
+      "https://policy.ufl.edu/policy/responsible-use-of-artificial-intelligence/",
+      "https://it.ufl.edu/ai/"
+    ],
+    "adopted_date": "2023",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "University of Florida's AI policy posture is best characterized as comprehensive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI at UF / AI2 Center",
+        "type": "office",
+        "scope": "University-wide AI initiative, curriculum, ethics, events, and AI2 Center.",
+        "url": "https://ai.ufl.edu/about/building-an-ai-university/"
+      },
+      {
+        "name": "UF Information Technology",
+        "type": "office",
+        "scope": "NaviGator AI and HiPerGator AI access.",
+        "url": "https://it.ufl.edu/ai/"
+      },
+      {
+        "name": "Office of the Provost",
+        "type": "office",
+        "scope": "AI guidelines and AI Across the Curriculum.",
+        "url": "https://ai.ufl.edu/guidelines/"
+      }
+    ],
+    "summary": "University of Florida's public AI governance is organized through AI at UF / AI2 Center, UF Information Technology, Office of the Provost."
+  },
+  "initiatives": [
+    {
+      "title": "AI Across the Curriculum",
+      "description": "UF's initiative infuses AI learning broadly across all majors, created a university-wide AI Fundamentals certificate and discipline-specific certificates, and aims for every student to graduate AI-literate.",
+      "significance": "University of Florida's ai across the curriculum is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_enhanced_pedagogy",
+        "ai_degree_program",
+        "career_and_workforce_readiness",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 19000000,
+        "funding_source": "University of Florida",
+        "description": "Publicly disclosed amount associated with AI Across the Curriculum."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "AI university partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/",
+        "https://news.ufl.edu/2023/01/ai-university/"
+      ]
+    },
+    {
+      "title": "NaviGator AI",
+      "description": "UFIT released NaviGator AI, described by UF as higher education's first comprehensive self-service AI platform, hosting 26 LLMs from providers including OpenAI, Google, Stability AI, Anthropic, Meta, Mistral, and NVIDIA NIMs.",
+      "significance": "University of Florida's navigator ai is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_chatbot_or_virtual_assistant",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "OpenAI",
+            "Google",
+            "Anthropic",
+            "Stability AI",
+            "Meta",
+            "Mistral"
+          ],
+          "description": "Multi-model platform powered by HiPerGator."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NaviGator AI",
+          "vendor": "University of Florida",
+          "role": "Self-service AI platform"
+        },
+        {
+          "name": "NVIDIA NIMs",
+          "vendor": "NVIDIA",
+          "role": "Model serving"
+        },
+        {
+          "name": "GPT/DALL-E",
+          "vendor": "OpenAI",
+          "role": "LLM and image generation"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "LLM"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "LLM"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://news.ufl.edu/2024/08/navigator/",
+        "https://it.ufl.edu/ai/"
+      ]
+    },
+    {
+      "title": "HiPerGator AI infrastructure",
+      "description": "HiPerGator powers UF's AI efforts with 1,120 NVIDIA A100 GPUs; UF also describes planned investments in DGX B200/Blackwell and storage expansions.",
+      "significance": "University of Florida's hipergator ai infrastructure is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 24000000,
+        "funding_source": "University of Florida",
+        "description": "Publicly disclosed amount associated with HiPerGator AI infrastructure."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "Supercomputing partnership."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "HiPerGator",
+          "vendor": "University of Florida / NVIDIA",
+          "role": "AI supercomputer"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.ufl.edu/2024/08/navigator/",
+        "https://www.ai.ufl.edu/about/building-an-ai-university/"
+      ]
+    },
+    {
+      "title": "Guidelines and responsible-use policy",
+      "description": "UF publishes Guidelines for Use of AI and a Responsible Use of AI policy that emphasize accessibility, transparency, security, human-in-the-loop decisions, privacy, intellectual property, and academic integrity.",
+      "significance": "University of Florida's guidelines and responsible-use policy is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.ufl.edu/guidelines/",
+        "https://policy.ufl.edu/policy/responsible-use-of-artificial-intelligence/"
+      ]
+    },
+    {
+      "title": "AI faculty hiring and strategic investments",
+      "description": "UF states it launched a two-year AI hiring initiative that brought 106 AI faculty members across colleges and distributed nearly $19M to fund AI efforts in 10 colleges.",
+      "significance": "University of Florida's ai faculty hiring and strategic investments is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "faculty_role_evolution",
+        "ai_research_center",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 19000000,
+        "funding_source": "University of Florida",
+        "description": "Publicly disclosed amount associated with AI faculty hiring and strategic investments."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.ai.ufl.edu/about/building-an-ai-university/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AI2 Center",
+      "focus": "AI initiative, research, affiliates, ethics, and summit.",
+      "founded": null,
+      "url": "https://ai.ufl.edu/about/building-an-ai-university/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "AI Fundamentals and Applications",
+      "level": "both",
+      "launched": null,
+      "url": "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/"
+    },
+    {
+      "type": "course",
+      "name": "AI Across the Curriculum",
+      "level": "both",
+      "launched": "2020",
+      "url": "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "UF",
+      "product": "NaviGator AI",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://news.ufl.edu/2024/08/navigator/"
+    },
+    {
+      "vendor": "NVIDIA",
+      "product": "HiPerGator",
+      "scope": "campus-wide",
+      "user_count": 1120,
+      "deployed": null,
+      "url": "https://news.ufl.edu/2024/08/navigator/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "HiPerGator",
+    "gpu_count": 1120,
+    "url": "https://news.ufl.edu/2024/08/navigator/",
+    "summary": "HiPerGator includes 1,120 NVIDIA A100 80GB GPUs and powers NaviGator AI."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "AI strategic investment to 10 colleges",
+      "amount_usd": 19000000,
+      "source": "University of Florida",
+      "purpose": "AI efforts in 10 colleges.",
+      "date": "2023",
+      "url": "https://www.ai.ufl.edu/about/building-an-ai-university/"
+    },
+    {
+      "title": "Planned NVIDIA DGX B200 SuperPOD upgrade",
+      "amount_usd": 24000000,
+      "source": "University of Florida",
+      "purpose": "Upgrade donated NVIDIA DGX A100 SuperPOD to DGX B200 SuperPOD.",
+      "date": "2025",
+      "url": "https://www.ai.ufl.edu/about/building-an-ai-university/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "HiPerGator and AI university partnership.",
+      "date": "2019",
+      "url": "https://news.ufl.edu/2024/08/navigator/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Southeastern Conference",
+      "purpose": "HiPerGator teaching/research access for SEC schools.",
+      "date": null,
+      "url": "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "NaviGator AI Chat",
+      "scope": "Faculty, staff, and students using safe broad AI services.",
+      "url": "https://news.ufl.edu/2024/08/navigator/"
+    },
+    {
+      "type": "tutor",
+      "name": "NaviGator AI Tutor",
+      "scope": "Personalized interactive learning.",
+      "url": "https://it.ufl.edu/ai/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI is for Everyone",
+      "description": "UF guidelines make broad AI access, ethics, transparency, accessibility, bias mitigation, and human values explicit principles.",
+      "url": "https://ai.ufl.edu/guidelines/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Florida",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "University of Florida operates in Florida and within State University System of Florida; public AI guidance should be read alongside applicable state, federal, and system privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://ai.ufl.edu/guidelines/",
+      "https://policy.ufl.edu/policy/responsible-use-of-artificial-intelligence/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "University of Florida (Gainesville, FL) is an R1 institution whose public AI posture shows activity across governance, teaching, research, enterprise tooling, workforce readiness, and access. UF is a national benchmark for institution-wide AI transformation. Since 2020, it has pursued AI Across the Curriculum, 100+ AI faculty hires, HiPerGator/NVIDIA infrastructure, NaviGator AI, AI Fundamentals and discipline certificates, guidelines for AI use, and formal responsible-use policy. The most concrete public initiatives captured here are AI Across the Curriculum; NaviGator AI; HiPerGator AI infrastructure; Guidelines and responsible-use policy; AI faculty hiring and strategic investments. Across the profile, the strongest evidence comes from official university AI hubs, policy pages, teaching resources, research-center pages, and program pages rather than secondary reporting. The institution_type is set to r1_research from the canonical Carnegie R1 list. Known gaps are intentionally explicit: leadership names, user counts, detailed budgets, and compute counts are only included when they surfaced in public sources. Overall, the profile supports at least five AI initiatives and evidences strategy/leadership, governance, teaching/curriculum, research infrastructure, student services or enterprise tooling, workforce/community, partnerships, and equity dimensions where public sources permit.",
+  "research_quality": {
+    "compiled_at": "2026-04-23",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://ai.ufl.edu/guidelines/",
+      "https://policy.ufl.edu/policy/responsible-use-of-artificial-intelligence/",
+      "https://it.ufl.edu/ai/",
+      "https://www.ai.ufl.edu/about/building-an-ai-university/",
+      "https://ai.ufl.edu/about/building-an-ai-university/",
+      "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/",
+      "https://news.ufl.edu/2024/08/navigator/",
+      "https://news.ufl.edu/2023/01/ai-university/"
+    ],
+    "search_queries": [
+      "University of Florida AI strategy 2025 2026",
+      "University of Florida generative AI policy guidelines",
+      "University of Florida AI research center institute",
+      "University of Florida Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "University of Florida AI degree certificate workforce training",
+      "Florida higher education AI policy"
+    ],
+    "gaps_acknowledged": [
+      "Enrollment was left null rather than relying on non-source local data.",
+      "Some NaviGator platform costs are embedded in broader AI/compute investments and not itemized publicly."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "governance_led",
+        "platform_first",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 9,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 6,
+        "governance_led": 9,
+        "student_success_led": 4,
+        "workforce_regional_development": 2,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 6
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 2,
+      "ai_program_count": 2,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 1,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "HiPerGator",
+        "gpu_count": 1120,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 62000000,
+      "funding_source_buckets": {
+        "institutional": 4,
+        "industry_vendor": 1,
+        "other_unclear": 2
+      },
+      "partnership_count": 2
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "NVIDIA",
+          "mentions": 3,
+          "products": [
+            "HiPerGator",
+            "NVIDIA NIMs"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "GPT/DALL-E"
+          ]
+        },
+        {
+          "vendor": "UF NaviGator AI",
+          "mentions": 1,
+          "products": [
+            "NaviGator AI"
+          ]
+        },
+        {
+          "vendor": "University of Florida NaviGator AI",
+          "mentions": 1,
+          "products": [
+            "NaviGator AI"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "NVIDIA",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "AI Across the Curriculum",
+          "summary": "University of Florida's ai across the curriculum is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.ufl.edu/teaching-with-ai/ai-across-the-curriculum/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "NaviGator AI",
+          "summary": "University of Florida's navigator ai is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://news.ufl.edu/2024/08/navigator/"
+        },
+        {
+          "claim_type": "career",
+          "title": "HiPerGator AI infrastructure",
+          "summary": "University of Florida's hipergator ai infrastructure is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://news.ufl.edu/2024/08/navigator/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Guidelines and responsible-use policy",
+          "summary": "University of Florida's guidelines and responsible-use policy is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.ufl.edu/guidelines/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI faculty hiring and strategic investments",
+          "summary": "University of Florida's ai faculty hiring and strategic investments is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.ai.ufl.edu/about/building-an-ai-university/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 2,
+      "notes": [
+        "Enrollment was left null rather than relying on non-source local data.",
+        "Some NaviGator platform costs are embedded in broader AI/compute investments and not itemized publicly."
+      ]
+    }
+  }
+}

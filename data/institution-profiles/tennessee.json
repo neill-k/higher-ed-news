@@ -1,0 +1,260 @@
+{
+  "institution": "University of Tennessee, Knoxville",
+  "slug": "tennessee",
+  "city_state": "Knoxville, TN",
+  "carnegie": "R1",
+  "aau_member": false,
+  "enrollment": 40421,
+  "system_leadership": {
+    "president_name": "Randy Boyd",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+      "https://policy.tennessee.edu/wp-content/uploads/BT0035-Policy-on-Artificial-Intelligence-1973_0.pdf",
+      "https://provost.utk.edu/provost-initiatives/ai-information/"
+    ],
+    "adopted_date": "2025-02",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "key_provisions": [
+      "Systemwide Board of Trustees policy BT0035 adopted by UT System effective 2025-02-28",
+      "Faculty discretion to permit, restrict, or prohibit AI use in courses, with required disclosure in syllabi/LMS",
+      "Unpermitted AI use constitutes academic misconduct under campus student conduct codes",
+      "Protected University Data may not be entered into AI tools unless reviewed and authorized by the technology leader",
+      "Campus Chancellors must establish local procedures; Office of Institutional Compliance reports to Audit and Compliance Committee",
+      "Applies across UT Knoxville, Chattanooga, Martin, Southern, Health Science Center"
+    ],
+    "summary": "The UT System Board of Trustees adopted system-wide AI Policy BT0035 effective February 28, 2025, covering all students, faculty, and staff across every UT campus. It gives instructors discretion over classroom AI use, requires course-level disclosure, treats unpermitted use as academic misconduct, and routes all decisions about AI tools handling protected data through the technology leader. UT Knoxville's Provost AI Steering Committee, chaired by Vice Provost Ozlem Kilic, operationalizes the policy through thematic subcommittees."
+  },
+  "governance_structure": {
+    "committee_name": "UT Knoxville AI Steering Committee (Office of the Provost)",
+    "committee_url": "https://provost.utk.edu/provost-initiatives/ai-information/",
+    "committee_members_public": true,
+    "notes": "Chaired by Vice Provost Ozlem Kilic (also founding dean of the College of Emerging and Collaborative Studies). Established January 2023 as the ChatGPT Task Force, later restructured as the AI Steering Committee. Operates six subcommittees (Pedagogy, Philosophy, Technology, Research, Policy, Student) with publicly listed faculty/student members. Former Associate Vice Chancellor Lynne Parker (ex-US Deputy CTO) co-chairs the state Tennessee AI Advisory Council's Outcomes subcommittee."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "UT-developed / OpenAI / Anthropic / xAI",
+      "product": "UT AI Hub (GenAI gateway to ChatGPT, Claude, Grok, and others)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2025-02",
+      "evidence_urls": [
+        "https://oit.utk.edu/news/work-smarter-with-the-new-ut-ai-hub/",
+        "https://oit.utk.edu/ai/"
+      ],
+      "notes": "Announced via Provost email Feb 27, 2025; launched late March 2025. Free to all students, faculty, and staff. Provides private access to premium LLMs without exposing institutional data to public platforms."
+    },
+    {
+      "vendor": "University of Tennessee (in-house)",
+      "product": "UT Verse (AI Assistant and UTVersal Translator)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2023-09",
+      "evidence_urls": [
+        "https://utverse.tennessee.edu/",
+        "https://oit.utk.edu/ai/utverse/",
+        "https://news.utk.edu/2023/09/26/ut-brings-new-ai-services-to-campus/"
+      ],
+      "notes": "In-house AI assistant built by OIT under technology leader Ramon Padilla Jr.; originally GPT-3.5-backed proof of concept in August 2023, now a university-tailored chat platform with custom agents. Available to all UT students, faculty, and staff at no cost; chat data not shared with third parties or used to train public models."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": null,
+      "evidence_urls": "https://oit.utk.edu/ai/",
+      "notes": "Listed on OIT AI page as a centrally contracted, reviewed AI tool alongside UT AI Hub and UT Verse. Specific announcement date and user counts not publicly disclosed."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "BS in Applied Artificial Intelligence",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://catalog.utk.edu/preview_program.php?catoid=51&poid=32972"
+    },
+    {
+      "program_type": "minor",
+      "name": "Applied Artificial Intelligence Minor",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://catalog.utk.edu/preview_program.php?catoid=51&poid=32949"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Applied Artificial Intelligence Certificate (undergraduate)",
+      "level": "undergrad",
+      "announced_or_launched": null,
+      "evidence_url": "https://cecs.utk.edu/academics/undergraduate-certificates/applied-artificial-intelligence/"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Artificial Intelligence and Machine Learning Graduate Certificate",
+      "level": "grad",
+      "announced_or_launched": null,
+      "evidence_url": "https://catalog.utk.edu/preview_program.php?catoid=33&poid=16593"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "AI Tennessee Initiative (statewide, UTK-led)",
+      "amount_usd": null,
+      "counterparty": "State of Tennessee AI Advisory Council, Oak Ridge National Laboratory, Vanderbilt, University of Memphis, Tennessee Board of Regents, SCORE",
+      "date": null,
+      "evidence_url": "https://research.utk.edu/aitn/",
+      "summary": "First statewide AI initiative of its kind, launched by UTK approximately 2023 and led by Director Vasileios Maroulas. Coordinates AI research, education, and workforce development across ~400 academic, industry, start-up, and public-sector members."
+    },
+    {
+      "title": "AI TechX industry consortium and seed funding",
+      "amount_usd": null,
+      "counterparty": "AI Tennessee / industry partners (Volkswagen of America, EY, Ballad Health, Hitachi Federal cited)",
+      "date": "2025-05",
+      "evidence_url": "https://research.utk.edu/oried/2025/05/13/university-of-tennessee-faculty-use-artificial-intelligence-to-solve-problems-in-and-outside-the-classroom/",
+      "summary": "Industry consortium under AI Tennessee that awarded seed funding to 9 UTK faculty-led projects in first round; focuses on applied research, workforce upskilling, and AI-enabled business creation. 350+ industry partners engaged with CECS."
+    },
+    {
+      "title": "THRIVE: Tennessee Human-AI Readiness & Innovation: Ventures in Excellence",
+      "amount_usd": null,
+      "counterparty": "College of Arts and Sciences internal",
+      "date": "2025",
+      "evidence_url": "https://artsci.utk.edu/tennessee-human-ai-readiness-innovation-ventures-in-excellence-thrive-2025/",
+      "summary": "College of Arts and Sciences call for proposals advancing AI research across natural sciences, humanities, and social sciences."
+    },
+    {
+      "title": "TEAM TN partnership with AI Tennessee",
+      "amount_usd": null,
+      "counterparty": "TEAM TN (Tennessee economic/workforce coalition)",
+      "date": "2025-11",
+      "evidence_url": "https://teamtn.org/team-tn-ai-tennessee/",
+      "summary": "November 2025 statewide partnership linking economic-development network with UTK-led AI Tennessee."
+    },
+    {
+      "title": "Maplehurst Innovation District (AI and technology focus)",
+      "amount_usd": null,
+      "counterparty": "UT Knoxville / state partners",
+      "date": "2025-09",
+      "evidence_url": "https://news.utk.edu/2025/09/25/the-next-level-plowman-shares-bold-vision-for-innovation-and-statewide-impact/",
+      "summary": "Chancellor Plowman announced plans for a new innovation district centered on AI and technology development as part of her September 2025 'Next Level' vision address."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Donde Plowman",
+      "role": "Chancellor, UT Knoxville",
+      "date": "2025-09",
+      "context": "The Next Level vision address; Maplehurst Innovation District announcement",
+      "quote_or_summary": "Investments in expert faculty, collaborative partnerships, and cutting-edge facilities will springboard UT to the next level; positioned new Maplehurst Innovation District around AI and technology development.",
+      "evidence_url": "https://news.utk.edu/2025/09/25/the-next-level-plowman-shares-bold-vision-for-innovation-and-statewide-impact/"
+    },
+    {
+      "speaker": "Donde Plowman",
+      "role": "Chancellor, UT Knoxville",
+      "date": "2026-03",
+      "context": "Industry engagement / workforce development coverage",
+      "quote_or_summary": "Employers in Tennessee are looking to us to produce graduates with the knowledge and skills to embrace emerging AI technologies.",
+      "evidence_url": "https://www.eurekalert.org/news-releases/1122175"
+    },
+    {
+      "speaker": "Randy Boyd",
+      "role": "President, UT System",
+      "date": null,
+      "context": "President's column on UT AI strategy",
+      "quote_or_summary": "AI is here, and the University of Tennessee is ready; the goal is not just to study AI but to lead in applying it to solve the state's and nation's most pressing challenges.",
+      "evidence_url": "https://tennessee.edu/about/leadership/president/presidents-news/"
+    },
+    {
+      "speaker": "Vasileios Maroulas",
+      "role": "Director, AI Tennessee Initiative; Professor of Mathematics",
+      "date": "2026-01",
+      "context": "From Industry Engagement to Workforce Development feature (ORIED)",
+      "quote_or_summary": "AI, advanced computing, and emerging technologies are an opportunity to rethink how we solve problems, conduct science, and best serve society.",
+      "evidence_url": "https://research.utk.edu/oried/2026/01/26/from-industry-engagement-to-workforce-development-ut-is-leading-tennessees-ai-future/"
+    },
+    {
+      "speaker": "Ozlem Kilic",
+      "role": "Founding Dean, College of Emerging and Collaborative Studies; Vice Provost chairing AI Steering Committee",
+      "date": "2026-01",
+      "context": "CECS / AI Tennessee coverage",
+      "quote_or_summary": "AI doesn't live in one discipline. The future belongs to people who can connect advanced technologies with real-world contexts.",
+      "evidence_url": "https://research.utk.edu/oried/2026/01/26/from-industry-engagement-to-workforce-development-ut-is-leading-tennessees-ai-future/"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Tennessee",
+    "has_state_ai_executive_order": true,
+    "has_higher_ed_system_ai_policy": true,
+    "summary": "Tennessee Code Annotated Section 49-7-185 (enacted 2024) requires public postsecondary institutions to adopt and post AI policies; companion law 49-13-118 imposes parallel obligations on K-12/charter schools, and the Tennessee Department of Education is directed to fund professional development on responsible AI integration. Public colleges and universities were required to submit AI policies to the Tennessee Board of Regents by July 1, 2025. Governor Bill Lee established the Tennessee Artificial Intelligence Advisory Council (state-level advisory body on AI risks, leadership, and workforce outcomes); former UTK AVC Lynne Parker co-chairs its Outcomes subcommittee. Additional 2025 legislation (SB 0514/HB 0531; HB 0545/SB 0677) proposes AI literacy instruction for students and educator professional development. UT System's BT0035 (Feb 28, 2025) is the system-wide response to the statutory mandate.",
+    "evidence_urls": [
+      "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+      "https://law.justia.com/codes/tennessee/title-49/chapter-13/section-49-13-118/",
+      "https://www.tn.gov/finance/ai-council.html",
+      "https://www.tn.gov/finance/ai-council/ai-council-membership-information.html",
+      "https://pedagogyfutures.org/policy/tennessees-ai-education-policy-landscape/",
+      "https://www.govtech.com/education/k-12/tennessee-bill-on-ai-in-schools-a-hint-of-whats-to-come"
+    ]
+  },
+  "litigation_or_controversy": {
+    "date": null,
+    "summary": "Guest column in The Pacer (UT Martin student newspaper) argues UT System's embrace of AI downplays dangers; reflects critical faculty/student commentary rather than formal litigation.",
+    "status": "unknown",
+    "evidence_url": "https://www.thepacer.net/guest-column-university-of-tennessee-embraces-artificial-intelligence-downplays-dangers/"
+  },
+  "narrative_summary": "The University of Tennessee, Knoxville runs one of the most coordinated AI postures in the sector. The UT System Board of Trustees adopted system-wide Policy BT0035 effective February 28, 2025, triggered in part by Tennessee's statutory mandate (TCA 49-7-185) that public higher-ed institutions adopt and post AI policies. UTK operationalizes that policy through an AI Steering Committee chaired by Vice Provost Ozlem Kilic, with six publicly rostered subcommittees (pedagogy, philosophy, technology, research, policy, and students). Tool stack is unusually mature: in-house UT Verse assistant (since 2023), a UT AI Hub gateway launched March 2025 that provides campus-wide free access to ChatGPT, Claude, Grok and other premium LLMs, plus Microsoft Copilot; all are centrally contracted and technology leader-reviewed. Academic portfolio includes a BS in Applied AI, undergraduate minor and certificate, and a graduate AI/ML certificate through the new College of Emerging and Collaborative Studies. Strategically, UTK brands itself as the hub of the statewide AI Tennessee Initiative (~400 members, led by Vasileios Maroulas) and the AI TechX industry consortium, with explicit backing from President Randy Boyd and Chancellor Donde Plowman, whose September 2025 'Next Level' address committed to a Maplehurst Innovation District focused on AI. UTK is not an AAU member but punches above its classification via Oak Ridge National Laboratory proximity and state workforce alignment.",
+  "confidence_notes": "HIGH confidence on AI policy (BT0035 text and effective date directly verified), governance committee structure, tool portfolio (UT AI Hub, UT Verse, Copilot), academic programs, AI Tennessee Initiative leadership, and state statutory context. MEDIUM confidence on deployment dates/user counts for Microsoft Copilot (not disclosed). MEDIUM confidence on dollar amounts for AI TechX seed funding and industry partnerships (no public figures found). No dedicated dedicated AI leader role identified; AI governance distributed across technology leader (Padilla), Vice Provost Kilic, and AI Tennessee Director Maroulas. technology leader Ramon Padilla Jr. was announced to transition to Sr. VC for Finance & Administration effective March 30, 2026; successor not yet named as of research date.",
+  "sources": [
+    "https://policy.tennessee.edu/policy/bt0035-policy-on-artificial-intelligence/",
+    "https://policy.tennessee.edu/wp-content/uploads/BT0035-Policy-on-Artificial-Intelligence-1973_0.pdf",
+    "https://policy.tennessee.edu/procedure/gp-004-02-acceptable-use-of-generative-ai/",
+    "https://provost.utk.edu/provost-initiatives/ai-information/",
+    "https://oit.utk.edu/ai/",
+    "https://oit.utk.edu/ai/utverse/",
+    "https://oit.utk.edu/news/work-smarter-with-the-new-ut-ai-hub/",
+    "https://oit.utk.edu/general/about/",
+    "https://utverse.tennessee.edu/",
+    "https://news.utk.edu/2023/09/26/ut-brings-new-ai-services-to-campus/",
+    "https://news.utk.edu/2025/09/25/the-next-level-plowman-shares-bold-vision-for-innovation-and-statewide-impact/",
+    "https://news.utk.edu/2025/09/05/ut-celebrates-historic-success-in-retention-and-enrollment/",
+    "https://tennessee.edu/news/2025/09/17/ut-reaches-record-enrollment-preparing-more-graduates-for-tennessee-jobs/",
+    "https://tennessee.edu/about/leadership/president/biography/",
+    "https://research.utk.edu/aitn/",
+    "https://research.utk.edu/oried/research-innovation-initiatives/ai-tennessee-initiative/",
+    "https://research.utk.edu/oried/2025/05/13/university-of-tennessee-faculty-use-artificial-intelligence-to-solve-problems-in-and-outside-the-classroom/",
+    "https://research.utk.edu/oried/2026/01/26/from-industry-engagement-to-workforce-development-ut-is-leading-tennessees-ai-future/",
+    "https://www.eurekalert.org/news-releases/1122175",
+    "https://www.eurekalert.org/news-releases/1114053",
+    "https://www.eurekalert.org/news-releases/1098393",
+    "https://artsci.utk.edu/tennessee-human-ai-readiness-innovation-ventures-in-excellence-thrive-2025/",
+    "https://cecs.utk.edu/academics/undergraduate-programs/applied-artificial-intelligence-program/",
+    "https://cecs.utk.edu/academics/undergraduate-certificates/applied-artificial-intelligence/",
+    "https://cecs.utk.edu/ai-is-already-a-force-in-tennessees-economy-our-workforce-can-turbocharge-it/",
+    "https://catalog.utk.edu/preview_program.php?catoid=33&poid=16593",
+    "https://catalog.utk.edu/preview_program.php?catoid=51&poid=32949",
+    "https://catalog.utk.edu/preview_program.php?catoid=51&poid=32972",
+    "https://teamtn.org/team-tn-ai-tennessee/",
+    "https://law.justia.com/codes/tennessee/title-49/chapter-7/part-1/section-49-7-185/",
+    "https://law.justia.com/codes/tennessee/title-49/chapter-13/section-49-13-118/",
+    "https://www.tn.gov/finance/ai-council.html",
+    "https://www.tn.gov/finance/ai-council/ai-council-membership-information.html",
+    "https://www.tn.gov/finance/ai-council/ai-council-resources-and-policies.html",
+    "https://pedagogyfutures.org/policy/tennessees-ai-education-policy-landscape/",
+    "https://www.govtech.com/education/k-12/tennessee-bill-on-ai-in-schools-a-hint-of-whats-to-come",
+    "https://www.butlersnow.com/news-and-events/teaching-and-shielding-ais-dual-role-in-tennessee-schools",
+    "https://www.wbir.com/article/news/local/university-of-tennessee-ai-tool/51-0a0aada0-8987-463e-a295-0d653a70e28a",
+    "https://utdailybeacon.com/209971/news/staff-report-ut-to-launch-ai-hub-late-march/",
+    "https://www.aau.edu/who-we-are/our-members",
+    "https://www.thepacer.net/guest-column-university-of-tennessee-embraces-artificial-intelligence-downplays-dangers/"
+  ],
+  "researched_on": "2026-04-16"
+}

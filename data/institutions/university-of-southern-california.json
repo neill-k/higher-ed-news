@@ -1,0 +1,1645 @@
+{
+  "institution": "University of Southern California",
+  "slug": "university-of-southern-california",
+  "city_state": "Los Angeles, CA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 46566,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Beong-Soo Kim",
+      "url": "https://www.president.usc.edu/"
+    },
+    "provost": {
+      "name": "Andrew T. Guzman",
+      "url": "https://provost.usc.edu/"
+    },
+    "cio": {
+      "name": "Midhat Asghar",
+      "url": "https://itservices.usc.edu/about/leadership/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Geoffrey Garrett",
+      "title": "Dean, USC Marshall School of Business; Chair, President's AI Strategy Committee",
+      "url": "https://we-are.usc.edu/2025/10/06/announcing-uscs-ai-summit-and-ai-strategy-committee/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Announcing USC's AI Summit and AI Strategy Committee",
+        "url": "https://we-are.usc.edu/2025/10/06/announcing-uscs-ai-summit-and-ai-strategy-committee/",
+        "year": 2025
+      },
+      {
+        "title": "AI at USC — Central hub for tools, research, policy and governance",
+        "url": "https://ai.usc.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Announcing USC's Adoption of ChatGPT Edu",
+        "url": "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/",
+        "year": 2025
+      },
+      {
+        "title": "USC Frontiers of Computing — $1B+ moonshot initiative",
+        "url": "https://computing.usc.edu/",
+        "year": 2023
+      }
+    ],
+    "summary": "USC's AI posture is anchored by two converging efforts: the multi-year, $1B-plus 'Frontiers of Computing' investment (launched 2023 with a $260M founding gift) that built the School of Advanced Computing and new research centers, and a 2025 'big tent' user-facing strategy led by the 15-member President's AI Strategy Committee chaired by USC Marshall Dean Geoffrey Garrett. The committee was launched in October 2025 alongside the inaugural USC AI Summit (Nov 11, 2025) and a campus-wide ChatGPT Edu deployment announced Dec 3, 2025. President Beong-Soo Kim describes AI as a 'revolution for higher education' and frames USC's ambition as being 'in the vanguard' of that revolution."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://policy.usc.edu/generative-ai-general-policy/",
+      "https://policy.usc.edu/data-privacy-policy/",
+      "https://policy.usc.edu/acceptable-use/",
+      "https://libguides.usc.edu/generative-AI/usc-guidelines",
+      "https://academicintegrity.usc.edu/faculty-resources/addressing-generative-ai/",
+      "https://itservices.usc.edu/ai/"
+    ],
+    "adopted_date": "2024-08",
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Generative AI General Policy published by USC; framed as institution-wide framework rather than blanket ban or mandate",
+      "No universal syllabus-level policy — professors retain authority to set course rules; schools (Marshall, Sol Price) publish syllabus templates",
+      "USC data protection and acceptable use standards govern how AI-ingested data is used, accessed, and stored; chat data entered into enterprise tools is not stored or used for vendor model training",
+      "Office of Cybersecurity and Office of Ethics and Compliance co-administer AI policy oversight",
+      "Academic Integrity Office provides faculty resources on addressing generative AI in coursework"
+    ],
+    "summary": "USC's policy posture is permissive with guardrails — a central generative AI policy plus data-privacy and acceptable-use standards, but no campus-wide syllabus-level mandate. Professors set classroom rules, colleges publish tailored guidance, and enterprise tools are delivered through USC-contracted agreements that prohibit vendor training on USC data. A January 2026 Annenberg Media survey reported broad faculty/student/staff concern that AI is undermining academic integrity, indicating ongoing tension between permissive access and integrity enforcement."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "President's AI Strategy Committee",
+        "type": "committee",
+        "scope": "15-member committee of deans, senior administrators, and faculty chaired by USC Marshall Dean Geoffrey Garrett; coordinates ethical AI integration across all schools",
+        "url": "https://we-are.usc.edu/2025/10/06/announcing-uscs-ai-summit-and-ai-strategy-committee/"
+      },
+      {
+        "name": "AI at USC (ai.usc.edu)",
+        "type": "office",
+        "scope": "Central university hub for AI tools, research, policy/governance, community opportunities, and announcements",
+        "url": "https://ai.usc.edu/"
+      },
+      {
+        "name": "USC Information Technology Services — Enterprise AI Services",
+        "type": "office",
+        "scope": "CIO-led operational team managing campus AI tools (ChatGPT Edu, Microsoft Copilot, Google Gemini, Zoom AI Companion) and data-protection contracting",
+        "url": "https://itservices.usc.edu/ai/"
+      },
+      {
+        "name": "USC Office of Cybersecurity",
+        "type": "office",
+        "scope": "Information security governance for AI tools, led by CISO Sandra Taylor",
+        "url": "https://itservices.usc.edu/about/leadership/"
+      },
+      {
+        "name": "USC Office of Academic Integrity",
+        "type": "office",
+        "scope": "Faculty resources and policy guidance on generative AI in academic work",
+        "url": "https://academicintegrity.usc.edu/faculty-resources/addressing-generative-ai/"
+      },
+      {
+        "name": "USC Center for Excellence in Teaching (CET)",
+        "type": "office",
+        "scope": "Faculty AI pedagogy workshops, consultations, and an asynchronous AI Teaching Hub on Brightspace with a 6-module certificate program",
+        "url": "https://cet.usc.edu/ai-teaching-at-usc-tools-guidance-and-faculty-examples/"
+      }
+    ],
+    "summary": "Governance is distributed but increasingly centralized under the President's AI Strategy Committee (launched Oct 2025, chaired by Dean Garrett), with operational execution split between the CIO's enterprise AI team, the Office of Cybersecurity, the Office of Academic Integrity, and the Center for Excellence in Teaching. Research coordination flows through the School of Advanced Computing, the Center for Generative AI and Society, the Institute on Ethics & Trust in Computing, and discipline-specific centers (CAIS, AI-MEDx, ISI, ICT)."
+  },
+  "initiatives": [
+    {
+      "title": "Frontiers of Computing: $1B-plus moonshot initiative",
+      "description": "USC publicly launched Frontiers of Computing in May 2023 — a $1 billion-plus initiative anchored by a $260M founding gift that created the School of Advanced Computing, the named Thomas Lord Department of Computer Science, Ginsburg Human-Centered Computation Hall (116,000 sq ft, completed Spring 2024), and a commitment to hire 30 new faculty by 2025 and 60 more by 2030. The initiative is explicitly scoped around AI, machine learning, data science, quantum information, and ethics of computing.",
+      "significance": "One of the largest single institutional computing expansions in U.S. higher ed; it restructures USC's research and teaching to put advanced computing at the center of every school, not only engineering.",
+      "date_announced": "2023-05-04",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "transformative",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "quantum_and_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "board_and_trustees",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 1000000000,
+        "funding_source": "USC endowment, philanthropic gifts (Thomas Lord, Ginsburg family), federal grants",
+        "description": "More than $1 billion across endowment, building construction, faculty hires, and named departments; seeded by a $260M founding gift in 2019."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Thomas Lord (Lord Foundation of California)",
+            "Allen and Charlotte Ginsburg"
+          ],
+          "description": "Philanthropic partnerships underwriting named department and building."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a template for private R1s pursuing AI-centered institutional restructuring with named-department philanthropy as the anchor funding mechanism.",
+      "source_urls": [
+        "https://computing.usc.edu/",
+        "https://today.usc.edu/usc-school-of-advanced-computing-director-gaurav-sukhatme-frontiers-of-computing/",
+        "https://we-are.usc.edu/2024/02/01/announcing-the-inaugural-director-of-the-usc-school-of-advanced-computing/"
+      ]
+    },
+    {
+      "title": "School of Advanced Computing inaugurated within USC Viterbi",
+      "description": "USC formally opened the School of Advanced Computing in 2024 as the keystone of Frontiers of Computing, naming Dr. Gaurav Sukhatme (robotics professor, Viterbi executive vice dean) as inaugural director effective February 2024. The school houses the Thomas Lord Department of Computer Science and anchors research in AI, machine learning, data science, quantum information, and blockchain.",
+      "significance": "Dedicated advanced-computing schools are still uncommon even among elite R1s; USC's structure pairs the school with the Ginsburg Hall campus build-out and Silicon Beach satellite hubs.",
+      "date_announced": "2024-02-01",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_research_center",
+        "ai_degree_program"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "robotics_and_physical_ai",
+        "quantum_and_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "USC (internal) + Frontiers of Computing philanthropy",
+        "description": "Part of the $1B+ Frontiers of Computing envelope; specific school-level capital expenditure not separately disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "USC Viterbi School of Engineering",
+            "USC Information Sciences Institute",
+            "USC Institute for Creative Technologies"
+          ],
+          "description": "Internal cross-unit alignment bringing ISI and ICT under the Advanced Computing umbrella."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://today.usc.edu/usc-school-of-advanced-computing-director-gaurav-sukhatme-frontiers-of-computing/",
+        "https://we-are.usc.edu/2024/02/01/announcing-the-inaugural-director-of-the-usc-school-of-advanced-computing/",
+        "https://ict.usc.edu/news/icts-role-in-the-usc-school-of-advanced-computing-a-conversation-with-dr-gaurav-sukhatme/"
+      ]
+    },
+    {
+      "title": "Campus-wide ChatGPT Edu rollout with OpenAI",
+      "description": "At the inaugural USC AI Summit on November 11, 2025, Dean Geoffrey Garrett announced a USC–OpenAI partnership giving all USC students, faculty, and staff (including Keck Medicine) unlimited access to ChatGPT Edu, with availability formally announced December 3, 2025 for rollout in 2026. The deployment includes GPT-5 and more advanced OpenAI models, and is contractually scoped so USC data is not stored or used for vendor model training.",
+      "significance": "Makes USC one of the largest campus-wide ChatGPT Edu deployments in U.S. higher ed and a flagship customer reference for OpenAI's university GTM; directly resets the per-user-AI baseline for an R1 with ~46,500 students.",
+      "date_announced": "2025-12-03",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USC (internal) / OpenAI enterprise licensing",
+        "description": "Contract amount not publicly disclosed; USC announcement co-signed by CFO Erik Brink, Provost Andrew Guzman, and SVP Health Affairs Steven Shapiro."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI"
+          ],
+          "description": "Direct ChatGPT Edu enterprise agreement giving USC priority access to OpenAI's most advanced models."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Campus-wide enterprise LLM with GPT-5 access and data-protection contracting"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Normalizes 'universal faculty + student LLM access' as a baseline expectation at private R1s and puts pressure on peer institutions' enterprise AI budgets.",
+      "source_urls": [
+        "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/",
+        "https://www.uscannenbergmedia.com/2025/11/12/usc-is-joining-forces-with-openai/",
+        "https://dailytrojan.com/2025/11/13/usc-announces-free-chatgpt-program-at-inaugural-ai-summit/",
+        "https://itservices.usc.edu/ai/"
+      ]
+    },
+    {
+      "title": "President's AI Strategy Committee and inaugural AI Summit",
+      "description": "USC launched the President's AI Strategy Committee in October 2025 — a 15-person body of deans, senior administrators, and faculty chaired by USC Marshall Dean Geoffrey Garrett. Members include SVP Research Ishwar Puri, Vice Provost Andy Stott, Presidential Initiatives VP Shri Narayanan, and Advanced Computing Director Gaurav Sukhatme. The committee's first public event was the inaugural USC AI Summit on November 11, 2025, which featured a fireside chat between Interim President Kim and former Google CEO Eric Schmidt.",
+      "significance": "Elevates AI strategy to a presidential governance body at a private R1 without naming a standalone chief AI officer; demonstrates the 'big tent' model of cross-school governance.",
+      "date_announced": "2025-10-06",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "USC (internal)",
+        "description": "Committee operating budget not disclosed; summit produced by Marshall School and ITS."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal governance body; summit featured external speaker Eric Schmidt but was an institutional event."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Provides a replicable model for private R1s of elevating AI into a cross-dean governance body without creating a new C-suite position.",
+      "source_urls": [
+        "https://we-are.usc.edu/2025/10/06/announcing-uscs-ai-summit-and-ai-strategy-committee/",
+        "https://today.usc.edu/ai-and-higher-ed-uscs-big-tent-approach-to-artificial-intelligence/",
+        "https://www.uscannenbergmedia.com/2025/10/13/usc-launches-ai-strategy-committee-and-summit/",
+        "https://www.marshall.usc.edu/news/uscs-inaugural-ai-summit-explores-the-impact-of-ai-at-the-intersection-of-business-research-creativity-and-ethical-leadership"
+      ]
+    },
+    {
+      "title": "Institute on Ethics & Trust in Computing launched with $12M Lord Foundation gift",
+      "description": "USC launched the Institute on Ethics & Trust in Computing in May 2025 with $12 million in funding from the Lord Foundation of California. The institute is co-directed by Viterbi CS professor Yan Liu and Dornsife philosophy professor John Hawthorne, with oversight from Presidential Initiatives VP Shri Narayanan. It spans AI, blockchain, cybersecurity, data science, and medical technology, and engages students from engineering, business, law, media, and philosophy.",
+      "significance": "Formalizes AI ethics as an interdisciplinary scholarly institution rather than a policy office; pairs a philosopher and a computer scientist as co-directors — a structurally notable design choice for an R1 ethics institute.",
+      "date_announced": "2025-05-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_research_center",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 12000000,
+        "funding_source": "Lord Foundation of California",
+        "description": "$12M foundation gift underwriting institute operations, co-director appointments, and student programming."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Lord Foundation of California",
+            "USC Dornsife College",
+            "USC Viterbi School of Engineering",
+            "USC Center for AI in Society",
+            "USC Center for Generative AI and Society",
+            "USC + Amazon Center on Secure & Trusted Machine Learning"
+          ],
+          "description": "Cross-college institute backed by a private foundation, anchored in computer science and philosophy jointly."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates a funding path for AI ethics institutes (private foundation gift, not federal grant) and pairs ethicists with CS faculty as co-leads — a model peers may copy.",
+      "source_urls": [
+        "https://today.usc.edu/usc-launches-12-million-institute-on-ethics-trust-in-computing/"
+      ]
+    },
+    {
+      "title": "USC Center for Generative AI and Society with $10M seed funding",
+      "description": "In March 2023, then-President Carol Folt launched the Center for Generative AI and Society with $10 million in seed funding. Co-directed by Holly Willis (School of Cinematic Arts) and Bill Swartout (Viterbi / ICT CTO), the center focuses on generative AI's impact across culture, education, media, health, law, policy, and science. Partner schools include Annenberg, Rossier, Cinematic Arts, Iovine & Young, and Viterbi.",
+      "significance": "One of the earliest university-wide generative-AI centers (pre-dating the post-ChatGPT wave for many peers); structurally anchored in the arts/media, not only engineering.",
+      "date_announced": "2023-03-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "USC (internal seed funding)",
+        "description": "$10M in seed money committed at center launch."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "USC Annenberg School",
+            "USC Rossier School of Education",
+            "USC School of Cinematic Arts",
+            "USC Iovine & Young Academy",
+            "USC Viterbi School of Engineering"
+          ],
+          "description": "Cross-school center connecting arts, media, education, and engineering on generative AI."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Shows that arts/media-led AI centers can scale alongside engineering-led AI centers; arts framing informs USC's distinct 'ethics-first' positioning.",
+      "source_urls": [
+        "https://today.usc.edu/new-usc-center-for-generative-ai-and-society-artificial-intelligence/",
+        "https://rossier.usc.edu/news-insights/news/usc-center-generative-ai-and-society-chart-impact-ai-culture-education-media-and-society",
+        "https://research.usc.edu/news/2020/07/center-for-generative-ai-and-society/",
+        "https://dailytrojan.com/2023/03/09/usc-announces-new-10-million-center-for-generative-ai-and-society/"
+      ]
+    },
+    {
+      "title": "AI Bachelor of Science at USC Viterbi",
+      "description": "USC Viterbi offers an undergraduate Bachelor of Science in Artificial Intelligence with three specialization tracks: AI Systems and Operations; Computing Foundations and Applications (including NLP, robotics, computer vision, and trustworthy AI); and Hardware Systems for AI. The interdisciplinary degree combines computer science, electrical and computer engineering, and industrial and systems engineering.",
+      "significance": "Among a growing but still limited set of R1 undergraduate AI majors (most peers still offer only minors or concentrations); positions USC to scale AI-specific degree awards as demand accelerates.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "computer_vision",
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USC Viterbi School of Engineering (internal)",
+        "description": "Operational cost absorbed into Viterbi's academic budget; no public figure."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal interdisciplinary program within USC Viterbi."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://viterbiadmission.usc.edu/ai/"
+      ]
+    },
+    {
+      "title": "USC Center for AI in Society (CAIS) — AI for social good research",
+      "description": "CAIS is a partnership between the USC Dworak-Peck School of Social Work and USC Viterbi with a mission of using AI to address the world's most difficult social problems. Active research areas include environmental conservation, public health, homelessness, child-malnutrition forecasting in Kenya, wildlife-monitoring optimization, and online detection of human-trafficking recruitment.",
+      "significance": "An early example of an AI-for-social-good center embedded across social work and engineering — a structural design still uncommon in higher ed.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Multi-source (NSF, NIH, philanthropic, USC internal)",
+        "description": "Specific funding envelope not disclosed on the CAIS public site."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "USC Dworak-Peck School of Social Work",
+            "USC Viterbi School of Engineering"
+          ],
+          "description": "Cross-school social-work + engineering partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces that AI-for-social-good research can be structured as a permanent center rather than episodic grant work.",
+      "source_urls": [
+        "https://cais.usc.edu/"
+      ]
+    },
+    {
+      "title": "Keck Medicine AI in Medicine Collaboratory (AI-MEDx) and NIH Alzheimer's AI award",
+      "description": "The Keck School of Medicine operates AI-MEDx, directed by Dr. Paul Thompson, as its central AI-in-medicine hub. AI-MEDx covers medical imaging, diagnostics, robotics, biomarker discovery, drug discovery, and patient-care applications. In 2025 the university received a $30.7M NIH investment to expand AI efforts around decoding Alzheimer's disease.",
+      "significance": "Establishes a clinical-AI research engine co-located with a major academic medical center; Alzheimer's AI award is among the larger NIH AI investments at a U.S. medical school.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 30700000,
+        "funding_source": "National Institutes of Health",
+        "description": "$30.7M NIH award to expand AI-driven Alzheimer's research."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH"
+          ],
+          "description": "Federal research funding for clinical AI at an academic medical center."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates NIH willingness to scale AI-specific investments at academic medical centers beyond general informatics grants.",
+      "source_urls": [
+        "https://keck.usc.edu/ai/",
+        "https://keck.usc.edu/mesh/strategic-partnerships/ai-in-medicine-collaboratory/"
+      ]
+    },
+    {
+      "title": "Keck + Ryght generative-AI clinical-trial platform pilot",
+      "description": "USC Norris Comprehensive Cancer Center is serving as the initial testing ground for Ryght's generative-AI clinical-trial operations platform, making USC the first U.S.-based academic site in Ryght's research network. Planned pilots include AI-assisted informed-consent development and protocol writing for investigator-initiated trials.",
+      "significance": "One of the earliest academic deployments of generative AI for clinical-trial operations (not just research data analysis); likely a template for other NCI-designated cancer centers.",
+      "date_announced": "2025-02-20",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "USC Norris Cancer Center / Ryght",
+        "description": "Commercial terms not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Ryght"
+          ],
+          "description": "Industry-academic pilot; USC is Ryght's first U.S. academic research-network site."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Ryght platform",
+          "vendor": "Ryght",
+          "role": "GenAI clinical-trial operations tool (informed consent, protocol writing)"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Surfaces open questions on FDA / IRB oversight of generative AI in clinical-trial document generation.",
+      "source_urls": [
+        "https://www.clinicalresearchnewsonline.com/news/2025/02/20/usc-to-use-generative-ai-to-make-cancer-clinical-trials-more-efficient"
+      ]
+    },
+    {
+      "title": "Tommy — AI virtual assistant for international students",
+      "description": "USC's Office of International Services launched Tommy, a 24/7 AI chatbot, on February 20, 2025 to help F-1 and J-1 visa students navigate immigration-related questions. Tommy continuously learns from interactions, includes thumbs-up/down feedback, and hands off to live drop-in advising when it can't answer.",
+      "significance": "Demonstrates how R1s are using AI chatbots for constituencies with high-volume, regulation-specific questions where 24/7 coverage is otherwise costly.",
+      "date_announced": "2025-02-20",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "USC Office of International Services",
+        "description": "Departmental budget; specific cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internally delivered by OIS."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Tommy",
+          "vendor": "USC (internal)",
+          "role": "AI virtual assistant for F-1/J-1 visa student advising"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Shows how to responsibly deploy a student-facing chatbot with feedback loops and human fallback for a highly regulated domain (immigration).",
+      "source_urls": [
+        "https://ois.usc.edu/2025/02/20/meet-tommy-your-virtual-assistant/"
+      ]
+    },
+    {
+      "title": "USC Institute for Creative Technologies $362.6M Army contract and AIRCOEE",
+      "description": "USC's Institute for Creative Technologies (ICT), a UARC founded in 1999, received a renewed Army contract of up to $362.6 million over 5+5 years, along with a $4.5M two-year U.S. Army Research Office contract for the AI Research Center of Excellence for Education (AIRCOEE). ICT's research spans AI, virtual humans, mixed reality, narrative, and learning sciences.",
+      "significance": "One of the most consistently funded government-backed AI research operations at a U.S. university; AIRCOEE explicitly targets AI-for-education at national scale.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_enhanced_pedagogy",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "computer_vision",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 362600000,
+        "funding_source": "U.S. Army (UARC contract)",
+        "description": "Up to $362.6M over 5-year base + 5-year option period; AIRCOEE additional $4.5M."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. Army",
+            "DARPA",
+            "ONR",
+            "IARPA",
+            "Sony",
+            "Nvidia",
+            "Meta",
+            "Apple"
+          ],
+          "description": "Long-standing DoD UARC contract with significant industry partners for graphics and AI research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ict.usc.edu/news/usc-institute-for-creative-technologies-receives-new-5-year-contract-from-u-s-army-for-181-3-million/",
+        "https://ict.usc.edu/research/projects/aircoee/",
+        "https://en.wikipedia.org/wiki/Institute_for_Creative_Technologies"
+      ]
+    },
+    {
+      "title": "Center for Advanced Research Computing (CARC) — Discovery HPC with 180+ NVIDIA GPUs",
+      "description": "USC's CARC, led by Associate CIO BD Kim, operates the Discovery HPC cluster (launched August 2020) with ~20,000 CPU cores across ~500 nodes, including more than 200 GPU-equipped nodes with 180+ NVIDIA GPUs (P100, V100, A100, A40). Discovery supports research workloads in AI, simulation, and data science.",
+      "significance": "Provides USC researchers on-campus AI compute without needing to rely on national NAIRR-style resources; notable but not at the scale of top public-R1 GPU fleets.",
+      "date_announced": "2020-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USC (internal), federal research grants",
+        "description": "CARC operating budget not publicly itemized."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "NVIDIA GPU hardware and HPC SDK tooling."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Discovery",
+          "vendor": "USC CARC",
+          "role": "Campus HPC cluster for AI/ML and simulation"
+        },
+        {
+          "name": "NVIDIA HPC SDK",
+          "vendor": "NVIDIA",
+          "role": "GPU programming toolchain for Discovery"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.carc.usc.edu/",
+        "https://www.carc.usc.edu/user-guides/advanced-hpc-programming/gpu-programming",
+        "https://itservices.usc.edu/usc-center-for-advanced-research-computing/"
+      ]
+    },
+    {
+      "title": "Enterprise AI suite: ChatGPT Edu, Microsoft Copilot, Google Gemini, NotebookLM, Zoom AI Companion",
+      "description": "USC ITS offers a campus-wide enterprise AI stack to all students, faculty, and staff: ChatGPT Edu (OpenAI), Microsoft Copilot across M365, Google Gemini across Workspace, Google NotebookLM, and Zoom AI Companion for meeting summaries. Keck Medicine access to ChatGPT Edu is forthcoming.",
+      "significance": "Multi-vendor enterprise AI baseline — uncommon to host four frontier LLM providers simultaneously; signals USC's willingness to treat LLMs as commodity infrastructure.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "USC (internal), vendor enterprise licensing",
+        "description": "Aggregate enterprise AI licensing cost not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft",
+            "Google",
+            "Zoom"
+          ],
+          "description": "Concurrent enterprise agreements with multiple AI vendors."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "Primary campus-wide LLM"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI across Word, Excel, Outlook, Teams"
+        },
+        {
+          "name": "Google Gemini",
+          "vendor": "Google",
+          "role": "Workspace-embedded AI (Docs, Gmail, Drive, Meet)"
+        },
+        {
+          "name": "NotebookLM",
+          "vendor": "Google",
+          "role": "AI-assisted research and note-taking"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summaries and action-item suggestions"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets a multi-vendor procurement precedent; puts pressure on vendors to differentiate on data protection and integration rather than frontier-model access alone.",
+      "source_urls": [
+        "https://itservices.usc.edu/ai/"
+      ]
+    },
+    {
+      "title": "Center for Excellence in Teaching AI faculty development program",
+      "description": "The USC Center for Excellence in Teaching offers an AI Teaching Hub on Brightspace — a six-module asynchronous course with a certificate of completion and digital badge, plus live faculty institutes, workshops, and individual and departmental consultations focused on AI pedagogy, assignment design, and ethical considerations. A teaching-focused workshop was held November 13, 2025, coinciding with the AI Summit week.",
+      "significance": "Structured, scalable faculty-development model with credentialed completion; avoids ad-hoc workshop fatigue by offering a self-paced pathway.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USC CET (internal)",
+        "description": "Operating budget within CET; no separate disclosure."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty development program."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Teaching Hub",
+          "vendor": "USC CET (on Brightspace / D2L)",
+          "role": "Asynchronous faculty AI-pedagogy course"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Illustrates how an R1 can formalize faculty AI development with a credential rather than relying on one-off workshops.",
+      "source_urls": [
+        "https://cet.usc.edu/ai-teaching-at-usc-tools-guidance-and-faculty-examples/",
+        "https://ai.usc.edu/resources/"
+      ]
+    },
+    {
+      "title": "USC & Techstars Accelerator — AI-focused 2026 cohort",
+      "description": "USC and Techstars opened applications (August 2025) for the 2026 USC & Techstars Accelerator, a 13-week in-person program launching March 9, 2026 with Demo Day June 4, 2026. Focus areas include AI, bioscience, engineering, healthcare, deep tech, and media technology. The Marshall Greif Center's Incubate USC program adds complementary AI-enabled startup support, with Director Paul Orlando having made generative AI 'a requirement' in entrepreneurship classes.",
+      "significance": "Demonstrates how USC integrates AI into its commercialization pipeline alongside research — a pattern increasingly expected of R1s seeking regional economic-development impact.",
+      "date_announced": "2025-08-25",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "regional_economic_impact",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "USC Office of Research & Innovation / Techstars / Marshall Greif Center",
+        "description": "Cohort funding via Techstars investment model; operating details not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Techstars"
+          ],
+          "description": "Industry-university accelerator partnership."
+        },
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "Marshall Greif Center startup cohort"
+          ],
+          "description": "Internal entrepreneurship incubator."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces the R1 pattern of explicit AI-focused accelerator cohorts as a workforce-and-economic-development lever.",
+      "source_urls": [
+        "https://research.usc.edu/news/2025/09/usc-oori-news-applications-now-open-for-the-2026-usc-techstars-accelerator/",
+        "https://www.techstars.com/accelerators/usc-and-techstars",
+        "https://startusc.com/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "USC School of Advanced Computing",
+      "focus": "AI, machine learning, data science, quantum computing, blockchain; keystone of Frontiers of Computing",
+      "founded": "2024",
+      "url": "https://computing.usc.edu/"
+    },
+    {
+      "name": "USC Center for Generative AI and Society",
+      "focus": "Generative AI's impact on culture, education, media, health, law, policy, science",
+      "founded": "2023",
+      "url": "https://research.usc.edu/news/2020/07/center-for-generative-ai-and-society/"
+    },
+    {
+      "name": "USC Institute on Ethics & Trust in Computing",
+      "focus": "Ethics of AI, blockchain, cybersecurity, data science, medical technology",
+      "founded": "2025",
+      "url": "https://today.usc.edu/usc-launches-12-million-institute-on-ethics-trust-in-computing/"
+    },
+    {
+      "name": "USC Center for Artificial Intelligence in Society (CAIS)",
+      "focus": "AI for social good: environment, health & wellbeing, homelessness",
+      "founded": null,
+      "url": "https://cais.usc.edu/"
+    },
+    {
+      "name": "USC Information Sciences Institute (ISI)",
+      "focus": "AI, natural language, knowledge graphs, cybersecurity; home of AI-for-health center and PegasusAI",
+      "founded": "1972",
+      "url": "https://www.isi.edu/"
+    },
+    {
+      "name": "USC Institute for Creative Technologies (ICT)",
+      "focus": "Virtual humans, computer graphics, mixed reality, learning sciences, narrative AI; U.S. Army UARC",
+      "founded": "1999",
+      "url": "https://ict.usc.edu/"
+    },
+    {
+      "name": "AI in Medicine Collaboratory (AI-MEDx)",
+      "focus": "Medical imaging, diagnostics, drug discovery, biomarker discovery, robotics; hub at Keck Health Sciences Campus",
+      "founded": null,
+      "url": "https://keck.usc.edu/mesh/strategic-partnerships/ai-in-medicine-collaboratory/"
+    },
+    {
+      "name": "USC + Amazon Center on Secure & Trusted Machine Learning",
+      "focus": "Trustworthy and secure machine-learning research with Amazon",
+      "founded": null,
+      "url": "https://today.usc.edu/usc-launches-12-million-institute-on-ethics-trust-in-computing/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Bachelor of Science in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://viterbiadmission.usc.edu/ai/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2026-01",
+      "url": "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (M365)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://itservices.usc.edu/ai/"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (Workspace)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://itservices.usc.edu/ai/"
+    },
+    {
+      "vendor": "Google",
+      "product": "NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://itservices.usc.edu/ai/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://itservices.usc.edu/ai/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Discovery (USC CARC)",
+    "gpu_count": 180,
+    "url": "https://www.carc.usc.edu/",
+    "summary": "USC's Center for Advanced Research Computing runs the Discovery HPC cluster (launched Aug 2020) with ~20,000 CPU cores across ~500 nodes, including more than 200 GPU-equipped nodes with at least 180 NVIDIA GPUs (P100, V100, A100, A40). Researchers also access national compute via NSF ACCESS and NAIRR pilot resources, and the Frontiers of Computing initiative includes additional compute commitments tied to the Ginsburg Hall build-out."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Frontiers of Computing founding gift",
+      "amount_usd": 260000000,
+      "source": "Anonymous USC donor (2019)",
+      "purpose": "Seeded Frontiers of Computing, School of Advanced Computing, and Ginsburg Hall",
+      "date": "2019-09",
+      "url": "https://computing.usc.edu/"
+    },
+    {
+      "title": "Institute on Ethics & Trust in Computing gift",
+      "amount_usd": 12000000,
+      "source": "Lord Foundation of California",
+      "purpose": "Launch of ethics institute with CS and philosophy co-directors",
+      "date": "2025-05",
+      "url": "https://today.usc.edu/usc-launches-12-million-institute-on-ethics-trust-in-computing/"
+    },
+    {
+      "title": "Center for Generative AI and Society seed funding",
+      "amount_usd": 10000000,
+      "source": "USC (internal)",
+      "purpose": "Launch of cross-school generative AI research center",
+      "date": "2023-03",
+      "url": "https://today.usc.edu/new-usc-center-for-generative-ai-and-society-artificial-intelligence/"
+    },
+    {
+      "title": "NIH award for AI-driven Alzheimer's research",
+      "amount_usd": 30700000,
+      "source": "National Institutes of Health",
+      "purpose": "Expand AI-driven Alzheimer's research at Keck",
+      "date": null,
+      "url": "https://keck.usc.edu/ai/"
+    },
+    {
+      "title": "U.S. Army UARC contract renewal for ICT",
+      "amount_usd": 362600000,
+      "source": "U.S. Army",
+      "purpose": "Up to $362.6M for ICT's AI, graphics, virtual-human, and simulation research",
+      "date": null,
+      "url": "https://ict.usc.edu/news/usc-institute-for-creative-technologies-receives-new-5-year-contract-from-u-s-army-for-181-3-million/"
+    },
+    {
+      "title": "AIRCOEE — AI Research Center of Excellence for Education",
+      "amount_usd": 4500000,
+      "source": "U.S. Army Research Office",
+      "purpose": "Two-year contract to apply AI to education and AI upskilling",
+      "date": null,
+      "url": "https://ict.usc.edu/research/projects/aircoee/"
+    },
+    {
+      "title": "PegasusAI workflow management award",
+      "amount_usd": 5000000,
+      "source": "National Science Foundation",
+      "purpose": "Five-year award to USC ISI for AI-powered workflow management",
+      "date": null,
+      "url": "https://www.isi.edu/centers-ai4health/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "Campus-wide ChatGPT Edu deployment with GPT-5 access; no vendor training on USC data",
+      "date": "2025-12",
+      "url": "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon",
+      "purpose": "USC + Amazon Center on Secure & Trusted Machine Learning",
+      "date": null,
+      "url": "https://today.usc.edu/usc-launches-12-million-institute-on-ethics-trust-in-computing/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Campus-wide M365 Copilot licensing",
+      "date": null,
+      "url": "https://itservices.usc.edu/ai/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Workspace Gemini and NotebookLM access; Keck Medicine case-study customer",
+      "date": null,
+      "url": "https://cloud.google.com/customers/usc"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Ryght",
+      "purpose": "USC Norris as first U.S. academic site for Ryght's GenAI clinical-trial operations platform",
+      "date": "2025-02",
+      "url": "https://www.clinicalresearchnewsonline.com/news/2025/02/20/usc-to-use-generative-ai-to-make-cancer-clinical-trials-more-efficient"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Techstars",
+      "purpose": "USC & Techstars Accelerator (AI-focused 2026 cohort)",
+      "date": "2025-08",
+      "url": "https://www.techstars.com/accelerators/usc-and-techstars"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Army / DARPA / ONR",
+      "purpose": "ICT UARC contract and AIRCOEE for AI in defense and education",
+      "date": null,
+      "url": "https://ict.usc.edu/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "PegasusAI ($5M) and other AI research awards at ISI",
+      "date": null,
+      "url": "https://reu.isi.edu/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Institutes of Health",
+      "purpose": "$30.7M Alzheimer's AI research at Keck",
+      "date": null,
+      "url": "https://keck.usc.edu/ai/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Aegis Digital Consortium (14 health systems)",
+      "purpose": "Keck Medicine member of clinical digital/AI consortium",
+      "date": null,
+      "url": "https://www.hcinnovationgroup.com/clinical-it/digital-health-innovation/news/55316608/aegis-digital-consortium-adds-three-health-system-members"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "Tommy",
+      "scope": "F-1 / J-1 visa international students; 24/7 immigration-related Q&A",
+      "url": "https://ois.usc.edu/2025/02/20/meet-tommy-your-virtual-assistant/"
+    },
+    {
+      "type": "tutor",
+      "name": "ChatGPT Edu for students",
+      "scope": "Campus-wide student access to GPT-5 for coursework support (pending faculty course rules)",
+      "url": "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/"
+    },
+    {
+      "type": "advisor",
+      "name": "Career Center AI guidelines (using ChatGPT, Gemini, Copilot)",
+      "scope": "Career exploration, resume/cover letter refinement, interview prep, networking messages",
+      "url": "https://careers.usc.edu/ai-guidelines/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Universal enterprise AI access (ChatGPT Edu, Copilot, Gemini)",
+      "description": "USC treats enterprise AI access as a campus-wide benefit for every student, faculty, and staff member — including Keck Medicine — rather than a paid add-on or school-by-school rollout, narrowing intra-campus 'AI tool inequity' between well-resourced labs and general student populations.",
+      "url": "https://itservices.usc.edu/ai/"
+    },
+    {
+      "title": "USC Center for AI in Society (social-good focus)",
+      "description": "CAIS research explicitly targets populations often excluded from AI's upside: homeless populations, malnourished children, trafficking victims, under-resourced public-health and environmental systems.",
+      "url": "https://cais.usc.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "California",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "USC is a private, non-system university in California, which has been among the most active U.S. states on AI policy. Governor Newsom signed a first-of-its-kind March 2026 executive order strengthening AI procurement standards and responsible-use requirements, created a 30-member California Innovation Council (with UC representation), and signed AB 2876 mandating AI literacy in K-12. Newsom's office has sought formal AI-impact partnerships with UC Berkeley's College of Computing, Data Science, and Society and Stanford's HAI. New state AI laws took effect January 1, 2026, but enforcement dynamics are disrupted by a federal executive order attempting to preempt state AI regulation. USC is not a state-system institution, so it is affected by state AI laws but not by any UC/CSU system-level AI policy.",
+    "urls": [
+      "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+      "https://www.genai.ca.gov/ca-action/executive-order/",
+      "https://www.govtech.com/education/higher-ed/gov-newsom-taps-universities-for-state-ai-council",
+      "https://www.kslaw.com/news-and-insights/new-state-ai-laws-are-effective-on-january-1-2026-but-a-new-executive-order-signals-disruption"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2026-01",
+      "summary": "A January 2026 USC Annenberg Media report found that students, faculty, and staff broadly agreed AI was undermining academic integrity at USC; a university AI survey surfaced concerns about over-reliance, reduced critical thinking, and devaluation of creative-arts student work. No formal lawsuit disclosed; issue is a policy and culture tension rather than active litigation.",
+      "status": "active",
+      "url": "https://www.uscannenbergmedia.com/2026/01/30/across-the-board-usc-students-faculty-and-staff-say-ai-is-undermining-academic-integrity/"
+    }
+  ],
+  "narrative_summary": "The University of Southern California enters 2026 as one of the most systematically AI-invested private R1s in the United States. Its posture rests on three mutually reinforcing pillars. First, a multibillion-dollar research and infrastructure commitment anchored in the 2023 Frontiers of Computing moonshot, which created the School of Advanced Computing (director Gaurav Sukhatme, 2024), the named Thomas Lord Department of Computer Science, Ginsburg Human-Centered Computation Hall (2024), and commitments to hire 30 new faculty by 2025 and 60 more by 2030. Second, a sprawling but distinctly arts-and-ethics-flavored research ecosystem: the $10M Center for Generative AI and Society (2023), the $12M Institute on Ethics & Trust in Computing (2025, funded by the Lord Foundation), the established Center for AI in Society, Keck's AI-MEDx clinical-AI hub with a $30.7M NIH Alzheimer's award, plus long-standing ISI and ICT research centers (ICT holds a U.S. Army UARC contract of up to $362.6M). Third, a late-2025 'big tent' strategy push: the 15-member President's AI Strategy Committee chaired by USC Marshall Dean Geoffrey Garrett launched in October 2025, the inaugural USC AI Summit on November 11, 2025 (featuring Eric Schmidt), and the December 2025 announcement that every USC student, faculty, and staff member — including Keck Medicine — will receive unlimited ChatGPT Edu access in 2026 alongside existing campus-wide Microsoft Copilot, Google Gemini, NotebookLM, and Zoom AI Companion access. Policy posture is permissive-with-guardrails: a central Generative AI Policy and Data Privacy Policy govern usage, but there is no mandatory syllabus-level AI policy, and a January 2026 Annenberg Media survey reported widespread concern that AI is undermining academic integrity. USC has no chief AI officer; AI strategy leadership flows through Garrett (committee chair), Presidential Initiatives VP Shri Narayanan, Interim CIO Midhat Asghar, and Advanced Computing Director Sukhatme. Gaps remain around formal campus-wide assessment policy, public reporting on enterprise-AI adoption metrics, and a codified equity framework, but USC's combined scale of research, enterprise deployment, and governance investment makes it a bellwether for private R1s.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.usc.edu/",
+      "https://today.usc.edu/uscs-five-decades-at-the-forefront-of-ai-innovation/",
+      "https://libguides.usc.edu/generative-AI",
+      "https://libguides.usc.edu/generative-AI/usc-guidelines",
+      "https://careers.usc.edu/ai-guidelines/",
+      "https://today.usc.edu/ai-and-higher-ed-uscs-big-tent-approach-to-artificial-intelligence/",
+      "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/",
+      "https://we-are.usc.edu/2025/10/06/announcing-uscs-ai-summit-and-ai-strategy-committee/",
+      "https://cais.usc.edu/",
+      "https://computing.usc.edu/",
+      "https://viterbiadmission.usc.edu/ai/",
+      "https://today.usc.edu/usc-launches-12-million-institute-on-ethics-trust-in-computing/",
+      "https://itservices.usc.edu/ai/",
+      "https://itservices.usc.edu/about/leadership/",
+      "https://today.usc.edu/usc-school-of-advanced-computing-director-gaurav-sukhatme-frontiers-of-computing/",
+      "https://we-are.usc.edu/2024/02/01/announcing-the-inaugural-director-of-the-usc-school-of-advanced-computing/",
+      "https://today.usc.edu/new-usc-center-for-generative-ai-and-society-artificial-intelligence/",
+      "https://rossier.usc.edu/news-insights/news/usc-center-generative-ai-and-society-chart-impact-ai-culture-education-media-and-society",
+      "https://research.usc.edu/news/2020/07/center-for-generative-ai-and-society/",
+      "https://dailytrojan.com/2023/03/09/usc-announces-new-10-million-center-for-generative-ai-and-society/",
+      "https://keck.usc.edu/ai/",
+      "https://keck.usc.edu/mesh/strategic-partnerships/ai-in-medicine-collaboratory/",
+      "https://www.clinicalresearchnewsonline.com/news/2025/02/20/usc-to-use-generative-ai-to-make-cancer-clinical-trials-more-efficient",
+      "https://cloud.google.com/customers/usc",
+      "https://www.hcinnovationgroup.com/clinical-it/digital-health-innovation/news/55316608/aegis-digital-consortium-adds-three-health-system-members",
+      "https://ois.usc.edu/2025/02/20/meet-tommy-your-virtual-assistant/",
+      "https://ict.usc.edu/",
+      "https://ict.usc.edu/news/usc-institute-for-creative-technologies-receives-new-5-year-contract-from-u-s-army-for-181-3-million/",
+      "https://ict.usc.edu/research/projects/aircoee/",
+      "https://en.wikipedia.org/wiki/Institute_for_Creative_Technologies",
+      "https://www.isi.edu/",
+      "https://www.isi.edu/centers-ai4health/",
+      "https://reu.isi.edu/",
+      "https://www.carc.usc.edu/",
+      "https://www.carc.usc.edu/user-guides/advanced-hpc-programming/gpu-programming",
+      "https://itservices.usc.edu/usc-center-for-advanced-research-computing/",
+      "https://oir.usc.edu/common-data-set-archive/common-data-set-2024-2025/",
+      "https://today.usc.edu/new-usc-president-beong-soo-kim/",
+      "https://en.wikipedia.org/wiki/Beong-Soo_Kim",
+      "https://provost.usc.edu/",
+      "https://cet.usc.edu/ai-teaching-at-usc-tools-guidance-and-faculty-examples/",
+      "https://ai.usc.edu/resources/",
+      "https://academicintegrity.usc.edu/faculty-resources/addressing-generative-ai/",
+      "https://www.uscannenbergmedia.com/2026/01/30/across-the-board-usc-students-faculty-and-staff-say-ai-is-undermining-academic-integrity/",
+      "https://dailytrojan.com/2025/12/05/uscs-embrace-of-ai-brings-peril-and-promise/",
+      "https://dailytrojan.com/2025/11/13/usc-announces-free-chatgpt-program-at-inaugural-ai-summit/",
+      "https://www.uscannenbergmedia.com/2025/11/12/usc-is-joining-forces-with-openai/",
+      "https://www.uscannenbergmedia.com/2025/10/13/usc-launches-ai-strategy-committee-and-summit/",
+      "https://www.marshall.usc.edu/news/uscs-inaugural-ai-summit-explores-the-impact-of-ai-at-the-intersection-of-business-research-creativity-and-ethical-leadership",
+      "https://www.techstars.com/accelerators/usc-and-techstars",
+      "https://research.usc.edu/news/2025/09/usc-oori-news-applications-now-open-for-the-2026-usc-techstars-accelerator/",
+      "https://startusc.com/",
+      "https://www.gov.ca.gov/2026/03/30/as-trump-rolls-back-protections-governor-newsom-signs-first-of-its-kind-executive-order-to-strengthen-ai-protections-and-responsible-use/",
+      "https://www.genai.ca.gov/ca-action/executive-order/",
+      "https://www.govtech.com/education/higher-ed/gov-newsom-taps-universities-for-state-ai-council",
+      "https://www.kslaw.com/news-and-insights/new-state-ai-laws-are-effective-on-january-1-2026-but-a-new-executive-order-signals-disruption"
+    ],
+    "search_queries": [
+      "\"University of Southern California\" USC AI strategy 2025 2026 generative AI",
+      "\"USC\" artificial intelligence initiative site:usc.edu",
+      "\"University of Southern California\" CIO \"Chief Information Officer\" 2025 2026",
+      "\"USC\" \"Center for Generative AI and Society\" $10 million launch director",
+      "\"USC\" \"School of Advanced Computing\" director Gaurav Sukhatme launch 2024",
+      "\"USC\" Information Sciences Institute ISI AI NSF grant 2025 2026",
+      "\"USC\" \"CARC\" Center for Advanced Research Computing GPU HPC",
+      "\"USC\" president Carol Folt Beong-Soo Kim interim 2025 2026",
+      "\"USC\" \"AI Summit\" November 2025 Eric Schmidt Geoffrey Garrett",
+      "\"USC\" AI chatbot student advising enrollment 2025",
+      "\"USC\" Keck Medicine AI clinical deployment 2025",
+      "\"California\" higher education AI policy executive order state universities 2025",
+      "\"USC\" AI ethics faculty training workshop Center for Excellence Teaching",
+      "\"USC\" AI partnership OpenAI $1.5 million announcement 2025",
+      "\"USC\" \"Institute for Creative Technologies\" ICT AI DARPA research funding",
+      "\"USC\" AI academic integrity lawsuit controversy 2024 2025",
+      "\"USC\" AI startup incubator entrepreneurship 2025",
+      "\"USC\" enrollment students 2024 2025 total undergraduate graduate"
+    ],
+    "gaps_acknowledged": [
+      "No named chief AI officer; strategy leadership distributed across committee chair (Garrett), Presidential Initiatives VP (Narayanan), Interim CIO (Asghar), and School of Advanced Computing director (Sukhatme)",
+      "Full 15-person roster of the President's AI Strategy Committee not publicly available; only chair and several named members confirmed",
+      "ChatGPT Edu contract value not disclosed (USC announcement did not publish a dollar figure)",
+      "USC CARC aggregate GPU count listed as 180+; exact current count across newest A100/A40 generations not specified",
+      "Founding date and detailed funding history of CAIS not published on its public pages",
+      "No explicit campus-wide syllabus-level AI policy mandate; policy mosaic is college-by-college",
+      "No public user-adoption metrics for enterprise AI tools (seat usage, monthly actives)",
+      "Enrollment figure (46,566) reflects fall 2024 data; fall 2025 CDS not yet published at time of research"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "platform_first",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 17,
+        "research_compute_powerhouse": 22,
+        "curriculum_led": 7,
+        "governance_led": 13,
+        "student_success_led": 9,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 9,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Discovery (USC CARC)",
+        "gpu_count": 180,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 1415300000,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 4,
+        "institutional": 5,
+        "public_federal_state": 6,
+        "other_unclear": 6,
+        "industry_vendor": 2
+      },
+      "partnership_count": 10
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "advisor": 1
+      },
+      "student_experience_signal_count": 2,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 4,
+          "products": [
+            "Gemini (Workspace)",
+            "Google Gemini",
+            "NotebookLM"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT Edu"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot",
+            "Microsoft Copilot (M365)"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "D2L",
+          "mentions": 1,
+          "products": [
+            "AI Teaching Hub"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA HPC SDK"
+          ]
+        },
+        {
+          "vendor": "Ryght Ryght platform",
+          "mentions": 1,
+          "products": [
+            "Ryght platform"
+          ]
+        },
+        {
+          "vendor": "USC (internal) Tommy",
+          "mentions": 1,
+          "products": [
+            "Tommy"
+          ]
+        },
+        {
+          "vendor": "USC CARC Discovery",
+          "mentions": 1,
+          "products": [
+            "Discovery"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Campus-wide ChatGPT Edu rollout with OpenAI",
+          "summary": "Makes USC one of the largest campus-wide ChatGPT Edu deployments in U.S. higher ed and a flagship customer reference for OpenAI's university GTM; directly resets the per-user-AI baseline for an R1 with ~46,500 students.",
+          "source_url": "https://we-are.usc.edu/2025/12/03/announcing-uscs-adoption-of-chatgpt-edu/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "USC Center for AI in Society (CAIS) — AI for social good research",
+          "summary": "An early example of an AI-for-social-good center embedded across social work and engineering — a structural design still uncommon in higher ed.",
+          "source_url": "https://cais.usc.edu/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Keck + Ryght generative-AI clinical-trial platform pilot",
+          "summary": "One of the earliest academic deployments of generative AI for clinical-trial operations (not just research data analysis); likely a template for other NCI-designated cancer centers.",
+          "source_url": "https://www.clinicalresearchnewsonline.com/news/2025/02/20/usc-to-use-generative-ai-to-make-cancer-clinical-trials-more-efficient"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Tommy — AI virtual assistant for international students",
+          "summary": "Demonstrates how R1s are using AI chatbots for constituencies with high-volume, regulation-specific questions where 24/7 coverage is otherwise costly.",
+          "source_url": "https://ois.usc.edu/2025/02/20/meet-tommy-your-virtual-assistant/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "Center for Excellence in Teaching AI faculty development program",
+          "summary": "Structured, scalable faculty-development model with credentialed completion; avoids ad-hoc workshop fatigue by offering a self-paced pathway.",
+          "source_url": "https://cet.usc.edu/ai-teaching-at-usc-tools-guidance-and-faculty-examples/"
+        },
+        {
+          "claim_type": "career",
+          "title": "USC & Techstars Accelerator — AI-focused 2026 cohort",
+          "summary": "Demonstrates how USC integrates AI into its commercialization pipeline alongside research — a pattern increasingly expected of R1s seeking regional economic-development impact.",
+          "source_url": "https://research.usc.edu/news/2025/09/usc-oori-news-applications-now-open-for-the-2026-usc-techstars-accelerator/"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 0,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No named chief AI officer; strategy leadership distributed across committee chair (Garrett), Presidential Initiatives VP (Narayanan), Interim CIO (Asghar), and School of Advanced Computing director (Sukhatme)",
+        "Full 15-person roster of the President's AI Strategy Committee not publicly available; only chair and several named members confirmed",
+        "ChatGPT Edu contract value not disclosed (USC announcement did not publish a dollar figure)",
+        "USC CARC aggregate GPU count listed as 180+; exact current count across newest A100/A40 generations not specified",
+        "Founding date and detailed funding history of CAIS not published on its public pages",
+        "No explicit campus-wide syllabus-level AI policy mandate; policy mosaic is college-by-college",
+        "No public user-adoption metrics for enterprise AI tools (seat usage, monthly actives)",
+        "Enrollment figure (46,566) reflects fall 2024 data; fall 2025 CDS not yet published at time of research"
+      ]
+    }
+  }
+}

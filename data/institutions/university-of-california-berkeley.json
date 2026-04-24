@@ -1,0 +1,751 @@
+{
+  "institution": "University of California, Berkeley",
+  "slug": "university-of-california-berkeley",
+  "city_state": "Berkeley, CA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of California",
+  "enrollment": null,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "Berkeley AI Hub",
+      "url": "https://technology.berkeley.edu/AI"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI at UC Berkeley",
+        "url": "https://technology.berkeley.edu/AI",
+        "year": 2025
+      },
+      {
+        "title": "Berkeley AI Hub guidance",
+        "url": "https://ai.berkeley.edu/guidance-use-ai",
+        "year": 2025
+      }
+    ],
+    "summary": "UC Berkeley has deep AI research strength through BAIR, CHAI, BIDS, BIDMaP, the AI Policy Hub, and the Berkeley AI Hub. Governance resources point users to CERC-AIR risk assessment, appropriate-use guidance, UC policy, approved tools, ethics/risk/compliance, and privacy guidance."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://technology.berkeley.edu/AI",
+      "https://ai.berkeley.edu/guidance-use-ai",
+      "https://oercs.berkeley.edu/artificial-intelligence",
+      "https://re-ai.berkeley.edu/sites/default/files/responsible_use_of_generative_ai_uc_berkeley_2025.pdf"
+    ],
+    "adopted_date": "2025",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "University of California, Berkeley's AI policy posture is best characterized as comprehensive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "CERC AI Risk Subcommittee",
+        "type": "committee",
+        "scope": "AI risk assessment and risk mitigation guidance.",
+        "url": "https://ai.berkeley.edu/guidance-use-ai"
+      },
+      {
+        "name": "Office of Ethics, Risk and Compliance Services",
+        "type": "office",
+        "scope": "AI ethics, privacy, approved tools, governance, and risk resources.",
+        "url": "https://oercs.berkeley.edu/artificial-intelligence"
+      },
+      {
+        "name": "Berkeley AI Hub",
+        "type": "office",
+        "scope": "Campus AI research, teaching, tools, centers, and guidance hub.",
+        "url": "https://ai.berkeley.edu/"
+      }
+    ],
+    "summary": "University of California, Berkeley's public AI governance is organized through CERC AI Risk Subcommittee, Office of Ethics, Risk and Compliance Services, Berkeley AI Hub."
+  },
+  "initiatives": [
+    {
+      "title": "Berkeley AI Hub",
+      "description": "The Berkeley AI Hub presents UC Berkeley as a hub for AI research, teaching tools, guidance, ethics, and implications of AI.",
+      "significance": "University of California, Berkeley's berkeley ai hub is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_research_center",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.berkeley.edu/guidance-use-ai",
+        "https://technology.berkeley.edu/AI"
+      ]
+    },
+    {
+      "title": "Berkeley AI Research Lab",
+      "description": "BAIR is described as a leading academic AI research lab with 50+ faculty and 300+ graduate students across computer vision, machine learning, NLP, planning, control, robotics, and more.",
+      "significance": "University of California, Berkeley's berkeley ai research lab is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "open_source_contribution",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "robotics_and_physical_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.berkeley.edu/research/"
+      ]
+    },
+    {
+      "title": "AI risk assessment and appropriate-use guidance",
+      "description": "Berkeley guidance directs users to the CERC-AIR risk subcommittee, appropriate-use resources, and UC systemwide law and policy for generative AI.",
+      "significance": "University of California, Berkeley's ai risk assessment and appropriate-use guidance is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_ethics_framework",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of California system"
+          ],
+          "description": "Systemwide law and policy resources."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://ai.berkeley.edu/guidance-use-ai",
+        "https://oercs.berkeley.edu/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "AI Policy Hub",
+      "description": "Berkeley's AI Policy Hub translates technical insights into AI governance research and policy deliverables for frontier AI safety and public benefit.",
+      "significance": "University of California, Berkeley's ai policy hub is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "regulatory_compliance",
+        "algorithmic_bias",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CITRIS Tech Policy",
+            "School of Information",
+            "CDSS",
+            "CHAI",
+            "BCLT"
+          ],
+          "description": "Interdisciplinary AI governance network."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://cltc.berkeley.edu/program/ai-policy-hub/"
+      ]
+    },
+    {
+      "title": "BIDMaP AI for digital materials",
+      "description": "Berkeley's Bakar Institute of Digital Materials for the Planet combines AI, machine learning, and robotics to accelerate materials discovery for clean energy, clean air, clean water, batteries, and sustainable chemicals.",
+      "significance": "University of California, Berkeley's bidmap ai for digital materials is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.berkeley.edu/research/"
+      ]
+    },
+    {
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "date_announced": "2025-05-14",
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Licensed generative chat."
+        },
+        {
+          "name": "Google Gemini App",
+          "vendor": "Google",
+          "role": "Licensed generative chat for eligible Berkeley users."
+        },
+        {
+          "name": "BearGPT",
+          "vendor": "UC Berkeley",
+          "role": "Berkeley-provided LLM chat option."
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Maps tools to availability and allowable data-protection levels.",
+      "title": "Licensed generative AI tool matrix",
+      "description": "UC Berkeley publishes a licensed generative-AI tool matrix covering AI Platform Beta (River), Microsoft Copilot, BearGPT, Google Gemini, and ChatGPT Edu status, including student and employee availability and data-protection levels.",
+      "significance": "This makes platform availability and data-protection posture visible rather than leaving vendor exposure inferred from generic guidance.",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security",
+        "ai_tool_equity"
+      ],
+      "source_urls": [
+        "https://technology.berkeley.edu/ai-resources/licensed-generative-ai-tools"
+      ]
+    },
+    {
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "date_announced": null,
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount found in cited source."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "title": "Savio AI and machine-learning research compute access",
+      "description": "Berkeley Research IT frames Savio as an AI/ML research platform with GPU resources, cloud-navigation support, containers, Jupyter, RStudio, VS Code, and Faculty Computing Allowances for PIs.",
+      "significance": "Adds source-backed compute capacity to Berkeley’s otherwise research-center-heavy AI profile.",
+      "primary_category": "research_and_innovation",
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "source_urls": [
+        "https://research-it.berkeley.edu/services-projects/ai-research-it",
+        "https://research-it.berkeley.edu/services-projects/high-performance-computing-savio"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Berkeley AI Research Lab",
+      "focus": "Machine learning, computer vision, NLP, planning, control, robotics, and responsible AI.",
+      "founded": null,
+      "url": "https://ai.berkeley.edu/research/"
+    },
+    {
+      "name": "AI Policy Hub",
+      "focus": "Frontier AI governance and policy research.",
+      "founded": null,
+      "url": "https://cltc.berkeley.edu/program/ai-policy-hub/"
+    },
+    {
+      "name": "Bakar Institute of Digital Materials for the Planet",
+      "focus": "AI, ML, and robotics for materials discovery and climate/clean-energy challenges.",
+      "founded": null,
+      "url": "https://ai.berkeley.edu/research/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "Responsible Use of Generative AI",
+      "level": "both",
+      "launched": "2025",
+      "url": "https://re-ai.berkeley.edu/sites/default/files/responsible_use_of_generative_ai_uc_berkeley_2025.pdf"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.berkeley.edu/ai-resources/licensed-generative-ai-tools"
+    },
+    {
+      "vendor": "UC Berkeley",
+      "product": "AI Platform Beta (River)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-05",
+      "url": "https://technology.berkeley.edu/ai-resources/licensed-generative-ai-tools"
+    },
+    {
+      "vendor": "UC Berkeley",
+      "product": "BearGPT",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.berkeley.edu/ai-resources/licensed-generative-ai-tools"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini App",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://technology.berkeley.edu/ai-resources/licensed-generative-ai-tools"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Savio",
+    "gpu_count": null,
+    "url": "https://research-it.berkeley.edu/services-projects/ai-research-it",
+    "summary": "Berkeley Research IT identifies Savio as a campus-wide HPC cluster supporting AI and ML research with CPU and GPU hardware, Open OnDemand, PyTorch/TensorFlow environments, containers, and Faculty Computing Allowances for principal investigators. A historical Savio GPU-pool announcement documented 60 GPUs at launch, but current public pages describe GPU resources as varied and limited without a single current campuswide GPU total."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "cross_institution",
+      "partner": "UC systemwide AI resources",
+      "purpose": "Campus guidance points to UC systemwide AI law and policy resources.",
+      "date": null,
+      "url": "https://ai.berkeley.edu/guidance-use-ai"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Berkeley AI Hub guidance",
+      "scope": "Students, faculty, and staff navigating AI tools and risk.",
+      "url": "https://ai.berkeley.edu/guidance-use-ai"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI Policy Hub",
+      "description": "Interdisciplinary governance research to avoid AI exacerbating division or inequity.",
+      "url": "https://cltc.berkeley.edu/program/ai-policy-hub/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "California",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "University of California, Berkeley operates in California and within University of California; public AI guidance should be read alongside applicable state, federal, and system privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://www.ucop.edu/artificial-intelligence/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "UC Berkeley now has clearer public evidence for both enterprise AI tools and AI research compute. Berkeley’s licensed-tool matrix documents Microsoft Copilot, AI Platform Beta (River), BearGPT, Google Gemini, and ChatGPT Edu review status with data-protection and audience notes, while Research IT identifies Savio as a campus-wide AI/ML-capable HPC environment with GPU resources, Faculty Computing Allowances, containers, Open OnDemand, and ML software support. The public record remains strongest for AI research, policy, and tool governance; exact active user counts, contract values, current total Savio GPU count, central AI investment totals, and subgroup outcome metrics are not publicly disclosed.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill",
+    "sources": [
+      "https://technology.berkeley.edu/AI",
+      "https://ai.berkeley.edu/guidance-use-ai",
+      "https://oercs.berkeley.edu/artificial-intelligence",
+      "https://re-ai.berkeley.edu/sites/default/files/responsible_use_of_generative_ai_uc_berkeley_2025.pdf",
+      "https://ai.berkeley.edu/",
+      "https://ai.berkeley.edu/research/",
+      "https://cltc.berkeley.edu/program/ai-policy-hub/",
+      "https://technology.berkeley.edu/ai-resources/licensed-generative-ai-tools",
+      "https://research-it.berkeley.edu/services-projects/ai-research-it",
+      "https://research-it.berkeley.edu/services-projects/high-performance-computing-savio",
+      "https://research-it.berkeley.edu/news/gpu-nodes-added-campuss-savio-hpc-cluster"
+    ],
+    "search_queries": [
+      "University of California, Berkeley AI strategy 2025 2026",
+      "University of California, Berkeley generative AI policy guidelines",
+      "University of California, Berkeley AI research center institute",
+      "University of California, Berkeley Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "University of California, Berkeley AI degree certificate workforce training",
+      "California higher education AI policy",
+      "site:technology.berkeley.edu UC Berkeley licensed generative AI tools ChatGPT Edu Copilot Gemini BearGPT",
+      "site:research-it.berkeley.edu AI in Research IT Savio GPU Berkeley",
+      "site:research-it.berkeley.edu Savio GPU nodes Berkeley Research Computing"
+    ],
+    "gaps_acknowledged": [
+      "No Berkeley chief AI officer or active-user counts for licensed generative-AI tools were found.",
+      "Savio has public GPU-resource documentation, but a current campuswide GPU count was not found; the older 60-GPU launch figure is historical.",
+      "Specific central AI investment totals and student subgroup outcome metrics were not disclosed in consulted public pages."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "platform_first",
+        "research_compute_powerhouse",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 12,
+        "research_compute_powerhouse": 11,
+        "curriculum_led": 1,
+        "governance_led": 12,
+        "student_success_led": 1,
+        "workforce_regional_development": 4,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 1,
+      "ai_program_count": 1,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": false,
+      "has_faculty_development": false,
+      "has_ai_degree_or_certificate": false,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 0,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 0,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 3,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Savio",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 7
+      },
+      "partnership_count": 1
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Google Gemini App"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "UC Berkeley BearGPT",
+          "mentions": 2,
+          "products": [
+            "BearGPT"
+          ]
+        },
+        {
+          "vendor": "UC Berkeley AI Platform Beta (River)",
+          "mentions": 1,
+          "products": [
+            "AI Platform Beta (River)"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Berkeley AI Hub",
+          "summary": "University of California, Berkeley's berkeley ai hub is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.berkeley.edu/guidance-use-ai"
+        },
+        {
+          "claim_type": "career",
+          "title": "Berkeley AI Research Lab",
+          "summary": "University of California, Berkeley's berkeley ai research lab is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.berkeley.edu/research/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI risk assessment and appropriate-use guidance",
+          "summary": "University of California, Berkeley's ai risk assessment and appropriate-use guidance is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.berkeley.edu/guidance-use-ai"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Policy Hub",
+          "summary": "University of California, Berkeley's ai policy hub is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://cltc.berkeley.edu/program/ai-policy-hub/"
+        },
+        {
+          "claim_type": "career",
+          "title": "BIDMaP AI for digital materials",
+          "summary": "University of California, Berkeley's bidmap ai for digital materials is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://ai.berkeley.edu/research/"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 3,
+      "notes": [
+        "No Berkeley chief AI officer or active-user counts for licensed generative-AI tools were found.",
+        "Savio has public GPU-resource documentation, but a current campuswide GPU count was not found; the older 60-GPU launch figure is historical.",
+        "Specific central AI investment totals and student subgroup outcome metrics were not disclosed in consulted public pages."
+      ]
+    }
+  }
+}

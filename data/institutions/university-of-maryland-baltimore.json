@@ -1,0 +1,1445 @@
+{
+  "institution": "University of Maryland, Baltimore",
+  "slug": "university-of-maryland-baltimore",
+  "city_state": "Baltimore, MD",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University System of Maryland",
+  "enrollment": 6784,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Bruce E. Jarrell, MD, FACS",
+      "url": "https://www.umaryland.edu/president/presidents-biography/"
+    },
+    "provost": {
+      "name": "Roger J. Ward, EdD, JD, MSL, MPA",
+      "url": "https://www.umaryland.edu/about-umb/university-leadership/administrative-officers/"
+    },
+    "cio": {
+      "name": "Peter J. Murray, PhD",
+      "url": "https://www.umaryland.edu/about-umb/university-leadership/administrative-officers/murray.php"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Roger J. Ward, EdD, JD, MSL, MPA",
+      "title": "Provost and Executive Vice President; Chair, AI Ideation Steering Committee; Responsible Officer for AI Governance Policy X-99.20",
+      "url": "https://www.umaryland.edu/cits/ai-at-umb/umb-ai-ideation-steering-committee/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "UMB Artificial Intelligence Governance Policy (X-99.20)",
+        "url": "https://www.umaryland.edu/policies-and-procedures/library/information-technology/policies/x-9920.php",
+        "year": 2025
+      },
+      {
+        "title": "University of Maryland, Baltimore Artificial Intelligence (AI) Guidelines",
+        "url": "https://www.umaryland.edu/media/umb/procedures/UMB-Artificial-Intelligence-Guidelines.pdf",
+        "year": 2025
+      },
+      {
+        "title": "AI at UMB (central hub page, Center for Information Technology Services)",
+        "url": "https://www.umaryland.edu/cits/ai-at-umb/",
+        "year": 2025
+      }
+    ],
+    "summary": "UMB's AI strategy is anchored by a June 2025 Governance Policy and companion Guidelines authored by the AI Ideation Steering Committee chaired by Provost Roger Ward. The posture emphasizes six principles (ethical use, compliance, inclusivity, sustainability, innovation, validity) and identifies six priority mission areas where AI can deliver gains: healthcare delivery, academic innovation, research efficiency, student services, administrative optimization, and community engagement. A central 'AI at UMB' CITS hub operates a three-tier tool classification (approved, approved with restrictions, prohibited) and an AI Application Review Process that evaluates tools before academic, research, or administrative use."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.umaryland.edu/policies-and-procedures/library/information-technology/policies/x-9920.php",
+      "https://www.umaryland.edu/media/umb/procedures/UMB-Artificial-Intelligence-Guidelines.pdf",
+      "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+    ],
+    "adopted_date": "2025-05",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Six guiding principles: ethical use, compliance, inclusivity, sustainability, innovation and collaboration, validity and reliability",
+      "UMB-approved generative AI tools only when used on university devices or accounts",
+      "No upload of sensitive (Level 2+) data to non-approved AI systems",
+      "Required attribution for AI-generated content",
+      "Academic-integrity standards apply to AI use by students and faculty",
+      "Research use must comply with publisher and funder policies",
+      "AI Application Review Process required before deployment of new AI tools",
+      "Three-tier tool classification (approved / approved-with-restrictions / prohibited)",
+      "Annual policy review and compliance oversight by AI Ideation Steering Committee"
+    ],
+    "summary": "Approved May 20, 2025 (Policy X-99.20) and announced to the community June 25, 2025, the UMB AI Governance Policy plus companion Guidelines provide a comprehensive framework applying to faculty, staff, students, affiliates, and external partners. It pairs permissive access to enterprise tools (Microsoft Copilot, nebulaONE, Zoom AI Companion) with strict data-classification controls, mandated review before new-tool adoption, and explicit prohibition of tools such as Otter.ai that cannot protect institutional data."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "AI Ideation Steering Committee",
+        "type": "committee",
+        "scope": "University-wide strategic body guiding UMB's AI engagement; authored AI Governance Policy and Guidelines; identifies, reviews, and approves significant AI initiatives; ensures compliance; conducts annual policy reviews. Chaired by Provost Roger Ward.",
+        "url": "https://www.umaryland.edu/cits/ai-at-umb/umb-ai-ideation-steering-committee/"
+      },
+      {
+        "name": "Center for Information Technology Services (CITS) AI at UMB program",
+        "type": "office",
+        "scope": "Central IT organization under SVP/CIO Peter Murray operating the 'AI at UMB' hub, the three-tier tool classification, AI Application Review Process, and enterprise AI tool provisioning.",
+        "url": "https://www.umaryland.edu/cits/ai-at-umb/"
+      },
+      {
+        "name": "UMB ICTR Informatics Core (with UMBC Cybersecurity & AI Core)",
+        "type": "office",
+        "scope": "Translational-research informatics core that provides AI/ML consultation, proof-of-concept development, and data-visualization services to investigators campus-wide, delivered in partnership with UMBC.",
+        "url": "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/umbc-cybersecurity-and-artificial-intelligence---umb-ictr-core/"
+      },
+      {
+        "name": "Faculty Center for Teaching and Learning (FCTL) AI resources",
+        "type": "office",
+        "scope": "Cross-school faculty development unit coordinating the Online Teaching Community's AI programming, one-on-one consultations on AI pedagogy, and the public emerging-trends AI page.",
+        "url": "https://www.umaryland.edu/fctl/resources/technology/emerging-trends/artificial-intelligence-ai/"
+      }
+    ],
+    "summary": "UMB's AI governance is cross-functional: the Provost-chaired AI Ideation Steering Committee sets strategy and policy; CITS under the CIO operates enterprise tool approvals and the 'AI at UMB' hub; the ICTR Informatics Core (shared with UMBC) delivers research-facing AI/ML consulting; and the FCTL leads faculty AI pedagogy. The Steering Committee functions as UMB's single top-level AI governance body rather than a dedicated Chief AI Officer role."
+  },
+  "initiatives": [
+    {
+      "title": "UMB AI Governance Policy (X-99.20) and AI Guidelines",
+      "description": "UMB's first university-wide AI governance policy, approved May 20, 2025 and announced June 25, 2025. Establishes six principles (ethical use, compliance, inclusivity, sustainability, innovation, validity), a three-tier tool classification, and an AI Application Review Process for all faculty, staff, students, affiliates, and external partners.",
+      "significance": "Positions UMB as one of the first professional-school-dominant R1s with a fully codified, comprehensive AI governance framework that explicitly encompasses clinical care, research, teaching, and administration under a single policy.",
+      "date_announced": "2025-06-25",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (Office of the Provost / CITS)",
+        "description": "Policy-development effort by the AI Ideation Steering Committee; no specific budget disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy development; aligned with Maryland Executive Order 01.01.2024.02 and DoIT guidance but not a formal partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a university-wide compliance baseline that other USM institutions and health-sciences campuses can model; signals a comprehensive rather than prohibitive stance.",
+      "source_urls": [
+        "https://www.umaryland.edu/policies-and-procedures/library/information-technology/policies/x-9920.php",
+        "https://elm.umaryland.edu/announcements/2025/UMBs-NEW-AI-Policy-and-Guidelines.php",
+        "https://elm.umaryland.edu/announcements/2025/New-Policy-AI-Governance-Policy.php"
+      ]
+    },
+    {
+      "title": "Nation's first AI-powered Smart Surgical Performance Center (UMSOM + Axis Research & Technologies)",
+      "description": "On October 16, 2025, the University of Maryland School of Medicine and Axis Research & Technologies announced a joint venture to build a 36,000 sq. ft. AI-powered smart surgical performance center powered by Axis's OMNIMED SmartOR platform, which uses real-time operating-room video and sensor data to give surgeons AI-driven feedback on skills, teamwork, and procedural mastery. Groundbreaking planned for late 2025; construction begins 2026.",
+      "significance": "Claimed first-of-its-kind AI-enabled surgical training and performance facility in the U.S.; a flagship demonstration of AI embedded in professional-school clinical education and measurable skill assessment.",
+      "date_announced": "2025-10-16",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "computer_vision",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Joint venture with Axis Research & Technologies (private partner); specific dollar commitment not publicly disclosed",
+        "description": "36,000 sq. ft. facility plus OMNIMED SmartOR deployment; dollar amount not disclosed in announcements."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Axis Research & Technologies",
+            "UMSOM",
+            "UM Faculty Physicians"
+          ],
+          "description": "Joint venture between UMSOM/UM-FP and Axis Research & Technologies to build and operate the center."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "OMNIMED SmartOR",
+          "vendor": "Axis Research & Technologies",
+          "role": "AI-enabled operating-room analytics platform providing real-time performance feedback"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Raises questions for accreditors and regulators about AI-assisted assessment of surgical competency and data-privacy handling of clinical telemetry.",
+      "source_urls": [
+        "https://www.umaryland.edu/news/archived-news/october-2025/umb-launches-nations-first-ai-powered-smart-surgical-performance-center.php",
+        "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-baltimore-and-axis-research--technologies-announce-joint-venture-to-build-nations-first-ai-powered-smart-surgical-performance-center.html",
+        "https://www.prnewswire.com/news-releases/university-of-maryland-baltimore-and-axis-research--technologies-announce-joint-venture-to-build-nations-first-ai-powered-smart-surgical-performance-center-302589140.html",
+        "https://www.govtech.com/education/higher-ed/university-of-maryland-baltimore-planning-ai-powered-surgery-center"
+      ]
+    },
+    {
+      "title": "University of Maryland Institute for Health Computing (UM-IHC)",
+      "description": "MPower-backed institute jointly led by UMB and UMCP with the University of Maryland Medical System and Montgomery County. Conducts applied AI, bioinformatics, and machine-learning research across disease prediction, risk stratification (kidney disease, pregnancy, opioid overdose), and real-world evidence. Initial $25M MPower funding plus $40M Montgomery County commitment toward its future North Bethesda site; Hines selected as master developer in May 2025.",
+      "significance": "UMB's flagship health-AI research platform, combining three USM campuses with a large health-system data backbone to compete with national learning-health-system efforts at Mayo, Penn Medicine, and Stanford.",
+      "date_announced": "2022-11-14",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 65000000,
+        "funding_source": "MPower ($25M initial) and Montgomery County, MD ($40M North Bethesda site)",
+        "description": "$25M MPower seed funding plus $40M Montgomery County capital for the future North Bethesda campus."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maryland, College Park",
+            "University of Maryland Medical System",
+            "Montgomery County, MD"
+          ],
+          "description": "Tri-institutional MPower partnership with local government co-funding."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Tests governance frameworks for cross-institutional handling of de-identified and identified clinical data under Maryland state AI policy.",
+      "source_urls": [
+        "https://ihc.umd.edu/",
+        "https://www.ihc.umd.edu/research-home",
+        "https://mpower.maryland.edu/initiatives/13449/",
+        "https://www.umaryland.edu/news/archived-news/may-2025/next-step-forward-for-institute-for-health-computing-.php",
+        "https://www.umms.org/news/news-releases/2022/university-of-maryland-mpower-ai-partnership"
+      ]
+    },
+    {
+      "title": "Cloudforce nebulaONE enterprise generative-AI platform at UMB",
+      "description": "UMB purchased a campus license for Cloudforce's nebulaONE, a Microsoft Azure-native enterprise generative-AI platform, enabling employees and students to create AI solutions and chatbots for education, student services, research, clinical care, community engagement, and administrative efficiency while keeping prompt data in a UMB-specific Azure tenant.",
+      "significance": "Demonstrates a purpose-built higher-ed AI gateway strategy (rather than direct consumer-tool reliance) for a HIPAA-facing health-sciences campus; nebulaONE also serves the broader USM / 3M+-student footprint that earned Cloudforce its 2025 Microsoft Global Partner of the Year award.",
+      "date_announced": "2025-04-17",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMB central IT (CITS) enterprise license",
+        "description": "Enterprise campus license for nebulaONE; specific cost not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Cloudforce",
+            "Microsoft Azure"
+          ],
+          "description": "Higher-ed vendor partnership with Maryland-based Cloudforce delivering nebulaONE on Microsoft Azure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "nebulaONE",
+          "vendor": "Cloudforce (on Microsoft Azure)",
+          "role": "Enterprise generative-AI gateway and chatbot-builder platform"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Establishes a HIPAA/FERPA-aligned tenant model that allows UMB to offer generative AI without exposing PHI to consumer systems.",
+      "source_urls": [
+        "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/",
+        "https://www.prnewswire.com/news-releases/cloudforce-launches-nebulaone-on-microsoft-azure-the-leading-ai-gateway-for-higher-education-302430687.html",
+        "https://gocloudforce.com/nebulaone-ai-launch/",
+        "https://www.microsoft.com/en-us/education/blog/2025/04/how-microsoft-and-cloudforce-help-institutions-innovate-with-azure-ai/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot campus-wide rollout (Copilot Chat + M365 Copilot)",
+      "description": "UMB enabled Microsoft Copilot Chat (protected, signed in with UMB credentials) in January 2024 and expanded availability to all students and employees on February 12, 2025. M365 Copilot integrates with Word, Excel, PowerPoint, Outlook, and Teams under enterprise data protection that keeps prompts within the UMB tenant.",
+      "significance": "A mainstream enterprise-assistant deployment at a HIPAA-heavy professional-school campus; Copilot is now a baseline productivity layer that underwrites UMB's permissive-use stance.",
+      "date_announced": "2024-01-31",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "CITS enterprise licensing",
+        "description": "Microsoft 365 / Copilot enterprise licensing across roughly 6,800 students plus employees."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise licensing relationship with Microsoft for Copilot and M365 Copilot."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Protected enterprise chat assistant"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Embedded AI across Word, Excel, PowerPoint, Outlook, Teams"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Sets UMB's default approved-tool posture for everyday productivity; complements the AI Governance Policy's data-classification rules.",
+      "source_urls": [
+        "https://elm.umaryland.edu/announcements/2024/Microsoft-Copilot-is-Available-at-UMB.php",
+        "https://elm.umaryland.edu/announcements/2025/Copilot-Is-Available-for-all-Students-and-Employees.php",
+        "https://www.umaryland.edu/cits/training/microsoft-365/copilot/",
+        "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+      ]
+    },
+    {
+      "title": "UMSOD Division of Artificial Intelligence Research (first-in-nation AI division in a dental school)",
+      "description": "Housed in the School of Dentistry's Department of Oncology and Diagnostic Sciences and co-led by Ahmed S. Sultan, BDS, PhD and Jeffery B. Price, DDS, MS, the division focuses on explainable and interpretable AI for oral pathology and maxillofacial radiology. It maintains one of the largest U.S. datasets of whole-slide histopathology and CBCT radiology images.",
+      "significance": "Claimed first AI research division within a dental school nationally; embeds explainable-AI methods into a discipline-specific clinical education pipeline.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "UMSOD / grant-funded",
+        "description": "Specific budget not disclosed on public pages."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal division; external research partners not detailed on public pages."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Advances explainable-AI methods relevant to FDA regulation of medical-imaging AI.",
+      "source_urls": [
+        "https://www.dental.umaryland.edu/ai/"
+      ]
+    },
+    {
+      "title": "UMB/UMBC NIH REACH grant — Baltimore Life Science Discovery Accelerator",
+      "description": "In July 2025 UMB and UMBC jointly received a four-year, $4M NIH Research Evaluation and Commercialization Hubs (REACH) grant to launch a Baltimore biomedical and life-sciences accelerator. Up to 44 early-career faculty and students will receive up to $100K each in seed funding, with a portion targeted at AI/ML-enabled biomedical technologies.",
+      "significance": "Federal endorsement of UMB/UMBC as a regional translational-research engine; funnels early-stage biomedical AI into commercialization pathways.",
+      "date_announced": "2025-07-16",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4000000,
+        "funding_source": "NIH REACH program",
+        "description": "$4M four-year federal grant to UMB and UMBC."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH",
+            "University of Maryland, Baltimore County"
+          ],
+          "description": "Federal-funded cross-institution accelerator targeting West Baltimore biomedical startups."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces federal attention on regional biomedical AI translation and workforce diversity.",
+      "source_urls": [
+        "https://news.biobuzz.io/2025/07/16/umb-and-umbc-to-launch-new-baltimore-accelerator-with-landmark-nih-grant/",
+        "https://umbc.edu/stories/umbc-umb-reach-grant-life-sciences-accelerator-program/"
+      ]
+    },
+    {
+      "title": "UM-IHC Continuing Medical Education course: AI in Healthcare",
+      "description": "On October 28, 2025 the UM-IHC held its first-ever CME course on AI in healthcare, attended by 40+ clinical professionals. Curriculum covered predictive AI, generative AI/LLMs, ambient scribes, radiology AI, HIPAA compliance, AI hallucinations, and responsible deployment. Led by Drs. Bradley Maron, Warren D'Souza, Daniel Morgan, Florence Xini Doo, and Alexandria Ratzki-Leewing.",
+      "significance": "Formalizes clinician AI literacy as accredited CME — an emerging model other academic medical centers are following.",
+      "date_announced": "2025-10-28",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "continuing_and_executive_education",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "community",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UM-IHC / MPower",
+        "description": "CME programming funded through UM-IHC operating budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maryland, College Park",
+            "University of Maryland Medical System"
+          ],
+          "description": "Delivered under the tri-institutional UM-IHC umbrella."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates accredited AI literacy pathways for practicing clinicians, relevant to CME accreditors and state medical boards.",
+      "source_urls": [
+        "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-institute-for-health-computing-launches-first-continuing-medical-education-course-in-artificial-intelligence.html"
+      ]
+    },
+    {
+      "title": "UMB ICTR Informatics Core — UMBC Cybersecurity & AI Core services",
+      "description": "The Institute for Clinical & Translational Research Informatics Core, delivered with UMBC, offers AI/ML consultation, proof-of-concept ML system construction, data-visualization guidance, and cybersecurity risk review to UMB investigators across all schools.",
+      "significance": "Institutional-scale research enablement service that lowers the barrier to AI adoption for UMB's professional-school investigators who lack embedded ML expertise.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NIH CTSA support plus campus funds",
+        "description": "Core service funded through the broader ICTR CTSA and UMBC partnership."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maryland, Baltimore County"
+          ],
+          "description": "Joint core service delivered by UMBC faculty to UMB investigators."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Operationalizes policy requirements around AI risk review at the project level for clinical and translational research.",
+      "source_urls": [
+        "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/umbc-cybersecurity-and-artificial-intelligence---umb-ictr-core/",
+        "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/"
+      ]
+    },
+    {
+      "title": "Pharmapreneurship + xFoundry Alliance AI-powered student innovation partnership",
+      "description": "The School of Pharmacy's Pharmapreneurship program joined the xFoundry Alliance, giving UMB professional-school students (Pharmacy, Dentistry, Medicine, etc.) access to the AI-powered CognoXent platform, the Xperiment Academic Curriculum, and the Xpand Startup Accelerator. Students can enter xFoundry's Xperience Competition to develop scalable AI-enabled ventures.",
+      "significance": "Extends AI-enabled entrepreneurship tooling into graduate professional education, bridging clinical disciplines with Maryland's innovation pipeline.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_incubator_or_startup_support",
+        "career_and_workforce_readiness",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "School of Pharmacy / xFoundry Alliance",
+        "description": "Program-level partnership; no disclosed dollar amount."
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "xFoundry Alliance"
+          ],
+          "description": "Membership in the xFoundry Alliance for student innovation."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "CognoXent",
+          "vendor": "xFoundry Alliance",
+          "role": "AI-powered innovation platform for student ventures"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.pharmacy.umaryland.edu/university-of-maryland-baltimore-partners-with-xfoundry-alliance-to-expand-student-opportunities-in-innovation/"
+      ]
+    },
+    {
+      "title": "Clinical Informatics M.S. and Graduate Certificate (UMB Graduate School + UMBC)",
+      "description": "A 34-credit M.S. in Clinical Informatics co-delivered by UMB Graduate School and UMBC, including a 12-credit Clinical Informatics certificate plus a UMBC Data Science certificate and 10 credits of practicum. Core faculty are board-certified clinical informatics physicians from UMSOM with computer science and epidemiology faculty from UMBC.",
+      "significance": "Formal degree pathway producing the AI-literate clinical-informatics workforce that a learning-health-system like UM-IHC depends on.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMB Graduate School / tuition",
+        "description": "Standing degree program; budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maryland, Baltimore County"
+          ],
+          "description": "Co-delivered degree with UMBC's Data Science program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://graduate.umaryland.edu/clinicalinformatics/",
+        "https://graduate.umaryland.edu/clinicalinformaticscert/"
+      ]
+    },
+    {
+      "title": "FCTL Online Teaching Community AI faculty development series",
+      "description": "The Faculty Center for Teaching and Learning runs a monthly cross-school Online Teaching Community whose AI-focused sessions include 'AI in the Classroom: Tools, Ethics, and Emerging Practices' (Sept 2025), 'Writing Assignments and Assessment in the Age of Generative AI' (Apr 2025), and earlier panels on faculty GenAI experiences and Edge Copilot.",
+      "significance": "Sustained, cross-disciplinary faculty development in AI pedagogy rather than one-off training; models ongoing AI literacy for a professional-school faculty.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "ai_literacy_requirement"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "FCTL operating budget",
+        "description": "Sessions delivered by internal FCTL staff and affiliated faculty."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-school programming."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.umaryland.edu/fctl/resources/technology/emerging-trends/artificial-intelligence-ai/"
+      ]
+    },
+    {
+      "title": "AI Application Review Process and three-tier tool classification",
+      "description": "CITS's 'AI at UMB' hub operates an AI Application Review Process requiring evaluation and approval before any AI-powered tool can be used for academic, research, or administrative work. Tools are sorted into three tiers: approved (Copilot Chat, M365 Copilot, nebulaONE, Zoom AI Companion); approved with restrictions by data level (Claude.ai, Gemini, Perplexity — Level 0 data only; paid ChatGPT/Gemini/Claude via @umaryland SSO coming online for Level 1); and prohibited (Otter.ai, cited for external transcript storage).",
+      "significance": "A concrete operational companion to the policy that other health-sciences campuses can emulate; prohibitions (e.g., Otter.ai) are unusually explicit.",
+      "date_announced": "2025-06-25",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "CITS",
+        "description": "Staff-time commitment; no disclosed capital budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal IT governance process."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Approved enterprise chat"
+        },
+        {
+          "name": "M365 Copilot",
+          "vendor": "Microsoft",
+          "role": "Approved M365 embedded AI"
+        },
+        {
+          "name": "nebulaONE",
+          "vendor": "Cloudforce (on Azure)",
+          "role": "Approved enterprise GenAI platform"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Approved meeting AI"
+        },
+        {
+          "name": "Claude.ai",
+          "vendor": "Anthropic",
+          "role": "Restricted (Level 0 only)"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Restricted (Level 0 only)"
+        },
+        {
+          "name": "Perplexity",
+          "vendor": "Perplexity AI",
+          "role": "Restricted (Level 0 only)"
+        },
+        {
+          "name": "Otter.ai",
+          "vendor": "Otter.ai",
+          "role": "Prohibited — external transcript storage"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Model framework for vendor-tool risk management on HIPAA-facing campuses.",
+      "source_urls": [
+        "https://www.umaryland.edu/cits/ai-at-umb/",
+        "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+      ]
+    },
+    {
+      "title": "Zoom AI Companion deployment (approved enterprise tool)",
+      "description": "UMB has approved Zoom AI Companion as an enterprise tool for meeting summarization and productivity, alongside Microsoft Copilot and nebulaONE, under the AI at UMB tool-classification framework.",
+      "significance": "Rounds out UMB's enterprise AI stack with a meetings-layer assistant governed under the same data-classification discipline as Copilot.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership",
+        "campus_wide_platform_rollout"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "CITS enterprise licensing",
+        "description": "Enterprise Zoom licensing; AI Companion enabled by default under institutional controls."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Zoom"
+          ],
+          "description": "Enterprise licensing relationship."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summarization and smart recap"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "University of Maryland Institute for Health Computing (UM-IHC)",
+      "focus": "Applied AI, bioinformatics, disease prediction / risk stratification, real-world evidence, and adaptive clinical trials across UMB, UMCP, and UMMS",
+      "founded": "2022",
+      "url": "https://ihc.umd.edu/"
+    },
+    {
+      "name": "UMSOD Division of Artificial Intelligence Research",
+      "focus": "Explainable and interpretable AI for oral pathology, maxillofacial radiology, and digital pathology; one of the largest U.S. datasets of whole-slide histopathology and CBCT imaging",
+      "founded": null,
+      "url": "https://www.dental.umaryland.edu/ai/"
+    },
+    {
+      "name": "UMB ICTR Informatics Core (with UMBC Cybersecurity & AI Core)",
+      "focus": "Translational-research AI/ML consulting, proof-of-concept ML development, data visualization, cybersecurity risk review for clinical investigators",
+      "founded": null,
+      "url": "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/umbc-cybersecurity-and-artificial-intelligence---umb-ictr-core/"
+    },
+    {
+      "name": "Center for Innovation in Diagnosis (UMSOM)",
+      "focus": "AI applications to diagnostic safety and quality (led by Daniel Morgan, MD); contributed to UM-IHC's first AI CME course",
+      "founded": null,
+      "url": "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-institute-for-health-computing-launches-first-continuing-medical-education-course-in-artificial-intelligence.html"
+    },
+    {
+      "name": "University of Maryland Institute for Innovative Imaging (UM2ii)",
+      "focus": "Imaging AI research directed by Florence Xini Doo, MD; participated in UM-IHC's AI CME course",
+      "founded": null,
+      "url": "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-institute-for-health-computing-launches-first-continuing-medical-education-course-in-artificial-intelligence.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Clinical Informatics (UMB Graduate School with UMBC Data Science certificate)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://graduate.umaryland.edu/clinicalinformatics/"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Clinical Informatics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://graduate.umaryland.edu/clinicalinformaticscert/"
+    },
+    {
+      "type": "course",
+      "name": "UM-IHC Continuing Medical Education: AI in Healthcare (first delivered Oct 28, 2025)",
+      "level": "grad",
+      "launched": "2025-10",
+      "url": "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-institute-for-health-computing-launches-first-continuing-medical-education-course-in-artificial-intelligence.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://elm.umaryland.edu/announcements/2024/Microsoft-Copilot-is-Available-at-UMB.php"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-02",
+      "url": "https://elm.umaryland.edu/announcements/2025/Copilot-Is-Available-for-all-Students-and-Employees.php"
+    },
+    {
+      "vendor": "Cloudforce (on Microsoft Azure)",
+      "product": "nebulaONE",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-04",
+      "url": "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": false,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": "https://www.umaryland.edu/ictr/investigator-resources/data-and-data-handling/high-performance-computing-/",
+    "summary": "UMB does not operate its own named supercomputer; researchers access HPC through ICTR referrals to UMBC's HPCF and UMCP's Zaratan cluster, plus Microsoft Azure capacity under the nebulaONE enterprise license. A dedicated UMB GPU count is not publicly disclosed."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "MPower seed funding for UM Institute for Health Computing",
+      "amount_usd": 25000000,
+      "source": "University of Maryland Strategic Partnership: MPowering the State",
+      "purpose": "Launch the UM Institute for Health Computing (AI + bioinformatics + RWE)",
+      "date": "2022-11",
+      "url": "https://www.umms.org/news/news-releases/2022/university-of-maryland-mpower-ai-partnership"
+    },
+    {
+      "title": "Montgomery County investment in North Bethesda UM-IHC site",
+      "amount_usd": 40000000,
+      "source": "Montgomery County, MD government",
+      "purpose": "Develop the North Bethesda Metro campus of UM-IHC",
+      "date": "2022-11",
+      "url": "https://mpower.maryland.edu/initiatives/13449/"
+    },
+    {
+      "title": "NIH REACH grant — Baltimore Life Science Discovery Accelerator",
+      "amount_usd": 4000000,
+      "source": "National Institutes of Health (REACH program)",
+      "purpose": "Four-year, up to $100K-per-team seed commercialization support for biomedical innovators at UMB and UMBC",
+      "date": "2025-07",
+      "url": "https://umbc.edu/stories/umbc-umb-reach-grant-life-sciences-accelerator-program/"
+    },
+    {
+      "title": "UM Ventures, Baltimore (UMVB) Equity Investment Program",
+      "amount_usd": 2000000,
+      "source": "UMB / UM Ventures",
+      "purpose": "Equity investments in ~12 UMB spin-out companies (several AI/ML related); portfolio has raised $95M in co-funding",
+      "date": null,
+      "url": "https://www.umventures.org/umb-ventures"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Axis Research & Technologies (OMNIMED SmartOR)",
+      "purpose": "Joint venture to build the nation's first AI-powered Smart Surgical Performance Center",
+      "date": "2025-10",
+      "url": "https://www.umaryland.edu/news/archived-news/october-2025/umb-launches-nations-first-ai-powered-smart-surgical-performance-center.php"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Cloudforce / Microsoft Azure",
+      "purpose": "Enterprise nebulaONE generative-AI platform deployment",
+      "date": "2025-04",
+      "url": "https://gocloudforce.com/nebulaone-ai-launch/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot Chat and M365 Copilot licensing",
+      "date": "2024-01",
+      "url": "https://elm.umaryland.edu/announcements/2024/Microsoft-Copilot-is-Available-at-UMB.php"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Maryland, College Park + University of Maryland Medical System + Montgomery County",
+      "purpose": "UM Institute for Health Computing (applied AI and health data)",
+      "date": "2022-11",
+      "url": "https://ihc.umd.edu/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Maryland, Baltimore County",
+      "purpose": "UMBC Cybersecurity & AI Core embedded in UMB ICTR Informatics Core; co-delivered M.S. Clinical Informatics",
+      "date": null,
+      "url": "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/umbc-cybersecurity-and-artificial-intelligence---umb-ictr-core/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NIH (REACH)",
+      "purpose": "Baltimore Life Science Discovery Accelerator commercialization grant with UMBC",
+      "date": "2025-07",
+      "url": "https://umbc.edu/stories/umbc-umb-reach-grant-life-sciences-accelerator-program/"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "xFoundry Alliance",
+      "purpose": "Pharmapreneurship partnership offering CognoXent AI platform and Xpand Accelerator to UMB students",
+      "date": null,
+      "url": "https://news.pharmacy.umaryland.edu/university-of-maryland-baltimore-partners-with-xfoundry-alliance-to-expand-student-opportunities-in-innovation/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "nebulaONE chatbot-builder platform",
+      "scope": "Available to students and employees under UMB enterprise license to build approved chatbots and generative-AI workflows for student services, research, and coursework",
+      "url": "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot Chat (student access)",
+      "scope": "All UMB students receive protected Copilot Chat access via UMB SSO for research, writing, and study-aid use",
+      "url": "https://elm.umaryland.edu/announcements/2025/Copilot-Is-Available-for-all-Students-and-Employees.php"
+    },
+    {
+      "type": "other",
+      "name": "Writing Center 'Writing and AI' resources",
+      "scope": "Guidance for students on citing and using generative AI responsibly in academic writing",
+      "url": "https://www.umaryland.edu/writing/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "UMB/UMBC NIH REACH Accelerator — diverse workforce focus",
+      "description": "The $4M NIH REACH grant explicitly prioritizes cultivation of a diverse biomedical/life-sciences workforce across West Baltimore, with up to 44 early-career faculty and students receiving seed funding.",
+      "url": "https://umbc.edu/stories/umbc-umb-reach-grant-life-sciences-accelerator-program/"
+    },
+    {
+      "title": "Inclusivity principle in AI Governance Policy",
+      "description": "UMB's policy X-99.20 codifies inclusivity as a first-tier principle, mandating accessibility considerations and bias mitigation in the adoption of AI tools and systems.",
+      "url": "https://www.umaryland.edu/policies-and-procedures/library/information-technology/policies/x-9920.php"
+    },
+    {
+      "title": "Universal Copilot access for all students and employees",
+      "description": "Rather than gating enterprise AI behind faculty-only or paid tiers, UMB extended Microsoft Copilot Chat to all ~6,800 students and all employees in Feb 2025, reducing intra-campus AI access disparities.",
+      "url": "https://elm.umaryland.edu/announcements/2025/Copilot-Is-Available-for-all-Students-and-Employees.php"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Maryland",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Maryland Executive Order 01.01.2024.02 (Jan 2024), 'Catalyzing the Responsible and Productive Use of Artificial Intelligence in Maryland State Government,' created the Governor's AI Subcabinet and the state's Responsible AI Policy. Public senior higher-education institutions (including UMB) had to establish functionally compatible AI policies and procedures by June 1, 2025 (met by UMB's policy X-99.20 approved May 20, 2025). The University System of Maryland (USM) has not published a separate system-wide AI policy as of the compile date; each campus (UMB, UMBC, UMCP) has issued its own policy aligned with the state framework.",
+    "urls": [
+      "https://governor.maryland.gov/Lists/ExecutiveOrders/Attachments/31/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf",
+      "https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy.aspx",
+      "https://www.umaryland.edu/policies-and-procedures/library/information-technology/policies/x-9920.php"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Maryland, Baltimore (UMB) is the health-sciences and human-services R1 of the University System of Maryland, earning R1 'very high research spending and doctorate production' status in February 2025 after Carnegie's reclassification of predominantly graduate/professional institutions. With ~6,800 students across six professional schools (Dentistry, Law, Medicine, Nursing, Pharmacy, Social Work) and the Graduate School, plus more than $638M in FY24 research awards, UMB's AI posture is unusually concentrated in clinical, translational, and professional-education use cases rather than broad undergraduate deployments. Governance is centralized in the AI Ideation Steering Committee chaired by Provost Roger Ward, which authored the May-2025 AI Governance Policy (X-99.20) and companion Guidelines — a comprehensive six-principle framework that meets Maryland's June-2025 Executive Order deadline for public higher-ed AI policies. CITS, under SVP/CIO Peter Murray, operationalizes the policy through the 'AI at UMB' hub, a three-tier tool classification (approved, approved-with-restrictions, prohibited), and an AI Application Review Process; prohibited tools are named explicitly (Otter.ai). Enterprise AI runs on Microsoft Copilot Chat and M365 Copilot (campus-wide since Feb 2025), Cloudforce nebulaONE on Azure, and Zoom AI Companion. Flagship research assets include the MPower-funded UM Institute for Health Computing (UM-IHC) co-led with UMCP and UMMS ($25M initial + $40M Montgomery County for a future North Bethesda site), the first-in-nation UMSOD Division of AI Research, and the October 2025 joint venture with Axis Research & Technologies to build a 36,000-sq-ft AI-powered Smart Surgical Performance Center. Workforce and academic pathways include the M.S. in Clinical Informatics co-delivered with UMBC, UM-IHC's inaugural AI-in-healthcare CME (Oct 2025), an NIH REACH accelerator with UMBC ($4M), and the School of Pharmacy's xFoundry Alliance partnership. Gaps include no named Chief AI Officer, no dedicated UMB-branded supercomputer (reliance on UMBC/UMCP HPC and Azure), and no public undergraduate AI literacy requirement — expected given UMB's graduate-and-professional profile.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill (Opus 4.7 1M)",
+    "sources": [
+      "https://www.umaryland.edu/policies-and-procedures/library/information-technology/policies/x-9920.php",
+      "https://www.umaryland.edu/cits/ai-at-umb/",
+      "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/",
+      "https://www.umaryland.edu/cits/ai-at-umb/umb-ai-ideation-steering-committee/",
+      "https://www.umaryland.edu/media/umb/procedures/UMB-Artificial-Intelligence-Guidelines.pdf",
+      "https://elm.umaryland.edu/announcements/2025/New-Policy-AI-Governance-Policy.php",
+      "https://elm.umaryland.edu/announcements/2025/UMBs-NEW-AI-Policy-and-Guidelines.php",
+      "https://elm.umaryland.edu/elm-stories/2026/AI-at-UMB-Your-Hub-for-Responsible-Practical-AI.php",
+      "https://elm.umaryland.edu/announcements/2024/Microsoft-Copilot-is-Available-at-UMB.php",
+      "https://elm.umaryland.edu/announcements/2025/Copilot-Is-Available-for-all-Students-and-Employees.php",
+      "https://www.umaryland.edu/fctl/resources/technology/emerging-trends/artificial-intelligence-ai/",
+      "https://www.umaryland.edu/about-umb/university-leadership/administrative-officers/murray.php",
+      "https://www.umaryland.edu/president/presidents-biography/",
+      "https://www.umaryland.edu/news/archived-news/october-2025/umb-launches-nations-first-ai-powered-smart-surgical-performance-center.php",
+      "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-baltimore-and-axis-research--technologies-announce-joint-venture-to-build-nations-first-ai-powered-smart-surgical-performance-center.html",
+      "https://www.medschool.umaryland.edu/news/2025/university-of-maryland-institute-for-health-computing-launches-first-continuing-medical-education-course-in-artificial-intelligence.html",
+      "https://ihc.umd.edu/",
+      "https://www.ihc.umd.edu/research-home",
+      "https://mpower.maryland.edu/initiatives/13449/",
+      "https://www.umms.org/news/news-releases/2022/university-of-maryland-mpower-ai-partnership",
+      "https://www.umaryland.edu/news/archived-news/may-2025/next-step-forward-for-institute-for-health-computing-.php",
+      "https://www.dental.umaryland.edu/ai/",
+      "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/",
+      "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/umbc-cybersecurity-and-artificial-intelligence---umb-ictr-core/",
+      "https://www.umaryland.edu/ictr/investigator-resources/data-and-data-handling/high-performance-computing-/",
+      "https://news.biobuzz.io/2025/07/16/umb-and-umbc-to-launch-new-baltimore-accelerator-with-landmark-nih-grant/",
+      "https://umbc.edu/stories/umbc-umb-reach-grant-life-sciences-accelerator-program/",
+      "https://news.pharmacy.umaryland.edu/university-of-maryland-baltimore-partners-with-xfoundry-alliance-to-expand-student-opportunities-in-innovation/",
+      "https://graduate.umaryland.edu/clinicalinformatics/",
+      "https://graduate.umaryland.edu/clinicalinformaticscert/",
+      "https://www.umventures.org/umb-ventures",
+      "https://www.umventures.org/",
+      "https://www.umaryland.edu/iespa/educational-productivity/student-enrollment/",
+      "https://www.umaryland.edu/news/archived-news/february-2025/carnegie-foundation-places-umb-in-top-tier-of-us-academic-research-institutions.php",
+      "https://www.umaryland.edu/president/letters-to-the-umb-community/letters-archives/2024-2025/umb-earns-research-1-institution-classification.php",
+      "https://governor.maryland.gov/Lists/ExecutiveOrders/Attachments/31/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf",
+      "https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy.aspx",
+      "https://www.prnewswire.com/news-releases/cloudforce-launches-nebulaone-on-microsoft-azure-the-leading-ai-gateway-for-higher-education-302430687.html",
+      "https://gocloudforce.com/nebulaone-ai-launch/",
+      "https://www.microsoft.com/en-us/education/blog/2025/04/how-microsoft-and-cloudforce-help-institutions-innovate-with-azure-ai/"
+    ],
+    "search_queries": [
+      "\"University of Maryland, Baltimore\" UMB AI strategy 2025 2026 artificial intelligence",
+      "\"University of Maryland, Baltimore\" UMB generative AI policy acceptable use faculty",
+      "\"University of Maryland, Baltimore\" UMB CIO chief information officer",
+      "\"University of Maryland, Baltimore\" president Bruce Jarrell provost 2025 2026",
+      "\"University of Maryland, Baltimore\" UMB AI research center institute medicine",
+      "\"University of Maryland, Baltimore\" UMB Axis Research smart surgical performance center AI",
+      "\"University of Maryland, Baltimore\" UMB nebulaONE Cloudforce AI deployment",
+      "\"University of Maryland, Baltimore\" UMB school of pharmacy dentistry AI artificial intelligence curriculum",
+      "\"University of Maryland, Baltimore\" UMB HPC high performance computing GPU research infrastructure",
+      "\"University of Maryland, Baltimore\" UMB enrollment students faculty 2024 2025",
+      "Maryland state AI executive order higher education University System policy",
+      "\"University of Maryland, Baltimore\" UMB clinical informatics MS program graduate AI",
+      "\"University of Maryland Institute for Health Computing\" UM-IHC 2025 2026 AI research",
+      "\"University of Maryland, Baltimore\" UMB NIH NSF grant AI machine learning research 2025",
+      "\"University of Maryland, Baltimore\" UMB TerpAI chatbot student faculty assistant",
+      "\"University of Maryland, Baltimore\" UMB carnegie classification R1 research activity 2025",
+      "\"University of Maryland, Baltimore\" UMB AI innovation fund investment dollar",
+      "UMB ICTR informatics core artificial intelligence translational research services",
+      "\"University of Maryland, Baltimore\" UMB AI Ideation Steering Committee members chair",
+      "\"University of Maryland, Baltimore\" UMB Microsoft Copilot rollout enterprise deployment 2024 2025"
+    ],
+    "gaps_acknowledged": [
+      "Full membership roster of the AI Ideation Steering Committee was not published on accessible pages (chair and responsible officer confirmed).",
+      "No publicly disclosed dollar amount for the Axis Research / Smart Surgical Performance Center joint venture.",
+      "No publicly disclosed dollar amount for the Cloudforce nebulaONE enterprise license at UMB.",
+      "Founding dates of UMSOD Division of AI Research, Center for Innovation in Diagnosis, and UM2ii not on public pages consulted.",
+      "User counts for enterprise platforms (Copilot, nebulaONE, Zoom AI Companion) not disclosed.",
+      "No UMB-branded supercomputer or public GPU count; HPC access is via UMBC/UMCP partners and Azure.",
+      "No publicly reported AI-related controversies or litigation found.",
+      "No disclosed syllabus-level mandatory AI language; faculty use of AI is governed by general policy rather than a syllabus template requirement."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "governance_led",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 18,
+        "research_compute_powerhouse": 13,
+        "curriculum_led": 9,
+        "governance_led": 13,
+        "student_success_led": 5,
+        "workforce_regional_development": 12,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": false,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-05",
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 7,
+      "ai_program_count": 3,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": false,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "none"
+      },
+      "disclosed_funding_usd": 71000000,
+      "funding_source_buckets": {
+        "public_federal_state": 5,
+        "other_unclear": 4,
+        "institutional": 8,
+        "industry_vendor": 1
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 7
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 9,
+          "products": [
+            "Copilot Chat",
+            "M365 Copilot",
+            "Microsoft 365 Copilot",
+            "Microsoft Copilot Chat",
+            "nebulaONE"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 3,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude.ai"
+          ]
+        },
+        {
+          "vendor": "Axis Research & Technologies OMNIMED SmartOR",
+          "mentions": 1,
+          "products": [
+            "OMNIMED SmartOR"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini"
+          ]
+        },
+        {
+          "vendor": "Otter.ai Otter.ai",
+          "mentions": 1,
+          "products": [
+            "Otter.ai"
+          ]
+        },
+        {
+          "vendor": "Perplexity AI Perplexity",
+          "mentions": 1,
+          "products": [
+            "Perplexity"
+          ]
+        },
+        {
+          "vendor": "xFoundry Alliance CognoXent",
+          "mentions": 1,
+          "products": [
+            "CognoXent"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "learning",
+          "title": "Nation's first AI-powered Smart Surgical Performance Center (UMSOM + Axis Research & Technologies)",
+          "summary": "Claimed first-of-its-kind AI-enabled surgical training and performance facility in the U.S.; a flagship demonstration of AI embedded in professional-school clinical education and measurable skill assessment.",
+          "source_url": "https://www.umaryland.edu/news/archived-news/october-2025/umb-launches-nations-first-ai-powered-smart-surgical-performance-center.php"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Cloudforce nebulaONE enterprise generative-AI platform at UMB",
+          "summary": "Demonstrates a purpose-built higher-ed AI gateway strategy (rather than direct consumer-tool reliance) for a HIPAA-facing health-sciences campus; nebulaONE also serves the broader USM / 3M+-student footprint that earned Cloudforce its 2025 Microsoft Global Partner of the Year award.",
+          "source_url": "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Microsoft Copilot campus-wide rollout (Copilot Chat + M365 Copilot)",
+          "summary": "A mainstream enterprise-assistant deployment at a HIPAA-heavy professional-school campus; Copilot is now a baseline productivity layer that underwrites UMB's permissive-use stance.",
+          "source_url": "https://elm.umaryland.edu/announcements/2024/Microsoft-Copilot-is-Available-at-UMB.php"
+        },
+        {
+          "claim_type": "career",
+          "title": "UMB/UMBC NIH REACH grant — Baltimore Life Science Discovery Accelerator",
+          "summary": "Federal endorsement of UMB/UMBC as a regional translational-research engine; funnels early-stage biomedical AI into commercialization pathways.",
+          "source_url": "https://news.biobuzz.io/2025/07/16/umb-and-umbc-to-launch-new-baltimore-accelerator-with-landmark-nih-grant/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "UMB ICTR Informatics Core — UMBC Cybersecurity & AI Core services",
+          "summary": "Institutional-scale research enablement service that lowers the barrier to AI adoption for UMB's professional-school investigators who lack embedded ML expertise.",
+          "source_url": "https://www.umaryland.edu/ictr/investigator-resources/ictr-informatics-core-services/umbc-cybersecurity-and-artificial-intelligence---umb-ictr-core/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Clinical Informatics M.S. and Graduate Certificate (UMB Graduate School + UMBC)",
+          "summary": "Formal degree pathway producing the AI-literate clinical-informatics workforce that a learning-health-system like UM-IHC depends on.",
+          "source_url": "https://graduate.umaryland.edu/clinicalinformatics/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "FCTL Online Teaching Community AI faculty development series",
+          "summary": "Sustained, cross-disciplinary faculty development in AI pedagogy rather than one-off training; models ongoing AI literacy for a professional-school faculty.",
+          "source_url": "https://www.umaryland.edu/fctl/resources/technology/emerging-trends/artificial-intelligence-ai/"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "Zoom AI Companion deployment (approved enterprise tool)",
+          "summary": "Rounds out UMB's enterprise AI stack with a meetings-layer assistant governed under the same data-classification discipline as Copilot.",
+          "source_url": "https://www.umaryland.edu/cits/ai-at-umb/ai-tools/"
+        }
+      ],
+      "public_claim_count": 8
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 6,
+      "control_signal_count": 11,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "Full membership roster of the AI Ideation Steering Committee was not published on accessible pages (chair and responsible officer confirmed).",
+        "No publicly disclosed dollar amount for the Axis Research / Smart Surgical Performance Center joint venture.",
+        "No publicly disclosed dollar amount for the Cloudforce nebulaONE enterprise license at UMB.",
+        "Founding dates of UMSOD Division of AI Research, Center for Innovation in Diagnosis, and UM2ii not on public pages consulted.",
+        "User counts for enterprise platforms (Copilot, nebulaONE, Zoom AI Companion) not disclosed.",
+        "No UMB-branded supercomputer or public GPU count; HPC access is via UMBC/UMCP partners and Azure.",
+        "No publicly reported AI-related controversies or litigation found.",
+        "No disclosed syllabus-level mandatory AI language; faculty use of AI is governed by general policy rather than a syllabus template requirement."
+      ]
+    }
+  }
+}

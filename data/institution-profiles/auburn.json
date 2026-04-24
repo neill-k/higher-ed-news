@@ -1,0 +1,202 @@
+{
+  "institution": "Auburn University",
+  "slug": "auburn",
+  "city_state": "Auburn, AL",
+  "carnegie": "R1",
+  "aau_member": false,
+  "enrollment": 35172,
+  "system_leadership": {
+    "president_name": "Christopher B. Roberts",
+    "chief_ai_officer": null,
+    "has_dedicated_ai_role": false
+  },
+  "ai_policy": {
+    "has_published_policy": true,
+    "policy_urls": [
+      "https://biggio.auburn.edu/programs/artificial-intelligence/ai-guidance",
+      "https://auburn.edu/academic/provost/resources/optional-guidelines-ai.php",
+      "https://graduate.auburn.edu/current-students/academic-resources/ai-usage-guidance.php"
+    ],
+    "adopted_date": null,
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "key_provisions": [
+      "Advisory guidance co-issued by OIT, AUM ITS, Office of General Counsel, and Office of Audit, Compliance & Privacy",
+      "Microsoft Copilot designated as the enterprise tool with data protection for AU-sensitive work",
+      "Three optional course-level policy tiers for faculty (Open Use, Moderate Use, Moderate Prohibition)",
+      "Student disclosure and attribution required for AI-generated material",
+      "Applies across Auburn, AUM, Alabama Cooperative Extension, and Alabama Agricultural Experiment Station"
+    ],
+    "summary": "Auburn publishes system-wide advisory guidance on generative AI co-developed by OIT, AUM IT Services, General Counsel, and Audit/Compliance/Privacy, covering academic, research, operational, and administrative use. The Office of the Provost maintains an optional three-tier framework for course-level AI policy. Microsoft Copilot (logged in with AU credentials) is the designated private enterprise-data-protected AI tool."
+  },
+  "governance_structure": {
+    "committee_name": "AI@AU Initiative (with AI@AU Education Committee based at the Biggio Center)",
+    "committee_url": "https://eng.auburn.edu/ai-au/",
+    "committee_members_public": false,
+    "notes": "AI@AU is led administratively by Hari Narayanan (CSSE department chair) and technically by Gerry Dozier (Charles D. McCrary Eminent Professor). Provost Vini Nathan is the senior sponsor. The Biggio Center (Exec. Director Asim Ali) runs AI teaching/learning programs and an AI@AU Education Committee. No standalone dedicated AI leader role identified as of April 2026."
+  },
+  "vendor_deployments": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "pilot",
+      "user_count": 1000,
+      "announced_date": "2024-12",
+      "evidence_urls": [
+        "https://www.microsoft.com/en/customers/story/1792296600814885165-auburn-microsoft-sentinel-higher-education-en-united-states",
+        "https://wire.auburn.edu/content/announcements/2024/12/11165309-announcement.php",
+        "https://wire.auburn.edu/content/announcements/2025/02/19125902-announcement.php"
+      ],
+      "notes": "Auburn granted ~1,000 employee M365 Copilot licenses fully funded through Sept. 30, 2025, on top of an earlier 80-user beta. A Feb. 2025 announcement offered an additional 300 fully funded licenses to employees completing in-person Copilot training. Microsoft published an Auburn customer story in August 2024."
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (web chat, enterprise data protection) for all AU users",
+      "scope": "campus-wide",
+      "user_count": null,
+      "announced_date": "2024-01",
+      "evidence_urls": [
+        "https://biggio.auburn.edu/programs/artificial-intelligence/ai-guidance",
+        "https://www.microsoft.com/en/customers/story/1792296600814885165-auburn-microsoft-sentinel-higher-education-en-united-states"
+      ],
+      "notes": "All students, faculty, and staff can sign into Microsoft Copilot with AU credentials for enterprise-data-protected chat; promoted as the university's sanctioned AI tool. Deployment expanded after Auburn's inaugural AI Day in January 2024."
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "program_type": "degree",
+      "name": "Master of Science in Artificial Intelligence Engineering",
+      "level": "grad",
+      "announced_or_launched": "2024-04",
+      "evidence_url": "https://eng.auburn.edu/news/2024/04/auburn-engineering-to-offer-artificial-intelligence-programs-beginning-this-fall"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence Engineering",
+      "level": "grad",
+      "announced_or_launched": "2024-04",
+      "evidence_url": "https://eng.auburn.edu/program/master-of-science-in-artificial-intelligence-engineering"
+    },
+    {
+      "program_type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence Engineering",
+      "level": "undergrad",
+      "announced_or_launched": "2024-04",
+      "evidence_url": "https://bulletin.auburn.edu/undergraduate/samuelginncollegeofengineering/departmentofcomputerscienceandsoftwareengineering/artificialintelligence_engineering_ucrt/"
+    }
+  ],
+  "notable_deals_investments": [
+    {
+      "title": "AI@AU Initiative seed investment",
+      "amount_usd": 2000000,
+      "counterparty": "Auburn Office of the Provost / Samuel Ginn College of Engineering (internal)",
+      "date": "2022-03",
+      "evidence_url": "https://eng.auburn.edu/news/2022/03/artificial-intelligence-initiative-emboldens-auburns-position-as-leader-in-innovation",
+      "summary": "$2M internal investment from the Provost (with Ginn College of Engineering support) launching AI@AU: a multidisciplinary faculty consortium, a university-wide AI computational resource, a distinguished lecture series, and a platform for external AI funding pursuits."
+    },
+    {
+      "title": "regional AI consortium - Teaching with AI@Auburn adopted league-wide",
+      "amount_usd": null,
+      "counterparty": "Southeastern Conference (sector) / SECU",
+      "date": "2023-08",
+      "evidence_url": "https://www.thesecu.com/news/sec-sponsors-artificial-intelligence-course-for-faculty/",
+      "summary": "sector adopted Auburn's 8-module 'Teaching with AI@Auburn' course for use at all sector institutions; Auburn is the lead institution in the regional AI consortium. Course also extended in 2024 to the Alabama Community College System (~4,000 faculty, 24 two-year institutions)."
+    },
+    {
+      "title": "ACHE Artificial Intelligence Culture Grant (Biggio Center)",
+      "amount_usd": null,
+      "counterparty": "Alabama Commission on Higher Education (ACHE)",
+      "date": "2024-06",
+      "evidence_url": "https://wire.auburn.edu/content/announcements/2024/06/13124655-announcement.php",
+      "summary": "State ACHE grant to the Biggio Center to expand AI teaching/learning culture work."
+    },
+    {
+      "title": "NVIDIA Academic Grant (autonomous robotics / semiconductor manufacturing)",
+      "amount_usd": null,
+      "counterparty": "NVIDIA",
+      "date": "2026-01",
+      "evidence_url": "https://eng.auburn.edu/news/2026/01/ise-professor-receives-grant-for-autonomous-robotics-research",
+      "summary": "NVIDIA Academic Grant to ISE faculty Christian Zamiela providing RTX PRO 6000 Blackwell GPUs; described as one of the first NVIDIA-funded research projects at Auburn."
+    }
+  ],
+  "leadership_statements": [
+    {
+      "speaker": "Hari Narayanan",
+      "role": "Chair, Department of Computer Science and Software Engineering; AI@AU administrative lead",
+      "date": "2022-03",
+      "context": "Launch of AI@AU",
+      "quote_or_summary": "Stated the initiative 'puts Auburn in a leadership position in the field of artificial intelligence,' positioning Auburn to attract AI-focused industry to Alabama.",
+      "evidence_url": "https://eng.auburn.edu/news/2022/03/artificial-intelligence-initiative-emboldens-auburns-position-as-leader-in-innovation"
+    },
+    {
+      "speaker": "Julie Huff",
+      "role": "Assistant Provost for Academic Operations, Facilities, and Initiatives",
+      "date": "2024-08",
+      "context": "Microsoft customer story on Auburn's Copilot deployment",
+      "quote_or_summary": "'We're helping our students understand that these tools both support their academic instruction and complement their professional marketability.'",
+      "evidence_url": "https://www.microsoft.com/en/customers/story/1792296600814885165-auburn-microsoft-sentinel-higher-education-en-united-states"
+    },
+    {
+      "speaker": "Asim Ali",
+      "role": "Executive Director, Biggio Center for the Enhancement of Teaching and Learning",
+      "date": "2023-08",
+      "context": "Announcement of sector-wide adoption of Teaching with AI@Auburn",
+      "quote_or_summary": "Described the course as an inquiry-based, pedagogy-first program built from faculty and student conversations; now offered to faculty at all 14 sector institutions.",
+      "evidence_url": "https://ocm.auburn.edu/newsroom/news_articles/2023/08/071326-auburn-leading-sec-ai-teaching-consortium.php"
+    }
+  ],
+  "state_ai_policy_context": {
+    "state": "Alabama",
+    "has_state_ai_executive_order": true,
+    "has_higher_ed_system_ai_policy": false,
+    "summary": "Gov. Kay Ivey signed Executive Order 738 on Feb. 8, 2024, creating the Alabama Generative AI Task Force (chaired by OIT Secretary Daniel Urquhart) with two higher-education representatives among its members. The task force delivered its final report in March 2025 covering governance, data management, responsible use, and workforce/education. Alabama has no unified higher-ed-system AI policy; Auburn issues its own system-wide advisory guidance.",
+    "evidence_urls": [
+      "https://governor.alabama.gov/newsroom/2024/02/governor-ivey-issues-executive-order-creating-task-force-to-promote-responsible-use-of-generative-artificial-intelligence-in-state-government/",
+      "https://aitaskforce.alabama.gov/about/executive-order-no-738/",
+      "https://governor.alabama.gov/newsroom/2025/03/governor-ivey-releases-genai-task-force-final-report/"
+    ]
+  },
+  "litigation_or_controversy": null,
+  "narrative_summary": "Auburn is the most AI-forward flagship in the sector's western footprint and the closest thing the conference has to an AI coalition hub. Since a 2022 $2M Provost/Ginn Engineering seed investment, AI@AU has built a multidisciplinary faculty network, campus compute, and a distinguished lecture program, while the Biggio Center's 'Teaching with AI@Auburn' course was adopted sector-wide in 2023 and extended to the Alabama Community College System in 2024. Enterprise posture is Microsoft-first: all AU users get Copilot with enterprise data protection via single sign-on, plus an employee M365 Copilot rollout that grew from an 80-user beta to ~1,000 licenses (Dec 2024) and another 300 funded seats (Feb 2025), fully paid through Sept. 30, 2025. Governance is distributed rather than centralized - there is no dedicated AI leader; instead, OIT, General Counsel, Audit/Compliance/Privacy and AUM IT co-issue advisory guidance, the Provost offers a three-tier optional course policy, and AI@AU leaders Hari Narayanan and Gerry Dozier run academic strategy. New in 2024: MS-AI Engineering degree plus grad/undergrad certificates. State context is a moderate-touch Ivey GenAI Task Force (EO 738, final report March 2025) with limited direct reach into universities. For the institution, Auburn is the institution profile to benchmark on AI teaching infrastructure and Microsoft enterprise deployment.",
+  "confidence_notes": "HIGH confidence on AI@AU funding, regional AI consortium leadership, Copilot deployment numbers/dates, state EO 738 context, academic programs, and system leadership names. MEDIUM confidence on total Copilot user count (licenses for employees are documented; true 'campus-wide Copilot chat' user count is not disclosed). UNKNOWN: exact AI policy adoption date (advisory guidance is undated on the published page), full AI@AU Education Committee membership (committee page did not render in fetch), specific ChatGPT Edu / Claude for Education / Google Gemini enterprise contracts (none found - Auburn appears Microsoft-exclusive at the enterprise tier). No litigation or public controversy surfaced regarding Auburn's AI posture.",
+  "sources": [
+    "https://eng.auburn.edu/news/2022/03/artificial-intelligence-initiative-emboldens-auburns-position-as-leader-in-innovation",
+    "https://www.eng.auburn.edu/news/2022/03/artificial-intelligence-initiative-emboldens-auburns-position-as-leader-in-innovation.html",
+    "https://eng.auburn.edu/ai-au/",
+    "https://ocm.auburn.edu/newsroom/news_articles/2023/08/071326-auburn-leading-sec-ai-teaching-consortium.php",
+    "https://www.thesecu.com/news/sec-sponsors-artificial-intelligence-course-for-faculty/",
+    "https://yellowhammernews.com/auburn-takes-lead-in-sec-ai-consortium/",
+    "https://biggio.auburn.edu/programs/artificial-intelligence",
+    "https://biggio.auburn.edu/programs/artificial-intelligence/ai-guidance",
+    "https://biggio.auburn.edu/programs/artificial-intelligence/aiau-committee",
+    "https://biggio.auburn.edu/programs/artificial-intelligence/ai-syllabus",
+    "https://auburn.edu/academic/provost/resources/optional-guidelines-ai.php",
+    "https://graduate.auburn.edu/current-students/academic-resources/ai-usage-guidance.php",
+    "https://wire.auburn.edu/content/provost/2024/01/251522-aiday.php",
+    "https://wire.auburn.edu/content/provost/2024/02/161310-ACCS-AI-Course.php",
+    "https://wire.auburn.edu/content/provost/2024/08/011121-Microsoft-Case-Study-AI.php",
+    "https://wire.auburn.edu/content/announcements/2024/06/13124655-announcement.php",
+    "https://wire.auburn.edu/content/announcements/2024/12/11165309-announcement.php",
+    "https://wire.auburn.edu/content/announcements/2025/02/19125902-announcement.php",
+    "https://www.microsoft.com/en/customers/story/1792296600814885165-auburn-microsoft-sentinel-higher-education-en-united-states",
+    "https://eng.auburn.edu/news/2024/04/auburn-engineering-to-offer-artificial-intelligence-programs-beginning-this-fall",
+    "https://eng.auburn.edu/program/master-of-science-in-artificial-intelligence-engineering",
+    "https://bulletin.auburn.edu/undergraduate/samuelginncollegeofengineering/departmentofcomputerscienceandsoftwareengineering/artificialintelligence_engineering_ucrt/",
+    "https://bulletin.auburn.edu/thegraduateschool/graduatedegreesoffered/aiengineering_ms/",
+    "https://eng.auburn.edu/news/2026/01/ise-professor-receives-grant-for-autonomous-robotics-research",
+    "https://cws.auburn.edu/cio",
+    "https://www.auburn.edu/administration/president/christopher-roberts/",
+    "https://auburn.edu/academic/provost/leadership-team/",
+    "https://governor.alabama.gov/newsroom/2024/02/governor-ivey-issues-executive-order-creating-task-force-to-promote-responsible-use-of-generative-artificial-intelligence-in-state-government/",
+    "https://aitaskforce.alabama.gov/about/executive-order-no-738/",
+    "https://governor.alabama.gov/newsroom/2025/03/governor-ivey-releases-genai-task-force-final-report/",
+    "https://aldailynews.com/auburn-gets-coveted-r1-carnegie-classification-for-research/",
+    "https://bulletin.auburn.edu/generalinformation/enrollmentstatistics/"
+  ],
+  "researched_on": "2026-04-16"
+}

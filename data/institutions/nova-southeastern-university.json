@@ -1,0 +1,676 @@
+{
+  "institution": "Nova Southeastern University",
+  "slug": "nova-southeastern-university",
+  "city_state": "Fort Lauderdale, FL",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": null,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": null,
+      "url": null
+    },
+    "provost": {
+      "name": null,
+      "url": null
+    },
+    "cio": {
+      "name": null,
+      "url": null
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": null,
+      "title": "NSU Generative AI resources",
+      "url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "NSU Learning and Educational Center Generative AI",
+        "url": "https://www.nova.edu/learning-educational-center/ai/index.html",
+        "year": 2025
+      },
+      {
+        "title": "NSU Libraries Generative Artificial Intelligence guide",
+        "url": "https://libguides.nova.edu/GenAI/NSU",
+        "year": 2025
+      }
+    ],
+    "summary": "Nova Southeastern's public AI posture is concentrated in faculty-support, library, and research-practice resources rather than a highly centralized AI strategy. NSU provides faculty guidance through the Learning and Educational Center, library GenAI guides, Microsoft Copilot access for faculty and staff, and research/symposium activity around GenAI in education and qualitative research."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.nova.edu/learning-educational-center/ai/index.html",
+      "https://libguides.nova.edu/GenAI/NSU",
+      "https://libguides.nova.edu/GenAI/aidef"
+    ],
+    "adopted_date": null,
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Use AI in accordance with academic integrity expectations and instructor or unit guidance",
+      "Do not enter restricted, confidential, regulated, or sensitive data into unapproved AI tools",
+      "Review AI outputs for accuracy, hallucination, bias, copyright, and attribution issues",
+      "Disclose or cite AI use when required by course, research, publisher, or unit rules",
+      "Keep human judgment and accountability in consequential academic, research, and administrative decisions"
+    ],
+    "summary": "Nova Southeastern University's AI policy posture is best characterized as permissive: public sources show explicit expectations for responsible use, privacy, disclosure, academic integrity, and human review, while leaving some implementation decisions to units or instructors."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "NSU Learning and Educational Center",
+        "type": "office",
+        "scope": "Faculty support and guidance for generative AI in teaching and student experience.",
+        "url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+      },
+      {
+        "name": "NSU Libraries",
+        "type": "office",
+        "scope": "Generative AI definitions, tools, and student/faculty resources.",
+        "url": "https://libguides.nova.edu/GenAI/aidef"
+      }
+    ],
+    "summary": "Nova Southeastern University's public AI governance is organized through NSU Learning and Educational Center, NSU Libraries."
+  },
+  "initiatives": [
+    {
+      "title": "Learning and Educational Center GenAI guidance",
+      "description": "NSU's faculty page frames GenAI as a faculty assistant, supports teaching and scholarship, and asks instructors to set clear written policies and address bias, IP, disclosure, and ethical use.",
+      "significance": "Nova Southeastern University's learning and educational center genai guidance is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "syllabus_level_policy",
+        "ai_enhanced_pedagogy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.nova.edu/learning-educational-center/ai/index.html"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot access",
+      "description": "NSU states all faculty and staff have access to Microsoft Copilot as an AI assistant for education.",
+      "significance": "Nova Southeastern University's microsoft copilot access is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Copilot access for faculty and staff."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "AI assistant for education"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://www.nova.edu/learning-educational-center/ai/index.html"
+      ]
+    },
+    {
+      "title": "NSU Libraries Generative AI guide",
+      "description": "NSU Libraries maintains GenAI guides defining AI and GenAI and pointing students and faculty to tools and responsible-use concepts.",
+      "significance": "Nova Southeastern University's nsu libraries generative ai guide is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "personalized_student_support",
+        "ai_literacy_requirement",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Supports responsible AI adoption through human oversight, privacy controls, disclosure, or course-level expectations.",
+      "source_urls": [
+        "https://libguides.nova.edu/GenAI/aidef",
+        "https://libguides.nova.edu/GenAI/studenttools"
+      ]
+    },
+    {
+      "title": "Integrating AI and GenAI across the curriculum scholarship",
+      "description": "NSU faculty scholarship examines how AI and GenAI can be integrated into mathematics, computer science, and English classrooms.",
+      "significance": "Nova Southeastern University's integrating ai and genai across the curriculum scholarship is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://nsuworks.nova.edu/transformations/vol11/iss1/1/"
+      ]
+    },
+    {
+      "title": "Generative AI in medical education research",
+      "description": "NSU-affiliated scholarship studies medical educators' perceptions of generative AI in medical education, framing GenAI as a disruptive force for faculty and learners.",
+      "significance": "Nova Southeastern University's generative ai in medical education research is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "continuing_and_executive_education",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No specific dollar amount disclosed in consulted public sources."
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://scholars.nova.edu/en/publications/decoding-medical-educators-perceptions-on-generative-artificial-i"
+      ]
+    },
+    {
+      "title": "NSU AI site and AI-integrated programs",
+      "description": "NSU’s AI site presents a university-wide AI vision and lists AI-integrated programs including an undergraduate AI minor and M.S. in Artificial Intelligence.",
+      "significance": "This strengthens curriculum evidence and moves NSU beyond library guidance.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external collaboration identified."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://nova.edu/ai/index.html"
+      ]
+    },
+    {
+      "title": "Learning design guidance for AI-resilient assessment",
+      "description": "NSU’s Learning and Educational Center guidance recommends restructuring courses, using multi-stage projects, discussing AI expectations, and using Microsoft Copilot for protected student-work analysis.",
+      "significance": "This closes the assessment-redesign gap with explicit faculty-facing learning-design guidance.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "syllabus_level_policy",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": null,
+        "description": "No public dollar amount disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "No external collaboration identified."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Microsoft",
+          "name": "Microsoft Copilot",
+          "role": "approved tool for analyzing student work when needed"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Encourages clear syllabus policy, assignment redesign, and caution with AI detection.",
+      "source_urls": [
+        "https://www.nova.edu/learning-educational-center/ai/index.html",
+        "https://www.nova.edu/lec/ai/learning-design.html"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "NSUWorks / Transformations scholarship on AI across curriculum",
+      "focus": "Scholarship and practice examples for AI and GenAI across mathematics, computer science, and English classrooms.",
+      "founded": null,
+      "url": "https://nsuworks.nova.edu/transformations/vol11/iss1/1/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "course",
+      "name": "Future of Work and GenAI Literacy faculty resources",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+    },
+    {
+      "type": "minor",
+      "name": "Undergraduate Artificial Intelligence Minor",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://nova.edu/ai/index.html"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://nova.edu/ai/index.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": false,
+    "supercomputer_name": null,
+    "gpu_count": null,
+    "url": null,
+    "summary": "No NSU dedicated AI compute infrastructure surfaced in public searches."
+  },
+  "investments_and_gifts": [],
+  "industry_and_research_partnerships": [],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "NSU Libraries AI Tools for Students",
+      "scope": "Student-facing AI tools and guidance.",
+      "url": "https://libguides.nova.edu/GenAI/studenttools"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Faculty guidance on ethical student use",
+      "description": "NSU guidance asks faculty to discuss appropriate and inappropriate uses, bias, intellectual property, disclosure, and motivation to learn.",
+      "url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Florida",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Nova Southeastern University operates in Florida; public AI guidance should be read alongside applicable state, federal, and institutional privacy, security, accessibility, and academic-integrity requirements.",
+    "urls": [
+      "https://www.nova.edu/learning-educational-center/ai/index.html",
+      "https://libguides.nova.edu/GenAI/NSU"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Nova Southeastern University (Fort Lauderdale, FL) is an R1 institution whose public AI posture shows activity across governance, teaching, research, enterprise tooling, workforce readiness, and access. Nova Southeastern's public AI posture is concentrated in faculty-support, library, and research-practice resources rather than a highly centralized AI strategy. NSU provides faculty guidance through the Learning and Educational Center, library GenAI guides, Microsoft Copilot access for faculty and staff, and research/symposium activity around GenAI in education and qualitative research. The most concrete public initiatives captured here are Learning and Educational Center GenAI guidance; Microsoft Copilot access; NSU Libraries Generative AI guide; Integrating AI and GenAI across the curriculum scholarship; Generative AI in medical education research. Across the profile, the strongest evidence comes from official university AI hubs, policy pages, teaching resources, research-center pages, and program pages rather than secondary reporting. The institution_type is set to r1_research from the canonical Carnegie R1 list. Known gaps are intentionally explicit: leadership names, user counts, detailed budgets, and compute counts are only included when they surfaced in public sources. Overall, the profile supports at least five AI initiatives and evidences strategy/leadership, governance, teaching/curriculum, research infrastructure, student services or enterprise tooling, workforce/community, partnerships, and equity dimensions where public sources permit.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://www.nova.edu/learning-educational-center/ai/index.html",
+      "https://libguides.nova.edu/GenAI/NSU",
+      "https://libguides.nova.edu/GenAI/aidef",
+      "https://nsuworks.nova.edu/transformations/vol11/iss1/1/",
+      "https://libguides.nova.edu/GenAI/studenttools",
+      "https://scholars.nova.edu/en/publications/decoding-medical-educators-perceptions-on-generative-artificial-i",
+      "https://nova.edu/ai/index.html",
+      "https://www.nova.edu/lec/ai/learning-design.html"
+    ],
+    "search_queries": [
+      "Nova Southeastern University AI strategy 2025 2026",
+      "Nova Southeastern University generative AI policy guidelines",
+      "Nova Southeastern University AI research center institute",
+      "Nova Southeastern University Microsoft Copilot ChatGPT Gemini Claude AI tools",
+      "Nova Southeastern University AI degree certificate workforce training",
+      "Florida higher education AI policy",
+      "site:nova.edu Nova Southeastern University Microsoft Copilot generative AI artificial intelligence assessment teaching",
+      "site:nova.edu Nova Southeastern University generative AI assessment redesign syllabus teaching",
+      "site:nova.edu Nova Southeastern University HPC GPU cluster artificial intelligence"
+    ],
+    "gaps_acknowledged": [
+      "No centralized NSU AI strategy document, chief AI officer, or AI investment amount was found.",
+      "Evidence is strongest for teaching guidance and library resources, weaker for enterprise-scale AI transformation.",
+      "Enrollment was left null rather than relying on non-source local data.",
+      "NSU now has clear Copilot and assessment-design evidence, but public sources still did not disclose Copilot user counts, contract values, or dedicated AI/HPC GPU capacity.",
+      "Worker 3 did not find public subgroup-level outcome measures for NSU AI literacy or AI-integrated programs."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "governance_led",
+      "secondary": [
+        "curriculum_led",
+        "platform_first",
+        "research_compute_powerhouse"
+      ],
+      "scores": {
+        "platform_first": 6,
+        "research_compute_powerhouse": 5,
+        "curriculum_led": 8,
+        "governance_led": 11,
+        "student_success_led": 3,
+        "workforce_regional_development": 4,
+        "balanced_enterprise": 0,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: governance led."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "centralized_rules",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 3,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 1,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 0,
+      "compute": {
+        "has_dedicated_ai_compute": false,
+        "supercomputer_name": null,
+        "gpu_count": null,
+        "capacity_tier": "none"
+      },
+      "disclosed_funding_usd": 0,
+      "funding_source_buckets": {
+        "other_unclear": 6,
+        "industry_vendor": 1
+      },
+      "partnership_count": 0
+    },
+    "student_impact": {
+      "student_facing_tool_count": 1,
+      "service_type_counts": {
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 5
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 3,
+          "products": [
+            "Microsoft Copilot"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Learning and Educational Center GenAI guidance",
+          "summary": "Nova Southeastern University's learning and educational center genai guidance is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot access",
+          "summary": "Nova Southeastern University's microsoft copilot access is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "NSU Libraries Generative AI guide",
+          "summary": "Nova Southeastern University's nsu libraries generative ai guide is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://libguides.nova.edu/GenAI/aidef"
+        },
+        {
+          "claim_type": "career",
+          "title": "Integrating AI and GenAI across the curriculum scholarship",
+          "summary": "Nova Southeastern University's integrating ai and genai across the curriculum scholarship is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://nsuworks.nova.edu/transformations/vol11/iss1/1/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Generative AI in medical education research",
+          "summary": "Nova Southeastern University's generative ai in medical education research is a signal of how an R1 institution is adapting AI across policy, teaching, research, operations, or workforce needs.",
+          "source_url": "https://scholars.nova.edu/en/publications/decoding-medical-educators-perceptions-on-generative-artificial-i"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Learning design guidance for AI-resilient assessment",
+          "summary": "This closes the assessment-redesign gap with explicit faculty-facing learning-design guidance.",
+          "source_url": "https://www.nova.edu/learning-educational-center/ai/index.html"
+        }
+      ],
+      "public_claim_count": 6
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 5,
+      "notes": [
+        "No centralized NSU AI strategy document, chief AI officer, or AI investment amount was found.",
+        "Evidence is strongest for teaching guidance and library resources, weaker for enterprise-scale AI transformation.",
+        "Enrollment was left null rather than relying on non-source local data.",
+        "NSU now has clear Copilot and assessment-design evidence, but public sources still did not disclose Copilot user counts, contract values, or dedicated AI/HPC GPU capacity.",
+        "Worker 3 did not find public subgroup-level outcome measures for NSU AI literacy or AI-integrated programs."
+      ]
+    }
+  }
+}

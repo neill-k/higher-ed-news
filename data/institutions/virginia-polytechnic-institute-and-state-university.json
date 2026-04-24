@@ -1,0 +1,1479 @@
+{
+  "institution": "Virginia Polytechnic Institute and State University",
+  "slug": "virginia-polytechnic-institute-and-state-university",
+  "city_state": "Blacksburg, VA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 39000,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Timothy D. Sands",
+      "url": "https://www.president.vt.edu/"
+    },
+    "provost": {
+      "name": "Cyril Clarke",
+      "url": "https://www.provost.vt.edu/"
+    },
+    "cio": {
+      "name": "Sharon P. Pitt",
+      "url": "https://www.vt.edu/about/university-leadership/administration/vp-it.html"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Dale Pike; David Raymond",
+      "title": "Co-chairs, Virginia Tech AI Working Group (Associate Vice Provost for Technology-Enhanced Learning; Associate Vice President for Security and Identity, Division of IT)",
+      "url": "https://news.vt.edu/articles/2025/10/provost-evpcoo-ai-report.html"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Responsible and Ethical AI Framework for Virginia Tech (v1.0)",
+        "url": "https://ai.vt.edu/content/dam/ai_vt_edu/Responsible-and-Ethical-AI-Framework-for-Virginia-Tech-(v1.0-Sep-2025).pdf",
+        "year": 2025
+      },
+      {
+        "title": "Virginia Tech AI Principles",
+        "url": "https://ai.vt.edu/principles.html",
+        "year": 2025
+      },
+      {
+        "title": "Strategic AI Investment Proposal (October 2025)",
+        "url": "https://ai.vt.edu/content/dam/ai_vt_edu/files/AI-Enablement-Proposal.pdf",
+        "year": 2025
+      }
+    ],
+    "summary": "Virginia Tech publicly released its Responsible and Ethical AI Framework in September 2025, authored by the AI Working Group co-chaired by Dale Pike and David Raymond. The framework codifies seven guiding principles (mission alignment, innovation for good, human-centered benefit, responsible/ethical use, fairness and transparency, human judgment and accountability, data security and privacy). A follow-on October 2025 Strategic AI Investment Proposal targets a Universal Conversational AI platform contract with production implementation by April 1, 2026, plus AI literacy, upskilling, and governance capacity."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.vt.edu/principles.html",
+      "https://ai.vt.edu/approved-ai-tools.html",
+      "https://tlos.vt.edu/resources/generative-ai.html",
+      "https://www.research.vt.edu/research-support/forms-guidance/sirc/guidance-using-artificial-intelligence-during-research-activities.html"
+    ],
+    "adopted_date": "2025-09",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Only explicitly approved AI tools may be used with moderate- or high-risk university data",
+      "Unapproved AI tools may be used only with low-risk, public data",
+      "Three syllabus-level policy templates (permitted with disclosure, prohibited, assignment-specific)",
+      "Faculty cautioned against using AI detection software; detection reports not accepted as Honor Code evidence",
+      "Users must disclose AI use to affected parties (transparency principle)",
+      "Human must remain in the loop for important decisions",
+      "Research guidance restricts sharing non-public data with generative AI without a vendor agreement"
+    ],
+    "summary": "Virginia Tech's AI policy regime is comprehensive, combining the September 2025 Responsible and Ethical AI Framework, the approved-tools list, TLOS teaching guidance, and research-specific data-risk guidance. The stance is permissive-with-guardrails at the classroom level (faculty set syllabus policy from three templates) but restrictive on data: moderate- or high-risk institutional data can only go into explicitly approved, enterprise-protected tools."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Virginia Tech AI Working Committee",
+        "type": "committee",
+        "scope": "University-wide standing committee within IT governance; delegated responsibility for AI-related issues; reviews high-risk implementations, develops standards, and recommends tools and processes",
+        "url": "https://ai.vt.edu/governance.html"
+      },
+      {
+        "name": "AI for Teaching & Learning Subgroup",
+        "type": "committee",
+        "scope": "Faculty guidance, syllabus templates, and student AI literacy curriculum",
+        "url": "https://ai.vt.edu/governance.html"
+      },
+      {
+        "name": "AI for Research Subgroup",
+        "type": "committee",
+        "scope": "Research protocols, intellectual property guidelines, and ethical review for AI in research",
+        "url": "https://ai.vt.edu/governance.html"
+      },
+      {
+        "name": "AI for Operations Subgroup",
+        "type": "committee",
+        "scope": "Administrative AI implementations and vendor evaluation",
+        "url": "https://ai.vt.edu/governance.html"
+      },
+      {
+        "name": "Virginia Tech AI Working Group (original drafting body)",
+        "type": "task_force",
+        "scope": "Authored the 2025 Responsible and Ethical AI Framework; co-chaired by Dale Pike (TLOS) and David Raymond (DoIT Security and Identity); sunset into the standing Working Committee",
+        "url": "https://news.vt.edu/articles/2025/10/provost-evpcoo-ai-report.html"
+      }
+    ],
+    "summary": "Virginia Tech's AI governance is organized around a standing AI Working Committee inside the IT governance framework, reporting to the IT Governance Advisory Committee, with three domain subgroups (Teaching & Learning, Research, Operations). The committee emerged from the 2024-2025 AI Working Group that authored the Responsible and Ethical AI Framework. Operational decisions remain with campus leaders; the committee provides advisory stewardship and recommendations."
+  },
+  "initiatives": [
+    {
+      "title": "Responsible and Ethical AI Framework for Virginia Tech (v1.0)",
+      "description": "The AI Working Group, co-chaired by Dale Pike and David Raymond, published the v1.0 framework in September 2025, codifying seven AI principles and proposing governance structures that became the standing AI Working Committee with Teaching & Learning, Research, and Operations subgroups.",
+      "significance": "One of the more structured public AI frameworks among R1 land-grants, combining principles, governance, and subsequent investment planning in a single coherent package rather than a standalone statement.",
+      "date_announced": "2025-09-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech institutional",
+        "description": "Working-group labor plus governance capacity to stand up the standing committee and subgroups; specific dollar figure not disclosed in the framework itself."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internally drafted across colleges, administrative units, students, researchers, and IT/security staff."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets the institutional reference point for all subsequent AI tool approvals, research guidance, and teaching policy templates.",
+      "source_urls": [
+        "https://ai.vt.edu/content/dam/ai_vt_edu/Responsible-and-Ethical-AI-Framework-for-Virginia-Tech-(v1.0-Sep-2025).pdf",
+        "https://ai.vt.edu/principles.html",
+        "https://ai.vt.edu/governance.html"
+      ]
+    },
+    {
+      "title": "Strategic AI Investment Proposal and Universal Conversational AI contract",
+      "description": "In October 2025 Virginia Tech released a revised Strategic AI Investment Proposal planning a Universal Conversational AI platform contract with production implementation targeted for April 1, 2026, plus funding for AI literacy, upskilling, policy updates, and expanded approved-tool access.",
+      "significance": "Signals that VT is moving beyond pilots to a single enterprise conversational AI layer with formal change-management rather than a scatter of departmental licenses.",
+      "date_announced": "2025-10-22",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "institutional_transformation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech institutional",
+        "description": "Multi-year enablement package; exact dollar amount of the conversational AI contract not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "TBD platform vendor"
+          ],
+          "description": "Contract award pending; vendor selection to be announced ahead of April 2026 production implementation."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Implementation will require policy/procedure updates, new training programs, and expanded access management for a campus-wide conversational AI layer.",
+      "source_urls": [
+        "https://ai.vt.edu/content/dam/ai_vt_edu/files/AI-Enablement-Proposal.pdf",
+        "https://ai.vt.edu/"
+      ]
+    },
+    {
+      "title": "ARC LLM Gateway: university-hosted generative AI for high-risk data",
+      "description": "Advanced Research Computing launched a no-cost LLM Gateway at llm.arc.vt.edu plus Open OnDemand access to LLMs, approved for high-risk data and open to all students, faculty, and staff.",
+      "significance": "Rare among R1s — an institutionally hosted LLM service that can handle high-risk data, reducing dependency on third-party consumer APIs for sensitive research and administrative workloads.",
+      "date_announced": "2025-04-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "computing_infrastructure",
+        "data_infrastructure_and_unification",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech Advanced Research Computing",
+        "description": "Operational cost absorbed by ARC; free to all VT users; built on existing ARC HPC/GPU infrastructure."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "VT-hosted service."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ARC LLM Gateway",
+          "vendor": "Virginia Tech Advanced Research Computing",
+          "role": "university-hosted LLM gateway approved for high-risk data"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Creates a sanctioned path for high-risk data use with generative AI, reducing shadow-IT use of consumer tools.",
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/04/arc-llm-generative-ai-services.html",
+        "https://ai.vt.edu/approved-ai-tools.html",
+        "https://ai.vt.edu/tools.html"
+      ]
+    },
+    {
+      "title": "Multi-vendor enterprise AI stack: Microsoft Copilot, Google Gemini/NotebookLM, ChatGPT Edu pilot",
+      "description": "VT maintains an unusual multi-vendor stack: Microsoft Copilot Chat (free for all users under Enterprise Data Protection), Microsoft 365 Copilot (department-purchased), Google Gemini and NotebookLM (all users via VT Google accounts), Google AI Pro (department-purchased), and a capped ChatGPT Edu pilot for 500 users.",
+      "significance": "Most R1s standardize on one vendor; VT's concurrent Microsoft + Google + OpenAI approach offers broad faculty choice but expands the governance and training burden materially.",
+      "date_announced": "2025-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "lms_embedded_ai",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech institutional plus departmental licensing",
+        "description": "Baseline Copilot Chat and Gemini included in enterprise Microsoft/Google contracts; M365 Copilot and Google AI Pro require department purchase; ChatGPT Edu pilot licensed to 500 seats."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "OpenAI"
+          ],
+          "description": "Enterprise licensing and pilot relationships with three major AI vendors simultaneously."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "free generative AI chat for all VT users under Enterprise Data Protection"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "licensed productivity integration (departmental)"
+        },
+        {
+          "name": "Google Gemini App",
+          "vendor": "Google",
+          "role": "generative AI for all VT users via VT Google account"
+        },
+        {
+          "name": "Google NotebookLM",
+          "vendor": "Google",
+          "role": "research/reading assistant for all VT users"
+        },
+        {
+          "name": "Google AI Pro",
+          "vendor": "Google",
+          "role": "licensed Google AI (departmental)"
+        },
+        {
+          "name": "ChatGPT Edu",
+          "vendor": "OpenAI",
+          "role": "500-seat pilot program, moderate-risk data approved"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Broad choice architecture pushes governance and literacy programs to define where each tool is appropriate rather than limiting via procurement.",
+      "source_urls": [
+        "https://ai.vt.edu/approved-ai-tools.html",
+        "https://ai.vt.edu/tools.html",
+        "https://software.vt.edu/deptsoftware/msproductsconsolidated/m365_copilot.html",
+        "https://4help.vt.edu/sp?id=kb_article&sysparm_article=KB0014762"
+      ]
+    },
+    {
+      "title": "AI essay scoring in undergraduate admissions",
+      "description": "For the 2025-26 cycle, Virginia Tech became one of the first major public universities to publicly deploy AI essay scoring for all undergraduate applicants. Each essay is scored by one human reader and one internally trained AI model; if they disagree by more than two points on a 12-point scale, a second human reviews.",
+      "significance": "One of the highest-profile operational uses of AI in admissions by a U.S. R1 — reported to save 8,000+ human reader hours and compress decision timelines by up to a month. Sets a reference precedent for peer institutions weighing similar deployments.",
+      "date_announced": "2025-07-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_in_admissions_and_enrollment",
+        "ai_powered_admin_tools",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech Enrollment Management",
+        "description": "Internally developed model trained on historical applicant essays and rubric; cost not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Built internally by Virginia Tech admissions and data teams."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Internal essay-scoring model",
+          "vendor": "Virginia Tech Enrollment Management",
+          "role": "second-reader AI scoring alongside human reviewers"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Model is advisory — final admission decisions remain with human professionals — but sets governance, bias, and FERPA precedents that other institutions will scrutinize.",
+      "source_urls": [
+        "https://www.vpm.org/news/2025-12-02/college-admissions-artificial-intelligence-virginia-tech-juan-espinoza",
+        "https://news.vt.edu/articles/2025/07/admissions-changes-2025.html",
+        "https://news.vt.edu/articles/2025/07/admissions-updatesFAQ-2025.html"
+      ]
+    },
+    {
+      "title": "Falcon GPU supercomputer for applied AI research",
+      "description": "Advanced Research Computing brought Falcon online in December 2024, a 52-node GPU cluster with 208 NVIDIA GPUs (128 A30 + 80 L40S with 48 GB per GPU for LLM work), connected via next-generation InfiniBand at 200 Gbps per node.",
+      "significance": "Dedicated GPU capacity tuned for LLMs and scientific AI is increasingly a prerequisite for R1 competitiveness in federal AI grants and industry partnerships.",
+      "date_announced": "2025-01-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech Advanced Research Computing",
+        "description": "Capital investment in 52 GPU nodes (208 GPUs) plus InfiniBand fabric; specific dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "NVIDIA A30 and L40S GPUs; standard vendor relationship."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Falcon GPU cluster",
+          "vendor": "Virginia Tech ARC / NVIDIA / InfiniBand",
+          "role": "shared GPU supercomputer for applied AI and LLM research"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/01/new-gpu-supercomputer-will-help-applied-ai-research-soar.html",
+        "https://arc.vt.edu/services/compute.html"
+      ]
+    },
+    {
+      "title": "Institute for Advanced Computing launch at Alexandria Innovation Campus",
+      "description": "In May 2025 VT announced the Institute for Advanced Computing (IAC), anchored at the 11-story, 300,000 sq. ft. Academic Building One in Alexandria. The institute houses the Sanghani Center for AI and Data Analytics, AI/ML, next-G wireless, quantum, and intelligent-interface research in close proximity to Amazon HQ2 and the federal government.",
+      "significance": "Couples AI capacity to the National Landing innovation cluster and federal market — among the largest single R1 building investments in AI/computing in the last five years and tied directly to Virginia's $1B Tech Talent Investment after Amazon HQ2.",
+      "date_announced": "2025-05-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "quantum_and_ai",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 1000000000,
+        "funding_source": "Commonwealth of Virginia Tech Talent Investment Program",
+        "description": "Part of Virginia's $1B higher-education investment catalyzed by Amazon HQ2; building opened spring 2025; institute formally announced May 2025."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon",
+            "Commonwealth of Virginia",
+            "federal agencies"
+          ],
+          "description": "Located in National Landing adjacent to Amazon HQ2; anchor tenant for VT's federal-facing research presence."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/05/provost-dc-institute-for-advanced-computing.html",
+        "https://www.alxnow.com/2025/05/29/virginia-tech-rebrands-alexandria-campus-unveils-institute-for-advanced-computing/",
+        "https://iac.vt.edu/research-areas/research-ai-ml.html"
+      ]
+    },
+    {
+      "title": "Amazon-Virginia Tech Initiative for Efficient and Robust Machine Learning",
+      "description": "Launched in 2022 and still active, the initiative funds ML research, Amazon Fellows doctoral fellowships (2nd-4th-year engineering PhDs with Amazon internships), and faculty-led projects. Directed by Naren Ramakrishnan, with 2023-24 and subsequent annual awards of fellows and 4-5 faculty projects per year.",
+      "significance": "One of the most durable named industry-academic AI partnerships in U.S. higher education, persisting through the HQ2 construction period and across multiple leadership changes.",
+      "date_announced": "2022-03-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_research_center",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "Amazon",
+        "description": "Multi-year Amazon funding through the College of Engineering and Sanghani Center; annual fellow stipends plus project grants. Specific annual dollar amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amazon"
+          ],
+          "description": "Research projects, fellowships, shared advisory board, community outreach."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://amazon.cs.vt.edu/",
+        "https://news.vt.edu/articles/2022/03/research-amazon-machine-learning-partnership.htmlProud.html",
+        "https://www.amazon.science/academic-engagements/amazon-and-virginia-tech-launch-ai-and-ml-research-initiative",
+        "https://news.vt.edu/articles/2023/09/amazon-virginia-tech-initiative-announces-support-for-two-amazon.html"
+      ]
+    },
+    {
+      "title": "Commonwealth Cyber Initiative (CCI) AI cybersecurity portfolio",
+      "description": "Virginia Tech leads the CCI Southwest Node and shares in CCI's 2025 round of 18 AI-cybersecurity seed grants ($1.61M across nine Virginia public universities). VT is a co-PI on projects on anomaly detection for network traffic, zero-trust explainable AI, and synthetic iris biometrics.",
+      "significance": "Positions VT as the Virginia hub for AI-security research and demonstrates a sustainable cross-institution model that could be replicated by other states.",
+      "date_announced": "2025-04-30",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "cross_border_research_alliance",
+        "ai_for_scientific_discovery",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 1610000,
+        "funding_source": "Commonwealth of Virginia (Commonwealth Cyber Initiative)",
+        "description": "$1.61M across 18 seed grants in 2025; VT is a co-PI on several and leads the Southwest Node."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "William & Mary",
+            "Old Dominion University",
+            "George Mason University",
+            "other Virginia public universities"
+          ],
+          "description": "Multi-institution CCI collaborative projects funded by Commonwealth of Virginia."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html",
+        "https://cyberinitiative.org/innovation/cyber-acceleration-catapult/funded-projects-2025.html",
+        "https://news.vt.edu/articles/2025/08/iac-cci-research-grants.html"
+      ]
+    },
+    {
+      "title": "M.S. in Data Science launched at Innovation Campus (Fall 2025)",
+      "description": "Virginia Tech launched a new Master of Science in Data Science in Fall 2025 as an accelerated 4+1 program, with full-time Blacksburg and part-time Northern Virginia options launching Fall 2026.",
+      "significance": "Expands VT's data/AI workforce pipeline beyond the existing M.A. in Data Analysis and graduate certificates, with an emphasis on applied projects and industry capstones.",
+      "date_announced": "2025-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_workforce_training",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech College of Science and College of Engineering",
+        "description": "New master's degree; tuition-funded; staffing and capstone partnerships ongoing."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Industry capstone sponsors"
+          ],
+          "description": "Second-year capstone pairs students with industry projects."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://data.science.vt.edu/programs/ms-ds.html",
+        "https://data.science.vt.edu/programs/ms-ds/accelerated-program.html",
+        "https://data.science.vt.edu/"
+      ]
+    },
+    {
+      "title": "AI Undergraduate Curriculum Development Grants (2025-26)",
+      "description": "The Office of Undergraduate Curriculum, CETL, and TLOS jointly funded grants (up to $10,000 per proposal, $5,000 per faculty) to develop or substantially revise undergraduate courses, majors, or minors to be AI-centric. Submission deadline December 5, 2025. Recipients announced include Chris Frank and Yulia R. Gel in the Department of Statistics.",
+      "significance": "Rather than a single AI-major launch, VT is funding distributed AI curriculum development across disciplines — a sector-relevant alternative pattern to the standalone AI-degree approach.",
+      "date_announced": "2025-11-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech Office of the Provost / CETL / TLOS",
+        "description": "Competitive faculty grants up to $10,000 per proposal; aggregate budget not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal university program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Incentivizes department-level curriculum change rather than top-down new-degree launches.",
+      "source_urls": [
+        "https://www.undergraduate.provost.vt.edu/ouc/ai-undergraduate-curriculum-development-grants.html",
+        "https://news.vt.edu/notices/2025/11/ai-undergraduate-curriculum-grants-available.html",
+        "https://www.stat.vt.edu/index/news/chris-frank-and-yulia-r--gel-have-received--the-grants-from-the-.html"
+      ]
+    },
+    {
+      "title": "Faculty AI literacy and professional development via TLOS/CETL",
+      "description": "Virginia Tech offers a structured AI faculty development stack through TLOS and CETL: 'Introduction to Generative AI' (1 credit, self-paced), 'Foundational AI Literacy for Educators' (1 credit, self-paced), plus in-class AI and digital ethics workshops on request and ongoing consultations.",
+      "significance": "Systematic faculty literacy infrastructure, rather than ad-hoc training, positions VT ahead of peers on instructor readiness — a precondition for durable classroom adoption.",
+      "date_announced": "2025-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech TLOS / CETL",
+        "description": "Staff time plus platform costs; courses are free to VT faculty."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal professional development programs."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Supports the syllabus-policy templates by giving faculty the literacy needed to make informed decisions.",
+      "source_urls": [
+        "https://tlos.vt.edu/resources/generative-ai.html",
+        "https://teaching.vt.edu/hub/ai-resources.html",
+        "https://profdev.tlos.vt.edu/"
+      ]
+    },
+    {
+      "title": "AI in Research Guidance (VPR/SIRC)",
+      "description": "The Office of the Vice President for Research and the Scholarly Integrity and Research Compliance (SIRC) office published 'Considerations for the Responsible and Ethical Use of AI' and 'Guidance: Using Artificial Intelligence During Research Activities' — restricting use of non-public research data in consumer AI tools and flagging IRB, IP, and sponsor-agreement implications.",
+      "significance": "Brings AI compliance in line with existing research-integrity regimes; rare level of specificity on data classification vs. AI tool choice.",
+      "date_announced": "2025-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "data_privacy_and_security",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "accreditors",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech Office of Research and Innovation",
+        "description": "Guidance documents and compliance support; no dedicated dollar figure disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal research compliance function."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Anchors AI use in the existing research integrity framework rather than creating a parallel track.",
+      "source_urls": [
+        "https://www.research.vt.edu/research-support/forms-guidance/sirc/considerations-responsible-ethical-use-ai.html",
+        "https://www.research.vt.edu/research-support/forms-guidance/sirc/guidance-using-artificial-intelligence-during-research-activities.html"
+      ]
+    },
+    {
+      "title": "Machine Learning undergraduate major (Computer Engineering)",
+      "description": "Bradley Department of Electrical and Computer Engineering offers a Machine Learning major as a formal undergraduate degree pathway inside Computer Engineering.",
+      "significance": "Provides a clear undergraduate ML pipeline feeding into VT's graduate data science and AI programs, without requiring a standalone 'AI major'.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Virginia Tech College of Engineering",
+        "description": "Established undergraduate program in Bradley ECE."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic program."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://catalog.vt.edu/undergraduate/college-engineering/electrical-computer-engineering/computer-engineering-bs-machine-learning/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Sanghani Center for Artificial Intelligence and Data Analytics",
+      "focus": "Machine learning, visual and text analytics, AI safety and ethics, data science",
+      "founded": "2011",
+      "url": "https://sanghani.cs.vt.edu/"
+    },
+    {
+      "name": "Institute for Advanced Computing (IAC)",
+      "focus": "AI/ML, next-G wireless, quantum information, intelligent interfaces — anchored at Academic Building One in Alexandria",
+      "founded": "2025",
+      "url": "https://iac.vt.edu/"
+    },
+    {
+      "name": "Commonwealth Cyber Initiative (CCI) — Southwest Node",
+      "focus": "AI, cybersecurity, 5G/next-G, quantum algorithms led from Virginia Tech",
+      "founded": null,
+      "url": "https://cyberinitiative-swva.org/"
+    },
+    {
+      "name": "Amazon - Virginia Tech Initiative for Efficient and Robust Machine Learning",
+      "focus": "LLM applications, distributed training, safety assurance, recommender systems",
+      "founded": "2022",
+      "url": "https://amazon.cs.vt.edu/"
+    },
+    {
+      "name": "Jeffrey Modell Center for Informatics and Data Science (VT Carilion)",
+      "focus": "Data-science-focused immunology center at the VT Carilion School of Medicine",
+      "founded": "2026",
+      "url": "https://news.vt.edu/articles/2026/04/medical-school-launches-first-data-science-focused-center-on-imm.html"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Machine Learning Major (Computer Engineering B.S.)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.vt.edu/undergraduate/college-engineering/electrical-computer-engineering/computer-engineering-bs-machine-learning/"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Data Science",
+      "level": "grad",
+      "launched": "2025-08",
+      "url": "https://data.science.vt.edu/programs/ms-ds.html"
+    },
+    {
+      "type": "degree",
+      "name": "M.A. in Data Analysis and Applied Statistics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://analytics.cs.vt.edu/edu-daas.php"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Data Analytics",
+      "level": "grad",
+      "launched": null,
+      "url": "https://analytics.cs.vt.edu/edu-gcda.php"
+    },
+    {
+      "type": "certificate",
+      "name": "AI & Machine Learning Bootcamp (Continuing & Professional Education)",
+      "level": "both",
+      "launched": null,
+      "url": "https://bootcamp.cpe.vt.edu/programs/ai-machine-learning"
+    },
+    {
+      "type": "course",
+      "name": "ECE 4524 — Artificial Intelligence and Engineering Applications",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://ece.vt.edu/undergrad/courses/4524.html"
+    },
+    {
+      "type": "course",
+      "name": "Introduction to Generative AI (TLOS self-paced, 1 credit)",
+      "level": "both",
+      "launched": null,
+      "url": "https://tlos.vt.edu/resources/generative-ai.html"
+    },
+    {
+      "type": "course",
+      "name": "Foundational AI Literacy for Educators (TLOS self-paced, 1 credit)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://tlos.vt.edu/resources/generative-ai.html"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat (free, EDP-protected)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://4help.vt.edu/sp?id=kb_article&sysparm_article=KB0014762"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (licensed)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://software.vt.edu/deptsoftware/msproductsconsolidated/m365_copilot.html"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Gemini App",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google NotebookLM",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google AI Pro (licensed)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Edu (pilot)",
+      "scope": "pilot",
+      "user_count": 500,
+      "deployed": "2025-01",
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "vendor": "Virginia Tech Advanced Research Computing",
+      "product": "ARC LLM Gateway (llm.arc.vt.edu) and Open OnDemand LLMs",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2025-04",
+      "url": "https://news.vt.edu/articles/2025/04/arc-llm-generative-ai-services.html"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "TinkerCliffs (flagship CPU) and Falcon (GPU for AI/LLM); Owl (water-cooled CPU); CUI (A100 restricted)",
+    "gpu_count": 400,
+    "url": "https://arc.vt.edu/services/compute.html",
+    "summary": "Advanced Research Computing (ARC) operates a multi-cluster HPC environment. Falcon (2024) is the applied-AI GPU cluster with 208 GPUs (128 NVIDIA A30 + 80 NVIDIA L40S) on 200 Gbps InfiniBand. TinkerCliffs is the CPU flagship (≈42,000 cores, 93+ TB RAM), with 112 NVIDIA A100 and 56 NVIDIA H200 GPUs reported for expanded AI work. CUI (24 A100) serves ITAR/CUI workloads and Biomed serves NIST 800-171 biomedical workloads. Owl (2024) adds water-cooled CPU capacity. ARC also hosts the no-cost LLM Gateway at llm.arc.vt.edu."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Commonwealth of Virginia Tech Talent Investment (HQ2 follow-on)",
+      "amount_usd": 1000000000,
+      "source": "Commonwealth of Virginia",
+      "purpose": "Doubling of computer science and computer engineering programs and launch of Alexandria Innovation Campus, housing the Institute for Advanced Computing and Sanghani Center",
+      "date": "2018-11",
+      "url": "https://www.vedp.org/case-study/prime-location-amazon-hq2"
+    },
+    {
+      "title": "Commonwealth Cyber Initiative 2025 AI-cybersecurity seed grants (multi-institution round)",
+      "amount_usd": 1610000,
+      "source": "Commonwealth of Virginia (CCI)",
+      "purpose": "18 seed grants across nine Virginia public universities on AI cybersecurity, with VT as a co-PI on several and lead of the Southwest Node",
+      "date": "2025-04",
+      "url": "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html"
+    },
+    {
+      "title": "Sanghani family gift (naming)",
+      "amount_usd": null,
+      "source": "Mehul Sanghani (VT alumnus, founder of Octo)",
+      "purpose": "Naming gift for the Sanghani Center for AI and Data Analytics",
+      "date": null,
+      "url": "https://sanghani.cs.vt.edu/about.html"
+    },
+    {
+      "title": "AI Undergraduate Curriculum Development Grants",
+      "amount_usd": null,
+      "source": "Virginia Tech Office of the Provost / CETL / TLOS",
+      "purpose": "Internal faculty grants of up to $10,000 per proposal to redesign undergraduate courses around AI",
+      "date": "2025-11",
+      "url": "https://www.undergraduate.provost.vt.edu/ouc/ai-undergraduate-curriculum-development-grants.html"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Amazon",
+      "purpose": "Amazon-Virginia Tech Initiative for Efficient and Robust Machine Learning — funded research, Amazon Fellows, and an advisory board",
+      "date": "2022-03",
+      "url": "https://amazon.cs.vt.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot deployment (free Chat + licensed M365 Copilot)",
+      "date": null,
+      "url": "https://4help.vt.edu/sp?id=kb_article&sysparm_article=KB0014762"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "Gemini, NotebookLM, and Google AI Pro deployment across the VT Google tenant",
+      "date": null,
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI",
+      "purpose": "ChatGPT Edu 500-seat pilot",
+      "date": "2025-01",
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Commonwealth Cyber Initiative (William & Mary, ODU, GMU, et al.)",
+      "purpose": "AI cybersecurity research portfolio, Virginia statewide",
+      "date": "2025-04",
+      "url": "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Navy",
+      "purpose": "Faculty-led AI training for Navy researchers and engineers",
+      "date": "2026-04",
+      "url": "https://news.vt.edu/articles/2026/04/Virginia-Tech-faculty-leverage-expertise-AI-to-train-researchers-engineers-for-US-Navy.html"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Admissions essay AI co-scorer",
+      "scope": "Every undergraduate application for the 2025-26 cycle",
+      "url": "https://www.vpm.org/news/2025-12-02/college-admissions-artificial-intelligence-virginia-tech-juan-espinoza"
+    },
+    {
+      "type": "chatbot",
+      "name": "Microsoft Copilot Chat (EDP)",
+      "scope": "All students via VT account",
+      "url": "https://4help.vt.edu/sp?id=kb_article&sysparm_article=KB0014762"
+    },
+    {
+      "type": "chatbot",
+      "name": "Google Gemini App + NotebookLM",
+      "scope": "All students via VT Google account",
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "type": "other",
+      "name": "ARC LLM Gateway (llm.arc.vt.edu)",
+      "scope": "All students for research and coursework, high-risk data approved",
+      "url": "https://ai.vt.edu/tools.html"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "No-cost AI tools for all VT users",
+      "description": "Free Microsoft Copilot Chat, Google Gemini, NotebookLM, and ARC LLM Gateway access for every VT student, faculty, and staff member — explicitly reduces pay-to-access disparities.",
+      "url": "https://ai.vt.edu/approved-ai-tools.html"
+    },
+    {
+      "title": "Faculty AI detection guidance (anti-over-enforcement)",
+      "description": "The Office for Undergraduate Academic Integrity does not accept AI detection reports as Honor Code evidence and advises faculty against using AI detection software — mitigates documented bias of AI detectors against non-native English writers.",
+      "url": "https://tlos.vt.edu/resources/generative-ai.html"
+    },
+    {
+      "title": "AI accessibility architecture (April 2026)",
+      "description": "New project to study accessibility-architecture implications of AI tools for disabled users, announced April 2026.",
+      "url": "https://ai.vt.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Virginia",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Governor Glenn Youngkin issued Executive Order 30 on January 18, 2024, establishing state AI guidelines, a $600K pilot budget, and an AI Task Force. The order's standards explicitly exclude research and development at public higher education institutions, but VITA's June 2024 standards and subsequent guidance shape how public universities interact with state agencies and citizens. In March 2025, the governor vetoed HB 2094 (algorithmic discrimination bill), leaving Virginia without a comprehensive private-sector AI law. VT is not part of a university-system governance structure, so there is no 'system AI policy' layer.",
+    "urls": [
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://statescoop.com/virginia-ai-executive-order-youngkin/",
+      "https://ogletree.com/insights-resources/blog-posts/virginia-governor-vetoes-artificial-intelligence-bill-hb-2094-what-the-veto-means-for-businesses/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-12",
+      "summary": "National press coverage raised bias, fairness, and disclosure questions about VT's deployment of AI essay scoring in undergraduate admissions — one of the first R1 public admissions AI deployments to be widely scrutinized.",
+      "status": "active",
+      "url": "https://www.vpm.org/news/2025-12-02/college-admissions-artificial-intelligence-virginia-tech-juan-espinoza"
+    }
+  ],
+  "narrative_summary": "Virginia Polytechnic Institute and State University (Virginia Tech) sits among the most structured R1 AI postures in the country as of April 2026. In September 2025 the university published a Responsible and Ethical AI Framework authored by an AI Working Group co-chaired by Dale Pike (TLOS) and David Raymond (DoIT Security and Identity); the framework codifies seven AI principles and a standing AI Working Committee with three subgroups (Teaching & Learning, Research, Operations). A follow-on October 2025 Strategic AI Investment Proposal set an April 2026 target for a Universal Conversational AI platform contract with full change-management plans. Enterprise tooling is unusually broad — Microsoft Copilot Chat and Google Gemini/NotebookLM are free for all users under enterprise data protection, M365 Copilot and Google AI Pro are licensed at the department level, a 500-seat ChatGPT Edu pilot is running, and Advanced Research Computing hosts its own ARC LLM Gateway that is approved for high-risk data. Compute capacity is meaningful: ARC's Falcon GPU cluster came online in late 2024 with 208 NVIDIA GPUs on 200 Gbps InfiniBand, complementing TinkerCliffs, Owl, CUI, and Biomed. Research strength clusters around the Sanghani Center (2011) now headquartered in the new Alexandria Institute for Advanced Computing (launched May 2025 on the back of Virginia's $1B Amazon HQ2 Tech Talent Investment), the multi-year Amazon-Virginia Tech ML Initiative directed by Naren Ramakrishnan, and the Commonwealth Cyber Initiative's 2025 AI cybersecurity portfolio ($1.61M across nine Virginia publics). Workforce pipeline includes a new M.S. in Data Science (Fall 2025), an ML undergraduate major, data analytics certificates, a bootcamp, and AI Undergraduate Curriculum Development Grants up to $10K per proposal. Student experience is marked by the high-profile Fall 2025 deployment of AI essay scoring for all undergraduate applicants under VP Juan Espinoza — probably the most-cited AI-in-admissions R1 case and an active public discussion about fairness and disclosure. The state context (Youngkin's 2024 EO 30 and 2025 veto of HB 2094) leaves VT with room to set its own pace; the Virginia higher-education carve-out in EO 30 means state AI rules don't override university research. Gaps: no standalone Chief AI Officer; no public full budget for the Strategic AI Investment Proposal; limited public documentation of student-services chatbot deployments; and the conversational-AI vendor selection remained undisclosed as of the research date.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.vt.edu/",
+      "https://ai.vt.edu/principles.html",
+      "https://ai.vt.edu/governance.html",
+      "https://ai.vt.edu/approved-ai-tools.html",
+      "https://ai.vt.edu/tools.html",
+      "https://ai.vt.edu/content/dam/ai_vt_edu/Responsible-and-Ethical-AI-Framework-for-Virginia-Tech-(v1.0-Sep-2025).pdf",
+      "https://ai.vt.edu/content/dam/ai_vt_edu/files/AI-Enablement-Proposal.pdf",
+      "https://news.vt.edu/articles/2025/10/provost-evpcoo-ai-report.html",
+      "https://news.vt.edu/articles/2025/01/new-gpu-supercomputer-will-help-applied-ai-research-soar.html",
+      "https://news.vt.edu/articles/2025/04/arc-llm-generative-ai-services.html",
+      "https://news.vt.edu/articles/2025/04/cci-ai-cybersecurity.html",
+      "https://news.vt.edu/articles/2025/05/provost-dc-institute-for-advanced-computing.html",
+      "https://news.vt.edu/articles/2025/07/admissions-changes-2025.html",
+      "https://news.vt.edu/articles/2025/07/admissions-updatesFAQ-2025.html",
+      "https://news.vt.edu/articles/2025/08/iac-cci-research-grants.html",
+      "https://news.vt.edu/articles/2025/10/cm-fallcensus.html",
+      "https://news.vt.edu/articles/2025/11/cm-bov-111825.html",
+      "https://news.vt.edu/articles/2025/02/CM-applications-fall-2025.html",
+      "https://news.vt.edu/articles/2026/04/president.html",
+      "https://news.vt.edu/articles/2026/04/medical-school-launches-first-data-science-focused-center-on-imm.html",
+      "https://news.vt.edu/notices/2025/11/ai-undergraduate-curriculum-grants-available.html",
+      "https://www.undergraduate.provost.vt.edu/ouc/ai-undergraduate-curriculum-development-grants.html",
+      "https://www.research.vt.edu/research-support/forms-guidance/sirc/considerations-responsible-ethical-use-ai.html",
+      "https://www.research.vt.edu/research-support/forms-guidance/sirc/guidance-using-artificial-intelligence-during-research-activities.html",
+      "https://tlos.vt.edu/resources/generative-ai.html",
+      "https://teaching.vt.edu/hub/ai-resources.html",
+      "https://amazon.cs.vt.edu/",
+      "https://sanghani.cs.vt.edu/",
+      "https://sanghani.cs.vt.edu/about.html",
+      "https://iac.vt.edu/",
+      "https://iac.vt.edu/research-areas/research-ai-ml.html",
+      "https://arc.vt.edu/",
+      "https://arc.vt.edu/services/compute.html",
+      "https://arc.vt.edu/about/welcome-to-arc.html",
+      "https://data.science.vt.edu/programs/ms-ds.html",
+      "https://data.science.vt.edu/programs/ms-ds/accelerated-program.html",
+      "https://data.science.vt.edu/",
+      "https://analytics.cs.vt.edu/edu-daas.php",
+      "https://analytics.cs.vt.edu/edu-gcda.php",
+      "https://bootcamp.cpe.vt.edu/programs/ai-machine-learning",
+      "https://ece.vt.edu/undergrad/courses/4524.html",
+      "https://catalog.vt.edu/undergraduate/college-engineering/electrical-computer-engineering/computer-engineering-bs-machine-learning/",
+      "https://software.vt.edu/deptsoftware/msproductsconsolidated/m365_copilot.html",
+      "https://4help.vt.edu/sp?id=kb_article&sysparm_article=KB0014762",
+      "https://www.vt.edu/about/facts-about-virginia-tech.html",
+      "https://www.vt.edu/about/university-leadership/administration/vp-it.html",
+      "https://www.president.vt.edu/",
+      "https://www.provost.vt.edu/",
+      "https://www.vpm.org/news/2025-12-02/college-admissions-artificial-intelligence-virginia-tech-juan-espinoza",
+      "https://www.amazon.science/academic-engagements/amazon-and-virginia-tech-launch-ai-and-ml-research-initiative",
+      "https://cyberinitiative.org/innovation/cyber-acceleration-catapult/funded-projects-2025.html",
+      "https://cyberinitiative-swva.org/",
+      "https://www.governor.virginia.gov/media/governorvirginiagov/governor-of-virginia/pdf/eo/EO-30.pdf",
+      "https://statescoop.com/virginia-ai-executive-order-youngkin/",
+      "https://ogletree.com/insights-resources/blog-posts/virginia-governor-vetoes-artificial-intelligence-bill-hb-2094-what-the-veto-means-for-businesses/",
+      "https://www.vedp.org/case-study/prime-location-amazon-hq2",
+      "https://www.alxnow.com/2025/05/29/virginia-tech-rebrands-alexandria-campus-unveils-institute-for-advanced-computing/"
+    ],
+    "search_queries": [
+      "\"Virginia Tech\" AI strategy 2025 2026 site:vt.edu",
+      "\"Virginia Tech\" generative AI policy acceptable use faculty students",
+      "\"Virginia Tech\" chief AI officer provost CIO leadership 2025 2026",
+      "\"Virginia Tech\" AI research center institute artificial intelligence launch",
+      "\"Virginia Tech\" Sanghani Center AI data analytics",
+      "\"Virginia Tech\" Microsoft Copilot ChatGPT enterprise AI deployment",
+      "\"Virginia Tech\" AI degree program major minor certificate artificial intelligence",
+      "\"Virginia Tech\" Calcutta HPC supercomputer GPU ARC advanced computing",
+      "\"Virginia Tech\" NSF AI grant funding million 2025",
+      "\"Virginia Tech\" Innovation Campus Alexandria Amazon HQ2 AI partnership",
+      "\"Virginia Tech\" Commonwealth Cyber Initiative AI 2025 funding",
+      "\"Virginia Tech\" chatbot student services advising AI 2025",
+      "\"Virginia Tech\" Institute for Advanced Computing Alexandria Sanghani 2025",
+      "\"Virginia Tech\" AI admissions essay scoring Juan Espinoza 2025 2026",
+      "\"Virginia Tech\" AI literacy training faculty workshops 2025",
+      "\"Virginia Tech\" Tim Sands president enrollment 2025",
+      "\"Virginia Tech\" Calhoun supercomputer Falcon ARC GPU 2025",
+      "\"Virginia Tech\" data science analytics graduate program master's",
+      "\"Virginia Tech\" AI Undergraduate Curriculum Development Grants 2025",
+      "Virginia state AI executive order Youngkin higher education 2024 2025"
+    ],
+    "gaps_acknowledged": [
+      "Total dollar value of the Strategic AI Investment Proposal and the Universal Conversational AI contract were not publicly disclosed",
+      "Universal Conversational AI vendor selection had not been publicly announced as of April 2026",
+      "No standalone student-services chatbot (beyond the general Copilot/Gemini offering) was surfaced; VT may have internal deployments not yet published",
+      "Specific annual dollar value of the Amazon-Virginia Tech initiative was not disclosed",
+      "Several Virginia Tech News URLs returned 403 errors to automated fetches; content was corroborated from search snippets and related sources",
+      "No standalone Chief AI Officer role; AI leadership is distributed across the AI Working Committee co-chairs plus CIO/Provost",
+      "Framework drafting membership list beyond the two co-chairs was not public"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "balanced_enterprise",
+        "research_compute_powerhouse",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 23,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 15,
+        "governance_led": 14,
+        "student_success_led": 6,
+        "workforce_regional_development": 10,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "permits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 5,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 2,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 0
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 3,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "TinkerCliffs (flagship CPU) and Falcon (GPU for AI/LLM); Owl (water-cooled CPU); CUI (A100 restricted)",
+        "gpu_count": 400,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 1001610000,
+      "funding_source_buckets": {
+        "institutional": 9,
+        "philanthropy_foundation": 1,
+        "industry_vendor": 3,
+        "other_unclear": 5
+      },
+      "partnership_count": 6
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "other": 2,
+        "chatbot": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 6,
+          "products": [
+            "Google AI Pro",
+            "Google AI Pro (licensed)",
+            "Google Gemini App",
+            "Google NotebookLM"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 4,
+          "products": [
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (licensed)",
+            "Microsoft Copilot Chat",
+            "Microsoft Copilot Chat (free, EDP-protected)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT Edu",
+            "ChatGPT Edu (pilot)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Falcon GPU cluster"
+          ]
+        },
+        {
+          "vendor": "Virginia Tech Advanced Research Computing ARC LLM Gateway",
+          "mentions": 1,
+          "products": [
+            "ARC LLM Gateway"
+          ]
+        },
+        {
+          "vendor": "Virginia Tech Advanced Research Computing ARC LLM Gateway (llm.arc.vt.edu) and Open OnDemand LLMs",
+          "mentions": 1,
+          "products": [
+            "ARC LLM Gateway (llm.arc.vt.edu) and Open OnDemand LLMs"
+          ]
+        },
+        {
+          "vendor": "Virginia Tech Enrollment Management Internal essay-scoring model",
+          "mentions": 1,
+          "products": [
+            "Internal essay-scoring model"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Multi-vendor enterprise AI stack: Microsoft Copilot, Google Gemini/NotebookLM, ChatGPT Edu pilot",
+          "summary": "Most R1s standardize on one vendor; VT's concurrent Microsoft + Google + OpenAI approach offers broad faculty choice but expands the governance and training burden materially.",
+          "source_url": "https://ai.vt.edu/approved-ai-tools.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Amazon-Virginia Tech Initiative for Efficient and Robust Machine Learning",
+          "summary": "One of the most durable named industry-academic AI partnerships in U.S. higher education, persisting through the HQ2 construction period and across multiple leadership changes.",
+          "source_url": "https://amazon.cs.vt.edu/"
+        },
+        {
+          "claim_type": "career",
+          "title": "M.S. in Data Science launched at Innovation Campus (Fall 2025)",
+          "summary": "Expands VT's data/AI workforce pipeline beyond the existing M.A. in Data Analysis and graduate certificates, with an emphasis on applied projects and industry capstones.",
+          "source_url": "https://data.science.vt.edu/programs/ms-ds.html"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Faculty AI literacy and professional development via TLOS/CETL",
+          "summary": "Systematic faculty literacy infrastructure, rather than ad-hoc training, positions VT ahead of peers on instructor readiness — a precondition for durable classroom adoption.",
+          "source_url": "https://tlos.vt.edu/resources/generative-ai.html"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 3,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 7,
+      "notes": [
+        "Total dollar value of the Strategic AI Investment Proposal and the Universal Conversational AI contract were not publicly disclosed",
+        "Universal Conversational AI vendor selection had not been publicly announced as of April 2026",
+        "No standalone student-services chatbot (beyond the general Copilot/Gemini offering) was surfaced; VT may have internal deployments not yet published",
+        "Specific annual dollar value of the Amazon-Virginia Tech initiative was not disclosed",
+        "Several Virginia Tech News URLs returned 403 errors to automated fetches; content was corroborated from search snippets and related sources",
+        "No standalone Chief AI Officer role; AI leadership is distributed across the AI Working Committee co-chairs plus CIO/Provost",
+        "Framework drafting membership list beyond the two co-chairs was not public"
+      ]
+    }
+  }
+}

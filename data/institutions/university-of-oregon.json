@@ -1,0 +1,1185 @@
+{
+  "institution": "University of Oregon",
+  "slug": "university-of-oregon",
+  "city_state": "Eugene, OR",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 23163,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "John Karl Scholz",
+      "url": "https://president.uoregon.edu/executive-leadership"
+    },
+    "provost": {
+      "name": "Christopher P. Long",
+      "url": "https://provost.uoregon.edu/"
+    },
+    "cio": {
+      "name": "Abhijit Pandit",
+      "url": "https://is.uoregon.edu/cio"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Andrew Wheeler",
+      "title": "Associate CIO for Customer Experience and AI, Information Services",
+      "url": "https://is.uoregon.edu/cio"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": false,
+    "documents": [
+      {
+        "title": "Artificial Intelligence (AI) Resource Guide — Teaching Support and Innovation",
+        "url": "https://teaching.uoregon.edu/ai",
+        "year": 2024
+      },
+      {
+        "title": "Guiding Principles for AI in Support of UO Marketing and Communications",
+        "url": "https://digital.uoregon.edu/guiding-principles-ai-support-uo-marketing-and-communications",
+        "year": 2024
+      },
+      {
+        "title": "Student and Faculty Guide for using Generative AI (UO Libraries Research Guide)",
+        "url": "https://researchguides.uoregon.edu/using-generative-AI",
+        "year": 2024
+      }
+    ],
+    "summary": "The University of Oregon has not published a single campus-wide AI strategy document. Instead, it has assembled decentralized AI guidance through the Teaching Engagement Program (TEP), Information Services, UO Libraries, and University Communications. The operational strategy centers on providing Microsoft Copilot with enterprise data protection to all faculty, staff, and students, supporting faculty-led teaching communities (GenAI CAIT and AI Teaching Triangles) through TEP, and growing the new School of Computer and Data Sciences as a national-caliber AI and high-performance computing hub under executive director Beth Plale."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://teaching.uoregon.edu/ai",
+      "https://teaching.uoregon.edu/ai-faq",
+      "https://teaching.uoregon.edu/ai-data-privacy",
+      "https://teaching.uoregon.edu/ai-academic-integrity",
+      "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140806",
+      "https://policies.uoregon.edu/vol-3-administration-student-affairs/ch-1-conduct/student-conduct-code",
+      "https://digital.uoregon.edu/guiding-principles-ai-support-uo-marketing-and-communications"
+    ],
+    "adopted_date": "2024-09",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Microsoft Copilot with data protection is the only broadly-supported enterprise GenAI tool; users must sign in with a UO account for encryption and data-segregation guarantees",
+      "Only low-risk / green-classified data may be entered into Copilot; FERPA, HIPAA, and other moderate/high-risk data are prohibited",
+      "Student Conduct Code classifies submission of uncited AI-generated content as plagiarism; students must disclose and cite GenAI usage",
+      "UO does not endorse or deploy AI-detection tools (Turnitin AI, GPTZero) because of false-positive risk",
+      "Instructors are strongly encouraged (not required) to include an explicit GenAI policy in each course syllabus",
+      "Guiding Principles for AI in UO Marketing and Communications constrain how AI-generated text and imagery may be used in official university communications"
+    ],
+    "summary": "UO's posture is cautious rather than comprehensive: the university funnels everyone to a single protected tool (Microsoft Copilot with data protection), explicitly refuses to run AI-detection software, and treats GenAI as a permitted-but-guard-railed resource. Syllabus-level policy is encouraged, not mandated. The Student Conduct Code has been updated to name GenAI explicitly under the plagiarism definition."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Associate CIO for Customer Experience and AI (Information Services)",
+        "type": "office",
+        "scope": "Campus-wide AI tooling, data protection, and enterprise generative AI deployment",
+        "url": "https://is.uoregon.edu/cio"
+      },
+      {
+        "name": "GenAI CAIT (Community of Inquiry for Teaching)",
+        "type": "committee",
+        "scope": "Faculty community organizing teaching and AI practice through the Teaching Engagement Program",
+        "url": "https://teaching.uoregon.edu/gen-ai-focused-educational-research-project-cait"
+      },
+      {
+        "name": "AI Teaching Triangles (TEP, UO Libraries, UO Online)",
+        "type": "committee",
+        "scope": "Cross-unit peer-collaboration program for Core Education faculty on teaching with GenAI",
+        "url": "https://teaching.uoregon.edu/ai"
+      },
+      {
+        "name": "UO Libraries AI Literacy program",
+        "type": "office",
+        "scope": "Student, faculty, and staff AI literacy guidance and resources",
+        "url": "https://researchguides.uoregon.edu/using-generative-AI"
+      }
+    ],
+    "summary": "UO has no single AI council or chief AI officer. Governance is distributed across Information Services (led by CIO Abhijit Pandit with AI responsibility under Associate CIO Andrew Wheeler), the Teaching Engagement Program (TEP), UO Libraries, and University Communications. Faculty learning communities (CAITs) act as the primary teaching-and-learning governance forum."
+  },
+  "initiatives": [
+    {
+      "title": "Microsoft Copilot with data protection rolled out campus-wide",
+      "description": "UO Information Services made Microsoft Copilot with enterprise data protection available to all employees in mid-2024 and extended access to students in late September 2024. When users sign in with a UO account, prompts are encrypted and excluded from external model training. The university announced the student expansion publicly on December 2, 2024.",
+      "significance": "UO chose a single protected consumer-grade chat tool as its default enterprise GenAI, a lower-friction alternative to ChatGPT Edu deployments at peer R1s.",
+      "date_announced": "2024-12-02",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Microsoft enterprise agreement",
+        "description": "Licensed through the existing Microsoft higher-education agreement; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "UO is a member of the Microsoft Higher Education Customer Advisory Board via CIO Abhijit Pandit."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot (with data protection)",
+          "vendor": "Microsoft",
+          "role": "Primary enterprise generative AI chat tool"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Centralizing on one protected tool lets UO limit data-leak surface while sidestepping the higher cost of ChatGPT Edu seats.",
+      "source_urls": [
+        "https://news.uoregon.edu/content/microsoft-copilot-offers-protected-ai-experience-uo",
+        "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140637",
+        "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140806"
+      ]
+    },
+    {
+      "title": "Launch of the School of Computer and Data Sciences with AI-forward leadership",
+      "description": "UO opened the School of Computer and Data Sciences (SCDS) in fall 2023 inside the College of Arts and Sciences, combining Computer Science with a five-year data-science investment. Beth Plale joined as inaugural executive director and has publicly framed SCDS as a nexus of AI, high-performance computing, cybersecurity, and societally aware research; she is a co-PI of the NSF ICICLE AI Institute.",
+      "significance": "The school is UO's primary vehicle for building R1-scale AI research and teaching capacity and signals a long-term institutional bet on AI-literate undergraduate and graduate pipelines.",
+      "date_announced": "2023-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_degree_program",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UO internal reallocation plus NSF AI Institute participation",
+        "description": "Five-year data-science build-out plus new school structure; exact standing-budget figure not public."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "NSF ICICLE AI Institute",
+            "The Ohio State University",
+            "multiple R1 partners"
+          ],
+          "description": "Executive director Beth Plale is a co-PI of the NSF-funded ICICLE AI Institute."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://scds.uoregon.edu/",
+        "https://scds.uoregon.edu/news/new-executive-director-brings-major-goals-and-big-vision-school-computer-and-data-sciences",
+        "https://news.uoregon.edu/content/uo-launch-new-school-computer-and-data-sciences",
+        "https://provost.uoregon.edu/new-school-computer-and-data-sciences"
+      ]
+    },
+    {
+      "title": "ADA Unit machine-learning model for winter-term retention",
+      "description": "UO's Academic Data Analytics Unit, embedded in the Office of the Provost, built a machine-learning retention model with the Division of Undergraduate Education and Student Success beginning fall 2021. The model predicts winter-term retention three-to-five-times better than prior heuristics, feeding prioritized early-advising outreach to at-risk first-year students.",
+      "significance": "One of the few documented cases of an R1 embedding a production ML retention model inside the provost's office and tying it directly to advising operations.",
+      "date_announced": "2021-10",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "predictive_analytics_retention",
+        "personalized_student_support",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal provost and undergraduate-education funds",
+        "description": "Staff time inside the ADA unit; no public dollar figure."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [
+            "UO Division of Undergraduate Education and Student Success"
+          ],
+          "description": "Internal cross-unit collaboration inside UO."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Model outputs are used to prioritize outreach only and are not disclosed to students, mitigating algorithmic-labeling risks; future plans include ingesting chatbot transcripts into a UO data lake.",
+      "source_urls": [
+        "https://provost.uoregon.edu/analytics/student-success",
+        "https://nwccu.org/news/v5i4-predicting-risk-earlier-using-artificial-intelligence-to-support-student-success-and-combat-inequity/"
+      ]
+    },
+    {
+      "title": "Talapas high-performance computing cluster supports AI workloads",
+      "description": "UO operates Talapas, a 250+ teraflop HPC cluster with 14,520+ CPU cores, 129 TB of memory, and 89 GPUs, hosted by the Research Advanced Computing Services (RACS) team. It is 10x the capacity of its predecessor (ACISS) and is used for molecular dynamics, image analysis, machine learning, and deep learning across multiple schools.",
+      "significance": "Talapas gives UO researchers local GPU capacity without cloud costs and is the campus backbone for deep-learning research, imaging, and biomedical AI.",
+      "date_announced": "2018-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UO capital plus faculty condo-model buy-in",
+        "description": "Capital cost not disclosed; operates on a hybrid central-plus-condo funding model."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Confederated Tribes of the Grand Ronde"
+          ],
+          "description": "RACS consulted the Confederated Tribes of the Grand Ronde on the Chinook-origin name Talapas (coyote)."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Talapas HPC cluster",
+          "vendor": "UO RACS / DDN / InfiniBand / NVIDIA",
+          "role": "On-premises GPU and CPU compute for research AI workloads"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://datascience.uoregon.edu/talapas-supercomputer",
+        "https://racs.uoregon.edu/services",
+        "https://news.uoregon.edu/content/new-core-facility-boosts-uos-research-computing-power",
+        "https://www.hpcwire.com/off-the-wire/university-oregon-uses-supercomputer-power-new-research-advanced-computing-facility/"
+      ]
+    },
+    {
+      "title": "NeuroAI Center at the Institute of Neuroscience",
+      "description": "The NeuroAI Center at UO's Institute of Neuroscience pairs computational and experimental neuroscience faculty to apply machine learning to neural-circuit research and, reciprocally, to use brain science to inform next-generation AI architectures. It runs an Interdepartmental Computational Neuroscience Program, a seminar series, and machine-learning tutorial workshops.",
+      "significance": "NeuroAI anchors UO's position in the bidirectional neuroscience-AI field and is a founding node of the International Network on Biologically-Inspired Computing.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Mix of NIH, NSF, and UO institutional support",
+        "description": "Multi-lab consortium; funding is lab-by-lab rather than a single line item."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "International Network on Biologically-Inspired Computing"
+          ],
+          "description": "Founding member of an international biologically-inspired computing network."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ion.uoregon.edu/neuroai",
+        "https://www.miragenews.com/uo-neuroscientists-harness-ai-for-experiments-1640888/"
+      ]
+    },
+    {
+      "title": "Intelligent Futures Lab (IF Lab) at Lundquist College of Business",
+      "description": "The Intelligent Futures Lab, established in 2025 at UO's Lundquist College of Business under director Alex Murray, studies how AI, blockchain, and agentic systems are reshaping work, governance, and value creation. Its four workstreams cover decentralized governance, algorithmic organizing, human-AI interaction, and digital assets.",
+      "significance": "Moves UO into the management-science and organizational AI research space, complementing its computer-science and neuroscience AI work.",
+      "date_announced": "2025-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_in_specific_disciplines",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Lundquist College of Business",
+        "description": "Internal business-school launch; dollar figure not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Industry collaborators (unspecified)"
+          ],
+          "description": "Lab explicitly invites industry collaborators alongside faculty and students."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://uoiflab.org",
+        "https://research.uoregon.edu/centers-and-institutes"
+      ]
+    },
+    {
+      "title": "AI Essentials non-credit certificate (UO Continuing and Professional Education)",
+      "description": "UO CPE partnered with Ziplines Education to deliver an online AI Essentials certificate focused on prompt-engineering and workplace AI workflows. Learners spend 6-8 hours per week on on-demand content plus a 2-hour weekly live session with AI practitioners, earning a UO CPE certificate of completion.",
+      "significance": "Pulls UO into the non-degree continuing-education market for applied AI and mirrors the sector trend of universities offering short-cycle AI credentials to working professionals.",
+      "date_announced": null,
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "continuing_and_executive_education",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UO CPE revenue plus Ziplines partnership",
+        "description": "Tuition-funded; specific revenue not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Ziplines Education"
+          ],
+          "description": "Co-delivered online certificate program with ed-tech provider Ziplines Education."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Essentials Certificate",
+          "vendor": "University of Oregon CPE / Ziplines Education",
+          "role": "Non-credit applied-AI certificate"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://training.cpe.uoregon.edu/ai-prompting"
+      ]
+    },
+    {
+      "title": "TEP GenAI CAIT and AI Teaching Triangles faculty communities",
+      "description": "UO's Teaching Engagement Program runs a Community of Inquiry for Teaching (CAIT) focused on GenAI and, with UO Libraries and UO Online, co-sponsors AI Teaching Triangles — trios of Core Education faculty who meet over a term to strengthen AI-era instruction. Participants receive a $500+ stipend. TEP is also piloting a GenAI Policy and Assignment Design Self-Check tool.",
+      "significance": "Institutionalizes faculty-led, stipend-backed peer learning on GenAI pedagogy rather than top-down mandates, a model increasingly common at research universities.",
+      "date_announced": "2024-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "ai_resilient_assessment",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UO Teaching Engagement Program budget",
+        "description": "Low-five-figure stipend pool plus TEP staff time; specific budget not public."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [
+            "UO Libraries",
+            "UO Online"
+          ],
+          "description": "Cross-unit collaboration among TEP, UO Libraries, and UO Online."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "GenAI Policy and Assignment Design Self-Check Tool (Beta)",
+          "vendor": "UO Teaching Engagement Program",
+          "role": "Faculty self-assessment for syllabus and assignment design"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Stipend-backed, opt-in approach supports — but does not mandate — syllabus-level GenAI policy updates.",
+      "source_urls": [
+        "https://teaching.uoregon.edu/ai",
+        "https://teaching.uoregon.edu/ai-faq",
+        "https://teaching.uoregon.edu/gen-ai-focused-educational-research-project-cait"
+      ]
+    },
+    {
+      "title": "Student Conduct Code updated to name GenAI as plagiarism",
+      "description": "UO's Office of the Dean of Students and the UO Libraries citation guidance updated the Student Conduct Code to explicitly include uncited use of AI content generators (including ChatGPT) under the plagiarism definition, and published Acknowledge & Cite AI Use guidance for students and faculty.",
+      "significance": "Puts UO among the US R1s that have operationalized academic-integrity policy for GenAI at the conduct-code level rather than leaving it to individual instructors.",
+      "date_announced": "2023-09",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal Dean of Students / Libraries staff time",
+        "description": "Policy-drafting effort; no direct dollar outlay."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal to UO."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Explicitly refuses AI-detection tools while still treating uncited AI text as plagiarism — creates stronger disclosure pressure on students and instructors.",
+      "source_urls": [
+        "https://policies.uoregon.edu/vol-3-administration-student-affairs/ch-1-conduct/student-conduct-code",
+        "https://dos.uoregon.edu/student-conduct-updates-faculty",
+        "https://researchguides.uoregon.edu/citing-plagiarism/citing-generative-AI",
+        "https://teaching.uoregon.edu/ai-academic-integrity"
+      ]
+    },
+    {
+      "title": "Guiding Principles for AI in UO Marketing and Communications",
+      "description": "UO Digital Strategy (within University Communications) published Guiding Principles that govern how AI-generated text and imagery may be used in official marketing and communications. The principles emphasize transparency, brand integrity, and avoidance of deceptive synthetic media in any UO-owned channel.",
+      "significance": "Marketing-and-communications AI guidance is a category few peer R1s have formalized in public documentation.",
+      "date_announced": "2024-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_ethics_framework",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal University Communications budget",
+        "description": "Staff-time policy work; no disclosed capital outlay."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal to UO."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Puts public-communication AI use under explicit ethical review rather than treating GenAI imagery as business-as-usual marketing creative.",
+      "source_urls": [
+        "https://digital.uoregon.edu/guiding-principles-ai-support-uo-marketing-and-communications"
+      ]
+    },
+    {
+      "title": "Knight Campus biomedical AI and imaging research",
+      "description": "The Phil and Penny Knight Campus for Accelerating Scientific Impact includes biomedical AI research lines (medical imaging, protein engineering, neural engineering, biomedical machine learning). Biomedical machine-learning scientist Courosh Mehanian recently joined the faculty to lead medical-imaging AI for disease diagnosis, and the Center for Biomedical Data Science — co-founded with OHSU via a $10M Boyle family gift to each institution — applies machine learning to cell-to-population biological data.",
+      "significance": "Extends UO's AI research footprint from computer science and neuroscience into translational biomedicine via the Knight Campus and OHSU partnership.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 10000000,
+        "funding_source": "Tim and Mary Boyle gift (lead gift to each of UO and OHSU for CBDS)",
+        "description": "$10M Boyle family lead gift to each institution to co-found the Center for Biomedical Data Science."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Oregon Health & Science University"
+          ],
+          "description": "UO-OHSU joint Center for Biomedical Data Science."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Wu Tsai Human Performance Alliance"
+          ],
+          "description": "UO is one of six institutions in the Wu Tsai Human Performance Alliance, with AI/data-science components hosted at Knight Campus."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://knightcampus.uoregon.edu/research",
+        "https://knightcampus.uoregon.edu/biomedical-machine-learning-scientist",
+        "https://knightcampus.uoregon.edu/biomedical-data-science"
+      ]
+    },
+    {
+      "title": "Data Science + Domain undergraduate major with ML / AI career track",
+      "description": "UO's School of Computer and Data Sciences offers a Data Science undergraduate major structured as a core quantitative curriculum plus one of 10 domain emphases (accounting analytics, biology, earth science, economics, geography, linguistics, marketing analytics, music technology, physics, sociology). UO explicitly markets graduates as competitive for AI/ML engineering roles.",
+      "significance": "The data-science + domain structure is an increasingly common model at R1s for producing workforce-ready AI graduates without standing up a separate AI degree.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "career_and_workforce_readiness",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "UO College of Arts and Sciences / SCDS",
+        "description": "Part of the five-year data-science investment that led to SCDS."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Intel",
+            "Amazon",
+            "Nike",
+            "Microsoft",
+            "Providence"
+          ],
+          "description": "SCDS lists these companies as industry partners for applied learning experiences."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://scds.uoregon.edu/ds/undergraduate-program",
+        "https://scds.uoregon.edu/ds/undergraduate-program/major-requirements",
+        "https://catalog.uoregon.edu/courses/crs-dsci/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "School of Computer and Data Sciences (SCDS)",
+      "focus": "AI, high-performance computing, cybersecurity, and societally aware data science",
+      "founded": "2023",
+      "url": "https://scds.uoregon.edu/"
+    },
+    {
+      "name": "NeuroAI Center (Institute of Neuroscience)",
+      "focus": "Machine learning applied to neural-circuit research and brain-inspired AI architectures",
+      "founded": null,
+      "url": "https://ion.uoregon.edu/neuroai"
+    },
+    {
+      "name": "Intelligent Futures Lab (IF Lab)",
+      "focus": "Human-centric AI, agentic systems, decentralized governance, and digital assets in organizations",
+      "founded": "2025",
+      "url": "https://uoiflab.org"
+    },
+    {
+      "name": "Center for Biomedical Data Science (CBDS, joint with OHSU)",
+      "focus": "Machine learning applied to biomedical data from cell to population scale",
+      "founded": null,
+      "url": "https://knightcampus.uoregon.edu/biomedical-data-science"
+    },
+    {
+      "name": "Research Advanced Computing Services (RACS) — Talapas",
+      "focus": "Operates UO's primary AI/HPC compute infrastructure",
+      "founded": "2018",
+      "url": "https://racs.uoregon.edu/services"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "Data Science (BS, data-science + domain)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://scds.uoregon.edu/ds/undergraduate-program"
+    },
+    {
+      "type": "degree",
+      "name": "Computer Science (BA/BS) with AI-assisted programming integration",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://scds.uoregon.edu/cs/undergraduate-programs"
+    },
+    {
+      "type": "certificate",
+      "name": "AI Essentials certificate (UO Continuing and Professional Education)",
+      "level": "both",
+      "launched": null,
+      "url": "https://training.cpe.uoregon.edu/ai-prompting"
+    },
+    {
+      "type": "course",
+      "name": "Artificial Intelligence and Business Strategy (Mohr Career Services / Lundquist)",
+      "level": "both",
+      "launched": null,
+      "url": "https://mohr.uoregon.edu/classes/artificial-intelligence-and-business-strategy/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot with data protection",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140637"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Talapas",
+    "gpu_count": 89,
+    "url": "https://datascience.uoregon.edu/talapas-supercomputer",
+    "summary": "Talapas is UO's central research computing cluster with ~14,520 CPU cores, 129 TB of memory, and 89 GPUs, capable of 250+ TFLOPS. It is operated by Research Advanced Computing Services (RACS) on a hybrid central + condo funding model and is used for molecular dynamics, image analysis, machine learning, and deep learning across multiple schools."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Boyle family lead gift to co-found the Center for Biomedical Data Science",
+      "amount_usd": 10000000,
+      "source": "Tim and Mary Boyle",
+      "purpose": "Lead gift of $10M to UO (and $10M to OHSU) to co-found the Center for Biomedical Data Science",
+      "date": null,
+      "url": "https://knightcampus.uoregon.edu/biomedical-data-science"
+    },
+    {
+      "title": "NSF award to Lei Jiao for Edge AI research",
+      "amount_usd": 599920,
+      "source": "National Science Foundation",
+      "purpose": "Three-year NSF grant on edge AI research led by UO computer scientist Lei Jiao",
+      "date": null,
+      "url": "https://news.uoregon.edu/content/uo-computer-scientist-furthers-ai-research-through-nsf-grant"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise agreement underlying Microsoft Copilot with data protection; UO CIO serves on Microsoft Higher Education Customer Advisory Board",
+      "date": "2024-09",
+      "url": "https://news.uoregon.edu/content/microsoft-copilot-offers-protected-ai-experience-uo"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Oregon Health & Science University",
+      "purpose": "Joint Center for Biomedical Data Science applying machine learning to biomedical data",
+      "date": null,
+      "url": "https://knightcampus.uoregon.edu/biomedical-data-science"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "NSF ICICLE AI Institute",
+      "purpose": "SCDS executive director Beth Plale is a co-PI of the NSF-funded ICICLE AI Institute",
+      "date": null,
+      "url": "https://scds.uoregon.edu/news/new-executive-director-brings-major-goals-and-big-vision-school-computer-and-data-sciences"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Intel, Amazon, Nike, Microsoft, Providence",
+      "purpose": "Applied-learning industry partnerships for the School of Computer and Data Sciences",
+      "date": null,
+      "url": "https://scds.uoregon.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Ziplines Education",
+      "purpose": "Co-delivery of the UO CPE AI Essentials online certificate",
+      "date": null,
+      "url": "https://training.cpe.uoregon.edu/ai-prompting"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "predictive_analytics",
+      "name": "ADA retention model (Academic Data Analytics Unit)",
+      "scope": "Internal early-term retention prediction feeding first-year advising outreach",
+      "url": "https://provost.uoregon.edu/analytics/student-success"
+    },
+    {
+      "type": "other",
+      "name": "Microsoft Copilot (with data protection)",
+      "scope": "Student-accessible enterprise GenAI chat tool available via UO sign-in",
+      "url": "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140637"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "UO Libraries AI Literacy guide",
+      "description": "UO Libraries provides public-facing AI literacy resources for students, faculty, and staff, including guidance on citing and critically evaluating GenAI content.",
+      "url": "https://researchguides.uoregon.edu/using-generative-AI"
+    },
+    {
+      "title": "No AI-detection-tool policy",
+      "description": "UO explicitly declines to support AI-detection tools such as Turnitin AI and GPTZero because of false-positive risk that can disproportionately harm multilingual students and students with atypical writing patterns.",
+      "url": "https://teaching.uoregon.edu/ai-academic-integrity"
+    },
+    {
+      "title": "ADA retention model framed as equity intervention",
+      "description": "The UO Academic Data Analytics Unit presents its retention ML model as a tool to combat inequity by surfacing at-risk students earlier, with outreach prioritization rather than labeling.",
+      "url": "https://nwccu.org/news/v5i4-predicting-risk-earlier-using-artificial-intelligence-to-support-student-success-and-combat-inequity/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Oregon",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Oregon has no omnibus AI statute but has layered state-level guidance relevant to higher education: Governor Kotek's Executive Order 23-26 (2023) created the State Government AI Advisory Council, which delivered its final recommended action plan on February 11, 2025; the Oregon Attorney General's December 2024 AI Guidance clarifies that existing laws (Oregon Unlawful Trade Practices Act, Oregon Consumer Privacy Act, Oregon Consumer Information Protection Act, Oregon Equality Act) apply to AI; and in July 2025 Governor Kotek signed an MOU with NVIDIA accompanied by a $10M state investment in AI workforce development touching K-12, community colleges, and public universities. UO is not part of a university system and has no system-level AI policy above it.",
+    "urls": [
+      "https://www.oregon.gov/gov/eo/eo-23-26.pdf",
+      "https://www.oregon.gov/eis/pages/ai-advisory-council.aspx",
+      "https://www.doj.state.or.us/wp-content/uploads/2024/12/AI-Guidance-12-24-24.pdf",
+      "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-announces-artificial-intelligence-action-plan",
+      "https://www.oregon.gov/highered/strategy-research/Documents/Legislative-Budget-Resources/Leg-2025/2025.11.18-SCE-AI-AmbassadorProgram.pdf"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": null,
+      "summary": "Historic FERPA controversy at UO involving mental-health records used in a sexual-assault complaint pre-dates generative AI but remains part of the institution's data-privacy and student-records context informing current AI data-classification rules.",
+      "status": "resolved",
+      "url": "https://www.govinfosecurity.com/blogs/controversy-over-protecting-students-medical-records-p-1926"
+    }
+  ],
+  "narrative_summary": "The University of Oregon is an R1 public research university in Eugene, Oregon with roughly 23,000 students and no university-system parent. Its AI posture is decentralized and pragmatic rather than headline-grabbing: there is no campus-wide AI strategy document and no chief AI officer, and AI leadership is distributed across CIO Abhijit Pandit's Information Services organization (with AI responsibility anchored under Associate CIO Andrew Wheeler), the Teaching Engagement Program, UO Libraries, University Communications, and the Office of the Provost. Enterprise tooling is intentionally lean: UO chose Microsoft Copilot with data protection as the single campus-wide GenAI tool, extending access to all employees in 2024 and to students by late September 2024, with a public announcement on December 2, 2024. Research capacity is stronger than the visible governance footprint suggests. The fall-2023 launch of the School of Computer and Data Sciences under inaugural executive director Beth Plale — a co-PI of the NSF ICICLE AI Institute — is UO's most consequential institutional-transformation move in AI. The School combines computer science with a five-year data-science investment and integrates AI into its core curriculum, including AI-assisted introductory programming. Supporting research infrastructure includes the Talapas HPC cluster (89 GPUs, 14,500+ CPU cores, 129 TB memory) operated by RACS; the NeuroAI Center at the Institute of Neuroscience (bidirectional brain-AI research); the new (2025) Intelligent Futures Lab at Lundquist College of Business studying agentic AI and decentralized governance; and the joint UO-OHSU Center for Biomedical Data Science seeded by a $10M Boyle family lead gift. Student-facing AI is largely invisible-in-background: the Academic Data Analytics Unit runs a production ML retention model feeding first-year advising outreach. Policy posture is cautious: the Student Conduct Code explicitly names uncited GenAI content as plagiarism, UO refuses AI-detection tools, syllabus-level AI policy is strongly encouraged but not mandated, and a separate University Communications framework governs AI in UO marketing. External context: Oregon has no omnibus AI statute but has active state guidance (EO 23-26, the State AI Advisory Council's 2025 action plan, the Oregon AG's December 2024 AI guidance, and Governor Kotek's July 2025 $10M NVIDIA MOU for statewide AI workforce development). Key gaps: no public AI strategic-plan document, no disclosed campus-wide AI investment figure, and relatively thin public documentation of admissions or administrative AI deployment.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://teaching.uoregon.edu/ai",
+      "https://teaching.uoregon.edu/ai-faq",
+      "https://teaching.uoregon.edu/ai-academic-integrity",
+      "https://teaching.uoregon.edu/ai-data-privacy",
+      "https://teaching.uoregon.edu/gen-ai-focused-educational-research-project-cait",
+      "https://researchguides.uoregon.edu/using-generative-AI",
+      "https://researchguides.uoregon.edu/citing-plagiarism/citing-generative-AI",
+      "https://digital.uoregon.edu/guiding-principles-ai-support-uo-marketing-and-communications",
+      "https://policies.uoregon.edu/vol-3-administration-student-affairs/ch-1-conduct/student-conduct-code",
+      "https://dos.uoregon.edu/student-conduct-updates-faculty",
+      "https://president.uoregon.edu/executive-leadership",
+      "https://provost.uoregon.edu/",
+      "https://provost.uoregon.edu/analytics/student-success",
+      "https://nwccu.org/news/v5i4-predicting-risk-earlier-using-artificial-intelligence-to-support-student-success-and-combat-inequity/",
+      "https://is.uoregon.edu/cio",
+      "https://news.uoregon.edu/content/microsoft-copilot-offers-protected-ai-experience-uo",
+      "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140637",
+      "https://service.uoregon.edu/TDClient/2030/Portal/KB/ArticleDet?ID=140806",
+      "https://scds.uoregon.edu/",
+      "https://scds.uoregon.edu/news/new-executive-director-brings-major-goals-and-big-vision-school-computer-and-data-sciences",
+      "https://news.uoregon.edu/content/uo-launch-new-school-computer-and-data-sciences",
+      "https://provost.uoregon.edu/new-school-computer-and-data-sciences",
+      "https://scds.uoregon.edu/ds/undergraduate-program",
+      "https://scds.uoregon.edu/ds/undergraduate-program/major-requirements",
+      "https://scds.uoregon.edu/cs/undergraduate-programs",
+      "https://catalog.uoregon.edu/courses/crs-dsci/",
+      "https://datascience.uoregon.edu/talapas-supercomputer",
+      "https://racs.uoregon.edu/services",
+      "https://news.uoregon.edu/content/new-core-facility-boosts-uos-research-computing-power",
+      "https://www.hpcwire.com/off-the-wire/university-oregon-uses-supercomputer-power-new-research-advanced-computing-facility/",
+      "https://ion.uoregon.edu/neuroai",
+      "https://www.miragenews.com/uo-neuroscientists-harness-ai-for-experiments-1640888/",
+      "https://uoiflab.org",
+      "https://research.uoregon.edu/centers-and-institutes",
+      "https://knightcampus.uoregon.edu/research",
+      "https://knightcampus.uoregon.edu/biomedical-data-science",
+      "https://knightcampus.uoregon.edu/biomedical-machine-learning-scientist",
+      "https://training.cpe.uoregon.edu/ai-prompting",
+      "https://mohr.uoregon.edu/classes/artificial-intelligence-and-business-strategy/",
+      "https://news.uoregon.edu/content/uo-computer-scientist-furthers-ai-research-through-nsf-grant",
+      "https://www.oregon.gov/gov/eo/eo-23-26.pdf",
+      "https://www.oregon.gov/eis/pages/ai-advisory-council.aspx",
+      "https://www.doj.state.or.us/wp-content/uploads/2024/12/AI-Guidance-12-24-24.pdf",
+      "https://apps.oregon.gov/oregon-newsroom/OR/GOV/Posts/Post/governor-kotek-announces-artificial-intelligence-action-plan",
+      "https://www.oregon.gov/highered/strategy-research/Documents/Legislative-Budget-Resources/Leg-2025/2025.11.18-SCE-AI-AmbassadorProgram.pdf",
+      "https://www.govinfosecurity.com/blogs/controversy-over-protecting-students-medical-records-p-1926"
+    ],
+    "search_queries": [
+      "\"University of Oregon\" AI strategy 2025 2026",
+      "\"University of Oregon\" generative AI policy acceptable use",
+      "\"University of Oregon\" AI council committee task force governance",
+      "\"University of Oregon\" chief AI officer CIO provost president 2025",
+      "\"University of Oregon\" AI research center institute lab",
+      "\"University of Oregon\" AI degree program data science major minor",
+      "\"University of Oregon\" Microsoft Copilot ChatGPT enterprise deployment",
+      "\"University of Oregon\" HPC supercomputer GPU cluster Talapas",
+      "\"University of Oregon\" AI gift donation million NSF grant 2024 2025",
+      "\"University of Oregon\" AI chatbot student services predictive analytics retention",
+      "\"University of Oregon\" AI partnership announcement MOU industry",
+      "\"University of Oregon\" AI workshop workforce training innovation",
+      "\"University of Oregon\" \"School of Computer and Data Sciences\" AI curriculum launch",
+      "\"University of Oregon\" AI regulatory context state AI policy executive order higher education",
+      "\"University of Oregon\" AI controversy lawsuit FERPA academic integrity",
+      "\"University of Oregon\" AI ethics framework guidelines 2024",
+      "\"University of Oregon\" Phil Knight Campus AI machine learning research",
+      "\"University of Oregon\" AI literacy requirement faculty training TEP",
+      "\"University of Oregon\" NeuroAI center founded director Mazzucato",
+      "\"University of Oregon\" \"Beth Plale\" AI School of Computer Data Sciences"
+    ],
+    "gaps_acknowledged": [
+      "No single published campus-wide AI strategy document; guidance is federated across TEP, IS, UO Libraries, and University Communications.",
+      "No named chief AI officer; AI responsibility sits under Associate CIO Andrew Wheeler.",
+      "Campus-wide AI investment totals and Microsoft Copilot license cost are not publicly disclosed.",
+      "Founding year for the NeuroAI Center not publicly stated.",
+      "No public evidence of admissions or enrollment AI deployments.",
+      "No public evidence of AI deployed inside the Canvas LMS beyond general Copilot access.",
+      "Specific AI-ethics training requirements for researchers (versus generic RCR training) not documented.",
+      "Total number of UO AI-related courses and faculty not enumerated in any single public inventory."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "balanced_enterprise",
+      "secondary": [
+        "research_compute_powerhouse",
+        "governance_led",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 6,
+        "research_compute_powerhouse": 16,
+        "curriculum_led": 9,
+        "governance_led": 12,
+        "student_success_led": 7,
+        "workforce_regional_development": 5,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: balanced enterprise."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-09",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "rejects_or_limits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 6,
+      "ai_program_count": 4,
+      "has_ai_literacy_requirement": false,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 0,
+        "ai_resilient_assessment": 2,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Talapas",
+        "gpu_count": 89,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 10599920,
+      "funding_source_buckets": {
+        "philanthropy_foundation": 2,
+        "public_federal_state": 3,
+        "industry_vendor": 1,
+        "institutional": 5,
+        "other_unclear": 3
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 2,
+      "service_type_counts": {
+        "predictive_analytics": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": true,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft Copilot (with data protection)",
+            "Microsoft Copilot with data protection"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Talapas HPC cluster"
+          ]
+        },
+        {
+          "vendor": "University of Oregon CPE / Ziplines Education AI Essentials Certificate",
+          "mentions": 1,
+          "products": [
+            "AI Essentials Certificate"
+          ]
+        },
+        {
+          "vendor": "UO Teaching Engagement Program GenAI Policy and Assignment Design Self-Check Tool (Beta)",
+          "mentions": 1,
+          "products": [
+            "GenAI Policy and Assignment Design Self-Check Tool (Beta)"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot with data protection rolled out campus-wide",
+          "summary": "UO chose a single protected consumer-grade chat tool as its default enterprise GenAI, a lower-friction alternative to ChatGPT Edu deployments at peer R1s.",
+          "source_url": "https://news.uoregon.edu/content/microsoft-copilot-offers-protected-ai-experience-uo"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "ADA Unit machine-learning model for winter-term retention",
+          "summary": "One of the few documented cases of an R1 embedding a production ML retention model inside the provost's office and tying it directly to advising operations.",
+          "source_url": "https://provost.uoregon.edu/analytics/student-success"
+        },
+        {
+          "claim_type": "usage",
+          "title": "AI Essentials non-credit certificate (UO Continuing and Professional Education)",
+          "summary": "Pulls UO into the non-degree continuing-education market for applied AI and mirrors the sector trend of universities offering short-cycle AI credentials to working professionals.",
+          "source_url": "https://training.cpe.uoregon.edu/ai-prompting"
+        },
+        {
+          "claim_type": "career",
+          "title": "Data Science + Domain undergraduate major with ML / AI career track",
+          "summary": "The data-science + domain structure is an increasingly common model at R1s for producing workforce-ready AI graduates without standing up a separate AI degree.",
+          "source_url": "https://scds.uoregon.edu/ds/undergraduate-program"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 6,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No single published campus-wide AI strategy document; guidance is federated across TEP, IS, UO Libraries, and University Communications.",
+        "No named chief AI officer; AI responsibility sits under Associate CIO Andrew Wheeler.",
+        "Campus-wide AI investment totals and Microsoft Copilot license cost are not publicly disclosed.",
+        "Founding year for the NeuroAI Center not publicly stated.",
+        "No public evidence of admissions or enrollment AI deployments.",
+        "No public evidence of AI deployed inside the Canvas LMS beyond general Copilot access.",
+        "Specific AI-ethics training requirements for researchers (versus generic RCR training) not documented.",
+        "Total number of UO AI-related courses and faculty not enumerated in any single public inventory."
+      ]
+    }
+  }
+}

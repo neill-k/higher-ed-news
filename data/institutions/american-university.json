@@ -1,0 +1,1631 @@
+{
+  "institution": "American University",
+  "slug": "american-university",
+  "city_state": "Washington, DC",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 12321,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Jonathan R. Alger",
+      "url": "https://www.american.edu/president/alger-biography.cfm"
+    },
+    "provost": {
+      "name": "Vicky M. Wilkins",
+      "url": "https://www.american.edu/president/announcements/april-24-2025.cfm"
+    },
+    "cio": {
+      "name": "Steve Munson",
+      "url": "https://www.american.edu/oit/cio.cfm"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Gwanhoo Lee",
+      "title": "Director, Institute for Applied Artificial Intelligence (Kogod School of Business)",
+      "url": "https://kogod.american.edu/iaai"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "University Guidance on the Responsible Use of Artificial Intelligence (AI)",
+        "url": "https://www.american.edu/oit/security/responsible-use-of-ai.cfm",
+        "year": 2024
+      },
+      {
+        "title": "Interim Guidance on the Use of AI",
+        "url": "https://www.american.edu/oit/security/interim-guidance-on-the-use-of-ai.cfm",
+        "year": 2024
+      },
+      {
+        "title": "Responsible Use of AI Principles",
+        "url": "https://www.american.edu/oit/security/responsible-use-of-ai-principles.cfm",
+        "year": 2024
+      },
+      {
+        "title": "Institute for Applied Artificial Intelligence (IAAI) strategic framework",
+        "url": "https://kogod.american.edu/iaai",
+        "year": 2025
+      }
+    ],
+    "summary": "American University's AI posture is anchored by two complementary tracks: OIT's Responsible Use of AI Principles (ethics, accountability, human oversight, data privacy) and Kogod School of Business's Institute for Applied Artificial Intelligence (IAAI), launched April 2025 as a cross-school academic and research hub. Dean David Marchick has publicly committed Kogod to becoming an 'AI-first' business school. AU does not currently regulate how faculty and students use LLMs through a central mandate, instead pairing institutional principles with school-level and faculty-level policy discretion."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.american.edu/oit/security/responsible-use-of-ai.cfm",
+      "https://www.american.edu/oit/security/interim-guidance-on-the-use-of-ai.cfm",
+      "https://www.american.edu/oit/security/responsible-use-of-ai-principles.cfm"
+    ],
+    "adopted_date": "2024-01",
+    "stance": "permissive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "AU does not centrally regulate whether faculty or students use LLMs (Copilot, Perplexity, ChatGPT, Gemini, Claude)",
+      "Faculty must publish clear course-level syllabus and assignment policies on generative AI use",
+      "Instructors must disclose AI use in course materials and remain accountable for AI output",
+      "No Confidential or Official Use data may be entered into an AI platform unless university-approved",
+      "Decisions impacting real persons (employment, admissions, student status) require human oversight",
+      "Staff must disclose when content is generated or substantially modified by AI (text, image, audio, video)",
+      "AU disabled Turnitin AI-detection scores and will not use AI originality scores as the basis for academic integrity investigations",
+      "Academic Integrity Code (rewritten 2017-2024) frames unauthorized AI use as potential misconduct but centers responsible use over detection"
+    ],
+    "summary": "AU's stance is permissive with structure: the university declines to prohibit generative AI, instead publishing responsible-use principles, pushing syllabus-level decisions to faculty, and requiring human oversight plus disclosure for any AI output. Data privacy and academic integrity are explicitly addressed, and AI-detection-based enforcement has been disabled in favor of authenticity-focused assignment design."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Institute for Applied Artificial Intelligence (IAAI)",
+        "type": "office",
+        "scope": "Cross-school AI strategy, curriculum, ethical guidelines, partnerships, and research (Kogod-led, with faculty from Kogod, CAS, SPA, SIS, and Washington College of Law)",
+        "url": "https://kogod.american.edu/iaai"
+      },
+      {
+        "name": "Center for AI Research in the Sciences and Humanities (CARSH)",
+        "type": "office",
+        "scope": "Interdisciplinary AI research and education across CAS bridging scientific inquiry and humanistic insight",
+        "url": "https://www.american.edu/cas/carsh/"
+      },
+      {
+        "name": "Office of Information Technology (OIT) Security & Responsible AI function",
+        "type": "office",
+        "scope": "Publishes and maintains university-wide interim guidance, responsible-use principles, and data-privacy controls for AI tools",
+        "url": "https://www.american.edu/oit/security/responsible-use-of-ai.cfm"
+      },
+      {
+        "name": "IAAI AI Fellows",
+        "type": "committee",
+        "scope": "Nearly two dozen faculty across law, political science, computer science, sustainability, and business advising on AI curriculum, ethics, and research",
+        "url": "https://kogod.american.edu/iaai"
+      },
+      {
+        "name": "Office of Academic Integrity (OAI) AI guidance",
+        "type": "office",
+        "scope": "Provides syllabus-statement checklists and academic-integrity guidance for AI use in coursework",
+        "url": "https://edspace.american.edu/ctrl/wp-content/uploads/sites/23/2024/08/AI-Academic-Integrity-OAIs-Fall-Guidance-2024.pdf"
+      },
+      {
+        "name": "Center for Faculty Excellence (CFE) AI resources",
+        "type": "office",
+        "scope": "Faculty development, AI-in-teaching consultations (Faculty Associate Sonja Walti), and model AI syllabus statements",
+        "url": "https://edspace.american.edu/cfe/artificial-intelligence/"
+      }
+    ],
+    "summary": "AU's AI governance is distributed across OIT (policy and security), Kogod's IAAI (academic and research strategy), CAS's CARSH (research), the Center for Faculty Excellence (teaching), and the Office of Academic Integrity. There is no single named Chief AI Officer; Gwanhoo Lee functions as de facto AI strategy lead through the IAAI. The IAAI AI Fellows program provides cross-school faculty governance."
+  },
+  "initiatives": [
+    {
+      "title": "Institute for Applied Artificial Intelligence (IAAI) launch at Kogod School of Business",
+      "description": "On April 3, 2025, Kogod launched the IAAI to position AU as a global leader in AI education and research by integrating AI across curricula, pioneering ethical guidelines, fostering industry collaborations, and promoting high-impact research. Director Gwanhoo Lee leads with associate directors Angela Virtu (Kogod) and Bei Xiao (CAS Computer Science), supported by nearly two dozen AI Fellows across law, political science, computer science, sustainability, and business.",
+      "significance": "IAAI is the most structurally ambitious business-school AI institute in 2025, establishing a cross-school model other mid-sized private R1s are likely to emulate.",
+      "date_announced": "2025-04-03",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "institutional_restructuring",
+        "ai_in_specific_disciplines",
+        "ai_research_center",
+        "faculty_role_evolution"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "American University institutional funds; Hedayat Fund for Generative AI (CAS); Change Can't Wait campaign",
+        "description": "Institute standup involved hiring of AI/ML faculty and cross-school operating infrastructure; no aggregate dollar figure has been publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Perplexity AI",
+            "Google",
+            "Microsoft",
+            "Swift Ventures"
+          ],
+          "description": "Speaker series and industry collaborations embedded in the institute's mission."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Kogod School of Business",
+            "College of Arts and Sciences",
+            "School of Public Affairs",
+            "School of International Service",
+            "Washington College of Law"
+          ],
+          "description": "Cross-school AI Fellows program."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Perplexity Enterprise Pro",
+          "vendor": "Perplexity AI",
+          "role": "Enterprise AI assistant for Kogod community"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Demonstrates a school-led (not CIO-led) model for campus AI strategy in the absence of a central Chief AI Officer.",
+      "source_urls": [
+        "https://kogod.american.edu/news/kogod-school-of-business-launches-institute-for-applied-artificial-intelligence",
+        "https://kogod.american.edu/iaai",
+        "https://www.edtechinnovationhub.com/news/american-university-sets-ai-education-pace-with-new-institute-at-kogod-school-of-business",
+        "https://www.prnewswire.com/news-releases/the-kogod-school-of-business-at-american-university-launches-institute-for-applied-artificial-intelligence-302419951.html"
+      ]
+    },
+    {
+      "title": "Kogod / Perplexity Enterprise Pro campus-wide AI partnership",
+      "description": "On March 19, 2025, Kogod became the first business school to provide Perplexity Enterprise Pro access to every student, faculty member, and staff member. Dean David Marchick framed the rollout as enabling custom tutors, AI-powered knowledge hubs, and workflow integration across the school.",
+      "significance": "Establishes Perplexity as a credible higher-ed enterprise vendor alongside Microsoft Copilot, OpenAI ChatGPT Edu, and Google Gemini, giving mid-sized private universities a fourth viable campus-wide AI platform path.",
+      "date_announced": "2025-03-19",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "ai_search_and_retrieval",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Kogod School of Business and Perplexity AI partnership terms",
+        "description": "Enterprise Pro license for entire Kogod population; dollar value undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Perplexity AI"
+          ],
+          "description": "Direct vendor partnership with exec-level engagement (Raman Malik, VP Product & Growth at Perplexity)."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Perplexity Enterprise Pro",
+          "vendor": "Perplexity AI",
+          "role": "Enterprise search, research, and productivity AI"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Raises data-privacy and FERPA questions for any campus-wide LLM deployment; AU's OIT responsible-use guidance explicitly constrains entry of confidential data.",
+      "source_urls": [
+        "https://kogod.american.edu/news/kogod-school-of-business-partners-with-perplexity-to-provide-enterprise-ai-access-to-all-students-staff-and-faculty",
+        "https://www.bestcolleges.com/news/kogod-perlexity-ai-partnership/"
+      ]
+    },
+    {
+      "title": "Kogod AI curriculum infusion (Sage and Artisan courses)",
+      "description": "Beginning with a March 2024 announcement and fall 2024 rollout, Kogod deployed more than 20 new or updated AI-integrated courses, ultimately scaling to 40+ (and nearly 60 by 2025) across business disciplines. 'AI Sage' courses are dedicated AI deep dives; 'AI Artisan' courses embed AI into existing disciplines such as forensic accounting and marketing. Students master prompt engineering, R, Python, and ML models.",
+      "significance": "Represents one of the most aggressive curriculum overhauls in U.S. business education; Poets & Quants called it 'the most consequential AI transformation in business education.'",
+      "date_announced": "2024-03-26",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_literacy_requirement",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Kogod School of Business and American University institutional funds; hiring of six new AI/ML faculty since 2023",
+        "description": "Faculty expansion plus course redesign across undergraduate and graduate programs."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Perplexity AI"
+          ],
+          "description": "Industry tool integration into courses."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Perplexity Enterprise Pro",
+          "vendor": "Perplexity AI",
+          "role": "Classroom AI platform"
+        },
+        {
+          "name": "Python / R",
+          "vendor": "Open source",
+          "role": "Teaching languages for ML instruction"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Establishes embedded-AI pedagogy as a default rather than an exception for business education.",
+      "source_urls": [
+        "https://www.american.edu/media/news/20240326_kogod-ai.cfm",
+        "https://kogod.american.edu/news/kogod-school-of-business-infuses-artificial-intelligence-throughout-curriculum",
+        "https://kogod.american.edu/aicourses",
+        "https://www.theeagleonline.com/article/2024/04/kogod-announces-incorporation-of-ai-into-curriculum"
+      ]
+    },
+    {
+      "title": "Kogod BS major, minor, graduate certificate, and badges in Business Analytics & AI",
+      "description": "On July 16, 2025, Kogod unveiled a STEM-designated BS in Business Analytics and AI, an undergraduate minor, an MS in Business Analytics and AI (replacing the MS in Analytics), a graduate certificate, and stackable badges, approved by AU's Board of Trustees. Kogod described itself as offering 'the most comprehensive suite of AI learning options for students in the country.'",
+      "significance": "Signals a shift from AI-infused courses to first-class AI credentials as the differentiator for mid-sized private business schools.",
+      "date_announced": "2025-07-16",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "industry_certification_pathway",
+        "ai_and_degree_value"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty",
+        "accreditors"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Kogod School of Business",
+        "description": "Program development; Kogod also cited a projected market growing 22.6% annually to $223B by 2034 as rationale."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal program development."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": "STEM designation affects OPT eligibility for international students, a non-trivial enrollment and visa consideration.",
+      "source_urls": [
+        "https://www.american.edu/media/news/20250716_kogod-unveils-ai-major-minor-badges-and-certificates.cfm",
+        "https://kogod.american.edu/news/the-kogod-school-of-business-at-american-university-unveils-ai-major-minor-badges-and-certificates",
+        "https://kogod.american.edu/programs-admissions/undergraduate/business-analytics-and-ai",
+        "https://kogod.american.edu/programs-admissions/masters/analytics-and-ai"
+      ]
+    },
+    {
+      "title": "Hedayat Fund for Generative Artificial Intelligence (CAS)",
+      "description": "A gift from Hamoon and Nancy Hedayat established the Hedayat Fund for Generative AI, the first named AI research fund at AU, to support interdisciplinary work in digital and AI ethics, data privacy and security, government policy, environmental and biomedical applications, and public AI education within the College of Arts and Sciences.",
+      "significance": "Seed capital for CAS's AI research ambitions; pairs the business-school IAAI with a parallel arts-and-sciences research anchor.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Hamoon and Nancy Hedayat; counted toward the $500M Change Can't Wait Campaign",
+        "description": "Named endowed fund supporting generative AI research and ethics; amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Hedayat family"
+          ],
+          "description": "Donor-named fund."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Enables AU to pursue ethics-forward research without vendor-funded strings.",
+      "source_urls": [
+        "https://www.american.edu/cas/news/gift-ai-research-fund.cfm",
+        "https://www.american.edu/cas/research/artificial-intelligence.cfm"
+      ]
+    },
+    {
+      "title": "Center for AI Research in the Sciences and Humanities (CARSH) in CAS",
+      "description": "CARSH, led by Computer Science Professor Leah Ding, is an interdisciplinary research center integrating AI with scientific inquiry and humanistic insight. It anchors CAS's AI activity and coordinates with Ding's externally funded work on trustworthy ML, cybersecurity, and environmental AI.",
+      "significance": "Gives AU an arts-and-sciences AI research home distinct from Kogod's applied-AI focus, a pattern emerging at other private R1s.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "American University institutional funds plus external grants (including NSF)",
+        "description": "Ongoing operation of a named research center."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF-funded trustworthy AI and environmental research."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.american.edu/cas/carsh/",
+        "https://www.american.edu/cas/research/artificial-intelligence.cfm"
+      ]
+    },
+    {
+      "title": "$867K NSF grant for AI wildfire prediction (Leah Ding, CS)",
+      "description": "AU Computer Science Professor Leah Ding was awarded an $867,245 NSF grant to build an AI system that detects, forecasts, and assesses wildfire activity in real time using integrated geoscientific datasets. The project runs January 2026 through December 2028.",
+      "significance": "Exemplifies AU's shift into climate-impact AI research and strengthens AU's R1 research profile.",
+      "date_announced": "2025-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 867245,
+        "funding_source": "National Science Foundation",
+        "description": "Three-year NSF award for wildfire-prediction AI."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federal research grant."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.american.edu/cas/news/nsf-grant-wildfire-prediction-ai.cfm",
+        "https://x.com/AmericanU/status/1970156290694402366"
+      ]
+    },
+    {
+      "title": "School of Education NSF grant for AI literacy in DC schools",
+      "description": "Dr. Carolyn Parker, Associate Dean for Research at AU's School of Education, secured a December 2024 NSF supplement to advance AI literacy in DC public schools. The award builds K-12 AI instruction capacity as teachers nationwide work to integrate AI into curriculum.",
+      "significance": "Extends AU's AI agenda into K-12 teacher preparation, an equity-forward and regional-impact move typical of DC-based private R1s.",
+      "date_announced": "2024-12",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "underrepresented_student_support",
+        "community_college_ai_program",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "National Science Foundation (supplement award)",
+        "description": "NSF supplemental award; base amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federal agency funder."
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "DC Public Schools"
+          ],
+          "description": "Local school system partnership implied by the grant's focus."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.american.edu/soe/news/associate-dean-secures-nsf-grant-to-advance-ai-literacy-in-dc-schools.cfm"
+      ]
+    },
+    {
+      "title": "AU Responsible Use of AI Principles and Interim Guidance",
+      "description": "AU's OIT published the Responsible Use of AI Principles and Interim Guidance on the Use of AI, setting expectations that AI outputs be subject to human oversight, no confidential or official-use data be entered into external AI tools, and no decisions impacting individuals (employment, admissions, student status) be made without human accountability.",
+      "significance": "A principles-based, permissive-with-guardrails model that other private R1s considering enterprise AI rollouts can benchmark against.",
+      "date_announced": "2024-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "institutional_ai_strategy",
+        "data_privacy_and_security",
+        "ai_ethics_framework",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "American University OIT operating funds",
+        "description": "Policy-development and communications effort."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internally authored."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Named in AU guidance as an example generative-AI tool in use"
+        },
+        {
+          "name": "Perplexity",
+          "vendor": "Perplexity AI",
+          "role": "Named in AU guidance"
+        },
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Named in AU guidance"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Named in AU guidance"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "Named in AU guidance"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Explicitly avoids a central prohibition; pushes enforcement to faculty via syllabus statements.",
+      "source_urls": [
+        "https://www.american.edu/oit/security/responsible-use-of-ai.cfm",
+        "https://www.american.edu/oit/security/interim-guidance-on-the-use-of-ai.cfm",
+        "https://www.american.edu/oit/security/responsible-use-of-ai-principles.cfm"
+      ]
+    },
+    {
+      "title": "Academic Integrity Code overhaul and Turnitin AI-detection shutdown",
+      "description": "AU's multi-year rewrite of its Academic Integrity Code (2017 through spring 2024) coincided with the arrival of ChatGPT. The university disabled Turnitin AI-detection scoring and committed not to use any AI-detection originality score as the basis for integrity investigations, shifting enforcement toward assignment design and faculty syllabus language.",
+      "significance": "An early, explicit rejection of AI-detection-as-proof in academic integrity; sets a precedent for peer institutions navigating LLM-era assessment.",
+      "date_announced": "2024-05",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "ai_resilient_assessment",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Office of Academic Integrity operating funds",
+        "description": "Policy work; no capital investment disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy effort."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Turnitin AI Detection",
+          "vendor": "Turnitin",
+          "role": "Explicitly disabled and deprecated as enforcement input"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Shifts integrity burden from vendor detection tools to faculty assessment design and documented syllabus policies.",
+      "source_urls": [
+        "https://edspace.american.edu/ctrl/wp-content/uploads/sites/23/2024/08/AI-Academic-Integrity-OAIs-Fall-Guidance-2024.pdf",
+        "https://www.american.edu/policies/students/upload/academic-integrity-code.pdf",
+        "https://www.theeagleonline.com/article/2023/12/part-i-ai-artificial-intelligence-or-academic-integrity"
+      ]
+    },
+    {
+      "title": "Lovelace HPC with Nvidia H100 and L40 GPU nodes",
+      "description": "AU operates the Lovelace HPC system, a Red Hat Enterprise cluster with a 2TB big-memory node, a node with dual Nvidia H100 GPUs (80GB each), and six nodes with quad Nvidia L40 GPUs (40GB each). Lovelace supports CAS research computing with six job queues and replaces the previous 'Zorro' cluster. The system is not configured for encrypted or PII-protected storage.",
+      "significance": "Provides a modest but credible GPU footprint for a mid-sized private R1, enabling graduate and faculty ML research without external cloud dependence.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "computer_vision",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "American University research infrastructure funds",
+        "description": "HPC capital and operating funds; amount not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA",
+            "Red Hat"
+          ],
+          "description": "Vendor infrastructure relationships."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Lovelace HPC",
+          "vendor": "American University / NVIDIA",
+          "role": "GPU cluster"
+        },
+        {
+          "name": "Nvidia H100",
+          "vendor": "NVIDIA",
+          "role": "80GB GPU accelerator"
+        },
+        {
+          "name": "Nvidia L40",
+          "vendor": "NVIDIA",
+          "role": "40GB GPU accelerator"
+        },
+        {
+          "name": "Red Hat Enterprise Linux",
+          "vendor": "Red Hat / IBM",
+          "role": "Cluster OS"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Confidential and PII-tagged data cannot be processed on Lovelace, a constraint that channels regulated workloads to separately procured environments.",
+      "source_urls": [
+        "https://www.american.edu/cas/hpc/",
+        "https://www.american.edu/cas/hpc/software.cfm",
+        "https://www.american.edu/cas/hpc/procedures.cfm"
+      ]
+    },
+    {
+      "title": "AI: Ethics and Society certificates (undergraduate and graduate) in Philosophy & Religion",
+      "description": "AU offers matched undergraduate and graduate certificates in 'Artificial Intelligence: Ethics and Society,' housed in the Department of Philosophy & Religion. The curriculum draws from multiple CAS disciplines and trains students to navigate ethical and societal implications of AI systems.",
+      "significance": "A humanities-anchored AI-ethics credential, complementing the applied-AI programs at Kogod.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_literacy_requirement",
+        "ai_degree_program"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "American University institutional funds",
+        "description": "Certificate-level program run by Philosophy & Religion."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "CAS Computer Science",
+            "Kogod School of Business"
+          ],
+          "description": "Cross-departmental coursework."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Preserves humanities leadership over AI ethics in a higher-ed landscape that increasingly centers engineering framing.",
+      "source_urls": [
+        "https://www.american.edu/cas/philrel/ma/grad-cert-ai-ethics-society.cfm",
+        "https://www.american.edu/cas/philrel/cert-ai-ethics-society.cfm",
+        "https://www.american.edu/cas/news/ai-ethical-questions.cfm",
+        "https://catalog.american.edu/preview_program.php?catoid=21&poid=11128"
+      ]
+    },
+    {
+      "title": "Washington College of Law Technology, Law & Security (TLS) Program — National Security and AI",
+      "description": "WCL's TLS Program, launched in 2020, includes a National Security and AI track covering how law and policy should shape deployment of AI technology, particularly for national security use cases. Course sequences explore interactions between AI innovations and their regulatory landscape.",
+      "significance": "Embeds AU's law school in the DC AI-policy conversation at a time when federal AI governance is a live issue.",
+      "date_announced": "2020-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "ai_ethics_framework",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "government_and_regulators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "American University Washington College of Law",
+        "description": "Ongoing program operation."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "federal agencies"
+          ],
+          "description": "Faculty advise federal policy processes."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Produces law graduates with explicit AI-regulatory fluency; relevant to DC's federal hiring pipeline.",
+      "source_urls": [
+        "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/",
+        "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/projects/national-security-and-ai.cfm",
+        "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/curriculum.cfm"
+      ]
+    },
+    {
+      "title": "Internet Governance Lab / COTELCO — AI governance research (SIS, Kogod)",
+      "description": "AU's Internet Governance Lab (founded 2016 by Derrick Cogburn, Laura DeNardis, and Nanette Levinson) and its affiliated COTELCO laboratory conduct research at the intersection of AI, NLP, ML, cybersecurity, and global internet governance. Cogburn chairs HICSS's NLP/AI/ML/DL and Cybersecurity minitrack.",
+      "significance": "Provides a long-standing global-governance lens on AI — distinct from applied business or pure CS framings — leveraging AU's Washington DC proximity to federal and multilateral policy venues.",
+      "date_announced": "2016-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "cross_border_research_alliance",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "American University and external research grants",
+        "description": "Ongoing research operation."
+      },
+      "collaborations": [
+        {
+          "pattern": "international",
+          "partners": [
+            "global internet governance partners"
+          ],
+          "description": "International governance research network."
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "HICSS"
+          ],
+          "description": "NLP/AI/ML minitrack leadership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://internetgovernancelab.org/",
+        "https://internetgovernancelab.org/mission",
+        "https://www.american.edu/sis/faculty/dcogburn.cfm"
+      ]
+    },
+    {
+      "title": "AU tenure-track AI faculty search cluster (CAS)",
+      "description": "CAS announced concurrent tenure-track AI-focused faculty searches spanning Computer Science/Physics, Ethics, Digital Cultures in Literature, and Economics — an explicit cluster hire strategy to build AI capacity alongside the IAAI and CARSH.",
+      "significance": "Cluster hiring around AI is an increasingly common signal that an R1 is committing to AI as a long-term strategic direction; AU's cross-disciplinary pattern reinforces its ethics-and-society framing.",
+      "date_announced": null,
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "faculty_role_evolution",
+        "ai_research_center",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "American University academic affairs and CAS operating funds",
+        "description": "Multi-line tenure-track hiring cluster; salary line totals undisclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal hiring cluster."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.american.edu/cas/research/artificial-intelligence.cfm"
+      ]
+    },
+    {
+      "title": "Center for Faculty Excellence AI-in-teaching program",
+      "description": "AU's CFE offers faculty development on AI in teaching, including dedicated consultations with Faculty Associate Sonja Walti, model AI syllabus statements (restrictive to permissive), the library's AI Instruction Toolkit, and Credo AI-literacy modules. Workshops such as 'What Can AI Do for Me?' run on an academic-year cadence.",
+      "significance": "Demonstrates how a mid-sized private R1 operationalizes AI pedagogy at the instructor level, absent a central mandate.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_enhanced_pedagogy",
+        "syllabus_level_policy",
+        "ai_resilient_assessment"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "American University CFE operating funds",
+        "description": "Faculty support services; no capital investment disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "AU Library",
+            "Office of Academic Integrity"
+          ],
+          "description": "Internal partnerships within AU for faculty AI development."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AI Instruction Toolkit",
+          "vendor": "AU Library",
+          "role": "Syllabus and lesson resources"
+        },
+        {
+          "name": "Credo Information Literacy Modules",
+          "vendor": "Credo Reference",
+          "role": "AI-literacy videos and tutorials"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://edspace.american.edu/cfe/artificial-intelligence/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for AI Research in the Sciences and Humanities (CARSH)",
+      "focus": "Interdisciplinary AI research integrating scientific inquiry with humanistic insight",
+      "founded": null,
+      "url": "https://www.american.edu/cas/carsh/"
+    },
+    {
+      "name": "Institute for Applied Artificial Intelligence (IAAI)",
+      "focus": "Applied AI education, curriculum integration, ethics, and industry partnerships",
+      "founded": "2025",
+      "url": "https://kogod.american.edu/iaai"
+    },
+    {
+      "name": "Internet Governance Lab",
+      "focus": "Internet architecture, governance, and AI/NLP/ML/cybersecurity research",
+      "founded": "2016",
+      "url": "https://internetgovernancelab.org/"
+    },
+    {
+      "name": "COTELCO (Collaboration Laboratory)",
+      "focus": "Technology-enhanced collaborative knowledge work, NLP/AI/ML",
+      "founded": null,
+      "url": "http://www.derrickcogburn.com/scholar"
+    },
+    {
+      "name": "Washington College of Law — Tech, Law & Security Program",
+      "focus": "Legal and policy questions in AI, national security, and technology",
+      "founded": "2020",
+      "url": "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/"
+    },
+    {
+      "name": "SPA Data Science Institute",
+      "focus": "Data science research within the School of Public Affairs",
+      "founded": null,
+      "url": "https://www.american.edu/spa/data-science/data-science-institute.cfm"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "BS in Business Analytics and AI (STEM-designated)",
+      "level": "undergrad",
+      "launched": "2025-07",
+      "url": "https://kogod.american.edu/programs-admissions/undergraduate/business-analytics-and-ai"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Business Analytics and Artificial Intelligence",
+      "level": "grad",
+      "launched": "2025-07",
+      "url": "https://kogod.american.edu/programs-admissions/masters/analytics-and-ai"
+    },
+    {
+      "type": "minor",
+      "name": "Business Analytics and AI (undergraduate minor)",
+      "level": "undergrad",
+      "launched": "2025-07",
+      "url": "https://www.american.edu/media/news/20250716_kogod-unveils-ai-major-minor-badges-and-certificates.cfm"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Business Analytics and AI",
+      "level": "grad",
+      "launched": "2025-07",
+      "url": "https://www.american.edu/media/news/20250716_kogod-unveils-ai-major-minor-badges-and-certificates.cfm"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence: Ethics and Society",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.american.edu/cas/philrel/ma/grad-cert-ai-ethics-society.cfm"
+    },
+    {
+      "type": "certificate",
+      "name": "Undergraduate Certificate in Artificial Intelligence: Ethics and Society",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.american.edu/cas/philrel/cert-ai-ethics-society.cfm"
+    },
+    {
+      "type": "degree",
+      "name": "BS Data Science (ABET-accredited, first in DC)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.american.edu/cas/mathstat/data-undergrad/"
+    },
+    {
+      "type": "degree",
+      "name": "MS Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.american.edu/programs/shared/data-science/"
+    },
+    {
+      "type": "degree",
+      "name": "MS Computer Science (AI/ML research areas)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://american.edu/cas/cs/ms/index.cfm"
+    },
+    {
+      "type": "course",
+      "name": "Kogod AI Sage and AI Artisan course series (40+ courses)",
+      "level": "both",
+      "launched": "2024-08",
+      "url": "https://kogod.american.edu/aicourses"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Perplexity AI",
+      "product": "Perplexity Enterprise Pro",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2025-03",
+      "url": "https://kogod.american.edu/news/kogod-school-of-business-partners-with-perplexity-to-provide-enterprise-ai-access-to-all-students-staff-and-faculty"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 / Office 365 (Copilot referenced in guidance)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://www.american.edu/oit/office365/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Lovelace",
+    "gpu_count": 26,
+    "url": "https://www.american.edu/cas/hpc/",
+    "summary": "Lovelace is AU's research HPC cluster, named for Ada Lovelace. It includes a 2TB big-memory node, one node with dual Nvidia H100 GPUs (80GB each), and six nodes each with four Nvidia L40 GPUs (40GB each) — approximately 26 GPUs total. Six job queues (three open, one restricted). The system replaces the previous 'Zorro' cluster and is not configured for encrypted or PII-protected storage."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Hedayat Fund for Generative Artificial Intelligence",
+      "amount_usd": null,
+      "source": "Hamoon and Nancy Hedayat",
+      "purpose": "Interdisciplinary generative-AI research and ethics in the College of Arts and Sciences",
+      "date": null,
+      "url": "https://www.american.edu/cas/news/gift-ai-research-fund.cfm"
+    },
+    {
+      "title": "NSF grant for AI wildfire prediction (Leah Ding, CS)",
+      "amount_usd": 867245,
+      "source": "National Science Foundation",
+      "purpose": "AI system to detect, forecast, and assess wildfire activity in real time",
+      "date": "2025-09",
+      "url": "https://www.american.edu/cas/news/nsf-grant-wildfire-prediction-ai.cfm"
+    },
+    {
+      "title": "NSF supplement for AI literacy in DC public schools",
+      "amount_usd": null,
+      "source": "National Science Foundation",
+      "purpose": "Advance AI literacy in DC schools via AU School of Education",
+      "date": "2024-12",
+      "url": "https://www.american.edu/soe/news/associate-dean-secures-nsf-grant-to-advance-ai-literacy-in-dc-schools.cfm"
+    },
+    {
+      "title": "Change Can't Wait Campaign (research and faculty support)",
+      "amount_usd": 156000000,
+      "source": "Multiple donors",
+      "purpose": "$156M of the $500M campaign went to faculty and research support, including AI-related initiatives; externally funded research doubled to $177M since 2019",
+      "date": "2024",
+      "url": "https://www.american.edu/news/american-university-achieves-r1-status.cfm"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Perplexity AI",
+      "purpose": "Campus-wide enterprise AI access for Kogod students, staff, and faculty",
+      "date": "2025-03",
+      "url": "https://kogod.american.edu/news/kogod-school-of-business-partners-with-perplexity-to-provide-enterprise-ai-access-to-all-students-staff-and-faculty"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google",
+      "purpose": "IAAI speaker series and industry engagement",
+      "date": null,
+      "url": "https://kogod.american.edu/iaai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "IAAI speaker series and industry engagement; enterprise IT partnership via Office 365",
+      "date": null,
+      "url": "https://kogod.american.edu/iaai"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Swift Ventures",
+      "purpose": "IAAI industry speaker and partnership engagement",
+      "date": null,
+      "url": "https://kogod.american.edu/iaai"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "National Science Foundation",
+      "purpose": "Multiple AI research awards (wildfire prediction, AI literacy in DC schools)",
+      "date": "2024-12",
+      "url": "https://www.american.edu/cas/news/nsf-grant-wildfire-prediction-ai.cfm"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Perplexity Enterprise Pro (Kogod)",
+      "scope": "Every Kogod student can build custom tutors, knowledge hubs, and research assistants via Perplexity Enterprise Pro",
+      "url": "https://kogod.american.edu/news/kogod-school-of-business-partners-with-perplexity-to-provide-enterprise-ai-access-to-all-students-staff-and-faculty"
+    },
+    {
+      "type": "other",
+      "name": "Career Center AI in Your Career Development guidance",
+      "scope": "Career Center resources on using AI for career preparation, resume, and interview prep",
+      "url": "https://www.american.edu/careercenter/ai-in-your-career-development.cfm"
+    },
+    {
+      "type": "other",
+      "name": "AU Library AI Instruction Toolkit",
+      "scope": "Self-service AI literacy modules and research-skills resources for students",
+      "url": "https://subjectguides.library.american.edu/AI_Toolkit"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AU School of Education NSF AI literacy project in DC public schools",
+      "description": "NSF-funded initiative led by Associate Dean Carolyn Parker to advance AI literacy in DC public schools, targeting equity of AI access for underrepresented K-12 populations.",
+      "url": "https://www.american.edu/soe/news/associate-dean-secures-nsf-grant-to-advance-ai-literacy-in-dc-schools.cfm"
+    },
+    {
+      "title": "AI: Ethics and Society certificates",
+      "description": "Undergraduate and graduate certificates with explicit focus on ethical and societal implications of AI, including algorithmic bias and societal impact.",
+      "url": "https://www.american.edu/cas/philrel/cert-ai-ethics-society.cfm"
+    },
+    {
+      "title": "Responsible Use of AI Principles — equity in assigned AI tools",
+      "description": "AU's faculty guidance requires that when faculty assign AI tools, the use must prioritize equity and any required-cost tool be covered by the department, preventing AI-tool-based inequity.",
+      "url": "https://www.american.edu/oit/security/responsible-use-of-ai.cfm"
+    }
+  ],
+  "regulatory_context": {
+    "state": "District of Columbia",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "DC has one of the most developed sub-national AI frameworks in the U.S. Mayor's Order 2024-028 (February 2024) established the District's responsible AI framework across agencies, with six principles (clear benefit, safety and equity, accountability, transparency, sustainability, privacy/cybersecurity) in DC's AI/ML Governance Policy. DC was the first major U.S. city to mandate Responsible AI training for government workers (in partnership with InnovateUS). There is no DC 'system' over private universities like AU; AU is an independent private nonprofit subject to federal law (FERPA, HIPAA where applicable) and DC anti-discrimination and privacy frameworks.",
+    "urls": [
+      "https://octo.dc.gov/page/aiml-governance-policy",
+      "https://techplan.dc.gov/page/dcs-ai-values-and-strategic-plan",
+      "https://octo.dc.gov/release/dc-becomes-first-major-us-city-require-responsible-ai-training-government-workforce"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "American University achieved R1 Carnegie status for the first time in February 2025 and has paired that milestone with one of the most school-led AI transformations in U.S. higher education. The center of gravity is Kogod School of Business, where Dean David Marchick has declared the goal of an 'AI-first' business school: a March 2024 announcement embedded 20+ AI courses, a March 2025 Perplexity Enterprise Pro partnership gave every Kogod student, staff, and faculty member enterprise AI access, the April 2025 launch of the Institute for Applied Artificial Intelligence (IAAI) created a cross-school institute with nearly two dozen AI Fellows, and a July 2025 portfolio unveiled a STEM BS, MS, minor, certificate, and badges in Business Analytics and AI. Outside Kogod, the College of Arts and Sciences runs the Center for AI Research in the Sciences and Humanities (CARSH) under Professor Leah Ding, received the Hedayat family's first named AI research gift, and is advancing tenure-track cluster hiring across CS/Physics, Ethics, Digital Cultures, and Economics. The Washington College of Law's Technology, Law & Security Program (2020) anchors AI policy scholarship with a National Security and AI track, while the School of International Service hosts the long-running Internet Governance Lab and COTELCO. Policy-wise, AU occupies a permissive-with-guardrails posture: OIT's Responsible Use of AI Principles prohibit confidential data entry and require human oversight of any decision affecting real persons, but the university does not centrally regulate whether faculty or students use LLMs. Instead it pushes decisions to syllabi, while the Office of Academic Integrity explicitly rejects Turnitin AI-detection scores as evidence. Computing infrastructure is modest but credible — Lovelace HPC with dual H100 and 24 L40 GPUs — constrained from FERPA/HIPAA workloads. Leadership includes President Jonathan Alger (16th president), Provost Vicky Wilkins (permanent April 2025), and CIO Steve Munson; there is no named Chief AI Officer, with IAAI Director Gwanhoo Lee functioning as de facto AI strategy lead. Notable gaps: AU has not publicly disclosed dollar figures for the IAAI standup, Perplexity deal, or faculty-cluster hire, and there is no publicly announced university-wide Copilot or ChatGPT Edu deployment beyond the Kogod-level Perplexity rollout.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.american.edu/news/american-university-achieves-r1-status.cfm",
+      "https://www.american.edu/president/alger-biography.cfm",
+      "https://www.american.edu/president/announcements/april-24-2025.cfm",
+      "https://www.american.edu/oit/cio.cfm",
+      "https://www.american.edu/president/steve-munson-bio.cfm",
+      "https://www.american.edu/oit/security/responsible-use-of-ai.cfm",
+      "https://www.american.edu/oit/security/interim-guidance-on-the-use-of-ai.cfm",
+      "https://www.american.edu/oit/security/responsible-use-of-ai-principles.cfm",
+      "https://www.american.edu/cas/research/artificial-intelligence.cfm",
+      "https://www.american.edu/cas/carsh/",
+      "https://www.american.edu/cas/news/gift-ai-research-fund.cfm",
+      "https://www.american.edu/cas/news/nsf-grant-wildfire-prediction-ai.cfm",
+      "https://www.american.edu/soe/news/associate-dean-secures-nsf-grant-to-advance-ai-literacy-in-dc-schools.cfm",
+      "https://kogod.american.edu/iaai",
+      "https://kogod.american.edu/news/kogod-school-of-business-launches-institute-for-applied-artificial-intelligence",
+      "https://kogod.american.edu/news/kogod-school-of-business-partners-with-perplexity-to-provide-enterprise-ai-access-to-all-students-staff-and-faculty",
+      "https://kogod.american.edu/news/kogod-school-of-business-infuses-artificial-intelligence-throughout-curriculum",
+      "https://www.american.edu/media/news/20240326_kogod-ai.cfm",
+      "https://www.american.edu/media/news/20250716_kogod-unveils-ai-major-minor-badges-and-certificates.cfm",
+      "https://kogod.american.edu/aicourses",
+      "https://kogod.american.edu/programs-admissions/undergraduate/business-analytics-and-ai",
+      "https://kogod.american.edu/programs-admissions/masters/analytics-and-ai",
+      "https://www.american.edu/cas/philrel/ma/grad-cert-ai-ethics-society.cfm",
+      "https://www.american.edu/cas/philrel/cert-ai-ethics-society.cfm",
+      "https://www.american.edu/cas/hpc/",
+      "https://www.american.edu/cas/hpc/software.cfm",
+      "https://www.american.edu/cas/hpc/procedures.cfm",
+      "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/",
+      "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/projects/national-security-and-ai.cfm",
+      "https://www.american.edu/wcl/impact/initiatives-programs/techlaw/curriculum.cfm",
+      "https://internetgovernancelab.org/",
+      "https://www.american.edu/sis/faculty/dcogburn.cfm",
+      "https://edspace.american.edu/cfe/artificial-intelligence/",
+      "https://edspace.american.edu/ctrl/wp-content/uploads/sites/23/2024/08/AI-Academic-Integrity-OAIs-Fall-Guidance-2024.pdf",
+      "https://www.american.edu/academics/integrity/code.cfm",
+      "https://www.american.edu/policies/students/upload/academic-integrity-code.pdf",
+      "https://www.theeagleonline.com/article/2023/12/part-i-ai-artificial-intelligence-or-academic-integrity",
+      "https://www.edtechinnovationhub.com/news/american-university-sets-ai-education-pace-with-new-institute-at-kogod-school-of-business",
+      "https://www.prnewswire.com/news-releases/the-kogod-school-of-business-at-american-university-launches-institute-for-applied-artificial-intelligence-302419951.html",
+      "https://www.bestcolleges.com/news/kogod-perlexity-ai-partnership/",
+      "https://www.theeagleonline.com/article/2025/04/breaking-vicky-wilkins-selected-as-permanent-provost",
+      "https://www.theeagleonline.com/article/2025/02/breaking-au-now-classified-as-r1-research-institution",
+      "https://en.wikipedia.org/wiki/American_University",
+      "https://www.american.edu/about/academic-profile.cfm",
+      "https://octo.dc.gov/page/aiml-governance-policy",
+      "https://techplan.dc.gov/page/dcs-ai-values-and-strategic-plan",
+      "https://octo.dc.gov/release/dc-becomes-first-major-us-city-require-responsible-ai-training-government-workforce",
+      "https://www.american.edu/careercenter/ai-in-your-career-development.cfm",
+      "https://subjectguides.library.american.edu/AI_Toolkit"
+    ],
+    "search_queries": [
+      "American University Washington DC AI strategy 2025 2026",
+      "American University DC generative AI policy faculty staff guidelines",
+      "American University DC artificial intelligence council committee governance",
+      "American University DC CIO provost president 2026",
+      "American University DC Institute for Applied Artificial Intelligence launched 2024 2025",
+      "American University DC CIO Chief Information Officer Munson",
+      "American University Washington DC CARSH Center for AI Research Leah Ding",
+      "American University DC AI degree program computer science data science 2025",
+      "American University DC Microsoft Copilot ChatGPT enterprise deployment",
+      "American University DC Center for Digital Ethics AI research certificate",
+      "American University Washington DC Hedayat Fund generative AI gift donation",
+      "American University DC NSF grant AI research 2025 2026",
+      "American University DC AI chatbot student services advising",
+      "American University DC Carnegie R1 classification enrollment 2024 2025",
+      "American University DC AI academic integrity policy cheating 2024 2025",
+      "American University DC Kogod AI major new undergraduate minor certificate 2025",
+      "American University DC School of Public Affairs AI policy governance tech",
+      "American University DC provost Vicky Wilkins appointed 2025",
+      "American University DC Jonathan Alger president AI vision",
+      "American University DC Lovelace HPC Nvidia H100 GPU cluster launch",
+      "American University DC Washington College of Law AI legal tech initiative 2024 2025",
+      "American University DC AI policy data privacy FERPA compliance regulations",
+      "American University DC AI Fellows Kogod curriculum infusion 2024 funding",
+      "American University DC controversy lawsuit AI discrimination facial recognition",
+      "DC Washington District of Columbia state AI policy higher education",
+      "American University DC School of Education AI literacy teachers training",
+      "American University DC Internet Governance Lab Derrick Cogburn COTELCO AI"
+    ],
+    "gaps_acknowledged": [
+      "No publicly disclosed dollar figure for IAAI standup or Perplexity Enterprise Pro contract value",
+      "No publicly announced enterprise ChatGPT Edu or Microsoft 365 Copilot campus-wide deployment (beyond Microsoft Copilot being named as an example in OIT guidance)",
+      "Exact founding year for CARSH not found in public sources (skill records null)",
+      "Hedayat Fund dollar size and exact date not disclosed publicly",
+      "No named Chief AI Officer — Gwanhoo Lee is the de facto AI strategy lead through IAAI",
+      "No university-level AI chatbot deployment found; student-facing AI is Kogod-scoped (Perplexity) and Career Center advisory content",
+      "No FERPA-related AI litigation or controversy located in public sources",
+      "Exact launch date of Kogod's earliest AI Sage/Artisan course series not confirmed; March 2024 announcement with fall 2024 rollout used as anchor"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "curriculum_led",
+      "secondary": [
+        "balanced_enterprise",
+        "research_compute_powerhouse",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 8,
+        "research_compute_powerhouse": 17,
+        "curriculum_led": 21,
+        "governance_led": 16,
+        "student_success_led": 3,
+        "workforce_regional_development": 7,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: curriculum led."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2024-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "rejects_or_limits_detection"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 11,
+      "ai_program_count": 10,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 3,
+        "ai_resilient_assessment": 2,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 2
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 3,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Lovelace",
+        "gpu_count": 26,
+        "capacity_tier": "gpu_cluster_disclosed"
+      },
+      "disclosed_funding_usd": 156867245,
+      "funding_source_buckets": {
+        "institutional": 11,
+        "public_federal_state": 5,
+        "philanthropy_foundation": 1,
+        "other_unclear": 2,
+        "industry_vendor": 1
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 3
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Perplexity AI Perplexity Enterprise Pro",
+          "mentions": 4,
+          "products": [
+            "Perplexity Enterprise Pro"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 3,
+          "products": [
+            "Lovelace HPC",
+            "Nvidia H100",
+            "Nvidia L40"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft 365 / Office 365 (Copilot referenced in guidance)",
+            "Microsoft Copilot"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 1,
+          "products": [
+            "Claude"
+          ]
+        },
+        {
+          "vendor": "AU Library AI Instruction Toolkit",
+          "mentions": 1,
+          "products": [
+            "AI Instruction Toolkit"
+          ]
+        },
+        {
+          "vendor": "Credo Reference Credo Information Literacy Modules",
+          "mentions": 1,
+          "products": [
+            "Credo Information Literacy Modules"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini"
+          ]
+        },
+        {
+          "vendor": "IBM",
+          "mentions": 1,
+          "products": [
+            "Red Hat Enterprise Linux"
+          ]
+        },
+        {
+          "vendor": "Open source Python / R",
+          "mentions": 1,
+          "products": [
+            "Python / R"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        },
+        {
+          "vendor": "Perplexity AI Perplexity",
+          "mentions": 1,
+          "products": [
+            "Perplexity"
+          ]
+        },
+        {
+          "vendor": "Turnitin",
+          "mentions": 1,
+          "products": [
+            "Turnitin AI Detection"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Perplexity AI Perplexity Enterprise Pro",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": false,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "productivity",
+          "title": "Kogod / Perplexity Enterprise Pro campus-wide AI partnership",
+          "summary": "Establishes Perplexity as a credible higher-ed enterprise vendor alongside Microsoft Copilot, OpenAI ChatGPT Edu, and Google Gemini, giving mid-sized private universities a fourth viable campus-wide AI platform path.",
+          "source_url": "https://kogod.american.edu/news/kogod-school-of-business-partners-with-perplexity-to-provide-enterprise-ai-access-to-all-students-staff-and-faculty"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Academic Integrity Code overhaul and Turnitin AI-detection shutdown",
+          "summary": "An early, explicit rejection of AI-detection-as-proof in academic integrity; sets a precedent for peer institutions navigating LLM-era assessment.",
+          "source_url": "https://edspace.american.edu/ctrl/wp-content/uploads/sites/23/2024/08/AI-Academic-Integrity-OAIs-Fall-Guidance-2024.pdf"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 4,
+      "control_signal_count": 9,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No publicly disclosed dollar figure for IAAI standup or Perplexity Enterprise Pro contract value",
+        "No publicly announced enterprise ChatGPT Edu or Microsoft 365 Copilot campus-wide deployment (beyond Microsoft Copilot being named as an example in OIT guidance)",
+        "Exact founding year for CARSH not found in public sources (skill records null)",
+        "Hedayat Fund dollar size and exact date not disclosed publicly",
+        "No named Chief AI Officer — Gwanhoo Lee is the de facto AI strategy lead through IAAI",
+        "No university-level AI chatbot deployment found; student-facing AI is Kogod-scoped (Perplexity) and Career Center advisory content",
+        "No FERPA-related AI litigation or controversy located in public sources",
+        "Exact launch date of Kogod's earliest AI Sage/Artisan course series not confirmed; March 2024 announcement with fall 2024 rollout used as anchor"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1913 @@
+{
+  "institution": "Wayne State University",
+  "slug": "wayne-state-university",
+  "city_state": "Detroit, MI",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 24168,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Richard A. Bierschbach (interim)",
+      "url": "https://president.wayne.edu/about"
+    },
+    "provost": {
+      "name": "Vacant; Laurie Lauzon Clabo serving as senior adviser through May 2026",
+      "url": "https://provost.wayne.edu/meet-the-provost"
+    },
+    "cio": {
+      "name": "Rob Thompson",
+      "url": "https://wayne.edu/people/ab5602"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Dongxiao Zhu",
+      "title": "Co-Director, Institute for AI and Data Science (AIDaS); Founder and Inaugural Director, Wayne AI Research Initiative",
+      "url": "https://research.wayne.edu/aidas"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Grand Challenges: Powering innovation with AI (one of four research pillars)",
+        "url": "https://research.wayne.edu/grand-challenges/ai",
+        "year": 2025
+      },
+      {
+        "title": "Institute for AI and Data Science (AIDaS) charter, approved by Board of Governors",
+        "url": "https://today.wayne.edu/news/2025/10/27/wayne-state-announces-creation-of-the-institute-for-ai-and-data-science-67514",
+        "year": 2025
+      },
+      {
+        "title": "2025-26 Year of Focus: 'AI in Action'",
+        "url": "https://provost.wayne.edu/year-of-focus",
+        "year": 2025
+      },
+      {
+        "title": "Ad Hoc AI Committee Running Report (Fall 2024 & Winter 2025)",
+        "url": "https://academicsenate.wayne.edu/adhocaicommittee",
+        "year": 2025
+      }
+    ],
+    "summary": "Wayne State's AI strategy is anchored in its September 2025 Grand Challenges initiative, which identifies AI as one of four research pillars alongside health, mobility, and environmental sustainability. The Board of Governors approved the six-year charter for the Institute for AI and Data Science (AIDaS) on October 23, 2025, creating an interdisciplinary hub reporting to the Vice President for Research & Innovation. The Division of Academic Affairs designated 2025-26 as the 'AI in Action' Year of Focus, organizing a campus-wide programming series on AI's impact on education, work, community, and the environment. The strategy emphasizes 'responsible human-AI collaborations' and ethical AI methodologies, with Wayne State positioning itself as Michigan's only urban R1 institution in AI research."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://tech.wayne.edu/policies/aiguidelines",
+      "https://tech.wayne.edu/help/wsuai",
+      "https://wayne.edu/policies/acceptable-use",
+      "https://bog.wayne.edu/code/2-31-02",
+      "https://doso.wayne.edu/care/student-conduct/academic-misconduct"
+    ],
+    "adopted_date": null,
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "All AI tools must be reviewed and approved by Computing & Information Technology (C&IT) before use",
+      "Third-party unvetted AI tools are not approved; users must select from C&IT-approved list",
+      "Prohibits input of FERPA-protected student information, PII/PHI, enterprise reporting data (Cognos, Power BI), and cell sizes under 10 into AI systems",
+      "Research use must follow NIH and NSF policies on AI in grant proposals and peer review",
+      "Board of Governors amended Student Code of Conduct (2.31.02) to require students to follow instructor AI guidance in each course",
+      "Student Code of Conduct treats unauthorized AI use in coursework as cheating",
+      "Academic Senate AI subcommittee developed optional syllabus language templates for faculty",
+      "Warns against AI-enabled phishing, deepfakes, and unauthorized meeting bots"
+    ],
+    "summary": "Wayne State operates a cautious but comprehensive AI policy framework. The core Guidelines for Using Generative AI (tech.wayne.edu/policies/aiguidelines) require C&IT approval for any AI tool before use, with a short approved list that includes WarriorGPT, Microsoft Copilot, Google Vertex AI, Cursor, Zoom AI Companion, and (with exception approval) ChatGPT and Claude. The Board of Governors amended the Student Code of Conduct in 2025 to formalize instructor discretion: students must follow course-level AI guidance, with syllabus language templates provided by the Academic Senate's ad hoc AI subcommittee. Data protection is explicit and strict, with FERPA and PII firmly off-limits for external AI systems."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "Institute for AI and Data Science (AIDaS)",
+        "type": "office",
+        "scope": "Six-year chartered interdisciplinary institute integrating Wayne AI Research Initiative, Data Science and Business Analytics, and Computation/AI/Data Science groups; reports to VP for Research & Innovation; co-directed by Dr. Dongxiao Zhu and Dr. Hengguang Li",
+        "url": "https://research.wayne.edu/aidas"
+      },
+      {
+        "name": "Ad Hoc AI Committee (Academic Senate)",
+        "type": "committee",
+        "scope": "Faculty governance committee chaired by Richard Pineau; developed syllabus language templates and the amendment to the Student Code of Conduct that codifies instructor AI policy authority; issues annual running reports",
+        "url": "https://academicsenate.wayne.edu/adhocaicommittee"
+      },
+      {
+        "name": "Grand Challenges AI Pillar",
+        "type": "office",
+        "scope": "Launched September 10, 2025 by President Kimberly Espy and VP for Research Ezemenari Obasi as one of four university-wide research pillars",
+        "url": "https://research.wayne.edu/grand-challenges/ai"
+      },
+      {
+        "name": "Wayne AI Research Initiative",
+        "type": "office",
+        "scope": "Pre-existing research coordinating group founded by Dr. Dongxiao Zhu, now integrated into AIDaS; covers computer vision, NLP, cybersecurity, mobility, healthcare, and 'intelligent reality'",
+        "url": "https://ai.wayne.edu/"
+      },
+      {
+        "name": "Year of Focus Steering (Office of the Provost)",
+        "type": "task_force",
+        "scope": "Coordinates the 2025-26 'AI in Action' Year of Focus programming across Wayne AI, Office for Teaching & Learning, and the Computation/AI/Data Science Initiative",
+        "url": "https://provost.wayne.edu/year-of-focus"
+      }
+    ],
+    "summary": "Governance is distributed across research, faculty senate, and provost offices. AIDaS is the flagship operational body created in October 2025, with a six-year charter and co-direction from computer science and mathematics. Faculty governance runs through the Academic Senate's Ad Hoc AI Committee (which has been active since at least Winter 2023), which authored the Student Code of Conduct amendment passed by the Board of Governors in 2025. There is no single Chief AI Officer role; strategy is effectively shared between the VP for Research & Innovation, the CIO, and the Academic Senate."
+  },
+  "initiatives": [
+    {
+      "title": "Institute for AI and Data Science (AIDaS) established with six-year Board charter",
+      "description": "On October 23, 2025, Wayne State's Board of Governors approved a six-year charter establishing AIDaS as an interdisciplinary institute hosting research across engineering, medicine, public health, education, business, social sciences, and liberal arts. The institute integrates the Wayne AI Research Initiative, Data Science and Business Analytics program, and Computation/AI/Data Science groups, and is co-directed by Dr. Dongxiao Zhu (Computer Science) and Dr. Hengguang Li (Mathematics).",
+      "significance": "Signals institutional commitment to AI at Michigan's only urban R1 and aligns AI research with the broader Grand Challenges research strategy.",
+      "date_announced": "2025-10-27",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "institutional_restructuring",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Wayne State University",
+        "description": "Six-year chartered institute; specific funding envelope not disclosed in public announcement"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "James and Patricia Anderson College of Engineering",
+            "School of Medicine",
+            "College of Liberal Arts and Sciences",
+            "Mike Ilitch School of Business"
+          ],
+          "description": "Internal cross-college institute; intentional interdisciplinary design"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Reports directly to VP for Research & Innovation; provides governance home for ethical AI research methodologies",
+      "source_urls": [
+        "https://today.wayne.edu/news/2025/10/27/wayne-state-announces-creation-of-the-institute-for-ai-and-data-science-67514",
+        "https://research.wayne.edu/aidas",
+        "https://www.govtech.com/education/higher-ed/wayne-state-to-launch-institute-for-ai-and-data-science",
+        "https://www.detroitnews.com/story/news/local/wayne-county/2025/10/23/wayne-state-university-institute-ai-data-science-board-artificial-intelligence/86859564007/"
+      ]
+    },
+    {
+      "title": "Grand Challenges initiative with AI as one of four research pillars",
+      "description": "President Kimberly Espy and VP for Research & Innovation Dr. Ezemenari Obasi launched Grand Challenges on September 10, 2025, identifying four pillars: lifelong health, sustainable environments, AI innovation, and smart mobility. The AI pillar asks 'How can we leverage responsible human-AI collaborations to drive discovery, innovation and economic growth?'",
+      "significance": "Embeds AI in a top-level research strategy and connects it to three domain pillars (health, environment, mobility), driving cross-pillar funding alignment.",
+      "date_announced": "2025-09-10",
+      "primary_category": "institutional_transformation",
+      "secondary_categories": [
+        "research_and_innovation",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_research_center",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Wayne State University internal and anticipated external grants",
+        "description": "University-wide research framework; specific Grand Challenges envelope not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "All Wayne State colleges and research units"
+          ],
+          "description": "Internal multi-college initiative"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Defines 'responsible human-AI collaboration' as institutional framing",
+      "source_urls": [
+        "https://research.wayne.edu/grand-challenges/ai",
+        "https://today.wayne.edu/news/2025/10/03/wayne-state-explores-ai-opportunities-and-questions-they-present-67325"
+      ]
+    },
+    {
+      "title": "WarriorGPT — private generative AI platform for faculty, staff, and students",
+      "description": "C&IT developed WarriorGPT, a Wayne State-hosted generative AI chatbot running on open-source LLMs. It is available to faculty and staff for instructional and administrative use, and faculty can enable it in Canvas to grant student access at the course level. The platform does not retain user inputs or train on conversations, mitigating institutional data risk from external consumer AI tools.",
+      "significance": "Provides a FERPA-aware institutional alternative to consumer AI tools and is the approved default for work with non-public Wayne State data.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "lms_embedded_ai",
+        "data_privacy_and_security",
+        "ai_enhanced_pedagogy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wayne State C&IT operating budget",
+        "description": "Internally built platform hosted on Wayne State infrastructure; cost not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal C&IT build using open-source LLMs"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "WarriorGPT",
+          "vendor": "Wayne State C&IT (self-hosted)",
+          "role": "Private generative AI chatbot"
+        },
+        {
+          "name": "Canvas LMS",
+          "vendor": "Instructure",
+          "role": "Delivery channel for course-level WarriorGPT access"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Designed explicitly to solve the data-exfiltration problem of external consumer AI services",
+      "source_urls": [
+        "https://tech.wayne.edu/about/projects/warriorgpt",
+        "https://tech.wayne.edu/help/wsuai"
+      ]
+    },
+    {
+      "title": "Guidelines for Using Generative AI + approved tools list",
+      "description": "C&IT publishes comprehensive generative AI guidelines that require any AI tool to be reviewed and approved before use. The approved list currently includes WarriorGPT, Cursor AI, Google Vertex AI, Microsoft Copilot, Microsoft Copilot Chat, Microsoft Teams Premium, Zoom AI Companion, ChatGPT (with C&IT exception), and Claude (with C&IT exception). Guidelines prohibit input of FERPA-protected data, PII/PHI, and other sensitive categories.",
+      "significance": "One of the more concrete and restrictive AI vendor-approval regimes in the Midwest, with published whitelist and explicit enterprise testing mentioned (Copilot, Zoom AI, Canvas AI).",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wayne State C&IT",
+        "description": "Software licensing and security-review operations"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "Google",
+            "Zoom",
+            "Anthropic",
+            "OpenAI"
+          ],
+          "description": "Enterprise vendor agreements with data protection terms"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Productivity AI for administrative staff"
+        },
+        {
+          "name": "Microsoft Copilot Chat",
+          "vendor": "Microsoft",
+          "role": "Public GPT bundled with M365 license"
+        },
+        {
+          "name": "Google Vertex AI",
+          "vendor": "Google",
+          "role": "Research AI platform"
+        },
+        {
+          "name": "Cursor AI",
+          "vendor": "Cursor",
+          "role": "Code generation for IT/research"
+        },
+        {
+          "name": "Zoom AI Companion",
+          "vendor": "Zoom",
+          "role": "Meeting summarization"
+        },
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Productivity AI (requires C&IT exception)"
+        },
+        {
+          "name": "Claude",
+          "vendor": "Anthropic",
+          "role": "AI assistant (requires C&IT exception)"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Whitelist approach; anything not on the list is not permitted without exception",
+      "source_urls": [
+        "https://tech.wayne.edu/policies/aiguidelines",
+        "https://tech.wayne.edu/help/wsuai"
+      ]
+    },
+    {
+      "title": "Board of Governors amends Student Code of Conduct for AI",
+      "description": "The Wayne State Board of Governors amended Code 2.31.02 (Student Code of Conduct) in 2025 following a recommendation from the Academic Senate's Ad Hoc AI Committee. The amendment does not ban AI; it requires students to follow course-level instructor guidance on when and how AI may be used. The AI subcommittee developed syllabus language templates for faculty. Unauthorized AI use in coursework is treated as cheating.",
+      "significance": "Provides a durable governance mechanism for faculty-level AI policy without prescribing a single institutional stance, preserving pedagogical discretion.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "board_and_trustees"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Wayne State University",
+        "description": "Policy change with no disclosed budget impact"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal faculty-Board collaboration"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Locks in instructor discretion as the unit of AI policy enforcement",
+      "source_urls": [
+        "https://today.wayne.edu/news/2025/10/03/wayne-state-explores-ai-opportunities-and-questions-they-present-67325",
+        "https://bog.wayne.edu/code/2-31-02",
+        "https://academicsenate.wayne.edu/adhocaicommittee",
+        "https://doso.wayne.edu/care/student-conduct/academic-misconduct"
+      ]
+    },
+    {
+      "title": "IntelliMake research hub and pilot-scale AI factory with Kyndryl",
+      "description": "On January 13, 2026, Wayne State and Kyndryl announced a multi-year collaboration to establish the IntelliMake research hub and a pilot-scale factory inside the James and Patricia Anderson College of Engineering. The hub co-develops agentic AI, robotics, and digital twin manufacturing technologies, integrated via Kyndryl Bridge. It is pitched as positioning Detroit and Michigan within a projected $10 trillion smart manufacturing market.",
+      "significance": "Rare academic-industry pilot factory for agentic AI manufacturing, anchored in Detroit's auto-industry context and explicitly workforce-oriented.",
+      "date_announced": "2026-01-13",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "regional_economic_impact",
+        "ai_workforce_training",
+        "ai_vendor_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "agentic_ai",
+        "robotics_and_physical_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Wayne State + Kyndryl (multi-year)",
+        "description": "Multi-year joint investment, amount not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Kyndryl"
+          ],
+          "description": "Multi-year co-development and workforce training collaboration"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Kyndryl Bridge",
+          "vendor": "Kyndryl",
+          "role": "Infrastructure orchestration for AI manufacturing demos"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://investors.kyndryl.com/news-releases/news-release-details/wayne-state-university-and-kyndryl-announce-collaboration",
+        "https://www.kyndryl.com/in/en/about-us/news/2026/01/detroit-ai-manufacturing-hub-announcement",
+        "https://www.crainsdetroit.com/technology/wayne-state-university-and-kyndryl-launch-ai-manufacturing-facility"
+      ]
+    },
+    {
+      "title": "Google Public Sector partnership and PHOENIX public health AI platform",
+      "description": "Announced June 2, 2025, Wayne State partnered with Google Public Sector to deploy Google Cloud infrastructure (BigQuery, Google Kubernetes Engine, AI Hypercomputer) across research. The flagship use case is PHOENIX (Population Health Outcomes and Information Exchange), which covers eight states from Wisconsin to Massachusetts and — with partner Syntasa — powers CHNA 2.0, cutting Community Health Needs Assessments from up to a year to weeks using Syntasa Sentiment Analytics over surveys, Google Search, and social-media data.",
+      "significance": "Concrete, operational AI-for-public-good deployment; strong evidence of applied AI research translating to measurable public-health impact in Detroit and region.",
+      "date_announced": "2025-06-02",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "ai_vendor_partnership",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "nlp_for_assessment",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Wayne State + Google Public Sector + Syntasa",
+        "description": "Multi-year cloud and analytics partnership; amount not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Google Public Sector",
+            "Syntasa"
+          ],
+          "description": "Partnership spanning research infrastructure and applied public-health AI"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "BigQuery",
+          "vendor": "Google Cloud",
+          "role": "Analytics data warehouse for PHOENIX"
+        },
+        {
+          "name": "Google Kubernetes Engine",
+          "vendor": "Google Cloud",
+          "role": "Scalable workload runtime for CHNA 2.0"
+        },
+        {
+          "name": "AI Hypercomputer",
+          "vendor": "Google Cloud",
+          "role": "Research computation infrastructure"
+        },
+        {
+          "name": "Syntasa Sentiment Analytics",
+          "vendor": "Syntasa",
+          "role": "Sentiment analysis over surveys, search, social media"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Secure, Wayne State-owned de-identified data architecture",
+      "source_urls": [
+        "https://today.wayne.edu/news/2025/06/02/wayne-state-university-partners-with-google-public-sector-to-accelerate-scientific-breakthroughs-66503",
+        "https://cloud.google.com/blog/topics/public-sector/wayne-state-university-and-syntasa-transforming-public-health-assessments-with-ai",
+        "https://phoenix.wayne.edu/",
+        "https://www.syntasa.com/news/transforming-public-health-assessments-with-ai-wayne-state-university-and-syntasa/"
+      ]
+    },
+    {
+      "title": "eCAT — NSF IUCRC Center for Electric, Connected and Autonomous Technologies",
+      "description": "Wayne State leads eCAT, an NSF Industry-University Cooperative Research Center (Award 2231523) launched September 15, 2023 with a five-year, $4.5 million budget ($2.25M NSF, remainder industry). Partnering with University of North Texas and Clarkson University, eCAT develops V2X communications, real-time edge computing, autonomous systems, and AI-based perception technologies. Director: Dr. Caisheng Wang; Zheng Dong is WSU site co-director.",
+      "significance": "Federal-scale research center anchoring Wayne State's AI-for-mobility agenda and linking into Detroit's automotive industry corridor.",
+      "date_announced": "2023-09-15",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4500000,
+        "funding_source": "NSF (IUCRC program, $2.25M) + industry partners",
+        "description": "Five-year NSF I/UCRC grant"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "University of North Texas",
+            "Clarkson University"
+          ],
+          "description": "NSF-funded multi-university IUCRC with industry membership"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.wayne.edu/news/wayne-state-led-collaborative-center-for-autonomous-vehicle-research-receives-45-million-from-national-science-foundation-and-industry-partners-58686"
+      ]
+    },
+    {
+      "title": "M.S. in Artificial Intelligence (three concentrations)",
+      "description": "Wayne State's James and Patricia Anderson College of Engineering offers a 30-credit M.S. in Artificial Intelligence with three concentrations: AI Hardware and Systems, AI Algorithms and Systems, and Industrial AI. The program ranked #20 nationally in the 2024 TechGuide master's rankings. A new CSC 5991 course, 'Trustworthy AI for Large Language Models and Vision-Language Models,' debuted in Winter 2026.",
+      "significance": "Dedicated AI master's with explicit industrial and hardware tracks — rare outside top-20 CS programs — and a new trustworthy-AI course placing the program in alignment with responsible AI trends.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "computer_vision",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wayne State University (tuition-funded)",
+        "description": "Ongoing graduate program in the College of Engineering"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Degree program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://engineering.wayne.edu/master-artificial-intelligence",
+        "https://bulletins.wayne.edu/graduate/college-engineering/computer-science/artificial-intelligence-ms/",
+        "https://ai.wayne.edu/"
+      ]
+    },
+    {
+      "title": "AI online professional certificate and Amesite partnership",
+      "description": "Wayne State offers an online AI certificate through Knowledge on Demand / Online Programs covering markets, key players, AI technology across business/health/social media, jobs impact, and regulatory issues. In September 2020, Wayne State expanded a 2019 partnership with Amesite Inc. to offer 'stackable' AI-backed six-week certification courses covering AI, blockchain, data science, gamification, and smart manufacturing, plus mobility certifications.",
+      "significance": "Low-friction professional-development pathway for Detroit's workforce, packaged in sector-specific stackable certificates.",
+      "date_announced": "2020-09",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "industry_certification_pathway",
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wayne State + Amesite (partnership)",
+        "description": "Partnership launched 2019; expanded 2020"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Amesite Inc."
+          ],
+          "description": "AI-backed online learning ecosystem for Wayne State's continuing-ed certificates"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Amesite platform",
+          "vendor": "Amesite Inc.",
+          "role": "AI-backed online learning delivery"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://online.wayne.edu/professional-development/artificial-intelligence",
+        "https://knowledgeondemand.wayne.edu/professional-development/artificial-intelligence",
+        "https://engineering.wayne.edu/news/wayne-state-and-amesite-partner-to-provide-online-professional-certification-mobility-courses-aimed-at-workforce-training-44782"
+      ]
+    },
+    {
+      "title": "W the Warrior Bot — SMS conversational AI for enrollment and student services",
+      "description": "W the Warrior is a 24/7 SMS AI chatbot launched in April 2018 with AdmitHub (now Mainstay). It answers admissions and registration questions, sends deadline reminders, and escalates to staff when needed. Reported outcomes include a 14.6% increase in enrollment, 18% rise among first-generation students, and 13% rise among Pell-eligible students — particularly serving minority and underserved learners. A related service, DetroitEd411, launched in 2019 through Facebook Messenger.",
+      "significance": "Early, long-running deployment of conversational AI with documented impact on first-gen and underserved enrollment — one of the most-cited chatbot success stories in higher ed.",
+      "date_announced": "2018-04",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_in_admissions_and_enrollment",
+        "personalized_student_support",
+        "underrepresented_student_support",
+        "digital_divide_and_access"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wayne State University",
+        "description": "Vendor-licensed SMS chatbot platform"
+      },
+      "collaborations": [
+        {
+          "pattern": "startup_academic",
+          "partners": [
+            "AdmitHub (now Mainstay)"
+          ],
+          "description": "Founding-era partnership with higher-ed chatbot startup"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "W the Warrior Bot",
+          "vendor": "Mainstay (formerly AdmitHub)",
+          "role": "SMS conversational AI for student success"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://studentsuccess.wayne.edu/resources/students/w-bot",
+        "https://mainstay.com/case-study/record-breaking-enrollment-university-attracts-underserved-students-with-ai/",
+        "https://today.wayne.edu/news/2021/03/19/wayne-state-to-streamline-communication-for-current-students-using-artificial-intelligence-41953"
+      ]
+    },
+    {
+      "title": "2025-26 Year of Focus: 'AI in Action' campus programming",
+      "description": "The Division of Academic Affairs designated the 2025-26 academic year as Year of Focus 'AI in Action,' organizing campus-wide events exploring AI's impact on education, work, community, and the environment. Confirmed programming includes an April 1, 2026 keynote with Sal Khan (Khan Academy), a March 23, 2026 panel on AI and the Future of Work, a March 25 hands-on Explore AI Together session, and an April 20 session on Community and Environmental Impacts of AI.",
+      "significance": "Embeds AI literacy into institutional culture through a year-long visible programming arc that intentionally rotates perspectives (labor, community, environment).",
+      "date_announced": "2025-09",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "liberal_arts_in_ai_era"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Wayne State Provost's Office",
+        "description": "Programming series; operational only"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Khan Academy"
+          ],
+          "description": "Khan Academy's Sal Khan as keynote speaker"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://provost.wayne.edu/year-of-focus",
+        "https://events.wayne.edu/main/2026/04/01/learning-reimagined-ai-and-the-future-of-education-106182",
+        "https://events.wayne.edu/main/2026/03/23/year-of-focus-ai-and-the-future-of-work-105866",
+        "https://events.wayne.edu/main/2026/04/20/year-of-focus-community-and-environmental-impacts-of-ai-105867",
+        "https://education.wayne.edu/news/wayne-state-university-explores-ai-and-the-future-of-learning-with-sal-khan-68162"
+      ]
+    },
+    {
+      "title": "NIH AI-enabled drug design and biomedical imaging grants",
+      "description": "Wayne State secured more than $4 million in NIH funding across multiple AI-enabled biomedical projects. Dr. Alice Walker (Chemistry) received a $1.8 million NIGMS grant to develop AI-enabled imaging tools for sugar-based drug design. Dr. Zichun Zhong received an NSF grant to build MicroVessel Processor (MVP), an AI platform for 3D microvascular imaging. Dr. Ming Dong is leading AI-generated synthetic CT imaging from MRI now in clinical trials with University of Wisconsin.",
+      "significance": "Federally-funded AI-for-biomedical research pipeline with clinical-translation pathway, reinforcing Wayne State's AI-health intersection.",
+      "date_announced": "2024-12",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 4000000,
+        "funding_source": "NIH (NIGMS), NSF",
+        "description": "Multiple federal grants totaling over $4M for AI-enabled biomedical research"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH",
+            "NSF",
+            "University of Wisconsin (clinical trials partner)"
+          ],
+          "description": "Federal grant portfolio with external clinical collaborators"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.sciencecoalition.org/2024/12/16/the-science-coalition-applauds-wayne-state-for-securing-nih-funding/",
+        "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843"
+      ]
+    },
+    {
+      "title": "NAOMI — NIH-funded conversational AI for obesity motivational interviewing",
+      "description": "Dr. Alexander Kotov (Computer Science) leads NAOMI (Neural Agent for Obesity Motivational Interviewing), an NIH-funded conversational AI project delivering personalized weight-loss motivation when clinicians are unavailable. It represents one of Wayne State's applied AI-for-health deployments inside a community with elevated chronic-disease burden.",
+      "significance": "Community-level applied AI in behavioral health targeting a population served directly by Wayne State's School of Medicine and Detroit community.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "student_experience_and_services",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "mental_health_and_wellbeing",
+        "ai_in_specific_disciplines",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NIH",
+        "description": "NIH-funded applied AI research"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH"
+          ],
+          "description": "NIH-funded research"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843"
+      ]
+    },
+    {
+      "title": "NSF-funded LLM unlearning research (Zhu lab)",
+      "description": "Dr. Dongxiao Zhu (Computer Science, AIDaS co-director) leads NSF-funded research on large language model 'unlearning' — teaching AI systems to selectively forget toxic, private, or copyrighted content without full retraining. Funded under NSF's Collaborative Research: III: Medium program.",
+      "significance": "Places Wayne State at the forefront of the trust-and-safety research frontier, addressing a core bottleneck for responsible deployment of large models.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "open_source_contribution",
+        "ai_ethics_framework",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF (Collaborative Research: III: Medium)",
+        "description": "NSF-funded research grant"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Federally funded"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843",
+        "https://dongxiaozhu.github.io/"
+      ]
+    },
+    {
+      "title": "NSF CAREER awards for AI safety and autonomous-vehicle reliability",
+      "description": "Wayne State received multiple NSF CAREER awards in 2025 for AI-focused research. Dr. Zheng Dong received a CAREER award for ChronosDrive, ensuring timing correctness in DNN-driven autonomous vehicles; Dr. Mahbub Islam received a CAREER award in AI reliability.",
+      "significance": "Multiple CAREER awards in a single year indicate a pipeline of federally-recognized junior AI faculty at Wayne State.",
+      "date_announced": "2025",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NSF",
+        "description": "Multiple CAREER awards"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF"
+          ],
+          "description": "Federal early-career faculty development"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://ai.wayne.edu/",
+        "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843"
+      ]
+    },
+    {
+      "title": "HPC Grid — campus research computing including GPU resources",
+      "description": "Wayne State's Computing & Information Technology operates the Wayne State Grid, a centrally-managed HPC cluster serving research with scalable, GPU-enabled nodes. The Grid is connected via Science DMZ, Internet2, and the Michigan LambdaRail. HPC staff provide consulting and support for grants, and researchers can purchase dedicated GPU hardware hosted by HPC.",
+      "significance": "Campus HPC anchors local AI research, supplemented by Google AI Hypercomputer access via the Google Public Sector partnership.",
+      "date_announced": null,
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Wayne State C&IT + researcher-purchased hardware",
+        "description": "Ongoing research HPC operation"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal research infrastructure"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://tech.wayne.edu/services/hpc",
+        "https://www.grid.wayne.edu/",
+        "https://tech.wayne.edu/help/high-performance-computing"
+      ]
+    },
+    {
+      "title": "AI-Innovations Initiative — School of Medicine / Neurology",
+      "description": "The Department of Neurology within the Wayne State School of Medicine hosts an AI & Innovations Initiative to advance AI in clinical neurology practice, translational research, and medical education.",
+      "significance": "School-of-Medicine-level AI unit expanding beyond engineering and signaling AI's spread across Wayne State's clinical programs.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "researchers",
+        "community"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "School of Medicine",
+        "description": "Departmental initiative"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal school initiative"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://neurology.med.wayne.edu/ai"
+      ]
+    },
+    {
+      "title": "AI and Information Literacy module — Wayne State Library System",
+      "description": "The Wayne State Library System publishes an AI and Information Literacy self-study module (1-2 hours; quizzes and activities) and a Using AI Carefully and Thoughtfully guide. The module was adapted from CC-BY licensed materials originally developed by University of Maryland Libraries and the Teaching and Learning Transformation Center.",
+      "significance": "Scalable AI literacy touchpoint accessible outside degree programs; aligns with the 2025-26 Year of Focus and broadens reach beyond engineering.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "ai_tool_equity",
+        "multilingual_and_culturally_responsive_ai"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Wayne State Library System",
+        "description": "Reused open-licensed materials; operational only"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "University of Maryland Libraries",
+            "UMD Teaching and Learning Transformation Center"
+          ],
+          "description": "Shared open-educational-resource adaptation"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://guides.lib.wayne.edu/AILiteracy",
+        "https://guides.lib.wayne.edu/c.php?g=1470324&p=10943147"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Institute for AI and Data Science (AIDaS)",
+      "focus": "Interdisciplinary AI research across ML, computer vision, NLP, optimization, big data analytics; applications in healthcare, engineering, social sciences, business",
+      "founded": "2025",
+      "url": "https://research.wayne.edu/aidas"
+    },
+    {
+      "name": "Wayne AI Research Initiative",
+      "focus": "Computer vision, NLP, cybersecurity, transportation/mobility, healthcare, intelligent reality",
+      "founded": null,
+      "url": "https://ai.wayne.edu/"
+    },
+    {
+      "name": "Center for Electric, Connected and Autonomous Technologies (eCAT)",
+      "focus": "NSF IUCRC — V2X communications, edge computing, autonomous and electric vehicles",
+      "founded": "2023",
+      "url": "https://engineering.wayne.edu/news/wayne-state-led-collaborative-center-for-autonomous-vehicle-research-receives-45-million-from-national-science-foundation-and-industry-partners-58686"
+    },
+    {
+      "name": "Industry Center for Advanced Mobility",
+      "focus": "Autonomous driving, connectivity, smart infrastructure, electrification (Wayne State + Michigan Mobility Institute)",
+      "founded": "2019",
+      "url": "https://michiganmobilityinstitute.org/mobility-center/"
+    },
+    {
+      "name": "AI & Innovations Initiative (Department of Neurology)",
+      "focus": "Clinical AI in neurology and medical education",
+      "founded": null,
+      "url": "https://neurology.med.wayne.edu/ai"
+    },
+    {
+      "name": "CAR Lab (Connected and Autonomous Research Lab)",
+      "focus": "Edge computing, connected/autonomous vehicle computing; open-source HydraOne platform",
+      "founded": null,
+      "url": "https://www.thecarlab.org/news"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence — AI Algorithms and Systems concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://bulletins.wayne.edu/graduate/college-engineering/computer-science/artificial-intelligence-ms/"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence — AI Hardware and Systems concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://engineering.wayne.edu/master-artificial-intelligence"
+    },
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence — Industrial AI concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://engineering.wayne.edu/master-artificial-intelligence"
+    },
+    {
+      "type": "concentration",
+      "name": "M.S. in Computer Science — Artificial Intelligence concentration (online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://engineering.wayne.edu/computer-science/academics/online-ms-computer-science"
+    },
+    {
+      "type": "concentration",
+      "name": "M.S. in Computer Science — Autonomous Driving concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://engineering.wayne.edu/computer-science/academics/online-ms-computer-science"
+    },
+    {
+      "type": "certificate",
+      "name": "Online AI Professional Certificate",
+      "level": "both",
+      "launched": null,
+      "url": "https://online.wayne.edu/professional-development/artificial-intelligence"
+    },
+    {
+      "type": "certificate",
+      "name": "World of Artificial Intelligence Certificate (College of Engineering)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://engineering.wayne.edu/programs/ai.php"
+    },
+    {
+      "type": "course",
+      "name": "CSC 5991 — Trustworthy AI for Large Language Models and Vision-Language Models",
+      "level": "grad",
+      "launched": "2026-01",
+      "url": "https://ai.wayne.edu/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Wayne State C&IT (self-hosted)",
+      "product": "WarriorGPT",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/about/projects/warriorgpt"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot Chat (M365)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Teams Premium AI",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Google",
+      "product": "Google Vertex AI",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Google Cloud",
+      "product": "AI Hypercomputer / BigQuery (research)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-06",
+      "url": "https://today.wayne.edu/news/2025/06/02/wayne-state-university-partners-with-google-public-sector-to-accelerate-scientific-breakthroughs-66503"
+    },
+    {
+      "vendor": "Zoom",
+      "product": "Zoom AI Companion",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Cursor",
+      "product": "Cursor AI",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT (exception-only)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Anthropic",
+      "product": "Claude (exception-only)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://tech.wayne.edu/help/wsuai"
+    },
+    {
+      "vendor": "Mainstay (formerly AdmitHub)",
+      "product": "W the Warrior Bot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2018-04",
+      "url": "https://studentsuccess.wayne.edu/resources/students/w-bot"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Wayne State Grid",
+    "gpu_count": null,
+    "url": "https://www.grid.wayne.edu/",
+    "summary": "Wayne State operates the Wayne State Grid, a centrally-managed HPC system with GPU-enabled nodes connected via Science DMZ, Internet2, and the Michigan LambdaRail. Researchers can purchase dedicated GPU hardware hosted by HPC. The Google Public Sector partnership also provides AI Hypercomputer and BigQuery capacity for PHOENIX and other research workloads."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "NSF IUCRC grant for eCAT",
+      "amount_usd": 4500000,
+      "source": "NSF + industry partners",
+      "purpose": "Five-year center for electric, connected and autonomous technology research",
+      "date": "2023-09",
+      "url": "https://engineering.wayne.edu/news/wayne-state-led-collaborative-center-for-autonomous-vehicle-research-receives-45-million-from-national-science-foundation-and-industry-partners-58686"
+    },
+    {
+      "title": "NIH biomedical AI grants (Walker, et al.)",
+      "amount_usd": 4000000,
+      "source": "NIH (NIGMS and others)",
+      "purpose": "AI-enabled drug design, biomedical imaging, and related research",
+      "date": "2024-12",
+      "url": "https://www.sciencecoalition.org/2024/12/16/the-science-coalition-applauds-wayne-state-for-securing-nih-funding/"
+    },
+    {
+      "title": "NIGMS grant to Dr. Alice Walker",
+      "amount_usd": 1800000,
+      "source": "NIH NIGMS",
+      "purpose": "AI-enabled imaging for sugar-based drug molecule design",
+      "date": "2024-12",
+      "url": "https://www.sciencecoalition.org/2024/12/16/the-science-coalition-applauds-wayne-state-for-securing-nih-funding/"
+    },
+    {
+      "title": "NSF CAREER Award to Dr. Zheng Dong — ChronosDrive",
+      "amount_usd": null,
+      "source": "NSF",
+      "purpose": "DNN-driven autonomous vehicle timing correctness",
+      "date": "2025",
+      "url": "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843"
+    },
+    {
+      "title": "NSF CAREER Award to Dr. Mahbub Islam — AI reliability",
+      "amount_usd": null,
+      "source": "NSF",
+      "purpose": "AI reliability research",
+      "date": "2025",
+      "url": "https://ai.wayne.edu/"
+    },
+    {
+      "title": "NSF Collaborative Research: III: Medium (Zhu lab)",
+      "amount_usd": null,
+      "source": "NSF",
+      "purpose": "LLM unlearning research",
+      "date": null,
+      "url": "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Kyndryl",
+      "purpose": "IntelliMake research hub and pilot-scale AI manufacturing factory",
+      "date": "2026-01",
+      "url": "https://investors.kyndryl.com/news-releases/news-release-details/wayne-state-university-and-kyndryl-announce-collaboration"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Google Public Sector",
+      "purpose": "Campus-wide Google Cloud research deployment (BigQuery, Kubernetes, AI Hypercomputer)",
+      "date": "2025-06",
+      "url": "https://today.wayne.edu/news/2025/06/02/wayne-state-university-partners-with-google-public-sector-to-accelerate-scientific-breakthroughs-66503"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Syntasa",
+      "purpose": "CHNA 2.0 AI-powered public-health assessment platform over PHOENIX data",
+      "date": "2025",
+      "url": "https://cloud.google.com/blog/topics/public-sector/wayne-state-university-and-syntasa-transforming-public-health-assessments-with-ai"
+    },
+    {
+      "pattern": "startup_academic",
+      "partner": "Mainstay (formerly AdmitHub)",
+      "purpose": "W the Warrior SMS chatbot for enrollment and student services",
+      "date": "2018-04",
+      "url": "https://mainstay.com/case-study/record-breaking-enrollment-university-attracts-underserved-students-with-ai/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Amesite Inc.",
+      "purpose": "Online AI-backed continuing-education stackable certificates",
+      "date": "2020-09",
+      "url": "https://engineering.wayne.edu/news/wayne-state-and-amesite-partner-to-provide-online-professional-certification-mobility-courses-aimed-at-workforce-training-44782"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of North Texas, Clarkson University",
+      "purpose": "NSF IUCRC eCAT center",
+      "date": "2023-09",
+      "url": "https://engineering.wayne.edu/news/wayne-state-led-collaborative-center-for-autonomous-vehicle-research-receives-45-million-from-national-science-foundation-and-industry-partners-58686"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "University of Wisconsin",
+      "purpose": "Clinical trial partner for Dr. Ming Dong's synthetic CT from MRI research",
+      "date": null,
+      "url": "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "TechTown, Detroit Hacker House",
+      "purpose": "AI Build-a-Thon (December 2025)",
+      "date": "2025-12",
+      "url": "https://research.wayne.edu/grand-challenges/ai"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "Michigan Mobility Institute",
+      "purpose": "Industry Center for Advanced Mobility",
+      "date": "2019",
+      "url": "https://michiganmobilityinstitute.org/mobility-center/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "W the Warrior Bot",
+      "scope": "SMS-based AI chatbot for admissions/enrollment/registration/deadlines; 24/7 coverage for all undergraduate students",
+      "url": "https://studentsuccess.wayne.edu/resources/students/w-bot"
+    },
+    {
+      "type": "chatbot",
+      "name": "WarriorGPT (Canvas-integrated)",
+      "scope": "Private GPT chat accessible to students through Canvas when enabled by faculty for a course",
+      "url": "https://tech.wayne.edu/about/projects/warriorgpt"
+    },
+    {
+      "type": "chatbot",
+      "name": "DetroitEd411",
+      "scope": "Facebook Messenger chatbot launched 2019 in partnership with Mayor's workforce office to connect adult learners with education resources",
+      "url": "https://today.wayne.edu/news/2019/04/02/wayne-state-launches-detroited411-service-to-help-connect-engage-community-around-post-secondary-education-31517"
+    },
+    {
+      "type": "other",
+      "name": "AI and Information Literacy self-study module",
+      "scope": "Library-published 1-2 hour module open to all students and staff",
+      "url": "https://guides.lib.wayne.edu/AILiteracy"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "W the Warrior Bot outcomes for first-gen / Pell students",
+      "description": "Reported 14.6% enrollment lift, 18% rise in first-generation students, and 13% rise in Pell-eligible students via conversational AI support",
+      "url": "https://mainstay.com/case-study/record-breaking-enrollment-university-attracts-underserved-students-with-ai/"
+    },
+    {
+      "title": "DetroitEd411 community chatbot",
+      "description": "Chatbot for disengaged adult learners in Detroit and surrounding region to surface post-secondary pathways",
+      "url": "https://today.wayne.edu/news/2019/04/02/wayne-state-launches-detroited411-service-to-help-connect-engage-community-around-post-secondary-education-31517"
+    },
+    {
+      "title": "Center for Urban Responses to Environmental Stressors (CURES) and Healthier Black Elders Center",
+      "description": "Addressing Detroit's digital divide and enhancing community research engagement; includes AI-relevant data equity work",
+      "url": "https://events.wayne.edu/research-events/2025/03/05/digital-exclusion-to-research-inclusion-pathways-to-a-healthier-detroit-102411"
+    },
+    {
+      "title": "PHOENIX regional health disparity maps",
+      "description": "De-identified health and social determinant data across eight states used to surface community health disparities in underserved regions",
+      "url": "https://phoenix.wayne.edu/"
+    },
+    {
+      "title": "Year of Focus session on AI and Community/Environmental Impacts",
+      "description": "April 20, 2026 panel explicitly centering community and environmental impacts of AI",
+      "url": "https://events.wayne.edu/main/2026/04/20/year-of-focus-community-and-environmental-impacts-of-ai-105867"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Michigan",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Michigan has issued a state government 'AI with Purpose' strategy and established an AI Core Team, though Governor Whitmer was cited by Michigan Advance in late 2025 as earning an 'AI incomplete' for lack of comprehensive higher-ed AI legislation. Michigan has enacted data-center tax exemption legislation to attract large AI infrastructure investments, and federal responsibilities devolve through the Michigan Department of Education. Wayne State is not part of a university system; it is its own public institution with an independent Board of Governors. The federal executive order on AI directs the U.S. Department of Education to provide guidance for education-sector AI use.",
+    "urls": [
+      "https://michiganadvance.com/2025/12/22/governor-whitmer-earns-an-ai-incomplete/",
+      "https://www.michigan.gov/mde/services/academic-standards/educational-technology/artificial-intelligence",
+      "https://www.michigan.gov/mde/-/media/Project/Websites/mde/Memos/2023/11/Federal-Executive-Order-on-AI.pdf",
+      "https://www.detroitchamber.com/whitmer-stargate-announcement-openai-oracle-related-digital-creating-thousands-of-jobs-largest-investment-in-michigan-history/"
+    ]
+  },
+  "controversies_and_litigation": [
+    {
+      "date": "2025-09",
+      "summary": "President Kimberly Andrews Espy resigned effective September 17, 2025 after friction with the Board of Governors; Richard Bierschbach named interim president. Provost Laurie Lauzon Clabo then stepped down in November 2025 (continuing as senior adviser through May 2026). The instability coincided with AI-strategy launches (Grand Challenges, AIDaS, Year of Focus) and may affect sustained AI-strategy execution.",
+      "status": "resolved",
+      "url": "https://today.wayne.edu/news/2025/09/17/dr-kimberly-espy-resigns-as-13th-president-of-wayne-state-university-67214"
+    },
+    {
+      "date": "2025-11",
+      "summary": "Provost Laurie Lauzon Clabo stepped down, the second major leadership departure in two months, though she remains as senior adviser to the interim president through the academic year",
+      "status": "resolved",
+      "url": "https://eu.detroitnews.com/story/news/local/detroit-city/2025/11/19/provost-laurie-lauzon-clabo-wayne-state-president-espy-resignation-exit/87359690007/"
+    }
+  ],
+  "narrative_summary": "Wayne State University — Michigan's only urban R1 research university, serving 24,168 students in Detroit — has moved decisively in 2025 to institutionalize its AI posture under a new Grand Challenges research framework where AI sits as one of four pillars alongside health, mobility, and environmental sustainability. The flagship structural move is the Board-approved Institute for AI and Data Science (AIDaS), chartered October 23, 2025 for six years under the Vice President for Research & Innovation and co-directed by computer scientist Dr. Dongxiao Zhu and mathematician Dr. Hengguang Li. AIDaS consolidates the Wayne AI Research Initiative, Data Science and Business Analytics, and Computation/AI/Data Science groups into one interdisciplinary hub spanning engineering, medicine, business, and the liberal arts. Wayne State's strategy is paired with a cautious but comprehensive AI-use policy through Computing & Information Technology: a whitelist of approved tools (WarriorGPT, Microsoft Copilot, Google Vertex AI, Cursor AI, Zoom AI Companion, with ChatGPT and Claude requiring exception approval) and explicit prohibitions on FERPA/PHI/PII inputs. The Board of Governors amended the Student Code of Conduct in 2025 at the Academic Senate AI Committee's recommendation to require students to follow instructor-level AI policy, preserving faculty discretion while codifying accountability. On the deployment side, Wayne State runs WarriorGPT as its FERPA-aware campus GPT, the long-running W the Warrior SMS chatbot (2018; cited for 14.6% enrollment lift and strong first-gen/Pell impact), a June 2025 Google Public Sector partnership powering the PHOENIX public-health platform and Syntasa-backed CHNA 2.0 tool, and the January 2026 Kyndryl IntelliMake pilot-scale AI manufacturing factory in the engineering college. Academic offerings include a 30-credit M.S. in AI with three concentrations (Algorithms, Hardware, Industrial), an online AI certificate, and a new 'Trustworthy AI for LLMs and Vision-Language Models' course in Winter 2026. Federal research funding spans NSF IUCRC ($4.5M eCAT center), NIH biomedical AI grants ($4M+), and multiple NSF CAREER awards. The 2025-26 Year of Focus 'AI in Action' organizes campus-wide programming including a Sal Khan keynote. Significant caveats: President Espy resigned in September 2025 and Provost Clabo departed in November 2025, creating executive-level uncertainty during the critical institutionalization phase of Wayne State's AI strategy. There is no Chief AI Officer role, and the AI policy adoption date is not publicly documented.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://research.wayne.edu/aidas",
+      "https://today.wayne.edu/news/2025/10/27/wayne-state-announces-creation-of-the-institute-for-ai-and-data-science-67514",
+      "https://research.wayne.edu/grand-challenges/ai",
+      "https://today.wayne.edu/news/2025/12/18/multifaceted-ai-research-in-grand-challenges-initiative-positions-wsu-as-a-leader-in-new-era-of-technological-transformation-67843",
+      "https://today.wayne.edu/news/2025/08/20/exploring-the-future-of-ai-wayne-states-cad-seminar-series-builds-momentum-toward-a-campuswide-ai-initiative-67012",
+      "https://today.wayne.edu/news/2025/10/03/wayne-state-explores-ai-opportunities-and-questions-they-present-67325",
+      "https://today.wayne.edu/news/2025/06/02/wayne-state-university-partners-with-google-public-sector-to-accelerate-scientific-breakthroughs-66503",
+      "https://today.wayne.edu/news/2021/03/19/wayne-state-to-streamline-communication-for-current-students-using-artificial-intelligence-41953",
+      "https://today.wayne.edu/news/2019/04/02/wayne-state-launches-detroited411-service-to-help-connect-engage-community-around-post-secondary-education-31517",
+      "https://today.wayne.edu/news/2025/09/17/dr-kimberly-espy-resigns-as-13th-president-of-wayne-state-university-67214",
+      "https://today.wayne.edu/news/2025/02/24/wayne-state-university-retains-prestigious-carnegie-research-classification-65548",
+      "https://today.wayne.edu/news/2025/09/08/wayne-state-welcomes-more-than-24000-new-and-returning-students-celebrates-the-start-of-the-academic-year-with-vibrant-fall-opening-67039",
+      "https://tech.wayne.edu/policies/aiguidelines",
+      "https://tech.wayne.edu/help/wsuai",
+      "https://tech.wayne.edu/about/projects/warriorgpt",
+      "https://tech.wayne.edu/services/hpc",
+      "https://www.grid.wayne.edu/",
+      "https://ai.wayne.edu/",
+      "https://academicsenate.wayne.edu/adhocaicommittee",
+      "https://provost.wayne.edu/year-of-focus",
+      "https://provost.wayne.edu/meet-the-provost",
+      "https://president.wayne.edu/about",
+      "https://bog.wayne.edu/code/2-31-02",
+      "https://doso.wayne.edu/care/student-conduct/academic-misconduct",
+      "https://wayne.edu/people/ab5602",
+      "https://engineering.wayne.edu/master-artificial-intelligence",
+      "https://bulletins.wayne.edu/graduate/college-engineering/computer-science/artificial-intelligence-ms/",
+      "https://engineering.wayne.edu/programs/ai.php",
+      "https://engineering.wayne.edu/news/wayne-state-led-collaborative-center-for-autonomous-vehicle-research-receives-45-million-from-national-science-foundation-and-industry-partners-58686",
+      "https://engineering.wayne.edu/news/wayne-state-and-amesite-partner-to-provide-online-professional-certification-mobility-courses-aimed-at-workforce-training-44782",
+      "https://studentsuccess.wayne.edu/resources/students/w-bot",
+      "https://mainstay.com/case-study/record-breaking-enrollment-university-attracts-underserved-students-with-ai/",
+      "https://phoenix.wayne.edu/",
+      "https://cloud.google.com/blog/topics/public-sector/wayne-state-university-and-syntasa-transforming-public-health-assessments-with-ai",
+      "https://www.syntasa.com/news/transforming-public-health-assessments-with-ai-wayne-state-university-and-syntasa/",
+      "https://investors.kyndryl.com/news-releases/news-release-details/wayne-state-university-and-kyndryl-announce-collaboration",
+      "https://www.kyndryl.com/in/en/about-us/news/2026/01/detroit-ai-manufacturing-hub-announcement",
+      "https://www.crainsdetroit.com/technology/wayne-state-university-and-kyndryl-launch-ai-manufacturing-facility",
+      "https://guides.lib.wayne.edu/AILiteracy",
+      "https://guides.lib.wayne.edu/c.php?g=1470324&p=10943147",
+      "https://neurology.med.wayne.edu/ai",
+      "https://www.thecarlab.org/news",
+      "https://michiganmobilityinstitute.org/mobility-center/",
+      "https://online.wayne.edu/professional-development/artificial-intelligence",
+      "https://knowledgeondemand.wayne.edu/professional-development/artificial-intelligence",
+      "https://www.sciencecoalition.org/2024/12/16/the-science-coalition-applauds-wayne-state-for-securing-nih-funding/",
+      "https://www.govtech.com/education/higher-ed/wayne-state-to-launch-institute-for-ai-and-data-science",
+      "https://www.detroitnews.com/story/news/local/wayne-county/2025/10/23/wayne-state-university-institute-ai-data-science-board-artificial-intelligence/86859564007/",
+      "https://eu.detroitnews.com/story/news/local/detroit-city/2025/11/19/provost-laurie-lauzon-clabo-wayne-state-president-espy-resignation-exit/87359690007/",
+      "https://michiganadvance.com/2025/12/22/governor-whitmer-earns-an-ai-incomplete/",
+      "https://www.michigan.gov/mde/services/academic-standards/educational-technology/artificial-intelligence",
+      "https://events.wayne.edu/main/2026/04/01/learning-reimagined-ai-and-the-future-of-education-106182",
+      "https://events.wayne.edu/main/2026/03/23/year-of-focus-ai-and-the-future-of-work-105866",
+      "https://events.wayne.edu/main/2026/04/20/year-of-focus-community-and-environmental-impacts-of-ai-105867",
+      "https://education.wayne.edu/news/wayne-state-university-explores-ai-and-the-future-of-learning-with-sal-khan-68162",
+      "https://dongxiaozhu.github.io/"
+    ],
+    "search_queries": [
+      "\"Wayne State University\" AI strategy 2025 2026 artificial intelligence",
+      "\"Wayne State University\" generative AI policy acceptable use faculty",
+      "\"Wayne State University\" AI task force committee council chief AI officer",
+      "\"Wayne State University\" AI research center institute launch announcement 2024 2025",
+      "\"Wayne State University\" president provost CIO name 2025",
+      "\"Wayne State University\" AI degree certificate major minor artificial intelligence",
+      "\"Wayne State\" AI grant NSF NIH funding million artificial intelligence 2024 2025",
+      "\"Wayne State University\" Microsoft Copilot ChatGPT enterprise students deployment",
+      "\"Wayne State University\" HPC GPU supercomputer research computing",
+      "\"Wayne State University\" AI health medicine healthcare research 2025",
+      "\"Wayne State University\" Grand Challenges initiative AI announcement Kimberly Andrews Espy",
+      "\"Wayne State\" AI chatbot student virtual assistant advising",
+      "\"Wayne State University\" provost Mark Kornbluh Laurie Lauzon Clabo academic affairs",
+      "\"Wayne State University\" interim president 2025 2026 after Espy resignation",
+      "\"Wayne State University\" syllabus AI policy course academic integrity",
+      "\"Wayne State University\" provost 2025 Laurie Clabo Ezemenari Obasi executive vice president",
+      "\"Wayne State\" Mobility AI autonomous vehicle research center",
+      "\"Wayne State\" Kyndryl IntelliMake partnership announcement 2026",
+      "\"Wayne State\" Michigan state AI policy executive order higher education",
+      "\"Wayne State University\" AI literacy curriculum teaching learning faculty development",
+      "\"Wayne State\" AI ethics equity accessibility disability algorithmic bias",
+      "\"Wayne State\" Year of Focus AI in Action 2025 2026 events",
+      "\"Wayne State University\" AI workforce training continuing education certificate 2025",
+      "\"Wayne State University\" enrollment students total 2025 facts",
+      "\"Michigan\" state AI policy higher education 2025 executive order Whitmer",
+      "\"Wayne State University\" Carnegie R1 classification Detroit public university",
+      "\"Wayne State\" PHOENIX population health Google Cloud Syntasa community health",
+      "\"Wayne State University\" Melissa Smiley W the Warrior AdmitHub Mainstay chatbot",
+      "\"Wayne State University\" AI School of Medicine Detroit medical informatics research",
+      "\"Wayne State\" CIO Rob Thompson 2025 information technology",
+      "\"Wayne State University\" AI cheating lawsuit controversy FERPA privacy",
+      "\"Wayne State University\" AI digital divide underserved student Detroit community"
+    ],
+    "gaps_acknowledged": [
+      "No Chief AI Officer role identified; AI strategy is distributed across Research VP, CIO, and Academic Senate",
+      "AIDaS funding envelope not publicly disclosed",
+      "WarriorGPT launch date and user count not publicly disclosed",
+      "AI policy (tech.wayne.edu/policies/aiguidelines) has no published adopted date",
+      "Kyndryl IntelliMake partnership investment amount not disclosed",
+      "Google Public Sector partnership investment amount not disclosed",
+      "GPU count in Wayne State Grid not publicly disclosed",
+      "After recent leadership departures (Espy Sept 2025, Clabo Nov 2025), no new permanent president/provost had been named by data-collection date",
+      "syllabus_level_required is optional/template-based rather than mandatory"
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "platform_first",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "workforce_regional_development"
+      ],
+      "scores": {
+        "platform_first": 28,
+        "research_compute_powerhouse": 20,
+        "curriculum_led": 13,
+        "governance_led": 14,
+        "student_success_led": 10,
+        "workforce_regional_development": 15,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: platform first."
+    },
+    "policy_quality": {
+      "score_0_5": 4,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": null,
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 8,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 1,
+        "ai_tutoring_and_adaptive_learning": 0,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 6,
+      "scientific_discovery_signal_count": 6,
+      "computing_infrastructure_signal_count": 5,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Wayne State Grid",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 10300000,
+      "funding_source_buckets": {
+        "public_federal_state": 24,
+        "institutional": 1
+      },
+      "partnership_count": 9
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 3,
+        "other": 1
+      },
+      "student_experience_signal_count": 3,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": true,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": true,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 4
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Google",
+          "mentions": 6,
+          "products": [
+            "AI Hypercomputer",
+            "AI Hypercomputer / BigQuery (research)",
+            "BigQuery",
+            "Google Kubernetes Engine",
+            "Google Vertex AI"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 5,
+          "products": [
+            "Microsoft Copilot",
+            "Microsoft Copilot Chat",
+            "Microsoft Copilot Chat (M365)",
+            "Microsoft Teams Premium AI"
+          ]
+        },
+        {
+          "vendor": "Anthropic",
+          "mentions": 2,
+          "products": [
+            "Claude",
+            "Claude (exception-only)"
+          ]
+        },
+        {
+          "vendor": "Cursor Cursor AI",
+          "mentions": 2,
+          "products": [
+            "Cursor AI"
+          ]
+        },
+        {
+          "vendor": "Mainstay (formerly AdmitHub) W the Warrior Bot",
+          "mentions": 2,
+          "products": [
+            "W the Warrior Bot"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT",
+            "ChatGPT (exception-only)"
+          ]
+        },
+        {
+          "vendor": "Wayne State C&IT (self-hosted) WarriorGPT",
+          "mentions": 2,
+          "products": [
+            "WarriorGPT"
+          ]
+        },
+        {
+          "vendor": "Zoom",
+          "mentions": 2,
+          "products": [
+            "Zoom AI Companion"
+          ]
+        },
+        {
+          "vendor": "Amesite Inc. Amesite platform",
+          "mentions": 1,
+          "products": [
+            "Amesite platform"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 1,
+          "products": [
+            "Canvas LMS"
+          ]
+        },
+        {
+          "vendor": "Kyndryl Kyndryl Bridge",
+          "mentions": 1,
+          "products": [
+            "Kyndryl Bridge"
+          ]
+        },
+        {
+          "vendor": "Syntasa Syntasa Sentiment Analytics",
+          "mentions": 1,
+          "products": [
+            "Syntasa Sentiment Analytics"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "Google",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "WarriorGPT — private generative AI platform for faculty, staff, and students",
+          "summary": "Provides a FERPA-aware institutional alternative to consumer AI tools and is the approved default for work with non-public Wayne State data.",
+          "source_url": "https://tech.wayne.edu/about/projects/warriorgpt"
+        },
+        {
+          "claim_type": "career",
+          "title": "IntelliMake research hub and pilot-scale AI factory with Kyndryl",
+          "summary": "Rare academic-industry pilot factory for agentic AI manufacturing, anchored in Detroit's auto-industry context and explicitly workforce-oriented.",
+          "source_url": "https://investors.kyndryl.com/news-releases/news-release-details/wayne-state-university-and-kyndryl-announce-collaboration"
+        },
+        {
+          "claim_type": "career",
+          "title": "AI online professional certificate and Amesite partnership",
+          "summary": "Low-friction professional-development pathway for Detroit's workforce, packaged in sector-specific stackable certificates.",
+          "source_url": "https://online.wayne.edu/professional-development/artificial-intelligence"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "W the Warrior Bot — SMS conversational AI for enrollment and student services",
+          "summary": "Early, long-running deployment of conversational AI with documented impact on first-gen and underserved enrollment — one of the most-cited chatbot success stories in higher ed.",
+          "source_url": "https://studentsuccess.wayne.edu/resources/students/w-bot"
+        }
+      ],
+      "public_claim_count": 4
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 2,
+      "control_signal_count": 5,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 9,
+      "notes": [
+        "No Chief AI Officer role identified; AI strategy is distributed across Research VP, CIO, and Academic Senate",
+        "AIDaS funding envelope not publicly disclosed",
+        "WarriorGPT launch date and user count not publicly disclosed",
+        "AI policy (tech.wayne.edu/policies/aiguidelines) has no published adopted date",
+        "Kyndryl IntelliMake partnership investment amount not disclosed",
+        "Google Public Sector partnership investment amount not disclosed",
+        "GPU count in Wayne State Grid not publicly disclosed",
+        "After recent leadership departures (Espy Sept 2025, Clabo Nov 2025), no new permanent president/provost had been named by data-collection date",
+        "syllabus_level_required is optional/template-based rather than mandatory"
+      ]
+    }
+  }
+}

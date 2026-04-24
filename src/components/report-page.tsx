@@ -28,26 +28,26 @@ export function ReportPage({
   return (
     <ReportShell>
       <div className="mx-auto flex max-w-[1280px] flex-col gap-6 px-4 py-4 md:px-8 md:py-8 xl:px-10">
-        <div className="report-hero report-entrance rounded-[30px] px-6 py-6 md:px-8 md:py-8">
+        <div className="report-hero report-entrance rounded-[24px] px-6 py-6 md:px-8 md:py-8">
           <div className="relative flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
             <div className="max-w-[760px] space-y-3">
             {eyebrow ? (
-                <div className="text-[10px] font-medium uppercase tracking-[0.3em] text-[#7d6b3d]">
+                <div className="font-caption text-[10px] font-medium uppercase tracking-[0.3em] text-[#ec4899]">
                 {eyebrow}
               </div>
             ) : null}
-              <h1 className="font-display text-[36px] font-semibold leading-none text-[#241d18] md:text-[52px]">
+              <h1 className="font-display text-[36px] font-semibold leading-none text-white md:text-[52px]">
               {title}
             </h1>
             {subtitle ? (
-                <p className="max-w-[68ch] text-[14px] leading-6 text-[#5e5954] md:text-[16px]">
+                <p className="max-w-[72ch] text-[14px] leading-6 text-[#d4d4d8] md:text-[16px]">
                   {subtitle}
                 </p>
             ) : null}
             </div>
           {actionLabel && actionHref ? (
             <a
-                className="inline-flex items-center justify-center rounded-full border border-[#2b211a] bg-[#201711] px-5 py-2.5 text-sm font-semibold text-[#fff5e7] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#312219]"
+                className="inline-flex items-center justify-center rounded-full border border-[#a855f7]/50 bg-[#a855f7] px-5 py-2.5 text-sm font-semibold text-white shadow-[0_0_28px_rgba(168,85,247,0.24)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#ec4899]"
               href={actionHref}
             >
                 {actionLabel}
@@ -58,15 +58,15 @@ export function ReportPage({
 
         {tabs?.length ? (
           <div className="overflow-x-auto">
-            <div className="inline-flex min-w-max items-center gap-2 rounded-full border border-[var(--border-light)] bg-[rgba(255,250,242,0.72)] p-2 shadow-[var(--surface-shadow)] backdrop-blur-sm">
+            <div className="inline-flex min-w-max items-center gap-2 rounded-full border border-[var(--border-light)] bg-white/5 p-2 shadow-[var(--surface-shadow)] backdrop-blur-sm">
               {tabs.map((tab) => (
                 <span
                   key={tab.label}
                   className={cx(
                     "rounded-full border px-5 py-2 text-sm transition-colors",
                     tab.active
-                      ? "border-[#2b211a] bg-[#201711] text-[#fff5e7]"
-                      : "border-[var(--border-light)] bg-white/70 text-[#5e5954]",
+                      ? "border-[#a855f7] bg-[#a855f7] text-white"
+                      : "border-[var(--border-light)] bg-white/5 text-[#a1a1aa]",
                   )}
                 >
                   {tab.label}
@@ -95,14 +95,14 @@ export function Panel({
   children: ReactNode;
 }) {
   return (
-    <section className={cx("report-surface rounded-[28px] p-6 md:p-7", className)}>
+    <section className={cx("report-surface rounded-[12px] p-6 md:p-7", className)}>
       {eyebrow ? (
-        <div className="mb-2 text-[11px] font-medium uppercase tracking-[0.2em] text-[#8c8782]">
+        <div className="font-caption mb-2 text-[11px] font-medium uppercase tracking-[0.2em] text-[#a1a1aa]">
           {eyebrow}
         </div>
       ) : null}
       {title ? (
-        <h2 className="font-display mb-4 text-[28px] font-semibold leading-none text-[#241d18]">
+        <h2 className="font-display mb-4 text-[28px] font-semibold leading-none text-white">
           {title}
         </h2>
       ) : null}
@@ -134,25 +134,25 @@ export function Exhibit({
   children: ReactNode;
 }) {
   return (
-    <section className={cx("report-surface report-entrance rounded-[28px] p-6 md:p-7", className)}>
+    <section className={cx("report-surface report-entrance rounded-[12px] p-6 md:p-7", className)}>
       <div className="mb-5 space-y-2 border-b border-[var(--rule-soft)] pb-4">
         {number ? (
-          <div className="text-[11px] font-medium uppercase tracking-[0.22em] text-[#7d6b3d]">
+          <div className="font-caption text-[11px] font-medium uppercase tracking-[0.22em] text-[#ec4899]">
             Exhibit {number}
           </div>
         ) : null}
-        <h2 className="font-display text-[28px] font-semibold leading-none text-[#241d18] md:text-[32px]">
+        <h2 className="font-display text-[28px] font-semibold leading-none text-white md:text-[32px]">
           {title}
         </h2>
         {subtitle ? (
-          <p className="max-w-[80ch] text-[13px] leading-[1.65] text-[#5e5954] md:text-[14px]">
+          <p className="max-w-[80ch] text-[13px] leading-[1.65] text-[#a1a1aa] md:text-[14px]">
             {subtitle}
           </p>
         ) : null}
       </div>
       <div>{children}</div>
       {(source || n || caveat) && (
-        <div className="mt-6 flex flex-wrap gap-x-3 gap-y-1 border-t border-[var(--rule-soft)] pt-3 text-[11px] leading-[1.5] text-[#8c8782]">
+        <div className="font-caption mt-6 flex flex-wrap gap-x-3 gap-y-1 border-t border-[var(--rule-soft)] pt-3 text-[11px] leading-[1.5] text-[#71717a]">
           {source ? <span>Source: {source}</span> : null}
           {n !== undefined ? <span>n = {n}</span> : null}
           <span>As of {asOf}</span>
@@ -167,10 +167,10 @@ export function Exhibit({
 type MetricTone = "gold" | "neutral" | "danger" | "success";
 
 const metricToneClasses: Record<MetricTone, string> = {
-  gold: "bg-[#f3dec4] text-[#8b5d1f]",
-  neutral: "bg-[#ece7de] text-[#5e5954]",
-  danger: "bg-[#f8d8d2] text-[#9b3727]",
-  success: "bg-[#d9ecd8] text-[#24513d]",
+  gold: "bg-[#a855f7]/20 text-[#d8b4fe]",
+  neutral: "bg-white/8 text-[#d4d4d8]",
+  danger: "bg-[#fb7185]/16 text-[#fda4af]",
+  success: "bg-[#22c55e]/16 text-[#86efac]",
 };
 
 export function BAN({
@@ -187,12 +187,12 @@ export function BAN({
   tone?: MetricTone;
 }) {
   return (
-    <section className="report-surface rounded-[26px] bg-[linear-gradient(180deg,rgba(255,250,242,0.94),rgba(246,238,226,0.84))] p-5">
+    <section className="report-surface rounded-[12px] bg-[linear-gradient(180deg,rgba(255,255,255,0.065),rgba(255,255,255,0.035))] p-5">
       <div className="space-y-4">
-        <p className="max-w-[22ch] text-[11px] font-semibold uppercase tracking-[0.16em] text-[#6c6256]">
+        <p className="font-caption max-w-[24ch] text-[11px] font-semibold uppercase tracking-[0.16em] text-[#a1a1aa]">
           {label}
         </p>
-        <div className="text-[40px] font-semibold leading-none tracking-tight tabular text-[#241d18] md:text-[44px]">
+        <div className="font-data text-[40px] font-semibold leading-none tracking-normal tabular text-white md:text-[44px]">
           {value}
         </div>
         {definition ? (
@@ -206,7 +206,7 @@ export function BAN({
           </span>
         ) : null}
         {comparator ? (
-          <div className="border-t border-[var(--rule-soft)] pt-3 text-[11px] leading-[1.55] text-[#756b5f]">
+          <div className="border-t border-[var(--rule-soft)] pt-3 text-[11px] leading-[1.55] text-[#a1a1aa]">
             {comparator}
           </div>
         ) : null}
@@ -232,32 +232,32 @@ export function MetricCard(props: {
   );
 }
 
-/** Callout — Finding / Implication / Action for the CIO. */
+/** Callout — Finding / Implication / Action / Note. */
 type CalloutKind = "finding" | "implication" | "action" | "note";
 
 const calloutLabel: Record<CalloutKind, string> = {
   finding: "Finding",
   implication: "Implication",
-  action: "Action for the CIO",
+  action: "Action",
   note: "Note",
 };
 
 const calloutAccent: Record<CalloutKind, string> = {
-  finding: "border-[#dcd8cb] bg-[#f5f2e9]",
-  implication: "border-[#d0cbc0] bg-[#ece7de]",
-  action: "border-[#e7c998] bg-[#f3dec4]",
-  note: "border-[#e5e5ea] bg-[#f5f5f5]",
+  finding: "border-[#a855f7]/30 bg-[#a855f7]/10",
+  implication: "border-white/10 bg-white/6",
+  action: "border-[#ec4899]/34 bg-[#ec4899]/10",
+  note: "border-white/10 bg-white/5",
 };
 
 export function Callout({ kind, children }: { kind: CalloutKind; children: ReactNode }) {
   return (
     <aside
       className={cx(
-        "report-entrance rounded-[24px] border px-5 py-4 text-[13px] leading-[1.7] text-[#241d18] shadow-[var(--surface-shadow)]",
+        "report-entrance rounded-[12px] border px-5 py-4 text-[13px] leading-[1.7] text-[#f4f4f5] shadow-[var(--surface-shadow)]",
         calloutAccent[kind],
       )}
     >
-      <div className="mb-2 text-[10px] font-medium uppercase tracking-[0.24em] text-[#8c8782]">
+      <div className="font-caption mb-2 text-[10px] font-medium uppercase tracking-[0.24em] text-[#a1a1aa]">
         {calloutLabel[kind]}
       </div>
       <div>{children}</div>
@@ -287,17 +287,17 @@ export function PeerStrip({
   return (
     <div className="space-y-1.5">
       <div className="flex items-baseline justify-between gap-3">
-        <span className="text-[12px] font-medium text-[#2d2926]">{label}</span>
+        <span className="text-[12px] font-medium text-[#f4f4f5]">{label}</span>
         {unitsLabel ? (
-          <span className="text-[10px] uppercase tracking-[0.18em] text-[#8c8782]">
+          <span className="font-caption text-[10px] uppercase tracking-[0.18em] text-[#71717a]">
             {unitsLabel}
           </span>
         ) : null}
       </div>
-      <div className="relative h-9 rounded-full bg-[#ebe7dd]">
+      <div className="relative h-9 rounded-full bg-white/8">
         {median !== undefined ? (
           <div
-            className="absolute top-0 h-full border-l border-dashed border-[#8c8782]"
+            className="absolute top-0 h-full border-l border-dashed border-[#71717a]"
             style={{ left: `${Math.min(100, (median / safeMax) * 100)}%` }}
             title={`Peer median: ${median}${valueSuffix}`}
           />
@@ -311,8 +311,8 @@ export function PeerStrip({
               className={cx(
                 "absolute top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border",
                 anchor
-                  ? "z-10 h-4 w-4 border-[#7d6b3d] bg-[#f3dec4]"
-                  : "h-2.5 w-2.5 border-[#8c8782] bg-[#dcd8cb]",
+                  ? "z-10 h-4 w-4 border-[#ec4899] bg-[#a855f7]"
+                  : "h-2.5 w-2.5 border-[#71717a] bg-[#27272a]",
               )}
               style={{ left: `${left}%` }}
               title={`${point.name}: ${point.value}${valueSuffix}`}
@@ -321,7 +321,7 @@ export function PeerStrip({
         })}
       </div>
       {median !== undefined ? (
-        <div className="flex items-center justify-between text-[10px] text-[#8c8782]">
+        <div className="font-caption flex items-center justify-between text-[10px] text-[#71717a]">
           <span>0</span>
           <span>
             median {median}
@@ -350,14 +350,14 @@ export function PeerChip({
   return (
     <span
       className={cx(
-        "inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[11px] font-medium",
+        "font-caption inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-[11px] font-medium",
         highlighted
-          ? "border-[#7d6b3d] bg-[#f3dec4] text-[#8b5d1f]"
-          : "border-[var(--rule-soft)] bg-[rgba(255,250,242,0.72)] text-[#5e5954]",
+          ? "border-[#a855f7]/50 bg-[#a855f7]/20 text-[#d8b4fe]"
+          : "border-[var(--rule-soft)] bg-white/5 text-[#a1a1aa]",
       )}
     >
       <span>{name}</span>
-      {meta ? <span className="text-[#8c8782]">· {meta}</span> : null}
+      {meta ? <span className="text-[#71717a]">· {meta}</span> : null}
     </span>
   );
 }
@@ -373,13 +373,13 @@ export function SourceLink({ href, label }: { href: string; label?: string }) {
   })();
   return (
     <a
-      className="inline-flex items-center gap-1 text-[11px] font-medium text-[#5e5954] underline decoration-[#ccb18a] decoration-dotted underline-offset-2 transition-colors hover:text-[#7d6b3d] hover:decoration-[#7d6b3d]"
+      className="inline-flex items-center gap-1 text-[11px] font-medium text-[#a1a1aa] underline decoration-[#a855f7]/50 decoration-dotted underline-offset-2 transition-colors hover:text-[#d8b4fe] hover:decoration-[#ec4899]"
       href={href}
       target="_blank"
       rel="noopener noreferrer"
     >
       {label ?? domain}
-      <span aria-hidden className="text-[#b8b2a8]">↗</span>
+      <span aria-hidden className="text-[#71717a]">↗</span>
     </a>
   );
 }
@@ -387,9 +387,9 @@ export function SourceLink({ href, label }: { href: string; label?: string }) {
 export function EmptyReportState() {
   return (
     <Panel title="Pipeline output missing" className="max-w-[760px] report-entrance">
-      <p className="max-w-[60ch] text-sm leading-6 text-[#5e5954]">
-        This briefing reads from <code>output/report-data.json</code> and{" "}
-        <code>data/sec-peers/*.json</code>. Run the pipeline to generate the signal artifacts, then
+      <p className="max-w-[60ch] text-sm leading-6 text-[#a1a1aa]">
+        This briefing reads from <code>output/report-data.json</code> and the institution profile
+        corpus. Run the pipeline to generate the signal artifacts, then
         refresh the page.
       </p>
     </Panel>

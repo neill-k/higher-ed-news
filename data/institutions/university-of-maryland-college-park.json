@@ -1,0 +1,1506 @@
+{
+  "institution": "University of Maryland-College Park",
+  "slug": "university-of-maryland-college-park",
+  "city_state": "College Park, MD",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University System of Maryland",
+  "enrollment": 41200,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Darryll J. Pines",
+      "url": "https://president.umd.edu/"
+    },
+    "provost": {
+      "name": "Jennifer King Rice",
+      "url": "https://provost.umd.edu/"
+    },
+    "cio": {
+      "name": "Jeffrey K. Hollingsworth",
+      "url": "https://it.umd.edu/about/our-leadership"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Hal Daumé III",
+      "title": "Inaugural Director, Artificial Intelligence Interdisciplinary Institute at Maryland (AIM); Volpi-Cupal Family Endowed Professor of Computer Science",
+      "url": "https://aim.umd.edu/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI at the University of Maryland — President Darryll Pines' statement on UMD's AI strategy, guidelines, and TerpAI launch",
+        "url": "https://president.umd.edu/news/ai-at-the-university-of-maryland",
+        "year": 2025
+      },
+      {
+        "title": "Fearlessly Forward — Shaping the Future of AI (UMD strategic plan AI pillar)",
+        "url": "https://fearlesslyforward.umd.edu/ai",
+        "year": 2024
+      },
+      {
+        "title": "AI @ UMD — campus AI portal with guidelines, resources, governance",
+        "url": "https://ai.umd.edu/",
+        "year": 2025
+      },
+      {
+        "title": "Report of the President's Commission on Artificial Intelligence",
+        "url": "https://president.umd.edu/administration/commissions-task-forces-and-councils/presidents-commission-on-artificial-intelligence",
+        "year": 2024
+      }
+    ],
+    "summary": "UMD's AI posture is anchored in President Darryll Pines' January 2025 statement on AI at Maryland, which follows the final report of the President's Commission on Artificial Intelligence and the April 2024 launch of the Artificial Intelligence Interdisciplinary Institute at Maryland (AIM). The strategy frames AI as a tool to 'work more efficiently, more equitably' and couples campus-wide generative AI guidelines with a UMD-built chatbot (TerpAI) and an enterprise suite of OpenAI, Microsoft, Google and Perplexity tools. The university also names a top-5 public AI university aspiration in its Fearlessly Forward strategic plan, resting on AIM, TRAILS (NSF trustworthy-AI institute), the Center for Machine Learning, and the Values-Centered AI Grand Challenge. Governance runs through a President's AI Commission (co-chaired by Jen Golbeck and Axel Persaud) which recommended an AI council, an AI accelerator, and a campus AI tools repository."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.umd.edu/resources-guidelines/guidelines-for-use",
+      "https://ai.umd.edu/resources/guidelines",
+      "https://ai.umd.edu/resources-guidelines",
+      "https://tltc.umd.edu/artificial-intelligence-ai",
+      "https://tltc.umd.edu/sample-syllabus-language-ai-course-policies"
+    ],
+    "adopted_date": "2025-01",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Five guiding principles: human oversight, access, privacy, transparency, and accountability",
+      "Use UMD-approved GenAI tools (TerpAI primary) for institutional work; external tools restricted for anything above Level 1 data",
+      "Level 2 (moderate-risk) data must stay in UMD-approved tools; Level 3 (high-risk) data cannot be put into external GenAI at all",
+      "Compliance with USM/UMD data privacy policies, FERPA, HIPAA, and Maryland Personal Information Protection Act required",
+      "Instructors must establish explicit course-level GenAI policies; default assumption is students cannot use GenAI on assignments unless explicitly authorized",
+      "Users must disclose and properly attribute GenAI use in teaching, learning, research, scholarship, and administrative activities",
+      "GenAI may not be used to fabricate, falsify, misrepresent information, impersonate individuals, or generate deceptive content (except controlled pedagogical/research use)",
+      "Misuse reported to department leadership or Project NEThics"
+    ],
+    "summary": "UMD's Guidelines for the Use of Generative Artificial Intelligence are campus-wide and comprehensive, layering principle-based guidance (oversight, access, privacy, transparency, accountability) on top of data-classification rules that steer users to TerpAI and other UMD-approved tools. Syllabus-level disclosure is required and default-disallowed for students absent explicit instructor approval, aligning with Teaching and Learning Transformation Center sample syllabus language."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "President's Commission on Artificial Intelligence",
+        "type": "council",
+        "scope": "Multidisciplinary presidential commission established November 2023 to explore, evaluate and make recommendations on the responsible development, deployment, and ethical use of AI at UMD. Co-chaired by Jen Golbeck (Professor, College of Information) and Axel Persaud (Assistant VP of Enterprise Engineering, Division of IT). Delivered a final report recommending an AI council, AI accelerator, and a repository of AI tools.",
+        "url": "https://president.umd.edu/administration/commissions-task-forces-and-councils/presidents-commission-on-artificial-intelligence"
+      },
+      {
+        "name": "Generative AI Working Group / Guidelines Committee",
+        "type": "committee",
+        "scope": "Cross-departmental working group convened by the Provost and VP for IT to produce the campus-wide Guidelines for the Use of Generative AI released January 2025.",
+        "url": "https://ai.umd.edu/resources-guidelines/guidelines-for-use"
+      },
+      {
+        "name": "AI @ UMD (ai.umd.edu) central coordination hub",
+        "type": "office",
+        "scope": "Provost- and IT-backed portal coordinating AI resources, policy, and guidance across the institution; central place for faculty, staff and students to find approved tools and policies.",
+        "url": "https://ai.umd.edu/"
+      },
+      {
+        "name": "Artificial Intelligence Interdisciplinary Institute at Maryland (AIM)",
+        "type": "office",
+        "scope": "University-wide institute launched April 2024, administratively housed in the College of Computer, Mathematical, and Natural Sciences; director Hal Daumé III; coordinates AI research, new degree programs, seed awards and the AIM Fellows cohort. Four core pillars: accessibility, learning, sustainability, and social justice.",
+        "url": "https://aim.umd.edu/"
+      },
+      {
+        "name": "Division of IT — AI services and TerpAI program",
+        "type": "office",
+        "scope": "DIT operates TerpAI (the UMD-built chatbot) and the portfolio of approved enterprise AI tools (ChatGPT Enterprise, Microsoft 365 Copilot, Google Gemini, Perplexity Enterprise Pro), and runs risk review, data-classification gating and rollout support.",
+        "url": "https://ai-resources.umd.edu/"
+      }
+    ],
+    "summary": "Governance is three-layered: (1) the President's Commission on AI sets strategy and recommendations; (2) the Provost-plus-DIT Guidelines working group authored the campus acceptable-use policy; (3) AIM plus the Division of IT run execution — AIM for research, education and ethics posture, DIT for tools, platforms and data-classification enforcement."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of the Artificial Intelligence Interdisciplinary Institute at Maryland (AIM)",
+      "description": "UMD announced AIM in April 2024 as the campus-wide interdisciplinary hub for AI research, education and ethics. Housed in the College of Computer, Mathematical, and Natural Sciences under inaugural director Hal Daumé III, AIM unifies existing centers (Center for Machine Learning, TRAILS, Values-Centered AI, Social Data Science Center) and is developing new B.S., B.A., M.S., and Ph.D. programs in AI.",
+      "significance": "Creates a single institutional front door for UMD's AI research-plus-education agenda and signals a top-5 public AI-university aspiration.",
+      "date_announced": "2024-04-09",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_degree_program",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UMD university-wide reallocation; builds on existing NSF, industry, and donor funding",
+        "description": "University-wide institute with faculty hires and new degree programs; funding amount not publicly disclosed as a single figure."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Computer, Mathematical and Natural Sciences",
+            "College of Information",
+            "A. James Clark School of Engineering",
+            "Philip Merrill College of Journalism",
+            "College of Education",
+            "School of Theatre, Dance, and Performance Studies"
+          ],
+          "description": "AIM spans 50+ departments; explicitly interdisciplinary across CS/engineering and humanities/arts units."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Centralizes AI governance posture and ethical-AI framing at the institute level.",
+      "source_urls": [
+        "https://aim.umd.edu/",
+        "https://cmns.umd.edu/news-events/news/umd-launches-artificial-intelligence-interdisciplinary-institute",
+        "https://today.umd.edu/umd-launches-institute-focused-on-ethical-ai-development",
+        "https://www.prnewswire.com/news-releases/umd-launches-institute-focused-on-ethical-ai-development-302112024.html"
+      ]
+    },
+    {
+      "title": "NSF Institute for Trustworthy AI in Law & Society (TRAILS)",
+      "description": "UMD leads a $20 million NSF/NIST-funded institute in partnership with George Washington University, Morgan State University, and Cornell University, focused on shifting AI from a tech-driven to an ethics, rights, and community-participation-driven practice. Hal Daumé III is TRAILS director; Katie Shilton leads the participatory AI research thrust.",
+      "significance": "One of a small number of national AI institutes oriented to trust, law, society and participatory AI, giving UMD a national platform for responsible-AI policy research.",
+      "date_announced": "2023-05-04",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "National Science Foundation, with partnership from NIST",
+        "description": "$20M NSF award, one of the National AI Research Institutes."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "George Washington University",
+            "Morgan State University",
+            "Cornell University",
+            "NIST"
+          ],
+          "description": "Multi-institution institute with federal agency (NIST) partnership."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "TRAILS outputs — including a framework used to test safety of Meta's multimodal models — feed into federal AI policy conversations.",
+      "source_urls": [
+        "https://www.trails.umd.edu/",
+        "https://today.umd.edu/umd-to-lead-new-20m-nsf-institute-for-trustworthy-ai-in-law-and-society",
+        "https://www.nist.gov/news-events/news/2023/05/nist-partners-nsf-new-institute-trustworthy-ai-law-society-trails",
+        "https://cmns.umd.edu/news-events/news/umd-leads-new-nsf-institute-trustworthy-ai-law-and-society"
+      ]
+    },
+    {
+      "title": "TerpAI — UMD-built generative AI chatbot for campus",
+      "description": "TerpAI is a UMD-owned generative AI tool launched in late 2024, governed by the Division of IT, and cleared for up to Level 2 (moderate-risk) data. As of September 2025 it had been used by 3,600+ students (~9% of the student body), with 2025 plans to expose 11,000+ models (including GPT-5) via a categorized model picker. Axel Persaud (Assistant VP, DIT) leads the effort and frames the goal as 'base-level access to generative AI technology' for everyone.",
+      "significance": "Gives UMD a FERPA/HIPAA-aware, campus-branded chatbot alternative to public ChatGPT — a model other public R1s are increasingly adopting.",
+      "date_announced": "2024-12-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "data_infrastructure_and_unification",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMD Division of IT operating budget",
+        "description": "Ongoing institutional investment in a UMD-owned chatbot stack brokering multiple frontier models."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Anthropic",
+            "Google",
+            "Microsoft"
+          ],
+          "description": "TerpAI brokers access to multiple commercial frontier models while keeping prompts on UMD infrastructure."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TerpAI",
+          "vendor": "UMD Division of IT",
+          "role": "UMD-owned campus chatbot platform"
+        },
+        {
+          "name": "GPT-4o / GPT-5 (via TerpAI)",
+          "vendor": "OpenAI",
+          "role": "Underlying LLM"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "TerpAI's Level 2 classification and vendor-review gating is how UMD enforces its GenAI data-privacy policy in practice.",
+      "source_urls": [
+        "https://ai-resources.umd.edu/resources/services/terpai",
+        "https://today.umd.edu/briefs/umd-owned-generative-ai-tool-launched-guidelines-for-ai-use-issued",
+        "https://dbknews.com/2025/09/19/umd-terpai-updates-aim-to-boost-campus-adoption/",
+        "https://itsupport.umd.edu/itsupport/?id=kb_article_view&sysparm_article=KB0018754"
+      ]
+    },
+    {
+      "title": "Campus-wide Guidelines for the Use of Generative AI",
+      "description": "UMD released campus-wide Guidelines for the Use of Generative Artificial Intelligence in January 2025, jointly signed out by the President, Provost and VP/CIO. The guidelines define five principles (oversight, access, privacy, transparency, accountability), gate external GenAI by data-classification level (Level 2 and above routed to UMD-approved tools), and require syllabus-level disclosure.",
+      "significance": "First campus-wide, enforceable GenAI acceptable-use policy at UMD; aligns with USM, FERPA, HIPAA, and Maryland Personal Information Protection Act.",
+      "date_announced": "2025-01-17",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "institutional_ai_strategy",
+        "syllabus_level_policy",
+        "data_privacy_and_security",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMD Office of the President, Provost, Division of IT",
+        "description": "Cross-departmental working-group effort; no standalone dollar figure."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-departmental working group only."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "TerpAI",
+          "vendor": "UMD Division of IT",
+          "role": "Primary UMD-approved GenAI tool under the guidelines"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Pairs a principle framework with hard data-classification rules, giving department heads a concrete enforcement mechanism.",
+      "source_urls": [
+        "https://ai.umd.edu/resources-guidelines/guidelines-for-use",
+        "https://president.umd.edu/news/ai-at-the-university-of-maryland",
+        "https://provost.umd.edu/news/ai-at-the-university-of-maryland"
+      ]
+    },
+    {
+      "title": "Enterprise AI Tool Portfolio (ChatGPT Enterprise, Microsoft 365 Copilot, Google Gemini, Perplexity Enterprise Pro)",
+      "description": "Beyond TerpAI, UMD negotiated institution-wide or broad-license deals for ChatGPT Enterprise (Level 3 / high-risk data approved, subsidized at $20/month through June 2026), Microsoft 365 Copilot (Level 2), Google Gemini (Level 2), and a one-year Perplexity Enterprise Pro pilot (Level 2). All are listed in the Available Services catalog under Division of IT.",
+      "significance": "Makes UMD one of the relatively few R1s running all four major frontier-model vendors side-by-side with clear data-classification gates.",
+      "date_announced": "2024-12-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMD Division of IT; partial end-user cost recovery",
+        "description": "Subsidized licenses; ChatGPT Enterprise publicly priced at $20/month through June 2026, $30 thereafter."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "Microsoft",
+            "Google",
+            "Perplexity"
+          ],
+          "description": "Direct enterprise agreements with each vendor via UMD DIT."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT Enterprise",
+          "vendor": "OpenAI",
+          "role": "Frontier LLM, Level 3 approved"
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "M365-embedded assistant, Level 2 approved"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Workspace AI assistant, Level 2 approved"
+        },
+        {
+          "name": "Perplexity Enterprise Pro",
+          "vendor": "Perplexity",
+          "role": "AI search/research pilot, Level 2 approved"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "All vendor deals are gated through data classification and the UMD acceptable-use guidelines; Claude Pro/Team purchases must be handled departmentally outside DIT.",
+      "source_urls": [
+        "https://ai-resources.umd.edu/resources/services",
+        "https://ai.umd.edu/resources/services"
+      ]
+    },
+    {
+      "title": "UMD Virtual Agent Hub — departmental and study-assistant chatbots",
+      "description": "UMD's Division of IT runs a Virtual Agent Hub that provides two classes of domain-trained chatbots: Virtual Study Assistants (course-specific, Canvas-integrated) and Departmental Assistants (unit-specific procedural helpers). Chatbot-assisted courses span business, computer science and engineering.",
+      "significance": "Operationalizes GenAI at the course and unit level, giving faculty a guard-railed way to embed AI tutoring without shipping student data to public chatbots.",
+      "date_announced": "2024-09-01",
+      "primary_category": "student_experience_and_services",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_chatbot_or_virtual_assistant",
+        "ai_tutoring_and_adaptive_learning",
+        "personalized_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMD Division of IT, with college-level partners",
+        "description": "Infrastructure cost folded into DIT AI services budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "OpenAI",
+            "UMD DIT"
+          ],
+          "description": "Backed by OpenAI models via TerpAI infrastructure; integrated with Canvas LMS."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "UMD Virtual Agent",
+          "vendor": "UMD Division of IT",
+          "role": "Campus virtual agent platform"
+        },
+        {
+          "name": "Canvas",
+          "vendor": "Instructure",
+          "role": "LMS integration for Virtual Study Assistants"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Domain-trained bots give faculty a policy-compliant way to satisfy syllabus-level GenAI disclosure requirements.",
+      "source_urls": [
+        "https://ai-resources.umd.edu/ai-virtual-agent-hub",
+        "https://ai-resources.umd.edu/resources/services"
+      ]
+    },
+    {
+      "title": "Capital One Tech Incubator and Machine Learning endowment at UMD",
+      "description": "Capital One opened a 7,500-sf AI/ML tech incubator in UMD's Discovery District (2018) and endowed UMD with a $3 million machine-learning gift: $2.1M to endow a Department of Computer Science faculty chair and $900K for research and educational initiatives in ML, data analytics and cybersecurity. Capital One and UMD also co-design First-Year Innovation & Research Experience (FIRE) streams.",
+      "significance": "Anchor industry-academic partnership that pre-dates (and seeded) much of UMD's current ML faculty strength and student workforce pipeline.",
+      "date_announced": "2017-12-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_incubator_or_startup_support",
+        "ai_workforce_training"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3000000,
+        "funding_source": "Capital One",
+        "description": "$3M endowment gift ($2.1M for endowed chair, $900K for research/educational initiatives) plus 7,500 sf incubator space."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Capital One"
+          ],
+          "description": "Long-running industry-academic partnership anchored in the Discovery District research park."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.umd.edu/partnerships/industry/partnership-overview-capital-one",
+        "https://spac.umd.edu/news/story/university-of-maryland-capital-one-partner-to-drive-innovation-fueling-talent-pipeline-in-data-and",
+        "https://www.capitalone.com/tech/machine-learning/capital-one-unveils-new-technology-incubator-at-the-university-of-maryland-to-foster-ai-and-machine-learning/"
+      ]
+    },
+    {
+      "title": "Smith School free online AI and Career Empowerment Certificate",
+      "description": "The Robert H. Smith School of Business launched a free, online AI and Career Empowerment Certificate on May 1, 2025, targeting federal workers and other mid-career learners navigating AI-driven career transitions. More than 37,000 learners had enrolled by September 2025.",
+      "significance": "Rare free, open-enrollment AI certificate from an R1 business school explicitly aimed at displaced and transitioning federal workers — responsive to 2025 federal workforce disruption.",
+      "date_announced": "2025-05-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "continuing_and_executive_education",
+        "ai_workforce_training",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMD Robert H. Smith School of Business",
+        "description": "Free certificate; cost absorbed by the Smith School."
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Federal workforce community"
+          ],
+          "description": "Targets federal government employees and career-transition learners in the DMV region."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Smith Learn (Canvas Catalog)",
+          "vendor": "Instructure",
+          "role": "Course delivery platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.rhsmith.umd.edu/news/university-maryland-business-school-offers-free-ai-certificate-tuition-discounts-federal-workers",
+        "https://www.bestcolleges.com/news/university-of-maryland-launches-free-online-ai-skills-certificate/",
+        "https://www.rhsmith.umd.edu/news/more-37k-enroll-smith-ai-course-career-empowerment"
+      ]
+    },
+    {
+      "title": "M.S. in Artificial Intelligence launched by UMD",
+      "description": "UMD launched an M.S. in Artificial Intelligence combining technical core (ML, deep learning, AI-driven decision making) with AI ethics, human-computer interaction, explainable AI, and policy coursework. UMD also states it is developing a B.S. in AI, B.A. in AI, and Ph.D. in AI, all coordinated through AIM.",
+      "significance": "Signals a shift from AI-adjacent degrees (CS, ECE, INST) to first-class AI degree programs at both undergraduate and graduate level.",
+      "date_announced": "2024-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "ai_and_degree_value"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "UMD / AIM",
+        "description": "Degree-program investment coordinated through AIM."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "AIM",
+            "College of CMNS",
+            "College of Information"
+          ],
+          "description": "Multi-college curriculum coordinated by AIM."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://academiccatalog.umd.edu/graduate/programs/artificial-intelligence-msai/",
+        "https://aim.umd.edu/education",
+        "https://cmns.umd.edu/research/solving-grand-challenges/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "Zaratan HPC cluster with H100/A100 GPU capacity",
+      "description": "UMD's flagship research HPC cluster, Zaratan, went online in August 2022 with 360 CPU compute nodes, 20 four-way A100 GPU nodes, 8 four-way H100 GPU nodes (giving ~112 NVIDIA A100s and ~32 NVIDIA H100s), 6 two-TiB large-memory nodes, and 3.5 peak petaflops. Hosted in a DataBank data center in McLean, VA and accessible via Open OnDemand.",
+      "significance": "Gives UMD researchers in-house access to H100-class GPU capacity for training and fine-tuning AI models without fully depending on national HPC allocations.",
+      "date_announced": "2022-08-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": null,
+        "funding_source": "UMD central research and IT investment; hosted at DataBank (McLean, VA)",
+        "description": "Multi-million-dollar capital investment (amount not disclosed) in GPU/CPU HPC infrastructure."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "DataBank",
+            "NVIDIA",
+            "AMD"
+          ],
+          "description": "Colocated at DataBank's McLean data center; built on AMD EPYC 7763 CPUs and NVIDIA A100/H100 GPUs."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Zaratan cluster",
+          "vendor": "UMD HPC@UMD",
+          "role": "Flagship HPC/AI research cluster"
+        },
+        {
+          "name": "NVIDIA A100 / H100 GPUs",
+          "vendor": "NVIDIA",
+          "role": "AI training accelerators"
+        },
+        {
+          "name": "Open OnDemand",
+          "vendor": "Ohio Supercomputer Center / open source",
+          "role": "Web-based HPC portal"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hpcc.umd.edu/home/clusters/zaratan/",
+        "https://hpcc.umd.edu/",
+        "https://umdrightnow.umd.edu/news-releases/umd-introduces-zaratan-the-latest-investment-in-state-of-the-art-high-performance-computing",
+        "https://www.datacenterdynamics.com/en/news/university-of-maryland-deploys-supercomputer-in-databank-data-center-in-mclean-virginia/"
+      ]
+    },
+    {
+      "title": "Brin Mathematics Research Center — $27.2M gift (mathematics underpinning AI)",
+      "description": "Michael and Eugenia Brin gifted $27.2 million in March 2024 to endow the Brin Mathematics Research Center, a Brin Endowed Chair in Mathematics, and the Brin Maryland Mathematics Camp. This adds to a $4.75M 2021 founding gift and lifts UMD to #6 public graduate-level math program. Mathematics is a core feeder for AI/ML research at UMD.",
+      "significance": "Largest gift ever to UMD mathematics and fourth-largest outright individual gift ever to UMD; reinforces the mathematical-foundations side of the university's AI bench.",
+      "date_announced": "2024-03-05",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 27200000,
+        "funding_source": "Michael Brin (UMD Math Professor Emeritus) and Eugenia Brin",
+        "description": "$27.2M 2024 gift on top of $4.75M 2021 founding gift; also state-matched earlier gifts."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [
+            "Brin family"
+          ],
+          "description": "Individual donor gift."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://cmns.umd.edu/news-events/news/brin-27-million-gift-mathematics-research-outreach",
+        "https://www.prnewswire.com/news-releases/university-of-maryland-receives-27-2-million-gift-to-support-mathematics-research-and-outreach-302088969.html",
+        "https://brinmrc.umd.edu/"
+      ]
+    },
+    {
+      "title": "Values-Centered AI (VCAI) Grand Challenge initiative",
+      "description": "VCAI is a UMD Grand Challenges-funded initiative connecting AI researchers, philosophers, and HCI scholars to operationalize human values in AI systems across healthcare, education, transportation, communication, and accessibility. Led through the College of Information and partnered with the Division of Research.",
+      "significance": "Gives UMD a named, values-first AI research program that complements TRAILS' law-and-society focus and feeds into AIM's ethical-AI pillar.",
+      "date_announced": "2022-09-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "ai_research_center",
+        "algorithmic_bias"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UMD Division of Research (Grand Challenges Grants)",
+        "description": "UMD Grand Challenges seed and project funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of Information",
+            "CMNS",
+            "Division of Research"
+          ],
+          "description": "Multi-college UMD collaboration."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://research.umd.edu/vcai",
+        "https://ischool.umd.edu/centers-and-labs/vcai/"
+      ]
+    },
+    {
+      "title": "Maryland state AI enablement — Governor Moore Executive Order 01.01.2024.02",
+      "description": "On January 8, 2024, Governor Wes Moore signed Executive Order 01.01.2024.02 'Catalyzing the Responsible and Productive Use of Artificial Intelligence in Maryland State Government,' establishing six principles (fairness/equity, innovation, privacy, safety/security/resilience, validity/reliability, transparency/accountability). The 2025 Maryland AI Enablement Strategy and AI Study Roadmap expand this to 12 critical domains including education and workforce.",
+      "significance": "State-level AI policy context directly shaping USM and UMD posture; Maryland's 2025 roadmap calls out education and workforce as priority AI domains.",
+      "date_announced": "2024-01-08",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "regulatory_compliance",
+        "institutional_ai_strategy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "administrators",
+        "community"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "State of Maryland",
+        "description": "State executive order and strategy; no single dollar figure assigned to UMD."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "State of Maryland",
+            "Maryland Department of Information Technology",
+            "University System of Maryland"
+          ],
+          "description": "State AI policy applies to USM institutions including UMD-College Park."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "USM and UMD policies must remain consistent with the six state AI principles.",
+      "source_urls": [
+        "https://governor.maryland.gov/Lists/ExecutiveOrders/Attachments/31/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf",
+        "https://doit.maryland.gov/policies/ai/Pages/maryland-AI-enablement-strategy-and-roadmap.aspx",
+        "https://statescoop.com/maryland-gov-wes-moore-ai-strategy-roadmap-2025/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Artificial Intelligence Interdisciplinary Institute at Maryland (AIM)",
+      "focus": "Campus-wide interdisciplinary AI research, education, and ethics",
+      "founded": "2024",
+      "url": "https://aim.umd.edu/"
+    },
+    {
+      "name": "NSF Institute for Trustworthy AI in Law & Society (TRAILS)",
+      "focus": "Ethics, law, and participatory AI; led by UMD with GWU, Morgan State, Cornell, NIST",
+      "founded": "2023",
+      "url": "https://www.trails.umd.edu/"
+    },
+    {
+      "name": "Center for Machine Learning",
+      "focus": "ML algorithms, computer vision, healthcare ML, fairness in ML",
+      "founded": null,
+      "url": "https://ml.umd.edu/"
+    },
+    {
+      "name": "University of Maryland Institute for Advanced Computer Studies (UMIACS)",
+      "focus": "Advanced computing, AI, computational research infrastructure",
+      "founded": "1985",
+      "url": "https://umiacs.umd.edu/"
+    },
+    {
+      "name": "Applied Research Laboratory for Intelligence and Security (ARLIS)",
+      "focus": "Human-centered AI autonomy for DoD and intelligence community",
+      "founded": "2018",
+      "url": "https://www.arlis.umd.edu/"
+    },
+    {
+      "name": "Center for Industrial Artificial Intelligence",
+      "focus": "AI applied to aerospace, energy, healthcare, manufacturing",
+      "founded": null,
+      "url": "https://www.iaicenter.com/"
+    },
+    {
+      "name": "Values-Centered AI (VCAI) Initiative",
+      "focus": "Values-integrated AI across education, healthcare, transportation, accessibility",
+      "founded": "2022",
+      "url": "https://research.umd.edu/vcai"
+    },
+    {
+      "name": "Brin Mathematics Research Center",
+      "focus": "Mathematical foundations of ML and AI",
+      "founded": "2021",
+      "url": "https://brinmrc.umd.edu/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "M.S. in Artificial Intelligence (MSAI)",
+      "level": "grad",
+      "launched": "2024-08",
+      "url": "https://academiccatalog.umd.edu/graduate/programs/artificial-intelligence-msai/"
+    },
+    {
+      "type": "concentration",
+      "name": "Academy of Machine Learning (ECE ML concentration)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://ece.umd.edu/undergraduate/degrees/machine-learning"
+    },
+    {
+      "type": "certificate",
+      "name": "UMGC Undergraduate Certificate in Artificial Intelligence Foundations (USM affiliate)",
+      "level": "undergrad",
+      "launched": "2025-01",
+      "url": "https://www.umgc.edu/online-degrees/undergraduate-certificates/artificial-intelligence-foundations"
+    },
+    {
+      "type": "certificate",
+      "name": "Smith School Free Online AI and Career Empowerment Certificate",
+      "level": "both",
+      "launched": "2025-05",
+      "url": "https://www.rhsmith.umd.edu/news/university-maryland-business-school-offers-free-ai-certificate-tuition-discounts-federal-workers"
+    },
+    {
+      "type": "course",
+      "name": "200+ AI-related courses across 50+ departments (AIM catalog)",
+      "level": "both",
+      "launched": null,
+      "url": "https://aim.umd.edu/education"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "UMD Division of IT",
+      "product": "TerpAI",
+      "scope": "campus-wide",
+      "user_count": 3600,
+      "deployed": "2024-12",
+      "url": "https://ai-resources.umd.edu/resources/services/terpai"
+    },
+    {
+      "vendor": "OpenAI",
+      "product": "ChatGPT Enterprise",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-12",
+      "url": "https://ai-resources.umd.edu/resources/services"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-06",
+      "url": "https://ai-resources.umd.edu/resources/services"
+    },
+    {
+      "vendor": "Google",
+      "product": "Gemini (Google Workspace)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-06",
+      "url": "https://ai-resources.umd.edu/resources/services"
+    },
+    {
+      "vendor": "Perplexity",
+      "product": "Perplexity Enterprise Pro (1-year pilot)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-01",
+      "url": "https://ai-resources.umd.edu/resources/services"
+    },
+    {
+      "vendor": "UMD Division of IT",
+      "product": "UMD Virtual Agent Hub (Virtual Study Assistants + Departmental Assistants)",
+      "scope": "college-specific",
+      "user_count": null,
+      "deployed": "2024-09",
+      "url": "https://ai-resources.umd.edu/ai-virtual-agent-hub"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Zaratan",
+    "gpu_count": 144,
+    "url": "https://hpcc.umd.edu/home/clusters/zaratan/",
+    "summary": "Zaratan, UMD's flagship HPC cluster operated by HPC@UMD and hosted at DataBank in McLean, VA, went online in August 2022. It provides 360 CPU nodes (128 cores each, AMD EPYC 7763), 20 four-way NVIDIA A100 GPU nodes (~80 A100s total), 8 four-way NVIDIA H100 GPU nodes (~32 H100s), 6 two-TiB large-memory nodes, ~3.5 peak petaflops, and an Open OnDemand web portal. Researchers can also access the regional Mid-Atlantic Crossroads (MAX) network and national HPC resources."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Brin family $27.2M gift to Department of Mathematics",
+      "amount_usd": 27200000,
+      "source": "Michael and Eugenia Brin",
+      "purpose": "Endow Brin Mathematics Research Center, Brin Endowed Chair, and Brin Maryland Math Camp",
+      "date": "2024-03",
+      "url": "https://cmns.umd.edu/news-events/news/brin-27-million-gift-mathematics-research-outreach"
+    },
+    {
+      "title": "Brin family $4.75M founding gift for Brin Mathematics Research Center",
+      "amount_usd": 4750000,
+      "source": "Michael and Eugenia Brin",
+      "purpose": "Establish the Brin Mathematics Research Center",
+      "date": "2021-12",
+      "url": "https://cmns.umd.edu/news-events/news/475-million-gift-establishes-brin-mathematics-research-center-umd"
+    },
+    {
+      "title": "NSF/NIST TRAILS Institute award",
+      "amount_usd": 20000000,
+      "source": "National Science Foundation with NIST partnership",
+      "purpose": "Establish UMD-led Institute for Trustworthy AI in Law & Society",
+      "date": "2023-05",
+      "url": "https://today.umd.edu/umd-to-lead-new-20m-nsf-institute-for-trustworthy-ai-in-law-and-society"
+    },
+    {
+      "title": "Capital One $3M machine-learning endowment gift",
+      "amount_usd": 3000000,
+      "source": "Capital One",
+      "purpose": "Endowed faculty chair in CS plus ML/data analytics/cybersecurity research and education",
+      "date": "2017-12",
+      "url": "https://spac.umd.edu/news/story/university-of-maryland-capital-one-partner-to-drive-innovation-fueling-talent-pipeline-in-data-and"
+    },
+    {
+      "title": "Maryland Department of Commerce Brin Endowed Chair match",
+      "amount_usd": 2000000,
+      "source": "Maryland Department of Commerce",
+      "purpose": "State match for the Brin Endowed Chair in Mathematics",
+      "date": null,
+      "url": "https://cmns.umd.edu/news-events/news/2-million-maryland-commerce-brin-endowed-chair"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "industry_academic",
+      "partner": "Capital One",
+      "purpose": "Machine-learning research, talent pipeline, Capital One Tech Incubator in Discovery District, FIRE streams",
+      "date": "2017-12",
+      "url": "https://research.umd.edu/partnerships/industry/partnership-overview-capital-one"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "NSF / NIST (TRAILS)",
+      "purpose": "$20M NSF institute for trustworthy AI in law and society",
+      "date": "2023-05",
+      "url": "https://www.trails.umd.edu/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "George Washington University, Morgan State University, Cornell University",
+      "purpose": "TRAILS multi-institution research consortium",
+      "date": "2023-05",
+      "url": "https://www.trails.umd.edu/people"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Defense / Intelligence Community (ARLIS)",
+      "purpose": "Applied Research Laboratory for Intelligence and Security — human-centered AI autonomy",
+      "date": "2018-01",
+      "url": "https://www.arlis.umd.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "OpenAI / Microsoft / Google / Anthropic / Perplexity",
+      "purpose": "Enterprise GenAI licensing for ChatGPT Enterprise, Copilot, Gemini, Claude, Perplexity Enterprise",
+      "date": "2024-12",
+      "url": "https://ai-resources.umd.edu/resources/services"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "chatbot",
+      "name": "TerpAI",
+      "scope": "Campus-wide generative AI chatbot for all UMD students, faculty, and staff (Level 2 data approved); 3,600+ student users as of September 2025",
+      "url": "https://ai-resources.umd.edu/resources/services/terpai"
+    },
+    {
+      "type": "tutor",
+      "name": "UMD Virtual Study Assistants (VSA)",
+      "scope": "Course-specific chatbots trained on course materials; Canvas-integrated; piloted in business, computer science, and engineering classes",
+      "url": "https://ai-resources.umd.edu/ai-virtual-agent-hub"
+    },
+    {
+      "type": "advisor",
+      "name": "UMD Departmental Assistants",
+      "scope": "Unit-specific virtual agents providing procedural guidance for departments/offices",
+      "url": "https://ai-resources.umd.edu/ai-virtual-agent-hub"
+    },
+    {
+      "type": "other",
+      "name": "ChatGPT Enterprise (student access)",
+      "scope": "Subsidized student access to OpenAI's frontier models; $20/month through June 2026 then $30/month; Level 3 data approved",
+      "url": "https://ai-resources.umd.edu/resources/services"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "TerpAI as universal-access GenAI tool",
+      "description": "DIT frames TerpAI as a free, UMD-branded chatbot so that 'everyone has some base-level of access to generative AI technology' regardless of ability to pay for commercial subscriptions.",
+      "url": "https://dbknews.com/2025/09/19/umd-terpai-updates-aim-to-boost-campus-adoption/"
+    },
+    {
+      "title": "Smith School free AI + Career Empowerment Certificate",
+      "description": "Free open-enrollment certificate aimed at federal workers and career transitioners; 37,000+ learners by late 2025.",
+      "url": "https://www.rhsmith.umd.edu/news/more-37k-enroll-smith-ai-course-career-empowerment"
+    },
+    {
+      "title": "AIM pillar: accessibility",
+      "description": "AIM names accessibility as one of four core research pillars, alongside learning, sustainability and social justice.",
+      "url": "https://aim.umd.edu/"
+    },
+    {
+      "title": "TRAILS participatory AI thrust",
+      "description": "Katie Shilton leads TRAILS' participatory AI research thrust, explicitly designed to bring under-included communities into AI development, deployment and evaluation.",
+      "url": "https://www.trails.umd.edu/people"
+    },
+    {
+      "title": "Partnership with Morgan State University through TRAILS",
+      "description": "Morgan State is an HBCU partner in TRAILS, giving UMD a structural equity partner in its largest federal AI award.",
+      "url": "https://www.trails.umd.edu/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "MD",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Maryland Governor Wes Moore issued Executive Order 01.01.2024.02 (Jan 8, 2024) catalyzing responsible AI in state government with six principles (fairness/equity, innovation, privacy, safety/security/resilience, validity/reliability, transparency/accountability). The 2025 Maryland AI Enablement Strategy and AI Study Roadmap expand the reach to 12 critical domains — including education and workforce. The University System of Maryland (USM) applies its own data privacy standards (referenced in UMD guidelines), and UMD guidelines explicitly cite compliance with USM policies, FERPA, HIPAA, and the Maryland Personal Information Protection Act.",
+    "urls": [
+      "https://governor.maryland.gov/Lists/ExecutiveOrders/Attachments/31/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf",
+      "https://doit.maryland.gov/policies/ai/Pages/maryland-AI-enablement-strategy-and-roadmap.aspx",
+      "https://statescoop.com/maryland-gov-wes-moore-ai-strategy-roadmap-2025/",
+      "https://ai.umd.edu/resources-guidelines/guidelines-for-use"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "University of Maryland-College Park, the 41,000-student flagship of the University System of Maryland, has built one of the more coherent AI postures among public R1s. The institutional center of gravity is the Artificial Intelligence Interdisciplinary Institute at Maryland (AIM), launched in April 2024 under inaugural director Hal Daumé III and housed in the College of Computer, Mathematical, and Natural Sciences. AIM unifies pre-existing assets — the Center for Machine Learning, the $20M NSF-funded TRAILS institute for trustworthy AI in law and society (UMD with GWU, Morgan State, Cornell and NIST), the Values-Centered AI (VCAI) Grand Challenge initiative, UMIACS, ARLIS, and the Brin Mathematics Research Center — and is standing up a new B.S., B.A., M.S., and Ph.D. sequence in AI with M.S. already in the Academic Catalog. Governance is anchored by the President's Commission on AI (co-chaired by Jen Golbeck and Axel Persaud), whose final report drove the January 2025 release of comprehensive, campus-wide Guidelines for the Use of Generative AI signed out by President Darryll Pines, Provost Jennifer King Rice, and CIO Jeff Hollingsworth. The policy pairs five human-centered principles with hard data-classification rules (Level 2 content stays in UMD-approved tools; Level 3 can only be used in ChatGPT Enterprise) and requires syllabus-level disclosure. Operationally, the Division of IT runs TerpAI — a UMD-owned, FERPA/HIPAA-aware chatbot launched in late 2024 and used by 3,600+ students (~9% of the student body) by September 2025 — alongside enterprise licenses for ChatGPT Enterprise, Microsoft 365 Copilot, Google Gemini, and a Perplexity Enterprise Pro pilot. TerpAI is being upgraded to 11,000+ models including GPT-5. A Virtual Agent Hub delivers Canvas-integrated Virtual Study Assistants and Departmental Assistants. Research compute runs on Zaratan (August 2022, ~3.5 peak PF, with both A100 and H100 GPUs, hosted at DataBank McLean). Partnerships are diverse: Capital One's $3M endowment and Discovery District incubator; NSF/NIST TRAILS; DoD/IC through ARLIS; and a Smith School free online AI + career empowerment certificate that enrolled 37,000+ federal workers and other learners in its first months. State context is active — Gov. Moore's 2024 executive order and 2025 AI Enablement Strategy shape USM and UMD policy. Gaps: UMD has not named a chief AI officer; enterprise platform user counts and aggregate AI investment figures are not publicly disclosed.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://aim.umd.edu/",
+      "https://aim.umd.edu/education",
+      "https://www.trails.umd.edu/",
+      "https://www.trails.umd.edu/people",
+      "https://cmns.umd.edu/news-events/news/umd-launches-artificial-intelligence-interdisciplinary-institute",
+      "https://cmns.umd.edu/news-events/news/umd-leads-new-nsf-institute-trustworthy-ai-law-and-society",
+      "https://cmns.umd.edu/news-events/news/brin-27-million-gift-mathematics-research-outreach",
+      "https://cmns.umd.edu/news-events/news/475-million-gift-establishes-brin-mathematics-research-center-umd",
+      "https://cmns.umd.edu/news-events/news/2-million-maryland-commerce-brin-endowed-chair",
+      "https://cmns.umd.edu/research/solving-grand-challenges/artificial-intelligence",
+      "https://today.umd.edu/umd-launches-institute-focused-on-ethical-ai-development",
+      "https://today.umd.edu/umd-to-lead-new-20m-nsf-institute-for-trustworthy-ai-in-law-and-society",
+      "https://today.umd.edu/briefs/umd-owned-generative-ai-tool-launched-guidelines-for-ai-use-issued",
+      "https://today.umd.edu/aim-welcomes-5-distinguished-artificial-intelligence-scholars",
+      "https://president.umd.edu/news/ai-at-the-university-of-maryland",
+      "https://president.umd.edu/administration/commissions-task-forces-and-councils/presidents-commission-on-artificial-intelligence",
+      "https://president.umd.edu/administration/commissions-task-forces-and-councils/presidents-commission-on-artificial-intelligence/members",
+      "https://provost.umd.edu/news/ai-at-the-university-of-maryland",
+      "https://provost.umd.edu/",
+      "https://fearlesslyforward.umd.edu/ai",
+      "https://ai.umd.edu/",
+      "https://ai.umd.edu/resources-guidelines",
+      "https://ai.umd.edu/resources-guidelines/guidelines-for-use",
+      "https://ai.umd.edu/resources/guidelines",
+      "https://ai.umd.edu/resources/services",
+      "https://ai-resources.umd.edu/",
+      "https://ai-resources.umd.edu/resources/services",
+      "https://ai-resources.umd.edu/resources/services/terpai",
+      "https://ai-resources.umd.edu/ai-virtual-agent-hub",
+      "https://ai-resources.umd.edu/newsroom",
+      "https://tltc.umd.edu/artificial-intelligence-ai",
+      "https://tltc.umd.edu/sample-syllabus-language-ai-course-policies",
+      "https://itsupport.umd.edu/itsupport/?id=kb_article_view&sysparm_article=KB0018754",
+      "https://dbknews.com/2025/09/19/umd-terpai-updates-aim-to-boost-campus-adoption/",
+      "https://academiccatalog.umd.edu/graduate/programs/artificial-intelligence-msai/",
+      "https://ece.umd.edu/undergraduate/degrees/machine-learning",
+      "https://www.rhsmith.umd.edu/news/university-maryland-business-school-offers-free-ai-certificate-tuition-discounts-federal-workers",
+      "https://www.rhsmith.umd.edu/news/more-37k-enroll-smith-ai-course-career-empowerment",
+      "https://www.bestcolleges.com/news/university-of-maryland-launches-free-online-ai-skills-certificate/",
+      "https://research.umd.edu/partnerships/industry/partnership-overview-capital-one",
+      "https://research.umd.edu/vcai",
+      "https://research.umd.edu/capabilities/research-areas/ai-and-data-science",
+      "https://research.umd.edu/resources/ai-initiatives",
+      "https://spac.umd.edu/news/story/university-of-maryland-capital-one-partner-to-drive-innovation-fueling-talent-pipeline-in-data-and",
+      "https://www.cs.umd.edu/article/2017/12/university-maryland-capital-one-partner-drive-innovation-fueling-talent-pipeline",
+      "https://www.capitalone.com/tech/machine-learning/capital-one-unveils-new-technology-incubator-at-the-university-of-maryland-to-foster-ai-and-machine-learning/",
+      "https://hpcc.umd.edu/home/clusters/zaratan/",
+      "https://hpcc.umd.edu/",
+      "https://hpcc.umd.edu/kb/queues/",
+      "https://umdrightnow.umd.edu/news-releases/umd-introduces-zaratan-the-latest-investment-in-state-of-the-art-high-performance-computing",
+      "https://www.datacenterdynamics.com/en/news/university-of-maryland-deploys-supercomputer-in-databank-data-center-in-mclean-virginia/",
+      "https://www.prnewswire.com/news-releases/umd-launches-institute-focused-on-ethical-ai-development-302112024.html",
+      "https://www.prnewswire.com/news-releases/university-of-maryland-receives-27-2-million-gift-to-support-mathematics-research-and-outreach-302088969.html",
+      "https://governor.maryland.gov/Lists/ExecutiveOrders/Attachments/31/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf",
+      "https://doit.maryland.gov/policies/ai/Pages/maryland-AI-enablement-strategy-and-roadmap.aspx",
+      "https://statescoop.com/maryland-gov-wes-moore-ai-strategy-roadmap-2025/",
+      "https://ml.umd.edu/",
+      "https://umiacs.umd.edu/",
+      "https://www.arlis.umd.edu/",
+      "https://www.iaicenter.com/",
+      "https://brinmrc.umd.edu/",
+      "https://www.nist.gov/news-events/news/2023/05/nist-partners-nsf-new-institute-trustworthy-ai-law-society-trails",
+      "https://gradpilot.com/ai-policies/university-of-maryland-college-park"
+    ],
+    "search_queries": [
+      "\"University of Maryland\" College Park AI strategy 2025 2026 artificial intelligence",
+      "\"University of Maryland\" College Park generative AI policy acceptable use faculty students",
+      "\"University of Maryland AIM Institute for Artificial Intelligence Machine Learning\"",
+      "\"University of Maryland\" College Park president provost CIO 2026",
+      "\"University of Maryland\" TerpAI enterprise AI platform ChatGPT Copilot deployment",
+      "\"University of Maryland\" College Park TRAILS Institute Trustworthy AI NSF",
+      "\"University of Maryland\" AI governance committee task force council",
+      "\"University of Maryland\" College Park AI supercomputer Zaratan HPC GPU cluster",
+      "\"University of Maryland\" Capital One AI research partnership machine learning",
+      "\"University of Maryland\" AI minor certificate undergraduate program major",
+      "Maryland state higher education AI policy executive order Governor Moore 2025",
+      "\"University of Maryland\" Brin Institute Mathematical Sciences AI gift donation",
+      "\"University of Maryland\" AI startup incubator Discovery District UMD Ventures",
+      "\"University of Maryland\" College Park Values-Centered AI Initiative Grand Challenges",
+      "\"University of Maryland\" AI chatbot student advisor virtual agent predictive analytics",
+      "\"University of Maryland\" NSF AI Institute EnergyAI ARTIFICIAL INTELLIGENCE Federal grant"
+    ],
+    "gaps_acknowledged": [
+      "UMD has no named Chief AI Officer; AI strategy lead attributed to AIM director Hal Daumé III.",
+      "Specific enterprise platform user counts (other than TerpAI's 3,600 student users) are not publicly disclosed.",
+      "Aggregate UMD AI investment (total dollar commitment) is not published as a single figure.",
+      "No public controversy or litigation specific to UMD AI use was surfaced in this search.",
+      "President's Commission on AI founding date based on secondary sources (November 2023); primary founding document not located.",
+      "Exact launch date of the UMD Virtual Agent Hub uses a reasonable estimate (2024-09)."
+    ],
+    "confidence": "high"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "research_compute_powerhouse",
+      "secondary": [
+        "balanced_enterprise",
+        "platform_first",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 18,
+        "research_compute_powerhouse": 20,
+        "curriculum_led": 10,
+        "governance_led": 13,
+        "student_success_led": 8,
+        "workforce_regional_development": 8,
+        "balanced_enterprise": 18,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: research compute powerhouse."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": false,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 0,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 8,
+      "scientific_discovery_signal_count": 2,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Zaratan",
+        "gpu_count": 144,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 56950000,
+      "funding_source_buckets": {
+        "public_federal_state": 7,
+        "philanthropy_foundation": 3,
+        "institutional": 4,
+        "industry_vendor": 1,
+        "other_unclear": 3
+      },
+      "partnership_count": 5
+    },
+    "student_impact": {
+      "student_facing_tool_count": 4,
+      "service_type_counts": {
+        "chatbot": 1,
+        "tutor": 1,
+        "advisor": 1,
+        "other": 1
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": true,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 1
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "OpenAI",
+          "mentions": 3,
+          "products": [
+            "ChatGPT Enterprise",
+            "GPT-4o / GPT-5 (via TerpAI)"
+          ]
+        },
+        {
+          "vendor": "UMD Division of IT TerpAI",
+          "mentions": 3,
+          "products": [
+            "TerpAI"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 2,
+          "products": [
+            "Gemini",
+            "Gemini (Google Workspace)"
+          ]
+        },
+        {
+          "vendor": "Instructure",
+          "mentions": 2,
+          "products": [
+            "Canvas",
+            "Smith Learn (Canvas Catalog)"
+          ]
+        },
+        {
+          "vendor": "Microsoft",
+          "mentions": 2,
+          "products": [
+            "Microsoft 365 Copilot"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "NVIDIA A100 / H100 GPUs"
+          ]
+        },
+        {
+          "vendor": "Ohio Supercomputer Center / open source Open OnDemand",
+          "mentions": 1,
+          "products": [
+            "Open OnDemand"
+          ]
+        },
+        {
+          "vendor": "Perplexity Perplexity Enterprise Pro",
+          "mentions": 1,
+          "products": [
+            "Perplexity Enterprise Pro"
+          ]
+        },
+        {
+          "vendor": "Perplexity Perplexity Enterprise Pro (1-year pilot)",
+          "mentions": 1,
+          "products": [
+            "Perplexity Enterprise Pro (1-year pilot)"
+          ]
+        },
+        {
+          "vendor": "UMD Division of IT UMD Virtual Agent",
+          "mentions": 1,
+          "products": [
+            "UMD Virtual Agent"
+          ]
+        },
+        {
+          "vendor": "UMD Division of IT UMD Virtual Agent Hub (Virtual Study Assistants + Departmental Assistants)",
+          "mentions": 1,
+          "products": [
+            "UMD Virtual Agent Hub (Virtual Study Assistants + Departmental Assistants)"
+          ]
+        },
+        {
+          "vendor": "UMD HPC@UMD Zaratan cluster",
+          "mentions": 1,
+          "products": [
+            "Zaratan cluster"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "OpenAI",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": false,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "Capital One Tech Incubator and Machine Learning endowment at UMD",
+          "summary": "Anchor industry-academic partnership that pre-dates (and seeded) much of UMD's current ML faculty strength and student workforce pipeline.",
+          "source_url": "https://research.umd.edu/partnerships/industry/partnership-overview-capital-one"
+        },
+        {
+          "claim_type": "career",
+          "title": "Smith School free online AI and Career Empowerment Certificate",
+          "summary": "Rare free, open-enrollment AI certificate from an R1 business school explicitly aimed at displaced and transitioning federal workers — responsive to 2025 federal workforce disruption.",
+          "source_url": "https://www.rhsmith.umd.edu/news/university-maryland-business-school-offers-free-ai-certificate-tuition-discounts-federal-workers"
+        },
+        {
+          "claim_type": "career",
+          "title": "Maryland state AI enablement — Governor Moore Executive Order 01.01.2024.02",
+          "summary": "State-level AI policy context directly shaping USM and UMD posture; Maryland's 2025 roadmap calls out education and workforce as priority AI domains.",
+          "source_url": "https://governor.maryland.gov/Lists/ExecutiveOrders/Attachments/31/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf"
+        }
+      ],
+      "public_claim_count": 3
+    },
+    "risk_readiness": {
+      "high_impact_student_use": true,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 11,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "UMD has no named Chief AI Officer; AI strategy lead attributed to AIM director Hal Daumé III.",
+        "Specific enterprise platform user counts (other than TerpAI's 3,600 student users) are not publicly disclosed.",
+        "Aggregate UMD AI investment (total dollar commitment) is not published as a single figure.",
+        "No public controversy or litigation specific to UMD AI use was surfaced in this search.",
+        "President's Commission on AI founding date based on secondary sources (November 2023); primary founding document not located.",
+        "Exact launch date of the UMD Virtual Agent Hub uses a reasonable estimate (2024-09)."
+      ]
+    }
+  }
+}

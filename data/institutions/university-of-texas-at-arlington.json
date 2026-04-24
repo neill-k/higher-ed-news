@@ -1,0 +1,1511 @@
+{
+  "institution": "University of Texas at Arlington",
+  "slug": "university-of-texas-at-arlington",
+  "city_state": "Arlington, TX",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "University of Texas System",
+  "enrollment": 42710,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Jennifer Cowley",
+      "url": "https://www.uta.edu/administration/president/meet-the-president"
+    },
+    "provost": {
+      "name": "Tamara L. Brown",
+      "url": "https://www.uta.edu/administration/provost/meet-the-provost"
+    },
+    "cio": {
+      "name": "Deepika Chalemela",
+      "url": "https://www.uta.edu/administration/president/leadership"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Deepika Chalemela",
+      "title": "Chief Information Officer and Chair, UTA AI Council",
+      "url": "https://ai.uta.edu/people/"
+    },
+    "has_dedicated_ai_role": true
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Artificial Intelligence at UTA (central AI hub, resources, people, initiatives)",
+        "url": "https://ai.uta.edu/",
+        "year": 2024
+      },
+      {
+        "title": "UTA GenAI Guidelines for Faculty (approved 2025)",
+        "url": "https://ai.uta.edu/generative-ai-guidelines-for-instruction/",
+        "year": 2025
+      },
+      {
+        "title": "Researcher Guidance for the Use of Artificial Intelligence in Research",
+        "url": "https://ai.uta.edu/researcher-guidance-for-the-use-of-artificial-intelligence-in-research/",
+        "year": 2024
+      },
+      {
+        "title": "Use of Generative Artificial Intelligence (Research Administration policy)",
+        "url": "https://resources.uta.edu/research/policies-and-procedures/generative-artificial-intelligence.php",
+        "year": 2024
+      }
+    ],
+    "summary": "UTA's AI strategy is coordinated through a central 'Artificial Intelligence at UTA' hub (ai.uta.edu) and governed by a multi-office AI Council chaired by the CIO. The university frames AI adoption around three ideas: ethical/responsible use, hands-on enablement for faculty and staff, and research impact in priority domains (smart agriculture, drug discovery, engineering, big data). Rather than publishing a single board-approved strategy document, UTA has stitched together guideline packs for instruction, research, and operations, an AI Learning Hub built on LinkedIn Learning/Microsoft content, and proof-of-concept deployments (nebulaONE, CloudForce travel assistant) run through the Office of Information Technology's innovation team."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://ai.uta.edu/guidelines/",
+      "https://ai.uta.edu/generative-ai-guidelines-for-instruction/",
+      "https://ai.uta.edu/researcher-guidance-for-the-use-of-artificial-intelligence-in-research/",
+      "https://resources.uta.edu/research/policies-and-procedures/generative-artificial-intelligence.php"
+    ],
+    "adopted_date": "2025-01",
+    "stance": "comprehensive",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "UTA GenAI Guidelines for Faculty (2025) supply four syllabus language options spanning prohibited to unrestricted AI use",
+      "Only publicly classified data may be entered into public GenAI tools; FERPA, health data, proprietary/confidential data are prohibited",
+      "Researchers must disclose GAI use in proposals and publications and remain responsible for all outputs",
+      "GAI cannot be used for NSF or NIH peer review per sponsor rules",
+      "UTA requires human oversight; outputs must be verified against reliable sources to catch hallucinations",
+      "Procurement of GAI tools must route through legal, information security, audit, and procurement review",
+      "'Guiding Principles for use of GAI' emphasize ethical, transparent use and bias mitigation"
+    ],
+    "summary": "UTA runs a comprehensive but faculty-flexible policy stack. The 2025 GenAI Guidelines for Faculty give instructors four syllabus language options ranging from prohibited to unrestricted use, while parallel research and staff guidance prohibits entering FERPA, health, or proprietary data into public tools and requires disclosure when GAI is used in proposals or publications. Procurement of any GAI tool must clear legal, security, audit, and procurement review."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "UTA AI Council",
+        "type": "council",
+        "scope": "Chaired by the CIO with membership from Research Administration, Legal, Academic Affairs, IT Planning, and the Chief Data and Analytics Officer; sets institutional AI direction, reviews policy, and owns the ai.uta.edu resource hub",
+        "url": "https://ai.uta.edu/people/"
+      },
+      {
+        "name": "UTA AI Advisory Team",
+        "type": "committee",
+        "scope": "Cross-functional operational team with members from OIT Research Support, Information Security, the library, University Analytics, Faculty Senate, CRTLE, Faculty Success, and Employee Engagement; advises the AI Council on day-to-day implementation",
+        "url": "https://ai.uta.edu/people/"
+      },
+      {
+        "name": "OIT Innovation team",
+        "type": "office",
+        "scope": "Runs proof-of-concept pipelines, AI governance intake processes, and campus AI deployments (nebulaONE pilot, CloudForce travel assistant, IRB search agent)",
+        "url": "https://websites.uta.edu/oit/2025/10/23/oit-innovation/"
+      },
+      {
+        "name": "Center for Research on Teaching and Learning Excellence (CRTLE)",
+        "type": "office",
+        "scope": "Faculty development around AI in teaching; assembled CRTLE AI lending library and co-hosts UT System AI webinar series",
+        "url": "https://www.uta.edu/administration/crtle/ut-system-webinar-series"
+      }
+    ],
+    "summary": "Governance is distributed but coordinated. A CIO-chaired AI Council sets policy and direction, an AI Advisory Team handles operational detail, and OIT's innovation group executes pilots. Faculty development flows through CRTLE, which participates in the UT System's AI webinar series and maintains an AI-in-education lending library."
+  },
+  "initiatives": [
+    {
+      "title": "Smart Agriculture Research Center (SARC) with USDA-ARS",
+      "description": "UTA opened a federally partnered AI research center in August 2025 (formal ribbon-cutting February 2026) that applies machine learning to agricultural grand challenges including plant disease prediction, soil health modeling, crop resilience forecasting, highly pathogenic avian influenza (HPAI) outbreak modeling, and livestock/poultry health monitoring. Co-directed by mathematics professor Jianzhong Su and CARIDA director Gautam Das.",
+      "significance": "Puts UTA in a lead role on USDA-aligned AI-for-agriculture work, with >$5.5M of connected external research investment and an annual 20-25 student summer research program.",
+      "date_announced": "2026-02-10",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty",
+        "government_and_regulators",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 5500000,
+        "funding_source": "USDA Agricultural Research Service and related external awards",
+        "description": "Over $5.5M in external research investment tied to UTA faculty and USDA-ARS collaborators"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "USDA Agricultural Research Service"
+          ],
+          "description": "Joint center pairing UTA faculty/students with USDA-ARS scientists on machine-learning-driven agricultural problems"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Aligns campus AI research with federal sustainability priorities and extends UTA's institutional gateway role for USDA partnerships",
+      "source_urls": [
+        "https://www.uta.edu/news/news-releases/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center",
+        "https://www.uta.edu/academics/schools-colleges/science/news/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center",
+        "https://fortworthreport.org/2026/02/24/ai-data-backed-solutions-for-farmers-focus-of-utas-new-research-center/",
+        "https://www.eurekalert.org/news-releases/1116210"
+      ]
+    },
+    {
+      "title": "nebulaONE AI Teaching Assistant Pilot",
+      "description": "A campus-wide proof-of-concept deploying nebulaONE (an AI interface powered by ChatGPT-4o with support for multiple LLMs including Gemini and Meta models) to more than 20 faculty members across the Fall 2025 semester. Each instance is customized with syllabi, lecture materials, and assignments so the assistant delivers course-specific responses and, in some cases, points students to resources rather than handing out full answers.",
+      "significance": "Tests a path toward course-embedded AI tutoring that could scale to Canvas, positioning UTA as an early R1 mover on per-course AI co-pilots.",
+      "date_announced": "2025-09-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_enhanced_pedagogy",
+        "lms_embedded_ai",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UTA Office of Information Technology innovation budget",
+        "description": "Proof-of-concept pilot; dollar value undisclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "nebulaONE (Cloudforce / ConnectED)",
+            "OpenAI (ChatGPT-4o)"
+          ],
+          "description": "UTA Office of Information Technology Innovation team collaborating with the nebulaONE platform and underlying LLM vendors"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "nebulaONE",
+          "vendor": "Cloudforce",
+          "role": "AI teaching-assistant platform"
+        },
+        {
+          "name": "ChatGPT-4o",
+          "vendor": "OpenAI",
+          "role": "Primary underlying LLM"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Pilot testing informs future Canvas integration and campus-wide scale decisions; faculty are opting in with course-specific guardrails",
+      "source_urls": [
+        "https://ai.uta.edu/nebulaone-at-uta/",
+        "https://websites.uta.edu/oit/2025/10/23/oit-innovation/",
+        "https://ai.uta.edu/ai-on-campus/"
+      ]
+    },
+    {
+      "title": "$2.1M Supercomputing Research Hub",
+      "description": "UTA launched a $2.1 million supercomputing hub in summer 2025 to support data-intensive AI, biomedical imaging, genomics, energy modeling, infrastructure design, and environmental modeling. Built by the College of Engineering and the Office of the VP for Research and Innovation, operationalized by OIT's Edward Gonzales.",
+      "significance": "Gives UTA researchers on-campus high-performance compute rather than routing everything through TACC at UT Austin, expanding AI-for-science capacity across the campus.",
+      "date_announced": "2025-07-22",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2100000,
+        "funding_source": "UTA College of Engineering and Office of the VP for Research and Innovation",
+        "description": "$2.1M investment to build dedicated supercomputing hub"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Lonestar Education and Research Network (LEARN)",
+            "Internet2",
+            "Energy Sciences Network"
+          ],
+          "description": "Routing to broader research networks via LEARN"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uta.edu/news/news-releases/2025/07/22/uta-unveils-supercomputing-research-hub",
+        "https://oit.uta.edu/services/hpc/"
+      ]
+    },
+    {
+      "title": "UTA GenAI Guidelines for Faculty (2025, Approved)",
+      "description": "Formal faculty guidelines approved in 2025 that advocate a balanced, SLO-aligned approach to GenAI in instruction and supply four syllabus policy options (from prohibited to unrestricted). Accompanies separate guidance for research and staff use, forming UTA's de facto comprehensive AI policy stack.",
+      "significance": "Gives instructors a consistent menu of syllabus language while preserving academic freedom, a model that UT System peers have referenced.",
+      "date_announced": "2025-01-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "acceptable_use_policy",
+        "ai_ethics_framework",
+        "syllabus_level_policy",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (Provost, CRTLE, AI Council)",
+        "description": "Policy development and faculty training"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Standardizes four syllabus options so students can read across courses; sits atop research and data-handling guardrails",
+      "source_urls": [
+        "https://ai.uta.edu/generative-ai-guidelines-for-instruction/",
+        "https://ai.uta.edu/guidelines/",
+        "https://websites.uta.edu/pedagogynext/pondering-ai-ethical-use-of-ai-in-teaching-safeguarding-academic-integrity-while-empowering-learning/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Deployment Across UT System (UTA users)",
+      "description": "Microsoft Copilot is available at no additional cost to all UTA faculty, staff, and students under a UT System-wide commercial data-protection agreement with Microsoft. Paid 'Copilot for Microsoft 365' seats (deep Word/Excel/PowerPoint/Outlook/Teams integration) can be requested through ServiceNow at $360 per fiscal year.",
+      "significance": "Gives tens of thousands of UTA users a sanctioned, FERPA-aware generative AI tool and signals that Microsoft is UTA's default enterprise AI vendor.",
+      "date_announced": "2024-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UT System enterprise agreement; premium seats paid by department",
+        "description": "Free baseline Copilot chat; $360/year per seat for Copilot for Microsoft 365 add-on"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "University of Texas System"
+          ],
+          "description": "System-level enterprise agreement with campus-level opt-in for premium features"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot (free chat)",
+          "vendor": "Microsoft",
+          "role": "Commercial-data-protection enterprise generative AI"
+        },
+        {
+          "name": "Copilot for Microsoft 365",
+          "vendor": "Microsoft",
+          "role": "In-app AI in Word, Excel, PowerPoint, Outlook, Teams"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Data-protection terms let faculty use Copilot with lower-sensitivity data; public/Confidential classifications still apply",
+      "source_urls": [
+        "https://websites.uta.edu/pedagogynext/microsoft-copilot-at-uta-free-vs-paid-and-how-faculty-can-use-it-for-teaching/",
+        "https://oit.uta.edu/services/office-365/"
+      ]
+    },
+    {
+      "title": "Microsoft + UTA Generative AI 'Prompt-A-Thon' and Certified Train-the-Trainer Program",
+      "description": "In May 2024 UTA co-hosted Texas's first Generative AI Prompt-A-Thon with Microsoft, drawing higher-ed and K-12 educators from across the state. UTA simultaneously stood up the country's first certified AI 'train-the-trainer' program, producing a 'Tiger Team' of faculty and staff who then train others on AI tool use.",
+      "significance": "Demonstrates UTA's role as a regional hub for AI upskilling and signals deep industry partnership with Microsoft around Copilot and prompt engineering.",
+      "date_announced": "2024-05-29",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "faculty_training_and_development",
+        "regional_economic_impact",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "employers",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "UTA Offices of Research and Innovation and Information Technology; Microsoft sponsorship",
+        "description": "Co-hosted event and sustained train-the-trainer program"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Co-hosted Texas's first Prompt-A-Thon; featured Microsoft Education's Chief Innovation Officer MJ Jabbour"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Copilot",
+          "vendor": "Microsoft",
+          "role": "Featured AI platform for prompt training"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Reinforces hands-on training as the preferred guardrail for safe GenAI adoption",
+      "source_urls": [
+        "https://www.uta.edu/news/news-releases/2024/05/31/ut-arlington-microsoft-host-ai-prompt-a-thon",
+        "https://websites.uta.edu/oit/2024/05/31/microsoft-and-uta-celebrate-successful-generative-ai-prompt-a-thon/",
+        "https://dallasinnovates.com/uta-microsoft-host-prompt-a-thon-to-show-texas-educators-how-to-use-ai-tools/"
+      ]
+    },
+    {
+      "title": "$3.1M NIH R01 to Junzhou Huang for AI-Driven Antibody Drug Discovery",
+      "description": "Jenkins Garrett Endowed Professor Junzhou Huang in Computer Science and Engineering won a $3.1M NIH R01 to apply machine learning to antibody drug discovery, extending Rosetta/AlphaFold-style protein-structure prediction to antibody-antigen binding. The team placed first in the international protein contact map prediction track, ahead of Google DeepMind and the University of Washington. A separate $200K Johnson & Johnson award supports AI-based toxicology prediction.",
+      "significance": "One of UTA's most visible AI-for-science grants; cements a growing UT Arlington / UT Southwestern corridor for AI biomedicine.",
+      "date_announced": "2025-08-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 3100000,
+        "funding_source": "NIH (R01) plus $200K Johnson & Johnson supplemental award",
+        "description": "Five-year R01 plus industry-sponsored toxicology work"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "UT Southwestern Medical Center",
+            "Tao Wang lab"
+          ],
+          "description": "Experimental validation of computationally predicted antibody structures"
+        },
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Johnson & Johnson"
+          ],
+          "description": "$200K award for AI-based toxicology prediction"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "AlphaFold",
+          "vendor": "Google DeepMind",
+          "role": "Reference algorithm being extended for antibody work"
+        },
+        {
+          "name": "Rosetta",
+          "vendor": "University of Washington / RosettaCommons",
+          "role": "Reference algorithm being extended"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uta.edu/news/news-releases/2025/08/06/ai-research-targets-faster-drug-development",
+        "https://dallasinnovates.com/3-1-million-nih-grant-backs-utas-ai-push-in-antibody-drug-discovery/",
+        "https://quantumzeitgeist.com/ut-arlingtons-huang-secures-3-1m-nih-grant-to-advance-ai-driven-antibody-design-via-protein-contact-map-prediction/"
+      ]
+    },
+    {
+      "title": "NSF $567K Grant on Securing Natural Language Generation Against Misinformation",
+      "description": "UTA computer science and engineering assistant professor Shirin Nilizadeh won a five-year, $567,609 NSF award to harden NLG systems against misuse that spreads online misinformation. Work examines attacker models, adversarial prompts, and defenses across generative language systems.",
+      "significance": "Positions UTA in the national conversation on AI trust, safety, and misinformation research.",
+      "date_announced": "2024-05-01",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "regulatory_compliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 567609,
+        "funding_source": "National Science Foundation",
+        "description": "Five-year NSF grant on NLG security"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federal basic research award"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Builds defensive research capability that feeds UTA's ethical AI guidelines",
+      "source_urls": [
+        "https://dallasinnovates.com/uta-researcher-gets-568k-nsf-grant-to-explore-ai-systems-vulnerability-to-misinformation/"
+      ]
+    },
+    {
+      "title": "CARIDA Center for Artificial Intelligence and Big Data",
+      "description": "Housed in the College of Engineering, CARIDA coordinates UTA research in big data storage and management, AI/ML methods, and applications. Led by Gautam Das (associate dean for research) and Chengkai Li. CARIDA organizes the annual North Texas Symposium on Generative AI (first edition March 2025) and serves as the curriculum advisory body for the MS in Data Science.",
+      "significance": "Provides an intellectual center of gravity for AI research at UTA and a convening platform for DFW higher-ed + industry on generative AI.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_degree_program"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "College of Engineering plus external grant portfolios",
+        "description": "Umbrella center coordinating multi-faculty AI/ML research"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "North Texas industry partners",
+            "Microsoft (via Generative AI Symposium)"
+          ],
+          "description": "Industry-facing consultations, symposium sponsorship, and capstone projects"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://carida.uta.edu/",
+        "https://carida.uta.edu/team.php",
+        "https://carida.uta.edu/symposium/"
+      ]
+    },
+    {
+      "title": "CloudForce AI Travel Assistant (OIT Innovation)",
+      "description": "An internal AI agent built by UTA's OIT Innovation team that embeds travel policy knowledge plus the GSA Per Diem API so employees can query 'Where can I stay, eat, and expense?' without reading policy PDFs. In testing, targeted launch before Fall 2026.",
+      "significance": "Concrete example of UTA deploying agentic AI against back-office workflows, not just classroom use cases.",
+      "date_announced": "2026-01-01",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "UTA OIT Innovation",
+        "description": "Internal proof-of-concept agent"
+      },
+      "collaborations": [],
+      "tools_and_vendors": [
+        {
+          "name": "CloudForce Travel Assistant",
+          "vendor": "UTA OIT Innovation (in-house)",
+          "role": "Travel policy agent"
+        },
+        {
+          "name": "GSA Per Diem API",
+          "vendor": "U.S. General Services Administration",
+          "role": "Per diem data source"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Validates UTA's intake process for new AI agents",
+      "source_urls": [
+        "https://ai.uta.edu/ai-on-campus/",
+        "https://websites.uta.edu/oit/2025/10/23/oit-innovation/",
+        "https://dallasinnovates.com/2026-ai75/"
+      ]
+    },
+    {
+      "title": "AI Learning Hub and LinkedIn Learning AI Certification Paths",
+      "description": "UTA publishes a centralized AI Learning Hub that routes faculty and staff into curated LinkedIn Learning paths - Microsoft Azure AI Essentials, Career Essentials in Generative AI, AI for Organizational Leaders, Build Generative AI Productivity Skills (covering ChatGPT, Copilot, Gemini, Claude), and role-specific tracks for sales, marketing, recruiting, HR, product, and L&D. Microsoft certification exam costs are included for employees.",
+      "significance": "Operationalizes AI upskilling at scale for a ~7,000-employee workforce and creates visible paths from curiosity to certification.",
+      "date_announced": "2025-03-01",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_workforce_training",
+        "faculty_training_and_development",
+        "industry_certification_pathway",
+        "continuing_and_executive_education",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Existing LinkedIn Learning / Microsoft employment benefit",
+        "description": "Uses existing employee benefits infrastructure"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft",
+            "LinkedIn Learning"
+          ],
+          "description": "Pre-built paths and certification exams embedded in employee benefits"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "LinkedIn Learning",
+          "vendor": "LinkedIn / Microsoft",
+          "role": "Primary learning platform"
+        },
+        {
+          "name": "Microsoft Azure AI",
+          "vendor": "Microsoft",
+          "role": "Certification target"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Ties upskilling to sanctioned vendors, reinforcing UTA's Microsoft-centric AI stack",
+      "source_urls": [
+        "https://ai.uta.edu/ai-learning-paths-and-certifications/",
+        "https://ai.uta.edu/"
+      ]
+    },
+    {
+      "title": "Graduate and Non-Credit AI/ML Programs",
+      "description": "UTA offers a credit-bearing Graduate Certificate in Artificial Intelligence (four CSE courses stackable toward MS or PhD), an Intelligent Systems concentration within the MS in Computer Science, and, through the EEC Division for Enterprise Development / Pacelearn / WorkForce Institute, an 18-week AI & Machine Learning Bootcamp plus a 14-week 'AI for Software Engineers' bootcamp (priced $4,250-$5,250) that prepares learners for Microsoft Azure AI Engineer Associate certification.",
+      "significance": "Multi-tier academic-to-workforce pipeline spanning R1 research training and regional non-credit upskilling.",
+      "date_announced": "2024-01-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_in_specific_disciplines",
+        "industry_certification_pathway",
+        "continuing_and_executive_education"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Tuition-funded plus EEC continuing-ed tuition",
+        "description": "Credit and non-credit programs operating at full enrollment"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Pacelearn",
+            "WorkForce Institute",
+            "Microsoft"
+          ],
+          "description": "Non-credit AI/ML bootcamps co-delivered with industry training partners"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft Azure AI",
+          "vendor": "Microsoft",
+          "role": "Certification alignment"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uta.edu/academics/schools-colleges/engineering/academics/certificates/cse-artificial-intelligence",
+        "https://uta.workforceinstitute.io/uta/ai-software-engineers",
+        "https://www.pacelearn.org/uta-ai-ml",
+        "https://www.uta.edu/academics/programs/computer-science-ms"
+      ]
+    },
+    {
+      "title": "AI Webinar Series 'AI in the Classroom: Leadership and Instruction' (College of Education)",
+      "description": "UTA's College of Education launched a public webinar series in April 2026 for K-12 and higher-ed educators covering hands-on machine learning, the PROSE prompt-writing model, AI-enabled lesson design for dual-language STEM classrooms, and responsible AI use. All four presenters are College of Education assistant professors (Lauren Weisberg, Erdogan Kaya, Luis Perez Cortes & Hugh Kellam, Maricela Leon).",
+      "significance": "Extends UTA's AI influence into K-12 and underscores attention to multilingual and equity-aware AI pedagogy.",
+      "date_announced": "2026-04-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "multilingual_and_culturally_responsive_ai",
+        "community_college_ai_program"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "College of Education",
+        "description": "Public, free webinar series"
+      },
+      "collaborations": [
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "K-12 educators across Texas",
+            "Higher-ed educators"
+          ],
+          "description": "Outreach to regional teachers"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Addresses equity, bias, and data privacy as core pedagogical questions for AI integration",
+      "source_urls": [
+        "https://www.uta.edu/news/news-releases/2026/04/01/uta-launches-ai-webinar-series-for-educators"
+      ]
+    },
+    {
+      "title": "NSF CAREER Award - AI-Driven Manufacturing Research",
+      "description": "A UTA engineering faculty member won an NSF CAREER Award in July 2025 for approximately $500,000 to advance AI-related manufacturing research, part of a string of federally funded AI work in the College of Engineering.",
+      "significance": "NSF CAREER recognition strengthens UTA's pipeline of early-career AI-in-engineering PIs.",
+      "date_announced": "2025-07-28",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "ai_research_center"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 500000,
+        "funding_source": "National Science Foundation",
+        "description": "NSF CAREER Award"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF CAREER program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.uta.edu/news/news-releases/2025/07/28/career-award-for-ai-research"
+      ]
+    },
+    {
+      "title": "NSF $600K Machine Learning for Multiscale Materials Modeling",
+      "description": "Xin (Jeffrey) Liu in Mechanical and Aerospace Engineering leads a $600K NSF collaborative research project with Purdue University to use machine learning for modeling and design of advanced composite, metamaterial, soft, and architected materials.",
+      "significance": "Anchors UTA's AI-for-materials agenda and builds R1 cross-institution research muscle.",
+      "date_announced": "2025-08-13",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 600000,
+        "funding_source": "National Science Foundation",
+        "description": "Collaborative research grant"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Purdue University"
+          ],
+          "description": "Joint NSF project"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://utari.uta.edu/2025/08/13/utari-researcher-leads-600k-nsf-funded-project-to-advance-multiscale-modeling-with-machine-learning/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "Center for Artificial Intelligence and Big Data (CARIDA)",
+      "focus": "AI/ML methods, big data storage/management, and applications",
+      "founded": null,
+      "url": "https://carida.uta.edu/"
+    },
+    {
+      "name": "Smart Agriculture Research Center (SARC)",
+      "focus": "AI-driven agriculture: plant disease, soil, crop resilience, livestock health",
+      "founded": "2025",
+      "url": "https://www.uta.edu/news/news-releases/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center"
+    },
+    {
+      "name": "UT Arlington Research Institute (UTARI) - Automation and Intelligent Systems",
+      "focus": "Robotics, AI, machine learning, computer vision, autonomous systems, assistive tech",
+      "founded": null,
+      "url": "https://utari.uta.edu/research/automation-and-intelligent-systems/"
+    },
+    {
+      "name": "Shimadzu Institute for Research Technologies (umbrella)",
+      "focus": "Nanotechnology, genomics, materials - instrument-intensive research with AI/ML analytics",
+      "founded": "2013",
+      "url": "https://www.uta.edu/sirt/bmi/index.php"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uta.edu/academics/schools-colleges/engineering/academics/certificates/cse-artificial-intelligence"
+    },
+    {
+      "type": "certificate",
+      "name": "Certificate in the Fundamentals of Artificial Intelligence (undergraduate)",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://catalog.uta.edu/engineering/computer/undergraduate/artificial-intelligence-cert/"
+    },
+    {
+      "type": "concentration",
+      "name": "MS in Computer Science - Intelligent Systems concentration",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.uta.edu/academics/programs/computer-science-ms"
+    },
+    {
+      "type": "certificate",
+      "name": "AI & Machine Learning Bootcamp (18-week, Pacelearn)",
+      "level": "both",
+      "launched": null,
+      "url": "https://www.pacelearn.org/uta-ai-ml"
+    },
+    {
+      "type": "certificate",
+      "name": "AI for Software Engineers (14-week, WorkForce Institute)",
+      "level": "both",
+      "launched": null,
+      "url": "https://uta.workforceinstitute.io/uta/ai-software-engineers"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft Copilot (free, UT System-wide)",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://websites.uta.edu/pedagogynext/microsoft-copilot-at-uta-free-vs-paid-and-how-faculty-can-use-it-for-teaching/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot for Microsoft 365 (premium add-on)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://oit.uta.edu/services/office-365/"
+    },
+    {
+      "vendor": "Cloudforce",
+      "product": "nebulaONE (AI teaching assistant pilot, ChatGPT-4o based)",
+      "scope": "pilot",
+      "user_count": null,
+      "deployed": "2025-09",
+      "url": "https://ai.uta.edu/nebulaone-at-uta/"
+    },
+    {
+      "vendor": "LinkedIn / Microsoft",
+      "product": "LinkedIn Learning AI paths and Microsoft certification exams",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-01",
+      "url": "https://ai.uta.edu/ai-learning-paths-and-certifications/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "UTA HPC / Supercomputing Research Hub",
+    "gpu_count": null,
+    "url": "https://www.uta.edu/news/news-releases/2025/07/22/uta-unveils-supercomputing-research-hub",
+    "summary": "UTA runs a campus HPC cluster (616 Intel Xeon E5-2699 cores, 3.5 TB RAM, 500 TB storage, 10 Gbps networking to LEARN/Internet2/ESnet on CentOS 7.6) plus a new $2.1M supercomputing research hub launched summer 2025 for AI, biomedical imaging, genomics, and environmental modeling. Exact GPU counts are not publicly disclosed."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "USDA-ARS external research portfolio connected to SARC",
+      "amount_usd": 5500000,
+      "source": "USDA Agricultural Research Service and related awards",
+      "purpose": "AI and data science for smart agriculture",
+      "date": "2025-08",
+      "url": "https://www.uta.edu/news/news-releases/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center"
+    },
+    {
+      "title": "NIH R01 for AI-driven antibody drug discovery (Junzhou Huang)",
+      "amount_usd": 3100000,
+      "source": "National Institutes of Health",
+      "purpose": "Machine learning for antibody design",
+      "date": "2025-08",
+      "url": "https://www.uta.edu/news/news-releases/2025/08/06/ai-research-targets-faster-drug-development"
+    },
+    {
+      "title": "UTA Supercomputing Research Hub",
+      "amount_usd": 2100000,
+      "source": "UTA College of Engineering and Office of the VP for Research and Innovation",
+      "purpose": "AI/research computing infrastructure",
+      "date": "2025-07",
+      "url": "https://www.uta.edu/news/news-releases/2025/07/22/uta-unveils-supercomputing-research-hub"
+    },
+    {
+      "title": "NSF CAREER Award for AI manufacturing research",
+      "amount_usd": 500000,
+      "source": "National Science Foundation",
+      "purpose": "AI in manufacturing",
+      "date": "2025-07",
+      "url": "https://www.uta.edu/news/news-releases/2025/07/28/career-award-for-ai-research"
+    },
+    {
+      "title": "NSF collaborative research grant (multiscale modeling with ML)",
+      "amount_usd": 600000,
+      "source": "National Science Foundation",
+      "purpose": "Machine learning for advanced materials modeling",
+      "date": "2025-08",
+      "url": "https://utari.uta.edu/2025/08/13/utari-researcher-leads-600k-nsf-funded-project-to-advance-multiscale-modeling-with-machine-learning/"
+    },
+    {
+      "title": "NSF grant on securing NLG against misinformation (Shirin Nilizadeh)",
+      "amount_usd": 567609,
+      "source": "National Science Foundation",
+      "purpose": "AI trust and safety research",
+      "date": "2024-05",
+      "url": "https://dallasinnovates.com/uta-researcher-gets-568k-nsf-grant-to-explore-ai-systems-vulnerability-to-misinformation/"
+    },
+    {
+      "title": "Johnson & Johnson award - AI toxicology prediction (Huang lab)",
+      "amount_usd": 200000,
+      "source": "Johnson & Johnson",
+      "purpose": "AI-driven toxicology",
+      "date": "2025-08",
+      "url": "https://dallasinnovates.com/3-1-million-nih-grant-backs-utas-ai-push-in-antibody-drug-discovery/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "government_academic",
+      "partner": "USDA Agricultural Research Service",
+      "purpose": "Smart Agriculture Research Center",
+      "date": "2025-08",
+      "url": "https://www.uta.edu/news/news-releases/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Generative AI Prompt-A-Thon, Copilot enablement, Azure certification paths",
+      "date": "2024-05",
+      "url": "https://www.uta.edu/news/news-releases/2024/05/31/ut-arlington-microsoft-host-ai-prompt-a-thon"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Cloudforce (nebulaONE)",
+      "purpose": "AI teaching assistant pilot",
+      "date": "2025-09",
+      "url": "https://ai.uta.edu/nebulaone-at-uta/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "UT Southwestern Medical Center (Tao Wang lab)",
+      "purpose": "Antibody drug discovery validation",
+      "date": "2025-08",
+      "url": "https://www.uta.edu/news/news-releases/2025/08/06/ai-research-targets-faster-drug-development"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Purdue University",
+      "purpose": "NSF ML-for-multiscale-materials project",
+      "date": "2025-08",
+      "url": "https://utari.uta.edu/2025/08/13/utari-researcher-leads-600k-nsf-funded-project-to-advance-multiscale-modeling-with-machine-learning/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Johnson & Johnson",
+      "purpose": "AI toxicology prediction research",
+      "date": "2025-08",
+      "url": "https://dallasinnovates.com/3-1-million-nih-grant-backs-utas-ai-push-in-antibody-drug-discovery/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Pacelearn / WorkForce Institute",
+      "purpose": "Non-credit AI/ML bootcamps",
+      "date": "2024-01",
+      "url": "https://uta.workforceinstitute.io/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "nebulaONE AI Teaching Assistant (pilot)",
+      "scope": "More than 20 faculty members across Fall 2025 courses",
+      "url": "https://ai.uta.edu/nebulaone-at-uta/"
+    },
+    {
+      "type": "other",
+      "name": "Assistive AI tools (Otter.ai, Read&Write, Fusion)",
+      "scope": "Available through Student Access & Resource Center for students with disabilities",
+      "url": "https://www.uta.edu/accessibility/assistive-technology"
+    },
+    {
+      "type": "chatbot",
+      "name": "UTA Help Center Live Chat",
+      "scope": "Campus support live chat (human-staffed, AI-assisted), available across service areas",
+      "url": "https://www.uta.edu/help/chat/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Multilingual / dual-language STEM AI pedagogy session in CoE AI webinar series",
+      "description": "Session by Maricela Leon on using AI to support students in dual-language STEM classrooms without limiting their full language abilities",
+      "url": "https://www.uta.edu/news/news-releases/2026/04/01/uta-launches-ai-webinar-series-for-educators"
+    },
+    {
+      "title": "EIR Digital Accessibility Program",
+      "description": "UTA OIT program ensuring digital resources (including AI tools) are accessible to students, faculty, and staff with disabilities",
+      "url": "https://oit.uta.edu/projects/accessibility-program/"
+    },
+    {
+      "title": "Assistive AI tooling through Student Access & Resource Center",
+      "description": "Otter.ai auto-transcription for meetings, Read&Write for literacy support, Fusion for vision accessibility",
+      "url": "https://www.uta.edu/accessibility/assistive-technology"
+    },
+    {
+      "title": "Free Microsoft Copilot access for all students, faculty, and staff",
+      "description": "UT System-wide commercial-data-protection agreement removes paywall barrier for baseline generative AI access",
+      "url": "https://websites.uta.edu/pedagogynext/microsoft-copilot-at-uta-free-vs-paid-and-how-faculty-can-use-it-for-teaching/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Texas",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Texas Governor Greg Abbott signed the Texas Responsible Artificial Intelligence Governance Act (TRAIGA, H.B. 149) into law on June 22, 2025; it takes effect January 1, 2026. TRAIGA restricts AI 'restricted purposes' (self-harm, violence, criminality, social scoring by government, political-speech suppression), and applies to developers and deployers doing business in Texas. A December 2025 Trump federal executive order proposes to preempt state AI laws; its practical effect on TRAIGA enforceability is contested. At the system level, the University of Texas System has sponsored AI-across-the-UT-System webinar series, encouraged campus AI strategies, and runs major UT-REAL-Health-AI ($25M) and system-wide Microsoft Copilot agreements that UTA inherits.",
+    "urls": [
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://www.utsystem.edu/news/2024/09/19/revolutionizing-education-research-and-health-care-through-ai",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "The University of Texas at Arlington is building its AI posture from the middle out - not via a single board-approved AI strategy document, but through a well-coordinated network of policy, research, enablement, and deployment activities. Governance is anchored by an AI Council chaired by CIO Deepika Chalemela, with representation from Research, Legal, Academic Affairs, and the Chief Data and Analytics Officer; a cross-functional AI Advisory Team handles operational detail. OIT's innovation group (visibly represented by Mei Lin, a 2026 DFW AI 75 honoree) is the delivery engine, running the nebulaONE AI teaching assistant pilot across 20+ Fall 2025 courses, shipping a CloudForce travel-policy agent, and maintaining the ai.uta.edu hub. Policy is comprehensive but instructor-flexible: the 2025 GenAI Guidelines for Faculty supply four syllabus language options from prohibited to unrestricted, separate research and staff guidance prohibit confidential data in public tools and require disclosure, and any AI procurement must clear legal, security, audit, and procurement review. Research investment is substantial and growing: a USDA-ARS Smart Agriculture Research Center opened in August 2025 with >$5.5M in connected awards; Junzhou Huang landed a $3.1M NIH R01 for AI antibody drug discovery plus a $200K Johnson & Johnson supplement; Shirin Nilizadeh won a $567K NSF award on NLG security; an NSF CAREER Award and a $600K NSF multiscale-materials collaboration with Purdue round out the pipeline. The university committed $2.1M to a dedicated supercomputing research hub in summer 2025 so AI researchers no longer default to TACC. On the academic side, UTA offers a Graduate Certificate in AI, an Intelligent Systems MSCS concentration, an undergraduate AI certificate, and 14-18 week industry bootcamps via Pacelearn and the WorkForce Institute aimed at Microsoft Azure AI certifications. Enterprise deployment leans heavily Microsoft: free UT System Copilot for all users, paid Copilot for Microsoft 365 via ServiceNow at $360/year, LinkedIn Learning AI paths with included Microsoft exam vouchers. Gaps: UTA has not appointed a dedicated Chief AI Officer, the central AI hub does not yet publish a unified strategic plan, predictive analytics for retention and admissions AI are not visibly documented, and the Texas Responsible AI Governance Act's effect on procurement and operations is still working through the system. Overall UTA looks like a competent, Microsoft-aligned R1 moving quickly on faculty enablement and sponsored research while keeping student-facing AI carefully piloted.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://ai.uta.edu/",
+      "https://ai.uta.edu/guidelines/",
+      "https://ai.uta.edu/instruction-guidelines/",
+      "https://ai.uta.edu/generative-ai-guidelines-for-instruction/",
+      "https://ai.uta.edu/researcher-guidance-for-the-use-of-artificial-intelligence-in-research/",
+      "https://ai.uta.edu/ai-learning-paths-and-certifications/",
+      "https://ai.uta.edu/people/",
+      "https://ai.uta.edu/nebulaone-at-uta/",
+      "https://ai.uta.edu/ai-on-campus/",
+      "https://ai.uta.edu/news/",
+      "https://resources.uta.edu/research/policies-and-procedures/generative-artificial-intelligence.php",
+      "https://www.uta.edu/administration/president/leadership",
+      "https://www.uta.edu/administration/president/meet-the-president",
+      "https://www.uta.edu/administration/provost/meet-the-provost",
+      "https://www.uta.edu/administration/crtle/ut-system-webinar-series",
+      "https://websites.uta.edu/pedagogynext/microsoft-copilot-at-uta-free-vs-paid-and-how-faculty-can-use-it-for-teaching/",
+      "https://websites.uta.edu/pedagogynext/pondering-ai-ethical-use-of-ai-in-teaching-safeguarding-academic-integrity-while-empowering-learning/",
+      "https://websites.uta.edu/oit/2025/10/23/oit-innovation/",
+      "https://websites.uta.edu/oit/2024/05/31/microsoft-and-uta-celebrate-successful-generative-ai-prompt-a-thon/",
+      "https://oit.uta.edu/services/hpc/",
+      "https://oit.uta.edu/services/office-365/",
+      "https://oit.uta.edu/projects/accessibility-program/",
+      "https://www.uta.edu/news/news-releases/2025/07/22/uta-unveils-supercomputing-research-hub",
+      "https://www.uta.edu/news/news-releases/2025/07/28/career-award-for-ai-research",
+      "https://www.uta.edu/news/news-releases/2025/08/06/ai-research-targets-faster-drug-development",
+      "https://www.uta.edu/news/news-releases/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center",
+      "https://www.uta.edu/academics/schools-colleges/science/news/2026/02/10/uta-opens-ai-driven-smart-agriculture-research-center",
+      "https://www.uta.edu/news/news-releases/2026/04/01/uta-launches-ai-webinar-series-for-educators",
+      "https://www.uta.edu/news/news-releases/2024/05/31/ut-arlington-microsoft-host-ai-prompt-a-thon",
+      "https://www.uta.edu/news/news-releases/2025/09/15/uta-sets-record-freshman-class-for-fall-2025",
+      "https://www.uta.edu/academics/schools-colleges/engineering/academics/certificates/cse-artificial-intelligence",
+      "https://www.uta.edu/academics/programs/computer-science-ms",
+      "https://catalog.uta.edu/engineering/computer/undergraduate/artificial-intelligence-cert/",
+      "https://carida.uta.edu/",
+      "https://carida.uta.edu/team.php",
+      "https://carida.uta.edu/symposium/",
+      "https://utari.uta.edu/",
+      "https://utari.uta.edu/research/automation-and-intelligent-systems/",
+      "https://utari.uta.edu/2025/08/13/utari-researcher-leads-600k-nsf-funded-project-to-advance-multiscale-modeling-with-machine-learning/",
+      "https://uta.workforceinstitute.io/",
+      "https://uta.workforceinstitute.io/uta/ai-software-engineers",
+      "https://www.pacelearn.org/uta-ai-ml",
+      "https://dallasinnovates.com/2026-ai75/",
+      "https://dallasinnovates.com/3-1-million-nih-grant-backs-utas-ai-push-in-antibody-drug-discovery/",
+      "https://dallasinnovates.com/uta-researcher-gets-568k-nsf-grant-to-explore-ai-systems-vulnerability-to-misinformation/",
+      "https://dallasinnovates.com/uta-microsoft-host-prompt-a-thon-to-show-texas-educators-how-to-use-ai-tools/",
+      "https://fortworthreport.org/2026/02/24/ai-data-backed-solutions-for-farmers-focus-of-utas-new-research-center/",
+      "https://www.lw.com/en/insights/texas-signs-responsible-ai-governance-act-into-law",
+      "https://www.utsystem.edu/news/2024/09/19/revolutionizing-education-research-and-health-care-through-ai",
+      "https://www.utsystem.edu/sites/health-intelligence-platform/blog/25-million-funding-granted-launch-ut-research-engineering-and-application-laboratory-healthcare-artificial-intelligence-ut-real-health-ai-initiative-2025-06-24",
+      "https://www.uta.edu/accessibility/assistive-technology",
+      "https://www.uta.edu/help/chat/"
+    ],
+    "search_queries": [
+      "\"University of Texas at Arlington\" AI strategy 2025 2026 artificial intelligence",
+      "\"University of Texas at Arlington\" generative AI policy faculty acceptable use",
+      "\"University of Texas at Arlington\" CARIDA AI research center founded year",
+      "\"UTA\" \"University of Texas at Arlington\" CIO Chief Information Officer 2025",
+      "\"University of Texas at Arlington\" president provost 2025 2026",
+      "\"University of Texas at Arlington\" Smart Agriculture Research Center USDA AI",
+      "\"University of Texas at Arlington\" Microsoft Copilot OR \"ChatGPT Edu\" OR Claude AI campus deployment",
+      "\"University of Texas at Arlington\" AI degree program masters bachelor",
+      "\"UTA\" AI webinar series educators \"AI in the Classroom\" 2026",
+      "\"University of Texas at Arlington\" NSF AI grant machine learning 2024 2025",
+      "\"University of Texas at Arlington\" \"Guiding Principles\" generative AI site:uta.edu",
+      "\"University of Texas at Arlington\" AI task force OR committee OR council governance",
+      "UT System \"artificial intelligence\" policy initiative 2024 system-wide",
+      "\"University of Texas at Arlington\" enrollment 2024 2025 students total",
+      "\"University of Texas at Arlington\" UTARI research institute AI robotics machine learning",
+      "\"University of Texas at Arlington\" chatbot student services advising virtual assistant",
+      "\"University of Texas at Arlington\" HPC supercomputer GPU AI research computing",
+      "Texas state law AI higher education 2024 2025 executive order artificial intelligence",
+      "\"University of Texas at Arlington\" \"nebulaONE\" AI teaching assistant pilot",
+      "\"University of Texas at Arlington\" Microsoft Prompt-A-Thon 2024 AI",
+      "\"University of Texas at Arlington\" Shimadzu Center nano AI biotechnology",
+      "\"UT Arlington\" OR \"UTA\" AI drug development AlphaFold research 2025",
+      "\"University of Texas at Arlington\" AI ethics bias equity diversity access",
+      "\"UTA\" OR \"UT Arlington\" AI literacy required curriculum 2025 2026",
+      "\"University of Texas at Arlington\" AI workforce training professional certificate upskilling",
+      "\"University of Texas at Arlington\" Copilot deployment Microsoft 365 faculty staff students 2024 2025",
+      "\"University of Texas at Arlington\" chief AI officer OR \"AI strategy lead\" OR \"vice president for AI\"",
+      "\"University of Texas at Arlington\" AI accessibility disability students support"
+    ],
+    "gaps_acknowledged": [
+      "No named Chief AI Officer; leadership is distributed across the AI Council",
+      "No single board-approved AI strategy document; strategy is inferred from hub + guidelines stack",
+      "CARIDA founding year not publicly stated",
+      "UTA Supercomputing Research Hub GPU count and exact configuration not disclosed",
+      "Exact nebulaONE pilot cost, course count, and student feedback not public",
+      "No visible predictive-analytics-for-retention or admissions AI initiatives documented on public sources",
+      "Total AI-connected research investment is estimated from documented grants, not a consolidated institutional report",
+      "Limited public evidence of formal cybersecurity-and-AI-risk or algorithmic-bias-audit programs beyond the research policy stance"
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "curriculum_led"
+      ],
+      "scores": {
+        "platform_first": 12,
+        "research_compute_powerhouse": 20,
+        "curriculum_led": 14,
+        "governance_led": 11,
+        "student_success_led": 3,
+        "workforce_regional_development": 21,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2025-01",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 5,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 4,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 1,
+        "ai_degree_program": 2,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 4,
+      "scientific_discovery_signal_count": 7,
+      "computing_infrastructure_signal_count": 1,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "UTA HPC / Supercomputing Research Hub",
+        "gpu_count": null,
+        "capacity_tier": "named_system_capacity_unknown"
+      },
+      "disclosed_funding_usd": 12567609,
+      "funding_source_buckets": {
+        "other_unclear": 5,
+        "public_federal_state": 8,
+        "institutional": 6,
+        "industry_vendor": 3
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "tutor": 1,
+        "other": 1,
+        "chatbot": 1
+      },
+      "student_experience_signal_count": 0,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": false,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 3
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 9,
+          "products": [
+            "Copilot for Microsoft 365",
+            "Copilot for Microsoft 365 (premium add-on)",
+            "LinkedIn Learning",
+            "LinkedIn Learning AI paths and Microsoft certification exams",
+            "Microsoft Azure AI",
+            "Microsoft Copilot",
+            "Microsoft Copilot (free chat)",
+            "Microsoft Copilot (free, UT System-wide)"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 2,
+          "products": [
+            "ChatGPT-4o",
+            "nebulaONE (AI teaching assistant pilot, ChatGPT-4o based)"
+          ]
+        },
+        {
+          "vendor": "Amazon",
+          "mentions": 1,
+          "products": [
+            "CloudForce Travel Assistant"
+          ]
+        },
+        {
+          "vendor": "Cloudforce nebulaONE",
+          "mentions": 1,
+          "products": [
+            "nebulaONE"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "AlphaFold"
+          ]
+        },
+        {
+          "vendor": "U.S. General Services Administration GSA Per Diem API",
+          "mentions": 1,
+          "products": [
+            "GSA Per Diem API"
+          ]
+        },
+        {
+          "vendor": "University of Washington / RosettaCommons Rosetta",
+          "mentions": 1,
+          "products": [
+            "Rosetta"
+          ]
+        }
+      ],
+      "concentration": "high",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": true
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": true,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Deployment Across UT System (UTA users)",
+          "summary": "Gives tens of thousands of UTA users a sanctioned, FERPA-aware generative AI tool and signals that Microsoft is UTA's default enterprise AI vendor.",
+          "source_url": "https://websites.uta.edu/pedagogynext/microsoft-copilot-at-uta-free-vs-paid-and-how-faculty-can-use-it-for-teaching/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft + UTA Generative AI 'Prompt-A-Thon' and Certified Train-the-Trainer Program",
+          "summary": "Demonstrates UTA's role as a regional hub for AI upskilling and signals deep industry partnership with Microsoft around Copilot and prompt engineering.",
+          "source_url": "https://www.uta.edu/news/news-releases/2024/05/31/ut-arlington-microsoft-host-ai-prompt-a-thon"
+        },
+        {
+          "claim_type": "productivity",
+          "title": "AI Learning Hub and LinkedIn Learning AI Certification Paths",
+          "summary": "Operationalizes AI upskilling at scale for a ~7,000-employee workforce and creates visible paths from curiosity to certification.",
+          "source_url": "https://ai.uta.edu/ai-learning-paths-and-certifications/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Graduate and Non-Credit AI/ML Programs",
+          "summary": "Multi-tier academic-to-workforce pipeline spanning R1 research training and regional non-credit upskilling.",
+          "source_url": "https://www.uta.edu/academics/schools-colleges/engineering/academics/certificates/cse-artificial-intelligence"
+        },
+        {
+          "claim_type": "learning",
+          "title": "AI Webinar Series 'AI in the Classroom: Leadership and Instruction' (College of Education)",
+          "summary": "Extends UTA's AI influence into K-12 and underscores attention to multilingual and equity-aware AI pedagogy.",
+          "source_url": "https://www.uta.edu/news/news-releases/2026/04/01/uta-launches-ai-webinar-series-for-educators"
+        }
+      ],
+      "public_claim_count": 5
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 1,
+      "control_signal_count": 7,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "No named Chief AI Officer; leadership is distributed across the AI Council",
+        "No single board-approved AI strategy document; strategy is inferred from hub + guidelines stack",
+        "CARIDA founding year not publicly stated",
+        "UTA Supercomputing Research Hub GPU count and exact configuration not disclosed",
+        "Exact nebulaONE pilot cost, course count, and student feedback not public",
+        "No visible predictive-analytics-for-retention or admissions AI initiatives documented on public sources",
+        "Total AI-connected research investment is estimated from documented grants, not a consolidated institutional report",
+        "Limited public evidence of formal cybersecurity-and-AI-risk or algorithmic-bias-audit programs beyond the research policy stance"
+      ]
+    }
+  }
+}

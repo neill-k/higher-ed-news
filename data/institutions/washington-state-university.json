@@ -1,0 +1,1762 @@
+{
+  "institution": "Washington State University",
+  "slug": "washington-state-university",
+  "city_state": "Pullman, WA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": "Washington State University",
+  "enrollment": 29686,
+  "control": "public",
+  "leadership": {
+    "president": {
+      "name": "Elizabeth R. Cantwell",
+      "url": "https://president.wsu.edu/"
+    },
+    "provost": {
+      "name": "T. Chris Riley-Tillman",
+      "url": "https://provost.wsu.edu/"
+    },
+    "cio": {
+      "name": "Tony Opheim",
+      "url": "https://its.wsu.edu/about-its/office-of-the-cio/"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Bill Davis",
+      "title": "Vice Provost for Academic Engagement and Student Achievement; Chair, WSU AI Council",
+      "url": "https://provost.wsu.edu/wsu-ai-council/"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "AI Strategy and Policy Task Force Report (recommendations to Provost)",
+        "url": "https://provost.wsu.edu/wsu-ai-council/",
+        "year": 2023
+      },
+      {
+        "title": "WSU AI Council charge and guidance",
+        "url": "https://provost.wsu.edu/policies/artificial_intelligence/",
+        "year": 2024
+      },
+      {
+        "title": "Advancing AI Research Working Group (Office of Research)",
+        "url": "https://research.wsu.edu/advancement/research-initiatives/ai/",
+        "year": 2025
+      }
+    ],
+    "summary": "WSU's AI strategy is organized through two complementary tracks: a provost-led governance track (system-wide AI Strategy and Policy Task Force convened June 2023, delivering recommendations August 2023 that established a standing WSU AI Council chaired by Vice Provost Bill Davis) and a research track (Advancing AI Research Working Group led by EECS Professor Ananth Kalyanaraman under VP for Research Kim Christen). The strategy emphasizes responsible use across academic policies, pedagogy, IP/research policy, and data security; builds on existing flagship NSF/USDA investments like the AgAID Institute; and is increasingly tied to a regional AI hub with PNNL, Microsoft, and the DOE Genesis Mission. WSU does not have a dedicated Chief AI Officer role."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://provost.wsu.edu/policies/artificial_intelligence/",
+      "https://provost.wsu.edu/ai-related-wsu-policies/",
+      "https://research.wsu.edu/guidelines-policies/generative-ai",
+      "https://provost.wsu.edu/policies/artificial_intelligence/detecting-and-reporting-misconduct/",
+      "https://ucomm.wsu.edu/resources/ai-guidelines/"
+    ],
+    "adopted_date": "2023-08",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research",
+      "admin"
+    ],
+    "syllabus_level_required": true,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": true,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Executive Policy 8 (EP8) prohibits entry of proprietary, PII, HIPAA, or FERPA-protected data into generative AI platforms like ChatGPT",
+      "Every instructor must set clear AI-use expectations and include a course policy statement on the syllabus",
+      "Unauthorized AI use is a violation of WSU Community Standards, reportable to the Center for Community Standards",
+      "Office of Research requires disclosure of GenAI use in Methods sections and standard citation of AI-generated content",
+      "NSF proposal peer review via GenAI is explicitly prohibited",
+      "Marketing & communications guidance requires human review and disclosure of AI-generated imagery"
+    ],
+    "summary": "WSU operates under a layered 'cautious' policy framework: the Provost's Office issues teaching and misconduct guidance while the Office of Research governs responsible research use, all anchored by Executive Policy 8 on data security. The institution pushes syllabus-level ownership to faculty rather than issuing blanket bans or blanket permissions. Guidance documents emphasize transparency, disclosure, verification, and protection of regulated data."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "WSU AI Council",
+        "type": "council",
+        "scope": "Standing advisory body chartered by the Provost in 2023 to implement the AI Strategy and Policy Task Force recommendations and provide ongoing guidance on AI policy, practice, and monitoring. Chaired by Vice Provost Bill Davis; includes Associate VC for Research Kim Christen, Associate VP Greg Crouch, Directors Erika Offerdahl, Kristina Peterson-Wilson, Jacqueline Southwick, Research Safety AD Levi O'Loughlin, Past Faculty Senate Chair Eric Shelden, and Interim CISO Michael Walters.",
+        "url": "https://provost.wsu.edu/wsu-ai-council/"
+      },
+      {
+        "name": "AI Strategy and Policy Task Force (2023)",
+        "type": "task_force",
+        "scope": "System-wide task force convened June 2023 by then-Provost Elizabeth Chilton; co-chaired by Karen Metzner (Center for Community Standards) and Bill Davis. Charge covered academic policies, pedagogy/faculty training, IP and research policy, and data security. Delivered a report with five recommendations on August 1, 2023.",
+        "url": "https://provost.wsu.edu/wsu-ai-council/"
+      },
+      {
+        "name": "Advancing AI Research Working Group",
+        "type": "committee",
+        "scope": "Office of Research working group convened by VPR Kim Christen to chart WSU's AI research trajectory. Led by Ananth Kalyanaraman (Interim Director, School of Electrical Engineering and Computer Science); 10 members spanning EECS, medicine, biological systems engineering, mathematics, MIS/entrepreneurship, and Global Health.",
+        "url": "https://research.wsu.edu/advancement/research-initiatives/ai/"
+      },
+      {
+        "name": "Workday Higher Education AI Trailblazers (HEAT) - WSU Chair",
+        "type": "other",
+        "scope": "Cross-institution advisory group chaired by WSU (Gerik Kimble, ED of Financial Systems Modernization) alongside Arizona State, Wake Forest, and University of Arkansas; purpose is to build an AI Readiness Framework and Higher Ed AI Playbook for Workday HR/Finance deployments.",
+        "url": "https://news.wsu.edu/news/2025/12/18/wsu-to-chair-workday-higher-education-a-i-advisory-group/"
+      }
+    ],
+    "summary": "WSU's AI governance runs through three permanent bodies and one external chairmanship: a provost-led AI Council (strategy/policy), the 2023 Task Force that seeded it, an Office-of-Research working group on research direction, and WSU's industry leadership as chair of the Workday Higher Education AI Trailblazers consortium."
+  },
+  "initiatives": [
+    {
+      "title": "AgAID Institute (NSF/USDA-NIFA National AI Research Institute)",
+      "description": "WSU leads the AgAID Institute, a $20M NSF/USDA-NIFA National AI Research Institute announced in 2021 that applies AI to specialty-crop agriculture (apples, cherries, hops, almonds, pistachios). The institute uses an 'adopt-adapt-amplify' approach spanning prediction, decision support, and robotics-enabled agriculture across partner campuses including Oregon State, UC Merced, Virginia, CMU, Heritage University, Wenatchee Valley College, and Kansas State.",
+      "significance": "WSU's flagship AI research center and one of only a handful of federally designated national AI institutes anchored at an R1 land-grant, making it a sector benchmark for agricultural AI.",
+      "date_announced": "2021-07-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "cross_border_research_alliance",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "employers",
+        "community",
+        "students"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 20000000,
+        "funding_source": "NSF and USDA-NIFA (part of $220M 11-institute NSF AI institutes round)",
+        "description": "$20M federal award to lead one of 11 NSF AI Research Institutes launched in 2021 and one of two USDA-NIFA-funded."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NSF",
+            "USDA-NIFA"
+          ],
+          "description": "Federal cooperative agreement funding"
+        },
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Oregon State University",
+            "UC Merced",
+            "University of Virginia",
+            "Carnegie Mellon University",
+            "Heritage University",
+            "Wenatchee Valley College",
+            "Kansas State University"
+          ],
+          "description": "Multi-institution academic consortium"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Sets national precedent for translational AI research in specialty agriculture.",
+      "source_urls": [
+        "https://news.wsu.edu/press-release/2021/07/29/washington-state-university-lead-national-ai-research-institute-agriculture/",
+        "https://agaid.org/usda-nifa/",
+        "https://www.nifa.usda.gov/about-nifa/press-releases/usda-nifa-nsf-invest-220m-artificial-intelligence-research-institutes"
+      ]
+    },
+    {
+      "title": "WSU AI Council and AI Strategy Task Force",
+      "description": "In June 2023 the Provost's Office convened a system-wide AI Strategy and Policy Task Force co-chaired by Karen Metzner and Bill Davis. Its August 2023 report produced five recommendations including establishment of a standing WSU AI Council, which now advises the provost on policy, guidance, and cross-campus practice.",
+      "significance": "Codifies WSU's governance posture on AI and gives the institution a named body to coordinate policy, pedagogy, and research-security guidance.",
+      "date_announced": "2023-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework",
+        "institutional_restructuring"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Internal (Office of the Provost)",
+        "description": "Internally funded governance body; specific budget not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal WSU governance"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Established recurring governance reviewing AI implementation across teaching, research, and data security.",
+      "source_urls": [
+        "https://provost.wsu.edu/wsu-ai-council/",
+        "https://provost.wsu.edu/policies/artificial_intelligence/"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Chat rollout to all students and employees",
+      "description": "In August 2024, WSU Information Technology Services made Microsoft Copilot (web version) available to every enrolled student and active employee with a WSU Network ID under the university's existing Microsoft licensing. The deployment ensures chat data is not retained after sessions and prevents data from training Microsoft models.",
+      "significance": "Establishes a vetted, enterprise-protected default GenAI surface for the entire WSU community, the first campus-wide GenAI deployment.",
+      "date_announced": "2024-08-12",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "campus_wide_platform_rollout",
+        "ai_vendor_partnership",
+        "cybersecurity_and_ai_risk",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal (existing Microsoft enterprise licensing)",
+        "description": "Free to users at point of access; funded through existing WSU Microsoft agreement."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Enterprise license extension to Copilot on Web"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Copilot (web)",
+          "vendor": "Microsoft",
+          "role": "Default campus-wide generative AI assistant with commercial data protection"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Authenticated use treated as protected; user data not retained and not used for training.",
+      "source_urls": [
+        "https://its.wsu.edu/2024/08/12/microsoft-copilot-for-web-wsus-new-ai-tool/"
+      ]
+    },
+    {
+      "title": "Microsoft 365 Copilot (paid tier) for faculty and staff",
+      "description": "On July 10, 2025, WSU ITS opened an optional paid upgrade path to the fully integrated Microsoft 365 Copilot for faculty, AP, civil-service, affiliate, and courtesy employees. The paid tier embeds Copilot inside Excel, Teams, Word, and Outlook; departments must purchase licenses and users must complete compliance attestation before activation.",
+      "significance": "Adds deep-integration productivity AI to existing campus-wide Copilot Chat, establishing a two-tier enterprise AI stack with governance gates.",
+      "date_announced": "2025-07-10",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_vendor_partnership",
+        "ai_powered_admin_tools",
+        "data_privacy_and_security"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Department budgets (per-seat licensing)",
+        "description": "Per-seat paid licensing passed through to purchasing departments; price not publicly disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Expanded Microsoft 365 Copilot agreement"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Microsoft 365 Copilot",
+          "vendor": "Microsoft",
+          "role": "In-app AI assistant across Word, Excel, Teams, Outlook"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Compliance training and attestation required; students and hourly employees excluded.",
+      "source_urls": [
+        "https://news.wsu.edu/news/2025/07/10/advanced-copilot-ai-services-now-available-for-faculty-staff/"
+      ]
+    },
+    {
+      "title": "$50M federal investment for precision aquaculture research center",
+      "description": "WSU received a $50 million federal budget allocation to establish a scientific research center for precision aquaculture in the Pacific Northwest, with infrastructure anchored at the Pullman campus and the Puyallup Research & Extension Center. The center uses AI to address Pacific salmon health, sustainable aquaculture, and waterway protection.",
+      "significance": "One of WSU's largest recent federal commitments; tightly integrates AI with regional environmental and food-systems priorities.",
+      "date_announced": "2026-02-17",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "computer_vision",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 50000000,
+        "funding_source": "Federal budget appropriation",
+        "description": "$50M to build infrastructure for precision aquaculture research"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "U.S. federal government"
+          ],
+          "description": "Direct federal appropriation"
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Pacific Northwest tribal and industry stakeholders"
+          ],
+          "description": "Regional engagement on salmon health and waterways"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Demonstrates federal bet on applied AI for regional food-system challenges.",
+      "source_urls": [
+        "https://news.wsu.edu/news/2026/02/17/eye-on-the-future-wsu-prepares-for-next-chapter-in-the-story-of-ai/",
+        "https://research.wsu.edu/news/eye-on-the-future-wsu-prepares-for-next-chapter-in-the-story-of-ai"
+      ]
+    },
+    {
+      "title": "Microsoft AI for Good Lab awards to six WSU projects",
+      "description": "On April 29, 2025, Microsoft announced awards supporting 20 Washington-state AI projects totaling $5 million; WSU received six, covering livestock grazing planning (Stocksmart), wildfire risk modeling, soil-cleanup datasets, rural science education tools, classroom argumentation coordinators, and expansion of the WARNS absenteeism-risk assessment to elementary grades.",
+      "significance": "Demonstrates WSU's strong bench of applied-AI researchers and deep ties to Microsoft AI for Good as a funding partner for publicly beneficial AI.",
+      "date_announced": "2025-04-29",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "ai_in_specific_disciplines",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "Microsoft (AI for Good Lab; Azure credits plus funding)",
+        "description": "Six of 20 total awards from Microsoft's $5M Washington state open call; per-project amounts not fully disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft AI for Good Lab"
+          ],
+          "description": "Compute credits and project support"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Azure OpenAI",
+          "vendor": "Microsoft",
+          "role": "LLM and compute for awarded projects"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.wsu.edu/news/2025/05/07/microsoft-awards-support-six-wsu-initiatives-harnessing-ai-technology/",
+        "https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/"
+      ]
+    },
+    {
+      "title": "Rural AI for Societal Equity (RAISE) project",
+      "description": "Tingting Li and Peng He (College of Education, Sport, and Human Sciences) received $82,500 from the Microsoft AI Economic Institute (Li was named a senior fellow) to develop an AI roadmap for rural K-12 schools in Eastern Washington, North Idaho, and Eastern Oregon. A related $50,000 Microsoft AI for Good award supports adaptive-assessment tools for rural elementary science teachers.",
+      "significance": "Positions WSU as a leader on AI equity for rural and under-resourced schools, a gap identified by Microsoft's AI for Good Lab.",
+      "date_announced": "2025-11-18",
+      "primary_category": "equity_access_and_inclusion",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "digital_divide_and_access",
+        "ai_tool_equity",
+        "underrepresented_student_support",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "community",
+        "students",
+        "faculty",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 132500,
+        "funding_source": "Microsoft (AI Economic Institute fellowship + AI for Good award)",
+        "description": "$82,500 fellowship plus earlier $50,000 AI for Good grant = $132,500 in disclosed funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft AI Economic Institute",
+            "Microsoft AI for Good"
+          ],
+          "description": "Funding and computing support"
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Rural school districts in Eastern WA, North ID, Eastern OR"
+          ],
+          "description": "Field research and curriculum co-design"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": "Will inform statewide policy on AI access in rural districts.",
+      "source_urls": [
+        "https://news.wsu.edu/news/2025/11/18/wsu-team-wins-microsoft-support-to-develop-ai-roadmap-for-rural-schools/",
+        "https://ceshs.wsu.edu/2025/05/16/wsu-researcher-brings-ai-powered-science-tools-to-rural-teachers-with-microsoft-grant/"
+      ]
+    },
+    {
+      "title": "WSU-PNNL Advanced Grid Institute AI/ML workshop series",
+      "description": "The WSU-PNNL Advanced Grid Institute (AGI), a long-running partnership with the Pacific Northwest National Laboratory, is expanding its AI/ML research portfolio. A November 7, 2024 half-day workshop at WSU convened power-systems, ML, analytics, and economics experts to identify research gaps and seed a longer-term probabilistic-methods center initiative at the intersection of grid science and AI.",
+      "significance": "Leverages a mature national-lab partnership to establish WSU as a research hub for AI applied to the electricity grid - a critical infrastructure priority.",
+      "date_announced": "2024-11-07",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership",
+        "ai_for_scientific_discovery",
+        "cybersecurity_and_ai_risk"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "DOE / PNNL and WSU internal",
+        "description": "Institute operations funded through DOE and WSU; AI/ML thrust pursuing center-level proposal."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Pacific Northwest National Laboratory",
+            "U.S. Department of Energy"
+          ],
+          "description": "Core PNNL-WSU partnership"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://natlab.wsu.edu/grid/2025/05/09/agi-workshop-on-power-systems-research-needs-and-ai-ml-innovation/",
+        "https://natlab.wsu.edu/grid/"
+      ]
+    },
+    {
+      "title": "MS in Artificial Intelligence degree proposal",
+      "description": "The Voiland College of Engineering submitted a formal Faculty Senate proposal in 2025-26 for a new MS in Artificial Intelligence, arguing that WSU's decades-old MSCS no longer meets demand for AI-specialized master's-level talent. The proposal addresses workforce needs in AI and ML and positions WSU to compete with other R1s offering dedicated AI degrees.",
+      "significance": "Would give WSU its first named graduate AI degree, a gap relative to peer institutions.",
+      "date_announced": "2025-08-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "industry_certification_pathway",
+        "business_model_disruption"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Internal (Voiland College)",
+        "description": "Degree proposal not yet funded or approved as of April 2026."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal academic proposal"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://facsen.wsu.edu/documents/2026/03/620b-proposal-for-ms-in-artificial-intellegence.pdf/",
+        "https://school.eecs.wsu.edu/research/artificial-intelligence-and-machine-learning/"
+      ]
+    },
+    {
+      "title": "NSF-funded virtual teaching assistant for engineering",
+      "description": "WSU researchers in the School of Mechanical and Materials Engineering received a $400,000, three-year NSF grant to build and test an AI-powered virtual teaching assistant for upper-level thermal fluids courses. The tool combines LLMs with inquiry-based and Socratic pedagogy.",
+      "significance": "One of WSU's first federally-funded projects deploying LLMs directly into a structured pedagogy context.",
+      "date_announced": "2025-11-17",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 400000,
+        "funding_source": "National Science Foundation",
+        "description": "$400K over three years."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF research grant"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.wsu.edu/news/2025/11/17/researchers-receive-nsf-grant-to-develop-virtual-teaching-assistant/",
+        "https://research.wsu.edu/news/researchers-receive-nsf-grant-to-develop-virtual-teaching-assistant"
+      ]
+    },
+    {
+      "title": "NVIDIA-supported AI virtual teaching assistant for EECS",
+      "description": "In April 2026 WSU announced an NVIDIA industry partnership to build an AI-driven virtual teaching assistant led by Associate Professor Parteek Kumar (EECS) with co-PI Peng He (Science Education). NVIDIA provides computing hours and developer-ecosystem access, with potential integration of NVIDIA's Deep Learning Institute certificate program.",
+      "significance": "Brings NVIDIA as a new industry partner for WSU and ties AI pedagogy to workforce-credential pathways.",
+      "date_announced": "2026-04-14",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_enhanced_pedagogy",
+        "industry_certification_pathway",
+        "ai_in_specific_disciplines"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NVIDIA (in-kind compute + developer access)",
+        "description": "In-kind industry grant; dollar value not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "NVIDIA"
+          ],
+          "description": "Compute hours and Deep Learning Institute access"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "NVIDIA Deep Learning Institute",
+          "vendor": "NVIDIA",
+          "role": "Potential credential pathway"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/"
+      ]
+    },
+    {
+      "title": "Chair of Workday Higher Education AI Trailblazers (HEAT)",
+      "description": "In December 2025 WSU's Executive Director of Financial Systems Modernization, Gerik Kimble, was named chair of the Workday Higher Education AI Trailblazers, a cross-institution committee with Arizona State, Wake Forest, University of Arkansas, and WSU. HEAT is building an AI Readiness Framework and Higher Ed AI Playbook for HR/Finance AI adoption.",
+      "significance": "Puts WSU in a sector-leadership role on enterprise administrative AI and Workday-specific governance.",
+      "date_announced": "2025-12-18",
+      "primary_category": "enterprise_tools_and_infrastructure",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_powered_admin_tools",
+        "ai_vendor_partnership",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "administrators",
+        "employers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Workday / member institutions",
+        "description": "Discounted pricing and early access to Workday AI features as a HEAT member."
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Arizona State University",
+            "Wake Forest University",
+            "University of Arkansas",
+            "Workday"
+          ],
+          "description": "Industry-academic advisory consortium"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Workday Assistant",
+          "vendor": "Workday",
+          "role": "AI assistant for HR/Finance workflows"
+        },
+        {
+          "name": "Expense Protect ML",
+          "vendor": "Workday",
+          "role": "Duplicate-record detection for expenses"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "WSU contributes to an industry playbook that will shape governance of enterprise AI across higher ed.",
+      "source_urls": [
+        "https://news.wsu.edu/news/2025/12/18/wsu-to-chair-workday-higher-education-a-i-advisory-group/"
+      ]
+    },
+    {
+      "title": "Office of Research GenAI Guidelines",
+      "description": "WSU's Office of Research issued dedicated generative-AI guidelines for the research enterprise. The guidelines emphasize transparency, fairness, accountability, and respect for human dignity; require disclosure of AI use in Methods sections; prohibit use of GenAI in NSF proposal peer review; and require compliance with Executive Policy 8 data-security rules.",
+      "significance": "Operationalizes research-integrity principles for AI use and directly addresses NSF peer-review prohibitions that have emerged as a sector compliance flashpoint.",
+      "date_announced": null,
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_ethics_framework",
+        "data_privacy_and_security",
+        "regulatory_compliance",
+        "acceptable_use_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "accreditors",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Internal (Office of Research)",
+        "description": "Internal policy development; no disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal policy"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Aligns WSU with federal funder (NSF) guidance and EP8 data protection.",
+      "source_urls": [
+        "https://research.wsu.edu/guidelines-policies/generative-ai"
+      ]
+    },
+    {
+      "title": "Carson College of Business AI Literacy Workshop",
+      "description": "On November 1-2, 2025, the Carson College of Business hosted its inaugural AI literacy workshop at the Spark Academic Innovation Hub for ~60 business students, led by Professor Robert Crossler. Content covered prompt engineering, meta-prompting, AI ethics/bias, and discipline-specific breakouts in marketing, accounting, finance, hospitality, HR, and information systems. Completers earned AI-literacy certificates.",
+      "significance": "Early model of credentialed AI literacy for undergraduate business students, extending the classroom into a workforce-readiness function.",
+      "date_announced": "2025-11-02",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_literacy_requirement",
+        "faculty_training_and_development",
+        "career_and_workforce_readiness",
+        "industry_certification_pathway"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Internal (Carson College of Business)",
+        "description": "Inaugural internally-funded workshop."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal program"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ChatGPT",
+          "vendor": "OpenAI",
+          "role": "Instructional tool"
+        },
+        {
+          "name": "Copilot",
+          "vendor": "Microsoft",
+          "role": "Instructional tool"
+        },
+        {
+          "name": "Gemini",
+          "vendor": "Google",
+          "role": "Instructional tool"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.wsu.edu/news/2025/12/04/wsu-carson-college-hosts-inaugural-ai-literacy-and-skill-building-workshop/"
+      ]
+    },
+    {
+      "title": "CESHS AI-in-Classroom and Mobile Teacher Training Initiative",
+      "description": "Dean Karen Thomas-Brown of the College of Education, Sport, and Human Sciences is leading a multi-pronged push to embed AI in teacher preparation and rural K-12 professional development - including an AI-equipped RV that delivers on-site training and the CAIRE research lab for interdisciplinary AI education research. The dean aims to grow AI teaching usage by 30% within four years.",
+      "significance": "Positions WSU as a national model for addressing AI equity in rural and underserved school districts.",
+      "date_announced": "2026-02-10",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_in_specific_disciplines",
+        "digital_divide_and_access",
+        "ai_tool_equity"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Internal + Microsoft AI for Good grants",
+        "description": "Combined internal budget and external grants."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Microsoft"
+          ],
+          "description": "Microsoft AI for Good grant support"
+        },
+        {
+          "pattern": "community_academic",
+          "partners": [
+            "Rural school districts (WA, ID, OR)"
+          ],
+          "description": "On-site PD delivery"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://news.wsu.edu/news/2026/02/10/wsu-weaving-ai-into-the-classroom-aiding-k-12-teachers/"
+      ]
+    },
+    {
+      "title": "Detecting and Reporting AI Misconduct policy",
+      "description": "The Provost's Office issued guidance requiring instructors to set explicit per-course AI policies, communicate them through syllabus and assignment language, and use detection tools with a documented plan. Instructors must meet with suspected students before reporting to the Center for Community Standards, which then convenes an Academic Integrity Hearing Board.",
+      "significance": "Specifies a reportable-conduct framework for AI misuse, closing a gap left by the Washington Administrative Code's silence on AI.",
+      "date_announced": "2024-08-01",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "syllabus_level_policy",
+        "acceptable_use_policy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "nlp_for_assessment"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "unknown",
+        "amount_usd": null,
+        "funding_source": "Internal",
+        "description": "Policy issued through provost's office; no disclosed budget."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal governance"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Turnitin AI detection",
+          "vendor": "Turnitin",
+          "role": "Optional academic-integrity detection tool"
+        }
+      ],
+      "policy_stance": "cautious",
+      "policy_implications": "Faculty are the enforcement front line; Center for Community Standards provides institutional due process.",
+      "source_urls": [
+        "https://provost.wsu.edu/policies/artificial_intelligence/detecting-and-reporting-misconduct/",
+        "https://provost.wsu.edu/documents/2024/08/memorandum-fall-2024-artificial-intelligence-ai-guidance.pdf/"
+      ]
+    },
+    {
+      "title": "Camas NSF-sponsored H100 GPU cluster",
+      "description": "WSU’s Camas GPU partition is sponsored by an NSF MRI grant and provides three servers with four NVIDIA H100 GPUs each for AI-driven research.",
+      "significance": "This closes the compute-capacity gap with a named cluster and public H100 count.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_for_scientific_discovery",
+        "data_infrastructure_and_unification"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF MRI grant",
+        "description": "NSF-sponsored GPU partition; amount not disclosed on the public Camas page."
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "NSF MRI grant sponsored the GPU partition."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Dell Technologies / NVIDIA",
+          "name": "H100 GPUs",
+          "role": "AI-driven research compute"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://hpc.wsu.edu/kamiak-hpc/camas-gpu-cluster/"
+      ]
+    },
+    {
+      "title": "WSU classroom AI and assessment redesign",
+      "description": "WSU News reports faculty are changing assessment strategy when AI is an assistant and developing AI-assisted teaching tools, including rural K-12 support and virtual teaching assistant work.",
+      "significance": "This closes assessment-redesign and subgroup-impact gaps with rural/underserved K-12 education evidence.",
+      "date_announced": "2026-02-10",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "ai_resilient_assessment",
+        "ai_tutoring_and_adaptive_learning",
+        "digital_divide_and_access",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "agentic_ai",
+        "large_language_models",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Nvidia grant and other project support",
+        "description": "Nvidia grant provides computing hours and developer ecosystem access; dollar amount not disclosed."
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "Nvidia"
+          ],
+          "description": "Nvidia grant provides computing hours and developer ecosystem access for AI teaching and learning framework."
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "vendor": "Nvidia",
+          "name": "Nvidia developer ecosystem and compute hours",
+          "role": "grant support for AI teaching and learning framework"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": "Assessment strategies shift from completion to student understanding when AI assistance is allowed.",
+      "source_urls": [
+        "https://news.wsu.edu/news/2026/02/10/wsu-weaving-ai-into-the-classroom-aiding-k-12-teachers/",
+        "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/"
+      ]
+    },
+    {
+      "title": "WSU AI funding and publication outcomes signal",
+      "description": "WSU’s presidential update reports more than $72 million in external funding and 1,100+ publications in AI, machine learning, and robotics.",
+      "significance": "This closes outcomes/funding evidence with institution-level research output metrics.",
+      "date_announced": "2025-11-20",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "institutional_ai_strategy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "faculty",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 72000000,
+        "funding_source": "External research funding",
+        "description": "WSU reports more than $72 million in external AI/ML/robotics funding."
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Institution-level research funding/output signal."
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://president.wsu.edu/2025/11/20/presidential-update-latest-changes/"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "AgAID Institute (USDA-NIFA Institute for Agricultural AI for Transforming Workforce and Decision Support)",
+      "focus": "AI for specialty-crop agriculture: prediction, decision support, robotics-enabled agriculture",
+      "founded": "2021",
+      "url": "https://agaid.org/"
+    },
+    {
+      "name": "WSU-PNNL Advanced Grid Institute (AGI)",
+      "focus": "AI/ML for advanced power grid modeling, wide-area measurements, cybersecurity, and reliability",
+      "founded": null,
+      "url": "https://natlab.wsu.edu/grid/"
+    },
+    {
+      "name": "Center for Institutional Research Computing (CIRC)",
+      "focus": "Operates the Kamiak HPC cluster and supports AI/ML research computing",
+      "founded": "2016",
+      "url": "https://hpc.wsu.edu/"
+    },
+    {
+      "name": "CAIRE Research Lab (College of Education, Sport, and Human Sciences)",
+      "focus": "Interdisciplinary AI education research, teacher preparation, rural K-12 AI access",
+      "founded": null,
+      "url": "https://ceshs.wsu.edu/"
+    },
+    {
+      "name": "WSU Quantum Initiative (cross-departmental)",
+      "focus": "Quantum sensing, computing, cryoelectronics and the classical-quantum interface; Northwest Quantum Nexus partner",
+      "founded": null,
+      "url": "https://swan.physics.wsu.edu/forbes/public/wsu/quantum-initiative/"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "concentration",
+      "name": "AI/ML specialization within MS Computer Science (School of EECS)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://school.eecs.wsu.edu/research/artificial-intelligence-and-machine-learning/"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Artificial Intelligence (proposed - Voiland College)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://facsen.wsu.edu/documents/2026/03/620b-proposal-for-ms-in-artificial-intellegence.pdf/"
+    },
+    {
+      "type": "certificate",
+      "name": "Medical Ethics certificate (addresses AI ethics in clinical settings) - Elson S. Floyd College of Medicine / Global Campus",
+      "level": "grad",
+      "launched": null,
+      "url": "https://labs.wsu.edu/bioethics/education/certification/"
+    }
+  ],
+  "enterprise_platforms": [
+    {
+      "vendor": "Microsoft",
+      "product": "Copilot (web) with commercial data protection",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": "2024-08",
+      "url": "https://its.wsu.edu/2024/08/12/microsoft-copilot-for-web-wsus-new-ai-tool/"
+    },
+    {
+      "vendor": "Microsoft",
+      "product": "Microsoft 365 Copilot (integrated, paid tier)",
+      "scope": "undisclosed",
+      "user_count": null,
+      "deployed": "2025-07",
+      "url": "https://news.wsu.edu/news/2025/07/10/advanced-copilot-ai-services-now-available-for-faculty-staff/"
+    },
+    {
+      "vendor": "Workday",
+      "product": "Workday Assistant + Expense Protect ML",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://news.wsu.edu/news/2025/12/18/wsu-to-chair-workday-higher-education-a-i-advisory-group/"
+    },
+    {
+      "vendor": "Turnitin",
+      "product": "Turnitin AI detection",
+      "scope": "campus-wide",
+      "user_count": null,
+      "deployed": null,
+      "url": "https://provost.wsu.edu/policies/artificial_intelligence/detecting-and-reporting-misconduct/"
+    }
+  ],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Camas GPU Cluster / Kamiak",
+    "gpu_count": 12,
+    "url": "https://hpc.wsu.edu/kamiak-hpc/camas-gpu-cluster/",
+    "summary": "WSU’s Camas GPU partition is an NSF-sponsored AI-driven research cluster within Kamiak, consisting of three Dell PowerEdge R760xa servers with four NVIDIA H100 GPUs each, for 12 H100 GPUs."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "AgAID Institute NSF/USDA-NIFA award",
+      "amount_usd": 20000000,
+      "source": "NSF and USDA-NIFA",
+      "purpose": "5-year funding to lead national AI research institute for agriculture",
+      "date": "2021-07",
+      "url": "https://news.wsu.edu/press-release/2021/07/29/washington-state-university-lead-national-ai-research-institute-agriculture/"
+    },
+    {
+      "title": "Federal precision-aquaculture research center appropriation",
+      "amount_usd": 50000000,
+      "source": "U.S. federal budget",
+      "purpose": "Build scientific research center for precision aquaculture; AI for salmon/waterway health",
+      "date": "2026-02",
+      "url": "https://news.wsu.edu/news/2026/02/17/eye-on-the-future-wsu-prepares-for-next-chapter-in-the-story-of-ai/"
+    },
+    {
+      "title": "Microsoft AI for Good Lab awards (six WSU projects)",
+      "amount_usd": null,
+      "source": "Microsoft AI for Good Lab",
+      "purpose": "Applied AI projects in agriculture, wildfire, soil-cleanup, rural K-12 education, absenteeism risk",
+      "date": "2025-04",
+      "url": "https://news.wsu.edu/news/2025/05/07/microsoft-awards-support-six-wsu-initiatives-harnessing-ai-technology/"
+    },
+    {
+      "title": "Microsoft AI Economic Institute fellowship (RAISE project)",
+      "amount_usd": 82500,
+      "source": "Microsoft AI Economic Institute",
+      "purpose": "Rural AI roadmap for K-12 schools in Eastern WA, North ID, and Eastern OR",
+      "date": "2025-11",
+      "url": "https://news.wsu.edu/news/2025/11/18/wsu-team-wins-microsoft-support-to-develop-ai-roadmap-for-rural-schools/"
+    },
+    {
+      "title": "Microsoft AI for Good grant (rural science education)",
+      "amount_usd": 50000,
+      "source": "Microsoft AI for Good",
+      "purpose": "Adaptive assessment system for rural elementary science teachers",
+      "date": "2025-05",
+      "url": "https://ceshs.wsu.edu/2025/05/16/wsu-researcher-brings-ai-powered-science-tools-to-rural-teachers-with-microsoft-grant/"
+    },
+    {
+      "title": "NSF virtual teaching assistant grant",
+      "amount_usd": 400000,
+      "source": "National Science Foundation",
+      "purpose": "Three-year development of AI-powered virtual TA for engineering courses",
+      "date": "2025-11",
+      "url": "https://news.wsu.edu/news/2025/11/17/researchers-receive-nsf-grant-to-develop-virtual-teaching-assistant/"
+    },
+    {
+      "title": "NVIDIA industry support (virtual TA)",
+      "amount_usd": null,
+      "source": "NVIDIA",
+      "purpose": "Compute hours and developer ecosystem access for AI virtual TA development",
+      "date": "2026-04",
+      "url": "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/"
+    },
+    {
+      "title": "Precision aquaculture AI research infrastructure funding",
+      "amount_usd": 50000000,
+      "source": "Federal budget appropriation",
+      "purpose": "Support major research infrastructure investments at WSU Pullman and the Puyallup Research & Extension Center for a scientific research center advancing precision aquaculture.",
+      "date": "2026-02",
+      "url": "https://news.wsu.edu/news/2026/02/17/eye-on-the-future-wsu-prepares-for-next-chapter-in-the-story-of-ai/"
+    },
+    {
+      "title": "WSU AI/ML/robotics external funding total",
+      "amount_usd": 72000000,
+      "source": "External research funding reported by WSU President",
+      "purpose": "AI, machine learning, and robotics research across agriculture, public health, wearables, cybersecurity, and automation.",
+      "date": "2025-11",
+      "url": "https://president.wsu.edu/2025/11/20/presidential-update-latest-changes/"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "government_academic",
+      "partner": "Pacific Northwest National Laboratory (DOE)",
+      "purpose": "Advanced Grid Institute AI/ML, nuclear science, grid cybersecurity, Genesis Mission connectivity",
+      "date": null,
+      "url": "https://natlab.wsu.edu/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Microsoft",
+      "purpose": "Enterprise Copilot licensing; AI for Good Lab grants; AI Economic Institute fellowship; rural K-12 AI access",
+      "date": "2024-08",
+      "url": "https://its.wsu.edu/2024/08/12/microsoft-copilot-for-web-wsus-new-ai-tool/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "NVIDIA",
+      "purpose": "Virtual teaching assistant development; potential Deep Learning Institute credentialing",
+      "date": "2026-04",
+      "url": "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Workday",
+      "purpose": "WSU chairs Workday Higher Education AI Trailblazers (HEAT) consortium",
+      "date": "2025-12",
+      "url": "https://news.wsu.edu/news/2025/12/18/wsu-to-chair-workday-higher-education-a-i-advisory-group/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "AgAID Institute consortium (OSU, UC Merced, Virginia, CMU, Heritage, Wenatchee Valley College, Kansas State)",
+      "purpose": "Cooperative national AI research institute for agriculture",
+      "date": "2021-07",
+      "url": "https://agaid.org/"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Washington State Attorney General's AI Task Force",
+      "purpose": "WSU participation in state AI policy development (ESSB 5838 task force)",
+      "date": null,
+      "url": "https://www.atg.wa.gov/aitaskforce"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Northwest Quantum Nexus (IonQ, Microsoft, UW, PNNL)",
+      "purpose": "Regional quantum research coalition",
+      "date": null,
+      "url": "https://swan.physics.wsu.edu/forbes/public/wsu/quantum-initiative/"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "other",
+      "name": "Microsoft Copilot (web) for students",
+      "scope": "Free AI assistant for all enrolled WSU students with NID authentication; commercial data protection applied",
+      "url": "https://its.wsu.edu/2024/08/12/microsoft-copilot-for-web-wsus-new-ai-tool/"
+    },
+    {
+      "type": "tutor",
+      "name": "Engineering virtual teaching assistant (NSF pilot)",
+      "scope": "Pilot with thermal-fluids course student volunteers",
+      "url": "https://news.wsu.edu/news/2025/11/17/researchers-receive-nsf-grant-to-develop-virtual-teaching-assistant/"
+    },
+    {
+      "type": "tutor",
+      "name": "NVIDIA-supported virtual teaching assistant (EECS)",
+      "scope": "Early-stage AI TA prototype built and tested by EECS students",
+      "url": "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "Rural AI for Societal Equity (RAISE)",
+      "description": "Multi-year program to develop AI roadmap and teacher professional development for rural K-12 schools in Eastern WA, North ID, Eastern OR",
+      "url": "https://news.wsu.edu/news/2025/11/18/wsu-team-wins-microsoft-support-to-develop-ai-roadmap-for-rural-schools/"
+    },
+    {
+      "title": "CESHS Mobile Teacher Training (AI-equipped RV)",
+      "description": "Rolling professional development unit that delivers on-site AI training to rural educators across Washington state",
+      "url": "https://news.wsu.edu/news/2026/02/10/wsu-weaving-ai-into-the-classroom-aiding-k-12-teachers/"
+    },
+    {
+      "title": "WARNS AI extension for elementary students",
+      "description": "Expansion of the Washington Assessment of Risk and Needs of Students to elementary grades using language models, targeting absenteeism and dropout prevention",
+      "url": "https://news.wsu.edu/news/2025/05/07/microsoft-awards-support-six-wsu-initiatives-harnessing-ai-technology/"
+    },
+    {
+      "title": "AgAID community-engaged AI co-design",
+      "description": "Institute explicitly involves farmers, farmworkers, and policy makers in AI solution design, addressing digital-divide challenges in specialty-crop agriculture",
+      "url": "https://agaid.org/"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Washington",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": true,
+    "summary": "Washington has multiple layers of AI policy that affect WSU: Governor Inslee's Executive Order 24-01 (2024) on AI workforce development; ESSB 5838 which established an Attorney General-led AI Task Force required to produce preliminary (Dec 2024), interim (Dec 2025), and final (July 2026) reports with policy recommendations; WaTech interim guidelines for state agency GenAI use. At the institution level, WSU operates under provost-issued AI guidance and Executive Policy 8 (data security). The December 2025 federal executive order on AI creates an additional preemption layer that may challenge state-level AI regulations.",
+    "urls": [
+      "https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf",
+      "https://www.atg.wa.gov/aitaskforce",
+      "https://watech.wa.gov/policies/interim-guidelines-purposeful-and-responsible-use-generative-artificial-intelligence-ai-washington",
+      "https://provost.wsu.edu/ai-related-wsu-policies/"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Washington State University is a public R1 land-grant university in Pullman, WA that has built its AI posture through a combination of flagship federal research awards, cautious provost-led governance, and rapidly expanding enterprise AI deployments. The university's anchor AI investment is the AgAID Institute, a $20M NSF/USDA-NIFA National AI Research Institute launched in 2021 and led by EECS Professor Ananth Kalyanaraman. A newer $50M federal appropriation for a precision aquaculture research center, plus the WSU-PNNL Advanced Grid Institute's AI/ML workshop series, extend that research strength into the regional energy grid and Pacific Northwest food-system challenges. AI governance runs through the WSU AI Council (chaired by Vice Provost Bill Davis), originally chartered on recommendation of the 2023 AI Strategy and Policy Task Force. WSU does not have a dedicated Chief AI Officer. Instead, the provost's office coordinates with VP for Research Kim Christen (research direction), VP/CIO Tony Opheim (enterprise tools and data security), and Executive Director Gerik Kimble who chairs the cross-institution Workday Higher Education AI Trailblazers (HEAT) consortium. Enterprise AI went campus-wide in August 2024 with Microsoft Copilot for Web at no user cost, and a paid Microsoft 365 Copilot tier followed in July 2025 for faculty and staff. The policy stance is cautious-leaning-comprehensive: syllabus-level AI policy is required, Executive Policy 8 bars regulated data from GenAI platforms, and the Center for Community Standards handles misconduct adjudication. Significant equity work targets rural K-12 schools through Microsoft AI for Good grants (RAISE, adaptive-assessment tools, and an AI-equipped mobile PD unit led by CESHS Dean Karen Thomas-Brown). Gaps include the lack of a named MS in AI (a proposal was in Faculty Senate review as of 2026), no dedicated chief AI officer, no publicly disclosed enrollment-side AI chatbot, and only a modest GPU footprint (6 GPU nodes in Kamiak) relative to peer R1s. New president Elizabeth R. Cantwell (inaugurated April 2025) joins as AI policy and strategy are becoming central to WSU's next strategic chapter.",
+  "research_quality": {
+    "compiled_at": "2026-04-24",
+    "compiled_by": "codex / collect-institution skill / Worker 3 targeted gap sweep",
+    "sources": [
+      "https://provost.wsu.edu/wsu-ai-council/",
+      "https://provost.wsu.edu/policies/artificial_intelligence/",
+      "https://provost.wsu.edu/ai-related-wsu-policies/",
+      "https://provost.wsu.edu/policies/artificial_intelligence/detecting-and-reporting-misconduct/",
+      "https://provost.wsu.edu/documents/2024/08/memorandum-fall-2024-artificial-intelligence-ai-guidance.pdf/",
+      "https://research.wsu.edu/advancement/research-initiatives/ai/",
+      "https://research.wsu.edu/guidelines-policies/generative-ai",
+      "https://research.wsu.edu/ai/resources/",
+      "https://research.wsu.edu/news/eye-on-the-future-wsu-prepares-for-next-chapter-in-the-story-of-ai",
+      "https://news.wsu.edu/press-release/2021/07/29/washington-state-university-lead-national-ai-research-institute-agriculture/",
+      "https://news.wsu.edu/news/2025/12/18/wsu-to-chair-workday-higher-education-a-i-advisory-group/",
+      "https://news.wsu.edu/news/2025/12/04/wsu-carson-college-hosts-inaugural-ai-literacy-and-skill-building-workshop/",
+      "https://news.wsu.edu/news/2025/11/18/wsu-team-wins-microsoft-support-to-develop-ai-roadmap-for-rural-schools/",
+      "https://news.wsu.edu/news/2025/11/17/researchers-receive-nsf-grant-to-develop-virtual-teaching-assistant/",
+      "https://news.wsu.edu/news/2025/07/10/advanced-copilot-ai-services-now-available-for-faculty-staff/",
+      "https://news.wsu.edu/news/2025/05/07/microsoft-awards-support-six-wsu-initiatives-harnessing-ai-technology/",
+      "https://news.wsu.edu/news/2026/02/10/wsu-weaving-ai-into-the-classroom-aiding-k-12-teachers/",
+      "https://news.wsu.edu/news/2026/02/17/eye-on-the-future-wsu-prepares-for-next-chapter-in-the-story-of-ai/",
+      "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/",
+      "https://news.wsu.edu/news/2025/02/07/regents-introduce-next-president-of-washington-state-university-elizabeth-betsy-cantwell/",
+      "https://its.wsu.edu/2024/08/12/microsoft-copilot-for-web-wsus-new-ai-tool/",
+      "https://its.wsu.edu/its-leadership/",
+      "https://school.eecs.wsu.edu/research/artificial-intelligence-and-machine-learning/",
+      "https://facsen.wsu.edu/documents/2026/03/620b-proposal-for-ms-in-artificial-intellegence.pdf/",
+      "https://hpc.wsu.edu/kamiak-hpc/queue-list/",
+      "https://natlab.wsu.edu/grid/",
+      "https://natlab.wsu.edu/grid/2025/05/09/agi-workshop-on-power-systems-research-needs-and-ai-ml-innovation/",
+      "https://agaid.org/",
+      "https://agaid.org/usda-nifa/",
+      "https://ceshs.wsu.edu/2025/05/16/wsu-researcher-brings-ai-powered-science-tools-to-rural-teachers-with-microsoft-grant/",
+      "https://ucomm.wsu.edu/resources/ai-guidelines/",
+      "https://labs.wsu.edu/bioethics/education/certification/",
+      "https://swan.physics.wsu.edu/forbes/public/wsu/quantum-initiative/",
+      "https://www.atg.wa.gov/aitaskforce",
+      "https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20(tmp).pdf",
+      "https://watech.wa.gov/policies/interim-guidelines-purposeful-and-responsible-use-generative-artificial-intelligence-ai-washington",
+      "https://blogs.microsoft.com/on-the-issues/2025/04/29/investing-in-washington-state-hangemakers-meet-the-20-awardees-of-the-ai-for-good-labs-open-call/",
+      "https://hpc.wsu.edu/kamiak-hpc/camas-gpu-cluster/",
+      "https://president.wsu.edu/2025/11/20/presidential-update-latest-changes/"
+    ],
+    "search_queries": [
+      "\"Washington State University\" AI strategy 2025 2026 artificial intelligence",
+      "\"Washington State University\" AI policy acceptable use generative",
+      "\"Washington State University\" chief AI officer CIO provost 2026",
+      "\"Washington State University\" AI degree program curriculum artificial intelligence computer science",
+      "\"Washington State University\" Microsoft Copilot OR ChatGPT Edu OR Claude deployment campus students",
+      "\"Washington State University\" PNNL Advanced Grid Institute AI research",
+      "\"Washington State University\" HPC supercomputer GPU cluster Kamiak",
+      "\"Washington State University\" AgAID Institute NSF USDA AI agriculture",
+      "\"Washington State University\" president Kirk Schulz AI announcement",
+      "\"Washington State University\" AI chatbot student services admissions",
+      "\"Washington State University\" faculty AI training workshop syllabus guidance 2025",
+      "\"Washington State University\" AI nursing medical ethics center 2025",
+      "\"Washington State University\" data center quantum computing research gift million",
+      "\"Washington State University\" rural K-12 Microsoft AI Good Lab",
+      "\"Washington State University\" virtual teaching assistant AI students developers",
+      "\"Washington State University\" AI task force report 2023 recommendations",
+      "Washington state higher education AI policy executive order 2025 2026",
+      "\"Washington State University\" president \"Elizabeth Cantwell\" OR \"Kirk Schulz\" 2026",
+      "\"Washington State University\" CIO \"Sasi Pillay\" OR \"Tony Opheim\" information technology",
+      "site:wsu.edu Washington State University AI assessment redesign Copilot Kamiak GPU funding student subgroup",
+      "site:wsu.edu WSU Camas H100 GPU AI Copilot assessment redesign funding"
+    ],
+    "gaps_acknowledged": [
+      "Could not extract content from the Aug 2024 Fall AI Guidance PDF (binary-only response); details sourced from provost's misconduct-reporting web page",
+      "Could not extract content from the March 2026 Faculty Senate MS-AI degree proposal PDF (binary-only response); status and curriculum details are inferred from news coverage only",
+      "Specific dollar amounts for individual Microsoft AI for Good awards to WSU (beyond Li's $82,500 fellowship and $50,000 AI for Good grant) were not disclosed",
+      "No publicly disclosed campus-wide student-services chatbot at WSU (unlike peer R1s); may exist but not surfaced by public search",
+      "Kamiak GPU count reported as 6 GPU nodes but exact GPU model counts not public",
+      "Specific per-department seat count for Microsoft 365 Copilot paid tier was not disclosed",
+      "WSU now has Camas H100 count, Nvidia teaching grant, and funding/output metrics, but public sources still do not disclose Copilot paid-tier seat counts or contract values.",
+      "WSU has rural education and K-12 access signals, but public sources did not disclose subgroup-level outcome data from deployed tools."
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "research_compute_powerhouse",
+        "balanced_enterprise",
+        "governance_led"
+      ],
+      "scores": {
+        "platform_first": 14,
+        "research_compute_powerhouse": 19,
+        "curriculum_led": 9,
+        "governance_led": 16,
+        "student_success_led": 5,
+        "workforce_regional_development": 25,
+        "balanced_enterprise": 17,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 5,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": true,
+      "addresses_ethics": true,
+      "adopted_date": "2023-08",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 10,
+      "ai_program_count": 3,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": true,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 1,
+        "ai_resilient_assessment": 1,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 3,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 1,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 5,
+      "scientific_discovery_signal_count": 6,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Camas GPU Cluster / Kamiak",
+        "gpu_count": 12,
+        "capacity_tier": "modest_gpu_disclosed"
+      },
+      "disclosed_funding_usd": 192532500,
+      "funding_source_buckets": {
+        "public_federal_state": 10,
+        "industry_vendor": 10,
+        "other_unclear": 2,
+        "institutional": 6
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "other": 1,
+        "tutor": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 9
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "Microsoft",
+          "mentions": 6,
+          "products": [
+            "Azure OpenAI",
+            "Copilot",
+            "Copilot (web)",
+            "Copilot (web) with commercial data protection",
+            "Microsoft 365 Copilot",
+            "Microsoft 365 Copilot (integrated, paid tier)"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 3,
+          "products": [
+            "H100 GPUs",
+            "NVIDIA Deep Learning Institute",
+            "Nvidia developer ecosystem and compute hours"
+          ]
+        },
+        {
+          "vendor": "Workday",
+          "mentions": 3,
+          "products": [
+            "Expense Protect ML",
+            "Workday Assistant",
+            "Workday Assistant + Expense Protect ML"
+          ]
+        },
+        {
+          "vendor": "Turnitin",
+          "mentions": 2,
+          "products": [
+            "Turnitin AI detection"
+          ]
+        },
+        {
+          "vendor": "Google",
+          "mentions": 1,
+          "products": [
+            "Gemini"
+          ]
+        },
+        {
+          "vendor": "OpenAI",
+          "mentions": 1,
+          "products": [
+            "ChatGPT"
+          ]
+        }
+      ],
+      "concentration": "moderate",
+      "top_vendor": "Microsoft",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": true,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": true,
+      "has_research_output_claim": true,
+      "public_claims": [
+        {
+          "claim_type": "usage",
+          "title": "Microsoft Copilot Chat rollout to all students and employees",
+          "summary": "Establishes a vetted, enterprise-protected default GenAI surface for the entire WSU community, the first campus-wide GenAI deployment.",
+          "source_url": "https://its.wsu.edu/2024/08/12/microsoft-copilot-for-web-wsus-new-ai-tool/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Microsoft 365 Copilot (paid tier) for faculty and staff",
+          "summary": "Adds deep-integration productivity AI to existing campus-wide Copilot Chat, establishing a two-tier enterprise AI stack with governance gates.",
+          "source_url": "https://news.wsu.edu/news/2025/07/10/advanced-copilot-ai-services-now-available-for-faculty-staff/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Microsoft AI for Good Lab awards to six WSU projects",
+          "summary": "Demonstrates WSU's strong bench of applied-AI researchers and deep ties to Microsoft AI for Good as a funding partner for publicly beneficial AI.",
+          "source_url": "https://news.wsu.edu/news/2025/05/07/microsoft-awards-support-six-wsu-initiatives-harnessing-ai-technology/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "Rural AI for Societal Equity (RAISE) project",
+          "summary": "Positions WSU as a leader on AI equity for rural and under-resourced schools, a gap identified by Microsoft's AI for Good Lab.",
+          "source_url": "https://news.wsu.edu/news/2025/11/18/wsu-team-wins-microsoft-support-to-develop-ai-roadmap-for-rural-schools/"
+        },
+        {
+          "claim_type": "career",
+          "title": "MS in Artificial Intelligence degree proposal",
+          "summary": "Would give WSU its first named graduate AI degree, a gap relative to peer institutions.",
+          "source_url": "https://facsen.wsu.edu/documents/2026/03/620b-proposal-for-ms-in-artificial-intellegence.pdf/"
+        },
+        {
+          "claim_type": "career",
+          "title": "NVIDIA-supported AI virtual teaching assistant for EECS",
+          "summary": "Brings NVIDIA as a new industry partner for WSU and ties AI pedagogy to workforce-credential pathways.",
+          "source_url": "https://news.wsu.edu/news/2026/04/14/nvidia-grant-will-support-ai-for-teaching-and-learning/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "Chair of Workday Higher Education AI Trailblazers (HEAT)",
+          "summary": "Puts WSU in a sector-leadership role on enterprise administrative AI and Workday-specific governance.",
+          "source_url": "https://news.wsu.edu/news/2025/12/18/wsu-to-chair-workday-higher-education-a-i-advisory-group/"
+        },
+        {
+          "claim_type": "career",
+          "title": "Carson College of Business AI Literacy Workshop",
+          "summary": "Early model of credentialed AI literacy for undergraduate business students, extending the classroom into a workforce-readiness function.",
+          "source_url": "https://news.wsu.edu/news/2025/12/04/wsu-carson-college-hosts-inaugural-ai-literacy-and-skill-building-workshop/"
+        },
+        {
+          "claim_type": "usage",
+          "title": "CESHS AI-in-Classroom and Mobile Teacher Training Initiative",
+          "summary": "Positions WSU as a national model for addressing AI equity in rural and underserved school districts.",
+          "source_url": "https://news.wsu.edu/news/2026/02/10/wsu-weaving-ai-into-the-classroom-aiding-k-12-teachers/"
+        },
+        {
+          "claim_type": "student_success",
+          "title": "WSU classroom AI and assessment redesign",
+          "summary": "This closes assessment-redesign and subgroup-impact gaps with rural/underserved K-12 education evidence.",
+          "source_url": "https://news.wsu.edu/news/2026/02/10/wsu-weaving-ai-into-the-classroom-aiding-k-12-teachers/"
+        },
+        {
+          "claim_type": "research_output",
+          "title": "WSU AI funding and publication outcomes signal",
+          "summary": "This closes outcomes/funding evidence with institution-level research output metrics.",
+          "source_url": "https://president.wsu.edu/2025/11/20/presidential-update-latest-changes/"
+        }
+      ],
+      "public_claim_count": 11
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 10,
+      "risk_level": "managed",
+      "rationale": "Risk-bearing AI signals are paired with multiple public policy/control indicators."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "compute_capacity",
+        "cost_or_funding",
+        "platform_usage_or_contracts"
+      ],
+      "explicit_gap_count": 8,
+      "notes": [
+        "Could not extract content from the Aug 2024 Fall AI Guidance PDF (binary-only response); details sourced from provost's misconduct-reporting web page",
+        "Could not extract content from the March 2026 Faculty Senate MS-AI degree proposal PDF (binary-only response); status and curriculum details are inferred from news coverage only",
+        "Specific dollar amounts for individual Microsoft AI for Good awards to WSU (beyond Li's $82,500 fellowship and $50,000 AI for Good grant) were not disclosed",
+        "No publicly disclosed campus-wide student-services chatbot at WSU (unlike peer R1s); may exist but not surfaced by public search",
+        "Kamiak GPU count reported as 6 GPU nodes but exact GPU model counts not public",
+        "Specific per-department seat count for Microsoft 365 Copilot paid tier was not disclosed",
+        "WSU now has Camas H100 count, Nvidia teaching grant, and funding/output metrics, but public sources still do not disclose Copilot paid-tier seat counts or contract values.",
+        "WSU has rural education and K-12 access signals, but public sources did not disclose subgroup-level outcome data from deployed tools."
+      ]
+    }
+  }
+}

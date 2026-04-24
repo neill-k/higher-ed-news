@@ -1,0 +1,1431 @@
+{
+  "institution": "Worcester Polytechnic Institute",
+  "slug": "worcester-polytechnic-institute",
+  "city_state": "Worcester, MA",
+  "carnegie": "R1",
+  "institution_type": "r1_research",
+  "system": null,
+  "enrollment": 7584,
+  "control": "private_nonprofit",
+  "leadership": {
+    "president": {
+      "name": "Grace J. Wang",
+      "url": "https://www.wpi.edu/offices/president"
+    },
+    "provost": {
+      "name": "Andrew Sears",
+      "url": "https://www.wpi.edu/offices/provost"
+    },
+    "cio": {
+      "name": "Vijay Menta",
+      "url": "https://www.wpi.edu/people/staff/vmenta"
+    },
+    "chief_ai_officer": {
+      "name": null,
+      "url": null
+    },
+    "ai_strategy_lead": {
+      "name": "Elke A. Rundensteiner",
+      "title": "Dean's Professor of Computer Science; Head, Data Science and Artificial Intelligence Programs",
+      "url": "https://www.wpi.edu/about/ai"
+    },
+    "has_dedicated_ai_role": false
+  },
+  "ai_strategy": {
+    "has_published_strategy": true,
+    "documents": [
+      {
+        "title": "Launching the WPI AI Initiative (President's announcement)",
+        "url": "https://www.wpi.edu/news/announcements/launching-wpi-ai-initiative",
+        "year": 2024
+      },
+      {
+        "title": "AI at WPI (institutional portal)",
+        "url": "https://www.wpi.edu/about/ai",
+        "year": 2025
+      },
+      {
+        "title": "Faculty AI Guide 2025-2026",
+        "url": "https://www.wpi.edu/sites/default/files/2025-10/Final-Faculty-AI-Guide-2025-2026.pdf",
+        "year": 2025
+      }
+    ],
+    "summary": "WPI frames AI as 'an enabling technology critical for the careers of our students' and anchors its strategy in the WPI AI Initiative launched by President Grace Wang and former Provost Art Heinricher in February 2024. The initiative explicitly spans academic programs, research advancement, teaching methodology, computing infrastructure, and AI ethics (bias, privacy, explainability). WPI does not have a single 'AI strategy' PDF; instead the strategy is articulated through the AI Initiative announcement, the AI at WPI portal, the 2025-2026 Faculty AI Guide, and a portfolio of new degree launches (BS in AI January 2026, MS in AI December 2023, plus AI-focused business majors announced March 2026)."
+  },
+  "ai_policy": {
+    "has_acceptable_use_policy": true,
+    "policy_urls": [
+      "https://www.wpi.edu/sites/default/files/2025-10/Final-Faculty-AI-Guide-2025-2026.pdf",
+      "https://libguides.wpi.edu/ai",
+      "https://libguides.wpi.edu/ai/ethics",
+      "https://libguides.wpi.edu/ai/faculty"
+    ],
+    "adopted_date": "2025-10",
+    "stance": "cautious",
+    "scope": [
+      "faculty",
+      "students",
+      "staff",
+      "research"
+    ],
+    "syllabus_level_required": false,
+    "addresses_data_privacy": true,
+    "addresses_regulatory_compliance": false,
+    "addresses_ethics": true,
+    "key_provisions": [
+      "Faculty discretion model: instructors set their own course-level AI policies rather than a single institutional rule",
+      "Students prohibited from using generative AI as a replacement for their own work; allowed as a resource for brainstorming, outlining, editing, and research",
+      "Morgan Teaching & Learning Center hosts a Canvas space where faculty share AI syllabus approaches and perspectives",
+      "Gordon Library publishes LibGuides covering AI uses, ethics, research applications, citation practices, and faculty perspectives",
+      "Explicit ethics framing: bias, privacy, accuracy, and societal impact addressed in the Faculty AI Guide and the Uses and Ethics of AI libguide"
+    ],
+    "summary": "WPI's policy posture is cautious-permissive: the 2025-2026 Faculty AI Guide and supporting libguides provide detailed ethical framing, accuracy warnings, and data-privacy guidance, but the core rule is faculty discretion at the course level. There is no single institution-wide prohibitive or comprehensive rule; instead guidance leans on professional judgment supported by library and teaching-center resources."
+  },
+  "governance_structure": {
+    "has_governance_body": true,
+    "bodies": [
+      {
+        "name": "WPI AI Initiative leadership team",
+        "type": "council",
+        "scope": "Cross-campus coordination of AI strategy across academics, research, teaching, and technology; co-led by President Wang, Provost, and deans of Arts & Sciences and Engineering with CIO Vijay Menta on infrastructure",
+        "url": "https://www.wpi.edu/news/announcements/launching-wpi-ai-initiative"
+      },
+      {
+        "name": "Morgan Teaching and Learning Center",
+        "type": "office",
+        "scope": "Faculty-facing AI teaching guidance, sandbox grants for AI pedagogy development, and shared Canvas resource space for AI course policies",
+        "url": "https://www.wpi.edu/offices/morgan-teaching-learning-center"
+      },
+      {
+        "name": "Office of the Vice Provost for Research (Bogdan Vernescu)",
+        "type": "office",
+        "scope": "Coordinates AI research strategy, internal grant programs including President's Research Catalyst Grants, and industry/government partnerships",
+        "url": "https://www.wpi.edu/offices/vice-provost-research"
+      },
+      {
+        "name": "Artificial Intelligence Department",
+        "type": "office",
+        "scope": "Academic home for BS, MS, graduate certificates, and PhD pathways in AI; coordinates interdisciplinary AI faculty across Computer Science, Data Science, Robotics Engineering, ECE, and Mathematical Sciences",
+        "url": "https://www.wpi.edu/academics/departments/artificial-intelligence"
+      },
+      {
+        "name": "Academic & Research Computing (ARC)",
+        "type": "office",
+        "scope": "Operates the Turing HPC cluster and GPU resources free of charge to WPI students and faculty for AI/ML research",
+        "url": "https://arc.wpi.edu/computing/"
+      },
+      {
+        "name": "Multidisciplinary Faculty Learning Community on AI",
+        "type": "committee",
+        "scope": "Faculty cohort developing a convergence-divergence framework for AI literacy, ethical/risk awareness, governance fluency across disciplines",
+        "url": "https://www.wpi.edu/news/announcements/food-thought-teaching-and-about-ia-convergence-divergence-framework-higher-education"
+      }
+    ],
+    "summary": "WPI uses a distributed governance model anchored by the WPI AI Initiative leadership team (president, provost, deans, CIO, head of AI programs). Operational responsibilities are split across the Morgan Teaching and Learning Center (teaching), the Vice Provost for Research office (research and grants), Academic & Research Computing (infrastructure), the Artificial Intelligence Department (academic programs), and a Faculty Learning Community on AI literacy. No standalone AI council, Chief AI Officer, or board-level AI committee is publicly named."
+  },
+  "initiatives": [
+    {
+      "title": "Launch of WPI AI Initiative",
+      "description": "President Grace Wang and former Provost Art Heinricher announced the WPI AI Initiative on February 15, 2024 as a cross-campus effort to prepare students for the AI era, advance AI research, address ethics (security, privacy, bias, explainability, policy), and innovate AI pedagogy. Leadership spans president, provost, deans of Arts & Sciences and Engineering, faculty lead Elke Rundensteiner, Vice Provost for Research Bogdan Vernescu, and CIO Vijay Menta.",
+      "significance": "Establishes a formal institution-wide AI strategy at a mid-size private R1, demonstrating how polytechnics can coordinate AI across academics, research, pedagogy, and infrastructure without a standalone chief AI officer.",
+      "date_announced": "2024-02-15",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "institutional_transformation",
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WPI internal, donor-supported President's Research Catalyst Grants and Summer Sandbox grants",
+        "description": "Donor-backed seed funding for research and pedagogy development; dollar totals not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal cross-campus initiative without a publicly named external partner at announcement"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Sets an ethics-forward framing (bias, privacy, explainability, policy) that shapes subsequent faculty guide and program design",
+      "source_urls": [
+        "https://www.wpi.edu/news/announcements/launching-wpi-ai-initiative",
+        "https://www.wpi.edu/about/ai"
+      ]
+    },
+    {
+      "title": "BS in Artificial Intelligence (undergraduate degree launch)",
+      "description": "WPI announced on January 21, 2026 a new Bachelor of Science in Artificial Intelligence concentrating on machine learning, deep learning, generative AI, agentic AI, and AI ethics. The program explicitly responds to a Massachusetts AI job-posting surge (50-85% since 2021) and World Economic Forum rankings of AI specialists as the third-fastest-growing occupation through 2030. Elke Rundensteiner leads the program.",
+      "significance": "A polytechnic R1 launching a dedicated undergraduate AI major (distinct from CS) signals a broader sector shift toward treating AI as its own discipline with project-based, ethics-integrated curriculum.",
+      "date_announced": "2026-01-21",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "ai_literacy_requirement",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "large_language_models",
+        "generative_ai_multimodal",
+        "agentic_ai",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "WPI operating budget",
+        "description": "New academic program; specific investment not publicly disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Curriculum designed around WPI's project-based learning methodology and industry partnerships; specific industry sponsors for the BS not publicly named"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Embeds AI ethics and responsible deployment (bias, privacy, accuracy, societal impact) directly into the core curriculum",
+      "source_urls": [
+        "https://www.wpi.edu/news/addressing-ai-talent-gap-wpi-launches-bachelor-science-artificial-intelligence-focused-real-world",
+        "https://www.wpi.edu/academics/study/artificial-intelligence-bs"
+      ]
+    },
+    {
+      "title": "MS in Artificial Intelligence (graduate degree)",
+      "description": "WPI launched its Master of Science in Artificial Intelligence in December 2023 (on-campus and online) with a five-course core including a required Ethics & AI course. Delivered through the Artificial Intelligence Department and AI4ALL hosting, the degree feeds into WPI's BS/MS dual option and a portfolio of graduate certificates including AI in Business.",
+      "significance": "Early example of a named standalone MS in AI at a private R1, notable for requiring an ethics course in the core rather than as an elective.",
+      "date_announced": "2023-12-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_degree_program",
+        "faculty_training_and_development",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "general_ai",
+        "generative_ai_multimodal",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WPI operating budget; industry-sponsored projects",
+        "description": "MS program with industry-sponsored capstone projects; specific investment not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [],
+          "description": "Industry-sponsored capstone projects form a structured part of the degree; specific industry partners not named in public materials"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Ethics & AI required course signals that professional AI credentials at WPI formally include responsibility framing",
+      "source_urls": [
+        "https://www.wpi.edu/academics/study/artificial-intelligence-ai-ms",
+        "https://wpi-grad.cleancatalog.net/artificial-intelligence/ms-in-artificial-intelligence"
+      ]
+    },
+    {
+      "title": "AI-focused business undergraduate majors (Marketing Analytics; AI Business Applications)",
+      "description": "WPI announced in March 2026 two new undergraduate business majors designed to prepare students for AI-driven business environments: a major in Marketing Analytics and a major in AI Business Applications. The programs are designed to close the gap between AI technical talent and business context.",
+      "significance": "Extends AI curriculum beyond engineering and computer science into business and marketing, a pattern spreading across R1s responding to employer demand for AI-literate business graduates.",
+      "date_announced": "2026-03-13",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "institutional_transformation"
+      ],
+      "subcategories": [
+        "ai_in_specific_disciplines",
+        "ai_degree_program",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "announcement",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "generative_ai_multimodal",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "employers",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WPI operating budget",
+        "description": "Two new undergraduate majors in the WPI School of Business; investment not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal curriculum launch; no publicly named industry partners at announcement"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://nationaltoday.com/us/ma/worcester/news/2026/03/13/wpi-adds-two-new-ai-focused-business-majors/"
+      ]
+    },
+    {
+      "title": "Faculty AI Guide 2025-2026 and Convergence-Divergence Framework",
+      "description": "WPI published its Faculty AI Guide for 2025-2026 (released October 2025) and is developing a convergence-divergence AI literacy framework through a multidisciplinary Faculty Learning Community. The framework treats AI literacy, ethical/risk awareness, and governance fluency as a shared core across disciplines, with discipline-specific 'petals' from computer science to political science, economics, and geography.",
+      "significance": "Provides a replicable pedagogical model for operationalizing AI literacy across diverse disciplines without forcing a one-size-fits-all curriculum.",
+      "date_announced": "2025-10-01",
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "faculty_training_and_development",
+        "ai_literacy_requirement",
+        "ai_ethics_framework",
+        "syllabus_level_policy"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "large_language_models",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "faculty",
+        "students",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "WPI internal grants (including Summer Sandbox grants via Morgan Teaching & Learning Center)",
+        "description": "Internal grant-funded faculty development cohort and guide; no public dollar total"
+      },
+      "collaborations": [
+        {
+          "pattern": "none",
+          "partners": [],
+          "description": "Internal multidisciplinary Faculty Learning Community"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "cautious",
+      "policy_implications": "Faculty discretion model at the course level, backed by shared guide, library resources, and teaching-center support",
+      "source_urls": [
+        "https://www.wpi.edu/sites/default/files/2025-10/Final-Faculty-AI-Guide-2025-2026.pdf",
+        "https://www.wpi.edu/news/announcements/food-thought-teaching-and-about-ia-convergence-divergence-framework-higher-education",
+        "https://libguides.wpi.edu/ai"
+      ]
+    },
+    {
+      "title": "Hack for Human Impact (WPI + Holy Cross)",
+      "description": "WPI and College of the Holy Cross co-hosted the Hack for Human Impact on November 15, 2025 at WPI's Unity Hall, a one-day innovation sprint uniting liberal arts and engineering students across New England to design human-centered AI solutions using Massachusetts Data Commons data and Snowflake compute. Supported by the Massachusetts AI Hub, Executive Office of Technology Services and Security (EOTSS), City of Worcester, Sundai Club, and Strategic Growth & Innovation.",
+      "significance": "Pilots a cross-institutional, cross-discipline model for student-facing civic AI that pairs an R1 polytechnic with a nearby liberal arts college and state civic-data infrastructure.",
+      "date_announced": "2025-11-15",
+      "primary_category": "workforce_and_economic_development",
+      "secondary_categories": [
+        "research_and_innovation",
+        "equity_access_and_inclusion",
+        "student_experience_and_services"
+      ],
+      "subcategories": [
+        "regional_economic_impact",
+        "industry_academic_partnership",
+        "career_and_workforce_readiness"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "generative_ai_multimodal",
+        "predictive_analytics_ml",
+        "ai_search_and_retrieval"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "community",
+        "government_and_regulators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "MassTech / Massachusetts AI Hub sponsorship with in-kind compute (Snowflake) and state agency support",
+        "description": "Event funded via MassTech and corporate/state partners; specific dollar amount not disclosed"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "College of the Holy Cross",
+            "Massachusetts AI Hub (MassTech)",
+            "Commonwealth of Massachusetts EOTSS",
+            "City of Worcester",
+            "Sundai Club",
+            "Strategic Growth & Innovation (SG+I)"
+          ],
+          "description": "First-of-its-kind cross-sector partnership combining higher ed, state government, municipal government, and industry for civic AI hackathon"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Snowflake",
+          "vendor": "Snowflake",
+          "role": "Compute and data environment for student projects"
+        },
+        {
+          "name": "Massachusetts Data Commons",
+          "vendor": "Commonwealth of Massachusetts",
+          "role": "Civic dataset source"
+        }
+      ],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Framed explicitly around 'responsible AI' with ethics perspective combined with technical build; launches a continuing statewide dialogue for 2026",
+      "source_urls": [
+        "https://www.businesswire.com/news/home/20251111637258/en/Students-Unite-Across-New-England-to-Build-AI-for-the-Common-Good",
+        "https://www.wpi.edu/news/calendar/events/invitation-participate-hack-human-impact-saturday-nov-15-wpi",
+        "https://aihub.masstech.org/node/22186"
+      ]
+    },
+    {
+      "title": "Two Massachusetts AI Models Innovation Challenge wins (clean tech / waste-to-energy)",
+      "description": "WPI captured two of seven total grants in the Massachusetts AI Models Innovation Challenge announced October 21, 2025: Michael Timko's $381,931 project for machine-learning digital twins of hydrothermal liquefaction waste-to-energy chemistry, and Berk Calli's $279,731 project for AI-powered robotic sorting in industrial recycling via automated dataset generation from video.",
+      "significance": "Signals state-backed validation of WPI's applied AI strength in clean tech and robotics; state-scale procurement of university AI research is a growing sector pattern.",
+      "date_announced": "2025-10-21",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "industry_academic_partnership",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "robotics_and_physical_ai",
+        "computer_vision"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 661662,
+        "funding_source": "Commonwealth of Massachusetts / Massachusetts AI Hub (MassTech Collaborative)",
+        "description": "Two state grants totaling $661,662 across two faculty-led projects"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Massachusetts AI Hub",
+            "Massachusetts Technology Collaborative"
+          ],
+          "description": "State-funded applied AI grant program"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.eurekalert.org/news-releases/1102756",
+        "https://www.wpi.edu/topics/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "BioHub: $5.2M AI-integrated bioindustrial pilot facility",
+      "description": "On November 6, 2025 Lt. Governor Kim Driscoll announced a $5.2 million Commonwealth of Massachusetts award to WPI (lead) and Massachusetts Biomedical Initiatives (MBI) to establish a Central Massachusetts BioHub including 'an AI-integrated pilot facility to accelerate scale-up testing,' a builder's lab, and expanded bio-foundry capabilities. Targets 24+ pilot projects, 500+ trained individuals, and 3,000 new jobs.",
+      "significance": "Physical infrastructure investment directly braiding AI into biomanufacturing; notable state-scale pattern for regional economic development via applied AI facilities.",
+      "date_announced": "2025-11-06",
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_for_scientific_discovery",
+        "computing_infrastructure",
+        "regional_economic_impact",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "community",
+        "employers",
+        "government_and_regulators"
+      ],
+      "investment": {
+        "scale": "major",
+        "amount_usd": 5200000,
+        "funding_source": "Commonwealth of Massachusetts (part of $163M regional innovation package)",
+        "description": "$5.2M state award to WPI-led consortium"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Massachusetts Biomedical Initiatives (MBI)",
+            "City of Worcester",
+            "Commonwealth of Massachusetts",
+            "30+ regional partners"
+          ],
+          "description": "WPI-led multi-partner regional consortium with state as primary funder"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.wpi.edu/news/wpi-lead-52-million-state-funded-effort-build-central-massachusetts-biohub"
+      ]
+    },
+    {
+      "title": "Turing HPC cluster for AI/ML research",
+      "description": "WPI's Academic & Research Computing (ARC) operates the Turing cluster (4-node hyperconverged head, 79 compute nodes, 100+ GPUs, 5,000 CPUs, 45 TB RAM, 560 TB VAST scale-out storage) free of charge for faculty and students. Serves 75+ faculty across 14 departments. Originally acquired via NSF MRI grant DMS-1337943.",
+      "significance": "Mid-size private R1 sustains a locally-operated GPU/HPC cluster for AI research rather than depending entirely on cloud or the statewide MGHPCC facility; demonstrates feasibility of on-campus AI compute at sub-$10K-GPU scale.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "computing_infrastructure",
+        "ai_research_center"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": null,
+        "funding_source": "NSF MRI (original acquisition); ongoing WPI institutional funding",
+        "description": "Originally NSF-funded, now WPI-operated at no charge to users; upgrade path includes VAST storage system"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Original cluster funded through NSF MRI DMS-1337943"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "Bright Cluster Manager",
+          "vendor": "NVIDIA (Bright)",
+          "role": "Cluster management"
+        },
+        {
+          "name": "VAST scale-out storage",
+          "vendor": "VAST Data",
+          "role": "High-performance storage"
+        },
+        {
+          "name": "Ubuntu 20.04",
+          "vendor": "Canonical",
+          "role": "Cluster OS"
+        }
+      ],
+      "policy_stance": "not_applicable",
+      "policy_implications": null,
+      "source_urls": [
+        "https://arc.wpi.edu/computing/hpc-clusters/",
+        "https://www.wpi.edu/offices/vice-provost-research/academic-research-computing/high-performance-computing"
+      ]
+    },
+    {
+      "title": "ASSISTments / CAIT AI math tutoring platform (Heffernan)",
+      "description": "Professor Neil Heffernan (Computer Science) leads the ASSISTments Lab, which has built an open, free intelligent tutoring platform used by 1+ million students. A recent three-year U.S. Department of Education Institute of Education Sciences grant funds development of CAIT, an AI math tutor that responds to spoken or written student questions with personalized feedback integrated into ASSISTments. Prior 4-year, $2M federal award supported intelligent tutoring development.",
+      "significance": "One of the largest deployed AI-tutoring research systems in K-12 math education, run from a university, with clear federal backing and a long-running evidence base.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning",
+        "equity_access_and_inclusion"
+      ],
+      "subcategories": [
+        "ai_tutoring_and_adaptive_learning",
+        "ai_for_scientific_discovery",
+        "open_source_contribution",
+        "underrepresented_student_support"
+      ],
+      "maturity_signal": "mainstream",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "nlp_for_assessment",
+        "predictive_analytics_ml",
+        "large_language_models"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "researchers",
+        "community",
+        "employers"
+      ],
+      "investment": {
+        "scale": "significant",
+        "amount_usd": 2000000,
+        "funding_source": "U.S. Department of Education (IES) and prior DoEd awards",
+        "description": "Includes $2M federal award for intelligent tutoring enhancements plus a three-year IES grant for CAIT AI math tutor"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Carnegie Mellon University",
+            "U.S. Department of Education (IES)"
+          ],
+          "description": "Federally funded research partnership and open platform used by schools nationwide"
+        }
+      ],
+      "tools_and_vendors": [
+        {
+          "name": "ASSISTments",
+          "vendor": "ASSISTments Foundation",
+          "role": "Open intelligent tutoring platform"
+        }
+      ],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.wpi.edu/news/doeassistmentgrant",
+        "https://www.wpi.edu/news/talking-math-wpi-researcher-neil-heffernan-leads-effort-develop-ai-math-tutor",
+        "https://www.wpi.edu/people/faculty/nth"
+      ]
+    },
+    {
+      "title": "CARE Lab: Clinical Artificial Intelligence Research",
+      "description": "WPI's Clinical AI Research (CARE) Lab develops AI for healthcare including digital phenotyping via wearables and smartphones, image-based wound assessment, cardiac AI, and gait analyses for intoxication/impairment detection.",
+      "significance": "Example of applied biomedical AI research embedded in an R1 polytechnic, aligned with state priorities in life sciences and health.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "teaching_and_learning"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_for_scientific_discovery"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "computer_vision",
+        "predictive_analytics_ml",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "students",
+        "community"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "NIH, NSF, and institutional funding",
+        "description": "Multi-source funded research lab; amounts not publicly aggregated"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "NIH",
+            "NSF"
+          ],
+          "description": "Federally funded clinical AI research collaborations"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://carelab.wpi.edu/",
+        "https://carelab.wpi.edu/people/"
+      ]
+    },
+    {
+      "title": "President Grace Wang named to Massachusetts AI Strategic Task Force",
+      "description": "Governor Maura Healey appointed WPI President Grace Wang to the 25-member Massachusetts AI Strategic Task Force (announced February 2024) to develop recommendations on AI in education, healthcare, life sciences, robotics, and financial services for the state.",
+      "significance": "Places WPI's executive leadership directly in state-level AI policy formation, giving the institution a formal seat at Massachusetts AI governance.",
+      "date_announced": "2024-02-15",
+      "primary_category": "governance_and_policy",
+      "secondary_categories": [
+        "workforce_and_economic_development"
+      ],
+      "subcategories": [
+        "institutional_ai_strategy",
+        "regulatory_compliance",
+        "regional_economic_impact"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "scaling",
+      "technology_focus": [
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "government_and_regulators",
+        "board_and_trustees",
+        "community",
+        "administrators"
+      ],
+      "investment": {
+        "scale": "exploratory",
+        "amount_usd": null,
+        "funding_source": "Commonwealth of Massachusetts (governance appointment)",
+        "description": "State advisory appointment; no direct dollar investment to WPI"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "Commonwealth of Massachusetts",
+            "Governor Maura Healey's Office"
+          ],
+          "description": "State AI task force with 25 members across industry, education, government"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": "Positions WPI to shape Massachusetts AI policy recommendations and aligned procurement",
+      "source_urls": [
+        "https://www.wpi.edu/news/announcements/governor-maura-healey-appoints-president-grace-wang-state-artificial-intelligence-strategic-task"
+      ]
+    },
+    {
+      "title": "NSF-funded research on fairness and human-in-the-loop AI (Shraga)",
+      "description": "Assistant Professor Roee Shraga received a $175,000 NSF grant for research on human-in-the-loop AI concepts and fairness in ranked AI decisions, complementing the Data-Driven Intelligent Systems group's broader work on bias detection, AI transparency, and AI accountability.",
+      "significance": "Represents the algorithmic-fairness leg of WPI's AI research portfolio, a rising emphasis across R1s shaping responsible AI research agendas.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "equity_access_and_inclusion",
+        "governance_and_policy"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "ai_ethics_framework"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "predictive_analytics_ml",
+        "general_ai"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "government_and_regulators",
+        "faculty"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 175000,
+        "funding_source": "National Science Foundation",
+        "description": "NSF award to Shraga for human-in-the-loop AI research"
+      },
+      "collaborations": [
+        {
+          "pattern": "government_academic",
+          "partners": [
+            "National Science Foundation"
+          ],
+          "description": "Federally funded fairness-in-AI research"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "comprehensive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.wpi.edu/topics/artificial-intelligence"
+      ]
+    },
+    {
+      "title": "AI and augmented reality for architectural design education (Liu)",
+      "description": "Architectural Engineering Assistant Professor Shichao Liu received a $399,978 NSF grant for a three-year project developing AI-empowered models within augmented reality for architectural design education at WPI and Drexel University.",
+      "significance": "Extends AI-enabled pedagogy into discipline-specific undergraduate engineering education, a pattern of applying AI to curriculum transformation in established fields.",
+      "date_announced": null,
+      "primary_category": "teaching_and_learning",
+      "secondary_categories": [
+        "research_and_innovation"
+      ],
+      "subcategories": [
+        "ai_enhanced_pedagogy",
+        "ai_in_specific_disciplines",
+        "faculty_training_and_development"
+      ],
+      "maturity_signal": "emerging",
+      "adoption_stage": "pilot",
+      "technology_focus": [
+        "computer_vision",
+        "generative_ai_multimodal"
+      ],
+      "stakeholder_impact": [
+        "students",
+        "faculty",
+        "researchers"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": 399978,
+        "funding_source": "National Science Foundation",
+        "description": "Three-year NSF grant"
+      },
+      "collaborations": [
+        {
+          "pattern": "cross_institution",
+          "partners": [
+            "Drexel University",
+            "National Science Foundation"
+          ],
+          "description": "Multi-institutional NSF-funded pedagogy research"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.wpi.edu/news/announcements/new-grant-fund-research-exploring-ai-and-ar-architectural-design-education"
+      ]
+    },
+    {
+      "title": "Autonomous Vehicle Mobility Institute (AVMI)",
+      "description": "Professors Vladimir Vantsevich and Lee Moradi established the Autonomous Vehicle Mobility Institute at WPI to expand interdisciplinary research into autonomous off-road technologies. The institute is complemented by the Robots and Sensors for the Human Well-Being (ROSE-HUB) industry/university cooperative research center bridging academic research and commercial robotics.",
+      "significance": "Provides a dedicated institute for off-road autonomy, an under-resourced corner of the autonomous-systems research landscape relative to on-road vehicles.",
+      "date_announced": null,
+      "primary_category": "research_and_innovation",
+      "secondary_categories": [
+        "workforce_and_economic_development",
+        "enterprise_tools_and_infrastructure"
+      ],
+      "subcategories": [
+        "ai_research_center",
+        "industry_academic_partnership"
+      ],
+      "maturity_signal": "growing",
+      "adoption_stage": "operational",
+      "technology_focus": [
+        "robotics_and_physical_ai",
+        "computer_vision",
+        "predictive_analytics_ml"
+      ],
+      "stakeholder_impact": [
+        "researchers",
+        "employers",
+        "students"
+      ],
+      "investment": {
+        "scale": "moderate",
+        "amount_usd": null,
+        "funding_source": "Industry and federal (ROSE-HUB is NSF I/UCRC program)",
+        "description": "Cooperative research center model with industry/academic partners"
+      },
+      "collaborations": [
+        {
+          "pattern": "industry_academic",
+          "partners": [
+            "ROSE-HUB industry partners",
+            "NSF (I/UCRC program)"
+          ],
+          "description": "Industry/university cooperative research through NSF I/UCRC framework"
+        }
+      ],
+      "tools_and_vendors": [],
+      "policy_stance": "permissive",
+      "policy_implications": null,
+      "source_urls": [
+        "https://www.wpi.edu/research/areas/ai-machine-learning-data-robotics-cyber-autonomy/artificial-intelligence"
+      ]
+    }
+  ],
+  "research_centers": [
+    {
+      "name": "CARE Lab (Clinical Artificial Intelligence Research)",
+      "focus": "AI for healthcare: digital phenotyping, wound assessment, cardiac AI, gait analysis",
+      "founded": null,
+      "url": "https://carelab.wpi.edu/"
+    },
+    {
+      "name": "VISLab (Vision, Intelligence, and System Laboratory)",
+      "focus": "Mathematical foundations of computer vision and AI, led by Prof. Ziming Zhang",
+      "founded": null,
+      "url": "https://zhang-vislab.github.io/"
+    },
+    {
+      "name": "Computational Intelligence and Learning Systems (CILS) Lab",
+      "focus": "Bio-inspired AI, AI security, edge AI for cyber-physical systems including wireless networks, autonomous vehicles, and power systems",
+      "founded": null,
+      "url": "https://www.wpi.edu/academics/departments/electrical-computer-engineering/research/machine-learning"
+    },
+    {
+      "name": "ASSISTments Lab",
+      "focus": "AI in education, educational data mining, intelligent learning systems; 1M+ student users",
+      "founded": null,
+      "url": "https://www.wpi.edu/people/faculty/nth"
+    },
+    {
+      "name": "Data-Driven Intelligent Systems Group",
+      "focus": "Fraud detection, bias detection, fairness in ranked AI, transparent and responsible AI, social media insights",
+      "founded": null,
+      "url": "https://www.wpi.edu/research/areas/ai-machine-learning-data-robotics-cyber-autonomy/artificial-intelligence"
+    },
+    {
+      "name": "Autonomous Vehicle Mobility Institute (AVMI)",
+      "focus": "Interdisciplinary research on autonomous off-road vehicle technologies",
+      "founded": null,
+      "url": "https://www.wpi.edu/research/areas/ai-machine-learning-data-robotics-cyber-autonomy/artificial-intelligence"
+    },
+    {
+      "name": "ROSE-HUB (Robots and Sensors for the Human Well-Being)",
+      "focus": "NSF I/UCRC industry/university cooperative research center bridging academic research and commercial robotics",
+      "founded": null,
+      "url": "https://www.wpi.edu/research/areas/ai-machine-learning-data-robotics-cyber-autonomy/artificial-intelligence"
+    }
+  ],
+  "ai_academic_programs": [
+    {
+      "type": "degree",
+      "name": "BS in Artificial Intelligence",
+      "level": "undergrad",
+      "launched": "2026-01",
+      "url": "https://www.wpi.edu/academics/study/artificial-intelligence-bs"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Artificial Intelligence (on-campus and online)",
+      "level": "grad",
+      "launched": "2023-12",
+      "url": "https://www.wpi.edu/academics/study/artificial-intelligence-ai-ms"
+    },
+    {
+      "type": "degree",
+      "name": "BS in Data Science",
+      "level": "undergrad",
+      "launched": null,
+      "url": "https://www.wpi.edu/academics/departments/data-science"
+    },
+    {
+      "type": "degree",
+      "name": "MS in Data Science (on-campus and online)",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.wpi.edu/academics/departments/data-science"
+    },
+    {
+      "type": "degree",
+      "name": "PhD in Data Science",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.wpi.edu/academics/departments/data-science"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in Artificial Intelligence",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.wpi.edu/academics/departments/artificial-intelligence"
+    },
+    {
+      "type": "certificate",
+      "name": "Graduate Certificate in AI in Business",
+      "level": "grad",
+      "launched": null,
+      "url": "https://www.wpi.edu/academics/study/artificial-intelligence-ai-ms"
+    },
+    {
+      "type": "degree",
+      "name": "BS in Marketing Analytics (AI-focused business major)",
+      "level": "undergrad",
+      "launched": "2026-03",
+      "url": "https://nationaltoday.com/us/ma/worcester/news/2026/03/13/wpi-adds-two-new-ai-focused-business-majors/"
+    },
+    {
+      "type": "degree",
+      "name": "BS in AI Business Applications",
+      "level": "undergrad",
+      "launched": "2026-03",
+      "url": "https://nationaltoday.com/us/ma/worcester/news/2026/03/13/wpi-adds-two-new-ai-focused-business-majors/"
+    }
+  ],
+  "enterprise_platforms": [],
+  "computing_infrastructure": {
+    "has_dedicated_ai_compute": true,
+    "supercomputer_name": "Turing",
+    "gpu_count": 100,
+    "url": "https://arc.wpi.edu/computing/hpc-clusters/",
+    "summary": "WPI's Academic & Research Computing (ARC) operates the Turing HPC cluster with a 4-node hyperconverged head controlling 79 compute nodes, 100+ GPUs, 5,000 CPUs, 45 TB RAM, and 560 TB of VAST scale-out storage, running Ubuntu 20.04 and managed with Bright Cluster Manager. Serves 75+ faculty across 14 departments free of charge. Originally acquired via NSF MRI grant DMS-1337943. Massachusetts-level compute access is also available through MGHPCC and the state's $31M AICR cluster at MGHPCC announced May 2025."
+  },
+  "investments_and_gifts": [
+    {
+      "title": "Massachusetts AI Models Innovation Challenge grants (Timko + Calli)",
+      "amount_usd": 661662,
+      "source": "Commonwealth of Massachusetts / MassTech Collaborative (Massachusetts AI Hub)",
+      "purpose": "Clean-tech digital twins for hydrothermal liquefaction and AI-powered robotic recycling",
+      "date": "2025-10",
+      "url": "https://www.eurekalert.org/news-releases/1102756"
+    },
+    {
+      "title": "Central Massachusetts BioHub (AI-integrated pilot facility)",
+      "amount_usd": 5200000,
+      "source": "Commonwealth of Massachusetts",
+      "purpose": "Bioindustrial manufacturing innovation with AI-integrated pilot facility, builder's lab, and bio-foundry capabilities",
+      "date": "2025-11",
+      "url": "https://www.wpi.edu/news/wpi-lead-52-million-state-funded-effort-build-central-massachusetts-biohub"
+    },
+    {
+      "title": "NSF MRI acquisition of Turing HPC cluster (DMS-1337943)",
+      "amount_usd": null,
+      "source": "National Science Foundation (MRI program)",
+      "purpose": "Acquisition of the original Turing high-performance computing cluster",
+      "date": null,
+      "url": "https://grantome.com/grant/NSF/DMS-1337943"
+    },
+    {
+      "title": "NSF grant to Shichao Liu for AI + AR architectural design education",
+      "amount_usd": 399978,
+      "source": "National Science Foundation",
+      "purpose": "Three-year project developing AI-empowered AR models for architectural design education at WPI and Drexel",
+      "date": null,
+      "url": "https://www.wpi.edu/news/announcements/new-grant-fund-research-exploring-ai-and-ar-architectural-design-education"
+    },
+    {
+      "title": "NSF grant to Roee Shraga for human-in-the-loop AI / fairness",
+      "amount_usd": 175000,
+      "source": "National Science Foundation",
+      "purpose": "Research on human-in-the-loop AI and fairness in ranked AI decisions",
+      "date": null,
+      "url": "https://www.wpi.edu/topics/artificial-intelligence"
+    },
+    {
+      "title": "U.S. Department of Education grant for ASSISTments intelligent tutoring",
+      "amount_usd": 2000000,
+      "source": "U.S. Department of Education",
+      "purpose": "Four-year award to enhance ASSISTments intelligent tutoring platform and math instruction research",
+      "date": null,
+      "url": "https://www.wpi.edu/news/doeassistmentgrant"
+    }
+  ],
+  "industry_and_research_partnerships": [
+    {
+      "pattern": "government_academic",
+      "partner": "Commonwealth of Massachusetts / Governor Maura Healey's Office",
+      "purpose": "President Grace Wang serves on Massachusetts AI Strategic Task Force",
+      "date": "2024-02",
+      "url": "https://www.wpi.edu/news/announcements/governor-maura-healey-appoints-president-grace-wang-state-artificial-intelligence-strategic-task"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "Massachusetts AI Hub (MassTech Collaborative)",
+      "purpose": "AI Models Innovation Challenge grants and Hack for Human Impact sponsorship",
+      "date": "2025-10",
+      "url": "https://aihub.masstech.org/"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "College of the Holy Cross",
+      "purpose": "Co-host of Hack for Human Impact (Nov 15, 2025)",
+      "date": "2025-11",
+      "url": "https://roboticsbusinessnews.com/news/65/1973/wpi-and-holy-cross-launch-hack-for-human-impact-to-build-human-centered-ai-solutions.html"
+    },
+    {
+      "pattern": "cross_institution",
+      "partner": "Carnegie Mellon University",
+      "purpose": "ASSISTments / CAIT AI math tutor research",
+      "date": null,
+      "url": "https://www.wpi.edu/news/doeassistmentgrant"
+    },
+    {
+      "pattern": "community_academic",
+      "partner": "City of Worcester and Massachusetts Biomedical Initiatives (MBI)",
+      "purpose": "Lead partners in Central Massachusetts BioHub",
+      "date": "2025-11",
+      "url": "https://www.wpi.edu/news/wpi-lead-52-million-state-funded-effort-build-central-massachusetts-biohub"
+    },
+    {
+      "pattern": "industry_academic",
+      "partner": "Snowflake / Sundai Club / Strategic Growth & Innovation",
+      "purpose": "Compute and data-environment providers for Hack for Human Impact",
+      "date": "2025-11",
+      "url": "https://www.businesswire.com/news/home/20251111637258/en/Students-Unite-Across-New-England-to-Build-AI-for-the-Common-Good"
+    },
+    {
+      "pattern": "government_academic",
+      "partner": "U.S. Department of Education (Institute of Education Sciences)",
+      "purpose": "ASSISTments platform and CAIT AI math tutor research grants",
+      "date": null,
+      "url": "https://www.wpi.edu/news/talking-math-wpi-researcher-neil-heffernan-leads-effort-develop-ai-math-tutor"
+    }
+  ],
+  "student_facing_ai": [
+    {
+      "type": "tutor",
+      "name": "ASSISTments (research platform used by WPI-affiliated students and teachers)",
+      "scope": "Open intelligent tutoring platform developed at WPI, used by 1M+ K-12 students nationwide",
+      "url": "https://www.wpi.edu/people/faculty/nth"
+    },
+    {
+      "type": "other",
+      "name": "AI4ALL at WPI (Computer Science)",
+      "scope": "Free AI ethics courses, internships, and industry partnership access; national AI4ALL hosted program",
+      "url": "https://www.wpi.edu/about/ai"
+    },
+    {
+      "type": "other",
+      "name": "Career Development Center LLM prompt library",
+      "scope": "WPI CDC publishes prompts for students using Microsoft Copilot, ChatGPT, and other LLMs for career development",
+      "url": "https://cdc.wpi.edu/resources/leveraging-artifical-intelligence-ai-in-your-career-journey/"
+    }
+  ],
+  "equity_and_access_initiatives": [
+    {
+      "title": "AI4ALL at WPI (Computer Science)",
+      "description": "Hosted chapter of the national AI4ALL program offering free courses in AI ethics, internships, industry partnerships, and alumni networking for underrepresented students in AI",
+      "url": "https://www.wpi.edu/about/ai"
+    },
+    {
+      "title": "Data-Driven Intelligent Systems group fairness research",
+      "description": "Research program explicitly targeting bias in AI models, fairness in ranked AI decisions, transparency and responsibility in AI systems, and screening for mental illness",
+      "url": "https://www.wpi.edu/research/areas/ai-machine-learning-data-robotics-cyber-autonomy/artificial-intelligence"
+    },
+    {
+      "title": "NSF S-STEM programs",
+      "description": "NSF-funded scholarship programs (including a $1M NSF award) to attract and retain STEM majors including AI-adjacent disciplines from Worcester Public Schools",
+      "url": "https://www.wpi.edu/academics/undergraduate/specific-populations-and-scholars/NSF-grants"
+    }
+  ],
+  "regulatory_context": {
+    "state": "Massachusetts",
+    "has_state_ai_policy": true,
+    "has_system_ai_policy": false,
+    "summary": "Massachusetts established the Massachusetts AI Hub at the Massachusetts Technology Collaborative (MassTech) in December 2024 under Governor Maura Healey; a state AI Strategic Task Force was created in February 2024 with WPI President Grace Wang as a member. Major state AI investments include a $31M commitment to an Artificial Intelligence Compute Resources (AICR) cluster at MGHPCC in Holyoke (announced May 2025, expected to exceed $120M by 2030 across the six MGHPCC member universities), the Massachusetts AI Models Innovation Challenge, a High School Summer AI Academy, and Future Ready K-12 AI teacher training. WPI is a direct beneficiary of the Innovation Challenge and a partner in Hack for Human Impact and the state BioHub award. WPI is not part of a higher education system with its own AI policy.",
+    "urls": [
+      "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation",
+      "https://aihub.masstech.org/",
+      "https://masstech.org/news/healey-driscoll-administration-celebrates-selection-cambridge-computer-build-landmark",
+      "https://www.wpi.edu/news/announcements/governor-maura-healey-appoints-president-grace-wang-state-artificial-intelligence-strategic-task"
+    ]
+  },
+  "controversies_and_litigation": [],
+  "narrative_summary": "Worcester Polytechnic Institute is a mid-size private R1 polytechnic (~7,600 students) that has moved rapidly to formalize AI across strategy, curriculum, research, and state-level policy. The WPI AI Initiative launched February 2024 by President Grace Wang and former Provost Art Heinricher is coordinated across the president, provost, deans of Arts & Sciences and Engineering, head of Data Science and AI programs Elke Rundensteiner, Vice Provost for Research Bogdan Vernescu, and CIO Vijay Menta. There is no standalone chief AI officer or board AI committee, but governance is distributed across the AI Initiative leadership team, the Morgan Teaching and Learning Center, the Vice Provost for Research's internal grant programs, the Artificial Intelligence Department, and Academic & Research Computing (operator of the 100+ GPU Turing HPC cluster). Curricular investment is unusually deep for WPI's size: an MS in AI launched December 2023, a BS in AI launched January 2026 with machine learning / deep learning / generative AI / agentic AI / AI ethics as core content, two new AI-focused business majors announced March 2026, graduate certificates, a BS/MS dual option, and a doctorate in data science. AI policy is captured in a 2025-2026 Faculty AI Guide and library guides that frame a faculty-discretion, cautious-permissive stance with explicit ethics, privacy, and accuracy guidance; there is no single comprehensive top-down rule or syllabus mandate. Research strength concentrates in applied AI: the ASSISTments/CAIT intelligent tutoring system (1M+ students, multi-million-dollar DoEd support), the CARE clinical AI lab, the VISLab computer-vision lab, the CILS bio-inspired/edge AI group, the Data-Driven Intelligent Systems fairness group, and the Autonomous Vehicle Mobility Institute. State connections are unusually strong: WPI won two of seven Massachusetts AI Models Innovation Challenge grants (October 2025, $662K total), led the $5.2M state-funded Central Massachusetts BioHub award (November 2025 with an AI-integrated pilot facility), co-hosted the November 2025 Hack for Human Impact with Holy Cross, and President Wang serves on the Massachusetts AI Strategic Task Force. Notable gaps: no publicly disclosed enterprise-wide AI tool license (ChatGPT Edu, Copilot, Gemini, Claude for Education), no Chief AI Officer, and no single published AI strategy document.",
+  "research_quality": {
+    "compiled_at": "2026-04-22",
+    "compiled_by": "claude / collect-institution skill",
+    "sources": [
+      "https://www.wpi.edu/about/ai",
+      "https://www.wpi.edu/topics/artificial-intelligence",
+      "https://www.wpi.edu/academics/departments/artificial-intelligence",
+      "https://www.wpi.edu/news/announcements/launching-wpi-ai-initiative",
+      "https://www.wpi.edu/news/addressing-ai-talent-gap-wpi-launches-bachelor-science-artificial-intelligence-focused-real-world",
+      "https://www.wpi.edu/academics/study/artificial-intelligence-bs",
+      "https://www.wpi.edu/academics/study/artificial-intelligence-ai-ms",
+      "https://wpi-grad.cleancatalog.net/artificial-intelligence/ms-in-artificial-intelligence",
+      "https://nationaltoday.com/us/ma/worcester/news/2026/03/13/wpi-adds-two-new-ai-focused-business-majors/",
+      "https://www.wpi.edu/news/announcements/food-thought-teaching-and-about-ia-convergence-divergence-framework-higher-education",
+      "https://www.wpi.edu/sites/default/files/2025-10/Final-Faculty-AI-Guide-2025-2026.pdf",
+      "https://libguides.wpi.edu/ai",
+      "https://libguides.wpi.edu/ai/ethics",
+      "https://libguides.wpi.edu/ai/faculty",
+      "https://www.wpi.edu/news/announcements/governor-maura-healey-appoints-president-grace-wang-state-artificial-intelligence-strategic-task",
+      "https://www.wpi.edu/offices/president",
+      "https://www.wpi.edu/offices/provost",
+      "https://www.wpi.edu/news/worcester-polytechnic-institute-names-andrew-sears-provost-and-senior-vice-president",
+      "https://www.wpi.edu/people/staff/vmenta",
+      "https://www.wpi.edu/news/vijay-menta-named-vice-president-and-chief-information-officer-worcester-polytechnic-institute",
+      "https://arc.wpi.edu/computing/hpc-clusters/",
+      "https://www.wpi.edu/offices/vice-provost-research/academic-research-computing/high-performance-computing",
+      "https://carelab.wpi.edu/",
+      "https://carelab.wpi.edu/people/",
+      "https://zhang-vislab.github.io/",
+      "https://www.wpi.edu/research/areas/ai-machine-learning-data-robotics-cyber-autonomy/artificial-intelligence",
+      "https://www.wpi.edu/academics/departments/electrical-computer-engineering/research/machine-learning",
+      "https://www.wpi.edu/people/faculty/nth",
+      "https://www.wpi.edu/news/doeassistmentgrant",
+      "https://www.wpi.edu/news/talking-math-wpi-researcher-neil-heffernan-leads-effort-develop-ai-math-tutor",
+      "https://www.wpi.edu/news/news-heffernan",
+      "https://www.wpi.edu/news/wpi-lead-52-million-state-funded-effort-build-central-massachusetts-biohub",
+      "https://www.eurekalert.org/news-releases/1102756",
+      "https://www.businesswire.com/news/home/20251111637258/en/Students-Unite-Across-New-England-to-Build-AI-for-the-Common-Good",
+      "https://www.wpi.edu/news/calendar/events/invitation-participate-hack-human-impact-saturday-nov-15-wpi",
+      "https://aihub.masstech.org/",
+      "https://aihub.masstech.org/node/22186",
+      "https://www.mass.gov/news/governor-healey-announces-massachusetts-ai-hub-to-make-state-global-leader-in-applied-ai-innovation",
+      "https://masstech.org/news/healey-driscoll-administration-celebrates-selection-cambridge-computer-build-landmark",
+      "https://www.wpi.edu/news/announcements/new-grant-fund-research-exploring-ai-and-ar-architectural-design-education",
+      "https://cdc.wpi.edu/resources/leveraging-artifical-intelligence-ai-in-your-career-journey/",
+      "https://www.wpi.edu/academics/undergraduate/specific-populations-and-scholars/NSF-grants",
+      "https://www.wpi.edu/about/facts",
+      "https://gradpilot.com/ai-policies/worcester-polytechnic-institute"
+    ],
+    "search_queries": [
+      "\"Worcester Polytechnic Institute\" AI strategy 2025 2026",
+      "\"Worcester Polytechnic Institute\" generative AI policy faculty students",
+      "\"Worcester Polytechnic Institute\" CIO chief information officer 2025",
+      "\"Worcester Polytechnic Institute\" president provost 2025 2026",
+      "\"Worcester Polytechnic Institute\" AI council OR committee OR task force OR governance 2025",
+      "\"Worcester Polytechnic Institute\" Microsoft Copilot OR ChatGPT Edu OR Claude campus",
+      "\"Worcester Polytechnic Institute\" AI research center OR institute OR lab",
+      "\"Worcester Polytechnic Institute\" NSF AI grant OR gift OR donation millions 2025",
+      "\"Worcester Polytechnic Institute\" AI literacy curriculum faculty training",
+      "\"Worcester Polytechnic Institute\" industry partnership AI company 2025",
+      "\"Worcester Polytechnic Institute\" GPU cluster HPC research computing",
+      "\"Worcester Polytechnic Institute\" \"Hack for Human Impact\" OR hackathon AI 2025",
+      "\"Worcester Polytechnic Institute\" AI ethics responsible AI 2025 2026",
+      "\"Worcester Polytechnic Institute\" enrollment size 2025 students total",
+      "\"Worcester Polytechnic Institute\" ASSISTments Heffernan intelligent tutoring",
+      "Massachusetts AI Hub MassTech higher education initiative 2025"
+    ],
+    "gaps_acknowledged": [
+      "No publicly named Chief AI Officer or board-level AI committee — governance is distributed",
+      "No publicly disclosed enterprise-wide AI tool license (ChatGPT Edu, Microsoft Copilot, Google Gemini, Claude for Education); AI tool use runs through faculty discretion",
+      "Exact aggregate WPI AI investment and budget not publicly disclosed",
+      "Founding dates for most WPI AI research labs and institutes (CARE, VISLab, CILS, AVMI) not published on public pages",
+      "No student-facing chatbot or predictive-analytics retention product publicly named by WPI",
+      "No litigation or public controversies regarding AI at WPI identified in this search"
+    ],
+    "confidence": "medium"
+  },
+  "analytics_signals": {
+    "schema_version": "2026-04-23",
+    "strategic_archetype": {
+      "primary": "workforce_regional_development",
+      "secondary": [
+        "research_compute_powerhouse",
+        "curriculum_led",
+        "balanced_enterprise"
+      ],
+      "scores": {
+        "platform_first": 1,
+        "research_compute_powerhouse": 23,
+        "curriculum_led": 20,
+        "governance_led": 11,
+        "student_success_led": 5,
+        "workforce_regional_development": 24,
+        "balanced_enterprise": 16,
+        "public_signal_thin": 0
+      },
+      "rationale": "Primary archetype selected from visible public signals: workforce regional development."
+    },
+    "policy_quality": {
+      "score_0_5": 3,
+      "has_syllabus_guidance": true,
+      "addresses_privacy": true,
+      "addresses_regulatory_compliance": false,
+      "addresses_ethics": true,
+      "adopted_date": "2025-10",
+      "classroom_authority_model": "faculty_discretion",
+      "ai_detection_stance": "unclear"
+    },
+    "academic_reality": {
+      "teaching_learning_signal_count": 8,
+      "ai_program_count": 9,
+      "has_ai_literacy_requirement": true,
+      "has_assessment_redesign": false,
+      "has_faculty_development": true,
+      "has_ai_degree_or_certificate": true,
+      "subcategory_counts": {
+        "ai_literacy_requirement": 2,
+        "ai_resilient_assessment": 0,
+        "faculty_training_and_development": 3,
+        "ai_tutoring_and_adaptive_learning": 1,
+        "lms_embedded_ai": 0,
+        "ai_degree_program": 3,
+        "syllabus_level_policy": 1
+      }
+    },
+    "research_enterprise": {
+      "research_center_count": 7,
+      "scientific_discovery_signal_count": 4,
+      "computing_infrastructure_signal_count": 2,
+      "compute": {
+        "has_dedicated_ai_compute": true,
+        "supercomputer_name": "Turing",
+        "gpu_count": 100,
+        "capacity_tier": "advanced_hpc_disclosed"
+      },
+      "disclosed_funding_usd": 8436640,
+      "funding_source_buckets": {
+        "other_unclear": 3,
+        "public_federal_state": 14,
+        "philanthropy_foundation": 1,
+        "industry_vendor": 1,
+        "institutional": 2
+      },
+      "partnership_count": 7
+    },
+    "student_impact": {
+      "student_facing_tool_count": 3,
+      "service_type_counts": {
+        "tutor": 1,
+        "other": 2
+      },
+      "student_experience_signal_count": 1,
+      "has_advising_ai": false,
+      "has_retention_analytics": false,
+      "has_enrollment_admissions_ai": false,
+      "has_career_readiness_ai": true,
+      "has_mental_health_wellbeing_ai": false,
+      "has_accessibility_or_equity_signal": true,
+      "public_student_outcome_claim_count": 2
+    },
+    "vendor_exposure": {
+      "parent_vendors": [
+        {
+          "vendor": "ASSISTments Foundation ASSISTments",
+          "mentions": 1,
+          "products": [
+            "ASSISTments"
+          ]
+        },
+        {
+          "vendor": "Canonical Ubuntu 20.04",
+          "mentions": 1,
+          "products": [
+            "Ubuntu 20.04"
+          ]
+        },
+        {
+          "vendor": "Commonwealth of Massachusetts Massachusetts Data Commons",
+          "mentions": 1,
+          "products": [
+            "Massachusetts Data Commons"
+          ]
+        },
+        {
+          "vendor": "NVIDIA",
+          "mentions": 1,
+          "products": [
+            "Bright Cluster Manager"
+          ]
+        },
+        {
+          "vendor": "Snowflake Snowflake",
+          "mentions": 1,
+          "products": [
+            "Snowflake"
+          ]
+        },
+        {
+          "vendor": "VAST Data VAST scale-out storage",
+          "mentions": 1,
+          "products": [
+            "VAST scale-out storage"
+          ]
+        }
+      ],
+      "concentration": "low",
+      "top_vendor": "ASSISTments Foundation ASSISTments",
+      "single_vendor_dependency_risk": false
+    },
+    "value_and_outcomes": {
+      "has_usage_metrics": false,
+      "has_cost_or_productivity_claim": false,
+      "has_learning_outcome_claim": true,
+      "has_student_success_outcome_claim": false,
+      "has_research_output_claim": false,
+      "public_claims": [
+        {
+          "claim_type": "career",
+          "title": "AI-focused business undergraduate majors (Marketing Analytics; AI Business Applications)",
+          "summary": "Extends AI curriculum beyond engineering and computer science into business and marketing, a pattern spreading across R1s responding to employer demand for AI-literate business graduates.",
+          "source_url": "https://nationaltoday.com/us/ma/worcester/news/2026/03/13/wpi-adds-two-new-ai-focused-business-majors/"
+        },
+        {
+          "claim_type": "learning",
+          "title": "CARE Lab: Clinical Artificial Intelligence Research",
+          "summary": "Example of applied biomedical AI research embedded in an R1 polytechnic, aligned with state priorities in life sciences and health.",
+          "source_url": "https://carelab.wpi.edu/"
+        }
+      ],
+      "public_claim_count": 2
+    },
+    "risk_readiness": {
+      "high_impact_student_use": false,
+      "sensitive_data_risk_signal": true,
+      "risk_signal_count": 5,
+      "control_signal_count": 8,
+      "risk_level": "medium",
+      "rationale": "Risk-bearing AI signals are visible, but public policy/control depth is incomplete."
+    },
+    "data_gaps": {
+      "gap_types": [
+        "assessment_redesign",
+        "cost_or_funding",
+        "platform_usage_or_contracts",
+        "student_subgroup_impact"
+      ],
+      "explicit_gap_count": 6,
+      "notes": [
+        "No publicly named Chief AI Officer or board-level AI committee — governance is distributed",
+        "No publicly disclosed enterprise-wide AI tool license (ChatGPT Edu, Microsoft Copilot, Google Gemini, Claude for Education); AI tool use runs through faculty discretion",
+        "Exact aggregate WPI AI investment and budget not publicly disclosed",
+        "Founding dates for most WPI AI research labs and institutes (CARE, VISLab, CILS, AVMI) not published on public pages",
+        "No student-facing chatbot or predictive-analytics retention product publicly named by WPI",
+        "No litigation or public controversies regarding AI at WPI identified in this search"
+      ]
+    }
+  }
+}
